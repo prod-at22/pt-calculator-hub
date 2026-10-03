@@ -98,7 +98,13 @@ details.sec[open]>summary:before{content:"▾ "}
 @media (max-width:1100px){.grid{grid-template-columns:1fr}.controls .wide{grid-column:auto}}
 @media (max-width:520px){.top{position:static}.paxrow{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi .v{font-size:19px}.brand small{display:none}}
 @media print{.top,.controls,.banner,.noprint{display:none!important}.card{break-inside:avoid}}
-.lt{display:inline-block;min-width:18px;text-align:center;background:var(--navy-soft);color:var(--navy);border-radius:4px;font-size:11px;padding:0 4px}
-.legend{display:flex;flex-wrap:wrap;gap:6px 16px;border-bottom:1px solid var(--line)}
 .top a,.card h2 a.btn{text-decoration:none}
 a{color:var(--navy)}
+table.rd th,table.rd td{border:1px solid var(--line)}
+table.rd td.c{text-align:center}
+tr.blk-title td{background:#d9d2e9;color:var(--ink);font-weight:700;text-align:left;font-size:13px}
+tr.blk-head th{background:#ebe7f3;color:var(--ink);text-transform:none;letter-spacing:0;font-size:12.5px;text-align:center;white-space:normal;min-width:84px}
+table.rd th.sp{background:#93c47d;color:#123}
+table.rd th.mg{background:#d9ead3}
+table.rd td.sp{background:#f3f9f0}
+table.rd tr.cur td{background:var(--navy-soft)}

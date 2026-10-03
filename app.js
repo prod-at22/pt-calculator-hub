@@ -306,7 +306,7 @@ function renderMain(d, pkg) {
   cards.push(`<div class="card"><h2>Cost breakdown <span class="sub">${esc(v ? v.label : "—")} · ${pax} pax</span></h2>
     ${!v ? `<div class="empty">No tour operator covers ${pax} pax for this package.</div>` : !row.cost ? `<div class="empty">${esc(v.label)} only covers ${v.paxMin}–${v.paxMax} pax.</div>` : `
     <div class="scroll"><table><thead><tr><th>Component</th><th class="l">How it's costed</th><th>Group</th><th>Per pax</th></tr></thead><tbody>
-    ${row.cost.comps.map(c => `<tr><td><b class="lt">${letterOf(d, pkg, c.key)}</b> ${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td class="expr">${esc(c.expr)}${c.per === "pax" ? " <i>per pax</i>" : ""}</td><td>${rm(c.group, 2)}</td><td>${rm(c.perPax, 2)}</td></tr>`).join("")}
+    ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td class="expr">${esc(c.expr)}${c.per === "pax" ? " <i>per pax</i>" : ""}</td><td>${rm(c.group, 2)}</td><td>${rm(c.perPax, 2)}</td></tr>`).join("")}
     <tr class="total"><td>Total cost</td><td></td><td>${rm(row.cost.total * pax, 2)}</td><td>${rm(row.cost.total, 2)}</td></tr>
     </tbody></table></div>`}
     ${v ? `<div class="note"><b>Hotel:</b> ${esc(v.hotel || "—")}<br><b>TO note:</b> ${esc(v.notes || "—")}</div>` : ""}
@@ -353,33 +353,47 @@ function pkgComponents(d, pkg) {
   for (const id of ids) { const v = d.variants.find(x => x.id === id); if (v) for (const c of v.components) if (!out.some(o => o.key === c.key)) out.push({ key: c.key, label: c.label }); }
   return out;
 }
-const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-function letterOf(d, pkg, key) { const i = pkgComponents(d, pkg).findIndex(c => c.key === key); return i < 0 ? "" : LETTERS[i]; }
+// Same layout as the R&D sheet: one block per TO (title + header), component columns are
+// GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const comps = pkgComponents(d, pkg);
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
   const src = pkg.pricing.source || {};
-  const sum = comps.map((_, i) => LETTERS[i]).join("+");
-  const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of adult` : rule.type === "minus" ? `adult − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
-  const head = k === "adult"
-    ? comps.map((c, i) => `<th title="${esc(c.label)}">${LETTERS[i]}</th>`).join("") + `<th>= Cost</th>`
-    : `<th>Adult cost</th><th>= Cost (${esc(ruleTxt(pkg.rules[k + "Cost"]))})</th>`;
-  const body = paxList.map(p => {
-    const pr = priceRow(d, pkg, activeVariantId(pkg, p), p), x = pr[k];
-    const cells = k === "adult"
-      ? comps.map(c => { const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return `<td>${cc && num(cc.perPax) ? cc.perPax.toLocaleString("en-MY", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : cc ? '<span class="missing">—</span>' : '<span class="muted">·</span>'}</td>`; }).join("") + `<td><b>${rm(x.cost, 2)}</b></td>`
-      : `<td class="muted">${rm(pr.adult.cost, 2)}</td><td><b>${rm(x.cost, 2)}</b></td>`;
-    return `<tr class="click${p === pax ? " cur" : ""}" data-pax="${p}"><td>${p}</td><td class="l small">${esc(pr.variant ? pr.variant.id : "—")}</td>${cells}
-      <td class="${marginClass(x.pct)}">+ ${rm(x.margin)}</td><td><b>= ${rm(x.selling)}</b></td><td>${marginPill(x.pct)}</td>
-      <td>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: rm(x.catalog - (+pkg.rules.tierUpgrade || 0)) })}</td>
-      <td class="l">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
+  const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
+  const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of adult cost` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
+  const isAdult = k === "adult";
+  const nCols = isAdult ? 1 + comps.length + 7 : 1 + 1 + 6;
+  // consecutive pax rows with the same TO form one block
+  const blocks = [];
+  for (const p of paxList) {
+    const pr = priceRow(d, pkg, activeVariantId(pkg, p), p), id = pr.variant ? pr.variant.id : "—";
+    if (!blocks.length || blocks[blocks.length - 1].id !== id) blocks.push({ id, v: pr.variant, rows: [] });
+    blocks[blocks.length - 1].rows.push(pr);
+  }
+  const body = blocks.map(bl => {
+    const has = new Set(bl.v ? bl.v.components.map(c => c.key) : []);
+    const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())} / ${esc(bl.v ? bl.v.label : "no TO")}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
+    const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
+      ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
+      : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="sp">Selling Price</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Catalog</th><th>Source</th></tr>`;
+    const rows = bl.rows.map(pr => {
+      const p = pr.pax, x = pr[k];
+      const cells = isAdult
+        ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
+        : `<td class="muted">${int(pr.adult.cost)}</td>`;
+      return `<tr class="click${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
+        <td><b>${int(x.cost)}</b></td><td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
+        ${isAdult ? `<td><b>${int(x.margin * p)}</b></td>` : ""}
+        <td>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog - (+pkg.rules.tierUpgrade || 0)) })}</td>
+        <td class="c">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
+    }).join("");
+    return title + head + rows;
   }).join("");
-  return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · per pax · ${k === "adult" ? `${sum} = Cost, Cost + Margin = Selling` : "Cost from adult cost by rule, Cost + Margin = Selling"}</span>
+  return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
     <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
-    ${k === "adult" ? `<div class="body small legend">${comps.map((c, i) => `<span><b class="lt">${LETTERS[i]}</b> ${esc(c.label)}</span>`).join("")}</div>` : ""}
-    <div class="scroll" style="max-height:560px;overflow-y:auto"><table><thead><tr><th>Pax</th><th class="l">TO</th>${head}<th>Margin</th><th>Selling</th><th>Margin %</th><th>Catalog</th><th class="l">Source</th></tr></thead><tbody>${body}</tbody></table></div>
-    <div class="note">Per pax, in RM. <span class="muted">·</span> = component not used by that TO. Selling = catalog + tier upgrade − discount tier 2. Click a row to quote that pax count.</div></div>`;
+    <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling = catalog + tier upgrade − discount tier 2. Hover a component for exact RM. Click a row to quote that pax count.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;

@@ -270,28 +270,33 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"expr"')), "editor cannot edit formulas");
   }
 
-  console.log("8b. costing by pax: A+B+... = cost, cost + margin = selling");
+  console.log("8b. costing by pax (R&D layout): components ÷ pax = Cost/Pax, + Margin = Selling, Margin × pax = Total Gross");
   {
     setVal(w, doc.querySelector("#selPkg"), "standard"); setVal(w, doc.querySelector("#selVar"), "auto"); await tick(5);
     click(w, doc.querySelector('#costPax [data-tab="adult"]')); await tick(5);
-    const heads = [...doc.querySelectorAll("#costPax thead th")].map(t => t.textContent);
-    ok(heads.includes("A") && heads.includes("F") && heads.includes("= Cost"), "letter columns A..F + Cost: " + heads.join("|"));
-    const num = t => parseFloat(t.replace(/[^\d.\-−]/g, "").replace("−", "-"));
-    let rowsChecked = 0;
-    for (const tr of doc.querySelectorAll("#costPax tbody tr")) {
-      const td = [...tr.children].map(x => x.textContent);
-      const nComp = heads.indexOf("= Cost") - 2;
-      const parts = td.slice(2, 2 + nComp).map(x => x.trim() === "·" ? 0 : num(x));
-      const cost = num(td[2 + nComp]), margin = num(td[3 + nComp]), selling = num(td[4 + nComp]);
-      ok(Math.abs(parts.reduce((a, b) => a + b, 0) - cost) < 0.05, `pax ${td[0]}: ${parts.join("+")} = ${cost}`);
-      ok(Math.abs(cost + margin - selling) < 1, `pax ${td[0]}: ${cost} + ${margin} = ${selling}`);
-      rowsChecked++;
+    const titles = [...doc.querySelectorAll("#costPax tr.blk-title")].map(t => t.textContent);
+    ok(titles.length === 2 && titles[0].includes("Qayyum") && titles[1].includes("WIF · Standard"), "one block per TO: " + titles.join(" | "));
+    const heads = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.children].map(t => t.textContent));
+    ok(heads[0].includes("Airport transfer ×2") && heads[0].includes("Cost/Pax") && heads[0].includes("Total Gross"), "header names: " + heads[0].join("|"));
+    ok(!heads[0].includes("WIF service charge") && heads[1].includes("WIF service charge"), "WIF-only columns blank in the Qayyum block");
+    const n = t => { const v = t.replace(/[^\d.\-−]/g, "").replace("−", "-"); return v === "" ? 0 : parseFloat(v); };
+    let checked = 0;
+    for (const tr of doc.querySelectorAll("#costPax tr[data-pax]")) {
+      const td = [...tr.children].map(x => x.textContent.trim()), p = +td[0];
+      const nComp = heads[0].indexOf("Cost/Pax") - 1;
+      const sum = td.slice(1, 1 + nComp).reduce((a, x) => a + n(x), 0);
+      const cost = n(td[1 + nComp]), sell = n(td[2 + nComp]), m = n(td[3 + nComp]), gross = n(td[5 + nComp]);
+      ok(Math.abs(sum / p - cost) <= 0.5 + nComp * 0.5 / p, `pax ${p}: ${sum}/${p} ≈ ${cost}`);
+      ok(Math.abs(cost + m - sell) <= 1, `pax ${p}: ${cost} + ${m} = ${sell}`);
+      ok(Math.abs(m * p - gross) <= p, `pax ${p}: ${m} × ${p} ≈ ${gross}`);
+      checked++;
     }
-    ok(rowsChecked >= 29, "costing rows 2–30 present (" + rowsChecked + ")");
-    const qRow = [...doc.querySelectorAll("#costPax tbody tr")].find(r => r.dataset.pax === "2");
-    ok(qRow.children[6].textContent.trim() === "·" && qRow.children[7].textContent.trim() === "·", "Qayyum rows show · for WIF-only components (E guide, F WIF charge)");
+    ok(checked >= 29, "rows 2–30 present (" + checked + ")");
+    const r2 = [...doc.querySelectorAll("#costPax tr[data-pax]")].find(r => r.dataset.pax === "2");
+    const qfx = HND().fx.find(f => f.id === "QAYYUM").value, qrate = HND().rates.find(r => r.id === "hndQ").value;
+    ok(r2.children[1].textContent.trim() === Math.round(2 * qrate * qfx).toLocaleString("en-MY"), `Qayyum 2 pax airport = 2 × ¥${qrate} × ${qfx}, got ` + r2.children[1].textContent.trim());
     click(w, doc.querySelector('#costPax [data-tab="cnb"]')); await tick(5);
-    ok(doc.querySelector("#costPax thead").textContent.includes("adult − RM1,200"), "CNB tab shows its cost rule");
+    ok(doc.querySelector("#costPax").textContent.includes("adult cost − RM1,200"), "CNB tab shows its cost rule");
   }
 
   console.log("8c. add-ons");
