@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 3,
- "updatedAt": "2026-10-03T23:45:25+08:00",
+ "version": 4,
+ "updatedAt": "2026-10-03T23:51:52+08:00",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -1866,6 +1866,10 @@
      "per": "pax",
      "notes": "Selepas guna 1x percuma"
     }
+   ],
+   "catalogs": [
+    "PT SEOUL BASIC 5D4N 2026",
+    "PT SEOUL STANDARD 5D4N 2026"
    ]
   },
   {
@@ -2851,6 +2855,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT SEOUL JEJU STANDARD 6D5N 2026"
    ]
   },
   {
@@ -4319,6 +4326,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT JEJU STANDARD 4D3N 2026"
    ]
   },
   {
@@ -5179,6 +5189,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT JEJU - UDO 5D4N 2026"
    ]
   },
   {
@@ -6472,6 +6485,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT TURKI BASIC 8D7N",
+    "PT TURKI CLASSIC STD 8D7N"
    ]
   },
   {
@@ -7102,6 +7119,9 @@
      "per": "pax",
      "notes": "Already included in CR Tipping column for pax 7+"
     }
+   ],
+   "catalogs": [
+    "PT ISTANBUL BURSA 5D4N"
    ]
   },
   {
@@ -8164,6 +8184,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT ISTANBUL CAPPADOCIA 6D5N"
    ]
   },
   {
@@ -9557,7 +9580,11 @@
      "notes": "PT Basic only — upgrade dari APA to Section L"
     }
    ],
-   "po": "Thania"
+   "po": "Thania",
+   "catalogs": [
+    "PT TOKYO BASIC 5D4N 2026",
+    "PT TOKYO STANDARD 5D4N 2026"
+   ]
   },
   {
    "code": "KIX",
@@ -11506,6 +11533,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT TOKYO-OSAKA BASIC 7D6N 2026",
+    "PT TOKYO-OSAKA STANDARD 7D6N 2026"
    ]
   },
   {
@@ -13254,6 +13285,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT OSAKA BASIC 5D4N 2026",
+    "PT OSAKA STANDARD 5D4N 2026"
    ]
   },
   {
@@ -14078,6 +14113,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT HOKKAIDO-SAPPORO 5D4N 2026"
    ]
   },
   {
@@ -15078,6 +15116,11 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT BALI STANDARD 4D3N 2026",
+    "PT BALI HONEYMOON STANDARD (4D3N) 2026",
+    "PT HONEYMOON PREMIUM BALI 4D3N 2026"
    ]
   },
   {
@@ -15928,6 +15971,9 @@
      "per": "pcs",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT LOMBOK 4D3N 2026"
    ]
   },
   {
@@ -16404,7 +16450,10 @@
      }
     }
    ],
-   "addons": []
+   "addons": [],
+   "catalogs": [
+    "PT JOGJAKARTA 4D3N 2026"
+   ]
   },
   {
    "code": "ACEH",
@@ -17742,6 +17791,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT ACEH (3 STAR) 4D3N 2026"
    ]
   },
   {
@@ -19584,6 +19636,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT ACEH SABANG (3 STAR) 5D3N 2026"
    ]
   },
   {
@@ -20674,6 +20729,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT MEDAN-LAKE TOBA 4D3N 2026"
    ]
   },
   {
@@ -21533,6 +21591,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT PDG-BUKITTINGGI 4D3N 2026"
    ]
   },
   {
@@ -22240,6 +22301,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT JKT-BANDUNG 4D3N"
    ]
   },
   {
@@ -22735,6 +22799,10 @@
      "per": "pax",
      "notes": "Per PDF — proper triple bed in 4-star"
     }
+   ],
+   "catalogs": [
+    "PT SURABAYA -BROMO - MALANG (3 STAR) 4D3N 2026",
+    "PT SURABAYA-MALANG (3 STAR) 4D3N 2026"
    ]
   },
   {
@@ -23807,6 +23875,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT HCM DALAT MUINE 4D3N",
+    "PT HCM DALAT MUINE 5D4N 2026"
    ]
   },
   {
@@ -24816,6 +24888,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT PHU QUOC 4D3N",
+    "PT PHU QUOC 5D4N"
    ]
   },
   {
@@ -26390,6 +26466,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT HANOI-SAPA 4D3N 2026",
+    "PT HANOI-SAPA 5D4N 2026"
    ]
   },
   {
@@ -27719,6 +27799,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT DANANG - HOI AN 4D3N 2026",
+    "PT DANANG - HOI AN 5D4N 2026"
    ]
   },
   {
@@ -28827,6 +28911,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT MELBOURNE BASIC 5D4N 2026",
+    "PT MELBOURNE STANDARD 5D4N 2026"
    ]
   },
   {
@@ -29920,6 +30008,10 @@
      "per": "pcs",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT PERTH STANDARD 5D4N 2026",
+    "PT PERTH PREMIUM 6D5N 2026"
    ]
   },
   {
@@ -32152,6 +32244,12 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT NEW ZEALAND NORTH & SOUTH 2026",
+    "ST NEW ZEALAND NORTH & SOUTH (APARTMENT) 2026",
+    "ST NEW ZEALAND NORTH & SOUTH (3 STAR) 2026",
+    "ST NEW ZEALAND NORTH ONLY 2026"
    ]
   },
   {
@@ -37251,6 +37349,12 @@
      "per": "pcs",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "MALDIVES BASIC 4D3N 2026",
+    "MALDIVES STANDARD 4D3N 2026",
+    "PAKEJ MALDIVES COMBO ISLAND (4D3N)",
+    "PAKEJ MALDIVES WATER VILLA (4D3N)"
    ]
   },
   {
@@ -37931,6 +38035,9 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT YUNNAN 4 WILAYAH 2026"
    ]
   },
   {
@@ -38614,6 +38721,9 @@
      "per": "pcs",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT BEIJING STD 5D4N 2026"
    ]
   },
   {
@@ -39772,6 +39882,9 @@
      "per": "pcs",
      "notes": "Etiqa"
     }
+   ],
+   "catalogs": [
+    "PT BANGKOK STD 4D3N 2026"
    ]
   },
   {
@@ -43330,6 +43443,2000 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT PHUKET BASIC 4D3N 2026",
+    "PT PHUKET STANDARD 4D3N 2026"
+   ]
+  },
+  {
+   "code": "KBV",
+   "name": "Krabi",
+   "country": "Thailand",
+   "duration": "4D3N",
+   "nights": 3,
+   "po": "Ezie",
+   "source": "KRABI/PT KRABI R&D - reformatupload.xlsx",
+   "note": "Cost = selected hotel's KTT rate (THB) × FX, flat per pax. Hotel tier adds the catalog upgrade. Standard and Honeymoon sell at the same price for either Day 3; the Tour operator box picks Day 3.",
+   "options": [
+    {
+     "id": "hotel",
+     "label": "Hotel",
+     "choices": [
+      {
+       "id": "aonang-silver-orchid-resort",
+       "label": "Aonang Silver Orchid Resort (3★)",
+       "name": "Aonang Silver Orchid Resort",
+       "star": "3★"
+      },
+      {
+       "id": "apasari-resort",
+       "label": "Apasari Resort (3★)",
+       "name": "Apasari Resort",
+       "star": "3★"
+      },
+      {
+       "id": "krabi-cha-da-resort",
+       "label": "Krabi Cha-Da Resort (4★)",
+       "name": "Krabi Cha-Da Resort",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "blue-tara-resort",
+       "label": "Blue Tara Resort (4★)",
+       "name": "Blue Tara Resort",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "aonang-buri-resort",
+       "label": "Aonang Buri Resort (4★)",
+       "name": "Aonang Buri Resort",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "ava-sea-aonang-resort",
+       "label": "AVA Sea Aonang Resort (4★)",
+       "name": "AVA Sea Aonang Resort",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "ananta-burin-resort",
+       "label": "Ananta Burin Resort (4★)",
+       "name": "Ananta Burin Resort",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "krabi-heritage-hotel",
+       "label": "Krabi Heritage Hotel (4★)",
+       "name": "Krabi Heritage Hotel",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "aonang-princeville-resort",
+       "label": "Aonang Princeville Resort (4★+)",
+       "name": "Aonang Princeville Resort",
+       "star": "4★+",
+       "upgrade": {
+        "budget": 550,
+        "standard": 550,
+        "honeymoon": 598
+       }
+      },
+      {
+       "id": "bluesotel-krabi-hotel",
+       "label": "Bluesotel Krabi Hotel (4★)",
+       "name": "Bluesotel Krabi Hotel",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      },
+      {
+       "id": "bluesotel-smart-hotel",
+       "label": "Bluesotel SMART Hotel (4★)",
+       "name": "Bluesotel SMART Hotel",
+       "star": "4★",
+       "upgrade": {
+        "budget": 250,
+        "standard": 250,
+        "honeymoon": 298
+       }
+      }
+     ]
+    },
+    {
+     "id": "season",
+     "label": "Season",
+     "choices": [
+      {
+       "id": "Normal",
+       "label": "Normal"
+      },
+      {
+       "id": "High",
+       "label": "High"
+      }
+     ]
+    }
+   ],
+   "fx": [
+    {
+     "id": "MYR",
+     "label": "MYR",
+     "value": 1,
+     "locked": true
+    },
+    {
+     "id": "THB",
+     "label": "THB → MYR",
+     "value": 0.122
+    }
+   ],
+   "rates": [
+    {
+     "id": "aonang-silver-orchid-resort|Normal|bud",
+     "label": "Aonang Silver Orchid Resort · Normal · Budget",
+     "value": 6200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|Normal|stdA",
+     "label": "Aonang Silver Orchid Resort · Normal · Standard · Emerald",
+     "value": 6500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|Normal|stdC",
+     "label": "Aonang Silver Orchid Resort · Normal · Standard · Phi Phi",
+     "value": 6500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|Normal|hnyA",
+     "label": "Aonang Silver Orchid Resort · Normal · Honeymoon · Emerald",
+     "value": 7300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|Normal|hnyC",
+     "label": "Aonang Silver Orchid Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|High|bud",
+     "label": "Aonang Silver Orchid Resort · High · Budget",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|High|stdA",
+     "label": "Aonang Silver Orchid Resort · High · Standard · Emerald",
+     "value": 7700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|High|stdC",
+     "label": "Aonang Silver Orchid Resort · High · Standard · Phi Phi",
+     "value": 7700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|High|hnyA",
+     "label": "Aonang Silver Orchid Resort · High · Honeymoon · Emerald",
+     "value": 7300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "aonang-silver-orchid-resort|High|hnyC",
+     "label": "Aonang Silver Orchid Resort · High · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Silver Orchid Resort"
+    },
+    {
+     "id": "apasari-resort|Normal|bud",
+     "label": "Apasari Resort · Normal · Budget",
+     "value": 6400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|Normal|stdA",
+     "label": "Apasari Resort · Normal · Standard · Emerald",
+     "value": 6600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|Normal|stdC",
+     "label": "Apasari Resort · Normal · Standard · Phi Phi",
+     "value": 6700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|Normal|hnyA",
+     "label": "Apasari Resort · Normal · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|Normal|hnyC",
+     "label": "Apasari Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|High|bud",
+     "label": "Apasari Resort · High · Budget",
+     "value": 8500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|High|stdA",
+     "label": "Apasari Resort · High · Standard · Emerald",
+     "value": 8700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|High|stdC",
+     "label": "Apasari Resort · High · Standard · Phi Phi",
+     "value": 8800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|High|hnyA",
+     "label": "Apasari Resort · High · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "apasari-resort|High|hnyC",
+     "label": "Apasari Resort · High · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Apasari Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|Normal|bud",
+     "label": "Krabi Cha-Da Resort · Normal · Budget",
+     "value": 6400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|Normal|stdA",
+     "label": "Krabi Cha-Da Resort · Normal · Standard · Emerald",
+     "value": 6600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|Normal|stdC",
+     "label": "Krabi Cha-Da Resort · Normal · Standard · Phi Phi",
+     "value": 6700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|Normal|hnyA",
+     "label": "Krabi Cha-Da Resort · Normal · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|Normal|hnyC",
+     "label": "Krabi Cha-Da Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|High|bud",
+     "label": "Krabi Cha-Da Resort · High · Budget",
+     "value": 8000,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|High|stdA",
+     "label": "Krabi Cha-Da Resort · High · Standard · Emerald",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|High|stdC",
+     "label": "Krabi Cha-Da Resort · High · Standard · Phi Phi",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|High|hnyA",
+     "label": "Krabi Cha-Da Resort · High · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "krabi-cha-da-resort|High|hnyC",
+     "label": "Krabi Cha-Da Resort · High · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Cha-Da Resort"
+    },
+    {
+     "id": "blue-tara-resort|Normal|bud",
+     "label": "Blue Tara Resort · Normal · Budget",
+     "value": 6400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|Normal|stdA",
+     "label": "Blue Tara Resort · Normal · Standard · Emerald",
+     "value": 6600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|Normal|stdC",
+     "label": "Blue Tara Resort · Normal · Standard · Phi Phi",
+     "value": 6700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|Normal|hnyA",
+     "label": "Blue Tara Resort · Normal · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|Normal|hnyC",
+     "label": "Blue Tara Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|High|bud",
+     "label": "Blue Tara Resort · High · Budget",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|High|stdA",
+     "label": "Blue Tara Resort · High · Standard · Emerald",
+     "value": 9500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|High|stdC",
+     "label": "Blue Tara Resort · High · Standard · Phi Phi",
+     "value": 9500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|High|hnyA",
+     "label": "Blue Tara Resort · High · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "blue-tara-resort|High|hnyC",
+     "label": "Blue Tara Resort · High · Honeymoon · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Blue Tara Resort"
+    },
+    {
+     "id": "aonang-buri-resort|Normal|bud",
+     "label": "Aonang Buri Resort · Normal · Budget",
+     "value": 6400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|Normal|stdA",
+     "label": "Aonang Buri Resort · Normal · Standard · Emerald",
+     "value": 6600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|Normal|stdC",
+     "label": "Aonang Buri Resort · Normal · Standard · Phi Phi",
+     "value": 6700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|Normal|hnyA",
+     "label": "Aonang Buri Resort · Normal · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|Normal|hnyC",
+     "label": "Aonang Buri Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|High|bud",
+     "label": "Aonang Buri Resort · High · Budget",
+     "value": 9500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|High|stdA",
+     "label": "Aonang Buri Resort · High · Standard · Emerald",
+     "value": 9800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|High|stdC",
+     "label": "Aonang Buri Resort · High · Standard · Phi Phi",
+     "value": 9800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|High|hnyA",
+     "label": "Aonang Buri Resort · High · Honeymoon · Emerald",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "aonang-buri-resort|High|hnyC",
+     "label": "Aonang Buri Resort · High · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Buri Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|Normal|bud",
+     "label": "AVA Sea Aonang Resort · Normal · Budget",
+     "value": 6800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|Normal|stdA",
+     "label": "AVA Sea Aonang Resort · Normal · Standard · Emerald",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|Normal|stdC",
+     "label": "AVA Sea Aonang Resort · Normal · Standard · Phi Phi",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|Normal|hnyA",
+     "label": "AVA Sea Aonang Resort · Normal · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|Normal|hnyC",
+     "label": "AVA Sea Aonang Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|High|bud",
+     "label": "AVA Sea Aonang Resort · High · Budget",
+     "value": 8900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|High|stdA",
+     "label": "AVA Sea Aonang Resort · High · Standard · Emerald",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|High|stdC",
+     "label": "AVA Sea Aonang Resort · High · Standard · Phi Phi",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|High|hnyA",
+     "label": "AVA Sea Aonang Resort · High · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ava-sea-aonang-resort|High|hnyC",
+     "label": "AVA Sea Aonang Resort · High · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "AVA Sea Aonang Resort"
+    },
+    {
+     "id": "ananta-burin-resort|Normal|bud",
+     "label": "Ananta Burin Resort · Normal · Budget",
+     "value": 6800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|Normal|stdA",
+     "label": "Ananta Burin Resort · Normal · Standard · Emerald",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|Normal|stdC",
+     "label": "Ananta Burin Resort · Normal · Standard · Phi Phi",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|Normal|hnyA",
+     "label": "Ananta Burin Resort · Normal · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|Normal|hnyC",
+     "label": "Ananta Burin Resort · Normal · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|High|bud",
+     "label": "Ananta Burin Resort · High · Budget",
+     "value": 10300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|High|stdA",
+     "label": "Ananta Burin Resort · High · Standard · Emerald",
+     "value": 10500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|High|stdC",
+     "label": "Ananta Burin Resort · High · Standard · Phi Phi",
+     "value": 10600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|High|hnyA",
+     "label": "Ananta Burin Resort · High · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "ananta-burin-resort|High|hnyC",
+     "label": "Ananta Burin Resort · High · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Ananta Burin Resort"
+    },
+    {
+     "id": "krabi-heritage-hotel|Normal|bud",
+     "label": "Krabi Heritage Hotel · Normal · Budget",
+     "value": 6800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|Normal|stdA",
+     "label": "Krabi Heritage Hotel · Normal · Standard · Emerald",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|Normal|stdC",
+     "label": "Krabi Heritage Hotel · Normal · Standard · Phi Phi",
+     "value": 7100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|Normal|hnyA",
+     "label": "Krabi Heritage Hotel · Normal · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|Normal|hnyC",
+     "label": "Krabi Heritage Hotel · Normal · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|High|bud",
+     "label": "Krabi Heritage Hotel · High · Budget",
+     "value": 8900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|High|stdA",
+     "label": "Krabi Heritage Hotel · High · Standard · Emerald",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|High|stdC",
+     "label": "Krabi Heritage Hotel · High · Standard · Phi Phi",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|High|hnyA",
+     "label": "Krabi Heritage Hotel · High · Honeymoon · Emerald",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "krabi-heritage-hotel|High|hnyC",
+     "label": "Krabi Heritage Hotel · High · Honeymoon · Phi Phi",
+     "value": 7900,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Krabi Heritage Hotel"
+    },
+    {
+     "id": "aonang-princeville-resort|Normal|bud",
+     "label": "Aonang Princeville Resort · Normal · Budget",
+     "value": 9000,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|Normal|stdA",
+     "label": "Aonang Princeville Resort · Normal · Standard · Emerald",
+     "value": 9200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|Normal|stdC",
+     "label": "Aonang Princeville Resort · Normal · Standard · Phi Phi",
+     "value": 9300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|Normal|hnyA",
+     "label": "Aonang Princeville Resort · Normal · Honeymoon · Emerald",
+     "value": 10000,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|Normal|hnyC",
+     "label": "Aonang Princeville Resort · Normal · Honeymoon · Phi Phi",
+     "value": 10100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|High|bud",
+     "label": "Aonang Princeville Resort · High · Budget",
+     "value": 10400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|High|stdA",
+     "label": "Aonang Princeville Resort · High · Standard · Emerald",
+     "value": 10700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|High|stdC",
+     "label": "Aonang Princeville Resort · High · Standard · Phi Phi",
+     "value": 10700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|High|hnyA",
+     "label": "Aonang Princeville Resort · High · Honeymoon · Emerald",
+     "value": 10000,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "aonang-princeville-resort|High|hnyC",
+     "label": "Aonang Princeville Resort · High · Honeymoon · Phi Phi",
+     "value": 10100,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Aonang Princeville Resort"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|Normal|bud",
+     "label": "Bluesotel Krabi Hotel · Normal · Budget",
+     "value": 7200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|Normal|stdA",
+     "label": "Bluesotel Krabi Hotel · Normal · Standard · Emerald",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|Normal|stdC",
+     "label": "Bluesotel Krabi Hotel · Normal · Standard · Phi Phi",
+     "value": 7500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|Normal|hnyA",
+     "label": "Bluesotel Krabi Hotel · Normal · Honeymoon · Emerald",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|Normal|hnyC",
+     "label": "Bluesotel Krabi Hotel · Normal · Honeymoon · Phi Phi",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|High|bud",
+     "label": "Bluesotel Krabi Hotel · High · Budget",
+     "value": 10400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|High|stdA",
+     "label": "Bluesotel Krabi Hotel · High · Standard · Emerald",
+     "value": 10700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|High|stdC",
+     "label": "Bluesotel Krabi Hotel · High · Standard · Phi Phi",
+     "value": 10700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|High|hnyA",
+     "label": "Bluesotel Krabi Hotel · High · Honeymoon · Emerald",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-krabi-hotel|High|hnyC",
+     "label": "Bluesotel Krabi Hotel · High · Honeymoon · Phi Phi",
+     "value": 8300,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel Krabi Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|Normal|bud",
+     "label": "Bluesotel SMART Hotel · Normal · Budget",
+     "value": 7400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|Normal|stdA",
+     "label": "Bluesotel SMART Hotel · Normal · Standard · Emerald",
+     "value": 7600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|Normal|stdC",
+     "label": "Bluesotel SMART Hotel · Normal · Standard · Phi Phi",
+     "value": 7700,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|Normal|hnyA",
+     "label": "Bluesotel SMART Hotel · Normal · Honeymoon · Emerald",
+     "value": 8400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|Normal|hnyC",
+     "label": "Bluesotel SMART Hotel · Normal · Honeymoon · Phi Phi",
+     "value": 8500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|High|bud",
+     "label": "Bluesotel SMART Hotel · High · Budget",
+     "value": 11500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|High|stdA",
+     "label": "Bluesotel SMART Hotel · High · Standard · Emerald",
+     "value": 11600,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|High|stdC",
+     "label": "Bluesotel SMART Hotel · High · Standard · Phi Phi",
+     "value": 11800,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|High|hnyA",
+     "label": "Bluesotel SMART Hotel · High · Honeymoon · Emerald",
+     "value": 8400,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    },
+    {
+     "id": "bluesotel-smart-hotel|High|hnyC",
+     "label": "Bluesotel SMART Hotel · High · Honeymoon · Phi Phi",
+     "value": 8500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "Bluesotel SMART Hotel"
+    }
+   ],
+   "tables": [],
+   "variants": [
+    {
+     "id": "budget",
+     "label": "Budget (Pkg B)",
+     "supplier": "KTT Travels",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Selected hotel",
+     "notes": "",
+     "components": [
+      {
+       "key": "hotel-package",
+       "label": "KTT package (hotel + tours)",
+       "per": "pax",
+       "expr": "R[O.hotel+'|'+O.season+'|bud']"
+      }
+     ]
+    },
+    {
+     "id": "std-emerald",
+     "label": "Standard · Day 3: Emerald Pool + Tiger Cave (Pkg A)",
+     "supplier": "KTT Travels",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Selected hotel",
+     "notes": "",
+     "components": [
+      {
+       "key": "hotel-package",
+       "label": "KTT package (hotel + tours)",
+       "per": "pax",
+       "expr": "R[O.hotel+'|'+O.season+'|stdA']"
+      }
+     ]
+    },
+    {
+     "id": "std-phiphi",
+     "label": "Standard · Day 3: Phi Phi + Maya Bay speedboat (Pkg C)",
+     "supplier": "KTT Travels",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Selected hotel",
+     "notes": "",
+     "components": [
+      {
+       "key": "hotel-package",
+       "label": "KTT package (hotel + tours)",
+       "per": "pax",
+       "expr": "R[O.hotel+'|'+O.season+'|stdC']"
+      }
+     ]
+    },
+    {
+     "id": "hny-emerald",
+     "label": "Honeymoon · Day 3: Emerald Pool + Tiger Cave (Pkg A)",
+     "supplier": "KTT Travels",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Selected hotel",
+     "notes": "",
+     "components": [
+      {
+       "key": "hotel-package",
+       "label": "KTT package (hotel + tours)",
+       "per": "pax",
+       "expr": "R[O.hotel+'|'+O.season+'|hnyA']"
+      }
+     ]
+    },
+    {
+     "id": "hny-phiphi",
+     "label": "Honeymoon · Day 3: Phi Phi + Maya Bay speedboat (Pkg C)",
+     "supplier": "KTT Travels",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Selected hotel",
+     "notes": "",
+     "components": [
+      {
+       "key": "hotel-package",
+       "label": "KTT package (hotel + tours)",
+       "per": "pax",
+       "expr": "R[O.hotel+'|'+O.season+'|hnyC']"
+      }
+     ]
+    }
+   ],
+   "packages": [
+    {
+     "id": "budget",
+     "label": "Krabi Budget 4D3N",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 30,
+       "variant": "budget"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 1297,
+       "3": 1297,
+       "4": 1297,
+       "5": 1297,
+       "6": 1297,
+       "7": 1297,
+       "8": 1297,
+       "9": 1297,
+       "10": 1297,
+       "11": 1247,
+       "12": 1247,
+       "13": 1247,
+       "14": 1247,
+       "15": 1247,
+       "16": 1197,
+       "17": 1197,
+       "18": 1197,
+       "19": 1197,
+       "20": 1197,
+       "21": 1147,
+       "22": 1147,
+       "23": 1147,
+       "24": 1147,
+       "25": 1147,
+       "26": 1097,
+       "27": 1097,
+       "28": 1097,
+       "29": 1097,
+       "30": 1097
+      },
+      "cwb": {
+       "2": 1097,
+       "3": 1097,
+       "4": 1097,
+       "5": 1097,
+       "6": 1097,
+       "7": 1097,
+       "8": 1097,
+       "9": 1097,
+       "10": 1097,
+       "11": 1047,
+       "12": 1047,
+       "13": 1047,
+       "14": 1047,
+       "15": 1047,
+       "16": 997,
+       "17": 997,
+       "18": 997,
+       "19": 997,
+       "20": 997,
+       "21": 947,
+       "22": 947,
+       "23": 947,
+       "24": 947,
+       "25": 947,
+       "26": 897,
+       "27": 897,
+       "28": 897,
+       "29": 897,
+       "30": 897
+      },
+      "cnb": {
+       "2": 997,
+       "3": 997,
+       "4": 997,
+       "5": 997,
+       "6": 997,
+       "7": 997,
+       "8": 997,
+       "9": 997,
+       "10": 997,
+       "11": 947,
+       "12": 947,
+       "13": 947,
+       "14": 947,
+       "15": 947,
+       "16": 897,
+       "17": 897,
+       "18": 897,
+       "19": 897,
+       "20": 897,
+       "21": 847,
+       "22": 847,
+       "23": 847,
+       "24": 847,
+       "25": 847,
+       "26": 797,
+       "27": 797,
+       "28": 797,
+       "29": 797,
+       "30": 797
+      },
+      "infant": 0,
+      "source": {
+       "adult": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cwb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cnb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       }
+      }
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 0.75
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 0.5
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 0
+      }
+     }
+    },
+    {
+     "id": "standard",
+     "label": "Krabi Standard 4D3N",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 30,
+       "variant": "std-emerald"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 1497,
+       "3": 1497,
+       "4": 1497,
+       "5": 1497,
+       "6": 1497,
+       "7": 1497,
+       "8": 1497,
+       "9": 1497,
+       "10": 1497,
+       "11": 1447,
+       "12": 1447,
+       "13": 1447,
+       "14": 1447,
+       "15": 1447,
+       "16": 1397,
+       "17": 1397,
+       "18": 1397,
+       "19": 1397,
+       "20": 1397,
+       "21": 1347,
+       "22": 1347,
+       "23": 1347,
+       "24": 1347,
+       "25": 1347,
+       "26": 1297,
+       "27": 1297,
+       "28": 1297,
+       "29": 1297,
+       "30": 1297
+      },
+      "cwb": {
+       "2": 1297,
+       "3": 1297,
+       "4": 1297,
+       "5": 1297,
+       "6": 1297,
+       "7": 1297,
+       "8": 1297,
+       "9": 1297,
+       "10": 1297,
+       "11": 1247,
+       "12": 1247,
+       "13": 1247,
+       "14": 1247,
+       "15": 1247,
+       "16": 1197,
+       "17": 1197,
+       "18": 1197,
+       "19": 1197,
+       "20": 1197,
+       "21": 1147,
+       "22": 1147,
+       "23": 1147,
+       "24": 1147,
+       "25": 1147,
+       "26": 1097,
+       "27": 1097,
+       "28": 1097,
+       "29": 1097,
+       "30": 1097
+      },
+      "cnb": {
+       "2": 1097,
+       "3": 1097,
+       "4": 1097,
+       "5": 1097,
+       "6": 1097,
+       "7": 1097,
+       "8": 1097,
+       "9": 1097,
+       "10": 1097,
+       "11": 1047,
+       "12": 1047,
+       "13": 1047,
+       "14": 1047,
+       "15": 1047,
+       "16": 997,
+       "17": 997,
+       "18": 997,
+       "19": 997,
+       "20": 997,
+       "21": 947,
+       "22": 947,
+       "23": 947,
+       "24": 947,
+       "25": 947,
+       "26": 897,
+       "27": 897,
+       "28": 897,
+       "29": 897,
+       "30": 897
+      },
+      "infant": 0,
+      "source": {
+       "adult": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cwb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cnb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       }
+      }
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 0.75
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 0.5
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 0
+      }
+     }
+    },
+    {
+     "id": "honeymoon",
+     "label": "Krabi Honeymoon 4D3N",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 30,
+       "variant": "hny-emerald"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 1449,
+       "3": 1449,
+       "4": 1449,
+       "5": 1449,
+       "6": 1449,
+       "7": 1449,
+       "8": 1449,
+       "9": 1449,
+       "10": 1449,
+       "11": 1547,
+       "12": 1547,
+       "13": 1547,
+       "14": 1547,
+       "15": 1547,
+       "16": 1497,
+       "17": 1497,
+       "18": 1497,
+       "19": 1497,
+       "20": 1497,
+       "21": 1447,
+       "22": 1447,
+       "23": 1447,
+       "24": 1447,
+       "25": 1447,
+       "26": 1397,
+       "27": 1397,
+       "28": 1397,
+       "29": 1397,
+       "30": 1397
+      },
+      "cwb": {
+       "2": 1397,
+       "3": 1397,
+       "4": 1397,
+       "5": 1397,
+       "6": 1397,
+       "7": 1397,
+       "8": 1397,
+       "9": 1397,
+       "10": 1397,
+       "11": 1347,
+       "12": 1347,
+       "13": 1347,
+       "14": 1347,
+       "15": 1347,
+       "16": 1297,
+       "17": 1297,
+       "18": 1297,
+       "19": 1297,
+       "20": 1297,
+       "21": 1247,
+       "22": 1247,
+       "23": 1247,
+       "24": 1247,
+       "25": 1247,
+       "26": 1197,
+       "27": 1197,
+       "28": 1197,
+       "29": 1197,
+       "30": 1197
+      },
+      "cnb": {
+       "2": 1197,
+       "3": 1197,
+       "4": 1197,
+       "5": 1197,
+       "6": 1197,
+       "7": 1197,
+       "8": 1197,
+       "9": 1197,
+       "10": 1197,
+       "11": 1147,
+       "12": 1147,
+       "13": 1147,
+       "14": 1147,
+       "15": 1147,
+       "16": 1097,
+       "17": 1097,
+       "18": 1097,
+       "19": 1097,
+       "20": 1097,
+       "21": 1047,
+       "22": 1047,
+       "23": 1047,
+       "24": 1047,
+       "25": 1047,
+       "26": 997,
+       "27": 997,
+       "28": 997,
+       "29": 997,
+       "30": 997
+      },
+      "infant": 0,
+      "source": {
+       "adult": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cwb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cnb": {
+        "2": "rd",
+        "3": "rd",
+        "4": "rd",
+        "5": "rd",
+        "6": "rd",
+        "7": "rd",
+        "8": "rd",
+        "9": "rd",
+        "10": "rd",
+        "11": "rd",
+        "12": "rd",
+        "13": "rd",
+        "14": "rd",
+        "15": "rd",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       }
+      }
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 0.75
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 0.5
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 0
+      }
+     }
+    }
+   ],
+   "addons": [
+    {
+     "id": "kbv-a01",
+     "category": "Activity",
+     "label": "Kayaking Tour at Hong Island (BUDGET D3) — Adult",
+     "cost": 50.0,
+     "selling": 70.0,
+     "per": "pax",
+     "notes": "BUDGET variant only"
+    },
+    {
+     "id": "kbv-a02",
+     "category": "Activity",
+     "label": "Kayaking Tour at Hong Island (BUDGET D3) — Child",
+     "cost": 35.0,
+     "selling": 50.0,
+     "per": "child",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a03",
+     "category": "Activity",
+     "label": "7 Islands Sunset + Plankton (1pm-8pm) Full",
+     "cost": 150.0,
+     "selling": 250.0,
+     "per": "pax",
+     "notes": "Land transfer + Longtail + Guide + Snorkel + BBQ Dinner"
+    },
+    {
+     "id": "kbv-a04",
+     "category": "Activity",
+     "label": "Upgrade 4-Islands → 7-Islands + Plankton (D2)",
+     "cost": 50.0,
+     "selling": 80.0,
+     "per": "pax",
+     "notes": "STANDARD/BUDGET D2 add-on"
+    },
+    {
+     "id": "kbv-a05",
+     "category": "Activity",
+     "label": "STANDARD D3 Phi Phi Island Tour (instead of Emerald Pool)",
+     "cost": 60.0,
+     "selling": 100.0,
+     "per": "pax",
+     "notes": "STANDARD variant only"
+    },
+    {
+     "id": "kbv-a06",
+     "category": "Visa",
+     "label": "Thailand Visa",
+     "cost": 0.0,
+     "selling": 0.0,
+     "per": "pax",
+     "notes": "Malaysian — visa exempt"
+    },
+    {
+     "id": "kbv-a07",
+     "category": "Takaful",
+     "label": "TripCare 360 Individual (1-5 hari) Area 2",
+     "cost": 40.5,
+     "selling": 64.0,
+     "per": "pax",
+     "notes": "Etiqa Area 2 (ASEAN)"
+    },
+    {
+     "id": "kbv-a08",
+     "category": "Takaful",
+     "label": "TripCare 360 Individual (6-10 hari) Area 2",
+     "cost": 58.87,
+     "selling": 88.5,
+     "per": "pax",
+     "notes": "Etiqa Area 2"
+    },
+    {
+     "id": "kbv-a09",
+     "category": "Takaful",
+     "label": "TripCare 360 Couple (1-5 hari) Area 2",
+     "cost": 77.25,
+     "selling": 113.0,
+     "per": "pair",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a10",
+     "category": "Takaful",
+     "label": "TripCare 360 Couple (6-10 hari) Area 2",
+     "cost": 122.87,
+     "selling": 160.5,
+     "per": "pair",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a11",
+     "category": "Takaful",
+     "label": "TripCare 360 Family (1-5 hari) Area 2",
+     "cost": 100.12,
+     "selling": 143.5,
+     "per": "family",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a12",
+     "category": "Takaful",
+     "label": "TripCare 360 Family (6-10 hari) Area 2",
+     "cost": 153.62,
+     "selling": 201.5,
+     "per": "family",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a13",
+     "category": "Takaful",
+     "label": "TripCare 360 Senior (1-5 hari) Area 2",
+     "cost": 141.62,
+     "selling": 185.5,
+     "per": "pax",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a14",
+     "category": "Takaful",
+     "label": "TripCare 360 Senior (6-10 hari) Area 2",
+     "cost": 201.62,
+     "selling": 265.5,
+     "per": "pax",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a15",
+     "category": "Wifi",
+     "label": "Pocket WiFi (RoamingMan) 3GB 4G — 4D3N",
+     "cost": 28.0,
+     "selling": 80.0,
+     "per": "trip",
+     "notes": "Thailand coverage"
+    },
+    {
+     "id": "kbv-a16",
+     "category": "Wifi",
+     "label": "Pocket WiFi 10GB 5G — 4D3N",
+     "cost": 48.0,
+     "selling": 120.0,
+     "per": "trip",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a17",
+     "category": "Wifi",
+     "label": "Pocket WiFi 3GB 4G — 5D4N",
+     "cost": 35.0,
+     "selling": 100.0,
+     "per": "trip",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a18",
+     "category": "Wifi",
+     "label": "Pocket WiFi 10GB 5G — 5D4N",
+     "cost": 48.0,
+     "selling": 150.0,
+     "per": "trip",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a19",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Silver",
+     "cost": 14.5,
+     "selling": 20.0,
+     "per": "pcs",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a20",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Gold",
+     "cost": 29.0,
+     "selling": 40.0,
+     "per": "pcs",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a21",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Platinum",
+     "cost": 44.0,
+     "selling": 55.0,
+     "per": "pcs",
+     "notes": "—"
+    },
+    {
+     "id": "kbv-a22",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Diamond",
+     "cost": 58.0,
+     "selling": 70.0,
+     "per": "pcs",
+     "notes": "—"
+    }
+   ],
+   "catalogs": [
+    "PAKEJ KRABI BASIC 4D3N 2026",
+    "PAKEJ KRABI STANDARD 4D3N 2026",
+    "PAKEJ KRABI HONEYMOON 4D3N 2026"
    ]
   },
   {
@@ -44623,6 +46730,10 @@
      "per": "pax",
      "notes": "(ST) FREE"
     }
+   ],
+   "catalogs": [
+    "PT Switzerland 2026",
+    "ST Switzerland 2026"
    ]
   },
   {
@@ -46731,6 +48842,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT SABAH BASIC (3D2N) 2026",
+    "PT SABAH STANDARD (4D3N) 2026"
    ]
   },
   {
@@ -49154,6 +51269,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT SEMPORNA BASIC (3D2N) 2026",
+    "PT SEMPORNA STANDARD (4D3N) 2026"
    ]
   },
   {
@@ -50154,6 +52273,10 @@
      "per": "unit",
      "notes": null
     }
+   ],
+   "catalogs": [
+    "PT PERHENTIAN BASIC (3D2N) 2026",
+    "PT PERHENTIAN STANDARD (3D2N) 2026"
    ]
   }
  ]

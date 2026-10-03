@@ -40,6 +40,11 @@ def main():
         else:
             added.append(d["code"])
         cur[d["code"]] = d
+    # catalog (package) names per destination, from the Project PT sheet — shown on the hub
+    cats = json.load(open(os.path.join(os.path.dirname(__file__), "catalogs.json")))
+    for code, d in cur.items():
+        if code in cats:
+            d["catalogs"] = cats[code]
     data["destinations"] = sorted(cur.values(), key=lambda d: ORDER.index(d["code"]) if d["code"] in ORDER else 999)
     now = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
     data.update(version=data["version"] + 1, updatedAt=now, updatedBy=a.by)

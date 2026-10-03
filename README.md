@@ -10,12 +10,15 @@ pax (Adult / CWB / CNB / Infant) and see
 - **Costing by pax**: per pax, A + B + C + … (each component) = Cost, Cost + Margin = Selling, for pax 2–30,
 - **Add-ons** from the R&D Add-Ons tab: cost, selling price, margin. Enter a qty to add them to the group total.
 
-Hub: `https://prod-at22.github.io/pt-calculator-hub/` — every package with its PO and last
-update, searchable. Each destination has its own link by code in lowercase, e.g.
-`/sel/`, `/seljju/`, `/hnd/`, `/kix/`, `/dps/`, `/mle/`, `/ltoba/` (Medan Lake Toba).
+Hub: `https://prod-at22.github.io/pt-calculator-hub/` — one row per catalog package (names from
+the Project PT sheet, `tools/catalogs.json`), its PO and last update, searchable. Each
+destination has its own link by code in lowercase, e.g. `/sel/`, `/seljju/`, `/hnd/`, `/kix/`,
+`/dps/`, `/mle/`, `/kbv/`, `/ltoba/` (Medan Lake Toba). 37 destinations are live; Yunnan 3
+Wilayah has no R&D file yet.
 
-36 destinations are live. **Krabi (KBV)** is not yet: its cost depends on hotel × season ×
-day-3 choice (13 hotels), which needs a hotel selector on the page.
+**Krabi (KBV)** has Hotel and Season selectors: cost = the hotel's KTT rate (THB) × FX for the
+package and Day-3 choice (Tour operator box); a 4★ / 4★+ hotel adds the catalog upgrade
+(`tools/extract_krabi.py`, checked against every hotel × season × package × day-3).
 
 The hub lists every package with its PO and last update date. PO per destination: Korea (SEL, SELJJU) Aiman, Jepun (HND) Thania; change it on the destination page when there is a handover.
 
@@ -62,6 +65,7 @@ old → new value. Any old version can be viewed and restored.
 ```bash
 git pull                                  # live data.json = source of truth
 python3 tools/extract_rd.py --work /tmp/ptx            # all, or --only SEL DPS
+python3 tools/extract_krabi.py --work /tmp/ptx         # Krabi
 python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND --by <you> --note "<why>"
 cp /tmp/ptx/truth/*.json tests/truth/ && python3 tools/make_pages.py
 node tests/test_calc.js tests/truth.json

@@ -119,6 +119,16 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
       const t = JSON.parse(fs.readFileSync(path.join(__dirname, "truth", f), "utf8"));
       const d = byCode(D, t.code);
       ok(d, `${t.code} is in data.json`); if (!d) continue;
+      if (t.combos) {  // Krabi: every hotel × season × package × day-3
+        for (const cb of t.combos) {
+          const pk = d.packages.find(p => p.id === { budget: "budget", std: "standard", hny: "honeymoon" }[cb.variant.split("-")[0]]);
+          for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, , sell]] of Object.entries(cb.rows[k] || {})) {
+            const r = P.priceRow(d, pk, cb.variant, +pax, cb.options)[k]; rows++;
+            ok(near(r.cost, c, 0.6) && near(r.selling, sell, 0.6), `KBV ${JSON.stringify(cb.options)} ${cb.variant} ${k} ${pax}: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+          }
+        }
+        continue;
+      }
       for (const pkg of d.packages) for (const a of pkg.assign) {
         const to = t.variants[a.variant];
         for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, cat, sell]] of Object.entries(t.rows[to][k] || {})) {
@@ -343,28 +353,40 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   {
     const hub = await boot(repo, "");
     const links = [...hub.doc.querySelectorAll("#grid a")].map(a => a.getAttribute("href"));
-    ok(["sel/?pkg=atk-bsc", "sel/?pkg=atk-std", "seljju/?pkg=atk-std", "hnd/?pkg=standard", "mle/?pkg=mle-basic-low", "phu/?pkg=ktt-ibis-standard-lowseason"].every(l => links.includes(l)), "hub links per package");
+    ok(["sel/?pkg=atk-bsc", "sel/?pkg=atk-std", "seljju/?pkg=atk-std", "hnd/?pkg=basic", "hnd/?pkg=standard", "kbv/?pkg=honeymoon", "aceh/"].every(l => links.includes(l)), "hub links per catalog package: " + links.slice(0, 12).join(","));
     const hubRows = [...hub.doc.querySelectorAll("#grid tbody tr")];
-    const nPkg = P.DATA.destinations.reduce((s, d) => s + d.packages.length, 0);
-    ok(hubRows.length === nPkg && nPkg > 100, `hub: one row per package (${nPkg}), got ${hubRows.length}`);
+    const nCat = P.DATA.destinations.reduce((s, d) => s + (d.catalogs || []).length, 0);
+    ok(hubRows.length === nCat && nCat >= 60, `hub: one row per catalog package (${nCat}), got ${hubRows.length}`);
+    const names = hubRows.map(r => r.children[0].textContent);
+    ok(!names.some(n => /ASONANGGROE|ATK-|WIF-|KTT-|MLE-|Bahrun|Legend-|IBRAHIM/i.test(n)), "hub shows package names, no TO names");
+    ok(names.some(n => n.includes("PT ISTANBUL BURSA 5D4N ISTBUR")), "Istanbul Bursa listed under ISTBUR");
     const srch = hub.doc.querySelector("#hubSearch"); srch.value = "maldives"; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
     const vis = hubRows.filter(r => r.style.display !== "none");
-    ok(vis.length === byCode(P.DATA, "MLE").packages.length, "hub search 'maldives' shows only Maldives packages (" + vis.length + ")");
+    ok(vis.length === byCode(P.DATA, "MLE").catalogs.length, "hub search 'maldives' shows only Maldives packages (" + vis.length + ")");
     srch.value = ""; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
     ok(hubRows.every(r => r.children.length === 3 && r.children[1].textContent.trim() !== "" && /\d{4}/.test(r.children[2].textContent)), "hub rows = package | PO | last update");
-    const hndStd = hubRows.find(r => r.textContent.includes("Tokyo Standard"));
+    const hndStd = hubRows.find(r => r.textContent.includes("TOKYO STANDARD"));
     ok(/v\d+ · /.test(hndStd.children[2].textContent), "Tokyo Standard last update shows the saved version: " + hndStd.children[2].textContent.trim());
     const deep = await boot(repo, "sel/", "?pkg=atk-std");
     ok(deep.doc.querySelector("#selPkg").value === "atk-std", "sel/?pkg=atk-std opens Seoul Standard");
     ok(/PO\s*Aiman/.test(deep.doc.querySelector("#controls").textContent), "Seoul page shows PO Aiman");
     const hubPO = [...hub.doc.querySelectorAll("#grid tbody tr")].map(r => r.children[1].textContent.trim());
-    const poCount = n => P.DATA.destinations.filter(d => d.po === n).reduce((s, d) => s + d.packages.length, 0);
+    const poCount = n => P.DATA.destinations.filter(d => d.po === n).reduce((s, d) => s + d.catalogs.length, 0);
     ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/");
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
     ok(sj.doc.querySelector("#kpis").textContent.includes("RM5,897"), "Seoul-Jeju 2 pax selling RM5,897 (R&D)");
+    const kb = await boot(repo, "kbv/", "?pkg=standard");
+    const hotelSel = kb.doc.querySelector("#opt_hotel");
+    ok(hotelSel && hotelSel.options.length === byCode(P.DATA, "KBV").options[0].choices.length, "Krabi has a hotel selector");
+    const before4 = kb.doc.querySelector("#kpis").textContent;
+    const fourStar = byCode(P.DATA, "KBV").options[0].choices.find(c => c.star === "4★");
+    hotelSel.value = fourStar.id; hotelSel.dispatchEvent(new kb.w.Event("change", { bubbles: true })); await tick(5);
+    ok(kb.doc.querySelector("#controls").textContent.includes("catalog +RM250") && kb.doc.querySelector("#kpis").textContent !== before4, "4★ hotel adds RM250 to the Standard catalog and changes the quote");
+    const seasonSel = kb.doc.querySelector("#opt_season"); seasonSel.value = "High"; seasonSel.dispatchEvent(new kb.w.Event("change", { bubbles: true })); await tick(5);
+    ok(kb.doc.querySelector("#opt_season").value === "High" && kb.errors.length === 0, "season selector works " + kb.errors.join("|"));
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
       const pg = await boot(repo, code + "/");
       ok(pg.doc.querySelector("#costPax") && pg.errors.length === 0, `/${code}/ renders without errors ` + pg.errors.join("|"));

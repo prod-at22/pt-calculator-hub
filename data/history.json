@@ -52,6 +52,14 @@
    "rebase": true,
    "note": "Added destinations from the R&D files in PT DESTINASI R&D REFORMAT; Seoul and Seoul - Jeju rebuilt from their newer R&D files (added: ACEH, ACEHSBG, BKK, CTS, DADH, DLMNHCM, DPS, HNSH, ISTBUR, ISTCAP, JBDO, JJU, JJUO, JOG, KIX, KKK, KMGDLS, LOP, LTOBA, MEL, MLE, NSNZ, OSK, PDG, PEK, PER, PHT, PHU, PQC, SEM, SUBB, SWS, TUR; rebuilt: SEL, SELJJU)",
    "changes": []
+  },
+  {
+   "v": 4,
+   "at": "2026-10-03T23:51:52+08:00",
+   "by": "product",
+   "rebase": true,
+   "note": "Krabi added with hotel and season selectors; package names from the Project PT sheet (added: KBV; rebuilt: —)",
+   "changes": []
   }
  ]
 }

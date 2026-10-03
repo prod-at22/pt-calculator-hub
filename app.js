@@ -18,7 +18,7 @@ let USERS = { users: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {} };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {}, opt: {} };
 let lastActivity = Date.now();
 
 /* ============================================================ utils */
@@ -125,7 +125,7 @@ function compile(expr) {
   if (exprCache.has(expr)) return exprCache.get(expr);
   if (!EXPR_OK.test(expr) || /\b(window|document|globalThis|Function|constructor|prototype|fetch|import|eval)\b/.test(expr))
     throw new Error("Formula has characters or words that are not allowed: " + expr);
-  const f = new Function("R", "T", "N", "pax", "band", "min", "max", "ceil", "floor", "round", '"use strict";return (' + expr + ");");
+  const f = new Function("R", "T", "N", "O", "pax", "band", "min", "max", "ceil", "floor", "round", '"use strict";return (' + expr + ");");
   exprCache.set(expr, f); return f;
 }
 function band(pax, ...pairs) { for (const [mx, v] of pairs) if (pax <= mx) return v; return NaN; }
@@ -138,12 +138,24 @@ function tableProxy(d, pax) {
   const o = {}; for (const t of d.tables) { const v = t.values[String(pax)]; o[t.id] = (v === undefined || v === null || v === "") ? NaN : (+v) * fxOf(d, t.fx); }
   return new Proxy(o, { get: (t, k) => (k in t ? t[k] : NaN) });
 }
-function variantCost(d, v, pax) {
+// Destination options (Krabi: hotel, season): the selected choice ids, defaulting to the first.
+function optsFor(d, given) {
+  const sel = given || SEL.opt[d.code] || {}, o = {};
+  for (const op of d.options || []) o[op.id] = op.choices.some(c => c.id === sel[op.id]) ? sel[op.id] : op.choices[0].id;
+  return o;
+}
+// Catalog upgrade from the selected choices (Krabi: 4★ hotel +RM250, Honeymoon +RM298 …)
+function optionUpgrade(d, pkg, O) {
+  let up = 0;
+  for (const op of d.options || []) { const c = op.choices.find(x => x.id === O[op.id]); if (c && c.upgrade) up += +(c.upgrade[pkg.id] || 0); }
+  return up;
+}
+function variantCost(d, v, pax, opts) {
   if (!v || pax < v.paxMin || pax > v.paxMax) return null;
-  const R = rateProxy(d), T = tableProxy(d, pax), N = +d.nights;
+  const R = rateProxy(d), T = tableProxy(d, pax), N = +d.nights, O = optsFor(d, opts);
   const comps = v.components.map(c => {
     let val, err = null;
-    try { val = +compile(c.expr)(R, T, N, pax, band, Math.min, Math.max, Math.ceil, Math.floor, Math.round); }
+    try { val = +compile(c.expr)(R, T, N, O, pax, band, Math.min, Math.max, Math.ceil, Math.floor, Math.round); }
     catch (e) { val = NaN; err = e.message; }
     const group = c.per === "group" ? val : val * pax;
     return { ...c, group, perPax: group / pax, err };
@@ -166,11 +178,12 @@ function applyRule(rule, base, cost) {
 }
 const priceAt = (pkg, k, pax) => { const v = pkg.pricing[k]?.[String(pax)]; return v === undefined || v === null || v === "" ? NaN : +v; };
 // One row of the R&D Costing tab: cost / catalog / selling / margin for each pax type.
-function priceRow(d, pkg, variantId, pax) {
+function priceRow(d, pkg, variantId, pax, opts) {
   const v = d.variants.find(x => x.id === variantId);
-  const cost = variantCost(d, v, pax);
+  const O = optsFor(d, opts);
+  const cost = variantCost(d, v, pax, O);
   const adultCost = cost ? cost.total : NaN, r = pkg.rules;
-  const up = +r.tierUpgrade || 0, disc = +r.discountTier2 || 0;
+  const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O), disc = +r.discountTier2 || 0;
   const mk = (costV, catV, noDisc) => {
     const catalog = num(catV) ? catV + (noDisc ? 0 : up) : NaN;
     const selling = num(catalog) ? catalog - (noDisc ? 0 : disc) : NaN;
@@ -233,20 +246,39 @@ function render() {
 // Last update = newest saved change to that package or to its destination's shared costs
 // (rates, FX, TOs, add-ons); before any save it is the import date.
 function lastUpdate(d, pkgId) {
-  const hit = c => c.path[1] === d.code && (c.path[2] !== "packages" || c.path[3] === pkgId);
-  const es = HISTORY.entries.filter(e => (e.changes || []).some(hit)).sort((a, b) => b.v - a.v);
+  const hit = c => c.path[1] === d.code && (pkgId == null || c.path[2] !== "packages" || c.path[3] === pkgId);
+  const reimport = e => e.rebase && new RegExp("(added|rebuilt): [^)]*\\b" + d.code + "\\b").test(e.note || "");
+  const es = HISTORY.entries.filter(e => (e.changes || []).some(hit) || reimport(e)).sort((a, b) => b.v - a.v);
   return es[0] || [...HISTORY.entries].sort((a, b) => a.v - b.v)[0] || null;
 }
 function filterHub() {
   const q = (SEL.hubQ || "").trim().toLowerCase();
   for (const tr of document.querySelectorAll(".hub tbody tr")) tr.style.display = !q || tr.textContent.toLowerCase().includes(q) ? "" : "none";
 }
+// Best package on the destination page for a catalog name, by tier / duration words.
+const TIER = { BSC: "BASIC", BASIC: "BASIC", BUDGET: "BASIC", STD: "STANDARD", STANDARD: "STANDARD", CLASSIC: "STANDARD", HNY: "HONEYMOON", HONEYMOON: "HONEYMOON", PREM: "PREMIUM", PREMIUM: "PREMIUM", ST: "SELF", SELF: "SELF", COMBO: "COMBO", WATER: "WATER" };
+function words(t) {
+  const w = new Set();
+  for (const x of String(t).toUpperCase().split(/[^A-Z0-9★]+/)) { if (TIER[x]) w.add(TIER[x]); if (/^\d+D\d+N$/.test(x)) w.add(x); }
+  return w;
+}
+function matchPkg(d, name) {
+  if (d.packages.length === 1) return d.packages[0];
+  const cw = words(name); let best = null, score = 0, tie = false;
+  for (const p of d.packages) {
+    const pw = words(p.label + " " + p.id); let sc = 0;
+    for (const x of cw) if (pw.has(x)) sc++;
+    if (sc > score) { best = p; score = sc; tie = false; } else if (sc === score && sc > 0) tie = true;
+  }
+  return score && !tie ? best : null;
+}
+// Hub: one row per catalog package (Project PT sheet) — package name, PO, last update.
 function renderHub() {
   $("#controls").style.display = "none"; $("#kpis").innerHTML = "";
-  const rows = shown().destinations.flatMap(d => d.packages.map(pkg => {
-    const e = lastUpdate(d, pkg.id), href = `${ROOT}${d.code.toLowerCase()}/?pkg=${encodeURIComponent(pkg.id)}`;
-    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(pkg.label)}</a> <span class="pill nav">${esc(d.code)}</span><div class="muted small">${esc(d.name)} · ${esc(d.country || "")}</div></td><td class="l">${esc(d.po || "—")}</td>
-      <td class="l">${e ? esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })) + (e.v > 1 ? ` <span class="muted small">v${e.v} · ${esc(e.by)}</span>` : ' <span class="muted small">import</span>') : "—"}</td></tr>`;
+  const fmt = e => e ? esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })) + (e.changes && e.changes.length ? ` <span class="muted small">v${e.v} · ${esc(e.by)}</span>` : "") : "—";
+  const rows = shown().destinations.flatMap(d => (d.catalogs && d.catalogs.length ? d.catalogs : d.packages.map(p => p.label)).map(name => {
+    const pkg = matchPkg(d, name), href = `${ROOT}${d.code.toLowerCase()}/${pkg ? "?pkg=" + encodeURIComponent(pkg.id) : ""}`;
+    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(name)}</a> <span class="pill nav">${esc(d.code)}</span></td><td class="l">${esc(d.po || "—")}</td><td class="l">${fmt(lastUpdate(d, pkg ? pkg.id : null))}</td></tr>`;
   })).join("");
   $("#grid").innerHTML = `<div class="card full hub"><div class="body"><input id="hubSearch" type="search" placeholder="Search package, code or PO…" value="${esc(SEL.hubQ || "")}" autocomplete="off"></div>
     <div class="scroll"><table><thead><tr><th>Package</th><th class="l">PO</th><th class="l">Last update</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
@@ -285,6 +317,8 @@ function renderControls(d, pkg) {
     <div class="dest-head"><a href="${ROOT}">← All</a><h1>${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></h1>
       <span class="muted small">PO ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" })}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
     <label class="wide">Package<select id="selPkg">${d.packages.map(p => `<option value="${p.id}"${p.id === pkg.id ? " selected" : ""}>${esc(p.label)}</option>`).join("")}</select></label>
+    ${(d.options || []).map(op => { const O = optsFor(d), c = op.choices.find(x => x.id === O[op.id]), up = c && c.upgrade ? +(c.upgrade[pkg.id] || 0) : 0;
+      return `<label class="wide">${esc(op.label)}${up ? ` <span class="pill warn">catalog +RM${up}</span>` : ""}<select id="opt_${esc(op.id)}">${op.choices.map(ch => `<option value="${esc(ch.id)}"${ch.id === O[op.id] ? " selected" : ""}>${esc(ch.label)}</option>`).join("")}</select></label>`; }).join("")}
     <label class="wide">Tour operator<select id="selVar">
       <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto → ${esc(autoId ? (d.variants.find(v => v.id === autoId) || {}).label || autoId : "none")}</option>
       ${d.variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
@@ -292,6 +326,12 @@ function renderControls(d, pkg) {
     <div class="wide paxbox">Pax<div class="paxrow">
       ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}
     </div></div>`;
+}
+function hotelText(d, v) {
+  const op = (d.options || []).find(o => o.id === "hotel");
+  if (!op) return v.hotel || "—";
+  const O = optsFor(d), c = op.choices.find(x => x.id === O.hotel);
+  return c ? c.label : "—";
 }
 function renderMain(d, pkg) {
   const pax = bandPax();
@@ -335,7 +375,7 @@ function renderMain(d, pkg) {
     ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td>${rm(c.group)}</td><td>${rm(c.perPax)}</td></tr>`).join("")}
     <tr class="total"><td>Cost</td><td>${rm(row.cost.total * pax)}</td><td>${rm(row.cost.total)}</td></tr>
     </tbody></table></div>
-    <div class="note">Hotel: ${esc(v.hotel || "—")}</div>`}
+    <div class="note">Hotel: ${esc(hotelText(d, v))}</div>`}
   </div>`);
   cards.push(costingByPax(d, pkg, pax));
   cards.push(addonCard(d));
@@ -390,7 +430,7 @@ function costingByPax(d, pkg, pax) {
       return `<tr class="click${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
         <td><b>${int(x.cost)}</b></td><td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
         ${isAdult ? `<td><b>${int(x.margin * p)}</b></td>` : ""}
-        <td>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog - (+pkg.rules.tierUpgrade || 0)) })}</td>
+        <td>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog - (+pkg.rules.tierUpgrade || 0) - optionUpgrade(d, pkg, optsFor(d))) })}</td>
         <td class="c">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
     }).join("");
     return title + head + rows;
@@ -761,6 +801,7 @@ document.addEventListener("input", e => { if (e.target.id === "hubSearch") { SEL
 document.addEventListener("change", e => {
   const t = e.target;
   if (t.dataset && t.dataset.addon) { SEL.addonQty[t.dataset.addon] = Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
+  if (t.id && t.id.startsWith("opt_")) { (SEL.opt[SEL.dest] ||= {})[t.id.slice(4)] = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
   if (t.id && t.id.startsWith("pax_")) { SEL[t.id.slice(4)] = Math.max(0, Math.min(99, parseInt(t.value || "0", 10) || 0)); return render(); }
