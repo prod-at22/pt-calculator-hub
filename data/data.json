@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": 1,
- "updatedAt": "2026-10-03T21:45:44+08:00",
- "updatedBy": "system",
+ "version": 2,
+ "updatedAt": "2026-10-03T23:10:15+08:00",
+ "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
   "marginDangerPct": 0.05
@@ -1070,7 +1070,7 @@
      }
     }
    ],
-   "po": "Ezie"
+   "po": "Aiman"
   },
   {
    "code": "SELJJU",
@@ -1714,7 +1714,7 @@
      }
     }
    ],
-   "po": "Ezie"
+   "po": "Aiman"
   },
   {
    "code": "HND",
@@ -3107,7 +3107,7 @@
      "notes": "PT Basic only — upgrade dari APA to Section L"
     }
    ],
-   "po": "Ezie"
+   "po": "Thania"
   }
  ]
 }

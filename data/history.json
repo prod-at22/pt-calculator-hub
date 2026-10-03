@@ -6,6 +6,44 @@
    "by": "system",
    "note": "Initial import: costs from R&D CR tabs, selling prices from Catalog PT site",
    "changes": []
+  },
+  {
+   "v": 2,
+   "at": "2026-10-03T23:10:15+08:00",
+   "by": "product",
+   "note": "PO handover: Aiman (Korea), Thania (Jepun), per Project PT sheet New PO",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Aiman",
+     "label": "Seoul › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "SELJJU",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Aiman",
+     "label": "Seoul - Jeju › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Thania",
+     "label": "Tokyo › PO"
+    }
+   ]
   }
  ]
 }

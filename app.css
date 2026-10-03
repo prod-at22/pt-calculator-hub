@@ -114,3 +114,18 @@ table.rd tr.cur td{background:var(--navy-soft)}
 input.ed.txt.po{width:120px}
 .hub th,.hub td{white-space:normal}
 .hub td:first-child{min-width:0}
+.dest-head{display:flex;flex-direction:column;gap:2px}
+.dest-head h1{margin:0;font-size:20px;display:flex;align-items:center;gap:8px}
+.dest-head a{font-size:12px;font-weight:600;text-decoration:none}
+.dest-head input.ed.txt{width:110px;display:inline-block}
+.paxbox{font-size:12px;font-weight:600;color:var(--ink-soft);display:flex;flex-direction:column;gap:4px}
+tr.cat td{background:#f3f5f8;font-weight:700;font-size:12px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.3px;text-align:left}
+input.aq{width:58px;text-align:right;border:1px solid var(--line);border-radius:5px;padding:3px 5px}
+details.ratecard>summary{cursor:pointer;padding:11px 14px;list-style:none;font-size:14px}
+details.ratecard>summary::-webkit-details-marker{display:none}
+details.ratecard>summary:before{content:"▸ ";color:var(--muted)}
+details.ratecard[open]>summary:before{content:"▾ "}
+details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
+.grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+#quote th,#quote td{padding:7px 8px}
+@media (max-width:1100px){.grid{grid-template-columns:1fr}}

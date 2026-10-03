@@ -124,7 +124,7 @@ def addons(b, prefix):
     return out
 
 
-def atk(code, name, duration, nights, book, pkgs):
+def atk(code, name, duration, nights, book, pkgs, po=""):
     """ATK (Korea) R&D: CR = Ground per pax + Tipping + K-ETA + ATK profit."""
     b = wb(book)
     cr = b["CR"]
@@ -176,7 +176,7 @@ def atk(code, name, duration, nights, book, pkgs):
     return {
         "code": code, "name": name, "country": "Korea", "duration": duration,
         "nights": nights, "source": book, "addons": addons(b, code),
-        "po": "Ezie",  # Project PT sheet, "Current PO"; editable on the page
+        "po": po,  # Project PT sheet; editable on the page
         "note": "CR note: ATK package rate usually already includes ATK profit. If so, set ATK profit (USD) to 0 to avoid double-counting.",
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
                {"id": "USD", "label": "USD → MYR", "value": usd}],
@@ -288,7 +288,7 @@ def tokyo():
                "rules": json.loads(json.dumps(rules))})
     return {
         "code": "HND", "name": "Tokyo", "country": "Jepun", "duration": "5D4N",
-        "po": "Ezie",  # Project PT sheet, "Current PO"; editable on the page
+        "po": "Thania",  # Project PT sheet; editable on the page
         "nights": 4, "source": "PT_HND_RD_reformatted.xlsx",
         "note": "Standard: Qayyum for 2–7 pax, WIF for 8+. JPY rates convert at their supplier FX; accommodation is in MYR.",
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
@@ -303,9 +303,9 @@ def main():
         atk("SEL", "Seoul", "5D4N", 4, "PT_SEL_RD_reformatted.xlsx",
             (("basic", "Seoul Basic 5D4N", "seoul-basic", "ATK-PT-BSC"),
              ("standard", "Seoul Standard 5D4N", "seoul-standard", "ATK-PT-STD"),
-             ("selftour", "Seoul Self Tour 5D4N", None, "ATK-ST"))),
+             ("selftour", "Seoul Self Tour 5D4N", None, "ATK-ST")), po="Aiman"),
         atk("SELJJU", "Seoul - Jeju", "6D5N", 5, "PT_SLJJ_RD_reformatted.xlsx",
-            (("standard", "Seoul - Jeju Standard 6D5N", "seoul-jeju", "ATK-PT-STD"),)),
+            (("standard", "Seoul - Jeju Standard 6D5N", "seoul-jeju", "ATK-PT-STD"),), po="Aiman"),
         tokyo(),
     ]
     for w in warnings:

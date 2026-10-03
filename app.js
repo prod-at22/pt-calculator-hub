@@ -266,84 +266,74 @@ function renderBanners() {
 }
 function renderControls(d, pkg) {
   $("#controls").style.display = "";
-  const pax = bandPax();
-  const variants = d.variants;
-  const autoId = assignedVariantId(pkg, pax);
+  const pax = bandPax(), autoId = assignedVariantId(pkg, pax);
+  const e = lastUpdate(d, pkg.id);
   $("#controls").innerHTML = `
-    <div style="display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--ink-soft)">Destination
-      <div style="font-size:16px;color:var(--ink)">${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></div>
-      <span>PO: ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: esc(d.po || "—") })}</span>
-      <a href="${ROOT}" style="font-weight:600">← All destinations</a></div>
+    <div class="dest-head"><a href="${ROOT}">← All</a><h1>${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></h1>
+      <span class="muted small">PO ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" })}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
     <label class="wide">Package<select id="selPkg">${d.packages.map(p => `<option value="${p.id}"${p.id === pkg.id ? " selected" : ""}>${esc(p.label)}</option>`).join("")}</select></label>
     <label class="wide">Tour operator<select id="selVar">
-      <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto by pax → ${esc(autoId || "none")}</option>
-      ${variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} [${v.paxMin}–${v.paxMax}]</option>`).join("")}
+      <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto → ${esc(autoId ? (d.variants.find(v => v.id === autoId) || {}).label || autoId : "none")}</option>
+      ${d.variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
     </select></label>
-    <div class="wide" style="font-size:12px;font-weight:600;color:var(--ink-soft);display:flex;flex-direction:column;gap:4px">Pax<div class="paxrow">
+    <div class="wide paxbox">Pax<div class="paxrow">
       ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}
-    </div></div>
-    <label>Pricing band (pax)<input type="number" min="1" id="bandOv" placeholder="${SEL.adult + SEL.cwb + SEL.cnb} (auto)" value="${SEL.bandOverride}"></label>`;
+    </div></div>`;
 }
 function renderMain(d, pkg) {
   const pax = bandPax();
-  const vid = activeVariantId(pkg, pax);
-  const row = priceRow(d, pkg, vid, pax);
+  const row = priceRow(d, pkg, activeVariantId(pkg, pax), pax);
   const v = row.variant;
-  // ---- KPIs (group quote)
-  const lines = ["adult", "cwb", "cnb", "infant"].map(k => ({ k, q: SEL[k], r: row[k] })).filter(x => x.q > 0);
+  const types = [["adult", "Adult"], ["cwb", "Child with bed"], ["cnb", "Child no bed"], ["infant", "Infant"]];
+  const lines = types.map(([k, lbl]) => ({ k, lbl, q: SEL[k], r: row[k] })).filter(x => x.q > 0);
   const tot = lines.reduce((s, x) => ({ sell: s.sell + x.q * x.r.selling, cost: s.cost + x.q * x.r.cost }), { sell: 0, cost: 0 });
   const ao = addonTotals(d);
   tot.sell += ao.sell; tot.cost += ao.cost;
   const tm = tot.sell - tot.cost, tp = tot.sell ? tm / tot.sell : NaN;
+  const nPax = lines.reduce((s, x) => s + x.q, 0);
+  // ---- KPIs
   $("#kpis").innerHTML = `
-    <div class="kpi"><div class="l">Selling / adult</div><div class="v">${rm(row.adult.selling)}</div><div class="s">Catalog ${rm(row.adult.catalog)}${+pkg.rules.discountTier2 ? ` − tier-2 ${rm(+pkg.rules.discountTier2)}` : ""}</div></div>
-    <div class="kpi"><div class="l">Cost / adult</div><div class="v">${rm(row.adult.cost, 2)}</div><div class="s">${esc(v ? v.label : "No TO for " + pax + " pax")}</div></div>
-    <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)} of selling</div></div>
-    <div class="kpi"><div class="l">Group total (${lines.reduce((s, x) => s + x.q, 0)} pax${ao.n ? " + " + ao.n + " add-on" + (ao.n > 1 ? "s" : "") : ""})</div><div class="v">${rm(tot.sell)}</div><div class="s">Cost ${rm(tot.cost)} · Margin <b class="${marginClass(tp)}">${rm(tm)} (${pct(tp)})</b>${ao.missing ? `<br><span class="m-bad">${ao.missing} add-on(s) without cost — margin overstated</span>` : ""}</div></div>`;
+    <div class="kpi"><div class="l">Selling / adult</div><div class="v">${rm(row.adult.selling)}</div><div class="s">${pkg.catalog ? `<a href="${esc(pkg.catalog.url)}" target="_blank" rel="noopener">Catalog</a>` : "R&amp;D price"} ${rm(row.adult.catalog)}${+pkg.rules.discountTier2 ? ` − tier-2 ${rm(+pkg.rules.discountTier2)}` : ""}</div></div>
+    <div class="kpi"><div class="l">Cost / adult</div><div class="v">${rm(row.adult.cost)}</div><div class="s">${esc(v ? v.label : "No TO for " + pax + " pax")}</div></div>
+    <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)}</div></div>
+    <div class="kpi"><div class="l">Group total · ${nPax} pax${ao.n ? ` + ${ao.n} add-on${ao.n > 1 ? "s" : ""}` : ""}</div><div class="v">${rm(tot.sell)}</div><div class="s">Margin <b class="${marginClass(tp)}">${rm(tm)} (${pct(tp)})</b>${ao.missing ? ` · <span class="m-bad">${ao.missing} add-on without cost</span>` : ""}</div></div>`;
 
   const cards = [];
-  // ---- cost breakdown
-  cards.push(`<div class="card"><h2>Cost breakdown <span class="sub">${esc(v ? v.label : "—")} · ${pax} pax</span></h2>
-    ${!v ? `<div class="empty">No tour operator covers ${pax} pax for this package.</div>` : !row.cost ? `<div class="empty">${esc(v.label)} only covers ${v.paxMin}–${v.paxMax} pax.</div>` : `
-    <div class="scroll"><table><thead><tr><th>Component</th><th class="l">How it's costed</th><th>Group</th><th>Per pax</th></tr></thead><tbody>
-    ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td class="expr">${esc(c.expr)}${c.per === "pax" ? " <i>per pax</i>" : ""}</td><td>${rm(c.group, 2)}</td><td>${rm(c.perPax, 2)}</td></tr>`).join("")}
-    <tr class="total"><td>Total cost</td><td></td><td>${rm(row.cost.total * pax, 2)}</td><td>${rm(row.cost.total, 2)}</td></tr>
-    </tbody></table></div>`}
-    ${v ? `<div class="note"><b>Hotel:</b> ${esc(v.hotel || "—")}<br><b>TO note:</b> ${esc(v.notes || "—")}</div>` : ""}
-    ${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}
-  </div>`);
-  // ---- selling & margin per pax type
-  const types = [["adult", "Adult"], ["cwb", "Child with bed"], ["cnb", "Child no bed"], ["infant", "Infant"]];
+  // ---- quote: only the pax types in this quote
   const r = pkg.rules, P = ["packages", pkg.id, "rules"], DP = ["destinations", d.code];
   const ruleTxt = (rule, key) => EDIT && !VIEW
     ? `${ed([...DP, ...P, key, "type"], rule.type, { options: [["pct", "% of adult cost"], ["minus", "adult cost − RM"], ["flat", "flat RM"]] })} ${ed([...DP, ...P, key, "value"], rule.value)}`
     : rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of adult cost` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
-  cards.push(`<div class="card"><h2>Selling price &amp; margin <span class="sub">${esc(pkg.label)} · band ${pax} pax</span>
-    ${pkg.catalog ? `<span class="right"><a class="pill nav" href="${esc(pkg.catalog.url)}" target="_blank" rel="noopener">Catalog ${esc(pkg.catalog.version || "")} ↗</a></span>` : `<span class="right"><span class="pill grey" title="No published catalog — prices from R&D sheet">R&amp;D price only</span></span>`}</h2>
-    <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost/pax</th><th>Catalog</th><th>Selling/pax</th><th>Margin/pax</th><th>Margin %</th><th>Line selling</th><th>Line margin</th></tr></thead><tbody>
-    ${types.map(([k, lbl]) => { const x = row[k]; const q = SEL[k];
-      return `<tr${q ? "" : ' style="color:var(--muted)"'}><td>${lbl}</td><td>${q}</td><td>${rm(x.cost, 2)}</td><td>${rm(x.catalog)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${q ? rm(q * x.selling) : ""}</td><td class="${marginClass(x.pct)}">${q ? rm(q * x.margin) : ""}</td></tr>`; }).join("")}
-    <tr class="total"><td>Total</td><td>${lines.reduce((s, x) => s + x.q, 0)}</td><td></td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
+  const shownLines = lines.length ? lines : [{ k: "adult", lbl: "Adult", q: 0, r: row.adult }];
+  cards.push(`<div class="card" id="quote"><h2>Quote <span class="sub">${esc(pkg.label)} · ${pax} pax band</span></h2>
+    <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
+    ${shownLines.map(({ k, lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
+    ${ao.n ? `<tr><td>Add-ons</td><td>${ao.n}</td><td></td><td></td><td></td><td></td><td>${rm(ao.sell)}</td><td>${rm(ao.sell - ao.cost)}</td></tr>` : ""}
+    <tr class="total"><td>Total</td><td>${nPax}</td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
     </tbody></table></div>
-    <div class="note">
-      <b>Rules</b> · CWB cost: ${ruleTxt(r.cwbCost, "cwbCost")} · CNB cost: ${ruleTxt(r.cnbCost, "cnbCost")} · Infant cost: ${ruleTxt(r.infantCost, "infantCost")}<br>
+    <details class="sec"${EDIT && !VIEW ? " open" : ""}><summary>Child, infant &amp; discount rules</summary><div class="body small">
+      CWB cost: ${ruleTxt(r.cwbCost, "cwbCost")} · CNB cost: ${ruleTxt(r.cnbCost, "cnbCost")} · Infant cost: ${ruleTxt(r.infantCost, "infantCost")}<br>
       Selling = catalog + tier upgrade ${ed([...DP, ...P, "tierUpgrade"], r.tierUpgrade, { display: "RM" + n2(r.tierUpgrade) })} − discount tier 2 ${ed([...DP, ...P, "discountTier2"], r.discountTier2, { display: "RM" + n2(r.discountTier2) })} · Infant price ${ed([...DP, "packages", pkg.id, "pricing", "infant"], pkg.pricing.infant, { display: "RM" + n2(pkg.pricing.infant) })} flat
-    </div></div>`);
-  // ---- TO comparison
-  const cmp = d.variants.map(x => ({ x, c: variantCost(d, x, pax) })).filter(o => o.c);
-  cards.push(`<div class="card"><h2>Tour operator comparison <span class="sub">adult, ${pax} pax, against ${esc(pkg.label)} selling ${rm(row.adult.selling)}</span></h2>
-    ${cmp.length ? `<div class="scroll"><table><thead><tr><th>Tour operator</th><th>Cost/pax</th><th>Δ vs in use</th><th>Margin/pax</th><th>Margin %</th><th></th></tr></thead><tbody>
-    ${cmp.map(({ x, c }) => { const m = row.adult.selling - c.total; const p = row.adult.selling ? m / row.adult.selling : NaN; const inUse = v && x.id === v.id;
-      const dl = row.cost ? c.total - row.cost.total : NaN;
-      return `<tr class="click${inUse ? " cur" : ""}" data-variant="${esc(x.id)}"><td>${esc(x.label)}${x.id === assignedVariantId(pkg, pax) ? ' <span class="pill nav">package default</span>' : ""}</td><td>${rm(c.total, 2)}</td><td>${inUse ? "—" : (num(dl) ? (dl > 0 ? "+" : "") + rm(dl, 2) : "—")}</td><td class="${marginClass(p)}">${rm(m)}</td><td>${marginPill(p)}</td><td>${inUse ? '<span class="pill ok">in use</span>' : '<span class="muted small">click to use</span>'}</td></tr>`; }).join("")}
-    </tbody></table></div><div class="note">Compares each TO's cost with this package's selling price. A TO built for a different tier (e.g. Self Tour) is not a like-for-like product.</div>` : `<div class="empty">No TO has a rate for ${pax} pax.</div>`}
+    </div></details></div>`);
+  // ---- cost breakdown for this pax
+  cards.push(`<div class="card"><h2>Cost breakdown <span class="sub">${esc(v ? v.label : "—")} · ${pax} pax</span></h2>
+    ${!v ? `<div class="empty">No tour operator covers ${pax} pax for this package.</div>` : !row.cost ? `<div class="empty">${esc(v.label)} only covers ${v.paxMin}–${v.paxMax} pax.</div>` : `
+    <div class="scroll"><table><thead><tr><th>Component</th><th>Group</th><th>Per pax</th></tr></thead><tbody>
+    ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td>${rm(c.group)}</td><td>${rm(c.perPax)}</td></tr>`).join("")}
+    <tr class="total"><td>Cost</td><td>${rm(row.cost.total * pax)}</td><td>${rm(row.cost.total)}</td></tr>
+    </tbody></table></div>
+    <div class="note">Hotel: ${esc(v.hotel || "—")}</div>`}
   </div>`);
-  // ---- costing by pax: A+B+C+D = Cost, + Margin = Selling
   cards.push(costingByPax(d, pkg, pax));
   cards.push(addonCard(d));
-  // ---- rate card
+  // ---- TO comparison, only when there is a choice
+  const cmp = d.variants.map(x => ({ x, c: variantCost(d, x, pax) })).filter(o => o.c);
+  if (cmp.length > 1) cards.push(`<div class="card full"><h2>Other tour operators at ${pax} pax <span class="sub">adult cost vs ${esc(pkg.label)} selling ${rm(row.adult.selling)}</span></h2>
+    <div class="scroll"><table><thead><tr><th>Tour operator</th><th>Cost</th><th>vs in use</th><th>Margin</th><th>%</th><th></th></tr></thead><tbody>
+    ${cmp.map(({ x, c }) => { const m = row.adult.selling - c.total, p = row.adult.selling ? m / row.adult.selling : NaN, inUse = v && x.id === v.id, dl = row.cost ? c.total - row.cost.total : NaN;
+      return `<tr class="click${inUse ? " cur" : ""}" data-variant="${esc(x.id)}"><td>${esc(x.label)}</td><td>${rm(c.total)}</td><td>${inUse ? "—" : (num(dl) ? (dl > 0 ? "+" : "") + rm(dl) : "—")}</td><td class="${marginClass(p)}">${rm(m)}</td><td>${marginPill(p)}</td><td>${inUse ? '<span class="pill ok">in use</span>' : '<span class="muted small">use</span>'}</td></tr>`; }).join("")}
+    </tbody></table></div></div>`);
   cards.push(rateCard(d));
-  cards.push(historyCard());
   $("#grid").innerHTML = cards.join("");
 }
 // Component columns for a package: union of components across the TOs it uses, in order.
@@ -408,27 +398,29 @@ function addonCard(d) {
   const list = d.addons || [], DP = ["destinations", d.code];
   if (!list.length) return "";
   const t = addonTotals(d), tm = t.sell - t.cost;
-  return `<div class="card full" id="addons"><h2>Add-ons <span class="sub">${list.length} items · from R&D Add-Ons tab · enter qty to add to the group total</span></h2>
-    <div class="scroll" style="max-height:520px;overflow-y:auto"><table><thead><tr><th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>Margin %</th><th>Qty</th><th>Line selling</th><th>Line margin</th><th class="l">Category</th><th class="l">Notes</th></tr></thead><tbody>
-    ${list.map(a => {
-      const c = num(a.cost) ? a.cost : NaN, sv = num(a.selling) ? a.selling : NaN, m = sv - c, p = num(m) && sv ? m / Math.abs(sv) : NaN;
-      const q = +SEL.addonQty[a.id] || 0;
-      return `<tr${q ? ' class="cur"' : ""}><td style="white-space:normal;min-width:200px">${esc(a.label)}</td><td class="l muted">${esc(a.per || "")}</td>
-        <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost in the R&D sheet">cost?</span>' })}</td>
-        <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
-        <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
-        <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0" style="width:58px;text-align:right;border:1px solid var(--line);border-radius:5px;padding:3px 5px"></td>
-        <td>${q ? rm(q * sv, 2) : ""}</td><td class="${marginClass(p)}">${q ? rm(q * m, 2) : ""}</td><td class="l muted">${esc(a.category || "")}</td><td class="l small muted" style="white-space:normal;min-width:160px">${esc(a.notes || "")}</td></tr>`;
-    }).join("")}
-    ${t.n ? `<tr class="total"><td>Selected add-ons</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td></td><td></td></tr>` : ""}
-    </tbody></table></div><div class="note">Qty is for this quote only and is not saved. Negative rows are deductions (e.g. "Tolak"). Add-ons without a cost show <span class="pill bad">cost?</span>; their margin cannot be computed.</div></div>`;
+  const cats = [...new Set(list.map(a => a.category || "Other"))];
+  const row = a => {
+    const c = num(a.cost) ? a.cost : NaN, sv = num(a.selling) ? a.selling : NaN, m = sv - c, p = num(m) && sv ? m / Math.abs(sv) : NaN;
+    const q = +SEL.addonQty[a.id] || 0;
+    return `<tr${q ? ' class="cur"' : ""}><td style="white-space:normal;min-width:200px">${esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}</td><td class="l muted small">${esc(a.per || "")}</td>
+      <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost in the R&D sheet">cost?</span>' })}</td>
+      <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
+      <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
+      <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td></tr>`;
+  };
+  return `<div class="card full" id="addons"><h2>Add-ons <span class="sub">${list.length} items · qty adds to the quote, not saved</span></h2>
+    <div class="scroll" style="max-height:520px;overflow-y:auto"><table><thead><tr><th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
+    ${cats.map(cat => `<tr class="cat"><td colspan="7">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
+    ${t.n ? `<tr class="total"><td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
+    </tbody></table></div></div>`;
 }
 function rateCard(d) {
   const DP = ["destinations", d.code];
   const groups = {};
   d.rates.forEach(r => (groups[r.group || "Rates"] ||= []).push(r));
   const isAdmin = SESSION && SESSION.role === "admin";
-  return `<div class="card full"><h2>Rate card · ${esc(d.name)} <span class="sub">source: ${esc(d.source)}</span>${EDIT && !VIEW ? "" : '<span class="right"><span class="pill grey">log in → Edit costs to change</span></span>'}</h2>
+  return `<details class="card full ratecard"${EDIT && !VIEW ? " open" : ""}><summary><b>Rate card</b> <span class="muted small">FX, rates, formulas · source ${esc(d.source)}${EDIT && !VIEW ? "" : " · log in → Edit costs to change"}</span></summary>
+  ${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}
   <div class="body small">
     <b>FX</b> ${d.fx.filter(f => !f.locked).map(f => `· ${esc(f.label)} ${ed([...DP, "fx", f.id, "value"], f.value)}`).join(" ")}
     &nbsp;&nbsp; <b>Nights</b> ${ed([...DP, "nights"], d.nights)}
@@ -443,14 +435,9 @@ function rateCard(d) {
     ${d.variants.map(v => v.components.map((c, i) => `<tr><td>${i ? "" : `<b>${esc(v.id)}</b><br><span class="muted small">pax ${v.paxMin}–${v.paxMax}</span>`}</td><td class="l">${esc(c.label)}</td><td class="l" style="min-width:320px">${isAdmin && EDIT && !VIEW ? ed([...DP, "variants", v.id, "components", c.key, "expr"], c.expr, { text: true }) : `<span class="expr">${esc(c.expr)}</span>`}</td></tr>`).join("")).join("")}
   </tbody></table></div>
   <div class="note">Formulas use <code>R.id</code> (rate converted to MYR at its FX), <code>T['id']</code> (per-pax table value at the current pax), <code>N</code> (nights), <code>pax</code> and <code>band(pax,[max,value],…)</code> for vehicle bands.</div></details>
-  </div>`;
+  </details>`;
 }
 const touchesDest = e => !PAGE_DEST || !(e.changes || []).length || e.changes.some(c => c.path[1] === PAGE_DEST);
-function historyCard() {
-  const all = [...HISTORY.entries].filter(touchesDest).sort((a, b) => b.v - a.v), es = all.slice(0, 6);
-  return `<div class="card full" id="histCard"><h2>Change history${PAGE_DEST ? " · " + esc(PAGE_DEST) : ""} <span class="sub">latest ${es.length} of ${all.length}</span><span class="right"><button class="btn" data-act="history">All versions</button></span></h2>
-    <div class="hist">${es.map(histEntry).join("") || '<div class="empty">No history yet.</div>'}</div></div>`;
-}
 function histEntry(e) {
   const src = DATA;
   if (PAGE_DEST && e.changes) e = { ...e, changes: e.changes.filter(c => c.path[1] === PAGE_DEST) };

@@ -18,6 +18,8 @@ Hub: `https://prod-at22.github.io/pt-calculator-hub/`. Each destination has its 
 | SELJJU | `https://prod-at22.github.io/pt-calculator-hub/seljju/` |
 | HND | `https://prod-at22.github.io/pt-calculator-hub/hnd/` |
 
+The hub lists every package with its PO and last update date. PO per destination: Korea (SEL, SELJJU) Aiman, Jepun (HND) Thania; change it on the destination page when there is a handover.
+
 Anyone with the link can **view**. To **change** a cost you log in with your own username and
 password. Every save becomes a new version (v2, v3, …) with who, when, a note and each cell's
 old → new value. Any old version can be viewed and restored.

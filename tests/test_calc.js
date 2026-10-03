@@ -135,14 +135,14 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     setVal(w, doc.querySelector("#pax_adult"), "6"); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("QAYYUM-STD"), "6 pax → Qayyum");
+    ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum"), "6 pax → Qayyum");
     setVal(w, doc.querySelector("#pax_adult"), "8"); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF-STD"), "8 pax → WIF-STD");
+    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 pax → WIF-STD");
     ok(doc.querySelector("#kpis").textContent.includes("RM3,697"), "8 pax selling RM3,697 shown (3897 − 200)");
     setVal(w, doc.querySelector("#pax_cwb"), "2"); setVal(w, doc.querySelector("#pax_infant"), "1"); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF-STD"), "8 adult + 2 CWB = band 10 → WIF-STD");
-    const rows = doc.querySelectorAll("#grid .card")[1].querySelectorAll("tbody tr");
-    ok(rows.length === 5, "selling table has 4 pax types + total");
+    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 adult + 2 CWB = band 10 → WIF-STD");
+    const rows = doc.querySelectorAll("#quote tbody tr");
+    ok(rows.length === 4 && rows[0].textContent.includes("Adult") && rows[1].textContent.includes("Child with bed") && rows[2].textContent.includes("Infant") && !doc.querySelector("#quote").textContent.includes("Child no bed"), "quote shows only pax types in the quote (adult, CWB, infant) + total");
     ok(doc.querySelectorAll("tr[data-variant]").length >= 2, "TO comparison lists more than one TO at 10 pax");
     click(w, doc.querySelector('tr[data-variant="WIF-BSC"]')); await tick(5);
     ok(doc.querySelector("#selVar").value === "WIF-BSC", "clicking comparison row switches TO");
@@ -206,35 +206,36 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(doc.querySelector(".err-t").textContent.includes("note"), "note is required");
     doc.querySelector("#saveNote").value = "WIF 2027 airport rate";
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 2), "saved as v2");
+    ok(await until(() => P.BASE.version === 3), "saved as v3");
     const remote = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    ok(remote.version === 2 && remote.updatedBy === "aiman", "repo data.json v2 by aiman");
+    ok(remote.version === 3 && remote.updatedBy === "aiman", "repo data.json v3 by aiman");
     ok(byCode(remote,'HND').rates.find(r => r.id === "hnd7").value === 18000, "repo has new rate");
     const hist = JSON.parse(repo.files(repo.head)["data/history.json"]);
-    const e = hist.entries.find(x => x.v === 2);
-    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry v2 with readable label");
-    ok(repo.log.at(-1).startsWith("v2 · aiman: WIF 2027"), "one commit with version message");
-    ok(doc.querySelector("#histCard").textContent.includes("WIF 2027 airport rate"), "history card shows note");
-    const snap = P.snapshotAt(1);
-    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "v1 rebuilt from change log");
-    click(w, doc.querySelector('[data-view="1"]')); await tick(5);
-    ok(doc.querySelector("#banners").textContent.includes("Read-only: version 1"), "viewing v1 banner");
+    const e = hist.entries.find(x => x.v === 3);
+    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry v3 with readable label");
+    ok(repo.log.at(-1).startsWith("v3 · aiman: WIF 2027"), "one commit with version message");
+    click(w, doc.querySelector("#btnHistory")); await tick(5);
+    ok(doc.querySelector("#modalRoot").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#modalRoot").textContent.includes("PO handover"), "History shows both versions' notes");
+    const snap = P.snapshotAt(2);
+    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "v2 rebuilt from change log");
+    click(w, doc.querySelector('[data-view="2"]')); await tick(5);
+    ok(doc.querySelector("#banners").textContent.includes("Read-only: version 2"), "viewing v2 banner");
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
-    ok(doc.querySelector("#saveNote").value === "Restore to v1", "restore pre-fills note");
+    ok(doc.querySelector("#saveNote").value === "Restore to v2", "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 3), "restore saved as v3");
-    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to v1");
+    ok(await until(() => P.BASE.version === 4), "restore saved as v4");
+    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to v2");
   }
 
   console.log("7. concurrent saves");
   {
     // someone else saves v4 changing the Qayyum FX
     const other = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    byCode(other,'HND').fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = 4;
+    byCode(other,'HND').fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = 5;
     const oh = JSON.parse(repo.files(repo.head)["data/history.json"]);
-    oh.entries.push({ v: 4, at: new Date().toISOString(), by: "ezie", note: "fx", changes: [{ path: ["destinations", "HND", "fx", "QAYYUM", "value"], from: 0.0259, to: 0.026 }] });
+    oh.entries.push({ v: 5, at: new Date().toISOString(), by: "ezie", note: "fx", changes: [{ path: ["destinations", "HND", "fx", "QAYYUM", "value"], from: 0.0259, to: 0.026 }] });
     let [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(other) }, { path: "data/history.json", content: JSON.stringify(oh) }] }, "Bearer tok-valid");
-    let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v4 other" }, "Bearer tok-valid");
+    let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v5 other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     // we (still on v3) edit a different cell
     click(w, doc.querySelector("#btnEdit")); await tick(5);
@@ -243,13 +244,13 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "ropeway price";
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 5), "different cell → replayed on top, saved v5");
+    ok(await until(() => P.BASE.version === 6), "different cell → replayed on top, saved v6");
     const r5 = JSON.parse(repo.files(repo.head)["data/data.json"]);
     ok(byCode(r5,'HND').fx.find(f => f.id === "QAYYUM").value === 0.026 && byCode(r5,'HND').rates.find(r => r.id === "kachi").value === 1100, "both users' edits kept");
     // same cell clash
-    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = 6;
+    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = 7;
     [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(o2) }] }, "Bearer tok-valid");
-    [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v6 other" }, "Bearer tok-valid");
+    [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v7 other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     const inp2 = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
@@ -324,7 +325,9 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(/v\d+ · /.test(hndStd.children[2].textContent), "Tokyo Standard last update shows the saved version: " + hndStd.children[2].textContent.trim());
     const deep = await boot(repo, "sel/", "?pkg=standard");
     ok(deep.doc.querySelector("#selPkg").value === "standard", "sel/?pkg=standard opens Seoul Standard");
-    ok(deep.doc.querySelector("#controls").textContent.includes("PO: Ezie"), "destination page shows PO");
+    ok(/PO\s*Aiman/.test(deep.doc.querySelector("#controls").textContent), "Seoul page shows PO Aiman");
+    const hubPO = [...hub.doc.querySelectorAll("#grid tbody tr")].map(r => r.children[1].textContent.trim());
+    ok(hubPO.filter(x => x === "Aiman").length === 4 && hubPO.filter(x => x === "Thania").length === 3, "hub PO: 4 Korea packages Aiman, 3 Tokyo Thania: " + hubPO.join(","));
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/");
