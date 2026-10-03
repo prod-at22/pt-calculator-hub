@@ -108,3 +108,9 @@ table.rd th.sp{background:#93c47d;color:#123}
 table.rd th.mg{background:#d9ead3}
 table.rd td.sp{background:#f3f9f0}
 table.rd tr.cur td{background:var(--navy-soft)}
+.hub{max-width:760px;margin:0 auto;width:100%}
+.hub td a{font-weight:600;text-decoration:none;color:var(--ink)}
+.hub tr.click:hover td a{color:var(--navy);text-decoration:underline}
+input.ed.txt.po{width:120px}
+.hub th,.hub td{white-space:normal}
+.hub td:first-child{min-width:0}

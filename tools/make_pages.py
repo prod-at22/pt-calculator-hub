@@ -25,7 +25,7 @@ SHELL = """<!doctype html>
 </div></header>
 <main class="wrap">
   <div id="banners"></div>
-  <section class="controls" id="controls"></section>
+  <section class="controls" id="controls"{hide}></section>
   <section class="kpis" id="kpis"></section>
   <section class="grid" id="grid"></section>
 </main>
@@ -40,13 +40,13 @@ SHELL = """<!doctype html>
 def main():
     data = json.load(open(os.path.join(ROOT, "data", "data.json")))
     open(os.path.join(ROOT, "index.html"), "w").write(
-        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root=""))
+        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"'))
     codes = []
     for d in data["destinations"]:
         code = d["code"].lower()
         os.makedirs(os.path.join(ROOT, code), exist_ok=True)
         open(os.path.join(ROOT, code, "index.html"), "w").write(
-            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../"))
+            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide=""))
         codes.append(code)
     print("wrote index.html +", ", ".join("%s/" % c for c in codes))
 

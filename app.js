@@ -18,7 +18,7 @@ let USERS = { users: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: null, variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {} };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {} };
 let lastActivity = Date.now();
 
 /* ============================================================ utils */
@@ -104,7 +104,7 @@ function describe(snap, path) {
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
     tierUpgrade: "Tier upgrade", cwbCost: "CWB cost", cnbCost: "CNB cost", infantCost: "Infant cost", type: "type",
     components: "Component", expr: "formula", values: "", settings: "Settings", marginWarnPct: "Margin warn %", marginDangerPct: "Margin danger %",
-    destinations: "", nights: "Nights", assign: "TO assignment" };
+    destinations: "", nights: "Nights", po: "PO", assign: "TO assignment" };
   for (let i = 0; i < path.length; i++) {
     const seg = path[i], prev = path[i - 1];
     cur = step(cur, seg);
@@ -222,23 +222,22 @@ function render() {
   const pkg = curPkg(d); SEL.pkg = pkg.id;
   renderControls(d, pkg); renderMain(d, pkg);
 }
-// Hub: one card per destination, each links to /<code>/
+// Hub: one row per package — name (links to its page), PO, last update.
+// Last update = newest saved change to that package or to its destination's shared costs
+// (rates, FX, TOs, add-ons); before any save it is the import date.
+function lastUpdate(d, pkgId) {
+  const hit = c => c.path[1] === d.code && (c.path[2] !== "packages" || c.path[3] === pkgId);
+  const es = HISTORY.entries.filter(e => (e.changes || []).some(hit)).sort((a, b) => b.v - a.v);
+  return es[0] || [...HISTORY.entries].sort((a, b) => a.v - b.v)[0] || null;
+}
 function renderHub() {
   $("#controls").style.display = "none"; $("#kpis").innerHTML = "";
-  const src = shown();
-  const cards = src.destinations.map(d => {
-    const last = [...HISTORY.entries].sort((a, b) => b.v - a.v).find(e => (e.changes || []).some(c => c.path[1] === d.code));
-    const rows = d.packages.map(pkg => {
-      const p0 = Math.min(...Object.keys(pkg.pricing.adult).map(Number));
-      const r = priceRow(d, pkg, assignedVariantId(pkg, p0), p0);
-      return `<tr><td>${esc(pkg.label)}</td><td>${p0}</td><td>${rm(r.adult.selling)}</td><td>${rm(r.adult.cost)}</td><td>${marginPill(r.adult.pct)}</td></tr>`;
-    }).join("");
-    return `<div class="card"><h2><a href="${ROOT}${d.code.toLowerCase()}/" style="color:inherit">${esc(d.name)}</a> <span class="pill nav">${esc(d.code)}</span> <span class="sub">${esc(d.country)} · ${esc(d.duration)} · ${d.variants.length} TO variant${d.variants.length > 1 ? "s" : ""}</span>
-      <span class="right"><a class="btn primary" href="${ROOT}${d.code.toLowerCase()}/">Open ${esc(d.code)} →</a></span></h2>
-      <div class="scroll"><table><thead><tr><th>Package</th><th>Min pax</th><th>Selling</th><th>Cost</th><th>Margin %</th></tr></thead><tbody>${rows}</tbody></table></div>
-      <div class="note">Link: <code>/${esc(d.code.toLowerCase())}/</code> · TO: ${esc([...new Set(d.variants.map(v => v.supplier))].join(", "))} · ${last ? `last change v${last.v} by ${esc(last.by)}, ${esc(fmtDate(last.at))}` : "no changes since import"}</div></div>`;
-  });
-  $("#grid").innerHTML = cards.join("") + historyCard();
+  const rows = shown().destinations.flatMap(d => d.packages.map(pkg => {
+    const e = lastUpdate(d, pkg.id), href = `${ROOT}${d.code.toLowerCase()}/?pkg=${encodeURIComponent(pkg.id)}`;
+    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(pkg.label)}</a> <span class="pill nav">${esc(d.code)}</span></td><td class="l">${esc(d.po || "—")}</td>
+      <td class="l">${e ? esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })) + (e.v > 1 ? ` <span class="muted small">v${e.v} · ${esc(e.by)}</span>` : ' <span class="muted small">import</span>') : "—"}</td></tr>`;
+  })).join("");
+  $("#grid").innerHTML = `<div class="card full hub"><div class="scroll"><table><thead><tr><th>Package</th><th class="l">PO</th><th class="l">Last update</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
 }
 function renderTop() {
   const src = shown();
@@ -273,6 +272,7 @@ function renderControls(d, pkg) {
   $("#controls").innerHTML = `
     <div style="display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--ink-soft)">Destination
       <div style="font-size:16px;color:var(--ink)">${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></div>
+      <span>PO: ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: esc(d.po || "—") })}</span>
       <a href="${ROOT}" style="font-weight:600">← All destinations</a></div>
     <label class="wide">Package<select id="selPkg">${d.packages.map(p => `<option value="${p.id}"${p.id === pkg.id ? " selected" : ""}>${esc(p.label)}</option>`).join("")}</select></label>
     <label class="wide">Tour operator<select id="selVar">
@@ -669,8 +669,9 @@ async function acct(fn, okMsg) { mErr("Saving…"); try { await fn(); mErr(""); 
 /* ============================================================ events */
 document.addEventListener("click", async e => {
   lastActivity = Date.now();
-  const t = e.target.closest("button, tr[data-pax], tr[data-variant], [data-close], a");
+  const t = e.target.closest("button, tr[data-pax], tr[data-variant], tr[data-href], [data-close], a");
   if (!t) return;
+  if (t.dataset.href && t.tagName === "TR") { location.href = t.dataset.href; return; }
   if (t.matches("[data-close]")) return closeModal();
   if (t.id === "btnLogin") return openLogin();
   if (t.id === "doLogin") return doLogin();

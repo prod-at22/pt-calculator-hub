@@ -42,13 +42,13 @@ function mockRepo(files, validTokens) {
 }
 
 // page = "" (hub) or "hnd/" etc. app.js / app.css are inlined because jsdom does not fetch them.
-async function boot(repo, page = "hnd/") {
+async function boot(repo, page = "hnd/", query = "") {
   const html = fs.readFileSync(path.join(ROOT, page, "index.html"), "utf8")
     .replace(/<script src="[^"]*app\.js"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
     .replace(/<link rel="stylesheet"[^>]*>/, "");
   const errors = [];
   const dom = new JSDOM(html, {
-    url: "https://prod-at22.github.io/pt-calculator-hub/" + page, runScripts: "dangerously", pretendToBeVisual: true,
+    url: "https://prod-at22.github.io/pt-calculator-hub/" + page + query, runScripts: "dangerously", pretendToBeVisual: true,
     beforeParse(w) {
       Object.defineProperty(w, "crypto", { value: globalThis.crypto });
       w.TextEncoder = TextEncoder; w.TextDecoder = TextDecoder;
@@ -315,8 +315,16 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   console.log("8d. hub and other destination pages");
   {
     const hub = await boot(repo, "");
-    const links = [...hub.doc.querySelectorAll("#grid a.btn")].map(a => a.getAttribute("href"));
-    ok(["sel/", "seljju/", "hnd/"].every(l => links.includes(l)), "hub links to sel/ seljju/ hnd/: " + links.join(","));
+    const links = [...hub.doc.querySelectorAll("#grid a")].map(a => a.getAttribute("href"));
+    ok(["sel/?pkg=basic", "sel/?pkg=standard", "seljju/?pkg=standard", "hnd/?pkg=standard"].every(l => links.includes(l)), "hub links per package: " + links.join(","));
+    const hubRows = [...hub.doc.querySelectorAll("#grid tbody tr")];
+    ok(hubRows.length === 7, "hub: one row per package (7), got " + hubRows.length);
+    ok(hubRows.every(r => r.children.length === 3 && r.children[1].textContent.trim() !== "" && /\d{4}/.test(r.children[2].textContent)), "hub rows = package | PO | last update");
+    const hndStd = hubRows.find(r => r.textContent.includes("Tokyo Standard"));
+    ok(/v\d+ · /.test(hndStd.children[2].textContent), "Tokyo Standard last update shows the saved version: " + hndStd.children[2].textContent.trim());
+    const deep = await boot(repo, "sel/", "?pkg=standard");
+    ok(deep.doc.querySelector("#selPkg").value === "standard", "sel/?pkg=standard opens Seoul Standard");
+    ok(deep.doc.querySelector("#controls").textContent.includes("PO: Ezie"), "destination page shows PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/");

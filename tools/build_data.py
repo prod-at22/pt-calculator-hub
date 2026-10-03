@@ -176,6 +176,7 @@ def atk(code, name, duration, nights, book, pkgs):
     return {
         "code": code, "name": name, "country": "Korea", "duration": duration,
         "nights": nights, "source": book, "addons": addons(b, code),
+        "po": "Ezie",  # Project PT sheet, "Current PO"; editable on the page
         "note": "CR note: ATK package rate usually already includes ATK profit. If so, set ATK profit (USD) to 0 to avoid double-counting.",
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
                {"id": "USD", "label": "USD → MYR", "value": usd}],
@@ -287,6 +288,7 @@ def tokyo():
                "rules": json.loads(json.dumps(rules))})
     return {
         "code": "HND", "name": "Tokyo", "country": "Jepun", "duration": "5D4N",
+        "po": "Ezie",  # Project PT sheet, "Current PO"; editable on the page
         "nights": 4, "source": "PT_HND_RD_reformatted.xlsx",
         "note": "Standard: Qayyum for 2–7 pax, WIF for 8+. JPY rates convert at their supplier FX; accommodation is in MYR.",
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
