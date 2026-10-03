@@ -152,7 +152,14 @@ function variantCost(d, v, pax) {
   return { comps, total: num(total) ? total : NaN, ok: comps.every(c => num(c.perPax)) };
 }
 const assignedVariantId = (pkg, pax) => (pkg.assign.find(a => pax >= a.from && pax <= a.to) || {}).variant;
-function applyRule(rule, base) {
+// rule.on = component keys the % applies to; the other components are charged in full
+// (Aceh, Beijing: CWB = 75% × Ground + tipping/activities).
+function applyRule(rule, base, cost) {
+  if (rule && rule.type === "pct" && rule.on && rule.on.length) {
+    if (!cost || !num(base)) return NaN;
+    const on = cost.comps.filter(c => rule.on.includes(c.key)).reduce((s, c) => s + c.perPax, 0);
+    return base - on + on * +rule.value;
+  }
   if (!rule || !num(base)) return NaN;
   const v = +rule.value;
   return rule.type === "pct" ? base * v : rule.type === "minus" ? base - v : v;
@@ -173,9 +180,9 @@ function priceRow(d, pkg, variantId, pax) {
   return {
     pax, variant: v, cost,
     adult: mk(adultCost, priceAt(pkg, "adult", pax)),
-    cwb: mk(applyRule(r.cwbCost, adultCost), priceAt(pkg, "cwb", pax)),
-    cnb: mk(applyRule(r.cnbCost, adultCost), priceAt(pkg, "cnb", pax)),
-    infant: mk(applyRule(r.infantCost, adultCost), +pkg.pricing.infant, true),
+    cwb: mk(applyRule(r.cwbCost, adultCost, cost), priceAt(pkg, "cwb", pax)),
+    cnb: mk(applyRule(r.cnbCost, adultCost, cost), priceAt(pkg, "cnb", pax)),
+    infant: mk(applyRule(r.infantCost, adultCost, cost), +pkg.pricing.infant, true),
   };
 }
 function marginClass(p) {
@@ -230,14 +237,20 @@ function lastUpdate(d, pkgId) {
   const es = HISTORY.entries.filter(e => (e.changes || []).some(hit)).sort((a, b) => b.v - a.v);
   return es[0] || [...HISTORY.entries].sort((a, b) => a.v - b.v)[0] || null;
 }
+function filterHub() {
+  const q = (SEL.hubQ || "").trim().toLowerCase();
+  for (const tr of document.querySelectorAll(".hub tbody tr")) tr.style.display = !q || tr.textContent.toLowerCase().includes(q) ? "" : "none";
+}
 function renderHub() {
   $("#controls").style.display = "none"; $("#kpis").innerHTML = "";
   const rows = shown().destinations.flatMap(d => d.packages.map(pkg => {
     const e = lastUpdate(d, pkg.id), href = `${ROOT}${d.code.toLowerCase()}/?pkg=${encodeURIComponent(pkg.id)}`;
-    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(pkg.label)}</a> <span class="pill nav">${esc(d.code)}</span></td><td class="l">${esc(d.po || "—")}</td>
+    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(pkg.label)}</a> <span class="pill nav">${esc(d.code)}</span><div class="muted small">${esc(d.name)} · ${esc(d.country || "")}</div></td><td class="l">${esc(d.po || "—")}</td>
       <td class="l">${e ? esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })) + (e.v > 1 ? ` <span class="muted small">v${e.v} · ${esc(e.by)}</span>` : ' <span class="muted small">import</span>') : "—"}</td></tr>`;
   })).join("");
-  $("#grid").innerHTML = `<div class="card full hub"><div class="scroll"><table><thead><tr><th>Package</th><th class="l">PO</th><th class="l">Last update</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+  $("#grid").innerHTML = `<div class="card full hub"><div class="body"><input id="hubSearch" type="search" placeholder="Search package, code or PO…" value="${esc(SEL.hubQ || "")}" autocomplete="off"></div>
+    <div class="scroll"><table><thead><tr><th>Package</th><th class="l">PO</th><th class="l">Last update</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+  filterHub();
 }
 function renderTop() {
   const src = shown();
@@ -303,7 +316,7 @@ function renderMain(d, pkg) {
   const r = pkg.rules, P = ["packages", pkg.id, "rules"], DP = ["destinations", d.code];
   const ruleTxt = (rule, key) => EDIT && !VIEW
     ? `${ed([...DP, ...P, key, "type"], rule.type, { options: [["pct", "% of adult cost"], ["minus", "adult cost − RM"], ["flat", "flat RM"]] })} ${ed([...DP, ...P, key, "value"], rule.value)}`
-    : rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of adult cost` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
+    : rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const shownLines = lines.length ? lines : [{ k: "adult", lbl: "Adult", q: 0, r: row.adult }];
   cards.push(`<div class="card" id="quote"><h2>Quote <span class="sub">${esc(pkg.label)} · ${pax} pax band</span></h2>
     <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
@@ -336,6 +349,7 @@ function renderMain(d, pkg) {
   cards.push(rateCard(d));
   $("#grid").innerHTML = cards.join("");
 }
+const onLabel = (d, keys) => keys.map(k => { for (const v of d.variants) { const c = v.components.find(x => x.key === k); if (c) return c.label; } return k; }).join(" + ");
 // Component columns for a package: union of components across the TOs it uses, in order.
 function pkgComponents(d, pkg) {
   const ids = [...new Set([...pkg.assign.map(a => a.variant), ...(SEL.variant !== "auto" ? [SEL.variant] : [])])];
@@ -351,7 +365,7 @@ function costingByPax(d, pkg, pax) {
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
   const src = pkg.pricing.source || {};
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
-  const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of adult cost` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
+  const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const isAdult = k === "adult";
   const nCols = isAdult ? 1 + comps.length + 7 : 1 + 1 + 6;
   // consecutive pax rows with the same TO form one block
@@ -363,7 +377,8 @@ function costingByPax(d, pkg, pax) {
   }
   const body = blocks.map(bl => {
     const has = new Set(bl.v ? bl.v.components.map(c => c.key) : []);
-    const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())} / ${esc(bl.v ? bl.v.label : "no TO")}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
+    const toLbl = bl.v ? bl.v.label : "no TO";
+    const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())}${toLbl.toUpperCase() === pkg.label.toUpperCase() ? "" : " / " + esc(toLbl)}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
       ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
       : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="sp">Selling Price</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Catalog</th><th>Source</th></tr>`;
@@ -414,6 +429,16 @@ function addonCard(d) {
     ${t.n ? `<tr class="total"><td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
     </tbody></table></div></div>`;
 }
+function tableGroups(d) {
+  const g = new Map();
+  for (const t of d.tables) { const k = t.group || "Per-pax rates"; if (!g.has(k)) g.set(k, []); g.get(k).push(t); }
+  return [...g.entries()];
+}
+// tables used by the TO currently shown, so its block opens by default
+function inUseTables(d) {
+  const pkg = curPkg(d), v = d.variants.find(x => x.id === activeVariantId(pkg, bandPax()));
+  return new Set(v ? v.components.map(c => (c.expr.match(/T\['([^']+)'\]/) || [])[1]).filter(Boolean) : []);
+}
 function rateCard(d) {
   const DP = ["destinations", d.code];
   const groups = {};
@@ -421,16 +446,16 @@ function rateCard(d) {
   const isAdmin = SESSION && SESSION.role === "admin";
   return `<details class="card full ratecard"${EDIT && !VIEW ? " open" : ""}><summary><b>Rate card</b> <span class="muted small">FX, rates, formulas · source ${esc(d.source)}${EDIT && !VIEW ? "" : " · log in → Edit costs to change"}</span></summary>
   ${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}
-  <div class="body small">
+  ${d.rates.length ? `<div class="body small">
     <b>FX</b> ${d.fx.filter(f => !f.locked).map(f => `· ${esc(f.label)} ${ed([...DP, "fx", f.id, "value"], f.value)}`).join(" ")}
     &nbsp;&nbsp; <b>Nights</b> ${ed([...DP, "nights"], d.nights)}
-  </div>
-  <details class="sec" open><summary>Rates (${d.rates.length})</summary><div class="scroll"><table><thead><tr><th>Item</th><th class="l">Group</th><th>Rate</th><th class="l">Unit</th><th class="l">FX</th><th>= MYR</th></tr></thead><tbody>
+  </div>` : `<div class="body small muted">Costs per pax in RM, by TO and component, from the R&D CR tab.</div>`}
+  ${d.rates.length ? `<details class="sec" open><summary>Rates (${d.rates.length})</summary><div class="scroll"><table><thead><tr><th>Item</th><th class="l">Group</th><th>Rate</th><th class="l">Unit</th><th class="l">FX</th><th>= MYR</th></tr></thead><tbody>
     ${Object.entries(groups).map(([g, list]) => list.map(r => `<tr><td>${esc(r.label)}</td><td class="l muted">${esc(g)}</td><td>${ed([...DP, "rates", r.id, "value"], r.value, { display: n2(r.value) })}</td><td class="l muted">${esc(r.unit)}</td><td class="l muted">${esc(r.fx)}</td><td>${rm(r.value * fxOf(d, r.fx), 2)}</td></tr>`).join("")).join("")}
-  </tbody></table></div></details>
-  ${d.tables.length ? `<details class="sec" open><summary>Per-pax rate tables (${d.tables.length})</summary><div class="scroll" style="max-height:420px;overflow-y:auto"><table><thead><tr><th>Pax</th>${d.tables.map(t => `<th>${esc(t.label)}<br><span class="muted">${esc(t.unit)}</span></th>`).join("")}</tr></thead><tbody>
-    ${[...new Set(d.tables.flatMap(t => Object.keys(t.values)))].map(Number).sort((a, b) => a - b).map(p => `<tr><td>${p}</td>${d.tables.map(t => `<td>${t.values[String(p)] === undefined ? '<span class="muted">—</span>' : ed([...DP, "tables", t.id, "values", String(p)], t.values[String(p)], { display: n2(t.values[String(p)]) })}</td>`).join("")}</tr>`).join("")}
   </tbody></table></div></details>` : ""}
+  ${tableGroups(d).map(([g, ts]) => `<details class="sec"${ts.some(t => inUseTables(d).has(t.id)) ? " open" : ""}><summary>${esc(g)} <span class="muted small">per pax, RM</span></summary><div class="scroll" style="max-height:420px;overflow-y:auto"><table><thead><tr><th>Pax</th>${ts.map(t => `<th>${esc(t.label.replace(g + " · ", ""))}</th>`).join("")}</tr></thead><tbody>
+    ${[...new Set(ts.flatMap(t => Object.keys(t.values)))].map(Number).sort((a, b) => a - b).map(p => `<tr><td>${p}</td>${ts.map(t => `<td>${t.values[String(p)] === undefined ? '<span class="muted">—</span>' : ed([...DP, "tables", t.id, "values", String(p)], t.values[String(p)], { display: n2(t.values[String(p)]) })}</td>`).join("")}</tr>`).join("")}
+  </tbody></table></div></details>`).join("")}
   <details class="sec"><summary>TO formulas &amp; pax coverage${isAdmin ? "" : " (admin edits)"}</summary><div class="scroll"><table><thead><tr><th>TO</th><th class="l">Component</th><th class="l">Formula (group total unless per pax)</th></tr></thead><tbody>
     ${d.variants.map(v => v.components.map((c, i) => `<tr><td>${i ? "" : `<b>${esc(v.id)}</b><br><span class="muted small">pax ${v.paxMin}–${v.paxMax}</span>`}</td><td class="l">${esc(c.label)}</td><td class="l" style="min-width:320px">${isAdmin && EDIT && !VIEW ? ed([...DP, "variants", v.id, "components", c.key, "expr"], c.expr, { text: true }) : `<span class="expr">${esc(c.expr)}</span>`}</td></tr>`).join("")).join("")}
   </tbody></table></div>
@@ -443,11 +468,14 @@ function histEntry(e) {
   if (PAGE_DEST && e.changes) e = { ...e, changes: e.changes.filter(c => c.path[1] === PAGE_DEST) };
   return `<div class="e"><div class="h"><span class="pill nav">v${e.v}</span><b>${esc(e.by)}</b><span class="muted small">${esc(fmtDate(e.at))}</span>
     <span class="small">${esc(e.note || "")}</span>
-    <span style="margin-left:auto">${e.v !== DATA.version ? `<button class="btn" data-view="${e.v}">View v${e.v}</button>` : '<span class="pill ok">current</span>'}</span></div>
+    <span style="margin-left:auto">${e.v === DATA.version ? '<span class="pill ok">current</span>' : e.v < lastRebase() ? '<span class="pill grey" title="Before a re-import from the R&D files; open the R&D workbook history instead">before re-import</span>' : `<button class="btn" data-view="${e.v}">View v${e.v}</button>`}</span></div>
     ${e.changes && e.changes.length ? `<ul>${e.changes.slice(0, 12).map(c => `<li>${esc(c.label || describe(src, c.path))}: <span class="from">${esc(showVal(c.from))}</span> → <span class="to">${esc(showVal(c.to))}</span></li>`).join("")}${e.changes.length > 12 ? `<li class="muted">+ ${e.changes.length - 12} more</li>` : ""}</ul>` : ""}</div>`;
 }
 
 /* ============================================================ versions */
+// A re-import (history entry with rebase:true) replaces whole destinations, so versions
+// before it cannot be rebuilt from the change log.
+const lastRebase = () => Math.max(0, ...HISTORY.entries.filter(e => e.rebase).map(e => e.v));
 function snapshotAt(v) {
   const snap = clone(DATA === BASE ? DATA : BASE);
   for (const e of [...HISTORY.entries].sort((a, b) => b.v - a.v)) {
@@ -729,6 +757,7 @@ document.addEventListener("keydown", e => {
   if (e.key === "Escape") closeModal();
   if (e.key === "Enter" && $("#lp") && document.activeElement && ["lu", "lp"].includes(document.activeElement.id)) doLogin();
 });
+document.addEventListener("input", e => { if (e.target.id === "hubSearch") { SEL.hubQ = e.target.value; filterHub(); } });
 document.addEventListener("change", e => {
   const t = e.target;
   if (t.dataset && t.dataset.addon) { SEL.addonQty[t.dataset.addon] = Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }

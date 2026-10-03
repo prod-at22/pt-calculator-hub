@@ -129,3 +129,5 @@ details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
 .grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
 #quote th,#quote td{padding:7px 8px}
 @media (max-width:1100px){.grid{grid-template-columns:1fr}}
+#hubSearch{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px 11px}
+.hub .body{border-bottom:1px solid var(--line)}

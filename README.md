@@ -10,13 +10,12 @@ pax (Adult / CWB / CNB / Infant) and see
 - **Costing by pax**: per pax, A + B + C + … (each component) = Cost, Cost + Margin = Selling, for pax 2–30,
 - **Add-ons** from the R&D Add-Ons tab: cost, selling price, margin. Enter a qty to add them to the group total.
 
-Hub: `https://prod-at22.github.io/pt-calculator-hub/`. Each destination has its own link by code:
+Hub: `https://prod-at22.github.io/pt-calculator-hub/` — every package with its PO and last
+update, searchable. Each destination has its own link by code in lowercase, e.g.
+`/sel/`, `/seljju/`, `/hnd/`, `/kix/`, `/dps/`, `/mle/`, `/ltoba/` (Medan Lake Toba).
 
-| Code | Link |
-|---|---|
-| SEL | `https://prod-at22.github.io/pt-calculator-hub/sel/` |
-| SELJJU | `https://prod-at22.github.io/pt-calculator-hub/seljju/` |
-| HND | `https://prod-at22.github.io/pt-calculator-hub/hnd/` |
+36 destinations are live. **Krabi (KBV)** is not yet: its cost depends on hotel × season ×
+day-3 choice (13 hotels), which needs a hotel selector on the page.
 
 The hub lists every package with its PO and last update date. PO per destination: Korea (SEL, SELJJU) Aiman, Jepun (HND) Thania; change it on the destination page when there is a handover.
 
@@ -40,12 +39,36 @@ old → new value. Any old version can be viewed and restored.
 
 ## Where the numbers come from
 
-- **Cost**: the R&D workbook CR tab (`PT_SEL_RD_reformatted.xlsx`, `PT_HND_RD_reformatted.xlsx`), rebuilt
-  as components. Seoul = ATK package rate per pax + K-ETA + ATK profit. Tokyo = the Raw Costing
-  rates (JPY or MYR) × quantity × FX, exactly as the CR formulas do.
-- **Selling price**: the Catalog PT site (`catalog-pt-public`). Pax counts the catalog does not print
-  (e.g. 16–30) come from the R&D Costing tab and are tagged **R&D** in the price list.
-- **Rules** (CWB/CNB/infant cost, discount tier 2, tier upgrade): R&D Costing tab header cells.
+- **Tokyo (HND)** is built rate by rate from the R&D Raw Costing (JPY rates × FX), so editing
+  one supplier rate updates every pax count (`tools/build_data.py`).
+- **Every other destination** comes from its R&D workbook in
+  `~/Downloads/PT DESTINASI R&D REFORMAT/<DESTINATION>/` (newest `*reformat*` file) through
+  `tools/extract_rd.py`:
+  - cost components per pax = the CR tab columns (group totals are divided by pax);
+  - catalog, selling, margin and child rules = the Costing tab, **computed by the workbook
+    itself**: for each TO the script sets `PILIH TO` (Phuket: the hotel / package / season
+    selectors), recalculates with LibreOffice and reads the result;
+  - every TO × pax × Adult/CWB/CNB row is re-computed the way the page does and must match the
+    R&D; `tests/truth/<CODE>.json` keeps those R&D numbers and `tests/test_calc.js` checks the
+    page against them.
+- Selling = R&D catalog + tier upgrade − discount tier 2, exactly as the Costing tab.
+- Where the R&D has a catalog price but no cost (e.g. Seoul Self Tour 13–30 pax), the page
+  shows the cost as missing instead of the R&D's RM0 / 100% margin.
+- Child rules: % of adult cost, adult cost − RM, or (Aceh, Aceh-Sabang, Beijing) % of Ground
+  only with tipping/activities charged in full.
+
+### Re-importing after the R&D changes
+
+```bash
+git pull                                  # live data.json = source of truth
+python3 tools/extract_rd.py --work /tmp/ptx            # all, or --only SEL DPS
+python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND --by <you> --note "<why>"
+cp /tmp/ptx/truth/*.json tests/truth/ && python3 tools/make_pages.py
+node tests/test_calc.js tests/truth.json
+```
+
+A re-import replaces whole destinations, so it is logged as one version marked
+"re-import"; older versions of those destinations cannot be opened cell by cell afterwards.
 
 ## Editing (POs)
 
@@ -90,12 +113,8 @@ Only **admins** can edit TO formulas (Rate card → *TO formulas & pax coverage*
 
 ## Adding the next destination
 
-The data model is the same for every destination: `fx`, `rates`, `tables` (per-pax cost rows),
-`variants` (one per TO/variant, a list of cost components) and `packages` (catalog prices, rules
-and which TO covers which pax range). Add a function for it in `tools/build_data.py` that reads
-that R&D workbook, run the tests against a recalculated copy of the workbook, then merge the new
-destination into the **live** `data/data.json` from the repo, not a fresh build, so existing
-edits are kept. Then run `python3 tools/make_pages.py` to create its `/<code>/` page.
+Add its R&D folder to `DESTS` (and `PO`, `COUNTRY`) in `tools/extract_rd.py`, then follow
+*Re-importing* above with `--only <CODE>`.
 
 ## Verifying
 
@@ -112,8 +131,8 @@ node tests/test_calc.js tests/truth.json
   sheet itself warns the package rate may already include profit. If so, set *ATK profit* to 0.
 - **Seoul Self Tour** costs are marked *estimated* in the R&D sheet, and it has no published catalog.
 - **Tokyo Standard** at 2 pax shows 7% margin (cost RM5,579 vs selling RM5,997 after the tier-2 discount).
-- **Seoul - Jeju**: the catalog prices are RM300 higher than the R&D Costing tab at every pax and
-  pax type (e.g. 2 pax adult RM6,197 vs RM5,897). The calculator uses the catalog.
+- **Seoul - Jeju**: the catalog site prices are RM300 higher than the R&D Costing tab at every pax
+  and pax type (e.g. 2 pax adult RM6,197 vs RM5,897). The calculator follows the R&D.
 - **Seoul add-ons** have selling prices but no cost in the R&D sheet (shown as *cost?*).
 - **Seoul - Jeju add-on "Tolak 1 malam 3★"**: cost +150 but selling −150, so margin shows −RM300.
   The cost should probably be −150.

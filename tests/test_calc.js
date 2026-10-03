@@ -86,6 +86,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   const { w, doc, errors } = await boot(repo);
   const P = w.PTCALC, D = P.DATA;
   const HND = () => byCode(P.DATA, "HND");
+  const V0 = D.version;   // versions below are relative to the data we start from
 
   console.log("1. costs match the R&D CR tab");
   if (TRUTH) {
@@ -101,7 +102,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
           for (const [k, val] of Object.entries(t.comps)) {
             const comp = c && c.comps.find(x => x.key === k);
             const got = comp ? comp.group : 0;
-            const exp = code !== "HND" ? val * +pax : (val || 0);   // ATK (SEL, SELJJU) CR columns are per pax; HND are group totals
+            const exp = val || 0;   // HND CR columns are group totals
             ok(near(got, exp), `${code} ${to} pax ${pax} ${k}: ${got} vs ${exp}`);
           }
           checked++;
@@ -111,10 +112,32 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     console.log("   checked", checked, "TO × pax rows");
   } else console.log("   (skipped: pass truth.json)");
 
+  console.log("1b. every destination: page numbers = R&D Costing tab (tests/truth/*.json)");
+  {
+    let rows = 0, gaps = 0;
+    for (const f of fs.readdirSync(path.join(__dirname, "truth"))) {
+      const t = JSON.parse(fs.readFileSync(path.join(__dirname, "truth", f), "utf8"));
+      const d = byCode(D, t.code);
+      ok(d, `${t.code} is in data.json`); if (!d) continue;
+      for (const pkg of d.packages) for (const a of pkg.assign) {
+        const to = t.variants[a.variant];
+        for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, cat, sell]] of Object.entries(t.rows[to][k] || {})) {
+          const p = +pax;
+          if (p < a.from || p > a.to || typeof sell !== "number") continue;
+          const r = P.priceRow(d, pkg, a.variant, p)[k];
+          if (!(typeof r.cost === "number" && isFinite(r.cost)) && (c === 0 || typeof c !== "number")) { gaps++; continue; } // R&D has no cost
+          rows++;
+          ok(near(r.cost, c, 0.6) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+        }
+      }
+    }
+    console.log("   checked", rows, "rows across", fs.readdirSync(path.join(__dirname, "truth")).length, "destinations;", gaps, "R&D rows without cost");
+  }
+
   console.log("2. selling / margin rules");
   {
-    const sel = D.destinations.find(x => x.code === "SEL"), b = sel.packages.find(p => p.id === "basic");
-    const r = P.priceRow(sel, b, "ATK-PT-BSC", 2);
+    const sel = D.destinations.find(x => x.code === "SEL"), b = sel.packages.find(p => p.id === "atk-bsc");
+    const r = P.priceRow(sel, b, "ATK-BSC", 2);
     ok(r.adult.catalog === 3497 && r.adult.selling === 3497, "Seoul Basic 2 pax adult catalog/selling 3497");
     ok(near(r.cwb.cost, r.adult.cost * 0.75), "Seoul CWB cost = 75% adult");
     ok(near(r.cnb.cost, r.adult.cost * 0.5), "Seoul CNB cost = 50% adult");
@@ -206,36 +229,36 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(doc.querySelector(".err-t").textContent.includes("note"), "note is required");
     doc.querySelector("#saveNote").value = "WIF 2027 airport rate";
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 3), "saved as v3");
+    ok(await until(() => P.BASE.version === V0 + 1), "saved as V0+1");
     const remote = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    ok(remote.version === 3 && remote.updatedBy === "aiman", "repo data.json v3 by aiman");
+    ok(remote.version === V0 + 1 && remote.updatedBy === "aiman", "repo data.json V0+1 by aiman");
     ok(byCode(remote,'HND').rates.find(r => r.id === "hnd7").value === 18000, "repo has new rate");
     const hist = JSON.parse(repo.files(repo.head)["data/history.json"]);
-    const e = hist.entries.find(x => x.v === 3);
-    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry v3 with readable label");
-    ok(repo.log.at(-1).startsWith("v3 · aiman: WIF 2027"), "one commit with version message");
+    const e = hist.entries.find(x => x.v === V0 + 1);
+    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry V0+1 with readable label");
+    ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: WIF 2027`), "one commit with version message");
     click(w, doc.querySelector("#btnHistory")); await tick(5);
-    ok(doc.querySelector("#modalRoot").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#modalRoot").textContent.includes("PO handover"), "History shows both versions' notes");
-    const snap = P.snapshotAt(2);
-    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "v2 rebuilt from change log");
-    click(w, doc.querySelector('[data-view="2"]')); await tick(5);
-    ok(doc.querySelector("#banners").textContent.includes("Read-only: version 2"), "viewing v2 banner");
+    ok(doc.querySelector("#modalRoot").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#modalRoot").textContent.includes("Added destinations"), "History shows the notes");
+    const snap = P.snapshotAt(V0);
+    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "V0 rebuilt from change log");
+    click(w, doc.querySelector(`[data-view="${V0}"]`)); await tick(5);
+    ok(doc.querySelector("#banners").textContent.includes(`Read-only: version ${V0}`), "viewing V0 banner");
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
-    ok(doc.querySelector("#saveNote").value === "Restore to v2", "restore pre-fills note");
+    ok(doc.querySelector("#saveNote").value === `Restore to v${V0}`, "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 4), "restore saved as v4");
-    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to v2");
+    ok(await until(() => P.BASE.version === V0 + 2), "restore saved as V0+2");
+    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to V0");
   }
 
   console.log("7. concurrent saves");
   {
     // someone else saves v4 changing the Qayyum FX
     const other = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    byCode(other,'HND').fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = 5;
+    byCode(other,'HND').fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = V0 + 3;
     const oh = JSON.parse(repo.files(repo.head)["data/history.json"]);
-    oh.entries.push({ v: 5, at: new Date().toISOString(), by: "ezie", note: "fx", changes: [{ path: ["destinations", "HND", "fx", "QAYYUM", "value"], from: 0.0259, to: 0.026 }] });
+    oh.entries.push({ v: V0 + 3, at: new Date().toISOString(), by: "ezie", note: "fx", changes: [{ path: ["destinations", "HND", "fx", "QAYYUM", "value"], from: 0.0259, to: 0.026 }] });
     let [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(other) }, { path: "data/history.json", content: JSON.stringify(oh) }] }, "Bearer tok-valid");
-    let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v5 other" }, "Bearer tok-valid");
+    let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     // we (still on v3) edit a different cell
     click(w, doc.querySelector("#btnEdit")); await tick(5);
@@ -244,13 +267,13 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "ropeway price";
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === 6), "different cell → replayed on top, saved v6");
+    ok(await until(() => P.BASE.version === V0 + 4), "different cell → replayed on top, saved V0+4");
     const r5 = JSON.parse(repo.files(repo.head)["data/data.json"]);
     ok(byCode(r5,'HND').fx.find(f => f.id === "QAYYUM").value === 0.026 && byCode(r5,'HND').rates.find(r => r.id === "kachi").value === 1100, "both users' edits kept");
     // same cell clash
-    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = 7;
+    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = V0 + 5;
     [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(o2) }] }, "Bearer tok-valid");
-    [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v7 other" }, "Bearer tok-valid");
+    [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other 2" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     const inp2 = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
@@ -311,28 +334,41 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     setVal(w, doc.querySelector(`input.aq[data-addon="${a.id}"]`), "0"); await tick(5);
     const sel = byCode(P.DATA, "SEL");
     ok(sel.addons.length === 13 && sel.addons.filter(x => x.cost === null).length === 12, "Seoul add-ons keep missing cost as null, not 0");
+    const aceh = byCode(P.DATA, "ACEH"), ap = aceh.packages[0], ar = P.priceRow(aceh, ap, ap.assign[0].variant, 2);
+    const ground = ar.cost.comps.find(c => c.key === "ground-cost").perPax;
+    ok(near(ar.cwb.cost, ar.adult.cost - ground + 0.75 * ground), "Aceh CWB cost = 75% of Ground + tipping in full");
   }
 
   console.log("8d. hub and other destination pages");
   {
     const hub = await boot(repo, "");
     const links = [...hub.doc.querySelectorAll("#grid a")].map(a => a.getAttribute("href"));
-    ok(["sel/?pkg=basic", "sel/?pkg=standard", "seljju/?pkg=standard", "hnd/?pkg=standard"].every(l => links.includes(l)), "hub links per package: " + links.join(","));
+    ok(["sel/?pkg=atk-bsc", "sel/?pkg=atk-std", "seljju/?pkg=atk-std", "hnd/?pkg=standard", "mle/?pkg=mle-basic-low", "phu/?pkg=ktt-ibis-standard-lowseason"].every(l => links.includes(l)), "hub links per package");
     const hubRows = [...hub.doc.querySelectorAll("#grid tbody tr")];
-    ok(hubRows.length === 7, "hub: one row per package (7), got " + hubRows.length);
+    const nPkg = P.DATA.destinations.reduce((s, d) => s + d.packages.length, 0);
+    ok(hubRows.length === nPkg && nPkg > 100, `hub: one row per package (${nPkg}), got ${hubRows.length}`);
+    const srch = hub.doc.querySelector("#hubSearch"); srch.value = "maldives"; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
+    const vis = hubRows.filter(r => r.style.display !== "none");
+    ok(vis.length === byCode(P.DATA, "MLE").packages.length, "hub search 'maldives' shows only Maldives packages (" + vis.length + ")");
+    srch.value = ""; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
     ok(hubRows.every(r => r.children.length === 3 && r.children[1].textContent.trim() !== "" && /\d{4}/.test(r.children[2].textContent)), "hub rows = package | PO | last update");
     const hndStd = hubRows.find(r => r.textContent.includes("Tokyo Standard"));
     ok(/v\d+ · /.test(hndStd.children[2].textContent), "Tokyo Standard last update shows the saved version: " + hndStd.children[2].textContent.trim());
-    const deep = await boot(repo, "sel/", "?pkg=standard");
-    ok(deep.doc.querySelector("#selPkg").value === "standard", "sel/?pkg=standard opens Seoul Standard");
+    const deep = await boot(repo, "sel/", "?pkg=atk-std");
+    ok(deep.doc.querySelector("#selPkg").value === "atk-std", "sel/?pkg=atk-std opens Seoul Standard");
     ok(/PO\s*Aiman/.test(deep.doc.querySelector("#controls").textContent), "Seoul page shows PO Aiman");
     const hubPO = [...hub.doc.querySelectorAll("#grid tbody tr")].map(r => r.children[1].textContent.trim());
-    ok(hubPO.filter(x => x === "Aiman").length === 4 && hubPO.filter(x => x === "Thania").length === 3, "hub PO: 4 Korea packages Aiman, 3 Tokyo Thania: " + hubPO.join(","));
+    const poCount = n => P.DATA.destinations.filter(d => d.po === n).reduce((s, d) => s + d.packages.length, 0);
+    ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/");
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
-    ok(sj.doc.querySelector("#kpis").textContent.includes("RM6,197"), "Seoul-Jeju 2 pax selling RM6,197 (catalog)");
+    ok(sj.doc.querySelector("#kpis").textContent.includes("RM5,897"), "Seoul-Jeju 2 pax selling RM5,897 (R&D)");
+    for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
+      const pg = await boot(repo, code + "/");
+      ok(pg.doc.querySelector("#costPax") && pg.errors.length === 0, `/${code}/ renders without errors ` + pg.errors.join("|"));
+    }
     ok(sj.errors.length === 0, "seljju errors: " + sj.errors.join("|"));
     fs.mkdirSync(path.join(ROOT, "zzz"), { recursive: true });
     fs.writeFileSync(path.join(ROOT, "zzz", "index.html"), fs.readFileSync(path.join(ROOT, "hnd", "index.html"), "utf8").replace('"HND"', '"ZZZ"'));
