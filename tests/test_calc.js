@@ -41,11 +41,14 @@ function mockRepo(files, validTokens) {
   return repo;
 }
 
-async function boot(repo) {
-  const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
+// page = "" (hub) or "hnd/" etc. app.js / app.css are inlined because jsdom does not fetch them.
+async function boot(repo, page = "hnd/") {
+  const html = fs.readFileSync(path.join(ROOT, page, "index.html"), "utf8")
+    .replace(/<script src="[^"]*app\.js"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
+    .replace(/<link rel="stylesheet"[^>]*>/, "");
   const errors = [];
   const dom = new JSDOM(html, {
-    url: "https://prod-at22.github.io/pt-calculator-hub/", runScripts: "dangerously", pretendToBeVisual: true,
+    url: "https://prod-at22.github.io/pt-calculator-hub/" + page, runScripts: "dangerously", pretendToBeVisual: true,
     beforeParse(w) {
       Object.defineProperty(w, "crypto", { value: globalThis.crypto });
       w.TextEncoder = TextEncoder; w.TextDecoder = TextDecoder;
@@ -57,7 +60,7 @@ async function boot(repo) {
           return mk(s, j);
         }
         // GitHub Pages serves the current head of the repo
-        const rel = String(url).split("?")[0];
+        const rel = new URL(String(url), w.location.href).pathname.replace("/pt-calculator-hub/", "");
         const f = repo.files(repo.head)[rel];
         return f === undefined ? mk(404, {}) : { ok: true, status: 200, json: async () => JSON.parse(f) };
       };
@@ -69,6 +72,7 @@ async function boot(repo) {
   for (let i = 0; i < 100 && !w.PTCALC?.DATA; i++) await tick(20);
   return { w, doc: w.document, errors };
 }
+const byCode = (data, c) => data.destinations.find(d => d.code === c);
 const tick = ms => new Promise(r => setTimeout(r, ms));
 async function until(fn, ms = 15000) { const t = Date.now(); while (Date.now() - t < ms) { if (fn()) return true; await tick(25); } return false; }
 function fire(w, el, type) { el.dispatchEvent(new w.Event(type, { bubbles: true })); }
@@ -81,6 +85,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   const repo = mockRepo(files, ["tok-valid", "tok-new"]);
   const { w, doc, errors } = await boot(repo);
   const P = w.PTCALC, D = P.DATA;
+  const HND = () => byCode(P.DATA, "HND");
 
   console.log("1. costs match the R&D CR tab");
   if (TRUTH) {
@@ -96,7 +101,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
           for (const [k, val] of Object.entries(t.comps)) {
             const comp = c && c.comps.find(x => x.key === k);
             const got = comp ? comp.group : 0;
-            const exp = code === "SEL" ? val * +pax : (val || 0);   // SEL CR columns are per pax; HND are group totals
+            const exp = code !== "HND" ? val * +pax : (val || 0);   // ATK (SEL, SELJJU) CR columns are per pax; HND are group totals
             ok(near(got, exp), `${code} ${to} pax ${pax} ${k}: ${got} vs ${exp}`);
           }
           checked++;
@@ -127,7 +132,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
 
   console.log("3. UI: destination / package / auto TO by pax");
   {
-    setVal(w, doc.querySelector("#selDest"), "HND"); await tick(5);
+    ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     setVal(w, doc.querySelector("#pax_adult"), "6"); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("QAYYUM-STD"), "6 pax → Qayyum");
@@ -136,7 +141,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(doc.querySelector("#kpis").textContent.includes("RM3,697"), "8 pax selling RM3,697 shown (3897 − 200)");
     setVal(w, doc.querySelector("#pax_cwb"), "2"); setVal(w, doc.querySelector("#pax_infant"), "1"); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF-STD"), "8 adult + 2 CWB = band 10 → WIF-STD");
-    const rows = doc.querySelectorAll("#grid table")[1].querySelectorAll("tbody tr");
+    const rows = doc.querySelectorAll("#grid .card")[1].querySelectorAll("tbody tr");
     ok(rows.length === 5, "selling table has 4 pax types + total");
     ok(doc.querySelectorAll("tr[data-variant]").length >= 2, "TO comparison lists more than one TO at 10 pax");
     click(w, doc.querySelector('tr[data-variant="WIF-BSC"]')); await tick(5);
@@ -187,13 +192,13 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   console.log("6. edit → save v2 → history → view v1 → restore v3");
   let before;
   {
-    setVal(w, doc.querySelector("#selDest"), "HND"); setVal(w, doc.querySelector("#selPkg"), "basic"); setVal(w, doc.querySelector("#pax_adult"), "2"); await tick(5);
-    before = P.priceRow(P.DATA.destinations[1], P.DATA.destinations[1].packages[0], "WIF-BSC", 2).adult.cost;
+    setVal(w, doc.querySelector("#selPkg"), "basic"); setVal(w, doc.querySelector("#pax_adult"), "2"); await tick(5);
+    before = P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost;
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "hnd7", "value"]));
     ok(inp, "Haneda 7-seater rate is editable");
     setVal(w, inp, "18000"); await tick(10);
-    const after = P.priceRow(P.DATA.destinations[1], P.DATA.destinations[1].packages[0], "WIF-BSC", 2).adult.cost;
+    const after = P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost;
     ok(near(after - before, 2 * 1000 * 0.029 / 2), "cost/pax rises by 2×¥1000×0.029÷2 pax");
     ok(doc.querySelector("#btnSave")?.textContent.includes("(1)"), "save button shows 1 change");
     click(w, doc.querySelector("#btnSave")); await tick(5);
@@ -204,28 +209,28 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(await until(() => P.BASE.version === 2), "saved as v2");
     const remote = JSON.parse(repo.files(repo.head)["data/data.json"]);
     ok(remote.version === 2 && remote.updatedBy === "aiman", "repo data.json v2 by aiman");
-    ok(remote.destinations[1].rates.find(r => r.id === "hnd7").value === 18000, "repo has new rate");
+    ok(byCode(remote,'HND').rates.find(r => r.id === "hnd7").value === 18000, "repo has new rate");
     const hist = JSON.parse(repo.files(repo.head)["data/history.json"]);
     const e = hist.entries.find(x => x.v === 2);
     ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry v2 with readable label");
     ok(repo.log.at(-1).startsWith("v2 · aiman: WIF 2027"), "one commit with version message");
     ok(doc.querySelector("#histCard").textContent.includes("WIF 2027 airport rate"), "history card shows note");
     const snap = P.snapshotAt(1);
-    ok(snap.destinations[1].rates.find(r => r.id === "hnd7").value === 17000, "v1 rebuilt from change log");
+    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "v1 rebuilt from change log");
     click(w, doc.querySelector('[data-view="1"]')); await tick(5);
     ok(doc.querySelector("#banners").textContent.includes("Read-only: version 1"), "viewing v1 banner");
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
     ok(doc.querySelector("#saveNote").value === "Restore to v1", "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === 3), "restore saved as v3");
-    ok(near(P.priceRow(P.DATA.destinations[1], P.DATA.destinations[1].packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to v1");
+    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to v1");
   }
 
   console.log("7. concurrent saves");
   {
     // someone else saves v4 changing the Qayyum FX
     const other = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    other.destinations[1].fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = 4;
+    byCode(other,'HND').fx.find(f => f.id === "QAYYUM").value = 0.026; other.version = 4;
     const oh = JSON.parse(repo.files(repo.head)["data/history.json"]);
     oh.entries.push({ v: 4, at: new Date().toISOString(), by: "ezie", note: "fx", changes: [{ path: ["destinations", "HND", "fx", "QAYYUM", "value"], from: 0.0259, to: 0.026 }] });
     let [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(other) }, { path: "data/history.json", content: JSON.stringify(oh) }] }, "Bearer tok-valid");
@@ -240,9 +245,9 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === 5), "different cell → replayed on top, saved v5");
     const r5 = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    ok(r5.destinations[1].fx.find(f => f.id === "QAYYUM").value === 0.026 && r5.destinations[1].rates.find(r => r.id === "kachi").value === 1100, "both users' edits kept");
+    ok(byCode(r5,'HND').fx.find(f => f.id === "QAYYUM").value === 0.026 && byCode(r5,'HND').rates.find(r => r.id === "kachi").value === 1100, "both users' edits kept");
     // same cell clash
-    const o2 = JSON.parse(JSON.stringify(r5)); o2.destinations[1].rates.find(r => r.id === "kachi").value = 1200; o2.version = 6;
+    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = 6;
     [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(o2) }] }, "Bearer tok-valid");
     [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "v6 other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
@@ -253,7 +258,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     doc.querySelector("#saveNote").value = "clash";
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => doc.querySelector(".err-t")?.textContent.includes("same cells")), "same-cell clash is refused, not overwritten");
-    ok(JSON.parse(repo.files(repo.head)["data/data.json"]).destinations[1].rates.find(r => r.id === "kachi").value === 1200, "other user's value untouched");
+    ok(byCode(JSON.parse(repo.files(repo.head)["data/data.json"]),"HND").rates.find(r => r.id === "kachi").value === 1200, "other user's value untouched");
     click(w, doc.querySelector("[data-close]"));
   }
 
@@ -263,6 +268,61 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(!doc.querySelector("#doAdd"), "editor has no Add user");
     click(w, doc.querySelector("[data-close]"));
     ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"expr"')), "editor cannot edit formulas");
+  }
+
+  console.log("8b. costing by pax: A+B+... = cost, cost + margin = selling");
+  {
+    setVal(w, doc.querySelector("#selPkg"), "standard"); setVal(w, doc.querySelector("#selVar"), "auto"); await tick(5);
+    click(w, doc.querySelector('#costPax [data-tab="adult"]')); await tick(5);
+    const heads = [...doc.querySelectorAll("#costPax thead th")].map(t => t.textContent);
+    ok(heads.includes("A") && heads.includes("F") && heads.includes("= Cost"), "letter columns A..F + Cost: " + heads.join("|"));
+    const num = t => parseFloat(t.replace(/[^\d.\-−]/g, "").replace("−", "-"));
+    let rowsChecked = 0;
+    for (const tr of doc.querySelectorAll("#costPax tbody tr")) {
+      const td = [...tr.children].map(x => x.textContent);
+      const nComp = heads.indexOf("= Cost") - 2;
+      const parts = td.slice(2, 2 + nComp).map(x => x.trim() === "·" ? 0 : num(x));
+      const cost = num(td[2 + nComp]), margin = num(td[3 + nComp]), selling = num(td[4 + nComp]);
+      ok(Math.abs(parts.reduce((a, b) => a + b, 0) - cost) < 0.05, `pax ${td[0]}: ${parts.join("+")} = ${cost}`);
+      ok(Math.abs(cost + margin - selling) < 1, `pax ${td[0]}: ${cost} + ${margin} = ${selling}`);
+      rowsChecked++;
+    }
+    ok(rowsChecked >= 29, "costing rows 2–30 present (" + rowsChecked + ")");
+    const qRow = [...doc.querySelectorAll("#costPax tbody tr")].find(r => r.dataset.pax === "2");
+    ok(qRow.children[6].textContent.trim() === "·" && qRow.children[7].textContent.trim() === "·", "Qayyum rows show · for WIF-only components (E guide, F WIF charge)");
+    click(w, doc.querySelector('#costPax [data-tab="cnb"]')); await tick(5);
+    ok(doc.querySelector("#costPax thead").textContent.includes("adult − RM1,200"), "CNB tab shows its cost rule");
+  }
+
+  console.log("8c. add-ons");
+  {
+    const hnd = HND(), a = hnd.addons.find(x => x.label.startsWith("Disneyland/Disneysea (2 pax)"));
+    ok(a && a.cost === 754 && a.selling === 800, "Disneyland 2 pax add-on transcribed");
+    const before = doc.querySelector("#kpis").textContent;
+    const q = doc.querySelector(`input.aq[data-addon="${a.id}"]`); setVal(w, q, "2"); await tick(5);
+    ok(doc.querySelector("#addons .total").textContent.includes("RM1,600.00") && doc.querySelector("#addons .total").textContent.includes("RM92.00"), "2 × Disneyland = RM1,600 selling, RM92 margin");
+    ok(doc.querySelector("#kpis").textContent.includes("1 add-on") && doc.querySelector("#kpis").textContent !== before, "group total includes add-on");
+    setVal(w, doc.querySelector(`input.aq[data-addon="${a.id}"]`), "0"); await tick(5);
+    const sel = byCode(P.DATA, "SEL");
+    ok(sel.addons.length === 13 && sel.addons.filter(x => x.cost === null).length === 12, "Seoul add-ons keep missing cost as null, not 0");
+  }
+
+  console.log("8d. hub and other destination pages");
+  {
+    const hub = await boot(repo, "");
+    const links = [...hub.doc.querySelectorAll("#grid a.btn")].map(a => a.getAttribute("href"));
+    ok(["sel/", "seljju/", "hnd/"].every(l => links.includes(l)), "hub links to sel/ seljju/ hnd/: " + links.join(","));
+    ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
+    ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
+    const sj = await boot(repo, "seljju/");
+    ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
+    ok(sj.doc.querySelector("#kpis").textContent.includes("RM6,197"), "Seoul-Jeju 2 pax selling RM6,197 (catalog)");
+    ok(sj.errors.length === 0, "seljju errors: " + sj.errors.join("|"));
+    fs.mkdirSync(path.join(ROOT, "zzz"), { recursive: true });
+    fs.writeFileSync(path.join(ROOT, "zzz", "index.html"), fs.readFileSync(path.join(ROOT, "hnd", "index.html"), "utf8").replace('"HND"', '"ZZZ"'));
+    const bad = await boot(repo, "zzz/");
+    fs.rmSync(path.join(ROOT, "zzz"), { recursive: true });
+    ok(bad.doc.querySelector("#grid").textContent.includes("No destination with code ZZZ"), "unknown code shows a message");
   }
 
   console.log("9. no runtime errors");

@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "version": 1,
- "updatedAt": "2026-10-02T22:18:13+08:00",
+ "updatedAt": "2026-10-03T21:45:44+08:00",
  "updatedBy": "system",
  "settings": {
   "marginWarnPct": 0.15,
@@ -15,6 +15,125 @@
    "duration": "5D4N",
    "nights": 4,
    "source": "PT_SEL_RD_reformatted.xlsx",
+   "addons": [
+    {
+     "id": "sel-a01",
+     "category": "Activity",
+     "label": "Hanbok Rental @ Gyeongbok",
+     "cost": null,
+     "selling": 80.0,
+     "per": "pax",
+     "notes": "Basic attire 4 jam (BSC+STD PDF)"
+    },
+    {
+     "id": "sel-a02",
+     "category": "Theme Park",
+     "label": "Everland Ticket",
+     "cost": null,
+     "selling": 140.0,
+     "per": "pax",
+     "notes": "Entrance only"
+    },
+    {
+     "id": "sel-a03",
+     "category": "Theme Park",
+     "label": "Lotte World Seoul Ticket",
+     "cost": null,
+     "selling": 100.0,
+     "per": "pax",
+     "notes": "Entrance only"
+    },
+    {
+     "id": "sel-a04",
+     "category": "Theme Park",
+     "label": "Snowyland Ticket",
+     "cost": null,
+     "selling": 150.0,
+     "per": "pax",
+     "notes": "Entrance only"
+    },
+    {
+     "id": "sel-a05",
+     "category": "Transport BSC",
+     "label": "Everland (Private Transport)",
+     "cost": null,
+     "selling": 1400.0,
+     "per": "per transport",
+     "notes": "Driver only (Basic PDF)"
+    },
+    {
+     "id": "sel-a06",
+     "category": "Transport BSC",
+     "label": "Vivaldi Ski Park (Private Transport)",
+     "cost": null,
+     "selling": 1400.0,
+     "per": "per transport",
+     "notes": "Driver only"
+    },
+    {
+     "id": "sel-a07",
+     "category": "Transport BSC",
+     "label": "Seoul City (Private Transport)",
+     "cost": null,
+     "selling": 1200.0,
+     "per": "per transport",
+     "notes": "Driver only"
+    },
+    {
+     "id": "sel-a08",
+     "category": "Transport BSC",
+     "label": "Upgrade English Driving Guide",
+     "cost": null,
+     "selling": 390.0,
+     "per": "per hari",
+     "notes": "Day-rate upgrade"
+    },
+    {
+     "id": "sel-a09",
+     "category": "Swap STD",
+     "label": "Everland (D2/D3/D4 swap)",
+     "cost": null,
+     "selling": 160.0,
+     "per": "pax",
+     "notes": "Transport+guide+entrance"
+    },
+    {
+     "id": "sel-a10",
+     "category": "Swap STD",
+     "label": "Vivaldi Ski Park (2 pax)",
+     "cost": null,
+     "selling": 290.0,
+     "per": "pax",
+     "notes": "Transport+guide (excl Snowyland)"
+    },
+    {
+     "id": "sel-a11",
+     "category": "Swap STD",
+     "label": "Vivaldi Ski Park (3+ pax)",
+     "cost": null,
+     "selling": 240.0,
+     "per": "pax",
+     "notes": "Tier murah per PDF"
+    },
+    {
+     "id": "sel-a12",
+     "category": "Documentation",
+     "label": "K-ETA Application",
+     "cost": 0.0,
+     "selling": 0.0,
+     "per": "pax",
+     "notes": "Complimentary 1x (Malaysian)"
+    },
+    {
+     "id": "sel-a13",
+     "category": "Documentation",
+     "label": "K-ETA Re-Application",
+     "cost": null,
+     "selling": 70.0,
+     "per": "pax",
+     "notes": "Selepas guna 1x percuma"
+    }
+   ],
    "note": "CR note: ATK package rate usually already includes ATK profit. If so, set ATK profit (USD) to 0 to avoid double-counting.",
    "fx": [
     {
@@ -58,7 +177,7 @@
    "tables": [
     {
      "id": "ATK-PT-BSC",
-     "label": "Ground cost ATK-PT-BSC",
+     "label": "Ground ATK-PT-BSC",
      "unit": "MYR/pax",
      "fx": "MYR",
      "group": "ATK package rate (Ground)",
@@ -96,7 +215,7 @@
     },
     {
      "id": "ATK-PT-STD",
-     "label": "Ground cost ATK-PT-STD",
+     "label": "Ground ATK-PT-STD",
      "unit": "MYR/pax",
      "fx": "MYR",
      "group": "ATK package rate (Ground)",
@@ -134,7 +253,7 @@
     },
     {
      "id": "ATK-ST",
-     "label": "Ground cost ATK-ST",
+     "label": "Ground ATK-ST",
      "unit": "MYR/pax",
      "fx": "MYR",
      "group": "ATK package rate (Ground)",
@@ -931,6 +1050,649 @@
        "28": 1597.0,
        "29": 1597.0,
        "30": 1597.0
+      }
+     },
+     "rules": {
+      "cwbCost": {
+       "type": "pct",
+       "value": 0.75
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 0.5
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 0
+      },
+      "discountTier2": 0,
+      "tierUpgrade": 0
+     }
+    }
+   ]
+  },
+  {
+   "code": "SELJJU",
+   "name": "Seoul - Jeju",
+   "country": "Korea",
+   "duration": "6D5N",
+   "nights": 5,
+   "source": "PT_SLJJ_RD_reformatted.xlsx",
+   "addons": [
+    {
+     "id": "seljju-a01",
+     "category": "Accommodation",
+     "label": "Tambah 1 malam 3★/Airbnb (Normal)",
+     "cost": 150.0,
+     "selling": 250.0,
+     "per": "pax/malam",
+     "notes": null
+    },
+    {
+     "id": "seljju-a02",
+     "category": "Accommodation",
+     "label": "Tambah 1 malam 3★/Airbnb (Peak)",
+     "cost": 150.0,
+     "selling": 340.0,
+     "per": "pax/malam",
+     "notes": null
+    },
+    {
+     "id": "seljju-a03",
+     "category": "Accommodation",
+     "label": "Tambah 1 malam 3★/Airbnb (Super Peak)",
+     "cost": 200.0,
+     "selling": 390.0,
+     "per": "pax/malam",
+     "notes": null
+    },
+    {
+     "id": "seljju-a04",
+     "category": "Accommodation",
+     "label": "Tolak 1 malam 3★ dari pakej",
+     "cost": 150.0,
+     "selling": -150.0,
+     "per": "pax/malam",
+     "notes": "Tolak"
+    },
+    {
+     "id": "seljju-a05",
+     "category": "Accommodation",
+     "label": "Tambah 1 malam 4★",
+     "cost": 350.0,
+     "selling": 400.0,
+     "per": "pax/malam",
+     "notes": null
+    },
+    {
+     "id": "seljju-a06",
+     "category": "Meals",
+     "label": "Tambah Sarapan",
+     "cost": 40.0,
+     "selling": 40.0,
+     "per": "pax/meal",
+     "notes": null
+    },
+    {
+     "id": "seljju-a07",
+     "category": "Meals",
+     "label": "Tambah Lunch",
+     "cost": 40.0,
+     "selling": 50.0,
+     "per": "pax/meal",
+     "notes": null
+    },
+    {
+     "id": "seljju-a08",
+     "category": "Meals",
+     "label": "Tambah Dinner",
+     "cost": 40.0,
+     "selling": 50.0,
+     "per": "pax/meal",
+     "notes": null
+    },
+    {
+     "id": "seljju-a09",
+     "category": "Activity",
+     "label": "Hanbok Rental @ Gyeongbok",
+     "cost": 52.0,
+     "selling": 80.0,
+     "per": "pax",
+     "notes": "Exclude extra equipment"
+    },
+    {
+     "id": "seljju-a10",
+     "category": "Domestic Flight",
+     "label": "Flight Seoul↔Jeju (sehala)",
+     "cost": 250.0,
+     "selling": 300.0,
+     "per": "pax/sehala",
+     "notes": "15kg+7kg. Return dah incl pakej"
+    },
+    {
+     "id": "seljju-a11",
+     "category": "Airport Transfer",
+     "label": "Airport↔Hotel 1-6 pax",
+     "cost": 290.0,
+     "selling": 360.0,
+     "per": "transport/sehala",
+     "notes": null
+    },
+    {
+     "id": "seljju-a12",
+     "category": "Airport Transfer",
+     "label": "Airport↔Hotel 7-9 pax",
+     "cost": 580.0,
+     "selling": 700.0,
+     "per": "transport/sehala",
+     "notes": null
+    },
+    {
+     "id": "seljju-a13",
+     "category": "Tour Guide",
+     "label": "Korean English Guide",
+     "cost": 800.0,
+     "selling": 1297.0,
+     "per": "hari (10 jam)",
+     "notes": "Extra hour 30K-60K KRW cash"
+    },
+    {
+     "id": "seljju-a14",
+     "category": "Day Tour",
+     "label": "Driving Guide Seoul 1-9 pax",
+     "cost": 923.0,
+     "selling": 1200.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "seljju-a15",
+     "category": "Day Tour",
+     "label": "Driving Guide Jeju 1-9 pax",
+     "cost": 1055.0,
+     "selling": 1200.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "seljju-a16",
+     "category": "Day Tour",
+     "label": "Driving Guide Nami Island",
+     "cost": 1055.0,
+     "selling": 1400.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "seljju-a17",
+     "category": "Day Tour",
+     "label": "Driving Guide Everland",
+     "cost": 1055.0,
+     "selling": 1400.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "seljju-a18",
+     "category": "Visa",
+     "label": "K-ETA",
+     "cost": 27.0,
+     "selling": 35.0,
+     "per": "pax",
+     "notes": "Included 1x. Re-apply RM70"
+    },
+    {
+     "id": "seljju-a19",
+     "category": "Takaful",
+     "label": "TripCare 360 Individual (1-5 hari)",
+     "cost": 40.5,
+     "selling": 64.0,
+     "per": "pax",
+     "notes": "Etiqa Area 2"
+    },
+    {
+     "id": "seljju-a20",
+     "category": "Takaful",
+     "label": "TripCare 360 Individual (6-10 hari)",
+     "cost": 58.87,
+     "selling": 88.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a21",
+     "category": "Takaful",
+     "label": "TripCare 360 Couple (1-5 hari)",
+     "cost": 77.25,
+     "selling": 113.0,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a22",
+     "category": "Takaful",
+     "label": "TripCare 360 Couple (6-10 hari)",
+     "cost": 122.87,
+     "selling": 160.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a23",
+     "category": "Takaful",
+     "label": "TripCare 360 Family (1-5 hari)",
+     "cost": 100.12,
+     "selling": 143.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a24",
+     "category": "Takaful",
+     "label": "TripCare 360 Family (6-10 hari)",
+     "cost": 153.62,
+     "selling": 201.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a25",
+     "category": "Takaful",
+     "label": "TripCare 360 Senior (1-5 hari)",
+     "cost": 141.62,
+     "selling": 185.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a26",
+     "category": "Takaful",
+     "label": "TripCare 360 Senior (6-10 hari)",
+     "cost": 201.62,
+     "selling": 265.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "seljju-a27",
+     "category": "WiFi",
+     "label": "Pocket WiFi 3GB 4G Harian",
+     "cost": 40.0,
+     "selling": 70.0,
+     "per": "hari",
+     "notes": "RoamingMan"
+    },
+    {
+     "id": "seljju-a28",
+     "category": "WiFi",
+     "label": "Pocket WiFi 10GB 5G Harian",
+     "cost": 65.0,
+     "selling": 120.0,
+     "per": "hari",
+     "notes": "RoamingMan"
+    },
+    {
+     "id": "seljju-a29",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Silver",
+     "cost": 14.5,
+     "selling": 20.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "seljju-a30",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Gold",
+     "cost": 29.0,
+     "selling": 40.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "seljju-a31",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Platinum",
+     "cost": 44.0,
+     "selling": 55.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "seljju-a32",
+     "category": "Luggage Tracker",
+     "label": "Blue Ribbon Diamond",
+     "cost": 58.0,
+     "selling": 70.0,
+     "per": "unit",
+     "notes": null
+    }
+   ],
+   "note": "CR note: ATK package rate usually already includes ATK profit. If so, set ATK profit (USD) to 0 to avoid double-counting.",
+   "fx": [
+    {
+     "id": "MYR",
+     "label": "MYR",
+     "value": 1,
+     "locked": true
+    },
+    {
+     "id": "USD",
+     "label": "USD → MYR",
+     "value": 3.9676
+    }
+   ],
+   "rates": [
+    {
+     "id": "tipping",
+     "label": "Tipping (bundled in ground)",
+     "value": 0,
+     "fx": "MYR",
+     "unit": "MYR/pax",
+     "group": "Per-pax add-ons"
+    },
+    {
+     "id": "keta",
+     "label": "K-ETA",
+     "value": 27,
+     "fx": "MYR",
+     "unit": "MYR/pax",
+     "group": "Per-pax add-ons"
+    },
+    {
+     "id": "atkProfit",
+     "label": "ATK profit",
+     "value": 70,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "Per-pax add-ons"
+    }
+   ],
+   "tables": [
+    {
+     "id": "ATK-PT-STD",
+     "label": "Ground ATK-PT-STD",
+     "unit": "MYR/pax",
+     "fx": "MYR",
+     "group": "ATK package rate (Ground)",
+     "values": {
+      "2": 4641,
+      "3": 3642,
+      "4": 3143,
+      "5": 2843,
+      "6": 2788,
+      "7": 2624,
+      "8": 2502,
+      "9": 2985,
+      "10": 2851,
+      "11": 2741,
+      "12": 2650,
+      "13": 2639,
+      "14": 2568,
+      "15": 2507,
+      "16": 2453,
+      "17": 2563,
+      "18": 2512,
+      "19": 2466,
+      "20": 2425,
+      "21": 2388,
+      "22": 2354,
+      "23": 2323,
+      "24": 2295,
+      "25": 2269,
+      "26": 2250,
+      "27": 2235,
+      "28": 2220,
+      "29": 2208,
+      "30": 2196
+     }
+    }
+   ],
+   "variants": [
+    {
+     "id": "ATK-PT-STD",
+     "label": "ATK · PT Standard",
+     "supplier": "ATK (ARBA Travel Korea)",
+     "paxMin": 2,
+     "paxMax": 30,
+     "hotel": "Seoul 3★ Migliore / Jeju 3★ Parkside",
+     "notes": "Full tour, domestic flight incl",
+     "components": [
+      {
+       "key": "ground",
+       "label": "Ground (ATK package rate)",
+       "per": "pax",
+       "expr": "T['ATK-PT-STD']"
+      },
+      {
+       "key": "tipping",
+       "label": "Tipping",
+       "per": "pax",
+       "expr": "R.tipping"
+      },
+      {
+       "key": "keta",
+       "label": "K-ETA",
+       "per": "pax",
+       "expr": "R.keta"
+      },
+      {
+       "key": "profit",
+       "label": "ATK profit",
+       "per": "pax",
+       "expr": "R.atkProfit"
+      }
+     ]
+    }
+   ],
+   "packages": [
+    {
+     "id": "standard",
+     "label": "Seoul - Jeju Standard 6D5N",
+     "catalog": {
+      "slug": "seoul-jeju",
+      "title": "PRIVATE TOUR SEOUL - JEJU STANDARD",
+      "version": "v2",
+      "updated": "2026-08-10",
+      "valid_until": "31 December 2026",
+      "url": "https://prod-at22.github.io/catalog-pt-public/seoul-jeju.html"
+     },
+     "assign": [
+      {
+       "from": 2,
+       "to": 30,
+       "variant": "ATK-PT-STD"
+      }
+     ],
+     "pricing": {
+      "infant": 200.0,
+      "source": {
+       "adult": {
+        "2": "catalog",
+        "3": "catalog",
+        "4": "catalog",
+        "5": "catalog",
+        "6": "catalog",
+        "7": "catalog",
+        "8": "catalog",
+        "9": "catalog",
+        "10": "catalog",
+        "11": "catalog",
+        "12": "catalog",
+        "13": "catalog",
+        "14": "catalog",
+        "15": "catalog",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cwb": {
+        "2": "catalog",
+        "3": "catalog",
+        "4": "catalog",
+        "5": "catalog",
+        "6": "catalog",
+        "7": "catalog",
+        "8": "catalog",
+        "9": "catalog",
+        "10": "catalog",
+        "11": "catalog",
+        "12": "catalog",
+        "13": "catalog",
+        "14": "catalog",
+        "15": "catalog",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       },
+       "cnb": {
+        "2": "catalog",
+        "3": "catalog",
+        "4": "catalog",
+        "5": "catalog",
+        "6": "catalog",
+        "7": "catalog",
+        "8": "catalog",
+        "9": "catalog",
+        "10": "catalog",
+        "11": "catalog",
+        "12": "catalog",
+        "13": "catalog",
+        "14": "catalog",
+        "15": "catalog",
+        "16": "rd",
+        "17": "rd",
+        "18": "rd",
+        "19": "rd",
+        "20": "rd",
+        "21": "rd",
+        "22": "rd",
+        "23": "rd",
+        "24": "rd",
+        "25": "rd",
+        "26": "rd",
+        "27": "rd",
+        "28": "rd",
+        "29": "rd",
+        "30": "rd"
+       }
+      },
+      "adult": {
+       "2": 6197.0,
+       "3": 5197.0,
+       "4": 4697.0,
+       "5": 4397.0,
+       "6": 4397.0,
+       "7": 4197.0,
+       "8": 4097.0,
+       "9": 4397.0,
+       "10": 4397.0,
+       "11": 4097.0,
+       "12": 4097.0,
+       "13": 4097.0,
+       "14": 3997.0,
+       "15": 3997.0,
+       "16": 3647.0,
+       "17": 3647.0,
+       "18": 3647.0,
+       "19": 3647.0,
+       "20": 3647.0,
+       "21": 3597.0,
+       "22": 3597.0,
+       "23": 3597.0,
+       "24": 3597.0,
+       "25": 3597.0,
+       "26": 3547.0,
+       "27": 3547.0,
+       "28": 3547.0,
+       "29": 3547.0,
+       "30": 3547.0
+      },
+      "cwb": {
+       "2": 5997.0,
+       "3": 4997.0,
+       "4": 4497.0,
+       "5": 4197.0,
+       "6": 4197.0,
+       "7": 3997.0,
+       "8": 3897.0,
+       "9": 4197.0,
+       "10": 4197.0,
+       "11": 3897.0,
+       "12": 3897.0,
+       "13": 3897.0,
+       "14": 3797.0,
+       "15": 3797.0,
+       "16": 3447.0,
+       "17": 3447.0,
+       "18": 3447.0,
+       "19": 3447.0,
+       "20": 3447.0,
+       "21": 3397.0,
+       "22": 3397.0,
+       "23": 3397.0,
+       "24": 3397.0,
+       "25": 3397.0,
+       "26": 3347.0,
+       "27": 3347.0,
+       "28": 3347.0,
+       "29": 3347.0,
+       "30": 3347.0
+      },
+      "cnb": {
+       "2": 5797.0,
+       "3": 4797.0,
+       "4": 4297.0,
+       "5": 3997.0,
+       "6": 3997.0,
+       "7": 3797.0,
+       "8": 3697.0,
+       "9": 3997.0,
+       "10": 3997.0,
+       "11": 3697.0,
+       "12": 3697.0,
+       "13": 3697.0,
+       "14": 3597.0,
+       "15": 3597.0,
+       "16": 3247.0,
+       "17": 3247.0,
+       "18": 3247.0,
+       "19": 3247.0,
+       "20": 3247.0,
+       "21": 3197.0,
+       "22": 3197.0,
+       "23": 3197.0,
+       "24": 3197.0,
+       "25": 3197.0,
+       "26": 3147.0,
+       "27": 3147.0,
+       "28": 3147.0,
+       "29": 3147.0,
+       "30": 3147.0
       }
      },
      "rules": {
@@ -2015,6 +2777,332 @@
       "discountTier2": 200,
       "tierUpgrade": 0
      }
+    }
+   ],
+   "addons": [
+    {
+     "id": "hnd-a01",
+     "category": "Activity",
+     "label": "Disneyland/Disneysea (2 pax)",
+     "cost": 754.0,
+     "selling": 800.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a02",
+     "category": "Activity",
+     "label": "Disneyland/Disneysea (3 pax)",
+     "cost": 619.0,
+     "selling": 700.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a03",
+     "category": "Activity",
+     "label": "Disneyland/Disneysea (4-9 pax)",
+     "cost": 552.0,
+     "selling": 600.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a04",
+     "category": "Activity",
+     "label": "Gala Yuzawa Ski (2 pax)",
+     "cost": 1552.0,
+     "selling": 1697.0,
+     "per": "trip",
+     "notes": "Shinkansen"
+    },
+    {
+     "id": "hnd-a05",
+     "category": "Activity",
+     "label": "Gala Yuzawa Ski (3 pax)",
+     "cost": 1226.0,
+     "selling": 1357.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a06",
+     "category": "Activity",
+     "label": "Gala Yuzawa Ski (5-6 pax)",
+     "cost": 965.0,
+     "selling": 1097.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a07",
+     "category": "Activity",
+     "label": "1 Day Tokyo Train Experience (2 pax)",
+     "cost": 665.0,
+     "selling": 850.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a08",
+     "category": "Tour",
+     "label": "Tokyo City Day Tour (2 pax)",
+     "cost": 648.0,
+     "selling": 750.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "hnd-a09",
+     "category": "Tour",
+     "label": "Tokyo City Day Tour (4-6 pax)",
+     "cost": 324.0,
+     "selling": 400.0,
+     "per": "transport",
+     "notes": null
+    },
+    {
+     "id": "hnd-a10",
+     "category": "Tour",
+     "label": "Fuji Tour (2 pax)",
+     "cost": 215.0,
+     "selling": 849.0,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a11",
+     "category": "Tour",
+     "label": "Tokyo + Ghibli/Hello Kitty/HP (2 pax)",
+     "cost": 44.0,
+     "selling": 678.0,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a12",
+     "category": "Activity",
+     "label": "Kimono & Samurai Rental @ Iyashi No Sato",
+     "cost": 70.0,
+     "selling": 100.0,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a13",
+     "category": "Tour",
+     "label": "Private Tour Guide (10 hours)",
+     "cost": 750.0,
+     "selling": 1100.0,
+     "per": "day",
+     "notes": null
+    },
+    {
+     "id": "hnd-a14",
+     "category": "Wifi",
+     "label": "Pocket Wifi 3GB 4G",
+     "cost": 65.0,
+     "selling": 120.0,
+     "per": "trip",
+     "notes": null
+    },
+    {
+     "id": "hnd-a15",
+     "category": "Wifi",
+     "label": "Pocket Wifi 10GB 5G Daily",
+     "cost": 40.0,
+     "selling": 70.0,
+     "per": "day",
+     "notes": null
+    },
+    {
+     "id": "hnd-a16",
+     "category": "Takaful",
+     "label": "TripCare 360 — Individual (1-5 hari)",
+     "cost": 40.5,
+     "selling": 64.0,
+     "per": "pax",
+     "notes": "Etiqa Area 2"
+    },
+    {
+     "id": "hnd-a17",
+     "category": "Takaful",
+     "label": "TripCare 360 — Individual (6-10 hari)",
+     "cost": 58.87,
+     "selling": 88.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a18",
+     "category": "Takaful",
+     "label": "TripCare 360 — Couple (1-5 hari)",
+     "cost": 77.25,
+     "selling": 113.0,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a19",
+     "category": "Takaful",
+     "label": "TripCare 360 — Couple (6-10 hari)",
+     "cost": 122.87,
+     "selling": 160.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a20",
+     "category": "Takaful",
+     "label": "TripCare 360 — Family (1-5 hari)",
+     "cost": 100.12,
+     "selling": 143.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a21",
+     "category": "Takaful",
+     "label": "TripCare 360 — Family (6-10 hari)",
+     "cost": 153.62,
+     "selling": 201.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a22",
+     "category": "Takaful",
+     "label": "TripCare 360 — Senior (1-5 hari)",
+     "cost": 141.62,
+     "selling": 185.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a23",
+     "category": "Takaful",
+     "label": "TripCare 360 — Senior (6-10 hari)",
+     "cost": 201.62,
+     "selling": 265.5,
+     "per": "pax",
+     "notes": null
+    },
+    {
+     "id": "hnd-a24",
+     "category": "Luggage",
+     "label": "Blue Ribbon — Silver",
+     "cost": 14.5,
+     "selling": 20.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "hnd-a25",
+     "category": "Luggage",
+     "label": "Blue Ribbon — Gold",
+     "cost": 29.0,
+     "selling": 40.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "hnd-a26",
+     "category": "Luggage",
+     "label": "Blue Ribbon — Platinum",
+     "cost": 44.0,
+     "selling": 55.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "hnd-a27",
+     "category": "Luggage",
+     "label": "Blue Ribbon — Diamond",
+     "cost": 58.0,
+     "selling": 70.0,
+     "per": "unit",
+     "notes": null
+    },
+    {
+     "id": "hnd-a28",
+     "category": "Meals",
+     "label": "Breakfast — Tambah",
+     "cost": 87.0,
+     "selling": 116.0,
+     "per": "meal/pax",
+     "notes": "From WIF B2B ¥3000/breakfast × FX"
+    },
+    {
+     "id": "hnd-a29",
+     "category": "Meals",
+     "label": "Breakfast — Tolak",
+     "cost": -87.0,
+     "selling": -116.0,
+     "per": "meal/pax",
+     "notes": "Refund 1 breakfast (jika Customer skip)"
+    },
+    {
+     "id": "hnd-a30",
+     "category": "Meals",
+     "label": "Lunch — Tambah",
+     "cost": 116.0,
+     "selling": 187.0,
+     "per": "meal/pax",
+     "notes": "¥4000/lunch × FX. Halal-approved restaurant"
+    },
+    {
+     "id": "hnd-a31",
+     "category": "Meals",
+     "label": "Lunch — Tolak",
+     "cost": -116.0,
+     "selling": -187.0,
+     "per": "meal/pax",
+     "notes": "Refund 1 lunch (Customer skip)"
+    },
+    {
+     "id": "hnd-a32",
+     "category": "Meals",
+     "label": "Dinner — Tambah",
+     "cost": 116.0,
+     "selling": 187.0,
+     "per": "meal/pax",
+     "notes": "¥4000/dinner × FX"
+    },
+    {
+     "id": "hnd-a33",
+     "category": "Meals",
+     "label": "Dinner — Tolak",
+     "cost": -116.0,
+     "selling": -187.0,
+     "per": "meal/pax",
+     "notes": "Refund 1 dinner"
+    },
+    {
+     "id": "hnd-a34",
+     "category": "Hotel",
+     "label": "Extend 1 Night (3-Star) — Tambah",
+     "cost": 261.0,
+     "selling": 348.0,
+     "per": "pax/night",
+     "notes": "¥9000-12000/pax × FX. APA/Mystays"
+    },
+    {
+     "id": "hnd-a35",
+     "category": "Hotel",
+     "label": "Reduce 1 Night — Tolak",
+     "cost": -174.0,
+     "selling": -290.0,
+     "per": "pax/night",
+     "notes": "Refund satu malam (Customer kurang stay)"
+    },
+    {
+     "id": "hnd-a36",
+     "category": "Hotel",
+     "label": "Apartment/3-Star Upgrade",
+     "cost": 261.0,
+     "selling": 300.0,
+     "per": "pax/night",
+     "notes": "PT Basic only — upgrade dari APA to Section L"
     }
    ]
   }

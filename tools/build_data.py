@@ -104,8 +104,29 @@ def merge_pricing(cat, infant, rd_by_cat, label):
 
 
 # ---------------------------------------------------------------- SEOUL
-def seoul():
-    b = wb("PT_SEL_RD_reformatted.xlsx")
+def addons(b, prefix):
+    """R&D Add-Ons tab: Category | Item | Cost_RM | Selling_RM | Margin_RM | Per | Notes.
+    A blank cost stays null (shown as missing), never 0."""
+    if "Add-Ons" not in b.sheetnames:
+        return []
+    out = []
+    for i, row in enumerate(b["Add-Ons"].iter_rows(min_row=2, values_only=True)):
+        if not row[1]:
+            continue
+        num_or_none = lambda v: float(v) if isinstance(v, (int, float)) else None
+        cost, sell = num_or_none(row[2]), num_or_none(row[3])
+        if cost is not None and sell is not None and (cost < 0) != (sell < 0) and cost and sell:
+            warnings.append("%s add-on '%s': cost %s and selling %s have opposite signs" % (prefix, row[1], cost, sell))
+        if cost is None:
+            warnings.append("%s add-on '%s': no cost in R&D" % (prefix, row[1]))
+        out.append({"id": "%s-a%02d" % (prefix.lower(), i + 1), "category": row[0], "label": row[1],
+                    "cost": cost, "selling": sell, "per": row[5], "notes": row[6]})
+    return out
+
+
+def atk(code, name, duration, nights, book, pkgs):
+    """ATK (Korea) R&D: CR = Ground per pax + Tipping + K-ETA + ATK profit."""
+    b = wb(book)
     cr = b["CR"]
     keta, profit_usd, usd = cr["D3"].value, cr["F3"].value, cr["H3"].value
     tables, variants, ranges, hotels, notes = [], [], {}, {}, {}
@@ -117,13 +138,13 @@ def seoul():
             notes.setdefault(to, row[8])
             t = next((t for t in tables if t["id"] == to), None)
             if not t:
-                t = {"id": to, "label": "Ground cost " + to, "unit": "MYR/pax",
+                t = {"id": to, "label": "Ground " + to, "unit": "MYR/pax",
                      "fx": "MYR", "group": "ATK package rate (Ground)", "values": {}}
                 tables.append(t)
             t["values"][str(int(row[0]))] = row[2]
     names = list(ranges)
     labels = {"ATK-PT-BSC": "ATK · PT Basic", "ATK-PT-STD": "ATK · PT Standard",
-              "ATK-ST": "ATK · Self Tour (estimated)"}
+              "ATK-ST": "ATK · Self Tour (estimated)", "ATK-PT-JJU": "ATK · PT Jeju"}
     for to in names:
         variants.append({
             "id": to, "label": labels.get(to, to), "supplier": "ATK (ARBA Travel Korea)",
@@ -143,9 +164,7 @@ def seoul():
              "infantCost": {"type": "flat", "value": b["Costing"]["F3"].value},
              "discountTier2": b["Costing"]["F2"].value, "tierUpgrade": b["Costing"]["H3"].value}
     pk = []
-    for pid, label, slug, to in (("basic", "Seoul Basic 5D4N", "seoul-basic", "ATK-PT-BSC"),
-                                 ("standard", "Seoul Standard 5D4N", "seoul-standard", "ATK-PT-STD"),
-                                 ("selftour", "Seoul Self Tour 5D4N", None, "ATK-ST")):
+    for pid, label, slug, to in pkgs:
         if slug:
             cat, inf, meta = catalog_prices(slug)
         else:
@@ -155,8 +174,8 @@ def seoul():
                    "pricing": merge_pricing(cat, inf, rd_for(to), label),
                    "rules": json.loads(json.dumps(rules))})
     return {
-        "code": "SEL", "name": "Seoul", "country": "Korea", "duration": "5D4N",
-        "nights": 4, "source": "PT_SEL_RD_reformatted.xlsx",
+        "code": code, "name": name, "country": "Korea", "duration": duration,
+        "nights": nights, "source": book, "addons": addons(b, code),
         "note": "CR note: ATK package rate usually already includes ATK profit. If so, set ATK profit (USD) to 0 to avoid double-counting.",
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
                {"id": "USD", "label": "USD → MYR", "value": usd}],
@@ -273,11 +292,20 @@ def tokyo():
         "fx": [{"id": "MYR", "label": "MYR", "value": 1, "locked": True},
                {"id": "WIF", "label": "WIF JPY → MYR", "value": cr["B3"].value},
                {"id": "QAYYUM", "label": "Qayyum JPY → MYR", "value": cr["B4"].value}],
-        "rates": rates, "tables": [], "variants": variants, "packages": pk}
+        "rates": rates, "tables": [], "variants": variants, "packages": pk,
+        "addons": addons(b, "HND")}
 
 
 def main():
-    dests = [seoul(), tokyo()]
+    dests = [
+        atk("SEL", "Seoul", "5D4N", 4, "PT_SEL_RD_reformatted.xlsx",
+            (("basic", "Seoul Basic 5D4N", "seoul-basic", "ATK-PT-BSC"),
+             ("standard", "Seoul Standard 5D4N", "seoul-standard", "ATK-PT-STD"),
+             ("selftour", "Seoul Self Tour 5D4N", None, "ATK-ST"))),
+        atk("SELJJU", "Seoul - Jeju", "6D5N", 5, "PT_SLJJ_RD_reformatted.xlsx",
+            (("standard", "Seoul - Jeju Standard 6D5N", "seoul-jeju", "ATK-PT-STD"),)),
+        tokyo(),
+    ]
     for w in warnings:
         print("DIFF", w)
     if "--check" in sys.argv:
