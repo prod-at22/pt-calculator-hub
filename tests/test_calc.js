@@ -338,6 +338,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(titles.length === 2 && titles[0].includes("Qayyum") && titles[1].includes("WIF · Standard"), "one block per TO: " + titles.join(" | "));
     const heads = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.children].map(t => t.textContent));
     ok(heads[0].includes("Airport transfer ×2") && heads[0].includes("Cost/Pax") && heads[0].includes("Total Gross"), "header names: " + heads[0].join("|"));
+    ok(heads[0].indexOf("Catalog Price") === heads[0].indexOf("Selling (Catalog − RM200)") - 1, "Catalog Price sits right before 'Selling (Catalog − RM200)'");
     ok(!heads[0].includes("WIF service charge") && heads[1].includes("WIF service charge"), "WIF-only columns blank in the Qayyum block");
     const n = t => { const v = t.replace(/[^\d.\-−]/g, "").replace("−", "-"); return v === "" ? 0 : parseFloat(v); };
     let checked = 0;
@@ -345,7 +346,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
       const td = [...tr.children].map(x => x.textContent.trim()), p = +td[0];
       const nComp = heads[0].indexOf("Cost/Pax") - 1;
       const sum = td.slice(1, 1 + nComp).reduce((a, x) => a + n(x), 0);
-      const cost = n(td[1 + nComp]), sell = n(td[2 + nComp]), m = n(td[3 + nComp]), gross = n(td[5 + nComp]);
+      const catEl = tr.children[2 + nComp], catIn = catEl.querySelector("input");
+      const cost = n(td[1 + nComp]), cat = catIn ? +catIn.value : n(td[2 + nComp]), sell = n(td[3 + nComp]), m = n(td[4 + nComp]), gross = n(td[6 + nComp]);
+      ok(Math.abs(cat - 200 - sell) <= 1, `pax ${p}: catalog ${cat} − 200 = selling ${sell}`);
       ok(Math.abs(sum / p - cost) <= 0.5 + nComp * 0.5 / p, `pax ${p}: ${sum}/${p} ≈ ${cost}`);
       ok(Math.abs(cost + m - sell) <= 1, `pax ${p}: ${cost} + ${m} = ${sell}`);
       ok(Math.abs(m * p - gross) <= p, `pax ${p}: ${m} × ${p} ≈ ${gross}`);

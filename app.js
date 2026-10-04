@@ -375,7 +375,7 @@ function costingSummary(d, pkg) {
   const lo = ok.reduce((a, b) => (b.r.pct < a.r.pct ? b : a)), hi = ok.reduce((a, b) => (b.r.pct > a.r.pct ? b : a));
   const at2 = rows.find(x => x.p === 2) || rows[0];
   return `<div class="summary">
-    <div><span class="l">Selling (adult, ${at2.p} pax)</span><b>${rm(at2.r.selling)}</b></div>
+    <div><span class="l">Catalog → Selling (adult, ${at2.p} pax)</span><b><span class="muted">${rm(at2.r.catalog)} →</span> ${rm(at2.r.selling)}</b><span class="small muted">${+pkg.rules.discountTier2 ? `Selling = catalog − RM${n2(+pkg.rules.discountTier2)}` : "Selling = catalog"}</span></div>
     <div><span class="l">Margin range</span><b><span class="${marginClass(lo.r.pct)}">${pct(lo.r.pct)}</span> – <span class="${marginClass(hi.r.pct)}">${pct(hi.r.pct)}</span></b></div>
     <div><span class="l">Lowest margin</span><b class="${marginClass(lo.r.pct)}">${rm(lo.r.margin)} at ${lo.p} pax</b></div>
     <div><span class="l">No TO cost</span><b class="${miss.length ? "m-bad" : "m-ok"}">${miss.length ? ranges(miss) + " pax" : "none"}</b></div>
@@ -395,7 +395,7 @@ function renderQuote(d, pkg, pax) {
   $("#kpis").innerHTML = `
     <div class="kpi paxkpi"><div class="l">Pax</div><div class="paxrow">
       ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}</div></div>
-    <div class="kpi"><div class="l">Selling / adult</div><div class="v">${rm(row.adult.selling)}</div><div class="s">${pkg.catalog ? `<a href="${esc(pkg.catalog.url)}" target="_blank" rel="noopener">Catalog</a>` : "R&amp;D price"} ${rm(row.adult.catalog)}${+pkg.rules.discountTier2 ? ` − tier-2 ${rm(+pkg.rules.discountTier2)}` : ""}</div></div>
+    <div class="kpi"><div class="l">Catalog → Selling / adult</div><div class="v"><span class="muted" style="font-weight:600">${rm(row.adult.catalog)} →</span> ${rm(row.adult.selling)}</div><div class="s">${+pkg.rules.discountTier2 ? `Selling = catalog − RM${n2(+pkg.rules.discountTier2)}` : "Selling = catalog"}</div></div>
     <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)} · cost ${rm(row.adult.cost)}</div></div>
     <div class="kpi"><div class="l">Group total · ${nPax} pax${ao.n ? ` + ${ao.n} add-on${ao.n > 1 ? "s" : ""}` : ""}</div><div class="v">${rm(tot.sell)}</div><div class="s">Margin <b class="${marginClass(tp)}">${rm(tm)} (${pct(tp)})</b>${ao.missing ? ` · <span class="m-bad">${ao.missing} add-on without cost</span>` : ""}</div></div>`;
   const cards = [];
@@ -405,10 +405,10 @@ function renderQuote(d, pkg, pax) {
     : rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const shownLines = lines.length ? lines : [{ k: "adult", lbl: "Adult", q: 0, r: row.adult }];
   cards.push(`<div class="card" id="quote"><h2>Quote <span class="sub">${esc(pkg.label)} · ${pax} pax band</span></h2>
-    <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
-    ${shownLines.map(({ lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
-    ${ao.n ? `<tr><td>Add-ons</td><td>${ao.n}</td><td></td><td></td><td></td><td></td><td>${rm(ao.sell)}</td><td>${rm(ao.sell - ao.cost)}</td></tr>` : ""}
-    <tr class="total"><td>Total</td><td>${nPax}</td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
+    <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Catalog</th><th>${esc(sellLabel(pkg))}</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
+    ${shownLines.map(({ lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td class="muted">${rm(x.catalog)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
+    ${ao.n ? `<tr><td>Add-ons</td><td>${ao.n}</td><td></td><td></td><td></td><td></td><td></td><td>${rm(ao.sell)}</td><td>${rm(ao.sell - ao.cost)}</td></tr>` : ""}
+    <tr class="total"><td>Total</td><td>${nPax}</td><td></td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
     </tbody></table></div>
     <details class="sec"${EDIT && !VIEW ? " open" : ""}><summary>Child, infant &amp; discount rules</summary><div class="body small">
       CWB cost: ${ruleTxt(r.cwbCost, "cwbCost")} · CNB cost: ${ruleTxt(r.cnbCost, "cnbCost")} · Infant cost: ${ruleTxt(r.infantCost, "infantCost")}<br>
@@ -467,6 +467,8 @@ function pkgComponents(d, pkg) {
 }
 // Same layout as the R&D sheet: one block per TO (title + header), component columns are
 // GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
+// "Selling (Catalog − RM200)" — selling is the catalog price minus the R&D tier-2 discount
+const sellLabel = pkg => +pkg.rules.discountTier2 ? `Selling (Catalog − RM${n2(+pkg.rules.discountTier2)})` : "Selling (= Catalog)";
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const comps = pkgComponents(d, pkg);
@@ -475,7 +477,8 @@ function costingByPax(d, pkg, pax) {
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
   const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const isAdult = k === "adult";
-  const nCols = isAdult ? 1 + comps.length + 7 : 1 + 1 + 6;
+  const nCols = isAdult ? 1 + comps.length + 8 : 1 + 1 + 7;
+  const up = (+pkg.rules.tierUpgrade || 0) + optionUpgrade(d, pkg, optsFor(d));
   // consecutive pax rows with the same TO form one block
   const blocks = [];
   for (const p of paxList) {
@@ -489,16 +492,17 @@ function costingByPax(d, pkg, pax) {
     const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())}${toLbl.toUpperCase() === pkg.label.toUpperCase() ? "" : " / " + esc(toLbl)}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
       ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
-      : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="sp">Selling Price</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Catalog</th><th>Source</th></tr>`;
+      : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Source</th></tr>`;
     const rows = bl.rows.map(pr => {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
         ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
       return `<tr class="click${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
-        <td><b>${int(x.cost)}</b></td><td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
+        <td><b>${int(x.cost)}</b></td>
+        <td class="cp"${up ? ` title="Includes upgrade +RM${n2(up)}"` : ""}>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog) + (up ? '<span class="muted small"> *</span>' : "") })}</td>
+        <td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
         ${isAdult ? `<td><b>${int(x.margin * p)}</b></td>` : ""}
-        <td>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog - (+pkg.rules.tierUpgrade || 0) - optionUpgrade(d, pkg, optsFor(d))) })}</td>
         <td class="c">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
     }).join("");
     return title + head + rows;
@@ -506,7 +510,7 @@ function costingByPax(d, pkg, pax) {
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
     <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling = catalog + tier upgrade − discount tier 2. Hover a component for exact RM. Click a row to quote that pax count.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} ${+pkg.rules.discountTier2 ? `Selling = Catalog Price − RM${n2(+pkg.rules.discountTier2)} (R&D tier-2 discount); margin is on the selling price.` : "Selling = Catalog Price (no discount)."}${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to quote that pax count.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;

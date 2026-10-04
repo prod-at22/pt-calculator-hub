@@ -169,3 +169,5 @@ details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
   .fxbox{justify-content:flex-start;width:100%}
   .sel-row{grid-template-columns:1fr}
 }
+table.rd th.cp{background:#fdf3d8}
+table.rd td.cp{background:#fffaf0}
