@@ -131,3 +131,41 @@ details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
 @media (max-width:1100px){.grid{grid-template-columns:1fr}}
 #hubSearch{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px 11px}
 .hub .body{border-bottom:1px solid var(--line)}
+/* ---- destination header, selectors, tabs (v6 layout) ---- */
+#controls{display:block;padding:14px 16px 0}
+.dest-top{display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.dest-top .dest-head{margin-right:auto}
+.fxbox{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.fx{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);background:#f7f9fb;border-radius:999px;padding:4px 10px;font-size:12px;color:var(--ink-soft);white-space:nowrap}
+.fx b{color:var(--ink);font-variant-numeric:tabular-nums}
+.fx .lock{font-size:11px}
+.sel-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px 14px;margin-top:12px}
+.sel-row label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--ink-soft)}
+.sel-row select{border:1px solid var(--line);border-radius:7px;padding:7px 9px;background:#fff;min-width:0}
+.tabsbar{display:flex;gap:2px;margin:12px -16px 0;padding:0 12px;border-top:1px solid var(--line);overflow-x:auto}
+.tabm{border:0;background:none;padding:10px 12px;font-weight:600;font-size:13px;color:var(--ink-soft);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.tabm.on{color:var(--navy);border-bottom-color:var(--navy)}
+.tabm:hover{color:var(--ink)}
+.summary{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.summary>div{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:9px 13px;display:flex;flex-direction:column;gap:2px}
+.summary .l{font-size:11.5px;color:var(--ink-soft);font-weight:600}
+.summary b{font-size:16px;font-variant-numeric:tabular-nums}
+.paxkpi .paxrow{margin-top:6px}
+.paxkpi input{width:100%;border:1px solid var(--line);border-radius:7px;padding:6px 8px}
+.fxline{display:flex;gap:8px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.flags td.wrap{white-space:normal;min-width:240px}
+.flags td{vertical-align:top}
+.flagbar h1{font-size:20px;margin:6px 0 8px}
+.flagbar a{font-size:12px;font-weight:600;text-decoration:none}
+.filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.filters select,.filters input{border:1px solid var(--line);border-radius:7px;padding:5px 8px}
+@media (max-width:640px){
+  .top .in{gap:6px;padding:8px 12px}
+  .top .btn{padding:4px 9px;font-size:12px}
+  #verChip{display:none}
+  .brand{font-size:15px;width:100%}
+  .summary{grid-template-columns:1fr 1fr}
+  .summary b{font-size:14px}
+  .fxbox{justify-content:flex-start;width:100%}
+  .sel-row{grid-template-columns:1fr}
+}

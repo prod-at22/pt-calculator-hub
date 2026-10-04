@@ -6,7 +6,8 @@
 const REPO = { owner: "prod-at22", name: "pt-calculator-hub", branch: "main" };
 const ROOT = window.PT_ROOT || "";          // "../" on /<code>/ pages
 const PAGE_DEST = window.PT_DEST || null;   // destination code, null on the hub
-const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json" };
+const PAGE_VIEW = window.PT_VIEW || null;   // "flags" on /flags/
+const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json", flags: "data/flags.json" };
 const KDF_ITER = 310000;
 const IDLE_LOGOUT_MS = 30 * 60 * 1000;
 
@@ -15,10 +16,12 @@ let DATA = null;      // working copy (may contain unsaved edits)
 let BASE = null;      // last loaded / saved version
 let HISTORY = { entries: [] };
 let USERS = { users: [] };
+let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {}, opt: {} };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const TABS = [["costing", "Costing"], ["quote", "Quote"], ["addons", "Add-ons"], ["rates", "Rates & FX"], ["flags", "Flags"], ["history", "History"]];
 let lastActivity = Date.now();
 
 /* ============================================================ utils */
@@ -231,6 +234,7 @@ function ed(path, value, opts = {}) {
 function render() {
   if (!DATA) return;
   renderTop(); renderBanners();
+  if (PAGE_VIEW === "flags") return renderFlagsPage();
   if (!PAGE_DEST) return renderHub();
   const d = shown().destinations.find(x => x.code === PAGE_DEST);
   if (!d) {
@@ -240,6 +244,7 @@ function render() {
   }
   SEL.dest = d.code;
   const pkg = curPkg(d); SEL.pkg = pkg.id;
+  if (!TABS.some(t => t[0] === SEL.tab)) SEL.tab = "costing";
   renderControls(d, pkg); renderMain(d, pkg);
 }
 // Hub: one row per package — name (links to its page), PO, last update.
@@ -286,6 +291,9 @@ function renderHub() {
 }
 function renderTop() {
   const src = shown();
+  const nHigh = FLAGS.flags.filter(f => f.severity === "high").length;
+  if (!$("#flagsLink")) $("#btnHistory").insertAdjacentHTML("beforebegin", `<a class="btn" id="flagsLink" href="${ROOT}flags/">Flags</a>`);
+  $("#flagsLink").innerHTML = `Flags${FLAGS.flags.length ? ` <span class="pill bad">${nHigh}</span>` : ""}`;
   $("#verChip").innerHTML = VIEW ? `Viewing v${VIEW.v}` : `v${src.version} · ${esc(fmtDate(src.updatedAt))} · ${esc(src.updatedBy)}`;
   const n = pendingChanges().length;
   $("#authArea").innerHTML = SESSION
@@ -309,23 +317,34 @@ function renderBanners() {
   if (window.__loadError) out.push(`<div class="banner err">${esc(window.__loadError)}</div>`);
   $("#banners").innerHTML = out.join("");
 }
+// FX chips: the rates the R&D used, read-only (change them in the R&D sheet, then re-import).
+function fxChips(d) {
+  const fx = (d.fx || []).filter(f => f.id !== "MYR");
+  if (!fx.length) return `<span class="fx"><span class="lock">🔒</span> MYR direct</span>`;
+  return fx.map(f => `<span class="fx" title="Locked — from ${esc(f.source || "the R&D sheet")}. Change FX in the R&D sheet, then re-import."><span class="lock">🔒</span> ${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+f.value))}</b></span>`).join("");
+}
+const flagsFor = code => FLAGS.flags.filter(f => f.code === code || (f.code === "ALL" && new RegExp("\\b" + code + "\\b").test(f.detail)));
 function renderControls(d, pkg) {
   $("#controls").style.display = "";
   const pax = bandPax(), autoId = assignedVariantId(pkg, pax);
   const e = lastUpdate(d, pkg.id);
+  const fl = flagsFor(d.code), nh = fl.filter(f => f.severity === "high").length;
   $("#controls").innerHTML = `
-    <div class="dest-head"><a href="${ROOT}">← All</a><h1>${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></h1>
-      <span class="muted small">PO ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" })}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
-    <label class="wide">Package<select id="selPkg">${d.packages.map(p => `<option value="${p.id}"${p.id === pkg.id ? " selected" : ""}>${esc(p.label)}</option>`).join("")}</select></label>
-    ${(d.options || []).map(op => { const O = optsFor(d), c = op.choices.find(x => x.id === O[op.id]), up = c && c.upgrade ? +(c.upgrade[pkg.id] || 0) : 0;
-      return `<label class="wide">${esc(op.label)}${up ? ` <span class="pill warn">catalog +RM${up}</span>` : ""}<select id="opt_${esc(op.id)}">${op.choices.map(ch => `<option value="${esc(ch.id)}"${ch.id === O[op.id] ? " selected" : ""}>${esc(ch.label)}</option>`).join("")}</select></label>`; }).join("")}
-    <label class="wide">Tour operator<select id="selVar">
-      <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto → ${esc(autoId ? (d.variants.find(v => v.id === autoId) || {}).label || autoId : "none")}</option>
-      ${d.variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
-    </select></label>
-    <div class="wide paxbox">Pax<div class="paxrow">
-      ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}
-    </div></div>`;
+    <div class="dest-top">
+      <div class="dest-head"><a href="${ROOT}">← All packages</a><h1>${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></h1>
+        <span class="muted small">PO ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" })}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
+      <div class="fxbox">${fxChips(d)}</div>
+    </div>
+    <div class="sel-row">
+      <label>Package<select id="selPkg">${d.packages.map(p => `<option value="${p.id}"${p.id === pkg.id ? " selected" : ""}>${esc(p.label)}</option>`).join("")}</select></label>
+      ${(d.options || []).map(op => { const O = optsFor(d), c = op.choices.find(x => x.id === O[op.id]), up = c && c.upgrade ? +(c.upgrade[pkg.id] || 0) : 0;
+        return `<label>${esc(op.label)}${up ? ` <span class="pill warn">catalog +RM${up}</span>` : ""}<select id="opt_${esc(op.id)}">${op.choices.map(ch => `<option value="${esc(ch.id)}"${ch.id === O[op.id] ? " selected" : ""}>${esc(ch.label)}</option>`).join("")}</select></label>`; }).join("")}
+      <label>Tour operator<select id="selVar">
+        <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto by pax${autoId ? " (" + esc((d.variants.find(v => v.id === autoId) || {}).label || autoId) + " at " + pax + ")" : ""}</option>
+        ${d.variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
+      </select></label>
+    </div>
+    <nav class="tabsbar">${TABS.map(([id, l]) => `<button class="tabm${SEL.tab === id ? " on" : ""}" data-tabmain="${id}">${l}${id === "flags" && fl.length ? ` <span class="pill ${nh ? "bad" : "warn"}">${fl.length}</span>` : ""}</button>`).join("")}</nav>`;
 }
 function hotelText(d, v) {
   const op = (d.options || []).find(o => o.id === "hotel");
@@ -335,6 +354,35 @@ function hotelText(d, v) {
 }
 function renderMain(d, pkg) {
   const pax = bandPax();
+  $("#kpis").innerHTML = "";
+  const T = SEL.tab;
+  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + costingByPax(d, pkg, pax);
+  else if (T === "quote") renderQuote(d, pkg, pax);
+  else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons in the R&D for ${esc(d.name)}.</div></div>`;
+  else if (T === "rates") $("#grid").innerHTML = rateCard(d);
+  else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
+  else if (T === "history") {
+    const es = [...HISTORY.entries].filter(touchesDest).sort((a, b) => b.v - a.v);
+    $("#grid").innerHTML = `<div class="card full"><h2>History · ${esc(d.name)} <span class="sub">${es.length} version${es.length === 1 ? "" : "s"}</span></h2><div class="hist">${es.map(histEntry).join("") || '<div class="empty">No changes yet.</div>'}</div></div>`;
+  }
+}
+// One line above the costing table: what a PO checks first.
+function costingSummary(d, pkg) {
+  const rows = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b).map(p => ({ p, r: priceRow(d, pkg, activeVariantId(pkg, p), p).adult }));
+  const ok = rows.filter(x => num(x.r.pct));
+  const miss = rows.filter(x => !num(x.r.cost)).map(x => x.p);
+  if (!ok.length) return "";
+  const lo = ok.reduce((a, b) => (b.r.pct < a.r.pct ? b : a)), hi = ok.reduce((a, b) => (b.r.pct > a.r.pct ? b : a));
+  const at2 = rows.find(x => x.p === 2) || rows[0];
+  return `<div class="summary">
+    <div><span class="l">Selling (adult, ${at2.p} pax)</span><b>${rm(at2.r.selling)}</b></div>
+    <div><span class="l">Margin range</span><b><span class="${marginClass(lo.r.pct)}">${pct(lo.r.pct)}</span> – <span class="${marginClass(hi.r.pct)}">${pct(hi.r.pct)}</span></b></div>
+    <div><span class="l">Lowest margin</span><b class="${marginClass(lo.r.pct)}">${rm(lo.r.margin)} at ${lo.p} pax</b></div>
+    <div><span class="l">No TO cost</span><b class="${miss.length ? "m-bad" : "m-ok"}">${miss.length ? ranges(miss) + " pax" : "none"}</b></div>
+  </div>`;
+}
+const ranges = ps => { const o = []; for (const p of ps) { if (o.length && p === o[o.length - 1][1] + 1) o[o.length - 1][1] = p; else o.push([p, p]); } return o.map(([a, b]) => a === b ? a : a + "–" + b).join(", "); };
+function renderQuote(d, pkg, pax) {
   const row = priceRow(d, pkg, activeVariantId(pkg, pax), pax);
   const v = row.variant;
   const types = [["adult", "Adult"], ["cwb", "Child with bed"], ["cnb", "Child no bed"], ["infant", "Infant"]];
@@ -344,15 +392,13 @@ function renderMain(d, pkg) {
   tot.sell += ao.sell; tot.cost += ao.cost;
   const tm = tot.sell - tot.cost, tp = tot.sell ? tm / tot.sell : NaN;
   const nPax = lines.reduce((s, x) => s + x.q, 0);
-  // ---- KPIs
   $("#kpis").innerHTML = `
+    <div class="kpi paxkpi"><div class="l">Pax</div><div class="paxrow">
+      ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}</div></div>
     <div class="kpi"><div class="l">Selling / adult</div><div class="v">${rm(row.adult.selling)}</div><div class="s">${pkg.catalog ? `<a href="${esc(pkg.catalog.url)}" target="_blank" rel="noopener">Catalog</a>` : "R&amp;D price"} ${rm(row.adult.catalog)}${+pkg.rules.discountTier2 ? ` − tier-2 ${rm(+pkg.rules.discountTier2)}` : ""}</div></div>
-    <div class="kpi"><div class="l">Cost / adult</div><div class="v">${rm(row.adult.cost)}</div><div class="s">${esc(v ? v.label : "No TO for " + pax + " pax")}</div></div>
-    <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)}</div></div>
+    <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)} · cost ${rm(row.adult.cost)}</div></div>
     <div class="kpi"><div class="l">Group total · ${nPax} pax${ao.n ? ` + ${ao.n} add-on${ao.n > 1 ? "s" : ""}` : ""}</div><div class="v">${rm(tot.sell)}</div><div class="s">Margin <b class="${marginClass(tp)}">${rm(tm)} (${pct(tp)})</b>${ao.missing ? ` · <span class="m-bad">${ao.missing} add-on without cost</span>` : ""}</div></div>`;
-
   const cards = [];
-  // ---- quote: only the pax types in this quote
   const r = pkg.rules, P = ["packages", pkg.id, "rules"], DP = ["destinations", d.code];
   const ruleTxt = (rule, key) => EDIT && !VIEW
     ? `${ed([...DP, ...P, key, "type"], rule.type, { options: [["pct", "% of adult cost"], ["minus", "adult cost − RM"], ["flat", "flat RM"]] })} ${ed([...DP, ...P, key, "value"], rule.value)}`
@@ -360,7 +406,7 @@ function renderMain(d, pkg) {
   const shownLines = lines.length ? lines : [{ k: "adult", lbl: "Adult", q: 0, r: row.adult }];
   cards.push(`<div class="card" id="quote"><h2>Quote <span class="sub">${esc(pkg.label)} · ${pax} pax band</span></h2>
     <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
-    ${shownLines.map(({ k, lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
+    ${shownLines.map(({ lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
     ${ao.n ? `<tr><td>Add-ons</td><td>${ao.n}</td><td></td><td></td><td></td><td></td><td>${rm(ao.sell)}</td><td>${rm(ao.sell - ao.cost)}</td></tr>` : ""}
     <tr class="total"><td>Total</td><td>${nPax}</td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
     </tbody></table></div>
@@ -368,26 +414,48 @@ function renderMain(d, pkg) {
       CWB cost: ${ruleTxt(r.cwbCost, "cwbCost")} · CNB cost: ${ruleTxt(r.cnbCost, "cnbCost")} · Infant cost: ${ruleTxt(r.infantCost, "infantCost")}<br>
       Selling = catalog + tier upgrade ${ed([...DP, ...P, "tierUpgrade"], r.tierUpgrade, { display: "RM" + n2(r.tierUpgrade) })} − discount tier 2 ${ed([...DP, ...P, "discountTier2"], r.discountTier2, { display: "RM" + n2(r.discountTier2) })} · Infant price ${ed([...DP, "packages", pkg.id, "pricing", "infant"], pkg.pricing.infant, { display: "RM" + n2(pkg.pricing.infant) })} flat
     </div></details></div>`);
-  // ---- cost breakdown for this pax
   cards.push(`<div class="card"><h2>Cost breakdown <span class="sub">${esc(v ? v.label : "—")} · ${pax} pax</span></h2>
     ${!v ? `<div class="empty">No tour operator covers ${pax} pax for this package.</div>` : !row.cost ? `<div class="empty">${esc(v.label)} only covers ${v.paxMin}–${v.paxMax} pax.</div>` : `
     <div class="scroll"><table><thead><tr><th>Component</th><th>Group</th><th>Per pax</th></tr></thead><tbody>
     ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td>${rm(c.group)}</td><td>${rm(c.perPax)}</td></tr>`).join("")}
     <tr class="total"><td>Cost</td><td>${rm(row.cost.total * pax)}</td><td>${rm(row.cost.total)}</td></tr>
     </tbody></table></div>
-    <div class="note">Hotel: ${esc(hotelText(d, v))}</div>`}
+    <div class="note">Hotel: ${esc(hotelText(d, v))}${v.notes ? `<br>${esc(v.notes)}` : ""}</div>`}
   </div>`);
-  cards.push(costingByPax(d, pkg, pax));
-  cards.push(addonCard(d));
-  // ---- TO comparison, only when there is a choice
   const cmp = d.variants.map(x => ({ x, c: variantCost(d, x, pax) })).filter(o => o.c);
-  if (cmp.length > 1) cards.push(`<div class="card full"><h2>Other tour operators at ${pax} pax <span class="sub">adult cost vs ${esc(pkg.label)} selling ${rm(row.adult.selling)}</span></h2>
+  if (cmp.length > 1) cards.push(`<div class="card full"><h2>Other tour operators at ${pax} pax <span class="sub">adult cost vs selling ${rm(row.adult.selling)}</span></h2>
     <div class="scroll"><table><thead><tr><th>Tour operator</th><th>Cost</th><th>vs in use</th><th>Margin</th><th>%</th><th></th></tr></thead><tbody>
     ${cmp.map(({ x, c }) => { const m = row.adult.selling - c.total, p = row.adult.selling ? m / row.adult.selling : NaN, inUse = v && x.id === v.id, dl = row.cost ? c.total - row.cost.total : NaN;
       return `<tr class="click${inUse ? " cur" : ""}" data-variant="${esc(x.id)}"><td>${esc(x.label)}</td><td>${rm(c.total)}</td><td>${inUse ? "—" : (num(dl) ? (dl > 0 ? "+" : "") + rm(dl) : "—")}</td><td class="${marginClass(p)}">${rm(m)}</td><td>${marginPill(p)}</td><td>${inUse ? '<span class="pill ok">in use</span>' : '<span class="muted small">use</span>'}</td></tr>`; }).join("")}
     </tbody></table></div></div>`);
-  cards.push(rateCard(d));
   $("#grid").innerHTML = cards.join("");
+}
+// Flags: cross-check of catalog, R&D sheet and calculator (tools/crosscheck.py → data/flags.json)
+const SEV = { high: "High", medium: "Medium", low: "Low" };
+function flagList(list, withDest) {
+  if (!list.length) return `<div class="card full"><div class="empty">No flags.</div></div>`;
+  const byName = c => (DATA.destinations.find(d => d.code === c) || {}).name || (c === "ALL" ? "All destinations" : c);
+  return `<div class="card full flags"><div class="scroll"><table><thead><tr><th class="l">Severity</th>${withDest ? '<th class="l">Destination</th>' : ""}<th class="l">Area</th><th class="l">Issue</th><th class="l">Suggested fix</th></tr></thead><tbody>
+    ${list.map(f => `<tr class="sev-${f.severity}"><td class="l"><span class="pill ${f.severity === "high" ? "bad" : f.severity === "medium" ? "warn" : "grey"}">${SEV[f.severity]}</span></td>
+      ${withDest ? `<td class="l">${f.code === "ALL" || !DATA.destinations.some(d => d.code === f.code) ? esc(byName(f.code)) : `<a href="${ROOT}${f.code.toLowerCase()}/#flags">${esc(byName(f.code))}</a>`} <span class="pill nav">${esc(f.code)}</span></td>` : ""}
+      <td class="l muted">${esc(f.area)}</td><td class="l wrap"><b>${esc(f.title)}</b><div class="small muted">${esc(f.detail)}</div></td><td class="l wrap small">${esc(f.fix)}</td></tr>`).join("")}
+  </tbody></table></div></div>`;
+}
+function renderFlagsPage() {
+  $("#controls").style.display = "none"; $("#kpis").innerHTML = "";
+  const po = c => (DATA.destinations.find(d => d.code === c) || {}).po || "";
+  const areas = [...new Set(FLAGS.flags.map(f => f.area))].sort(), pos = [...new Set(DATA.destinations.map(d => d.po).filter(Boolean))].sort();
+  const q = SEL.flagQ.trim().toLowerCase();
+  const list = FLAGS.flags.filter(f => SEL.flagSev[f.severity] && (!SEL.flagArea || f.area === SEL.flagArea) && (!SEL.flagPO || po(f.code) === SEL.flagPO || f.code === "ALL")
+    && (!q || (f.code + " " + f.title + " " + f.detail).toLowerCase().includes(q)));
+  const cnt = s => FLAGS.flags.filter(f => f.severity === s).length;
+  $("#grid").innerHTML = `<div class="card full"><div class="body flagbar">
+      <a href="${ROOT}">← All packages</a><h1>Flags <span class="sub muted small">catalog × R&amp;D × calculator · checked ${esc(fmtDate(FLAGS.generatedAt))} (data v${FLAGS.dataVersion || "?"})</span></h1>
+      <div class="filters">${["high", "medium", "low"].map(s => `<button class="tab${SEL.flagSev[s] ? " on" : ""}" data-sev="${s}">${SEV[s]} ${cnt(s)}</button>`).join("")}
+        <select id="flagArea"><option value="">All areas</option>${areas.map(a => `<option${a === SEL.flagArea ? " selected" : ""}>${esc(a)}</option>`).join("")}</select>
+        <select id="flagPO"><option value="">All POs</option>${pos.map(p => `<option${p === SEL.flagPO ? " selected" : ""}>${esc(p)}</option>`).join("")}</select>
+        <input id="flagQ" type="search" placeholder="Search…" value="${esc(SEL.flagQ)}"></div>
+      <div class="small muted">${list.length} shown. High = a price or cost is wrong or missing · Medium = needs a decision or the R&D and catalog disagree on coverage · Low = housekeeping.</div></div></div>` + flagList(list, true);
 }
 const onLabel = (d, keys) => keys.map(k => { for (const v of d.variants) { const c = v.components.find(x => x.key === k); if (c) return c.label; } return k; }).join(" + ");
 // Component columns for a package: union of components across the TOs it uses, in order.
@@ -484,11 +552,11 @@ function rateCard(d) {
   const groups = {};
   d.rates.forEach(r => (groups[r.group || "Rates"] ||= []).push(r));
   const isAdmin = SESSION && SESSION.role === "admin";
-  return `<details class="card full ratecard"${EDIT && !VIEW ? " open" : ""}><summary><b>Rate card</b> <span class="muted small">FX, rates, formulas · source ${esc(d.source)}${EDIT && !VIEW ? "" : " · log in → Edit costs to change"}</span></summary>
+  return `<details class="card full ratecard" open><summary><b>Rates &amp; FX</b> <span class="muted small">source ${esc(d.source)}${EDIT && !VIEW ? "" : " · log in → Edit costs to change rates"}</span></summary>
+  <div class="body fxline"><b>Exchange rate</b> ${fxChips(d)} <span class="muted small">Locked: the costs were converted at this rate in the R&D sheet. To change it, update the R&D sheet and re-import.</span></div>
   ${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}
   ${d.rates.length ? `<div class="body small">
-    <b>FX</b> ${d.fx.filter(f => !f.locked).map(f => `· ${esc(f.label)} ${ed([...DP, "fx", f.id, "value"], f.value)}`).join(" ")}
-    &nbsp;&nbsp; <b>Nights</b> ${ed([...DP, "nights"], d.nights)}
+    <b>Nights</b> ${ed([...DP, "nights"], d.nights)}
   </div>` : `<div class="body small muted">Costs per pax in RM, by TO and component, from the R&D CR tab.</div>`}
   ${d.rates.length ? `<details class="sec" open><summary>Rates (${d.rates.length})</summary><div class="scroll"><table><thead><tr><th>Item</th><th class="l">Group</th><th>Rate</th><th class="l">Unit</th><th class="l">FX</th><th>= MYR</th></tr></thead><tbody>
     ${Object.entries(groups).map(([g, list]) => list.map(r => `<tr><td>${esc(r.label)}</td><td class="l muted">${esc(g)}</td><td>${ed([...DP, "rates", r.id, "value"], r.value, { display: n2(r.value) })}</td><td class="l muted">${esc(r.unit)}</td><td class="l muted">${esc(r.fx)}</td><td>${rm(r.value * fxOf(d, r.fx), 2)}</td></tr>`).join("")).join("")}
@@ -509,7 +577,7 @@ function histEntry(e) {
   return `<div class="e"><div class="h"><span class="pill nav">v${e.v}</span><b>${esc(e.by)}</b><span class="muted small">${esc(fmtDate(e.at))}</span>
     <span class="small">${esc(e.note || "")}</span>
     <span style="margin-left:auto">${e.v === DATA.version ? '<span class="pill ok">current</span>' : e.v < lastRebase() ? '<span class="pill grey" title="Before a re-import from the R&D files; open the R&D workbook history instead">before re-import</span>' : `<button class="btn" data-view="${e.v}">View v${e.v}</button>`}</span></div>
-    ${e.changes && e.changes.length ? `<ul>${e.changes.slice(0, 12).map(c => `<li>${esc(c.label || describe(src, c.path))}: <span class="from">${esc(showVal(c.from))}</span> → <span class="to">${esc(showVal(c.to))}</span></li>`).join("")}${e.changes.length > 12 ? `<li class="muted">+ ${e.changes.length - 12} more</li>` : ""}</ul>` : ""}</div>`;
+    ${e.summary && e.summary.length ? `<ul>${e.summary.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : e.changes && e.changes.length ? `<ul>${e.changes.slice(0, 12).map(c => `<li>${esc(c.label || describe(src, c.path))}: <span class="from">${esc(showVal(c.from))}</span> → <span class="to">${esc(showVal(c.to))}</span></li>`).join("")}${e.changes.length > 12 ? `<li class="muted">+ ${e.changes.length - 12} more</li>` : ""}</ul>` : ""}</div>`;
 }
 
 /* ============================================================ versions */
@@ -630,8 +698,8 @@ async function fetchJson(path) {
 }
 async function load() {
   try {
-    const [d, h, u] = await Promise.all([fetchJson(PATHS.data), fetchJson(PATHS.history).catch(() => ({ entries: [] })), fetchJson(PATHS.users).catch(() => ({ users: [] }))]);
-    DATA = d; BASE = clone(d); HISTORY = h; USERS = u;
+    const [d, h, u, fl] = await Promise.all([fetchJson(PATHS.data), fetchJson(PATHS.history).catch(() => ({ entries: [] })), fetchJson(PATHS.users).catch(() => ({ users: [] })), fetchJson(PATHS.flags).catch(() => ({ flags: [] }))]);
+    DATA = d; BASE = clone(d); HISTORY = h; USERS = u; FLAGS = fl;
     if (!SEL.dest) { SEL.dest = DATA.destinations[0].code; }
     window.__loadError = null;
   } catch (e) {
@@ -734,6 +802,7 @@ document.addEventListener("click", async e => {
   if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); return render(); }
   if (t.id === "btnEdit") { EDIT = !EDIT; VIEW = null; return render(); }
   if (t.id === "btnAcct") return openAccount();
+  if ((t.id === "btnHistory" || t.dataset.act === "history") && PAGE_DEST) { SEL.tab = "history"; history.replaceState(null, "", "#history"); return render(); }
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); render(); } return; }
@@ -746,6 +815,8 @@ document.addEventListener("click", async e => {
   }
   if (t.dataset.view) { const v = +t.dataset.view; VIEW = { v, data: snapshotAt(v) }; EDIT = false; closeModal(); render(); window.scrollTo(0, 0); return; }
   if (t.dataset.tab) { SEL.paxTab = t.dataset.tab; return render(); }
+  if (t.dataset.tabmain) { SEL.tab = t.dataset.tabmain; history.replaceState(null, "", "#" + SEL.tab); return render(); }
+  if (t.dataset.sev) { SEL.flagSev[t.dataset.sev] = !SEL.flagSev[t.dataset.sev]; return render(); }
   if (t.dataset.pax) { const p = +t.dataset.pax; SEL.bandOverride = ""; SEL.adult = Math.max(0, p - SEL.cwb - SEL.cnb); if (SEL.adult + SEL.cwb + SEL.cnb !== p) { SEL.cwb = SEL.cnb = 0; SEL.adult = p; } return render(); }
   if (t.dataset.variant) { SEL.variant = t.dataset.variant; return render(); }
   if (t.id === "doSave") {
@@ -797,11 +868,16 @@ document.addEventListener("keydown", e => {
   if (e.key === "Escape") closeModal();
   if (e.key === "Enter" && $("#lp") && document.activeElement && ["lu", "lp"].includes(document.activeElement.id)) doLogin();
 });
-document.addEventListener("input", e => { if (e.target.id === "hubSearch") { SEL.hubQ = e.target.value; filterHub(); } });
+document.addEventListener("input", e => {
+  if (e.target.id === "hubSearch") { SEL.hubQ = e.target.value; filterHub(); }
+  if (e.target.id === "flagQ") { SEL.flagQ = e.target.value; render(); const i = $("#flagQ"); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }
+});
 document.addEventListener("change", e => {
   const t = e.target;
   if (t.dataset && t.dataset.addon) { SEL.addonQty[t.dataset.addon] = Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
   if (t.id && t.id.startsWith("opt_")) { (SEL.opt[SEL.dest] ||= {})[t.id.slice(4)] = t.value; return render(); }
+  if (t.id === "flagArea") { SEL.flagArea = t.value; return render(); }
+  if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
   if (t.id && t.id.startsWith("pax_")) { SEL[t.id.slice(4)] = Math.max(0, Math.min(99, parseInt(t.value || "0", 10) || 0)); return render(); }
@@ -823,5 +899,6 @@ document.addEventListener("change", e => {
 window.addEventListener("beforeunload", e => { if (pendingChanges().length) { e.preventDefault(); e.returnValue = ""; } });
 setInterval(() => { if (SESSION && Date.now() - lastActivity > IDLE_LOGOUT_MS) { SESSION = null; EDIT = false; render(); toast("Logged out after 30 minutes idle", 5000); } }, 60000);
 
+window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (TABS.some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
 window.PTCALC = { priceRow, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
 load().catch(() => { });

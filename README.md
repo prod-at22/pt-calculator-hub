@@ -74,6 +74,37 @@ node tests/test_calc.js tests/truth.json
 A re-import replaces whole destinations, so it is logged as one version marked
 "re-import"; older versions of those destinations cannot be opened cell by cell afterwards.
 
+## Page layout (Product R&D)
+
+Each destination page: header (destination, PO, last update, **locked FX chips**), package /
+tour operator (/ hotel, season) selectors, then tabs:
+
+| Tab | For |
+|---|---|
+| **Costing** (default) | R&D-style table per TO block: components, Cost/Pax, Selling, Margin, %, Total Gross; summary of margin range and pax without TO cost |
+| Quote | pax inputs, group total, cost breakdown, other TOs at that pax |
+| Add-ons | cost / selling / margin, qty adds to the quote |
+| Rates & FX | per-pax cost tables (editable when logged in) and the locked FX |
+| Flags | this destination's cross-check flags |
+| History | versions that touched this destination |
+
+## FX
+
+FX is read from each R&D sheet (`tools/extract_fx.py`) and shown as 🔒 chips. It is never
+editable on the page: the costs were converted at that rate in the R&D, so change FX in the R&D
+sheet and re-import.
+
+## Flags (cross-check)
+
+`/flags/` lists every disagreement between the catalog (Catalog PT site JSON, transcribed from
+the Canva PDF), the R&D sheet and the calculator, with a suggested fix; filter by severity,
+area and PO. Regenerate after any import:
+
+```bash
+node tools/margins.js > /tmp/ptx/margins.json
+python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.json
+```
+
 ## Editing (POs)
 
 1. **Log in to edit**, then **Edit costs**. Editable cells turn yellow; a changed cell turns orange.

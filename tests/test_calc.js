@@ -78,10 +78,11 @@ async function until(fn, ms = 15000) { const t = Date.now(); while (Date.now() -
 function fire(w, el, type) { el.dispatchEvent(new w.Event(type, { bubbles: true })); }
 function setVal(w, el, v) { el.value = v; fire(w, el, "change"); }
 const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
+const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain="${name}"]`)); await tick(5); };
 
 (async () => {
   const files = {};
-  for (const f of ["data.json", "history.json", "users.json"]) files["data/" + f] = fs.readFileSync(path.join(ROOT, "data", f), "utf8");
+  for (const f of ["data.json", "history.json", "users.json", "flags.json"]) files["data/" + f] = fs.readFileSync(path.join(ROOT, "data", f), "utf8");
   const repo = mockRepo(files, ["tok-valid", "tok-new"]);
   const { w, doc, errors } = await boot(repo);
   const P = w.PTCALC, D = P.DATA;
@@ -115,6 +116,9 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   console.log("1b. every destination: page numbers = R&D Costing tab (tests/truth/*.json)");
   {
     let rows = 0, gaps = 0;
+    // costs edited on/after import (not re-imports) no longer equal the R&D: compare selling only
+    const H = P.HISTORY.entries, costEdited = new Set(H.filter(e => !e.rebase).flatMap(e => (e.changes || [])
+      .filter(c => ["tables", "variants", "rates"].includes(c.path[2])).map(c => c.path[1])));
     for (const f of fs.readdirSync(path.join(__dirname, "truth"))) {
       const t = JSON.parse(fs.readFileSync(path.join(__dirname, "truth", f), "utf8"));
       const d = byCode(D, t.code);
@@ -137,11 +141,21 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
           const r = P.priceRow(d, pkg, a.variant, p)[k];
           if (!(typeof r.cost === "number" && isFinite(r.cost)) && (c === 0 || typeof c !== "number")) { gaps++; continue; } // R&D has no cost
           rows++;
-          ok(near(r.cost, c, 0.6) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+          ok((costEdited.has(t.code) || near(r.cost, c, 0.6)) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
         }
       }
     }
     console.log("   checked", rows, "rows across", fs.readdirSync(path.join(__dirname, "truth")).length, "destinations;", gaps, "R&D rows without cost");
+  }
+
+  console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
+  {
+    const j = byCode(D, "JBDO"), pk = j.packages[0];
+    const c = (vid, p) => P.priceRow(j, pk, vid, p).adult.cost;
+    ok(c("CTRANS", 2) === 936 && c("CTRANS", 5) === 684 && c("CTRANS", 10) === 635, "2/5/10 pax = 936/684/635");
+    ok(c("CTRANS-HIACE", 5) === 757, "5 pax Hiace = 757");
+    ok(!j.variants.some(v => v.components.some(x => /whoosh/i.test(x.label))), "no Whoosh component");
+    ok(!isFinite(c("CTRANS", 11)), "11 pax has no TO rate (missing, not RM0)");
   }
 
   console.log("2. selling / margin rules");
@@ -166,6 +180,9 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   console.log("3. UI: destination / package / auto TO by pax");
   {
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
+    ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
+    ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.0259"), "FX chips show WIF 0.029 and Qayyum 0.0259");
+    await tab(w, doc, "quote");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     setVal(w, doc.querySelector("#pax_adult"), "6"); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum"), "6 pax → Qayyum");
@@ -225,9 +242,13 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   console.log("6. edit → save v2 → history → view v1 → restore v3");
   let before;
   {
+    await tab(w, doc, "quote");
     setVal(w, doc.querySelector("#selPkg"), "basic"); setVal(w, doc.querySelector("#pax_adult"), "2"); await tick(5);
     before = P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost;
+    await tab(w, doc, "rates");
+    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX is never editable");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
+    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX stays locked in edit mode");
     const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "hnd7", "value"]));
     ok(inp, "Haneda 7-seater rate is editable");
     setVal(w, inp, "18000"); await tick(10);
@@ -248,7 +269,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry V0+1 with readable label");
     ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: WIF 2027`), "one commit with version message");
     click(w, doc.querySelector("#btnHistory")); await tick(5);
-    ok(doc.querySelector("#modalRoot").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#modalRoot").textContent.includes("Added destinations"), "History shows the notes");
+    ok(doc.querySelector(".tabm.on").dataset.tabmain === "history" && doc.querySelector("#grid").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#grid").textContent.includes("Added destinations"), "History button opens the History tab with the notes");
     const snap = P.snapshotAt(V0);
     ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "V0 rebuilt from change log");
     click(w, doc.querySelector(`[data-view="${V0}"]`)); await tick(5);
@@ -271,6 +292,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     // we (still on v3) edit a different cell
+    await tab(w, doc, "rates");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
     setVal(w, inp, "1100"); await tick(10);
@@ -285,6 +307,7 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(o2) }] }, "Bearer tok-valid");
     [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other 2" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
+    await tab(w, doc, "rates");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     const inp2 = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
     setVal(w, inp2, "1300"); await tick(10);
@@ -301,13 +324,16 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     click(w, doc.querySelector("#btnAcct")); await tick(5);
     ok(!doc.querySelector("#doAdd"), "editor has no Add user");
     click(w, doc.querySelector("[data-close]"));
+    await tab(w, doc, "rates");
     ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"expr"')), "editor cannot edit formulas");
   }
 
   console.log("8b. costing by pax (R&D layout): components ÷ pax = Cost/Pax, + Margin = Selling, Margin × pax = Total Gross");
   {
+    await tab(w, doc, "costing");
     setVal(w, doc.querySelector("#selPkg"), "standard"); setVal(w, doc.querySelector("#selVar"), "auto"); await tick(5);
     click(w, doc.querySelector('#costPax [data-tab="adult"]')); await tick(5);
+    ok(doc.querySelector(".summary") && doc.querySelector(".summary").textContent.includes("Lowest margin"), "costing summary strip");
     const titles = [...doc.querySelectorAll("#costPax tr.blk-title")].map(t => t.textContent);
     ok(titles.length === 2 && titles[0].includes("Qayyum") && titles[1].includes("WIF · Standard"), "one block per TO: " + titles.join(" | "));
     const heads = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.children].map(t => t.textContent));
@@ -337,10 +363,13 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
   {
     const hnd = HND(), a = hnd.addons.find(x => x.label.startsWith("Disneyland/Disneysea (2 pax)"));
     ok(a && a.cost === 754 && a.selling === 800, "Disneyland 2 pax add-on transcribed");
-    const before = doc.querySelector("#kpis").textContent;
+    await tab(w, doc, "quote"); const before = doc.querySelector("#kpis").textContent;
+    await tab(w, doc, "addons");
     const q = doc.querySelector(`input.aq[data-addon="${a.id}"]`); setVal(w, q, "2"); await tick(5);
     ok(doc.querySelector("#addons .total").textContent.includes("RM1,600.00") && doc.querySelector("#addons .total").textContent.includes("RM92.00"), "2 × Disneyland = RM1,600 selling, RM92 margin");
+    await tab(w, doc, "quote");
     ok(doc.querySelector("#kpis").textContent.includes("1 add-on") && doc.querySelector("#kpis").textContent !== before, "group total includes add-on");
+    await tab(w, doc, "addons");
     setVal(w, doc.querySelector(`input.aq[data-addon="${a.id}"]`), "0"); await tick(5);
     const sel = byCode(P.DATA, "SEL");
     ok(sel.addons.length === 13 && sel.addons.filter(x => x.cost === null).length === 12, "Seoul add-ons keep missing cost as null, not 0");
@@ -375,10 +404,10 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
-    const sj = await boot(repo, "seljju/");
+    const sj = await boot(repo, "seljju/", "#quote");
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
     ok(sj.doc.querySelector("#kpis").textContent.includes("RM5,897"), "Seoul-Jeju 2 pax selling RM5,897 (R&D)");
-    const kb = await boot(repo, "kbv/", "?pkg=standard");
+    const kb = await boot(repo, "kbv/", "?pkg=standard#quote");
     const hotelSel = kb.doc.querySelector("#opt_hotel");
     ok(hotelSel && hotelSel.options.length === byCode(P.DATA, "KBV").options[0].choices.length, "Krabi has a hotel selector");
     const before4 = kb.doc.querySelector("#kpis").textContent;
@@ -387,6 +416,15 @@ const click = (w, el) => el.dispatchEvent(new w.MouseEvent("click", { bubbles: t
     ok(kb.doc.querySelector("#controls").textContent.includes("catalog +RM250") && kb.doc.querySelector("#kpis").textContent !== before4, "4★ hotel adds RM250 to the Standard catalog and changes the quote");
     const seasonSel = kb.doc.querySelector("#opt_season"); seasonSel.value = "High"; seasonSel.dispatchEvent(new kb.w.Event("change", { bubbles: true })); await tick(5);
     ok(kb.doc.querySelector("#opt_season").value === "High" && kb.errors.length === 0, "season selector works " + kb.errors.join("|"));
+    const fp = await boot(repo, "flags/");
+    const nF = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "flags.json"), "utf8")).flags;
+    ok(fp.doc.querySelectorAll(".flags tbody tr").length === nF.filter(f => f.severity !== "low").length, "flags page: high + medium shown by default");
+    click(fp.w, fp.doc.querySelector('[data-sev="low"]')); await tick(5);
+    ok(fp.doc.querySelectorAll(".flags tbody tr").length === nF.length && fp.errors.length === 0, "flags page: all " + nF.length + " with Low on");
+    const jb = await boot(repo, "jbdo/", "#flags");
+    ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("Whoosh"), "JBDO Flags tab shows its flags");
+    ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
+    for (const tb of ["costing", "quote", "addons", "rates", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
       const pg = await boot(repo, code + "/");
       ok(pg.doc.querySelector("#costPax") && pg.errors.length === 0, `/${code}/ renders without errors ` + pg.errors.join("|"));

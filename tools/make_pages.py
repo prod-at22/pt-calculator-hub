@@ -30,7 +30,7 @@ SHELL = """<!doctype html>
   <section class="grid" id="grid"></section>
 </main>
 <div id="modalRoot"></div>
-<script>window.PT_DEST = {dest}; window.PT_ROOT = "{root}";</script>
+<script>window.PT_DEST = {dest}; window.PT_ROOT = "{root}"; window.PT_VIEW = {view};</script>
 <script src="{root}app.js"></script>
 </body>
 </html>
@@ -40,15 +40,18 @@ SHELL = """<!doctype html>
 def main():
     data = json.load(open(os.path.join(ROOT, "data", "data.json")))
     open(os.path.join(ROOT, "index.html"), "w").write(
-        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"'))
+        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"', view="null"))
     codes = []
     for d in data["destinations"]:
         code = d["code"].lower()
         os.makedirs(os.path.join(ROOT, code), exist_ok=True)
         open(os.path.join(ROOT, code, "index.html"), "w").write(
-            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide=""))
+            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide="", view="null"))
         codes.append(code)
-    print("wrote index.html +", ", ".join("%s/" % c for c in codes))
+    os.makedirs(os.path.join(ROOT, "flags"), exist_ok=True)
+    open(os.path.join(ROOT, "flags", "index.html"), "w").write(
+        SHELL.format(title="PT Flags", sub="flags", dest="null", root="../", hide=' style="display:none"', view='"flags"'))
+    print("wrote index.html, flags/ +", ", ".join("%s/" % c for c in codes))
 
 
 if __name__ == "__main__":

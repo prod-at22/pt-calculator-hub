@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 4,
- "updatedAt": "2026-10-03T23:51:52+08:00",
+ "version": 6,
+ "updatedAt": "2026-10-04T16:51:17+08:00",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -23,6 +23,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "KRW",
+     "label": "KRW → MYR",
+     "value": 0.002637,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -1887,6 +1894,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "KRW",
+     "label": "KRW → MYR",
+     "value": 0.002637,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -2875,6 +2889,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "KRW",
+     "label": "KRW → MYR",
+     "value": 0.002637,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -4346,6 +4367,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "KRW",
+     "label": "KRW → MYR",
+     "value": 0.002637,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -5209,6 +5237,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "USD",
+     "label": "USD → MYR",
+     "value": 3.97,
+     "locked": true,
+     "source": "R&D CR!A3"
     }
    ],
    "rates": [],
@@ -6506,6 +6541,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "USD",
+     "label": "USD → MYR",
+     "value": 3.97,
+     "locked": true,
+     "source": "R&D CR!A3"
     }
    ],
    "rates": [],
@@ -7139,6 +7181,20 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "USD",
+     "label": "USD → MYR",
+     "value": 4.0295,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
+    },
+    {
+     "id": "EUR",
+     "label": "EUR → MYR",
+     "value": 4.6947,
+     "locked": true,
+     "source": "R&D Raw Costing!A4"
     }
    ],
    "rates": [],
@@ -8207,12 +8263,16 @@
     {
      "id": "WIF",
      "label": "WIF JPY → MYR",
-     "value": 0.029
+     "value": 0.029,
+     "locked": true,
+     "source": "R&D CR!B3"
     },
     {
      "id": "QAYYUM",
      "label": "Qayyum JPY → MYR",
-     "value": 0.0259
+     "value": 0.0259,
+     "locked": true,
+     "source": "R&D CR!B4"
     }
    ],
    "rates": [
@@ -9601,6 +9661,20 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "JPY-WIF",
+     "label": "JPY (WIF) → MYR",
+     "value": 0.029,
+     "locked": true,
+     "source": "R&D CR!A3"
+    },
+    {
+     "id": "JPY-QAYYUM/UCOP",
+     "label": "JPY (QAYYUM/UCOP) → MYR",
+     "value": 0.0259,
+     "locked": true,
+     "source": "R&D CR!A4"
     }
    ],
    "rates": [],
@@ -11554,6 +11628,20 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "JPY-WIF",
+     "label": "JPY (WIF) → MYR",
+     "value": 0.029,
+     "locked": true,
+     "source": "R&D CR!A3"
+    },
+    {
+     "id": "JPY-UCOP",
+     "label": "JPY (UCOP) → MYR",
+     "value": 0.0259,
+     "locked": true,
+     "source": "R&D CR!A4"
     }
    ],
    "rates": [],
@@ -13306,6 +13394,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "JPY-WIF",
+     "label": "JPY (WIF) → MYR",
+     "value": 0.029,
+     "locked": true,
+     "source": "R&D CR!A2"
     }
    ],
    "rates": [],
@@ -14133,6 +14228,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "IDR",
+     "label": "IDR → MYR",
+     "value": 0.0002224864,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -15138,6 +15240,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "IDR",
+     "label": "IDR → MYR",
+     "value": 0.0002273265,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -15991,6 +16100,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "IDR",
+     "label": "IDR → MYR",
+     "value": 0.0002273265,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -21622,93 +21738,15 @@
      "fx": "MYR",
      "group": "CTRANS",
      "values": {
-      "2": 1180,
-      "3": 1180,
-      "4": 860,
-      "5": 860,
-      "6": 850,
-      "7": 850,
-      "8": 850,
-      "9": 850,
-      "10": 845,
-      "11": 845,
-      "12": 845,
-      "13": 845,
-      "14": 845,
-      "15": 845,
-      "16": 845,
-      "17": 845,
-      "18": 845,
-      "19": 845,
-      "20": 835,
-      "21": 835,
-      "22": 835,
-      "23": 835,
-      "24": 835,
-      "25": 835,
-      "26": 835,
-      "27": 835,
-      "28": 835,
-      "29": 835,
-      "30": 835,
-      "31": 835,
-      "32": 835,
-      "33": 835,
-      "34": 835,
-      "35": 835,
-      "36": 835,
-      "37": 835,
-      "38": 835,
-      "39": 835,
-      "40": 825
-     }
-    },
-    {
-     "id": "CTRANS__Whoosh-Train-MYR",
-     "label": "CTRANS · Whoosh Train",
-     "unit": "MYR/pax",
-     "fx": "MYR",
-     "group": "CTRANS",
-     "values": {
-      "2": -90,
-      "3": -90,
-      "4": -90,
-      "5": -90,
-      "6": -90,
-      "7": -90,
-      "8": -90,
-      "9": -90,
-      "10": -90,
-      "11": -90,
-      "12": -90,
-      "13": -90,
-      "14": -90,
-      "15": -90,
-      "16": -90,
-      "17": -90,
-      "18": -90,
-      "19": -90,
-      "20": -90,
-      "21": -90,
-      "22": -90,
-      "23": -90,
-      "24": -90,
-      "25": -90,
-      "26": -90,
-      "27": -90,
-      "28": -90,
-      "29": -90,
-      "30": -90,
-      "31": -90,
-      "32": -90,
-      "33": -90,
-      "34": -90,
-      "35": -90,
-      "36": -90,
-      "37": -90,
-      "38": -90,
-      "39": -90,
-      "40": -90
+      "2": 936.0,
+      "3": 799.0,
+      "4": 724.0,
+      "5": 684.0,
+      "6": 714.0,
+      "7": 687.0,
+      "8": 663.0,
+      "9": 648.0,
+      "10": 635.0
      }
     },
     {
@@ -21718,45 +21756,25 @@
      "fx": "MYR",
      "group": "CTRANS",
      "values": {
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0,
-      "33": 0,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0
+     }
+    },
+    {
+     "id": "CTRANS-HIACE__Ground-Cost",
+     "label": "CTRANS · Hiace van · Ground Cost",
+     "unit": "MYR/pax",
+     "fx": "MYR",
+     "group": "CTRANS · Hiace van",
+     "values": {
+      "5": 757.0
      }
     }
    ],
@@ -21766,9 +21784,9 @@
      "label": "CTRANS",
      "supplier": "TO CTRANS — 4D3N Fullboard (Zest Hotel 3-Star Bandung)",
      "paxMin": 2,
-     "paxMax": 40,
+     "paxMax": 10,
      "hotel": "Zest Hotel or similar (3-Star)",
-     "notes": "",
+     "notes": "TO CTRANS fullboard rate, Whoosh included (Oct 2026). 5 pax: Avanza RM684; Hiace van RM757 (choose 'CTRANS · Hiace van'). No rate above 10 pax yet.",
      "components": [
       {
        "key": "ground-cost",
@@ -21777,16 +21795,27 @@
        "expr": "T['CTRANS__Ground-Cost']"
       },
       {
-       "key": "whoosh-train-myr",
-       "label": "Whoosh Train",
-       "per": "pax",
-       "expr": "T['CTRANS__Whoosh-Train-MYR']"
-      },
-      {
        "key": "tipping",
        "label": "Tipping",
        "per": "pax",
        "expr": "T['CTRANS__Tipping']"
+      }
+     ]
+    },
+    {
+     "id": "CTRANS-HIACE",
+     "label": "CTRANS · Hiace van",
+     "supplier": "CTRANS",
+     "paxMin": 5,
+     "paxMax": 5,
+     "hotel": "Zest Hotel or similar (3-Star)",
+     "notes": "5 pax with Hiace van instead of Avanza (TO, Oct 2026), Whoosh included.",
+     "components": [
+      {
+       "key": "ground-cost",
+       "label": "Ground Cost",
+       "per": "pax",
+       "expr": "T['CTRANS-HIACE__Ground-Cost']"
       }
      ]
     }
@@ -27820,6 +27849,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "AUD",
+     "label": "AUD → MYR",
+     "value": 2.85,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -28932,6 +28968,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "AUD",
+     "label": "AUD → MYR",
+     "value": 2.853746,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -30029,6 +30072,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "NZD",
+     "label": "NZD → MYR",
+     "value": 2.327024,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -37372,6 +37422,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "RMB",
+     "label": "RMB → MYR",
+     "value": 0.58,
+     "locked": true,
+     "source": "R&D CR!A3"
     }
    ],
    "rates": [],
@@ -38055,6 +38112,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "RMB",
+     "label": "RMB → MYR",
+     "value": 0.65,
+     "locked": true,
+     "source": "R&D CR!A3"
     }
    ],
    "rates": [],
@@ -38741,6 +38805,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "THB",
+     "label": "THB → MYR",
+     "value": 0.131,
+     "locked": true,
+     "source": "R&D Raw Costing!A3"
     }
    ],
    "rates": [],
@@ -39902,6 +39973,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "THB",
+     "label": "THB → MYR",
+     "value": 0.122,
+     "locked": true,
+     "source": "R&D Raw Costing!A2"
     }
    ],
    "rates": [],
@@ -43601,7 +43679,9 @@
     {
      "id": "THB",
      "label": "THB → MYR",
-     "value": 0.122
+     "value": 0.122,
+     "locked": true,
+     "source": "R&D CR!B2"
     }
    ],
    "rates": [
@@ -45454,6 +45534,13 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "CHF",
+     "label": "CHF → MYR",
+     "value": 5.058945,
+     "locked": true,
+     "source": "R&D Raw Costing!A2"
     }
    ],
    "rates": [],

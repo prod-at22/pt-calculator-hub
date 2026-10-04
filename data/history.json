@@ -60,6 +60,1106 @@
    "rebase": true,
    "note": "Krabi added with hotel and season selectors; package names from the Project PT sheet (added: KBV; rebuilt: —)",
    "changes": []
+  },
+  {
+   "v": 5,
+   "at": "2026-10-04T16:45:33+08:00",
+   "by": "product",
+   "note": "JBDO: new CTRANS fullboard rates 2–10 pax incl. Whoosh; Whoosh column removed; Hiace option for 5 pax",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "JBDO",
+      "tables"
+     ],
+     "from": [
+      {
+       "id": "CTRANS__Ground-Cost",
+       "label": "CTRANS · Ground Cost",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS",
+       "values": {
+        "2": 1180,
+        "3": 1180,
+        "4": 860,
+        "5": 860,
+        "6": 850,
+        "7": 850,
+        "8": 850,
+        "9": 850,
+        "10": 845,
+        "11": 845,
+        "12": 845,
+        "13": 845,
+        "14": 845,
+        "15": 845,
+        "16": 845,
+        "17": 845,
+        "18": 845,
+        "19": 845,
+        "20": 835,
+        "21": 835,
+        "22": 835,
+        "23": 835,
+        "24": 835,
+        "25": 835,
+        "26": 835,
+        "27": 835,
+        "28": 835,
+        "29": 835,
+        "30": 835,
+        "31": 835,
+        "32": 835,
+        "33": 835,
+        "34": 835,
+        "35": 835,
+        "36": 835,
+        "37": 835,
+        "38": 835,
+        "39": 835,
+        "40": 825
+       }
+      },
+      {
+       "id": "CTRANS__Whoosh-Train-MYR",
+       "label": "CTRANS · Whoosh Train",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS",
+       "values": {
+        "2": -90,
+        "3": -90,
+        "4": -90,
+        "5": -90,
+        "6": -90,
+        "7": -90,
+        "8": -90,
+        "9": -90,
+        "10": -90,
+        "11": -90,
+        "12": -90,
+        "13": -90,
+        "14": -90,
+        "15": -90,
+        "16": -90,
+        "17": -90,
+        "18": -90,
+        "19": -90,
+        "20": -90,
+        "21": -90,
+        "22": -90,
+        "23": -90,
+        "24": -90,
+        "25": -90,
+        "26": -90,
+        "27": -90,
+        "28": -90,
+        "29": -90,
+        "30": -90,
+        "31": -90,
+        "32": -90,
+        "33": -90,
+        "34": -90,
+        "35": -90,
+        "36": -90,
+        "37": -90,
+        "38": -90,
+        "39": -90,
+        "40": -90
+       }
+      },
+      {
+       "id": "CTRANS__Tipping",
+       "label": "CTRANS · Tipping",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS",
+       "values": {
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0,
+        "22": 0,
+        "23": 0,
+        "24": 0,
+        "25": 0,
+        "26": 0,
+        "27": 0,
+        "28": 0,
+        "29": 0,
+        "30": 0,
+        "31": 0,
+        "32": 0,
+        "33": 0,
+        "34": 0,
+        "35": 0,
+        "36": 0,
+        "37": 0,
+        "38": 0,
+        "39": 0,
+        "40": 0
+       }
+      }
+     ],
+     "to": [
+      {
+       "id": "CTRANS__Ground-Cost",
+       "label": "CTRANS · Ground Cost",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS",
+       "values": {
+        "2": 936.0,
+        "3": 799.0,
+        "4": 724.0,
+        "5": 684.0,
+        "6": 714.0,
+        "7": 687.0,
+        "8": 663.0,
+        "9": 648.0,
+        "10": 635.0
+       }
+      },
+      {
+       "id": "CTRANS__Tipping",
+       "label": "CTRANS · Tipping",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS",
+       "values": {
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0
+       }
+      },
+      {
+       "id": "CTRANS-HIACE__Ground-Cost",
+       "label": "CTRANS · Hiace van · Ground Cost",
+       "unit": "MYR/pax",
+       "fx": "MYR",
+       "group": "CTRANS · Hiace van",
+       "values": {
+        "5": 757.0
+       }
+      }
+     ],
+     "label": "Jakarta - Bandung › tables"
+    },
+    {
+     "path": [
+      "destinations",
+      "JBDO",
+      "variants"
+     ],
+     "from": [
+      {
+       "id": "CTRANS",
+       "label": "CTRANS",
+       "supplier": "TO CTRANS — 4D3N Fullboard (Zest Hotel 3-Star Bandung)",
+       "paxMin": 2,
+       "paxMax": 40,
+       "hotel": "Zest Hotel or similar (3-Star)",
+       "notes": "",
+       "components": [
+        {
+         "key": "ground-cost",
+         "label": "Ground Cost",
+         "per": "pax",
+         "expr": "T['CTRANS__Ground-Cost']"
+        },
+        {
+         "key": "whoosh-train-myr",
+         "label": "Whoosh Train",
+         "per": "pax",
+         "expr": "T['CTRANS__Whoosh-Train-MYR']"
+        },
+        {
+         "key": "tipping",
+         "label": "Tipping",
+         "per": "pax",
+         "expr": "T['CTRANS__Tipping']"
+        }
+       ]
+      }
+     ],
+     "to": [
+      {
+       "id": "CTRANS",
+       "label": "CTRANS",
+       "supplier": "TO CTRANS — 4D3N Fullboard (Zest Hotel 3-Star Bandung)",
+       "paxMin": 2,
+       "paxMax": 10,
+       "hotel": "Zest Hotel or similar (3-Star)",
+       "notes": "TO CTRANS fullboard rate, Whoosh included (Oct 2026). 5 pax: Avanza RM684; Hiace van RM757 (choose 'CTRANS · Hiace van'). No rate above 10 pax yet.",
+       "components": [
+        {
+         "key": "ground-cost",
+         "label": "Ground Cost",
+         "per": "pax",
+         "expr": "T['CTRANS__Ground-Cost']"
+        },
+        {
+         "key": "tipping",
+         "label": "Tipping",
+         "per": "pax",
+         "expr": "T['CTRANS__Tipping']"
+        }
+       ]
+      },
+      {
+       "id": "CTRANS-HIACE",
+       "label": "CTRANS · Hiace van",
+       "supplier": "CTRANS",
+       "paxMin": 5,
+       "paxMax": 5,
+       "hotel": "Zest Hotel or similar (3-Star)",
+       "notes": "5 pax with Hiace van instead of Avanza (TO, Oct 2026), Whoosh included.",
+       "components": [
+        {
+         "key": "ground-cost",
+         "label": "Ground Cost",
+         "per": "pax",
+         "expr": "T['CTRANS-HIACE__Ground-Cost']"
+        }
+       ]
+      }
+     ],
+     "label": "Jakarta - Bandung › variants"
+    }
+   ],
+   "summary": [
+    "Ground cost (fullboard, Whoosh incl.) per pax: 2 pax 1,090 → 936 · 3 pax → 799 · 4 pax → 724 · 5 pax → 684 (Avanza) / 757 (Hiace) · 6 → 714 · 7 → 687 · 8 → 663 · 9 → 648 · 10 → 635",
+    "Whoosh Train column (−RM90/pax) removed — now inside the TO rate",
+    "New choice 'CTRANS · Hiace van' for 5 pax",
+    "11–30 pax: no TO rate yet (was the old R&D rate) — shows as missing"
+   ]
+  },
+  {
+   "v": 6,
+   "at": "2026-10-04T16:51:17+08:00",
+   "by": "product",
+   "note": "FX rates from each R&D sheet shown on the page and locked (change FX in the R&D sheet, then re-import)",
+   "summary": [
+    "SEL: KRW → MYR 0.002637",
+    "SELJJU: KRW → MYR 0.002637",
+    "JJU: KRW → MYR 0.002637",
+    "JJUO: KRW → MYR 0.002637",
+    "TUR: USD → MYR 3.97",
+    "ISTBUR: USD → MYR 3.97",
+    "ISTCAP: USD → MYR 4.0295, EUR → MYR 4.6947",
+    "HND: WIF JPY → MYR 0.029, Qayyum JPY → MYR 0.0259",
+    "KIX: JPY (WIF) → MYR 0.029, JPY (QAYYUM/UCOP) → MYR 0.0259",
+    "OSK: JPY (WIF) → MYR 0.029, JPY (UCOP) → MYR 0.0259",
+    "CTS: JPY (WIF) → MYR 0.029",
+    "DPS: IDR → MYR 0.0002224864",
+    "LOP: IDR → MYR 0.0002273265",
+    "JOG: IDR → MYR 0.0002273265",
+    "ACEH: MYR direct",
+    "ACEHSBG: MYR direct",
+    "LTOBA: MYR direct",
+    "PDG: MYR direct",
+    "JBDO: MYR direct",
+    "SUBB: MYR direct",
+    "DLMNHCM: MYR direct",
+    "PQC: MYR direct",
+    "HNSH: MYR direct",
+    "DADH: MYR direct",
+    "MEL: AUD → MYR 2.85",
+    "PER: AUD → MYR 2.853746",
+    "NSNZ: NZD → MYR 2.327024",
+    "MLE: MYR direct",
+    "KMGDLS: RMB → MYR 0.58",
+    "PEK: RMB → MYR 0.65",
+    "BKK: THB → MYR 0.131",
+    "PHU: THB → MYR 0.122",
+    "KBV: THB → MYR 0.122",
+    "SWS: CHF → MYR 5.058945",
+    "KKK: MYR direct",
+    "SEM: MYR direct",
+    "PHT: MYR direct"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "KRW",
+       "label": "KRW → MYR",
+       "value": 0.002637,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Seoul › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "SELJJU",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "KRW",
+       "label": "KRW → MYR",
+       "value": 0.002637,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Seoul - Jeju › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJU",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "KRW",
+       "label": "KRW → MYR",
+       "value": 0.002637,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Jeju › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJUO",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "KRW",
+       "label": "KRW → MYR",
+       "value": 0.002637,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Jeju - Udo › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "TUR",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "USD",
+       "label": "USD → MYR",
+       "value": 3.97,
+       "locked": true,
+       "source": "R&D CR!A3"
+      }
+     ],
+     "label": "Turki Klasik › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTBUR",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "USD",
+       "label": "USD → MYR",
+       "value": 3.97,
+       "locked": true,
+       "source": "R&D CR!A3"
+      }
+     ],
+     "label": "Istanbul - Bursa › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTCAP",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "USD",
+       "label": "USD → MYR",
+       "value": 4.0295,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      },
+      {
+       "id": "EUR",
+       "label": "EUR → MYR",
+       "value": 4.6947,
+       "locked": true,
+       "source": "R&D Raw Costing!A4"
+      }
+     ],
+     "label": "Istanbul - Cappadocia › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "WIF",
+       "label": "WIF JPY → MYR",
+       "value": 0.029
+      },
+      {
+       "id": "QAYYUM",
+       "label": "Qayyum JPY → MYR",
+       "value": 0.0259
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "WIF",
+       "label": "WIF JPY → MYR",
+       "value": 0.029,
+       "locked": true,
+       "source": "R&D CR!B3"
+      },
+      {
+       "id": "QAYYUM",
+       "label": "Qayyum JPY → MYR",
+       "value": 0.0259,
+       "locked": true,
+       "source": "R&D CR!B4"
+      }
+     ],
+     "label": "Tokyo › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "JPY-WIF",
+       "label": "JPY (WIF) → MYR",
+       "value": 0.029,
+       "locked": true,
+       "source": "R&D CR!A3"
+      },
+      {
+       "id": "JPY-QAYYUM/UCOP",
+       "label": "JPY (QAYYUM/UCOP) → MYR",
+       "value": 0.0259,
+       "locked": true,
+       "source": "R&D CR!A4"
+      }
+     ],
+     "label": "Tokyo - Kyoto - Osaka › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "JPY-WIF",
+       "label": "JPY (WIF) → MYR",
+       "value": 0.029,
+       "locked": true,
+       "source": "R&D CR!A3"
+      },
+      {
+       "id": "JPY-UCOP",
+       "label": "JPY (UCOP) → MYR",
+       "value": 0.0259,
+       "locked": true,
+       "source": "R&D CR!A4"
+      }
+     ],
+     "label": "Osaka › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "CTS",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "JPY-WIF",
+       "label": "JPY (WIF) → MYR",
+       "value": 0.029,
+       "locked": true,
+       "source": "R&D CR!A2"
+      }
+     ],
+     "label": "Hokkaido › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "DPS",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "IDR",
+       "label": "IDR → MYR",
+       "value": 0.0002224864,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Bali › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "LOP",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "IDR",
+       "label": "IDR → MYR",
+       "value": 0.0002273265,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Lombok › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "JOG",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "IDR",
+       "label": "IDR → MYR",
+       "value": 0.0002273265,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Jogjakarta › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "MEL",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "AUD",
+       "label": "AUD → MYR",
+       "value": 2.85,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Melbourne › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "PER",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "AUD",
+       "label": "AUD → MYR",
+       "value": 2.853746,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Perth › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "NSNZ",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "NZD",
+       "label": "NZD → MYR",
+       "value": 2.327024,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "New Zealand › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "KMGDLS",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "RMB",
+       "label": "RMB → MYR",
+       "value": 0.58,
+       "locked": true,
+       "source": "R&D CR!A3"
+      }
+     ],
+     "label": "Yunnan 4 Wilayah › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "PEK",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "RMB",
+       "label": "RMB → MYR",
+       "value": 0.65,
+       "locked": true,
+       "source": "R&D CR!A3"
+      }
+     ],
+     "label": "Beijing › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "BKK",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "THB",
+       "label": "THB → MYR",
+       "value": 0.131,
+       "locked": true,
+       "source": "R&D Raw Costing!A3"
+      }
+     ],
+     "label": "Bangkok › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHU",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "THB",
+       "label": "THB → MYR",
+       "value": 0.122,
+       "locked": true,
+       "source": "R&D Raw Costing!A2"
+      }
+     ],
+     "label": "Phuket › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "KBV",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "THB",
+       "label": "THB → MYR",
+       "value": 0.122
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "THB",
+       "label": "THB → MYR",
+       "value": 0.122,
+       "locked": true,
+       "source": "R&D CR!B2"
+      }
+     ],
+     "label": "Krabi › FX"
+    },
+    {
+     "path": [
+      "destinations",
+      "SWS",
+      "fx"
+     ],
+     "from": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      }
+     ],
+     "to": [
+      {
+       "id": "MYR",
+       "label": "MYR",
+       "value": 1,
+       "locked": true
+      },
+      {
+       "id": "CHF",
+       "label": "CHF → MYR",
+       "value": 5.058945,
+       "locked": true,
+       "source": "R&D Raw Costing!A2"
+      }
+     ],
+     "label": "Switzerland › FX"
+    }
+   ]
   }
  ]
 }
