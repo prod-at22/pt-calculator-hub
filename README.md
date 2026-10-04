@@ -1,12 +1,11 @@
 # ARBA PT Costing Calculator
 
 One page for every PT destination: pick **destination → package → tour operator**, enter
-pax (Adult / CWB / CNB / Infant) and see
+see
 
 - each cost component that makes up the total cost (airport, transport, hotel, guide, …),
 - catalog price, selling price, margin RM and margin % for every pax type,
-- a price list for every pax count (like the R&D Costing tab),
-- every TO that can run that pax count, side by side,
+- **TO Contract Rate**: the TO's contract / rate card files, to open or upload,
 - **Costing by pax**: per pax, A + B + C + … (each component) = Cost, Cost + Margin = Selling, for pax 2–30,
 - **Add-ons** from the R&D Add-Ons tab: cost, selling price, margin. Enter a qty to add them to the group total.
 
@@ -81,10 +80,9 @@ tour operator (/ hotel, season) selectors, then tabs:
 
 | Tab | For |
 |---|---|
-| **Costing** (default) | R&D-style table per TO block: components, Cost/Pax, Selling, Margin, %, Total Gross; summary of margin range and pax without TO cost |
-| Quote | pax inputs, group total, cost breakdown, other TOs at that pax |
-| Add-ons | cost / selling / margin, qty adds to the quote |
-| Rates & FX | per-pax cost tables (editable when logged in) and the locked FX |
+| **Costing** (default) | R&D-style table per TO block: components, Cost/Pax, Catalog, Selling, Margin, %, Total Gross; margin range and lowest margin above it. Rows alternate grey / white, one header colour; margin is green when positive, red when negative |
+| TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
+| Add-ons | cost / selling / margin; a qty totals the selected add-ons |
 | Flags | this destination's cross-check flags |
 | History | versions that touched this destination |
 
@@ -108,15 +106,15 @@ python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.jso
 ## Editing (POs)
 
 1. **Log in to edit**, then **Edit costs**. Editable cells turn yellow; a changed cell turns orange.
-2. Change rates, FX, per-pax tables, catalog prices or rules. The whole page recalculates as you type.
+2. Change catalog prices (Costing tab), add-on cost / selling, or the PO. The whole page recalculates as you type.
+   TO rates and formulas are not edited on the page: change them in the R&D sheet and re-import.
 3. **Save vN**: check the list of changes, write a short note (e.g. "Qayyum 2027 rate card"), save.
    The live page shows the new version within about a minute.
 4. If someone else saved first, your edits are applied on top of theirs automatically, unless you both
    changed the same cell. Then the save stops and asks you to reload.
 
-Only **admins** can edit TO formulas (Rate card → *TO formulas & pax coverage*). Formulas use:
-`R.id` (a rate, already converted to MYR at its FX), `T['id']` (per-pax table value at this pax),
-`N` (nights), `pax`, and `band(pax,[max,value],…)` for vehicle size bands.
+TO formulas (in `data.json`) use `R.id` (a rate, already converted to MYR at its FX), `T['id']`
+(per-pax table value at this pax), `N` (nights), `pax`, and `band(pax,[max,value],…)` for vehicle size bands.
 
 ## One-time setup (admin)
 

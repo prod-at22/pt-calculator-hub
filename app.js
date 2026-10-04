@@ -20,8 +20,9 @@ let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", adult: 2, cwb: 0, cnb: 0, infant: 0, bandOverride: "", paxTab: "adult", addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["quote", "Quote"], ["addons", "Add-ons"], ["rates", "Rates & FX"], ["flags", "Flags"], ["history", "History"]];
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const TABS = [["costing", "Costing"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
+const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
 
 /* ============================================================ utils */
@@ -107,7 +108,7 @@ function describe(snap, path) {
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
     tierUpgrade: "Tier upgrade", cwbCost: "CWB cost", cnbCost: "CNB cost", infantCost: "Infant cost", type: "type",
     components: "Component", expr: "formula", values: "", settings: "Settings", marginWarnPct: "Margin warn %", marginDangerPct: "Margin danger %",
-    destinations: "", nights: "Nights", po: "PO", assign: "TO assignment" };
+    destinations: "", nights: "Nights", po: "PO", assign: "TO assignment", contracts: "TO Contract Rate" };
   for (let i = 0; i < path.length; i++) {
     const seg = path[i], prev = path[i - 1];
     cur = step(cur, seg);
@@ -201,20 +202,20 @@ function priceRow(d, pkg, variantId, pax, opts) {
     infant: mk(applyRule(r.infantCost, adultCost, cost), +pkg.pricing.infant, true),
   };
 }
+// Margin colour: green when positive, red when negative.
 function marginClass(p) {
-  const s = shown().settings || {};
-  if (!num(p)) return "";
-  return p < (s.marginDangerPct ?? .05) ? "m-bad" : p < (s.marginWarnPct ?? .15) ? "m-warn" : "m-ok";
+  if (!num(p) || Math.abs(p) < 1e-9) return "";
+  return p > 0 ? "m-ok" : "m-bad";
 }
 function marginPill(p) {
-  const c = marginClass(p); if (!c) return '<span class="pill grey">—</span>';
-  return `<span class="pill ${c === "m-ok" ? "ok" : c === "m-warn" ? "warn" : "bad"}">${pct(p)}</span>`;
+  const c = marginClass(p); if (!num(p)) return '<span class="pill grey">—</span>';
+  return `<span class="pill ${c === "m-ok" ? "ok" : c === "m-bad" ? "bad" : "grey"}">${pct(p)}</span>`;
 }
 
 /* ============================================================ selection helpers */
 const curDest = () => shown().destinations.find(d => d.code === SEL.dest) || shown().destinations[0];
 const curPkg = d => d.packages.find(p => p.id === SEL.pkg) || d.packages[0];
-const bandPax = () => SEL.bandOverride !== "" && +SEL.bandOverride > 0 ? +SEL.bandOverride : (SEL.adult + SEL.cwb + SEL.cnb);
+const bandPax = () => SEL.pax;   // the highlighted row on the Costing tab
 const activeVariantId = (pkg, pax) => SEL.variant === "auto" ? assignedVariantId(pkg, pax) : SEL.variant;
 
 /* ============================================================ editable cell */
@@ -346,20 +347,13 @@ function renderControls(d, pkg) {
     </div>
     <nav class="tabsbar">${TABS.map(([id, l]) => `<button class="tabm${SEL.tab === id ? " on" : ""}" data-tabmain="${id}">${l}${id === "flags" && fl.length ? ` <span class="pill ${nh ? "bad" : "warn"}">${fl.length}</span>` : ""}</button>`).join("")}</nav>`;
 }
-function hotelText(d, v) {
-  const op = (d.options || []).find(o => o.id === "hotel");
-  if (!op) return v.hotel || "—";
-  const O = optsFor(d), c = op.choices.find(x => x.id === O.hotel);
-  return c ? c.label : "—";
-}
 function renderMain(d, pkg) {
   const pax = bandPax();
   $("#kpis").innerHTML = "";
   const T = SEL.tab;
   if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + costingByPax(d, pkg, pax);
-  else if (T === "quote") renderQuote(d, pkg, pax);
+  else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons in the R&D for ${esc(d.name)}.</div></div>`;
-  else if (T === "rates") $("#grid").innerHTML = rateCard(d);
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
   else if (T === "history") {
     const es = [...HISTORY.entries].filter(touchesDest).sort((a, b) => b.v - a.v);
@@ -370,65 +364,12 @@ function renderMain(d, pkg) {
 function costingSummary(d, pkg) {
   const rows = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b).map(p => ({ p, r: priceRow(d, pkg, activeVariantId(pkg, p), p).adult }));
   const ok = rows.filter(x => num(x.r.pct));
-  const miss = rows.filter(x => !num(x.r.cost)).map(x => x.p);
   if (!ok.length) return "";
   const lo = ok.reduce((a, b) => (b.r.pct < a.r.pct ? b : a)), hi = ok.reduce((a, b) => (b.r.pct > a.r.pct ? b : a));
-  const at2 = rows.find(x => x.p === 2) || rows[0];
   return `<div class="summary">
-    <div><span class="l">Catalog → Selling (adult, ${at2.p} pax)</span><b><span class="muted">${rm(at2.r.catalog)} →</span> ${rm(at2.r.selling)}</b><span class="small muted">${+pkg.rules.discountTier2 ? `Selling = catalog − RM${n2(+pkg.rules.discountTier2)}` : "Selling = catalog"}</span></div>
     <div><span class="l">Margin range</span><b><span class="${marginClass(lo.r.pct)}">${pct(lo.r.pct)}</span> – <span class="${marginClass(hi.r.pct)}">${pct(hi.r.pct)}</span></b></div>
     <div><span class="l">Lowest margin</span><b class="${marginClass(lo.r.pct)}">${rm(lo.r.margin)} at ${lo.p} pax</b></div>
-    <div><span class="l">No TO cost</span><b class="${miss.length ? "m-bad" : "m-ok"}">${miss.length ? ranges(miss) + " pax" : "none"}</b></div>
   </div>`;
-}
-const ranges = ps => { const o = []; for (const p of ps) { if (o.length && p === o[o.length - 1][1] + 1) o[o.length - 1][1] = p; else o.push([p, p]); } return o.map(([a, b]) => a === b ? a : a + "–" + b).join(", "); };
-function renderQuote(d, pkg, pax) {
-  const row = priceRow(d, pkg, activeVariantId(pkg, pax), pax);
-  const v = row.variant;
-  const types = [["adult", "Adult"], ["cwb", "Child with bed"], ["cnb", "Child no bed"], ["infant", "Infant"]];
-  const lines = types.map(([k, lbl]) => ({ k, lbl, q: SEL[k], r: row[k] })).filter(x => x.q > 0);
-  const tot = lines.reduce((s, x) => ({ sell: s.sell + x.q * x.r.selling, cost: s.cost + x.q * x.r.cost }), { sell: 0, cost: 0 });
-  const ao = addonTotals(d);
-  tot.sell += ao.sell; tot.cost += ao.cost;
-  const tm = tot.sell - tot.cost, tp = tot.sell ? tm / tot.sell : NaN;
-  const nPax = lines.reduce((s, x) => s + x.q, 0);
-  $("#kpis").innerHTML = `
-    <div class="kpi paxkpi"><div class="l">Pax</div><div class="paxrow">
-      ${[["adult", "Adult"], ["cwb", "CWB"], ["cnb", "CNB"], ["infant", "Infant"]].map(([k, l]) => `<span><input type="number" min="0" max="99" id="pax_${k}" value="${SEL[k]}" aria-label="${l}">${l}</span>`).join("")}</div></div>
-    <div class="kpi"><div class="l">Catalog → Selling / adult</div><div class="v"><span class="muted" style="font-weight:600">${rm(row.adult.catalog)} →</span> ${rm(row.adult.selling)}</div><div class="s">${+pkg.rules.discountTier2 ? `Selling = catalog − RM${n2(+pkg.rules.discountTier2)}` : "Selling = catalog"}</div></div>
-    <div class="kpi"><div class="l">Margin / adult</div><div class="v ${marginClass(row.adult.pct)}">${rm(row.adult.margin)}</div><div class="s">${pct(row.adult.pct)} · cost ${rm(row.adult.cost)}</div></div>
-    <div class="kpi"><div class="l">Group total · ${nPax} pax${ao.n ? ` + ${ao.n} add-on${ao.n > 1 ? "s" : ""}` : ""}</div><div class="v">${rm(tot.sell)}</div><div class="s">Margin <b class="${marginClass(tp)}">${rm(tm)} (${pct(tp)})</b>${ao.missing ? ` · <span class="m-bad">${ao.missing} add-on without cost</span>` : ""}</div></div>`;
-  const cards = [];
-  const r = pkg.rules, P = ["packages", pkg.id, "rules"], DP = ["destinations", d.code];
-  const ruleTxt = (rule, key) => EDIT && !VIEW
-    ? `${ed([...DP, ...P, key, "type"], rule.type, { options: [["pct", "% of adult cost"], ["minus", "adult cost − RM"], ["flat", "flat RM"]] })} ${ed([...DP, ...P, key, "value"], rule.value)}`
-    : rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
-  const shownLines = lines.length ? lines : [{ k: "adult", lbl: "Adult", q: 0, r: row.adult }];
-  cards.push(`<div class="card" id="quote"><h2>Quote <span class="sub">${esc(pkg.label)} · ${pax} pax band</span></h2>
-    <div class="scroll"><table><thead><tr><th>Pax type</th><th>Qty</th><th>Cost</th><th>Catalog</th><th>${esc(sellLabel(pkg))}</th><th>Margin</th><th>%</th><th>Total selling</th><th>Total margin</th></tr></thead><tbody>
-    ${shownLines.map(({ lbl, q, r: x }) => `<tr><td>${lbl}</td><td>${q}</td><td>${rm(x.cost)}</td><td class="muted">${rm(x.catalog)}</td><td>${rm(x.selling)}</td><td class="${marginClass(x.pct)}">${rm(x.margin)}</td><td>${marginPill(x.pct)}</td><td>${rm(q * x.selling)}</td><td class="${marginClass(x.pct)}">${rm(q * x.margin)}</td></tr>`).join("")}
-    ${ao.n ? `<tr><td>Add-ons</td><td>${ao.n}</td><td></td><td></td><td></td><td></td><td></td><td>${rm(ao.sell)}</td><td>${rm(ao.sell - ao.cost)}</td></tr>` : ""}
-    <tr class="total"><td>Total</td><td>${nPax}</td><td></td><td></td><td></td><td></td><td>${marginPill(tp)}</td><td>${rm(tot.sell)}</td><td class="${marginClass(tp)}">${rm(tm)}</td></tr>
-    </tbody></table></div>
-    <details class="sec"${EDIT && !VIEW ? " open" : ""}><summary>Child, infant &amp; discount rules</summary><div class="body small">
-      CWB cost: ${ruleTxt(r.cwbCost, "cwbCost")} · CNB cost: ${ruleTxt(r.cnbCost, "cnbCost")} · Infant cost: ${ruleTxt(r.infantCost, "infantCost")}<br>
-      Selling = catalog + tier upgrade ${ed([...DP, ...P, "tierUpgrade"], r.tierUpgrade, { display: "RM" + n2(r.tierUpgrade) })} − discount tier 2 ${ed([...DP, ...P, "discountTier2"], r.discountTier2, { display: "RM" + n2(r.discountTier2) })} · Infant price ${ed([...DP, "packages", pkg.id, "pricing", "infant"], pkg.pricing.infant, { display: "RM" + n2(pkg.pricing.infant) })} flat
-    </div></details></div>`);
-  cards.push(`<div class="card"><h2>Cost breakdown <span class="sub">${esc(v ? v.label : "—")} · ${pax} pax</span></h2>
-    ${!v ? `<div class="empty">No tour operator covers ${pax} pax for this package.</div>` : !row.cost ? `<div class="empty">${esc(v.label)} only covers ${v.paxMin}–${v.paxMax} pax.</div>` : `
-    <div class="scroll"><table><thead><tr><th>Component</th><th>Group</th><th>Per pax</th></tr></thead><tbody>
-    ${row.cost.comps.map(c => `<tr><td>${esc(c.label)}${c.err ? ` <span class="pill bad" title="${esc(c.err)}">formula error</span>` : ""}</td><td>${rm(c.group)}</td><td>${rm(c.perPax)}</td></tr>`).join("")}
-    <tr class="total"><td>Cost</td><td>${rm(row.cost.total * pax)}</td><td>${rm(row.cost.total)}</td></tr>
-    </tbody></table></div>
-    <div class="note">Hotel: ${esc(hotelText(d, v))}${v.notes ? `<br>${esc(v.notes)}` : ""}</div>`}
-  </div>`);
-  const cmp = d.variants.map(x => ({ x, c: variantCost(d, x, pax) })).filter(o => o.c);
-  if (cmp.length > 1) cards.push(`<div class="card full"><h2>Other tour operators at ${pax} pax <span class="sub">adult cost vs selling ${rm(row.adult.selling)}</span></h2>
-    <div class="scroll"><table><thead><tr><th>Tour operator</th><th>Cost</th><th>vs in use</th><th>Margin</th><th>%</th><th></th></tr></thead><tbody>
-    ${cmp.map(({ x, c }) => { const m = row.adult.selling - c.total, p = row.adult.selling ? m / row.adult.selling : NaN, inUse = v && x.id === v.id, dl = row.cost ? c.total - row.cost.total : NaN;
-      return `<tr class="click${inUse ? " cur" : ""}" data-variant="${esc(x.id)}"><td>${esc(x.label)}</td><td>${rm(c.total)}</td><td>${inUse ? "—" : (num(dl) ? (dl > 0 ? "+" : "") + rm(dl) : "—")}</td><td class="${marginClass(p)}">${rm(m)}</td><td>${marginPill(p)}</td><td>${inUse ? '<span class="pill ok">in use</span>' : '<span class="muted small">use</span>'}</td></tr>`; }).join("")}
-    </tbody></table></div></div>`);
-  $("#grid").innerHTML = cards.join("");
 }
 // Flags: cross-check of catalog, R&D sheet and calculator (tools/crosscheck.py → data/flags.json)
 const SEV = { high: "High", medium: "Medium", low: "Low" };
@@ -493,16 +434,16 @@ function costingByPax(d, pkg, pax) {
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
       ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
       : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Source</th></tr>`;
-    const rows = bl.rows.map(pr => {
+    const rows = bl.rows.map((pr, i) => {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
         ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
-      return `<tr class="click${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
+      return `<tr class="click${i % 2 ? " alt" : ""}${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
         <td><b>${int(x.cost)}</b></td>
         <td class="cp"${up ? ` title="Includes upgrade +RM${n2(up)}"` : ""}>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog) + (up ? '<span class="muted small"> *</span>' : "") })}</td>
         <td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
-        ${isAdult ? `<td><b>${int(x.margin * p)}</b></td>` : ""}
+        ${isAdult ? `<td class="${marginClass(x.pct)}"><b>${int(x.margin * p)}</b></td>` : ""}
         <td class="c">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
     }).join("");
     return title + head + rows;
@@ -510,7 +451,7 @@ function costingByPax(d, pkg, pax) {
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
     <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} ${+pkg.rules.discountTier2 ? `Selling = Catalog Price − RM${n2(+pkg.rules.discountTier2)} (R&D tier-2 discount); margin is on the selling price.` : "Selling = Catalog Price (no discount)."}${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to quote that pax count.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} ${+pkg.rules.discountTier2 ? `Selling = Catalog Price − RM${n2(+pkg.rules.discountTier2)} (R&D tier-2 discount); margin is on the selling price.` : "Selling = Catalog Price (no discount)."}${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;
@@ -535,44 +476,68 @@ function addonCard(d) {
       <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
       <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td></tr>`;
   };
-  return `<div class="card full" id="addons"><h2>Add-ons <span class="sub">${list.length} items · qty adds to the quote, not saved</span></h2>
+  return `<div class="card full" id="addons"><h2>Add-ons <span class="sub">${list.length} items · enter a qty to total the selected add-ons (not saved)</span></h2>
     <div class="scroll" style="max-height:520px;overflow-y:auto"><table><thead><tr><th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
     ${cats.map(cat => `<tr class="cat"><td colspan="7">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
     ${t.n ? `<tr class="total"><td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
     </tbody></table></div></div>`;
 }
-function tableGroups(d) {
-  const g = new Map();
-  for (const t of d.tables) { const k = t.group || "Per-pax rates"; if (!g.has(k)) g.set(k, []); g.get(k).push(t); }
-  return [...g.entries()];
+// TO Contract Rate: the TO's contract / rate card files (PDF, Excel, image), kept in the repo
+// under contracts/<code>/ and listed in the destination's `contracts`.
+const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(b / 1024)) + " KB";
+function contractCard(d) {
+  const list = [...(d.contracts || [])].sort((a, b) => String(b.at).localeCompare(String(a.at)));
+  const canEdit = SESSION && !VIEW;
+  const upload = canEdit ? `<div class="body upl">
+      <label>File<input type="file" id="crFile" accept=".pdf,.xlsx,.xls,.csv,.doc,.docx,.jpg,.jpeg,.png"></label>
+      <label>Tour operator<select id="crTo">${d.variants.map(v => `<option value="${esc(v.label)}">${esc(v.label)}</option>`).join("")}<option value="">Other / all</option></select></label>
+      <label class="grow">Note<input type="text" id="crNote" placeholder="e.g. CTRANS rate card Jan–Dec 2027"></label>
+      <button class="btn primary" id="doUpload">Upload</button></div>`
+    : `<div class="body small muted">${VIEW ? "Viewing an old version." : `Log in to upload a contract rate file (max ${CONTRACT_MAX_MB} MB).`}</div>`;
+  return `<div class="card full" id="contracts"><h2>TO Contract Rate <span class="sub">${esc(d.name)} · ${list.length} file${list.length === 1 ? "" : "s"}</span></h2>
+    ${upload}
+    ${list.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">File</th><th class="l">Tour operator</th><th class="l">Note</th><th>Size</th><th class="l">Uploaded</th>${canEdit ? "<th></th>" : ""}</tr></thead><tbody>
+    ${list.map(c => `<tr><td class="l"><a href="${ROOT}${esc(c.file)}" target="_blank" rel="noopener">${esc(c.name)}</a></td><td class="l">${esc(c.to || "—")}</td><td class="l wrap">${esc(c.note || "")}</td><td>${fmtSize(c.size || 0)}</td>
+      <td class="l">${esc(new Date(c.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))} <span class="muted small">${esc(c.by || "")}</span></td>
+      ${canEdit ? `<td><button class="btn danger" data-delcr="${esc(c.id)}">Remove</button></td>` : ""}</tr>`).join("")}
+    </tbody></table></div>` : `<div class="empty">No contract rate file yet for ${esc(d.name)}.</div>`}
+    <div class="note">Anyone with the page link can open these files. A new file shows on the live page in about a minute.</div></div>`;
 }
-// tables used by the TO currently shown, so its block opens by default
-function inUseTables(d) {
-  const pkg = curPkg(d), v = d.variants.find(x => x.id === activeVariantId(pkg, bandPax()));
-  return new Set(v ? v.components.map(c => (c.expr.match(/T\['([^']+)'\]/) || [])[1]).filter(Boolean) : []);
-}
-function rateCard(d) {
-  const DP = ["destinations", d.code];
-  const groups = {};
-  d.rates.forEach(r => (groups[r.group || "Rates"] ||= []).push(r));
-  const isAdmin = SESSION && SESSION.role === "admin";
-  return `<details class="card full ratecard" open><summary><b>Rates &amp; FX</b> <span class="muted small">source ${esc(d.source)}${EDIT && !VIEW ? "" : " · log in → Edit costs to change rates"}</span></summary>
-  <div class="body fxline"><b>Exchange rate</b> ${fxChips(d)} <span class="muted small">Locked: the costs were converted at this rate in the R&D sheet. To change it, update the R&D sheet and re-import.</span></div>
-  ${d.note ? `<div class="note">${esc(d.note)}</div>` : ""}
-  ${d.rates.length ? `<div class="body small">
-    <b>Nights</b> ${ed([...DP, "nights"], d.nights)}
-  </div>` : `<div class="body small muted">Costs per pax in RM, by TO and component, from the R&D CR tab.</div>`}
-  ${d.rates.length ? `<details class="sec" open><summary>Rates (${d.rates.length})</summary><div class="scroll"><table><thead><tr><th>Item</th><th class="l">Group</th><th>Rate</th><th class="l">Unit</th><th class="l">FX</th><th>= MYR</th></tr></thead><tbody>
-    ${Object.entries(groups).map(([g, list]) => list.map(r => `<tr><td>${esc(r.label)}</td><td class="l muted">${esc(g)}</td><td>${ed([...DP, "rates", r.id, "value"], r.value, { display: n2(r.value) })}</td><td class="l muted">${esc(r.unit)}</td><td class="l muted">${esc(r.fx)}</td><td>${rm(r.value * fxOf(d, r.fx), 2)}</td></tr>`).join("")).join("")}
-  </tbody></table></div></details>` : ""}
-  ${tableGroups(d).map(([g, ts]) => `<details class="sec"${ts.some(t => inUseTables(d).has(t.id)) ? " open" : ""}><summary>${esc(g)} <span class="muted small">per pax, RM</span></summary><div class="scroll" style="max-height:420px;overflow-y:auto"><table><thead><tr><th>Pax</th>${ts.map(t => `<th>${esc(t.label.replace(g + " · ", ""))}</th>`).join("")}</tr></thead><tbody>
-    ${[...new Set(ts.flatMap(t => Object.keys(t.values)))].map(Number).sort((a, b) => a - b).map(p => `<tr><td>${p}</td>${ts.map(t => `<td>${t.values[String(p)] === undefined ? '<span class="muted">—</span>' : ed([...DP, "tables", t.id, "values", String(p)], t.values[String(p)], { display: n2(t.values[String(p)]) })}</td>`).join("")}</tr>`).join("")}
-  </tbody></table></div></details>`).join("")}
-  <details class="sec"><summary>TO formulas &amp; pax coverage${isAdmin ? "" : " (admin edits)"}</summary><div class="scroll"><table><thead><tr><th>TO</th><th class="l">Component</th><th class="l">Formula (group total unless per pax)</th></tr></thead><tbody>
-    ${d.variants.map(v => v.components.map((c, i) => `<tr><td>${i ? "" : `<b>${esc(v.id)}</b><br><span class="muted small">pax ${v.paxMin}–${v.paxMax}</span>`}</td><td class="l">${esc(c.label)}</td><td class="l" style="min-width:320px">${isAdmin && EDIT && !VIEW ? ed([...DP, "variants", v.id, "components", c.key, "expr"], c.expr, { text: true }) : `<span class="expr">${esc(c.expr)}</span>`}</td></tr>`).join("")).join("")}
-  </tbody></table></div>
-  <div class="note">Formulas use <code>R.id</code> (rate converted to MYR at its FX), <code>T['id']</code> (per-pax table value at the current pax), <code>N</code> (nights), <code>pax</code> and <code>band(pax,[max,value],…)</code> for vehicle bands.</div></details>
-  </details>`;
+// Add (file) or remove (removeId) a contract file: one commit with the file, data.json and history.json.
+async function saveContract(code, { file, to, note, removeId }) {
+  if (pendingChanges().length) throw new Error("Save or discard your cost edits first.");
+  let blobSha = null, add = null;
+  if (file) {
+    const safe = file.name.replace(/[^\w.\-]+/g, "_") || "file";
+    const id = Date.now().toString(36);
+    add = { id, name: file.name, file: `contracts/${code.toLowerCase()}/${id}-${safe}`, to, note, size: file.size, at: new Date().toISOString(), by: SESSION.u };
+    blobSha = await GH.blob(await file.arrayBuffer(), SESSION.token);
+  }
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const head = await GH.head(SESSION.token);
+    const remote = await GH.readJson(PATHS.data, head, SESSION.token);
+    const rhist = await GH.readJson(PATHS.history, head, SESSION.token);
+    const dest = remote.destinations.find(x => x.code === code);
+    const from = dest.contracts ? clone(dest.contracts) : undefined;
+    const gone = removeId ? (dest.contracts || []).find(c => c.id === removeId) : null;
+    if (removeId && !gone) throw new Error("That file was already removed — reload the page.");
+    dest.contracts = removeId ? dest.contracts.filter(c => c.id !== removeId) : [...(dest.contracts || []), add];
+    const next = { ...remote, version: remote.version + 1, updatedAt: new Date().toISOString(), updatedBy: SESSION.u };
+    const what = gone ? `Removed ${gone.name}` : `Uploaded ${add.name}${to ? " (" + to + ")" : ""}`;
+    rhist.entries.push({ v: next.version, at: next.updatedAt, by: SESSION.u, note: note || what, summary: [`${dest.name} › TO Contract Rate: ${what}`],
+      changes: [{ path: ["destinations", code, "contracts"], from, to: clone(dest.contracts), label: `${dest.name} › TO Contract Rate` }] });
+    try {
+      await GH.commit([{ path: PATHS.data, content: pretty(next) }, { path: PATHS.history, content: pretty(rhist) },
+        gone ? { path: gone.file, sha: null } : { path: add.file, sha: blobSha }],
+        `v${next.version} · ${SESSION.u}: ${what}`.slice(0, 200), head, SESSION.token);
+    } catch (e) {
+      if (e.status === 422 || e.status === 409) continue;
+      throw e;
+    }
+    BASE = next; DATA = clone(next); HISTORY = rhist;
+    return next.version;
+  }
+  throw new Error("Could not save after 3 attempts — reload the page.");
 }
 const touchesDest = e => !PAGE_DEST || !(e.changes || []).length || e.changes.some(c => c.path[1] === PAGE_DEST);
 function histEntry(e) {
@@ -610,6 +575,11 @@ function stripMeta(o) { const c = { ...o }; delete c.version; delete c.updatedAt
 const enc = new TextEncoder(), dec = new TextDecoder();
 const b64 = buf => btoa(String.fromCharCode(...new Uint8Array(buf)));
 const unb64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+function b64big(buf) {   // b64() spreads the whole array into one call, too big for PDFs
+  const u = new Uint8Array(buf); let s = "";
+  for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000));
+  return btoa(s);
+}
 async function pwKey(pw, salt, iter) {
   const base = await crypto.subtle.importKey("raw", enc.encode(pw), "PBKDF2", false, ["deriveKey"]);
   return crypto.subtle.deriveKey({ name: "PBKDF2", salt, iterations: iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["encrypt", "decrypt"]);
@@ -647,10 +617,12 @@ const GH = {
     const bytes = unb64(j.content.replace(/\n/g, ""));
     return JSON.parse(dec.decode(bytes));
   },
+  async blob(bytes, token) { return (await this.req("POST", this.repoPath() + "/git/blobs", { content: b64big(bytes), encoding: "base64" }, token)).sha; },
   // One commit that writes several files; fails (409/422) if someone pushed first.
   async commit(files, message, parentSha, token) {
     const parent = await this.req("GET", this.repoPath() + "/git/commits/" + parentSha, null, token);
-    const tree = await this.req("POST", this.repoPath() + "/git/trees", { base_tree: parent.tree.sha, tree: files.map(f => ({ path: f.path, mode: "100644", type: "blob", content: f.content })) }, token);
+    // a file is {path, content} (text), {path, sha} (uploaded blob) or {path, sha: null} (delete)
+    const tree = await this.req("POST", this.repoPath() + "/git/trees", { base_tree: parent.tree.sha, tree: files.map(f => ({ path: f.path, mode: "100644", type: "blob", ...("sha" in f ? { sha: f.sha } : { content: f.content }) })) }, token);
     const c = await this.req("POST", this.repoPath() + "/git/commits", { message, tree: tree.sha, parents: [parentSha] }, token);
     await this.req("PATCH", this.repoPath() + "/git/refs/heads/" + REPO.branch, { sha: c.sha, force: false }, token);
     return c.sha;
@@ -796,7 +768,7 @@ async function acct(fn, okMsg) { mErr("Saving…"); try { await fn(); mErr(""); 
 /* ============================================================ events */
 document.addEventListener("click", async e => {
   lastActivity = Date.now();
-  const t = e.target.closest("button, tr[data-pax], tr[data-variant], tr[data-href], [data-close], a");
+  const t = e.target.closest("button, tr[data-pax], tr[data-href], [data-close], a");
   if (!t) return;
   if (t.dataset.href && t.tagName === "TR") { location.href = t.dataset.href; return; }
   if (t.matches("[data-close]")) return closeModal();
@@ -821,8 +793,24 @@ document.addEventListener("click", async e => {
   if (t.dataset.tab) { SEL.paxTab = t.dataset.tab; return render(); }
   if (t.dataset.tabmain) { SEL.tab = t.dataset.tabmain; history.replaceState(null, "", "#" + SEL.tab); return render(); }
   if (t.dataset.sev) { SEL.flagSev[t.dataset.sev] = !SEL.flagSev[t.dataset.sev]; return render(); }
-  if (t.dataset.pax) { const p = +t.dataset.pax; SEL.bandOverride = ""; SEL.adult = Math.max(0, p - SEL.cwb - SEL.cnb); if (SEL.adult + SEL.cwb + SEL.cnb !== p) { SEL.cwb = SEL.cnb = 0; SEL.adult = p; } return render(); }
-  if (t.dataset.variant) { SEL.variant = t.dataset.variant; return render(); }
+  if (t.dataset.pax) { SEL.pax = +t.dataset.pax; return render(); }
+  if (t.id === "doUpload") {
+    const f = $("#crFile").files[0];
+    if (!f) return toast("Choose a file first");
+    if (f.size > CONTRACT_MAX_MB * 1048576) return toast(`File is ${fmtSize(f.size)} — max ${CONTRACT_MAX_MB} MB`, 5000);
+    t.disabled = true; t.textContent = "Uploading…";
+    try { const v = await saveContract(SEL.dest, { file: f, to: $("#crTo").value, note: $("#crNote").value.trim() }); render(); toast(`Uploaded as v${v} — the file opens on the live page in about a minute`, 5000); }
+    catch (err) { toast(err.message, 6000); t.disabled = false; t.textContent = "Upload"; }
+    return;
+  }
+  if (t.dataset.delcr) {
+    const c = (curDest().contracts || []).find(x => x.id === t.dataset.delcr);
+    if (!c || !confirm(`Remove ${c.name}? It stays in the repo history.`)) return;
+    t.disabled = true;
+    try { const v = await saveContract(SEL.dest, { removeId: c.id }); render(); toast(`Removed (v${v})`); }
+    catch (err) { toast(err.message, 6000); t.disabled = false; }
+    return;
+  }
   if (t.id === "doSave") {
     const note = $("#saveNote").value.trim();
     if (note.length < 3) return mErr("Write a short note: what changed and why (e.g. 'ATK 2027 rate card').");
@@ -884,8 +872,6 @@ document.addEventListener("change", e => {
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
-  if (t.id && t.id.startsWith("pax_")) { SEL[t.id.slice(4)] = Math.max(0, Math.min(99, parseInt(t.value || "0", 10) || 0)); return render(); }
-  if (t.id === "bandOv") { SEL.bandOverride = t.value === "" ? "" : String(Math.max(1, parseInt(t.value, 10) || 1)); return render(); }
   if (t.dataset && t.dataset.path) {
     const path = JSON.parse(t.dataset.path);
     let v = t.value;

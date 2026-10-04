@@ -13,7 +13,7 @@ const near = (a, b, tol = 0.01) => Math.abs(a - b) <= tol;
 
 // ---------------------------------------------------------------- mock GitHub repo
 function mockRepo(files, validTokens) {
-  let n = 0; const commits = {}, trees = {};
+  let n = 0; const commits = {}, trees = {}, blobs = {};
   const root = "c0"; trees.t0 = { ...files }; commits[root] = { tree: "t0", parents: [] };
   const repo = { head: root, commits, trees, log: [] };
   repo.files = sha => trees[commits[sha].tree];
@@ -29,8 +29,10 @@ function mockRepo(files, validTokens) {
     if (method === "GET" && p.startsWith("/git/commits/")) return [200, { tree: { sha: commits[p.slice(13)].tree } }];
     if (method === "POST" && p === "/git/trees") {
       const t = "t" + (++n); trees[t] = { ...trees[body.base_tree] };
-      for (const f of body.tree) trees[t][f.path] = f.content; return [201, { sha: t }];
+      for (const f of body.tree) { if ("sha" in f) { if (f.sha === null) delete trees[t][f.path]; else trees[t][f.path] = blobs[f.sha]; } else trees[t][f.path] = f.content; }
+      return [201, { sha: t }];
     }
+    if (method === "POST" && p === "/git/blobs") { const b = "b" + (++n); blobs[b] = Buffer.from(body.content, "base64").toString("latin1"); return [201, { sha: b }]; }
     if (method === "POST" && p === "/git/commits") { const c = "c" + (++n); commits[c] = { tree: body.tree, parents: body.parents, message: body.message }; return [201, { sha: c }]; }
     if (method === "PATCH" && p === "/git/refs/heads/main") {
       if (commits[body.sha].parents[0] !== repo.head) return [422, { message: "Update is not a fast forward" }];
@@ -182,24 +184,23 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.0259"), "FX chips show WIF 0.029 and Qayyum 0.0259");
-    await tab(w, doc, "quote");
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,contracts,addons,flags,history", "tabs: Costing, TO Contract Rate, Add-ons, Flags, History");
+    ok(doc.querySelector('[data-tabmain="contracts"]').textContent === "TO Contract Rate", "tab named TO Contract Rate");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
-    setVal(w, doc.querySelector("#pax_adult"), "6"); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum"), "6 pax → Qayyum");
-    setVal(w, doc.querySelector("#pax_adult"), "8"); await tick(5);
+    const rowAt = p => doc.querySelector(`#costPax tr[data-pax="${p}"]`);
+    click(w, rowAt(6)); await tick(5);
+    ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum") && rowAt(6).classList.contains("cur"), "click 6 pax row → Qayyum, row highlighted");
+    click(w, rowAt(8)); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 pax → WIF-STD");
-    ok(doc.querySelector("#kpis").textContent.includes("RM3,697"), "8 pax selling RM3,697 shown (3897 − 200)");
-    setVal(w, doc.querySelector("#pax_cwb"), "2"); setVal(w, doc.querySelector("#pax_infant"), "1"); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 adult + 2 CWB = band 10 → WIF-STD");
-    const rows = doc.querySelectorAll("#quote tbody tr");
-    ok(rows.length === 4 && rows[0].textContent.includes("Adult") && rows[1].textContent.includes("Child with bed") && rows[2].textContent.includes("Infant") && !doc.querySelector("#quote").textContent.includes("Child no bed"), "quote shows only pax types in the quote (adult, CWB, infant) + total");
-    ok(doc.querySelectorAll("tr[data-variant]").length >= 2, "TO comparison lists more than one TO at 10 pax");
-    click(w, doc.querySelector('tr[data-variant="WIF-BSC"]')); await tick(5);
-    ok(doc.querySelector("#selVar").value === "WIF-BSC", "clicking comparison row switches TO");
-    setVal(w, doc.querySelector("#selVar"), "auto");
-    setVal(w, doc.querySelector("#pax_adult"), "50"); setVal(w, doc.querySelector("#pax_cwb"), "0"); setVal(w, doc.querySelector("#pax_infant"), "0"); await tick(5);
-    ok(doc.querySelector("#grid").textContent.includes("No tour operator covers 50 pax"), "50 pax shows a gap, not RM0");
-    setVal(w, doc.querySelector("#pax_adult"), "2"); await tick(5);
+    ok(rowAt(8).textContent.includes("3,697"), "8 pax selling 3,697 shown (3897 − 200)");
+    const sm = doc.querySelector(".summary").textContent;
+    ok(!sm.includes("No TO cost") && !sm.includes("Catalog → Selling") && sm.includes("Margin range"), "summary has no 'No TO cost' / 'Catalog → Selling'");
+    const rws = [...doc.querySelectorAll("#costPax tr[data-pax]")];
+    ok(rws[0].classList.contains("alt") === false && rws[1].classList.contains("alt"), "costing rows alternate grey / white");
+    const mg = rws.map(r => r.querySelector("td.mg"));
+    ok(mg.every(td => { const v = parseFloat(td.textContent.replace(/[^\d.\-−]/g, "").replace("−", "-")); return !isFinite(v) || (v > 0 ? td.classList.contains("m-ok") : v < 0 ? td.classList.contains("m-bad") : !/m-(ok|bad)/.test(td.className)); }), "margin green when positive, red when negative");
+    ok(P.priceRow(HND(), HND().packages[1], "WIF-STD", 8).adult.pct > 0 && w.eval("marginClass(0.01)") === "m-ok" && w.eval("marginClass(-0.01)") === "m-bad", "marginClass: + green, − red");
+    click(w, rowAt(2)); await tick(5);
   }
 
   console.log("4. first-time setup, login, wrong password");
@@ -242,43 +243,42 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   console.log("6. edit → save v2 → history → view v1 → restore v3");
   let before;
   {
-    await tab(w, doc, "quote");
-    setVal(w, doc.querySelector("#selPkg"), "basic"); setVal(w, doc.querySelector("#pax_adult"), "2"); await tick(5);
-    before = P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost;
-    await tab(w, doc, "rates");
+    await tab(w, doc, "costing");
+    setVal(w, doc.querySelector("#selPkg"), "basic"); await tick(5);
+    const CAT = ["destinations", "HND", "packages", "basic", "pricing", "adult", "2"];
+    before = HND().packages[0].pricing.adult["2"];
     ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX is never editable");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX stays locked in edit mode");
-    const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "hnd7", "value"]));
-    ok(inp, "Haneda 7-seater rate is editable");
-    setVal(w, inp, "18000"); await tick(10);
-    const after = P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost;
-    ok(near(after - before, 2 * 1000 * 0.029 / 2), "cost/pax rises by 2×¥1000×0.029÷2 pax");
+    const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(CAT));
+    ok(inp, "Basic 2 pax catalog price is editable in the costing table");
+    setVal(w, inp, String(before + 100)); await tick(10);
+    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.catalog, before + 100), "catalog +100 recalculates");
     ok(doc.querySelector("#btnSave")?.textContent.includes("(1)"), "save button shows 1 change");
     click(w, doc.querySelector("#btnSave")); await tick(5);
     click(w, doc.querySelector("#doSave")); await tick(5);
     ok(doc.querySelector(".err-t").textContent.includes("note"), "note is required");
-    doc.querySelector("#saveNote").value = "WIF 2027 airport rate";
+    doc.querySelector("#saveNote").value = "Basic catalog 2027";
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V0 + 1), "saved as V0+1");
     const remote = JSON.parse(repo.files(repo.head)["data/data.json"]);
     ok(remote.version === V0 + 1 && remote.updatedBy === "aiman", "repo data.json V0+1 by aiman");
-    ok(byCode(remote,'HND').rates.find(r => r.id === "hnd7").value === 18000, "repo has new rate");
+    ok(byCode(remote,'HND').packages[0].pricing.adult["2"] === before + 100, "repo has new catalog price");
     const hist = JSON.parse(repo.files(repo.head)["data/history.json"]);
     const e = hist.entries.find(x => x.v === V0 + 1);
-    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === 17000 && e.changes[0].label.includes("Haneda 7-seater"), "history entry V0+1 with readable label");
-    ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: WIF 2027`), "one commit with version message");
+    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === before && e.changes[0].label.includes("@2 pax"), "history entry V0+1 with readable label");
+    ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: Basic catalog`), "one commit with version message");
     click(w, doc.querySelector("#btnHistory")); await tick(5);
-    ok(doc.querySelector(".tabm.on").dataset.tabmain === "history" && doc.querySelector("#grid").textContent.includes("WIF 2027 airport rate") && doc.querySelector("#grid").textContent.includes("Added destinations"), "History button opens the History tab with the notes");
+    ok(doc.querySelector(".tabm.on").dataset.tabmain === "history" && doc.querySelector("#grid").textContent.includes("Basic catalog 2027") && doc.querySelector("#grid").textContent.includes("Added destinations"), "History button opens the History tab with the notes");
     const snap = P.snapshotAt(V0);
-    ok(byCode(snap,"HND").rates.find(r => r.id === "hnd7").value === 17000, "V0 rebuilt from change log");
+    ok(byCode(snap,"HND").packages[0].pricing.adult["2"] === before, "V0 rebuilt from change log");
     click(w, doc.querySelector(`[data-view="${V0}"]`)); await tick(5);
     ok(doc.querySelector("#banners").textContent.includes(`Read-only: version ${V0}`), "viewing V0 banner");
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
     ok(doc.querySelector("#saveNote").value === `Restore to v${V0}`, "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V0 + 2), "restore saved as V0+2");
-    ok(near(P.priceRow(HND(), HND().packages[0], "WIF-BSC", 2).adult.cost, before), "cost back to V0");
+    ok(HND().packages[0].pricing.adult["2"] === before, "catalog back to V0");
   }
 
   console.log("7. concurrent saves");
@@ -292,30 +292,30 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     let [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
     // we (still on v3) edit a different cell
-    await tab(w, doc, "rates");
+    await tab(w, doc, "costing");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
-    const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
-    setVal(w, inp, "1100"); await tick(10);
+    const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "packages", "basic", "pricing", "adult", "3"]));
+    setVal(w, inp, "5111"); await tick(10);
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "ropeway price";
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V0 + 4), "different cell → replayed on top, saved V0+4");
     const r5 = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    ok(byCode(r5,'HND').fx.find(f => f.id === "QAYYUM").value === 0.026 && byCode(r5,'HND').rates.find(r => r.id === "kachi").value === 1100, "both users' edits kept");
+    ok(byCode(r5,'HND').fx.find(f => f.id === "QAYYUM").value === 0.026 && byCode(r5,'HND').packages[0].pricing.adult["3"] === 5111, "both users' edits kept");
     // same cell clash
-    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').rates.find(r => r.id === "kachi").value = 1200; o2.version = V0 + 5;
+    const o2 = JSON.parse(JSON.stringify(r5)); byCode(o2,'HND').packages[0].pricing.adult["3"] = 5222; o2.version = V0 + 5;
     [, t] = repo.handle("POST", "https://api.github.com/repos/x/y/git/trees", { base_tree: repo.commits[repo.head].tree, tree: [{ path: "data/data.json", content: JSON.stringify(o2) }] }, "Bearer tok-valid");
     [, c] = repo.handle("POST", "https://api.github.com/repos/x/y/git/commits", { tree: t.sha, parents: [repo.head], message: "other 2" }, "Bearer tok-valid");
     repo.handle("PATCH", "https://api.github.com/repos/x/y/git/refs/heads/main", { sha: c.sha }, "Bearer tok-valid");
-    await tab(w, doc, "rates");
+    await tab(w, doc, "costing");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
-    const inp2 = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "kachi", "value"]));
-    setVal(w, inp2, "1300"); await tick(10);
+    const inp2 = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "HND", "packages", "basic", "pricing", "adult", "3"]));
+    setVal(w, inp2, "5333"); await tick(10);
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "clash";
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => doc.querySelector(".err-t")?.textContent.includes("same cells")), "same-cell clash is refused, not overwritten");
-    ok(byCode(JSON.parse(repo.files(repo.head)["data/data.json"]),"HND").rates.find(r => r.id === "kachi").value === 1200, "other user's value untouched");
+    ok(byCode(JSON.parse(repo.files(repo.head)["data/data.json"]),"HND").packages[0].pricing.adult["3"] === 5222, "other user's value untouched");
     click(w, doc.querySelector("[data-close]"));
   }
 
@@ -324,8 +324,35 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, doc.querySelector("#btnAcct")); await tick(5);
     ok(!doc.querySelector("#doAdd"), "editor has no Add user");
     click(w, doc.querySelector("[data-close]"));
-    await tab(w, doc, "rates");
-    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"expr"')), "editor cannot edit formulas");
+    ok(!doc.querySelector('[data-tabmain="rates"]') && !doc.querySelector('[data-tabmain="quote"]'), "no Rates & FX or Quote tab");
+  }
+
+  console.log("8a. TO Contract Rate: upload, list, remove");
+  {
+    if (doc.querySelector('[data-act="discard"]')) { click(w, doc.querySelector('[data-act="discard"]')); await tick(5); }   // drop the clash edit from 7.
+    await tab(w, doc, "contracts");
+    ok(doc.querySelector("#contracts .empty") && doc.querySelector("#crFile"), "empty list + upload form when logged in");
+    const pdf = "%PDF-1.4 rate card \u00ff test";
+    const f = new w.File([Buffer.from(pdf, "latin1")], "WIF Rate Card 2027.pdf", { type: "application/pdf" });
+    Object.defineProperty(doc.querySelector("#crFile"), "files", { value: [f], configurable: true });
+    doc.querySelector("#crNote").value = "WIF 2027";
+    const v0 = JSON.parse(repo.files(repo.head)["data/data.json"]).version;   // 7. left a newer remote version
+    click(w, doc.querySelector("#doUpload"));
+    ok(await until(() => P.BASE.version === v0 + 1), "upload saved as a new version");
+    const files = repo.files(repo.head), cr = byCode(JSON.parse(files["data/data.json"]), "HND").contracts;
+    ok(cr && cr.length === 1 && cr[0].name === "WIF Rate Card 2027.pdf" && cr[0].note === "WIF 2027" && cr[0].by === "aiman" && /^contracts\/hnd\/\w+-WIF_Rate_Card_2027\.pdf$/.test(cr[0].file), "data.json lists the file: " + JSON.stringify(cr));
+    ok(files[cr[0].file] === pdf, "file bytes committed to the repo");
+    ok(repo.log.at(-1).includes("Uploaded WIF Rate Card 2027.pdf"), "commit message names the file");
+    const link = doc.querySelector("#contracts tbody a");
+    ok(link && link.getAttribute("href") === "../" + cr[0].file && doc.querySelector("#contracts").textContent.includes("WIF 2027"), "file listed with link and note");
+    const h = JSON.parse(files["data/history.json"]).entries.at(-1);
+    ok(h.summary[0].includes("TO Contract Rate: Uploaded") && h.changes[0].path.join() === "destinations,HND,contracts", "history entry for the upload");
+    click(w, doc.querySelector(`[data-delcr="${cr[0].id}"]`));
+    ok(await until(() => P.BASE.version === v0 + 2), "remove saved as a new version");
+    const f2 = repo.files(repo.head);
+    ok(byCode(JSON.parse(f2["data/data.json"]), "HND").contracts.length === 0 && f2[cr[0].file] === undefined, "file and list entry removed");
+    click(w, doc.querySelector("#btnLogout")); await tick(5);
+    ok(!doc.querySelector("#crFile") && doc.querySelector("#contracts").textContent.includes("Log in to upload"), "logged out: no upload form");
   }
 
   console.log("8b. costing by pax (R&D layout): components ÷ pax = Cost/Pax, + Margin = Selling, Margin × pax = Total Gross");
@@ -366,13 +393,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const hnd = HND(), a = hnd.addons.find(x => x.label.startsWith("Disneyland/Disneysea (2 pax)"));
     ok(a && a.cost === 754 && a.selling === 800, "Disneyland 2 pax add-on transcribed");
-    await tab(w, doc, "quote"); const before = doc.querySelector("#kpis").textContent;
     await tab(w, doc, "addons");
     const q = doc.querySelector(`input.aq[data-addon="${a.id}"]`); setVal(w, q, "2"); await tick(5);
     ok(doc.querySelector("#addons .total").textContent.includes("RM1,600.00") && doc.querySelector("#addons .total").textContent.includes("RM92.00"), "2 × Disneyland = RM1,600 selling, RM92 margin");
-    await tab(w, doc, "quote");
-    ok(doc.querySelector("#kpis").textContent.includes("1 add-on") && doc.querySelector("#kpis").textContent !== before, "group total includes add-on");
-    await tab(w, doc, "addons");
     setVal(w, doc.querySelector(`input.aq[data-addon="${a.id}"]`), "0"); await tick(5);
     const sel = byCode(P.DATA, "SEL");
     ok(sel.addons.length === 13 && sel.addons.filter(x => x.cost === null).length === 12, "Seoul add-ons keep missing cost as null, not 0");
@@ -407,16 +430,16 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
-    const sj = await boot(repo, "seljju/", "#quote");
+    const sj = await boot(repo, "seljju/", "#quote");   // old #quote link falls back to Costing
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
-    ok(sj.doc.querySelector("#kpis").textContent.includes("RM5,897"), "Seoul-Jeju 2 pax selling RM5,897 (R&D)");
+    ok(sj.doc.querySelector(".tabm.on").dataset.tabmain === "costing" && sj.doc.querySelector('#costPax tr[data-pax="2"] td.sp').textContent.includes("5,897"), "Seoul-Jeju 2 pax selling 5,897 (R&D); #quote opens Costing");
     const kb = await boot(repo, "kbv/", "?pkg=standard#quote");
     const hotelSel = kb.doc.querySelector("#opt_hotel");
     ok(hotelSel && hotelSel.options.length === byCode(P.DATA, "KBV").options[0].choices.length, "Krabi has a hotel selector");
-    const before4 = kb.doc.querySelector("#kpis").textContent;
+    const before4 = kb.doc.querySelector("#costPax").textContent;
     const fourStar = byCode(P.DATA, "KBV").options[0].choices.find(c => c.star === "4★");
     hotelSel.value = fourStar.id; hotelSel.dispatchEvent(new kb.w.Event("change", { bubbles: true })); await tick(5);
-    ok(kb.doc.querySelector("#controls").textContent.includes("catalog +RM250") && kb.doc.querySelector("#kpis").textContent !== before4, "4★ hotel adds RM250 to the Standard catalog and changes the quote");
+    ok(kb.doc.querySelector("#controls").textContent.includes("catalog +RM250") && kb.doc.querySelector("#costPax").textContent !== before4, "4★ hotel adds RM250 to the Standard catalog and changes the costing");
     const seasonSel = kb.doc.querySelector("#opt_season"); seasonSel.value = "High"; seasonSel.dispatchEvent(new kb.w.Event("change", { bubbles: true })); await tick(5);
     ok(kb.doc.querySelector("#opt_season").value === "High" && kb.errors.length === 0, "season selector works " + kb.errors.join("|"));
     const fp = await boot(repo, "flags/");
@@ -427,7 +450,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const jb = await boot(repo, "jbdo/", "#flags");
     ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("Whoosh"), "JBDO Flags tab shows its flags");
     ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
-    for (const tb of ["costing", "quote", "addons", "rates", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
+    for (const tb of ["costing", "contracts", "addons", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
       const pg = await boot(repo, code + "/");
       ok(pg.doc.querySelector("#costPax") && pg.errors.length === 0, `/${code}/ renders without errors ` + pg.errors.join("|"));

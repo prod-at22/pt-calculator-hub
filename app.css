@@ -102,11 +102,8 @@ details.sec[open]>summary:before{content:"▾ "}
 a{color:var(--navy)}
 table.rd th,table.rd td{border:1px solid var(--line)}
 table.rd td.c{text-align:center}
-tr.blk-title td{background:#d9d2e9;color:var(--ink);font-weight:700;text-align:left;font-size:13px}
-tr.blk-head th{background:#ebe7f3;color:var(--ink);text-transform:none;letter-spacing:0;font-size:12.5px;text-align:center;white-space:normal;min-width:84px}
-table.rd th.sp{background:#93c47d;color:#123}
-table.rd th.mg{background:#d9ead3}
-table.rd td.sp{background:#f3f9f0}
+tr.blk-title td{background:#fff;color:var(--ink);font-weight:700;text-align:left;font-size:13px;padding-top:12px}
+tr.blk-head th{background:#dde3ea;color:var(--ink);text-transform:none;letter-spacing:0;font-size:12.5px;text-align:center;white-space:normal;min-width:84px}
 table.rd tr.cur td{background:var(--navy-soft)}
 .hub{max-width:760px;margin:0 auto;width:100%}
 .hub td a{font-weight:600;text-decoration:none;color:var(--ink)}
@@ -169,5 +166,12 @@ details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
   .fxbox{justify-content:flex-start;width:100%}
   .sel-row{grid-template-columns:1fr}
 }
-table.rd th.cp{background:#fdf3d8}
-table.rd td.cp{background:#fffaf0}
+/* costing table: one header colour, grey / white rows */
+table.rd tr.alt td,table.zebra tbody tr:nth-child(even) td{background:#eef0f3}
+.m-ok,.m-bad{font-weight:700}
+/* TO Contract Rate upload row */
+.upl{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.upl label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:var(--ink-soft)}
+.upl label.grow{flex:1;min-width:180px}
+.upl input,.upl select{border:1px solid var(--line);border-radius:7px;padding:6px 8px;background:#fff;min-width:0}
+table.rd tr.cur td{background:var(--navy-soft)}

@@ -6,7 +6,10 @@ How everything works: README.md. This file = where we stopped.
 ## Done
 - 37 destinations, 64 catalog packages on the hub (package name · PO · last update; no TO names).
 - Destination page tabs: Costing (default, R&D-style table: components · Cost/Pax · Catalog Price ·
-  Selling (Catalog − RM200) · Margin · % · Total Gross) / Quote / Add-ons / Rates & FX / Flags / History.
+  Selling (Catalog − RM200) · Margin · % · Total Gross) / TO Contract Rate / Add-ons / Flags / History.
+- Trim (4 Oct): Quote and Rates & FX tabs removed; summary shows only margin range + lowest margin;
+  margin green (+) / red (−); costing rows grey/white, one header colour. TO Contract Rate = upload
+  TO contract files (needs login, so nothing uploaded until login is set up). No files there yet.
 - FX from each R&D sheet shown as locked chips (never editable; change in R&D, re-import).
 - Krabi: hotel + season selectors. JBDO (v5): new CTRANS fullboard rate 2–10 pax incl. Whoosh,
   Whoosh column removed, Hiace option at 5 pax, 11+ pax has no rate.
