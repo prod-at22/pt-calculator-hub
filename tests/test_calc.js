@@ -331,7 +331,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     if (doc.querySelector('[data-act="discard"]')) { click(w, doc.querySelector('[data-act="discard"]')); await tick(5); }   // drop the clash edit from 7.
     await tab(w, doc, "contracts");
-    ok(doc.querySelector("#contracts .empty") && doc.querySelector("#crFile"), "empty list + upload form when logged in");
+    const n0 = (HND().contracts || []).length;
+    ok(doc.querySelector("#crFile") && doc.querySelectorAll("#contracts tbody tr").length === n0, "upload form + existing files listed when logged in");
     const pdf = "%PDF-1.4 rate card \u00ff test";
     const f = new w.File([Buffer.from(pdf, "latin1")], "WIF Rate Card 2027.pdf", { type: "application/pdf" });
     Object.defineProperty(doc.querySelector("#crFile"), "files", { value: [f], configurable: true });
@@ -339,18 +340,18 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const v0 = JSON.parse(repo.files(repo.head)["data/data.json"]).version;   // 7. left a newer remote version
     click(w, doc.querySelector("#doUpload"));
     ok(await until(() => P.BASE.version === v0 + 1), "upload saved as a new version");
-    const files = repo.files(repo.head), cr = byCode(JSON.parse(files["data/data.json"]), "HND").contracts;
-    ok(cr && cr.length === 1 && cr[0].name === "WIF Rate Card 2027.pdf" && cr[0].note === "WIF 2027" && cr[0].by === "aiman" && /^contracts\/hnd\/\w+-WIF_Rate_Card_2027\.pdf$/.test(cr[0].file), "data.json lists the file: " + JSON.stringify(cr));
+    const files = repo.files(repo.head), all = byCode(JSON.parse(files["data/data.json"]), "HND").contracts, cr = all.filter(c => c.by === "aiman");
+    ok(all.length === n0 + 1 && cr.length === 1 && cr[0].name === "WIF Rate Card 2027.pdf" && cr[0].note === "WIF 2027" && cr[0].by === "aiman" && /^contracts\/hnd\/\w+-WIF_Rate_Card_2027\.pdf$/.test(cr[0].file), "data.json lists the file: " + JSON.stringify(cr));
     ok(files[cr[0].file] === pdf, "file bytes committed to the repo");
     ok(repo.log.at(-1).includes("Uploaded WIF Rate Card 2027.pdf"), "commit message names the file");
-    const link = doc.querySelector("#contracts tbody a");
+    const link = [...doc.querySelectorAll("#contracts tbody a")].find(a => a.textContent === cr[0].name);
     ok(link && link.getAttribute("href") === "../" + cr[0].file && doc.querySelector("#contracts").textContent.includes("WIF 2027"), "file listed with link and note");
     const h = JSON.parse(files["data/history.json"]).entries.at(-1);
     ok(h.summary[0].includes("TO Contract Rate: Uploaded") && h.changes[0].path.join() === "destinations,HND,contracts", "history entry for the upload");
     click(w, doc.querySelector(`[data-delcr="${cr[0].id}"]`));
     ok(await until(() => P.BASE.version === v0 + 2), "remove saved as a new version");
     const f2 = repo.files(repo.head);
-    ok(byCode(JSON.parse(f2["data/data.json"]), "HND").contracts.length === 0 && f2[cr[0].file] === undefined, "file and list entry removed");
+    ok(byCode(JSON.parse(f2["data/data.json"]), "HND").contracts.length === n0 && f2[cr[0].file] === undefined, "file and list entry removed");
     click(w, doc.querySelector("#btnLogout")); await tick(5);
     ok(!doc.querySelector("#crFile") && doc.querySelector("#contracts").textContent.includes("Log in to upload"), "logged out: no upload form");
   }

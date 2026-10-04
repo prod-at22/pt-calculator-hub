@@ -1160,6 +1160,885 @@
      "label": "Switzerland › FX"
     }
    ]
+  },
+  {
+   "v": 7,
+   "at": "2026-10-04T14:32:13Z",
+   "by": "product",
+   "note": "TO Contract Rate: PT CR files from Drive (Production Team)",
+   "summary": [
+    "Seoul › TO Contract Rate: 1 file",
+    "Seoul - Jeju › TO Contract Rate: 1 file",
+    "Jeju › TO Contract Rate: 1 file",
+    "Jeju - Udo › TO Contract Rate: 1 file",
+    "Turki Klasik › TO Contract Rate: 1 file",
+    "Istanbul - Bursa › TO Contract Rate: 1 file",
+    "Istanbul - Cappadocia › TO Contract Rate: 1 file",
+    "Tokyo › TO Contract Rate: 1 file",
+    "Tokyo - Kyoto - Osaka › TO Contract Rate: 1 file",
+    "Osaka › TO Contract Rate: 1 file",
+    "Hokkaido › TO Contract Rate: 1 file",
+    "Padang - Bukittinggi › TO Contract Rate: 1 file",
+    "Medan - Lake Toba › TO Contract Rate: 3 files",
+    "Jakarta - Bandung › TO Contract Rate: 1 file",
+    "Phu Quoc › TO Contract Rate: 2 files",
+    "Yunnan 4 Wilayah › TO Contract Rate: 1 file",
+    "Beijing › TO Contract Rate: 1 file",
+    "Phuket › TO Contract Rate: 5 files",
+    "Switzerland › TO Contract Rate: 1 file",
+    "Danang - Hoi An › TO Contract Rate: 2 files",
+    "Bangkok › TO Contract Rate: 4 files",
+    "Aceh › TO Contract Rate: 2 files",
+    "Aceh - Sabang › TO Contract Rate: 2 files",
+    "Hanoi - Sapa - Halong Bay › TO Contract Rate: 4 files",
+    "Bali › TO Contract Rate: 9 files",
+    "HCM - Dalat - Muine › TO Contract Rate: 4 files"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462c8",
+       "name": "CR PT SEOUL BSC STD .pdf",
+       "file": "contracts/sel/1a1075462c8-CR_PT_SEOUL_BSC_STD_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 108711,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1A0oP4T26Nw41Es-8rrW2h-JLNrO-YmnR"
+      }
+     ],
+     "label": "Seoul › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "SELJJU",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462c9",
+       "name": "CR PT SEOUL JEJU.pdf",
+       "file": "contracts/seljju/1a1075462c9-CR_PT_SEOUL_JEJU.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 107211,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1s_NaUcQbFxNr1V_M3LUF534Bk5u_Mys3"
+      }
+     ],
+     "label": "Seoul - Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJU",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462ca",
+       "name": "PT JJU ATK 2026.pdf",
+       "file": "contracts/jju/1a1075462ca-PT_JJU_ATK_2026.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 72111,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1lDwqqApYIXkx4KiX30sutlXu-Y8MYjG9"
+      }
+     ],
+     "label": "Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJUO",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462cb",
+       "name": "CR PT JEJU UDO .pdf",
+       "file": "contracts/jjuo/1a1075462cb-CR_PT_JEJU_UDO_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 106609,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1tkk7g-GNqUIaFFaYnWlY7EirEPwUrlWb"
+      }
+     ],
+     "label": "Jeju - Udo › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "TUR",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462cc",
+       "name": "PT MyTrip CR.pdf",
+       "file": "contracts/tur/1a1075462cc-PT_MyTrip_CR.pdf",
+       "to": "MyTrip",
+       "note": "From Drive · Production Team",
+       "size": 44006,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1yLnVMCzSvD24-l67SLTYjo7YWfOOGmKM"
+      }
+     ],
+     "label": "Turki Klasik › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTBUR",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462cd",
+       "name": "PT MyTrip CR ISBUR.pdf",
+       "file": "contracts/istbur/1a1075462cd-PT_MyTrip_CR_ISBUR.pdf",
+       "to": "MyTrip",
+       "note": "From Drive · Production Team",
+       "size": 44006,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1qPniPNJzssJa6guBzPz7AjiJ3e7koAtF"
+      }
+     ],
+     "label": "Istanbul - Bursa › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTCAP",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462ce",
+       "name": "PT MyTrip CR ISCAP.pdf",
+       "file": "contracts/istcap/1a1075462ce-PT_MyTrip_CR_ISCAP.pdf",
+       "to": "MyTrip",
+       "note": "From Drive · Production Team",
+       "size": 44006,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1dOJFDWT29e25UBeXGQyQno21CucSmatS"
+      }
+     ],
+     "label": "Istanbul - Cappadocia › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462cf",
+       "name": "PT HND WIF TOKYO 5D4N JAN-DEC 2026.pdf",
+       "file": "contracts/hnd/1a1075462cf-PT_HND_WIF_TOKYO_5D4N_JAN-DEC_2026.pdf",
+       "to": "WIF",
+       "note": "From Drive · Production Team",
+       "size": 78514,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1YRFYHr061UOAMLvQQUGRutfZWR1WVZFK"
+      }
+     ],
+     "label": "Tokyo › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d0",
+       "name": "PT KIX WIF TOKYO OSAKA 7D6N JAN-DEC 2026.pdf",
+       "file": "contracts/kix/1a1075462d0-PT_KIX_WIF_TOKYO_OSAKA_7D6N_JAN-DEC_2026.pdf",
+       "to": "WIF",
+       "note": "From Drive · Production Team",
+       "size": 78514,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Qc2OIxhrj0WwnRANVa-1JUvvJetgoiai"
+      }
+     ],
+     "label": "Tokyo - Kyoto - Osaka › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d1",
+       "name": "PT OSK WIF OSAKA 5D4N JAN-DEC 2026.pdf",
+       "file": "contracts/osk/1a1075462d1-PT_OSK_WIF_OSAKA_5D4N_JAN-DEC_2026.pdf",
+       "to": "WIF",
+       "note": "From Drive · Production Team",
+       "size": 78514,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1n6VDUN3XlFwIQMbTJ43H-UeZ6ktgcdy1"
+      }
+     ],
+     "label": "Osaka › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "CTS",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d2",
+       "name": "PT CTS WIF HOKKAIDO 5D4N JAN-DEC 2026.pdf",
+       "file": "contracts/cts/1a1075462d2-PT_CTS_WIF_HOKKAIDO_5D4N_JAN-DEC_2026.pdf",
+       "to": "WIF",
+       "note": "From Drive · Production Team",
+       "size": 78514,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1lI9kwgYMqvF1_TRhHl82jSJcEpcZglNb"
+      }
+     ],
+     "label": "Hokkaido › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "PDG",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d3",
+       "name": "PT PDGB HERMAN PADANG BUKITTINGGI 4D3N JAN-DEC 2026.png",
+       "file": "contracts/pdg/1a1075462d3-PT_PDGB_HERMAN_PADANG_BUKITTINGGI_4D3N_JAN-DEC_2026.png",
+       "to": "Herman",
+       "note": "From Drive · Production Team",
+       "size": 229270,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1gWpRG9pb8K3X-jIJmTAqRic51hGGeBtT"
+      }
+     ],
+     "label": "Padang - Bukittinggi › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "LTOBA",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d4",
+       "name": "PT LTOB EMIYA LAKE TOBA - SAMOSIR 4D3N JAN-DEC 2026.pdf",
+       "file": "contracts/ltoba/1a1075462d4-PT_LTOB_EMIYA_LAKE_TOBA_-_SAMOSIR_4D3N_JAN-DEC_2026.pdf",
+       "to": "Emiya",
+       "note": "From Drive · Production Team",
+       "size": 887949,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Jy0AR0KM6Afx5eWPpFpN81BzUIdY2iSE"
+      },
+      {
+       "id": "1a1075462d5",
+       "name": "PT LTOB EMIYA LAKE TOBA - PARAPAT 4D3N JAN-DEC 2026.pdf",
+       "file": "contracts/ltoba/1a1075462d5-PT_LTOB_EMIYA_LAKE_TOBA_-_PARAPAT_4D3N_JAN-DEC_2026.pdf",
+       "to": "Emiya",
+       "note": "From Drive · Production Team",
+       "size": 896650,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1oHQXmZK69W_lMHICOqRAlUMRLshE3yAI"
+      },
+      {
+       "id": "1a1075462d6",
+       "name": "PT LTOB BAIM LAKE TOBA - SAMOSIR 4D3N JAN-DEC 2026.png.png",
+       "file": "contracts/ltoba/1a1075462d6-PT_LTOB_BAIM_LAKE_TOBA_-_SAMOSIR_4D3N_JAN-DEC_2026.png.png",
+       "to": "Baim",
+       "note": "From Drive · Production Team",
+       "size": 283970,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1kxVvbu6Y2nXC3uTW1UkBkLDbwHzO03cr"
+      }
+     ],
+     "label": "Medan - Lake Toba › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JBDO",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d7",
+       "name": "PT JBDO CTRANS 5D4N/4D3N Jan - Dec 2026.pdf",
+       "file": "contracts/jbdo/1a1075462d7-PT_JBDO_CTRANS_5D4N_4D3N_Jan_-_Dec_2026.pdf",
+       "to": "CTRANS",
+       "note": "From Drive · Production Team",
+       "size": 12170805,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1siQedl_JFBdBU9hgsvlLVcG_AZWJ-Liq"
+      }
+     ],
+     "label": "Jakarta - Bandung › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "PQC",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462d8",
+       "name": "PT PQC Ibrahim Phu Quoc 5D4N Jan-Dec 2026.jpeg",
+       "file": "contracts/pqc/1a1075462d8-PT_PQC_Ibrahim_Phu_Quoc_5D4N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 154952,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "10hMW48oG2xm5rfuhL_p2NQf-dF0sVLLd"
+      },
+      {
+       "id": "1a1075462d9",
+       "name": "PT PQC Ibrahim Phu Quoc 4D3N Jan-Dec 2026.jpeg",
+       "file": "contracts/pqc/1a1075462d9-PT_PQC_Ibrahim_Phu_Quoc_4D3N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 153149,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1fu2wZPQYuPYnMXIxc1-5I4cYUJZTrOvI"
+      }
+     ],
+     "label": "Phu Quoc › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "KMGDLS",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462da",
+       "name": "PT KMGDLS TOURDECHINA YUNNAN 4W 8D6N (Jan - Dec 2026) .doc",
+       "file": "contracts/kmgdls/1a1075462da-PT_KMGDLS_TOURDECHINA_YUNNAN_4W_8D6N_Jan_-_Dec_2026_.doc",
+       "to": "Tourdechina",
+       "note": "From Drive · Production Team",
+       "size": 133127,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1DwPWqQ4Czslm8YDjEdNN_8W1v82NSOwg"
+      }
+     ],
+     "label": "Yunnan 4 Wilayah › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "PEK",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462db",
+       "name": "PT PEK TOURDECHINA 5D4N Jan - Dec 2026.docx",
+       "file": "contracts/pek/1a1075462db-PT_PEK_TOURDECHINA_5D4N_Jan_-_Dec_2026.docx",
+       "to": "Tourdechina",
+       "note": "From Drive · Production Team",
+       "size": 283483,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1dS6_Y2MQnC7kGawjm7PoNvGQd_FVFaSn"
+      }
+     ],
+     "label": "Beijing › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHU",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462dc",
+       "name": "PT PHU 4D3N_STD Package__11 JAN - 30 APRIL 2026__Updated.pdf",
+       "file": "contracts/phu/1a1075462dc-PT_PHU_4D3N_STD_Package__11_JAN_-_30_APRIL_2026__Updated.pdf",
+       "to": "KTT",
+       "note": "From Drive · Production Team",
+       "size": 1081160,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1jz4b0IML-ll8K21_XzsSCtMOYb7jh9a0"
+      },
+      {
+       "id": "1a1075462dd",
+       "name": "PT PHU 4D3N_STD Package__01 May 2026 - 31 Oct 2026__Updated.pdf",
+       "file": "contracts/phu/1a1075462dd-PT_PHU_4D3N_STD_Package__01_May_2026_-_31_Oct_2026__Updated.pdf",
+       "to": "KTT",
+       "note": "From Drive · Production Team",
+       "size": 1078289,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Ie6HvdRosIscRkMtYarYJavDGt4JNkCi"
+      },
+      {
+       "id": "1a1075462de",
+       "name": "PT PHU 4D3N_STD Package__01 NOV 2026 - 20 DEC 2026__Updated.pdf",
+       "file": "contracts/phu/1a1075462de-PT_PHU_4D3N_STD_Package__01_NOV_2026_-_20_DEC_2026__Updated.pdf",
+       "to": "KTT",
+       "note": "From Drive · Production Team",
+       "size": 1077511,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1lKlrGLLXrZfBL7CIOfeMacdnCj7ks8Jf"
+      },
+      {
+       "id": "1a1075462df",
+       "name": "PT PHU (PHI PHI) Phuket 4D3N_BUDGET Package A__01 MAY 2026 - 31 OCT 2026__Updated.pdf",
+       "file": "contracts/phu/1a1075462df-PT_PHU_PHI_PHI_Phuket_4D3N_BUDGET_Package_A__01_MAY_2026_-_31_OCT_2026__Updated.pdf",
+       "to": "KTT",
+       "note": "From Drive · Production Team",
+       "size": 976957,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1SVVOi7X7wD33rkfECXchZ0LI9LA_LjD2"
+      },
+      {
+       "id": "1a1075462e0",
+       "name": "PT PHU (JAMES BOND) Phuket 4D3N_BUDGET Package B__01 MAY 2026 - 31 OCT 2026__Updated.pdf",
+       "file": "contracts/phu/1a1075462e0-PT_PHU_JAMES_BOND_Phuket_4D3N_BUDGET_Package_B__01_MAY_2026_-_31_OCT_2026__Updated.pdf",
+       "to": "KTT",
+       "note": "From Drive · Production Team",
+       "size": 931995,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1hIywfOoQFGg_EMZavlapLPRwYoeV6ud9"
+      }
+     ],
+     "label": "Phuket › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "SWS",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462e1",
+       "name": "PT Switz (Musafir Eropah) CR.png",
+       "file": "contracts/sws/1a1075462e1-PT_Switz_Musafir_Eropah_CR.png",
+       "to": "Musafir Eropah",
+       "note": "From Drive · Production Team",
+       "size": 211791,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1vSYejz7yJbBjw2bgS5V9wfhGBNEDPutF"
+      }
+     ],
+     "label": "Switzerland › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "DADH",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462e2",
+       "name": "PT DADH Bismillah Danang Hoi An 4D3N/5D3N Jan-Dec 2026.pdf",
+       "file": "contracts/dadh/1a1075462e2-PT_DADH_Bismillah_Danang_Hoi_An_4D3N_5D3N_Jan-Dec_2026.pdf",
+       "to": "Bismillah",
+       "note": "From Drive · Production Team",
+       "size": 2428489,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1AGhb-eQbY1mmrOo-5e3pZJHb_zrxveY0"
+      },
+      {
+       "id": "1a1075462e3",
+       "name": "PT DADH Ibrahim Danang Hoi An 4D3N Jan-Dec 2026.pdf",
+       "file": "contracts/dadh/1a1075462e3-PT_DADH_Ibrahim_Danang_Hoi_An_4D3N_Jan-Dec_2026.pdf",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 322784,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "16A_CrisjK73cFuOUzbbiUbM7kg2nlhxt"
+      }
+     ],
+     "label": "Danang - Hoi An › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "BKK",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462e4",
+       "name": "PT BKK Chiwanon 4D3N 2026-2027.pdf",
+       "file": "contracts/bkk/1a1075462e4-PT_BKK_Chiwanon_4D3N_2026-2027.pdf",
+       "to": "Chiwanon",
+       "note": "From Drive · Production Team",
+       "size": 284231,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1xu6MTqzENOYAxcdeAFrtzMvNGC7YzKes"
+      },
+      {
+       "id": "1a1075462e5",
+       "name": "ARBA Travel & Tours Sdn., Bhd. - Contract rates 2025 - 2026.pdf",
+       "file": "contracts/bkk/1a1075462e5-ARBA_Travel_Tours_Sdn._Bhd._-_Contract_rates_2025_-_2026.pdf",
+       "to": "Hotel (contract rates 2025–2026)",
+       "note": "From Drive · Production Team",
+       "size": 730967,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1awfr9xKcwZOFpSj_uBcVuGqQvMdpiTns"
+      },
+      {
+       "id": "1a1075462e6",
+       "name": "[SIGNED] ARBA_Contract Almas 2025 with SVC.pdf",
+       "file": "contracts/bkk/1a1075462e6-_SIGNED_ARBA_Contract_Almas_2025_with_SVC.pdf",
+       "to": "Almas (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 444047,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1ymmKVYaDUv4RP_AxbNQb4aXGPii5TWTq"
+      },
+      {
+       "id": "1a1075462e7",
+       "name": "[SIGNED] ARBA_Contract AlMeroz 2025.pdf",
+       "file": "contracts/bkk/1a1075462e7-_SIGNED_ARBA_Contract_AlMeroz_2025.pdf",
+       "to": "Al-Meroz (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 430532,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1-O-VEt-FSrepIHX8B0GWw30qBORpp6il"
+      }
+     ],
+     "label": "Bangkok › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "ACEH",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462e8",
+       "name": "PT ACEH Asonaggore ACEH 3D2N Jan-Dec 2026.pdf",
+       "file": "contracts/aceh/1a1075462e8-PT_ACEH_Asonaggore_ACEH_3D2N_Jan-Dec_2026.pdf",
+       "to": "Asonanggroe",
+       "note": "From Drive · Production Team",
+       "size": 564261,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1-94urRH4C3nf4wNFzsoDyeN-eS6brC0W"
+      },
+      {
+       "id": "1a1075462e9",
+       "name": "PT ACEH Asonaggore ACEH 4D3N Jan-Dec 2026.pdf",
+       "file": "contracts/aceh/1a1075462e9-PT_ACEH_Asonaggore_ACEH_4D3N_Jan-Dec_2026.pdf",
+       "to": "Asonanggroe",
+       "note": "From Drive · Production Team",
+       "size": 536183,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1-S08ByuWV0PnUWOI7NABMuyWyO2EHEOG"
+      }
+     ],
+     "label": "Aceh › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "ACEHSBG",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462ea",
+       "name": "PT ACHSBG Asonaggore Aceh Sabang 5D4N Jan-Dec 2026.pdf",
+       "file": "contracts/acehsbg/1a1075462ea-PT_ACHSBG_Asonaggore_Aceh_Sabang_5D4N_Jan-Dec_2026.pdf",
+       "to": "Asonanggroe",
+       "note": "From Drive · Production Team",
+       "size": 747455,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1jAMcfLS2Ev9YmvbaYdIzaDHlndD9_LEX"
+      },
+      {
+       "id": "1a1075462eb",
+       "name": "PT ACHSBG Asonaggore Aceh Sabang 5D4N Jan-Dec 2026.pdf - dolphine.pdf",
+       "file": "contracts/acehsbg/1a1075462eb-PT_ACHSBG_Asonaggore_Aceh_Sabang_5D4N_Jan-Dec_2026.pdf_-_dolphine.pdf",
+       "to": "Asonanggroe",
+       "note": "From Drive · Production Team",
+       "size": 672845,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1EJdYJMuholIvOA2H8PvG-PzYxKZ2BQ1L"
+      }
+     ],
+     "label": "Aceh - Sabang › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "HNSH",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462ec",
+       "name": "PT HNSH Ibrahim Hanoi Sapa 4D3N Jan-Dec 2026.jpeg",
+       "file": "contracts/hnsh/1a1075462ec-PT_HNSH_Ibrahim_Hanoi_Sapa_4D3N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 171599,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1HayuQXUBxiDaLZ-ujywf3mgDlHV6DjhJ"
+      },
+      {
+       "id": "1a1075462ed",
+       "name": "PT HNSH Ibrahim Hanoi Sapa 5D4N Jan-Dec 2026.jpeg",
+       "file": "contracts/hnsh/1a1075462ed-PT_HNSH_Ibrahim_Hanoi_Sapa_5D4N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 174062,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Zu9cm_Ff_z34r_YaXjQ50T6-lAqeKtgc"
+      },
+      {
+       "id": "1a1075462ee",
+       "name": "PT HNSH Ibrahim Hanoi Sapa Halongbay 5D4N Jan-Dec 2026.jpeg",
+       "file": "contracts/hnsh/1a1075462ee-PT_HNSH_Ibrahim_Hanoi_Sapa_Halongbay_5D4N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 165176,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "18HdnGIKXlKI7HEifGlTDBpmrRhYdRYSx"
+      },
+      {
+       "id": "1a1075462ef",
+       "name": "PT HNSH Ibrahim Hanoi Halongbay 4D3N Jan-Dec 2026.jpeg",
+       "file": "contracts/hnsh/1a1075462ef-PT_HNSH_Ibrahim_Hanoi_Halongbay_4D3N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 181668,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1WE2FFrJJ4JgH0xFRBIRMX95qd0HbucnY"
+      }
+     ],
+     "label": "Hanoi - Sapa - Halong Bay › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "DPS",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462f0",
+       "name": "CR ALFIAN.pdf",
+       "file": "contracts/dps/1a1075462f0-CR_ALFIAN.pdf",
+       "to": "Alfian",
+       "note": "From Drive · Production Team",
+       "size": 98951,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1tzL6kLfHeh9S2GVBxpmRBopicN53Z2f8"
+      },
+      {
+       "id": "1a1075462f1",
+       "name": "HOTEL CR ALFIAN.pdf",
+       "file": "contracts/dps/1a1075462f1-HOTEL_CR_ALFIAN.pdf",
+       "to": "Alfian (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 38272,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1FnQHa86vhxgAzN1p9xqDSl4xQyalnTLF"
+      },
+      {
+       "id": "1a1075462f2",
+       "name": "PRICE TRANSPORT 3.pdf",
+       "file": "contracts/dps/1a1075462f2-PRICE_TRANSPORT_3.pdf",
+       "to": "Alfian",
+       "note": "From Drive · Production Team",
+       "size": 89842,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1bZ2OJny1S4DqKTbYafGnVGxmoQPiQKnO"
+      },
+      {
+       "id": "1a1075462f3",
+       "name": "PRICE MEAL 3.pdf",
+       "file": "contracts/dps/1a1075462f3-PRICE_MEAL_3.pdf",
+       "to": "Alfian",
+       "note": "From Drive · Production Team",
+       "size": 80197,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "175DrOLGs2C3ZETzRHfZn6vDvpD4aHVjV"
+      },
+      {
+       "id": "1a1075462f4",
+       "name": "LIST ENTRANCEE FEE BALI 3.pdf",
+       "file": "contracts/dps/1a1075462f4-LIST_ENTRANCEE_FEE_BALI_3.pdf",
+       "to": "Alfian",
+       "note": "From Drive · Production Team",
+       "size": 98951,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "13QEFn3n6VqxTL32_yCf5Hgt_fSS-41H3"
+      },
+      {
+       "id": "1a1075462f5",
+       "name": "NUSA PENIDA 2.pdf",
+       "file": "contracts/dps/1a1075462f5-NUSA_PENIDA_2.pdf",
+       "to": "Alfian",
+       "note": "From Drive · Production Team",
+       "size": 87179,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "137_hC36pzi10dPtS7ak865D9PAZ65MeL"
+      },
+      {
+       "id": "1a1075462f6",
+       "name": "Adhi Jaya 2026.pdf",
+       "file": "contracts/dps/1a1075462f6-Adhi_Jaya_2026.pdf",
+       "to": "Adhi Jaya (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 235950,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1T22tlSfAahoQxur4o4r772WMlFmY_OeJ"
+      },
+      {
+       "id": "1a1075462f7",
+       "name": "special offer Adhi jaya 2026.pdf",
+       "file": "contracts/dps/1a1075462f7-special_offer_Adhi_jaya_2026.pdf",
+       "to": "Adhi Jaya (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 257983,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Hg14U9tls0uL2adsY1CjP1o93Tkt54DD"
+      },
+      {
+       "id": "1a1075462f8",
+       "name": "contract rates 2026 one legian.pdf",
+       "file": "contracts/dps/1a1075462f8-contract_rates_2026_one_legian.pdf",
+       "to": "One Legian (hotel)",
+       "note": "From Drive · Production Team",
+       "size": 214391,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1Sq6uBLL0BYcFf0YCLr9GKFrelm7s03zT"
+      }
+     ],
+     "label": "Bali › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "DLMNHCM",
+      "contracts"
+     ],
+     "to": [
+      {
+       "id": "1a1075462f9",
+       "name": "PT DLMHCM Ibrahim Dalat HCM Muine 4D3N Jan-Dec 2026.jpeg",
+       "file": "contracts/dlmnhcm/1a1075462f9-PT_DLMHCM_Ibrahim_Dalat_HCM_Muine_4D3N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 203065,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1ylrznkaqAvRq-Yr4P4ssPRtmJYJ85dmn"
+      },
+      {
+       "id": "1a1075462fa",
+       "name": "PT DLMHCM Ibrahim Dalat HCM Muine 5D4N Jan-Dec 2026.pdf",
+       "file": "contracts/dlmnhcm/1a1075462fa-PT_DLMHCM_Ibrahim_Dalat_HCM_Muine_5D4N_Jan-Dec_2026.pdf",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 14471449,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1DFmWCCBmhyEsbBnlGmg2UHDxyZhV2hYq"
+      },
+      {
+       "id": "1a1075462fb",
+       "name": "PT DLMHCM Ibraim HCM 4D3N Jan-Dec 2026.jpeg",
+       "file": "contracts/dlmnhcm/1a1075462fb-PT_DLMHCM_Ibraim_HCM_4D3N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 134842,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1n2MhKBr_HNzbiF1VTt83vdgPaYG6G3zK"
+      },
+      {
+       "id": "1a1075462fc",
+       "name": "PT DLMHCM Ibrahim HCM 5D4N Jan-Dec 2026.jpeg",
+       "file": "contracts/dlmnhcm/1a1075462fc-PT_DLMHCM_Ibrahim_HCM_5D4N_Jan-Dec_2026.jpeg",
+       "to": "Ibrahim",
+       "note": "From Drive · Production Team",
+       "size": 172526,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "11f0knGA5612GTlPgKbt4mseeVBdtYDqs"
+      }
+     ],
+     "label": "HCM - Dalat - Muine › TO Contract Rate"
+    }
+   ]
   }
  ]
 }
