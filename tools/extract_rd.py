@@ -62,9 +62,9 @@ DESTS = {
 PO = {"SEL": "Aiman", "SELJJU": "Aiman", "JJU": "Aiman", "JJUO": "Aiman", "TUR": "Acap", "ISTBUR": "Acap",
       "ISTCAP": "Acap", "HND": "Thania", "KIX": "Thania", "OSK": "Thania", "CTS": "Thania", "DPS": "Fyka",
       "LOP": "Aiman", "JOG": "Aiman", "ACEH": "Fyka", "ACEHSBG": "Fyka", "LTOBA": "Fyka", "PDG": "Fyka",
-      "JBDO": "Aiman", "SUBB": "Noora", "DLMNHCM": "Aiman", "PQC": "Aiman", "HNSH": "Aiman", "DADH": "Aiman",
-      "MEL": "Acap", "PER": "Acap", "NSNZ": "Acap", "MLE": "Ezie", "KMGDLS": "Mirul", "PEK": "Fyka",
-      "BKK": "Noora", "PHU": "Ezie", "KBV": "Ezie", "SWS": "Thania", "KKK": "Fyka", "SEM": "Fyka", "PHT": "Fyka"}
+      "JBDO": "Aiman", "SUBB": "Aiman", "DLMNHCM": "Aiman", "PQC": "Aiman", "HNSH": "Aiman", "DADH": "Aiman",
+      "MEL": "Acap", "PER": "Acap", "NSNZ": "Acap", "MLE": "Acap", "KMGDLS": "Amirul", "PEK": "Fyka",
+      "BKK": "Fyka", "PHU": "Fyka", "KBV": "Fyka", "SWS": "Thania", "KKK": "Fyka", "SEM": "Fyka", "PHT": "Fyka"}
 COUNTRY = {"SEL": "Korea", "SELJJU": "Korea", "JJU": "Korea", "JJUO": "Korea", "TUR": "Turki", "ISTBUR": "Turki",
            "ISTCAP": "Turki", "KIX": "Jepun", "OSK": "Jepun", "CTS": "Jepun", "DPS": "Indonesia", "LOP": "Indonesia",
            "JOG": "Indonesia", "ACEH": "Indonesia", "ACEHSBG": "Indonesia", "LTOBA": "Indonesia", "PDG": "Indonesia",

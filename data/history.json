@@ -2039,6 +2039,74 @@
      "label": "HCM - Dalat - Muine › TO Contract Rate"
     }
    ]
+  },
+  {
+   "v": 8,
+   "at": "2026-10-05T02:42:01Z",
+   "by": "product",
+   "note": "PO list update (Acap / Aiman / Thania / Fyka / Amirul)",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SUBB",
+      "po"
+     ],
+     "from": "Noora",
+     "to": "Aiman",
+     "label": "Surabaya - Bromo - Malang › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "MLE",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Acap",
+     "label": "Maldives › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "KMGDLS",
+      "po"
+     ],
+     "from": "Mirul",
+     "to": "Amirul",
+     "label": "Yunnan 4 Wilayah › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "BKK",
+      "po"
+     ],
+     "from": "Noora",
+     "to": "Fyka",
+     "label": "Bangkok › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHU",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Fyka",
+     "label": "Phuket › PO"
+    },
+    {
+     "path": [
+      "destinations",
+      "KBV",
+      "po"
+     ],
+     "from": "Ezie",
+     "to": "Fyka",
+     "label": "Krabi › PO"
+    }
+   ]
   }
  ]
 }

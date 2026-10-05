@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 7,
- "updatedAt": "2026-10-04T14:32:13Z",
+ "version": 8,
+ "updatedAt": "2026-10-05T02:42:01Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -22694,7 +22694,7 @@
    "country": "Indonesia",
    "duration": "4D3N",
    "nights": 0,
-   "po": "Noora",
+   "po": "Aiman",
    "source": "SURABAYA BROMO MALANG/PT_SUBB_RD_reformatted.xlsx",
    "note": "",
    "fx": [
@@ -32801,7 +32801,7 @@
    "country": "Maldives",
    "duration": "4D3N",
    "nights": 0,
-   "po": "Ezie",
+   "po": "Acap",
    "source": "MALDIVES/PT MLE R&D betulkan.xlsx",
    "note": "",
    "fx": [
@@ -37906,7 +37906,7 @@
    "country": "China",
    "duration": "7D6N",
    "nights": 0,
-   "po": "Mirul",
+   "po": "Amirul",
    "source": "YUNNAN 4 WILAYAH/PT_KMGDLS_RD_reformatted.xlsx",
    "note": "",
    "fx": [
@@ -39315,7 +39315,7 @@
    "country": "Thailand",
    "duration": "4D3N",
    "nights": 0,
-   "po": "Noora",
+   "po": "Fyka",
    "source": "BANGKOK/PT_BKK_RD_reformatted.xlsx",
    "note": "",
    "fx": [
@@ -40529,7 +40529,7 @@
    "country": "Thailand",
    "duration": "4D3N",
    "nights": 0,
-   "po": "Ezie",
+   "po": "Fyka",
    "source": "PHUKET/PT PHU R&D - reformatupload.xlsx",
    "note": "",
    "fx": [
@@ -44155,7 +44155,7 @@
    "country": "Thailand",
    "duration": "4D3N",
    "nights": 3,
-   "po": "Ezie",
+   "po": "Fyka",
    "source": "KRABI/PT KRABI R&D - reformatupload.xlsx",
    "note": "Cost = selected hotel's KTT rate (THB) × FX, flat per pax. Hotel tier adds the catalog upgrade. Standard and Honeymoon sell at the same price for either Day 3; the Tour operator box picks Day 3.",
    "options": [

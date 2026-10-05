@@ -272,10 +272,12 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector(".tabm.on").dataset.tabmain === "history" && doc.querySelector("#grid").textContent.includes("Basic catalog 2027") && doc.querySelector("#grid").textContent.includes("Added destinations"), "History button opens the History tab with the notes");
     const snap = P.snapshotAt(V0);
     ok(byCode(snap,"HND").packages[0].pricing.adult["2"] === before, "V0 rebuilt from change log");
-    click(w, doc.querySelector(`[data-view="${V0}"]`)); await tick(5);
-    ok(doc.querySelector("#banners").textContent.includes(`Read-only: version ${V0}`), "viewing V0 banner");
+    // newest version listed on this page's History (V0 itself may not touch HND)
+    const VV = Math.max(...[...doc.querySelectorAll("[data-view]")].map(x => +x.dataset.view).filter(v => v <= V0));
+    click(w, doc.querySelector(`[data-view="${VV}"]`)); await tick(5);
+    ok(doc.querySelector("#banners").textContent.includes(`Read-only: version ${VV}`), "viewing older version banner");
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
-    ok(doc.querySelector("#saveNote").value === `Restore to v${V0}`, "restore pre-fills note");
+    ok(doc.querySelector("#saveNote").value === `Restore to v${VV}`, "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V0 + 2), "restore saved as V0+2");
     ok(HND().packages[0].pricing.adult["2"] === before, "catalog back to V0");

@@ -19,7 +19,7 @@ Wilayah has no R&D file yet.
 package and Day-3 choice (Tour operator box); a 4★ / 4★+ hotel adds the catalog upgrade
 (`tools/extract_krabi.py`, checked against every hotel × season × package × day-3).
 
-The hub lists every package with its PO and last update date. PO per destination: Korea (SEL, SELJJU) Aiman, Jepun (HND) Thania; change it on the destination page when there is a handover.
+The hub lists every package with its PO and last update date. PO per destination (Oct 2026): **Acap** Turki, Istanbul, Perth, New Zealand, Maldives, Melbourne · **Aiman** Korea, Vietnam, Jakarta-Bandung, Jogja, Lombok, Surabaya · **Thania** Jepun, Switzerland · **Fyka** Bali, Beijing, KK, Aceh, Krabi, Semporna, Perhentian, Lake Toba, Bangkok, Phuket, Padang · **Amirul** Yunnan. Change it on the destination page when there is a handover, and in `PO` in `tools/extract_rd.py` so a re-import keeps it.
 
 Anyone with the link can **view**. To **change** a cost you log in with your own username and
 password. Every save becomes a new version (v2, v3, …) with who, when, a note and each cell's
