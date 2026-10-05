@@ -2107,6 +2107,19 @@
      "label": "Krabi › PO"
     }
    ]
+  },
+  {
+   "v": 9,
+   "at": "2026-10-05T02:59:41Z",
+   "by": "product",
+   "rebase": true,
+   "changes": [],
+   "note": "Seoul Basic/Standard costed from the Korea ProdReq in KRW (rebuilt: SEL)",
+   "summary": [
+    "Seoul: Basic & Standard rebuilt rate by rate from ProdReq Korea (KRW, FX 0.00274)",
+    "Hotel 90,000/pax/night, airport ICN by pax band (+luggage vehicle 7–10), driving guide 1–8 pax, vehicle + tour guide 10+ pax, entrances, ATK 75,000/pax, K-ETA RM27",
+    "CWB cost 100%, CNB 50% of adult cost; ATK buffer removed; Self Tour unchanged (R&D)"
+   ]
   }
  ]
 }

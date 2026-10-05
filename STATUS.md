@@ -16,6 +16,9 @@ How everything works: README.md. This file = where we stopped.
 - /flags/: 92 cross-check flags (catalog × R&D × calculator) with suggested fixes.
 - Login/save not set up yet: no users in data/users.json (needs a fine-grained token → First-time setup).
 
+- Seoul Basic/Standard costed from ProdReq Korea in KRW (tools/build_sel_krw.py, v9). Keep SEL in --keep.
+  Open: 9 pax has no vehicle rate (driving guide ≤8, Solati ≥10); FX 0.00274 is the ProdReq reference.
+
 ## Waiting on the PO team (decisions)
 1. Discount Tier 2: keep RM200 (31 destinations) or 0 everywhere?
 2. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).
@@ -33,9 +36,9 @@ How everything works: README.md. This file = where we stopped.
 ```bash
 python3 tools/extract_rd.py --work /tmp/ptx && python3 tools/extract_krabi.py --work /tmp/ptx
 python3 tools/extract_fx.py --work /tmp/ptx
-python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO --by <you> --note "<why>"
+python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL --by <you> --note "<why>"
 python3 tools/make_pages.py
 node tools/margins.js > /tmp/ptx/margins.json && python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.json
 node tests/test_calc.js tests/truth.json      # needs: npm i jsdom
 ```
-Keep `--keep HND JBDO` (HND is hand-built; JBDO has the new CTRANS rate not yet in R&D).
+Keep `--keep HND JBDO SEL` (HND is hand-built; JBDO has the new CTRANS rate not yet in R&D; SEL is built from the KRW ProdReq).

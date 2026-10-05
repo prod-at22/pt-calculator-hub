@@ -143,11 +143,27 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
           const r = P.priceRow(d, pkg, a.variant, p)[k];
           if (!(typeof r.cost === "number" && isFinite(r.cost)) && (c === 0 || typeof c !== "number")) { gaps++; continue; } // R&D has no cost
           rows++;
-          ok((costEdited.has(t.code) || near(r.cost, c, 0.6)) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+          // rate-built destinations (SEL Basic/Standard from the KRW ProdReq) no longer use the R&D cost
+          const rateBuilt = !d.variants.find(v => v.id === a.variant).components.some(x => /T\[/.test(x.expr));
+          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
         }
       }
     }
     console.log("   checked", rows, "rows across", fs.readdirSync(path.join(__dirname, "truth")).length, "destinations;", gaps, "R&D rows without cost");
+  }
+
+  console.log("1d. Seoul Basic / Standard from the Korea ProdReq (KRW)");
+  {
+    const s = byCode(D, "SEL"), b = s.packages.find(p => p.id === "atk-bsc"), st = s.packages.find(p => p.id === "atk-std");
+    const fx = s.fx.find(f => f.id === "KRW").value, c = (pk, v, p) => P.priceRow(s, pk, v, p).adult.cost;
+    ok(fx === 0.00274, "KRW FX 0.00274 (ProdReq reference)");
+    // 2 pax Basic: (airport 2×110k + Nami 400k + Seoul 350k) ÷ 2 + hotel 90k×4 + Nami 16k + Gyeongbok 3k + ATK 75k, + K-ETA RM27
+    ok(near(c(b, "ATK-BSC", 2), ((220000 + 750000) / 2 + 360000 + 19000 + 75000) * fx + 27), "Basic 2 pax = " + c(b, "ATK-BSC", 2));
+    ok(near(c(st, "ATK-STD", 4), ((220000 + 400000 + 3 * 350000) / 4 + 360000 + 34000 + 75000) * fx + 27), "Standard 4 pax = " + c(st, "ATK-STD", 4));
+    ok(near(c(b, "ATK-BSC", 8), ((2 * 220000 + 750000) / 8 + 360000 + 19000 + 75000) * fx + 27), "Basic 8 pax: Starex + luggage vehicle, driving guide");
+    ok(!isFinite(c(b, "ATK-BSC", 9)), "9 pax: no vehicle rate in the ProdReq → no cost");
+    ok(near(c(b, "ATK-BSC", 10), ((2 * 220000 + 495000 + 440000 + 2 * 315000) / 10 + 360000 + 19000 + 75000) * fx + 27), "Basic 10 pax: Solati + tour guide");
+    ok(isFinite(c(s.packages.find(p => p.id === "atk-st"), "ATK-ST", 2)), "Self Tour still costed (R&D)");
   }
 
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
@@ -165,7 +181,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const sel = D.destinations.find(x => x.code === "SEL"), b = sel.packages.find(p => p.id === "atk-bsc");
     const r = P.priceRow(sel, b, "ATK-BSC", 2);
     ok(r.adult.catalog === 3497 && r.adult.selling === 3497, "Seoul Basic 2 pax adult catalog/selling 3497");
-    ok(near(r.cwb.cost, r.adult.cost * 0.75), "Seoul CWB cost = 75% adult");
+    ok(near(r.cwb.cost, r.adult.cost), "Seoul CWB cost = 100% adult (ProdReq §4)");
     ok(near(r.cnb.cost, r.adult.cost * 0.5), "Seoul CNB cost = 50% adult");
     ok(r.infant.selling === 200 && r.infant.cost === 0, "Seoul infant RM200, cost 0");
     ok(near(r.adult.margin, 3497 - r.adult.cost) && near(r.adult.pct, r.adult.margin / 3497), "Seoul margin & %");

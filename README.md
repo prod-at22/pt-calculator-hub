@@ -43,6 +43,10 @@ old → new value. Any old version can be viewed and restored.
 
 - **Tokyo (HND)** is built rate by rate from the R&D Raw Costing (JPY rates × FX), so editing
   one supplier rate updates every pax count (`tools/build_data.py`).
+- **Seoul (SEL) Basic / Standard** is built rate by rate from the Korea ProdReq in KRW
+  (`tools/build_sel_krw.py`, FX 0.00274): hotel 90,000/pax/night, ICN airport by pax band (+ luggage
+  vehicle 7–10 pax), driving guide 1–8 pax, separate vehicle + tour guide 10+ pax, entrances, ATK
+  75,000/pax, K-ETA RM27. 9 pax shows no cost (no vehicle rate in the ProdReq). Self Tour stays on the R&D.
 - **Every other destination** comes from its R&D workbook in
   `~/Downloads/PT DESTINASI R&D REFORMAT/<DESTINATION>/` (newest `*reformat*` file) through
   `tools/extract_rd.py`:
@@ -65,7 +69,7 @@ old → new value. Any old version can be viewed and restored.
 git pull                                  # live data.json = source of truth
 python3 tools/extract_rd.py --work /tmp/ptx            # all, or --only SEL DPS
 python3 tools/extract_krabi.py --work /tmp/ptx         # Krabi
-python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND --by <you> --note "<why>"
+python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL --by <you> --note "<why>"
 cp /tmp/ptx/truth/*.json tests/truth/ && python3 tools/make_pages.py
 node tests/test_calc.js tests/truth.json
 ```
@@ -160,8 +164,6 @@ node tests/test_calc.js tests/truth.json
 
 ## Things the R&D sheets flag that are worth checking
 
-- **Seoul**: the CR adds ATK profit (USD 70 ≈ RM278/pax) on top of the ATK package rate, and the
-  sheet itself warns the package rate may already include profit. If so, set *ATK profit* to 0.
 - **Seoul Self Tour** costs are marked *estimated* in the R&D sheet, and it has no published catalog.
 - **Tokyo Standard** at 2 pax shows 7% margin (cost RM5,579 vs selling RM5,997 after the tier-2 discount).
 - **Seoul - Jeju**: the catalog site prices are RM300 higher than the R&D Costing tab at every pax
