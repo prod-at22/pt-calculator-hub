@@ -453,6 +453,10 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const jb = await boot(repo, "jbdo/", "#flags");
     ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("Whoosh"), "JBDO Flags tab shows its flags");
     ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
+    await tab(jb.w, jb.doc, "costing");
+    const jh = [...jb.doc.querySelectorAll("#costPax tr.blk-head th")].map(t => t.textContent);
+    ok(!jh.includes("Tipping") && jh.includes("Ground Cost"), "JBDO: RM0 Tipping column hidden, Ground Cost kept: " + jh.join("|"));
+    ok(![...jb.doc.querySelectorAll("#costPax tr[data-pax] td")].some(td => td.textContent.trim() === "0"), "no RM0 component cells shown");
     for (const tb of ["costing", "contracts", "addons", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
       const pg = await boot(repo, code + "/");

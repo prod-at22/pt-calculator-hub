@@ -412,13 +412,11 @@ function pkgComponents(d, pkg) {
 const sellLabel = pkg => +pkg.rules.discountTier2 ? `Selling (Catalog − RM${n2(+pkg.rules.discountTier2)})` : "Selling (= Catalog)";
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
-  const comps = pkgComponents(d, pkg);
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
   const src = pkg.pricing.source || {};
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
   const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const isAdult = k === "adult";
-  const nCols = isAdult ? 1 + comps.length + 8 : 1 + 1 + 7;
   const up = (+pkg.rules.tierUpgrade || 0) + optionUpgrade(d, pkg, optsFor(d));
   // consecutive pax rows with the same TO form one block
   const blocks = [];
@@ -427,6 +425,10 @@ function costingByPax(d, pkg, pax) {
     if (!blocks.length || blocks[blocks.length - 1].id !== id) blocks.push({ id, v: pr.variant, rows: [] });
     blocks[blocks.length - 1].rows.push(pr);
   }
+  // a component that is RM0 (or missing) at every pax gets no column, e.g. no tipping
+  const nz = v => num(v) && Math.round(v) !== 0;
+  const comps = pkgComponents(d, pkg).filter(c => blocks.some(bl => bl.rows.some(pr => pr.cost && pr.cost.comps.some(o => o.key === c.key && nz(o.group)))));
+  const nCols = isAdult ? 1 + comps.length + 8 : 1 + 1 + 7;
   const body = blocks.map(bl => {
     const has = new Set(bl.v ? bl.v.components.map(c => c.key) : []);
     const toLbl = bl.v ? bl.v.label : "no TO";
@@ -437,7 +439,7 @@ function costingByPax(d, pkg, pax) {
     const rows = bl.rows.map((pr, i) => {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
-        ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
+        ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return cc && num(cc.group) && !nz(cc.group) ? "<td></td>" : `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
       return `<tr class="click${i % 2 ? " alt" : ""}${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
         <td><b>${int(x.cost)}</b></td>
