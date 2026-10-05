@@ -56,7 +56,7 @@ old → new value. Any old version can be viewed and restored.
   - every TO × pax × Adult/CWB/CNB row is re-computed the way the page does and must match the
     R&D; `tests/truth/<CODE>.json` keeps those R&D numbers and `tests/test_calc.js` checks the
     page against them.
-- Selling = R&D catalog + tier upgrade − discount tier 2, exactly as the Costing tab.
+- Selling Price = catalog (+ tier upgrade). The R&D tier-2 discount is not applied (PO decision, 5 Oct 2026).
 - Where the R&D has a catalog price but no cost (e.g. Seoul Self Tour 13–30 pax), the page
   shows the cost as missing instead of the R&D's RM0 / 100% margin.
 - Child rules: % of adult cost, adult cost − RM, or (Aceh, Aceh-Sabang, Beijing) % of Ground
@@ -164,7 +164,7 @@ node tests/test_calc.js tests/truth.json
 ## Things the R&D sheets flag that are worth checking
 
 - **Seoul Self Tour** costs are marked *estimated* in the R&D sheet, and it has no published catalog.
-- **Tokyo Standard** at 2 pax shows 7% margin (cost RM5,579 vs selling RM5,997 after the tier-2 discount).
+- **Tokyo Standard** at 2 pax: cost RM5,579 vs selling RM6,197 (catalog).
 - **Seoul - Jeju**: the catalog site prices are RM300 higher than the R&D Costing tab at every pax
   and pax type (e.g. 2 pax adult RM6,197 vs RM5,897). The calculator follows the R&D.
 - **Seoul add-ons** have selling prices but no cost in the R&D sheet (shown as *cost?*).

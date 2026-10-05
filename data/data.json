@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 10,
- "updatedAt": "2026-10-05T03:53:53Z",
+ "version": 11,
+ "updatedAt": "2026-10-05T07:56:55Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -1487,6 +1487,16 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1A0oP4T26Nw41Es-8rrW2h-JLNrO-YmnR"
+    },
+    {
+     "id": "1a10b10d6a2",
+     "name": "ATK CR 2026 Korea (all packages).png",
+     "file": "contracts/sel/1a10b10d6a2-ATK_CR_2026_Korea.png",
+     "to": "ATK",
+     "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+     "size": 212640,
+     "at": "2026-10-05T07:56:55Z",
+     "by": "product"
     }
    ]
   },
@@ -2495,6 +2505,16 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1s_NaUcQbFxNr1V_M3LUF534Bk5u_Mys3"
+    },
+    {
+     "id": "1a10b10d6a3",
+     "name": "ATK CR 2026 Korea (all packages).png",
+     "file": "contracts/seljju/1a10b10d6a3-ATK_CR_2026_Korea.png",
+     "to": "ATK",
+     "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+     "size": 212640,
+     "at": "2026-10-05T07:56:55Z",
+     "by": "product"
     }
    ]
   },
@@ -3986,6 +4006,16 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1lDwqqApYIXkx4KiX30sutlXu-Y8MYjG9"
+    },
+    {
+     "id": "1a10b10d6a4",
+     "name": "ATK CR 2026 Korea (all packages).png",
+     "file": "contracts/jju/1a10b10d6a4-ATK_CR_2026_Korea.png",
+     "to": "ATK",
+     "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+     "size": 212640,
+     "at": "2026-10-05T07:56:55Z",
+     "by": "product"
     }
    ]
   },
@@ -4869,6 +4899,16 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1tkk7g-GNqUIaFFaYnWlY7EirEPwUrlWb"
+    },
+    {
+     "id": "1a10b10d6a5",
+     "name": "ATK CR 2026 Korea (all packages).png",
+     "file": "contracts/jjuo/1a10b10d6a5-ATK_CR_2026_Korea.png",
+     "to": "ATK",
+     "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+     "size": 212640,
+     "at": "2026-10-05T07:56:55Z",
+     "by": "product"
     }
    ]
   },

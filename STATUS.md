@@ -6,7 +6,7 @@ How everything works: README.md. This file = where we stopped.
 ## Done
 - 37 destinations, 64 catalog packages on the hub (package name · PO · last update; no TO names).
 - Destination page tabs: Costing (default, R&D-style table: components · Cost/Pax · Catalog Price ·
-  Selling (Catalog − RM200) · Margin · % · Total Gross) / TO Contract Rate / Add-ons / Flags / History.
+  Selling Price (= Catalog) · Margin · % · Total Gross) / TO Contract Rate / Add-ons / Flags / History.
 - Trim (4 Oct): Quote and Rates & FX tabs removed; summary shows only margin range + lowest margin;
   margin green (+) / red (−); costing rows grey/white, one header colour. TO Contract Rate = upload
   TO contract files (needs login, so nothing uploaded until login is set up). No files there yet.
@@ -17,10 +17,11 @@ How everything works: README.md. This file = where we stopped.
 - Login/save not set up yet: no users in data/users.json (needs a fine-grained token → First-time setup).
 
 - Seoul Basic/Standard cost = ATK contract rate (tools/build_sel.py, v10); add-ons from ProdReq Korea. Keep SEL in --keep.
+  New ATK CR 2026 uploaded only as a low-res screenshot (contracts/sel/…ATK_CR_2026_Korea.png) — need the original to re-cost.
   Open: CR says valid until Dec 2025; Basic 16 pax RM1,065 looks like a CR typo; CR seasonal ±RM200 not applied.
 
 ## Waiting on the PO team (decisions)
-1. Discount Tier 2: keep RM200 (31 destinations) or 0 everywhere?
+1. ~~Discount Tier 2~~ decided 5 Oct: Selling Price = Catalog, no −RM200 (engine ignores discountTier2).
 2. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).
 3. For each "R&D price ≠ catalog" flag, which side is right (Seoul-Jeju +300, Bangkok, Hokkaido +1,200
    hotel, Phuket, Semporna, Aceh-Sabang/KK/Danang child prices, JBDO).

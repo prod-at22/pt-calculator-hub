@@ -187,10 +187,11 @@ function priceRow(d, pkg, variantId, pax, opts) {
   const O = optsFor(d, opts);
   const cost = variantCost(d, v, pax, O);
   const adultCost = cost ? cost.total : NaN, r = pkg.rules;
-  const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O), disc = +r.discountTier2 || 0;
-  const mk = (costV, catV, noDisc) => {
-    const catalog = num(catV) ? catV + (noDisc ? 0 : up) : NaN;
-    const selling = num(catalog) ? catalog - (noDisc ? 0 : disc) : NaN;
+  // Selling = Catalog Price (+ tier / option upgrade). The R&D tier-2 discount (rules.discountTier2) is not applied.
+  const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O);
+  const mk = (costV, catV, noUp) => {
+    const catalog = num(catV) ? catV + (noUp ? 0 : up) : NaN;
+    const selling = catalog;
     const margin = selling - costV;
     return { cost: costV, catalog, selling, margin: num(margin) ? margin : NaN, pct: num(margin) && selling ? margin / selling : NaN };
   };
@@ -409,7 +410,7 @@ function pkgComponents(d, pkg) {
 // Same layout as the R&D sheet: one block per TO (title + header), component columns are
 // GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
 // "Selling (Catalog − RM200)" — selling is the catalog price minus the R&D tier-2 discount
-const sellLabel = pkg => +pkg.rules.discountTier2 ? `Selling (Catalog − RM${n2(+pkg.rules.discountTier2)})` : "Selling (= Catalog)";
+const sellLabel = () => "Selling Price";
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
@@ -455,7 +456,7 @@ function costingByPax(d, pkg, pax) {
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
     <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} ${+pkg.rules.discountTier2 ? `Selling = Catalog Price − RM${n2(+pkg.rules.discountTier2)} (R&D tier-2 discount); margin is on the selling price.` : "Selling = Catalog Price (no discount)."}${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;

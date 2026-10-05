@@ -2133,6 +2133,196 @@
     "Child cost per CR: extra bed 75%, no bed 50%, infant FOC",
     "Add-ons: 46 items from ProdReq §7–§8 (cost from ProdReq, KRW × 0.00274)"
    ]
+  },
+  {
+   "v": 11,
+   "at": "2026-10-05T07:56:55Z",
+   "by": "product",
+   "note": "Uploaded ATK CR 2026 Korea (screenshot)",
+   "summary": [
+    "Seoul › TO Contract Rate: ATK CR 2026 Korea",
+    "Seoul - Jeju › TO Contract Rate: ATK CR 2026 Korea",
+    "Jeju › TO Contract Rate: ATK CR 2026 Korea",
+    "Jeju - Udo › TO Contract Rate: ATK CR 2026 Korea"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a1075462c8",
+       "name": "CR PT SEOUL BSC STD .pdf",
+       "file": "contracts/sel/1a1075462c8-CR_PT_SEOUL_BSC_STD_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 108711,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1A0oP4T26Nw41Es-8rrW2h-JLNrO-YmnR"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a1075462c8",
+       "name": "CR PT SEOUL BSC STD .pdf",
+       "file": "contracts/sel/1a1075462c8-CR_PT_SEOUL_BSC_STD_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 108711,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1A0oP4T26Nw41Es-8rrW2h-JLNrO-YmnR"
+      },
+      {
+       "id": "1a10b10d6a2",
+       "name": "ATK CR 2026 Korea (all packages).png",
+       "file": "contracts/sel/1a10b10d6a2-ATK_CR_2026_Korea.png",
+       "to": "ATK",
+       "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+       "size": 212640,
+       "at": "2026-10-05T07:56:55Z",
+       "by": "product"
+      }
+     ],
+     "label": "Seoul › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "SELJJU",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a1075462c9",
+       "name": "CR PT SEOUL JEJU.pdf",
+       "file": "contracts/seljju/1a1075462c9-CR_PT_SEOUL_JEJU.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 107211,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1s_NaUcQbFxNr1V_M3LUF534Bk5u_Mys3"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a1075462c9",
+       "name": "CR PT SEOUL JEJU.pdf",
+       "file": "contracts/seljju/1a1075462c9-CR_PT_SEOUL_JEJU.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 107211,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1s_NaUcQbFxNr1V_M3LUF534Bk5u_Mys3"
+      },
+      {
+       "id": "1a10b10d6a3",
+       "name": "ATK CR 2026 Korea (all packages).png",
+       "file": "contracts/seljju/1a10b10d6a3-ATK_CR_2026_Korea.png",
+       "to": "ATK",
+       "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+       "size": 212640,
+       "at": "2026-10-05T07:56:55Z",
+       "by": "product"
+      }
+     ],
+     "label": "Seoul - Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJU",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a1075462ca",
+       "name": "PT JJU ATK 2026.pdf",
+       "file": "contracts/jju/1a1075462ca-PT_JJU_ATK_2026.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 72111,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1lDwqqApYIXkx4KiX30sutlXu-Y8MYjG9"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a1075462ca",
+       "name": "PT JJU ATK 2026.pdf",
+       "file": "contracts/jju/1a1075462ca-PT_JJU_ATK_2026.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 72111,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1lDwqqApYIXkx4KiX30sutlXu-Y8MYjG9"
+      },
+      {
+       "id": "1a10b10d6a4",
+       "name": "ATK CR 2026 Korea (all packages).png",
+       "file": "contracts/jju/1a10b10d6a4-ATK_CR_2026_Korea.png",
+       "to": "ATK",
+       "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+       "size": 212640,
+       "at": "2026-10-05T07:56:55Z",
+       "by": "product"
+      }
+     ],
+     "label": "Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJUO",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a1075462cb",
+       "name": "CR PT JEJU UDO .pdf",
+       "file": "contracts/jjuo/1a1075462cb-CR_PT_JEJU_UDO_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 106609,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1tkk7g-GNqUIaFFaYnWlY7EirEPwUrlWb"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a1075462cb",
+       "name": "CR PT JEJU UDO .pdf",
+       "file": "contracts/jjuo/1a1075462cb-CR_PT_JEJU_UDO_.pdf",
+       "to": "ATK",
+       "note": "From Drive · Production Team",
+       "size": 106609,
+       "at": "2026-10-04T14:32:13Z",
+       "by": "product",
+       "drive": "1tkk7g-GNqUIaFFaYnWlY7EirEPwUrlWb"
+      },
+      {
+       "id": "1a10b10d6a5",
+       "name": "ATK CR 2026 Korea (all packages).png",
+       "file": "contracts/jjuo/1a10b10d6a5-ATK_CR_2026_Korea.png",
+       "to": "ATK",
+       "note": "Screenshot from PO, 5 Oct 2026 — low resolution; costing still on the PDF CR until the original file is in",
+       "size": 212640,
+       "at": "2026-10-05T07:56:55Z",
+       "by": "product"
+      }
+     ],
+     "label": "Jeju - Udo › TO Contract Rate"
+    }
+   ]
   }
  ]
 }
