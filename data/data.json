@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 9,
- "updatedAt": "2026-10-05T02:59:41Z",
+ "version": 10,
+ "updatedAt": "2026-10-05T03:53:53Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -15,8 +15,8 @@
    "duration": "5D4N",
    "nights": 4,
    "po": "Aiman",
-   "source": "ProdReq Korea (KRW) · Self Tour: SEOUL/PT_SEL_RD_reformatted.xlsx",
-   "note": "Basic / Standard costed rate by rate from the Korea ProdReq (KRW). 9 pax has no vehicle rate in the ProdReq (driving guide stops at 8, Solati starts at 10), so it shows no cost. Self Tour is still the R&D sheet.",
+   "source": "ATK contract rate (CR PT SEOUL BSC STD) · add-ons: ProdReq Korea · Self Tour: R&D",
+   "note": "Basic / Standard cost = ATK contract rate per pax (RM). CR says valid until Dec 2025; seasonal discount/upcharge in the CR (Jan–Feb −RM200, 21–31 Dec +RM200) is not applied here.",
    "fx": [
     {
      "id": "MYR",
@@ -29,179 +29,10 @@
      "label": "KRW → MYR",
      "value": 0.00274,
      "locked": true,
-     "source": "ProdReq Korea §3 (Jul 2026 reference)"
+     "source": "ProdReq Korea §3 (Jul 2026 reference), add-on costs"
     }
    ],
-   "rates": [
-    {
-     "id": "atk",
-     "label": "ATK / TO charge",
-     "value": 75000,
-     "fx": "KRW",
-     "unit": "KRW/pax",
-     "group": "1. ATK"
-    },
-    {
-     "id": "hotel3",
-     "label": "3★ hotel with breakfast",
-     "value": 90000,
-     "fx": "KRW",
-     "unit": "KRW/pax/night",
-     "group": "2. Hotel"
-    },
-    {
-     "id": "icnStarex",
-     "label": "ICN Starex (1–6 pax)",
-     "value": 110000,
-     "fx": "KRW",
-     "unit": "KRW/way",
-     "group": "3. Airport transfer"
-    },
-    {
-     "id": "lugSeoul",
-     "label": "Luggage vehicle Seoul (7–10 pax)",
-     "value": 110000,
-     "fx": "KRW",
-     "unit": "KRW/way",
-     "group": "3. Airport transfer"
-    },
-    {
-     "id": "icnSolati",
-     "label": "Seoul Solati 15-seater (11–13 pax)",
-     "value": 250000,
-     "fx": "KRW",
-     "unit": "KRW/way",
-     "group": "3. Airport transfer"
-    },
-    {
-     "id": "icnMini",
-     "label": "Seoul 25-seater minibus (11–16 pax)",
-     "value": 308000,
-     "fx": "KRW",
-     "unit": "KRW/way",
-     "group": "3. Airport transfer"
-    },
-    {
-     "id": "icnBus",
-     "label": "Seoul 45-seater bus (17–42 pax)",
-     "value": 440000,
-     "fx": "KRW",
-     "unit": "KRW/way",
-     "group": "3. Airport transfer"
-    },
-    {
-     "id": "dgSeoul",
-     "label": "Driving guide Seoul (1–8 pax)",
-     "value": 350000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "4. Driving guide"
-    },
-    {
-     "id": "dgNami",
-     "label": "Driving guide Gyeonggi / Nami (1–8 pax)",
-     "value": 400000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "4. Driving guide"
-    },
-    {
-     "id": "solSeoul",
-     "label": "Solati Seoul (10–13 pax)",
-     "value": 440000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "solGyeonggi",
-     "label": "Solati Gyeonggi / Paju (10–13 pax)",
-     "value": 495000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "miniSeoul",
-     "label": "25-seater Seoul (11–16 pax)",
-     "value": 440000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "miniNami",
-     "label": "25-seater Suwon / Nami (11–16 pax)",
-     "value": 550000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "busSeoul",
-     "label": "45-seater Seoul (17–42 pax)",
-     "value": 550000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "busGyeonggi",
-     "label": "45-seater Gyeonggi / Paju (17–42 pax)",
-     "value": 660000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "5. Day transport (9+ pax)"
-    },
-    {
-     "id": "tg",
-     "label": "Korean tour guide (9+ pax)",
-     "value": 300000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "6. Tour guide (9+ pax)"
-    },
-    {
-     "id": "tgMeal",
-     "label": "Tour guide meal",
-     "value": 15000,
-     "fx": "KRW",
-     "unit": "KRW/day",
-     "group": "6. Tour guide (9+ pax)"
-    },
-    {
-     "id": "nami",
-     "label": "Nami Island",
-     "value": 16000,
-     "fx": "KRW",
-     "unit": "KRW/pax",
-     "group": "7. Entrance"
-    },
-    {
-     "id": "gyeongbok",
-     "label": "Gyeongbok Palace",
-     "value": 3000,
-     "fx": "KRW",
-     "unit": "KRW/pax",
-     "group": "7. Entrance"
-    },
-    {
-     "id": "namsanCable",
-     "label": "Seoul Tower cable car",
-     "value": 15000,
-     "fx": "KRW",
-     "unit": "KRW/pax",
-     "group": "7. Entrance"
-    },
-    {
-     "id": "keta",
-     "label": "K-ETA (complimentary to guest)",
-     "value": 27,
-     "fx": "MYR",
-     "unit": "MYR/pax",
-     "group": "8. Other"
-    }
-   ],
+   "rates": [],
    "tables": [
     {
      "id": "ATK-ST__Hotel",
@@ -382,112 +213,121 @@
       "11": 27,
       "12": 27
      }
+    },
+    {
+     "id": "CR-BSC",
+     "label": "ATK contract rate · BSC",
+     "group": "ATK contract rate",
+     "fx": "MYR",
+     "values": {
+      "2": 2251,
+      "3": 1787,
+      "4": 1555,
+      "5": 1416,
+      "6": 1324,
+      "7": 1348,
+      "8": 1287,
+      "9": 1239,
+      "10": 1525,
+      "11": 1464,
+      "12": 1414,
+      "13": 1371,
+      "14": 1335,
+      "15": 1303,
+      "16": 1065,
+      "17": 1302,
+      "18": 1277,
+      "19": 1255,
+      "20": 1235,
+      "21": 1218,
+      "22": 1201,
+      "23": 1186,
+      "24": 1173,
+      "25": 1160
+     }
+    },
+    {
+     "id": "CR-STD",
+     "label": "ATK contract rate · STD",
+     "group": "ATK contract rate",
+     "fx": "MYR",
+     "values": {
+      "2": 3213,
+      "3": 2417,
+      "4": 2019,
+      "5": 1780,
+      "6": 1621,
+      "7": 1590,
+      "8": 1495,
+      "9": 1420,
+      "10": 1361,
+      "11": 1749,
+      "12": 1672,
+      "13": 1607,
+      "14": 1551,
+      "15": 1503,
+      "16": 1460,
+      "17": 1512,
+      "18": 1474,
+      "19": 1440,
+      "20": 1409,
+      "21": 1381,
+      "22": 1356,
+      "23": 1333,
+      "24": 1312,
+      "25": 1293,
+      "26": 1275,
+      "27": 1258,
+      "28": 1243,
+      "29": 1228,
+      "30": 1215,
+      "31": 1202,
+      "32": 1190,
+      "33": 1179,
+      "34": 1169,
+      "35": 1159,
+      "36": 1150,
+      "37": 1141,
+      "38": 1133,
+      "39": 1125,
+      "40": 1117,
+      "41": 1110,
+      "42": 1104
+     }
     }
    ],
    "variants": [
     {
      "id": "ATK-BSC",
-     "label": "ATK · Basic (driving guide D1–D2)",
+     "label": "ATK · Basic (contract rate)",
      "supplier": "ATK",
      "paxMin": 2,
-     "paxMax": 30,
-     "hotel": "3★ Designers Cheongnyangni / Travelodge Myeongdong or similar",
-     "notes": "D1 Nami (Gyeonggi rate), D2 Seoul city. 9+ pax: separate vehicle + tour guide.",
+     "paxMax": 25,
+     "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)",
+     "notes": "From contracts/sel/1a1075462c8-CR_PT_SEOUL_BSC_STD_.pdf",
      "components": [
       {
-       "key": "airport",
-       "label": "Airport transfer ICN ×2",
-       "per": "group",
-       "expr": "2*band(pax,[6,R.icnStarex],[10,R.icnStarex+R.lugSeoul],[13,R.icnSolati],[16,R.icnMini],[42,R.icnBus])"
-      },
-      {
-       "key": "transport",
-       "label": "Transport + guide ×2 days",
-       "per": "group",
-       "expr": "band(pax,[8,R.dgNami+1*R.dgSeoul],[9,NaN],[13,R.solGyeonggi+1*R.solSeoul],[16,R.miniNami+1*R.miniSeoul],[42,R.busGyeonggi+1*R.busSeoul])"
-      },
-      {
-       "key": "guide",
-       "label": "Tour guide + meal ×2 days (9+ pax)",
-       "per": "group",
-       "expr": "pax>=9?2*(R.tg+R.tgMeal):0"
-      },
-      {
-       "key": "hotel",
-       "label": "Hotel 3★ ×N nights",
-       "per": "group",
-       "expr": "R.hotel3*N*pax"
-      },
-      {
-       "key": "entrance",
-       "label": "Entrance",
-       "per": "group",
-       "expr": "(R.nami+R.gyeongbok)*pax"
-      },
-      {
-       "key": "atk",
-       "label": "ATK / TO charge",
-       "per": "group",
-       "expr": "R.atk*pax"
-      },
-      {
-       "key": "keta",
-       "label": "K-ETA",
-       "per": "group",
-       "expr": "R.keta*pax"
+       "key": "cr",
+       "label": "ATK contract rate",
+       "per": "pax",
+       "expr": "T['CR-BSC']"
       }
      ]
     },
     {
      "id": "ATK-STD",
-     "label": "ATK · Standard (driving guide D1–D4)",
+     "label": "ATK · Standard (contract rate)",
      "supplier": "ATK",
      "paxMin": 2,
-     "paxMax": 30,
-     "hotel": "3★ Designers Cheongnyangni / Travelodge Myeongdong or similar",
-     "notes": "D1 Nami (Gyeonggi rate), D2–D4 Seoul. 9+ pax: separate vehicle + tour guide.",
+     "paxMax": 42,
+     "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)",
+     "notes": "From contracts/sel/1a1075462c8-CR_PT_SEOUL_BSC_STD_.pdf",
      "components": [
       {
-       "key": "airport",
-       "label": "Airport transfer ICN ×2",
-       "per": "group",
-       "expr": "2*band(pax,[6,R.icnStarex],[10,R.icnStarex+R.lugSeoul],[13,R.icnSolati],[16,R.icnMini],[42,R.icnBus])"
-      },
-      {
-       "key": "transport",
-       "label": "Transport + guide ×4 days",
-       "per": "group",
-       "expr": "band(pax,[8,R.dgNami+3*R.dgSeoul],[9,NaN],[13,R.solGyeonggi+3*R.solSeoul],[16,R.miniNami+3*R.miniSeoul],[42,R.busGyeonggi+3*R.busSeoul])"
-      },
-      {
-       "key": "guide",
-       "label": "Tour guide + meal ×4 days (9+ pax)",
-       "per": "group",
-       "expr": "pax>=9?4*(R.tg+R.tgMeal):0"
-      },
-      {
-       "key": "hotel",
-       "label": "Hotel 3★ ×N nights",
-       "per": "group",
-       "expr": "R.hotel3*N*pax"
-      },
-      {
-       "key": "entrance",
-       "label": "Entrance",
-       "per": "group",
-       "expr": "(R.nami+R.gyeongbok+R.namsanCable)*pax"
-      },
-      {
-       "key": "atk",
-       "label": "ATK / TO charge",
-       "per": "group",
-       "expr": "R.atk*pax"
-      },
-      {
-       "key": "keta",
-       "label": "K-ETA",
-       "per": "group",
-       "expr": "R.keta*pax"
+       "key": "cr",
+       "label": "ATK contract rate",
+       "per": "pax",
+       "expr": "T['CR-STD']"
       }
      ]
     },
@@ -765,7 +605,7 @@
       "tierUpgrade": 0,
       "cwbCost": {
        "type": "pct",
-       "value": 1
+       "value": 0.75
       },
       "cnbCost": {
        "type": "pct",
@@ -984,7 +824,7 @@
       "tierUpgrade": 0,
       "cwbCost": {
        "type": "pct",
-       "value": 1
+       "value": 0.75
       },
       "cnbCost": {
        "type": "pct",
@@ -1218,121 +1058,418 @@
    ],
    "addons": [
     {
-     "id": "sel-a01",
+     "id": "sel-p01",
+     "category": "Visa",
+     "label": "K-ETA",
+     "cost": 27,
+     "selling": 35,
+     "per": "pax",
+     "notes": "ProdReq §8.1 (complimentary 1x in the package)"
+    },
+    {
+     "id": "sel-p02",
+     "category": "Insurance",
+     "label": "TripCare 360 Individual (1–5 days)",
+     "cost": 40.5,
+     "selling": 64.0,
+     "per": "policy",
+     "notes": "ProdReq §8.2 · Etiqa Area 2"
+    },
+    {
+     "id": "sel-p03",
+     "category": "Insurance",
+     "label": "TripCare 360 Individual (6–10 days)",
+     "cost": 58.87,
+     "selling": 88.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p04",
+     "category": "Insurance",
+     "label": "TripCare 360 Couple (1–5 days)",
+     "cost": 77.25,
+     "selling": 113.0,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p05",
+     "category": "Insurance",
+     "label": "TripCare 360 Couple (6–10 days)",
+     "cost": 122.87,
+     "selling": 160.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p06",
+     "category": "Insurance",
+     "label": "TripCare 360 Family (1–5 days)",
+     "cost": 100.12,
+     "selling": 143.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p07",
+     "category": "Insurance",
+     "label": "TripCare 360 Family (6–10 days)",
+     "cost": 153.62,
+     "selling": 201.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p08",
+     "category": "Insurance",
+     "label": "TripCare 360 Senior (1–5 days)",
+     "cost": 141.62,
+     "selling": 185.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p09",
+     "category": "Insurance",
+     "label": "TripCare 360 Senior (6–10 days)",
+     "cost": 201.62,
+     "selling": 265.5,
+     "per": "policy",
+     "notes": "ProdReq §8.2"
+    },
+    {
+     "id": "sel-p10",
+     "category": "Connectivity",
+     "label": "Pocket Wifi 3GB (4G) RoamingMan",
+     "cost": 40,
+     "selling": 70,
+     "per": "day",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p11",
+     "category": "Connectivity",
+     "label": "Pocket Wifi 10GB (5G)",
+     "cost": 65,
+     "selling": 120,
+     "per": "day",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p12",
+     "category": "Connectivity",
+     "label": "Luggage Tracker — Silver",
+     "cost": 14.5,
+     "selling": 20,
+     "per": "unit",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p13",
+     "category": "Connectivity",
+     "label": "Luggage Tracker — Gold",
+     "cost": 29,
+     "selling": 40,
+     "per": "unit",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p14",
+     "category": "Connectivity",
+     "label": "Luggage Tracker — Platinum",
+     "cost": 44,
+     "selling": 55,
+     "per": "unit",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p15",
+     "category": "Connectivity",
+     "label": "Luggage Tracker — Diamond",
+     "cost": 58,
+     "selling": 70,
+     "per": "unit",
+     "notes": "ProdReq §8.3"
+    },
+    {
+     "id": "sel-p16",
      "category": "Activity",
-     "label": "Hanbok Rental @ Gyeongbok",
+     "label": "Hanbok Rental @ Gyeongbok Palace",
      "cost": null,
-     "selling": 80.0,
+     "selling": 80,
      "per": "pax",
-     "notes": "Basic attire 4 jam (BSC+STD PDF)"
+     "notes": "ProdReq §8.4 · no cost rate in the ProdReq"
     },
     {
-     "id": "sel-a02",
-     "category": "Theme Park",
-     "label": "Everland Ticket",
-     "cost": null,
-     "selling": 140.0,
+     "id": "sel-p17",
+     "category": "Activity",
+     "label": "Everland ticket",
+     "cost": 111.52,
+     "selling": 140,
      "per": "pax",
-     "notes": "Entrance only"
+     "notes": "ProdReq §8.4 · cost Everland FIT 40,700 KRW"
     },
     {
-     "id": "sel-a03",
-     "category": "Theme Park",
-     "label": "Lotte World Seoul Ticket",
-     "cost": null,
-     "selling": 100.0,
+     "id": "sel-p18",
+     "category": "Activity",
+     "label": "Lotte World Seoul ticket",
+     "cost": 82.2,
+     "selling": 100,
      "per": "pax",
-     "notes": "Entrance only"
+     "notes": "ProdReq §8.4 · cost 30,000 KRW"
     },
     {
-     "id": "sel-a04",
-     "category": "Theme Park",
-     "label": "Snowyland Ticket",
-     "cost": null,
-     "selling": 150.0,
+     "id": "sel-p19",
+     "category": "Activity",
+     "label": "Snowyland (Vivaldi entrance)",
+     "cost": 95.9,
+     "selling": 150,
      "per": "pax",
-     "notes": "Entrance only"
+     "notes": "ProdReq §8.4 · cost 35,000 KRW"
     },
     {
-     "id": "sel-a05",
-     "category": "Transport BSC",
-     "label": "Everland (Private Transport)",
-     "cost": null,
-     "selling": 1400.0,
-     "per": "per transport",
-     "notes": "Driver only (Basic PDF)"
+     "id": "sel-p20",
+     "category": "Flight & guide",
+     "label": "Domestic flight Seoul↔Jeju",
+     "cost": 301.4,
+     "selling": 300,
+     "per": "pax/way",
+     "notes": "ProdReq §8.5 · cost 110,000 KRW; 15kg + 7kg"
     },
     {
-     "id": "sel-a06",
-     "category": "Transport BSC",
-     "label": "Vivaldi Ski Park (Private Transport)",
-     "cost": null,
-     "selling": 1400.0,
-     "per": "per transport",
-     "notes": "Driver only"
+     "id": "sel-p21",
+     "category": "Flight & guide",
+     "label": "Airport transfer Hotel/ICN ↔ Gimpo (1–6 pax)",
+     "cost": 271.26,
+     "selling": 360,
+     "per": "way",
+     "notes": "ProdReq §8.5 · cost Gimpo Starex 99,000 KRW"
     },
     {
-     "id": "sel-a07",
-     "category": "Transport BSC",
-     "label": "Seoul City (Private Transport)",
+     "id": "sel-p22",
+     "category": "Flight & guide",
+     "label": "Airport transfer Hotel/ICN ↔ Gimpo (7–9 pax)",
      "cost": null,
-     "selling": 1200.0,
-     "per": "per transport",
-     "notes": "Driver only"
+     "selling": 700,
+     "per": "way",
+     "notes": "ProdReq §8.5 · no 7–9 pax Gimpo rate"
     },
     {
-     "id": "sel-a08",
-     "category": "Transport BSC",
-     "label": "Upgrade English Driving Guide",
-     "cost": null,
-     "selling": 390.0,
-     "per": "per hari",
-     "notes": "Day-rate upgrade"
+     "id": "sel-p23",
+     "category": "Flight & guide",
+     "label": "Korean tour guide only (F&E day)",
+     "cost": 863.1,
+     "selling": 1297,
+     "per": "day",
+     "notes": "ProdReq §8.5 · cost guide 300,000 + meal 15,000 KRW"
     },
     {
-     "id": "sel-a09",
-     "category": "Swap STD",
-     "label": "Everland (D2/D3/D4 swap)",
+     "id": "sel-p24",
+     "category": "Flight & guide",
+     "label": "Malay student guide (F&E day)",
      "cost": null,
-     "selling": 160.0,
+     "selling": 797,
+     "per": "day",
+     "notes": "ProdReq §8.5 · no cost rate"
+    },
+    {
+     "id": "sel-p25",
+     "category": "Day tour",
+     "label": "Airport transfer (1–6 pax)",
+     "cost": 301.4,
+     "selling": 797,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost ICN Starex 110,000 KRW"
+    },
+    {
+     "id": "sel-p26",
+     "category": "Day tour",
+     "label": "Airport transfer (7–10 pax)",
+     "cost": 602.8,
+     "selling": 1497,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost Starex + luggage vehicle 220,000 KRW"
+    },
+    {
+     "id": "sel-p27",
+     "category": "Day tour",
+     "label": "Driving guide Seoul (1–8 pax)",
+     "cost": 959.0,
+     "selling": 1200,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost 350,000 KRW"
+    },
+    {
+     "id": "sel-p28",
+     "category": "Day tour",
+     "label": "Driving guide outskirt — Nami (1–8 pax)",
+     "cost": 1096.0,
+     "selling": 1400,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost 400,000 KRW"
+    },
+    {
+     "id": "sel-p29",
+     "category": "Day tour",
+     "label": "Driving guide outskirt — Everland (1–8 pax)",
+     "cost": 1096.0,
+     "selling": 1400,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost 400,000 KRW"
+    },
+    {
+     "id": "sel-p30",
+     "category": "Day tour",
+     "label": "Driving guide outskirt — Vivaldi / Elysian / Eobi (1–8 pax)",
+     "cost": 1233.0,
+     "selling": 1400,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · cost Gangwon 450,000 KRW"
+    },
+    {
+     "id": "sel-p31",
+     "category": "Day tour",
+     "label": "Driving outskirt Busan–Seoul (Solati 10–13 pax)",
+     "cost": null,
+     "selling": 3787,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · no Solati Busan–Seoul rate"
+    },
+    {
+     "id": "sel-p32",
+     "category": "Day tour",
+     "label": "Driver only — Seoul",
+     "cost": null,
+     "selling": 1697,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · vehicle not stated"
+    },
+    {
+     "id": "sel-p33",
+     "category": "Day tour",
+     "label": "Driver only — Nami",
+     "cost": null,
+     "selling": 1797,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · vehicle not stated"
+    },
+    {
+     "id": "sel-p34",
+     "category": "Day tour",
+     "label": "Driver only — Everland",
+     "cost": null,
+     "selling": 1797,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · vehicle not stated"
+    },
+    {
+     "id": "sel-p35",
+     "category": "Day tour",
+     "label": "Driver only — Vivaldi",
+     "cost": null,
+     "selling": 1997,
+     "per": "transport",
+     "notes": "ProdReq §8.6 · vehicle not stated"
+    },
+    {
+     "id": "sel-p36",
+     "category": "Swap (Standard)",
+     "label": "Everland swap into D2/D3/D4",
+     "cost": null,
+     "selling": 160,
      "per": "pax",
-     "notes": "Transport+guide+entrance"
+     "notes": "ProdReq §10 · cost depends on pax"
     },
     {
-     "id": "sel-a10",
-     "category": "Swap STD",
-     "label": "Vivaldi Ski Park (2 pax)",
+     "id": "sel-p37",
+     "category": "Swap (Standard)",
+     "label": "Vivaldi Ski Park swap (2 pax)",
      "cost": null,
-     "selling": 290.0,
+     "selling": 290,
      "per": "pax",
-     "notes": "Transport+guide (excl Snowyland)"
+     "notes": "ProdReq §10"
     },
     {
-     "id": "sel-a11",
-     "category": "Swap STD",
-     "label": "Vivaldi Ski Park (3+ pax)",
+     "id": "sel-p38",
+     "category": "Swap (Standard)",
+     "label": "Vivaldi Ski Park swap (3+ pax)",
      "cost": null,
-     "selling": 240.0,
+     "selling": 240,
      "per": "pax",
-     "notes": "Tier murah per PDF"
+     "notes": "ProdReq §10"
     },
     {
-     "id": "sel-a12",
-     "category": "Documentation",
-     "label": "K-ETA Application",
-     "cost": 0.0,
-     "selling": 0.0,
-     "per": "pax",
-     "notes": "Complimentary 1x (Malaysian)"
+     "id": "sel-p39",
+     "category": "Hotel & meals",
+     "label": "Add 1 night 3★ (normal)",
+     "cost": 246.6,
+     "selling": 250,
+     "per": "pax/night",
+     "notes": "ProdReq §7 · cost hotel 90,000 KRW"
     },
     {
-     "id": "sel-a13",
-     "category": "Documentation",
-     "label": "K-ETA Re-Application",
+     "id": "sel-p40",
+     "category": "Hotel & meals",
+     "label": "Add 1 night 4★ (normal)",
      "cost": null,
-     "selling": 70.0,
+     "selling": 400,
+     "per": "pax/night",
+     "notes": "ProdReq §7 · no 4★ cost rate"
+    },
+    {
+     "id": "sel-p41",
+     "category": "Hotel & meals",
+     "label": "4★ upgrade (Migliore Myeongdong)",
+     "cost": null,
+     "selling": 100,
+     "per": "pax/night",
+     "notes": "ProdReq §6"
+    },
+    {
+     "id": "sel-p42",
+     "category": "Hotel & meals",
+     "label": "Ski resort overnight",
+     "cost": null,
+     "selling": 500,
+     "per": "pax/night",
+     "notes": "ProdReq §6"
+    },
+    {
+     "id": "sel-p43",
+     "category": "Hotel & meals",
+     "label": "Single supplement",
+     "cost": null,
+     "selling": 1000,
      "per": "pax",
-     "notes": "Selepas guna 1x percuma"
+     "notes": "ProdReq §4"
+    },
+    {
+     "id": "sel-p44",
+     "category": "Hotel & meals",
+     "label": "Add breakfast",
+     "cost": null,
+     "selling": 40,
+     "per": "meal",
+     "notes": "ProdReq §7"
+    },
+    {
+     "id": "sel-p45",
+     "category": "Hotel & meals",
+     "label": "Add lunch (normal)",
+     "cost": 41.1,
+     "selling": 50,
+     "per": "meal",
+     "notes": "ProdReq §7 · cost 15,000 KRW"
+    },
+    {
+     "id": "sel-p46",
+     "category": "Hotel & meals",
+     "label": "Add dinner (normal)",
+     "cost": 41.1,
+     "selling": 50,
+     "per": "meal",
+     "notes": "ProdReq §7 · cost 15,000 KRW"
     }
    ],
    "catalogs": [

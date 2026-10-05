@@ -43,10 +43,9 @@ old → new value. Any old version can be viewed and restored.
 
 - **Tokyo (HND)** is built rate by rate from the R&D Raw Costing (JPY rates × FX), so editing
   one supplier rate updates every pax count (`tools/build_data.py`).
-- **Seoul (SEL) Basic / Standard** is built rate by rate from the Korea ProdReq in KRW
-  (`tools/build_sel_krw.py`, FX 0.00274): hotel 90,000/pax/night, ICN airport by pax band (+ luggage
-  vehicle 7–10 pax), driving guide 1–8 pax, separate vehicle + tour guide 10+ pax, entrances, ATK
-  75,000/pax, K-ETA RM27. 9 pax shows no cost (no vehicle rate in the ProdReq). Self Tour stays on the R&D.
+- **Seoul (SEL) Basic / Standard** cost = the ATK contract rate per pax, one line (`tools/build_sel.py`,
+  from `contracts/sel/…CR_PT_SEOUL_BSC_STD_.pdf`; Basic 2–25 pax, Standard 2–42 pax). Seoul add-ons
+  follow the Korea ProdReq §7–§8 (cost from the ProdReq, KRW × 0.00274). Self Tour stays on the R&D.
 - **Every other destination** comes from its R&D workbook in
   `~/Downloads/PT DESTINASI R&D REFORMAT/<DESTINATION>/` (newest `*reformat*` file) through
   `tools/extract_rd.py`:

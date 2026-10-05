@@ -46,7 +46,7 @@ function mockRepo(files, validTokens) {
 // page = "" (hub) or "hnd/" etc. app.js / app.css are inlined because jsdom does not fetch them.
 async function boot(repo, page = "hnd/", query = "") {
   const html = fs.readFileSync(path.join(ROOT, page, "index.html"), "utf8")
-    .replace(/<script src="[^"]*app\.js"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
+    .replace(/<script src="[^"]*app\.js[^"]*"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
     .replace(/<link rel="stylesheet"[^>]*>/, "");
   const errors = [];
   const dom = new JSDOM(html, {
@@ -143,8 +143,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
           const r = P.priceRow(d, pkg, a.variant, p)[k];
           if (!(typeof r.cost === "number" && isFinite(r.cost)) && (c === 0 || typeof c !== "number")) { gaps++; continue; } // R&D has no cost
           rows++;
-          // rate-built destinations (SEL Basic/Standard from the KRW ProdReq) no longer use the R&D cost
-          const rateBuilt = !d.variants.find(v => v.id === a.variant).components.some(x => /T\[/.test(x.expr));
+          // TOs not costed from the R&D tables (SEL Basic/Standard = ATK contract rate) no longer use the R&D cost
+          const rateBuilt = !d.variants.find(v => v.id === a.variant).components.every(x => /T\['[^']*__/.test(x.expr));
           ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && near(r.selling, sell, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
         }
       }
@@ -152,18 +152,21 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     console.log("   checked", rows, "rows across", fs.readdirSync(path.join(__dirname, "truth")).length, "destinations;", gaps, "R&D rows without cost");
   }
 
-  console.log("1d. Seoul Basic / Standard from the Korea ProdReq (KRW)");
+  console.log("1d. Seoul Basic / Standard = ATK contract rate; add-ons from the Korea ProdReq");
   {
     const s = byCode(D, "SEL"), b = s.packages.find(p => p.id === "atk-bsc"), st = s.packages.find(p => p.id === "atk-std");
-    const fx = s.fx.find(f => f.id === "KRW").value, c = (pk, v, p) => P.priceRow(s, pk, v, p).adult.cost;
-    ok(fx === 0.00274, "KRW FX 0.00274 (ProdReq reference)");
-    // 2 pax Basic: (airport 2×110k + Nami 400k + Seoul 350k) ÷ 2 + hotel 90k×4 + Nami 16k + Gyeongbok 3k + ATK 75k, + K-ETA RM27
-    ok(near(c(b, "ATK-BSC", 2), ((220000 + 750000) / 2 + 360000 + 19000 + 75000) * fx + 27), "Basic 2 pax = " + c(b, "ATK-BSC", 2));
-    ok(near(c(st, "ATK-STD", 4), ((220000 + 400000 + 3 * 350000) / 4 + 360000 + 34000 + 75000) * fx + 27), "Standard 4 pax = " + c(st, "ATK-STD", 4));
-    ok(near(c(b, "ATK-BSC", 8), ((2 * 220000 + 750000) / 8 + 360000 + 19000 + 75000) * fx + 27), "Basic 8 pax: Starex + luggage vehicle, driving guide");
-    ok(!isFinite(c(b, "ATK-BSC", 9)), "9 pax: no vehicle rate in the ProdReq → no cost");
-    ok(near(c(b, "ATK-BSC", 10), ((2 * 220000 + 495000 + 440000 + 2 * 315000) / 10 + 360000 + 19000 + 75000) * fx + 27), "Basic 10 pax: Solati + tour guide");
-    ok(isFinite(c(s.packages.find(p => p.id === "atk-st"), "ATK-ST", 2)), "Self Tour still costed (R&D)");
+    const r = (pk, v, p) => P.priceRow(s, pk, v, p);
+    ok(r(b, "ATK-BSC", 2).adult.cost === 2251 && r(b, "ATK-BSC", 10).adult.cost === 1525 && r(b, "ATK-BSC", 25).adult.cost === 1160, "Basic CR 2/10/25 pax = 2251/1525/1160");
+    ok(r(st, "ATK-STD", 2).adult.cost === 3213 && r(st, "ATK-STD", 11).adult.cost === 1749 && r(st, "ATK-STD", 30).adult.cost === 1215, "Standard CR 2/11/30 pax = 3213/1749/1215");
+    ok(!isFinite(r(b, "ATK-BSC", 26).adult.cost), "Basic 26+ pax: not in the CR → no cost");
+    ok(s.variants.filter(v => v.id !== "ATK-ST").every(v => v.components.length === 1), "one cost line (not broken down)");
+    const sp = await boot(repo, "sel/", "?pkg=atk-bsc");
+    const sh = [...sp.doc.querySelectorAll("#costPax tr.blk-head th")].map(x => x.textContent);
+    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,251", "Seoul costing: no breakdown column, Cost/Pax = CR 2,251");
+    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 2251 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
+    const ev = s.addons.find(x => x.label === "Everland ticket");
+    ok(ev && near(ev.cost, 40700 * 0.00274, 0.01) && ev.selling === 140, "Everland add-on: cost 40,700 KRW × 0.00274, selling RM140");
+    ok(s.addons.find(x => x.label === "K-ETA").cost === 27 && s.addons.find(x => x.label.startsWith("Hanbok")).cost === null, "K-ETA cost RM27; Hanbok has no cost rate (null)");
   }
 
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
@@ -181,7 +184,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const sel = D.destinations.find(x => x.code === "SEL"), b = sel.packages.find(p => p.id === "atk-bsc");
     const r = P.priceRow(sel, b, "ATK-BSC", 2);
     ok(r.adult.catalog === 3497 && r.adult.selling === 3497, "Seoul Basic 2 pax adult catalog/selling 3497");
-    ok(near(r.cwb.cost, r.adult.cost), "Seoul CWB cost = 100% adult (ProdReq §4)");
+    ok(near(r.cwb.cost, r.adult.cost * 0.75), "Seoul CWB cost = 75% adult (CR extra bed)");
     ok(near(r.cnb.cost, r.adult.cost * 0.5), "Seoul CNB cost = 50% adult");
     ok(r.infant.selling === 200 && r.infant.cost === 0, "Seoul infant RM200, cost 0");
     ok(near(r.adult.margin, 3497 - r.adult.cost) && near(r.adult.pct, r.adult.margin / 3497), "Seoul margin & %");
@@ -417,7 +420,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#addons .total").textContent.includes("RM1,600.00") && doc.querySelector("#addons .total").textContent.includes("RM92.00"), "2 × Disneyland = RM1,600 selling, RM92 margin");
     setVal(w, doc.querySelector(`input.aq[data-addon="${a.id}"]`), "0"); await tick(5);
     const sel = byCode(P.DATA, "SEL");
-    ok(sel.addons.length === 13 && sel.addons.filter(x => x.cost === null).length === 12, "Seoul add-ons keep missing cost as null, not 0");
+    ok(sel.addons.length > 40 && sel.addons.some(x => x.cost === null) && !sel.addons.some(x => x.cost === 0), "Seoul add-ons keep missing cost as null, not 0");
     const aceh = byCode(P.DATA, "ACEH"), ap = aceh.packages[0], ar = P.priceRow(aceh, ap, ap.assign[0].variant, 2);
     const ground = ar.cost.comps.find(c => c.key === "ground-cost").perPax;
     ok(near(ar.cwb.cost, ar.adult.cost - ground + 0.75 * ground), "Aceh CWB cost = 75% of Ground + tipping in full");
@@ -471,7 +474,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
     await tab(jb.w, jb.doc, "costing");
     const jh = [...jb.doc.querySelectorAll("#costPax tr.blk-head th")].map(t => t.textContent);
-    ok(!jh.includes("Tipping") && jh.includes("Ground Cost"), "JBDO: RM0 Tipping column hidden, Ground Cost kept: " + jh.join("|"));
+    ok(!jh.includes("Tipping") && !jh.includes("Ground Cost") && jh[1] === "Cost/Pax", "JBDO: RM0 Tipping hidden; Ground Cost is the only line, so it is Cost/Pax: " + jh.join("|"));
     ok(![...jb.doc.querySelectorAll("#costPax tr[data-pax] td")].some(td => td.textContent.trim() === "0"), "no RM0 component cells shown");
     for (const tb of ["costing", "contracts", "addons", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {

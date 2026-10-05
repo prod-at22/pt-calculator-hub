@@ -5,7 +5,7 @@ const fs = require("fs"), path = require("path");
 const { JSDOM } = require("jsdom");
 const ROOT = path.join(__dirname, "..");
 const html = fs.readFileSync(path.join(ROOT, "hnd", "index.html"), "utf8")
-  .replace(/<script src="[^"]*app\.js"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
+  .replace(/<script src="[^"]*app\.js[^"]*"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
   .replace(/<link rel="stylesheet"[^>]*>/, "");
 const dom = new JSDOM(html, {
   url: "https://x/pt-calculator-hub/hnd/", runScripts: "dangerously", beforeParse(w) {

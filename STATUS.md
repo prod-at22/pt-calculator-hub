@@ -16,8 +16,8 @@ How everything works: README.md. This file = where we stopped.
 - /flags/: 92 cross-check flags (catalog × R&D × calculator) with suggested fixes.
 - Login/save not set up yet: no users in data/users.json (needs a fine-grained token → First-time setup).
 
-- Seoul Basic/Standard costed from ProdReq Korea in KRW (tools/build_sel_krw.py, v9). Keep SEL in --keep.
-  Open: 9 pax has no vehicle rate (driving guide ≤8, Solati ≥10); FX 0.00274 is the ProdReq reference.
+- Seoul Basic/Standard cost = ATK contract rate (tools/build_sel.py, v10); add-ons from ProdReq Korea. Keep SEL in --keep.
+  Open: CR says valid until Dec 2025; Basic 16 pax RM1,065 looks like a CR typo; CR seasonal ±RM200 not applied.
 
 ## Waiting on the PO team (decisions)
 1. Discount Tier 2: keep RM200 (31 destinations) or 0 everywhere?
@@ -41,4 +41,4 @@ python3 tools/make_pages.py
 node tools/margins.js > /tmp/ptx/margins.json && python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.json
 node tests/test_calc.js tests/truth.json      # needs: npm i jsdom
 ```
-Keep `--keep HND JBDO SEL` (HND is hand-built; JBDO has the new CTRANS rate not yet in R&D; SEL is built from the KRW ProdReq).
+Keep `--keep HND JBDO SEL` (HND is hand-built; JBDO has the new CTRANS rate not yet in R&D; SEL = ATK contract rate + ProdReq add-ons).

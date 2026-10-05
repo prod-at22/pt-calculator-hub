@@ -427,7 +427,9 @@ function costingByPax(d, pkg, pax) {
   }
   // a component that is RM0 (or missing) at every pax gets no column, e.g. no tipping
   const nz = v => num(v) && Math.round(v) !== 0;
-  const comps = pkgComponents(d, pkg).filter(c => blocks.some(bl => bl.rows.some(pr => pr.cost && pr.cost.comps.some(o => o.key === c.key && nz(o.group)))));
+  const nonZero = pkgComponents(d, pkg).filter(c => blocks.some(bl => bl.rows.some(pr => pr.cost && pr.cost.comps.some(o => o.key === c.key && nz(o.group)))));
+  // a single cost line (e.g. Seoul: the TO contract rate) is Cost/Pax itself — no breakdown column
+  const comps = nonZero.length === 1 ? [] : nonZero;
   const nCols = isAdult ? 1 + comps.length + 8 : 1 + 1 + 7;
   const body = blocks.map(bl => {
     const has = new Set(bl.v ? bl.v.components.map(c => c.key) : []);

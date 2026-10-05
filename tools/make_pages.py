@@ -4,7 +4,7 @@
 Every page is the same shell around app.js / app.css; only PT_DEST and PT_ROOT differ.
 Run after adding a destination to data/data.json:  python3 tools/make_pages.py
 """
-import json, os, shutil
+import hashlib, json, os, shutil
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 SHELL = """<!doctype html>
@@ -14,7 +14,7 @@ SHELL = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="{root}app.css">
+<link rel="stylesheet" href="{root}app.css?v={ver}">
 </head>
 <body>
 <header class="top"><div class="in">
@@ -31,7 +31,7 @@ SHELL = """<!doctype html>
 </main>
 <div id="modalRoot"></div>
 <script>window.PT_DEST = {dest}; window.PT_ROOT = "{root}"; window.PT_VIEW = {view};</script>
-<script src="{root}app.js"></script>
+<script src="{root}app.js?v={ver}"></script>
 </body>
 </html>
 """
@@ -39,18 +39,20 @@ SHELL = """<!doctype html>
 
 def main():
     data = json.load(open(os.path.join(ROOT, "data", "data.json")))
+    # ?v=<hash of app.js + app.css> so browsers pick up a new app.js / app.css at once after a push
+    ver = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("app.js", "app.css"))).hexdigest()[:8]
     open(os.path.join(ROOT, "index.html"), "w").write(
-        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"', view="null"))
+        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"', view="null", ver=ver))
     codes = []
     for d in data["destinations"]:
         code = d["code"].lower()
         os.makedirs(os.path.join(ROOT, code), exist_ok=True)
         open(os.path.join(ROOT, code, "index.html"), "w").write(
-            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide="", view="null"))
+            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide="", view="null", ver=ver))
         codes.append(code)
     os.makedirs(os.path.join(ROOT, "flags"), exist_ok=True)
     open(os.path.join(ROOT, "flags", "index.html"), "w").write(
-        SHELL.format(title="PT Flags", sub="flags", dest="null", root="../", hide=' style="display:none"', view='"flags"'))
+        SHELL.format(title="PT Flags", sub="flags", dest="null", root="../", hide=' style="display:none"', view='"flags"', ver=ver))
     print("wrote index.html, flags/ +", ", ".join("%s/" % c for c in codes))
 
 
