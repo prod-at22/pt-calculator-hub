@@ -46,6 +46,8 @@ old → new value. Any old version can be viewed and restored.
 - **Seoul (SEL) Basic / Standard** cost = the ATK contract rate per pax, one line (`tools/build_sel.py`,
   from the ATK CR 2026 Korea rate table in `contracts/sel/`; Basic 2–25 pax, Standard 2–42 pax). Seoul add-ons
   follow the Korea ProdReq §7–§8 (cost from the ProdReq, KRW × 0.00274). Self Tour stays on the R&D.
+- **Seoul-Jeju, Jeju, Jeju-Udo** cost = the ATK CR 2026 per pax, one line, 2–25 pax (`tools/build_korea_cr.py`).
+  Jeju Self Tour stays on the R&D.
 - **Every other destination** comes from its R&D workbook in
   `~/Downloads/PT DESTINASI R&D REFORMAT/<DESTINATION>/` (newest `*reformat*` file) through
   `tools/extract_rd.py`:
@@ -68,7 +70,7 @@ old → new value. Any old version can be viewed and restored.
 git pull                                  # live data.json = source of truth
 python3 tools/extract_rd.py --work /tmp/ptx            # all, or --only SEL DPS
 python3 tools/extract_krabi.py --work /tmp/ptx         # Krabi
-python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL --by <you> --note "<why>"
+python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL SELJJU JJU JJUO --by <you> --note "<why>"
 cp /tmp/ptx/truth/*.json tests/truth/ && python3 tools/make_pages.py
 node tests/test_calc.js tests/truth.json
 ```

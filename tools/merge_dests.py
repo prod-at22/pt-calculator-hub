@@ -6,7 +6,7 @@ fresh build, so edits saved from the page are kept. Destinations listed in --kee
 untouched; every other extracted destination is added or replaced (keeping its PO if one
 was already set on the page). The change is recorded as one new version.
 
-    python3 tools/merge_dests.py --dests <work>/dest --keep HND JBDO SEL --by product \
+    python3 tools/merge_dests.py --dests <work>/dest --keep HND JBDO SEL SELJJU JJU JJUO --by product \
         --note "Added destinations from the R&D files"
 """
 import argparse, datetime, glob, json, os

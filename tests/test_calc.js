@@ -171,6 +171,17 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(s.addons.find(x => x.label === "K-ETA").cost === 27 && s.addons.find(x => x.label.startsWith("Hanbok")).cost === null, "K-ETA cost RM27; Hanbok has no cost rate (null)");
   }
 
+  console.log("1e. Seoul-Jeju, Jeju, Jeju-Udo = ATK CR 2026");
+  {
+    const chk = (code, vid, exp) => { const d = byCode(D, code), pk = d.packages.find(p => p.assign.some(x => x.variant === vid));
+      return Object.entries(exp).every(([p, c]) => P.priceRow(d, pk, vid, +p).adult.cost === c) && !isFinite(P.priceRow(d, pk, vid, 26).adult.cost)
+        && d.variants.find(v => v.id === vid).components.length === 1; };
+    ok(chk("SELJJU", "ATK-STD", { 2: 5381, 9: 3461, 25: 2630 }), "SELJJU CR 2/9/25 = 5381/3461/2630, none at 26");
+    ok(chk("JJU", "ATK-PT", { 2: 2868, 9: 1587, 25: 1073 }), "JJU CR 2/9/25 = 2868/1587/1073");
+    ok(chk("JJUO", "ATK-STD", { 2: 4386, 10: 2382, 25: 1739 }), "JJUO CR 2/10/25 = 4386/2382/1739");
+    ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour still on the R&D");
+  }
+
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
   {
     const j = byCode(D, "JBDO"), pk = j.packages[0];

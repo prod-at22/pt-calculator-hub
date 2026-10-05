@@ -2562,6 +2562,19 @@
     "Child cost per CR: extra bed 75%, no bed 50%, infant FOC",
     "Add-ons: 47 items from ProdReq §7–§8 (cost from ProdReq, KRW × 0.00274)"
    ]
+  },
+  {
+   "v": 14,
+   "at": "2026-10-05T13:08:24Z",
+   "by": "product",
+   "rebase": true,
+   "changes": [],
+   "note": "Seoul-Jeju, Jeju, Jeju-Udo costed from ATK CR 2026 (rebuilt: SELJJU JJU JJUO)",
+   "summary": [
+    "Seoul - Jeju: cost = ATK CR 2026 (PT 6D5N Seoul-Jeju Standard), 2–25 pax, one line",
+    "Jeju: cost = ATK CR 2026 (PT&GT JEJU 4D3N), 2–25 pax, one line",
+    "Jeju - Udo: cost = ATK CR 2026 (PT&GT-BSC, STD JEJU UDO 5D4N), 2–25 pax, one line"
+   ]
   }
  ]
 }
