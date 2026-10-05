@@ -1,29 +1,25 @@
 """Seoul (SEL): package cost = ATK contract rate; add-ons costed from the Korea ProdReq.
 
-Package (Basic / Standard): one line per pax, RM, read from
-  the ATK CR 2026 Korea rate table (contracts/sel/…ATK_CR_2026_Korea_rates.webp, rows "PT 5D4N -BSC" and
-  "PT 5D4N Seoul Standard"). Basic 2–25 pax, Standard 2–42 pax.
+Package (Basic / Standard): one line per pax, KRW × FX 0.0030, read from the ATK CR 2026 Korea table in KRW
+  (contracts/sel/…ATK_CR_2026_Korea_KRW.xlsx, rows "PT 5D4N -BSC" and "PT 5D4N Seoul Standard"; tools/korea_cr.py).
+  Basic 2–25 pax, Standard 2–42 pax.
   Child: extra bed 75%, no bed 50% of adult rate; infant FOC (same CR).
 Add-ons: ~/.claude/skills/prodreqkorea/references/prodreq.md §7–§8 — selling as listed, cost from the
-  ProdReq cost column or its KRW rate × FX. No rate in the ProdReq → cost left empty (shown as cost?).
+  ProdReq cost column or its KRW rate × FX (the same 0.0030 as the CR). No rate in the ProdReq → cost left empty (shown as cost?).
 Self Tour (ATK-ST) is not in the CR or the ProdReq and stays on the R&D sheet.
 
     python3 tools/build_sel.py --by product
 
 Keep SEL in --keep on every R&D re-import (tools/merge_dests.py).
 """
-import argparse, datetime, json
+import argparse, datetime, json, os, sys
 
-FX = 0.00274   # ProdReq §3 reference (Jul 2026), for add-on costs quoted in KRW
-CR_FILE = "contracts/sel/1a10c2a11bb-ATK_CR_2026_Korea_rates.webp"
-CR = {  # RM per pax from 2 pax — ATK CR 2026
-    "BSC": [2610, 2072, 1803, 1642, 1534, 1563, 1492, 1437, 1768, 1697, 1639, 1590, 1547, 1511, 1235, 1509,
-            1481, 1455, 1432, 1412, 1393, 1375, 1360, 1345],
-    "STD": [3724, 2802, 2341, 2064, 1880, 1844, 1733, 1647, 2118, 2027, 1938, 1863, 1798, 1742, 1693, 1753,
-            1709, 1669, 1634, 1602, 1572, 1546, 1521, 1498, 1478, 1458, 1440, 1424, 1408, 1394, 1380, 1367,
-            1355, 1344, 1333, 1323, 1313, 1304, 1295, 1287, 1279],
-}
-SGL = {"BSC": 487, "STD": 730}   # CR single supplement, RM per pax
+sys.path.insert(0, os.path.dirname(__file__))
+import korea_cr
+
+FX = korea_cr.FX   # KRW → MYR for the CR and for add-on costs quoted in KRW
+CR_FILE, _ROWS = korea_cr.load("SEL")
+CR = {"BSC": _ROWS["PT 5D4N -BSC F&E Day x 2"], "STD": _ROWS["PT 5D4N Seoul Standard"]}   # (KRW list from 2 pax, SGL KRW)
 K = lambda krw: round(krw * FX, 2)
 ADDONS = [  # category, label, cost RM (None = no rate), selling RM, per, notes
     ("Visa", "K-ETA", 27, 35, "pax", "ProdReq §8.1 (complimentary 1x in the package)"),
@@ -68,8 +64,8 @@ ADDONS = [  # category, label, cost RM (None = no rate), selling RM, per, notes
     ("Hotel & meals", "Add 1 night 4★ (normal)", None, 400, "pax/night", "ProdReq §7 · no 4★ cost rate"),
     ("Hotel & meals", "4★ upgrade (Migliore Myeongdong)", None, 100, "pax/night", "ProdReq §6"),
     ("Hotel & meals", "Ski resort overnight", None, 500, "pax/night", "ProdReq §6"),
-    ("Hotel & meals", "Single supplement — Basic", 487, 1000, "pax", "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl"),
-    ("Hotel & meals", "Single supplement — Standard", 730, 1000, "pax", "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl"),
+    ("Hotel & meals", "Single supplement — Basic", K(CR["BSC"][1]), 1000, "pax", f"Selling ProdReq §4 · cost ATK CR 2026 SGL sppl {CR['BSC'][1]:,.0f} KRW"),
+    ("Hotel & meals", "Single supplement — Standard", K(CR["STD"][1]), 1000, "pax", f"Selling ProdReq §4 · cost ATK CR 2026 SGL sppl {CR['STD'][1]:,.0f} KRW"),
     ("Hotel & meals", "Add breakfast", None, 40, "meal", "ProdReq §7"),
     ("Hotel & meals", "Add lunch (normal)", K(15000), 50, "meal", "ProdReq §7 · cost 15,000 KRW"),
     ("Hotel & meals", "Add dinner (normal)", K(15000), 50, "meal", "ProdReq §7 · cost 15,000 KRW"),
@@ -84,20 +80,21 @@ def main():
     hist = json.load(open("data/history.json"))
     d = next(x for x in data["destinations"] if x["code"] == "SEL")
     d["fx"] = [f for f in d["fx"] if f["id"] != "KRW"] + [
-        {"id": "KRW", "label": "KRW → MYR", "value": FX, "locked": True, "source": "ProdReq Korea §3 (Jul 2026 reference), add-on costs"}]
+        {"id": "KRW", "label": "KRW → MYR", "value": FX, "locked": True, "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"}]
     d["rates"] = []
     d["nights"] = 4
     d["source"] = "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: R&D"
-    d["note"] = ("Basic / Standard cost = ATK CR 2026 per pax (RM). CR seasonal discount/upcharge for BSC & STD "
+    d["note"] = ("Basic / Standard cost = ATK CR 2026 per pax in KRW × 0.0030. CR seasonal discount/upcharge for BSC & STD "
                  "(Jan −RM200, Feb −RM200, 21–31 Dec +RM200) is not applied here.")
     tables = [t for t in d["tables"] if t["id"].startswith("ATK-ST__")]
     variants = []
-    for code, label, pmax in (("BSC", "ATK · Basic (contract rate)", 25), ("STD", "ATK · Standard (contract rate)", 42)):
-        tid = f"CR-{code}"
-        tables.append({"id": tid, "label": f"ATK contract rate · {code}", "group": "ATK contract rate", "fx": "MYR",
-                       "values": {str(p): v for p, v in zip(range(2, 2 + len(CR[code])), CR[code])}})
+    for code, label in (("BSC", "ATK · Basic (contract rate)"), ("STD", "ATK · Standard (contract rate)")):
+        tid, (krw, sgl) = f"CR-{code}", CR[code]
+        pmax = 1 + len(krw)
+        tables.append({"id": tid, "label": f"ATK contract rate · {code} (KRW)", "group": "ATK contract rate", "fx": "KRW",
+                       "values": {str(p): v for p, v in zip(range(2, 2 + len(krw)), krw)}})
         variants.append({"id": f"ATK-{code}", "label": label, "supplier": "ATK", "paxMin": 2, "paxMax": pmax,
-                         "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)", "notes": f"ATK CR 2026 · SGL sppl RM{SGL[code]} · {CR_FILE}",
+                         "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)", "notes": f"ATK CR 2026 in KRW × {FX} · SGL sppl {sgl:,.0f} KRW · {CR_FILE}",
                          "components": [{"key": "cr", "label": "ATK contract rate", "per": "pax", "expr": f"T['{tid}']"}]})
     variants.append(next(v for v in d["variants"] if v["id"] == "ATK-ST"))
     d["tables"], d["variants"] = tables, variants
@@ -113,9 +110,9 @@ def main():
     data["version"] += 1; data["updatedAt"] = now; data["updatedBy"] = a.by
     hist["entries"].append({"v": data["version"], "at": now, "by": a.by, "rebase": True, "changes": [],
                             "note": "Seoul cost = ATK CR 2026; add-ons from the Korea ProdReq (rebuilt: SEL)",
-                            "summary": ["Seoul Basic (2–25 pax) / Standard (2–42 pax): cost = ATK CR 2026 per pax, one line",
+                            "summary": ["Seoul Basic (2–25 pax) / Standard (2–42 pax): cost = ATK CR 2026 per pax in KRW × 0.0030, one line",
                                         "Child cost per CR: extra bed 75%, no bed 50%, infant FOC",
-                                        f"Add-ons: {len(ADDONS)} items from ProdReq §7–§8 (cost from ProdReq, KRW × 0.00274)"]})
+                                        f"Add-ons: {len(ADDONS)} items from ProdReq §7–§8 (cost from ProdReq, KRW × {FX})"]})
     for f, o in (("data/data.json", data), ("data/history.json", hist)):
         open(f, "w").write(json.dumps(o, indent=1, ensure_ascii=False) + "\n")
     print("SEL rebuilt, v", data["version"])

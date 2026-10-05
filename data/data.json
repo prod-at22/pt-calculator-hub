@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 14,
- "updatedAt": "2026-10-05T13:08:24Z",
+ "version": 17,
+ "updatedAt": "2026-10-05T14:00:28Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -16,7 +16,7 @@
    "nights": 4,
    "po": "Aiman",
    "source": "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: R&D",
-   "note": "Basic / Standard cost = ATK CR 2026 per pax (RM). CR seasonal discount/upcharge for BSC & STD (Jan −RM200, Feb −RM200, 21–31 Dec +RM200) is not applied here.",
+   "note": "Basic / Standard cost = ATK CR 2026 per pax in KRW × 0.0030. CR seasonal discount/upcharge for BSC & STD (Jan −RM200, Feb −RM200, 21–31 Dec +RM200) is not applied here.",
    "fx": [
     {
      "id": "MYR",
@@ -27,9 +27,9 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.00274,
+     "value": 0.003,
      "locked": true,
-     "source": "ProdReq Korea §3 (Jul 2026 reference), add-on costs"
+     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
     }
    ],
    "rates": [],
@@ -216,83 +216,83 @@
     },
     {
      "id": "CR-BSC",
-     "label": "ATK contract rate · BSC",
+     "label": "ATK contract rate · BSC (KRW)",
      "group": "ATK contract rate",
-     "fx": "MYR",
+     "fx": "KRW",
      "values": {
-      "2": 2610,
-      "3": 2072,
-      "4": 1803,
-      "5": 1642,
-      "6": 1534,
-      "7": 1563,
-      "8": 1492,
-      "9": 1437,
-      "10": 1768,
-      "11": 1697,
-      "12": 1639,
-      "13": 1590,
-      "14": 1547,
-      "15": 1511,
-      "16": 1235,
-      "17": 1509,
-      "18": 1481,
-      "19": 1455,
-      "20": 1432,
-      "21": 1412,
-      "22": 1393,
-      "23": 1375,
-      "24": 1360,
-      "25": 1345
+      "2": 858261.0,
+      "3": 681428.0,
+      "4": 593006.0,
+      "5": 539956.0,
+      "6": 504590.0,
+      "7": 513899.0,
+      "8": 490631.0,
+      "9": 472534.0,
+      "10": 581256.0,
+      "11": 558210.0,
+      "12": 539005.0,
+      "13": 522755.0,
+      "14": 508827.0,
+      "15": 496755.0,
+      "16": 406193.0,
+      "17": 496218.0,
+      "18": 486918.0,
+      "19": 478540.0,
+      "20": 471001.0,
+      "21": 464180.0,
+      "22": 457978.0,
+      "23": 452316.0,
+      "24": 447126.0,
+      "25": 442351.0
      }
     },
     {
      "id": "CR-STD",
-     "label": "ATK contract rate · STD",
+     "label": "ATK contract rate · STD (KRW)",
      "group": "ATK contract rate",
-     "fx": "MYR",
+     "fx": "KRW",
      "values": {
-      "2": 3724,
-      "3": 2802,
-      "4": 2341,
-      "5": 2064,
-      "6": 1880,
-      "7": 1844,
-      "8": 1733,
-      "9": 1647,
-      "10": 2118,
-      "11": 2027,
-      "12": 1938,
-      "13": 1863,
-      "14": 1798,
-      "15": 1742,
-      "16": 1693,
-      "17": 1753,
-      "18": 1709,
-      "19": 1669,
-      "20": 1634,
-      "21": 1602,
-      "22": 1572,
-      "23": 1546,
-      "24": 1521,
-      "25": 1498,
-      "26": 1478,
-      "27": 1458,
-      "28": 1440,
-      "29": 1424,
-      "30": 1408,
-      "31": 1394,
-      "32": 1380,
-      "33": 1367,
-      "34": 1355,
-      "35": 1344,
-      "36": 1333,
-      "37": 1323,
-      "38": 1313,
-      "39": 1304,
-      "40": 1295,
-      "41": 1287,
-      "42": 1279
+      "2": 1224774.0,
+      "3": 921440.0,
+      "4": 769774.0,
+      "5": 678774.0,
+      "6": 618107.0,
+      "7": 606293.0,
+      "8": 569864.0,
+      "9": 541531.0,
+      "10": 696645.0,
+      "11": 666645.0,
+      "12": 637364.0,
+      "13": 612557.0,
+      "14": 591293.0,
+      "15": 572864.0,
+      "16": 556739.0,
+      "17": 576538.0,
+      "18": 561996.0,
+      "19": 548984.0,
+      "20": 537274.0,
+      "21": 526678.0,
+      "22": 517046.0,
+      "23": 508252.0,
+      "24": 500190.0,
+      "25": 492774.0,
+      "26": 485927.0,
+      "27": 479588.0,
+      "28": 473702.0,
+      "29": 468222.0,
+      "30": 463107.0,
+      "31": 458322.0,
+      "32": 453836.0,
+      "33": 449622.0,
+      "34": 445656.0,
+      "35": 441916.0,
+      "36": 438385.0,
+      "37": 435044.0,
+      "38": 431879.0,
+      "39": 428876.0,
+      "40": 426024.0,
+      "41": 423310.0,
+      "42": 420726.0
      }
     }
    ],
@@ -304,7 +304,7 @@
      "paxMin": 2,
      "paxMax": 25,
      "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)",
-     "notes": "ATK CR 2026 · SGL sppl RM487 · contracts/sel/1a10c2a11bb-ATK_CR_2026_Korea_rates.webp",
+     "notes": "ATK CR 2026 in KRW × 0.003 · SGL sppl 160,000 KRW · contracts/sel/1a10c5cdc91-ATK_CR_2026_Korea_KRW.xlsx",
      "components": [
       {
        "key": "cr",
@@ -321,7 +321,7 @@
      "paxMin": 2,
      "paxMax": 42,
      "hotel": "3★ hotel outskirt (budget 60,000 KRW/pax/night)",
-     "notes": "ATK CR 2026 · SGL sppl RM730 · contracts/sel/1a10c2a11bb-ATK_CR_2026_Korea_rates.webp",
+     "notes": "ATK CR 2026 in KRW × 0.003 · SGL sppl 240,000 KRW · contracts/sel/1a10c5cdc91-ATK_CR_2026_Korea_KRW.xlsx",
      "components": [
       {
        "key": "cr",
@@ -1205,7 +1205,7 @@
      "id": "sel-p17",
      "category": "Activity",
      "label": "Everland ticket",
-     "cost": 111.52,
+     "cost": 122.1,
      "selling": 140,
      "per": "pax",
      "notes": "ProdReq §8.4 · cost Everland FIT 40,700 KRW"
@@ -1214,7 +1214,7 @@
      "id": "sel-p18",
      "category": "Activity",
      "label": "Lotte World Seoul ticket",
-     "cost": 82.2,
+     "cost": 90.0,
      "selling": 100,
      "per": "pax",
      "notes": "ProdReq §8.4 · cost 30,000 KRW"
@@ -1223,7 +1223,7 @@
      "id": "sel-p19",
      "category": "Activity",
      "label": "Snowyland (Vivaldi entrance)",
-     "cost": 95.9,
+     "cost": 105.0,
      "selling": 150,
      "per": "pax",
      "notes": "ProdReq §8.4 · cost 35,000 KRW"
@@ -1232,7 +1232,7 @@
      "id": "sel-p20",
      "category": "Flight & guide",
      "label": "Domestic flight Seoul↔Jeju",
-     "cost": 301.4,
+     "cost": 330.0,
      "selling": 300,
      "per": "pax/way",
      "notes": "ProdReq §8.5 · cost 110,000 KRW; 15kg + 7kg"
@@ -1241,7 +1241,7 @@
      "id": "sel-p21",
      "category": "Flight & guide",
      "label": "Airport transfer Hotel/ICN ↔ Gimpo (1–6 pax)",
-     "cost": 271.26,
+     "cost": 297.0,
      "selling": 360,
      "per": "way",
      "notes": "ProdReq §8.5 · cost Gimpo Starex 99,000 KRW"
@@ -1259,7 +1259,7 @@
      "id": "sel-p23",
      "category": "Flight & guide",
      "label": "Korean tour guide only (F&E day)",
-     "cost": 863.1,
+     "cost": 945.0,
      "selling": 1297,
      "per": "day",
      "notes": "ProdReq §8.5 · cost guide 300,000 + meal 15,000 KRW"
@@ -1277,7 +1277,7 @@
      "id": "sel-p25",
      "category": "Day tour",
      "label": "Airport transfer (1–6 pax)",
-     "cost": 301.4,
+     "cost": 330.0,
      "selling": 797,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost ICN Starex 110,000 KRW"
@@ -1286,7 +1286,7 @@
      "id": "sel-p26",
      "category": "Day tour",
      "label": "Airport transfer (7–10 pax)",
-     "cost": 602.8,
+     "cost": 660.0,
      "selling": 1497,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost Starex + luggage vehicle 220,000 KRW"
@@ -1295,7 +1295,7 @@
      "id": "sel-p27",
      "category": "Day tour",
      "label": "Driving guide Seoul (1–8 pax)",
-     "cost": 959.0,
+     "cost": 1050.0,
      "selling": 1200,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost 350,000 KRW"
@@ -1304,7 +1304,7 @@
      "id": "sel-p28",
      "category": "Day tour",
      "label": "Driving guide outskirt — Nami (1–8 pax)",
-     "cost": 1096.0,
+     "cost": 1200.0,
      "selling": 1400,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost 400,000 KRW"
@@ -1313,7 +1313,7 @@
      "id": "sel-p29",
      "category": "Day tour",
      "label": "Driving guide outskirt — Everland (1–8 pax)",
-     "cost": 1096.0,
+     "cost": 1200.0,
      "selling": 1400,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost 400,000 KRW"
@@ -1322,7 +1322,7 @@
      "id": "sel-p30",
      "category": "Day tour",
      "label": "Driving guide outskirt — Vivaldi / Elysian / Eobi (1–8 pax)",
-     "cost": 1233.0,
+     "cost": 1350.0,
      "selling": 1400,
      "per": "transport",
      "notes": "ProdReq §8.6 · cost Gangwon 450,000 KRW"
@@ -1403,7 +1403,7 @@
      "id": "sel-p39",
      "category": "Hotel & meals",
      "label": "Add 1 night 3★ (normal)",
-     "cost": 246.6,
+     "cost": 270.0,
      "selling": 250,
      "per": "pax/night",
      "notes": "ProdReq §7 · cost hotel 90,000 KRW"
@@ -1439,19 +1439,19 @@
      "id": "sel-p43",
      "category": "Hotel & meals",
      "label": "Single supplement — Basic",
-     "cost": 487,
+     "cost": 480.0,
      "selling": 1000,
      "per": "pax",
-     "notes": "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl"
+     "notes": "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl 160,000 KRW"
     },
     {
      "id": "sel-p44",
      "category": "Hotel & meals",
      "label": "Single supplement — Standard",
-     "cost": 730,
+     "cost": 720.0,
      "selling": 1000,
      "per": "pax",
-     "notes": "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl"
+     "notes": "Selling ProdReq §4 · cost ATK CR 2026 SGL sppl 240,000 KRW"
     },
     {
      "id": "sel-p45",
@@ -1466,7 +1466,7 @@
      "id": "sel-p46",
      "category": "Hotel & meals",
      "label": "Add lunch (normal)",
-     "cost": 41.1,
+     "cost": 45.0,
      "selling": 50,
      "per": "meal",
      "notes": "ProdReq §7 · cost 15,000 KRW"
@@ -1475,7 +1475,7 @@
      "id": "sel-p47",
      "category": "Hotel & meals",
      "label": "Add dinner (normal)",
-     "cost": 41.1,
+     "cost": 45.0,
      "selling": 50,
      "per": "meal",
      "notes": "ProdReq §7 · cost 15,000 KRW"
@@ -1486,6 +1486,16 @@
     "PT SEOUL STANDARD 5D4N 2026"
    ],
    "contracts": [
+    {
+     "id": "1a10c5cdc91",
+     "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+     "file": "contracts/sel/1a10c5cdc91-ATK_CR_2026_Korea_KRW.xlsx",
+     "to": "ATK",
+     "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+     "size": 18210,
+     "at": "2026-10-05T13:59:34Z",
+     "by": "product"
+    },
     {
      "id": "1a10c2a11bb",
      "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
@@ -1516,7 +1526,7 @@
    "nights": 0,
    "po": "Aiman",
    "source": "ATK CR 2026 Korea",
-   "note": "Package cost = ATK CR 2026 per pax (RM), 2–25 pax. CR seasonal discount/upcharge is not applied here.",
+   "note": "Package cost = ATK CR 2026 per pax in KRW × 0.0030, 2–25 pax. CR seasonal discount/upcharge is not applied here.",
    "fx": [
     {
      "id": "MYR",
@@ -1527,43 +1537,43 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.002637,
+     "value": 0.003,
      "locked": true,
-     "source": "R&D Raw Costing!A3"
+     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
     }
    ],
    "rates": [],
    "tables": [
     {
      "id": "CR-SELJJU",
-     "label": "ATK CR 2026 · SELJJU",
+     "label": "ATK CR 2026 · SELJJU (KRW)",
      "group": "ATK contract rate",
-     "fx": "MYR",
+     "fx": "KRW",
      "values": {
-      "2": 5381,
-      "3": 4223,
-      "4": 3644,
-      "5": 3296,
-      "6": 3232,
-      "7": 3043,
-      "8": 2901,
-      "9": 3461,
-      "10": 3305,
-      "11": 3178,
-      "12": 3072,
-      "13": 3060,
-      "14": 2977,
-      "15": 2906,
-      "16": 2844,
-      "17": 2971,
-      "18": 2912,
-      "19": 2859,
-      "20": 2811,
-      "21": 2768,
-      "22": 2729,
-      "23": 2693,
-      "24": 2661,
-      "25": 2630
+      "2": 1769500.0,
+      "3": 1388667.0,
+      "4": 1198250.0,
+      "5": 1084000.0,
+      "6": 1062833.0,
+      "7": 1000571.0,
+      "8": 953875.0,
+      "9": 1138111.0,
+      "10": 1087000.0,
+      "11": 1045182.0,
+      "12": 1010333.0,
+      "13": 1006231.0,
+      "14": 979143.0,
+      "15": 955667.0,
+      "16": 935125.0,
+      "17": 977000.0,
+      "18": 957556.0,
+      "19": 940158.0,
+      "20": 924500.0,
+      "21": 910333.0,
+      "22": 897455.0,
+      "23": 885696.0,
+      "24": 874917.0,
+      "25": 865000.0
      }
     }
    ],
@@ -1575,7 +1585,7 @@
      "paxMin": 2,
      "paxMax": 25,
      "hotel": "672.435",
-     "notes": "ATK CR 2026 row: PT 6D5N Seoul-Jeju Standard · NO Meal · Seoul 3★ Migliore / Jeju Parkside · SGL sppl RM1156 · contracts/seljju/1a10c2a11bd-ATK_CR_2026_Korea_rates.webp",
+     "notes": "ATK CR 2026 row: PT 6D5N Seoul-Jeju Standard · NO Meal · Seoul 3★ Migliore / Jeju Parkside · KRW × 0.003 · SGL sppl 380,000 KRW · contracts/seljju/1a10c5cdc92-ATK_CR_2026_Korea_KRW.xlsx",
      "components": [
       {
        "key": "cr",
@@ -2102,6 +2112,16 @@
    ],
    "contracts": [
     {
+     "id": "1a10c5cdc92",
+     "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+     "file": "contracts/seljju/1a10c5cdc92-ATK_CR_2026_Korea_KRW.xlsx",
+     "to": "ATK",
+     "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+     "size": 18210,
+     "at": "2026-10-05T13:59:34Z",
+     "by": "product"
+    },
+    {
      "id": "1a10c2a11bd",
      "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
      "file": "contracts/seljju/1a10c2a11bd-ATK_CR_2026_Korea_rates.webp",
@@ -2130,8 +2150,8 @@
    "duration": "4D3N",
    "nights": 0,
    "po": "Aiman",
-   "source": "ATK CR 2026 Korea · Self Tour: JEJU/PT_JJU_RD_reformatted.xlsx",
-   "note": "Package cost = ATK CR 2026 per pax (RM), 2–25 pax. CR seasonal discount/upcharge is not applied here.",
+   "source": "ATK CR 2026 Korea · Self Tour: ATK CR 2026 Korea · Self Tour: JEJU/PT_JJU_RD_reformatted.xlsx",
+   "note": "Package cost = ATK CR 2026 per pax in KRW × 0.0030, 2–25 pax. CR seasonal discount/upcharge is not applied here.",
    "fx": [
     {
      "id": "MYR",
@@ -2142,9 +2162,9 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.002637,
+     "value": 0.003,
      "locked": true,
-     "source": "R&D Raw Costing!A3"
+     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
     }
    ],
    "rates": [],
@@ -2493,34 +2513,34 @@
     },
     {
      "id": "CR-JJU",
-     "label": "ATK CR 2026 · JJU",
+     "label": "ATK CR 2026 · JJU (KRW)",
      "group": "ATK contract rate",
-     "fx": "MYR",
+     "fx": "KRW",
      "values": {
-      "2": 2868,
-      "3": 2158,
-      "4": 1803,
-      "5": 1590,
-      "6": 1448,
-      "7": 1443,
-      "8": 1355,
-      "9": 1587,
-      "10": 1502,
-      "11": 1433,
-      "12": 1375,
-      "13": 1378,
-      "14": 1332,
-      "15": 1292,
-      "16": 1258,
-      "17": 1231,
-      "18": 1204,
-      "19": 1179,
-      "20": 1157,
-      "21": 1137,
-      "22": 1119,
-      "23": 1103,
-      "24": 1087,
-      "25": 1073
+      "2": 943000.0,
+      "3": 709667.0,
+      "4": 593000.0,
+      "5": 523000.0,
+      "6": 476333.0,
+      "7": 474429.0,
+      "8": 445500.0,
+      "9": 521889.0,
+      "10": 494000.0,
+      "11": 471182.0,
+      "12": 452167.0,
+      "13": 453000.0,
+      "14": 438000.0,
+      "15": 425000.0,
+      "16": 413625.0,
+      "17": 404765.0,
+      "18": 395778.0,
+      "19": 387737.0,
+      "20": 380500.0,
+      "21": 373952.0,
+      "22": 368000.0,
+      "23": 362565.0,
+      "24": 357583.0,
+      "25": 353000.0
      }
     }
    ],
@@ -2532,7 +2552,7 @@
      "paxMin": 2,
      "paxMax": 25,
      "hotel": "296.6625",
-     "notes": "ATK CR 2026 row: PT&GT JEJU 4D3N · NO Meal · 3★ Parkside (50,000 KRW/pax/N) · SGL sppl RM608 · contracts/jju/1a10c2a11bf-ATK_CR_2026_Korea_rates.webp",
+     "notes": "ATK CR 2026 row: PT&GT JEJU 4D3N · NO Meal · 3★ Parkside (50,000 KRW/pax/N) · KRW × 0.003 · SGL sppl 200,000 KRW · contracts/jju/1a10c5cdc93-ATK_CR_2026_Korea_KRW.xlsx",
      "components": [
       {
        "key": "cr",
@@ -3244,6 +3264,16 @@
    ],
    "contracts": [
     {
+     "id": "1a10c5cdc93",
+     "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+     "file": "contracts/jju/1a10c5cdc93-ATK_CR_2026_Korea_KRW.xlsx",
+     "to": "ATK",
+     "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+     "size": 18210,
+     "at": "2026-10-05T13:59:34Z",
+     "by": "product"
+    },
+    {
      "id": "1a10c2a11bf",
      "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
      "file": "contracts/jju/1a10c2a11bf-ATK_CR_2026_Korea_rates.webp",
@@ -3273,7 +3303,7 @@
    "nights": 0,
    "po": "Aiman",
    "source": "ATK CR 2026 Korea",
-   "note": "Package cost = ATK CR 2026 per pax (RM), 2–25 pax. CR seasonal discount/upcharge is not applied here.",
+   "note": "Package cost = ATK CR 2026 per pax in KRW × 0.0030, 2–25 pax. CR seasonal discount/upcharge is not applied here.",
    "fx": [
     {
      "id": "MYR",
@@ -3284,43 +3314,43 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.002637,
+     "value": 0.003,
      "locked": true,
-     "source": "R&D Raw Costing!A3"
+     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
     }
    ],
    "rates": [],
    "tables": [
     {
      "id": "CR-JJUO",
-     "label": "ATK CR 2026 · JJUO",
+     "label": "ATK CR 2026 · JJUO (KRW)",
      "group": "ATK contract rate",
-     "fx": "MYR",
+     "fx": "KRW",
      "values": {
-      "2": 4386,
-      "3": 3324,
-      "4": 2793,
-      "5": 2474,
-      "6": 2262,
-      "7": 2110,
-      "8": 1996,
-      "9": 1908,
-      "10": 2382,
-      "11": 2275,
-      "12": 2185,
-      "13": 2109,
-      "14": 2044,
-      "15": 1988,
-      "16": 1939,
-      "17": 1993,
-      "18": 1949,
-      "19": 1909,
-      "20": 1874,
-      "21": 1842,
-      "22": 1812,
-      "23": 1786,
-      "24": 1761,
-      "25": 1739
+      "2": 1442257.0,
+      "3": 1093007.0,
+      "4": 918382.0,
+      "5": 813607.0,
+      "6": 743757.0,
+      "7": 693864.0,
+      "8": 656444.0,
+      "9": 627340.0,
+      "10": 783357.0,
+      "11": 748007.0,
+      "12": 718548.0,
+      "13": 693622.0,
+      "14": 672257.0,
+      "15": 653740.0,
+      "16": 637538.0,
+      "17": 655271.0,
+      "18": 640784.0,
+      "19": 627822.0,
+      "20": 616157.0,
+      "21": 605602.0,
+      "22": 596007.0,
+      "23": 587246.0,
+      "24": 579215.0,
+      "25": 571827.0
      }
     }
    ],
@@ -3332,7 +3362,7 @@
      "paxMin": 2,
      "paxMax": 25,
      "hotel": "395.55",
-     "notes": "ATK CR 2026 row: PT&GT-BSC, STD JEJU UDO 5D4N · Full board · 3★ Parkside (50,000 KRW/pax/N) · SGL sppl RM487 · contracts/jjuo/1a10c2a11c1-ATK_CR_2026_Korea_rates.webp",
+     "notes": "ATK CR 2026 row: PT&GT-BSC, STD JEJU UDO 5D4N · Full board · 3★ Parkside (50,000 KRW/pax/N) · KRW × 0.003 · SGL sppl 160,000 KRW · contracts/jjuo/1a10c5cdc94-ATK_CR_2026_Korea_KRW.xlsx",
      "components": [
       {
        "key": "cr",
@@ -3777,6 +3807,16 @@
     "PT JEJU - UDO 5D4N 2026"
    ],
    "contracts": [
+    {
+     "id": "1a10c5cdc94",
+     "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+     "file": "contracts/jjuo/1a10c5cdc94-ATK_CR_2026_Korea_KRW.xlsx",
+     "to": "ATK",
+     "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+     "size": 18210,
+     "at": "2026-10-05T13:59:34Z",
+     "by": "product"
+    },
     {
      "id": "1a10c2a11c1",
      "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",

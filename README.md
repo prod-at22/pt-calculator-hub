@@ -44,9 +44,9 @@ old → new value. Any old version can be viewed and restored.
 - **Tokyo (HND)** is built rate by rate from the R&D Raw Costing (JPY rates × FX), so editing
   one supplier rate updates every pax count (`tools/build_data.py`).
 - **Seoul (SEL) Basic / Standard** cost = the ATK contract rate per pax, one line (`tools/build_sel.py`,
-  from the ATK CR 2026 Korea rate table in `contracts/sel/`; Basic 2–25 pax, Standard 2–42 pax). Seoul add-ons
-  follow the Korea ProdReq §7–§8 (cost from the ProdReq, KRW × 0.00274). Self Tour stays on the R&D.
-- **Seoul-Jeju, Jeju, Jeju-Udo** cost = the ATK CR 2026 per pax, one line, 2–25 pax (`tools/build_korea_cr.py`).
+  from the ATK CR 2026 Korea table in KRW × 0.0030, `contracts/sel/…KRW.xlsx` via `tools/korea_cr.py`;
+  Basic 2–25 pax, Standard 2–42 pax). Seoul add-ons follow the Korea ProdReq §7–§8 (cost from the ProdReq, KRW × 0.0030). Self Tour stays on the R&D.
+- **Seoul-Jeju, Jeju, Jeju-Udo** cost = the ATK CR 2026 in KRW × 0.0030 per pax, one line, 2–25 pax (`tools/build_korea_cr.py`).
   Jeju Self Tour stays on the R&D.
 - **Every other destination** comes from its R&D workbook in
   `~/Downloads/PT DESTINASI R&D REFORMAT/<DESTINATION>/` (newest `*reformat*` file) through

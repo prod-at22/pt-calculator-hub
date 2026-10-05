@@ -2575,6 +2575,294 @@
     "Jeju: cost = ATK CR 2026 (PT&GT JEJU 4D3N), 2–25 pax, one line",
     "Jeju - Udo: cost = ATK CR 2026 (PT&GT-BSC, STD JEJU UDO 5D4N), 2–25 pax, one line"
    ]
+  },
+  {
+   "v": 15,
+   "at": "2026-10-05T13:59:34Z",
+   "by": "product",
+   "note": "Uploaded ATK CR 2026 Korea in KRW (xlsx)",
+   "summary": [
+    "Seoul › TO Contract Rate: ATK CR 2026 in KRW (xlsx)",
+    "Seoul - Jeju › TO Contract Rate: ATK CR 2026 in KRW (xlsx)",
+    "Jeju › TO Contract Rate: ATK CR 2026 in KRW (xlsx)",
+    "Jeju - Udo › TO Contract Rate: ATK CR 2026 in KRW (xlsx)"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a10c2a11bb",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/sel/1a10c2a11bb-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11bc",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/sel/1a10c2a11bc-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a10c5cdc91",
+       "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+       "file": "contracts/sel/1a10c5cdc91-ATK_CR_2026_Korea_KRW.xlsx",
+       "to": "ATK",
+       "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+       "size": 18210,
+       "at": "2026-10-05T13:59:34Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11bb",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/sel/1a10c2a11bb-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11bc",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/sel/1a10c2a11bc-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "label": "Seoul › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "SELJJU",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a10c2a11bd",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/seljju/1a10c2a11bd-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11be",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/seljju/1a10c2a11be-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a10c5cdc92",
+       "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+       "file": "contracts/seljju/1a10c5cdc92-ATK_CR_2026_Korea_KRW.xlsx",
+       "to": "ATK",
+       "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+       "size": 18210,
+       "at": "2026-10-05T13:59:34Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11bd",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/seljju/1a10c2a11bd-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11be",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/seljju/1a10c2a11be-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "label": "Seoul - Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJU",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a10c2a11bf",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/jju/1a10c2a11bf-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11c0",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/jju/1a10c2a11c0-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a10c5cdc93",
+       "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+       "file": "contracts/jju/1a10c5cdc93-ATK_CR_2026_Korea_KRW.xlsx",
+       "to": "ATK",
+       "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+       "size": 18210,
+       "at": "2026-10-05T13:59:34Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11bf",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/jju/1a10c2a11bf-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11c0",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/jju/1a10c2a11c0-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "label": "Jeju › TO Contract Rate"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJUO",
+      "contracts"
+     ],
+     "from": [
+      {
+       "id": "1a10c2a11c1",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/jjuo/1a10c2a11c1-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11c2",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/jjuo/1a10c2a11c2-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "to": [
+      {
+       "id": "1a10c5cdc94",
+       "name": "ATK CR 2026 Korea — rates in KRW.xlsx",
+       "file": "contracts/jjuo/1a10c5cdc94-ATK_CR_2026_Korea_KRW.xlsx",
+       "to": "ATK",
+       "note": "KRW per pax, 2–42 pax, SGL supplement. Costing = KRW × 0.0030",
+       "size": 18210,
+       "at": "2026-10-05T13:59:34Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11c1",
+       "name": "ATK CR 2026 Korea — rates (MYR per pax).webp",
+       "file": "contracts/jjuo/1a10c2a11c1-ATK_CR_2026_Korea_rates.webp",
+       "to": "ATK",
+       "note": "Rate table: all Korea packages, 2–42 pax, SGL supplement",
+       "size": 172912,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      },
+      {
+       "id": "1a10c2a11c2",
+       "name": "ATK CR 2026 Korea — terms.png",
+       "file": "contracts/jjuo/1a10c2a11c2-ATK_CR_2026_Korea_terms.png",
+       "to": "ATK",
+       "note": "Seasonal discount/upcharge, child rate, hotels, inclusions, cancellation",
+       "size": 199962,
+       "at": "2026-10-05T13:04:06Z",
+       "by": "product"
+      }
+     ],
+     "label": "Jeju - Udo › TO Contract Rate"
+    }
+   ]
+  },
+  {
+   "v": 16,
+   "at": "2026-10-05T14:00:28Z",
+   "by": "product",
+   "rebase": true,
+   "changes": [],
+   "note": "Seoul cost = ATK CR 2026; add-ons from the Korea ProdReq (rebuilt: SEL)",
+   "summary": [
+    "Seoul Basic (2–25 pax) / Standard (2–42 pax): cost = ATK CR 2026 per pax in KRW × 0.0030, one line",
+    "Child cost per CR: extra bed 75%, no bed 50%, infant FOC",
+    "Add-ons: 47 items from ProdReq §7–§8 (cost from ProdReq, KRW × 0.003)"
+   ]
+  },
+  {
+   "v": 17,
+   "at": "2026-10-05T14:00:28Z",
+   "by": "product",
+   "rebase": true,
+   "changes": [],
+   "note": "Seoul-Jeju, Jeju, Jeju-Udo costed from ATK CR 2026 (rebuilt: SELJJU JJU JJUO)",
+   "summary": [
+    "Seoul - Jeju: cost = ATK CR 2026 (PT 6D5N Seoul-Jeju Standard) in KRW × 0.003, 2–25 pax, one line",
+    "Jeju: cost = ATK CR 2026 (PT&GT JEJU 4D3N) in KRW × 0.003, 2–25 pax, one line",
+    "Jeju - Udo: cost = ATK CR 2026 (PT&GT-BSC, STD JEJU UDO 5D4N) in KRW × 0.003, 2–25 pax, one line"
+   ]
   }
  ]
 }
