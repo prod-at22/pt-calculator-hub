@@ -17,8 +17,9 @@ How everything works: README.md. This file = where we stopped.
 - Login/save not set up yet: no users in data/users.json (needs a fine-grained token → First-time setup).
 
 - Seoul Basic/Standard cost = ATK contract rate (tools/build_sel.py, v10); add-ons from ProdReq Korea. Keep SEL in --keep.
-  New ATK CR 2026 uploaded only as a low-res screenshot (contracts/sel/…ATK_CR_2026_Korea.png) — need the original to re-cost.
-  Open: CR says valid until Dec 2025; Basic 16 pax RM1,065 looks like a CR typo; CR seasonal ±RM200 not applied.
+  ATK CR 2026 (rates + terms images) in SEL/SELJJU/JJU/JJUO contracts; older CR files removed (v12). SEL re-costed v13.
+  Open: Basic 16 pax RM1,235 still looks out of line (15: 1,511, 17: 1,509); CR seasonal ±RM200 not applied;
+  SELJJU / JJU / JJUO still costed from R&D although the CR 2026 has their rows.
 
 ## Waiting on the PO team (decisions)
 1. ~~Discount Tier 2~~ decided 5 Oct: Selling Price = Catalog, no −RM200 (engine ignores discountTier2).

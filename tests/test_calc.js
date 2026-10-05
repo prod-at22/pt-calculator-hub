@@ -157,14 +157,15 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const s = byCode(D, "SEL"), b = s.packages.find(p => p.id === "atk-bsc"), st = s.packages.find(p => p.id === "atk-std");
     const r = (pk, v, p) => P.priceRow(s, pk, v, p);
-    ok(r(b, "ATK-BSC", 2).adult.cost === 2251 && r(b, "ATK-BSC", 10).adult.cost === 1525 && r(b, "ATK-BSC", 25).adult.cost === 1160, "Basic CR 2/10/25 pax = 2251/1525/1160");
-    ok(r(st, "ATK-STD", 2).adult.cost === 3213 && r(st, "ATK-STD", 11).adult.cost === 1749 && r(st, "ATK-STD", 30).adult.cost === 1215, "Standard CR 2/11/30 pax = 3213/1749/1215");
+    ok(r(b, "ATK-BSC", 2).adult.cost === 2610 && r(b, "ATK-BSC", 10).adult.cost === 1768 && r(b, "ATK-BSC", 25).adult.cost === 1345, "Basic CR 2026 2/10/25 pax = 2610/1768/1345");
+    ok(r(st, "ATK-STD", 2).adult.cost === 3724 && r(st, "ATK-STD", 11).adult.cost === 2027 && r(st, "ATK-STD", 30).adult.cost === 1408, "Standard CR 2026 2/11/30 pax = 3724/2027/1408");
     ok(!isFinite(r(b, "ATK-BSC", 26).adult.cost), "Basic 26+ pax: not in the CR → no cost");
     ok(s.variants.filter(v => v.id !== "ATK-ST").every(v => v.components.length === 1), "one cost line (not broken down)");
     const sp = await boot(repo, "sel/", "?pkg=atk-bsc");
     const sh = [...sp.doc.querySelectorAll("#costPax tr.blk-head th")].map(x => x.textContent);
-    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,251", "Seoul costing: no breakdown column, Cost/Pax = CR 2,251");
-    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 2251 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
+    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,610", "Seoul costing: no breakdown column, Cost/Pax = CR 2,610");
+    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 2610 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
+    ok(s.contracts.length === 2 && s.contracts.every(c => /ATK_CR_2026_Korea/.test(c.file) && fs.existsSync(path.join(ROOT, c.file))), "SEL TO Contract Rate = ATK CR 2026 (rates + terms) only");
     const ev = s.addons.find(x => x.label === "Everland ticket");
     ok(ev && near(ev.cost, 40700 * 0.00274, 0.01) && ev.selling === 140, "Everland add-on: cost 40,700 KRW × 0.00274, selling RM140");
     ok(s.addons.find(x => x.label === "K-ETA").cost === 27 && s.addons.find(x => x.label.startsWith("Hanbok")).cost === null, "K-ETA cost RM27; Hanbok has no cost rate (null)");
