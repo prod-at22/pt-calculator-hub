@@ -413,6 +413,28 @@ function pkgComponents(d, pkg) {
 // GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
 // "Selling (Catalog − RM200)" — selling is the catalog price minus the R&D tier-2 discount
 const sellLabel = () => "Selling Price";
+// Header hint for a rate-built component: its formula with the actual rates, e.g. 2*R.hndQ → "¥22,000 × 2".
+// band(pax, …) keeps only the bands inside this TO block's pax range. Table-based components (T[…]) get none.
+const CUR = { JPY: "¥", KRW: "₩", USD: "US$", EUR: "€" };
+function rateHint(d, expr, pmin, pmax) {
+  if (!/\bR\.\w/.test(expr) || /\bT\[/.test(expr)) return "";
+  const R = Object.fromEntries(d.rates.map(r => [r.id, r]));
+  const cur = r => { if (r.fx === "MYR") return "RM"; const f = d.fx.find(x => x.id === r.fx), m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f ? f.label : ""); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
+  let e = expr.replace(/band\(pax,((?:\[[^\]]+\],?)+)\)/g, (_, pairs) => {
+    const ps = [...pairs.matchAll(/\[(\d+),([^\]]+)\]/g)].map(m => [+m[1], m[2]]), out = [];
+    let lo = 1;
+    for (const [mx, x] of ps) {
+      const a = Math.max(lo, pmin), b = Math.min(mx, pmax); lo = mx + 1;
+      if (a > b) continue;
+      out.push([x, b >= pmax && mx >= 999 && a !== b ? `${a}§` : a === b ? `${a}` : `${a}–${b}`]);
+    }
+    return out.length === 1 ? out[0][0] : "[" + out.map(([x, r]) => `${x} {${r} pax}`).join(" / ") + "]";
+  });
+  e = e.replace(/R\.(\w+)/g, (m, id) => R[id] ? cur(R[id]) + (+R[id].value).toLocaleString("en-MY") : m)
+    .replace(/\bN\b/g, `${n2(+d.nights)} nights`).replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
+    .replace(/^(\d+) × (.+)$/, "$2 × $1").replace(/\{([^}]+)\}/g, "($1)").replace(/§/g, "+");
+  return e;
+}
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
@@ -438,7 +460,8 @@ function costingByPax(d, pkg, pax) {
     const toLbl = bl.v ? bl.v.label : "no TO";
     const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())}${toLbl.toUpperCase() === pkg.label.toUpperCase() ? "" : " / " + esc(toLbl)}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
-      ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
+      ? comps.map(c => { const vc = bl.v && bl.v.components.find(o => o.key === c.key), hint = vc ? rateHint(d, vc.expr, bl.rows[0].pax, bl.rows[bl.rows.length - 1].pax) : "";
+          return `<th>${vc ? esc(vc.label) + (hint ? `<span class="hint">(${esc(hint)})</span>` : "") : ""}</th>`; }).join("")
       : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}</tr>`;
     const rows = bl.rows.map((pr, i) => {
       const p = pr.pax, x = pr[k];

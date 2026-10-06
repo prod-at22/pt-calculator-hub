@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 20,
- "updatedAt": "2026-10-06T06:43:08Z",
+ "version": 21,
+ "updatedAt": "2026-10-06T06:55:37Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -6257,7 +6257,7 @@
      "components": [
       {
        "key": "airport",
-       "label": "Airport transfer ×2",
+       "label": "Airport Haneda",
        "per": "group",
        "expr": "2*band(pax,[4,R.hnd7],[8,R.hnd10],[999,R.hndBig])"
       },
@@ -6310,7 +6310,7 @@
      "components": [
       {
        "key": "airport",
-       "label": "Airport transfer ×2",
+       "label": "Airport Haneda",
        "per": "group",
        "expr": "2*R.hndQ"
       },
@@ -6345,7 +6345,7 @@
      "components": [
       {
        "key": "airport",
-       "label": "Airport transfer ×2",
+       "label": "Airport Haneda",
        "per": "group",
        "expr": "2*band(pax,[9,R.hnd10],[999,R.hndBig])"
       },
@@ -6392,7 +6392,7 @@
      "components": [
       {
        "key": "airport",
-       "label": "Airport transfer ×2",
+       "label": "Airport Haneda",
        "per": "group",
        "expr": "2*band(pax,[3,R.hnd7],[7,R.hnd10],[999,R.hnd14])"
       },

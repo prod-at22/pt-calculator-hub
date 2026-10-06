@@ -6967,6 +6967,70 @@
      "from": null
     }
    ]
+  },
+  {
+   "v": 21,
+   "at": "2026-10-06T06:55:37Z",
+   "by": "product",
+   "note": "Tokyo: airport column named \"Airport Haneda\"",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "variants",
+      "WIF-BSC",
+      "components",
+      "airport",
+      "label"
+     ],
+     "from": "Airport transfer ×2",
+     "to": "Airport Haneda",
+     "label": "Tokyo › TO WIF-BSC › Component airport label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "variants",
+      "QAYYUM-STD",
+      "components",
+      "airport",
+      "label"
+     ],
+     "from": "Airport transfer ×2",
+     "to": "Airport Haneda",
+     "label": "Tokyo › TO QAYYUM-STD › Component airport label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "variants",
+      "WIF-STD",
+      "components",
+      "airport",
+      "label"
+     ],
+     "from": "Airport transfer ×2",
+     "to": "Airport Haneda",
+     "label": "Tokyo › TO WIF-STD › Component airport label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "variants",
+      "WIF-ST",
+      "components",
+      "airport",
+      "label"
+     ],
+     "from": "Airport transfer ×2",
+     "to": "Airport Haneda",
+     "label": "Tokyo › TO WIF-ST › Component airport label"
+    }
+   ]
   }
  ]
 }
