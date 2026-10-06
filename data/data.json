@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 22,
- "updatedAt": "2026-10-06T06:57:35Z",
+ "version": 23,
+ "updatedAt": "2026-10-06T07:08:17Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -6049,9 +6049,9 @@
     {
      "id": "QAYYUM",
      "label": "Qayyum JPY → MYR",
-     "value": 0.029,
+     "value": 0.026,
      "locked": true,
-     "source": "ProdReq Jepun §3 (house rate)"
+     "source": "PO, 6 Oct 2026"
     }
    ],
    "rates": [
@@ -7431,7 +7431,7 @@
      "file": "contracts/hnd/1a110009216-Qayyum_Tokyo_rate_sheet_2026_ARBA.pdf",
      "to": "Qayyum",
      "note": "ARBA summary from ProdReq Jepun — not a Qayyum contract (Qayyum issues no CR). Rates as used in the calculator.",
-     "size": 6351,
+     "size": 6352,
      "at": "2026-10-06T06:57:35Z",
      "by": "product"
     },

@@ -7086,6 +7086,38 @@
      "label": "Tokyo › TO Contract Rate"
     }
    ]
+  },
+  {
+   "v": 23,
+   "at": "2026-10-06T07:08:17Z",
+   "by": "product",
+   "note": "Tokyo: Qayyum FX 0.026",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx",
+      "QAYYUM",
+      "value"
+     ],
+     "from": 0.029,
+     "to": 0.026,
+     "label": "Tokyo › FX Qayyum JPY → MYR"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx",
+      "QAYYUM",
+      "source"
+     ],
+     "from": "ProdReq Jepun §3 (house rate)",
+     "to": "PO, 6 Oct 2026",
+     "label": "Tokyo › FX Qayyum source"
+    }
+   ]
   }
  ]
 }

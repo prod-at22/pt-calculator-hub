@@ -49,7 +49,7 @@ story = [
     Paragraph("1. Asas", H2),
     Paragraph("Kenderaan Toyota Voxy / Noah (7 tempat), <b>1–7 pax</b> (6 pax paling selesa). Kadar <b>bundled</b>: transport + "
               "driving guide Melayu beragama Islam, 10 jam termasuk masa perjalanan. Tiada elaun guide atau service charge WIF "
-              "di atasnya. FX house rate <b>1 JPY = RM%s</b>. Mata wang sumber: JPY." % FX, P),
+              "di atasnya. FX Qayyum <b>1 JPY = RM%s</b> (ditetapkan PO). Mata wang sumber: JPY." % FX, P),
     Paragraph("2. Kadar (per kenderaan)", H2),
 ]
 rows = [["Item", "Asas", "Revisi", "Dicaj", "RM @ %s" % FX, "Nota"]]
