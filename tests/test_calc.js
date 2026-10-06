@@ -187,6 +187,13 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   console.log("1f. Turkey / Istanbul: no 4★ (not in the MyTrip CR or catalog)");
   ok(["TUR", "ISTBUR", "ISTCAP"].every(c => !byCode(D, c).variants.some(v => /4\s*-?\s*STAR|4S$/i.test(v.id)) && !byCode(D, c).packages.some(p => /4/.test(p.id))), "TUR / ISTBUR / ISTCAP have only 3★ packages");
 
+  console.log("1g. Tokyo Qayyum (Standard 2–7) from ProdReq Jepun");
+  {
+    const h = byCode(D, "HND"), st = h.packages.find(p => p.id === "standard"), c = p => P.priceRow(h, st, "QAYYUM-STD", p).adult.cost;
+    // (2 × ¥22,000 + ¥81,000 + 3 × ¥76,000) × 0.029 ÷ pax + apartment RM300 × 4 + Iyashi ¥500 × 0.029 — ProdReq §10 cost/pax
+    ok(near(c(2), 6333, 0.01) && near(c(4), 3773.75, 0.01) && near(c(7), 2676.93, 0.01), `Qayyum cost 2/4/7 pax = ProdReq 6,333 / 3,773.75 / 2,676.93: ${c(2)} / ${c(4)} / ${c(7)}`);
+  }
+
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
   {
     const j = byCode(D, "JBDO"), pk = j.packages[0];
@@ -220,7 +227,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
-    ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.0259"), "FX chips show WIF 0.029 and Qayyum 0.0259");
+    ok(doc.querySelector(".fxbox").textContent.includes("0.029") && !doc.querySelector(".fxbox").textContent.includes("0.0259"), "FX chips: WIF and Qayyum both 0.029 (house rate)");
     ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,contracts,addons,flags,history", "tabs: Costing, TO Contract Rate, Add-ons, Flags, History");
     ok(doc.querySelector('[data-tabmain="contracts"]').textContent === "TO Contract Rate", "tab named TO Contract Rate");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);

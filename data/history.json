@@ -6834,6 +6834,122 @@
      "label": "Istanbul - Cappadocia › tables"
     }
    ]
+  },
+  {
+   "v": 19,
+   "at": "2026-10-06T06:38:51Z",
+   "by": "product",
+   "note": "Tokyo Qayyum rates from ProdReq Jepun (FX 0.029, +¥2,000 airport, +¥3,000 tours)",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx",
+      "QAYYUM",
+      "value"
+     ],
+     "from": 0.0259,
+     "to": 0.029,
+     "label": "Tokyo › FX Qayyum JPY → MYR"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx",
+      "QAYYUM",
+      "source"
+     ],
+     "from": "R&D CR!B4",
+     "to": "ProdReq Jepun §3 (house rate)",
+     "label": "Tokyo › FX Qayyum source"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "hndQ",
+      "value"
+     ],
+     "from": 20000,
+     "to": 22000,
+     "label": "Tokyo › Rate Haneda (QAYYUM)"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "hndQ",
+      "label"
+     ],
+     "from": "Haneda (QAYYUM)",
+     "to": "Haneda 7-seater (QAYYUM, ¥20,000 + ¥2,000 revision)",
+     "label": "Tokyo › Rate hndQ label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "qCity",
+      "value"
+     ],
+     "from": 73000,
+     "to": 76000,
+     "label": "Tokyo › Rate Tokyo City Tour (QAYYUM)"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "qCity",
+      "label"
+     ],
+     "from": "Tokyo City Tour (QAYYUM)",
+     "to": "Tokyo City Tour (QAYYUM, ¥73,000 + ¥3,000 revision)",
+     "label": "Tokyo › Rate qCity label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "qFuji",
+      "value"
+     ],
+     "from": 78000,
+     "to": 81000,
+     "label": "Tokyo › Rate Fuji Tour (QAYYUM)"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "qFuji",
+      "label"
+     ],
+     "from": "Fuji Tour (QAYYUM)",
+     "to": "Fuji Tour (QAYYUM, ¥78,000 + ¥3,000 revision)",
+     "label": "Tokyo › Rate qFuji label"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "variants",
+      "QAYYUM-STD",
+      "notes"
+     ],
+     "from": "Private transport (Fuji + 3× Tokyo City driving tour); driver-guide & WIF bundled untuk 2-7 pax.",
+     "to": "Qayyum Voxy/Noah 1–7 pax, transport + Malay driving guide bundled (no WIF guide / service charge). Rates: ProdReq Jepun §5.2–5.3 (no Qayyum CR on file).",
+     "label": "Tokyo › TO QAYYUM-STD notes"
+    }
+   ]
   }
  ]
 }

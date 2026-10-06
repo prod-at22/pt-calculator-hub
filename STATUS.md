@@ -24,6 +24,9 @@ How everything works: README.md. This file = where we stopped.
 
 - Turkey / Istanbul 4★ removed (v18): ARBA estimate, not in MyTrip CR or catalog. SKIP_TO in tools/extract_rd.py keeps it out of re-imports.
 
+- Tokyo Qayyum (Standard 2–7) rates from ProdReq Jepun (v19): FX 0.029, airport ¥22,000, City ¥76,000, Fuji ¥81,000.
+  No Qayyum CR on file. Catalog JSON (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — 2 pax now negative margin.
+
 ## Waiting on the PO team (decisions)
 1. ~~Discount Tier 2~~ decided 5 Oct: Selling Price = Catalog, no −RM200 (engine ignores discountTier2).
 2. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).

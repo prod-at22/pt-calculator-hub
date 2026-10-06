@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 18,
- "updatedAt": "2026-10-06T04:36:01Z",
+ "version": 19,
+ "updatedAt": "2026-10-06T06:38:51Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -6048,9 +6048,9 @@
     {
      "id": "QAYYUM",
      "label": "Qayyum JPY → MYR",
-     "value": 0.0259,
+     "value": 0.029,
      "locked": true,
-     "source": "R&D CR!B4"
+     "source": "ProdReq Jepun §3 (house rate)"
     }
    ],
    "rates": [
@@ -6088,24 +6088,24 @@
     },
     {
      "id": "hndQ",
-     "label": "Haneda (QAYYUM)",
-     "value": 20000,
+     "label": "Haneda 7-seater (QAYYUM, ¥20,000 + ¥2,000 revision)",
+     "value": 22000,
      "fx": "QAYYUM",
      "unit": "JPY/way",
      "group": "1. Airport transfer"
     },
     {
      "id": "qCity",
-     "label": "Tokyo City Tour (QAYYUM)",
-     "value": 73000,
+     "label": "Tokyo City Tour (QAYYUM, ¥73,000 + ¥3,000 revision)",
+     "value": 76000,
      "fx": "QAYYUM",
      "unit": "JPY/trip",
      "group": "2. Tour transport"
     },
     {
      "id": "qFuji",
-     "label": "Fuji Tour (QAYYUM)",
-     "value": 78000,
+     "label": "Fuji Tour (QAYYUM, ¥78,000 + ¥3,000 revision)",
+     "value": 81000,
      "fx": "QAYYUM",
      "unit": "JPY/trip",
      "group": "2. Tour transport"
@@ -6335,7 +6335,7 @@
      "paxMin": 2,
      "paxMax": 7,
      "hotel": "Section L Apartment (3-Star)",
-     "notes": "Private transport (Fuji + 3× Tokyo City driving tour); driver-guide & WIF bundled untuk 2-7 pax."
+     "notes": "Qayyum Voxy/Noah 1–7 pax, transport + Malay driving guide bundled (no WIF guide / service charge). Rates: ProdReq Jepun §5.2–5.3 (no Qayyum CR on file)."
     },
     {
      "id": "WIF-STD",
