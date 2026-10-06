@@ -7118,6 +7118,2059 @@
      "label": "Tokyo › FX Qayyum source"
     }
    ]
+  },
+  {
+   "v": 24,
+   "at": "2026-10-06T07:13:03Z",
+   "by": "product",
+   "note": "Tokyo & Osaka accommodation RM250/pax/night (was RM300)",
+   "summary": [
+    "Tokyo apartment RM300 → RM250/pax/night",
+    "Osaka accommodation RM1,200 → RM1,000/pax (4 nights), all TOs",
+    "Tokyo-Kyoto-Osaka accommodation RM1,800 → RM1,500/pax (6 nights), all TOs"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "rates",
+      "apt",
+      "value"
+     ],
+     "from": 300,
+     "to": 250,
+     "label": "Tokyo › Rate Apartment (Standard)"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "2"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @2 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "3"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @3 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "4"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @4 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "5"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @5 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "6"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @6 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "7"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @7 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "8"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @8 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "9"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @9 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "10"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @10 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "11"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @11 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "12"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @12 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "13"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @13 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "14"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @14 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "15"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @15 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "16"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @16 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "17"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @17 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "18"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @18 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "19"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @19 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "20"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @20 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "21"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @21 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "22"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @22 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "23"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @23 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "24"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @24 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "25"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @25 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "26"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @26 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "27"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @27 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "28"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @28 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "29"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @29 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "30"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @30 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "31"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @31 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "32"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @32 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "33"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @33 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "34"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @34 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "35"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @35 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "36"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @36 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "37"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @37 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "38"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @38 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "39"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @39 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-BASIC__Accomm",
+      "values",
+      "40"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-BASIC · Accomm › @40 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "2"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @2 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "3"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @3 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "4"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @4 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "5"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @5 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "6"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @6 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "UCOP-STD__Accomm",
+      "values",
+      "7"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table UCOP-STD · Accomm › @7 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "8"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @8 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "9"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @9 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "10"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @10 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "11"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @11 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "12"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @12 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "13"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @13 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "14"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @14 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "15"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @15 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "16"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @16 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "17"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @17 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "18"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @18 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "19"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @19 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "20"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @20 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "21"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @21 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "22"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @22 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "23"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @23 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "24"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @24 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "25"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @25 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "26"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @26 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "27"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @27 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "28"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @28 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "29"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @29 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "30"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @30 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "31"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @31 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "32"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @32 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "33"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @33 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "34"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @34 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "35"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @35 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "36"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @36 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "37"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @37 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "38"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @38 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "39"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @39 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "40"
+     ],
+     "from": 1200.0,
+     "to": 1000.0,
+     "label": "Osaka › Table WIF-STD · Accomm › @40 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "2"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @2 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "3"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @3 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "4"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @4 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "5"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @5 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "6"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @6 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "7"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @7 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "8"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @8 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "9"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @9 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "10"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @10 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "11"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @11 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "12"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @12 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "13"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @13 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "14"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @14 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "15"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @15 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "16"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @16 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "17"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @17 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "18"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @18 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "19"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @19 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "20"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @20 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "21"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @21 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "22"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @22 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "23"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @23 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "24"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @24 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "25"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @25 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "26"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @26 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "27"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @27 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "28"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @28 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "29"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @29 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "30"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @30 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "31"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @31 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "32"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @32 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "33"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @33 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "34"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @34 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "35"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @35 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "36"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @36 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "37"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @37 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "38"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @38 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "39"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @39 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-BSC__Accomm",
+      "values",
+      "40"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-BSC · Accomm › @40 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "2"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @2 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "3"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @3 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "4"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @4 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "5"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @5 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "6"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @6 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "QAY-UCOP-STD__Accomm",
+      "values",
+      "7"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table QAY-UCOP-STD · Accomm › @7 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "8"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @8 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "9"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @9 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "10"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @10 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "11"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @11 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "12"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @12 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "13"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @13 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "14"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @14 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "15"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @15 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "16"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @16 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "17"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @17 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "18"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @18 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "19"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @19 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "20"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @20 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "21"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @21 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "22"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @22 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "23"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @23 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "24"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @24 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "25"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @25 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "26"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @26 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "27"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @27 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "28"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @28 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "29"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @29 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "30"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @30 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "31"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @31 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "32"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @32 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "33"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @33 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "34"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @34 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "35"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @35 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "36"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @36 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "37"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @37 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "38"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @38 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "39"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @39 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "tables",
+      "WIF-STD__Accomm",
+      "values",
+      "40"
+     ],
+     "from": 1800.0,
+     "to": 1500.0,
+     "label": "Tokyo - Kyoto - Osaka › Table WIF-STD · Accomm › @40 pax"
+    }
+   ]
   }
  ]
 }

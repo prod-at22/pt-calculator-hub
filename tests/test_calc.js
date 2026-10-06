@@ -101,11 +101,14 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
         ok(v, `${code} variant ${to} exists`);
         for (const [pax, t] of Object.entries(rows)) {
           const c = P.variantCost(d, v, +pax);
-          ok(c && near(c.total, t.total), `${code} ${to} pax ${pax}: total ${c && c.total} vs R&D ${t.total}`);
+          // accommodation moved off the R&D on purpose (RM300 → RM250/pax/night, 6 Oct 2026): check it against the new rate
+          const acc = c && c.comps.find(x => x.key === "accomm"), accRD = t.comps.accomm || 0;
+          const accNow = acc && /R\.apt/.test(acc.expr) ? 250 * d.nights * +pax : accRD;
+          ok(c && near(c.total, t.total + (accNow - accRD) / +pax), `${code} ${to} pax ${pax}: total ${c && c.total} vs R&D ${t.total} (accomm adjusted)`);
           for (const [k, val] of Object.entries(t.comps)) {
             const comp = c && c.comps.find(x => x.key === k);
             const got = comp ? comp.group : 0;
-            const exp = val || 0;   // HND CR columns are group totals
+            const exp = k === "accomm" ? accNow : (val || 0);   // HND CR columns are group totals
             ok(near(got, exp), `${code} ${to} pax ${pax} ${k}: ${got} vs ${exp}`);
           }
           checked++;
@@ -191,9 +194,12 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const h = byCode(D, "HND"), st = h.packages.find(p => p.id === "standard"), c = p => P.priceRow(h, st, "QAYYUM-STD", p).adult.cost;
     // (2 × ¥22,000 + ¥81,000 + 3 × ¥76,000) × FX ÷ pax + apartment RM300 × 4 + Iyashi ¥500 × FX (ProdReq rates, Qayyum FX 0.026)
-    const q = p => (353000 * 0.026) / p + 1200 + 500 * 0.029;   // Iyashi is a common rate on the WIF FX
+    const q = p => (353000 * 0.026) / p + 250 * 4 + 500 * 0.029;   // apartment RM250 × 4 nights; Iyashi is a common rate on the WIF FX
     ok([2, 4, 7].every(p => near(c(p), q(p), 0.01)), `Qayyum cost 2/4/7 pax at FX 0.026: ${c(2)} / ${c(4)} / ${c(7)}`);
   }
+
+  console.log("1h. Tokyo / Osaka accommodation RM250 per pax per night");
+  ok(byCode(D, "HND").rates.find(r => r.id === "apt").value === 250 && ["OSK", "KIX"].every(c => byCode(D, c).tables.filter(t => /__Accomm$/.test(t.id)).every(t => Object.values(t.values).every(v => v === (c === "OSK" ? 1000 : 1500)))), "HND apartment 250; OSK 4 × 250; KIX 6 × 250");
 
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
   {
@@ -414,7 +420,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const heads = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.children].map(t => t.textContent));
     ok(heads[0].some(h => h.startsWith("Airport Haneda")) && heads[0].includes("Cost/Pax") && heads[0].includes("Total Gross"), "header names: " + heads[0].join("|"));
     const hints = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.querySelectorAll(".hint")].map(x => x.textContent));
-    ok(hints[0].join("|") === "(¥22,000 × 2)|(¥81,000 + ¥76,000 × 3)|(¥500 × pax)|(RM300 × 4 nights × pax)", "Qayyum header hints: " + hints[0].join("|"));
+    ok(hints[0].join("|") === "(¥22,000 × 2)|(¥81,000 + ¥76,000 × 3)|(¥500 × pax)|(RM250 × 4 nights × pax)", "Qayyum header hints: " + hints[0].join("|"));
     ok(hints[1][0] === "(¥20,000 / ¥37,000 × 2)", "WIF block: airport hint lists only its band prices: " + hints[1][0]);
     ok(heads[0].indexOf("Catalog Price") === heads[0].indexOf("Selling Price") - 1, "Catalog Price sits right before 'Selling Price'");
     ok(!heads[0].some(h => h.startsWith("WIF service charge")) && heads[1].some(h => h.startsWith("WIF service charge")), "WIF-only columns blank in the Qayyum block");
