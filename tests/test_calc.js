@@ -183,6 +183,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour still on the R&D");
   }
 
+  console.log("1f. Turkey / Istanbul: no 4★ (not in the MyTrip CR or catalog)");
+  ok(["TUR", "ISTBUR", "ISTCAP"].every(c => !byCode(D, c).variants.some(v => /4\s*-?\s*STAR|4S$/i.test(v.id)) && !byCode(D, c).packages.some(p => /4/.test(p.id))), "TUR / ISTBUR / ISTCAP have only 3★ packages");
+
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
   {
     const j = byCode(D, "JBDO"), pk = j.packages[0];

@@ -22,6 +22,8 @@ How everything works: README.md. This file = where we stopped.
   SELJJU / JJU / JJUO also costed from ATK CR 2026 (tools/build_korea_cr.py); Jeju Self Tour still R&D.
   Since v16–17 all four use the CR in KRW (xlsx in contracts/) × FX 0.0030 (PO, 5 Oct).
 
+- Turkey / Istanbul 4★ removed (v18): ARBA estimate, not in MyTrip CR or catalog. SKIP_TO in tools/extract_rd.py keeps it out of re-imports.
+
 ## Waiting on the PO team (decisions)
 1. ~~Discount Tier 2~~ decided 5 Oct: Selling Price = Catalog, no −RM200 (engine ignores discountTier2).
 2. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).

@@ -83,6 +83,9 @@ def phuket_selectors(to):
 
 
 SELECTORS = {"PHU": phuket_selectors}
+# TOs left out of the calculator: Turkey / Istanbul 4★ is an ARBA estimate, not in the MyTrip CR or any catalog
+# (PO, 6 Oct 2026). Add them back here once MyTrip quotes 4★.
+SKIP_TO = {"TUR": {"MYTRIP STD 4STAR"}, "ISTBUR": {"MYTRIP-4S"}, "ISTCAP": {"MYTRIP-PT-4 STAR"}}
 NOTES_EXTRA = []
 
 num = lambda v: isinstance(v, (int, float)) and not isinstance(v, bool)
@@ -301,6 +304,8 @@ def build_dest(j, work, notes):
     variants, tables, packages, ok_all = [], [], [], True
     per = {}
     for to, rows in j["rows"].items():
+        if to in SKIP_TO.get(code, ()):
+            continue
         p = os.path.join(work, "per_out", os.path.basename(j["copies"][to]))
         if not os.path.exists(p):
             notes.append("%s %s: recalculation failed" % (code, to)); continue
