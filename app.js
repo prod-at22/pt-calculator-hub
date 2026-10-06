@@ -428,7 +428,7 @@ function rateHint(d, expr, pmin, pmax) {
       if (a > b) continue;
       out.push([x, b >= pmax && mx >= 999 && a !== b ? `${a}§` : a === b ? `${a}` : `${a}–${b}`]);
     }
-    return out.length === 1 ? out[0][0] : "[" + out.map(([x, r]) => `${x} {${r} pax}`).join(" / ") + "]";
+    return out.length === 1 ? out[0][0] : out.map(([x]) => x).join(" / ");   // bands in this block, prices only
   });
   e = e.replace(/R\.(\w+)/g, (m, id) => R[id] ? cur(R[id]) + (+R[id].value).toLocaleString("en-MY") : m)
     .replace(/\bN\b/g, `${n2(+d.nights)} nights`).replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
