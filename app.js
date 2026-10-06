@@ -414,7 +414,6 @@ const sellLabel = () => "Selling Price";
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
-  const src = pkg.pricing.source || {};
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
   const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
   const isAdult = k === "adult";
@@ -431,14 +430,14 @@ function costingByPax(d, pkg, pax) {
   const nonZero = pkgComponents(d, pkg).filter(c => blocks.some(bl => bl.rows.some(pr => pr.cost && pr.cost.comps.some(o => o.key === c.key && nz(o.group)))));
   // a single cost line (e.g. Seoul: the TO contract rate) is Cost/Pax itself — no breakdown column
   const comps = nonZero.length === 1 ? [] : nonZero;
-  const nCols = isAdult ? 1 + comps.length + 8 : 1 + 1 + 7;
+  const nCols = isAdult ? 1 + comps.length + 7 : 1 + 1 + 6;
   const body = blocks.map(bl => {
     const has = new Set(bl.v ? bl.v.components.map(c => c.key) : []);
     const toLbl = bl.v ? bl.v.label : "no TO";
     const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())}${toLbl.toUpperCase() === pkg.label.toUpperCase() ? "" : " / " + esc(toLbl)}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
       ? comps.map(c => `<th>${has.has(c.key) ? esc(c.label) : ""}</th>`).join("")
-      : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}<th>Source</th></tr>`;
+      : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}</tr>`;
     const rows = bl.rows.map((pr, i) => {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
@@ -448,8 +447,7 @@ function costingByPax(d, pkg, pax) {
         <td><b>${int(x.cost)}</b></td>
         <td class="cp"${up ? ` title="Includes upgrade +RM${n2(up)}"` : ""}>${ed([...DP, "packages", pkg.id, "pricing", k, String(p)], pkg.pricing[k][String(p)], { display: int(x.catalog) + (up ? '<span class="muted small"> *</span>' : "") })}</td>
         <td class="sp"><b>${int(x.selling)}</b></td><td class="mg ${marginClass(x.pct)}"><b>${int(x.margin)}</b></td><td class="mg ${marginClass(x.pct)}">${num(x.pct) ? Math.round(x.pct * 100) + "%" : "—"}</td>
-        ${isAdult ? `<td class="${marginClass(x.pct)}"><b>${int(x.margin * p)}</b></td>` : ""}
-        <td class="c">${(src[k] || {})[String(p)] === "catalog" ? '<span class="pill nav">catalog</span>' : '<span class="pill grey" title="Not printed in the catalog — from R&D Costing tab">R&amp;D</span>'}</td></tr>`;
+        ${isAdult ? `<td class="${marginClass(x.pct)}"><b>${int(x.margin * p)}</b></td>` : ""}</tr>`;
     }).join("");
     return title + head + rows;
   }).join("");

@@ -164,6 +164,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(s.variants.filter(v => v.id !== "ATK-ST").every(v => v.components.length === 1), "one cost line (not broken down)");
     const sp = await boot(repo, "sel/", "?pkg=atk-bsc");
     const sh = [...sp.doc.querySelectorAll("#costPax tr.blk-head th")].map(x => x.textContent);
+    ok(!sh.includes("Source"), "costing table has no Source column");
     ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,575", "Seoul costing: no breakdown column, Cost/Pax = 858,261 KRW × 0.0030");
     ok(near(r(b, "ATK-BSC", 2).cnb.cost, 858261 * 0.003 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
     ok(s.contracts.length === 3 && s.contracts.every(c => /ATK_CR_2026_Korea/.test(c.file) && fs.existsSync(path.join(ROOT, c.file))), "SEL TO Contract Rate = ATK CR 2026 (KRW xlsx + rates + terms) only");
