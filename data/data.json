@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 21,
- "updatedAt": "2026-10-06T06:55:37Z",
+ "version": 22,
+ "updatedAt": "2026-10-06T06:57:35Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -7425,6 +7425,16 @@
     "PT TOKYO STANDARD 5D4N 2026"
    ],
    "contracts": [
+    {
+     "id": "1a110009216",
+     "name": "Qayyum Tokyo rate sheet 2026 (ARBA internal).pdf",
+     "file": "contracts/hnd/1a110009216-Qayyum_Tokyo_rate_sheet_2026_ARBA.pdf",
+     "to": "Qayyum",
+     "note": "ARBA summary from ProdReq Jepun — not a Qayyum contract (Qayyum issues no CR). Rates as used in the calculator.",
+     "size": 6351,
+     "at": "2026-10-06T06:57:35Z",
+     "by": "product"
+    },
     {
      "id": "1a1075462cf",
      "name": "PT HND WIF TOKYO 5D4N JAN-DEC 2026.pdf",
