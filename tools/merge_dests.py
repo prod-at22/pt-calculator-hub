@@ -11,6 +11,8 @@ was already set on the page). The change is recorded as one new version.
 """
 import argparse, datetime, glob, json, os
 
+import apply_names
+
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 # Project PT sheet order
 ORDER = ["SEL", "SELJJU", "JJU", "JJUO", "TUR", "ISTBUR", "ISTCAP", "HND", "KIX", "OSK", "CTS", "DPS", "LOP", "JOG",
@@ -46,6 +48,7 @@ def main():
         if code in cats:
             d["catalogs"] = cats[code]
     data["destinations"] = sorted(cur.values(), key=lambda d: ORDER.index(d["code"]) if d["code"] in ORDER else 999)
+    apply_names.apply(data)   # package / operator display names (tools/names.json)
     now = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
     data.update(version=data["version"] + 1, updatedAt=now, updatedBy=a.by)
     # A re-import replaces whole destinations; older versions cannot be rebuilt cell by cell past it.

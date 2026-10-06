@@ -81,6 +81,10 @@ A re-import replaces whole destinations, so it is logged as one version marked
 
 ## Page layout (Product R&D)
 
+**Package** shows the package name only; **Tour operator** shows the operator only and lists just the
+operators of the selected package (auto-picked by pax). Both names come from `tools/names.json`
+(`tools/apply_names.py`); `merge_dests.py` re-applies them after every R&D import.
+
 Each destination page: header (destination, PO, last update, **locked FX chips**), package /
 tour operator (/ hotel, season) selectors, then tabs:
 

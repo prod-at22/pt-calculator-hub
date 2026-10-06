@@ -328,6 +328,8 @@ function fxChips(d) {
   return fx.map(f => `<span class="fx" title="Locked — from ${esc(f.source || "the R&D sheet")}. Change FX in the R&D sheet, then re-import."><span class="lock">🔒</span> ${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+f.value))}</b></span>`).join("");
 }
 const flagsFor = code => FLAGS.flags.filter(f => f.code === code || (f.code === "ALL" && new RegExp("\\b" + code + "\\b").test(f.detail)));
+// TOs offered for a package: the ones its pax bands assign, plus its extra choices (Krabi Day-3 options).
+const pkgVariants = (d, pkg) => { const ids = new Set([...pkg.assign.map(a => a.variant), ...(pkg.alsoVariants || [])]); return d.variants.filter(v => ids.has(v.id)); };
 function renderControls(d, pkg) {
   $("#controls").style.display = "";
   const pax = bandPax(), autoId = assignedVariantId(pkg, pax);
@@ -344,8 +346,8 @@ function renderControls(d, pkg) {
       ${(d.options || []).map(op => { const O = optsFor(d), c = op.choices.find(x => x.id === O[op.id]), up = c && c.upgrade ? +(c.upgrade[pkg.id] || 0) : 0;
         return `<label>${esc(op.label)}${up ? ` <span class="pill warn">catalog +RM${up}</span>` : ""}<select id="opt_${esc(op.id)}">${op.choices.map(ch => `<option value="${esc(ch.id)}"${ch.id === O[op.id] ? " selected" : ""}>${esc(ch.label)}</option>`).join("")}</select></label>`; }).join("")}
       <label>Tour operator<select id="selVar">
-        <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto by pax${autoId ? " (" + esc((d.variants.find(v => v.id === autoId) || {}).label || autoId) + " at " + pax + ")" : ""}</option>
-        ${d.variants.map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
+        <option value="auto"${SEL.variant === "auto" ? " selected" : ""}>Auto${autoId ? ": " + esc((d.variants.find(v => v.id === autoId) || {}).label || autoId) + " (" + pax + " pax)" : " by pax"}</option>
+        ${pkgVariants(d, pkg).map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
       </select></label>
     </div>
     <nav class="tabsbar">${TABS.map(([id, l]) => `<button class="tabm${SEL.tab === id ? " on" : ""}" data-tabmain="${id}">${l}${id === "flags" && fl.length ? ` <span class="pill ${nh ? "bad" : "warn"}">${fl.length}</span>` : ""}</button>`).join("")}</nav>`;

@@ -201,6 +201,17 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   console.log("1h. Tokyo / Osaka accommodation RM250 per pax per night");
   ok(byCode(D, "HND").rates.find(r => r.id === "apt").value === 250 && ["OSK", "KIX"].every(c => byCode(D, c).tables.filter(t => /__Accomm$/.test(t.id)).every(t => Object.values(t.values).every(v => v === (c === "OSK" ? 1000 : 1500)))), "HND apartment 250; OSK 4 × 250; KIX 6 × 250");
 
+  console.log("1i. Package = package name, TO = operator name (tools/names.json)");
+  {
+    const names = JSON.parse(fs.readFileSync(path.join(ROOT, "tools", "names.json"), "utf8"));
+    let n = 0;
+    for (const d of D.destinations) { const m = names[d.code]; if (!m) continue;
+      for (const p of d.packages) { ok(p.label === m.packages[p.id], `${d.code} package ${p.id} named "${p.label}"`); n++; }
+      for (const v of d.variants) { ok(v.label === m.variants[v.id], `${d.code} TO ${v.id} named "${v.label}"`); n++; } }
+    ok(n > 200, "names checked: " + n);
+    ok(!byCode(D, "TUR").packages.some(p => /mytrip/i.test(p.label)) && byCode(D, "TUR").variants.every(v => v.label === "MyTrip"), "Turki: no operator in package names; TO = MyTrip");
+  }
+
   console.log("1c. Jakarta - Bandung: new CTRANS rate (v5)");
   {
     const j = byCode(D, "JBDO"), pk = j.packages[0];
@@ -242,7 +253,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, rowAt(6)); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum") && rowAt(6).classList.contains("cur"), "click 6 pax row → Qayyum, row highlighted");
     click(w, rowAt(8)); await tick(5);
-    ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 pax → WIF-STD");
+    ok(doc.querySelector("#selVar").options[0].textContent === "Auto: WIF (8 pax)", "8 pax → WIF (Standard 8+)");
+    ok([...doc.querySelector("#selVar").options].map(o => o.value).join() === "auto,QAYYUM-STD,WIF-STD", "TO box lists only this package's operators");
+    ok(doc.querySelector("#selPkg").selectedOptions[0].textContent === "Tokyo Standard 5D4N", "Package box shows the package name");
     ok(rowAt(8).querySelector("td.sp").textContent.includes("3,697"), "8 pax selling 3,697 shown (catalog 3,897 − 200)");
     const sm = doc.querySelector(".summary").textContent;
     ok(!sm.includes("No TO cost") && !sm.includes("Catalog → Selling") && sm.includes("Margin range"), "summary has no 'No TO cost' / 'Catalog → Selling'");
@@ -416,7 +429,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, doc.querySelector('#costPax [data-tab="adult"]')); await tick(5);
     ok(doc.querySelector(".summary") && doc.querySelector(".summary").textContent.includes("Lowest margin"), "costing summary strip");
     const titles = [...doc.querySelectorAll("#costPax tr.blk-title")].map(t => t.textContent);
-    ok(titles.length === 2 && titles[0].includes("Qayyum") && titles[1].includes("WIF · Standard"), "one block per TO: " + titles.join(" | "));
+    ok(titles.length === 2 && titles[0].includes("Qayyum") && titles[1].includes("/ WIF"), "one block per TO: " + titles.join(" | "));
     const heads = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.children].map(t => t.textContent));
     ok(heads[0].some(h => h.startsWith("Airport Haneda")) && heads[0].includes("Cost/Pax") && heads[0].includes("Total Gross"), "header names: " + heads[0].join("|"));
     const hints = [...doc.querySelectorAll("#costPax tr.blk-head")].map(h => [...h.querySelectorAll(".hint")].map(x => x.textContent));
