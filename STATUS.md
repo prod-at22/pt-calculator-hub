@@ -6,7 +6,7 @@ How everything works: README.md. This file = where we stopped.
 ## Done
 - 37 destinations, 64 catalog packages on the hub (package name · PO · last update; no TO names).
 - Destination page tabs: Costing (default, R&D-style table: components · Cost/Pax · Catalog Price ·
-  Selling Price (= Catalog) · Margin · % · Total Gross) / TO Contract Rate / Add-ons / Flags / History.
+  Selling Price (Catalog − RM200) · Margin · % · Total Gross) / TO Contract Rate / Add-ons / Flags / History.
 - Trim (4 Oct): Quote and Rates & FX tabs removed; summary shows only margin range + lowest margin;
   margin green (+) / red (−); costing rows grey/white, one header colour. TO Contract Rate = upload
   TO contract files (needs login, so nothing uploaded until login is set up). No files there yet.
@@ -28,7 +28,7 @@ How everything works: README.md. This file = where we stopped.
   No Qayyum CR on file. Catalog JSON (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — 2 pax now negative margin.
 
 ## Waiting on the PO team (decisions)
-1. ~~Discount Tier 2~~ decided 5 Oct: Selling Price = Catalog, no −RM200 (engine ignores discountTier2).
+1. ~~Discount Tier 2~~ decided 6 Oct: Selling Price = Catalog − RM200 for every package (settings.sellingDiscount = 200).
 2. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).
 3. For each "R&D price ≠ catalog" flag, which side is right (Seoul-Jeju +300, Bangkok, Hokkaido +1,200
    hotel, Phuket, Semporna, Aceh-Sabang/KK/Danang child prices, JBDO).

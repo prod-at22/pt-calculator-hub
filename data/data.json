@@ -1,11 +1,12 @@
 {
  "schema": 1,
- "version": 19,
- "updatedAt": "2026-10-06T06:38:51Z",
+ "version": 20,
+ "updatedAt": "2026-10-06T06:43:08Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
-  "marginDangerPct": 0.05
+  "marginDangerPct": 0.05,
+  "sellingDiscount": 200
  },
  "destinations": [
   {

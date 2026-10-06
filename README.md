@@ -58,7 +58,8 @@ old → new value. Any old version can be viewed and restored.
   - every TO × pax × Adult/CWB/CNB row is re-computed the way the page does and must match the
     R&D; `tests/truth/<CODE>.json` keeps those R&D numbers and `tests/test_calc.js` checks the
     page against them.
-- Selling Price = catalog (+ tier upgrade). The R&D tier-2 discount is not applied (PO decision, 5 Oct 2026).
+- Selling Price = catalog (+ tier upgrade) − RM200 for every package (`settings.sellingDiscount`, PO 6 Oct 2026);
+  infant price has no discount. The R&D's own tier-2 discount field is not used.
 - Where the R&D has a catalog price but no cost (e.g. Seoul Self Tour 13–30 pax), the page
   shows the cost as missing instead of the R&D's RM0 / 100% margin.
 - Child rules: % of adult cost, adult cost − RM, or (Aceh, Aceh-Sabang, Beijing) % of Ground

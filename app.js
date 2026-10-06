@@ -98,7 +98,7 @@ function dedupe(out) {
 }
 function applyChanges(obj, changes, reverse = false) {
   const list = reverse ? [...changes].reverse() : changes;
-  for (const c of list) setPath(obj, c.path, clone(reverse ? c.from : c.to) ?? undefined);
+  for (const c of list) { const v = reverse ? c.from : c.to; setPath(obj, c.path, v == null ? undefined : clone(v)); }   // null / undefined = field absent
   return obj;
 }
 // Human label for a change path, resolved against a snapshot.
@@ -107,7 +107,7 @@ function describe(snap, path) {
   const LBL = { value: "", rates: "Rate", fx: "FX", tables: "Table", packages: "", variants: "TO", pricing: "", rules: "Rule",
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
     tierUpgrade: "Tier upgrade", cwbCost: "CWB cost", cnbCost: "CNB cost", infantCost: "Infant cost", type: "type",
-    components: "Component", expr: "formula", values: "", settings: "Settings", marginWarnPct: "Margin warn %", marginDangerPct: "Margin danger %",
+    components: "Component", expr: "formula", values: "", settings: "Settings", marginWarnPct: "Margin warn %", marginDangerPct: "Margin danger %", sellingDiscount: "Selling discount (RM)",
     destinations: "", nights: "Nights", po: "PO", assign: "TO assignment", contracts: "TO Contract Rate" };
   for (let i = 0; i < path.length; i++) {
     const seg = path[i], prev = path[i - 1];
@@ -182,16 +182,18 @@ function applyRule(rule, base, cost) {
 }
 const priceAt = (pkg, k, pax) => { const v = pkg.pricing[k]?.[String(pax)]; return v === undefined || v === null || v === "" ? NaN : +v; };
 // One row of the R&D Costing tab: cost / catalog / selling / margin for each pax type.
+const sellDisc = () => { const v = (shown().settings || {}).sellingDiscount; return v === undefined || v === null || v === "" ? 200 : +v; };
 function priceRow(d, pkg, variantId, pax, opts) {
   const v = d.variants.find(x => x.id === variantId);
   const O = optsFor(d, opts);
   const cost = variantCost(d, v, pax, O);
   const adultCost = cost ? cost.total : NaN, r = pkg.rules;
-  // Selling = Catalog Price (+ tier / option upgrade). The R&D tier-2 discount (rules.discountTier2) is not applied.
-  const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O);
-  const mk = (costV, catV, noUp) => {
-    const catalog = num(catV) ? catV + (noUp ? 0 : up) : NaN;
-    const selling = catalog;
+  // Selling = Catalog Price (+ tier / option upgrade) − RM200 for every package (settings.sellingDiscount);
+  // the infant flat price has no upgrade and no discount. The R&D's own rules.discountTier2 is not used.
+  const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O), disc = sellDisc();
+  const mk = (costV, catV, infant) => {
+    const catalog = num(catV) ? catV + (infant ? 0 : up) : NaN;
+    const selling = num(catalog) ? catalog - (infant ? 0 : disc) : NaN;
     const margin = selling - costV;
     return { cost: costV, catalog, selling, margin: num(margin) ? margin : NaN, pct: num(margin) && selling ? margin / selling : NaN };
   };
@@ -454,7 +456,7 @@ function costingByPax(d, pkg, pax) {
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
     <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price − RM${n2(sellDisc())}.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;
@@ -789,7 +791,7 @@ document.addEventListener("click", async e => {
   if (t.dataset.act === "restore") {
     const snap = VIEW.data, v = VIEW.v;
     DATA = clone(BASE);
-    for (const c of diff(stripMeta(BASE), stripMeta(snap))) setPath(DATA, c.path, clone(c.to));
+    for (const c of diff(stripMeta(BASE), stripMeta(snap))) setPath(DATA, c.path, c.to === undefined ? undefined : clone(c.to));   // undefined = field not in that version
     VIEW = null; EDIT = true; render(); openReview("Restore to v" + v); return;
   }
   if (t.dataset.view) { const v = +t.dataset.view; VIEW = { v, data: snapshotAt(v) }; EDIT = false; closeModal(); render(); window.scrollTo(0, 0); return; }

@@ -6950,6 +6950,23 @@
      "label": "Tokyo › TO QAYYUM-STD notes"
     }
    ]
+  },
+  {
+   "v": 20,
+   "at": "2026-10-06T06:43:08Z",
+   "by": "product",
+   "note": "Selling Price = Catalog − RM200 for every package",
+   "changes": [
+    {
+     "path": [
+      "settings",
+      "sellingDiscount"
+     ],
+     "to": 200,
+     "label": "Settings › Selling discount (RM)",
+     "from": null
+    }
+   ]
   }
  ]
 }

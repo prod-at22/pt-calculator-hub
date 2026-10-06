@@ -130,7 +130,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
           const pk = d.packages.find(p => p.id === { budget: "budget", std: "standard", hny: "honeymoon" }[cb.variant.split("-")[0]]);
           for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, , sell]] of Object.entries(cb.rows[k] || {})) {
             const r = P.priceRow(d, pk, cb.variant, +pax, cb.options)[k]; rows++;
-            ok(near(r.cost, c, 0.6) && near(r.selling, sell + (+pk.rules.discountTier2 || 0), 0.6), `KBV ${JSON.stringify(cb.options)} ${cb.variant} ${k} ${pax}: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+            ok(near(r.cost, c, 0.6) && near(r.selling, sell + (+pk.rules.discountTier2 || 0) - 200, 0.6), `KBV ${JSON.stringify(cb.options)} ${cb.variant} ${k} ${pax}: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
           }
         }
         continue;
@@ -145,8 +145,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
           rows++;
           // TOs not costed from the R&D tables (SEL Basic/Standard = ATK contract rate) no longer use the R&D cost
           const rateBuilt = !d.variants.find(v => v.id === a.variant).components.every(x => /T\['[^']*__/.test(x.expr));
-          const rdDisc = +pkg.rules.discountTier2 || 0;   // R&D selling = catalog − tier-2 discount; page selling = catalog
-          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && near(r.selling, sell + rdDisc, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+          const rdDisc = +pkg.rules.discountTier2 || 0;   // R&D selling = catalog − its tier-2 discount; page selling = catalog − RM200
+          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && near(r.selling, sell + rdDisc - 200, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
         }
       }
     }
@@ -208,14 +208,14 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const sel = D.destinations.find(x => x.code === "SEL"), b = sel.packages.find(p => p.id === "atk-bsc");
     const r = P.priceRow(sel, b, "ATK-BSC", 2);
-    ok(r.adult.catalog === 3497 && r.adult.selling === 3497, "Seoul Basic 2 pax adult catalog/selling 3497");
+    ok(r.adult.catalog === 3497 && r.adult.selling === 3297, "Seoul Basic 2 pax adult catalog 3497, selling 3297 (− RM200)");
     ok(near(r.cwb.cost, r.adult.cost * 0.75), "Seoul CWB cost = 75% adult (CR extra bed)");
     ok(near(r.cnb.cost, r.adult.cost * 0.5), "Seoul CNB cost = 50% adult");
     ok(r.infant.selling === 200 && r.infant.cost === 0, "Seoul infant RM200, cost 0");
-    ok(near(r.adult.margin, 3497 - r.adult.cost) && near(r.adult.pct, r.adult.margin / 3497), "Seoul margin & %");
+    ok(near(r.adult.margin, 3297 - r.adult.cost) && near(r.adult.pct, r.adult.margin / 3297), "Seoul margin & % on the selling price");
     const hnd = D.destinations.find(x => x.code === "HND"), s = hnd.packages.find(p => p.id === "standard");
     const r6 = P.priceRow(hnd, s, "QAYYUM-STD", 6), r8 = P.priceRow(hnd, s, "WIF-STD", 8);
-    ok(r6.adult.catalog === 3797 && r6.adult.selling === 3797, "Tokyo Std 6 pax catalog 3797 = selling (no tier-2 discount)");
+    ok(r6.adult.catalog === 3797 && r6.adult.selling === 3597, "Tokyo Std 6 pax catalog 3797, selling 3597 (− RM200)");
     ok(r8.adult.catalog === 3897, "Tokyo Std 8 pax catalog 3897");
     ok(near(r6.cnb.cost, r6.adult.cost - 1200), "Tokyo CNB cost = adult − 1200");
     ok(near(r6.cwb.cost, r6.adult.cost), "Tokyo CWB cost = 100% adult");
@@ -236,7 +236,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#selVar").options[0].textContent.includes("Qayyum") && rowAt(6).classList.contains("cur"), "click 6 pax row → Qayyum, row highlighted");
     click(w, rowAt(8)); await tick(5);
     ok(doc.querySelector("#selVar").options[0].textContent.includes("WIF · Standard"), "8 pax → WIF-STD");
-    ok(rowAt(8).querySelector("td.sp").textContent.includes("3,897"), "8 pax selling 3,897 shown (= catalog)");
+    ok(rowAt(8).querySelector("td.sp").textContent.includes("3,697"), "8 pax selling 3,697 shown (catalog 3,897 − 200)");
     const sm = doc.querySelector(".summary").textContent;
     ok(!sm.includes("No TO cost") && !sm.includes("Catalog → Selling") && sm.includes("Margin range"), "summary has no 'No TO cost' / 'Catalog → Selling'");
     const rws = [...doc.querySelectorAll("#costPax tr[data-pax]")];
@@ -323,7 +323,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, doc.querySelector('[data-act="restore"]')); await tick(5);
     ok(doc.querySelector("#saveNote").value === `Restore to v${VV}`, "restore pre-fills note");
     click(w, doc.querySelector("#doSave"));
-    ok(await until(() => P.BASE.version === V0 + 2), "restore saved as V0+2");
+    ok(await until(() => P.BASE.version === V0 + 2), "restore saved as V0+2 " + (doc.querySelector(".err-t") || {}).textContent);
     ok(HND().packages[0].pricing.adult["2"] === before, "catalog back to V0");
   }
 
@@ -422,7 +422,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
       const sum = td.slice(1, 1 + nComp).reduce((a, x) => a + n(x), 0);
       const catEl = tr.children[2 + nComp], catIn = catEl.querySelector("input");
       const cost = n(td[1 + nComp]), cat = catIn ? +catIn.value : n(td[2 + nComp]), sell = n(td[3 + nComp]), m = n(td[4 + nComp]), gross = n(td[6 + nComp]);
-      ok(Math.abs(cat - sell) <= 1, `pax ${p}: catalog ${cat} = selling ${sell}`);
+      ok(Math.abs(cat - 200 - sell) <= 1, `pax ${p}: catalog ${cat} − 200 = selling ${sell}`);
       ok(Math.abs(sum / p - cost) <= 0.5 + nComp * 0.5 / p, `pax ${p}: ${sum}/${p} ≈ ${cost}`);
       ok(Math.abs(cost + m - sell) <= 1, `pax ${p}: ${cost} + ${m} = ${sell}`);
       ok(Math.abs(m * p - gross) <= p, `pax ${p}: ${m} × ${p} ≈ ${gross}`);
@@ -479,7 +479,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/", "#quote");   // old #quote link falls back to Costing
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
-    ok(sj.doc.querySelector(".tabm.on").dataset.tabmain === "costing" && sj.doc.querySelector('#costPax tr[data-pax="2"] td.sp').textContent.includes("5,897"), "Seoul-Jeju 2 pax selling 5,897 (R&D); #quote opens Costing");
+    ok(sj.doc.querySelector(".tabm.on").dataset.tabmain === "costing" && sj.doc.querySelector('#costPax tr[data-pax="2"] td.sp').textContent.includes("5,697"), "Seoul-Jeju 2 pax selling 5,697 (catalog 5,897 − 200); #quote opens Costing");
     const kb = await boot(repo, "kbv/", "?pkg=standard#quote");
     const hotelSel = kb.doc.querySelector("#opt_hotel");
     ok(hotelSel && hotelSel.options.length === byCode(P.DATA, "KBV").options[0].choices.length, "Krabi has a hotel selector");
