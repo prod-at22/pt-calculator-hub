@@ -176,5 +176,5 @@ table.rd tr.alt td,table.zebra tbody tr:nth-child(even) td{background:#eef0f3}
 .upl input,.upl select{border:1px solid var(--line);border-radius:7px;padding:6px 8px;background:#fff;min-width:0}
 table.rd tr.cur td{background:var(--navy-soft)}
 table.rd tr[data-pax] td,table.rd tr.blk-head th{text-align:center}
-table.rd td .calc{display:block;font-size:11px;line-height:1.3;color:var(--muted);white-space:normal;min-width:120px}
+table.rd td .calc{font:inherit;color:inherit;white-space:nowrap}
 .tab.calcbtn{margin-right:8px}

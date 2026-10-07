@@ -434,7 +434,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(heads[0].some(h => h.startsWith("Airport Haneda")) && heads[0].includes("Cost/Pax") && heads[0].includes("Total Gross"), "header names: " + heads[0].join("|"));
     ok(!doc.querySelector("#costPax .hint") && !doc.querySelector("#costPax .calc"), "no rate formulas until Show calculation is on");
     click(w, doc.querySelector('#costPax [data-calc]')); await tick(5);
-    const calcRow = tr => [...tr.querySelectorAll(".calc")].map(x => x.textContent);
+    const calcRow = tr => [...tr.querySelectorAll(".calc")].map(x => x.textContent.replace(/ = [\d,]+$/, ""));
     const rows = [...doc.querySelectorAll("#costPax tr[data-pax]")], q2 = rows.find(r => r.dataset.pax === "2");
     ok(calcRow(q2).join("|") === "¥22,000 × 2 × 0.026|(¥81,000 + ¥76,000 × 3) × 0.026|¥500 × 2 pax × 0.029|RM250 × 4 × 2 pax", "Qayyum 2 pax calculation: " + calcRow(q2).join("|"));
     ok(q2.children[1].textContent.endsWith("= 1,144"), "airport cell = formula = RM1,144: " + q2.children[1].textContent);

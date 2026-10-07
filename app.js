@@ -473,7 +473,7 @@ function costingByPax(d, pkg, pax) {
       const cells = isAdult
         ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); if (cc && num(cc.group) && !nz(cc.group)) return "<td></td>";
           const vc = calc && bl.v.components.find(o => o.key === c.key), f = vc ? calcText(d, vc.expr, p) : "";
-          return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${f ? `<span class="calc">${esc(f)}</span>= ` : ""}${int(cc && cc.group)}</td>`; }).join("")
+          return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${f ? `<span class="calc">${esc(f)} = ${int(cc && cc.group)}</span>` : int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
       return `<tr class="click${i % 2 ? " alt" : ""}${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
         <td><b>${int(x.cost)}</b></td>
