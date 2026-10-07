@@ -20,7 +20,7 @@ let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
 const TABS = [["costing", "Costing"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
@@ -415,34 +415,38 @@ function pkgComponents(d, pkg) {
 // GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
 // "Selling (Catalog − RM200)" — selling is the catalog price minus the R&D tier-2 discount
 const sellLabel = () => "Selling Price";
-// Header hint for a rate-built component: its formula with the actual rates, e.g. 2*R.hndQ → "¥22,000 × 2".
-// band(pax, …) keeps only the bands inside this TO block's pax range. Table-based components (T[…]) get none.
+// "Show calculation": a rate-built component's formula at this pax with the actual rates, e.g.
+// 2*R.hndQ at Qayyum FX → "¥22,000 × 2 × 0.026". band(pax, …) is resolved to the band used at this pax.
+// Table-based components (T[…]) and plain RM lines get none.
 const CUR = { JPY: "¥", KRW: "₩", USD: "US$", EUR: "€" };
-function rateHint(d, expr, pmin, pmax) {
+function calcText(d, expr, pax) {
   if (!/\bR\.\w/.test(expr) || /\bT\[/.test(expr)) return "";
   const R = Object.fromEntries(d.rates.map(r => [r.id, r]));
-  const cur = r => { if (r.fx === "MYR") return "RM"; const f = d.fx.find(x => x.id === r.fx), m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f ? f.label : ""); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
+  const fxOf = r => r.fx === "MYR" ? null : d.fx.find(x => x.id === r.fx);
+  const cur = r => { const f = fxOf(r); if (!f) return "RM"; const m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f.label); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
   let e = expr.replace(/band\(pax,((?:\[[^\]]+\],?)+)\)/g, (_, pairs) => {
-    const ps = [...pairs.matchAll(/\[(\d+),([^\]]+)\]/g)].map(m => [+m[1], m[2]]), out = [];
-    let lo = 1;
-    for (const [mx, x] of ps) {
-      const a = Math.max(lo, pmin), b = Math.min(mx, pmax); lo = mx + 1;
-      if (a > b) continue;
-      out.push([x, b >= pmax && mx >= 999 && a !== b ? `${a}§` : a === b ? `${a}` : `${a}–${b}`]);
-    }
-    return out.length === 1 ? out[0][0] : out.map(([x]) => x).join(" / ");   // bands in this block, prices only
+    for (const m of pairs.matchAll(/\[(\d+),([^\]]+)\]/g)) if (pax <= +m[1]) return /[+*]/.test(m[2]) ? `(${m[2]})` : m[2];
+    return "NaN";
   });
-  e = e.replace(/R\.(\w+)/g, (m, id) => R[id] ? cur(R[id]) + (+R[id].value).toLocaleString("en-MY") : m)
-    .replace(/\bN\b/g, `${n2(+d.nights)} nights`).replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
-    .replace(/^(\d+) × (.+)$/, "$2 × $1").replace(/\{([^}]+)\}/g, "($1)").replace(/§/g, "+");
+  const ids = [...new Set([...e.matchAll(/R\.(\w+)/g)].map(m => m[1]))].filter(id => R[id]);
+  const fxs = [...new Set(ids.map(id => (fxOf(R[id]) || { id: "MYR" }).id))];
+  const one = fxs.length === 1 ? fxOf(R[ids[0]]) : null;   // one foreign FX → multiply once at the end
+  const fmt = v => (+v).toLocaleString("en-MY", { maximumFractionDigits: 6 });
+  e = e.replace(/R\.(\w+)/g, (m, id) => { const r = R[id]; if (!r) return m; const f = fxOf(r), t = cur(r) + fmt(r.value);
+      return f && !one && fxs.length > 1 ? `{${t}*${fmt(f.value)}}` : t; })
+    .replace(/\bN\b/g, fmt(+d.nights)).replace(/\bpax\b/g, `${pax} pax`)
+    .replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
+    .replace(/^(\d+) × (.+)$/, "$2 × $1").replace(/\{([^}]+)\}/g, "($1)");
+  if (one) e = (/ \+ /.test(e.replace(/\([^()]*\)/g, "")) ? `(${e})` : e) + ` × ${fmt(one.value)}`;
   return e;
 }
+const hasCalc = (d, pkg) => pkg.assign.some(a => { const v = d.variants.find(x => x.id === a.variant); return v && v.components.some(c => calcText(d, c.expr, 2)); });
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
   const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
-  const isAdult = k === "adult";
+  const isAdult = k === "adult", canCalc = isAdult && hasCalc(d, pkg), calc = canCalc && SEL.showCalc;
   const up = (+pkg.rules.tierUpgrade || 0) + optionUpgrade(d, pkg, optsFor(d));
   // consecutive pax rows with the same TO form one block
   const blocks = [];
@@ -462,13 +466,14 @@ function costingByPax(d, pkg, pax) {
     const toLbl = bl.v ? bl.v.label : "no TO";
     const title = `<tr class="blk-title"><td colspan="${nCols}">${esc(pkg.label.toUpperCase())}${toLbl.toUpperCase() === pkg.label.toUpperCase() ? "" : " / " + esc(toLbl)}${isAdult ? "" : ` <span class="muted">· ${k.toUpperCase()} cost = ${esc(ruleTxt(pkg.rules[k + "Cost"]))}</span>`}</td></tr>`;
     const head = `<tr class="blk-head"><th>${isAdult ? "Adult" : k.toUpperCase() + " · pax"}</th>${isAdult
-      ? comps.map(c => { const vc = bl.v && bl.v.components.find(o => o.key === c.key), hint = vc ? rateHint(d, vc.expr, bl.rows[0].pax, bl.rows[bl.rows.length - 1].pax) : "";
-          return `<th>${vc ? esc(vc.label) + (hint ? `<span class="hint">(${esc(hint)})</span>` : "") : ""}</th>`; }).join("")
+      ? comps.map(c => { const vc = bl.v && bl.v.components.find(o => o.key === c.key); return `<th>${vc ? esc(vc.label) : ""}</th>`; }).join("")
       : `<th>Adult cost/pax</th>`}<th>Cost/Pax</th><th class="cp">Catalog Price</th><th class="sp">${esc(sellLabel(pkg))}</th><th class="mg">Margin</th><th class="mg">%</th>${isAdult ? `<th>Total Gross</th>` : ""}</tr>`;
     const rows = bl.rows.map((pr, i) => {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
-        ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); return cc && num(cc.group) && !nz(cc.group) ? "<td></td>" : `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${int(cc && cc.group)}</td>`; }).join("")
+        ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); if (cc && num(cc.group) && !nz(cc.group)) return "<td></td>";
+          const vc = calc && bl.v.components.find(o => o.key === c.key), f = vc ? calcText(d, vc.expr, p) : "";
+          return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${f ? `<span class="calc">${esc(f)}</span>= ` : ""}${int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
       return `<tr class="click${i % 2 ? " alt" : ""}${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
         <td><b>${int(x.cost)}</b></td>
@@ -479,9 +484,9 @@ function costingByPax(d, pkg, pax) {
     return title + head + rows;
   }).join("");
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
-    <span class="right tabs">${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
+    <span class="right tabs">${canCalc ? `<button class="tab calcbtn${calc ? " on" : ""}" data-calc="1" title="Show how each component is calculated from the TO rates">Show calculation</button>` : ""}${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price − RM${n2(sellDisc())}.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} Hover a component for exact RM. Click a row to highlight it.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price − RM${n2(sellDisc())}.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} ${canCalc ? (calc ? "Each component shows its rates × FX at that pax. " : "Show calculation shows each component as rates × FX. ") : ""}Hover a component for exact RM. Click a row to highlight it.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;
@@ -820,6 +825,7 @@ document.addEventListener("click", async e => {
     VIEW = null; EDIT = true; render(); openReview("Restore to v" + v); return;
   }
   if (t.dataset.view) { const v = +t.dataset.view; VIEW = { v, data: snapshotAt(v) }; EDIT = false; closeModal(); render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.calc) { SEL.showCalc = !SEL.showCalc; return render(); }
   if (t.dataset.tab) { SEL.paxTab = t.dataset.tab; return render(); }
   if (t.dataset.tabmain) { SEL.tab = t.dataset.tabmain; history.replaceState(null, "", "#" + SEL.tab); return render(); }
   if (t.dataset.sev) { SEL.flagSev[t.dataset.sev] = !SEL.flagSev[t.dataset.sev]; return render(); }
