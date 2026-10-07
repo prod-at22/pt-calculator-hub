@@ -109,6 +109,7 @@ the Canva PDF), the R&D sheet and the calculator, with a suggested fix; filter b
 area and PO. Regenerate after any import:
 
 ```bash
+python3 tools/extract_fx.py --work /tmp/ptx --from-data   # FX as locked in data.json (no R&D re-import)
 node tools/margins.js > /tmp/ptx/margins.json
 python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.json
 ```

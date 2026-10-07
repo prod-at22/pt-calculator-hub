@@ -1,4 +1,4 @@
-# Status & handoff (7 Oct 2026, data v25)
+# Status & handoff (7 Oct 2026, data v25, flags regenerated)
 
 Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
@@ -49,7 +49,9 @@ Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO` (+ add **OSK KIX** or update th
 4. Confirm guessed package names: Lake Toba Emiya = Parapat, Baim = Samosir; Perhentian Basic = Shari-La, Standard = Mimpi.
 5. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).
 6. "R&D price ≠ catalog" flags: which side is right (Bangkok, Hokkaido +1,200 hotel, Phuket, Semporna, child prices…).
-   /flags/ was not regenerated after the Korea / Tokyo / naming changes.
+   /flags/ regenerated 7 Oct on data v25 (95 flags: 29 high · 37 medium · 29 low). New since v6: KK margin
+   problems in 11 lines and Perhentian Shari-La under 10% / CWB below cost (both from Selling = Catalog − RM200),
+   Seoul-Jeju 2 pax 6.8% and Jeju-Udo 3.8% margin, Korea 26–30 pax no cost, Qayyum FX 0.026 (HND) vs 0.0259 (KIX).
 7. No R&D yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
 8. Login: admin must create a fine-grained token and do First-time setup on the live page (cannot be done for them).
 9. Uploaded only files named PT from the Drive "Production Team" folder; unlabelled CRs (Perhentian resorts,
@@ -65,7 +67,7 @@ Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO` (+ add **OSK KIX** or update th
 ## Rebuild / check
 ```bash
 python3 tools/extract_rd.py --work /tmp/ptx && python3 tools/extract_krabi.py --work /tmp/ptx
-python3 tools/extract_fx.py --work /tmp/ptx
+python3 tools/extract_fx.py --work /tmp/ptx      # or --from-data: FX locked in data.json, no R&D re-import needed
 python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL SELJJU JJU JJUO OSK KIX --by <you> --note "<why>"
 python3 tools/build_sel.py && python3 tools/build_korea_cr.py      # only when the ATK CR xlsx changes
 python3 tools/make_pages.py

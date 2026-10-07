@@ -49,8 +49,34 @@ def scan(path):
     return uniq
 
 
+def from_data():
+    """The locked FX already in data.json (incl. PO overrides such as Qayyum 0.026), one entry per
+    supplier, so crosscheck.py can run without re-importing the R&D."""
+    d = json.load(open(os.path.join(os.path.dirname(__file__), "..", "data", "data.json")))
+    res = {}
+    for dest in d["destinations"]:
+        out = []
+        for f in dest.get("fx", []):
+            cur = next((k for k, rx in CUR if re.search(rx, f["label"], re.I)), None)
+            if not cur or f["id"] == "MYR":
+                continue
+            for sup in dict.fromkeys(re.findall(SUPPLIERS, f["label"].upper())) or [""]:
+                out.append({"id": f["id"], "currency": cur, "supplier": sup, "value": f["value"],
+                            "label": f["label"], "source": f.get("source", "")})
+        res[dest["code"]] = out
+    return res
+
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--work", required=True); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--work", required=True)
+    ap.add_argument("--from-data", action="store_true", help="read the locked FX in data/data.json instead of the R&D")
+    a = ap.parse_args()
+    if a.from_data:
+        res = from_data()
+        json.dump(res, open(os.path.join(a.work, "fx.json"), "w"), indent=1, ensure_ascii=False)
+        for k, v in res.items():
+            print("%-8s %s" % (k, ", ".join("%s=%s" % (f["label"], f["value"]) for f in v) or "MYR direct"))
+        return
     res = {}
     for p in sorted(glob.glob(os.path.join(a.work, "base_out", "*.xlsx"))):
         res[os.path.basename(p)[:-5]] = scan(p)

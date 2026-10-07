@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-04T16:55:51+08:00",
- "dataVersion": 6,
+ "generatedAt": "2026-10-07T12:10:45+08:00",
+ "dataVersion": 25,
  "flags": [
   {
    "code": "ACEHSBG",
@@ -18,7 +18,7 @@
    "severity": "high",
    "area": "Margin",
    "title": "Bangkok: margin problems in 3 package/TO lines",
-   "detail": "Chiwanon + Almas (3-Star) — adult margin under 10% Pax 2 (lowest 10.0%) · Chiwanon + Nouvo/Zayn (4-Star) — adult margin under 10% Pax 2, 26, 28–30 (lowest 6.8%) · Chiwanon + Nouvo/Zayn (4-Star) — CWB selling below cost Pax 28–30.",
+   "detail": "Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 2 (lowest 10.0%) · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — adult margin under 10% Pax 2, 26, 28–30 (lowest 6.8%) · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — CWB selling below cost Pax 28–30.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
    "id": 2
   },
@@ -48,7 +48,7 @@
    "severity": "high",
    "area": "Margin",
    "title": "Danang - Hoi An: margin problems in 1 package/TO line",
-   "detail": "BISMILLAH 4D3N — CNB selling below cost Pax 26–30.",
+   "detail": "Danang - Hoi An 4D3N · 4★ — CNB selling below cost Pax 26–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price.",
    "id": 5
   },
@@ -88,16 +88,16 @@
    "severity": "high",
    "area": "Margin",
    "title": "Istanbul - Cappadocia: margin problems in 2 package/TO lines",
-   "detail": "MYTRIP/ARBATO-ST — adult margin under 10% Pax 2–4, 7–8 (lowest 7.8%) · MYTRIP/ARBATO-ST — CNB selling below cost Pax 2, 4–5, 7–11.",
+   "detail": "Istanbul - Cappadocia Self Tour 6D5N — adult margin under 10% Pax 2–4, 7–8 (lowest 7.8%) · Istanbul - Cappadocia Self Tour 6D5N — CNB selling below cost Pax 2, 4–5, 7–11.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Review the price for these pax or the TO rate.",
    "id": 9
   },
   {
    "code": "JBDO",
-   "package": "CTRANS",
+   "package": "Jakarta - Bandung 4D3N",
    "severity": "high",
    "area": "Cost",
-   "title": "Jakarta - Bandung · CTRANS: price but no cost",
+   "title": "Jakarta - Bandung · Jakarta - Bandung 4D3N: price but no cost",
    "detail": "Pax 11–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
    "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
    "id": 10
@@ -127,9 +127,9 @@
    "package": null,
    "severity": "high",
    "area": "Margin",
-   "title": "KK Kundasang: margin problems in 3 package/TO lines",
-   "detail": "Bahrun-3D-GH — CWB selling below cost Pax 2 · Bahrun-4D-Hotel — CWB selling below cost Pax 2 · Bahrun-4D-GH — CWB selling below cost Pax 2.",
-   "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price.",
+   "title": "KK Kundasang: margin problems in 11 package/TO lines",
+   "detail": "KK Kundasang Basic 3D2N · Hotel — adult margin under 10% Pax 7–30 (lowest 3.8%) · KK Kundasang Basic 3D2N · Hotel — CWB selling below cost Pax 2 · KK Kundasang Basic 3D2N · Hotel — CNB selling below cost Pax 2–15 · KK Kundasang Basic 3D2N · Guesthouse — adult margin under 10% Pax 8–30 (lowest 3.8%) · KK Kundasang Basic 3D2N · Guesthouse — CWB selling below cost Pax 2–7 · KK Kundasang Basic 3D2N · Guesthouse — CNB selling below cost Pax 2–5 · KK Kundasang Standard 4D3N · Hotel — CWB selling below cost Pax 2–7 · KK Kundasang Standard 4D3N · Hotel — CNB selling below cost Pax 2–3 · KK Kundasang Standard 4D3N · Guesthouse — adult margin under 10% Pax 16–30 (lowest 7.1%) · KK Kundasang Standard 4D3N · Guesthouse — CWB selling below cost Pax 2–5 · KK Kundasang Standard 4D3N · Guesthouse — CNB selling below cost Pax 2–3.",
+   "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
    "id": 13
   },
   {
@@ -188,9 +188,19 @@
    "severity": "high",
    "area": "Margin",
    "title": "Beijing: margin problems in 2 package/TO lines",
-   "detail": "TOURDECHINA — adult margin under 10% Pax 2–3 (lowest 1.3%) · TOURDECHINA — CWB selling below cost Pax 2–3.",
+   "detail": "Beijing Standard 5D4N — adult margin under 10% Pax 2–3 (lowest 1.3%) · Beijing Standard 5D4N — CWB selling below cost Pax 2–3.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
    "id": 19
+  },
+  {
+   "code": "PHT",
+   "package": null,
+   "severity": "high",
+   "area": "Margin",
+   "title": "Perhentian: margin problems in 2 package/TO lines",
+   "detail": "Perhentian Basic 3D2N · Shari-La Resort — adult margin under 10% Pax 26–30 (lowest 3.2%) · Perhentian Basic 3D2N · Shari-La Resort — CWB selling below cost Pax 21–30.",
+   "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
+   "id": 20
   },
   {
    "code": "PHU",
@@ -198,9 +208,9 @@
    "severity": "high",
    "area": "Margin",
    "title": "Phuket: margin problems in 15 package/TO lines",
-   "detail": "KTT-Ibis Standard LowSeason — selling below cost Negative adult margin at pax 26–30 (worst -2%) · KTT-Ibis Standard LowSeason — adult margin under 10% Pax 16–25 (lowest 3.3%) · KTT-Ibis Standard HighSeason JanApr — adult margin under 10% Pax 16–30 (lowest 1.2%) · KTT-Marina Standard HighSeason JanApr — adult margin under 10% Pax 21–30 (lowest 4.8%) · KTT-Ibis Standard HighSeason NovDec — adult margin under 10% Pax 21–30 (lowest 5.0%) · KTT-Marina Standard HighSeason NovDec — adult margin under 10% Pax 26–30 (lowest 7.9%) · KTT-Ibis Budget Phi Phi LowSeason — selling below cost Negative adult margin at pax 16–30 (worst -8%) · KTT-Ibis Budget Phi Phi LowSeason — adult margin under 10% Pax 5–15 (lowest 0.6%) · KTT-Ibis Budget Phi Phi LowSeason — CWB selling below cost Pax 16–30 · KTT-Ibis Budget Phi Phi LowSeason — CNB selling below cost Pax 21–30 · KTT-Marina Budget Phi Phi LowSeason — adult margin under 10% Pax 21–30 (lowest 7.6%) · KTT-Ibis Budget James Bond LowSeason — selling below cost Negative adult margin at pax 21–30 (worst -5%) · KTT-Ibis Budget James Bond LowSeason — adult margin under 10% Pax 5–20 (lowest 1.2%) · KTT-Ibis Budget James Bond LowSeason — CWB selling below cost Pax 21–30 · KTT-Ibis Budget James Bond LowSeason — CNB selling below cost Pax 21–30.",
+   "detail": "Phuket Standard 4D3N · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 26–30 (worst -2%) · Phuket Standard 4D3N · Ibis 3★ · Low Season — adult margin under 10% Pax 16–25 (lowest 3.3%) · Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr — adult margin under 10% Pax 16–30 (lowest 1.2%) · Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr — adult margin under 10% Pax 21–30 (lowest 4.8%) · Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec — adult margin under 10% Pax 21–30 (lowest 5.0%) · Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec — adult margin under 10% Pax 26–30 (lowest 7.9%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 16–30 (worst -8%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — adult margin under 10% Pax 5–15 (lowest 0.6%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CWB selling below cost Pax 16–30 · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30 · Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season — adult margin under 10% Pax 21–30 (lowest 7.6%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 21–30 (worst -5%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — adult margin under 10% Pax 5–20 (lowest 1.2%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CWB selling below cost Pax 21–30 · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Raise the price for those pax or renegotiate the TO rate. Review the price for these pax or the TO rate.",
-   "id": 20
+   "id": 21
   },
   {
    "code": "PHU",
@@ -210,7 +220,7 @@
    "title": "PAKEJ PHUKET BASIC 4D3N: R&D price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,397 vs R&D RM1,197 (gap +200, +300) · CWB pax 2–10 — e.g. 2 pax catalog RM1,197 vs R&D RM997 (gap +200, +300) · CNB pax 2–10 — e.g. 2 pax catalog RM997 vs R&D RM797 (gap +200, +300).",
    "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
-   "id": 21
+   "id": 22
   },
   {
    "code": "PHU",
@@ -220,7 +230,7 @@
    "title": "PAKEJ PHUKET STANDARD 4D3N: R&D price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,797 vs R&D RM1,597 (gap +200, +400) · CWB pax 2–10 — e.g. 2 pax catalog RM1,597 vs R&D RM1,397 (gap +200, +400) · CNB pax 2–10 — e.g. 2 pax catalog RM1,397 vs R&D RM1,197 (gap +200, +400).",
    "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
-   "id": 22
+   "id": 23
   },
   {
    "code": "PQC",
@@ -228,19 +238,19 @@
    "severity": "high",
    "area": "Margin",
    "title": "Phu Quoc: margin problems in 4 package/TO lines",
-   "detail": "IBRAHIM 4D3N — adult margin under 10% Pax 2, 4–5, 26–30 (lowest 1.8%) · IBRAHIM 4D3N — CWB selling below cost Pax 2, 5, 21–30 · IBRAHIM 4D3N — CNB selling below cost Pax 26–30 · IBRAHIM 5D4N — CWB selling below cost Pax 26–30.",
+   "detail": "Phu Quoc 4D3N — adult margin under 10% Pax 2, 4–5, 26–30 (lowest 1.8%) · Phu Quoc 4D3N — CWB selling below cost Pax 2, 5, 21–30 · Phu Quoc 4D3N — CNB selling below cost Pax 26–30 · Phu Quoc 5D4N — CWB selling below cost Pax 26–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 23
+   "id": 24
   },
   {
    "code": "SEL",
-   "package": "ATK-ST",
+   "package": "Seoul Self Tour 5D4N",
    "severity": "high",
    "area": "Cost",
-   "title": "Seoul · ATK-ST: price but no cost",
+   "title": "Seoul · Seoul Self Tour 5D4N: price but no cost",
    "detail": "Pax 13–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
    "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
-   "id": 24
+   "id": 25
   },
   {
    "code": "SELJJU",
@@ -250,27 +260,27 @@
    "title": "PT SEOUL - JEJU STANDARD 6D5N: R&D price ≠ catalog",
    "detail": "ADULT pax 2–15 — e.g. 2 pax catalog RM6,197 vs R&D RM5,897 (gap +300) · CWB pax 2–15 — e.g. 2 pax catalog RM5,997 vs R&D RM5,697 (gap +300) · CNB pax 2–15 — e.g. 2 pax catalog RM5,797 vs R&D RM5,497 (gap +300).",
    "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
-   "id": 25
-  },
-  {
-   "code": "SEM",
-   "package": "PT SEMPORNA BASIC 3D2N",
-   "severity": "high",
-   "area": "Price",
-   "title": "PT SEMPORNA BASIC 3D2N: R&D price ≠ catalog",
-   "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,397 vs R&D RM1,537 (gap -140) · CWB pax 2–10 — e.g. 2 pax catalog RM1,197 vs R&D RM1,097 (gap +100) · CNB pax 2–10 — e.g. 2 pax catalog RM997 vs R&D RM917 (gap +80).",
-   "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
    "id": 26
   },
   {
    "code": "SEM",
-   "package": "PT SEMPORNA STANDARD 4D3N",
+   "package": "PAKEJ SEMPORNA BASIC 3D2N",
    "severity": "high",
    "area": "Price",
-   "title": "PT SEMPORNA STANDARD 4D3N: R&D price ≠ catalog",
-   "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,597 vs R&D RM1,757 (gap -160) · CWB pax 2–10 — e.g. 2 pax catalog RM1,457 vs R&D RM1,297 (gap +160) · CNB pax 2–10 — e.g. 2 pax catalog RM1,357 vs R&D RM967 (gap +390).",
+   "title": "PAKEJ SEMPORNA BASIC 3D2N: R&D price ≠ catalog",
+   "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,397 vs R&D RM1,537 (gap -140) · CWB pax 2–10 — e.g. 2 pax catalog RM1,197 vs R&D RM1,097 (gap +100) · CNB pax 2–10 — e.g. 2 pax catalog RM997 vs R&D RM917 (gap +80).",
    "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
    "id": 27
+  },
+  {
+   "code": "SEM",
+   "package": "PAKEJ SEMPORNA STANDARD 4D3N",
+   "severity": "high",
+   "area": "Price",
+   "title": "PAKEJ SEMPORNA STANDARD 4D3N: R&D price ≠ catalog",
+   "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,597 vs R&D RM1,757 (gap -160) · CWB pax 2–10 — e.g. 2 pax catalog RM1,457 vs R&D RM1,297 (gap +160) · CNB pax 2–10 — e.g. 2 pax catalog RM1,357 vs R&D RM967 (gap +390).",
+   "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
+   "id": 28
   },
   {
    "code": "SUBB",
@@ -278,29 +288,9 @@
    "severity": "high",
    "area": "Margin",
    "title": "Surabaya - Bromo - Malang: margin problems in 2 package/TO lines",
-   "detail": "Pak Jamal S-B-M — CWB selling below cost Pax 2 · Pak Jamal S-B-M — CNB selling below cost Pax 2.",
+   "detail": "Surabaya - Bromo - Malang 4D3N — CWB selling below cost Pax 2 · Surabaya - Bromo - Malang 4D3N — CNB selling below cost Pax 2.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price.",
-   "id": 28
-  },
-  {
-   "code": "ALL",
-   "package": null,
-   "severity": "medium",
-   "area": "FX",
-   "title": "THB → MYR differs between destinations",
-   "detail": "0.122 = KBV, PHU; 0.131 = BKK.",
-   "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
    "id": 29
-  },
-  {
-   "code": "ALL",
-   "package": null,
-   "severity": "medium",
-   "area": "FX",
-   "title": "IDR → MYR differs between destinations",
-   "detail": "0.00022249 = DPS; 0.00022733 = JOG, LOP.",
-   "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
-   "id": 30
   },
   {
    "code": "ALL",
@@ -310,6 +300,16 @@
    "title": "USD → MYR differs between destinations",
    "detail": "3.97 = ISTBUR, TUR; 4.0295 = ISTCAP.",
    "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
+   "id": 30
+  },
+  {
+   "code": "ALL",
+   "package": null,
+   "severity": "medium",
+   "area": "FX",
+   "title": "JPY (QAYYUM) → MYR differs between destinations",
+   "detail": "0.0259 = KIX; 0.026 = HND.",
+   "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
    "id": 31
   },
   {
@@ -317,8 +317,8 @@
    "package": null,
    "severity": "medium",
    "area": "FX",
-   "title": "RMB → MYR differs between destinations",
-   "detail": "0.58 = KMGDLS; 0.65 = PEK.",
+   "title": "IDR → MYR differs between destinations",
+   "detail": "0.00022249 = DPS; 0.00022733 = JOG, LOP.",
    "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
    "id": 32
   },
@@ -336,11 +336,31 @@
    "code": "ALL",
    "package": null,
    "severity": "medium",
+   "area": "FX",
+   "title": "RMB → MYR differs between destinations",
+   "detail": "0.58 = KMGDLS; 0.65 = PEK.",
+   "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
+   "id": 34
+  },
+  {
+   "code": "ALL",
+   "package": null,
+   "severity": "medium",
+   "area": "FX",
+   "title": "THB → MYR differs between destinations",
+   "detail": "0.122 = KBV, PHU; 0.131 = BKK.",
+   "fix": "Agree one FX rate per currency (and supplier) and update every R&D sheet that uses it; then re-import.",
+   "id": 35
+  },
+  {
+   "code": "ALL",
+   "package": null,
+   "severity": "medium",
    "area": "Rule",
    "title": "Selling = catalog − tier-2 discount in 31 destinations",
    "detail": "R&D Costing F2 \"Discount Tier 2\" lowers every selling price below the catalog (margin is on the discounted price): ACEH −RM200, ACEHSBG −RM200, BKK −RM200, CTS −RM200, DADH −RM200, DLMNHCM −RM200, DPS −RM100/200, HND −RM200, HNSH −RM200, ISTBUR −RM200, ISTCAP −RM200, JBDO −RM200, JOG −RM200, KBV −RM200, KIX −RM200, KMGDLS −RM200, LOP −RM200, LTOBA −RM200, MEL −RM200, MLE −RM200, NSNZ −RM200, OSK −RM200, PDG −RM200, PEK −RM200, PER −RM200, PHU −RM200, PQC −RM200, SEM −RM200, SUBB −RM200, SWS −RM200, TUR −RM200. No discount: JJU, JJUO, KKK, PHT, SEL, SELJJU. The R&D reformat convention says selling = catalog.",
    "fix": "Decide one policy: F2 = 0 everywhere (margin on catalog price), or keep RM200 everywhere and write it into the convention.",
-   "id": 34
+   "id": 36
   },
   {
    "code": "BKK",
@@ -350,7 +370,7 @@
    "title": "Bangkok: catalog updated after the R&D was last saved",
    "detail": "R&D PT_BKK_RD_reformatted.xlsx last saved 2026-05-31; newer catalog: PT BANGKOK STANDARD 4D3N (v3, 2026-07-01).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 35
+   "id": 37
   },
   {
    "code": "CTS",
@@ -360,7 +380,7 @@
    "title": "Hokkaido: catalog updated after the R&D was last saved",
    "detail": "R&D PT CTS R&D -reformatupload.xlsx last saved 2026-06-07; newer catalog: PT HOKKAIDO - SAPPORO 5D4N (v3, 2026-08-08).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 36
+   "id": 38
   },
   {
    "code": "DADH",
@@ -370,7 +390,7 @@
    "title": "Danang - Hoi An: catalog updated after the R&D was last saved",
    "detail": "R&D PT_DADH_RD_reformatted.xlsx last saved 2026-06-04; newer catalog: PT DANANG - HOI AN 4D3N (v3, 2026-08-06); PT DANANG - HOI AN 5D4N (v3, 2026-08-06).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 37
+   "id": 39
   },
   {
    "code": "HND",
@@ -378,29 +398,29 @@
    "severity": "medium",
    "area": "Margin",
    "title": "Tokyo: margin problems in 1 package/TO line",
-   "detail": "Tokyo Standard 5D4N — adult margin under 10% Pax 2 (lowest 7.0%).",
+   "detail": "Tokyo Standard 5D4N — adult margin under 10% Pax 2 (lowest 6.6%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 38
-  },
-  {
-   "code": "HNSH",
-   "package": "IBRAHIM-HALONGBAY-4D3N",
-   "severity": "medium",
-   "area": "Cost",
-   "title": "Hanoi - Sapa - Halong Bay · IBRAHIM-HALONGBAY-4D3N: price but no cost",
-   "detail": "Pax 21–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
-   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
-   "id": 39
-  },
-  {
-   "code": "HNSH",
-   "package": "IBRAHIM-SAPA-5D4N",
-   "severity": "medium",
-   "area": "Cost",
-   "title": "Hanoi - Sapa - Halong Bay · IBRAHIM-SAPA-5D4N: price but no cost",
-   "detail": "Pax 21–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
-   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
    "id": 40
+  },
+  {
+   "code": "HNSH",
+   "package": "Hanoi - Halong Bay 4D3N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Hanoi - Sapa - Halong Bay · Hanoi - Halong Bay 4D3N: price but no cost",
+   "detail": "Pax 21–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 41
+  },
+  {
+   "code": "HNSH",
+   "package": "Hanoi - Sapa 5D4N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Hanoi - Sapa - Halong Bay · Hanoi - Sapa 5D4N: price but no cost",
+   "detail": "Pax 21–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 42
   },
   {
    "code": "JBDO",
@@ -410,7 +430,37 @@
    "title": "Jakarta - Bandung: catalog updated after the R&D was last saved",
    "detail": "R&D PT_JBDO_RD_reformatted.xlsx last saved 2026-05-31; newer catalog: PT JAKARTA - BANDUNG 4D3N (v8, 2026-08-08).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 41
+   "id": 43
+  },
+  {
+   "code": "JJU",
+   "package": "Jeju Standard 4D3N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Jeju · Jeju Standard 4D3N: price but no cost",
+   "detail": "Pax 26–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 44
+  },
+  {
+   "code": "JJUO",
+   "package": "Jeju - Udo Standard 5D4N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Jeju - Udo · Jeju - Udo Standard 5D4N: price but no cost",
+   "detail": "Pax 26–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 45
+  },
+  {
+   "code": "JJUO",
+   "package": null,
+   "severity": "medium",
+   "area": "Margin",
+   "title": "Jeju - Udo: margin problems in 1 package/TO line",
+   "detail": "Jeju - Udo Standard 5D4N — adult margin under 10% Pax 2–3, 10 (lowest 3.8%).",
+   "fix": "Review the price for these pax or the TO rate.",
+   "id": 46
   },
   {
    "code": "KBV",
@@ -420,17 +470,7 @@
    "title": "Krabi: catalog updated after the R&D was last saved",
    "detail": "R&D PT KRABI R&D - reformatupload.xlsx last saved 2026-06-21; newer catalog: PAKEJ KRABI BASIC 4D3N (v2, 2026-08-07); PAKEJ KRABI HONEYMOON 4D3N (v3, 2026-08-07); PAKEJ KRABI STANDARD 4D3N (v1, 2026-08-07).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 42
-  },
-  {
-   "code": "KIX",
-   "package": null,
-   "severity": "medium",
-   "area": "Margin",
-   "title": "Tokyo - Kyoto - Osaka: margin problems in 2 package/TO lines",
-   "detail": "WIF-BSC — adult margin under 10% Pax 2–6, 8 (lowest 6.2%) · QAY-UCOP-STD + WIF-STD — adult margin under 10% Pax 2–3 (lowest 6.3%).",
-   "fix": "Review the price for these pax or the TO rate.",
-   "id": 43
+   "id": 47
   },
   {
    "code": "KKK",
@@ -440,7 +480,7 @@
    "title": "PT KK - KUNDASANG BASIC 3D2N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT/CWB/CNB) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 44
+   "id": 48
   },
   {
    "code": "KKK",
@@ -450,7 +490,7 @@
    "title": "PT KK - KUNDASANG STANDARD 4D3N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT/CWB/CNB) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 45
+   "id": 49
   },
   {
    "code": "KKK",
@@ -460,7 +500,7 @@
    "title": "KK Kundasang: catalog updated after the R&D was last saved",
    "detail": "R&D PT_KKK_RD_reformatted.xlsx last saved 2026-05-28; newer catalog: PT KK - KUNDASANG BASIC 3D2N (v3, 2026-07-01); PT KK - KUNDASANG STANDARD 4D3N (v3, 2026-07-01).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 46
+   "id": 50
   },
   {
    "code": "KMGDL",
@@ -470,7 +510,7 @@
    "title": "Yunnan 3 Wilayah has no R&D file",
    "detail": "The catalog and the Project PT sheet list it; the R&D folder YUNNAN 3 WILAYAH is empty.",
    "fix": "Add PT_KMGDL_RD_reformatted.xlsx (Tourdechina rate) so it can be costed.",
-   "id": 47
+   "id": 51
   },
   {
    "code": "KMGDLS",
@@ -480,7 +520,7 @@
    "title": "Yunnan 4 Wilayah: catalog updated after the R&D was last saved",
    "detail": "R&D PT_KMGDLS_RD_reformatted.xlsx last saved 2026-05-31; newer catalog: PT YUNNAN 4 WILAYAH 7D6N (v1, 2026-07-29).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 48
+   "id": 52
   },
   {
    "code": "MEL",
@@ -488,19 +528,9 @@
    "severity": "medium",
    "area": "Margin",
    "title": "Melbourne: margin problems in 2 package/TO lines",
-   "detail": "WAE-BASIC — adult margin under 10% Pax 11–12 (lowest 5.3%) · WAE-STANDARD — adult margin under 10% Pax 11–12 (lowest 5.3%).",
+   "detail": "Melbourne Basic 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%) · Melbourne Standard 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 49
-  },
-  {
-   "code": "OSK",
-   "package": null,
-   "severity": "medium",
-   "area": "Margin",
-   "title": "Osaka: margin problems in 1 package/TO line",
-   "detail": "WIF-BASIC — adult margin under 10% Pax 2 (lowest 8.4%).",
-   "fix": "Review the price for these pax or the TO rate.",
-   "id": 50
+   "id": 53
   },
   {
    "code": "PDG",
@@ -510,7 +540,7 @@
    "title": "Padang - Bukittinggi: catalog updated after the R&D was last saved",
    "detail": "R&D PT_PDG_RD_reformatted.xlsx last saved 2026-05-31; newer catalog: PT PADANG - BUKITTINGGI 4D3N (v7, 2026-08-09).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 51
+   "id": 54
   },
   {
    "code": "PER",
@@ -518,9 +548,9 @@
    "severity": "medium",
    "area": "Margin",
    "title": "Perth: margin problems in 2 package/TO lines",
-   "detail": "K&N STD — adult margin under 10% Pax 2 (lowest 10.0%) · K&N PREMIUM — adult margin under 10% Pax 2 (lowest 8.9%).",
+   "detail": "Perth Standard 5D4N — adult margin under 10% Pax 2 (lowest 10.0%) · Perth Premium 6D5N — adult margin under 10% Pax 2 (lowest 8.9%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 52
+   "id": 55
   },
   {
    "code": "PHT",
@@ -530,7 +560,7 @@
    "title": "PAKEJ PERHENTIAN BASIC 3D2N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 53
+   "id": 56
   },
   {
    "code": "PHT",
@@ -540,7 +570,7 @@
    "title": "PAKEJ PERHENTIAN STANDARD 3D2N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 54
+   "id": 57
   },
   {
    "code": "PHU",
@@ -550,7 +580,17 @@
    "title": "Phuket: catalog updated after the R&D was last saved",
    "detail": "R&D PT PHU R&D - reformatupload.xlsx last saved 2026-06-08; newer catalog: PAKEJ PHUKET BASIC 4D3N (v2, 2026-08-05); PAKEJ PHUKET STANDARD 4D3N (v2, 2026-08-05).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 55
+   "id": 58
+  },
+  {
+   "code": "SEL",
+   "package": "Seoul Basic 5D4N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Seoul · Seoul Basic 5D4N: price but no cost",
+   "detail": "Pax 26–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 59
   },
   {
    "code": "SELJJU",
@@ -560,27 +600,47 @@
    "title": "Seoul - Jeju: add-on \"Tolak 1 malam 3★ dari pakej\" cost and selling have opposite signs",
    "detail": "Cost RM150, selling RM-150 → margin RM-300.",
    "fix": "Use the same sign for a deduction (e.g. both negative).",
-   "id": 56
+   "id": 60
+  },
+  {
+   "code": "SELJJU",
+   "package": "Seoul - Jeju Standard 6D5N",
+   "severity": "medium",
+   "area": "Cost",
+   "title": "Seoul - Jeju · Seoul - Jeju Standard 6D5N: price but no cost",
+   "detail": "Pax 26–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
+   "id": 61
+  },
+  {
+   "code": "SELJJU",
+   "package": null,
+   "severity": "medium",
+   "area": "Margin",
+   "title": "Seoul - Jeju: margin problems in 1 package/TO line",
+   "detail": "Seoul - Jeju Standard 6D5N — adult margin under 10% Pax 2 (lowest 6.8%).",
+   "fix": "Review the price for these pax or the TO rate.",
+   "id": 62
   },
   {
    "code": "SEM",
-   "package": "PT SEMPORNA BASIC 3D2N",
+   "package": "PAKEJ SEMPORNA BASIC 3D2N",
    "severity": "medium",
    "area": "Coverage",
-   "title": "PT SEMPORNA BASIC 3D2N: catalog prices pax the R&D does not",
+   "title": "PAKEJ SEMPORNA BASIC 3D2N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 57
+   "id": 63
   },
   {
    "code": "SEM",
-   "package": "PT SEMPORNA STANDARD 4D3N",
+   "package": "PAKEJ SEMPORNA STANDARD 4D3N",
    "severity": "medium",
    "area": "Coverage",
-   "title": "PT SEMPORNA STANDARD 4D3N: catalog prices pax the R&D does not",
+   "title": "PAKEJ SEMPORNA STANDARD 4D3N: catalog prices pax the R&D does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the R&D Costing tab.",
    "fix": "Add those pax rows to the R&D Costing and CR (TO cost), then re-import.",
-   "id": 58
+   "id": 64
   },
   {
    "code": "SEM",
@@ -588,9 +648,9 @@
    "severity": "medium",
    "area": "Sync",
    "title": "Semporna: catalog updated after the R&D was last saved",
-   "detail": "R&D PT_SEM_RD_reformatted.xlsx last saved 2026-06-01; newer catalog: PT SEMPORNA BASIC 3D2N (v4, 2026-08-24); PT SEMPORNA STANDARD 4D3N (v4, 2026-08-24).",
+   "detail": "R&D PT_SEM_RD_reformatted.xlsx last saved 2026-06-01; newer catalog: PAKEJ SEMPORNA BASIC 3D2N (v4, 2026-08-24); PAKEJ SEMPORNA STANDARD 4D3N (v4, 2026-08-24).",
    "fix": "Check the newer catalog against the R&D (prices, pax bands, inclusions) and update the R&D.",
-   "id": 59
+   "id": 65
   },
   {
    "code": "SWS",
@@ -598,19 +658,9 @@
    "severity": "medium",
    "area": "Margin",
    "title": "Switzerland: margin problems in 1 package/TO line",
-   "detail": "MUSAFIR - ARBATO-ST — adult margin under 10% Pax 2–14 (lowest 9.9%).",
+   "detail": "Switzerland Self Tour 7D6N — adult margin under 10% Pax 2–14 (lowest 9.9%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 60
-  },
-  {
-   "code": "TUR",
-   "package": null,
-   "severity": "medium",
-   "area": "Margin",
-   "title": "Turki Klasik: margin problems in 1 package/TO line",
-   "detail": "MYTRIP STD 4STAR — adult margin under 10% Pax 2 (lowest 9.7%).",
-   "fix": "Review the price for these pax or the TO rate.",
-   "id": 61
+   "id": 66
   },
   {
    "code": "ACEH",
@@ -618,9 +668,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Aceh: 2 R&D package(s) without their own catalog",
-   "detail": "ASONANGGROE 4 STAR; ASONANGGROE 5 STAR. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Aceh 4D3N · 4★; Aceh 4D3N · 5★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 62
+   "id": 67
   },
   {
    "code": "ACEHSBG",
@@ -628,9 +678,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Aceh - Sabang: 2 R&D package(s) without their own catalog",
-   "detail": "ASONANGGROE 4 STAR; ASONANGGROE 5 STAR. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Aceh - Sabang 5D4N · 4★; Aceh - Sabang 5D4N · 5★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 63
+   "id": 68
   },
   {
    "code": "BKK",
@@ -638,9 +688,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Bangkok: 2 R&D package(s) without their own catalog",
-   "detail": "Chiwanon + Nouvo/Zayn (4-Star); Chiwanon + Al-Meroz (5-Star). Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Bangkok Standard 4D3N · 4★ Nouvo City / Zayn; Bangkok Standard 4D3N · 5★ Al-Meroz. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 64
+   "id": 69
   },
   {
    "code": "BKK",
@@ -648,9 +698,9 @@
    "severity": "low",
    "area": "Sheet",
    "title": "Bangkok: New PO is blank in the Project PT sheet",
-   "detail": "The calculator shows Current PO (Noora).",
+   "detail": "The calculator shows Current PO (Fyka).",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 65
+   "id": 70
   },
   {
    "code": "DADH",
@@ -658,9 +708,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Danang - Hoi An: 1 R&D package(s) without their own catalog",
-   "detail": "IBRAHIM 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Danang - Hoi An 5D4N · 3★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 66
+   "id": 71
   },
   {
    "code": "HND",
@@ -670,7 +720,7 @@
    "title": "Tokyo: 1 R&D package(s) without their own catalog",
    "detail": "Tokyo Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 67
+   "id": 72
   },
   {
    "code": "HNSH",
@@ -678,9 +728,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Hanoi - Sapa - Halong Bay: 2 R&D package(s) without their own catalog",
-   "detail": "IBRAHIM-HALONGBAY-4D3N; IBRAHIM-SAPA-5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Hanoi - Halong Bay 4D3N; Hanoi - Sapa 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 68
+   "id": 73
   },
   {
    "code": "ISTBUR",
@@ -690,17 +740,7 @@
    "title": "Istanbul - Bursa: 7 add-on(s) without cost",
    "detail": "Uludag Snow Park 1D1N (2 pax); Uludag Snow Park 1D1N (3 pax); Uludag Snow Park 1D1N (4+ pax); Bosphorus Dinner Cruise; Topkapi Palace Entrance; Whirling Dervishes Show …",
    "fix": "Fill Cost_RM in the R&D Add-Ons tab.",
-   "id": 69
-  },
-  {
-   "code": "ISTBUR",
-   "package": null,
-   "severity": "low",
-   "area": "Coverage",
-   "title": "Istanbul - Bursa: 1 R&D package(s) without their own catalog",
-   "detail": "MYTRIP-4S. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
-   "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 70
+   "id": 74
   },
   {
    "code": "ISTBUR",
@@ -710,17 +750,17 @@
    "title": "Project PT sheet: ISTBUR and ISTCAP catalog names swapped",
    "detail": "Row ISTBUR shows \"PT ISTANBUL CAPPADOCIA 6D5N\"; row ISTCAP shows \"PT ISTANBUL BURSA 5D4N\".",
    "fix": "Swap the two Catalog cells in the Project PT Overview tab.",
-   "id": 71
+   "id": 75
   },
   {
    "code": "ISTCAP",
    "package": null,
    "severity": "low",
    "area": "Coverage",
-   "title": "Istanbul - Cappadocia: 2 R&D package(s) without their own catalog",
-   "detail": "MYTRIP-PT-4 STAR; MYTRIP/ARBATO-ST. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "title": "Istanbul - Cappadocia: 1 R&D package(s) without their own catalog",
+   "detail": "Istanbul - Cappadocia Self Tour 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 72
+   "id": 76
   },
   {
    "code": "JJU",
@@ -728,9 +768,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Jeju: 1 R&D package(s) without their own catalog",
-   "detail": "ATK-ST. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Jeju Self Tour 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 73
+   "id": 77
   },
   {
    "code": "KBV",
@@ -738,9 +778,9 @@
    "severity": "low",
    "area": "Sheet",
    "title": "Krabi: New PO is blank in the Project PT sheet",
-   "detail": "The calculator shows Current PO (Ezie).",
+   "detail": "The calculator shows Current PO (Fyka).",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 74
+   "id": 78
   },
   {
    "code": "KKK",
@@ -748,9 +788,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "KK Kundasang: 4 R&D package(s) without their own catalog",
-   "detail": "Bahrun-3D-GH; Bahrun-4D-GH; Bahrun-HNY-3D; Bahrun-HNY-4D. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "KK Kundasang Basic 3D2N · Guesthouse; KK Kundasang Standard 4D3N · Guesthouse; KK Kundasang Honeymoon 3D2N; KK Kundasang Honeymoon 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 75
+   "id": 79
   },
   {
    "code": "LOP",
@@ -758,9 +798,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Lombok: 2 R&D package(s) without their own catalog",
-   "detail": "Pak Anang HNY 3S; Pak Anang HNY 4S. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Lombok Honeymoon 4D3N · 3★; Lombok Honeymoon 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 76
+   "id": 80
   },
   {
    "code": "LTOBA",
@@ -768,9 +808,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Medan - Lake Toba: 1 R&D package(s) without their own catalog",
-   "detail": "BAIM. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Medan - Lake Toba 4D3N · Samosir. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 77
+   "id": 81
   },
   {
    "code": "MLE",
@@ -778,9 +818,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Maldives: 7 R&D package(s) without their own catalog",
-   "detail": "MLE-BASIC-HIGH; MLE-BASIC-PEAK; MLE-COMBO-HIGH; MLE-COMBO-PEAK; MLE-COMBO-SHOULDER; MLE-WATER-HIGH; MLE-WATER-PEAK. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Maldives Basic 4D3N · High Season; Maldives Basic 4D3N · Peak Season; Maldives Combo Island 4D3N · High Season; Maldives Combo Island 4D3N · Peak Season; Maldives Combo Island 4D3N · Shoulder Season; Maldives Water Villa 4D3N · High Season; Maldives Water Villa 4D3N · Peak Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 78
+   "id": 82
   },
   {
    "code": "MLE",
@@ -788,9 +828,9 @@
    "severity": "low",
    "area": "Sheet",
    "title": "Maldives: New PO is blank in the Project PT sheet",
-   "detail": "The calculator shows Current PO (Ezie).",
+   "detail": "The calculator shows Current PO (Acap).",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 79
+   "id": 83
   },
   {
    "code": "NSNZ",
@@ -798,9 +838,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "New Zealand: 1 R&D package(s) without their own catalog",
-   "detail": "ARBA TO 6D5N North. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "New Zealand North 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 80
+   "id": 84
   },
   {
    "code": "PDG",
@@ -808,9 +848,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Padang - Bukittinggi: 1 R&D package(s) without their own catalog",
-   "detail": "HERMAN-4S. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Padang - Bukittinggi 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 81
+   "id": 85
   },
   {
    "code": "PHT",
@@ -820,7 +860,7 @@
    "title": "Perhentian: 5 add-on(s) without cost",
    "detail": "Private Boat Transfer Return; Private Boat Island Hopping (5 snorkel pts); Single Supplement (BASIC); Single Supplement (STANDARD); Late Booking Surcharge",
    "fix": "Fill Cost_RM in the R&D Add-Ons tab.",
-   "id": 82
+   "id": 86
   },
   {
    "code": "PHU",
@@ -828,9 +868,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Phuket: 8 R&D package(s) without their own catalog",
-   "detail": "KTT-Marina Standard LowSeason; KTT-Ibis Standard HighSeason JanApr; KTT-Marina Standard HighSeason JanApr; KTT-Ibis Standard HighSeason NovDec; KTT-Marina Standard HighSeason NovDec; KTT-Marina Budget Phi Phi LowSeason; KTT-Ibis Budget James Bond LowSeason; KTT-Marina Budget James Bond LowSeason. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Phuket Standard 4D3N · Marina 4★ · Low Season; Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr; Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr; Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec; Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec; Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season; Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season; Phuket Basic 4D3N (James Bond) · Marina 4★ · Low Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 83
+   "id": 87
   },
   {
    "code": "PHU",
@@ -838,19 +878,19 @@
    "severity": "low",
    "area": "Sheet",
    "title": "Phuket: New PO is blank in the Project PT sheet",
-   "detail": "The calculator shows Current PO (Ezie).",
+   "detail": "The calculator shows Current PO (Fyka).",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 84
+   "id": 88
   },
   {
    "code": "SEL",
    "package": null,
    "severity": "low",
    "area": "Add-ons",
-   "title": "Seoul: 12 add-on(s) without cost",
-   "detail": "Hanbok Rental @ Gyeongbok; Everland Ticket; Lotte World Seoul Ticket; Snowyland Ticket; Everland (Private Transport); Vivaldi Ski Park (Private Transport) …",
+   "title": "Seoul: 15 add-on(s) without cost",
+   "detail": "Hanbok Rental @ Gyeongbok Palace; Airport transfer Hotel/ICN ↔ Gimpo (7–9 pax); Malay student guide (F&E day); Driving outskirt Busan–Seoul (Solati 10–13 pax); Driver only — Seoul; Driver only — Nami …",
    "fix": "Fill Cost_RM in the R&D Add-Ons tab.",
-   "id": 85
+   "id": 89
   },
   {
    "code": "SEL",
@@ -858,9 +898,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Seoul: 1 R&D package(s) without their own catalog",
-   "detail": "ATK-ST. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Seoul Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 86
+   "id": 90
   },
   {
    "code": "SEL",
@@ -870,7 +910,7 @@
    "title": "Older R&D copy in My Drive: PT_SEL_RD_reformatted.xlsx",
    "detail": "My Drive root has an older copy than Downloads/PT DESTINASI R&D REFORMAT.",
    "fix": "Delete or replace the My Drive copy so nobody edits the old file.",
-   "id": 87
+   "id": 91
   },
   {
    "code": "SELJJU",
@@ -880,7 +920,7 @@
    "title": "Older R&D copy in My Drive: PT_SLJJ_RD_reformatted.xlsx",
    "detail": "My Drive root has an older copy than Downloads/PT DESTINASI R&D REFORMAT.",
    "fix": "Delete or replace the My Drive copy so nobody edits the old file.",
-   "id": 88
+   "id": 92
   },
   {
    "code": "SEM",
@@ -888,9 +928,9 @@
    "severity": "low",
    "area": "Coverage",
    "title": "Semporna: 6 R&D package(s) without their own catalog",
-   "detail": "Legend-3D-2S; Legend-3D-3S; Legend-4D-2S; Legend-4D-3S; Legend-HNY-1S; Legend-HNY-2S. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
+   "detail": "Semporna Basic 3D2N · 2★ Water Chalet; Semporna Basic 3D2N · 3★ Mabul; Semporna Standard 4D3N · 2★ Water Chalet; Semporna Standard 4D3N · 3★ Singamata; Semporna Honeymoon · 1★ Water Chalet; Semporna Honeymoon · 2★ Water Chalet. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 89
+   "id": 93
   },
   {
    "code": "SUBB",
@@ -900,7 +940,7 @@
    "title": "Surabaya - Bromo - Malang: 8 add-on(s) without cost",
    "detail": "Water Fall Tumpak Sewu + Goa Tetes + Kapas Biru; Local Guide Tumpak Sewu; Kawah Ijen Tour; Semeru Lava Tour; ATV Semeru Rental (1 hour); Panorama Kapas Biru …",
    "fix": "Fill Cost_RM in the R&D Add-Ons tab.",
-   "id": 90
+   "id": 94
   },
   {
    "code": "SUBB",
@@ -908,19 +948,9 @@
    "severity": "low",
    "area": "Sheet",
    "title": "Surabaya - Bromo - Malang: New PO is blank in the Project PT sheet",
-   "detail": "The calculator shows Current PO (Noora).",
+   "detail": "The calculator shows Current PO (Aiman).",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 91
-  },
-  {
-   "code": "TUR",
-   "package": null,
-   "severity": "low",
-   "area": "Coverage",
-   "title": "Turki Klasik: 1 R&D package(s) without their own catalog",
-   "detail": "MYTRIP STD 4STAR. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
-   "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the R&D.",
-   "id": 92
+   "id": 95
   }
  ]
 }
