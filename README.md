@@ -71,7 +71,7 @@ old → new value. Any old version can be viewed and restored.
 git pull                                  # live data.json = source of truth
 python3 tools/extract_rd.py --work /tmp/ptx            # all, or --only SEL DPS
 python3 tools/extract_krabi.py --work /tmp/ptx         # Krabi
-python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL SELJJU JJU JJUO --by <you> --note "<why>"
+python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL SELJJU JJU JJUO OSK KIX --by <you> --note "<why>"
 cp /tmp/ptx/truth/*.json tests/truth/ && python3 tools/make_pages.py
 node tests/test_calc.js tests/truth.json
 ```
