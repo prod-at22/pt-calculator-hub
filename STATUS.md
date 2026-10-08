@@ -60,7 +60,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - **OSK, KIX**: rate by rate since v26 (tools/build_jp_rates.py reads the R&D CR formulas = Raw Costing rate ×
   FX; checks every component at every pax against the old values). Accommodation RM250/pax/night (PO, v24) kept
   via OVERRIDE in that script — R&D still says RM300. After a re-import of OSK/KIX run build_jp_rates.py again.
-- **JBDO**: CTRANS fullboard rate 2–10 pax (v5), not yet in the R&D sheet.
+- **JBDO**: CTRANS fullboard rate 2–10 pax (v5), not yet in the R&D sheet. Catalog prices = Catalog PT v8, 2–19 pax only (v27); the R&D Costing tab still has the old prices.
 - Turkey / Istanbul 4★ removed (no MyTrip CR, no catalog); SKIP_TO in extract_rd.py keeps it out.
 
 Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO OSK KIX`.

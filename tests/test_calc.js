@@ -125,6 +125,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     // costs edited on/after import (not re-imports) no longer equal the R&D: compare selling only
     const H = P.HISTORY.entries, costEdited = new Set(H.filter(e => !e.rebase).flatMap(e => (e.changes || [])
       .filter(c => ["tables", "variants", "rates"].includes(c.path[2])).map(c => c.path[1])));
+    // catalog prices edited after import (e.g. JBDO → Catalog PT v8): compare cost only
+    const priceEdited = new Set(H.filter(e => !e.rebase).flatMap(e => (e.changes || [])
+      .filter(c => c.path[2] === "packages" && c.path[4] === "pricing").map(c => c.path[1])));
     for (const f of fs.readdirSync(path.join(__dirname, "truth"))) {
       const t = JSON.parse(fs.readFileSync(path.join(__dirname, "truth", f), "utf8"));
       const d = byCode(D, t.code);
@@ -150,7 +153,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
           // TOs not costed from the R&D tables (SEL Basic/Standard = ATK contract rate) no longer use the R&D cost
           const rateBuilt = !d.variants.find(v => v.id === a.variant).components.every(x => /T\['[^']*__/.test(x.expr));
           const rdDisc = +pkg.rules.discountTier2 || 0;   // R&D selling = catalog − its tier-2 discount; page selling = catalog − RM200
-          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && near(r.selling, sell + rdDisc - 200, 0.6), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
+          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && (priceEdited.has(t.code) || near(r.selling, sell + rdDisc - 200, 0.6)), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
         }
       }
     }
@@ -221,6 +224,10 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(c("CTRANS-HIACE", 5) === 757, "5 pax Hiace = 757");
     ok(!j.variants.some(v => v.components.some(x => /whoosh/i.test(x.label))), "no Whoosh component");
     ok(!isFinite(c("CTRANS", 11)), "11 pax has no TO rate (missing, not RM0)");
+    const sp = p => P.priceRow(j, pk, "CTRANS", p);
+    ok([[2, 1487], [4, 1227], [6, 1187], [10, 1147], [19, 1147]].every(([p, a]) => sp(p).adult.catalog === a), "catalog = Catalog PT v8 (2/4/6/10/19 pax = 1,487/1,227/1,187/1,147/1,147)");
+    ok(sp(2).cwb.catalog === 1387 && sp(2).cnb.catalog === 1187 && sp(2).adult.selling === 1287, "2 pax CWB 1,387 · CNB 1,187 · selling 1,287 (catalog − 200)");
+    ok(Object.keys(pk.pricing.adult).map(Number).every(p => p >= 2 && p <= 19), "JBDO priced 2–19 pax only");
   }
 
   console.log("2. selling / margin rules");

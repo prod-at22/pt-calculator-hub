@@ -98,18 +98,18 @@
    "severity": "high",
    "area": "Cost",
    "title": "Jakarta - Bandung · Jakarta - Bandung 4D3N: price but no cost",
-   "detail": "Pax 11–30 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
+   "detail": "Pax 11–19 have a selling price but no TO cost (the R&D shows RM0 cost / 100% margin there).",
    "fix": "Get the TO rate for those pax and add it to the R&D CR, or stop quoting those pax counts.",
    "id": 10
   },
   {
    "code": "JBDO",
    "package": "PT JAKARTA - BANDUNG 4D3N",
-   "severity": "high",
+   "severity": "medium",
    "area": "Price",
-   "title": "PT JAKARTA - BANDUNG 4D3N: R&D price ≠ catalog",
-   "detail": "ADULT pax 2–19 — e.g. 2 pax catalog RM1,487 vs R&D RM1,537 (gap -50) · CWB pax 2–19 — e.g. 2 pax catalog RM1,387 vs R&D RM1,437 (gap -50) · CNB pax 2–19 — e.g. 2 pax catalog RM1,187 vs R&D RM1,237 (gap -50).",
-   "fix": "Decide which is right. Catalog right → update the R&D Costing prices and re-import. R&D right → re-issue the catalog.",
+   "title": "PT JAKARTA - BANDUNG 4D3N: R&D workbook still has the old catalog price",
+   "detail": "Calculator v27 uses Catalog PT v8 (2–19 pax, RM50 lower: 2 pax Adult RM1,487 / CWB RM1,387 / CNB RM1,187). PT_JBDO_RD_reformatted.xlsx still has the old prices (2 pax Adult RM1,537) and 20–30 pax.",
+   "fix": "Update the Costing tab in the R&D workbook to Catalog PT v8; the calculator is already done.",
    "id": 11
   },
   {
