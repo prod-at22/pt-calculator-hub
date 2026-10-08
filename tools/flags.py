@@ -113,7 +113,7 @@ def main():
         pr = cat.get("prices") or {}
         cols = [c.get("label", "") for c in pr.get("columns", [])]
         couple = len(cols) == 1 and re.search(r"couple", cols[0], re.I)
-        diffs = {k: [] for k in TYPES}; missing = {k: [] for k in TYPES}; extra_child = []
+        diffs = {k: [] for k in TYPES}; missing = {k: [] for k in TYPES}; extra_child = []; uneven = []
         for row in pr.get("rows", []):
             amts = row.get("amounts", [])
             if couple:
@@ -126,6 +126,11 @@ def main():
             ps = pax_list(row.get("pax", ""))
             if not ps:
                 continue
+            # the catalog prints one price per band (the band's first pax): the hub should not vary inside it
+            for k in TYPES:
+                vals = {pkg["pricing"][k].get(str(p)) for p in ps if p <= 30} - {None}
+                if len(vals) > 1:
+                    uneven.append("%s %s pax (%s)" % (k.upper(), row.get("pax"), " / ".join(rm(v) for v in sorted(vals))))
             for k, amt in zip(TYPES, amts):
                 v = money(amt)
                 for p in ps:
@@ -160,6 +165,10 @@ def main():
             flag(code, "low", "Price", "%s: hub has child prices the catalog does not offer" % title,
                  "Catalog prints \"-\" for %s; the hub still prices them." % ", ".join(sorted({k.upper() for k, _ in extra_child})),
                  "Remove those prices in the hub or add them to the catalog.", package=title)
+        if uneven:
+            flag(code, "medium", "Price", "%s: hub price changes inside a catalog pax band" % title,
+                 "The catalog prints one price per band (its first pax); the hub has different prices inside: " + "; ".join(uneven[:6]) + ("…" if len(uneven) > 6 else "") + ".",
+                 "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.", package=title)
         inf = money(pr.get("infant"))
         if inf is not None and abs(inf - float(pkg["pricing"].get("infant") or 0)) > 0.5:
             flag(code, "medium", "Price", "%s: infant price differs" % title,

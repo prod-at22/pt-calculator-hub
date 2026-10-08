@@ -306,6 +306,14 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const e = hist.entries.find(x => x.v === V0 + 1);
     ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === before && e.changes[0].label.includes("@2 pax"), "history entry V0+1 with readable label");
     ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: Basic catalog`), "one commit with version message");
+    // the Catalog Price column feeds the customer catalog: tokyo-basic row "2" follows, nothing else changes
+    const catNow = JSON.parse(repo.files(repo.head)["data/catalogs/tokyo-basic.json"]), cat0 = JSON.parse(files["data/catalogs/tokyo-basic.json"]);
+    const want = "RM" + (before + 100).toLocaleString("en-US");
+    ok(catNow.prices.rows.find(r => r.pax === "2").amounts[0] === want, "catalog tokyo-basic 2 pax adult = " + want + " (got " + catNow.prices.rows.find(r => r.pax === "2").amounts[0] + ")");
+    ok(JSON.stringify(catNow.prices.rows.filter(r => r.pax !== "2")) === JSON.stringify(cat0.prices.rows.filter(r => r.pax !== "2"))
+      && JSON.stringify({ ...catNow, prices: null, updated: null }) === JSON.stringify({ ...cat0, prices: null, updated: null }), "only that price cell (and the updated date) changed in the catalog");
+    ok(repo.files(repo.head)["data/catalogs/tokyo-basic.json"].endsWith("}\n") && JSON.parse(repo.files(repo.head)["data/catalogs/index.json"])["tokyo-basic"].updated === catNow.updated, "catalog + index.json updated in the same commit");
+    ok(e.catalogs && e.catalogs[0].includes("tokyo-basic"), "history entry lists the catalog change: " + (e.catalogs || []).join("; "));
     click(w, doc.querySelector("#btnHistory")); await tick(5);
     ok(doc.querySelector(".tabm.on").dataset.tabmain === "history" && doc.querySelector("#grid").textContent.includes("Basic catalog 2027") && doc.querySelector("#grid").textContent.includes("Added destinations"), "History button opens the History tab with the notes");
     const snap = P.snapshotAt(V0);

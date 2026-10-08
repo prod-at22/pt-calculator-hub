@@ -835,6 +835,50 @@ const GH = {
 };
 const pretty = o => JSON.stringify(o, null, 1) + "\n";
 
+// Catalog price sync: the Costing tab's Catalog Price column is what the customer catalog prints.
+// On save, each changed catalog-price cell (pricing.<adult|cwb|cnb>.<pax>) is written into the price
+// table of the catalog linked to that package (data/catalogs/index.json), in the row whose pax band
+// starts at that pax. Only the amount changes; nothing else in the catalog (itinerary, includes …).
+// catalog-pt-public rebuilds the changed catalogs from data/catalogs/ within ~10–15 minutes.
+const CAT_COL = { adult: 0, cwb: 1, cnb: 2 };
+const catRmTxt = v => "RM" + Math.round(v).toLocaleString("en-US");
+function catBandStart(label) {
+  if (/night|hotel|villa|star/i.test(label)) return null;
+  const n = String(label).match(/\d+/); return n ? +n[0] : null;
+}
+async function catalogFiles(changes, next, head, token) {
+  const cells = changes.filter(c => c.path[0] === "destinations" && c.path[2] === "packages" && c.path[4] === "pricing" && c.path[5] in CAT_COL && c.path.length === 7);
+  if (!cells.length) return { files: [], summary: [] };
+  const idx = await GH.readJson(PATHS.catalogs + "index.json", head, token);
+  const today = new Date().toISOString().slice(0, 10), files = [], summary = [];
+  for (const [slug, m] of Object.entries(idx)) {
+    const mine = cells.filter(c => c.path[1] === m.code && c.path[3] === m.package);
+    if (!mine.length) continue;
+    const cat = await GH.readJson(PATHS.catalogs + slug + ".json", head, token), pr = cat.prices;
+    if (!pr || !pr.rows) continue;
+    const couple = pr.columns.length === 1 && /couple/i.test(pr.columns[0].label || "");
+    const pkg = next.destinations.find(d => d.code === m.code).packages.find(p => p.id === m.package);
+    let n = 0;
+    for (const c of mine) {
+      const [, , , , , k, pax] = c.path, v = +c.to;
+      if (!num(v)) continue;
+      for (const row of pr.rows) {
+        if (couple) { if (k !== "adult" || pax !== "2") continue; const t = catRmTxt(2 * v); if (row.amounts[0] !== t) { summary.push(`Catalog ${slug}: ${row.pax} ${row.amounts[0]} → ${t}`); row.amounts[0] = t; n++; } continue; }
+        if (catBandStart(row.pax) !== +pax) continue;
+        const i = CAT_COL[k], old = row.amounts[i];
+        if (old === undefined || /^\s*-*\s*$/.test(old)) continue;   // "-" = not offered: leave it
+        const t = catRmTxt(v);
+        if (old !== t) { summary.push(`Catalog ${slug}: ${row.pax} pax ${k.toUpperCase()} ${old} → ${t}`); row.amounts[i] = t; n++; }
+      }
+    }
+    if (!n) continue;
+    cat.updated = today; m.updated = today;
+    files.push({ path: PATHS.catalogs + slug + ".json", content: JSON.stringify(cat, null, 2) + "\n" });
+    delete CAT.docs[slug];
+  }
+  if (files.length) { files.push({ path: PATHS.catalogs + "index.json", content: JSON.stringify(idx, null, 1) + "\n" }); CAT.index = null; }
+  return { files, summary };
+}
 async function saveChanges(note) {
   const changes = pendingChanges();
   if (!changes.length) return;
@@ -851,10 +895,11 @@ async function saveChanges(note) {
     next.version = remote.version + 1;
     next.updatedAt = new Date().toISOString();
     next.updatedBy = SESSION.u;
-    const entry = { v: next.version, at: next.updatedAt, by: SESSION.u, note, changes: changes.map(c => ({ ...c, label: describe(remote, c.path) })) };
+    const cat = await catalogFiles(changes, next, head, SESSION.token);
+    const entry = { v: next.version, at: next.updatedAt, by: SESSION.u, note, changes: changes.map(c => ({ ...c, label: describe(remote, c.path) })), ...(cat.summary.length ? { catalogs: cat.summary } : {}) };
     rhist.entries.push(entry);
     try {
-      await GH.commit([{ path: PATHS.data, content: pretty(next) }, { path: PATHS.history, content: pretty(rhist) }],
+      await GH.commit([{ path: PATHS.data, content: pretty(next) }, { path: PATHS.history, content: pretty(rhist) }, ...cat.files],
         `v${next.version} · ${SESSION.u}: ${note}`.slice(0, 200), head, SESSION.token);
     } catch (e) {
       if (e.status === 422 || e.status === 409) continue; // lost the race → retry on new head

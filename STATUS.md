@@ -61,6 +61,9 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   contracts/hnd has the ARBA-internal Qayyum rate sheet (tools/make_qayyum_sheet.py; regenerate after a Qayyum rate change).
 - **JBDO**: CTRANS fullboard rate 2–10 pax (v5); catalog = Catalog PT v8, 2–19 pax (v27). 11–19 pax have no TO cost yet.
 - Flags (tools/flags.py): catalogs × the hub's own numbers only.
+- **Catalog price sync** (saveChanges → catalogFiles in app.js): a saved catalog-price cell is written into the linked
+  catalog's price table (band starting at that pax) in the same commit; catalog-pt-public rebuilds it. Only cells
+  changed in that save are written — existing "hub price ≠ catalog" differences are NOT pushed automatically.
 
 ## Open — waiting on the PO
 1. Tokyo (on hold by PO): catalog JSON Tokyo Standard (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — which is current?

@@ -82,6 +82,14 @@ tour operator (/ hotel, season) selectors, then tabs:
 
 ## Catalogs → catalog-pt-public
 
+**Catalog price = the Costing tab's Catalog Price column.** When a save changes a catalog-price cell
+(Adult / CWB / CNB at one pax), the same commit writes that amount into the price table of the catalog
+linked to the package (`data/catalogs/index.json`), in the row whose pax band starts at that pax, and sets
+the catalog's `updated` date. Nothing else in the catalog changes (costs, margins, itinerary, includes …
+stay out of it). The History entry lists those catalog changes. A band prints one price (its first pax), so
+keep every pax in a band at the same price — Flags warns when they differ.
+
+
 `data/catalogs/<slug>.json` is the catalog content (Catalog Details tab); `catalog-build/build.py` renders it
 into HTML + PDF (headless Chrome) exactly as catalog-pt-public serves it. Publishing needs nothing from
 here: the `mirror.yml` workflow in prod-at22/catalog-pt-public checks this repo every 10 minutes and
