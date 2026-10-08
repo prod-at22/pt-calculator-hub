@@ -13424,6 +13424,1123 @@
      "label": "Jakarta - Bandung › pricing › source › cnb › 30"
     }
    ]
+  },
+  {
+   "v": 28,
+   "at": "2026-10-08T07:51:56Z",
+   "by": "product",
+   "note": "Hub is the source of truth: links to the R&D workbooks removed",
+   "summary": [
+    "R&D marker removed from catalog prices in 107 packages (no effect on numbers)",
+    "TO names, rate groups / labels, FX and destination source no longer point to R&D sheet cells or files",
+    "FX can now be changed in the hub (Edit costs); no more re-import from the R&D workbooks"
+   ],
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "SEL",
+      "source"
+     ],
+     "from": "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: R&D",
+     "to": "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: hub",
+     "label": "Seoul › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "JJU",
+      "source"
+     ],
+     "from": "ATK CR 2026 Korea · Self Tour: ATK CR 2026 Korea · Self Tour: JEJU/PT_JJU_RD_reformatted.xlsx",
+     "to": "ATK CR 2026 Korea · Self Tour: ATK CR 2026 Korea · Self Tour: JEJU/PT_JJU_RD_reformatted.xlsx",
+     "label": "Jeju › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "TUR",
+      "fx",
+      "USD",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Turki Klasik › FX USD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "TUR",
+      "source"
+     ],
+     "from": "TURKEY/PT_TUR_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Turki Klasik › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTBUR",
+      "fx",
+      "USD",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Istanbul - Bursa › FX USD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTBUR",
+      "source"
+     ],
+     "from": "ISTANBUL BURSA/PT_ISTBUR_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Istanbul - Bursa › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTCAP",
+      "fx",
+      "USD",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Istanbul - Cappadocia › FX USD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTCAP",
+      "fx",
+      "EUR",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A4",
+     "to": "hub",
+     "label": "Istanbul - Cappadocia › FX EUR source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ISTCAP",
+      "source"
+     ],
+     "from": "ISTANBUL CAPPADOCIA/PT ISTCAP R&D - reformatupload.xlsx",
+     "to": "hub",
+     "label": "Istanbul - Cappadocia › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "fx",
+      "WIF",
+      "source"
+     ],
+     "from": "R&D CR!B3",
+     "to": "hub",
+     "label": "Tokyo › FX WIF source"
+    },
+    {
+     "path": [
+      "destinations",
+      "HND",
+      "source"
+     ],
+     "from": "PT_HND_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Tokyo › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "fx",
+      "JPY-WIF",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Tokyo - Kyoto - Osaka › FX JPY-WIF source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "fx",
+      "JPY-QAYYUM/UCOP",
+      "source"
+     ],
+     "from": "R&D CR!A4",
+     "to": "hub",
+     "label": "Tokyo - Kyoto - Osaka › FX JPY-QAYYUM/UCOP source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r6_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 6",
+     "to": "Raw Costing row 6",
+     "label": "Tokyo - Kyoto - Osaka › Rate r6_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r9_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 9",
+     "to": "Raw Costing row 9",
+     "label": "Tokyo - Kyoto - Osaka › Rate r9_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r7_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 7",
+     "to": "Raw Costing row 7",
+     "label": "Tokyo - Kyoto - Osaka › Rate r7_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r10_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 10",
+     "to": "Raw Costing row 10",
+     "label": "Tokyo - Kyoto - Osaka › Rate r10_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r8_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 8",
+     "to": "Raw Costing row 8",
+     "label": "Tokyo - Kyoto - Osaka › Rate r8_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r11_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 11",
+     "to": "Raw Costing row 11",
+     "label": "Tokyo - Kyoto - Osaka › Rate r11_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r15_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 15",
+     "to": "Raw Costing row 15",
+     "label": "Tokyo - Kyoto - Osaka › Rate r15_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r16_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 16",
+     "to": "Raw Costing row 16",
+     "label": "Tokyo - Kyoto - Osaka › Rate r16_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r17",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 17",
+     "to": "Raw Costing row 17",
+     "label": "Tokyo - Kyoto - Osaka › Rate r17 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r18",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 18",
+     "to": "Raw Costing row 18",
+     "label": "Tokyo - Kyoto - Osaka › Rate r18 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r25_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 25",
+     "to": "Raw Costing row 25",
+     "label": "Tokyo - Kyoto - Osaka › Rate r25_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r30",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 30",
+     "to": "Raw Costing row 30",
+     "label": "Tokyo - Kyoto - Osaka › Rate r30 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r30",
+      "label"
+     ],
+     "from": "Apartment / Hotel (COMMON, PO RM250 on the page, v24; R&D RM300)",
+     "to": "Apartment / Hotel (COMMON)",
+     "label": "Tokyo - Kyoto - Osaka › Rate r30 label"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r34_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 34",
+     "to": "Raw Costing row 34",
+     "label": "Tokyo - Kyoto - Osaka › Rate r34_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r38_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 38",
+     "to": "Raw Costing row 38",
+     "label": "Tokyo - Kyoto - Osaka › Rate r38_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r6_jpyqayyumucop",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 6",
+     "to": "Raw Costing row 6",
+     "label": "Tokyo - Kyoto - Osaka › Rate r6_jpyqayyumucop group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r9_jpyqayyumucop",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 9",
+     "to": "Raw Costing row 9",
+     "label": "Tokyo - Kyoto - Osaka › Rate r9_jpyqayyumucop group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r19_jpyqayyumucop",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 19",
+     "to": "Raw Costing row 19",
+     "label": "Tokyo - Kyoto - Osaka › Rate r19_jpyqayyumucop group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r26_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 26",
+     "to": "Raw Costing row 26",
+     "label": "Tokyo - Kyoto - Osaka › Rate r26_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r20_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 20",
+     "to": "Raw Costing row 20",
+     "label": "Tokyo - Kyoto - Osaka › Rate r20_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "rates",
+      "r21_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 21",
+     "to": "Raw Costing row 21",
+     "label": "Tokyo - Kyoto - Osaka › Rate r21_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "KIX",
+      "source"
+     ],
+     "from": "TOKYO OSAKA/PT_KIX_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Tokyo - Kyoto - Osaka › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "fx",
+      "JPY-WIF",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Osaka › FX JPY-WIF source"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "fx",
+      "JPY-UCOP",
+      "source"
+     ],
+     "from": "R&D CR!A4",
+     "to": "hub",
+     "label": "Osaka › FX JPY-UCOP source"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r6_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 6",
+     "to": "Raw Costing row 6",
+     "label": "Osaka › Rate r6_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r7_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 7",
+     "to": "Raw Costing row 7",
+     "label": "Osaka › Rate r7_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r8_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 8",
+     "to": "Raw Costing row 8",
+     "label": "Osaka › Rate r8_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r13_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 13",
+     "to": "Raw Costing row 13",
+     "label": "Osaka › Rate r13_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r14",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 14",
+     "to": "Raw Costing row 14",
+     "label": "Osaka › Rate r14 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r15_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 15",
+     "to": "Raw Costing row 15",
+     "label": "Osaka › Rate r15_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r22",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 22",
+     "to": "Raw Costing row 22",
+     "label": "Osaka › Rate r22 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r22",
+      "label"
+     ],
+     "from": "Hotel 3★ (Basic) (COMMON, PO RM250 on the page, v24; R&D RM300)",
+     "to": "Hotel 3★ (Basic) (COMMON)",
+     "label": "Osaka › Rate r22 label"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r27_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 27",
+     "to": "Raw Costing row 27",
+     "label": "Osaka › Rate r27_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r31_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 31",
+     "to": "Raw Costing row 31",
+     "label": "Osaka › Rate r31_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r9_jpyucop",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 9",
+     "to": "Raw Costing row 9",
+     "label": "Osaka › Rate r9_jpyucop group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r18_jpyucop",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 18",
+     "to": "Raw Costing row 18",
+     "label": "Osaka › Rate r18_jpyucop group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r23",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 23",
+     "to": "Raw Costing row 23",
+     "label": "Osaka › Rate r23 group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r23",
+      "label"
+     ],
+     "from": "Apartment (Standard) (COMMON, PO RM250 on the page, v24; R&D RM300)",
+     "to": "Apartment (Standard) (COMMON)",
+     "label": "Osaka › Rate r23 label"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r16_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 16",
+     "to": "Raw Costing row 16",
+     "label": "Osaka › Rate r16_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "rates",
+      "r17_jpywif",
+      "group"
+     ],
+     "from": "R&D Raw Costing row 17",
+     "to": "Raw Costing row 17",
+     "label": "Osaka › Rate r17_jpywif group"
+    },
+    {
+     "path": [
+      "destinations",
+      "OSK",
+      "source"
+     ],
+     "from": "OSAKA/PT_OSK_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Osaka › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "CTS",
+      "fx",
+      "JPY-WIF",
+      "source"
+     ],
+     "from": "R&D CR!A2",
+     "to": "hub",
+     "label": "Hokkaido › FX JPY-WIF source"
+    },
+    {
+     "path": [
+      "destinations",
+      "CTS",
+      "source"
+     ],
+     "from": "HOKKAIDO SAPPORO/PT CTS R&D -reformatupload.xlsx",
+     "to": "hub",
+     "label": "Hokkaido › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "DPS",
+      "fx",
+      "IDR",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Bali › FX IDR source"
+    },
+    {
+     "path": [
+      "destinations",
+      "DPS",
+      "source"
+     ],
+     "from": "BALI/PT_DPS_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Bali › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "LOP",
+      "fx",
+      "IDR",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Lombok › FX IDR source"
+    },
+    {
+     "path": [
+      "destinations",
+      "LOP",
+      "source"
+     ],
+     "from": "LOMBOK/PT LOP R&D - reformatbetulkan.xlsx",
+     "to": "hub",
+     "label": "Lombok › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "JOG",
+      "fx",
+      "IDR",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Jogjakarta › FX IDR source"
+    },
+    {
+     "path": [
+      "destinations",
+      "JOG",
+      "source"
+     ],
+     "from": "JOGJAKARTA/PT JOG R&D - reformatbetulkan.xlsx",
+     "to": "hub",
+     "label": "Jogjakarta › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ACEH",
+      "source"
+     ],
+     "from": "ACEH PT(update catalog)/PT ACEH R&D - format 1 new.xlsx",
+     "to": "hub",
+     "label": "Aceh › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "ACEHSBG",
+      "source"
+     ],
+     "from": "ACEH SABANG (update catalog)/PT_ACHSBG_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Aceh - Sabang › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "LTOBA",
+      "source"
+     ],
+     "from": "MEDAN LAKE TOBA/PT_LTOBA_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Medan - Lake Toba › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PDG",
+      "source"
+     ],
+     "from": "PADANG BUKITTINGGI/PT_PDG_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Padang - Bukittinggi › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "JBDO",
+      "source"
+     ],
+     "from": "JAKARTA BANDUNG/PT_JBDO_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Jakarta - Bandung › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "SUBB",
+      "source"
+     ],
+     "from": "SURABAYA BROMO MALANG/PT_SUBB_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Surabaya - Bromo - Malang › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "DLMNHCM",
+      "source"
+     ],
+     "from": "DALAT MUINE HCM/PT_DLMNHCM_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "HCM - Dalat - Muine › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PQC",
+      "source"
+     ],
+     "from": "PHU QUOC/PT_PQC_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Phu Quoc › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "HNSH",
+      "source"
+     ],
+     "from": "HANOI SAPA HALONG/PT_HNSH_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Hanoi - Sapa - Halong Bay › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "DADH",
+      "source"
+     ],
+     "from": "DANANG HOI AN/PT_DADH_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Danang - Hoi An › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "MEL",
+      "fx",
+      "AUD",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Melbourne › FX AUD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "MEL",
+      "source"
+     ],
+     "from": "MELBOURNE/PT_MEL_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Melbourne › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PER",
+      "fx",
+      "AUD",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Perth › FX AUD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PER",
+      "source"
+     ],
+     "from": "PERTH/PT Perth R&D -  reformatbetulkan.xlsx",
+     "to": "hub",
+     "label": "Perth › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "NSNZ",
+      "fx",
+      "NZD",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "New Zealand › FX NZD source"
+    },
+    {
+     "path": [
+      "destinations",
+      "NSNZ",
+      "source"
+     ],
+     "from": "NEW ZEALAND/PT_NSNZ_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "New Zealand › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "MLE",
+      "variants",
+      "MLE-BASIC-LOW",
+      "label"
+     ],
+     "from": "Resort / TO (R&D)",
+     "to": "Resort / TO",
+     "label": "Maldives › TO MLE-BASIC-LOW name"
+    },
+    {
+     "path": [
+      "destinations",
+      "MLE",
+      "variants",
+      "MLE-BASIC-HIGH",
+      "label"
+     ],
+     "from": "Resort / TO (R&D)",
+     "to": "Resort / TO",
+     "label": "Maldives › TO MLE-BASIC-HIGH name"
+    },
+    {
+     "path": [
+      "destinations",
+      "MLE",
+      "variants",
+      "MLE-BASIC-PEAK",
+      "label"
+     ],
+     "from": "Resort / TO (R&D)",
+     "to": "Resort / TO",
+     "label": "Maldives › TO MLE-BASIC-PEAK name"
+    },
+    {
+     "path": [
+      "destinations",
+      "MLE",
+      "source"
+     ],
+     "from": "MALDIVES/PT MLE R&D betulkan.xlsx",
+     "to": "hub",
+     "label": "Maldives › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KMGDLS",
+      "fx",
+      "RMB",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Yunnan 4 Wilayah › FX RMB source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KMGDLS",
+      "source"
+     ],
+     "from": "YUNNAN 4 WILAYAH/PT_KMGDLS_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Yunnan 4 Wilayah › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PEK",
+      "fx",
+      "RMB",
+      "source"
+     ],
+     "from": "R&D CR!A3",
+     "to": "hub",
+     "label": "Beijing › FX RMB source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PEK",
+      "source"
+     ],
+     "from": "BEIJING/PT_PEK_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Beijing › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "BKK",
+      "fx",
+      "THB",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A3",
+     "to": "hub",
+     "label": "Bangkok › FX THB source"
+    },
+    {
+     "path": [
+      "destinations",
+      "BKK",
+      "source"
+     ],
+     "from": "BANGKOK/PT_BKK_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Bangkok › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHU",
+      "fx",
+      "THB",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A2",
+     "to": "hub",
+     "label": "Phuket › FX THB source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHU",
+      "source"
+     ],
+     "from": "PHUKET/PT PHU R&D - reformatupload.xlsx",
+     "to": "hub",
+     "label": "Phuket › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KBV",
+      "fx",
+      "THB",
+      "source"
+     ],
+     "from": "R&D CR!B2",
+     "to": "hub",
+     "label": "Krabi › FX THB source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KBV",
+      "source"
+     ],
+     "from": "KRABI/PT KRABI R&D - reformatupload.xlsx",
+     "to": "hub",
+     "label": "Krabi › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "SWS",
+      "fx",
+      "CHF",
+      "source"
+     ],
+     "from": "R&D Raw Costing!A2",
+     "to": "hub",
+     "label": "Switzerland › FX CHF source"
+    },
+    {
+     "path": [
+      "destinations",
+      "SWS",
+      "source"
+     ],
+     "from": "SWITZERLAND/PT SWS R&D - reformatupload.xlsx",
+     "to": "hub",
+     "label": "Switzerland › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "KKK",
+      "source"
+     ],
+     "from": "KK KUNDASANG/PT_KKK_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "KK Kundasang › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "SEM",
+      "source"
+     ],
+     "from": "SEMPORNA/PT_SEM_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Semporna › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHT",
+      "source"
+     ],
+     "from": "PERHENTIAN/PT_PHT_RD_reformatted.xlsx",
+     "to": "hub",
+     "label": "Perhentian › source"
+    },
+    {
+     "path": [
+      "destinations",
+      "CTS",
+      "note"
+     ],
+     "from": "Group costs are shared over at most 10 pax in the R&D (÷ MIN(pax,10)).",
+     "to": "Group costs are shared over at most 10 pax (÷ MIN(pax,10)).",
+     "label": "CTS › note"
+    }
+   ]
   }
  ]
 }

@@ -6,7 +6,7 @@ Add-ons and the Jeju Self Tour (not in the CR) are left as they are. Seoul is to
 
     python3 tools/build_korea_cr.py --by product
 
-Keep SELJJU JJU JJUO in --keep on every R&D re-import (tools/merge_dests.py).
+Run only when the ATK CR xlsx changes; it rewrites SELJJU, JJU and JJUO in data/data.json.
 """
 import argparse, datetime, json, os, sys
 

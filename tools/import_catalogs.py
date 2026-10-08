@@ -9,12 +9,12 @@ build.py pulls these files byte for byte before building catalog-pt-public. Edit
                                                      # data/catalogs/ with Catalog PT's copy — not for normal use
 
 index.json = {slug: {code, package, title, duration, version, updated, url}} — which calculator package each
-catalog belongs to (MAP in crosscheck.py); the destination page's Catalog Details tab reads it.
+catalog belongs to (MAP in flags.py); the destination page's Catalog Details tab reads it.
 """
 import argparse, glob, json, os, shutil, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from crosscheck import MAP   # catalog slug -> (destination code, calculator package id)
+from flags import MAP   # catalog slug -> (destination code, calculator package id)
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 DRIVE = os.path.expanduser("~/Library/CloudStorage/GoogleDrive-product@arbatravel.com/My Drive/Catalog PT (new)/catalogs")

@@ -1,6 +1,6 @@
 // Dump the calculator's own numbers (cost / selling per package, TO, pax, pax type) for
-// tools/crosscheck.py, using the page's engine so it matches what POs see.
-//   node tools/margins.js > /tmp/margins.json        (needs jsdom)
+// tools/flags.py, using the page's engine so it matches what POs see.
+//   node tools/margins.js > margins.json        (needs jsdom)
 const fs = require("fs"), path = require("path");
 const { JSDOM } = require("jsdom");
 const ROOT = path.join(__dirname, "..");
@@ -31,6 +31,6 @@ const dom = new JSDOM(html, {
       out[d.code][pkg.id] = { label: pkg.label, rows };
     }
   }
-  process.stdout.write(JSON.stringify(out, (k, v) => (typeof v === "number" && !isFinite(v) ? null : v)));
-  process.exit(0);
+  // exit only after the write is flushed: a pipe takes 64 KB at a time
+  process.stdout.write(JSON.stringify(out, (k, v) => (typeof v === "number" && !isFinite(v) ? null : v)), () => process.exit(0));
 })();

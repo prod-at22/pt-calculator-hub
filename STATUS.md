@@ -1,4 +1,4 @@
-# Status & handoff (8 Oct 2026, data v26, Catalog Details)
+# Status & handoff (8 Oct 2026, data v28 — the hub is the source of truth)
 
 PT R&D Costing Hub (renamed 8 Oct; repo/URL unchanged). Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
@@ -8,13 +8,13 @@ How everything works: README.md. This file = where we stopped. Reply to the PO i
 gh repo clone prod-at22/pt-calculator-hub && cd pt-calculator-hub
 git config user.name "ezie ARBA" && git config user.email "eziearba@ezies-MacBook-Air.local"
 git config http.postBuffer 524288000          # contracts/ has large files
-npm i jsdom --no-save && node tests/test_calc.js tests/truth.json   # must say ALL PASSED
+npm i jsdom --no-save && node tests/test_calc.js   # must say ALL PASSED
 ```
 After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests, commit, push, wait for the Pages build.
 
 ## Page today
 - Hub: one row per catalog package (name · PO · last update). 37 destinations.
-- Destination page: header (PO, locked FX chips) · **Package** (package name only) · **Tour operator** (operator
+- Destination page: header (PO, FX chips — editable in Edit costs) · **Package** (package name only) · **Tour operator** (operator
   name only; lists just that package's TOs, auto-picked by pax) · tabs Costing / TO Contract Rate / Add-ons / Flags / History.
 - Costing table: one block per TO; component columns (group RM), headers = component name only. Rate-built TOs
   (Tokyo, Osaka, Tokyo-Osaka) get two buttons, both off by default: **Show rate reference** opens a horizontal table above Costing by
@@ -24,15 +24,16 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   hidden; a single cost line shows as Cost/Pax only. Cost/Pax · Catalog Price · **Selling Price = Catalog − RM200**
   (settings.sellingDiscount, all packages; infant no discount) · Margin (green +, red −) · % · Total Gross.
   Grey/white rows, one header colour, all centred. No Source column, no Quote / Rates & FX tabs.
-- Names: tools/names.json (package + operator display names), applied by tools/apply_names.py and re-applied by
-  merge_dests.py after every import.
+  In **Edit costs** a *TO rates* table appears above Costing by pax (toRatesCard): per-pax cost per component for
+  each TO, or the supplier rates for Tokyo / Osaka / Tokyo-Osaka — this is where TO costs are changed now.
+- Names: tools/names.json (package + operator display names), applied by tools/apply_names.py.
 - TO Contract Rate tab: files in contracts/<code>/ listed in data.json `contracts`. Uploading from the page needs
   login, which is still not set up (data/users.json empty) — files so far were committed directly.
 
 ## Catalog content (Catalog Details tab) — the hub is the source, catalog-pt-public mirrors it
 - data/catalogs/<slug>.json = every catalog (67), same schema as Catalog PT. Imported once (8 Oct) byte for
   byte from Drive "Catalog PT (new)/catalogs" (`tools/import_catalogs.py --from-drive` — do NOT run again,
-  it would overwrite hub edits). data/catalogs/index.json links slug → package (MAP in crosscheck.py);
+  it would overwrite hub edits). data/catalogs/index.json links slug → package (MAP in tools/flags.py);
   rebuild it with `python3 tools/import_catalogs.py` after editing a catalog. Not linked: ho-chi-minh,
   maldives-standard, yunnan-3-wilayah-6d5n (no calculator package).
 - Destination page tab **Catalog Details**: the selected package's catalog — prices as printed, includes /
@@ -49,41 +50,37 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - Not editable on the page yet (read-only view; edit the JSON in the repo). Prices shown are the catalog's;
   the Costing tab keeps its own catalog prices in data.json — they can disagree (see flags).
 
-## Where each destination's cost comes from
-- R&D sheets (tools/extract_rd.py) for everything except below.
-- **SEL** Basic/Standard: ATK CR 2026 in KRW × 0.0030 (tools/build_sel.py, reads contracts/sel/…KRW.xlsx via
-  tools/korea_cr.py); Seoul add-ons from ProdReq Korea §7–8. Self Tour = R&D.
-- **SELJJU, JJU, JJUO**: ATK CR 2026 in KRW × 0.0030 (tools/build_korea_cr.py). Jeju Self Tour = R&D.
-- **HND**: rate by rate. Qayyum (Standard 2–7) rates from ProdReq Jepun (airport ¥22,000, City ¥76,000, Fuji ¥81,000),
-  **Qayyum FX 0.026** (PO); WIF FX 0.029. Apartment RM250/pax/night. No Qayyum CR exists — contracts/hnd has an
-  ARBA-internal rate sheet PDF (tools/make_qayyum_sheet.py; regenerate after any Qayyum rate change).
-- **OSK, KIX**: rate by rate since v26 (tools/build_jp_rates.py reads the R&D CR formulas = Raw Costing rate ×
-  FX; checks every component at every pax against the old values). Accommodation RM250/pax/night (PO, v24) kept
-  via OVERRIDE in that script — R&D still says RM300. After a re-import of OSK/KIX run build_jp_rates.py again.
-- **JBDO**: CTRANS fullboard rate 2–10 pax (v5), not yet in the R&D sheet. Catalog prices = Catalog PT v8, 2–19 pax only (v27); the R&D Costing tab still has the old prices.
-- Turkey / Istanbul 4★ removed (no MyTrip CR, no catalog); SKIP_TO in extract_rd.py keeps it out.
-
-Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO OSK KIX`.
+## The hub is the source of truth (v28, 8 Oct 2026)
+- All costs, FX, catalog prices, rules and add-ons are edited **on the page** and saved as versions. The R&D
+  workbooks are no longer read: the importers (extract_rd, merge_dests, build_data, extract_fx, extract_krabi,
+  build_jp_rates), the R&D comparison (tests/truth, crosscheck.py) and the R&D markers / cell references in
+  data.json were removed (v28). Do not re-create an R&D import — it would overwrite saved edits.
+- Contract-based costs stay script-built from the TO contract (not R&D): **SEL** Basic/Standard (tools/build_sel.py)
+  and **SELJJU, JJU, JJUO** (tools/build_korea_cr.py), ATK CR 2026 KRW × 0.0030. Run them only when ATK sends a new CR.
+- **HND / OSK / KIX** are rate by rate (rate × FX). Qayyum FX 0.026, WIF 0.029, apartment RM250/pax/night.
+  contracts/hnd has the ARBA-internal Qayyum rate sheet (tools/make_qayyum_sheet.py; regenerate after a Qayyum rate change).
+- **JBDO**: CTRANS fullboard rate 2–10 pax (v5); catalog = Catalog PT v8, 2–19 pax (v27). 11–19 pax have no TO cost yet.
+- Flags (tools/flags.py): catalogs × the hub's own numbers only.
 
 ## Open — waiting on the PO
 1. Tokyo (on hold by PO): catalog JSON Tokyo Standard (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — which is current?
    Qayyum open items: tolls/parking/fuel inside the rate? guide's own entrance? Iyashi entrance still on WIF FX 0.029.
 2. Korea CR: Basic 16 pax 406,193 KRW looks wrong; no rate 26–30 pax (except Standard); CR seasonal ±RM150–300 not applied;
    2-pax margin thin on Seoul-Jeju / Jeju-Udo.
-3. Maldives operator name unknown (TO box shows "Resort / TO (R&D)" / "Resort package").
+3. Maldives operator name unknown (TO box shows "Resort / TO" / "Resort package").
 4. Confirm guessed package names: Lake Toba Emiya = Parapat, Baim = Samosir; Perhentian Basic = Shari-La, Standard = Mimpi.
 5. One FX per currency (THB 0.131 vs 0.122; IDR; USD 3.97 vs 4.0295; RMB 0.65 vs 0.58; AUD).
-6. "R&D price ≠ catalog" flags: which side is right (Bangkok, Hokkaido +1,200 hotel, Phuket, Semporna, child prices…).
+6. "hub price ≠ catalog" flags: which side is right (Bangkok, Hokkaido +1,200 hotel, Phuket, Semporna, child prices…).
    /flags/ regenerated 7 Oct on data v25 (95 flags: 29 high · 37 medium · 29 low). New since v6: KK margin
    problems in 11 lines and Perhentian Shari-La under 10% / CWB below cost (both from Selling = Catalog − RM200),
    Seoul-Jeju 2 pax 6.8% and Jeju-Udo 3.8% margin, Korea 26–30 pax no cost, Qayyum FX 0.026 (HND) vs 0.0259 (KIX).
-7. No R&D yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
+7. No costing in the hub yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
 8. Login: admin must create a fine-grained token and do First-time setup on the live page (cannot be done for them).
 9. Uploaded only files named PT from the Drive "Production Team" folder; unlabelled CRs (Perhentian resorts,
    Semporna Legend, Perth K&N, NZ price list, Pak Jamal, KK / Krabi / Maldives folders) were not uploaded.
 
 ## Sources
-- R&D: ~/Downloads/PT DESTINASI R&D REFORMAT/<DEST>/ (newest *reformat*).
+- R&D workbooks (~/Downloads/PT DESTINASI R&D REFORMAT/): history only, not used by the hub.
 - Catalog content: data/catalogs/ (this repo). Catalog PT build (mirror): ~/Library/CloudStorage/GoogleDrive-product@arbatravel.com/My Drive/Catalog PT (new)/
 - Project PT sheet (codes, POs, catalog names): Drive file 10lru13aYbcbI888rhghOipOyiKm_6FYykfFu0xfoReQ
 - TO CRs on Drive: "Production Team" folder 10Ez7h9hXXVsECV4UIGKKx7dnvZDGwOhC (one sub-folder per destination).
@@ -91,11 +88,8 @@ Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO OSK KIX`.
 
 ## Rebuild / check
 ```bash
-python3 tools/extract_rd.py --work /tmp/ptx && python3 tools/extract_krabi.py --work /tmp/ptx
-python3 tools/extract_fx.py --work /tmp/ptx      # or --from-data: FX locked in data.json, no R&D re-import needed
-python3 tools/merge_dests.py --dests /tmp/ptx/dest --keep HND JBDO SEL SELJJU JJU JJUO OSK KIX --by <you> --note "<why>"
 python3 tools/build_sel.py && python3 tools/build_korea_cr.py      # only when the ATK CR xlsx changes
-python3 tools/make_pages.py
-node tools/margins.js > /tmp/ptx/margins.json && python3 tools/crosscheck.py --fx /tmp/ptx/fx.json --margins /tmp/ptx/margins.json
-node tests/test_calc.js tests/truth.json
+python3 tools/make_pages.py                                         # after any app.js / app.css / new destination
+NODE_PATH=<jsdom dir> python3 tools/flags.py                        # regenerate /flags/
+node tests/test_calc.js
 ```

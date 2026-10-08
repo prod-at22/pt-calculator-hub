@@ -181,7 +181,7 @@ function applyRule(rule, base, cost) {
   return rule.type === "pct" ? base * v : rule.type === "minus" ? base - v : v;
 }
 const priceAt = (pkg, k, pax) => { const v = pkg.pricing[k]?.[String(pax)]; return v === undefined || v === null || v === "" ? NaN : +v; };
-// One row of the R&D Costing tab: cost / catalog / selling / margin for each pax type.
+// One row of the Costing tab: cost / catalog / selling / margin for each pax type.
 const sellDisc = () => { const v = (shown().settings || {}).sellingDiscount; return v === undefined || v === null || v === "" ? 200 : +v; };
 function priceRow(d, pkg, variantId, pax, opts) {
   const v = d.variants.find(x => x.id === variantId);
@@ -189,7 +189,7 @@ function priceRow(d, pkg, variantId, pax, opts) {
   const cost = variantCost(d, v, pax, O);
   const adultCost = cost ? cost.total : NaN, r = pkg.rules;
   // Selling = Catalog Price (+ tier / option upgrade) − RM200 for every package (settings.sellingDiscount);
-  // the infant flat price has no upgrade and no discount. The R&D's own rules.discountTier2 is not used.
+  // the infant flat price has no upgrade and no discount. rules.discountTier2 (from the old import) is not used.
   const up = (+r.tierUpgrade || 0) + optionUpgrade(d, pkg, O), disc = sellDisc();
   const mk = (costV, catV, infant) => {
     const catalog = num(catV) ? catV + (infant ? 0 : up) : NaN;
@@ -367,11 +367,12 @@ function renderBanners() {
   if (window.__loadError) out.push(`<div class="banner err">${esc(window.__loadError)}</div>`);
   $("#banners").innerHTML = out.join("");
 }
-// FX chips: the rates the R&D used, read-only (change them in the R&D sheet, then re-import).
+// FX chips: the rate each foreign-currency cost is multiplied by. Editable in Edit costs;
+// changing it recalculates every cost that uses it.
 function fxChips(d) {
   const fx = (d.fx || []).filter(f => f.id !== "MYR");
-  if (!fx.length) return `<span class="fx"><span class="lock">🔒</span> MYR direct</span>`;
-  return fx.map(f => `<span class="fx" title="Locked — from ${esc(f.source || "the R&D sheet")}. Change FX in the R&D sheet, then re-import."><span class="lock">🔒</span> ${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+f.value))}</b></span>`).join("");
+  if (!fx.length) return `<span class="fx">MYR direct</span>`;
+  return fx.map(f => `<span class="fx" title="FX used for every ${esc(f.label.replace(" → MYR", ""))} cost on this page.${EDIT ? "" : " Log in and Edit costs to change it."}">${esc(f.label.replace(" → MYR", ""))} <b>${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}</b></span>`).join("");
 }
 const flagsFor = code => FLAGS.flags.filter(f => f.code === code || (f.code === "ALL" && new RegExp("\\b" + code + "\\b").test(f.detail)));
 // TOs offered for a package: the ones its pax bands assign, plus its extra choices (Krabi Day-3 options).
@@ -402,10 +403,10 @@ function renderMain(d, pkg) {
   const pax = bandPax();
   $("#kpis").innerHTML = "";
   const T = SEL.tab;
-  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + costingByPax(d, pkg, pax);
+  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + (EDIT && !VIEW ? toRatesCard(d, pkg) : "") + costingByPax(d, pkg, pax);
   else if (T === "catalog") $("#grid").innerHTML = catalogCard(d, pkg);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
-  else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons in the R&D for ${esc(d.name)}.</div></div>`;
+  else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
   else if (T === "history") {
     const es = [...HISTORY.entries].filter(touchesDest).sort((a, b) => b.v - a.v);
@@ -423,7 +424,7 @@ function costingSummary(d, pkg) {
     <div><span class="l">Lowest margin</span><b class="${marginClass(lo.r.pct)}">${rm(lo.r.margin)} at ${lo.p} pax</b></div>
   </div>`;
 }
-// Flags: cross-check of catalog, R&D sheet and calculator (tools/crosscheck.py → data/flags.json)
+// Flags: cross-check of the catalogs and the hub's own numbers (tools/flags.py → data/flags.json)
 const SEV = { high: "High", medium: "Medium", low: "Low" };
 function flagList(list, withDest) {
   if (!list.length) return `<div class="card full"><div class="empty">No flags.</div></div>`;
@@ -443,12 +444,12 @@ function renderFlagsPage() {
     && (!q || (f.code + " " + f.title + " " + f.detail).toLowerCase().includes(q)));
   const cnt = s => FLAGS.flags.filter(f => f.severity === s).length;
   $("#grid").innerHTML = `<div class="card full"><div class="body flagbar">
-      <a href="${ROOT}">← All packages</a><h1>Flags <span class="sub muted small">catalog × R&amp;D × calculator · checked ${esc(fmtDate(FLAGS.generatedAt))} (data v${FLAGS.dataVersion || "?"})</span></h1>
+      <a href="${ROOT}">← All packages</a><h1>Flags <span class="sub muted small">catalog × hub · checked ${esc(fmtDate(FLAGS.generatedAt))} (data v${FLAGS.dataVersion || "?"})</span></h1>
       <div class="filters">${["high", "medium", "low"].map(s => `<button class="tab${SEL.flagSev[s] ? " on" : ""}" data-sev="${s}">${SEV[s]} ${cnt(s)}</button>`).join("")}
         <select id="flagArea"><option value="">All areas</option>${areas.map(a => `<option${a === SEL.flagArea ? " selected" : ""}>${esc(a)}</option>`).join("")}</select>
         <select id="flagPO"><option value="">All POs</option>${pos.map(p => `<option${p === SEL.flagPO ? " selected" : ""}>${esc(p)}</option>`).join("")}</select>
         <input id="flagQ" type="search" placeholder="Search…" value="${esc(SEL.flagQ)}"></div>
-      <div class="small muted">${list.length} shown. High = a price or cost is wrong or missing · Medium = needs a decision or the R&D and catalog disagree on coverage · Low = housekeeping.</div></div></div>` + flagList(list, true);
+      <div class="small muted">${list.length} shown. High = a price or cost is wrong or missing · Medium = needs a decision or the catalog and hub disagree on coverage · Low = housekeeping.</div></div></div>` + flagList(list, true);
 }
 const onLabel = (d, keys) => keys.map(k => { for (const v of d.variants) { const c = v.components.find(x => x.key === k); if (c) return c.label; } return k; }).join(" + ");
 // Component columns for a package: union of components across the TOs it uses, in order.
@@ -458,9 +459,9 @@ function pkgComponents(d, pkg) {
   for (const id of ids) { const v = d.variants.find(x => x.id === id); if (v) for (const c of v.components) if (!out.some(o => o.key === c.key)) out.push({ key: c.key, label: c.label }); }
   return out;
 }
-// Same layout as the R&D sheet: one block per TO (title + header), component columns are
+// Same layout as the old R&D sheet: one block per TO (title + header), component columns are
 // GROUP totals in RM, then Cost/Pax = sum ÷ pax, Selling, Margin RM / %, Total Gross = margin × pax.
-// "Selling (Catalog − RM200)" — selling is the catalog price minus the R&D tier-2 discount
+// "Selling (Catalog − RM200)" — selling is the catalog price minus settings.sellingDiscount
 const sellLabel = () => "Selling Price";
 // "Show calculation": a rate-built component's formula at this pax with the actual rates, e.g.
 // 2*R.hndQ at Qayyum FX → "¥22,000 × 2 × 0.026". band(pax, …) is resolved to the band used at this pax.
@@ -577,6 +578,37 @@ function addonTotals(d) {
   }
   return { sell, cost, n, missing };
 }
+// TO rates editor (Costing tab, Edit costs only): every TO cost the page uses — the hub is the source, no R&D sheet.
+// Rate-by-rate destinations (Tokyo, Osaka, Tokyo-Osaka): one list of supplier rates × FX.
+// Every other destination: per TO, one per-pax table per cost component (T['…'] in its formula).
+function toRatesCard(d, pkg) {
+  const DP = ["destinations", d.code];
+  const vs = SEL.variant !== "auto" ? d.variants.filter(v => v.id === SEL.variant) : pkgVariants(d, pkg);
+  const fxLbl = id => id === "MYR" ? "RM" : ((d.fx.find(f => f.id === id) || {}).label || id).replace(" → MYR", "");
+  const hint = "Edit TO rates: costs, selling and margin below recalculate as you type";
+  const out = [];
+  const usedR = new Set(vs.flatMap(v => v.components.flatMap(c => [...String(c.expr).matchAll(/R\.(\w+)/g)].map(m => m[1]))));
+  const rates = (d.rates || []).filter(r => usedR.has(r.id));
+  if (rates.length) {
+    const groups = [...new Set(rates.map(r => r.group || ""))];
+    out.push(`<div class="card full"><h2>TO rates · ${esc(d.name)} <span class="sub">${rates.length} rates · ${esc(hint)}</span></h2><div class="scroll"><table class="rd torates">
+      <thead><tr><th class="l">Rate</th><th class="l">Unit</th><th>Rate</th><th class="l">FX</th><th>RM</th></tr></thead><tbody>
+      ${groups.map(g => `${g ? `<tr class="cat"><td colspan="5">${esc(g)}</td></tr>` : ""}${rates.filter(r => (r.group || "") === g).map(r => {
+        const fx = fxOf(d, r.fx);
+        return `<tr><td class="l wrap">${esc(r.label)}</td><td class="l muted small">${esc(r.unit || "")}</td><td>${ed([...DP, "rates", r.id, "value"], r.value, { display: n2(+r.value) })}</td><td class="l muted small">${esc(fxLbl(r.fx))}${r.fx === "MYR" ? "" : " × " + esc(String(fx))}</td><td>${rm((+r.value) * fx, 2)}</td></tr>`;
+      }).join("")}`).join("")}</tbody></table></div></div>`);
+  }
+  for (const v of vs) {
+    const cols = v.components.map(c => ({ c, t: (d.tables || []).find(t => String(c.expr).includes("T['" + t.id + "']")) })).filter(x => x.t);
+    if (!cols.length) continue;
+    const paxs = [...new Set(cols.flatMap(x => Object.keys(x.t.values).map(Number)))].sort((a, b) => a - b);
+    out.push(`<div class="card full"><h2>TO rates · ${esc(v.label)} <span class="sub">${esc(v.supplier || "")} · ${v.paxMin}–${v.paxMax} pax · ${esc(hint)}</span></h2><div class="scroll"><table class="rd torates">
+      <thead><tr><th>Pax</th>${cols.map(x => `<th title="${esc(x.t.label)}">${esc(x.c.label)}<div class="muted small">${esc(x.t.unit || fxLbl(x.t.fx))}</div></th>`).join("")}</tr></thead><tbody>
+      ${paxs.map(p => `<tr><td class="c"><b>${p}</b></td>${cols.map(x => { const val = x.t.values[String(p)]; return `<td>${ed([...DP, "tables", x.t.id, "values", String(p)], val, { display: val === undefined || val === null || val === "" ? '<span class="muted">—</span>' : n2(+val) })}</td>`; }).join("")}</tr>`).join("")}
+      </tbody></table></div></div>`);
+  }
+  return out.join("");
+}
 function addonCard(d) {
   const list = d.addons || [], DP = ["destinations", d.code];
   if (!list.length) return "";
@@ -586,7 +618,7 @@ function addonCard(d) {
     const c = num(a.cost) ? a.cost : NaN, sv = num(a.selling) ? a.selling : NaN, m = sv - c, p = num(m) && sv ? m / Math.abs(sv) : NaN;
     const q = +SEL.addonQty[a.id] || 0;
     return `<tr${q ? ' class="cur"' : ""}><td style="white-space:normal;min-width:200px">${esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}</td><td class="l muted small">${esc(a.per || "")}</td>
-      <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost in the R&D sheet">cost?</span>' })}</td>
+      <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost yet — add it in Edit costs">cost?</span>' })}</td>
       <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
       <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
       <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td></tr>`;
@@ -718,7 +750,7 @@ function histEntry(e) {
   if (PAGE_DEST && e.changes) e = { ...e, changes: e.changes.filter(c => c.path[1] === PAGE_DEST) };
   return `<div class="e"><div class="h"><span class="pill nav">v${e.v}</span><b>${esc(e.by)}</b><span class="muted small">${esc(fmtDate(e.at))}</span>
     <span class="small">${esc(e.note || "")}</span>
-    <span style="margin-left:auto">${e.v === DATA.version ? '<span class="pill ok">current</span>' : e.v < lastRebase() ? '<span class="pill grey" title="Before a re-import from the R&D files; open the R&D workbook history instead">before re-import</span>' : `<button class="btn" data-view="${e.v}">View v${e.v}</button>`}</span></div>
+    <span style="margin-left:auto">${e.v === DATA.version ? '<span class="pill ok">current</span>' : e.v < lastRebase() ? '<span class="pill grey" title="Before a bulk import; versions before it cannot be rebuilt">before re-import</span>' : `<button class="btn" data-view="${e.v}">View v${e.v}</button>`}</span></div>
     ${e.summary && e.summary.length ? `<ul>${e.summary.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : e.changes && e.changes.length ? `<ul>${e.changes.slice(0, 12).map(c => `<li>${esc(c.label || describe(src, c.path))}: <span class="from">${esc(showVal(c.from))}</span> → <span class="to">${esc(showVal(c.to))}</span></li>`).join("")}${e.changes.length > 12 ? `<li class="muted">+ ${e.changes.length - 12} more</li>` : ""}</ul>` : ""}</div>`;
 }
 

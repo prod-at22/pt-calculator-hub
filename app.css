@@ -224,3 +224,5 @@ body.hubpage #grid{display:block}
 .hubfoot{text-align:center;font-size:0.78rem;color:var(--ink-soft);padding-top:1.5rem}
 .hubfoot a{color:var(--brand)}
 @media (max-width:520px){.hub .row{flex-wrap:wrap;gap:0.25rem 0.75rem}.hub .dest{flex:1 1 100%}}
+table.torates td input.ed{width:96px;text-align:right}
+table.torates th{white-space:normal;min-width:90px}

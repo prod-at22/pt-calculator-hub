@@ -6,11 +6,11 @@ Package (Basic / Standard): one line per pax, KRW × FX 0.0030, read from the AT
   Child: extra bed 75%, no bed 50% of adult rate; infant FOC (same CR).
 Add-ons: ~/.claude/skills/prodreqkorea/references/prodreq.md §7–§8 — selling as listed, cost from the
   ProdReq cost column or its KRW rate × FX (the same 0.0030 as the CR). No rate in the ProdReq → cost left empty (shown as cost?).
-Self Tour (ATK-ST) is not in the CR or the ProdReq and stays on the R&D sheet.
+Self Tour (ATK-ST) is not in the CR or the ProdReq; it keeps the costs already in the hub.
 
     python3 tools/build_sel.py --by product
 
-Keep SEL in --keep on every R&D re-import (tools/merge_dests.py).
+Run only when the ATK CR xlsx changes; it rewrites SEL in data/data.json.
 """
 import argparse, datetime, json, os, sys
 
@@ -83,7 +83,7 @@ def main():
         {"id": "KRW", "label": "KRW → MYR", "value": FX, "locked": True, "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"}]
     d["rates"] = []
     d["nights"] = 4
-    d["source"] = "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: R&D"
+    d["source"] = "ATK CR 2026 Korea · add-ons: ProdReq Korea · Self Tour: hub"
     d["note"] = ("Basic / Standard cost = ATK CR 2026 per pax in KRW × 0.0030. CR seasonal discount/upcharge for BSC & STD "
                  "(Jan −RM200, Feb −RM200, 21–31 Dec +RM200) is not applied here.")
     tables = [t for t in d["tables"] if t["id"].startswith("ATK-ST__")]

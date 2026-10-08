@@ -1,7 +1,7 @@
 """Apply tools/names.json to data/data.json: package names (no operator), TO = operator name.
 
     python3 tools/apply_names.py --by product            # records one history version
-merge_dests.py calls apply() after every import so a re-import keeps these names.
+Run it after adding a destination so its package and TO names follow names.json.
 """
 import argparse, datetime, json, os
 

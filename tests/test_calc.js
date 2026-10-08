@@ -1,11 +1,9 @@
-// Tests for the PT costing calculator.
-//   node tests/test_calc.js [truth.json]
-// Needs jsdom (npm i jsdom). truth.json = per-TO, per-pax costs read from the
-// R&D workbooks after a LibreOffice recalculation (see README "Verifying").
+// Tests for the PT costing calculator. The hub is the source of truth: these check the engine,
+// rules and UI against fixed numbers, not against any R&D workbook.
+//   node tests/test_calc.js        (needs jsdom: npm i jsdom)
 const fs = require("fs"), path = require("path");
 const { JSDOM } = require("jsdom");
 const ROOT = path.join(__dirname, "..");
-const TRUTH = process.argv[2] ? JSON.parse(fs.readFileSync(process.argv[2], "utf8")) : null;
 
 let pass = 0, fail = 0;
 const ok = (c, msg) => { if (c) pass++; else { fail++; console.log("  FAIL", msg); } };
@@ -92,72 +90,27 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   const HND = () => byCode(P.DATA, "HND");
   const V0 = D.version;   // versions below are relative to the data we start from
 
-  console.log("1. costs match the R&D CR tab");
-  if (TRUTH) {
-    let checked = 0;
-    for (const [code, tos] of Object.entries(TRUTH)) {
-      const d = D.destinations.find(x => x.code === code);
-      for (const [to, rows] of Object.entries(tos)) {
-        const v = d.variants.find(x => x.id === to);
-        ok(v, `${code} variant ${to} exists`);
-        for (const [pax, t] of Object.entries(rows)) {
-          const c = P.variantCost(d, v, +pax);
-          // accommodation moved off the R&D on purpose (RM300 → RM250/pax/night, 6 Oct 2026): check it against the new rate
-          const acc = c && c.comps.find(x => x.key === "accomm"), accRD = t.comps.accomm || 0;
-          const accNow = acc && /R\.apt/.test(acc.expr) ? 250 * d.nights * +pax : accRD;
-          ok(c && near(c.total, t.total + (accNow - accRD) / +pax), `${code} ${to} pax ${pax}: total ${c && c.total} vs R&D ${t.total} (accomm adjusted)`);
-          for (const [k, val] of Object.entries(t.comps)) {
-            const comp = c && c.comps.find(x => x.key === k);
-            const got = comp ? comp.group : 0;
-            const exp = k === "accomm" ? accNow : (val || 0);   // HND CR columns are group totals
-            ok(near(got, exp), `${code} ${to} pax ${pax} ${k}: ${got} vs ${exp}`);
-          }
-          checked++;
-        }
-      }
-    }
-    console.log("   checked", checked, "TO × pax rows");
-  } else console.log("   (skipped: pass truth.json)");
-
-  console.log("1b. every destination: page numbers = R&D Costing tab (tests/truth/*.json)");
+  console.log("1. FX belongs to the hub: changing it recalculates the costs that use it");
   {
-    let rows = 0, gaps = 0;
-    // costs edited on/after import (not re-imports) no longer equal the R&D: compare selling only
-    const H = P.HISTORY.entries, costEdited = new Set(H.filter(e => !e.rebase).flatMap(e => (e.changes || [])
-      .filter(c => ["tables", "variants", "rates"].includes(c.path[2])).map(c => c.path[1])));
-    // catalog prices edited after import (e.g. JBDO → Catalog PT v8): compare cost only
-    const priceEdited = new Set(H.filter(e => !e.rebase).flatMap(e => (e.changes || [])
-      .filter(c => c.path[2] === "packages" && c.path[4] === "pricing").map(c => c.path[1])));
-    for (const f of fs.readdirSync(path.join(__dirname, "truth"))) {
-      const t = JSON.parse(fs.readFileSync(path.join(__dirname, "truth", f), "utf8"));
-      const d = byCode(D, t.code);
-      ok(d, `${t.code} is in data.json`); if (!d) continue;
-      if (t.combos) {  // Krabi: every hotel × season × package × day-3
-        for (const cb of t.combos) {
-          const pk = d.packages.find(p => p.id === { budget: "budget", std: "standard", hny: "honeymoon" }[cb.variant.split("-")[0]]);
-          for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, , sell]] of Object.entries(cb.rows[k] || {})) {
-            const r = P.priceRow(d, pk, cb.variant, +pax, cb.options)[k]; rows++;
-            ok(near(r.cost, c, 0.6) && near(r.selling, sell + (+pk.rules.discountTier2 || 0) - 200, 0.6), `KBV ${JSON.stringify(cb.options)} ${cb.variant} ${k} ${pax}: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
-          }
-        }
-        continue;
-      }
-      for (const pkg of d.packages) for (const a of pkg.assign) {
-        const to = t.variants[a.variant];
-        for (const k of ["adult", "cwb", "cnb"]) for (const [pax, [c, cat, sell]] of Object.entries(t.rows[to][k] || {})) {
-          const p = +pax;
-          if (p < a.from || p > a.to || typeof sell !== "number") continue;
-          const r = P.priceRow(d, pkg, a.variant, p)[k];
-          if (!(typeof r.cost === "number" && isFinite(r.cost)) && (c === 0 || typeof c !== "number")) { gaps++; continue; } // R&D has no cost
-          rows++;
-          // TOs not costed from the R&D tables (SEL Basic/Standard = ATK contract rate) no longer use the R&D cost
-          const rateBuilt = !d.variants.find(v => v.id === a.variant).components.every(x => /T\['[^']*__/.test(x.expr));
-          const rdDisc = +pkg.rules.discountTier2 || 0;   // R&D selling = catalog − its tier-2 discount; page selling = catalog − RM200
-          ok((costEdited.has(t.code) || rateBuilt || near(r.cost, c, 0.6)) && (priceEdited.has(t.code) || near(r.selling, sell + rdDisc - 200, 0.6)), `${t.code} ${to} ${k} ${p} pax: page ${r.cost}/${r.selling} vs R&D ${c}/${sell}`);
-        }
-      }
-    }
-    console.log("   checked", rows, "rows across", fs.readdirSync(path.join(__dirname, "truth")).length, "destinations;", gaps, "R&D rows without cost");
+    const h = byCode(D, "HND"), pk = h.packages.find(p => p.id === "basic"), vid = pk.assign[0].variant, f = h.fx.find(x => x.id === "WIF");
+    const c0 = P.priceRow(h, pk, vid, 2).adult.cost, v0 = f.value;
+    f.value = v0 * 1.1; const c1 = P.priceRow(h, pk, vid, 2).adult.cost; f.value = v0;
+    ok(isFinite(c0) && c1 > c0 && near(P.priceRow(h, pk, vid, 2).adult.cost, c0), `Tokyo Basic 2 pax: WIF FX +10% raises cost ${c0} → ${c1}, restored after`);
+  }
+
+  console.log("1b. TO rates editor (Costing tab, Edit costs): per-pax cost tables");
+  {
+    const dp = await boot(repo, "dps/");
+    ok(!dp.doc.querySelector("table.torates"), "TO rates editor hidden when not editing");
+    dp.w.PTCALC.EDIT = true; dp.w.PTCALC.render(); await tick(5);
+    const tbl = dp.doc.querySelector("table.torates");
+    ok(tbl && tbl.querySelectorAll("tbody tr").length >= 10 && tbl.textContent.includes("Transport") && tbl.querySelector("input.ed"), "Bali: one editable row per pax, a column per component (Transport …)");
+    dp.w.PTCALC.EDIT = false;
+    ok(dp.errors.length === 0, "Bali TO Rates errors: " + dp.errors.join("|"));
+    const h = byCode(D, "DPS"), pk = h.packages[0], vid = pk.assign[0].variant, v = h.variants.find(x => x.id === vid);
+    const tid = /T\['([^']+)'\]/.exec(v.components[0].expr)[1], t = h.tables.find(x => x.id === tid), v0 = t.values["2"];
+    const c0 = P.priceRow(h, pk, vid, 2).adult.cost; t.values["2"] = v0 + 100; const c1 = P.priceRow(h, pk, vid, 2).adult.cost; t.values["2"] = v0;
+    ok(near(c1 - c0, 100 * (h.fx.find(f => f.id === t.fx) || { value: 1 }).value, 0.01) || near(c1 - c0, 100 / 2, 0.01), `editing a table cell changes the cost (${c0} → ${c1})`);
   }
 
   console.log("1d. Seoul Basic / Standard = ATK contract rate; add-ons from the Korea ProdReq");
@@ -188,7 +141,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(chk("SELJJU", "ATK-STD", { 2: 1769500 * 0.003, 9: 1138111 * 0.003, 25: 865000 * 0.003 }), "SELJJU = CR KRW × 0.0030, none at 26");
     ok(chk("JJU", "ATK-PT", { 2: 943000 * 0.003, 9: 521889 * 0.003, 25: 353000 * 0.003 }), "JJU = CR KRW × 0.0030");
     ok(chk("JJUO", "ATK-STD", { 2: 1442257 * 0.003, 10: 783357 * 0.003, 25: 571827 * 0.003 }), "JJUO = CR KRW × 0.0030");
-    ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour still on the R&D");
+    ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour keeps its component breakdown");
   }
 
   console.log("1f. Turkey / Istanbul: no 4★ (not in the MyTrip CR or catalog)");
@@ -331,9 +284,10 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     setVal(w, doc.querySelector("#selPkg"), "basic"); await tick(5);
     const CAT = ["destinations", "HND", "packages", "basic", "pricing", "adult", "2"];
     before = HND().packages[0].pricing.adult["2"];
-    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX is never editable");
+    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX is read-only when not editing");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
-    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path.includes('"fx"')), "FX stays locked in edit mode");
+    ok([...doc.querySelectorAll("input.ed")].some(x => x.dataset.path === JSON.stringify(["destinations", "HND", "fx", "WIF", "value"])), "FX is editable in Edit costs (the hub owns FX)");
+    ok([...doc.querySelectorAll("table.torates input.ed")].some(x => x.dataset.path === JSON.stringify(["destinations", "HND", "rates", "hnd7", "value"])), "Edit costs: Tokyo supplier rates are editable on the Costing tab (Haneda 7-seater)");
     const inp = [...doc.querySelectorAll("input.ed")].find(x => x.dataset.path === JSON.stringify(CAT));
     ok(inp, "Basic 2 pax catalog price is editable in the costing table");
     setVal(w, inp, String(before + 100)); await tick(10);
@@ -567,7 +521,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(fp.w, fp.doc.querySelector('[data-sev="low"]')); await tick(5);
     ok(fp.doc.querySelectorAll(".flags tbody tr").length === nF.length && fp.errors.length === 0, "flags page: all " + nF.length + " with Low on");
     const jb = await boot(repo, "jbdo/", "#flags");
-    ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("Whoosh"), "JBDO Flags tab shows its flags");
+    ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("price but no cost"), "JBDO Flags tab shows its flags (11–19 pax have no TO cost)");
     ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
     await tab(jb.w, jb.doc, "costing");
     const jh = [...jb.doc.querySelectorAll("#costPax tr.blk-head th")].map(t => t.textContent);
