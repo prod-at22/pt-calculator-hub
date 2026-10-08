@@ -9,7 +9,7 @@ see
 - **Costing by pax**: per pax, A + B + C + … (each component) = Cost, Cost + Margin = Selling, for pax 2–30,
 - **Add-ons** from the R&D Add-Ons tab: cost, selling price, margin. Enter a qty to add them to the group total.
 
-Hub: `https://prod-at22.github.io/pt-calculator-hub/` — one row per catalog package (names from
+Hub: `https://prod-at22.github.io/pt-calculator-hub/` — a simple list like PT Catalog House, one row per catalog package (names from
 the Project PT sheet, `tools/catalogs.json`), its PO and last update, searchable. Each
 destination has its own link by code in lowercase, e.g. `/sel/`, `/seljju/`, `/hnd/`, `/kix/`,
 `/dps/`, `/mle/`, `/kbv/`, `/ltoba/` (Medan Lake Toba). 37 destinations are live; Yunnan 3

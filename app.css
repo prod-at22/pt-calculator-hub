@@ -105,12 +105,7 @@ table.rd td.c{text-align:center}
 tr.blk-title td{background:#fff;color:var(--ink);font-weight:700;text-align:left;font-size:13px;padding-top:12px}
 tr.blk-head th{background:#dde3ea;color:var(--ink);text-transform:none;letter-spacing:0;font-size:12.5px;text-align:center;white-space:normal;min-width:84px}
 table.rd tr.cur td{background:var(--navy-soft)}
-.hub{max-width:760px;margin:0 auto;width:100%}
-.hub td a{font-weight:600;text-decoration:none;color:var(--ink)}
-.hub tr.click:hover td a{color:var(--navy);text-decoration:underline}
 input.ed.txt.po{width:120px}
-.hub th,.hub td{white-space:normal}
-.hub td:first-child{min-width:0}
 .dest-head{display:flex;flex-direction:column;gap:2px}
 .dest-head h1{margin:0;font-size:20px;display:flex;align-items:center;gap:8px}
 .dest-head a{font-size:12px;font-weight:600;text-decoration:none}
@@ -126,8 +121,6 @@ details.ratecard[open]>summary{border-bottom:1px solid var(--line)}
 .grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
 #quote th,#quote td{padding:7px 8px}
 @media (max-width:1100px){.grid{grid-template-columns:1fr}}
-#hubSearch{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px 11px}
-.hub .body{border-bottom:1px solid var(--line)}
 /* ---- destination header, selectors, tabs (v6 layout) ---- */
 #controls{display:block;padding:14px 16px 0}
 .dest-top{display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
@@ -211,3 +204,23 @@ table.ref .rr-fx{border-left:1px solid var(--line)}
 .cd-acc{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px 18px;font-size:13px;line-height:1.45}
 .cd-note{font-size:12px;color:var(--ink-soft);margin-top:6px}
 .cd h2 .btn{padding:3px 10px;font-size:12px}
+
+/* ---- hub: simple list, same look as PT Catalog House ---- */
+body.hubpage .top{display:none}
+body.hubpage #grid{display:block}
+.hub{max-width:720px;margin:0 auto;padding:1.5rem 0 3rem;font-family:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5}
+.hubhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.25rem}
+.hubhead h1{font-size:1.35rem;margin:0}
+.hubhead img{height:30px}
+.hub .filter{width:100%;font:inherit;font-size:0.9rem;padding:0.6rem 0.9rem;margin-bottom:1rem;border:1px solid var(--line);border-radius:10px;background:#fff}
+.hub .filter:focus{outline:none;border-color:var(--brand)}
+.hub .row{display:flex;align-items:baseline;gap:1rem;padding:0.9rem 1.1rem;margin-bottom:0.6rem;background:#fff;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:inherit}
+.hub .row:hover{border-color:var(--brand)}
+.hub .dest{font-weight:700;flex:1}
+.hub .tier{display:inline-block;margin-left:0.5rem;padding:0.05rem 0.5rem;border-radius:999px;background:var(--brand-soft);color:var(--brand-dark);font-size:0.72rem;font-weight:700;letter-spacing:0.03em;text-transform:uppercase;vertical-align:middle}
+.hub .dur,.hub .po{color:var(--ink-soft);font-size:0.88rem;white-space:nowrap}
+.hub .upd{color:var(--ink-soft);font-size:0.8rem;white-space:nowrap}
+.hub .empty{display:none;padding:1.5rem;text-align:center;color:var(--ink-soft);font-size:0.9rem}
+.hubfoot{text-align:center;font-size:0.78rem;color:var(--ink-soft);padding-top:1.5rem}
+.hubfoot a{color:var(--brand)}
+@media (max-width:520px){.hub .row{flex-wrap:wrap;gap:0.25rem 0.75rem}.hub .dest{flex:1 1 100%}}

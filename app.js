@@ -261,8 +261,13 @@ function lastUpdate(d, pkgId) {
   return es[0] || [...HISTORY.entries].sort((a, b) => a.v - b.v)[0] || null;
 }
 function filterHub() {
-  const q = (SEL.hubQ || "").trim().toLowerCase();
-  for (const tr of document.querySelectorAll(".hub tbody tr")) tr.style.display = !q || tr.textContent.toLowerCase().includes(q) ? "" : "none";
+  const terms = (SEL.hubQ || "").trim().toLowerCase().split(/\s+/).filter(Boolean);
+  let shown = 0;
+  for (const r of document.querySelectorAll(".hub .row")) {
+    const hit = terms.every(t => r.dataset.search.includes(t));
+    r.style.display = hit ? "" : "none"; if (hit) shown++;
+  }
+  const e = $("#hubEmpty"); if (e) e.style.display = shown ? "none" : "block";
 }
 // Best package on the destination page for a catalog name, by tier / duration words.
 const TIER = { BSC: "BASIC", BASIC: "BASIC", BUDGET: "BASIC", STD: "STANDARD", STANDARD: "STANDARD", CLASSIC: "STANDARD", HNY: "HONEYMOON", HONEYMOON: "HONEYMOON", PREM: "PREMIUM", PREMIUM: "PREMIUM", ST: "SELF", SELF: "SELF", COMBO: "COMBO", WATER: "WATER" };
@@ -281,16 +286,42 @@ function matchPkg(d, name) {
   }
   return score && !tie ? best : null;
 }
-// Hub: one row per catalog package (Project PT sheet) — package name, PO, last update.
+// Hub: one row per catalog package (Project PT sheet), styled like PT Catalog House —
+// route + tier badge, duration, code · PO, last update (version + who in the tooltip).
+const TIER_WORDS = /\b(basic|standard|std|classic|premium|honeymoon|self tour|self drive|combo island|water villa)\b/gi;
+function tierOf(name) {
+  const u = String(name).toUpperCase();
+  if (/HONEYMOON/.test(u)) return "Honeymoon" + (/PREMIUM/.test(u) ? " Premium" : /STANDARD|STD/.test(u) ? " Standard" : "");
+  if (/WATER VILLA/.test(u)) return "Water Villa";
+  if (/COMBO/.test(u)) return "Combo Island";
+  if (/^ST\b|SELF/.test(u)) return "Self Tour";
+  if (/PREMIUM/.test(u)) return "Premium";
+  if (/BASIC/.test(u)) return "Basic";
+  return "Standard";
+}
+function routeOf(d, pkg) {
+  if (!pkg) return d.name;
+  const r = pkg.label.split(" · ")[0].replace(/\b\d+D\d+N\b/g, "").replace(TIER_WORDS, "").replace(/\s+/g, " ").trim();
+  return r || d.name;
+}
 function renderHub() {
   $("#controls").style.display = "none"; $("#kpis").innerHTML = "";
-  const fmt = e => e ? esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })) + (e.changes && e.changes.length ? ` <span class="muted small">v${e.v} · ${esc(e.by)}</span>` : "") : "—";
+  document.body.classList.add("hubpage");
+  const iso = e => e ? new Date(e.at).toISOString().slice(0, 10) : "";
   const rows = shown().destinations.flatMap(d => (d.catalogs && d.catalogs.length ? d.catalogs : d.packages.map(p => p.label)).map(name => {
     const pkg = matchPkg(d, name), href = `${ROOT}${d.code.toLowerCase()}/${pkg ? "?pkg=" + encodeURIComponent(pkg.id) : ""}`;
-    return `<tr class="click" data-href="${href}"><td><a href="${href}">${esc(name)}</a> <span class="pill nav">${esc(d.code)}</span></td><td class="l">${esc(d.po || "—")}</td><td class="l">${fmt(lastUpdate(d, pkg ? pkg.id : null))}</td></tr>`;
-  })).join("");
-  $("#grid").innerHTML = `<div class="card full hub"><div class="body"><input id="hubSearch" type="search" placeholder="Search package, code or PO…" value="${esc(SEL.hubQ || "")}" autocomplete="off"></div>
-    <div class="scroll"><table><thead><tr><th>Package</th><th class="l">PO</th><th class="l">Last update</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+    const route = routeOf(d, pkg), tier = tierOf(name), dur = (String(name).match(/\d+D\d+N/i) || (pkg && pkg.label.match(/\d+D\d+N/)) || [""])[0].toUpperCase();
+    const e = lastUpdate(d, pkg ? pkg.id : null), saved = e && e.changes && e.changes.length ? `v${e.v} · ${e.by}` : "";
+    return { route, tier, sortKey: (route + " " + tier + " " + dur).toLowerCase(), html: `<a class="row" href="${href}" title="${esc(name)}" data-search="${esc([route, d.name, tier, dur, name, d.code, d.po || ""].join(" ").toLowerCase())}"><span class="dest">${esc(route)}<span class="tier">${esc(tier)}</span></span><span class="dur">${esc(dur)}</span><span class="po">${esc(d.code)} · ${esc(d.po || "—")}</span><span class="upd"${saved ? ` title="${esc(saved)}"` : ""}>${e ? "updated " + iso(e) : ""}</span></a>` };
+  })).sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+  const src = shown();
+  $("#grid").innerHTML = `<div class="hub">
+    <header class="hubhead"><h1>PT R&amp;D Costing Hub</h1><img src="${ROOT}arba-logo.png" alt="ARBA Travel"></header>
+    <input id="hubSearch" class="filter" type="search" placeholder="Filter by destination, tier, code or PO…" value="${esc(SEL.hubQ || "")}" autocomplete="off" aria-label="Filter packages">
+    ${rows.map(r => r.html).join("")}
+    <p class="empty" id="hubEmpty">No package matches.</p>
+    <footer class="hubfoot">${rows.length} packages · ${VIEW ? `viewing v${VIEW.v}` : `v${src.version}`} · <a href="${ROOT}flags/">Flags</a> · <a href="#" data-hub="history">History</a> · ${SESSION ? `${esc(SESSION.u)} · <a href="#" data-hub="logout">Log out</a>` : `<a href="#" data-hub="login">Log in to edit</a>`}</footer>
+  </div>`;
   filterHub();
 }
 function renderTop() {
@@ -897,6 +928,8 @@ document.addEventListener("click", async e => {
   lastActivity = Date.now();
   const t = e.target.closest("button, tr[data-pax], tr[data-href], [data-close], a");
   if (!t) return;
+  // Hub footer links stand in for the (hidden) top-bar buttons.
+  if (t.dataset.hub) { e.preventDefault(); const b = document.getElementById({ history: "btnHistory", login: "btnLogin", logout: "btnLogout" }[t.dataset.hub]); if (b) b.click(); return; }
   if (t.dataset.href && t.tagName === "TR") { location.href = t.dataset.href; return; }
   if (t.matches("[data-close]")) return closeModal();
   if (t.id === "btnLogin") return openLogin();

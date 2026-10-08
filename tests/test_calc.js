@@ -512,19 +512,19 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const hub = await boot(repo, "");
     const links = [...hub.doc.querySelectorAll("#grid a")].map(a => a.getAttribute("href"));
     ok(["sel/?pkg=atk-bsc", "sel/?pkg=atk-std", "seljju/?pkg=atk-std", "hnd/?pkg=basic", "hnd/?pkg=standard", "kbv/?pkg=honeymoon", "aceh/"].every(l => links.includes(l)), "hub links per catalog package: " + links.slice(0, 12).join(","));
-    const hubRows = [...hub.doc.querySelectorAll("#grid tbody tr")];
+    const hubRows = [...hub.doc.querySelectorAll("#grid .row")];
     const nCat = P.DATA.destinations.reduce((s, d) => s + (d.catalogs || []).length, 0);
     ok(hubRows.length === nCat && nCat >= 60, `hub: one row per catalog package (${nCat}), got ${hubRows.length}`);
-    const names = hubRows.map(r => r.children[0].textContent);
+    const names = hubRows.map(r => r.title + " " + r.children[0].textContent + " " + r.children[2].textContent);
     ok(!names.some(n => /ASONANGGROE|ATK-|WIF-|KTT-|MLE-|Bahrun|Legend-|IBRAHIM/i.test(n)), "hub shows package names, no TO names");
-    ok(names.some(n => n.includes("PT ISTANBUL BURSA 5D4N ISTBUR")), "Istanbul Bursa listed under ISTBUR");
+    ok(names.some(n => n.includes("PT ISTANBUL BURSA 5D4N") && n.includes("ISTBUR ·")), "Istanbul Bursa listed under ISTBUR");
     const srch = hub.doc.querySelector("#hubSearch"); srch.value = "maldives"; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
     const vis = hubRows.filter(r => r.style.display !== "none");
     ok(vis.length === byCode(P.DATA, "MLE").catalogs.length, "hub search 'maldives' shows only Maldives packages (" + vis.length + ")");
     srch.value = ""; srch.dispatchEvent(new hub.w.Event("input", { bubbles: true }));
-    ok(hubRows.every(r => r.children.length === 3 && r.children[1].textContent.trim() !== "" && /\d{4}/.test(r.children[2].textContent)), "hub rows = package | PO | last update");
-    const hndStd = hubRows.find(r => r.textContent.includes("TOKYO STANDARD"));
-    ok(/v\d+ · /.test(hndStd.children[2].textContent), "Tokyo Standard last update shows the saved version: " + hndStd.children[2].textContent.trim());
+    ok(hubRows.every(r => r.children.length === 4 && r.querySelector(".tier") && / · \S/.test(r.children[2].textContent) && /updated \d{4}-\d{2}-\d{2}/.test(r.children[3].textContent)), "hub rows = route + tier | duration | code · PO | updated date");
+    const hndStd = hubRows.find(r => r.title.includes("TOKYO STANDARD"));
+    ok(/v\d+ · /.test(hndStd.children[3].title), "Tokyo Standard last update shows the saved version: " + hndStd.children[3].title);
     const deep = await boot(repo, "sel/", "?pkg=atk-std");
     ok(deep.doc.querySelector("#selPkg").value === "atk-std", "sel/?pkg=atk-std opens Seoul Standard");
     ok(/PO\s*Aiman/.test(deep.doc.querySelector("#controls").textContent), "Seoul page shows PO Aiman");
@@ -537,7 +537,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
       ok(pg.doc.querySelectorAll("#rateRef thead th.rr-code").length >= 10, path + " Rate reference columns");
       ok(pg.errors.length === 0, path + " errors: " + pg.errors.join("|"));
     }
-    const hubPO = [...hub.doc.querySelectorAll("#grid tbody tr")].map(r => r.children[1].textContent.trim());
+    const hubPO = [...hub.doc.querySelectorAll("#grid .row")].map(r => r.children[2].textContent.split(" · ")[1].trim());
     const poCount = n => P.DATA.destinations.filter(d => d.po === n).reduce((s, d) => s + d.catalogs.length, 0);
     ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");
     ok(hub.doc.querySelector("#controls").style.display === "none", "hub has no calculator controls");
