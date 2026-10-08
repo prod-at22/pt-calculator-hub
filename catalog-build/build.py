@@ -248,7 +248,9 @@ def find_chrome():
     ):
         if os.path.exists(path) and os.access(path, os.X_OK):
             return path
-    return shutil.which("chromium") or shutil.which("google-chrome")
+    # Linux (CI): the real Chrome first — /usr/bin/chromium on Ubuntu is a snap wrapper that hangs headless
+    return (os.environ.get("PT_CHROME") or shutil.which("google-chrome-stable") or shutil.which("google-chrome")
+            or shutil.which("chromium-browser") or shutil.which("chromium"))
 
 
 
@@ -403,6 +405,7 @@ def main(argv):
         return 1
 
     chrome = find_chrome()
+    print(f"  chrome: {chrome}")
     if not chrome:
         print("  ! no Chrome/Chromium found — pages will build, PDFs will not")
 

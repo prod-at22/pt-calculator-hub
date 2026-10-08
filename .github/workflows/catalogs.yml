@@ -48,6 +48,8 @@ jobs:
             slugs=$(git diff --name-only "$before" HEAD -- data/catalogs | grep -v index.json | sed -n 's|^data/catalogs/\(.*\)\.json$|\1|p' | tr '\n' ' ')
             echo "slugs=$slugs" >> "$GITHUB_OUTPUT"; echo "building: $slugs"
           fi
+      - name: Chrome
+        run: google-chrome --version
       - name: Build
         run: python -u catalog-build/build.py ${{ steps.pick.outputs.slugs }}
         timeout-minutes: 40
