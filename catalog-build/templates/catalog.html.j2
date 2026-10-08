@@ -1,0 +1,365 @@
+{#-
+  One Private Tour catalog page.
+
+  Section order deliberately tracks the Group Tour page so the two sites feel
+  like one product, with three departures that are specific to PT:
+
+    * Package Price sits directly under the hero. On a GT page there is no
+      price at all; on a PT catalog the pax-band table IS the document, and a
+      TC opening this page is almost always looking for a figure first.
+    * There is no Flight Details section. A PT package is quoted Ground &
+      Tipping — the international flight is an exclusion, not an inclusion —
+      so a flight block would state something the package does not cover.
+    * Surcharges and the two add-on tables (private transport, activities)
+      follow the price, because they are how a quote gets adjusted.
+
+  Every section renders only when its data is present, so a thin catalog
+  (Maldives has no add-on transport, Semporna has no activities) just drops
+  the section rather than printing an empty card.
+-#}
+{#- Notes printed under a table (price, surcharge, add-on) share one form:
+    a bold "Note:" lead, then the sentence, or a list when there are several. -#}
+{%- macro table_notes(notes) %}
+  {%- if notes %}
+  {%- set notes = notes | map('replace', '*Note:', '') | map('replace', 'Note:', '') | map('trim') | list %}
+  {%- if notes | length == 1 %}
+  <p class="table-note"><b>Note:</b> {{ notes[0] }}</p>
+  {%- else %}
+  <div class="table-note"><b>Note:</b><ul>{% for n in notes %}<li>{{ n }}</li>{% endfor %}</ul></div>
+  {%- endif %}
+  {%- endif %}
+{%- endmacro %}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ c.title }} | ARBA Travel</title>
+<meta name="description" content="{{ c.title }}{% if c.duration %} ({{ c.duration }}){% endif %}{% if c.route %} — {{ c.route }}{% endif %}">
+<style>{{ styles }}</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <span class="meta">{{ c.get('product') or 'PT' }} &middot; {{ c.destination }}{% if c.tier %} &middot; {{ c.tier }}{% endif %}{% if c.version %} &middot; {{ c.version }}{% endif %} &middot; updated {{ c.updated }}</span>
+  {#- No Knowledge Base link here. The KB sites are internal TC reference and
+      this page's URL gets sent to customers, so the only way out of this
+      page is the catalog's own PDF. `kb_url` stays in the catalog JSON for
+      the product team, but it must not render. -#}
+  <span class="actions">
+    <a class="download-btn" href="{{ c.pdf }}" download="{{ c.pdf_download_name }}">Download PDF</a>
+  </span>
+</div>
+
+<div class="page">
+
+  <div class="hero">
+    <span class="brand-tag">{{ c.get('product') or 'PT' }}{% if c.tier_code %} &middot; {{ c.tier_code }}{% endif %}{% if c.duration %} &middot; {{ c.duration }}{% endif %}</span>
+    <h1>{{ c.title }}</h1>
+    {%- if c.route %}
+    <p class="route">{{ c.route }}</p>
+    {%- endif %}
+    <div class="facts">
+      {%- if c.duration %}
+      <div><span class="label">Duration</span><b>{{ c.duration }}</b></div>
+      {%- endif %}
+      {%- if c.basis %}
+      <div class="fact-sm"><span class="label">Package Basis</span><b>{{ c.basis }}</b></div>
+      {%- endif %}
+      {%- if c.valid_until %}
+      <div class="fact-sm"><span class="label">Valid Until</span><b>{{ c.valid_until }}</b></div>
+      {%- endif %}
+    </div>
+    {%- if c.prices and c.prices.get('lead_in') %}
+    <div class="hero-prices">
+      <span class="hero-prices-label">Starting from</span>
+      <div class="facts">
+        {%- for lead in c.prices.get('lead_in') %}
+        <div><span class="label">{{ lead.label }}</span><b>{{ lead.value }}</b></div>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endif %}
+    <div class="hero-footer">
+      <p class="hero-note">{{ c.hero_note | default('', true) }}</p>
+      <img class="hero-logo" src="{{ logo_white }}" alt="ARBA Travel">
+    </div>
+  </div>
+
+  {%- if c.highlights %}
+<div class="highlights-strip">
+  {%- for h in c.highlights %}
+  <div class="highlight-chip">{{ icon(h.icon) }}<span>{{ h.label }}</span></div>
+  {%- endfor %}
+</div>
+  {%- endif %}
+
+  {%- if c.prices and c.prices.get('rows') %}
+<div class="card">
+  <h2>Package Price</h2>
+  <div class="price-wrap">
+    <table class="price-table{% if c.prices.get('pax_label') and (c.prices.rows | map(attribute='pax') | map('string') | map('length') | max) > 12 %} per-package{% endif %}">
+      <thead>
+        <tr>
+          {#- Honeymoon packages are priced per couple against a room
+              description rather than per pax against a group size, so the
+              first column is not always "No. of Pax". -#}
+          <th>{{ c.prices.get('pax_label') or 'No. of Pax' }}</th>
+          {%- for col in c.prices.columns %}
+          <th>{{ col.label }}{% if col.get('age') %}<span class="age">{{ col.age }}</span>{% endif %}</th>
+          {%- endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {%- for row in c.prices.rows %}
+        <tr>
+          <td class="pax">{{ row.pax }}</td>
+          {%- for v in row.amounts %}
+          <td class="amount{% if not v or v == '-' %} muted{% endif %}">{{ v if v else '-' }}</td>
+          {%- endfor %}
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  {%- if c.prices.get('infant') or c.prices.get('single_supplement') %}
+  <div class="price-footnotes">
+    {%- if c.prices.get('infant') %}
+    <span class="infant">Infant: {{ c.prices.get('infant') }}</span>
+    {%- endif %}
+    {%- if c.prices.get('single_supplement') %}
+    <span>Single supplement: {{ c.prices.get('single_supplement') }}</span>
+    {%- endif %}
+  </div>
+  {%- endif %}
+  {{- table_notes(c.prices.get('notes')) }}
+</div>
+  {%- endif %}
+
+  {%- for block in c.price_blocks %}
+<div class="card">
+  <h2>Price Includes / Excludes{% if block.get('label') %} — {{ block.label }}{% endif %}</h2>
+  <div class="split-two">
+    <div class="includes">
+      <h3>Includes</h3>
+      <ul>
+        {%- for item in block.includes %}
+        <li>{{ item.text if item is mapping else item }}
+          {%- if item is mapping and item.get('sub') %}
+          <ul>{% for s in item.sub %}<li>{{ s }}</li>{% endfor %}</ul>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="excludes">
+      <h3>Excludes</h3>
+      <ul>
+        {%- for item in block.excludes %}
+        <li>{{ item.text if item is mapping else item }}
+          {%- if item is mapping and item.get('sub') %}
+          <ul>{% for s in item.sub %}<li>{{ s }}</li>{% endfor %}</ul>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+  {%- endfor %}
+
+  {%- if c.surcharge and (c.surcharge.get('rows') or c.surcharge.get('seasons')) %}
+<div class="card">
+  <h2>{{ c.surcharge.get('title') or 'Surcharge — Accommodation Upgrade & Peak Season' }}</h2>
+  {#- Two shapes, because the source catalogs use two. Seoul prices a
+      surcharge per accommodation option AND per season, which needs the
+      matrix. Turki and Maldives price it per season only, where a matrix
+      would be three columns of the same number. -#}
+  {%- if c.surcharge.get('rows') %}
+  <div class="surcharge-wrap">
+    <table class="surcharge-table">
+      <thead>
+        <tr>
+          <th colspan="2">Accommodation</th>
+          {%- for col in c.surcharge.columns %}
+          <th>{{ col.label }}{% if col.get('period') %}<span class="period">{% for p in col.period | periods %}<span class="d">{{ p }}</span>{% endfor %}</span>{% endif %}</th>
+          {%- endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {%- for row in c.surcharge.rows %}
+        <tr>
+          <td class="accom-type">{{ row.type }}</td>
+          <td class="accom-name">{{ row.name }}{% if row.get('similar') %} <span class="similar">or similar</span>{% endif %}</td>
+          {%- for v in row.amounts %}
+          <td class="rate{% if not v or v == '-' %} none{% endif %}">{% if v %}{% for p in v | periods %}<span class="d">{{ p }}</span>{% endfor %}{% else %}-{% endif %}</td>
+          {%- endfor %}
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  {%- endif %}
+  {%- if c.surcharge.get('seasons') %}
+  <div class="surcharge-wrap">
+    <table class="surcharge-table seasons">
+      <thead>
+        <tr><th>Season</th><th>Travel Dates</th><th>Surcharge</th></tr>
+      </thead>
+      <tbody>
+        {%- for s in c.surcharge.get('seasons') %}
+        <tr>
+          <td class="lead">{{ s.label }}</td>
+          <td class="sub dates">{% for p in s.period | periods %}<span class="d">{{ p }}</span>{% endfor %}</td>
+          <td class="rate">{% for p in s.rate | periods %}<span class="d">{{ p }}</span>{% endfor %}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  {%- endif %}
+  {{- table_notes(c.surcharge.get('notes')) }}
+</div>
+  {%- endif %}
+
+  {%- if c.accommodation %}
+<div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+    {%- for a in c.accommodation %}
+    <div class="accom-item">
+      <div class="city">{{ a.city }}</div>
+      {%- if a.get('stars') %}
+      <div class="stars">{{ '★' * a.get('stars') }} ({{ a.get('stars') }}-star)</div>
+      {%- endif %}
+      <div>{{ a.name }}{% if a.get('similar') %} or similar{% endif %}</div>
+    </div>
+    {%- endfor %}
+  </div>
+</div>
+  {%- endif %}
+
+  {#- A package can print more than one itinerary (Beijing's morning and
+      midnight arrival versions); each gets its own titled card. -#}
+  {%- for it in (c.get('itineraries') or [{'label': none, 'days': c.itinerary}]) if it.days %}
+<div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary{% if it.label %} ({{ it.label }}){% endif %}</h2>
+<div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+    <col style="width: 55%">
+    <col style="width: 15%">
+    <col style="width: 15%">
+    <col style="width: 15%">
+  </colgroup>
+  <thead>
+    <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+    {%- for d in it.days %}
+    <tr>
+      <td class="col-activities">
+        <div class="day-title"><span class="day-num">Day {{ d.day }}</span>{{ d.title }}</div>
+        {%- if d.get('activities') %}
+        <ul class="activities">
+          {%- for a in d.activities %}
+          <li>{{ a.text if a is mapping else a }}
+            {%- if a is mapping and a.get('sub') %}
+            <ul class="sub-activities">{% for s in a.sub %}<li>{{ s }}</li>{% endfor %}</ul>
+            {%- endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </td>
+      <td>{{ d.transport | default('-', true) }}</td>
+      <td>{{ d.meals | default('-', true) }}</td>
+      <td>{{ d.hotel | default('-', true) }}</td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  {%- endfor %}
+
+  {%- for group in c.addons %}
+<div class="card">
+  <h2>{{ group.title }}</h2>
+  {%- for a in group.entries %}
+  {#- The last add-on and the group's notes print as one unit, so a note
+      never lands alone at the top of the next page. -#}
+  {%- if loop.last %}<div class="addon-tail">{% endif %}
+  <div class="addon">
+    <div class="addon-info">
+      <div class="addon-name">{{ a.name }}</div>
+      {%- if a.get('includes') %}<div class="addon-meta">Includes: {{ a.get('includes') }}</div>{% endif %}
+      {%- if a.get('excludes') %}<div class="addon-meta">Excludes: {{ a.get('excludes') }}</div>{% endif %}
+      {%- if a.get('duration') %}<div class="addon-meta">Duration: {{ a.get('duration') }}</div>{% endif %}
+    </div>
+    <div class="addon-price-col">
+      {%- for line in a.price_lines %}
+      {%- set main, sub = line | price_parts %}
+      <div class="addon-price-line">{% if main %}<span class="addon-price-main">{{ main }}</span>{% endif %}{% if sub %}<span class="addon-price-sub">{{ sub }}</span>{% endif %}</div>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+  {{- table_notes(group.get('notes')) }}
+  {%- if group.entries %}</div>{% endif %}
+</div>
+  {%- endfor %}
+
+  {%- if c.expect %}
+<div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid n{{ c.expect | length }}">
+    {%- for e in c.expect %}
+    <div class="expect-item">
+      {{ icon(e.icon) }}
+      <h3>{{ e.title }}</h3>
+      <p>{{ e.body }}</p>
+      {%- if e.get('tag') %}<span class="expect-tag">{{ e.get('tag') }}</span>{% endif %}
+    </div>
+    {%- endfor %}
+  </div>
+</div>
+  {%- endif %}
+
+  {%- if c.notes %}
+<div class="card notes-card">
+  <h2>Important Notes</h2>
+  {%- for section in c.notes %}
+  {%- if section.title %}
+  <h3 class="notes-subhead">{{ section.title }}</h3>
+  {%- endif %}
+  <ul class="notes-list">
+    {%- for item in section.entries %}
+    <li>{{ item }}</li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</div>
+  {%- endif %}
+
+  {%- if c.deposit %}
+<div class="card">
+  <h2>Deposit &amp; Full Payment</h2>
+  <div class="deposit-box">
+    {%- for d in c.deposit %}
+    <div><span class="figure">{{ d.figure }}</span> {{ d.text }}</div>
+    {%- endfor %}
+  </div>
+</div>
+  {%- endif %}
+
+  <footer class="page-footer">
+    <span>{{ c.title }}{% if c.version %} &middot; {{ c.version }}{% endif %} &middot; last updated {{ c.updated }} &middot; www.arbatravel.com</span>
+    <img class="footer-logo" src="{{ logo_dark }}" alt="ARBA Travel">
+  </footer>
+
+</div>
+</body>
+</html>

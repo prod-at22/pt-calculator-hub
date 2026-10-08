@@ -1,0 +1,436 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3/4-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>Dinner Only</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Driving Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return International Flight Tickets (Direct)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>Meals on Board (International)</li><li>7 Nights Accommodation (3/4-Star Hotels)</li><li>Halal Meals as Specified in Itinerary (7x Dinner)</li><li>Entrance Fees: Maori Village (Entrance & Haka Performance)</li><li>Private Transportation</li><li>Driving Guide (Malay/English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li><li>Return Domestic Flight Tickets (AKL - CHC, ZQN - AKL)</li><li>NZeTA (One-Time Application)</li><li>NZ Tourism Levy (IVL)</li><li>NZeTA Application Service</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Breakfast, Lunch and Additional Meals</li><li>Optional Activity / Entrance Fees: Milford Sound, Hobbiton Movie Set, Christchurch Tram Ride, Kawarau Bungy Jumping, Kawarau Zipride, Queenstown Gondola, Queenstown Luges, Putaruru Blue Spring, The Chasm</li><li>Travel Insurance</li><li>Meals on Board (Domestic)</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">Malaysia Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Auckland (AKL)</div>
+  <div class="leg-flight">
+  <b>MH 145</b>
+  <span>21:10 - 11:25 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Auckland (AKL) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>MH 144</b>
+  <span>13:00 - 20:25 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Taupo</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Quality Suites Huka Falls or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Hamilton</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Ventura Inn & Suites or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Christchurch</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>V Motel or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Twizel</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>The Lakes Motel or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Te Anau</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Village Inn or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Queenstown</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Queenstown Motel Apartment or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Auckland</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Airport Gateway or similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Departure</div>
+  <ul class="activities">
+  <li>Assemble at KLIA</li>
+  <li>Flight to Auckland</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Auckland - Taupo (North Island)</div>
+  <ul class="activities">
+  <li>Arrival in Auckland, airport pick-up</li>
+  <li>Land transfer to Taupo (town near the centre of the North Island)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Taupo)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Taupo - Rotorua - Hamilton</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Lake Taupo (largest lake in Australasia, roughly the size of Singapore)</li>
+  <li>Huka Falls (powerful waterfall draining into Lake Taupo, among the highest-flowing waterfalls in the world)</li>
+  <li>The Redwoods (forest of giant Californian Coastal Redwood trees)</li>
+  <li>Whakarewarewa Village (living Maori village using natural geothermal resources to cook, bathe, and heat homes)</li>
+  <li>Optional: Hobbiton Movie Set Tour (guided tour of the Lord of the Rings/The Hobbit filming location) OR Putaruru Blue Spring (crystal-clear turquoise waters, viewed along Te Waihou Walkway)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Hamilton)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Hamilton - Auckland - Christchurch (South Island)</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Hamilton to Auckland</li>
+  <li>Domestic flight from Auckland to Christchurch</li>
+  <li>Masjid Al Noor (the first mosque targeted during the Christchurch mosque shootings in March 2019)</li>
+  <li>Christchurch City (the vibrant, largest city in the South Island)</li>
+  <li>Optional: Tram Ride (all-day, unlimited hop-on/hop-off ride covering 18 stops — the full loop takes about 50 minutes; Summer season only)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Christchurch)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Christchurch - Twizel</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Christchurch to Twizel</li>
+  <li>Lake Tekapo (picturesque lake known for its turquoise waters and majestic mountain surroundings)</li>
+  <li>Lake Pukaki (turquoise water with breathtaking views of Mount Cook)</li>
+  <li>High Country Salmon Farm (premium glacial mountain salmon)</li>
+  <li>Hooker Valley / Mount Cook (the most popular short walking track within Aoraki/Mount Cook National Park)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Twizel)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Twizel - Te Anau</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Twizel to Te Anau</li>
+  <li>Lindis Pass (scenic route of rolling hills, snow-capped mountains, and native tussock grasslands)</li>
+  <li>Roaring Meg (a turbulent stretch of the Kawarau River between Cromwell and Queenstown)</li>
+  <li>Kawarau Gorge (scenic gorge carved by the Kawarau River, with a historic suspension bridge and popular adventure activities)
+  <ul class="sub-activities"><li>Optional: Kawarau Bungy Jumping (the world's first commercial bungy jump, a 43m leap over the Kawarau River)</li><li>Optional: Kawarau Zipride (130-metre ziplines at speeds up to 60km/h)</li></ul>
+  </li>
+  <li>Te Anau (a serene lakeside town and the best overnight base for exploring Fiordland National Park, including Milford Sound and Doubtful Sound)</li>
+  <li>Souvenir shopping</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Te Anau)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Te Anau - Milford Sound - Queenstown</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Te Anau Lake (the largest lake in the South Island, and second-largest in New Zealand and Australasia)</li>
+  <li>Mirror Lake (a stunning lake reflecting the surrounding Earl mountain ranges on calm days)</li>
+  <li>Eglinton Valley (a scenic area of golden tussock plains and beech-covered mountains)</li>
+  <li>Optional: Milford Sound Cruise (a cruise along a fjord renowned for towering Mitre Peak, lush rainforests, and spectacular waterfalls) OR The Chasm (a short 30-minute boardwalk through mossy forest to a stream and waterfall)</li>
+  <li>Queenstown (the "Adventure Capital of the World", on the shores of Lake Wakatipu)</li>
+  <li>Queenstown souvenir shopping</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Queenstown)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 8</span>Queenstown - Auckland</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Queenstown souvenir shopping</li>
+  <li>Lake Wakatipu (New Zealand's longest and third-largest lake, known for its crystal-clear waters and mountain views)</li>
+  <li>Skyline Gondola (views of Lake Wakatipu, Coronet Peak, Queenstown, and The Remarkables mountain range from Bob's Peak)
+  <ul class="sub-activities"><li>Optional: Gondola ride (a scenic 10-minute, 480-metre ascent)</li><li>Optional: Luge rides (a 1.6km downhill ride with banked corners, tunnels, and dips)</li></ul>
+  </li>
+  <li>Domestic flight from Queenstown to Auckland</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Dinner</td>
+  <td>3* Hotel (Auckland)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 9</span>Auckland - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Airport transfer</li>
+  <li>Flight to Kuala Lumpur</li>
+  <li>Arrival in Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Meals on Board</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Hobbiton Movie Set Tour</div>
+  <div class="addon-meta">Includes: Guided walking tour with access to the movie set, including Hobbit's Hole, Bagshot Row, and the Green Dragon Inn</div>
+  <div class="addon-meta">Excludes: Restaurant/gift shop purchases, personal expenses. Not combined with Putaruru Blue Spring (choose one)</div>
+  <div class="addon-meta">Duration: 2.5 hours - open daily 09:00-17:30. Tickets are limited and can sell out 2-3 months ahead in peak season — request early, as add-ons can't be accepted within 21 days of departure</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 335/person</div>
+  <div class="addon-price-line">Youth (11-17 y/o): RM 175/person</div>
+  <div class="addon-price-line">10 yrs & under: Free</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Christchurch Tram Ride (All Day Pass)</div>
+  <div class="addon-meta">Includes: Hop-on hop-off pass for a single day, unlimited stops at key locations, commentary from the driver</div>
+  <div class="addon-meta">Excludes: Transportation outside the tram route, personal expenses</div>
+  <div class="addon-meta">Duration: 50-minute full circuit (excluding stops) - open daily 08:30-18:00. Summer season only — not available in Winter.</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (16+ y/o): RM 120/person</div>
+  <div class="addon-price-line">15 yrs & under: Free</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Kawarau Bungy Jumping</div>
+  <div class="addon-meta">Includes: The jump experience, safety equipment and briefing, experienced operators, photos and video, an activity t-shirt. Weight limit 35kg-235kg</div>
+  <div class="addon-meta">Excludes: Other activities, cafe/gift shop purchases, personal expenses</div>
+  <div class="addon-meta">Duration: 30 minutes - 1 hour, including briefing and queue - open 09:30-16:00</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 850/person</div>
+  <div class="addon-price-line">Child (10-14 y/o): RM 750/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Kawarau Zipride</div>
+  <div class="addon-meta">Includes: The zipride experience, safety equipment and briefing, experienced operators, photos. Weight limit 30kg-150kg; 8-9 y/o ride tandem with an adult</div>
+  <div class="addon-meta">Excludes: Other activities, cafe/gift shop purchases, personal expenses</div>
+  <div class="addon-meta">Duration: 30 minutes - 1 hour, including briefing and queue - open 09:30-16:00</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 150/person</div>
+  <div class="addon-price-line">Child (8-14 y/o): RM 150/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Queenstown Gondola</div>
+  <div class="addon-meta">Includes: Two-way gondola rides up to Bob's Peak, access to the indoor and outdoor viewing areas, restaurant, gift shop, and common area</div>
+  <div class="addon-meta">Excludes: Restaurant/gift shop purchases, lunch or dinner package, personal expenses, other activities (e.g. luges, stargazing, mountain bikes)</div>
+  <div class="addon-meta">Duration: Suggested 1 - 1.5 hours - open daily 09:30-21:00</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 190/person</div>
+  <div class="addon-price-line">Child (6-14 y/o): RM 140/person</div>
+  <div class="addon-price-line">Child (2-5 y/o): RM 20/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Queenstown Gondola + 3 Luges</div>
+  <div class="addon-meta">Includes: Two-way gondola rides up to Bob's Peak, access to the indoor and outdoor viewing areas, restaurant and gift shop, plus 3 luge rides</div>
+  <div class="addon-meta">Excludes: Restaurant/gift shop purchases, lunch or dinner package, personal expenses, other activities (e.g. stargazing, mountain bikes)</div>
+  <div class="addon-meta">Duration: Suggested 1.5 - 2 hours - open daily 09:30-21:00</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 250/person</div>
+  <div class="addon-price-line">Child (6-14 y/o): RM 180/person</div>
+  <div class="addon-price-line">Child (2-5 y/o): RM 20/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Milford Sound Cruise</div>
+  <div class="addon-meta">Includes: Cruise tour along Milford Sound fjord</div>
+  <div class="addon-meta">Excludes: Restaurant/gift shop purchases, personal expenses. Not combined with The Chasm (choose one)</div>
+  <div class="addon-meta">Duration: 2 hours - open daily 08:45-17:30</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 450/person</div>
+  <div class="addon-price-line">Child (5-14 y/o): RM 200/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Putaruru Blue Spring</div>
+  <div class="addon-meta">Includes: Return transfer from Hobbiton to Putaruru Blue Spring</div>
+  <div class="addon-meta">Excludes: Personal expenses. Not combined with Hobbiton Movie Set Tour (choose one)</div>
+  <div class="addon-meta">Duration: Approximately 2.5 hours - open daily, 24 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult/Child: RM 30/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">The Chasm</div>
+  <div class="addon-meta">Includes: Return transfer from Milford Sound to The Chasm</div>
+  <div class="addon-meta">Excludes: Personal expenses. Not combined with Milford Sound Cruise (choose one)</div>
+  <div class="addon-meta">Duration: Approximately 1.5 hours - open daily, 24 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult/Child: RM 30/person</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />

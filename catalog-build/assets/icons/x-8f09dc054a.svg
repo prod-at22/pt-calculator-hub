@@ -1,0 +1,293 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>4-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>Full Board</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets (KUL-KMG-KUL)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>Meal on Board (KUL-KMG) — included only on AirAsia AK103</li><li>5 Nights Accommodation (4-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees (as Stated in Itinerary)</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping & Parking Fee</li><li>Airport Tax</li><li>China Visa-Free Entry (until 31 December 2030, or until further notice)</li><li>Cable Car at Jade Dragon Snow Mountain</li><li>2x Bullet Train, Second Class Seat (Kunming-Dali, Lijiang-Kunming)</li><li>2x Baggage Transfer (Kunming-Dali, Lijiang-Kunming)</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Tours and Meals</li><li>Any Other Activities Not Mentioned in Itinerary</li><li>Travel Insurance</li><li>Meals on Board (KUL-KMG-KUL) — excluded on AirAsia AK101/AK104/AK102; all Batik Air flights include meals</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Kunming (KMG)</div>
+  <div class="leg-flight">
+  <b>AK 101</b>
+  <span>13:10 - 16:55</span>
+  </div>
+</div>
+  <div class="leg-or">OR</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Kunming (KMG)</div>
+  <div class="leg-flight">
+  <b>AK 103</b>
+  <span>21:40 - 01:25 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Kunming (KMG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>AK 104</b>
+  <span>02:30 - 06:55</span>
+  </div>
+</div>
+  <div class="leg-or">OR</div>
+  <div class="leg">
+  <div class="leg-route">Kunming (KMG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>AK 102</b>
+  <span>17:55 - 21:55</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Batik Air</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Kunming (KMG)</div>
+  <div class="leg-flight">
+  <b>OD 670</b>
+  <span>22:15 - 02:00 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Kunming (KMG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>OD 671</b>
+  <span>03:00 - 07:00</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Kunming</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Vienna International Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Dali</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Wenyue Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Lijiang</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Weijia International Hotel or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Kunming</div>
+  <ul class="activities">
+  <li>Gather at KLIA2 (4 hours before departure time)</li>
+  <li>Flight KUL - KMG</li>
+  <li>Airport pickup</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Flight, Private Transport</td>
+  <td>Meals on Board (midnight flight only), Dinner</td>
+  <td>4* Hotel (Kunming)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Kunming - Stone Forest - Dali</div>
+  <ul class="activities">
+  <li>Naigu Stone Forest (China's natural stone maze)</li>
+  <li>Transfer to Dali by bullet train (2 hours)</li>
+  <li>Dali Ancient City (traditional streets and culture)</li>
+  <li>Foreigners Street (street of culture and cafes)</li>
+  </ul>
+  </td>
+  <td>Private Transport + Bullet Train</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Dali)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Dali - Lijiang City Tour</div>
+  <ul class="activities">
+  <li>Dali Santorini (Shuanglang's blue-and-white lakeside village on Erhai Lake, nicknamed for its Mediterranean-style architecture)</li>
+  <li>Lijiang Ancient City Tour (UNESCO town with stunning views)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Lijiang)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Lijiang Tour</div>
+  <ul class="activities">
+  <li>Jade Dragon Snow Mountain (iconic snow mountain in Yunnan)
+  <ul class="sub-activities"><li>Lijiang Impression Show (cultural performance with mountain views)</li><li>Blue Moon Valley (picture-perfect spot for nature lovers)</li><li>White Water River (stunning spot for panoramic photos)</li><li>Dongbaqu & Dry Sea</li></ul>
+  </li>
+  <li>Lijiang Mosque</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Lijiang)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Lijiang - Kunming</div>
+  <ul class="activities">
+  <li>Black Dragon Pool (scenic pool with mountain views)</li>
+  <li>Bullet train to Kunming (3 hours)</li>
+  <li>Cui Hu Lake (photo stop only)</li>
+  <li>Guandu Ancient Town (cultural hotspot with rich history)</li>
+  </ul>
+  </td>
+  <td>Private Transport + Bullet Train</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Kunming)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>City & Shopping Tour</div>
+  <ul class="activities">
+  <li>Yongning Mosque</li>
+  <li>Nanping Pedestrian Street (lively shopping in Kunming's heart)</li>
+  <li>Kunming Old Street (historic architecture)</li>
+  <li>Airport transfer</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Kunming)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Kunming - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Flight KMG - KUL</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
+  <path d="M8 10h8" />
+  <path d="M8 18h8" />
+  <path d="M8 22v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6" />
+  <path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />

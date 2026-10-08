@@ -1,0 +1,359 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>Full Board</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets (KUL-CMN, MAD-KUL)</li><li>23kg Check-in Luggage + 7kg Hand Luggage</li><li>8 Nights Accommodation (3/4-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees (as stated in itinerary)</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li><li>One-Way Ferry Ticket (Tangier - Tarifa)</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Meals on Board</li><li>Additional Tours and Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Visa (for non-Malaysian)</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">Emirates</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Dubai (DXB)</div>
+  <div class="leg-flight">
+  <b>EK 343</b>
+  <span>02:15 - 05:05</span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Dubai (DXB) - Casablanca (CMN)</div>
+  <div class="leg-flight">
+  <b>EK 751</b>
+  <span>07:30 - 12:45</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Madrid (MAD) - Dubai (DXB)</div>
+  <div class="leg-flight">
+  <b>EK 144</b>
+  <span>22:05 - 07:10 <sup>(+1)</sup></span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Dubai (DXB) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>EK 342</b>
+  <span>10:25 - 21:50</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Casablanca</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Campanile Casablanca Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Rabat</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Ibis Rabat Agdal or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Tangier</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Tanger Med Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Granada</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Urban Dream Granada Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Seville</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Sercotel Dona Carmela Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Lisbon</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Luna Esperana Centro Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Madrid</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Holiday Inn Express Hotel or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Casablanca</div>
+  <ul class="activities">
+  <li>Gather at airport</li>
+  <li>Flight KUL - DXB - CMN (via Dubai)</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Casablanca - Marrakech (Day Trip) - Casablanca</div>
+  <ul class="activities">
+  <li>Arrive in Casablanca, airport transfer</li>
+  <li>Hassan II Mosque (one of the largest mosques in the world)</li>
+  <li>Muhammad V Square (public square in Casablanca)</li>
+  <li>Depart for Marrakech (3 hours)</li>
+  <li>Marrakech City Tour</li>
+  <li>Berber Pharmacie (spice and herb shop)</li>
+  <li>Koutoubia Mosque (biggest mosque in Marrakech)</li>
+  <li>Jemaa El Fnaa (old market square)</li>
+  <li>Souq (shopping)</li>
+  <li>Return to Casablanca (3 hours)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Casablanca)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Casablanca - Rabat</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Depart for Rabat (1 hour)</li>
+  <li>Kasbah Oudaya (fortified structures built to protect the city)</li>
+  <li>Mausoleum of Mohammed V (tomb of the Moroccan king)</li>
+  <li>Hassan Tower (minaret)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Rabat)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Rabat - Chefchaouen - Tangier</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Depart for Chefchaouen (4 hours)</li>
+  <li>Old Medina of Chefchaouen (the blue city of Morocco)</li>
+  <li>Shopping at Place el Houta (blue-tiled buildings with classic arches)</li>
+  <li>Depart for Tangier (2 hours)</li>
+  <li>Cap Spartel (the meeting point of the Mediterranean Sea and the Atlantic Ocean)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch (Chefchaouen), Dinner</td>
+  <td>3-Star Hotel (Tangier)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Tangier - Tarifa - Granada</div>
+  <ul class="activities">
+  <li>Depart for Spain by ferry (1 hour 30 minutes)</li>
+  <li>Arrive in Tarifa, continue to Granada (3 hours)</li>
+  <li>Albayzin Muslim Quarter (historic Muslim settlement in Granada)</li>
+  </ul>
+  </td>
+  <td>Private Transport & Ferry</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Granada)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Granada - Cordoba - Seville</div>
+  <ul class="activities">
+  <li>Alhambra (a palace and fortress complex built during the Muslim Empire)
+  <ul class="sub-activities"><li>Charles V Palace (symbolizes the triumph of Christianity)</li><li>The Nasrid Palaces (the jewel of the Alhambra's Islamic art)</li><li>The Generalife (palace)</li></ul>
+  </li>
+  <li>Depart for Cordoba (2 hours)</li>
+  <li>Cordoba City Tour</li>
+  <li>The Great Mosque of Cordoba (mosque-cathedral)</li>
+  <li>Bridge of Musa Ibn Nusay</li>
+  <li>Torre de la Calahorra (fortified gate in Cordoba's historic centre)</li>
+  <li>Depart for Seville (1 hour 30 minutes)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Seville)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Seville - Lisbon</div>
+  <ul class="activities">
+  <li>Royal Alcazar (photo stop at a historic royal palace in Seville)</li>
+  <li>Plaza de Espana (famous square in Seville)</li>
+  <li>La Giralda (bell tower of Seville Cathedral)</li>
+  <li>Depart for Lisbon (5 hours)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Lisbon)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 8</span>Lisbon - Madrid</div>
+  <ul class="activities">
+  <li>Free & easy in the city centre (shopping)</li>
+  <li>Central Mosque of Lisbon</li>
+  <li>Depart for Madrid (6 hours)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Madrid)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 9</span>Madrid City Tour</div>
+  <ul class="activities">
+  <li>Bull Ring (historic arena)</li>
+  <li>Plaza Mayor (main square)</li>
+  <li>Santiago Bernabeu Stadium (Real Madrid's stadium)</li>
+  <li>Puerta del Sol (central landmark square)</li>
+  <li>Royal Palace (royal residence)</li>
+  <li>Islamic Centre of Madrid (main mosque)</li>
+  <li>Las Rozas Village Outlet (shopping outlet)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Madrid)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 10</span>Madrid - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Check out hotel</li>
+  <li>Free and Easy</li>
+  <li>Transfer to Adolfo Suárez Madrid-Barajas Airport (MAD)</li>
+  <li>Return flight to Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 11</span>Arrival Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Arrive at KLIA</li>
+  </ul>
+  </td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 6v6" />
+  <path d="M15 6v6" />
+  <path d="M2 12h19.6" />
+  <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3" />
+  <circle cx="7" cy="18" r="2" />
+  <path d="M9 18h5" />
+  <circle cx="16" cy="18" r="2" />

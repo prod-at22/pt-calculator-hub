@@ -1,0 +1,421 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>7 Breakfast, 1 Lunch, 7 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 16v-4" />
+  <path d="M12 8h.01" />
+</svg>
+<span>Guided Aurora Hunting</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return International Flight Tickets</li><li>1-Way Domestic Flight Ticket (TOS - OSL)</li><li>25kg Check-in Luggage (International)</li><li>23kg Check-in Luggage (Domestic)</li><li>7kg Hand Luggage (International & Domestic)</li><li>Meals on Board (International)</li><li>7 Nights Accommodation (3-Star Hotels)</li><li>Halal Meals as Specified in Itinerary (7 Breakfast at Hotel, 1 Lunch Kembara Pack, 3 Dinner at Restaurant, 4 Dinner Kembara Pack)</li><li>Entrance Fees: Kiruna Ice Hotel, Ranua Zoo, Reindeer Ride at Santa Claus Village (400m)</li><li>Private Transportation</li><li>Driving Guide (Malay/English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li><li>2x Guided Aurora Hunting</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals (Lunch, Extra Kembara Pack)</li><li>Optional Activity: Santa's Reindeer Farm, Santa's Husky Farm, Santa's Husky Ride, Narvik - Ofoten Arctic Train, The Polar Museum, Fjellheisen Cable Car, Narvikfjellet Cable Car</li><li>Travel Insurance</li><li>Meal on Board (Domestic)</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">Turkish Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Istanbul (IST)</div>
+  <div class="leg-flight">
+  <b>TK 61</b>
+  <span>11:45 PM - 5:20 AM <sup>(+1)</sup></span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Istanbul (IST) - Helsinki (HEL)</div>
+  <div class="leg-flight">
+  <b>TK 1761</b>
+  <span>8:00 AM <sup>(+1)</sup> - 11:40 AM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Oslo (OSL) - Istanbul (IST)</div>
+  <div class="leg-flight">
+  <b>TK 1754</b>
+  <span>6:40 PM - 11:35 PM</span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Istanbul (IST) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>TK 60</b>
+  <span>1:40 AM <sup>(+1)</sup> - 5:05 PM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Norwegian Air</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg">
+  <div class="leg-route">Tromsø (TOS) - Oslo (OSL) (Domestic Flight)</div>
+  <div class="leg-flight">
+  <b>DY 329</b>
+  <span>08:15 AM - 10:15 AM</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg">
+  <div class="leg-route">Tromsø (TOS) - Oslo (OSL) (Domestic Flight)</div>
+  <div class="leg-flight">
+  <b>DY 373</b>
+  <span>10:55 AM - 12:55 PM</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Jyväskylä</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Green Star Hotel or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Rovaniemi</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Scandic Rovaniemi City or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Abisko</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>STF Abisko Turiststation or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Tromsø</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Scandic Grand or similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Departure</div>
+  <ul class="activities">
+  <li>Assemble at KLIA</li>
+  <li>Flight to Helsinki (via Istanbul)</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Helsinki - Jyväskylä</div>
+  <ul class="activities">
+  <li>Arrival in Helsinki (capital and most populous city in Finland)</li>
+  <li>Kauppatori Market Square & Waterfront (open-air market at Helsinki Harbour with crafts, clothing, flowers, food, and souvenir stalls)</li>
+  <li>Senate Square (surrounded by 19th-century and Neoclassical buildings)</li>
+  <li>Transfer from Helsinki to Jyväskylä</li>
+  <li>Jyväskylä (a Finnish Lakeland city, home to many buildings designed by architect Alvar Aalto)</li>
+  <li>Jyväskylä City of Light (over a hundred permanent illuminated art installations, lighting up the city at night)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner (Restaurant)</td>
+  <td>3* Hotel (Jyväskylä)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Jyväskylä - Rovaniemi</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Toivola Old Courtyard (19th-century craftsman's courtyard surrounded by wooden buildings)</li>
+  <li>Lake Jyväsjärvi (a serene lake in the centre of Jyväskylä)</li>
+  <li>Transfer from Jyväskylä to Rovaniemi</li>
+  <li>Rovaniemi (regional capital of Lapland, the official hometown of Santa Claus)</li>
+  <li>Check-in</li>
+  <li>Guided Aurora Hunting</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Rovaniemi)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Rovaniemi Tour</div>
+  <ul class="activities">
+  <li>Ranua Zoo (Arctic wildlife park with 200+ species, including polar bears, wolves, reindeer, and moose)</li>
+  <li>Santa Claus Village (cross the Arctic Circle, meet Santa Claus, and send postcards from Santa's Main Post Office)
+  <ul class="sub-activities"><li>400m Reindeer Ride (included)</li><li>Reindeer Farm (optional, see Additional Activities)</li><li>Husky Farm (optional, see Additional Activities)</li><li>Husky Rides (optional, see Additional Activities)</li></ul>
+  </li>
+  <li>Self Guided Aurora Viewing</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Restaurant)</td>
+  <td>3* Hotel (Rovaniemi)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Rovaniemi - Kiruna - Abisko</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Transfer from Rovaniemi to Kiruna</li>
+  <li>Kiruna Ice Hotel (the world's first year-round ice hotel, 20 suites each with its own unique design)</li>
+  <li>Transfer from Kiruna to Abisko</li>
+  <li>Abisko (a village north of the Arctic Circle, considered one of the best spots for viewing the aurora)</li>
+  <li>Check-in</li>
+  <li>Self Guided Aurora Viewing</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Abisko)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Abisko National Park</div>
+  <ul class="activities">
+  <li>Abisko National Park (stunning valleys, birch forests, alpine meadows, and lakes within the Arctic Circle)</li>
+  <li>Guided Trail Walk & Trekking (the region's unique flora and fauna)</li>
+  <li>Free & Easy</li>
+  <li>Guided Aurora Hunting</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch (Kembara Pack), Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Abisko)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Abisko - Narvik - Tromsø</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Transfer from Abisko to Narvik</li>
+  <li>Narvik (a town known for the Northern Lights, fjords, and its ski resort)</li>
+  <li>Narvik souvenir shopping</li>
+  <li>Optional: Narvik Cable Car (see Price Excludes)</li>
+  <li>Transfer from Narvik to Tromsø</li>
+  <li>Tromsø (the "Arctic Capital", a prime aurora-viewing spot within the Aurora Oval)</li>
+  <li>Check-in</li>
+  <li>Sommarøy Island Aurora Viewing (an island known as one of the most beautiful for aurora viewing)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Restaurant)</td>
+  <td>3* Hotel (Tromsø)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 8</span>Tromsø Fjord & City Tour</div>
+  <ul class="activities">
+  <li>Norwegian Fjord Tour (stunning fjords, islands, and mountains — spot Arctic wildlife and visit charming villages)</li>
+  <li>Ersfjordbotn (ideal for dramatic fjord photography)</li>
+  <li>Grøtfjorden (white sand Arctic beach surrounded by steep mountains and turquoise waters)</li>
+  <li>Tromvik (known for its beautiful coastal mountain scenery)</li>
+  <li>Nordfjordbotn (surrounded by dramatic mountains and Arctic shores)</li>
+  <li>Arctic Cathedral (famous for its distinctive triangular design and large glass mosaic window)</li>
+  <li>Optional: The Polar Museum, Fjellheisen Cable Car (see Additional Activities / Price Excludes)</li>
+  <li>Self Guided Aurora Viewing</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Tromsø)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 9</span>Tromsø - Oslo</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Airport transfer</li>
+  <li>Domestic flight to Oslo (TOS - OSL)</li>
+  <li>Flight to Kuala Lumpur (OSL - KUL, via Istanbul)</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast, Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 10</span>Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Arrival in Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Santa Claus Village - Reindeer Park</div>
+  <div class="addon-meta">Includes: Meet and greet with Santa's reindeer, reindeer info, coffee by the fire</div>
+  <div class="addon-meta">Excludes: Purchases at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Around 30 minutes (daily 10:00-16:00, closed in May)</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (13+ yrs): RM 115/person</div>
+  <div class="addon-price-line">3-12 yrs: RM 65/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Santa Claus Village - Husky Visiting & 1km Ride</div>
+  <div class="addon-meta">Includes: Guided tour of the Husky Park, meet and greet with huskies, 1km ride in a summer carriage</div>
+  <div class="addon-meta">Excludes: Purchases at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Approximately 1.5 hours (daily 11:00-15:00, closed in May)</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (13+ yrs): RM 400/person</div>
+  <div class="addon-price-line">4-12 yrs: RM 275/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Santa Claus Village - Husky Park</div>
+  <div class="addon-meta">Includes: Guided tour of the Husky Park, meet and greet with huskies</div>
+  <div class="addon-meta">Excludes: Purchases at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Approximately 1 hour (daily 11:00-15:00, closed in May)</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (13+ yrs): RM 170/person</div>
+  <div class="addon-price-line">4-12 yrs: RM 95/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">The Polar Museum (Tromsø)</div>
+  <div class="addon-meta">Includes: Entrance to the museum, admission to all exhibits</div>
+  <div class="addon-meta">Excludes: Purchases at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Around 1 hour (daily 11:00-17:00)</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 65/person</div>
+  <div class="addon-price-line">17 yrs & under: Free</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16 10a4 4 0 0 1-8 0" />
+  <path d="M3.103 6.034h17.794" />
+  <path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z" />

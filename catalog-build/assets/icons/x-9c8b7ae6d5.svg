@@ -1,0 +1,478 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>8 Breakfast, 8 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Driving Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets</li><li>25kg/30kg Check-in Luggage + 7kg Hand Luggage</li><li>Meals on Board</li><li>8 Nights Accommodation (3-Star Hotels)</li><li>Halal Meals as Specified in Itinerary (8 Breakfast at Hotel, 3 Dinner at Restaurant, 5 Dinner Kembara Pack)</li><li>Entrance Fees: Fjord Safari Boat Ticket, Flåmsbana Panoramic Train Ticket</li><li>Private Transportation</li><li>Driving Guide (Malay/English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals (Lunch, Extra Kembara Pack)</li><li>Optional Activity: VASA Museum, Norsk Folkemuseum, Fram Museum - Polar Exploration, Fløibanen Funicular Railway, Njardarheimr Viking Valley</li><li>Travel Insurance</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">Turkish Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Istanbul (IST)</div>
+  <div class="leg-flight">
+  <b>TK 61</b>
+  <span>11:45 PM - 5:20 AM <sup>(+1)</sup></span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Istanbul (IST) - Copenhagen (CPH)</div>
+  <div class="leg-flight">
+  <b>TK 1783</b>
+  <span>7:15 AM <sup>(+1)</sup> - 9:30 AM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Oslo (OSL) - Istanbul (IST)</div>
+  <div class="leg-flight">
+  <b>TK 1754</b>
+  <span>6:40 PM - 11:35 PM</span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Istanbul (IST) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>TK 60</b>
+  <span>1:40 AM <sup>(+1)</sup> - 5:05 PM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Malaysia Airlines + Qatar Airways</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Doha (DOH)</div>
+  <div class="leg-flight">
+  <b>MH 160</b>
+  <span>9:00 PM - 11:30 PM</span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Doha (DOH) - Copenhagen (CPH)</div>
+  <div class="leg-flight">
+  <b>MH 9255</b>
+  <span>2:00 AM <sup>(+1)</sup> - 7:25 AM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Oslo (OSL) - Doha (DOH)</div>
+  <div class="leg-flight">
+  <b>MH 9266</b>
+  <span>4:05 PM - 11:35 PM</span>
+  </div>
+</div>
+  <div class="leg">
+  <div class="leg-route">Doha (DOH) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>MH 161</b>
+  <span>1:50 AM <sup>(+1)</sup> - 2:45 PM <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Malmö</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Good Morning Hotel or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Norrköping</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Best Western or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Enköping</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Best Western Hotel Park or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Oslo</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Comfort Hotel Runaway or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Bergen</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Citybox Bergen Danmarksplass or similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Geilo</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Geilo Hotel or similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Departure</div>
+  <ul class="activities">
+  <li>Gather at KLIA</li>
+  <li>Flight to Copenhagen</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Copenhagen City Tour</div>
+  <ul class="activities">
+  <li>Arrive Copenhagen Airport, pickup</li>
+  <li>Gefion Fountain (cascaded fountain & largest monument in Copenhagen)</li>
+  <li>Little Mermaid Statue (bronze & granite sculpture inspired by the Hans Christian Andersen fairy tale)</li>
+  <li>Rosenborg Castle & King's Garden (est. 17th century, was King Christian IV's private garden, the oldest and most visited park in central Copenhagen)</li>
+  <li>Amalienborg Palace (home to the Royal Danish Family)</li>
+  <li>Strøget (car-free pedestrian shopping street, one of the longest in Europe)</li>
+  <li>Nyhavn (vibrant and colourful waterfront district)</li>
+  <li>Land transfer from Copenhagen to Malmö</li>
+  <li>Øresund Bridge (iconic 16km bridge linking Denmark & Sweden, comprising a bridge, an artificial island and an underwater tunnel)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Dinner (Restaurant)</td>
+  <td>3* Hotel (Malmö)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Malmö - Norrköping</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Malmö to Norrköping</li>
+  <li>Luftkastellet (scenic spot for the Øresund Bridge viewpoint)</li>
+  <li>Lund (medieval city, cobblestones and half-timbered houses)</li>
+  <li>Jönköping (picturesque lakeside city)</li>
+  <li>Lake Vättern (most beautiful and 2nd largest lake in Sweden)</li>
+  <li>Norrköping (located at the mouth of the Motala River, which drains Lake Vättern into the Baltic Sea)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Norrköping)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Stockholm City Tour</div>
+  <ul class="activities">
+  <li>Land transfer from Norrköping to Stockholm</li>
+  <li>Stockholm (Sweden's capital, known as the 'Venice of the North')</li>
+  <li>Royal Palace (official residence & royal palace of the Swedish monarch)</li>
+  <li>Stockholm Grand Mosque (largest mosque in Stockholm)</li>
+  <li>Gamla Stan (medieval old town with charming streets)</li>
+  <li>Stortorget (medieval square with colourful architecture & old Swedish charm)</li>
+  <li>Optional: Vasa Museum (Scandinavia's most visited museum, home to the world's only well-preserved 17th-century ship)</li>
+  <li>Transfer to Enköping</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Enköping)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Enköping - Oslo</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Enköping to Oslo</li>
+  <li>Örebro (one of the most beautiful city centres in Sweden)</li>
+  <li>Örebro Castle (impressive blend of medieval and Renaissance architecture)</li>
+  <li>Lake Vänern (largest lake in Sweden & the EU, with 22,000 islands)</li>
+  <li>Karlstad (located on the north shore of Lake Vänern, Sweden's sunniest city)</li>
+  <li>Oslo (Norway's capital, with Oslofjord, natural beauty, Viking heritage, modern architecture and cultural scene)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Restaurant)</td>
+  <td>3* Hotel (Oslo)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Oslo City Tour</div>
+  <ul class="activities">
+  <li>King's Palace (official residence of the Norwegian royal family)</li>
+  <li>National Theatre (venue showcasing Norway's cultural performances)</li>
+  <li>Stortinget (the supreme legislature of Norway, established in 1814)</li>
+  <li>Oslo Opera House (home of the Norwegian National Opera and Ballet)</li>
+  <li>Gronland Mosque (headquarters of the World Islamic Mission, one of the biggest Muslim congregations in Norway)</li>
+  <li>Karl Johans Gate (main street lined with shops, cafes, street performers)</li>
+  <li>Aker Brygge (vibrant waterfront in Oslo offering food, shopping, culture and nature experiences)</li>
+  <li>Optional: Norsk Folkemuseum (open-air museum with 160 historic buildings)</li>
+  <li>Optional: Fram Museum (Norway's polar exploration, with the original Fram ship)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Oslo)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Oslo - Bergen</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Oslo to Bergen</li>
+  <li>Geilo (mountain town known for skiing and outdoor adventures)</li>
+  <li>Vøringsfossen (Norway's most famous waterfall, with a 182m drop)</li>
+  <li>Eidfjord (scenic fjord village surrounded by mountains & nature)</li>
+  <li>Hardangerfjord (majestic fjord with glacier views — Norway's 2nd longest and the world's 5th, stretching 179km from the Atlantic Ocean)</li>
+  <li>Bergen (Norway's 2nd largest city, surrounded by the UNESCO-listed Norwegian fjords, one of the world's most popular attractions)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Bergen)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 8</span>Bergen City Tour</div>
+  <ul class="activities">
+  <li>Bergenhus Fortress (historic coastal fortress, one of Norway's oldest and best-preserved fortifications)</li>
+  <li>Håkonshallen (the largest royal residence, built in the 13th century by King Håkon Håkonsson, over 750 years old)</li>
+  <li>Nordnes Park (peaceful seaside park with walking trails & ocean views)</li>
+  <li>Bryggen Harbour (UNESCO-listed old Hanseatic wharf and buildings, one of North Europe's oldest port cities)</li>
+  <li>Bergen Moské (Bergen Mosque)</li>
+  <li>Bergen Fish Market (picturesque fish market, among Norway's most visited outdoor markets — seafood, fruit and vegetables)</li>
+  <li>Optional: The Fløibanen (ride the funicular railway to the top of Mount Fløyen for a panoramic view of Bergen City)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Restaurant)</td>
+  <td>3* Hotel (Bergen)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 9</span>Bergen - Gudvangen - Flåm - Geilo</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Land transfer from Bergen to Gudvangen</li>
+  <li>Tvindefossen (waterfall featuring multiple streams of water cascading down rugged rocks)</li>
+  <li>Gudvangen (one of four villages along the Aurlandsfjord & Nærøyfjord, surrounded by towering cliffs and waterfalls)</li>
+  <li>Optional: Njardarheimr Viking Valley (living history town in Norway showcasing Viking life and culture)</li>
+  <li>Nærøyfjord Boat Safari (boat ride through the UNESCO-listed fjord with dramatic mountain scenery from Gudvangen to Flåm)</li>
+  <li>Flåmsbana Train Ride (one of the best train journeys in the world, through dramatic fjord and mountain scenery)
+  <ul class="sub-activities"><li>Kjosfossen Waterfall (waterfall only accessible via the Flåmsbana)</li></ul>
+  </li>
+  <li>Land transfer from Myrdal to Geilo</li>
+  <li>Check-in</li>
+  <li>Itinerary may change on tour day without prior notice, subject to weather and traffic conditions</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner (Kembara Pack)</td>
+  <td>3* Hotel (Geilo)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 10</span>Geilo - Oslo - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Land transfer from Geilo to Oslo</li>
+  <li>Flight to Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast, Meals on Board</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 11</span>Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Arrive Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Vasa Museum</div>
+  <div class="addon-meta">Includes: Entrance to the museum, admission to all exhibits, including the preserved Vasa ship and its surrounding displays</div>
+  <div class="addon-meta">Excludes: Tour guide, purchase at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Opening hours Sept-May 10:00-17:00, Jun-Aug 08:30-18:00. Can be done after the city tour, suggested around 1.5-2 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (May-Sep): RM 115/person</div>
+  <div class="addon-price-line">Adult (Others): RM 100/person</div>
+  <div class="addon-price-line">18 & under: Free</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Norsk Folkemuseum</div>
+  <div class="addon-meta">Includes: Entrance to the museum, including the open-air museum, permanent exhibitions, theme exhibitions, and any ongoing events or programs</div>
+  <div class="addon-meta">Excludes: Tour guide, purchase at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Opening hours Oct-Apr 11:00-16:00, May-Sep 10:00-17:00. Can be done after the city tour, suggested around 2 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 95/person</div>
+  <div class="addon-price-line">17 & under: Free</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Fram Museum</div>
+  <div class="addon-meta">Includes: Entrance to the museum, including the ability to explore the iconic polar ship, Fram</div>
+  <div class="addon-meta">Excludes: Tour guide, purchase at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Opening hours Oct-Apr 10:00-17:00, May-Sep 09:30-18:00. Can be done after the city tour, suggested around 1-2 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 90/person</div>
+  <div class="addon-price-line">Child: RM 35/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Fløibanen Funicular</div>
+  <div class="addon-meta">Includes: Round-trip ride to the top of Mount Fløyen (~6 minutes per way), including the playground, cafeteria and gift shop at the top</div>
+  <div class="addon-meta">Excludes: Tour guide, extra activities (canoe, paddleboard, mountain bike), purchase at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Opening hours Mon-Fri 07:30-00:00, Sat-Sun 08:00-00:00. Can be done after the city tour, suggested around 1-1.5 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult (Summer): RM 93/person</div>
+  <div class="addon-price-line">Adult (Winter): RM 70/person</div>
+  <div class="addon-price-line">Child (Summer): RM 50/person</div>
+  <div class="addon-price-line">Child (Winter): RM 40/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Njardarheimr Viking Valley</div>
+  <div class="addon-meta">Includes: Viking experience tour, access to the Viking Village, and activities like axe throwing and archery</div>
+  <div class="addon-meta">Excludes: Purchase at the restaurant or gift shop, personal expenses</div>
+  <div class="addon-meta">Duration: Available Mon-Fri 10:00-18:00, April-October only. Suggested around 1-1.5 hours</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 135/person</div>
+  <div class="addon-price-line">Child (4-15): RM 70/person</div>
+  <div class="addon-price-line">Child (below 4): Free</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect width="20" height="12" x="2" y="6" rx="2" />
+  <circle cx="12" cy="12" r="2" />
+  <path d="M6 12h.01M18 12h.01" />

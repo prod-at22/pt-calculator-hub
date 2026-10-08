@@ -1,0 +1,210 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotel</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>Full Board</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Ticket (KUL-LOP-KUL)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>3 Nights Accommodation (3-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees (as per Itinerary)</li><li>Private Transportation</li><li>Tour Guide (Malay Spoken)</li><li>Tipping & Parking Fee</li><li>Airport Tax</li><li>Snorkeling @ Gili Trawangan</li><li>Boat Transfer</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Meals on Board</li><li>Any Other Activities Not Mentioned in Itinerary</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Lombok (LOP)</div>
+  <div class="leg-flight">
+  <b>AK 304</b>
+  <span>09:00 - 12:30</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Lombok (LOP) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>AK 305</b>
+  <span>12:55 - 16:05</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Lombok</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Favehotel Mataram or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Lombok - Sasak Tour</div>
+  <ul class="activities">
+  <li>Arrival at Lombok Airport</li>
+  <li>Desa Banyumulek (Traditional pottery village experience)</li>
+  <li>Desa Sukarara (Handwoven songket heritage hub)</li>
+  <li>Desa Ende (Traditional Sasak weaving village)</li>
+  <li>Tanjung Aan (White sands, turquoise waters)</li>
+  <li>Land transfer to Mataram/Sengigi</li>
+  <li>Check in hotel</li>
+  </ul>
+  </td>
+  <td>Flight & Private Transport</td>
+  <td>Lunch, Dinner</td>
+  <td>3 Star Hotel (Lombok)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Gili Trawangan</div>
+  <ul class="activities">
+  <li>Take boat at the jetty for Gili Trawangan</li>
+  <li><b>Snorkeling @ famous spots</b></li>
+  <li>Masjid Baitulrohman (Seaside mosque, a place of worship for local Muslims)</li>
+  <li>Lunch at Juku Marlin</li>
+  <li>Gili Islands (Gili Air, Gili Meno) — a tropical trio of paradise, each with its own charm</li>
+  </ul>
+  </td>
+  <td>Boat Transfer & Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3 Star Hotel (Lombok)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Sembalun - Mt. Rinjani</div>
+  <ul class="activities">
+  <li>Breakfast</li>
+  <li>Pusuk Sembalun (Valley views from mountain pass)</li>
+  <li>Kebon Kupi/Stroberi (Fresh coffee and strawberry farm)</li>
+  <li>Kedai Sawah (Dining with rice field views)</li>
+  <li>Taman Surga (Hidden garden of serenity)</li>
+  <li><b>Rainbow Slide (optional)</b></li>
+  <li><b>Hanging Bike (optional)</b></li>
+  <li>Bukit Selong (Scenic hill with valley panorama)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3 Star Hotel (Lombok)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Lombok - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Check out hotel</li>
+  <li>Airport transfer to Lombok International Airport</li>
+  <li>Flight LOP - KUL</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 16v-4" />
+  <path d="M12 8h.01" />

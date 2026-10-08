@@ -1,0 +1,271 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>3 Breakfast, 2 Lunch, 2 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>Meal on Board (Malaysia Airlines & AirAsia X, KUL-KIX Only)</li><li>4 Nights Accommodation (3-Star Hotel)</li><li>Halal Meals as Specified in Itinerary (4x Breakfast, 2-3x Lunch, 2-3x Dinner)</li><li>Entrance Fees: Universal Studio Japan OR Kaiyukan Aquarium, Tempozan Ferris Wheel and Umeda Sky Building</li><li>Private Transportation (except Free & Easy Day)</li><li>Tour Guide (Malay, English, Japanese Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals</li><li>Optional Activity / Entrance</li><li>Travel Insurance</li><li>Meals on Board (AirAsia X, KIX-KUL)</li><li>Lunch & Dinner for USJ Option or Free & Easy Day</li><li>Visa for Non-Malaysian</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia X</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Kansai (KIX)</div>
+  <div class="leg-flight">
+  <b>D7 532</b>
+  <span>02:15 - 09:45</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Kansai (KIX) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>D7 533</b>
+  <span>11:05 - 16:55</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Malaysia Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Kansai (KIX)</div>
+  <div class="leg-flight">
+  <b>MH 52</b>
+  <span>22:40 - 05:50 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Kansai (KIX) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>MH 53</b>
+  <span>09:55 - 15:55</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Osaka</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Sotetsu Fresa Inn Kitahama or similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Osaka</div>
+  <ul class="activities">
+  <li>Gather at Airport (4 hours prior to departure)</li>
+  <li>Flight to Kansai</li>
+  <li>Arrive in Kansai</li>
+  <li>Osaka Castle (Historic samurai castle surrounded by scenic park)</li>
+  <li>Namba Area (Most famous entertainment district in Osaka)
+  <ul class="sub-activities"><li>Shinsaibashi (Popular shopping street; branded goods & souvenirs)</li><li>Dotonbori (Famous for street foods and iconic "Glicoman")</li></ul>
+  </li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Flight & Private Transport</td>
+  <td>Meal on Board, Lunch, Dinner</td>
+  <td>3* Hotel (Osaka)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Kyoto Day Tour</div>
+  <ul class="activities">
+  <li>Transfer to Kyoto</li>
+  <li>Arashiyama (Serene and picturesque bamboo forest)</li>
+  <li>Togetsukyo Bridge (Famous bridge crossing Katsura River)</li>
+  <li>Tenryuuji (UNESCO's, famous temple with stunning Zen Garden)</li>
+  <li>Fushimi Inari (Famous shrine with thousands of iconic red torii gates)</li>
+  <li>Return to Osaka</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3* Hotel (Osaka)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>USJ or Kaiyukan Aquarium</div>
+  <ul class="activities">
+  <li>Choose one of the following options (entrance fee for your chosen option is already included in the package price)</li>
+  <li>OPTION [A]: Universal Studio Japan (Thrilling theme park adventures; features Nintendo, Harry Potter, Minions and more)</li>
+  <li>OPTION [B]: Kaiyukan Aquarium (Massive aquarium featuring whale sharks)</li>
+  <li>OPTION [B]: Tempozan Ferris Wheel (112m wheel, offering scenic views of Osaka Bay, city, and mountains)</li>
+  <li>OPTION [B]: Umeda Sky Building (Towers with Floating Garden Observatory)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch (Option B only), Dinner (Option B only)</td>
+  <td>3* Hotel (Osaka)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Free & Easy</div>
+  <ul class="activities">
+  <li>Free & Easy OR choose activit(ies) from the Nara - Namba Day Tour add-on below</li>
+  </ul>
+  </td>
+  <td>-</td>
+  <td>Breakfast</td>
+  <td>3* Hotel (Osaka)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Osaka - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Airport transfer</li>
+  <li>Flight to Kuala Lumpur</li>
+  <li>Arrival in Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Nara - Namba Day Tour via Public Transport</div>
+  <div class="addon-meta">Includes: Tour guide, return train tickets, and visits to Nara Deer Park, Todaiji Temple, Dotonbori, and Shinsaibashi</div>
+  <div class="addon-meta">Excludes: Private transport, meals, personal expenses</div>
+  <div class="addon-meta">Duration: 9:00am - 7:30pm</div>
+  <div class="addon-meta">Minimum Persons: 4 participants</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: RM 300/person</div>
+  <div class="addon-price-line">Child: RM 140/person</div>
+  <div class="addon-price-line">Infant: RM 230/person</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />

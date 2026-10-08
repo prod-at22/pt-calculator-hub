@@ -1,0 +1,420 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>4-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>Full Board</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets (KUL-TFU-KUL)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>Meal on Board (KUL-TFU)</li><li>5 Nights Accommodation (4-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees: Jiuzhaigou National Park + Bus, Huanglong Scenic Area + Cable Car, Panda Valley/Panda Base</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping Fee & Parking Fee</li><li>Airport Tax</li><li>2-Way Bullet Train Tickets</li><li>March-April (Spring Only): Manhua Manor Entrance + Glass Bridge</li><li>May-February (Other Seasons Except Spring): Kuanzhai Alley + Face Changing Show + Gaiwan Tea</li><li>End of December-February (Winter Only): Xiling Snow Mountain Cable Car + Shuttle Bus to Mid Mountain Area</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Meal on Board (TFU-KUL)</li><li>Winter (End of December-February): Activities/Games at Xiling Snow Mountain</li><li>Porter Fee</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia X</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Chengdu (TFU)</div>
+  <div class="leg-flight">
+  <b>D7 326</b>
+  <span>18:05 - 22:40</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Chengdu (TFU) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>D7 327</b>
+  <span>23:55 - 04:34 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Malaysia Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Chengdu (TFU)</div>
+  <div class="leg-flight">
+  <b>MH 526</b>
+  <span>19:25 - 00:15 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Chengdu (TFU) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>MH 527</b>
+  <span>01:05 - 06:10</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Batik Air</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Chengdu (TFU)</div>
+  <div class="leg-flight">
+  <b>N/A</b>
+  <span>21:35 - 02:20 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Chengdu (TFU) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>N/A</b>
+  <span>03:15 - 07:45</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Chengdu</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Holiday Inn Express or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Jiuzhaigou</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Jiuzhai Hotel or Similar</div>
+  </div>
+  <div class="accom-item">
+  <div class="city">Dujiangyan</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Langlizi Hotel or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-tabs">
+  <input type="radio" class="itin-radio" name="itin-group-chengdu-3-bandar" id="itin-tab-0" checked>
+  <label class="itin-pill" for="itin-tab-0">March – Mid December (Spring / Summer / Autumn)</label>
+  <input type="radio" class="itin-radio" name="itin-group-chengdu-3-bandar" id="itin-tab-1" >
+  <label class="itin-pill" for="itin-tab-1">End of December – February (Winter)</label>
+  <div class="itin-panel itin-panel-0">
+  <h3 class="itinerary-group-label">March – Mid December (Spring / Summer / Autumn)</h3>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Chengdu</div>
+  <ul class="activities">
+  <li>Arrive at Chengdu Tianfu International Airport</li>
+  <li>Transfer to hotel</li>
+  <li>Check in hotel and rest</li>
+  </ul>
+  </td>
+  <td>Flight, Private Transport</td>
+  <td>Dinner</td>
+  <td>4 Star Hotel (Chengdu)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Chengdu - Huanglong - Jiuzhaigou</div>
+  <ul class="activities">
+  <li>Bullet train to Huanglong</li>
+  <li>Huanglong Scenic photostop (Stunning natural pools formed by calcite deposits)</li>
+  <li>Local Mosque</li>
+  <li>Transfer to Jiuzhaigou</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Jiuzhaigou)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Full Day Jiuzhaigou</div>
+  <ul class="activities">
+  <li>Full day at Jiuzhaigou National Park (A nature fairyland with emerald crystal lakes, waterfalls, and towering peaks)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Jiuzhaigou)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Jiuzhaigou - Songpan - Chengdu</div>
+  <ul class="activities">
+  <li>Source of Minjiang River</li>
+  <li>Songpan Ancient Town (A historic military garrison and trade hub)</li>
+  <li>Local Mosque</li>
+  <li>Bullet train to Chengdu</li>
+  <li>SKP Bamboo Tower (Iconic landmark, 6 giant bamboo-shaped towers)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Chengdu)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Chengdu - Dujiangyan</div>
+  <ul class="activities">
+  <li>Transfer to Dujiangyan</li>
+  <li>Dujiangyan Panda Valley (See Giant Panda and Red Panda)</li>
+  <li>Yangtianwo Selfie Square</li>
+  <li>Local Mosque</li>
+  <li>Zhongshuge Bookstore (Two-story bookstore with unique architecture)</li>
+  <li>Blue Tears (Stunning neon-blue illumination of the Minjiang River at night)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Dujiangyan)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Dujiangyan - Chengdu</div>
+  <ul class="activities">
+  <li>Transfer to Chengdu</li>
+  <li>Mar-Apr (Spring): Manhua Manor + Glass Bridge (Breathtaking flower park)</li>
+  <li>May-Dec (Summer/Autumn): Face-changing show + Gaiwan tea @ Kuanzhai Alley (Historic cultural district)</li>
+  <li>Huangcheng Mosque (The largest mosque in Sichuan Province)</li>
+  <li>Chunxi Road, International Finance Square (IFS), Taikoo Li (A commercial district with an iconic panda landmark and shopping)</li>
+  <li>Transfer to airport by 7pm</li>
+  </ul>
+  </td>
+  <td>Private Transport, Flight</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Arrive at Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+  <div class="itin-panel itin-panel-1">
+  <h3 class="itinerary-group-label">End of December – February (Winter)</h3>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Chengdu</div>
+  <ul class="activities">
+  <li>Arrive at Chengdu Tianfu International Airport</li>
+  <li>Transfer to hotel</li>
+  <li>Check in hotel and rest</li>
+  </ul>
+  </td>
+  <td>Flight, Private Transport</td>
+  <td>Dinner</td>
+  <td>4 Star Hotel (Chengdu)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Chengdu - Songpan - Jiuzhaigou</div>
+  <ul class="activities">
+  <li>Bullet train to Songpan</li>
+  <li>Source of Minjiang River</li>
+  <li>Songpan Ancient Town (A historic military garrison and trade hub)</li>
+  <li>Local Mosque</li>
+  <li>Transfer to Jiuzhaigou</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Jiuzhaigou)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Full Day Jiuzhaigou</div>
+  <ul class="activities">
+  <li>Full day at Jiuzhaigou National Park (A nature fairyland with emerald crystal lakes, waterfalls, and towering peaks)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Jiuzhaigou)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Jiuzhaigou - Chengdu</div>
+  <ul class="activities">
+  <li>Bullet train to Chengdu</li>
+  <li>Face-changing show + Gaiwan tea @ Kuanzhai Alley (Historic cultural district)</li>
+  <li>SKP Bamboo Tower (Iconic landmark, 6 giant bamboo-shaped towers)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Chengdu)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Chengdu - Xiling Snow Mountain</div>
+  <ul class="activities">
+  <li>Transfer to Xiling Snow Mountain</li>
+  <li>Xiling Snow Mountain, including cable car and shuttle bus to the mid-mountain scenic snow area</li>
+  <li>3.5 hours free time to play in the snow — suggested self-paid activities: slide tube, sled, snowmobile, ski, snowboard, etc.</li>
+  <li>Halal packed lunch</li>
+  <li>Pray and transfer back to Chengdu</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4 Star Hotel (Chengdu)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Chengdu</div>
+  <ul class="activities">
+  <li>Chengdu Panda Base (See Giant Panda and Red Panda)</li>
+  <li>Huangcheng Mosque (The largest mosque in Sichuan Province)</li>
+  <li>Chunxi Road, International Finance Square (IFS), Taikoo Li (A commercial district with an iconic panda landmark and shopping)</li>
+  <li>Transfer to airport by 7pm</li>
+  </ul>
+  </td>
+  <td>Private Transport, Flight</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Arrive at Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m8 3 4 8 5-5 5 15H2L8 3z" />

@@ -1,0 +1,279 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>5 Breakfast, 1 Lunch, 4 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Ticket (KUL-ALA-KUL)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>5 Nights Accommodation (3-Star Hotel, Double or Twin Sharing Room)</li><li>Halal Meals as Specified in Itinerary (Breakfast & Dinner)</li><li>Entrance Fees (as per Itinerary)</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping & Parking Fee</li><li>Airport Tax</li><li>2-Way Cable Car Tickets at Shymbulak Ski Resort</li><li>2-Way Shuttle Transport at Charyn Canyon</li><li>Lunch at Ethnic Village</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Meals on Board</li><li>Lunch (except where stated above)</li><li>Kok Tobe Cable Car Ticket</li><li>Any Other Activities Not Mentioned in Itinerary</li><li>Visa (for Non-Malaysian)</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia X</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Almaty (ALA)</div>
+  <div class="leg-flight">
+  <b>D7 600</b>
+  <span>12:35 - 17:40</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Almaty (ALA) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>D7 601</b>
+  <span>19:00 - 06:00 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Almaty City</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Sarayshiq Hotel, Astana International or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Almaty</div>
+  <ul class="activities">
+  <li>Depart from KLIA2</li>
+  <li>Arrive at Almaty International Airport</li>
+  <li>Prayer and money exchange at the airport</li>
+  <li>Dinner at a local café</li>
+  <li>Hotel check-in</li>
+  <li>Free & easy</li>
+  </ul>
+  </td>
+  <td>Flight & Airport Transfer</td>
+  <td>Dinner</td>
+  <td>3-Star Hotel (Almaty)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Almaty City Tour</div>
+  <ul class="activities">
+  <li>Medeu Ice Rink (the highest mountain ice rink in the world, and gateway to Shymbulak)</li>
+  <li>Shymbulak Ski Resort (the largest ski resort in Central Asia, surrounded by the Tian Shan mountains) — 2-way cable car included</li>
+  <li>Zenkov Cathedral (the second-tallest wooden church in the world, built entirely without nails)</li>
+  <li>Park of 28 Panfilov Guardsmen (a World War II memorial park with lush greenery)</li>
+  <li>Central Almaty Mosque (the largest mosque in Almaty, with striking Islamic architecture)</li>
+  <li>Dinner at a local café</li>
+  <li>Return to hotel</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner</td>
+  <td>3-Star Hotel (Almaty)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Charyn Canyon - Kolsay Lake</div>
+  <ul class="activities">
+  <li>Early breakfast</li>
+  <li>Depart for the Kolsay region (5 hours)</li>
+  <li>Black Canyon (a spectacular canyon viewpoint, subject to time availability)</li>
+  <li>Kolsay Lake (a crystal-clear alpine lake surrounded by pine forests and mountains)</li>
+  <li>Charyn Canyon, the 'Grand Canyon of Central Asia' (dramatic rock formations) — 2 hours</li>
+  <li>Return to Almaty (3 hours)</li>
+  <li>Dinner at a restaurant or takeaway, depending on return timing</li>
+  <li>Return to hotel</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner</td>
+  <td>3-Star Hotel (Almaty)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Almaty City - Falcon Sanctuary / Alma-Arasan Gorge</div>
+  <ul class="activities">
+  <li>Rahat Chocolate Factory Shop (a popular stop for Kazakhstan's famous chocolates and souvenirs)</li>
+  <li>Green Bazaar (a traditional market selling local delicacies, spices, and souvenirs)</li>
+  <li>Arbat Street & TsUM (a popular shopping street with local brands, cafés, and souvenirs)</li>
+  <li>Falcon Sanctuary (a traditional falcon show showcasing Kazakh hunting heritage) — March to November</li>
+  <li>Alma-Arasan Gorge (a scenic mountain valley with rivers and landscapes) — October to February</li>
+  <li>Dinner at a restaurant, then return to hotel</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner</td>
+  <td>3-Star Hotel (Almaty)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Gunny Ethnic Village - Oi-Qaragai</div>
+  <ul class="activities">
+  <li>Gunny Ethnic Village (experience Kazakh nomadic culture, traditional games, and local hospitality) — lunch included</li>
+  <li>Oi-Qaragai Mountain Resort (free & easy amid scenic mountain landscapes)</li>
+  <li>Dinner at a restaurant, then return to hotel</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Almaty)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Almaty - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Hotel check-out</li>
+  <li>Central State Museum of Kazakhstan (discover Kazakhstan's rich history and cultural heritage)</li>
+  <li>Optional: Kok Tobe Hill (panoramic views of Almaty, cafés and attractions) — add-on, OR free & easy at Kok Tobe Base Station</li>
+  <li>Late lunch at a local restaurant</li>
+  <li>Airport transfer</li>
+  <li>Flight Almaty - Kuala Lumpur</li>
+  <li>Arrival at KLIA2</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 7</span>Arrival Kuala Lumpur</div>
+  <ul class="activities">
+  </ul>
+  </td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Kok Tobe Cable Car</div>
+  <div class="addon-meta">Includes: Round-trip cable car ticket, scenic ride at Kok Tobe Hill</div>
+  <div class="addon-meta">Excludes: Other additional activities</div>
+  <div class="addon-meta">Duration: 5-7 minutes per way. Payable on-site by card or cash.</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">RM 90/person</div>
+  </div>
+  </div>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Oi-Qaragai Activities</div>
+  <div class="addon-meta">Includes: Summer/Spring/Autumn: cable car, zipline, horse riding, ATV ride, sky swing, archery. Winter: cable car, skiing, snowboarding, snow tubing, snowmobile.</div>
+  <div class="addon-meta">Duration: Based on activity; subject to season, weather, and time available during the tour. Fee is paid directly on-site (card or cash).</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">RM 240/person</div>
+  <div class="addon-price-line">Final cost paid on-site depends on activities chosen</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+  <circle cx="12" cy="10" r="3" />

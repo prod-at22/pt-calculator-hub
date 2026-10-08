@@ -1,0 +1,760 @@
+:root {
+  /* ARBA Travel brand palette, sampled from the manual Canva catalogs */
+  --ink: #1b2430;
+  --ink-soft: #4a5568;
+  --paper: #ffffff;
+  --canvas: #f4f6f8;
+  --line: #e2e6ea;
+  --brand: #be1e2d;       /* ARBA red */
+  --brand-dark: #8f1620;
+  --brand-soft: #f7e2e4;
+  --yellow: #fae232;      /* ARBA gold */
+  --navy: #004d80;        /* ARBA navy */
+  --accent: #b8860b;      /* muted gold, used for small text accents (stars) */
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(20, 30, 40, 0.08), 0 1px 2px rgba(20, 30, 40, 0.06);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--canvas);
+  line-height: 1.5;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1.25rem;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.toolbar .meta {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.toolbar .download-btn {
+  display: inline-block;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #fff;
+  text-decoration: none;
+  background: var(--brand);
+  border: none;
+  border-radius: 999px;
+  padding: 0.55rem 1.1rem;
+  cursor: pointer;
+}
+.toolbar .download-btn:hover { background: var(--brand-dark); }
+
+.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+}
+
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+  color: #fff;
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 2.25rem 1.75rem 1.75rem;
+  margin-bottom: 1.5rem;
+}
+.hero .brand-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: rgba(255,255,255,0.18);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+.hero h1 { margin: 0 0 0.35rem; font-size: 1.7rem; line-height: 1.25; }
+.hero .route { margin: 0 0 1rem; font-size: 0.95rem; opacity: 0.92; }
+.hero .facts { display: flex; flex-wrap: wrap; gap: 1.75rem; }
+.hero .facts .label { display: block; font-size: 0.78rem; opacity: 0.85; margin-bottom: 0.15rem; }
+.hero .facts b { font-size: 1.25rem; }
+.hero-prices { margin-top: 1rem; }
+.hero-prices-label { display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.8; margin-bottom: 0.5rem; }
+.hero-prices .facts { gap: 1.5rem; }
+.hero-prices .facts b { font-size: 1.05rem; }
+.hero-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.85rem;
+}
+.hero-note { margin: 0; font-size: 0.8rem; font-style: italic; opacity: 0.85; }
+.hero-logo { height: 26px; width: auto; flex-shrink: 0; }
+
+.highlights-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 2rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+.highlight-chip { display: flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; font-weight: 600; color: var(--ink); }
+.highlight-chip svg { width: 20px; height: 20px; fill: none; stroke: var(--brand); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+/* Package differences */
+.diff-wrap {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+table.diff-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+table.diff-table th, table.diff-table td {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+table.diff-table thead th { background: var(--canvas); color: var(--ink-soft); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.03em; }
+table.diff-table thead th:first-child { background: transparent; border: none; }
+table.diff-table tbody td:first-child { font-weight: 600; color: var(--ink-soft); white-space: nowrap; }
+table.diff-table .diff-current { background: var(--brand-soft); }
+table.diff-table thead .diff-current { color: var(--brand-dark); }
+.diff-you { font-weight: 400; text-transform: none; letter-spacing: normal; font-size: 0.7rem; opacity: 0.8; }
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+/* Travel Itinerary moves its padding onto an inner wrapper instead of
+   carrying it directly (see print media below for why: it's the one
+   card that's allowed to fragment across pages, and box-decoration-break
+   would otherwise re-apply this padding in full on every fragment). */
+.itinerary-card { padding: 0; }
+.itinerary-card .card-body { padding: 1.5rem; }
+.card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--brand-dark);
+  border-bottom: 2px solid var(--brand-soft);
+  padding-bottom: 0.5rem;
+}
+
+/* Includes / excludes */
+.split-two { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.split-two h3 { margin: 0 0 0.6rem; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.split-two ul { margin: 0; padding-left: 1.1rem; font-size: 0.88rem; }
+.split-two li { margin-bottom: 0.4rem; }
+.includes h3, .excludes h3 { color: var(--brand-dark); }
+
+/* Flights — grouped by carrier first (a connecting routing, e.g. Royal
+   Brunei via Brunei, reads as one option instead of being scattered across
+   several route-first boxes), then split into an outbound side and a
+   return side with a heavy grey divider between them so the two
+   directions never blur together. */
+.carrier-card { padding: 0.85rem 1rem 1rem; background: var(--canvas); border-radius: 8px; margin-bottom: 1rem; }
+.carrier-card:last-child { margin-bottom: 0; }
+.carrier-card .carrier-title {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--brand);
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--brand-soft);
+}
+.leg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.leg-col { display: flex; flex-direction: column; gap: 0.55rem; }
+.leg-col.outbound { padding-right: 0.9rem; border-right: 3px solid #98a2ad; }
+.leg-col.return { padding-left: 0.9rem; }
+.leg-col-label {
+  font-weight: 700;
+  font-size: 0.66rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.1rem;
+}
+.leg {
+  padding: 0.4rem 0.7rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.leg .leg-route { font-weight: 600; font-size: 0.8rem; margin-bottom: 0.3rem; }
+.leg .leg-flight { display: flex; justify-content: space-between; gap: 0.75rem; font-size: 0.85rem; color: var(--ink-soft); }
+.leg .leg-flight b { color: var(--ink); font-weight: 600; }
+.leg .leg-flight sup { font-size: 0.7em; color: var(--brand); font-weight: 700; }
+.leg-or {
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--brand);
+  letter-spacing: 0.04em;
+}
+
+/* Accommodation */
+.accom-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem; }
+.accom-item { padding: 0.75rem; background: var(--canvas); border-radius: 8px; font-size: 0.88rem; }
+.accom-item .city { font-weight: 700; }
+.accom-item .stars { color: var(--accent); font-size: 0.8rem; }
+
+/* Itinerary */
+.itin-tabs { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.itin-radio { position: absolute; opacity: 0; width: 1px; height: 1px; overflow: hidden; pointer-events: none; }
+.itin-pill {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: var(--canvas);
+  cursor: pointer;
+}
+.itin-radio:checked + .itin-pill { background: var(--brand); color: #fff; border-color: var(--brand); }
+.itin-panel { flex: 1 1 100%; display: none; }
+.itin-radio:nth-of-type(1):checked ~ .itin-panel-0,
+.itin-radio:nth-of-type(2):checked ~ .itin-panel-1,
+.itin-radio:nth-of-type(3):checked ~ .itin-panel-2,
+.itin-radio:nth-of-type(4):checked ~ .itin-panel-3 { display: block; }
+/* On screen the pill's own label already names the group, so the
+   in-panel heading would just repeat it — shown only in print, where
+   every panel renders at once with no pill to say which is which. */
+.itin-panel .itinerary-group-label { display: none; }
+.itinerary-group-label {
+  margin: 1.25rem 0 0.75rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--brand-dark);
+}
+.itinerary-group-label:first-of-type { margin-top: 0; }
+/* Reproduces the source PDFs' own itinerary table — Activities, Transport,
+   Meal, and Hotel as real columns, so those three details stay visible per
+   day at a glance instead of shrinking into a small footer line. */
+.itin-table-wrap {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.itin-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.itin-table th {
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: left;
+  padding: 0.6rem 0.9rem;
+}
+.itin-table th:not(:first-child) { text-align: center; }
+.itin-table th:not(:last-child) { border-right: 1px solid rgba(255, 255, 255, 0.25); }
+.itin-table td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  vertical-align: middle;
+  font-size: 0.87rem;
+}
+.itin-table td:last-child { border-right: none; }
+.itin-table tr:last-child td { border-bottom: none; }
+.itin-table tbody tr:nth-child(odd) { background: var(--canvas); }
+.itin-table td.col-activities { vertical-align: top; }
+.itin-table td:not(.col-activities) { text-align: center; color: var(--ink-soft); overflow-wrap: anywhere; }
+.itin-table .day-title { font-weight: 700; font-size: 0.95rem; margin-bottom: 0.4rem; }
+.itin-table .day-title .day-num {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 0.72rem;
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  margin-right: 0.5rem;
+}
+.itin-table ul.activities { margin: 0; padding-left: 1.1rem; font-size: 0.87rem; }
+.itin-table ul.activities li { margin-bottom: 0.2rem; }
+.itin-table ul.activities li:last-child { margin-bottom: 0; }
+.itin-table ul.activities ul.sub-activities {
+  list-style-type: circle;
+  margin: 0.25rem 0 0.35rem;
+  padding-left: 1.2rem;
+}
+.itin-table ul.activities ul.sub-activities li {
+  margin-bottom: 0.15rem;
+  color: var(--ink-soft);
+  font-size: 0.95em;
+}
+.itin-table ul.activities ul.sub-activities li:last-child { margin-bottom: 0; }
+
+/* Additional activities */
+.addon {
+  display: grid;
+  grid-template-columns: 1fr 17rem;
+  align-items: stretch;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+.addon:last-child { margin-bottom: 0; }
+.addon-info { padding: 0.7rem 0.85rem; }
+.addon-name { font-weight: 700; margin-bottom: 0.3rem; }
+.addon-meta { font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.15rem; }
+.addon-price-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.7rem 0.85rem;
+  background: var(--canvas);
+  border-left: 3px solid #98a2ad;
+  text-align: center;
+}
+.addon-price-line { line-height: 1.35; }
+.addon-price-main { display: block; font-weight: 800; color: var(--ink); font-size: 0.92rem; }
+.addon-price-sub { display: block; font-weight: 600; color: var(--ink); font-size: 0.8rem; }
+.addon-disclaimer { font-size: 0.78rem; color: var(--ink-soft); margin-top: 0.6rem; font-style: italic; }
+
+/* What to expect. Flex (not grid) so an incomplete last row centers as a
+   group instead of left-aligning into the grid's next-available column. */
+.expect-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.9rem; }
+.expect-item { flex: 0 0 200px; background: var(--brand); border-radius: 8px; padding: 1rem 0.85rem; text-align: center; }
+.expect-item svg { width: 32px; height: 32px; margin-bottom: 0.5rem; fill: none; stroke: #fff; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.expect-item h3 { margin: 0 0 0.3rem; font-size: 0.88rem; color: #fff; }
+.expect-item p { margin: 0; font-size: 0.83rem; color: rgba(255,255,255,0.9); text-align: center; }
+/* Four tiles sit two over two rather than three and an orphan. */
+.expect-grid.n4 { max-width: calc(2 * 200px + 0.9rem); margin-left: auto; margin-right: auto; }
+/* Notes under a table: a bold "Note:" lead and a readable sentence. */
+.table-note { margin: 0.7rem 0 0; font-size: 0.85rem; color: var(--ink); font-weight: 600; line-height: 1.5; }
+.table-note b { font-weight: 800; color: var(--brand-dark); margin-right: 0.2rem; }
+.table-note ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.table-note li { margin-bottom: 0.2rem; }
+.expect-tag {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--yellow);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+
+/* Notes */
+.notes-subhead {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+}
+.notes-subhead:not(:first-child) { margin-top: 1.1rem; }
+.notes-list { margin: 0; padding-left: 1.1rem; font-size: 0.88rem; }
+.notes-list li { margin-bottom: 0.45rem; }
+
+.deposit-box {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.deposit-box .figure { font-size: 1.15rem; font-weight: 700; color: var(--brand-dark); }
+
+footer.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  padding: 1.25rem 0.25rem;
+}
+.footer-logo { height: 22px; width: auto; flex-shrink: 0; }
+
+@media (max-width: 640px) {
+  .hero-logo { height: 20px; }
+  .page-footer { flex-direction: column; text-align: center; }
+  .split-two { grid-template-columns: 1fr; }
+  .expect-item { flex-basis: 100%; }
+  .hero h1 { font-size: 1.4rem; }
+  .leg-grid { grid-template-columns: 1fr; }
+  .leg-col.outbound {
+    padding-right: 0; padding-bottom: 0.9rem; margin-bottom: 0.55rem;
+    border-right: none; border-bottom: 3px solid #98a2ad;
+  }
+  .leg-col.return { padding-left: 0; }
+  .itin-table-wrap { overflow-x: auto; }
+  .itin-table { min-width: 640px; }
+  .addon { grid-template-columns: 1fr; }
+  .addon-price-col {
+    border-left: none;
+    border-top: 3px solid #98a2ad;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   Private Tour additions
+   --------------------------------------------------------------------------
+   Everything above this line is carried over unchanged from the Group Tour
+   catalog so the two sites stay visually identical where they overlap. The
+   blocks below cover what only a Private Tour catalog has: a per-pax-band
+   price table, the accommodation-upgrade / peak-season surcharge grid, and
+   the Knowledge Base link in the toolbar. There is deliberately no flight
+   section here — a PT package is quoted Ground & Tipping, with the
+   international flight sitting in Price Excludes.
+   ========================================================================== */
+
+/* The toolbar carries exactly one action: Download PDF. A link to the
+   destination Knowledge Base used to sit beside it, and was removed —
+   the KB sites are internal TC reference, and this page's URL is what
+   gets sent to customers. */
+.toolbar .actions { display: flex; align-items: center; gap: 0.5rem; }
+
+/* Hero facts carry one more item than GT's (Duration, Basis, Valid Until),
+   so they wrap on narrow screens instead of squeezing. */
+.hero .facts .fact-sm b { font-size: 1rem; font-weight: 600; }
+
+/* --------------------------------------------------------------------------
+   Package price — the pax-band table
+   --------------------------------------------------------------------------
+   The headline section of a PT catalog, and the one part with no GT
+   equivalent. Price falls as the group grows, so the whole point of the
+   table is scanning down a column, which drives the styling: the pax column
+   is a fixed navy rail on the left to anchor each row, and the figures sit
+   on plain alternating rows so the eye tracks vertically without banding
+   fighting it. Yellow header echoes the source Canva catalogs.
+
+   Rows are NOT always monotonically decreasing — e.g. Seoul jumps back up at
+   10 pax, where the package switches from a driver-guide to a separate
+   driver plus guide. That is real, not a typo; nothing here highlights a
+   "best" row, because which band is best is the customer's to judge.
+   -------------------------------------------------------------------------- */
+.price-wrap {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.price-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.price-table thead th {
+  background: var(--yellow);
+  color: var(--ink);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding: 0.6rem 0.75rem;
+  line-height: 1.3;
+}
+.price-table thead th .age {
+  display: block;
+  font-size: 0.92em;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 0.75;
+}
+.price-table thead th:not(:last-child) { border-right: 1px solid rgba(27, 36, 48, 0.18); }
+.price-table td {
+  padding: 0.6rem 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+}
+.price-table td:last-child { border-right: none; }
+.price-table tbody tr:last-child td { border-bottom: none; }
+.price-table tbody tr:nth-child(even) td { background: var(--canvas); }
+.price-table .pax {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+}
+/* A honeymoon package names a room rather than a group size, which is too
+   long to hold on one line. */
+.price-table.per-package .pax { white-space: normal; min-width: 14rem; }
+/* The navy rail is one continuous column, so the zebra striping above must
+   not tint it — it would read as a break in the rail. */
+.price-table tbody tr:nth-child(even) td.pax { background: var(--navy); }
+.price-table .amount { font-weight: 700; color: var(--ink); }
+.price-table .amount.muted { font-weight: 400; color: var(--ink-soft); }
+
+.price-footnotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  margin-top: 0.7rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+.price-footnotes .infant { font-weight: 600; color: var(--ink); }
+.price-note { margin: 0.6rem 0 0; font-size: 0.82rem; color: var(--ink-soft); font-style: italic; }
+
+/* --------------------------------------------------------------------------
+   Surcharge — accommodation upgrade & peak season
+   --------------------------------------------------------------------------
+   Read as a lookup rather than a list: pick your accommodation row, read
+   across to the season you are travelling in. The season columns carry the
+   dates in their own header because they differ per destination, and a TC
+   quoting a date needs them next to the figure, not in a footnote.
+   -------------------------------------------------------------------------- */
+.surcharge-wrap { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.surcharge-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.surcharge-table thead th {
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.6rem 0.75rem;
+  text-align: center;
+  line-height: 1.3;
+  vertical-align: middle;
+}
+.surcharge-table thead th:first-child { text-align: left; }
+.surcharge-table thead th:not(:last-child) { border-right: 1px solid rgba(255,255,255,0.25); }
+.surcharge-table thead th .period {
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 0.85;
+  margin-top: 0.15rem;
+}
+.surcharge-table td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  text-align: center;
+  vertical-align: middle;
+}
+.surcharge-table td:last-child { border-right: none; }
+.surcharge-table tbody tr:last-child td { border-bottom: none; }
+.surcharge-table tbody tr:nth-child(even) td { background: var(--canvas); }
+.surcharge-table td.accom-type,
+.surcharge-table td.lead { text-align: left; font-weight: 700; white-space: nowrap; }
+.surcharge-table td.accom-name,
+.surcharge-table td.sub { text-align: left; color: var(--ink-soft); }
+.surcharge-table td.accom-name .similar { font-weight: 600; color: var(--ink); }
+.surcharge-table .rate { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.surcharge-table .rate.none { font-weight: 400; color: var(--ink-soft); }
+/* Travel dates: one range per line, bold ink, so a season with five date
+   ranges reads as a list rather than a run-on line of pipes. */
+.surcharge-table .period .d, .surcharge-table .dates .d,
+.surcharge-table td.rate .d { display: block; }
+.surcharge-table thead th .period { font-weight: 700; opacity: 1; }
+.surcharge-table td.dates { font-weight: 700; color: var(--ink); line-height: 1.55; }
+.surcharge-table.seasons td.lead { white-space: normal; width: 28%; }
+.surcharge-table.seasons td.dates { width: 40%; min-width: 12rem; }
+.surcharge-table.seasons td.rate { white-space: normal; }
+
+/* Add-on blocks reuse GT's .addon markup verbatim; PT just renders two of
+   them (private transport, then activities), so only the shared disclaimer
+   spacing needs anything here. */
+.addon-note { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.6rem; }
+
+@media (max-width: 640px) {
+  .toolbar { flex-wrap: wrap; gap: 0.5rem; }
+  .toolbar .actions { width: 100%; }
+  .toolbar .download-btn { flex: 1; text-align: center; }
+  /* Both wide tables scroll rather than compress: squeezing a price column
+     to fit is how a TC misreads RM2,397 as the child rate. */
+  .price-wrap, .surcharge-wrap { overflow-x: auto; }
+  .price-table { min-width: 460px; }
+  .surcharge-table { min-width: 560px; }
+  .price-footnotes { flex-direction: column; }
+}
+
+/* The Download PDF on each page is that same page printed to PDF, so the
+   sheet size cannot be left to whatever the printing machine defaults to —
+   Chrome picks Letter or A4 depending on locale, which would give two
+   catalogs different page geometry for no reason. Pin A4, matching what the
+   Group Tour catalog serves. */
+@page {
+  size: A4;
+  margin: 10mm 9mm;
+}
+
+@media print {
+  .toolbar { display: none; }
+  body { background: #fff; }
+  .page { max-width: 100%; padding: 0; }
+  /* A card never splits across a page break by default — it moves to the
+     next page as a whole unit instead. A mid-card split only ever looks
+     right when the card is specifically built to continue cleanly (a
+     repeated header, clearly-atomic rows) — nothing here is except the
+     itinerary table below, so every other card (Flight Details, What to
+     Expect, Accommodation, Includes/Excludes...) would otherwise split
+     into an orphaned, header-less fragment of tiles or boxes floating on
+     the next page, which reads as broken rather than continued. */
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+    /* Belt-and-braces for the rare card too tall to fit on any one page —
+       Chromium will fragment it despite the avoid rule above, and this
+       keeps every fragment's border complete instead of Chromium's
+       default "slice" behavior, which drops the closing edges on a
+       continuation fragment (worse with rounded corners). */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  .card h2 { break-after: avoid; }
+  .carrier-card, .accom-item, .addon, .expect-item { break-inside: avoid; }
+  /* Travel Itinerary is the one card built to split cleanly: its table
+     repeats the header row on every page it spans, and each day stays on
+     one page rather than breaking mid-row — so unlike every other card,
+     it's allowed to flow across as many pages as it needs. */
+  .itinerary-card { break-inside: auto; }
+  .itin-table thead { display: table-header-group; }
+  .itin-table tr { break-inside: avoid; }
+  /* A seasonal itinerary_groups catalog (e.g. Chengdu's Spring/Summer/
+     Autumn vs Winter) always starts its second-and-later group on a
+     fresh page in print, rather than letting it run on wherever the
+     first group happened to end — keeping the two seasons visually
+     separated instead of blurring together mid-page. */
+  .itin-panel:not(:first-of-type) { break-before: page; }
+  /* On screen the hero sits flush under the sticky toolbar, so squaring
+     its top corners looks attached rather than floating — hence the
+     web-only 0 0 radius radius above. In print there's no toolbar, just
+     page margin on every side, so a top-square hero reads as unfinished
+     instead; round every corner here. */
+  .hero { border-radius: var(--radius); }
+  a[href]:after { content: none !important; }
+  /* A printed page can't be clicked, so show every itinerary group in
+     full rather than just whichever pill was selected on screen — with
+     the pill bar gone, each panel needs its own heading back. */
+  .itin-pill { display: none; }
+  .itin-panel { display: block !important; }
+  .itin-panel .itinerary-group-label { display: block; }
+  /* PT tables print as lookups, so they keep their header on every page
+     they span and never break mid-row — same contract as the itinerary
+     table. Their cards stay break-inside:avoid from the rule above; these
+     only matter for the rare destination with enough pax bands or
+     accommodation options to overflow a page on its own. */
+  .price-table thead, .surcharge-table thead { display: table-header-group; }
+  .price-table tr, .surcharge-table tr { break-inside: avoid; }
+  /* The navy pax rail and yellow header are load-bearing here rather than
+     decorative — without them a printed price table loses the column that
+     says which row is which. */
+  .price-table thead th, .price-table .pax,
+  .surcharge-table thead th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* ----------------------------------------------------------------------
+     Print density
+     ----------------------------------------------------------------------
+     The Group Tour rule above makes every .card atomic, which on a Private
+     Tour catalog wastes most of the document: each card jumps to a fresh
+     page rather than filling the one it is on, and Seoul Basic came out at
+     7 pages with pages 4, 5 and 7 between half and 80% empty.
+
+     That rule was written for cards built out of tiles and boxes, where a
+     split strands a header-less fragment on the next page. The fix is to
+     move the guarantee down a level — let a card flow, but keep the things
+     that actually must not break (a single add-on row, a "What to Expect"
+     tile, one table row) whole, and keep every heading attached to what
+     follows it. A long Includes list or Important Notes section splitting
+     across a page boundary reads perfectly well; a price row torn in half
+     does not.
+     ---------------------------------------------------------------------- */
+  /* Every section stays whole: one that fits on a page moves to the next
+     page rather than leaving its tail there. A section taller than a page
+     still starts on a fresh page and then flows, repeating its table header
+     and never cutting a row. */
+  .card { break-inside: avoid; padding: 0.85rem 1rem; margin-bottom: 0.5rem; }
+  .itinerary-card .card-body { padding: 0.85rem 1rem; }
+  .card h2 {
+    font-size: 0.92rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+    break-after: avoid;
+  }
+  /* A heading stranded at the foot of a page is the one break that always
+     looks broken, so every one of them stays with its content. */
+  .split-two h3, .notes-subhead, .itinerary-group-label { break-after: avoid; }
+  .split-two ul, .notes-list { orphans: 2; widows: 2; }
+
+  /* The units that genuinely cannot be cut. */
+  .addon, .expect-item, .accom-item, .carrier-card, .leg,
+  .price-table tr, .surcharge-table tr, .itin-table tr,
+  .deposit-box, .highlights-strip, .addon-tail { break-inside: avoid; }
+
+  /* Includes/Excludes is the one card that must stay whole. It is two
+     columns read side by side, and its "INCLUDES" / "EXCLUDES" labels sit
+     at the top — split it and the continuation page shows two unlabelled
+     lists of similar-looking bullet points, where mistaking one column for
+     the other inverts the meaning of every line. The tables that do split
+     are safe because they repeat their header row instead. */
+  .split-two { break-inside: avoid; }
+
+  /* Never let the footer start a page on its own — it stranded the Maldives
+     catalog's last page at 7% full. */
+  .page-footer { break-before: avoid; }
+
+  /* The hero is sized for a screen landing; in a printed catalog that much
+     red is just a cover taking a third of page one away from the price. */
+  .hero { padding: 1.1rem 1.25rem 0.9rem; margin-bottom: 0.85rem; }
+  .hero h1 { font-size: 1.4rem; }
+  .hero .route { margin-bottom: 0.6rem; font-size: 0.88rem; }
+  .hero .facts { gap: 1.25rem; }
+  .hero .facts b { font-size: 1.1rem; }
+  .hero-footer { margin-top: 0.6rem; }
+  .highlights-strip { padding: 0.55rem 0.5rem; margin-bottom: 0.8rem; gap: 0.5rem 1.5rem; }
+
+  /* Tighter, not smaller: the type stays readable, the gaps between things
+     come down. */
+  .split-two { gap: 1.1rem; }
+  .split-two li { margin-bottom: 0.25rem; }
+  .notes-list li { margin-bottom: 0.3rem; }
+  .addon { margin-bottom: 0.5rem; }
+  .addon-info { padding: 0.5rem 0.75rem; }
+  .addon-price-col { padding: 0.5rem 0.75rem; }
+  .expect-grid { gap: 0.6rem; }
+  .expect-item { padding: 0.75rem 0.7rem; }
+  .accom-list { gap: 0.5rem; }
+  .accom-item { padding: 0.55rem 0.65rem; }
+  .price-table td, .surcharge-table td { padding: 0.4rem 0.6rem; }
+  .price-table thead th, .surcharge-table thead th { padding: 0.45rem 0.6rem; }
+  .itin-table td { padding: 0.55rem 0.7rem; }
+  .page-footer { padding: 0.75rem 0.25rem; }
+
+  /* Page one is the price page: hero, price table and Includes/Excludes
+     together, so a customer reads what the price buys without turning
+     over. These trims buy the space for that without shrinking prices. */
+  .hero { padding: 0.9rem 1.1rem 0.7rem; margin-bottom: 0.6rem; }
+  .hero h1 { font-size: 1.3rem; margin-bottom: 0.2rem; }
+  .hero .route { margin-bottom: 0.45rem; }
+  .hero-footer { margin-top: 0.35rem; }
+  .highlights-strip { padding: 0.35rem 0.5rem; margin-bottom: 0.55rem; }
+  .price-table td { padding: 0.3rem 0.6rem; }
+  .price-table thead th { padding: 0.38rem 0.6rem; }
+  .price-footnotes { margin-top: 0.4rem; }
+  .split-two { font-size: 0.84rem; line-height: 1.35; gap: 1rem; }
+  .split-two li { margin-bottom: 0.12rem; }
+  .split-two h3 { margin-bottom: 0.3rem; }
+}
+

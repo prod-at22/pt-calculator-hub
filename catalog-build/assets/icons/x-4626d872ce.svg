@@ -1,0 +1,416 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>4-Star Hotel</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 16v-4" />
+  <path d="M12 8h.01" />
+</svg>
+<span>Shanghai Disneyland Ticket</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>4 Breakfast, 3 Lunch, 3 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets (KUL-PVG-KUL)</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>Meal on Board (KUL-PVG)</li><li>4 Nights Accommodation (4-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees (as stated in itinerary)</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li><li>Shanghai Disneyland Ticket</li><li>Jinmao Tower 88th Floor Observatory</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Meal on Board (PVG-KUL)</li><li>Additional Tours and Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Zhujiajiao Water Town Boat Ride</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia X</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Shanghai (PVG)</div>
+  <div class="leg-flight">
+  <b>D7 330</b>
+  <span>06:50 - 12:20</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Shanghai (PVG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>D7 331</b>
+  <span>01:35 - 07:30</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Malaysia Airlines</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Shanghai (PVG)</div>
+  <div class="leg-flight">
+  <b>MH 388</b>
+  <span>08:55 - 14:15</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Shanghai (PVG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>MH 389</b>
+  <span>15:25 - 21:00</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  <div class="carrier-card">
+  <div class="carrier-title">Batik Air</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Shanghai (PVG)</div>
+  <div class="leg-flight">
+  <b>N/A</b>
+  <span>20:00 - 01:20 <sup>(+1)</sup></span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Shanghai (PVG) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>N/A</b>
+  <span>02:30 - 08:00</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Shanghai</div>
+  <div class="stars">★★★★ (4-star)</div>
+  <div>Holiday Inn New Jinqiao or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-tabs">
+  <input type="radio" class="itin-radio" name="itin-group-shanghai" id="itin-tab-0" checked>
+  <label class="itin-pill" for="itin-tab-0">AirAsia X / Batik Air</label>
+  <input type="radio" class="itin-radio" name="itin-group-shanghai" id="itin-tab-1" >
+  <label class="itin-pill" for="itin-tab-1">Malaysia Airlines</label>
+  <div class="itin-panel itin-panel-0">
+  <h3 class="itinerary-group-label">AirAsia X / Batik Air</h3>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Shanghai</div>
+  <ul class="activities">
+  <li>Flight KUL - PVG</li>
+  <li>Arrive at Shanghai Pudong International Airport</li>
+  <li>Transfer to hotel</li>
+  <li>Check in hotel</li>
+  </ul>
+  </td>
+  <td>Flight & Private Transport</td>
+  <td>Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Shanghai City Tour</div>
+  <ul class="activities">
+  <li>Rest at hotel until 10-11am</li>
+  <li>Chenghuangmiao Market (traditional commercial district)</li>
+  <li>Xiaotaoyuan Mosque (largest mosque in Shanghai)</li>
+  <li>Nanjing Road (modern shopping district)</li>
+  <li>The Bund (iconic long waterfront boardwalk)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Full Day Shanghai Disneyland</div>
+  <ul class="activities">
+  <li>Full day at Shanghai Disneyland (09:00 - 20:00)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Shanghai City - Zhujiajiao</div>
+  <ul class="activities">
+  <li>Zhujiajiao Water Town (Venice of Shanghai)</li>
+  <li>Wukang Mansion (French Renaissance-style apartment residence)</li>
+  <li>Xintiandi (old-style Shikumen/stone-gated residences)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Shanghai City</div>
+  <ul class="activities">
+  <li>1192 Lane Old Shanghai (indoor 1930s settings)</li>
+  <li>LV Cruise Ship photostop (ship-shaped Louis Vuitton pop-up store)</li>
+  <li>Jinmao Tower (88-story landmark skyscraper)</li>
+  <li>1000 Trees (hanging plants architecture)</li>
+  <li>Reserve Roastery photostop (huge Starbucks Roastery)</li>
+  <li>Transfer to Shanghai Pudong International Airport</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Shanghai - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Flight PVG - KUL</li>
+  <li>Arrive at Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+  <div class="itin-panel itin-panel-1">
+  <h3 class="itinerary-group-label">Malaysia Airlines</h3>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Shanghai</div>
+  <ul class="activities">
+  <li>Flight KUL - PVG (arrive 3-4pm)</li>
+  <li>1192 Lane Old Shanghai (indoor 1930s settings)</li>
+  <li>LV Cruise Ship photostop (ship-shaped Louis Vuitton pop-up store)</li>
+  <li>Jinmao Tower (88-story landmark skyscraper), including the 88th Floor Observatory</li>
+  <li>Transfer to hotel</li>
+  <li>Check in hotel</li>
+  </ul>
+  </td>
+  <td>Flight & Private Transport</td>
+  <td>Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Shanghai City Tour</div>
+  <ul class="activities">
+  <li>Rest at hotel until 10-11am</li>
+  <li>Chenghuangmiao Market (traditional commercial district)</li>
+  <li>Xiaotaoyuan Mosque (largest mosque in Shanghai)</li>
+  <li>Nanjing Road (modern shopping district)</li>
+  <li>The Bund (iconic long waterfront boardwalk, at sunset)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Full Day Shanghai Disneyland</div>
+  <ul class="activities">
+  <li>Full day at Shanghai Disneyland (09:00 - 20:00)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Shanghai City - Zhujiajiao</div>
+  <ul class="activities">
+  <li>Zhujiajiao Water Town (Venice of Shanghai)</li>
+  <li>Wukang Mansion (French Renaissance-style apartment residence)</li>
+  <li>Xintiandi (old-style Shikumen/stone-gated residences)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>4* Hotel (Shanghai)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Shanghai City</div>
+  <ul class="activities">
+  <li>1000 Trees (hanging plants architecture)</li>
+  <li>Reserve Roastery photostop (huge Starbucks Roastery)</li>
+  <li>Transfer to Shanghai Pudong International Airport (by 11am)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 6</span>Shanghai - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Flight PVG - KUL</li>
+  <li>Arrive at Kuala Lumpur</li>
+  </ul>
+  </td>
+  <td>Flight</td>
+  <td>-</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Zhujiajiao Village Boat Ride</div>
+  <div class="addon-meta">Includes: Boat fee, life jacket</div>
+  <div class="addon-meta">Excludes: Personal expenses, other add-ons</div>
+  <div class="addon-meta">Duration: 20-minute relaxing boat ride along the canal</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">RM 37/person</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 16v-4" />
+  <path d="M12 8h.01" />

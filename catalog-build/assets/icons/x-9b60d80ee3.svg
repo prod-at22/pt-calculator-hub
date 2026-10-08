@@ -1,0 +1,247 @@
+<path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+</svg>
+<span>Return Flights</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
+</svg>
+<span>3-Star Hotels</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+  <path d="M7 2v20" />
+  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+</svg>
+<span>3 Breakfast, 2 Lunch, 3 Dinner</span></div>
+  <div class="highlight-chip"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="8" r="5" />
+  <path d="M20 21a8 8 0 0 0-16 0" />
+</svg>
+<span>Tour Guide</span></div>
+  </div>
+  <div class="card">
+  <h2>Price Includes / Excludes</h2>
+  <div class="split-two">
+  <div class="includes">
+  <h3>Includes</h3>
+  <ul><li>Return Flight Tickets</li><li>20kg Check-in Luggage + 7kg Hand Luggage</li><li>4 Nights Accommodation (3-Star Hotel)</li><li>Halal Meals as Specified in Itinerary</li><li>Entrance Fees</li><li>Private Transportation</li><li>Tour Guide (English Spoken)</li><li>Tipping Fee</li><li>Airport Tax</li><li>K-ETA Application - Complimentary for Malaysian (1st time)</li></ul>
+  </div>
+  <div class="excludes">
+  <h3>Excludes</h3>
+  <ul><li>Personal Expenses</li><li>Excess Baggage Fee</li><li>Additional Meals</li><li>Optional Activity</li><li>Travel Insurance</li><li>Lunch on Day 3</li><li>Meals on Board</li><li>K-ETA Reapplication or Application for Non-Malaysian Citizen (RM70)</li></ul>
+  </div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Flight Details</h2>
+  <div class="carrier-card">
+  <div class="carrier-title">AirAsia X</div>
+  <div class="leg-grid">
+  <div class="leg-col outbound">
+  <div class="leg-col-label">Outbound</div>
+  <div class="leg">
+  <div class="leg-route">Kuala Lumpur (KUL) - Busan (PUS)</div>
+  <div class="leg-flight">
+  <b>D7 630</b>
+  <span>02:20 - 09:45</span>
+  </div>
+</div>
+  </div>
+  <div class="leg-col return">
+  <div class="leg-col-label">Return</div>
+  <div class="leg">
+  <div class="leg-route">Busan (PUS) - Kuala Lumpur (KUL)</div>
+  <div class="leg-flight">
+  <b>D7 631</b>
+  <span>11:00 - 16:30</span>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="card">
+  <h2>Accommodation</h2>
+  <div class="accom-list">
+  <div class="accom-item">
+  <div class="city">Busan</div>
+  <div class="stars">★★★ (3-star)</div>
+  <div>Griffin Bay Hotel or Similar</div>
+  </div>
+  </div>
+</div>
+  <div class="card itinerary-card">
+  <div class="card-body">
+  <h2>Travel Itinerary</h2>
+  <div class="itin-table-wrap">
+<table class="itin-table">
+  <colgroup>
+  <col style="width: 55%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  <col style="width: 15%">
+  </colgroup>
+  <thead>
+  <tr><th>Activities</th><th>Transport</th><th>Meal</th><th>Hotel</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 1</span>Kuala Lumpur - Arrival - Busan Tour</div>
+  <ul class="activities">
+  <li>Gather at airport (4 hours before departure time)</li>
+  <li>Flight KUL - PUS</li>
+  <li>Arrive Gimhae International Airport (PUS) - Airport Pickup</li>
+  <li>Gamcheon Village (village of colorful houses, painted murals, shops & cafes)</li>
+  <li>Busan Tower (iconic observation tower in Busan)</li>
+  <li>Yongdusan Park (key landmark in central Busan)</li>
+  <li>Jagalchi Fish Market (market for fresh fish & seafood)</li>
+  <li>BIFF Square (shopping; streetfood, accessories, souvenirs)</li>
+  <li>Nampodong Fashion Street (shopping; streetfood & fashion)</li>
+  <li>Check-in</li>
+  </ul>
+  </td>
+  <td>Flight & Private Transport</td>
+  <td>Meals on Board, Lunch, Dinner</td>
+  <td>3-Star Hotel (Busan)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 2</span>Busan Beach Tour & Shopping</div>
+  <ul class="activities">
+  <li>Oryukdo Skywalk (glass floor cantilever walkway)</li>
+  <li>Haeundae Sky Capsule / Beach Train (most famous rides in Busan along Haeundae Beach)</li>
+  <li>Lotte Premium Outlet (shopping; designer brands)</li>
+  <li>Haeundae Beach Shopping Street (streetfood & souvenirs)</li>
+  <li>The Bay 101 (waterfront complex with a yacht club, trendy shops & open-air bars & restaurants)</li>
+  <li>Busan Yacht Night Tour (optional, refer Add-On table below)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Busan)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 3</span>Theme Park Day</div>
+  <ul class="activities">
+  <li>Lotte World Busan (famous outdoor theme park in South Korea)</li>
+  <li>King Crab Set Dinner</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Dinner</td>
+  <td>3-Star Hotel (Busan)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 4</span>Activity & Cultural Tour</div>
+  <ul class="activities">
+  <li>Songdo Cable Car (cable car ride above the sea)</li>
+  <li>Taejongdae Tram (scenic trolley-style tram in Busan)</li>
+  <li>Huinnyeol Folk Village (cultural community village in downtown Busan)</li>
+  <li>Seomyeon Young People's Street (entertainment, shopping, and dining hub)</li>
+  </ul>
+  </td>
+  <td>Private Transport</td>
+  <td>Breakfast, Lunch, Dinner</td>
+  <td>3-Star Hotel (Busan)</td>
+  </tr>
+  <tr>
+  <td class="col-activities">
+  <div class="day-title"><span class="day-num">Day 5</span>Busan - Kuala Lumpur</div>
+  <ul class="activities">
+  <li>Check-out</li>
+  <li>Airport transfer</li>
+  <li>Flight PUS - KUL</li>
+  </ul>
+  </td>
+  <td>Private Transport & Flight</td>
+  <td>Breakfast</td>
+  <td>-</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+  </div>
+</div>
+  <div class="card">
+  <h2>Additional Activities</h2>
+  <div class="addon">
+  <div class="addon-info">
+  <div class="addon-name">Busan Yacht Night Tour @ The Bay 101</div>
+  <div class="addon-meta">Includes: Entrance fee, water & soft drinks, snacks, raincoat (rainy season), hot packs & blankets (winter season)</div>
+  <div class="addon-meta">Excludes: Personal expenses</div>
+  <div class="addon-meta">Duration: During The Bay 101 visit (7pm, +/-60 minutes) — subject to weather; refreshments may vary depending on circumstances</div>
+  <div class="addon-meta">Minimum Persons: No minimum required</div>
+  </div>
+  <div class="addon-price-col">
+  <div class="addon-price-line">Adult: ~RM 150/person</div>
+  <div class="addon-price-line">Child: ~RM 100/person</div>
+  <div class="addon-price-line">Infant: Free</div>
+  </div>
+  </div>
+  <p class="addon-disclaimer">* Prices may vary with the exchange rate — check with our staff for the latest pricing.</p>
+  </div>
+  <div class="card">
+  <h2>What to Expect</h2>
+  <div class="expect-grid">
+  <div class="expect-item">
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 22v-6.57" />
+  <path d="M12 11h.01" />
+  <path d="M12 7h.01" />
+  <path d="M14 15.43V22" />
+  <path d="M15 16a5 5 0 0 0-6 0" />
+  <path d="M16 11h.01" />
+  <path d="M16 7h.01" />
+  <path d="M8 11h.01" />
+  <path d="M8 7h.01" />
+  <rect x="4" y="2" width="16" height="20" rx="2" />
