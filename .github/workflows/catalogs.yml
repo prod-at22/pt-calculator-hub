@@ -11,10 +11,10 @@ on:
     paths: ["data/catalogs/**", "catalog-build/**", ".github/workflows/catalogs.yml"]
   workflow_dispatch:
     inputs:
-      all:
-        description: "Rebuild every catalog (not only the changed ones)"
-        type: boolean
-        default: false
+      slugs:
+        description: "Catalogs to build, space-separated (empty = all)"
+        type: string
+        default: ""
 concurrency: { group: catalogs, cancel-in-progress: false }
 jobs:
   build:
@@ -37,7 +37,10 @@ jobs:
         id: pick
         run: |
           before="${{ github.event.before }}"
-          if [ "${{ github.event_name }}" != "push" ] || [ "${{ inputs.all }}" = "true" ] || [ -z "$before" ] \
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "slugs=${{ inputs.slugs }}" >> "$GITHUB_OUTPUT"; echo "building: ${{ inputs.slugs || 'ALL' }}"; exit 0
+          fi
+          if [ -z "$before" ] \
              || ! git cat-file -e "$before^{commit}" 2>/dev/null \
              || git diff --name-only "$before" HEAD | grep -qE '^(catalog-build/|\.github/workflows/catalogs\.yml)'; then
             echo "slugs=" >> "$GITHUB_OUTPUT"; echo "building ALL catalogs"
@@ -46,7 +49,8 @@ jobs:
             echo "slugs=$slugs" >> "$GITHUB_OUTPUT"; echo "building: $slugs"
           fi
       - name: Build
-        run: python catalog-build/build.py ${{ steps.pick.outputs.slugs }}
+        run: python -u catalog-build/build.py ${{ steps.pick.outputs.slugs }}
+        timeout-minutes: 40
       - uses: actions/upload-artifact@v4
         with: { name: catalog-site, path: "catalog-build/site/*.*", retention-days: 7 }
       - name: Publish to catalog-pt-public
