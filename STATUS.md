@@ -1,6 +1,6 @@
 # Status & handoff (8 Oct 2026, data v26, Catalog Details)
 
-Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
+PT R&D Costing Hub (renamed 8 Oct; repo/URL unchanged). Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
 
 ## Start of a new session

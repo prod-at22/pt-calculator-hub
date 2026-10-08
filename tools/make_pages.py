@@ -18,7 +18,7 @@ SHELL = """<!doctype html>
 </head>
 <body>
 <header class="top"><div class="in">
-  <div class="brand"><a href="{root}" style="color:#fff">ARBA · PT Costing</a> <small>{sub}</small></div>
+  <div class="brand"><a href="{root}" style="color:#fff">ARBA · PT R&amp;D Costing Hub</a> <small>{sub}</small></div>
   <span class="chip" id="verChip">loading…</span>
   <button class="btn" id="btnHistory">History</button>
   <span id="authArea"></span>
@@ -42,17 +42,17 @@ def main():
     # ?v=<hash of app.js + app.css> so browsers pick up a new app.js / app.css at once after a push
     ver = hashlib.sha1(b"".join(open(os.path.join(ROOT, f), "rb").read() for f in ("app.js", "app.css"))).hexdigest()[:8]
     open(os.path.join(ROOT, "index.html"), "w").write(
-        SHELL.format(title="PT Costing Hub", sub="hub", dest="null", root="", hide=' style="display:none"', view="null", ver=ver))
+        SHELL.format(title="PT R&amp;D Costing Hub", sub="", dest="null", root="", hide=' style="display:none"', view="null", ver=ver))
     codes = []
     for d in data["destinations"]:
         code = d["code"].lower()
         os.makedirs(os.path.join(ROOT, code), exist_ok=True)
         open(os.path.join(ROOT, code, "index.html"), "w").write(
-            SHELL.format(title="%s PT Costing" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide="", view="null", ver=ver))
+            SHELL.format(title="%s · PT R&amp;D Costing Hub" % d["code"], sub=d["name"], dest=json.dumps(d["code"]), root="../", hide="", view="null", ver=ver))
         codes.append(code)
     os.makedirs(os.path.join(ROOT, "flags"), exist_ok=True)
     open(os.path.join(ROOT, "flags", "index.html"), "w").write(
-        SHELL.format(title="PT Flags", sub="flags", dest="null", root="../", hide=' style="display:none"', view='"flags"', ver=ver))
+        SHELL.format(title="Flags · PT R&amp;D Costing Hub", sub="flags", dest="null", root="../", hide=' style="display:none"', view='"flags"', ver=ver))
     print("wrote index.html, flags/ +", ", ".join("%s/" % c for c in codes))
 
 
