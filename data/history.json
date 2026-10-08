@@ -11739,6 +11739,18 @@
      "label": "Perhentian › TO Mimpi name"
     }
    ]
+  },
+  {
+   "v": 26,
+   "at": "2026-10-08T02:39:46Z",
+   "by": "product",
+   "rebase": true,
+   "changes": [],
+   "note": "Osaka & Tokyo-Osaka rate by rate (Show calculation / Rate reference); same costs",
+   "summary": [
+    "Osaka: 3 TO lines rate by rate from PT_OSK_RD_reformatted.xlsx (14 rates)",
+    "Tokyo - Kyoto - Osaka: 3 TO lines rate by rate from PT_KIX_RD_reformatted.xlsx (20 rates)"
+   ]
   }
  ]
 }

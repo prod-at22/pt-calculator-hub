@@ -515,6 +515,15 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const deep = await boot(repo, "sel/", "?pkg=atk-std");
     ok(deep.doc.querySelector("#selPkg").value === "atk-std", "sel/?pkg=atk-std opens Seoul Standard");
     ok(/PO\s*Aiman/.test(deep.doc.querySelector("#controls").textContent), "Seoul page shows PO Aiman");
+    // Osaka / Tokyo-Osaka are rate by rate too (tools/build_jp_rates.py): codes + Rate reference
+    for (const [path, pkg, want] of [["osk/", "ucop-std-wif-std", "A × 2 × J|B × J|C × 4 × 2 pax"], ["kix/", "qay-ucop-std-wif-std", "(A + B) × O|C × O|D × 2 pax|E × 2 pax × P|F × 6 × 2 pax"]]) {
+      const pg = await boot(repo, path, "?pkg=" + pkg), $c = s => pg.doc.querySelector("#costPax " + s);
+      click(pg.w, $c("[data-ref]")); await tick(5); click(pg.w, $c("[data-calc]")); await tick(5);
+      const r2 = pg.doc.querySelector('#costPax tr[data-pax="2"]'), got = [...r2.querySelectorAll(".calc")].map(x => x.textContent.replace(/ = [\d,]+$/, "")).join("|");
+      ok(got === want, path + " 2 pax calculation: " + got);
+      ok(pg.doc.querySelectorAll("#rateRef thead th.rr-code").length >= 10, path + " Rate reference columns");
+      ok(pg.errors.length === 0, path + " errors: " + pg.errors.join("|"));
+    }
     const hubPO = [...hub.doc.querySelectorAll("#grid tbody tr")].map(r => r.children[1].textContent.trim());
     const poCount = n => P.DATA.destinations.filter(d => d.po === n).reduce((s, d) => s + d.catalogs.length, 0);
     ok(["Aiman", "Thania", "Fyka", "Acap"].every(n => hubPO.filter(x => x === n).length === poCount(n)), "hub PO column matches each destination's PO");

@@ -41,6 +41,8 @@ old → new value. Any old version can be viewed and restored.
 
 ## Where the numbers come from
 
+- **Osaka (OSK), Tokyo-Osaka (KIX)** are rate by rate too: `tools/build_jp_rates.py` turns the R&D CR formulas
+  (Raw Costing rate × FX cell) into formulas over the rates, so Show calculation / Rate reference work there.
 - **Tokyo (HND)** is built rate by rate from the R&D Raw Costing (JPY rates × FX), so editing
   one supplier rate updates every pax count (`tools/build_data.py`).
 - **Seoul (SEL) Basic / Standard** cost = the ATK contract rate per pax, one line (`tools/build_sel.py`,

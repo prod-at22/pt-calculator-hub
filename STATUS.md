@@ -1,4 +1,4 @@
-# Status & handoff (7 Oct 2026, data v25, flags regenerated)
+# Status & handoff (8 Oct 2026, data v26)
 
 Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
@@ -17,7 +17,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - Destination page: header (PO, locked FX chips) · **Package** (package name only) · **Tour operator** (operator
   name only; lists just that package's TOs, auto-picked by pax) · tabs Costing / TO Contract Rate / Add-ons / Flags / History.
 - Costing table: one block per TO; component columns (group RM), headers = component name only. Rate-built TOs
-  (Tokyo) get two buttons, both off by default: **Show rate reference** opens a horizontal table above Costing by
+  (Tokyo, Osaka, Tokyo-Osaka) get two buttons, both off by default: **Show rate reference** opens a horizontal table above Costing by
   pax (one column per code: A, B, … = rates in order of use, then the FX; item · pax band, supplier, rate; note on
   hover); **Show calculation** writes each cell as its formula in those codes, e.g. "A × 2 × R = 1,144"
   (rateCodes / rateRef / calcText in app.js). A component RM0 at every pax is
@@ -37,7 +37,9 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - **HND**: rate by rate. Qayyum (Standard 2–7) rates from ProdReq Jepun (airport ¥22,000, City ¥76,000, Fuji ¥81,000),
   **Qayyum FX 0.026** (PO); WIF FX 0.029. Apartment RM250/pax/night. No Qayyum CR exists — contracts/hnd has an
   ARBA-internal rate sheet PDF (tools/make_qayyum_sheet.py; regenerate after any Qayyum rate change).
-- **OSK, KIX**: R&D, but accommodation edited on the page to RM250/pax/night (v24) — R&D still says RM300.
+- **OSK, KIX**: rate by rate since v26 (tools/build_jp_rates.py reads the R&D CR formulas = Raw Costing rate ×
+  FX; checks every component at every pax against the old values). Accommodation RM250/pax/night (PO, v24) kept
+  via OVERRIDE in that script — R&D still says RM300. After a re-import of OSK/KIX run build_jp_rates.py again.
 - **JBDO**: CTRANS fullboard rate 2–10 pax (v5), not yet in the R&D sheet.
 - Turkey / Istanbul 4★ removed (no MyTrip CR, no catalog); SKIP_TO in extract_rd.py keeps it out.
 

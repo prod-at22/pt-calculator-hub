@@ -425,7 +425,7 @@ function calcText(d, expr, pax, codes) {
   const fxOf = r => r.fx === "MYR" ? null : d.fx.find(x => x.id === r.fx);
   const cur = r => { const f = fxOf(r); if (!f) return "RM"; const m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f.label); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
   let e = expr.replace(/band\(pax,((?:\[[^\]]+\],?)+)\)/g, (_, pairs) => {
-    for (const m of pairs.matchAll(/\[(\d+),([^\]]+)\]/g)) if (pax <= +m[1]) return /[+*]/.test(m[2]) ? `(${m[2]})` : m[2];
+    for (const m of pairs.matchAll(/\[(\d+),([^\]]+)\]/g)) if (pax <= +m[1]) return /\+/.test(m[2]) ? `(${m[2]})` : m[2];   // a plain product needs no brackets
     return "NaN";
   });
   const ids = [...new Set([...e.matchAll(/R\.(\w+)/g)].map(m => m[1]))].filter(id => R[id]);
@@ -461,12 +461,12 @@ function rateCodes(d, pkg) {
 function rateRef(d, pkg) {
   if (!SEL.showRef || !hasCalc(d, pkg)) return "";   // hidden until Show rate reference is on
   const codes = rateCodes(d, pkg), R = Object.fromEntries(d.rates.map(r => [r.id, r]));
-  const cap = s => s.length <= 4 ? s : s.charAt(0) + s.slice(1).toLowerCase();   // WIF, ATK stay upper case
+  const cap = s => s.split("/").map(w => w.length <= 4 && w === w.toUpperCase() ? w : w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join("/");   // WIF, ATK stay upper case; Qayyum/Ucop
   const sym = r => { if (r.fx === "MYR") return "RM"; const f = d.fx.find(x => x.id === r.fx), m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f ? f.label : ""); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
   const split = lbl => { const m = /^(.*?)\s*\(([^,)]+)(?:,\s*([^)]*))?\)\s*$/.exec(lbl); return m ? [m[1], m[2], m[3] || ""] : [lbl, "", ""]; };
   // one column per code: code / item / supplier / rate; the FX columns come last
   const cols = codes.rIds.map(id => { const r = R[id], [item, sup, note] = split(r.label || id);
-      return { code: codes.r[id], item: item + (codes.pax[id] ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
+      return { code: codes.r[id], item: item + (codes.pax[id] && !/\bpax\b/i.test(item) ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
     .concat(codes.fIds.map((id, i) => { const f = d.fx.find(x => x.id === id) || { label: id, value: "" };
       return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM"), sup: "", rate: String(f.value), note: f.source || "", fx: true, first: i === 0 }; }));
   const row = (lbl, k) => `<tr><th>${lbl}</th>${cols.map(c => `<td class="${c.first ? "rr-fx" : ""}"${k === "rate" && c.note ? ` title="${esc(c.note)}"` : ""}>${esc(c[k])}</td>`).join("")}</tr>`;
