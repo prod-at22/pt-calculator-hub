@@ -262,108 +262,19 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Add-on Accommodation",
-      "entries": [
-        {
-          "name": "Apartment / 3 Star Hotel",
-          "price_lines": [
-            "RM300/Night/Pax"
-          ]
-        }
-      ]
+      "title": "Add-on Accommodation"
     },
     {
-      "title": "Add-on Public Transport",
-      "entries": [
-        {
-          "name": "Osaka City Tour",
-          "includes": "Public Transport Card, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM697",
-            "3 pax: RM597",
-            "4 - 5 pax: RM497",
-            "6 - 11 pax: RM397",
-            "12 pax: RM297",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Nara Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 pax: RM697",
-            "4 pax: RM597",
-            "5 - 6 pax: RM497",
-            "7 - 12 pax: RM397",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Kyoto Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 - 4 pax: RM697",
-            "5 - 9 pax: RM597",
-            "10 - 12 pax: RM497",
-            "*Price per pax"
-          ]
-        }
-      ]
+      "title": "Add-on Public Transport"
     },
     {
       "title": "Add-on Private Transport",
-      "entries": [
-        {
-          "name": "Osaka City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3000",
-            "8 - 9 pax (Hiace): RM3400",
-            "10 - 12 pax (Hiace): RM3800",
-            "Per Trip"
-          ]
-        },
-        {
-          "name": "Nara Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3300",
-            "8 - 9 pax (Hiace): RM3700",
-            "10 - 12 pax (Hiace): RM4400",
-            "Per Trip"
-          ]
-        },
-        {
-          "name": "Kyoto Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3300",
-            "8 - 9 pax (Hiace): RM3700",
-            "10 - 12 pax (Hiace): RM4400",
-            "Per Trip"
-          ]
-        }
-      ],
       "notes": [
         "*Can arrange to go to halal restaurant."
       ]
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

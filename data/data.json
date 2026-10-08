@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 30,
- "updatedAt": "2026-10-08T14:32:47Z",
+ "version": 31,
+ "updatedAt": "2026-10-08T14:49:27Z",
  "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
@@ -1195,6 +1195,190 @@
      "selling": 50,
      "per": "meal",
      "notes": "ProdReq §7 · cost 15,000 KRW"
+    },
+    {
+     "id": "sel-k001",
+     "category": "Add-on Private Transport",
+     "label": "Everland Theme Park",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transportation, Driver Only",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "RM1,400",
+      "Per Transport"
+     ],
+     "catalogs": {
+      "seoul-basic": 1
+     }
+    },
+    {
+     "id": "sel-k002",
+     "category": "Add-on Private Transport",
+     "label": "Vivaldi Ski Park",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transportation, Driver Only",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "RM1,400",
+      "Per Transport"
+     ],
+     "catalogs": {
+      "seoul-basic": 2
+     }
+    },
+    {
+     "id": "sel-k003",
+     "category": "Add-on Private Transport",
+     "label": "Seoul City",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transportation, Driver Only",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "RM1,200",
+      "Per Transport"
+     ],
+     "catalogs": {
+      "seoul-basic": 3
+     }
+    },
+    {
+     "id": "sel-k004",
+     "category": "Add-on Private Transport",
+     "label": "Upgrade to English Speaking Driving Guide",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "English Speaking Driving Guide",
+     "excludes": "Entrance Ticket, Meals, Transport",
+     "price_lines": [
+      "RM390",
+      "Per Day"
+     ],
+     "catalogs": {
+      "seoul-basic": 4
+     }
+    },
+    {
+     "id": "sel-k005",
+     "category": "Additional Activities",
+     "label": "Hanbok Rental at Gyeongbok Palace",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Basic Hanbok Attire",
+     "excludes": "Extra equipment for rental",
+     "duration": "4 Hours",
+     "price_lines": [
+      "Adult & Child:",
+      "RM80/person"
+     ],
+     "catalogs": {
+      "seoul-basic": 5,
+      "seoul-standard": 3
+     }
+    },
+    {
+     "id": "sel-k006",
+     "category": "Additional Activities",
+     "label": "Everland Theme Park Ticket",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Ticket",
+     "excludes": "Fast Lane, Meals, Extra Activities",
+     "price_lines": [
+      "Adult & Child:",
+      "RM140/person"
+     ],
+     "catalogs": {
+      "seoul-basic": 6,
+      "seoul-standard": 4
+     }
+    },
+    {
+     "id": "sel-k007",
+     "category": "Additional Activities",
+     "label": "Lotte World Seoul Ticket",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Ticket",
+     "excludes": "Fast Lane, Meals, Extra Activities",
+     "price_lines": [
+      "Adult & Child:",
+      "RM100/person"
+     ],
+     "catalogs": {
+      "seoul-basic": 7,
+      "seoul-standard": 5
+     }
+    },
+    {
+     "id": "sel-k008",
+     "category": "Additional Activities",
+     "label": "Snowyland",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Ticket",
+     "excludes": "Fast Lane, Meals, Extra Activities",
+     "price_lines": [
+      "Adult & Child:",
+      "RM150/person"
+     ],
+     "catalogs": {
+      "seoul-basic": 8,
+      "seoul-standard": 6
+     }
+    },
+    {
+     "id": "sel-k009",
+     "category": "Swap Activities — Day 2 / Day 3 / Day 4",
+     "label": "Everland Theme Park",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transportation, Driving Guide, Entrance fees",
+     "excludes": "Meals",
+     "price_lines": [
+      "RM160/pax"
+     ],
+     "catalogs": {
+      "seoul-standard": 1
+     }
+    },
+    {
+     "id": "sel-k010",
+     "category": "Swap Activities — Day 2 / Day 3 / Day 4",
+     "label": "Vivaldi Ski Park",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transportation, Driving Guide",
+     "excludes": "Meals, Snowyland (walk-in)",
+     "price_lines": [
+      "2 pax: RM290/pax",
+      "3 pax & above: RM240/pax"
+     ],
+     "catalogs": {
+      "seoul-standard": 2
+     }
     }
    ],
    "catalogs": [
@@ -1726,6 +1910,25 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "seljju-k001",
+     "category": "Additional Activities",
+     "label": "Hanbok Rental at Gyeongbok Palace",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Basic Hanbok Attire",
+     "excludes": "Extra equipment for rental",
+     "duration": "4 Hours",
+     "price_lines": [
+      "Adult & Child:",
+      "RM80/person"
+     ],
+     "catalogs": {
+      "seoul-jeju": 1
+     }
     }
    ],
    "catalogs": [
@@ -2688,6 +2891,79 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "jju-k001",
+     "category": "Add-on Private Transport",
+     "label": "Airport Transfer — Incheon Airport ↔ Gimpo Airport",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Airport Transfer, Driver Only",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "1-6 pax: RM360/way",
+      "7-9 pax: RM700/way"
+     ],
+     "catalogs": {
+      "jeju": 1
+     }
+    },
+    {
+     "id": "jju-k002",
+     "category": "Add-on Private Transport",
+     "label": "Domestic Flight — Seoul to Jeju",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 way Domestic Flight Ticket, 15kg Checked-in Luggage, 7kg Hand Carry",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "RM300",
+      "Per Way/Pax"
+     ],
+     "catalogs": {
+      "jeju": 2
+     }
+    },
+    {
+     "id": "jju-k003",
+     "category": "Additional Activities",
+     "label": "Udo Island Ferry Ticket",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "2-way Udo Island Ferry Ticket",
+     "excludes": "Activities",
+     "price_lines": [
+      "Adult & Child:",
+      "RM50/person"
+     ],
+     "catalogs": {
+      "jeju": 3
+     }
+    },
+    {
+     "id": "jju-k004",
+     "category": "Additional Activities",
+     "label": "Hanbok Rental at Songeup Folk Village",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Basic Hanbok Attire",
+     "excludes": "Extra equipment for rental",
+     "duration": "4 Hours",
+     "price_lines": [
+      "Adult & Child:",
+      "RM80/person"
+     ],
+     "catalogs": {
+      "jeju": 4
+     }
     }
    ],
    "catalogs": [
@@ -3137,6 +3413,78 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "jjuo-k001",
+     "category": "Add-on Private Transport",
+     "label": "Airport Transfer — Incheon Airport ↔ Gimpo Airport",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Airport Transfer, Driver Only",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "1-6 pax: RM360/way",
+      "7-9 pax: RM700/way"
+     ],
+     "catalogs": {
+      "jeju-udo": 1
+     }
+    },
+    {
+     "id": "jjuo-k002",
+     "category": "Add-on Private Transport",
+     "label": "Domestic Flight — Seoul to Jeju",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 way Domestic Flight Ticket, 15kg Checked-in Luggage, 7kg Hand Carry",
+     "excludes": "Entrance Ticket, Meals",
+     "price_lines": [
+      "RM300",
+      "Per Way/Pax"
+     ],
+     "catalogs": {
+      "jeju-udo": 2
+     }
+    },
+    {
+     "id": "jjuo-k003",
+     "category": "Additional Activities",
+     "label": "Hanbok Rental at Songeup Folk Village",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Basic Hanbok Attire",
+     "excludes": "Extra equipment for rental",
+     "duration": "4 Hours",
+     "price_lines": [
+      "Adult & Child:",
+      "RM80/person"
+     ],
+     "catalogs": {
+      "jeju-udo": 3
+     }
+    },
+    {
+     "id": "jjuo-k004",
+     "category": "Additional Activities",
+     "label": "Additional Activity at Udo Island",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Electric bicycle, bicycle, motorcycle or tri-electric car rental",
+     "price_lines": [
+      "10,000 - 50,000 KRW/person,",
+      "by hours used and type"
+     ],
+     "catalogs": {
+      "jeju-udo": 4
+     }
     }
    ],
    "catalogs": [
@@ -3944,6 +4292,158 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "tur-k001",
+     "category": "Additional Activities",
+     "label": "Jeep Tour (min 2 pax)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Jeep tour, professional guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 3-4 hours",
+     "price_lines": [
+      "RM257/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 1,
+      "turki-klasik-std": 1
+     }
+    },
+    {
+     "id": "tur-k002",
+     "category": "Additional Activities",
+     "label": "ATV Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "ATV ride, guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 1-2 hours",
+     "price_lines": [
+      "RM227/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 2,
+      "turki-klasik-std": 2
+     }
+    },
+    {
+     "id": "tur-k003",
+     "category": "Additional Activities",
+     "label": "Whirling Dervishes",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance, performance show",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour show",
+     "price_lines": [
+      "RM227/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 3,
+      "turki-klasik-std": 3
+     }
+    },
+    {
+     "id": "tur-k004",
+     "category": "Additional Activities",
+     "label": "Turkish Night",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dinner, cultural performance (dance, music)",
+     "excludes": "Alcoholic beverages, personal expenses",
+     "duration": "3-4 hours",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 4,
+      "turki-klasik-std": 4
+     }
+    },
+    {
+     "id": "tur-k005",
+     "category": "Additional Activities",
+     "label": "Horse Riding",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Horse ride, instructor",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM257/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 5,
+      "turki-klasik-std": 5
+     }
+    },
+    {
+     "id": "tur-k006",
+     "category": "Additional Activities",
+     "label": "Bosphorus Dinner Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dinner, cruise along the Bosphorus, entertainment",
+     "excludes": "Alcoholic drinks, personal expenses",
+     "duration": "2-3 hours",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 6,
+      "turki-klasik-std": 6
+     }
+    },
+    {
+     "id": "tur-k007",
+     "category": "Additional Activities",
+     "label": "Hot Air Balloon Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Balloon ride, guide, insurance",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour flight (additional time for preparation)",
+     "price_lines": [
+      "Price varies",
+      "seasonally"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 7,
+      "turki-klasik-std": 7
+     }
+    },
+    {
+     "id": "tur-k008",
+     "category": "Additional Activities",
+     "label": "Topkapi Palace Entrance",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Main Palace, Harem section, and Hagia Irene Church",
+     "excludes": "Guided tour, food/drinks, and personal expenses",
+     "duration": "3-4 hours (recommended)",
+     "price_lines": [
+      "RM277/pax"
+     ],
+     "catalogs": {
+      "turki-klasik-basic": 8
+     }
     }
    ],
    "catalogs": [
@@ -4251,6 +4751,79 @@
      "selling": 99.0,
      "per": "pax",
      "notes": "Already included in CR Tipping column for pax 7+"
+    },
+    {
+     "id": "istbur-k001",
+     "category": "Additional Activities",
+     "label": "Uludag Snow Park (1D1N)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Accommodation (Bursa City), Meals and Guide",
+     "excludes": "Ski Activities, Personal Expenses",
+     "price_lines": [
+      "2 pax: RM800/pax",
+      "3 pax: RM600/pax",
+      "Above 4 pax: RM500/pax"
+     ],
+     "catalogs": {
+      "istanbul-bursa": 1
+     }
+    },
+    {
+     "id": "istbur-k002",
+     "category": "Additional Activities",
+     "label": "Bosphorus Dinner Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dinner, cruise along the Bosphorus, entertainment",
+     "excludes": "Alcoholic drinks, personal expenses",
+     "duration": "2-3 hours",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "istanbul-bursa": 2
+     }
+    },
+    {
+     "id": "istbur-k003",
+     "category": "Additional Activities",
+     "label": "Topkapi Palace Entrance",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Main Palace, Harem section, and Hagia Irene Church",
+     "excludes": "Guided tour, food/drinks, and personal expenses",
+     "duration": "3-4 hours (recommended)",
+     "price_lines": [
+      "RM277/pax"
+     ],
+     "catalogs": {
+      "istanbul-bursa": 3
+     }
+    },
+    {
+     "id": "istbur-k004",
+     "category": "Additional Activities",
+     "label": "Whirling Dervishes",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance, performance show",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour show",
+     "price_lines": [
+      "RM227/pax"
+     ],
+     "catalogs": {
+      "istanbul-bursa": 4
+     }
     }
    ],
    "catalogs": [
@@ -4919,6 +5492,150 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "istcap-k001",
+     "category": "Additional Activities",
+     "label": "Jeep Tour (min 2 pax)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Jeep tour, professional guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 3-4 hours",
+     "price_lines": [
+      "RM257/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 1
+     }
+    },
+    {
+     "id": "istcap-k002",
+     "category": "Additional Activities",
+     "label": "ATV Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "ATV ride, guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 1-2 hours",
+     "price_lines": [
+      "RM227/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 2
+     }
+    },
+    {
+     "id": "istcap-k003",
+     "category": "Additional Activities",
+     "label": "Whirling Dervishes",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance, performance show",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour show",
+     "price_lines": [
+      "RM227/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 3
+     }
+    },
+    {
+     "id": "istcap-k004",
+     "category": "Additional Activities",
+     "label": "Turkish Night",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dinner, cultural performance (dance, music)",
+     "excludes": "Alcoholic beverages, personal expenses",
+     "duration": "3-4 hours",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 4
+     }
+    },
+    {
+     "id": "istcap-k005",
+     "category": "Additional Activities",
+     "label": "Horse Riding",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Horse ride, instructor",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM257/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 5
+     }
+    },
+    {
+     "id": "istcap-k006",
+     "category": "Additional Activities",
+     "label": "Bosphorus Dinner Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dinner, cruise along the Bosphorus, entertainment",
+     "excludes": "Alcoholic drinks, personal expenses",
+     "duration": "2-3 hours",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 6
+     }
+    },
+    {
+     "id": "istcap-k007",
+     "category": "Additional Activities",
+     "label": "Hot Air Balloon Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Balloon ride, guide, insurance",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour flight (additional time for preparation)",
+     "price_lines": [
+      "Price varies seasonally"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 7
+     }
+    },
+    {
+     "id": "istcap-k008",
+     "category": "Additional Activities",
+     "label": "Topkapi Palace Entrance",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Main Palace, Harem section, and Hagia Irene Church",
+     "excludes": "Guided tour, food/drinks, and personal expenses",
+     "duration": "3-4 hours (recommended)",
+     "price_lines": [
+      "RM277/pax"
+     ],
+     "catalogs": {
+      "istanbul-cappadocia": 8
+     }
     }
    ],
    "catalogs": [
@@ -6046,6 +6763,156 @@
      "selling": 300.0,
      "per": "pax/night",
      "notes": "PT Basic only — upgrade dari APA to Section L"
+    },
+    {
+     "id": "hnd-k001",
+     "category": "Add On Accommodation",
+     "label": "Apartment / 3 Star Hotel",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM300/Night/Pax"
+     ],
+     "catalogs": {
+      "tokyo-basic": 1,
+      "tokyo-standard": 1
+     }
+    },
+    {
+     "id": "hnd-k002",
+     "category": "Upgrade to Private Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,097",
+      "3 pax: RM797",
+      "4 pax: RM597",
+      "5 - 9 pax: RM497",
+      "10 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-basic": 2
+     }
+    },
+    {
+     "id": "hnd-k003",
+     "category": "Upgrade to Private Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,197",
+      "3 pax: RM797",
+      "4 pax: RM697",
+      "5 - 7 pax: RM597",
+      "8 - 10 pax: RM497",
+      "11 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-basic": 3
+     }
+    },
+    {
+     "id": "hnd-k004",
+     "category": "Add On Public Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM597",
+      "4 pax: RM497",
+      "5 - 9 pax: RM397",
+      "10 - 12 pax: RM297",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-basic": 4,
+      "tokyo-standard": 4
+     }
+    },
+    {
+     "id": "hnd-k005",
+     "category": "Add On Public Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,197",
+      "3 - 4 pax: RM797",
+      "5 - 9 pax: RM697",
+      "10 - 12 pax: RM597",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-basic": 5,
+      "tokyo-standard": 5
+     }
+    },
+    {
+     "id": "hnd-k006",
+     "category": "Add On Private Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,000",
+      "8 pax (Hiace): RM4,300",
+      "9 - 12 pax (Hiace): RM4,600"
+     ],
+     "catalogs": {
+      "tokyo-basic": 6,
+      "tokyo-standard": 2
+     }
+    },
+    {
+     "id": "hnd-k007",
+     "category": "Add On Private Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,000",
+      "8 pax (Hiace): RM4,300",
+      "9 - 12 pax (Hiace): RM4,600"
+     ],
+     "catalogs": {
+      "tokyo-basic": 7,
+      "tokyo-standard": 3
+     }
     }
    ],
    "po": "Thania",
@@ -6957,6 +7824,368 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "kix-k001",
+     "category": "Add On Accommodation",
+     "label": "Tokyo: Apartment / 3 Star Hotel",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM300/Night/Pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 1,
+      "tokyo-osaka-standard": 1
+     }
+    },
+    {
+     "id": "kix-k002",
+     "category": "Add On Accommodation",
+     "label": "Osaka: Apartment / 3 Star Hotel",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM300/Night/Pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 2,
+      "tokyo-osaka-standard": 2
+     }
+    },
+    {
+     "id": "kix-k003",
+     "category": "Add On Tokyo — Upgrade to Private Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,097",
+      "3 pax: RM797",
+      "4 pax: RM597",
+      "5 - 9 pax: RM497",
+      "10 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 3
+     }
+    },
+    {
+     "id": "kix-k004",
+     "category": "Add On Tokyo — Upgrade to Private Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,197",
+      "3 pax: RM797",
+      "4 pax: RM697",
+      "5 - 7 pax: RM597",
+      "8 - 10 pax: RM497",
+      "11 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 4
+     }
+    },
+    {
+     "id": "kix-k005",
+     "category": "Add On Tokyo — Public Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM597",
+      "4 pax: RM497",
+      "5 - 9 pax: RM397",
+      "10 - 12 pax: RM297",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 5,
+      "tokyo-osaka-standard": 5
+     }
+    },
+    {
+     "id": "kix-k006",
+     "category": "Add On Tokyo — Public Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM1,197",
+      "3 - 4 pax: RM797",
+      "5 - 9 pax: RM697",
+      "10 - 12 pax: RM597",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 6,
+      "tokyo-osaka-standard": 6
+     }
+    },
+    {
+     "id": "kix-k007",
+     "category": "Add On Tokyo — Private Transport",
+     "label": "Tokyo City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,000",
+      "8 pax (Hiace): RM4,300",
+      "9 - 12 pax (Hiace): RM4,600"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 7,
+      "tokyo-osaka-standard": 3
+     }
+    },
+    {
+     "id": "kix-k008",
+     "category": "Add On Tokyo — Private Transport",
+     "label": "Fuji Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,000",
+      "8 pax (Hiace): RM4,300",
+      "9 - 12 pax (Hiace): RM4,600"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 8,
+      "tokyo-osaka-standard": 4
+     }
+    },
+    {
+     "id": "kix-k009",
+     "category": "Add On Osaka — Upgrade to Private Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM597",
+      "4 pax: RM497",
+      "5 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 9
+     }
+    },
+    {
+     "id": "kix-k010",
+     "category": "Add On Osaka — Upgrade to Private Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM697",
+      "4 - 5 pax: RM497",
+      "6 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 10
+     }
+    },
+    {
+     "id": "kix-k011",
+     "category": "Add On Osaka — Upgrade to Private Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM397",
+      "4 - 12 pax: RM297"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 11
+     }
+    },
+    {
+     "id": "kix-k012",
+     "category": "Add On Osaka — Public Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM597",
+      "4 - 5 pax: RM497",
+      "6 - 11 pax: RM397",
+      "12 pax: RM297",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 12,
+      "tokyo-osaka-standard": 7
+     }
+    },
+    {
+     "id": "kix-k013",
+     "category": "Add On Osaka — Public Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM697",
+      "4 pax: RM597",
+      "5 - 6 pax: RM497",
+      "7 - 12 pax: RM397",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 13,
+      "tokyo-osaka-standard": 8
+     }
+    },
+    {
+     "id": "kix-k014",
+     "category": "Add On Osaka — Public Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 - 4 pax: RM697",
+      "5 - 9 pax: RM597",
+      "10 - 12 pax: RM497",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 14,
+      "tokyo-osaka-standard": 9
+     }
+    },
+    {
+     "id": "kix-k015",
+     "category": "Add On Osaka — Private Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,000",
+      "8 - 9 pax (Hiace): RM3,400",
+      "10 - 12 pax (Hiace): RM3,800"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 15,
+      "tokyo-osaka-standard": 10
+     }
+    },
+    {
+     "id": "kix-k016",
+     "category": "Add On Osaka — Private Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,300",
+      "8 - 9 pax (Hiace): RM3,700",
+      "10 - 12 pax (Hiace): RM4,400"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 16,
+      "tokyo-osaka-standard": 11
+     }
+    },
+    {
+     "id": "kix-k017",
+     "category": "Add On Osaka — Private Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3,300",
+      "8 - 9 pax (Hiace): RM3,700",
+      "10 - 12 pax (Hiace): RM4,400"
+     ],
+     "catalogs": {
+      "tokyo-osaka-basic": 17,
+      "tokyo-osaka-standard": 12
+     }
     }
    ],
    "catalogs": [
@@ -7818,6 +9047,221 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "osk-k001",
+     "category": "Add-on Accommodation",
+     "label": "Apartment / 3 Star Hotel",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM300/Night/Pax"
+     ],
+     "catalogs": {
+      "osaka-basic": 1,
+      "osaka-standard": 1
+     }
+    },
+    {
+     "id": "osk-k002",
+     "category": "Upgrade to Private Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM597",
+      "4 pax: RM497",
+      "5 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "osaka-basic": 2
+     }
+    },
+    {
+     "id": "osk-k003",
+     "category": "Upgrade to Private Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM697",
+      "4 - 5 pax: RM497",
+      "6 - 12 pax: RM397"
+     ],
+     "catalogs": {
+      "osaka-basic": 3
+     }
+    },
+    {
+     "id": "osk-k004",
+     "category": "Upgrade to Private Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM397",
+      "4 - 12 pax: RM297"
+     ],
+     "catalogs": {
+      "osaka-basic": 4
+     }
+    },
+    {
+     "id": "osk-k005",
+     "category": "Add-on Public Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM697",
+      "3 pax: RM597",
+      "4 - 5 pax: RM497",
+      "6 - 11 pax: RM397",
+      "12 pax: RM297",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "osaka-basic": 5,
+      "osaka-standard": 2
+     }
+    },
+    {
+     "id": "osk-k006",
+     "category": "Add-on Public Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 pax: RM697",
+      "4 pax: RM597",
+      "5 - 6 pax: RM497",
+      "7 - 12 pax: RM397",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "osaka-basic": 6,
+      "osaka-standard": 3
+     }
+    },
+    {
+     "id": "osk-k007",
+     "category": "Add-on Public Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Public Transport Card, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "2 pax: RM897",
+      "3 - 4 pax: RM697",
+      "5 - 9 pax: RM597",
+      "10 - 12 pax: RM497",
+      "*Price per pax"
+     ],
+     "catalogs": {
+      "osaka-basic": 7,
+      "osaka-standard": 4
+     }
+    },
+    {
+     "id": "osk-k008",
+     "category": "Add-on Private Transport",
+     "label": "Osaka City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3000",
+      "8 - 9 pax (Hiace): RM3400",
+      "10 - 12 pax (Hiace): RM3800",
+      "Per Trip"
+     ],
+     "catalogs": {
+      "osaka-basic": 8,
+      "osaka-standard": 5
+     }
+    },
+    {
+     "id": "osk-k009",
+     "category": "Add-on Private Transport",
+     "label": "Nara Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3300",
+      "8 - 9 pax (Hiace): RM3700",
+      "10 - 12 pax (Hiace): RM4400",
+      "Per Trip"
+     ],
+     "catalogs": {
+      "osaka-basic": 9,
+      "osaka-standard": 6
+     }
+    },
+    {
+     "id": "osk-k010",
+     "category": "Add-on Private Transport",
+     "label": "Kyoto Day Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transport, Tour Guide (10 hours basis)",
+     "excludes": "Meals, Personal Expenses, Entrance Fee",
+     "duration": "From 9am to 7pm",
+     "price_lines": [
+      "1 - 7 pax (Voxy/Noah): RM3300",
+      "8 - 9 pax (Hiace): RM3700",
+      "10 - 12 pax (Hiace): RM4400",
+      "Per Trip"
+     ],
+     "catalogs": {
+      "osaka-basic": 10,
+      "osaka-standard": 7
+     }
     }
    ],
    "catalogs": [
@@ -9519,6 +10963,464 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "dps-k001",
+     "category": "Additional Activities",
+     "label": "Kecak Dance, Uluwatu Temple",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Performance ticket, transportation for pick-up & drop-off",
+     "excludes": "Meals, personal expenses",
+     "duration": "1 hour performance",
+     "price_lines": [
+      "RM67/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 1,
+      "bali-honeymoon-standard": 1,
+      "bali-standard": 1
+     }
+    },
+    {
+     "id": "dps-k002",
+     "category": "Additional Activities",
+     "label": "Barong Dance, Ubud",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Performance ticket, transportation for pick-up & drop-off",
+     "excludes": "Meals, personal expenses",
+     "duration": "1 hour performance (depart 7am from hotel)",
+     "price_lines": [
+      "RM67/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 2,
+      "bali-honeymoon-standard": 2,
+      "bali-standard": 2
+     }
+    },
+    {
+     "id": "dps-k003",
+     "category": "Additional Activities",
+     "label": "Uma Ceking Rice Terrace + Bali Swing",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance ticket, swing ticket, transportation",
+     "excludes": "Meals, other activities, personal expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM117/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 3,
+      "bali-honeymoon-standard": 3,
+      "bali-standard": 3
+     }
+    },
+    {
+     "id": "dps-k004",
+     "category": "Additional Activities",
+     "label": "Garuda Wisnu Kencana Cultural Park",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance ticket & Transportation",
+     "excludes": "Meals, Other Activities, Personal Expenses",
+     "duration": "1-2 hours (Available during Nusa Dua Tour Only)",
+     "price_lines": [
+      "RM67/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 4,
+      "bali-honeymoon-standard": 4,
+      "bali-standard": 4
+     }
+    },
+    {
+     "id": "dps-k005",
+     "category": "Additional Activities",
+     "label": "Banana Boat at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Watersport Activity Insurance + 1 Time Ride",
+     "excludes": "Meals, Other Activities, Personal Expenses",
+     "duration": "1 hour",
+     "price_lines": [
+      "RM67/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 5,
+      "bali-honeymoon-standard": 5,
+      "bali-standard": 5
+     }
+    },
+    {
+     "id": "dps-k006",
+     "category": "Additional Activities",
+     "label": "Jet Ski Ride at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Watersport Activity Insurance + 1 Time Ride",
+     "excludes": "Other Activities or Personal Expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM157/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 6,
+      "bali-honeymoon-standard": 6,
+      "bali-standard": 6
+     }
+    },
+    {
+     "id": "dps-k007",
+     "category": "Additional Activities",
+     "label": "Fly Fish at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 2 Time Fly",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "1-2 hours Activity",
+     "price_lines": [
+      "RM177/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 7,
+      "bali-honeymoon-standard": 7,
+      "bali-standard": 7
+     }
+    },
+    {
+     "id": "dps-k008",
+     "category": "Additional Activities",
+     "label": "Tubing Ride at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 1 Time Ride",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "1 hour Activity",
+     "price_lines": [
+      "RM127/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 8,
+      "bali-honeymoon-standard": 8,
+      "bali-standard": 8
+     }
+    },
+    {
+     "id": "dps-k009",
+     "category": "Additional Activities",
+     "label": "Parasailing Adventure at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 1 Time Ride",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "1 hour Activity",
+     "price_lines": [
+      "RM237/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 9,
+      "bali-honeymoon-standard": 9,
+      "bali-standard": 9
+     }
+    },
+    {
+     "id": "dps-k010",
+     "category": "Additional Activities",
+     "label": "Fly Board at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 15 Minutes Ride",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "15 minutes Ride",
+     "price_lines": [
+      "RM327/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 10,
+      "bali-honeymoon-standard": 10,
+      "bali-standard": 10
+     }
+    },
+    {
+     "id": "dps-k011",
+     "category": "Additional Activities",
+     "label": "Glass Bottom Boat + Turtle Island at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 1 hour Ride",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "1 hour Activity",
+     "price_lines": [
+      "RM197/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 11,
+      "bali-honeymoon-standard": 11,
+      "bali-standard": 11
+     }
+    },
+    {
+     "id": "dps-k012",
+     "category": "Additional Activities",
+     "label": "Snorkeling at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 1 hour Ride",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "1 hour Activity",
+     "price_lines": [
+      "RM157/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 12,
+      "bali-honeymoon-standard": 12,
+      "bali-standard": 12
+     }
+    },
+    {
+     "id": "dps-k013",
+     "category": "Additional Activities",
+     "label": "Sea Walking at Nusa Dua",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Activity Insurance + 40 Minutes Sea Walking",
+     "excludes": "Other activities & Personal expenses",
+     "duration": "40 Minutes",
+     "price_lines": [
+      "RM347/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 13,
+      "bali-honeymoon-standard": 13,
+      "bali-standard": 13
+     }
+    },
+    {
+     "id": "dps-k014",
+     "category": "Additional Activities",
+     "label": "Snorkeling Nusa Penida (Sharing Boat)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Life Jacket + Snorkelling Gear + Sharing Boat Transfer; 3 Snorkelling Points (Greenbowl Bay, Gamat Bay, Crystal Bay)",
+     "excludes": "Other activities & Personal expenses",
+     "price_lines": [
+      "RM107/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 14,
+      "bali-honeymoon-standard": 14,
+      "bali-standard": 14
+     }
+    },
+    {
+     "id": "dps-k015",
+     "category": "Additional Activities",
+     "label": "Snorkeling Nusa Penida (Private Boat)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Life Jacket + Snorkelling Gear + Private Boat Transfer; 4 Snorkelling Points (Manta Bay, Greenbowl Bay, Gamat Bay, Crystal Bay)",
+     "excludes": "Other activities & Personal expenses",
+     "price_lines": [
+      "RM297/pax"
+     ],
+     "catalogs": {
+      "bali-honeymoon-premium": 15,
+      "bali-honeymoon-standard": 15,
+      "bali-standard": 15
+     }
+    },
+    {
+     "id": "dps-k016",
+     "category": "Add on Dinner & Room Decoration",
+     "label": "Romantic Dinner at Bale Udang",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Simple table decoration at Main Dining Area for couple; 3 course Menu includes Appetizer, 2x Main Course, Cake & 2 Drinks",
+     "price_lines": [
+      "Included"
+     ],
+     "catalogs": {
+      "bali-honeymoon-standard": 16
+     }
+    },
+    {
+     "id": "dps-k017",
+     "category": "Add on Dinner & Room Decoration",
+     "label": "Intimate Dinner at Bale Udang",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Table Decoration at Floating Deck area with flower petals decoration; 3 Course Meals includes Appetizer, 2x Main Course, Cake & 2 Drinks; 1 Flower Bouquet",
+     "price_lines": [
+      "RM250/couple"
+     ],
+     "catalogs": {
+      "bali-honeymoon-standard": 17
+     }
+    },
+    {
+     "id": "dps-k018",
+     "category": "Add on Dinner & Room Decoration",
+     "label": "Floating Breakfast at Water Villa",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Additional Floating Basket for Floating Breakfast at Private Pool Villa",
+     "price_lines": [
+      "RM50/couple"
+     ],
+     "catalogs": {
+      "bali-honeymoon-standard": 18
+     }
+    },
+    {
+     "id": "dps-k019",
+     "category": "Add on Dinner & Room Decoration",
+     "label": "Honeymoon Sunset Dinner at Jimbaran",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Table Decoration at Jimbaran Beach with Flower Petals Deco; Welcome Drinks, Main Course (Includes Lobster 300g) and Fruits; Honeymoon/birthday Cake + Singing",
+     "price_lines": [
+      "RM450/couple"
+     ],
+     "catalogs": {
+      "bali-honeymoon-standard": 19
+     }
+    },
+    {
+     "id": "dps-k020",
+     "category": "Add on Dinner & Room Decoration",
+     "label": "Honeymoon Bedroom Decoration for Standard Villa",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Bedroom Flower Petals Decoration; Hand bouquet upon arrival at Standard Villa Only",
+     "price_lines": [
+      "RM150/couple"
+     ],
+     "catalogs": {
+      "bali-honeymoon-standard": 20
+     }
+    },
+    {
+     "id": "dps-k021",
+     "category": "Additional Honeymoon Dinner & Room Decoration",
+     "label": "Romantic Dinner at Bale Udang",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Simple table decoration at Main Dining Area for couple; 3 course Menu includes Appetizer, 2x Main Course, Cake & 2 Drinks",
+     "price_lines": [
+      "RM150/couple"
+     ],
+     "catalogs": {
+      "bali-standard": 16
+     }
+    },
+    {
+     "id": "dps-k022",
+     "category": "Additional Honeymoon Dinner & Room Decoration",
+     "label": "Intimate Dinner at Bale Udang",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Table Decoration at Floating Deck area with flower petals decoration; 3 Course Meals includes Appetizer, 2x Main Course, Cake & 2 Drinks; 1 Flower Bouquet",
+     "price_lines": [
+      "RM250/couple"
+     ],
+     "catalogs": {
+      "bali-standard": 17
+     }
+    },
+    {
+     "id": "dps-k023",
+     "category": "Additional Honeymoon Dinner & Room Decoration",
+     "label": "Floating Breakfast at Water Villa",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Additional Floating Basket for Floating Breakfast at Private Pool Villa",
+     "price_lines": [
+      "RM50/couple"
+     ],
+     "catalogs": {
+      "bali-standard": 18
+     }
+    },
+    {
+     "id": "dps-k024",
+     "category": "Additional Honeymoon Dinner & Room Decoration",
+     "label": "Honeymoon Sunset Dinner at Jimbaran",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Table Decoration at Jimbaran Beach with Flower Petals Deco; Welcome Drinks, Main Course (Includes Lobster 300g) and Fruits; Honeymoon/birthday Cake + Singing",
+     "price_lines": [
+      "RM450/couple"
+     ],
+     "catalogs": {
+      "bali-standard": 19
+     }
+    },
+    {
+     "id": "dps-k025",
+     "category": "Additional Honeymoon Dinner & Room Decoration",
+     "label": "Honeymoon Bedroom Decoration for Asa Bali Villa",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Bedroom Flower Petals Decoration; Hand bouquet upon arrival at Asa Bali Villa",
+     "price_lines": [
+      "RM150/couple"
+     ],
+     "catalogs": {
+      "bali-standard": 20
+     }
     }
    ],
    "catalogs": [
@@ -10769,7 +12671,134 @@
      }
     }
    ],
-   "addons": [],
+   "addons": [
+    {
+     "id": "jog-k001",
+     "category": "Additional Activities",
+     "label": "Jeep Gumuk Pasir",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Medium Route Jeep Ride (4 pax/jeep), Videos and Photos",
+     "excludes": "Meals, Personal expenses",
+     "duration": "2 hours 30 minutes Ride",
+     "price_lines": [
+      "RM157/Jeep"
+     ],
+     "catalogs": {
+      "jogjakarta": 1
+     }
+    },
+    {
+     "id": "jog-k002",
+     "category": "Additional Activities",
+     "label": "ATV Gumuk Pasir",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 ATV (2 pax/ATV)",
+     "excludes": "Meals, Personal expenses",
+     "duration": "1 hour Ride",
+     "price_lines": [
+      "RM100/ATV"
+     ],
+     "catalogs": {
+      "jogjakarta": 2
+     }
+    },
+    {
+     "id": "jog-k003",
+     "category": "Additional Activities",
+     "label": "Gondola Timang Beach",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return Gondola Ride at Timang Beach (1 pax)",
+     "excludes": "Meals, Personal expenses",
+     "duration": "15 minutes",
+     "price_lines": [
+      "RM60/pax"
+     ],
+     "catalogs": {
+      "jogjakarta": 3
+     }
+    },
+    {
+     "id": "jog-k004",
+     "category": "Additional Activities",
+     "label": "Borobudur Temple",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance fee for Temple Ground Area or Structure Area",
+     "excludes": "Meals, Personal expenses, Temple Structure Area",
+     "duration": "1 - 2 hour tour",
+     "price_lines": [
+      "RM130/pax"
+     ],
+     "catalogs": {
+      "jogjakarta": 4
+     }
+    },
+    {
+     "id": "jog-k005",
+     "category": "Additional Activities",
+     "label": "Horse Carriage Ride",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Horse Carriage Ride (max 6 pax/carriage) at Malioboro Area",
+     "excludes": "Meals, Personal expenses",
+     "duration": "30 minutes",
+     "price_lines": [
+      "RM70/carriage"
+     ],
+     "catalogs": {
+      "jogjakarta": 5
+     }
+    },
+    {
+     "id": "jog-k006",
+     "category": "Additional Activities",
+     "label": "Goa Pindul & Cave Tubing",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport to Goa Pindul & Jomblang Cave Tubing Activity",
+     "excludes": "Meals, Personal expenses and Additional Activities",
+     "duration": "2 hours",
+     "price_lines": [
+      "RM75/pax"
+     ],
+     "catalogs": {
+      "jogjakarta": 6
+     }
+    },
+    {
+     "id": "jog-k007",
+     "category": "Additional Activities",
+     "label": "Gamplong Studio Alam",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance ticket to Gamplong Studio Alam",
+     "excludes": "Meals, Personal expenses and Additional Activities",
+     "duration": "1 hour",
+     "price_lines": [
+      "RM10/pax"
+     ],
+     "catalogs": {
+      "jogjakarta": 7
+     }
+    }
+   ],
    "catalogs": [
     "PT JOGJAKARTA 4D3N 2026"
    ]
@@ -11824,6 +13853,74 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "aceh-k001",
+     "category": "Additional Activities",
+     "label": "Ujung Kelindu",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport to Ujung Kelindu (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ],
+     "catalogs": {
+      "aceh": 1
+     }
+    },
+    {
+     "id": "aceh-k002",
+     "category": "Additional Activities",
+     "label": "Pantai Pasir Putih Lhok Mee",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ],
+     "catalogs": {
+      "aceh": 2
+     }
+    },
+    {
+     "id": "aceh-k003",
+     "category": "Additional Activities",
+     "label": "Pantai Lhok Seudu",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ],
+     "catalogs": {
+      "aceh": 3
+     }
+    },
+    {
+     "id": "aceh-k004",
+     "category": "Additional Activities",
+     "label": "Masjid Keuchik Leumik",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ],
+     "catalogs": {
+      "aceh": 4
+     }
     }
    ],
    "catalogs": [
@@ -13408,6 +15505,74 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "acehsbg-k001",
+     "category": "Additional Activities",
+     "label": "Ujung Kelindu",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport to Ujung Kelindu (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ],
+     "catalogs": {
+      "aceh-sabang": 1
+     }
+    },
+    {
+     "id": "acehsbg-k002",
+     "category": "Additional Activities",
+     "label": "Pantai Pasir Putih Lhok Mee",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ],
+     "catalogs": {
+      "aceh-sabang": 2
+     }
+    },
+    {
+     "id": "acehsbg-k003",
+     "category": "Additional Activities",
+     "label": "Pantai Lhok Seudu",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ],
+     "catalogs": {
+      "aceh-sabang": 3
+     }
+    },
+    {
+     "id": "acehsbg-k004",
+     "category": "Additional Activities",
+     "label": "Masjid Keuchik Leumik",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ],
+     "catalogs": {
+      "aceh-sabang": 4
+     }
     }
    ],
    "catalogs": [
@@ -14335,6 +16500,23 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "ltoba-k001",
+     "category": "Additional Activities",
+     "label": "Drone Shooting (Option B only)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Drone, Drone Pilot, Raw Footage, Edited Footage",
+     "duration": "The Whole Trip",
+     "price_lines": [
+      "RM47/pax"
+     ],
+     "catalogs": {
+      "medan-lake-toba": 1
+     }
     }
    ],
    "catalogs": [
@@ -15610,6 +17792,52 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "jbdo-k001",
+     "category": "Add-On",
+     "label": "Zip Bike @ Lodge Maribaya",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM10 ~ RM15"
+     ],
+     "catalogs": {
+      "jakarta-bandung": 1
+     }
+    },
+    {
+     "id": "jbdo-k002",
+     "category": "Add-On",
+     "label": "Rainbow Slide @ Floating Market",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM10 ~ RM15"
+     ],
+     "catalogs": {
+      "jakarta-bandung": 2
+     }
+    },
+    {
+     "id": "jbdo-k003",
+     "category": "Add-On",
+     "label": "Whoosh Train Bandung-Jakarta",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 Way Whoosh Ticket (Economy Seat), Private Transport Pickup & Drop Off Train Station",
+     "price_lines": [
+      "RM157/pax"
+     ],
+     "catalogs": {
+      "jakarta-bandung": 3
+     }
     }
    ],
    "catalogs": [
@@ -16021,6 +18249,118 @@
      "selling": 240.0,
      "per": "pax",
      "notes": "Per PDF — proper triple bed in 4-star"
+    },
+    {
+     "id": "subb-k001",
+     "category": "Additional Activities",
+     "label": "Water Fall Tumpak Sewu, Goa Tetes, Kapas Biru",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Price included transport to Tumpak Sewu",
+     "price_lines": [
+      "RM160 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 1
+     }
+    },
+    {
+     "id": "subb-k002",
+     "category": "Additional Activities",
+     "label": "Local Guide to Tumpak Sewu",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Price for 1 guide for 1-5pax",
+     "price_lines": [
+      "RM150 / guide"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 2
+     }
+    },
+    {
+     "id": "subb-k003",
+     "category": "Additional Activities",
+     "label": "Kawah Ijen Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Price included with local guide & Masker",
+     "price_lines": [
+      "RM150 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 3
+     }
+    },
+    {
+     "id": "subb-k004",
+     "category": "Additional Activities",
+     "label": "Semeru Lava Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Price included with Entrance Fee & Documentation Video/Photo",
+     "price_lines": [
+      "RM150 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 4
+     }
+    },
+    {
+     "id": "subb-k005",
+     "category": "Additional Activities",
+     "label": "ATV Semeru Rental for 1 hour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 ATV max 2 pax",
+     "price_lines": [
+      "RM120 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 5
+     }
+    },
+    {
+     "id": "subb-k006",
+     "category": "Additional Activities",
+     "label": "Panorama Kapas Biru",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Fee Only",
+     "price_lines": [
+      "RM10 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 6
+     }
+    },
+    {
+     "id": "subb-k007",
+     "category": "Additional Activities",
+     "label": "Horse / Pony Ride to Kawah Bromo",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return trip to/from Kawah Bromo",
+     "price_lines": [
+      "RM120 / pax"
+     ],
+     "catalogs": {
+      "surabaya-bromo-malang": 7
+     }
     }
    ],
    "catalogs": [
@@ -21045,6 +23385,103 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "mel-k001",
+     "category": "Add-on Private Day Tour",
+     "label": "Puffing Billy & Dandenong Ranges",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Puffing Billy Steam Train: Belgrave - Lakeside Station (ride iconic heritage steam train), Dandenong/Royal Botanic Garden, Sassafras Village, Skyhigh Lookout (Vehicle Entrance Included)",
+     "excludes": "Puffing Billy Train Ticket",
+     "duration": "Private Transport (8 hours)",
+     "price_lines": [
+      "RM1,500/transport",
+      "Puffing Billy Train Ticket:",
+      "Adult: RM190/pax",
+      "Child: RM95/pax"
+     ],
+     "catalogs": {
+      "melbourne-basic": 1,
+      "melbourne-standard": 2
+     }
+    },
+    {
+     "id": "mel-k002",
+     "category": "Add-on Private Day Tour",
+     "label": "Mornington Peninsula",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Pure Peninsula Honey, Enchanted Garden Adventure (adventure park: garden mazes, tube slides, canopy walk), Red Hill Lavender Farm (seasonal), Sorrento Ocean Beach, Cape Schanck Boardwalk",
+     "excludes": "Enchanted Garden Adventure Ticket",
+     "duration": "Private Transport (8 hours)",
+     "price_lines": [
+      "RM1,600/transport",
+      "Enchanted Garden Adventure Ticket:",
+      "Adult: RM120/pax",
+      "Child: RM90/pax"
+     ],
+     "catalogs": {
+      "melbourne-basic": 2,
+      "melbourne-standard": 3
+     }
+    },
+    {
+     "id": "mel-k003",
+     "category": "Add-on Private Day Tour",
+     "label": "Great Ocean Road",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Aireys Inlet Lighthouse, Great Ocean Road Memorial Arch, Apollo Bay, Maits Rest Rainforest Walk, 12 Apostles, Loch Ard Gorge",
+     "duration": "Private Transport (12 hours)",
+     "price_lines": [
+      "RM2,800/transport"
+     ],
+     "catalogs": {
+      "melbourne-basic": 3
+     }
+    },
+    {
+     "id": "mel-k004",
+     "category": "Add-on Private Day Tour",
+     "label": "Winter Snow Trip",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Mt Buller / Mt Baw Baw (Winter Sports: Skiing, Snowboarding, Tobogganing, etc) OR Lake Mountain (Snow Play, Tobogganing); Vehicle Entrance Ticket & Tyre Snow Chains Included",
+     "duration": "Private Transport (12 hours)",
+     "price_lines": [
+      "RM3,200/transport"
+     ],
+     "catalogs": {
+      "melbourne-basic": 4,
+      "melbourne-standard": 4
+     }
+    },
+    {
+     "id": "mel-k005",
+     "category": "Add-on Private Day Tour",
+     "label": "Half/Full-Day City Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Queen Victoria Market, DFO South Wharf, Flinders Station & Federation Square (Degraves Street & Flinders Lane, Princes Bridge, Hosier Lane), Brighton Beach Bathing Boxes, Shrine of Remembrance",
+     "duration": "Half-Day Private Transport (5 hours) — may only cover half of the tour, customer to choose · Full-Day Private Transport (10 hours)",
+     "price_lines": [
+      "Half-Day: RM800/transport",
+      "Full-Day: RM1,500/transport"
+     ],
+     "catalogs": {
+      "melbourne-standard": 1
+     }
     }
    ],
    "catalogs": [
@@ -21959,6 +24396,104 @@
      "selling": 70.0,
      "per": "pcs",
      "notes": null
+    },
+    {
+     "id": "per-k001",
+     "category": "Additional Activities",
+     "label": "Araluen Tulip Park (Late August to Early October only)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance ticket to Araluen Tulip Park",
+     "excludes": "Lunch onboard or additional activities",
+     "price_lines": [
+      "RM85/pax for Adult (12 years old and above)",
+      "RM65/pax for Children (7 - 11 years old)",
+      "Free for Children 6 years old & below"
+     ],
+     "catalogs": {
+      "perth-premium": 1,
+      "perth-standard": 2
+     }
+    },
+    {
+     "id": "per-k002",
+     "category": "Additional Activities",
+     "label": "Return Ferry Ticket to Rottnest Island",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return Ferry Ticket from Fremantle",
+     "excludes": "Shuttle, Activity at Rottnest & Lunch",
+     "price_lines": [
+      "RM350/pax for Adult (13 years old and above)",
+      "RM250/pax for Children (4 - 12 years old)",
+      "Free for Children 3 years old & below"
+     ],
+     "catalogs": {
+      "perth-premium": 2,
+      "perth-standard": 3
+     }
+    },
+    {
+     "id": "per-k003",
+     "category": "Additional Activities",
+     "label": "Return Shuttle to Rottnest Ferry Terminal",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport pickup & drop off to Rottnest Ferry Terminal",
+     "excludes": "Ferry Ticket & Lunch",
+     "price_lines": [
+      "RM1800/transport",
+      "(Pickup & Drop Off from/to Perth City Area)",
+      "*Transport capacity up to 10 pax"
+     ],
+     "catalogs": {
+      "perth-premium": 3,
+      "perth-standard": 4
+     }
+    },
+    {
+     "id": "per-k004",
+     "category": "Additional Activities",
+     "label": "Mandurah Dolphin & Scenic Canal Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 hour Mandurah Cruise Tour & Scenic View ticket",
+     "excludes": "Lunch onboard or additional activities",
+     "price_lines": [
+      "RM140/pax for Adult (16 years old and above)",
+      "RM90/pax for Youth (3 - 15 years old)",
+      "Free for Child 2 years old & below"
+     ],
+     "catalogs": {
+      "perth-standard": 1
+     }
+    },
+    {
+     "id": "per-k005",
+     "category": "Additional Activities",
+     "label": "Day Tour to Pinnacles Desert",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "10 hours Transport + Driver Guide + Entrance to Pinnacles",
+     "excludes": "Extra hours, midnight hours and meals",
+     "price_lines": [
+      "RM3800/transport",
+      "(Pickup & Drop Off from/to Perth City Area Only)",
+      "*Transport capacity up to 10 pax"
+     ],
+     "catalogs": {
+      "perth-standard": 5
+     }
     }
    ],
    "catalogs": [
@@ -23632,6 +26167,379 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "nsnz-k001",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Whakarewa The Living Maori Village Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Whakarewa Maori Village guided Tour (1 hour)",
+     "excludes": "Maori Dance, Geothermal Tour, Meals",
+     "price_lines": [
+      "Adult: RM150/pax (16 years old & above)",
+      "Child/Youth: RM80/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ],
+     "catalogs": {
+      "nz-north-only": 1
+     }
+    },
+    {
+     "id": "nsnz-k002",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Hobbiton Movie Set Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM320/pax (17 years old and above)",
+      "Youth: RM150/pax (11 - 16 years old)",
+      "Child: FOC (below 10 years old)"
+     ],
+     "catalogs": {
+      "nz-north-only": 2
+     }
+    },
+    {
+     "id": "nsnz-k003",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Agrodome Farm & Animal Show",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Farm show and Experience 350-Acre Farm Tour",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM180/pax (16 years old and above)",
+      "Youth: RM150/pax (3 - 15 years old)",
+      "Child: FOC (below 10 years old)"
+     ],
+     "catalogs": {
+      "nz-north-only": 3
+     }
+    },
+    {
+     "id": "nsnz-k004",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Hamilton Garden",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Enclosed Garden Entry Ticket",
+     "excludes": "Meals, self expenses and Audio Guide",
+     "price_lines": [
+      "Adult: RM65/pax (Free & Easy Self Tour)",
+      "Child: RM25/pax (Free & Easy Self Tour)"
+     ],
+     "catalogs": {
+      "nz-north-only": 4
+     }
+    },
+    {
+     "id": "nsnz-k005",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Skyline Gondola Ride (Taupo)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return Skyline Gondola Ride at Taupo",
+     "excludes": "Luge Ride or additional activities",
+     "price_lines": [
+      "RM180/pax for Adult (15 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-north-only": 5
+     }
+    },
+    {
+     "id": "nsnz-k006",
+     "category": "Additional Tour or Activities in North Island",
+     "label": "Maori Culture Performance at Whakarewa Village",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "30 Minutes shows at 12:30pm Daily",
+     "excludes": "Guided Village Tour, Meals and Additional Tour",
+     "price_lines": [
+      "Adult: RM95/pax (16 years old & above)",
+      "Child/Youth: RM60/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ],
+     "catalogs": {
+      "nz-north-only": 6
+     }
+    },
+    {
+     "id": "nsnz-k007",
+     "category": "Additional Tour or Activities",
+     "label": "Whakarewa The Living Maori Village Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Whakarewa Maori Village guided Tour (1 hour)",
+     "excludes": "Maori Dance, Geothermal Tour, Meals",
+     "price_lines": [
+      "Adult: RM150/pax (16 years old & above)",
+      "Child/Youth: RM80/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ],
+     "catalogs": {
+      "nz-north-south": 1,
+      "nz-north-south-apartment": 1,
+      "nz-north-south-standard": 1
+     }
+    },
+    {
+     "id": "nsnz-k008",
+     "category": "Additional Tour or Activities",
+     "label": "Hobbiton Movie Set Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM320/pax (17 years old and above)",
+      "Youth: RM150/pax (11 - 16 years old)",
+      "Child: FOC (below 10 years old)"
+     ],
+     "catalogs": {
+      "nz-north-south": 2,
+      "nz-north-south-apartment": 2,
+      "nz-north-south-standard": 2
+     }
+    },
+    {
+     "id": "nsnz-k009",
+     "category": "Additional Tour or Activities",
+     "label": "Agrodome Farm & Animal Show",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Farm show and Experience 350-Acre Farm Tour",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM180/pax (16 years old and above)",
+      "Youth: RM150/pax (3 - 15 years old)",
+      "Child: FOC (below 10 years old)"
+     ],
+     "catalogs": {
+      "nz-north-south": 3,
+      "nz-north-south-apartment": 3,
+      "nz-north-south-standard": 3
+     }
+    },
+    {
+     "id": "nsnz-k010",
+     "category": "Additional Tour or Activities",
+     "label": "Hamilton Garden",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Enclosed Garden Entry Ticket",
+     "excludes": "Meals, self expenses and Audio Guide",
+     "price_lines": [
+      "Adult: RM65/pax (Free & Easy Self Tour)",
+      "Child: RM25/pax (Free & Easy Self Tour)"
+     ],
+     "catalogs": {
+      "nz-north-south": 4,
+      "nz-north-south-apartment": 4,
+      "nz-north-south-standard": 4
+     }
+    },
+    {
+     "id": "nsnz-k011",
+     "category": "Additional Tour or Activities",
+     "label": "Skyline Gondola Ride (Queenstown)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return Skyline Gondola Ride at Queenstown City",
+     "excludes": "Luge Ride or additional activities",
+     "price_lines": [
+      "RM180/pax for Adult (15 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-north-south": 5,
+      "nz-north-south-apartment": 5,
+      "nz-north-south-standard": 5
+     }
+    },
+    {
+     "id": "nsnz-k012",
+     "category": "Additional Tour or Activities",
+     "label": "Milford Sound Nature Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Milford Sound Cruise Ticket Only",
+     "excludes": "Meals on board and Coach Transfer",
+     "price_lines": [
+      "RM450/pax for Adult (15 years old and above)",
+      "RM250/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-north-south": 6,
+      "nz-north-south-apartment": 6,
+      "nz-north-south-standard": 6
+     }
+    },
+    {
+     "id": "nsnz-k013",
+     "category": "Additional Tour or Activities",
+     "label": "Milford Sound Coach + Nature Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Milford Sound Coach + Nature Cruise",
+     "excludes": "Meals on board and Additional Tour",
+     "price_lines": [
+      "RM650/pax depart from Queenstown (depart 6:20am)",
+      "RM550/pax depart from Te Anau (depart 9:30am)"
+     ],
+     "catalogs": {
+      "nz-north-south": 7,
+      "nz-north-south-apartment": 7,
+      "nz-north-south-standard": 7
+     }
+    },
+    {
+     "id": "nsnz-k014",
+     "category": "Additional Tour or Activities",
+     "label": "Maori Culture Performance at Whakarewa Village",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "30 Minutes shows at 12:30pm Daily",
+     "excludes": "Guided Village Tour, Meals and Additional Tour",
+     "price_lines": [
+      "Adult: RM95/pax (16 years old & above)",
+      "Child/Youth: RM60/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ],
+     "catalogs": {
+      "nz-north-south": 8,
+      "nz-north-south-apartment": 8,
+      "nz-north-south-standard": 8
+     }
+    },
+    {
+     "id": "nsnz-k015",
+     "category": "Additional Activities",
+     "label": "Skyline Gondola Ride (Queenstown)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Return Skyline Gondola Ride at Queenstown City",
+     "excludes": "Luge Ride or additional activities",
+     "price_lines": [
+      "RM180/pax for Adult (15 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-south-only": 1
+     }
+    },
+    {
+     "id": "nsnz-k016",
+     "category": "Additional Activities",
+     "label": "Milford Sound Nature Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Milford Sound Cruise Ticket Only",
+     "excludes": "Meals on board and Coach Transfer",
+     "price_lines": [
+      "RM450/pax for Adult (15 years old and above)",
+      "RM250/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-south-only": 2
+     }
+    },
+    {
+     "id": "nsnz-k017",
+     "category": "Additional Activities",
+     "label": "Milford Sound Coach + Nature Cruise",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Milford Sound Coach + Nature Cruise",
+     "excludes": "Meals on board and Additional Tour",
+     "price_lines": [
+      "RM650/pax depart from Queenstown (depart 6:20am)",
+      "RM550/pax depart from Te Anau (depart 9:30am)"
+     ],
+     "catalogs": {
+      "nz-south-only": 3
+     }
+    },
+    {
+     "id": "nsnz-k018",
+     "category": "Additional Activities",
+     "label": "Shootover Jet Queenstown",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Individual Pass for 25 minutes Ride",
+     "excludes": "Meals on board and Additional Tour",
+     "price_lines": [
+      "RM480/pax for Adult (16 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-south-only": 4
+     }
+    },
+    {
+     "id": "nsnz-k019",
+     "category": "Additional Activities",
+     "label": "Fruit Picking at Jackson's Orchard in Cromwell",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Orchard Guided Tour for 45 minutes",
+     "excludes": "Meals on board and Additional Fruits Purchased",
+     "price_lines": [
+      "RM480/pax for Adult (16 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ],
+     "catalogs": {
+      "nz-south-only": 5
+     }
     }
    ],
    "catalogs": [
@@ -27787,6 +30695,230 @@
      "selling": 70.0,
      "per": "pcs",
      "notes": null
+    },
+    {
+     "id": "mle-k001",
+     "category": "Add-ons (ICOM Hotels)",
+     "label": "Vaavu Atoll Shipwreck (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
+     "price_lines": [
+      "RM350/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 1
+     }
+    },
+    {
+     "id": "mle-k002",
+     "category": "Add-ons (ICOM Hotels)",
+     "label": "Whale Shark Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
+     "price_lines": [
+      "RM500/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 2
+     }
+    },
+    {
+     "id": "mle-k003",
+     "category": "Add-ons (ICOM Hotels)",
+     "label": "Private Island Excursion (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Adaaran Prestige Vadoo or Centara Rasfushi",
+     "price_lines": [
+      "RM800/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 3
+     }
+    },
+    {
+     "id": "mle-k004",
+     "category": "Add-ons (Velana Hotels)",
+     "label": "Fish Tank Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Dolphin Sightseeing, Reef Snorkelling, Fish Tank Snorkelling, Lunch on Sand Bank, Gulhi Island Hopping",
+     "price_lines": [
+      "RM350/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 4
+     }
+    },
+    {
+     "id": "mle-k005",
+     "category": "Add-ons (Velana Hotels)",
+     "label": "Whale Shark Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
+     "price_lines": [
+      "RM500/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 5
+     }
+    },
+    {
+     "id": "mle-k006",
+     "category": "Add-ons (Velana Hotels)",
+     "label": "Real Break Tour (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
+     "price_lines": [
+      "RM350/pax"
+     ],
+     "catalogs": {
+      "maldives-basic": 6
+     }
+    },
+    {
+     "id": "mle-k007",
+     "category": "Add-ons (Kaani Hotels)",
+     "label": "Full Day Excursion Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling & Swimming at famous spot, Lunch on Sand bank, Dolphin Sightseeing",
+     "price_lines": [
+      "RM250"
+     ],
+     "catalogs": {
+      "maldives-standard": 1
+     }
+    },
+    {
+     "id": "mle-k008",
+     "category": "Add-ons (Kaani Hotels)",
+     "label": "Real Break Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling with Nurse Shark, Ship Wreck Point, Island Hopping, Lunch on Sand Bank",
+     "price_lines": [
+      "RM350"
+     ],
+     "catalogs": {
+      "maldives-standard": 2
+     }
+    },
+    {
+     "id": "mle-k009",
+     "category": "Add-ons (Kaani Hotels)",
+     "label": "Whale Shark Trip (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point",
+     "price_lines": [
+      "RM500"
+     ],
+     "catalogs": {
+      "maldives-standard": 3
+     }
+    },
+    {
+     "id": "mle-k010",
+     "category": "Add-ons (Kaani Hotels)",
+     "label": "Private Island Excursion (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Malahini Kuda Bandos",
+     "price_lines": [
+      "RM800"
+     ],
+     "catalogs": {
+      "maldives-standard": 4
+     }
+    },
+    {
+     "id": "mle-k011",
+     "category": "Add-ons (Arena Hotels)",
+     "label": "Full Day Adventure (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Housereef snorkelling at famous spot, Island Hopping - Gulhi & Guraidhoo, Lunch @ Sand bank, Dolphin Sightseeing",
+     "price_lines": [
+      "RM320"
+     ],
+     "catalogs": {
+      "maldives-standard": 5
+     }
+    },
+    {
+     "id": "mle-k012",
+     "category": "Add-ons (Arena Hotels)",
+     "label": "Shark Bay Snorkelling (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling with Nurse Shark, Manta Rays Point, Lunch @ Sand Bank, Dolphin Sightseeing",
+     "price_lines": [
+      "RM270"
+     ],
+     "catalogs": {
+      "maldives-standard": 6
+     }
+    },
+    {
+     "id": "mle-k013",
+     "category": "Add-ons (Arena Hotels)",
+     "label": "Whale Shark Expedition (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Island Hopping, Dolphin Cruise, Manta Rays Point, Lunch @ Local Island (Dhigurah)",
+     "price_lines": [
+      "RM520"
+     ],
+     "catalogs": {
+      "maldives-standard": 7
+     }
+    },
+    {
+     "id": "mle-k014",
+     "category": "Add-ons (Arena Hotels)",
+     "label": "Private Island Excursion (shared tour)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Centara Ras Fushi or Adaaran Prestige Vadoo",
+     "price_lines": [
+      "RM800"
+     ],
+     "catalogs": {
+      "maldives-standard": 8
+     }
     }
    ],
    "catalogs": [
@@ -29892,6 +33024,58 @@
      "selling": 40.0,
      "per": "pcs",
      "notes": "Etiqa"
+    },
+    {
+     "id": "bkk-k001",
+     "category": "Add On Tour",
+     "label": "Pattaya Beach Tour",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Pattaya Town, Hard Rock Cafe Pattaya",
+     "duration": "2-3 Hours Journey from Bangkok",
+     "price_lines": [
+      "RM80/pax"
+     ],
+     "catalogs": {
+      "bangkok-standard": 1
+     }
+    },
+    {
+     "id": "bkk-k002",
+     "category": "Add On Tour",
+     "label": "Kanchanaburi + Safari Park Kanchanaburi (Including Ticket)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Safari World Kanchanaburi Admission, River Kwai, Sunflower Field (December - February only, entrance fee not included)",
+     "excludes": "Giraffe Encounter (add RM135/pax)",
+     "duration": "2-3 Hours Journey from Bangkok",
+     "price_lines": [
+      "RM160/pax"
+     ],
+     "catalogs": {
+      "bangkok-standard": 2
+     }
+    },
+    {
+     "id": "bkk-k003",
+     "category": "Add On Tour",
+     "label": "Safari World Bangkok (Including ticket)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Safari Park Admission, Marine Park Admission, Shopping in Bangkok after finishing Safari World tour",
+     "duration": "45 minutes Journey from Bangkok",
+     "price_lines": [
+      "RM150/pax"
+     ],
+     "catalogs": {
+      "bangkok-standard": 3
+     }
     }
    ],
    "catalogs": [
@@ -32556,6 +35740,74 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "phu-k001",
+     "category": "Additional Activities",
+     "label": "Phuket Aquaria",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
+     "price_lines": [
+      "RM237/adult",
+      "RM197/kid"
+     ],
+     "catalogs": {
+      "phuket-basic": 1,
+      "phuket-standard": 1
+     }
+    },
+    {
+     "id": "phu-k002",
+     "category": "Additional Activities",
+     "label": "Andamanda Waterpark Phuket",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
+     "price_lines": [
+      "RM287/adult",
+      "RM247/kid"
+     ],
+     "catalogs": {
+      "phuket-basic": 2,
+      "phuket-standard": 2
+     }
+    },
+    {
+     "id": "phu-k003",
+     "category": "Additional Activities",
+     "label": "Banana Boat Coral Island",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM67 - RM87/person"
+     ],
+     "catalogs": {
+      "phuket-basic": 3,
+      "phuket-standard": 3
+     }
+    },
+    {
+     "id": "phu-k004",
+     "category": "Additional Activities",
+     "label": "Parasailing Coral Island",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM157 - RM197/person"
+     ],
+     "catalogs": {
+      "phuket-basic": 4,
+      "phuket-standard": 4
+     }
     }
    ],
    "catalogs": [
@@ -34325,6 +37577,40 @@
      "selling": 70.0,
      "per": "pcs",
      "notes": "—"
+    },
+    {
+     "id": "kbv-k001",
+     "category": "Additional Activities",
+     "label": "Add on Kayaking Tour at Hong Island (on Day 3)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM70/adult",
+      "RM50/child"
+     ],
+     "catalogs": {
+      "krabi-basic": 1
+     }
+    },
+    {
+     "id": "kbv-k002",
+     "category": "Additional Activities",
+     "label": "Day 2 Upgrade from 4 Islands tour to 7 Islands Sunset Cruise + Plankton (1pm-8pm)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Yawasom Island, Chicken Island, Tup Island, Mor Island, Sunset Dinner at Poda Island, night snorkeling with bioluminescent plankton at Koh Raeng; Land Transfer & Longtail boat (SIC basis), guide, snorkeling equipment, BBQ dinner",
+     "price_lines": [
+      "RM80/person"
+     ],
+     "catalogs": {
+      "krabi-basic": 2,
+      "krabi-honeymoon": 1,
+      "krabi-standard": 1
+     }
     }
    ],
    "catalogs": [
@@ -35536,6 +38822,153 @@
      "selling": 0.0,
      "per": "pax",
      "notes": "(ST) FREE"
+    },
+    {
+     "id": "sws-k001",
+     "category": "Add-on",
+     "label": "Mount Titlis",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Admission to Mt. Titlis from Engelberg, Round trip cable-car tickets including Titlis ROTAIR, Glacier cave, Titlis Cliff walk, IceFlyer chairlift, Titlis Glacier Park including snow tubing (weather permitting)",
+     "duration": "Open all year long · Operation hour: 8.30am - 5pm",
+     "price_lines": [
+      "16 years old and above: RM377",
+      "6-15 years old: RM177",
+      "5 years old and below: FREE"
+     ],
+     "catalogs": {
+      "switzerland-self-tour": 1
+     }
+    },
+    {
+     "id": "sws-k002",
+     "category": "Add-on",
+     "label": "Iseltwald Bridge Fee",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM67"
+     ],
+     "catalogs": {
+      "switzerland-self-tour": 2,
+      "switzerland-standard": 2
+     }
+    },
+    {
+     "id": "sws-k003",
+     "category": "Add-on",
+     "label": "Gornergrat Railways",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Round trip train from Zermatt to Gornergrat, Riffelalp, Riffelberg, Gornergrat",
+     "duration": "Open all year long · Operation hour: 7.30am - 5.40pm",
+     "price_lines": [
+      "16 years old and above: RM387",
+      "6-15 years old: RM287",
+      "5 years old and below: FREE"
+     ],
+     "catalogs": {
+      "switzerland-self-tour": 3
+     }
+    },
+    {
+     "id": "sws-k004",
+     "category": "Add-on",
+     "label": "Matterhorn Glacier Paradise (Zermatt)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Admission to Matterhorn Glacier Paradise in Zermatt, Round trip by Matterhorn Glacier ride (cable-car), Entry to 360-Degree Viewing Platform, Admission to Glacier Ice Palace, Cinema Lounge, The Peak Shop",
+     "price_lines": [
+      "16 years old and above: RM397",
+      "9-15 years old: RM297",
+      "0-8 years old: FREE"
+     ],
+     "catalogs": {
+      "switzerland-self-tour": 4
+     }
+    },
+    {
+     "id": "sws-k005",
+     "category": "Add-on",
+     "label": "Mount Titlis",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Admission to Mt. Titlis from Engelberg, Round trip cable-car tickets including Titlis ROTAIR, Glacier cave, Titlis Cliff walk, IceFlyer chairlift, Titlis Glacier Park including snow tubing (weather permitting)",
+     "duration": "Open all year long · Operation hour: 8.30am - 5pm",
+     "price_lines": [
+      "16 years old and above: RM687",
+      "6-15 years old: RM347",
+      "5 years old and below: FREE"
+     ],
+     "catalogs": {
+      "switzerland-standard": 1
+     }
+    },
+    {
+     "id": "sws-k006",
+     "category": "Add-on",
+     "label": "Gornergrat Railways",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Round trip train from Zermatt to Gornergrat, Riffelalp, Riffelberg, Gornergrat",
+     "duration": "Open all year long · Operation hour: 7.30am - 5.40pm",
+     "price_lines": [
+      "16 years old and above: RM837",
+      "6-15 years old: RM417",
+      "5 years old and below: FREE"
+     ],
+     "catalogs": {
+      "switzerland-standard": 3
+     }
+    },
+    {
+     "id": "sws-k007",
+     "category": "Add-on",
+     "label": "Matterhorn Glacier Paradise (Zermatt)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Admission to Matterhorn Glacier Paradise in Zermatt, Round trip by Matterhorn Glacier ride (cable-car), Entry to 360-Degree Viewing Platform, Admission to Glacier Ice Palace, Cinema Lounge, The Peak Shop",
+     "price_lines": [
+      "16 years old and above: RM687",
+      "9-15 years old: RM347",
+      "0-8 years old: FREE"
+     ],
+     "catalogs": {
+      "switzerland-standard": 4
+     }
+    },
+    {
+     "id": "sws-k008",
+     "category": "Add-on",
+     "label": "Mount Rigi Pass",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Train Rides from Vitznau, Train Rides from Goldau, Cable Car from Weggis, Cable Car from Krabel",
+     "duration": "Open all year long · Operation hour: 8am - 5pm",
+     "price_lines": [
+      "16 years old and above: RM497",
+      "6-15 years old: RM357",
+      "5 years old and below: FREE"
+     ],
+     "catalogs": {
+      "switzerland-standard": 5
+     }
     }
    ],
    "catalogs": [
@@ -37221,6 +40654,108 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "kkk-k001",
+     "category": "Add-on",
+     "label": "Poring Hot Spring + Canopy Walk (Ranau)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM15/pax",
+      "Minimum 1 person to book"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": 1,
+      "sabah-kk-kundasang-4d3n": 1
+     }
+    },
+    {
+     "id": "kkk-k002",
+     "category": "Add-on",
+     "label": "Parasailing",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM90/pax",
+      "Minimum 1 person to book"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": 2,
+      "sabah-kk-kundasang-4d3n": 2
+     }
+    },
+    {
+     "id": "kkk-k003",
+     "category": "Add-on",
+     "label": "Seawalking",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM180/pax",
+      "Minimum 1 person to book"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": 3,
+      "sabah-kk-kundasang-4d3n": 3
+     }
+    },
+    {
+     "id": "kkk-k004",
+     "category": "Add-on",
+     "label": "Banana Boat",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "price_lines": [
+      "RM50/pax",
+      "Minimum 3 persons to book"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": 4,
+      "sabah-kk-kundasang-4d3n": 4
+     }
+    },
+    {
+     "id": "kkk-k005",
+     "category": "Add-on",
+     "label": "Mari-mari Cultural Village (add-on)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport & Lunch/Tea",
+     "price_lines": [
+      "RM160/pax adult",
+      "RM150/pax child"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": 5,
+      "sabah-kk-kundasang-4d3n": 6
+     }
+    },
+    {
+     "id": "kkk-k006",
+     "category": "Add-on",
+     "label": "Mari-mari Cultural Village (swap with island trip)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Transport & Lunch/Tea",
+     "price_lines": [
+      "RM120/transport"
+     ],
+     "catalogs": {
+      "sabah-kk-kundasang-4d3n": 5
+     }
     }
    ],
    "catalogs": [
@@ -39138,6 +42673,195 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "sem-k001",
+     "category": "Additional Activities",
+     "label": "Island Hopping (Full Day)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 x island trip (Set A/B/C), snorkelling equipment, shared boat transfer, 1 x basic lunch box, jetty fee, guide. Meeting point: Seafest Jetty",
+     "duration": "From 8am to 2@3pm",
+     "price_lines": [
+      "RM180/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 1,
+      "semporna-standard": 1
+     }
+    },
+    {
+     "id": "sem-k002",
+     "category": "Additional Activities",
+     "label": "Tawau Shopping Tour (Full Day)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Private transport, driver guide, airport transfer",
+     "duration": "6-8 hours",
+     "price_lines": [
+      "RM120/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 2,
+      "semporna-standard": 2
+     }
+    },
+    {
+     "id": "sem-k003",
+     "category": "Additional Activities",
+     "label": "Timbun Mata Watersport (Half Day)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Parasailing, jet ski, transparent kayak, banana boat, paddle boat, UFO donut, hiking, snorkelling, buffet lunch. Meeting point: Timbun Mata. 2 sessions (choose 1): 8am - 1pm or 1.30pm - 5pm",
+     "duration": "4-5 hours",
+     "price_lines": [
+      "RM300/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 3,
+      "semporna-standard": 3
+     }
+    },
+    {
+     "id": "sem-k004",
+     "category": "Additional Activities",
+     "label": "Seawalking",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Meeting point: Seafest Jetty. Minimum 2 pax. Recommended to do on the first day",
+     "duration": "45 mins",
+     "price_lines": [
+      "RM180/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 4,
+      "semporna-standard": 4
+     }
+    },
+    {
+     "id": "sem-k005",
+     "category": "Additional Activities",
+     "label": "Discovery Scuba Diving",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Diving equipment, 2 x dives, dive master. Recommended to do on the first day",
+     "price_lines": [
+      "RM280/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 5,
+      "semporna-standard": 5
+     }
+    },
+    {
+     "id": "sem-k006",
+     "category": "Additional Activities",
+     "label": "Fun Dive",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Diving equipment, 3 x dives, dive master. Recommended to do on the first day",
+     "price_lines": [
+      "RM330/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 6,
+      "semporna-standard": 6
+     }
+    },
+    {
+     "id": "sem-k007",
+     "category": "Additional Activities",
+     "label": "Private Car Transfer (Tawau City/Hotel - Semporna)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "1 way transfer (1 - 4 pax maximum)",
+     "price_lines": [
+      "RM160/transport"
+     ],
+     "catalogs": {
+      "semporna-basic": 7,
+      "semporna-standard": 7
+     }
+    },
+    {
+     "id": "sem-k008",
+     "category": "Additional Activities",
+     "label": "Honeymoon Room Deco",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Room decoration (available in water chalets except Lato-Lato)",
+     "price_lines": [
+      "RM350/room"
+     ],
+     "catalogs": {
+      "semporna-basic": 8,
+      "semporna-standard": 9
+     }
+    },
+    {
+     "id": "sem-k009",
+     "category": "Additional Activities",
+     "label": "Candlelight Dinner Only",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Meals + table decoration",
+     "price_lines": [
+      "RM280/pax"
+     ],
+     "catalogs": {
+      "semporna-basic": 9
+     }
+    },
+    {
+     "id": "sem-k010",
+     "category": "Additional Activities",
+     "label": "Regular Size Cake",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "For birthday celebration or candlelight dinner",
+     "price_lines": [
+      "RM120/cake"
+     ],
+     "catalogs": {
+      "semporna-basic": 10,
+      "semporna-standard": 10
+     }
+    },
+    {
+     "id": "sem-k011",
+     "category": "Additional Activities",
+     "label": "Candlelight Dinner",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Meals + table decoration",
+     "price_lines": [
+      "RM280/pax"
+     ],
+     "catalogs": {
+      "semporna-standard": 8
+     }
     }
    ],
    "catalogs": [
@@ -39954,6 +43678,159 @@
      "selling": 70.0,
      "per": "unit",
      "notes": null
+    },
+    {
+     "id": "pht-k001",
+     "category": "Add On Activity",
+     "label": "Return Airport Transfer (Sharing Basis)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "From Kota Bharu Airport - Kuala Besut Jetty; From Kuala Besut Jetty - Kota Bharu Airport",
+     "price_lines": [
+      "RM65/pax"
+     ],
+     "catalogs": {
+      "perhentian-basic": 1,
+      "perhentian-standard": 1
+     }
+    },
+    {
+     "id": "pht-k002",
+     "category": "Add On Activity",
+     "label": "Return Private Boat Transfer (From Jetty Kuala Besut to Resort)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Max 12 pax per private boat",
+     "price_lines": [
+      "RM957/Boat"
+     ],
+     "catalogs": {
+      "perhentian-basic": 2,
+      "perhentian-standard": 2
+     }
+    },
+    {
+     "id": "pht-k003",
+     "category": "Add On Activity",
+     "label": "Private Boat Island Hopping Tour (5 Snorkelling Point)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Max 12 pax per private boat; 5 Snorkelling Point: Shark Point, Fish Point, Nemo Point, Turtle Point, Teluk Keke",
+     "price_lines": [
+      "RM957/Boat"
+     ],
+     "catalogs": {
+      "perhentian-basic": 3,
+      "perhentian-standard": 3
+     }
+    },
+    {
+     "id": "pht-k004",
+     "category": "Add On Activity",
+     "label": "Snorkelling Pulau Rawa",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Sharing boat with other tourist; minimum 4 pax to join this tour",
+     "price_lines": [
+      "RM120/pax"
+     ],
+     "catalogs": {
+      "perhentian-basic": 4,
+      "perhentian-standard": 4
+     }
+    },
+    {
+     "id": "pht-k005",
+     "category": "Add On Activity",
+     "label": "Scuba Diving (DSD)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
+     "price_lines": [
+      "RM300/pax"
+     ],
+     "catalogs": {
+      "perhentian-basic": 5,
+      "perhentian-standard": 5
+     }
+    },
+    {
+     "id": "pht-k006",
+     "category": "Add On Activity",
+     "label": "Scuba Diving (Fun Dive)",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
+     "price_lines": [
+      "RM120/pax"
+     ],
+     "catalogs": {
+      "perhentian-basic": 6,
+      "perhentian-standard": 6
+     }
+    },
+    {
+     "id": "pht-k007",
+     "category": "Add On Activity",
+     "label": "Honeymoon Package Mimpi Resort Perhentian",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM600/couple"
+     ],
+     "catalogs": {
+      "perhentian-basic": 7,
+      "perhentian-standard": 7
+     }
+    },
+    {
+     "id": "pht-k008",
+     "category": "Add On Activity",
+     "label": "Honeymoon Package Shari-la Resort Perhentian",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM280/couple"
+     ],
+     "catalogs": {
+      "perhentian-basic": 8,
+      "perhentian-standard": 8
+     }
+    },
+    {
+     "id": "pht-k009",
+     "category": "Add On Activity",
+     "label": "Honeymoon Package Ombak Resort Perhentian",
+     "per": "",
+     "cost": null,
+     "selling": null,
+     "notes": null,
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM380/couple"
+     ],
+     "catalogs": {
+      "perhentian-basic": 9,
+      "perhentian-standard": 9
+     }
     }
    ],
    "catalogs": [

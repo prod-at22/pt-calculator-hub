@@ -186,79 +186,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Jeep Gumuk Pasir",
-          "includes": "Medium Route Jeep Ride (4 pax/jeep), Videos and Photos",
-          "excludes": "Meals, Personal expenses",
-          "duration": "2 hours 30 minutes Ride",
-          "price_lines": [
-            "RM157/Jeep"
-          ]
-        },
-        {
-          "name": "ATV Gumuk Pasir",
-          "includes": "1 ATV (2 pax/ATV)",
-          "excludes": "Meals, Personal expenses",
-          "duration": "1 hour Ride",
-          "price_lines": [
-            "RM100/ATV"
-          ]
-        },
-        {
-          "name": "Gondola Timang Beach",
-          "includes": "Return Gondola Ride at Timang Beach (1 pax)",
-          "excludes": "Meals, Personal expenses",
-          "duration": "15 minutes",
-          "price_lines": [
-            "RM60/pax"
-          ]
-        },
-        {
-          "name": "Borobudur Temple",
-          "includes": "Entrance fee for Temple Ground Area or Structure Area",
-          "excludes": "Meals, Personal expenses, Temple Structure Area",
-          "duration": "1 - 2 hour tour",
-          "price_lines": [
-            "RM130/pax"
-          ]
-        },
-        {
-          "name": "Horse Carriage Ride",
-          "includes": "Horse Carriage Ride (max 6 pax/carriage) at Malioboro Area",
-          "excludes": "Meals, Personal expenses",
-          "duration": "30 minutes",
-          "price_lines": [
-            "RM70/carriage"
-          ]
-        },
-        {
-          "name": "Goa Pindul & Cave Tubing",
-          "includes": "Transport to Goa Pindul & Jomblang Cave Tubing Activity",
-          "excludes": "Meals, Personal expenses and Additional Activities",
-          "duration": "2 hours",
-          "price_lines": [
-            "RM75/pax"
-          ]
-        },
-        {
-          "name": "Gamplong Studio Alam",
-          "includes": "Entrance ticket to Gamplong Studio Alam",
-          "excludes": "Meals, Personal expenses and Additional Activities",
-          "duration": "1 hour",
-          "price_lines": [
-            "RM10/pax"
-          ]
-        }
-      ],
-      "notes": [
-        "Kindly note that all listed entrance fees and activity prices include applicable service charges and currency exchange differences, and may differ from Indonesia Ground handling (Local Rates)."
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "footprints",
@@ -316,5 +243,13 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities",
+      "notes": [
+        "Kindly note that all listed entrance fees and activity prices include applicable service charges and currency exchange differences, and may differ from Indonesia Ground handling (Local Rates)."
+      ]
+    }
+  ],
+  "hub_version": 30
 }

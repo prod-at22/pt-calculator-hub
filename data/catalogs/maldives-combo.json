@@ -217,5 +217,6 @@
     }
   ],
   "product": "PAKEJ",
-  "price_version": 30
+  "addon_groups": [],
+  "hub_version": 30
 }

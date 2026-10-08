@@ -220,76 +220,11 @@
       }
     ]
   },
-  "addons": [
+  "product": "PAKEJ",
+  "addon_groups": [
     {
-      "title": "Add On Activity",
-      "entries": [
-        {
-          "name": "Return Airport Transfer (Sharing Basis)",
-          "includes": "From Kota Bharu Airport - Kuala Besut Jetty; From Kuala Besut Jetty - Kota Bharu Airport",
-          "price_lines": [
-            "RM65/pax"
-          ]
-        },
-        {
-          "name": "Return Private Boat Transfer (From Jetty Kuala Besut to Resort)",
-          "includes": "Max 12 pax per private boat",
-          "price_lines": [
-            "RM957/Boat"
-          ]
-        },
-        {
-          "name": "Private Boat Island Hopping Tour (5 Snorkelling Point)",
-          "includes": "Max 12 pax per private boat; 5 Snorkelling Point: Shark Point, Fish Point, Nemo Point, Turtle Point, Teluk Keke",
-          "price_lines": [
-            "RM957/Boat"
-          ]
-        },
-        {
-          "name": "Snorkelling Pulau Rawa",
-          "includes": "Sharing boat with other tourist; minimum 4 pax to join this tour",
-          "price_lines": [
-            "RM120/pax"
-          ]
-        },
-        {
-          "name": "Scuba Diving (DSD)",
-          "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
-          "price_lines": [
-            "RM300/pax"
-          ]
-        },
-        {
-          "name": "Scuba Diving (Fun Dive)",
-          "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
-          "price_lines": [
-            "RM120/pax"
-          ]
-        },
-        {
-          "name": "Honeymoon Package Mimpi Resort Perhentian",
-          "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
-          "price_lines": [
-            "RM600/couple"
-          ]
-        },
-        {
-          "name": "Honeymoon Package Shari-la Resort Perhentian",
-          "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
-          "price_lines": [
-            "RM280/couple"
-          ]
-        },
-        {
-          "name": "Honeymoon Package Ombak Resort Perhentian",
-          "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
-          "price_lines": [
-            "RM380/couple"
-          ]
-        }
-      ]
+      "title": "Add On Activity"
     }
   ],
-  "product": "PAKEJ",
-  "price_version": 30
+  "hub_version": 30
 }

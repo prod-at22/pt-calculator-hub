@@ -219,254 +219,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add On Accommodation",
-      "entries": [
-        {
-          "name": "Tokyo: Apartment / 3 Star Hotel",
-          "price_lines": [
-            "RM300/Night/Pax"
-          ]
-        },
-        {
-          "name": "Osaka: Apartment / 3 Star Hotel",
-          "price_lines": [
-            "RM300/Night/Pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Add On Tokyo — Upgrade to Private Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,097",
-            "3 pax: RM797",
-            "4 pax: RM597",
-            "5 - 9 pax: RM497",
-            "10 - 12 pax: RM397"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,197",
-            "3 pax: RM797",
-            "4 pax: RM697",
-            "5 - 7 pax: RM597",
-            "8 - 10 pax: RM497",
-            "11 - 12 pax: RM397"
-          ]
-        }
-      ],
-      "notes": [
-        "*Can arrange to go to halal Restaurant in Tokyo."
-      ]
-    },
-    {
-      "title": "Add On Tokyo — Public Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM697",
-            "3 pax: RM597",
-            "4 pax: RM497",
-            "5 - 9 pax: RM397",
-            "10 - 12 pax: RM297",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,197",
-            "3 - 4 pax: RM797",
-            "5 - 9 pax: RM697",
-            "10 - 12 pax: RM597",
-            "*Price per pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Add On Tokyo — Private Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,000",
-            "8 pax (Hiace): RM4,300",
-            "9 - 12 pax (Hiace): RM4,600"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,000",
-            "8 pax (Hiace): RM4,300",
-            "9 - 12 pax (Hiace): RM4,600"
-          ]
-        }
-      ],
-      "notes": [
-        "Price per trip.",
-        "*Can arrange to go to halal Restaurant in Tokyo."
-      ]
-    },
-    {
-      "title": "Add On Osaka — Upgrade to Private Transport",
-      "entries": [
-        {
-          "name": "Osaka City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 pax: RM597",
-            "4 pax: RM497",
-            "5 - 12 pax: RM397"
-          ]
-        },
-        {
-          "name": "Nara Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 pax: RM697",
-            "4 - 5 pax: RM497",
-            "6 - 12 pax: RM397"
-          ]
-        },
-        {
-          "name": "Kyoto Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM697",
-            "3 pax: RM397",
-            "4 - 12 pax: RM297"
-          ]
-        }
-      ],
-      "notes": [
-        "*Can arrange to go to halal Restaurant."
-      ]
-    },
-    {
-      "title": "Add On Osaka — Public Transport",
-      "entries": [
-        {
-          "name": "Osaka City Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM697",
-            "3 pax: RM597",
-            "4 - 5 pax: RM497",
-            "6 - 11 pax: RM397",
-            "12 pax: RM297",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Nara Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 pax: RM697",
-            "4 pax: RM597",
-            "5 - 6 pax: RM497",
-            "7 - 12 pax: RM397",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Kyoto Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM897",
-            "3 - 4 pax: RM697",
-            "5 - 9 pax: RM597",
-            "10 - 12 pax: RM497",
-            "*Price per pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Add On Osaka — Private Transport",
-      "entries": [
-        {
-          "name": "Osaka City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,000",
-            "8 - 9 pax (Hiace): RM3,400",
-            "10 - 12 pax (Hiace): RM3,800"
-          ]
-        },
-        {
-          "name": "Nara Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,300",
-            "8 - 9 pax (Hiace): RM3,700",
-            "10 - 12 pax (Hiace): RM4,400"
-          ]
-        },
-        {
-          "name": "Kyoto Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,300",
-            "8 - 9 pax (Hiace): RM3,700",
-            "10 - 12 pax (Hiace): RM4,400"
-          ]
-        }
-      ],
-      "notes": [
-        "Price per trip.",
-        "*Can arrange to go to halal Restaurant."
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "luggage",
@@ -548,5 +300,42 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add On Accommodation"
+    },
+    {
+      "title": "Add On Tokyo — Upgrade to Private Transport",
+      "notes": [
+        "*Can arrange to go to halal Restaurant in Tokyo."
+      ]
+    },
+    {
+      "title": "Add On Tokyo — Public Transport"
+    },
+    {
+      "title": "Add On Tokyo — Private Transport",
+      "notes": [
+        "Price per trip.",
+        "*Can arrange to go to halal Restaurant in Tokyo."
+      ]
+    },
+    {
+      "title": "Add On Osaka — Upgrade to Private Transport",
+      "notes": [
+        "*Can arrange to go to halal Restaurant."
+      ]
+    },
+    {
+      "title": "Add On Osaka — Public Transport"
+    },
+    {
+      "title": "Add On Osaka — Private Transport",
+      "notes": [
+        "Price per trip.",
+        "*Can arrange to go to halal Restaurant."
+      ]
+    }
+  ],
+  "hub_version": 30
 }

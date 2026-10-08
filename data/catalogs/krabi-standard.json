@@ -190,20 +190,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Day 2 Upgrade from 4 Islands tour to 7 Islands Sunset Cruise + Plankton (1pm-8pm)",
-          "includes": "Yawasom Island, Chicken Island, Tup Island, Mor Island, Sunset Dinner at Poda Island, night snorkeling with bioluminescent plankton at Koh Raeng; Land Transfer & Longtail boat (SIC basis), guide, snorkeling equipment, BBQ dinner",
-          "price_lines": [
-            "RM80/person"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "umbrella",
@@ -259,5 +245,10 @@
     }
   ],
   "product": "PAKEJ",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

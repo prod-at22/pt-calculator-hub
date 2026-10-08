@@ -183,117 +183,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add On Accommodation",
-      "entries": [
-        {
-          "name": "Apartment / 3 Star Hotel",
-          "price_lines": [
-            "RM300/Night/Pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Upgrade to Private Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,097",
-            "3 pax: RM797",
-            "4 pax: RM597",
-            "5 - 9 pax: RM497",
-            "10 - 12 pax: RM397"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,197",
-            "3 pax: RM797",
-            "4 pax: RM697",
-            "5 - 7 pax: RM597",
-            "8 - 10 pax: RM497",
-            "11 - 12 pax: RM397"
-          ]
-        }
-      ],
-      "notes": [
-        "*Can arrange to go to halal Restaurant in Tokyo."
-      ]
-    },
-    {
-      "title": "Add On Public Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM697",
-            "3 pax: RM597",
-            "4 pax: RM497",
-            "5 - 9 pax: RM397",
-            "10 - 12 pax: RM297",
-            "*Price per pax"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-          "excludes": "Meals, Personal Expenses",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "2 pax: RM1,197",
-            "3 - 4 pax: RM797",
-            "5 - 9 pax: RM697",
-            "10 - 12 pax: RM597",
-            "*Price per pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Add On Private Transport",
-      "entries": [
-        {
-          "name": "Tokyo City Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,000",
-            "8 pax (Hiace): RM4,300",
-            "9 - 12 pax (Hiace): RM4,600"
-          ]
-        },
-        {
-          "name": "Fuji Day Tour",
-          "includes": "Private Transport, Tour Guide (10 hours basis)",
-          "excludes": "Meals, Personal Expenses, Entrance Fee",
-          "duration": "From 9am to 7pm",
-          "price_lines": [
-            "1 - 7 pax (Voxy/Noah): RM3,000",
-            "8 pax (Hiace): RM4,300",
-            "9 - 12 pax (Hiace): RM4,600"
-          ]
-        }
-      ],
-      "notes": [
-        "Price per trip.",
-        "*Can arrange to go to halal Restaurant in Tokyo."
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "train",
@@ -364,5 +253,26 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add On Accommodation"
+    },
+    {
+      "title": "Upgrade to Private Transport",
+      "notes": [
+        "*Can arrange to go to halal Restaurant in Tokyo."
+      ]
+    },
+    {
+      "title": "Add On Public Transport"
+    },
+    {
+      "title": "Add On Private Transport",
+      "notes": [
+        "Price per trip.",
+        "*Can arrange to go to halal Restaurant in Tokyo."
+      ]
+    }
+  ],
+  "hub_version": 30
 }

@@ -215,72 +215,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Swap Activities — Day 2 / Day 3 / Day 4",
-      "entries": [
-        {
-          "name": "Everland Theme Park",
-          "includes": "Private Transportation, Driving Guide, Entrance fees",
-          "excludes": "Meals",
-          "price_lines": [
-            "RM160/pax"
-          ]
-        },
-        {
-          "name": "Vivaldi Ski Park",
-          "includes": "Private Transportation, Driving Guide",
-          "excludes": "Meals, Snowyland (walk-in)",
-          "price_lines": [
-            "2 pax: RM290/pax",
-            "3 pax & above: RM240/pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Hanbok Rental at Gyeongbok Palace",
-          "includes": "Basic Hanbok Attire",
-          "excludes": "Extra equipment for rental",
-          "duration": "4 Hours",
-          "price_lines": [
-            "Adult & Child:",
-            "RM80/person"
-          ]
-        },
-        {
-          "name": "Everland Theme Park Ticket",
-          "includes": "Entrance Ticket",
-          "excludes": "Fast Lane, Meals, Extra Activities",
-          "price_lines": [
-            "Adult & Child:",
-            "RM140/person"
-          ]
-        },
-        {
-          "name": "Lotte World Seoul Ticket",
-          "includes": "Entrance Ticket",
-          "excludes": "Fast Lane, Meals, Extra Activities",
-          "price_lines": [
-            "Adult & Child:",
-            "RM100/person"
-          ]
-        },
-        {
-          "name": "Snowyland",
-          "includes": "Entrance Ticket",
-          "excludes": "Fast Lane, Meals, Extra Activities",
-          "price_lines": [
-            "Adult & Child:",
-            "RM150/person"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "footprints",
@@ -341,5 +275,13 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Swap Activities — Day 2 / Day 3 / Day 4"
+    },
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

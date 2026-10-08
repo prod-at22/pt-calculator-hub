@@ -257,44 +257,10 @@
       "Extra Rollaway bed available for 3 Star Hotel."
     ]
   },
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Ujung Kelindu",
-          "includes": "Transport to Ujung Kelindu (Max. 4 pax)",
-          "excludes": "Meals & Personal expenses",
-          "price_lines": [
-            "RM277/Transport"
-          ]
-        },
-        {
-          "name": "Pantai Pasir Putih Lhok Mee",
-          "includes": "Private Transfer (Max. 4 pax)",
-          "excludes": "Meals & Personal expenses",
-          "price_lines": [
-            "RM277/Transport"
-          ]
-        },
-        {
-          "name": "Pantai Lhok Seudu",
-          "includes": "Private Transfer (Max. 4 pax)",
-          "excludes": "Meals & Personal expenses",
-          "price_lines": [
-            "RM257/Transport"
-          ]
-        },
-        {
-          "name": "Masjid Keuchik Leumik",
-          "includes": "Private Transfer (Max. 4 pax)",
-          "excludes": "Meals & Personal expenses",
-          "price_lines": [
-            "RM257/Transport"
-          ]
-        }
-      ]
+      "title": "Additional Activities"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

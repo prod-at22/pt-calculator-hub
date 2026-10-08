@@ -252,49 +252,10 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Uludag Snow Park (1D1N)",
-          "includes": "Private Transport, Accommodation (Bursa City), Meals and Guide",
-          "excludes": "Ski Activities, Personal Expenses",
-          "price_lines": [
-            "2 pax: RM800/pax",
-            "3 pax: RM600/pax",
-            "Above 4 pax: RM500/pax"
-          ]
-        },
-        {
-          "name": "Bosphorus Dinner Cruise",
-          "includes": "Dinner, cruise along the Bosphorus, entertainment",
-          "excludes": "Alcoholic drinks, personal expenses",
-          "duration": "2-3 hours",
-          "price_lines": [
-            "RM297/pax"
-          ]
-        },
-        {
-          "name": "Topkapi Palace Entrance",
-          "includes": "Main Palace, Harem section, and Hagia Irene Church",
-          "excludes": "Guided tour, food/drinks, and personal expenses",
-          "duration": "3-4 hours (recommended)",
-          "price_lines": [
-            "RM277/pax"
-          ]
-        },
-        {
-          "name": "Whirling Dervishes",
-          "includes": "Entrance, performance show",
-          "excludes": "Other activities, personal expenses",
-          "duration": "1 hour show",
-          "price_lines": [
-            "RM227/pax"
-          ]
-        }
-      ]
+      "title": "Additional Activities"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

@@ -74,29 +74,31 @@ tour operator (/ hotel, season) selectors, then tabs:
 | Tab | For |
 |---|---|
 | **Costing** (default) | table per TO block (same layout as the old R&D sheet): components, Cost/Pax, Catalog, Selling, Margin, %, Total Gross; margin range and lowest margin above it. Rows alternate grey / white, one header colour; margin is green when positive, red when negative |
-| **Packaging Details** | the package's customer catalog (`data/catalogs/<slug>.json`): price table (from Costing), includes / excludes, surcharge, accommodation, itinerary, add-ons, notes, deposit — every field editable in Edit costs |
+| **Itinerary** · **Surcharge** · **What to Expect** · **Policy** | the package's customer catalog, one section per tab (see *Catalogs* below) — every field editable in Edit costs |
 | TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
-| Add-ons | cost / selling / margin; a qty totals the selected add-ons |
+| **Add On** | cost / selling / margin; tick *In catalog* to print an add-on in the package's catalog; a qty totals the selected add-ons |
 | Flags | this destination's cross-check flags |
 | History | versions that touched this destination |
 
 ## Catalogs → catalog-pt-public
 
-Everything a customer catalog prints comes from this repo:
+Each section of a customer catalog comes from its own tab of the destination page (selected package):
 
-- **Package prices = the Costing tab's Catalog Price column** (`data/data.json`). The catalog files hold no
-  amounts — only the table's shape: column labels / ages, the pax bands as printed (`rows[].pax`; a band's
-  price = the Costing price at its first pax), `rows[].na` for pax types a band does not offer, and the infant
-  text with `{price}` (Costing infant price, FOC when 0). A couple catalog prints 2 × the 2-pax adult price.
-  Rules: `catalog-build/hub_prices.py` (public page / PDF) and `resolvePrices()` in `app.js` (Packaging Details).
-  The 3 catalogs without a Costing package (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts.
-- **Everything else** (title, route, itinerary, includes / excludes, surcharge, accommodation, add-ons, notes,
-  deposit) = `data/catalogs/<slug>.json`, edited on the **Packaging Details** tab in Edit costs (lists: one item
-  per line, a sub-item starts with `  - `). Saved with the costs in one commit / one History version.
-- A save that changes a linked package's Catalog Price stamps the catalog's `price_version` and `updated`, so
-  the `mirror.yml` workflow in prod-at22/catalog-pt-public (checks every 10 minutes) rebuilds exactly those
-  catalogs. `catalog-build/build.py` renders HTML + PDF (headless Chrome) the same way catalog-pt-public serves it.
-- Keep every pax in a band at the same Costing price — Flags warns when they differ.
+| Catalog section | Tab | Stored in |
+|---|---|---|
+| Package Price | **Costing** — Catalog Price column (Edit costs also shows the catalog's price-table layout: pax bands, column labels, infant line with `{price}`) | `data.json` pricing (amounts) · catalog `prices` (layout only) |
+| Title, route, duration, basis, valid until, version, highlights, hotels, itinerary, includes / excludes | **Itinerary** | `data/catalogs/<slug>.json` |
+| Surcharge | **Surcharge** | catalog `surcharge` |
+| Additional activities | **Add On** — tick *In catalog* per package; name, includes / excludes / duration and catalog price text per item | `data.json` addons (`catalogs: {slug: position}`, `price_lines`) · catalog `addon_groups` (group order + notes) |
+| What to Expect | **What to Expect** | catalog `expect` |
+| Important Notes, Deposit & Full Payment | **Policy** | catalog `notes`, `deposit` |
+
+All editable in Edit costs and saved together (one commit, one History version). `catalog-build/hub_data.py`
+(public page / PDF) and `resolvePrices()` / `addonCard()` in `app.js` apply the same rules. A save that changes
+a linked package's Catalog Price or the destination's Add On items stamps `hub_version` in those catalogs, so
+`mirror.yml` in prod-at22/catalog-pt-public (every 10 minutes) rebuilds them. Catalogs without a Costing package /
+hub destination (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts (and, for Ho Chi Minh and
+Yunnan 3 Wilayah, their own add-on list). Keep every pax in a band at the same Costing price — Flags warns.
 
 ## FX
 

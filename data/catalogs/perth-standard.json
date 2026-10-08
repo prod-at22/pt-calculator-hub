@@ -299,62 +299,10 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Mandurah Dolphin & Scenic Canal Cruise",
-          "includes": "1 hour Mandurah Cruise Tour & Scenic View ticket",
-          "excludes": "Lunch onboard or additional activities",
-          "price_lines": [
-            "RM140/pax for Adult (16 years old and above)",
-            "RM90/pax for Youth (3 - 15 years old)",
-            "Free for Child 2 years old & below"
-          ]
-        },
-        {
-          "name": "Araluen Tulip Park (Late August to Early October only)",
-          "includes": "Entrance ticket to Araluen Tulip Park",
-          "excludes": "Lunch onboard or additional activities",
-          "price_lines": [
-            "RM85/pax for Adult (12 years old and above)",
-            "RM65/pax for Children (7 - 11 years old)",
-            "Free for Children 6 years old & below"
-          ]
-        },
-        {
-          "name": "Return Ferry Ticket to Rottnest Island",
-          "includes": "Return Ferry Ticket from Fremantle",
-          "excludes": "Shuttle, Activity at Rottnest & Lunch",
-          "price_lines": [
-            "RM350/pax for Adult (13 years old and above)",
-            "RM250/pax for Children (4 - 12 years old)",
-            "Free for Children 3 years old & below"
-          ]
-        },
-        {
-          "name": "Return Shuttle to Rottnest Ferry Terminal",
-          "includes": "Transport pickup & drop off to Rottnest Ferry Terminal",
-          "excludes": "Ferry Ticket & Lunch",
-          "price_lines": [
-            "RM1800/transport",
-            "(Pickup & Drop Off from/to Perth City Area)",
-            "*Transport capacity up to 10 pax"
-          ]
-        },
-        {
-          "name": "Day Tour to Pinnacles Desert",
-          "includes": "10 hours Transport + Driver Guide + Entrance to Pinnacles",
-          "excludes": "Extra hours, midnight hours and meals",
-          "price_lines": [
-            "RM3800/transport",
-            "(Pickup & Drop Off from/to Perth City Area Only)",
-            "*Transport capacity up to 10 pax"
-          ]
-        }
-      ]
+      "title": "Additional Activities"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

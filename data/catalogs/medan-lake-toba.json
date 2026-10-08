@@ -306,20 +306,10 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Drone Shooting (Option B only)",
-          "includes": "Drone, Drone Pilot, Raw Footage, Edited Footage",
-          "duration": "The Whole Trip",
-          "price_lines": [
-            "RM47/pax"
-          ]
-        }
-      ]
+      "title": "Additional Activities"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

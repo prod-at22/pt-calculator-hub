@@ -179,49 +179,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add-on",
-      "entries": [
-        {
-          "name": "Poring Hot Spring + Canopy Walk (Ranau)",
-          "price_lines": [
-            "RM15/pax",
-            "Minimum 1 person to book"
-          ]
-        },
-        {
-          "name": "Parasailing",
-          "price_lines": [
-            "RM90/pax",
-            "Minimum 1 person to book"
-          ]
-        },
-        {
-          "name": "Seawalking",
-          "price_lines": [
-            "RM180/pax",
-            "Minimum 1 person to book"
-          ]
-        },
-        {
-          "name": "Banana Boat",
-          "price_lines": [
-            "RM50/pax",
-            "Minimum 3 persons to book"
-          ]
-        },
-        {
-          "name": "Mari-mari Cultural Village (add-on)",
-          "includes": "Transport & Lunch/Tea",
-          "price_lines": [
-            "RM160/pax adult",
-            "RM150/pax child"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "payment",
@@ -281,5 +238,10 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add-on"
+    }
+  ],
+  "hub_version": 30
 }

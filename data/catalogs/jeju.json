@@ -213,55 +213,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add-on Private Transport",
-      "entries": [
-        {
-          "name": "Airport Transfer — Incheon Airport ↔ Gimpo Airport",
-          "includes": "Private Airport Transfer, Driver Only",
-          "excludes": "Entrance Ticket, Meals",
-          "price_lines": [
-            "1-6 pax: RM360/way",
-            "7-9 pax: RM700/way"
-          ]
-        },
-        {
-          "name": "Domestic Flight — Seoul to Jeju",
-          "includes": "1 way Domestic Flight Ticket, 15kg Checked-in Luggage, 7kg Hand Carry",
-          "excludes": "Entrance Ticket, Meals",
-          "price_lines": [
-            "RM300",
-            "Per Way/Pax"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Udo Island Ferry Ticket",
-          "includes": "2-way Udo Island Ferry Ticket",
-          "excludes": "Activities",
-          "price_lines": [
-            "Adult & Child:",
-            "RM50/person"
-          ]
-        },
-        {
-          "name": "Hanbok Rental at Songeup Folk Village",
-          "includes": "Basic Hanbok Attire",
-          "excludes": "Extra equipment for rental",
-          "duration": "4 Hours",
-          "price_lines": [
-            "Adult & Child:",
-            "RM80/person"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "footprints",
@@ -322,5 +273,13 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add-on Private Transport"
+    },
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

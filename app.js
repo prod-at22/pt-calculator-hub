@@ -21,7 +21,9 @@ let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["catalog", "Packaging Details"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
+const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
+// each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
+const CAT_TABS = ["itinerary", "surcharge", "expect", "policy"];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
 
@@ -103,7 +105,7 @@ function applyChanges(obj, changes, reverse = false) {
 }
 // Human label for a change path, resolved against a snapshot.
 function describe(snap, path) {
-  if (path[0] === "catalogs") return "Packaging Details " + path[1] + " › " + path.slice(2).map(x => typeof x === "number" ? "#" + (x + 1) : x).join(" › ");
+  if (path[0] === "catalogs") return "Catalog " + path[1] + " › " + path.slice(2).map(x => typeof x === "number" ? "#" + (x + 1) : x).join(" › ");
   const parts = []; let cur = snap;
   const LBL = { value: "", rates: "Rate", fx: "FX", tables: "Table", packages: "", variants: "TO", pricing: "", rules: "Rule",
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
@@ -404,10 +406,10 @@ function renderMain(d, pkg) {
   const pax = bandPax();
   $("#kpis").innerHTML = "";
   const T = SEL.tab;
-  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + (EDIT && !VIEW ? toRatesCard(d, pkg) : "") + costingByPax(d, pkg, pax);
-  else if (T === "catalog") $("#grid").innerHTML = catalogCard(d, pkg);
+  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + (EDIT && !VIEW ? toRatesCard(d, pkg) : "") + costingByPax(d, pkg, pax) + (EDIT && !VIEW ? catalogTab(d, pkg, "price") : "");
+  else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
-  else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
+  else if (T === "addons") $("#grid").innerHTML = addonCard(d, pkg) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
   else if (T === "history") {
     const es = [...HISTORY.entries].filter(touchesDest).sort((a, b) => b.v - a.v);
@@ -610,25 +612,51 @@ function toRatesCard(d, pkg) {
   }
   return out.join("");
 }
-function addonCard(d) {
-  const list = d.addons || [], DP = ["destinations", d.code];
+// Add On: the destination's add-ons (cost / selling / margin). The "In catalog" tick puts an add-on into the
+// selected package's customer catalog (a.catalogs = {slug: position}); the catalog prints its name, includes /
+// excludes / duration and price text (price_lines), grouped by category in the catalog's addon_groups order.
+function addonCard(d, pkg) {
+  const list = d.addons || [], DP = ["destinations", d.code], E = EDIT && !VIEW;
   if (!list.length) return "";
+  const slugs = (pkg && catalogSlugs(pkg, d)) || [];
   const t = addonTotals(d), tm = t.sell - t.cost;
   const cats = [...new Set(list.map(a => a.category || "Other"))];
+  const lineTxt = a => (a || []).join("\n");
+  const catText = a => {
+    if (E) return `<div class="ao-cat">${["includes", "excludes", "duration"].map(k => `<label>${k.charAt(0).toUpperCase() + k.slice(1)}${ed([...DP, "addons", a.id, k], a[k] || "", { text: true })}</label>`).join("")}
+      <label>Catalog price text<textarea class="ed" data-path="${esc(JSON.stringify([...DP, "addons", a.id, "price_lines"]))}" data-kind="lines" rows="${Math.max(1, (a.price_lines || []).length)}">${esc(lineTxt(a.price_lines))}</textarea></label></div>`;
+    const bits = [a.includes && "Includes: " + a.includes, a.excludes && "Excludes: " + a.excludes, a.duration && "Duration: " + a.duration].filter(Boolean);
+    return bits.length || (a.price_lines || []).length ? `<div class="muted small">${bits.map(esc).join("<br>")}${(a.price_lines || []).length ? `<div class="ao-price">${a.price_lines.map(esc).join(" · ")}</div>` : ""}</div>` : "";
+  };
+  const tick = (a, sl) => `<td class="c"><input type="checkbox" class="aotick" data-tick="${esc(JSON.stringify({ code: d.code, id: a.id, slug: sl }))}"${a.catalogs && sl in a.catalogs ? " checked" : ""}${E ? "" : " disabled"} title="${esc(sl)}"></td>`;
   const row = a => {
     const c = num(a.cost) ? a.cost : NaN, sv = num(a.selling) ? a.selling : NaN, m = sv - c, p = num(m) && sv ? m / Math.abs(sv) : NaN;
     const q = +SEL.addonQty[a.id] || 0;
-    return `<tr${q ? ' class="cur"' : ""}><td style="white-space:normal;min-width:200px">${esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}</td><td class="l muted small">${esc(a.per || "")}</td>
+    return `<tr${q ? ' class="cur"' : ""}>${slugs.map(sl => tick(a, sl)).join("")}<td style="white-space:normal;min-width:240px">${esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}${catText(a)}</td><td class="l muted small">${esc(a.per || "")}</td>
       <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost yet — add it in Edit costs">cost?</span>' })}</td>
       <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
       <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
       <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td></tr>`;
   };
-  return `<div class="card full" id="addons"><h2>Add-ons <span class="sub">${list.length} items · enter a qty to total the selected add-ons (not saved)</span></h2>
-    <div class="scroll" style="max-height:520px;overflow-y:auto"><table><thead><tr><th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
-    ${cats.map(cat => `<tr class="cat"><td colspan="7">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
-    ${t.n ? `<tr class="total"><td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
-    </tbody></table></div></div>`;
+  const nTick = sl => list.filter(a => a.catalogs && sl in a.catalogs).length;
+  const head = slugs.map(sl => `<th class="c" title="${esc(sl)}">In catalog<div class="muted small">${esc(sl)}</div></th>`).join("");
+  const cols = 7 + slugs.length;
+  // per catalog: group order + group notes (addon_groups), edited in place
+  const groups = slugs.map(sl => {
+    const c0 = CAT.docs[sl]; if (!c0) return "";
+    const c = E ? (CAT.edit[sl] ||= clone(c0)) : c0, gs = c.addon_groups || [];
+    if (!gs.length && !E) return "";
+    const cp = path => esc(JSON.stringify([sl, ...path]));
+    return `<div class="cd-note"><b>${esc(sl)}</b> — catalog groups (order as printed)${gs.map((g, i) => E
+      ? `<div class="ao-grp"><input class="ed txt cat" data-cpath="${cp(["addon_groups", i, "title"])}" value="${esc(g.title)}"><textarea class="ed cat" data-cpath="${cp(["addon_groups", i, "notes"])}" data-ckind="lines" rows="1" placeholder="group notes (one per line)">${esc(catLines(g.notes))}</textarea></div>`
+      : `<div>${i + 1}. ${esc(g.title)}${g.notes && g.notes.length ? ` <span class="muted">— ${g.notes.map(esc).join(" · ")}</span>` : ""}</div>`).join("")}
+      <div class="muted small">A ticked add-on prints under the group with the same name as its category; a new category is added at the end.</div></div>`;
+  }).join("");
+  return `<div class="card full" id="addons"><h2>Add On <span class="sub">${list.length} items${slugs.map(sl => ` · ${nTick(sl)} in ${esc(sl)}`).join("")} · tick = include in the catalog${E ? "" : " (Edit costs to change)"} · qty totals the selected add-ons (not saved)</span></h2>
+    <div class="scroll" style="max-height:620px;overflow-y:auto"><table><thead><tr>${head}<th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
+    ${cats.map(cat => `<tr class="cat"><td colspan="${cols}">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
+    ${t.n ? `<tr class="total">${slugs.map(() => "<td></td>").join("")}<td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
+    </tbody></table></div>${groups ? `<div class="body">${groups}</div>` : ""}</div>`;
 }
 // TO Contract Rate: the TO's contract / rate card files (PDF, Excel, image), kept in the repo
 // under contracts/<code>/ and listed in the destination's `contracts`.
@@ -638,21 +666,12 @@ const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(
    same schema as Catalog PT, which mirrors it to catalog-pt-public. index.json links slug → package. */
 const CAT = { index: null, docs: {}, edit: {}, err: null };   // edit[slug] = unsaved Packaging Details edits
 function loadCatalog(path, set) {
-  fetchJson(PATHS.catalogs + path).then(set).catch(e => { CAT.err = e.message; }).then(() => { if (SEL.tab === "catalog") render(); });
+  fetchJson(PATHS.catalogs + path).then(set).catch(e => { CAT.err = e.message; }).then(() => { if (PAGE_DEST) render(); });
 }
-function catalogCard(d, pkg) {
-  if (!CAT.index) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading catalog…"}</div></div>`; }
-  const slugs = Object.keys(CAT.index).filter(s => CAT.index[s].code === d.code && CAT.index[s].package === pkg.id);
-  if (!slugs.length) return `<div class="card full"><div class="empty">${esc(pkg.label)} has no published catalog.</div></div>`;
-  return slugs.map(slug => {
-    const c = CAT.docs[slug];
-    if (!c) { if (!CAT.err) loadCatalog(slug + ".json", x => { CAT.docs[slug] = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading " + esc(slug) + "…"}</div></div>`; }
-    return catalogDoc(c, CAT.index[slug]);
-  }).join("");
-}
-// Packaging Details: the catalog content for the package (data/catalogs/<slug>.json). Read-only normally;
-// in Edit costs every field is an input (lists: one item per line, a sub-item starts with "  - ").
-// Package prices are never edited here: they come from the Costing tab's Catalog Price column.
+// Catalog content (data/catalogs/<slug>.json) is shown and edited section by section on its own tab:
+// Itinerary (header, hotels, itinerary, includes / excludes), Surcharge, What to Expect, Policy (notes,
+// deposit), Costing (price table layout; the amounts are the Catalog Price column) and Add On (ticks).
+// Read-only normally; in Edit costs every field is an input (lists: one item per line, sub-item "  - ").
 const catLines = a => (a || []).map(it => typeof it === "string" ? it : [it.text, ...(it.sub || []).map(x => "  - " + x)].join("\n")).join("\n");
 function catParseLines(t) {
   const out = [];
@@ -664,7 +683,21 @@ function catParseLines(t) {
   }
   return out;
 }
-function catalogDoc(c0, ix) {
+function catalogSlugs(pkg, d) {
+  if (!CAT.index) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return null; }
+  return Object.keys(CAT.index).filter(sl => CAT.index[sl].code === d.code && CAT.index[sl].package === pkg.id);
+}
+function catalogTab(d, pkg, which) {
+  const slugs = catalogSlugs(pkg, d);
+  if (!slugs) return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading catalog…"}</div></div>`;
+  if (!slugs.length) return which === "price" ? "" : `<div class="card full"><div class="empty">${esc(pkg.label)} has no published catalog.</div></div>`;
+  return slugs.map(sl => {
+    const c = CAT.docs[sl];
+    if (!c) { if (!CAT.err) loadCatalog(sl + ".json", x => { CAT.docs[sl] = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading " + esc(sl) + "…"}</div></div>`; }
+    return catalogPart(c, CAT.index[sl], which);
+  }).join("");
+}
+function catalogPart(c0, ix, which) {
   const sl = c0.slug, E = EDIT && !VIEW;
   const c = E ? (CAT.edit[sl] ||= clone(c0)) : c0;
   const cp = path => esc(JSON.stringify([sl, ...path]));
@@ -674,47 +707,49 @@ function catalogDoc(c0, ix) {
   const ul = (a, path) => E && path ? ct(path, a) : a && a.length ? `<ul class="cd-list">${a.map(li).join("")}</ul>` : '<div class="muted">—</div>';
   const sec = (title, body, sub) => body ? `<section class="cd-sec"><h3>${title}${sub ? ` <span class="muted">${esc(sub)}</span>` : ""}</h3>${body}</section>` : "";
   const notes = (n, path) => E && path ? `<div class="cd-note">${ct(path, n, 2)}</div>` : n && n.length ? `<div class="cd-note">${n.map(esc).join("<br>")}</div>` : "";
-  const P = resolvePrices(c, ix), literal = !catPackage(ix);
-  const price = P.rows && P.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">${ci(["prices", "pax_label"], P.pax_label || (E ? "" : "No. of Pax"), "No. of Pax")}</th>${P.columns.map((x, i) => `<th>${ci(["prices", "columns", i, "label"], x.label)}${x.age || E ? `<span class="cd-age">${ci(["prices", "columns", i, "age"], x.age, "age")}</span>` : ""}</th>`).join("")}</tr></thead>
+  let body = "", title = "";
+  if (which === "price") {
+    const P = resolvePrices(c, ix), literal = !catPackage(ix);
+    title = "Catalog price table";
+    body = P.rows && P.rows.length ? sec("Package Price", `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">${ci(["prices", "pax_label"], P.pax_label || (E ? "" : "No. of Pax"), "No. of Pax")}</th>${P.columns.map((x, i) => `<th>${ci(["prices", "columns", i, "label"], x.label)}${x.age || E ? `<span class="cd-age">${ci(["prices", "columns", i, "age"], x.age, "age")}</span>` : ""}</th>`).join("")}</tr></thead>
       <tbody>${P.rows.map((r, ri) => `<tr><td class="l">${ci(["prices", "rows", ri, "pax"], r.pax)}</td>${r.amounts.map((v, ai) => `<td class="num">${E && literal ? ci(["prices", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
-      ${E ? `<div class="cd-note">Infant: ${ci(["prices", "infant"], (c.prices || {}).infant, "e.g. {price} per pax — {price} = Costing infant price, FOC when 0")}</div>`
-        : P.infant || P.single_supplement ? `<div class="cd-note">${P.infant ? "Infant: " + esc(P.infant) : ""}${P.infant && P.single_supplement ? " · " : ""}${P.single_supplement ? "Single supplement: " + esc(P.single_supplement) : ""}</div>` : ""}${notes(P.notes, ["prices", "notes"])}` : "";
-  const incl = (c.price_blocks || []).map((b, bi) => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes, ["price_blocks", bi, "includes"])}</div><div><h4>Excludes</h4>${ul(b.excludes, ["price_blocks", bi, "excludes"])}</div></div>`).join("");
-  const S = c.surcharge || {};
-  const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map((x, i) => `<th>${ci(["surcharge", "columns", i, "label"], x.label)}${x.period || E ? `<span class="cd-age">${ci(["surcharge", "columns", i, "period"], x.period, "period")}</span>` : ""}</th>`).join("")}</tr></thead>
-      <tbody>${S.rows.map((r, ri) => `<tr><td class="l">${ci(["surcharge", "rows", ri, "type"], r.type)}</td><td class="l">${ci(["surcharge", "rows", ri, "name"], r.name)}${r.similar && !E ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map((v, ai) => `<td>${E ? ci(["surcharge", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
-    + (S.seasons && S.seasons.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">Season</th><th class="l">Travel dates</th><th class="l">Surcharge</th></tr></thead>
-      <tbody>${S.seasons.map((x, i) => `<tr><td class="l"><b>${ci(["surcharge", "seasons", i, "label"], x.label)}</b></td><td class="l">${ci(["surcharge", "seasons", i, "period"], x.period)}</td><td class="l">${ci(["surcharge", "seasons", i, "rate"], x.rate)}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes, S.title || S.rows || S.seasons ? ["surcharge", "notes"] : null);
-  const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map((a, i) => `<div><span class="muted">${ci(["accommodation", i, "city"], a.city)}</span>${a.stars && !E ? ` · ${"★".repeat(a.stars)}` : ""}<br>${ci(["accommodation", i, "name"], a.name)}${a.similar && !E ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
-  const itins = c.itineraries ? c.itineraries.map((x, i) => ({ label: x.label, days: x.days || [], base: ["itineraries", i, "days"] })) : [{ label: null, days: c.itinerary || [], base: ["itinerary"] }];
-  const itin = it => `<div class="scroll"><table class="cd-t cd-itin"><thead><tr><th class="l">Day</th><th class="l">Activities</th><th class="l">Transport</th><th class="l">Meal</th><th class="l">Hotel</th></tr></thead>
+      <div class="cd-note">Infant: ${E ? ci(["prices", "infant"], (c.prices || {}).infant, "e.g. {price} per pax — {price} = Costing infant price, FOC when 0") : esc(P.infant || "—")}</div>${notes(P.notes, ["prices", "notes"])}`,
+      literal ? "as printed (no Costing package yet)" : "amounts = the Catalog Price column above; edit pax bands, column labels and the infant line here") : "";
+  } else if (which === "itinerary") {
+    title = c.title;
+    const head = E ? `<div class="cd-edit-head">${[["title", "Title"], ["duration", "Duration"], ["route", "Route"], ["basis", "Package basis"], ["valid_until", "Valid until"], ["version", "Version"]].map(([k, l]) => `<label>${l}${ci([k], c[k])}</label>`).join("")}</div>
+      ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map((h, i) => ci(["highlights", i, "label"], h.label)).join(" ")}</div>` : ""}`
+      : `${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}`;
+    const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map((a, i) => `<div><span class="muted">${ci(["accommodation", i, "city"], a.city)}</span>${a.stars && !E ? ` · ${"★".repeat(a.stars)}` : ""}<br>${ci(["accommodation", i, "name"], a.name)}${a.similar && !E ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
+    const itins = c.itineraries ? c.itineraries.map((x, i) => ({ label: x.label, days: x.days || [], base: ["itineraries", i, "days"] })) : [{ label: null, days: c.itinerary || [], base: ["itinerary"] }];
+    const itin = it => `<div class="scroll"><table class="cd-t cd-itin"><thead><tr><th class="l">Day</th><th class="l">Activities</th><th class="l">Transport</th><th class="l">Meal</th><th class="l">Hotel</th></tr></thead>
       <tbody>${it.days.map((x, di) => { const p = k => [...it.base, di, k]; return `<tr><td class="l cd-day">${esc(x.day)}</td><td class="l"><b>${ci(p("title"), x.title, "title")}</b>${ul(x.activities, p("activities"))}</td><td class="l">${E ? ci(p("transport"), x.transport) : esc(x.transport || "—")}</td><td class="l">${E ? ci(p("meals"), x.meals) : esc(x.meals || "—")}</td><td class="l">${E ? ci(p("hotel"), x.hotel) : esc(x.hotel || "—")}</td></tr>`; }).join("")}</tbody></table></div>
       ${E ? `<div class="cd-note"><button class="btn" data-catact="addday" data-cpath="${cp(it.base)}">+ Day</button> ${it.days.length ? `<button class="btn danger" data-catact="delday" data-cpath="${cp(it.base)}">− Last day</button>` : ""}</div>` : ""}`;
-  const addons = (c.addons || []).map((g, gi) => sec(ci(["addons", gi, "title"], g.title), `<div class="scroll"><table class="cd-t"><tbody>${(g.entries || []).map((a, ei) => { const p = k => ["addons", gi, "entries", ei, k]; return `<tr><td class="l"><b>${ci(p("name"), a.name)}</b>${["includes", "excludes", "duration"].filter(k => a[k] || (E && a[k] !== undefined)).map(k => `<div class="muted">${k.charAt(0).toUpperCase() + k.slice(1)}: ${ci(p(k), a[k])}</div>`).join("")}</td>
-      <td class="l cd-price">${E ? ct(p("price_lines"), a.price_lines, 2) : (a.price_lines || []).map(esc).join("<br>")}</td></tr>`; }).join("")}</tbody></table></div>${notes(g.notes, ["addons", gi, "notes"])}`)).join("");
-  const expect = c.expect && c.expect.length ? `<div class="cd-acc">${c.expect.map((e, i) => `<div><b>${ci(["expect", i, "title"], e.title)}</b>${e.tag && !E ? ` <span class="pill">${esc(e.tag)}</span>` : ""}<br><span class="muted">${E ? `<textarea class="ed cat" data-cpath="${cp(["expect", i, "body"])}" rows="2">${esc(e.body || "")}</textarea>` : esc(e.body)}</span></div>`).join("")}</div>` : "";
-  const imp = (c.notes || []).map((n, i) => `${n.title || E ? `<h4>${ci(["notes", i, "title"], n.title, "title")}</h4>` : ""}${ul(n.entries, ["notes", i, "entries"])}`).join("");
-  const dep = (c.deposit || []).map((x, i) => `<div><b>${ci(["deposit", i, "figure"], x.figure)}</b> ${ci(["deposit", i, "text"], x.text)}</div>`).join("");
-  const meta = E ? "" : [c.duration, c.route, c.basis, c.valid_until ? "valid until " + c.valid_until : "", c.version, c.updated ? "updated " + c.updated : ""].filter(Boolean).map(esc).join(" · ");
-  const head = E ? `<div class="cd-edit-head">${[["title", "Title"], ["duration", "Duration"], ["route", "Route"], ["basis", "Package basis"], ["valid_until", "Valid until"], ["version", "Version"]].map(([k, l]) => `<label>${l}${ci([k], c[k])}</label>`).join("")}</div>
-      ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map((h, i) => ci(["highlights", i, "label"], h.label)).join(" ")}</div>` : ""}
-      <div class="cd-note">Editing Packaging Details: saved with <b>Save</b> (one version, with the costs). Package prices come from the Costing tab (Catalog Price); the public catalog and PDF rebuild about 10–15 minutes after saving.</div>` : "";
-  return `<div class="card full cd" id="cat-${esc(c.slug)}"><h2>${E ? "Packaging Details · " + esc(c.slug) : esc(c.title)} <span class="sub">${meta}</span>
+    const incl = (c.price_blocks || []).map((b, bi) => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes, ["price_blocks", bi, "includes"])}</div><div><h4>Excludes</h4>${ul(b.excludes, ["price_blocks", bi, "excludes"])}</div></div>`).join("");
+    body = head + sec("Accommodation", acc) + itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + esc(it.label) + ")" : ""), itin(it))).join("") + sec("Price Includes / Excludes", incl);
+  } else if (which === "surcharge") {
+    const S = c.surcharge || {};
+    title = S.title || "Surcharge";
+    const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map((x, i) => `<th>${ci(["surcharge", "columns", i, "label"], x.label)}${x.period || E ? `<span class="cd-age">${ci(["surcharge", "columns", i, "period"], x.period, "period")}</span>` : ""}</th>`).join("")}</tr></thead>
+      <tbody>${S.rows.map((r, ri) => `<tr><td class="l">${ci(["surcharge", "rows", ri, "type"], r.type)}</td><td class="l">${ci(["surcharge", "rows", ri, "name"], r.name)}${r.similar && !E ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map((v, ai) => `<td>${E ? ci(["surcharge", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
+      + (S.seasons && S.seasons.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">Season</th><th class="l">Travel dates</th><th class="l">Surcharge</th></tr></thead>
+      <tbody>${S.seasons.map((x, i) => `<tr><td class="l"><b>${ci(["surcharge", "seasons", i, "label"], x.label)}</b></td><td class="l">${ci(["surcharge", "seasons", i, "period"], x.period)}</td><td class="l">${ci(["surcharge", "seasons", i, "rate"], x.rate)}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes, S.title || S.rows || S.seasons ? ["surcharge", "notes"] : null);
+    body = (E && (S.title || S.rows || S.seasons) ? `<label class="cd-edit-head">Title${ci(["surcharge", "title"], S.title)}</label>` : "") + (sur || '<div class="empty">No surcharge in this catalog.</div>');
+  } else if (which === "expect") {
+    title = "What to Expect";
+    body = c.expect && c.expect.length ? `<div class="cd-acc">${c.expect.map((e, i) => `<div><b>${ci(["expect", i, "title"], e.title)}</b>${e.tag && !E ? ` <span class="pill">${esc(e.tag)}</span>` : ""}<br><span class="muted">${E ? `<textarea class="ed cat" data-cpath="${cp(["expect", i, "body"])}" rows="2">${esc(e.body || "")}</textarea>` : esc(e.body)}</span></div>`).join("")}</div>` : '<div class="empty">No "What to Expect" in this catalog.</div>';
+  } else if (which === "policy") {
+    title = "Policy";
+    const imp = (c.notes || []).map((n, i) => `${n.title || E ? `<h4>${ci(["notes", i, "title"], n.title, "title")}</h4>` : ""}${ul(n.entries, ["notes", i, "entries"])}`).join("");
+    const dep = (c.deposit || []).map((x, i) => `<div><b>${ci(["deposit", i, "figure"], x.figure)}</b> ${ci(["deposit", i, "text"], x.text)}</div>`).join("");
+    body = sec("Important Notes", imp) + sec("Deposit & Full Payment", dep);
+  }
+  if (!body) return "";
+  const meta = which === "itinerary" && !E ? [c.duration, c.route, c.basis, c.valid_until ? "valid until " + c.valid_until : "", c.version, c.updated ? "updated " + c.updated : ""].filter(Boolean).map(esc).join(" · ") : esc(sl);
+  return `<div class="card full cd" id="cat-${esc(sl)}${which === "itinerary" ? "" : "-" + which}"><h2>${esc(title)} <span class="sub">${meta}</span>
       <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Public page</a><a class="btn" href="${esc(ix.url.replace(/\.html$/, ".pdf"))}" target="_blank" rel="noopener">PDF</a></span></h2>
-    <div class="body">
-      ${head}
-      ${!E && (c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}
-      ${sec("Package Price", price, literal ? "as printed in the catalog (no Costing package yet)" : "from the Costing tab (Catalog Price)")}
-      ${sec("Price Includes / Excludes", incl)}
-      ${sec(E ? ci(["surcharge", "title"], S.title, "Surcharge") : esc(S.title || "Surcharge"), sur)}
-      ${sec("Accommodation", acc)}
-      ${itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + esc(it.label) + ")" : ""), itin(it))).join("")}
-      ${addons}
-      ${sec("What to Expect", expect)}
-      ${sec("Important Notes", imp)}
-      ${sec("Deposit & Full Payment", dep)}
-      <div class="cd-note">Source: data/catalogs/${esc(c.slug)}.json · PO ${esc(c.po || "—")} · Ops ${esc(c.ops || "—")}</div>
-    </div></div>`;
+    <div class="body">${body}
+      ${E ? `<div class="cd-note">Saved with <b>Save</b> (one version, with the costs). The public catalog and PDF rebuild about 10–15 minutes after saving.</div>` : ""}</div></div>`;
 }
 function contractCard(d) {
   const list = [...(d.contracts || [])].sort((a, b) => String(b.at).localeCompare(String(a.at)));
@@ -866,8 +901,8 @@ const pretty = o => JSON.stringify(o, null, 1) + "\n";
 
 // Catalogs (data/catalogs/<slug>.json) carry no package prices: the price table is read from the Costing
 // tab's Catalog Price column (resolvePrices here, catalog-build/hub_prices.py for the public page / PDF).
-// On save, one commit carries: the Packaging Details edits of each catalog, and for every catalog whose
-// Costing package prices changed a new price_version (so catalog-pt-public rebuilds it, ~10–15 min).
+// On save, one commit carries: the catalog content edits, and for every catalog whose Costing prices or
+// Add On items changed a new hub_version (so catalog-pt-public rebuilds it, ~10–15 min).
 const catRmTxt = v => "RM" + Math.round(v).toLocaleString("en-US");
 function catBandStart(label) {
   if (/night|hotel|villa|star/i.test(label)) return null;
@@ -892,8 +927,9 @@ function resolvePrices(c, ix, data = DATA) {
 }
 async function catalogFiles(dataChanges, catChanges, next, head, token) {
   const priced = new Set(dataChanges.filter(c => c.path[0] === "destinations" && c.path[2] === "packages" && c.path[4] === "pricing").map(c => c.path[1] + "|" + c.path[3]));
+  const addonDest = new Set(dataChanges.filter(c => c.path[0] === "destinations" && c.path[2] === "addons").map(c => c.path[1]));
   const slugsEdited = [...new Set(catChanges.map(c => c.path[1]))];
-  if (!priced.size && !slugsEdited.length) return { files: [], summary: [], docs: {} };
+  if (!priced.size && !addonDest.size && !slugsEdited.length) return { files: [], summary: [], docs: {} };
   const idx = await GH.readJson(PATHS.catalogs + "index.json", head, token);
   const today = new Date().toISOString().slice(0, 10), docs = {}, summary = [];
   const get = async sl => docs[sl] || (docs[sl] = await GH.readJson(PATHS.catalogs + sl + ".json", head, token));
@@ -905,9 +941,10 @@ async function catalogFiles(dataChanges, catChanges, next, head, token) {
     summary.push(`Packaging Details ${sl}: ${mine.length} change${mine.length > 1 ? "s" : ""}`);
   }
   for (const [sl, m] of Object.entries(idx)) {
-    if (!priced.has(m.code + "|" + m.package)) continue;
-    const cat = await get(sl); cat.price_version = next.version;
-    summary.push(`Catalog ${sl}: prices from Costing v${next.version}`);
+    const p = priced.has(m.code + "|" + m.package), ao = addonDest.has(m.code);
+    if (!p && !ao) continue;
+    const cat = await get(sl); cat.hub_version = next.version;
+    summary.push(`Catalog ${sl}: ${[p && "prices", ao && "add-ons"].filter(Boolean).join(" + ")} from v${next.version}`);
   }
   const files = [];
   for (const [sl, cat] of Object.entries(docs)) {
@@ -1173,6 +1210,14 @@ document.addEventListener("change", e => {
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
+  if (t.dataset && t.dataset.tick) {
+    const { code, id, slug } = JSON.parse(t.dataset.tick), d = DATA.destinations.find(x => x.code === code), a = d.addons.find(x => x.id === id);
+    const cur = { ...(a.catalogs || {}) };
+    if (t.checked) cur[slug] = 1 + Math.max(0, ...d.addons.map(x => (x.catalogs || {})[slug] || 0));
+    else delete cur[slug];
+    if (Object.keys(cur).length) a.catalogs = cur; else delete a.catalogs;
+    return render();
+  }
   if (t.dataset && t.dataset.cpath && t.dataset.catact === undefined) {
     const [sl, ...path] = JSON.parse(t.dataset.cpath), doc = CAT.edit[sl] ||= clone(CAT.docs[sl]);
     setPath(doc, path, t.dataset.ckind === "lines" ? catParseLines(t.value) : t.value);
@@ -1187,6 +1232,7 @@ document.addEventListener("change", e => {
     const path = JSON.parse(t.dataset.path);
     let v = t.value;
     if (t.dataset.kind === "num") { if (v.trim() === "") return; v = Number(v); if (!isFinite(v)) return toast("Not a number"); }
+    if (t.dataset.kind === "lines") v = String(v).split("\n").map(x => x.trim()).filter(Boolean);
     if (t.dataset.kind === "text" && path[path.length - 1] === "expr") { try { compile(v); } catch (err) { toast(err.message, 5000); return; } }
     setPath(DATA, path, v);
     // keep the focus where the user tabbed to after we re-render
@@ -1200,6 +1246,7 @@ document.addEventListener("change", e => {
 window.addEventListener("beforeunload", e => { if (pendingChanges().length) { e.preventDefault(); e.returnValue = ""; } });
 setInterval(() => { if (SESSION && Date.now() - lastActivity > IDLE_LOGOUT_MS) { SESSION = null; EDIT = false; render(); toast("Logged out after 30 minutes idle", 5000); } }, 60000);
 
-window.addEventListener("hashchange", () => { const h = location.hash.slice(1); if (TABS.some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
+if (SEL.tab === "catalog") SEL.tab = "itinerary";
+window.addEventListener("hashchange", () => { const h = location.hash.slice(1) === "catalog" ? "itinerary" : location.hash.slice(1); if (TABS.some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
 window.PTCALC = { priceRow, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
 load().catch(() => { });

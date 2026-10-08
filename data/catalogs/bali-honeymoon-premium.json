@@ -216,146 +216,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Kecak Dance, Uluwatu Temple",
-          "includes": "Performance ticket, transportation for pick-up & drop-off",
-          "excludes": "Meals, personal expenses",
-          "duration": "1 hour performance",
-          "price_lines": [
-            "RM67/pax"
-          ]
-        },
-        {
-          "name": "Barong Dance, Ubud",
-          "includes": "Performance ticket, transportation for pick-up & drop-off",
-          "excludes": "Meals, personal expenses",
-          "duration": "1 hour performance (depart 7am from hotel)",
-          "price_lines": [
-            "RM67/pax"
-          ]
-        },
-        {
-          "name": "Uma Ceking Rice Terrace + Bali Swing",
-          "includes": "Entrance ticket, swing ticket, transportation",
-          "excludes": "Meals, other activities, personal expenses",
-          "duration": "1-2 hours",
-          "price_lines": [
-            "RM117/pax"
-          ]
-        },
-        {
-          "name": "Garuda Wisnu Kencana Cultural Park",
-          "includes": "Entrance ticket & Transportation",
-          "excludes": "Meals, Other Activities, Personal Expenses",
-          "price_lines": [
-            "RM67/pax"
-          ],
-          "duration": "1-2 hours (Available during Nusa Dua Tour Only)"
-        },
-        {
-          "name": "Banana Boat at Nusa Dua",
-          "includes": "Watersport Activity Insurance + 1 Time Ride",
-          "excludes": "Meals, Other Activities, Personal Expenses",
-          "price_lines": [
-            "RM67/pax"
-          ],
-          "duration": "1 hour"
-        },
-        {
-          "name": "Jet Ski Ride at Nusa Dua",
-          "includes": "Watersport Activity Insurance + 1 Time Ride",
-          "excludes": "Other Activities or Personal Expenses",
-          "price_lines": [
-            "RM157/pax"
-          ],
-          "duration": "1-2 hours"
-        },
-        {
-          "name": "Fly Fish at Nusa Dua",
-          "includes": "Activity Insurance + 2 Time Fly",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM177/pax"
-          ],
-          "duration": "1-2 hours Activity"
-        },
-        {
-          "name": "Tubing Ride at Nusa Dua",
-          "includes": "Activity Insurance + 1 Time Ride",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM127/pax"
-          ],
-          "duration": "1 hour Activity"
-        },
-        {
-          "name": "Parasailing Adventure at Nusa Dua",
-          "includes": "Activity Insurance + 1 Time Ride",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM237/pax"
-          ],
-          "duration": "1 hour Activity"
-        },
-        {
-          "name": "Fly Board at Nusa Dua",
-          "includes": "Activity Insurance + 15 Minutes Ride",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM327/pax"
-          ],
-          "duration": "15 minutes Ride"
-        },
-        {
-          "name": "Glass Bottom Boat + Turtle Island at Nusa Dua",
-          "includes": "Activity Insurance + 1 hour Ride",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM197/pax"
-          ],
-          "duration": "1 hour Activity"
-        },
-        {
-          "name": "Snorkeling at Nusa Dua",
-          "includes": "Activity Insurance + 1 hour Ride",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM157/pax"
-          ],
-          "duration": "1 hour Activity"
-        },
-        {
-          "name": "Sea Walking at Nusa Dua",
-          "includes": "Activity Insurance + 40 Minutes Sea Walking",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM347/pax"
-          ],
-          "duration": "40 Minutes"
-        },
-        {
-          "name": "Snorkeling Nusa Penida (Sharing Boat)",
-          "includes": "Life Jacket + Snorkelling Gear + Sharing Boat Transfer; 3 Snorkelling Points (Greenbowl Bay, Gamat Bay, Crystal Bay)",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM107/pax"
-          ]
-        },
-        {
-          "name": "Snorkeling Nusa Penida (Private Boat)",
-          "includes": "Life Jacket + Snorkelling Gear + Private Boat Transfer; 4 Snorkelling Points (Manta Bay, Greenbowl Bay, Gamat Bay, Crystal Bay)",
-          "excludes": "Other activities & Personal expenses",
-          "price_lines": [
-            "RM297/pax"
-          ]
-        }
-      ]
-    }
-  ],
   "surcharge": {
     "title": "Surcharge — Accommodation Upgrade & Peak Season",
     "columns": [
@@ -423,5 +283,10 @@
       }
     ]
   },
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

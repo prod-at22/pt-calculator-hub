@@ -282,5 +282,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [],
+  "hub_version": 30
 }

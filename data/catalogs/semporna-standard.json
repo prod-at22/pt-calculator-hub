@@ -268,91 +268,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Island Hopping (Full Day)",
-          "includes": "1 x island trip (Set A/B/C), snorkelling equipment, shared boat transfer, 1 x basic lunch box, jetty fee, guide. Meeting point: Seafest Jetty",
-          "duration": "From 8am to 2@3pm",
-          "price_lines": [
-            "RM180/pax"
-          ]
-        },
-        {
-          "name": "Tawau Shopping Tour (Full Day)",
-          "includes": "Private transport, driver guide, airport transfer",
-          "duration": "6-8 hours",
-          "price_lines": [
-            "RM120/pax"
-          ]
-        },
-        {
-          "name": "Timbun Mata Watersport (Half Day)",
-          "includes": "Parasailing, jet ski, transparent kayak, banana boat, paddle boat, UFO donut, hiking, snorkelling, buffet lunch. Meeting point: Timbun Mata. 2 sessions (choose 1): 8am - 1pm or 1.30pm - 5pm",
-          "duration": "4-5 hours",
-          "price_lines": [
-            "RM300/pax"
-          ]
-        },
-        {
-          "name": "Seawalking",
-          "includes": "Meeting point: Seafest Jetty. Minimum 2 pax. Recommended to do on the first day",
-          "duration": "45 mins",
-          "price_lines": [
-            "RM180/pax"
-          ]
-        },
-        {
-          "name": "Discovery Scuba Diving",
-          "includes": "Diving equipment, 2 x dives, dive master. Recommended to do on the first day",
-          "price_lines": [
-            "RM280/pax"
-          ]
-        },
-        {
-          "name": "Fun Dive",
-          "includes": "Diving equipment, 3 x dives, dive master. Recommended to do on the first day",
-          "price_lines": [
-            "RM330/pax"
-          ]
-        },
-        {
-          "name": "Private Car Transfer (Tawau City/Hotel - Semporna)",
-          "includes": "1 way transfer (1 - 4 pax maximum)",
-          "price_lines": [
-            "RM160/transport"
-          ]
-        },
-        {
-          "name": "Candlelight Dinner",
-          "includes": "Meals + table decoration",
-          "price_lines": [
-            "RM280/pax"
-          ]
-        },
-        {
-          "name": "Honeymoon Room Deco",
-          "includes": "Room decoration (available in water chalets except Lato-Lato)",
-          "price_lines": [
-            "RM350/room"
-          ]
-        },
-        {
-          "name": "Regular Size Cake",
-          "includes": "For birthday celebration or candlelight dinner",
-          "price_lines": [
-            "RM120/cake"
-          ]
-        }
-      ],
-      "notes": [
-        "All add-on activities must be confirmed and paid at least 2 days before the activity's day.",
-        "Add-on activity is subject to availability and weather conditions."
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "payment",
@@ -421,5 +336,14 @@
     }
   ],
   "product": "PAKEJ",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities",
+      "notes": [
+        "All add-on activities must be confirmed and paid at least 2 days before the activity's day.",
+        "Add-on activity is subject to availability and weather conditions."
+      ]
+    }
+  ],
+  "hub_version": 30
 }

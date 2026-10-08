@@ -202,41 +202,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Phuket Aquaria",
-          "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
-          "price_lines": [
-            "RM237/adult",
-            "RM197/kid"
-          ]
-        },
-        {
-          "name": "Andamanda Waterpark Phuket",
-          "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
-          "price_lines": [
-            "RM287/adult",
-            "RM247/kid"
-          ]
-        },
-        {
-          "name": "Banana Boat Coral Island",
-          "price_lines": [
-            "RM67 - RM87/person"
-          ]
-        },
-        {
-          "name": "Parasailing Coral Island",
-          "price_lines": [
-            "RM157 - RM197/person"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "umbrella",
@@ -292,5 +257,10 @@
     }
   ],
   "product": "PAKEJ",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

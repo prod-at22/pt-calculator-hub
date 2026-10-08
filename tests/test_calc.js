@@ -207,17 +207,22 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.026"), "FX chips: WIF 0.029, Qayyum 0.026");
-    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,catalog,contracts,addons,flags,history", "tabs: Costing, Packaging Details, TO Contract Rate, Add-ons, Flags, History");
-    // Catalog Details: the catalog-pt-public content for the selected package (data/catalogs/<slug>.json)
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,addons,expect,policy,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Add On, What to Expect, Policy, TO Contract Rate, Flags, History");
+    // each catalog section on its own tab (data/catalogs/<slug>.json for the selected package)
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
-    await tab(w, doc, "catalog"); await until(() => doc.querySelector("#cat-tokyo-standard"));
+    await tab(w, doc, "itinerary"); await until(() => doc.querySelector("#cat-tokyo-standard"));
     const cd = doc.querySelector("#cat-tokyo-standard"), cdt = cd ? cd.textContent : "";
-    ok(cd && cdt.includes("PRIVATE TOUR TOKYO STANDARD") && cdt.includes("Iyashi No Sato") && cdt.includes("Tipping Fee") && cdt.includes("Return flight ticket"), "Catalog Details: title, includes, excludes");
-    ok(cd && cd.querySelectorAll(".cd-itin tbody tr").length === 5 && cdt.includes("Kawaguchiko Mosque"), "Catalog Details: 5-day itinerary");
-    ok(cd && cdt.includes("Section L Apartment") && cdt.includes("Peak Season") && cdt.includes("Fuji Day Tour") && cdt.includes("Deposit"), "Catalog Details: accommodation, surcharge, add-ons, deposit");
-    ok(cd && cd.querySelector('a[href$="tokyo-standard.pdf"]'), "Catalog Details links the public PDF");
+    ok(cd && cdt.includes("PRIVATE TOUR TOKYO STANDARD") && cdt.includes("Iyashi No Sato") && cdt.includes("Tipping Fee") && cdt.includes("Return flight ticket") && cdt.includes("Section L Apartment"), "Itinerary tab: title, hotels, includes, excludes");
+    ok(cd && cd.querySelectorAll(".cd-itin tbody tr").length === 5 && cdt.includes("Kawaguchiko Mosque"), "Itinerary tab: 5-day itinerary");
+    ok(cd && cd.querySelector('a[href$="tokyo-standard.pdf"]'), "links the public PDF");
+    await tab(w, doc, "surcharge"); ok(doc.querySelector("#grid").textContent.includes("Peak Season"), "Surcharge tab");
+    await tab(w, doc, "expect"); ok(doc.querySelector("#cat-tokyo-standard-expect"), "What to Expect tab");
+    await tab(w, doc, "policy"); { const t = doc.querySelector("#grid").textContent; ok(t.includes("Important Notes") && t.includes("Deposit"), "Policy tab: important notes + deposit"); }
+    await tab(w, doc, "addons"); { const tk = [...doc.querySelectorAll("input.aotick")]; ok(tk.length > 5 && tk.some(x => x.checked) && tk.every(x => x.disabled) && doc.querySelector("#grid").textContent.includes("Fuji Day Tour"), "Add On tab: catalog add-ons ticked for tokyo-standard (read-only when not editing)"); }
+    await tab(w, doc, "itinerary");
     setVal(w, doc.querySelector("#selPkg"), "selftour"); await tick(5);
     ok(doc.querySelector("#grid").textContent.includes("has no published catalog"), "Self Tour: no catalog");
+    location_hash_ok: { const old = await boot(repo, "hnd/", "#catalog"); ok(old.doc.querySelector(".tabm.on").dataset.tabmain === "itinerary", "old #catalog link opens Itinerary"); }
     setVal(w, doc.querySelector("#selPkg"), "basic"); await tick(5);
     await tab(w, doc, "costing");
     ok(doc.querySelector('[data-tabmain="contracts"]').textContent === "TO Contract Rate", "tab named TO Contract Rate");
@@ -308,8 +313,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: Basic catalog`), "one commit with version message");
     // the catalog has no prices of its own: a price save stamps price_version so catalog-pt-public rebuilds it
     const catNow = JSON.parse(repo.files(repo.head)["data/catalogs/tokyo-basic.json"]), cat0 = JSON.parse(files["data/catalogs/tokyo-basic.json"]);
-    ok(catNow.price_version === V0 + 1 && !catNow.prices.rows.some(r => "amounts" in r), "catalog tokyo-basic: price_version V0+1, still no amounts in the file");
-    ok(JSON.stringify({ ...catNow, price_version: null, updated: null }) === JSON.stringify({ ...cat0, price_version: null, updated: null }), "nothing else changed in the catalog");
+    ok(catNow.hub_version === V0 + 1 && !catNow.prices.rows.some(r => "amounts" in r), "catalog tokyo-basic: hub_version V0+1, still no amounts in the file");
+    ok(JSON.stringify({ ...catNow, hub_version: null, updated: null }) === JSON.stringify({ ...cat0, hub_version: null, updated: null }), "nothing else changed in the catalog");
     ok(JSON.parse(repo.files(repo.head)["data/catalogs/index.json"])["tokyo-basic"].updated === catNow.updated, "catalog + index.json updated in the same commit");
     ok(e.catalogs && e.catalogs[0].includes("tokyo-basic"), "history entry lists the catalog rebuild: " + (e.catalogs || []).join("; "));
     click(w, doc.querySelector("#btnHistory")); await tick(5);
@@ -511,7 +516,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(hub.errors.length === 0, "hub errors: " + hub.errors.join("|"));
     const sj = await boot(repo, "seljju/", "#quote");   // old #quote link falls back to Costing
     ok(sj.doc.querySelector("#controls").textContent.includes("Seoul - Jeju"), "/seljju/ shows Seoul - Jeju");
-    ok(sj.doc.querySelector(".tabm.on").dataset.tabmain === "costing" && sj.doc.querySelector('#costPax tr[data-pax="2"] td.sp').textContent.includes("5,697"), "Seoul-Jeju 2 pax selling 5,697 (catalog 5,897 − 200); #quote opens Costing");
+    ok(sj.doc.querySelector(".tabm.on").dataset.tabmain === "costing" && sj.doc.querySelector('#costPax tr[data-pax="2"] td.sp').textContent.includes("5,997"), "Seoul-Jeju 2 pax selling 5,997 (catalog 6,197 − 200, v29); #quote opens Costing");
     const kb = await boot(repo, "kbv/", "?pkg=standard#quote");
     const hotelSel = kb.doc.querySelector("#opt_hotel");
     ok(hotelSel && hotelSel.options.length === byCode(P.DATA, "KBV").options[0].choices.length, "Krabi has a hotel selector");
@@ -546,15 +551,12 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(bad.doc.querySelector("#grid").textContent.includes("No destination with code ZZZ"), "unknown code shows a message");
   }
 
-  console.log("8e. Packaging Details: prices from Costing, every field editable, saved into data/catalogs/<slug>.json");
+  console.log("8e. catalog sections: Costing price table, Itinerary editable, Add On tick — saved into data/catalogs/<slug>.json");
   {
     const V = P.BASE.version;
     await tab(w, doc, "costing"); setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
-    await tab(w, doc, "catalog"); await until(() => doc.querySelector("#cat-tokyo-standard"));
-    const pkg = HND().packages.find(p => p.id === "standard"), first = doc.querySelector("#cat-tokyo-standard .cd-t tbody tr td.num");
-    ok(doc.querySelector('.tabm[data-tabmain="catalog"]').textContent.includes("Packaging Details"), "tab is named Packaging Details");
-    ok(first && first.textContent === "RM" + (+pkg.pricing.adult["2"]).toLocaleString("en-US"), "price table = Costing Catalog Price (2 pax adult): " + (first && first.textContent));
-    ok(doc.querySelector("#cat-tokyo-standard").textContent.includes("from the Costing tab"), "price section says it comes from Costing");
+    await tab(w, doc, "itinerary"); await until(() => doc.querySelector("#cat-tokyo-standard"));
+    const pkg = HND().packages.find(p => p.id === "standard");
     if (!doc.querySelector("#btnEdit")) {
       click(w, doc.querySelector("#btnLogin")); await tick(5);
       doc.querySelector("#lu").value = "aiman"; doc.querySelector("#lp").value = "aiman-pass-2026";
@@ -562,22 +564,34 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     }
     ok(await until(() => doc.querySelector("#btnEdit")), "editor logged in");
     if (!/Stop/.test(doc.querySelector("#btnEdit").textContent)) { click(w, doc.querySelector("#btnEdit")); await tick(5); }
+    await tab(w, doc, "costing"); await until(() => doc.querySelector("#cat-tokyo-standard-price"));
+    const first = doc.querySelector("#cat-tokyo-standard-price .cd-t tbody tr td.num");
+    ok(first && first.textContent === "RM" + (+pkg.pricing.adult["2"]).toLocaleString("en-US"), "Costing (Edit): catalog price table = Catalog Price column (2 pax adult): " + (first && first.textContent));
+    await tab(w, doc, "itinerary");
     const cpath = (...p) => JSON.stringify(["tokyo-standard", ...p]);
     const titleIn = [...doc.querySelectorAll("input.ed.cat")].find(x => x.dataset.cpath === cpath("itinerary", 0, "title"));
-    ok(titleIn && [...doc.querySelectorAll("input.ed.cat, textarea.ed.cat")].length > 40, "itinerary, includes, notes … are editable");
+    ok(titleIn && [...doc.querySelectorAll("input.ed.cat, textarea.ed.cat")].length > 20, "header, hotels, itinerary, includes/excludes are editable");
     setVal(w, titleIn, "KUL - HND (edited)"); await tick(10);
     const acts = [...doc.querySelectorAll("textarea.ed.cat")].find(x => x.dataset.cpath === cpath("itinerary", 0, "activities"));
     setVal(w, acts, acts.value + "\nWelcome dinner\n  - halal"); await tick(10);
-    ok(doc.querySelector("#btnSave") && doc.querySelector("#btnSave").textContent.includes("(2)"), "Save counts the 2 Packaging Details edits");
+    await tab(w, doc, "addons");
+    const fuji = HND().addons.find(a => a.catalogs && "tokyo-standard" in a.catalogs && /Fuji Day Tour/.test(a.label)), nIn = HND().addons.filter(a => a.catalogs && "tokyo-standard" in a.catalogs).length;
+    const tk = [...doc.querySelectorAll("input.aotick")].find(x => JSON.parse(x.dataset.tick).id === fuji.id);
+    ok(tk && tk.checked && !tk.disabled, "Add On (Edit): tick enabled for " + fuji.label);
+    tk.checked = false; fire(w, tk, "change"); await tick(10);
+    ok(!(fuji.catalogs || {})["tokyo-standard"] && HND().addons.filter(a => a.catalogs && "tokyo-standard" in a.catalogs).length === nIn - 1, "untick removes it from the catalog");
+    ok(doc.querySelector("#btnSave") && doc.querySelector("#btnSave").textContent.includes("(3)"), "Save counts 2 catalog edits + 1 add-on tick: " + (doc.querySelector("#btnSave") || {}).textContent);
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "Tokyo Std itinerary";
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V + 1), "saved as one version");
     const cat = JSON.parse(repo.files(repo.head)["data/catalogs/tokyo-standard.json"]);
     ok(cat.itinerary[0].title === "KUL - HND (edited)" && JSON.stringify(cat.itinerary[0].activities.at(-1)) === JSON.stringify({ text: "Welcome dinner", sub: ["halal"] }), "catalog file has the edits (sub-item from '  - ')");
-    ok(!cat.prices.rows.some(r => "amounts" in r) && cat.price_version === undefined || cat.price_version < V + 1, "no prices written into the catalog");
+    ok(!cat.prices.rows.some(r => "amounts" in r) && !("addons" in cat) && cat.hub_version === V + 1, "no prices / add-ons written into the catalog; hub_version stamped for the add-on change");
+    const rem = JSON.parse(repo.files(repo.head)["data/data.json"]), fujiNow = byCode(rem, "HND").addons.find(a => a.id === fuji.id);
+    ok(!(fujiNow.catalogs || {})["tokyo-standard"], "repo data.json: Fuji Day Tour no longer ticked for tokyo-standard");
     const e = JSON.parse(repo.files(repo.head)["data/history.json"]).entries.find(x => x.v === V + 1);
-    ok(e && e.changes.length === 2 && e.changes.every(c => c.path[0] === "catalogs" && c.path[1] === "tokyo-standard"), "history lists both Packaging Details changes");
+    ok(e && e.changes.length === 3 && e.changes.filter(c => c.path[0] === "catalogs" && c.path[1] === "tokyo-standard").length === 2, "history lists the 2 catalog edits + the tick");
     ok(JSON.parse(repo.files(repo.head)["data/data.json"]).version === V + 1, "data.json version bumped with it");
     ok(!doc.querySelector("#btnSave"), "nothing pending after save");
     click(w, doc.querySelector("#btnEdit")); await tick(5);

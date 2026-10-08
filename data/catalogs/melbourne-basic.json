@@ -269,52 +269,10 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Add-on Private Day Tour",
-      "entries": [
-        {
-          "name": "Puffing Billy & Dandenong Ranges",
-          "includes": "Puffing Billy Steam Train: Belgrave - Lakeside Station (ride iconic heritage steam train), Dandenong/Royal Botanic Garden, Sassafras Village, Skyhigh Lookout (Vehicle Entrance Included)",
-          "excludes": "Puffing Billy Train Ticket",
-          "duration": "Private Transport (8 hours)",
-          "price_lines": [
-            "RM1,500/transport",
-            "Puffing Billy Train Ticket:",
-            "Adult: RM190/pax",
-            "Child: RM95/pax"
-          ]
-        },
-        {
-          "name": "Mornington Peninsula",
-          "includes": "Pure Peninsula Honey, Enchanted Garden Adventure (adventure park: garden mazes, tube slides, canopy walk), Red Hill Lavender Farm (seasonal), Sorrento Ocean Beach, Cape Schanck Boardwalk",
-          "excludes": "Enchanted Garden Adventure Ticket",
-          "duration": "Private Transport (8 hours)",
-          "price_lines": [
-            "RM1,600/transport",
-            "Enchanted Garden Adventure Ticket:",
-            "Adult: RM120/pax",
-            "Child: RM90/pax"
-          ]
-        },
-        {
-          "name": "Great Ocean Road",
-          "includes": "Aireys Inlet Lighthouse, Great Ocean Road Memorial Arch, Apollo Bay, Maits Rest Rainforest Walk, 12 Apostles, Loch Ard Gorge",
-          "duration": "Private Transport (12 hours)",
-          "price_lines": [
-            "RM2,800/transport"
-          ]
-        },
-        {
-          "name": "Winter Snow Trip",
-          "includes": "Mt Buller / Mt Baw Baw (Winter Sports: Skiing, Snowboarding, Tobogganing, etc) OR Lake Mountain (Snow Play, Tobogganing); Vehicle Entrance Ticket & Tyre Snow Chains Included",
-          "duration": "Private Transport (12 hours)",
-          "price_lines": [
-            "RM3,200/transport"
-          ]
-        }
-      ]
+      "title": "Add-on Private Day Tour"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

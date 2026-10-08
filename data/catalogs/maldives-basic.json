@@ -195,66 +195,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add-ons (ICOM Hotels)",
-      "entries": [
-        {
-          "name": "Vaavu Atoll Shipwreck (shared tour)",
-          "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
-          "price_lines": [
-            "RM350/pax"
-          ]
-        },
-        {
-          "name": "Whale Shark Trip (shared tour)",
-          "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
-          "price_lines": [
-            "RM500/pax"
-          ]
-        },
-        {
-          "name": "Private Island Excursion (shared tour)",
-          "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Adaaran Prestige Vadoo or Centara Rasfushi",
-          "price_lines": [
-            "RM800/pax"
-          ]
-        }
-      ],
-      "notes": [
-        "Shared Tour = Boat and activity sharing with other tourists."
-      ]
-    },
-    {
-      "title": "Add-ons (Velana Hotels)",
-      "entries": [
-        {
-          "name": "Fish Tank Trip (shared tour)",
-          "includes": "Dolphin Sightseeing, Reef Snorkelling, Fish Tank Snorkelling, Lunch on Sand Bank, Gulhi Island Hopping",
-          "price_lines": [
-            "RM350/pax"
-          ]
-        },
-        {
-          "name": "Whale Shark Trip (shared tour)",
-          "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
-          "price_lines": [
-            "RM500/pax"
-          ]
-        },
-        {
-          "name": "Real Break Tour (shared tour)",
-          "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
-          "price_lines": [
-            "RM350/pax"
-          ]
-        }
-      ],
-      "notes": [
-        "Shared Tour = Boat and activity sharing with other tourists."
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "payment",
@@ -311,5 +251,19 @@
     }
   ],
   "product": "PAKEJ",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add-ons (ICOM Hotels)",
+      "notes": [
+        "Shared Tour = Boat and activity sharing with other tourists."
+      ]
+    },
+    {
+      "title": "Add-ons (Velana Hotels)",
+      "notes": [
+        "Shared Tour = Boat and activity sharing with other tourists."
+      ]
+    }
+  ],
+  "hub_version": 30
 }

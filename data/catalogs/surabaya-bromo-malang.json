@@ -217,62 +217,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Water Fall Tumpak Sewu, Goa Tetes, Kapas Biru",
-          "includes": "Price included transport to Tumpak Sewu",
-          "price_lines": [
-            "RM160 / pax"
-          ]
-        },
-        {
-          "name": "Local Guide to Tumpak Sewu",
-          "includes": "Price for 1 guide for 1-5pax",
-          "price_lines": [
-            "RM150 / guide"
-          ]
-        },
-        {
-          "name": "Kawah Ijen Tour",
-          "includes": "Price included with local guide & Masker",
-          "price_lines": [
-            "RM150 / pax"
-          ]
-        },
-        {
-          "name": "Semeru Lava Tour",
-          "includes": "Price included with Entrance Fee & Documentation Video/Photo",
-          "price_lines": [
-            "RM150 / pax"
-          ]
-        },
-        {
-          "name": "ATV Semeru Rental for 1 hour",
-          "includes": "1 ATV max 2 pax",
-          "price_lines": [
-            "RM120 / pax"
-          ]
-        },
-        {
-          "name": "Panorama Kapas Biru",
-          "includes": "Entrance Fee Only",
-          "price_lines": [
-            "RM10 / pax"
-          ]
-        },
-        {
-          "name": "Horse / Pony Ride to Kawah Bromo",
-          "includes": "Return trip to/from Kawah Bromo",
-          "price_lines": [
-            "RM120 / pax"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "footprints",
@@ -329,5 +273,10 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

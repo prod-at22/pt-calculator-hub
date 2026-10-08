@@ -288,79 +288,19 @@
       "similar": true
     }
   ],
-  "addons": [
+  "product": "PAKEJ",
+  "addon_groups": [
     {
       "title": "Add-ons (Kaani Hotels)",
-      "entries": [
-        {
-          "name": "Full Day Excursion Trip (shared tour)",
-          "includes": "Snorkelling & Swimming at famous spot, Lunch on Sand bank, Dolphin Sightseeing",
-          "price_lines": [
-            "RM250"
-          ]
-        },
-        {
-          "name": "Real Break Trip (shared tour)",
-          "includes": "Snorkelling with Nurse Shark, Ship Wreck Point, Island Hopping, Lunch on Sand Bank",
-          "price_lines": [
-            "RM350"
-          ]
-        },
-        {
-          "name": "Whale Shark Trip (shared tour)",
-          "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point",
-          "price_lines": [
-            "RM500"
-          ]
-        },
-        {
-          "name": "Private Island Excursion (shared tour)",
-          "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Malahini Kuda Bandos",
-          "price_lines": [
-            "RM800"
-          ]
-        }
-      ],
       "notes": [
         "*Shared Tour = Boat and activity sharing with other tourist."
       ]
     },
     {
       "title": "Add-ons (Arena Hotels)",
-      "entries": [
-        {
-          "name": "Full Day Adventure (shared tour)",
-          "includes": "Housereef snorkelling at famous spot, Island Hopping - Gulhi & Guraidhoo, Lunch @ Sand bank, Dolphin Sightseeing",
-          "price_lines": [
-            "RM320"
-          ]
-        },
-        {
-          "name": "Shark Bay Snorkelling (shared tour)",
-          "includes": "Snorkelling with Nurse Shark, Manta Rays Point, Lunch @ Sand Bank, Dolphin Sightseeing",
-          "price_lines": [
-            "RM270"
-          ]
-        },
-        {
-          "name": "Whale Shark Expedition (shared tour)",
-          "includes": "Snorkelling & Swimming, Whale Shark Point, Island Hopping, Dolphin Cruise, Manta Rays Point, Lunch @ Local Island (Dhigurah)",
-          "price_lines": [
-            "RM520"
-          ]
-        },
-        {
-          "name": "Private Island Excursion (shared tour)",
-          "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Centara Ras Fushi or Adaaran Prestige Vadoo",
-          "price_lines": [
-            "RM800"
-          ]
-        }
-      ],
       "notes": [
         "*Shared Tour = Boat and activity sharing with other tourist."
       ]
     }
-  ],
-  "product": "PAKEJ"
+  ]
 }

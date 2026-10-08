@@ -12,7 +12,7 @@ Each flag: {code, package, severity (high|medium|low), area, title, detail, fix}
 import argparse, datetime, glob, json, os, re, subprocess, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "catalog-build"))
-import hub_prices  # noqa: E402  same price rules as the catalog build
+import hub_data  # noqa: E402  same price rules as the catalog build
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 CATALOG = os.path.join(ROOT, "data", "catalogs")
@@ -114,7 +114,7 @@ def main():
             continue
         d = by[code]; pkg = next(p for p in d["packages"] if p["id"] == pid); seen_pkg.add((code, pid))
         linked = any("amounts" not in r for r in (cat.get("prices") or {}).get("rows") or [])
-        pr = hub_prices.resolve(cat, pkg)   # a linked catalog's prices ARE the hub's: only coverage can be wrong
+        pr = hub_data.resolve(cat, pkg)   # a linked catalog's prices ARE the hub's: only coverage can be wrong
         cols = [c.get("label", "") for c in pr.get("columns", [])]
         couple = len(cols) == 1 and re.search(r"couple", cols[0], re.I)
         diffs = {k: [] for k in TYPES}; missing = {k: [] for k in TYPES}; extra_child = []; uneven = []

@@ -303,64 +303,13 @@
       }
     ]
   },
-  "addons": [
+  "addon_groups": [
     {
       "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Skyline Gondola Ride (Queenstown)",
-          "includes": "Return Skyline Gondola Ride at Queenstown City",
-          "excludes": "Luge Ride or additional activities",
-          "price_lines": [
-            "RM180/pax for Adult (15 years old and above)",
-            "RM120/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        },
-        {
-          "name": "Milford Sound Nature Cruise",
-          "includes": "Milford Sound Cruise Ticket Only",
-          "excludes": "Meals on board and Coach Transfer",
-          "price_lines": [
-            "RM450/pax for Adult (15 years old and above)",
-            "RM250/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        },
-        {
-          "name": "Milford Sound Coach + Nature Cruise",
-          "includes": "Milford Sound Coach + Nature Cruise",
-          "excludes": "Meals on board and Additional Tour",
-          "price_lines": [
-            "RM650/pax depart from Queenstown (depart 6:20am)",
-            "RM550/pax depart from Te Anau (depart 9:30am)"
-          ]
-        },
-        {
-          "name": "Shootover Jet Queenstown",
-          "includes": "Individual Pass for 25 minutes Ride",
-          "excludes": "Meals on board and Additional Tour",
-          "price_lines": [
-            "RM480/pax for Adult (16 years old and above)",
-            "RM120/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        },
-        {
-          "name": "Fruit Picking at Jackson's Orchard in Cromwell",
-          "includes": "Orchard Guided Tour for 45 minutes",
-          "excludes": "Meals on board and Additional Fruits Purchased",
-          "price_lines": [
-            "RM480/pax for Adult (16 years old and above)",
-            "RM120/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        }
-      ],
       "notes": [
         "Fruit picking — guided orchard tours are available depending on the season: December: Cherry & Peaches · January: Cherry, Apricot, Peaches & Plum · February: Apricots, Peaches, Nectarines & Plums · March: Apples & Pears · April: Last Apples & Pears."
       ]
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

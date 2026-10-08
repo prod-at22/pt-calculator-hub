@@ -272,88 +272,14 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
       "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Jeep Tour (min 2 pax)",
-          "includes": "Jeep tour, professional guide",
-          "excludes": "Other activities, personal expenses",
-          "duration": "Typically 3-4 hours",
-          "price_lines": [
-            "RM257/pax"
-          ]
-        },
-        {
-          "name": "ATV Tour",
-          "includes": "ATV ride, guide",
-          "excludes": "Other activities, personal expenses",
-          "duration": "Typically 1-2 hours",
-          "price_lines": [
-            "RM227/pax"
-          ]
-        },
-        {
-          "name": "Whirling Dervishes",
-          "includes": "Entrance, performance show",
-          "excludes": "Other activities, personal expenses",
-          "duration": "1 hour show",
-          "price_lines": [
-            "RM227/pax"
-          ]
-        },
-        {
-          "name": "Turkish Night",
-          "includes": "Dinner, cultural performance (dance, music)",
-          "excludes": "Alcoholic beverages, personal expenses",
-          "duration": "3-4 hours",
-          "price_lines": [
-            "RM297/pax"
-          ]
-        },
-        {
-          "name": "Horse Riding",
-          "includes": "Horse ride, instructor",
-          "excludes": "Other activities, personal expenses",
-          "duration": "1-2 hours",
-          "price_lines": [
-            "RM257/pax"
-          ]
-        },
-        {
-          "name": "Bosphorus Dinner Cruise",
-          "includes": "Dinner, cruise along the Bosphorus, entertainment",
-          "excludes": "Alcoholic drinks, personal expenses",
-          "duration": "2-3 hours",
-          "price_lines": [
-            "RM297/pax"
-          ]
-        },
-        {
-          "name": "Hot Air Balloon Tour",
-          "includes": "Balloon ride, guide, insurance",
-          "excludes": "Other activities, personal expenses",
-          "duration": "1 hour flight (additional time for preparation)",
-          "price_lines": [
-            "Price varies seasonally"
-          ]
-        },
-        {
-          "name": "Topkapi Palace Entrance",
-          "includes": "Main Palace, Harem section, and Hagia Irene Church",
-          "excludes": "Guided tour, food/drinks, and personal expenses",
-          "duration": "3-4 hours (recommended)",
-          "price_lines": [
-            "RM277/pax"
-          ]
-        }
-      ],
       "notes": [
         "*** Hot Air Balloon is an optional activity and will be conducted on day 3 or day 4 depending on the weather. It will be conducted during sunrise time in the morning and will not interrupt the scheduled itinerary.",
         "P/S: Actual visit time will depend on the actual weather of the day, and the program of the day can be rearranged according to the opening hours of the places visited."
       ]
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

@@ -271,30 +271,9 @@
       "similar": true
     }
   ],
-  "addons": [
+  "addon_groups": [
     {
       "title": "Add-On",
-      "entries": [
-        {
-          "name": "Zip Bike @ Lodge Maribaya",
-          "price_lines": [
-            "RM10 ~ RM15"
-          ]
-        },
-        {
-          "name": "Rainbow Slide @ Floating Market",
-          "price_lines": [
-            "RM10 ~ RM15"
-          ]
-        },
-        {
-          "name": "Whoosh Train Bandung-Jakarta",
-          "includes": "1 Way Whoosh Ticket (Economy Seat), Private Transport Pickup & Drop Off Train Station",
-          "price_lines": [
-            "RM157/pax"
-          ]
-        }
-      ],
       "notes": [
         "Customers are required to carry their own luggage on the Whoosh train.",
         "** All prices stated above may differ from time to time depending on the current currency exchange.",
@@ -302,5 +281,5 @@
       ]
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

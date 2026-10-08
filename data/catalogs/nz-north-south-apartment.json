@@ -298,91 +298,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Tour or Activities",
-      "entries": [
-        {
-          "name": "Whakarewa The Living Maori Village Tour",
-          "includes": "Whakarewa Maori Village guided Tour (1 hour)",
-          "excludes": "Maori Dance, Geothermal Tour, Meals",
-          "price_lines": [
-            "Adult: RM150/pax (16 years old & above)",
-            "Child/Youth: RM80/pax (5 - 15 years old)",
-            "Infant: FOC (0 - 4 years old)"
-          ]
-        },
-        {
-          "name": "Hobbiton Movie Set Tour",
-          "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
-          "excludes": "Meals and self expenses",
-          "price_lines": [
-            "Adult: RM320/pax (17 years old and above)",
-            "Youth: RM150/pax (11 - 16 years old)",
-            "Child: FOC (below 10 years old)"
-          ]
-        },
-        {
-          "name": "Agrodome Farm & Animal Show",
-          "includes": "Farm show and Experience 350-Acre Farm Tour",
-          "excludes": "Meals and self expenses",
-          "price_lines": [
-            "Adult: RM180/pax (16 years old and above)",
-            "Youth: RM150/pax (3 - 15 years old)",
-            "Child: FOC (below 10 years old)"
-          ]
-        },
-        {
-          "name": "Hamilton Garden",
-          "includes": "Enclosed Garden Entry Ticket",
-          "excludes": "Meals, self expenses and Audio Guide",
-          "price_lines": [
-            "Adult: RM65/pax (Free & Easy Self Tour)",
-            "Child: RM25/pax (Free & Easy Self Tour)"
-          ]
-        },
-        {
-          "name": "Skyline Gondola Ride (Queenstown)",
-          "includes": "Return Skyline Gondola Ride at Queenstown City",
-          "excludes": "Luge Ride or additional activities",
-          "price_lines": [
-            "RM180/pax for Adult (15 years old and above)",
-            "RM120/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        },
-        {
-          "name": "Milford Sound Nature Cruise",
-          "includes": "Milford Sound Cruise Ticket Only",
-          "excludes": "Meals on board and Coach Transfer",
-          "price_lines": [
-            "RM450/pax for Adult (15 years old and above)",
-            "RM250/pax for Youth (6 - 14 years old)",
-            "Free for Child below 5 years old"
-          ]
-        },
-        {
-          "name": "Milford Sound Coach + Nature Cruise",
-          "includes": "Milford Sound Coach + Nature Cruise",
-          "excludes": "Meals on board and Additional Tour",
-          "price_lines": [
-            "RM650/pax depart from Queenstown (depart 6:20am)",
-            "RM550/pax depart from Te Anau (depart 9:30am)"
-          ]
-        },
-        {
-          "name": "Maori Culture Performance at Whakarewa Village",
-          "includes": "30 Minutes shows at 12:30pm Daily",
-          "excludes": "Guided Village Tour, Meals and Additional Tour",
-          "price_lines": [
-            "Adult: RM95/pax (16 years old & above)",
-            "Child/Youth: RM60/pax (5 - 15 years old)",
-            "Infant: FOC (0 - 4 years old)"
-          ]
-        }
-      ]
-    }
-  ],
   "surcharge": {
     "title": "Surcharge — Peak Seasons Date & Last Minute Booking Surcharge",
     "seasons": [
@@ -404,5 +319,10 @@
     ]
   },
   "product": "ST",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Tour or Activities"
+    }
+  ],
+  "hub_version": 30
 }

@@ -209,48 +209,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Add-on",
-      "entries": [
-        {
-          "name": "Mount Titlis",
-          "includes": "Admission to Mt. Titlis from Engelberg, Round trip cable-car tickets including Titlis ROTAIR, Glacier cave, Titlis Cliff walk, IceFlyer chairlift, Titlis Glacier Park including snow tubing (weather permitting)",
-          "duration": "Open all year long · Operation hour: 8.30am - 5pm",
-          "price_lines": [
-            "16 years old and above: RM377",
-            "6-15 years old: RM177",
-            "5 years old and below: FREE"
-          ]
-        },
-        {
-          "name": "Iseltwald Bridge Fee",
-          "price_lines": [
-            "RM67"
-          ]
-        },
-        {
-          "name": "Gornergrat Railways",
-          "includes": "Round trip train from Zermatt to Gornergrat, Riffelalp, Riffelberg, Gornergrat",
-          "duration": "Open all year long · Operation hour: 7.30am - 5.40pm",
-          "price_lines": [
-            "16 years old and above: RM387",
-            "6-15 years old: RM287",
-            "5 years old and below: FREE"
-          ]
-        },
-        {
-          "name": "Matterhorn Glacier Paradise (Zermatt)",
-          "includes": "Admission to Matterhorn Glacier Paradise in Zermatt, Round trip by Matterhorn Glacier ride (cable-car), Entry to 360-Degree Viewing Platform, Admission to Glacier Ice Palace, Cinema Lounge, The Peak Shop",
-          "price_lines": [
-            "16 years old and above: RM397",
-            "9-15 years old: RM297",
-            "0-8 years old: FREE"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "train",
@@ -318,5 +276,10 @@
     }
   ],
   "product": "ST",
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Add-on"
+    }
+  ],
+  "hub_version": 30
 }

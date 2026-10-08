@@ -245,23 +245,6 @@
       "hotel": "-"
     }
   ],
-  "addons": [
-    {
-      "title": "Additional Activities",
-      "entries": [
-        {
-          "name": "Hanbok Rental at Gyeongbok Palace",
-          "includes": "Basic Hanbok Attire",
-          "excludes": "Extra equipment for rental",
-          "duration": "4 Hours",
-          "price_lines": [
-            "Adult & Child:",
-            "RM80/person"
-          ]
-        }
-      ]
-    }
-  ],
   "expect": [
     {
       "icon": "hotel",
@@ -327,5 +310,10 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "price_version": 30
+  "addon_groups": [
+    {
+      "title": "Additional Activities"
+    }
+  ],
+  "hub_version": 30
 }

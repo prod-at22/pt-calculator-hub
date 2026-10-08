@@ -15,7 +15,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 ## Page today
 - Hub: one row per catalog package (name · PO · last update). 37 destinations.
 - Destination page: header (PO, FX chips — editable in Edit costs) · **Package** (package name only) · **Tour operator** (operator
-  name only; lists just that package's TOs, auto-picked by pax) · tabs Costing / Packaging Details / TO Contract Rate / Add-ons / Flags / History.
+  name only; lists just that package's TOs, auto-picked by pax) · tabs Costing / Itinerary / Surcharge / Add On / What to Expect / Policy / TO Contract Rate / Flags / History.
 - Costing table: one block per TO; component columns (group RM), headers = component name only. Rate-built TOs
   (Tokyo, Osaka, Tokyo-Osaka) get two buttons, both off by default: **Show rate reference** opens a horizontal table above Costing by
   pax (one column per code: A, B, … = rates in order of use, then the FX; item · pax band, supplier, rate; note on
@@ -30,17 +30,16 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - TO Contract Rate tab: files in contracts/<code>/ listed in data.json `contracts`. Uploading from the page needs
   login, which is still not set up (data/users.json empty) — files so far were committed directly.
 
-## Catalog content (Packaging Details tab) — the hub is the source, catalog-pt-public mirrors it
+## Catalog content (Itinerary / Surcharge / Add On / What to Expect / Policy tabs) — the hub is the source
 - data/catalogs/<slug>.json = every catalog (67), same schema as Catalog PT. Imported once (8 Oct) byte for
   byte from Drive "Catalog PT (new)/catalogs" (`tools/import_catalogs.py --from-drive` — do NOT run again,
   it would overwrite hub edits). data/catalogs/index.json links slug → package (MAP in tools/flags.py);
   rebuild it with `python3 tools/import_catalogs.py` after editing a catalog. Not linked: ho-chi-minh,
   maldives-standard, yunnan-3-wilayah-6d5n (no calculator package).
-- Destination page tab **Packaging Details**: the selected package's catalog — price table (from the Costing
-  Catalog Price column), includes / excludes, surcharge, accommodation, itinerary, add-ons, what to expect, notes,
-  deposit; links to public page/PDF; every field editable in Edit costs.
+- Destination page tabs show the selected package's catalog section by section (see README "Catalogs"); every
+  field editable in Edit costs; each card links the public page / PDF.
 - **Mirror (automatic, no token)**: workflow `mirror.yml` lives in **prod-at22/catalog-pt-public** itself. Every
-  10 min it checks this repo (public); when data/catalogs/ changed since `.hub-sha` (a Catalog Price save stamps price_version in the catalog file) it rebuilds only those
+  10 min it checks this repo (public); when data/catalogs/ changed since `.hub-sha` (a Catalog Price or Add On save stamps hub_version in the catalog file) it rebuilds only those
   catalogs with catalog-build/build.py (all of them when catalog-build/ changed) and commits to itself
   (GITHUB_TOKEN, contents: write). Delay ≈10–15 min; catalog-pt-public → Actions → "Mirror from PT R&D
   Costing Hub" → Run workflow mirrors at once (slugs, or "all"). Tested 8 Oct (tokyo-standard published).
@@ -62,11 +61,13 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   contracts/hnd has the ARBA-internal Qayyum rate sheet (tools/make_qayyum_sheet.py; regenerate after a Qayyum rate change).
 - **JBDO**: CTRANS fullboard rate 2–10 pax (v5); catalog = Catalog PT v8, 2–19 pax (v27). 11–19 pax have no TO cost yet.
 - Flags (tools/flags.py): catalogs × the hub's own numbers only.
-- **Catalogs**: prices are NOT in data/catalogs/*.json any more (v30): catalog-build/hub_prices.py and resolvePrices()
-  read them from the Costing Catalog Price column. Packaging Details tab (was "Catalog Details") edits the rest of the
-  catalog in Edit costs; one save = data.json + history + the edited catalogs. A Catalog Price change stamps
-  price_version in the linked catalog so catalog-pt-public's mirror rebuilds it. tools/import_catalogs.py --from-drive
-  is retired. The old Drive builder ("Catalog PT (new)/build.py") cannot render the new files — do not use it.
+- **Catalogs** (v31): each catalog section comes from its own tab — price = Costing (Catalog Price column),
+  header + hotels + itinerary + includes/excludes = Itinerary, Surcharge, Add On (tick per package; 210 catalog
+  add-ons imported into data.json with catalogs {slug: position} + price_lines), What to Expect, Policy (notes +
+  deposit). Catalog files keep no amounts and no add-on list (addon_groups = order + notes only). hub_version is
+  stamped on save so catalog-pt-public rebuilds. catalog-build/hub_data.py = the rules for the build.
+  tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
+  render the new files — do not use it.
 
 ## Open — waiting on the PO
 1. Tokyo (on hold by PO): catalog JSON Tokyo Standard (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — which is current?

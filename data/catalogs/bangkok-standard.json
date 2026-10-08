@@ -250,37 +250,10 @@
       }
     ]
   },
-  "addons": [
+  "addon_groups": [
     {
-      "title": "Add On Tour",
-      "entries": [
-        {
-          "name": "Pattaya Beach Tour",
-          "includes": "Pattaya Town, Hard Rock Cafe Pattaya",
-          "duration": "2-3 Hours Journey from Bangkok",
-          "price_lines": [
-            "RM80/pax"
-          ]
-        },
-        {
-          "name": "Kanchanaburi + Safari Park Kanchanaburi (Including Ticket)",
-          "includes": "Safari World Kanchanaburi Admission, River Kwai, Sunflower Field (December - February only, entrance fee not included)",
-          "excludes": "Giraffe Encounter (add RM135/pax)",
-          "duration": "2-3 Hours Journey from Bangkok",
-          "price_lines": [
-            "RM160/pax"
-          ]
-        },
-        {
-          "name": "Safari World Bangkok (Including ticket)",
-          "includes": "Safari Park Admission, Marine Park Admission, Shopping in Bangkok after finishing Safari World tour",
-          "duration": "45 minutes Journey from Bangkok",
-          "price_lines": [
-            "RM150/pax"
-          ]
-        }
-      ]
+      "title": "Add On Tour"
     }
   ],
-  "price_version": 30
+  "hub_version": 30
 }

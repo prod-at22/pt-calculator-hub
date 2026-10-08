@@ -232,3 +232,9 @@ table.torates th{white-space:normal;min-width:90px}
 .cd-edit-head{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px 12px;margin-bottom:10px}
 .cd-edit-head label{display:flex;flex-direction:column;gap:3px;font-size:12px;font-weight:600;color:var(--ink-soft)}
 .cd .cd-chips input.ed.cat{width:auto;display:inline-block}
+.ao-cat{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:4px 8px;margin-top:6px}
+.ao-cat label{display:flex;flex-direction:column;font-size:11px;color:var(--ink-soft)}
+.ao-cat textarea.ed,.ao-grp textarea.ed{font:inherit;font-size:12px;border:1px solid var(--edit-line);background:var(--edit);border-radius:6px;padding:4px 6px;width:100%}
+.ao-price{color:var(--ink);margin-top:2px}
+.ao-grp{display:grid;grid-template-columns:minmax(160px,1fr) 2fr;gap:6px;margin:4px 0}
+input.aotick{width:16px;height:16px}
