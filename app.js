@@ -299,6 +299,20 @@ function tierOf(name) {
   if (/BASIC/.test(u)) return "Basic";
   return "Standard";
 }
+// Catalogs whose route or duration cannot be read from the package match (several routes
+// under one code, or no duration in the catalog name). Same names as PT Catalog House.
+const CATALOG_ROUTE = {
+  "PT HANOI-SAPA 4D3N 2026": ["Hanoi - Sapa", "4D3N"],
+  "PT HANOI-SAPA 5D4N 2026": ["Hanoi - Sapa - Halong Bay", "5D4N"],
+  "PT SURABAYA-MALANG (3 STAR) 4D3N 2026": ["Surabaya - Malang", "4D3N"],
+  "PT NEW ZEALAND NORTH & SOUTH 2026": ["New Zealand North & South", "10D9N"],
+  "ST NEW ZEALAND NORTH & SOUTH (APARTMENT) 2026": ["New Zealand North & South (Apartment)", "9D8N"],
+  "ST NEW ZEALAND NORTH & SOUTH (3 STAR) 2026": ["New Zealand North & South (3★)", "9D8N"],
+  "ST NEW ZEALAND NORTH ONLY 2026": ["New Zealand North Island", "6D5N"],
+  "PT Switzerland 2026": ["Switzerland", "7D6N"],
+  "PT TURKI BASIC 8D7N": ["Turki Klasik", "8D7N"],
+  "PT TURKI CLASSIC STD 8D7N": ["Turki Klasik", "8D7N"],
+};
 function routeOf(d, pkg) {
   if (!pkg) return d.name;
   const r = pkg.label.split(" · ")[0].replace(/\b\d+D\d+N\b/g, "").replace(TIER_WORDS, "").replace(/\s+/g, " ").trim();
@@ -310,7 +324,8 @@ function renderHub() {
   const iso = e => e ? new Date(e.at).toISOString().slice(0, 10) : "";
   const rows = shown().destinations.flatMap(d => (d.catalogs && d.catalogs.length ? d.catalogs : d.packages.map(p => p.label)).map(name => {
     const pkg = matchPkg(d, name), href = `${ROOT}${d.code.toLowerCase()}/${pkg ? "?pkg=" + encodeURIComponent(pkg.id) : ""}`;
-    const route = routeOf(d, pkg), tier = tierOf(name), dur = (String(name).match(/\d+D\d+N/i) || (pkg && pkg.label.match(/\d+D\d+N/)) || [""])[0].toUpperCase();
+    const fix = CATALOG_ROUTE[name] || [];
+    const route = fix[0] || routeOf(d, pkg), tier = tierOf(name), dur = fix[1] || (String(name).match(/\d+D\d+N/i) || (pkg && pkg.label.match(/\d+D\d+N/)) || [""])[0].toUpperCase();
     const e = lastUpdate(d, pkg ? pkg.id : null), saved = e && e.changes && e.changes.length ? `v${e.v} · ${e.by}` : "";
     return { route, tier, sortKey: (route + " " + tier + " " + dur).toLowerCase(), html: `<a class="row" href="${href}" title="${esc(name)}" data-search="${esc([route, d.name, tier, dur, name, d.code, d.po || ""].join(" ").toLowerCase())}"><span class="dest">${esc(route)}<span class="tier">${esc(tier)}</span></span><span class="dur">${esc(dur)}</span><span class="po">${esc(d.code)} · ${esc(d.po || "—")}</span><span class="upd"${saved ? ` title="${esc(saved)}"` : ""}>${e ? "updated " + iso(e) : ""}</span></a>` };
   })).sort((a, b) => a.sortKey.localeCompare(b.sortKey));
