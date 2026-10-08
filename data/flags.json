@@ -1,7 +1,17 @@
 {
- "generatedAt": "2026-10-08T22:18:05+08:00",
+ "generatedAt": "2026-10-08T21:58:57+08:00",
  "dataVersion": 28,
  "flags": [
+  {
+   "code": "ACEHSBG",
+   "package": "PT ACEH + SABANG 5D4N",
+   "severity": "high",
+   "area": "Price",
+   "title": "PT ACEH + SABANG 5D4N: hub price ≠ catalog",
+   "detail": "CWB pax 2–15 — e.g. 2 pax catalog RM1,037 vs hub RM1,397 (gap -360, -340, -300, -280) · CNB pax 2–15 — e.g. 2 pax catalog RM877 vs hub RM1,197 (gap -320, -300, -250, -220).",
+   "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
+   "id": 1
+  },
   {
    "code": "BKK",
    "package": null,
@@ -10,7 +20,7 @@
    "title": "Bangkok: margin problems in 3 package/TO lines",
    "detail": "Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 2 (lowest 10.0%) · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — adult margin under 10% Pax 2, 26, 28–30 (lowest 6.8%) · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — CWB selling below cost Pax 28–30.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 1
+   "id": 2
   },
   {
    "code": "BKK",
@@ -20,7 +30,7 @@
    "title": "PT BANGKOK STANDARD 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,597 vs hub RM1,897 (gap -400, -300, -250) · CWB pax 2–10 — e.g. 2 pax catalog RM1,497 vs hub RM1,797 (gap -400, -300, -250) · CNB pax 2–10 — e.g. 2 pax catalog RM1,397 vs hub RM1,597 (gap -300, -200, -150).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 2
+   "id": 3
   },
   {
    "code": "CTS",
@@ -30,7 +40,7 @@
    "title": "PT HOKKAIDO - SAPPORO 5D4N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM8,397 vs hub RM7,197 (gap +1200) · CWB pax 2–10 — e.g. 2 pax catalog RM8,197 vs hub RM6,997 (gap +1200) · CNB pax 2–10 — e.g. 2 pax catalog RM7,997 vs hub RM6,797 (gap +1200).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 3
+   "id": 4
   },
   {
    "code": "DADH",
@@ -40,7 +50,7 @@
    "title": "Danang - Hoi An: margin problems in 1 package/TO line",
    "detail": "Danang - Hoi An 4D3N · 4★ — CNB selling below cost Pax 26–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price.",
-   "id": 4
+   "id": 5
   },
   {
    "code": "DADH",
@@ -50,7 +60,7 @@
    "title": "PT DANANG - HOI AN 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 2–12 — e.g. 2 pax catalog RM2,217 vs hub RM2,177 (gap +40, +200, +300) · CWB pax 2–12 — e.g. 2 pax catalog RM2,017 vs hub RM1,977 (gap +40, +170, +200, +300) · CNB pax 2–12 — e.g. 2 pax catalog RM1,817 vs hub RM1,237 (gap +540, +580, +590, +610).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 5
+   "id": 6
   },
   {
    "code": "DLMNHCM",
@@ -60,7 +70,7 @@
    "title": "PT HO CHI MINH - DALAT - MUINE 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 3–12 — e.g. 3 pax catalog RM1,537 vs hub RM1,577 (gap -40, +60) · CWB pax 3–12 — e.g. 3 pax catalog RM1,337 vs hub RM1,477 (gap -140, -40, +60) · CNB pax 3–12 — e.g. 3 pax catalog RM1,137 vs hub RM1,277 (gap -140, -40, +60).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 6
+   "id": 7
   },
   {
    "code": "HCM",
@@ -70,7 +80,7 @@
    "title": "PT HO CHI MINH 4D3N has no costing in the hub",
    "detail": "Catalog v1 (2025-12-08) exists but the hub has no package for it, so cost and margin are unknown.",
    "fix": "Add the package and its TO rates in the hub.",
-   "id": 7
+   "id": 8
   },
   {
    "code": "ISTCAP",
@@ -80,7 +90,7 @@
    "title": "Istanbul - Cappadocia: margin problems in 2 package/TO lines",
    "detail": "Istanbul - Cappadocia Self Tour 6D5N — adult margin under 10% Pax 2–4, 7–8 (lowest 7.8%) · Istanbul - Cappadocia Self Tour 6D5N — CNB selling below cost Pax 2, 4–5, 7–11.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Review the price for these pax or the TO rate.",
-   "id": 8
+   "id": 9
   },
   {
    "code": "JBDO",
@@ -90,7 +100,7 @@
    "title": "Jakarta - Bandung · Jakarta - Bandung 4D3N: price but no cost",
    "detail": "Pax 11–19 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 9
+   "id": 10
   },
   {
    "code": "KKK",
@@ -100,7 +110,7 @@
    "title": "KK Kundasang: margin problems in 11 package/TO lines",
    "detail": "KK Kundasang Basic 3D2N · Hotel — adult margin under 10% Pax 7–30 (lowest 3.8%) · KK Kundasang Basic 3D2N · Hotel — CWB selling below cost Pax 2 · KK Kundasang Basic 3D2N · Hotel — CNB selling below cost Pax 2–15 · KK Kundasang Basic 3D2N · Guesthouse — adult margin under 10% Pax 8–30 (lowest 3.8%) · KK Kundasang Basic 3D2N · Guesthouse — CWB selling below cost Pax 2–7 · KK Kundasang Basic 3D2N · Guesthouse — CNB selling below cost Pax 2–5 · KK Kundasang Standard 4D3N · Hotel — CWB selling below cost Pax 2–7 · KK Kundasang Standard 4D3N · Hotel — CNB selling below cost Pax 2–3 · KK Kundasang Standard 4D3N · Guesthouse — adult margin under 10% Pax 16–30 (lowest 7.1%) · KK Kundasang Standard 4D3N · Guesthouse — CWB selling below cost Pax 2–5 · KK Kundasang Standard 4D3N · Guesthouse — CNB selling below cost Pax 2–3.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 10
+   "id": 11
   },
   {
    "code": "KKK",
@@ -110,7 +120,7 @@
    "title": "PT KK - KUNDASANG BASIC 3D2N: hub price ≠ catalog",
    "detail": "CWB pax 2–4, 7–10 — e.g. 2 pax catalog RM1,017 vs hub RM807 (gap -50, -30, +50, +210) · CNB pax 2–10 — e.g. 2 pax catalog RM917 vs hub RM557 (gap +100, +120, +150, +200).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 11
+   "id": 12
   },
   {
    "code": "KKK",
@@ -120,7 +130,7 @@
    "title": "PT KK - KUNDASANG STANDARD 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 10 — e.g. 10 pax catalog RM1,097 vs hub RM1,077 (gap +20) · CWB pax 2–10 — e.g. 2 pax catalog RM1,357 vs hub RM857 (gap +140, +200, +240, +400) · CNB pax 2–10 — e.g. 2 pax catalog RM1,257 vs hub RM757 (gap +140, +200, +240, +400).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 12
+   "id": 13
   },
   {
    "code": "KMGDL",
@@ -130,7 +140,7 @@
    "title": "PT YUNNAN 3 WILAYAH 6D5N has no costing in the hub",
    "detail": "Catalog v1 (2026-07-29) exists but the hub has no package for it, so cost and margin are unknown.",
    "fix": "Add the package and its TO rates in the hub.",
-   "id": 13
+   "id": 14
   },
   {
    "code": "MLE",
@@ -140,7 +150,7 @@
    "title": "PAKEJ MALDIVES 4 STAR 4D3N has no costing in the hub",
    "detail": "Catalog v3 (2025-12-03) exists but the hub has no package for it, so cost and margin are unknown.",
    "fix": "Add the package and its TO rates in the hub.",
-   "id": 14
+   "id": 15
   },
   {
    "code": "NSNZ",
@@ -150,7 +160,7 @@
    "title": "PT NEW ZEALAND NORTH & SOUTH ISLAND 10D9N: hub price ≠ catalog",
    "detail": "CWB pax 4 — e.g. 4 pax catalog RM11,397 vs hub RM11,497 (gap -100) · CNB pax 4 — e.g. 4 pax catalog RM11,197 vs hub RM11,297 (gap -100).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 15
+   "id": 16
   },
   {
    "code": "PEK",
@@ -160,7 +170,7 @@
    "title": "Beijing: margin problems in 2 package/TO lines",
    "detail": "Beijing Standard 5D4N — adult margin under 10% Pax 2–3 (lowest 1.3%) · Beijing Standard 5D4N — CWB selling below cost Pax 2–3.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 16
+   "id": 17
   },
   {
    "code": "PHT",
@@ -170,7 +180,7 @@
    "title": "Perhentian: margin problems in 2 package/TO lines",
    "detail": "Perhentian Basic 3D2N · Shari-La Resort — adult margin under 10% Pax 26–30 (lowest 3.2%) · Perhentian Basic 3D2N · Shari-La Resort — CWB selling below cost Pax 21–30.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 17
+   "id": 18
   },
   {
    "code": "PHU",
@@ -180,7 +190,7 @@
    "title": "Phuket: margin problems in 15 package/TO lines",
    "detail": "Phuket Standard 4D3N · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 26–30 (worst -2%) · Phuket Standard 4D3N · Ibis 3★ · Low Season — adult margin under 10% Pax 16–25 (lowest 3.3%) · Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr — adult margin under 10% Pax 16–30 (lowest 1.2%) · Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr — adult margin under 10% Pax 21–30 (lowest 4.8%) · Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec — adult margin under 10% Pax 21–30 (lowest 5.0%) · Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec — adult margin under 10% Pax 26–30 (lowest 7.9%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 16–30 (worst -8%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — adult margin under 10% Pax 5–15 (lowest 0.6%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CWB selling below cost Pax 16–30 · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30 · Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season — adult margin under 10% Pax 21–30 (lowest 7.6%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 21–30 (worst -5%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — adult margin under 10% Pax 5–20 (lowest 1.2%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CWB selling below cost Pax 21–30 · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Raise the price for those pax or renegotiate the TO rate. Review the price for these pax or the TO rate.",
-   "id": 18
+   "id": 19
   },
   {
    "code": "PHU",
@@ -190,7 +200,7 @@
    "title": "PAKEJ PHUKET BASIC 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,397 vs hub RM1,197 (gap +200, +300) · CWB pax 2–10 — e.g. 2 pax catalog RM1,197 vs hub RM997 (gap +200, +300) · CNB pax 2–10 — e.g. 2 pax catalog RM997 vs hub RM797 (gap +200, +300).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 19
+   "id": 20
   },
   {
    "code": "PHU",
@@ -200,7 +210,7 @@
    "title": "PAKEJ PHUKET STANDARD 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,797 vs hub RM1,597 (gap +200, +400) · CWB pax 2–10 — e.g. 2 pax catalog RM1,597 vs hub RM1,397 (gap +200, +400) · CNB pax 2–10 — e.g. 2 pax catalog RM1,397 vs hub RM1,197 (gap +200, +400).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 20
+   "id": 21
   },
   {
    "code": "PQC",
@@ -210,7 +220,7 @@
    "title": "Phu Quoc: margin problems in 4 package/TO lines",
    "detail": "Phu Quoc 4D3N — adult margin under 10% Pax 2, 4–5, 26–30 (lowest 1.8%) · Phu Quoc 4D3N — CWB selling below cost Pax 2, 5, 21–30 · Phu Quoc 4D3N — CNB selling below cost Pax 26–30 · Phu Quoc 5D4N — CWB selling below cost Pax 26–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 21
+   "id": 22
   },
   {
    "code": "SEL",
@@ -220,7 +230,7 @@
    "title": "Seoul · Seoul Self Tour 5D4N: price but no cost",
    "detail": "Pax 13–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 22
+   "id": 23
   },
   {
    "code": "SELJJU",
@@ -230,7 +240,7 @@
    "title": "PT SEOUL - JEJU STANDARD 6D5N: hub price ≠ catalog",
    "detail": "ADULT pax 2–15 — e.g. 2 pax catalog RM6,197 vs hub RM5,897 (gap +300) · CWB pax 2–15 — e.g. 2 pax catalog RM5,997 vs hub RM5,697 (gap +300) · CNB pax 2–15 — e.g. 2 pax catalog RM5,797 vs hub RM5,497 (gap +300).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 23
+   "id": 24
   },
   {
    "code": "SEM",
@@ -240,7 +250,7 @@
    "title": "PAKEJ SEMPORNA BASIC 3D2N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,397 vs hub RM1,537 (gap -140) · CWB pax 2–10 — e.g. 2 pax catalog RM1,197 vs hub RM1,097 (gap +100) · CNB pax 2–10 — e.g. 2 pax catalog RM997 vs hub RM917 (gap +80).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 24
+   "id": 25
   },
   {
    "code": "SEM",
@@ -250,7 +260,7 @@
    "title": "PAKEJ SEMPORNA STANDARD 4D3N: hub price ≠ catalog",
    "detail": "ADULT pax 2–10 — e.g. 2 pax catalog RM1,597 vs hub RM1,757 (gap -160) · CWB pax 2–10 — e.g. 2 pax catalog RM1,457 vs hub RM1,297 (gap +160) · CNB pax 2–10 — e.g. 2 pax catalog RM1,357 vs hub RM967 (gap +390).",
    "fix": "Decide which is right. Catalog right → change the catalog price on the Costing tab (Edit costs). Hub right → re-issue the catalog.",
-   "id": 25
+   "id": 26
   },
   {
    "code": "SUBB",
@@ -260,7 +270,7 @@
    "title": "Surabaya - Bromo - Malang: margin problems in 2 package/TO lines",
    "detail": "Surabaya - Bromo - Malang 4D3N — CWB selling below cost Pax 2 · Surabaya - Bromo - Malang 4D3N — CNB selling below cost Pax 2.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price.",
-   "id": 26
+   "id": 27
   },
   {
    "code": "ALL",
@@ -270,7 +280,7 @@
    "title": "AUD → MYR differs between destinations",
    "detail": "2.85 = MEL; 2.853746 = PER.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 27
+   "id": 28
   },
   {
    "code": "ALL",
@@ -280,7 +290,7 @@
    "title": "IDR → MYR differs between destinations",
    "detail": "0.00022249 = DPS; 0.00022733 = JOG, LOP.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 28
+   "id": 29
   },
   {
    "code": "ALL",
@@ -290,7 +300,7 @@
    "title": "JPY → MYR differs between destinations",
    "detail": "0.0259 = KIX, OSK; 0.026 = HND; 0.029 = CTS, KIX, OSK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 29
+   "id": 30
   },
   {
    "code": "ALL",
@@ -300,7 +310,7 @@
    "title": "RMB → MYR differs between destinations",
    "detail": "0.58 = KMGDLS; 0.65 = PEK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 30
+   "id": 31
   },
   {
    "code": "ALL",
@@ -310,7 +320,7 @@
    "title": "THB → MYR differs between destinations",
    "detail": "0.122 = KBV, PHU; 0.131 = BKK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 31
+   "id": 32
   },
   {
    "code": "ALL",
@@ -320,7 +330,7 @@
    "title": "USD → MYR differs between destinations",
    "detail": "3.97 = ISTBUR, TUR; 4.0295 = ISTCAP.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 32
+   "id": 33
   },
   {
    "code": "BKK",
@@ -330,7 +340,7 @@
    "title": "PT BANGKOK STANDARD 4D3N: hub price changes inside a catalog pax band",
    "detail": "The catalog prints one price per band (its first pax); the hub has different prices inside: ADULT 6 - 10 pax (RM1,447 / RM1,497 / RM1,597); CWB 6 - 10 pax (RM1,347 / RM1,397 / RM1,497); CNB 6 - 10 pax (RM1,147 / RM1,197 / RM1,297).",
    "fix": "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.",
-   "id": 33
+   "id": 34
   },
   {
    "code": "DADH",
@@ -340,7 +350,7 @@
    "title": "PT DANANG - HOI AN 4D3N: hub price changes inside a catalog pax band",
    "detail": "The catalog prints one price per band (its first pax); the hub has different prices inside: ADULT 8 - 12 pax (RM1,377 / RM1,477); CWB 8 - 12 pax (RM1,177 / RM1,277); CNB 8 - 12 pax (RM687 / RM737).",
    "fix": "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.",
-   "id": 34
+   "id": 35
   },
   {
    "code": "HND",
@@ -350,7 +360,7 @@
    "title": "Tokyo: margin problems in 1 package/TO line",
    "detail": "Tokyo Standard 5D4N — adult margin under 10% Pax 2 (lowest 6.6%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 35
+   "id": 36
   },
   {
    "code": "HNSH",
@@ -360,7 +370,7 @@
    "title": "Hanoi - Sapa - Halong Bay · Hanoi - Halong Bay 4D3N: price but no cost",
    "detail": "Pax 21–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 36
+   "id": 37
   },
   {
    "code": "HNSH",
@@ -370,7 +380,7 @@
    "title": "Hanoi - Sapa - Halong Bay · Hanoi - Sapa 5D4N: price but no cost",
    "detail": "Pax 21–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 37
+   "id": 38
   },
   {
    "code": "JJU",
@@ -380,7 +390,7 @@
    "title": "Jeju · Jeju Standard 4D3N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 38
+   "id": 39
   },
   {
    "code": "JJUO",
@@ -390,7 +400,7 @@
    "title": "Jeju - Udo · Jeju - Udo Standard 5D4N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 39
+   "id": 40
   },
   {
    "code": "JJUO",
@@ -400,7 +410,7 @@
    "title": "Jeju - Udo: margin problems in 1 package/TO line",
    "detail": "Jeju - Udo Standard 5D4N — adult margin under 10% Pax 2–3, 10 (lowest 3.8%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 40
+   "id": 41
   },
   {
    "code": "KKK",
@@ -410,7 +420,7 @@
    "title": "PT KK - KUNDASANG BASIC 3D2N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT/CWB/CNB) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 41
+   "id": 42
   },
   {
    "code": "KKK",
@@ -420,7 +430,7 @@
    "title": "PT KK - KUNDASANG STANDARD 4D3N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT/CWB/CNB) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 42
+   "id": 43
   },
   {
    "code": "KKK",
@@ -430,7 +440,7 @@
    "title": "PT KK - KUNDASANG STANDARD 4D3N: hub price changes inside a catalog pax band",
    "detail": "The catalog prints one price per band (its first pax); the hub has different prices inside: ADULT 8 - 10 pax (RM1,077 / RM1,097).",
    "fix": "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.",
-   "id": 43
+   "id": 44
   },
   {
    "code": "MEL",
@@ -440,7 +450,7 @@
    "title": "Melbourne: margin problems in 2 package/TO lines",
    "detail": "Melbourne Basic 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%) · Melbourne Standard 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 44
+   "id": 45
   },
   {
    "code": "PER",
@@ -450,7 +460,7 @@
    "title": "Perth: margin problems in 2 package/TO lines",
    "detail": "Perth Standard 5D4N — adult margin under 10% Pax 2 (lowest 10.0%) · Perth Premium 6D5N — adult margin under 10% Pax 2 (lowest 8.9%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 45
+   "id": 46
   },
   {
    "code": "PHT",
@@ -460,7 +470,7 @@
    "title": "PAKEJ PERHENTIAN BASIC 3D2N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 46
+   "id": 47
   },
   {
    "code": "PHT",
@@ -470,7 +480,7 @@
    "title": "PAKEJ PERHENTIAN STANDARD 3D2N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 47
+   "id": 48
   },
   {
    "code": "PHU",
@@ -480,7 +490,7 @@
    "title": "PAKEJ PHUKET BASIC 4D3N: hub price changes inside a catalog pax band",
    "detail": "The catalog prints one price per band (its first pax); the hub has different prices inside: ADULT 2 - 10 pax (RM1,097 / RM1,197); CWB 2 - 10 pax (RM897 / RM997); CNB 2 - 10 pax (RM697 / RM797).",
    "fix": "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.",
-   "id": 48
+   "id": 49
   },
   {
    "code": "PHU",
@@ -490,7 +500,7 @@
    "title": "PAKEJ PHUKET STANDARD 4D3N: hub price changes inside a catalog pax band",
    "detail": "The catalog prints one price per band (its first pax); the hub has different prices inside: ADULT 2 - 10 pax (RM1,397 / RM1,597); CWB 2 - 10 pax (RM1,197 / RM1,397); CNB 2 - 10 pax (RM997 / RM1,197).",
    "fix": "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.",
-   "id": 49
+   "id": 50
   },
   {
    "code": "SEL",
@@ -500,7 +510,7 @@
    "title": "Seoul · Seoul Basic 5D4N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 50
+   "id": 51
   },
   {
    "code": "SELJJU",
@@ -510,7 +520,7 @@
    "title": "Seoul - Jeju: add-on \"Tolak 1 malam 3★ dari pakej\" cost and selling have opposite signs",
    "detail": "Cost RM150, selling RM-150 → margin RM-300.",
    "fix": "Use the same sign for a deduction (e.g. both negative).",
-   "id": 51
+   "id": 52
   },
   {
    "code": "SELJJU",
@@ -520,7 +530,7 @@
    "title": "Seoul - Jeju · Seoul - Jeju Standard 6D5N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 52
+   "id": 53
   },
   {
    "code": "SELJJU",
@@ -530,7 +540,7 @@
    "title": "Seoul - Jeju: margin problems in 1 package/TO line",
    "detail": "Seoul - Jeju Standard 6D5N — adult margin under 10% Pax 2 (lowest 6.8%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 53
+   "id": 54
   },
   {
    "code": "SEM",
@@ -540,7 +550,7 @@
    "title": "PAKEJ SEMPORNA BASIC 3D2N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 54
+   "id": 55
   },
   {
    "code": "SEM",
@@ -550,7 +560,7 @@
    "title": "PAKEJ SEMPORNA STANDARD 4D3N: catalog prices pax the hub does not",
    "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
    "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 55
+   "id": 56
   },
   {
    "code": "SWS",
@@ -560,7 +570,7 @@
    "title": "Switzerland: margin problems in 1 package/TO line",
    "detail": "Switzerland Self Tour 7D6N — adult margin under 10% Pax 2–14 (lowest 9.9%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 56
+   "id": 57
   },
   {
    "code": "ACEH",
@@ -570,7 +580,7 @@
    "title": "Aceh: 2 package(s) without their own catalog",
    "detail": "Aceh 4D3N · 4★; Aceh 4D3N · 5★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 57
+   "id": 58
   },
   {
    "code": "ACEHSBG",
@@ -580,7 +590,7 @@
    "title": "Aceh - Sabang: 2 package(s) without their own catalog",
    "detail": "Aceh - Sabang 5D4N · 4★; Aceh - Sabang 5D4N · 5★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 58
+   "id": 59
   },
   {
    "code": "BKK",
@@ -590,7 +600,7 @@
    "title": "Bangkok: 2 package(s) without their own catalog",
    "detail": "Bangkok Standard 4D3N · 4★ Nouvo City / Zayn; Bangkok Standard 4D3N · 5★ Al-Meroz. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 59
+   "id": 60
   },
   {
    "code": "BKK",
@@ -600,7 +610,7 @@
    "title": "Bangkok: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 60
+   "id": 61
   },
   {
    "code": "DADH",
@@ -610,7 +620,7 @@
    "title": "Danang - Hoi An: 1 package(s) without their own catalog",
    "detail": "Danang - Hoi An 5D4N · 3★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 61
+   "id": 62
   },
   {
    "code": "HND",
@@ -620,7 +630,7 @@
    "title": "Tokyo: 1 package(s) without their own catalog",
    "detail": "Tokyo Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 62
+   "id": 63
   },
   {
    "code": "HNSH",
@@ -630,7 +640,7 @@
    "title": "Hanoi - Sapa - Halong Bay: 2 package(s) without their own catalog",
    "detail": "Hanoi - Halong Bay 4D3N; Hanoi - Sapa 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 63
+   "id": 64
   },
   {
    "code": "ISTBUR",
@@ -640,7 +650,7 @@
    "title": "Istanbul - Bursa: 7 add-on(s) without cost",
    "detail": "Uludag Snow Park 1D1N (2 pax); Uludag Snow Park 1D1N (3 pax); Uludag Snow Park 1D1N (4+ pax); Bosphorus Dinner Cruise; Topkapi Palace Entrance; Whirling Dervishes Show …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 64
+   "id": 65
   },
   {
    "code": "ISTBUR",
@@ -650,7 +660,7 @@
    "title": "Project PT sheet: ISTBUR and ISTCAP catalog names swapped",
    "detail": "Row ISTBUR shows \"PT ISTANBUL CAPPADOCIA 6D5N\"; row ISTCAP shows \"PT ISTANBUL BURSA 5D4N\".",
    "fix": "Swap the two Catalog cells in the Project PT Overview tab.",
-   "id": 65
+   "id": 66
   },
   {
    "code": "ISTCAP",
@@ -660,7 +670,7 @@
    "title": "Istanbul - Cappadocia: 1 package(s) without their own catalog",
    "detail": "Istanbul - Cappadocia Self Tour 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 66
+   "id": 67
   },
   {
    "code": "JJU",
@@ -670,7 +680,7 @@
    "title": "Jeju: 1 package(s) without their own catalog",
    "detail": "Jeju Self Tour 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 67
+   "id": 68
   },
   {
    "code": "KBV",
@@ -680,7 +690,7 @@
    "title": "Krabi: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 68
+   "id": 69
   },
   {
    "code": "KKK",
@@ -690,7 +700,7 @@
    "title": "KK Kundasang: 4 package(s) without their own catalog",
    "detail": "KK Kundasang Basic 3D2N · Guesthouse; KK Kundasang Standard 4D3N · Guesthouse; KK Kundasang Honeymoon 3D2N; KK Kundasang Honeymoon 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 69
+   "id": 70
   },
   {
    "code": "LOP",
@@ -700,7 +710,7 @@
    "title": "Lombok: 2 package(s) without their own catalog",
    "detail": "Lombok Honeymoon 4D3N · 3★; Lombok Honeymoon 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 70
+   "id": 71
   },
   {
    "code": "LTOBA",
@@ -710,7 +720,7 @@
    "title": "Medan - Lake Toba: 1 package(s) without their own catalog",
    "detail": "Medan - Lake Toba 4D3N · Samosir. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 71
+   "id": 72
   },
   {
    "code": "MLE",
@@ -720,7 +730,7 @@
    "title": "Maldives: 7 package(s) without their own catalog",
    "detail": "Maldives Basic 4D3N · High Season; Maldives Basic 4D3N · Peak Season; Maldives Combo Island 4D3N · High Season; Maldives Combo Island 4D3N · Peak Season; Maldives Combo Island 4D3N · Shoulder Season; Maldives Water Villa 4D3N · High Season; Maldives Water Villa 4D3N · Peak Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 72
+   "id": 73
   },
   {
    "code": "MLE",
@@ -730,7 +740,7 @@
    "title": "Maldives: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Acap.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 73
+   "id": 74
   },
   {
    "code": "NSNZ",
@@ -740,7 +750,7 @@
    "title": "New Zealand: 1 package(s) without their own catalog",
    "detail": "New Zealand North 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 74
+   "id": 75
   },
   {
    "code": "PDG",
@@ -750,7 +760,7 @@
    "title": "Padang - Bukittinggi: 1 package(s) without their own catalog",
    "detail": "Padang - Bukittinggi 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 75
+   "id": 76
   },
   {
    "code": "PHT",
@@ -760,7 +770,7 @@
    "title": "Perhentian: 5 add-on(s) without cost",
    "detail": "Private Boat Transfer Return; Private Boat Island Hopping (5 snorkel pts); Single Supplement (BASIC); Single Supplement (STANDARD); Late Booking Surcharge",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 76
+   "id": 77
   },
   {
    "code": "PHU",
@@ -770,7 +780,7 @@
    "title": "Phuket: 8 package(s) without their own catalog",
    "detail": "Phuket Standard 4D3N · Marina 4★ · Low Season; Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr; Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr; Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec; Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec; Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season; Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season; Phuket Basic 4D3N (James Bond) · Marina 4★ · Low Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 77
+   "id": 78
   },
   {
    "code": "PHU",
@@ -780,7 +790,7 @@
    "title": "Phuket: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 78
+   "id": 79
   },
   {
    "code": "SEL",
@@ -790,7 +800,7 @@
    "title": "Seoul: 15 add-on(s) without cost",
    "detail": "Hanbok Rental @ Gyeongbok Palace; Airport transfer Hotel/ICN ↔ Gimpo (7–9 pax); Malay student guide (F&E day); Driving outskirt Busan–Seoul (Solati 10–13 pax); Driver only — Seoul; Driver only — Nami …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 79
+   "id": 80
   },
   {
    "code": "SEL",
@@ -800,7 +810,7 @@
    "title": "Seoul: 1 package(s) without their own catalog",
    "detail": "Seoul Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 80
+   "id": 81
   },
   {
    "code": "SEM",
@@ -810,7 +820,7 @@
    "title": "Semporna: 6 package(s) without their own catalog",
    "detail": "Semporna Basic 3D2N · 2★ Water Chalet; Semporna Basic 3D2N · 3★ Mabul; Semporna Standard 4D3N · 2★ Water Chalet; Semporna Standard 4D3N · 3★ Singamata; Semporna Honeymoon · 1★ Water Chalet; Semporna Honeymoon · 2★ Water Chalet. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 81
+   "id": 82
   },
   {
    "code": "SUBB",
@@ -820,7 +830,7 @@
    "title": "Surabaya - Bromo - Malang: 8 add-on(s) without cost",
    "detail": "Water Fall Tumpak Sewu + Goa Tetes + Kapas Biru; Local Guide Tumpak Sewu; Kawah Ijen Tour; Semeru Lava Tour; ATV Semeru Rental (1 hour); Panorama Kapas Biru …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 82
+   "id": 83
   },
   {
    "code": "SUBB",
@@ -830,7 +840,7 @@
    "title": "Surabaya - Bromo - Malang: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Aiman.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 83
+   "id": 84
   }
  ]
 }

@@ -10,8 +10,8 @@
   "route": "Banda Aceh - Sabang Island - Dolphin Tour - Rubiah Island",
   "basis": "Ground & Tipping",
   "valid_until": "31 January 2027",
-  "version": "v3",
-  "updated": "2026-10-08",
+  "version": "v2",
+  "updated": "2026-03-01",
   "kb_url": "https://prod-at22.github.io/arba-aceh-kb/",
   "po": "Fyka",
   "ops": "ILY",
@@ -50,32 +50,32 @@
         "pax": "2",
         "amounts": [
           "RM1,597",
-          "RM1,397",
-          "RM1,197"
+          "RM1,037",
+          "RM877"
         ]
       },
       {
         "pax": "3 - 5",
         "amounts": [
           "RM1,557",
-          "RM1,357",
-          "RM1,157"
+          "RM1,017",
+          "RM857"
         ]
       },
       {
         "pax": "6 - 10",
         "amounts": [
           "RM1,497",
-          "RM1,297",
-          "RM1,097"
+          "RM997",
+          "RM847"
         ]
       },
       {
         "pax": "11 - 15",
         "amounts": [
           "RM1,457",
-          "RM1,257",
-          "RM1,057"
+          "RM977",
+          "RM837"
         ]
       }
     ],
