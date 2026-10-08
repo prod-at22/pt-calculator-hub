@@ -17,8 +17,10 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - Destination page: header (PO, locked FX chips) · **Package** (package name only) · **Tour operator** (operator
   name only; lists just that package's TOs, auto-picked by pax) · tabs Costing / TO Contract Rate / Add-ons / Flags / History.
 - Costing table: one block per TO; component columns (group RM), headers = component name only. Rate-built TOs
-  (Tokyo) get a **Show calculation** button: each cell then shows its formula at that pax, e.g.
-  "¥22,000 × 2 × 0.026 = 1,144", one line, same font as other cells (calcText in app.js; bands resolved per pax). A component RM0 at every pax is
+  (Tokyo) get a **Show calculation** button: it reveals a horizontal **Rate reference** (one column per code:
+  A, B, … = rates in order of use, then the FX; item · pax band, supplier, rate; note on hover) above Costing by
+  pax, and each cell shows its formula in those codes, e.g. "A × 2 × R = 1,144" (rateCodes / rateRef / calcText
+  in app.js). Hidden again when the button is off. A component RM0 at every pax is
   hidden; a single cost line shows as Cost/Pax only. Cost/Pax · Catalog Price · **Selling Price = Catalog − RM200**
   (settings.sellingDiscount, all packages; infant no discount) · Margin (green +, red −) · % · Total Gross.
   Grey/white rows, one header colour, all centred. No Source column, no Quote / Rates & FX tabs.

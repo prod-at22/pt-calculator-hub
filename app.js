@@ -20,7 +20,7 @@ let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
 const TABS = [["costing", "Costing"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
@@ -356,7 +356,7 @@ function renderMain(d, pkg) {
   const pax = bandPax();
   $("#kpis").innerHTML = "";
   const T = SEL.tab;
-  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + costingByPax(d, pkg, pax);
+  if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + costingByPax(d, pkg, pax);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons in the R&D for ${esc(d.name)}.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -419,7 +419,7 @@ const sellLabel = () => "Selling Price";
 // 2*R.hndQ at Qayyum FX → "¥22,000 × 2 × 0.026". band(pax, …) is resolved to the band used at this pax.
 // Table-based components (T[…]) and plain RM lines get none.
 const CUR = { JPY: "¥", KRW: "₩", USD: "US$", EUR: "€" };
-function calcText(d, expr, pax) {
+function calcText(d, expr, pax, codes) {
   if (!/\bR\.\w/.test(expr) || /\bT\[/.test(expr)) return "";
   const R = Object.fromEntries(d.rates.map(r => [r.id, r]));
   const fxOf = r => r.fx === "MYR" ? null : d.fx.find(x => x.id === r.fx);
@@ -432,21 +432,54 @@ function calcText(d, expr, pax) {
   const fxs = [...new Set(ids.map(id => (fxOf(R[id]) || { id: "MYR" }).id))];
   const one = fxs.length === 1 ? fxOf(R[ids[0]]) : null;   // one foreign FX → multiply once at the end
   const fmt = v => (+v).toLocaleString("en-MY", { maximumFractionDigits: 6 });
-  e = e.replace(/R\.(\w+)/g, (m, id) => { const r = R[id]; if (!r) return m; const f = fxOf(r), t = cur(r) + fmt(r.value);
-      return f && !one && fxs.length > 1 ? `{${t}*${fmt(f.value)}}` : t; })
-    .replace(/\bN\b/g, fmt(+d.nights)).replace(/\bpax\b/g, `${pax} pax`)
+  const fxTxt = f => codes ? codes.fx[f.id] : fmt(f.value);
+  e = e.replace(/\bN\b/g, fmt(+d.nights)).replace(/\bpax\b/g, `${pax} pax`)   // before the codes: "N" can be a code
+    .replace(/R\.(\w+)/g, (m, id) => { const r = R[id]; if (!r) return m; const f = fxOf(r), t = codes ? codes.r[id] : cur(r) + fmt(r.value);
+      return f && !one && fxs.length > 1 ? `{${t}*${fxTxt(f)}}` : t; })
     .replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
     .replace(/^(\d+) × (.+)$/, "$2 × $1").replace(/\{([^}]+)\}/g, "($1)");
-  if (one) e = (/ \+ /.test(e.replace(/\([^()]*\)/g, "")) ? `(${e})` : e) + ` × ${fmt(one.value)}`;
+  if (one) e = (/ \+ /.test(e.replace(/\([^()]*\)/g, "")) ? `(${e})` : e) + ` × ${fxTxt(one)}`;
   return e;
 }
 const hasCalc = (d, pkg) => pkg.assign.some(a => { const v = d.variants.find(x => x.id === a.variant); return v && v.components.some(c => calcText(d, c.expr, 2)); });
+// Letter codes for the rates (then the FX) a rate-built package uses, in order of use: A, B, … Z, AA, …
+function rateCodes(d, pkg) {
+  const R = Object.fromEntries(d.rates.map(r => [r.id, r])), rIds = [], fIds = [], codes = { r: {}, fx: {}, pax: {}, rIds, fIds };
+  for (const a of pkg.assign) { const v = d.variants.find(x => x.id === a.variant); if (!v) continue;
+    for (const c of v.components) { if (!calcText(d, c.expr, 2)) continue;
+      // a rate inside band(pax, …) applies to part of this TO's pax range only, e.g. "8–9 pax"
+      for (const b of c.expr.matchAll(/band\(pax,((?:\[[^\]]+\],?)+)\)/g)) { let lo = 1;
+        for (const m of b[1].matchAll(/\[(\d+),([^\]]+)\]/g)) { const x = Math.max(lo, a.from), y = Math.min(+m[1], a.to); lo = +m[1] + 1;
+          if (x <= y) for (const r of m[2].matchAll(/R\.(\w+)/g)) codes.pax[r[1]] = x === y ? `${x} pax` : y >= a.to && +m[1] >= 999 ? `${x}+ pax` : `${x}–${y} pax`; } }
+      for (const m of c.expr.matchAll(/R\.(\w+)/g)) { const r = R[m[1]]; if (!r || rIds.includes(r.id)) continue; rIds.push(r.id);
+        if (r.fx !== "MYR" && !fIds.includes(r.fx)) fIds.push(r.fx); } } }
+  const L = i => (i >= 26 ? L(Math.floor(i / 26) - 1) : "") + String.fromCharCode(65 + i % 26);
+  rIds.forEach((id, i) => codes.r[id] = L(i)); fIds.forEach((id, i) => codes.fx[id] = L(rIds.length + i));
+  return codes;
+}
+// "Rate reference": the table the letter codes in Show calculation point to.
+function rateRef(d, pkg) {
+  if (!SEL.showRef || !hasCalc(d, pkg)) return "";   // hidden until Show rate reference is on
+  const codes = rateCodes(d, pkg), R = Object.fromEntries(d.rates.map(r => [r.id, r]));
+  const cap = s => s.length <= 4 ? s : s.charAt(0) + s.slice(1).toLowerCase();   // WIF, ATK stay upper case
+  const sym = r => { if (r.fx === "MYR") return "RM"; const f = d.fx.find(x => x.id === r.fx), m = /\b(JPY|KRW|USD|EUR|THB|IDR|AUD|NZD|CNY|RMB|VND|TRY|CHF|SGD)\b/.exec(f ? f.label : ""); return m ? (CUR[m[1]] || m[1] + " ") : ""; };
+  const split = lbl => { const m = /^(.*?)\s*\(([^,)]+)(?:,\s*([^)]*))?\)\s*$/.exec(lbl); return m ? [m[1], m[2], m[3] || ""] : [lbl, "", ""]; };
+  // one column per code: code / item / supplier / rate; the FX columns come last
+  const cols = codes.rIds.map(id => { const r = R[id], [item, sup, note] = split(r.label || id);
+      return { code: codes.r[id], item: item + (codes.pax[id] ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
+    .concat(codes.fIds.map((id, i) => { const f = d.fx.find(x => x.id === id) || { label: id, value: "" };
+      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM"), sup: "", rate: String(f.value), note: f.source || "", fx: true, first: i === 0 }; }));
+  const row = (lbl, k) => `<tr><th>${lbl}</th>${cols.map(c => `<td class="${c.first ? "rr-fx" : ""}"${k === "rate" && c.note ? ` title="${esc(c.note)}"` : ""}>${esc(c[k])}</td>`).join("")}</tr>`;
+  return `<div class="card full" id="rateRef"><h2>Rate reference <span class="sub">${esc(pkg.label)} · codes used in Show calculation · hover a rate for its note</span></h2>
+    <div class="scroll"><table class="ref"><thead><tr><th></th>${cols.map(c => `<th class="rr-code${c.first ? " rr-fx" : ""}">${c.code}</th>`).join("")}</tr></thead>
+    <tbody>${row("Item", "item")}${row("Supplier", "sup")}${row("Rate", "rate")}</tbody></table></div></div>`;
+}
 function costingByPax(d, pkg, pax) {
   const k = SEL.paxTab, DP = ["destinations", d.code];
   const paxList = Object.keys(pkg.pricing.adult).map(Number).sort((a, b) => a - b);
   const int = v => num(v) ? Math.round(v).toLocaleString("en-MY") : '<span class="missing">—</span>';
   const ruleTxt = rule => rule.type === "pct" ? `${n2(rule.value * 100, 1)}% of ${rule.on && rule.on.length ? esc(onLabel(d, rule.on)) + " + rest in full" : "adult cost"}` : rule.type === "minus" ? `adult cost − RM${n2(rule.value)}` : `flat RM${n2(rule.value)}`;
-  const isAdult = k === "adult", canCalc = isAdult && hasCalc(d, pkg), calc = canCalc && SEL.showCalc;
+  const isAdult = k === "adult", canRef = hasCalc(d, pkg), canCalc = isAdult && canRef, calc = canCalc && SEL.showCalc, codes = calc ? rateCodes(d, pkg) : null;
   const up = (+pkg.rules.tierUpgrade || 0) + optionUpgrade(d, pkg, optsFor(d));
   // consecutive pax rows with the same TO form one block
   const blocks = [];
@@ -472,7 +505,7 @@ function costingByPax(d, pkg, pax) {
       const p = pr.pax, x = pr[k];
       const cells = isAdult
         ? comps.map(c => { if (!has.has(c.key)) return "<td></td>"; const cc = pr.cost && pr.cost.comps.find(o => o.key === c.key); if (cc && num(cc.group) && !nz(cc.group)) return "<td></td>";
-          const vc = calc && bl.v.components.find(o => o.key === c.key), f = vc ? calcText(d, vc.expr, p) : "";
+          const vc = calc && bl.v.components.find(o => o.key === c.key), f = vc ? calcText(d, vc.expr, p, codes) : "";
           return `<td title="RM${cc ? n2(cc.group, 2) : "—"} group · RM${cc ? n2(cc.perPax, 2) : "—"} per pax">${f ? `<span class="calc">${esc(f)} = ${int(cc && cc.group)}</span>` : int(cc && cc.group)}</td>`; }).join("")
         : `<td class="muted">${int(pr.adult.cost)}</td>`;
       return `<tr class="click${i % 2 ? " alt" : ""}${p === pax ? " cur" : ""}" data-pax="${p}"><td class="c"><b>${p}</b></td>${cells}
@@ -484,9 +517,9 @@ function costingByPax(d, pkg, pax) {
     return title + head + rows;
   }).join("");
   return `<div class="card full" id="costPax"><h2>Costing by pax <span class="sub">${esc(pkg.label)} · RM</span>
-    <span class="right tabs">${canCalc ? `<button class="tab calcbtn${calc ? " on" : ""}" data-calc="1" title="Show how each component is calculated from the TO rates">Show calculation</button>` : ""}${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
+    <span class="right tabs">${canRef ? `<button class="tab calcbtn${SEL.showRef ? " on" : ""}" data-ref="1" title="Rates and FX behind the codes A, B, …">${SEL.showRef ? "Hide" : "Show"} rate reference</button>` : ""}${canCalc ? `<button class="tab calcbtn${calc ? " on" : ""}" data-calc="1" title="Show how each component is calculated from the TO rates">Show calculation</button>` : ""}${["adult", "cwb", "cnb"].map(t => `<button class="tab${t === k ? " on" : ""}" data-tab="${t}">${t.toUpperCase()}</button>`).join("")}</span></h2>
     <div class="scroll" style="max-height:640px;overflow-y:auto"><table class="rd">${body}</table></div>
-    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price − RM${n2(sellDisc())}.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} ${canCalc ? (calc ? "Each component shows its rates × FX at that pax. " : "Show calculation shows each component as rates × FX. ") : ""}Hover a component for exact RM. Click a row to highlight it.</div></div>`;
+    <div class="note">${isAdult ? "Component columns are for the whole group. Cost/Pax = sum of components ÷ pax. Margin = Selling − Cost/Pax. Total Gross = Margin × pax." : "Cost/Pax comes from the adult cost by the rule above. Margin = Selling − Cost/Pax."} Selling Price = Catalog Price − RM${n2(sellDisc())}.${up ? ` * Catalog includes the upgrade +RM${n2(up)}; when editing, the cell holds the base price.` : ""} ${canCalc ? (calc ? "Each component shows its formula at that pax; A, B, … are the codes in Rate reference. " : "Show calculation shows each component as rates × FX. ") : ""}Hover a component for exact RM. Click a row to highlight it.</div></div>`;
 }
 function addonTotals(d) {
   let sell = 0, cost = 0, n = 0, missing = 0;
@@ -825,6 +858,7 @@ document.addEventListener("click", async e => {
     VIEW = null; EDIT = true; render(); openReview("Restore to v" + v); return;
   }
   if (t.dataset.view) { const v = +t.dataset.view; VIEW = { v, data: snapshotAt(v) }; EDIT = false; closeModal(); render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.ref) { SEL.showRef = !SEL.showRef; return render(); }
   if (t.dataset.calc) { SEL.showCalc = !SEL.showCalc; return render(); }
   if (t.dataset.tab) { SEL.paxTab = t.dataset.tab; return render(); }
   if (t.dataset.tabmain) { SEL.tab = t.dataset.tabmain; history.replaceState(null, "", "#" + SEL.tab); return render(); }

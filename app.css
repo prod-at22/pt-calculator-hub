@@ -178,3 +178,11 @@ table.rd tr.cur td{background:var(--navy-soft)}
 table.rd tr[data-pax] td,table.rd tr.blk-head th{text-align:center}
 table.rd td .calc{font:inherit;color:inherit;white-space:nowrap}
 .tab.calcbtn{margin-right:8px}
+table.ref{border-collapse:collapse;font-size:12.5px}
+table.ref th,table.ref td{padding:6px 10px;text-align:center;border-bottom:1px solid #eef0f3;vertical-align:top}
+table.ref thead th.rr-code{font-weight:700;color:var(--navy);font-size:13px;border-bottom:1px solid var(--line)}
+table.ref tbody th{text-align:left;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);white-space:nowrap;padding-left:14px}
+table.ref tbody td{min-width:96px;max-width:130px;line-height:1.35;white-space:normal;hyphens:none}
+table.ref tbody tr:last-child td{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;border-bottom:0}
+table.ref tbody tr:last-child th{border-bottom:0}
+table.ref .rr-fx{border-left:1px solid var(--line)}
