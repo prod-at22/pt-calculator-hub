@@ -65,7 +65,10 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   header + hotels + itinerary + includes/excludes = Itinerary, Surcharge, Add On (tick per package; 210 catalog
   add-ons imported into data.json with catalogs {slug: position} + price_lines), What to Expect, Policy (notes +
   deposit). Catalog files keep no amounts and no add-on list (addon_groups = order + notes only). hub_version is
-  stamped on save so catalog-pt-public rebuilds. catalog-build/hub_data.py = the rules for the build.
+  stamped on save. catalog-build/hub_data.py = the rules for the build.
+- **Publishing** (8 Oct): the mirror's 10-min cron ran once all day, so a save now dispatches mirror.yml itself
+  (startCatalogMirror in app.js; token needs Actions: write on catalog-pt-public). mirror.yml uses
+  catalog-build/changed.py, so a data.json-only change (prices, add-ons) is picked up too.
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
@@ -82,7 +85,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
    problems in 11 lines and Perhentian Shari-La under 10% / CWB below cost (both from Selling = Catalog − RM200),
    Seoul-Jeju 2 pax 6.8% and Jeju-Udo 3.8% margin, Korea 26–30 pax no cost, Qayyum FX 0.026 (HND) vs 0.0259 (KIX).
 7. No costing in the hub yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
-8. Login: admin must create a fine-grained token and do First-time setup on the live page (cannot be done for them).
+8. Login: admin must create a fine-grained token (Contents RW on pt-calculator-hub + Actions RW on catalog-pt-public) and do First-time setup on the live page (cannot be done for them). Password ≥ 10 characters.
 9. Uploaded only files named PT from the Drive "Production Team" folder; unlabelled CRs (Perhentian resorts,
    Semporna Legend, Perth K&N, NZ price list, Pak Jamal, KK / Krabi / Maldives folders) were not uploaded.
 

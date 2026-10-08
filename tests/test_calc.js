@@ -36,6 +36,7 @@ function mockRepo(files, validTokens) {
       if (commits[body.sha].parents[0] !== repo.head) return [422, { message: "Update is not a fast forward" }];
       repo.head = body.sha; repo.log.push(commits[body.sha].message); return [200, {}];
     }
+    if (method === "POST" && /^\/repos\/prod-at22\/catalog-pt-public\/actions\/workflows\/mirror\.yml\/dispatches$/.test(u.pathname)) { repo.dispatches = (repo.dispatches || 0) + 1; return [204, null]; }
     return [404, { message: "no route " + method + " " + p }];
   };
   return repo;
@@ -311,6 +312,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const e = hist.entries.find(x => x.v === V0 + 1);
     ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === before && e.changes[0].label.includes("@2 pax"), "history entry V0+1 with readable label");
     ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: Basic catalog`), "one commit with version message");
+    ok(await until(() => repo.dispatches >= 1), "save starts the PT Catalog House mirror (workflow_dispatch on catalog-pt-public)");
     // the catalog has no prices of its own: a price save stamps price_version so catalog-pt-public rebuilds it
     const catNow = JSON.parse(repo.files(repo.head)["data/catalogs/tokyo-basic.json"]), cat0 = JSON.parse(files["data/catalogs/tokyo-basic.json"]);
     ok(catNow.hub_version === V0 + 1 && !catNow.prices.rows.some(r => "amounts" in r), "catalog tokyo-basic: hub_version V0+1, still no amounts in the file");

@@ -963,6 +963,13 @@ async function catalogFiles(dataChanges, catChanges, next, head, token) {
   files.push({ path: PATHS.catalogs + "index.json", content: JSON.stringify(idx, null, 1) + "\n" });
   return { files, summary, docs };
 }
+// PT Catalog House (catalog-pt-public) is rebuilt by its mirror workflow; a save starts it at once instead of
+// waiting for GitHub's (rare) schedule. Needs the token to have Actions: write on catalog-pt-public.
+const MIRROR = { repo: "prod-at22/catalog-pt-public", workflow: "mirror.yml", branch: "main" };
+async function startCatalogMirror(token) {
+  try { await GH.req("POST", `/repos/${MIRROR.repo}/actions/workflows/${MIRROR.workflow}/dispatches`, { ref: MIRROR.branch }, token); return true; }
+  catch (e) { return false; }
+}
 async function saveChanges(note) {
   const changes = pendingChanges();
   if (!changes.length) return;
@@ -1185,7 +1192,12 @@ document.addEventListener("click", async e => {
     const note = $("#saveNote").value.trim();
     if (note.length < 3) return mErr("Write a short note: what changed and why (e.g. 'ATK 2027 rate card').");
     t.disabled = true; mErr("Saving to GitHub…");
-    try { const v = await saveChanges(note); closeModal(); EDIT = false; render(); toast("Saved as v" + v + " — the live page updates in about a minute"); }
+    try {
+      const v = await saveChanges(note); closeModal(); EDIT = false; render();
+      const started = await startCatalogMirror(SESSION.token);
+      toast("Saved as v" + v + " — the live page updates in about a minute. " + (started ? "PT Catalog House rebuilds the affected catalogs in about 3–5 minutes."
+        : "PT Catalog House could not be started from here (the token needs Actions: write on catalog-pt-public); it updates at the next scheduled mirror."), 7000);
+    }
     catch (err) { mErr(err.message); t.disabled = false; }
     return;
   }

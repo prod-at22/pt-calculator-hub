@@ -94,9 +94,14 @@ Each section of a customer catalog comes from its own tab of the destination pag
 | Important Notes, Deposit & Full Payment | **Policy** | catalog `notes`, `deposit` |
 
 All editable in Edit costs and saved together (one commit, one History version). `catalog-build/hub_data.py`
-(public page / PDF) and `resolvePrices()` / `addonCard()` in `app.js` apply the same rules. A save that changes
-a linked package's Catalog Price or the destination's Add On items stamps `hub_version` in those catalogs, so
-`mirror.yml` in prod-at22/catalog-pt-public (every 10 minutes) rebuilds them. Catalogs without a Costing package /
+(public page / PDF) and `resolvePrices()` / `addonCard()` in `app.js` apply the same rules.
+
+**Publishing:** after a save the page starts `mirror.yml` in prod-at22/catalog-pt-public (workflow_dispatch);
+it runs `catalog-build/changed.py <last mirrored hub commit> <now>`, which resolves every catalog at both commits
+(content + Costing prices + Add On items) and rebuilds only those whose page differs (all of them when
+`catalog-build/` changed). The cron schedule in that workflow is only a fallback — GitHub runs it rarely.
+The admin's token therefore needs **Contents: Read and write on pt-calculator-hub** and **Actions: Read and write
+on catalog-pt-public**; without the second the save still works and the page says the catalogs wait for the schedule. Catalogs without a Costing package /
 hub destination (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts (and, for Ho Chi Minh and
 Yunnan 3 Wilayah, their own add-on list). Keep every pax in a band at the same Costing price — Flags warns.
 
