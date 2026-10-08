@@ -622,8 +622,9 @@ function addonCard(d, pkg) {
   const t = addonTotals(d), tm = t.sell - t.cost;
   const cats = [...new Set(list.map(a => a.category || "Other"))];
   const lineTxt = a => (a || []).join("\n");
+  const inCat = a => slugs.some(sl => a.catalogs && sl in a.catalogs);
   const catText = a => {
-    if (E) return `<div class="ao-cat">${["includes", "excludes", "duration"].map(k => `<label>${k.charAt(0).toUpperCase() + k.slice(1)}${ed([...DP, "addons", a.id, k], a[k] || "", { text: true })}</label>`).join("")}
+    if (E && inCat(a)) return `<div class="ao-cat">${["includes", "excludes", "duration"].map(k => `<label>${k.charAt(0).toUpperCase() + k.slice(1)}${ed([...DP, "addons", a.id, k], a[k] || "", { text: true })}</label>`).join("")}
       <label>Catalog price text<textarea class="ed" data-path="${esc(JSON.stringify([...DP, "addons", a.id, "price_lines"]))}" data-kind="lines" rows="${Math.max(1, (a.price_lines || []).length)}">${esc(lineTxt(a.price_lines))}</textarea></label></div>`;
     const bits = [a.includes && "Includes: " + a.includes, a.excludes && "Excludes: " + a.excludes, a.duration && "Duration: " + a.duration].filter(Boolean);
     return bits.length || (a.price_lines || []).length ? `<div class="muted small">${bits.map(esc).join("<br>")}${(a.price_lines || []).length ? `<div class="ao-price">${a.price_lines.map(esc).join(" · ")}</div>` : ""}</div>` : "";
@@ -632,7 +633,7 @@ function addonCard(d, pkg) {
   const row = a => {
     const c = num(a.cost) ? a.cost : NaN, sv = num(a.selling) ? a.selling : NaN, m = sv - c, p = num(m) && sv ? m / Math.abs(sv) : NaN;
     const q = +SEL.addonQty[a.id] || 0;
-    return `<tr${q ? ' class="cur"' : ""}>${slugs.map(sl => tick(a, sl)).join("")}<td style="white-space:normal;min-width:240px">${esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}${catText(a)}</td><td class="l muted small">${esc(a.per || "")}</td>
+    return `<tr${q ? ' class="cur"' : ""}>${slugs.map(sl => tick(a, sl)).join("")}<td class="l" style="white-space:normal;min-width:240px">${E ? ed([...DP, "addons", a.id, "label"], a.label, { text: true }) : esc(a.label)}${a.notes ? `<div class="muted small">${esc(a.notes)}</div>` : ""}${catText(a)}</td><td class="l muted small">${esc(a.per || "")}</td>
       <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost yet — add it in Edit costs">cost?</span>' })}</td>
       <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
       <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
