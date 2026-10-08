@@ -76,7 +76,7 @@ tour operator (/ hotel, season) selectors, then tabs:
 | **Costing** (default) | table per TO block (same layout as the old R&D sheet): components, Cost/Pax, Catalog, Selling, Margin, %, Total Gross; margin range and lowest margin above it. Rows alternate grey / white, one header colour; margin is green when positive, red when negative |
 | **Itinerary** · **Surcharge** · **What to Expect** · **Policy** | the package's customer catalog, one section per tab (see *Catalogs* below) — every field editable in Edit costs |
 | TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
-| **Add On** | cost / selling / margin; tick *In catalog* to print an add-on in the package's catalog; a qty totals the selected add-ons |
+| **Add On** | cost / selling / margin; tick *In catalog* to print an add-on in the package's catalog; **Add item** (Edit costs) adds a new add-on (category, name, per, cost, selling; ticked for the catalog by default, price text = selling/per); a qty totals the selected add-ons |
 | Flags | this destination's cross-check flags |
 | History | versions that touched this destination |
 

@@ -653,11 +653,19 @@ function addonCard(d, pkg) {
       : `<div>${i + 1}. ${esc(g.title)}${g.notes && g.notes.length ? ` <span class="muted">— ${g.notes.map(esc).join(" · ")}</span>` : ""}</div>`).join("")}
       <div class="muted small">A ticked add-on prints under the group with the same name as its category; a new category is added at the end.</div></div>`;
   }).join("");
+  const addForm = E ? `<div class="body ao-add"><b>Add item</b>
+      <label>Category<input id="aoCat" list="aoCats" placeholder="e.g. Activity" value="${esc(SEL.aoCat || "")}"><datalist id="aoCats">${cats.map(c => `<option value="${esc(c)}">`).join("")}</datalist></label>
+      <label class="grow">Item<input id="aoLabel" placeholder="e.g. Kecak Dance Uluwatu"></label>
+      <label>Per<input id="aoPer" placeholder="pax / trip / couple"></label>
+      <label>Cost (RM)<input id="aoCost" type="number" step="any"></label>
+      <label>Selling (RM)<input id="aoSell" type="number" step="any"></label>
+      ${slugs.map(sl => `<label class="ck"><input type="checkbox" class="aoAddTick" value="${esc(sl)}" checked> In catalog ${esc(sl)}</label>`).join("")}
+      <button class="btn primary" data-act="addAddon">Add</button></div>` : "";
   return `<div class="card full" id="addons"><h2>Add On <span class="sub">${list.length} items${slugs.map(sl => ` · ${nTick(sl)} in ${esc(sl)}`).join("")} · tick = include in the catalog${E ? "" : " (Edit costs to change)"} · qty totals the selected add-ons (not saved)</span></h2>
     <div class="scroll" style="max-height:620px;overflow-y:auto"><table><thead><tr>${head}<th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
     ${cats.map(cat => `<tr class="cat"><td colspan="${cols}">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
     ${t.n ? `<tr class="total">${slugs.map(() => "<td></td>").join("")}<td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
-    </tbody></table></div>${groups ? `<div class="body">${groups}</div>` : ""}</div>`;
+    </tbody></table></div>${groups ? `<div class="body">${groups}</div>` : ""}</div>`.replace('<div class="scroll" style="max-height:620px', addForm + '<div class="scroll" style="max-height:620px');
 }
 // TO Contract Rate: the TO's contract / rate card files (PDF, Excel, image), kept in the repo
 // under contracts/<code>/ and listed in the destination's `contracts`.
@@ -1118,6 +1126,21 @@ document.addEventListener("click", async e => {
     if (t.dataset.catact === "addday") days.push({ day: days.length + 1, title: "", activities: [], transport: "", meals: "", hotel: "" });
     if (t.dataset.catact === "delday" && days.length && confirm("Remove day " + days.length + "?")) days.pop();
     return render();
+  }
+  if (t.dataset.act === "addAddon") {
+    const d = DATA.destinations.find(x => x.code === PAGE_DEST), v = id => $("#" + id).value.trim();
+    const label = v("aoLabel"), category = v("aoCat") || "Other";
+    if (!label) return toast("Item name is required");
+    const n = id => (+(String(id).match(/-n(\d+)$/) || [])[1]) || 0;
+    const id = d.code.toLowerCase() + "-n" + String(1 + Math.max(0, ...(d.addons || []).map(a => n(a.id)))).padStart(3, "0");
+    const num_ = id => v(id) === "" ? null : Number(v(id));
+    const a = { id, category, label, per: v("aoPer"), cost: num_("aoCost"), selling: num_("aoSell"), notes: null, price_lines: [] };
+    if ([a.cost, a.selling].some(x => x !== null && !isFinite(x))) return toast("Cost / selling must be numbers");
+    const cats = {};
+    for (const cb of document.querySelectorAll(".aoAddTick")) if (cb.checked) cats[cb.value] = 1 + Math.max(0, ...(d.addons || []).map(x => (x.catalogs || {})[cb.value] || 0));
+    if (Object.keys(cats).length) { a.catalogs = cats; if (a.selling !== null) a.price_lines = [catRmTxt(a.selling) + (a.per ? "/" + a.per : "")]; }
+    (d.addons ||= []).push(a); SEL.aoCat = category;
+    toast(`Added "${label}" — press Save to keep it`); return render();
   }
   if (t.dataset.act === "viewCurrent") { VIEW = null; return render(); }
   if (t.dataset.act === "restore") {

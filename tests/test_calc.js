@@ -580,7 +580,15 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(tk && tk.checked && !tk.disabled, "Add On (Edit): tick enabled for " + fuji.label);
     tk.checked = false; fire(w, tk, "change"); await tick(10);
     ok(!(fuji.catalogs || {})["tokyo-standard"] && HND().addons.filter(a => a.catalogs && "tokyo-standard" in a.catalogs).length === nIn - 1, "untick removes it from the catalog");
-    ok(doc.querySelector("#btnSave") && doc.querySelector("#btnSave").textContent.includes("(3)"), "Save counts 2 catalog edits + 1 add-on tick: " + (doc.querySelector("#btnSave") || {}).textContent);
+    ok(doc.querySelector("#aoLabel") && doc.querySelector('[data-act="addAddon"]'), "Add On (Edit): Add item form");
+    doc.querySelector("#aoCat").value = "Add On Activity"; doc.querySelector("#aoLabel").value = "Shibuya Sky Observatory";
+    doc.querySelector("#aoPer").value = "pax"; doc.querySelector("#aoCost").value = "120"; doc.querySelector("#aoSell").value = "150";
+    click(w, doc.querySelector('[data-act="addAddon"]')); await tick(10);
+    const added = HND().addons.find(a => a.label === "Shibuya Sky Observatory");
+    ok(added && /^hnd-n\d{3}$/.test(added.id) && added.cost === 120 && added.selling === 150 && added.per === "pax" && added.category === "Add On Activity", "new item added with cost / selling / per / category: " + JSON.stringify(added));
+    ok(added && added.catalogs && added.catalogs["tokyo-standard"] > 0 && JSON.stringify(added.price_lines) === JSON.stringify(["RM150/pax"]), "new item ticked for tokyo-standard, catalog price text RM150/pax");
+    ok([...doc.querySelectorAll("#addons input.ed")].some(x => x.value === "Shibuya Sky Observatory"), "new item listed (editable)");
+    ok(doc.querySelector("#btnSave") && doc.querySelector("#btnSave").textContent.includes("(4)"), "Save counts 2 catalog edits + 1 add-on tick + 1 new item: " + (doc.querySelector("#btnSave") || {}).textContent);
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "Tokyo Std itinerary";
     click(w, doc.querySelector("#doSave"));
@@ -590,8 +598,9 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(!cat.prices.rows.some(r => "amounts" in r) && !("addons" in cat) && cat.hub_version === V + 1, "no prices / add-ons written into the catalog; hub_version stamped for the add-on change");
     const rem = JSON.parse(repo.files(repo.head)["data/data.json"]), fujiNow = byCode(rem, "HND").addons.find(a => a.id === fuji.id);
     ok(!(fujiNow.catalogs || {})["tokyo-standard"], "repo data.json: Fuji Day Tour no longer ticked for tokyo-standard");
+    ok(byCode(rem, "HND").addons.some(a => a.label === "Shibuya Sky Observatory" && a.catalogs && a.catalogs["tokyo-standard"]), "repo data.json: new item saved, ticked for tokyo-standard");
     const e = JSON.parse(repo.files(repo.head)["data/history.json"]).entries.find(x => x.v === V + 1);
-    ok(e && e.changes.length === 3 && e.changes.filter(c => c.path[0] === "catalogs" && c.path[1] === "tokyo-standard").length === 2, "history lists the 2 catalog edits + the tick");
+    ok(e && e.changes.filter(c => c.path[0] === "catalogs" && c.path[1] === "tokyo-standard").length === 2 && e.changes.some(c => c.path[2] === "addons"), "history lists the 2 catalog edits + the add-on changes");
     ok(JSON.parse(repo.files(repo.head)["data/data.json"]).version === V + 1, "data.json version bumped with it");
     ok(!doc.querySelector("#btnSave"), "nothing pending after save");
     click(w, doc.querySelector("#btnEdit")); await tick(5);

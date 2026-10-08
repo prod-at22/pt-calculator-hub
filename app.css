@@ -238,3 +238,9 @@ table.torates th{white-space:normal;min-width:90px}
 .ao-price{color:var(--ink);margin-top:2px}
 .ao-grp{display:grid;grid-template-columns:minmax(160px,1fr) 2fr;gap:6px;margin:4px 0}
 input.aotick{width:16px;height:16px}
+.ao-add{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:flex-end;border-bottom:1px solid var(--line);background:#fbfcfd}
+.ao-add label{display:flex;flex-direction:column;gap:3px;font-size:12px;font-weight:600;color:var(--ink-soft)}
+.ao-add label.grow{flex:1;min-width:200px}
+.ao-add label.ck{flex-direction:row;align-items:center;gap:5px;font-weight:500}
+.ao-add input:not([type=checkbox]){border:1px solid var(--line);border-radius:7px;padding:6px 8px;min-width:0}
+.ao-add input[type=number]{width:100px}
