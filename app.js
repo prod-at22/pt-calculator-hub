@@ -637,11 +637,11 @@ function addonCard(d, pkg) {
       <td>${ed([...DP, "addons", a.id, "cost"], a.cost, { display: num(a.cost) ? rm(a.cost, 2) : '<span class="pill bad" title="No cost yet — add it in Edit costs">cost?</span>' })}</td>
       <td>${ed([...DP, "addons", a.id, "selling"], a.selling, { display: rm(sv, 2) })}</td>
       <td class="${marginClass(p)}">${rm(m, 2)}</td><td>${marginPill(p)}</td>
-      <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td></tr>`;
+      <td><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${q || ""}" placeholder="0"></td>${E ? `<td><button class="btn danger ao-del" data-act="delAddon" data-id="${esc(a.id)}" title="Delete this add-on">Delete</button></td>` : ""}</tr>`;
   };
   const nTick = sl => list.filter(a => a.catalogs && sl in a.catalogs).length;
   const head = slugs.map(sl => `<th class="c" title="${esc(sl)}">In catalog<div class="muted small">${esc(sl)}</div></th>`).join("");
-  const cols = 7 + slugs.length;
+  const cols = 7 + slugs.length + (E ? 1 : 0);
   // per catalog: group order + group notes (addon_groups), edited in place
   const groups = slugs.map(sl => {
     const c0 = CAT.docs[sl]; if (!c0) return "";
@@ -662,9 +662,9 @@ function addonCard(d, pkg) {
       ${slugs.map(sl => `<label class="ck"><input type="checkbox" class="aoAddTick" value="${esc(sl)}" checked> In catalog ${esc(sl)}</label>`).join("")}
       <button class="btn primary" data-act="addAddon">Add</button></div>` : "";
   return `<div class="card full" id="addons"><h2>Add On <span class="sub">${list.length} items${slugs.map(sl => ` · ${nTick(sl)} in ${esc(sl)}`).join("")} · tick = include in the catalog${E ? "" : " (Edit costs to change)"} · qty totals the selected add-ons (not saved)</span></h2>
-    <div class="scroll" style="max-height:620px;overflow-y:auto"><table><thead><tr>${head}<th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th></tr></thead><tbody>
+    <div class="scroll" style="max-height:620px;overflow-y:auto"><table><thead><tr>${head}<th>Item</th><th class="l">Per</th><th>Cost</th><th>Selling</th><th>Margin</th><th>%</th><th>Qty</th>${E ? "<th></th>" : ""}</tr></thead><tbody>
     ${cats.map(cat => `<tr class="cat"><td colspan="${cols}">${esc(cat)}</td></tr>` + list.filter(a => (a.category || "Other") === cat).map(row).join("")).join("")}
-    ${t.n ? `<tr class="total">${slugs.map(() => "<td></td>").join("")}<td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td></tr>` : ""}
+    ${t.n ? `<tr class="total">${slugs.map(() => "<td></td>").join("")}<td>Selected (${t.n})</td><td></td><td>${rm(t.cost, 2)}</td><td>${rm(t.sell, 2)}</td><td>${rm(tm, 2)}</td><td>${marginPill(t.sell ? tm / t.sell : NaN)}</td><td></td>${E ? "<td></td>" : ""}</tr>` : ""}
     </tbody></table></div>${groups ? `<div class="body">${groups}</div>` : ""}</div>`.replace('<div class="scroll" style="max-height:620px', addForm + '<div class="scroll" style="max-height:620px');
 }
 // TO Contract Rate: the TO's contract / rate card files (PDF, Excel, image), kept in the repo
@@ -1141,6 +1141,14 @@ document.addEventListener("click", async e => {
     if (Object.keys(cats).length) { a.catalogs = cats; if (a.selling !== null) a.price_lines = [catRmTxt(a.selling) + (a.per ? "/" + a.per : "")]; }
     (d.addons ||= []).push(a); SEL.aoCat = category;
     toast(`Added "${label}" — press Save to keep it`); return render();
+  }
+  if (t.dataset.act === "delAddon") {
+    const d = DATA.destinations.find(x => x.code === PAGE_DEST), a = (d.addons || []).find(x => x.id === t.dataset.id);
+    if (!a) return;
+    const inCats = Object.keys(a.catalogs || {});
+    if (!confirm(`Delete "${a.label}"?` + (inCats.length ? `\n\nIt is printed in ${inCats.length} catalog${inCats.length > 1 ? "s" : ""} (${inCats.join(", ")}) and will be removed from ${inCats.length > 1 ? "them" : "it"}.` : "") + "\n\nNothing is saved until you press Save.")) return;
+    d.addons = d.addons.filter(x => x.id !== a.id); delete SEL.addonQty[a.id];
+    toast(`Deleted "${a.label}" — press Save to keep it, or Discard to undo`); return render();
   }
   if (t.dataset.act === "viewCurrent") { VIEW = null; return render(); }
   if (t.dataset.act === "restore") {

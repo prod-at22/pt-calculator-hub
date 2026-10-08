@@ -606,6 +606,26 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, doc.querySelector("#btnEdit")); await tick(5);
   }
 
+  console.log("8f. Add On: delete an item (Edit costs), warns when it is in a catalog");
+  {
+    const pg = await boot(repo, "hnd/", "?pkg=standard#addons");
+    await until(() => pg.doc.querySelector("input.aotick"));
+    ok(!pg.doc.querySelector('[data-act="delAddon"]'), "no Delete button when not editing");
+    pg.w.PTCALC.EDIT = true; pg.w.PTCALC.render(); await tick(5);
+    const H2 = () => pg.w.PTCALC.DATA.destinations.find(d => d.code === "HND");
+    const victim = H2().addons.find(a => a.catalogs && a.catalogs["tokyo-standard"]), n0 = H2().addons.length;
+    let asked = ""; pg.w.confirm = m => { asked = m; return true; };
+    click(pg.w, [...pg.doc.querySelectorAll('[data-act="delAddon"]')].find(b => b.dataset.id === victim.id)); await tick(10);
+    ok(!H2().addons.some(a => a.id === victim.id) && H2().addons.length === n0 - 1, "item removed from the destination's add-ons");
+    ok(asked.includes(victim.label) && asked.includes("tokyo-standard"), "confirm names the item and the catalog it is printed in");
+    const ch = pg.w.PTCALC.diff(pg.w.PTCALC.BASE, pg.w.PTCALC.DATA);
+    ok(ch.some(c => c.path[1] === "HND" && c.path[2] === "addons"), "the delete is a pending change (saved with Save)");
+    pg.w.confirm = () => false;
+    const keep = H2().addons[0]; click(pg.w, [...pg.doc.querySelectorAll('[data-act="delAddon"]')].find(b => b.dataset.id === keep.id)); await tick(5);
+    ok(H2().addons.some(a => a.id === keep.id), "Cancel keeps the item");
+    ok(pg.errors.length === 0, "delete errors: " + pg.errors.join("|"));
+  }
+
   console.log("9. no runtime errors");
   ok(errors.length === 0, "errors: " + errors.join(" | "));
 
