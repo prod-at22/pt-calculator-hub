@@ -37,13 +37,14 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   maldives-standard, yunnan-3-wilayah-6d5n (no calculator package).
 - Destination page tab **Catalog Details**: the selected package's catalog — prices as printed, includes /
   excludes, surcharge, accommodation, itinerary, add-ons, what to expect, notes, deposit; links to public page/PDF.
-- **Mirror (automatic)**: catalog-build/ (the Catalog PT builder, moved here 8 Oct) + GitHub Action
-  .github/workflows/catalogs.yml. A push that changes data/catalogs/ rebuilds only those catalogs (+ index);
-  a change to catalog-build/ rebuilds all. Output = artifact "catalog-site"; it is pushed to
-  prod-at22/catalog-pt-public only when secret CATALOG_PUBLIC_TOKEN and variable CATALOG_AUTOPUBLISH=true
-  are set (admin to do — **not set yet**, so nothing publishes automatically today). Manual run: Actions →
-  "Catalogs → catalog-pt-public" → Run workflow (slugs, empty = all). CI PDFs checked against the Mac ones
-  (same pages and layout; Liberation Serif vs Times, metric-compatible). Linux must use google-chrome.
+- **Mirror (automatic, no token)**: workflow `mirror.yml` lives in **prod-at22/catalog-pt-public** itself. Every
+  10 min it checks this repo (public); when data/catalogs/ changed since `.hub-sha` it rebuilds only those
+  catalogs with catalog-build/build.py (all of them when catalog-build/ changed) and commits to itself
+  (GITHUB_TOKEN, contents: write). Delay ≈10–15 min; catalog-pt-public → Actions → "Mirror from PT R&D
+  Costing Hub" → Run workflow mirrors at once (slugs, or "all"). Tested 8 Oct (tokyo-standard published).
+  CI PDFs = Linux Chrome (Liberation Serif, metric-compatible with the Mac's Times; same pages/layout).
+  GitHub disables a scheduled workflow after 60 days without commits to catalog-pt-public — if catalogs sit
+  unchanged that long, re-enable it in that repo's Actions tab.
 - Drive "Catalog PT (new)" = backup builder only (its build.py pulls data/catalogs/ from here).
 - Not editable on the page yet (read-only view; edit the JSON in the repo). Prices shown are the catalog's;
   the Costing tab keeps its own catalog prices in data.json — they can disagree (see flags).

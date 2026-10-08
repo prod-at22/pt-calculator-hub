@@ -101,11 +101,10 @@ tour operator (/ hotel, season) selectors, then tabs:
 
 ## Catalogs → catalog-pt-public
 
-`data/catalogs/<slug>.json` is the catalog content (Catalog Details tab). `catalog-build/build.py`
-renders it into HTML + PDF (headless Chrome) exactly as catalog-pt-public serves it, and the
-`catalogs.yml` workflow publishes it there on every push that changes a catalog — once the admin has set
-the secret `CATALOG_PUBLIC_TOKEN` (fine-grained token, repository catalog-pt-public only, Contents: read
-and write) and the variable `CATALOG_AUTOPUBLISH` = `true` (Settings → Secrets and variables → Actions).
+`data/catalogs/<slug>.json` is the catalog content (Catalog Details tab); `catalog-build/build.py` renders it
+into HTML + PDF (headless Chrome) exactly as catalog-pt-public serves it. Publishing needs nothing from
+here: the `mirror.yml` workflow in prod-at22/catalog-pt-public checks this repo every 10 minutes and
+rebuilds + commits whatever catalog changed (no token — this repo is public, and it writes only to itself).
 After editing a catalog also run `python3 tools/import_catalogs.py` (rebuilds `index.json`).
 
 ## FX
