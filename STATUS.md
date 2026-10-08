@@ -43,6 +43,22 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - Not editable on the page yet (read-only view; edit the JSON in the repo). Prices shown are the catalog's;
   the Costing tab keeps its own catalog prices in data.json — they can disagree (see flags).
 
+## Where each destination's cost comes from
+- R&D sheets (tools/extract_rd.py) for everything except below.
+- **SEL** Basic/Standard: ATK CR 2026 in KRW × 0.0030 (tools/build_sel.py, reads contracts/sel/…KRW.xlsx via
+  tools/korea_cr.py); Seoul add-ons from ProdReq Korea §7–8. Self Tour = R&D.
+- **SELJJU, JJU, JJUO**: ATK CR 2026 in KRW × 0.0030 (tools/build_korea_cr.py). Jeju Self Tour = R&D.
+- **HND**: rate by rate. Qayyum (Standard 2–7) rates from ProdReq Jepun (airport ¥22,000, City ¥76,000, Fuji ¥81,000),
+  **Qayyum FX 0.026** (PO); WIF FX 0.029. Apartment RM250/pax/night. No Qayyum CR exists — contracts/hnd has an
+  ARBA-internal rate sheet PDF (tools/make_qayyum_sheet.py; regenerate after any Qayyum rate change).
+- **OSK, KIX**: rate by rate since v26 (tools/build_jp_rates.py reads the R&D CR formulas = Raw Costing rate ×
+  FX; checks every component at every pax against the old values). Accommodation RM250/pax/night (PO, v24) kept
+  via OVERRIDE in that script — R&D still says RM300. After a re-import of OSK/KIX run build_jp_rates.py again.
+- **JBDO**: CTRANS fullboard rate 2–10 pax (v5), not yet in the R&D sheet.
+- Turkey / Istanbul 4★ removed (no MyTrip CR, no catalog); SKIP_TO in extract_rd.py keeps it out.
+
+Re-import: `--keep HND JBDO SEL SELJJU JJU JJUO OSK KIX`.
+
 ## Open — waiting on the PO
 1. Tokyo (on hold by PO): catalog JSON Tokyo Standard (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — which is current?
    Qayyum open items: tolls/parking/fuel inside the rate? guide's own entrance? Iyashi entrance still on WIF FX 0.029.
