@@ -1,261 +1,261 @@
 {
- "slug": "krabi-honeymoon",
- "destination": "Krabi",
- "country": "Thailand",
- "code": "KBV",
- "tier": "Honeymoon Standard",
- "tier_code": "HNYSTD",
- "title": "PAKEJ KRABI HONEYMOON",
- "duration": "4D3N",
- "route": "Sightseeing - Island Trip - Food Tour",
- "basis": "Ground Only (Boat Sharing Basis)",
- "valid_until": "31 December 2026",
- "version": "v3",
- "updated": "2026-08-07",
- "kb_url": "https://prod-at22.github.io/arba-krabi-kb/",
- "po": "Fyka",
- "ops": "CIK IWAN",
- "source_pdf": "Thailand/Krabi/Catalog/PAKEJ HONEYMOON KRABI 3 STAR 4D3N 2026 v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "boat",
-   "label": "Sharing Basis Boat"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Price Per Couple (RM)"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "3 Star Hotel",
-    "amounts": [
-     "RM2,897"
-    ]
-   }
-  ],
-  "pax_label": "Adult (per couple)",
-  "notes": [
-   "Upgrade to 4 Star Hotel: additional RM450/couple"
-  ]
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (3 Star Hotel)",
-    "Honeymoon Room Decoration",
-    "Flower Bouquet",
-    "Candlelight Dinner",
-    "Private Transportation for Day 1 & Day 4 only",
-    "National Park Entrance Fees",
-    "Halal Meals (3 International Breakfast, 2 Lunch, Dinner)",
-    "Shared Transport for Activities",
-    "Tourist Guide (English Spoken)",
-    "Tipping Fee"
-   ],
-   "excludes": [
-    "Return Flight Tickets",
-    "Luggage, In-Flight Meal & Airport Tax",
-    "Additional Tours & Meals",
-    "Personal Expenses",
-    "Travel Insurance"
-   ]
-  }
- ],
- "surcharge": {
-  "title": "Surcharge — Travel Date 2026",
-  "seasons": [
-   {
-    "label": "Peak Season",
-    "period": "11 Jan 2026 - 30 Apr 2026",
-    "rate": "RM250/Pax"
-   },
-   {
-    "label": "Peak Season",
-    "period": "01 Nov 2026 - 31 Dec 2026",
-    "rate": "RM300/Pax"
-   },
-   {
-    "label": "May - June",
-    "period": "-",
-    "rate": "No Additional Surcharge"
-   }
-  ]
- },
- "accommodation": [
-  {
-   "city": "Krabi",
-   "stars": 3,
-   "name": "Aonang Silver Orchid Resort",
-   "similar": true
-  },
-  {
-   "city": "Krabi",
-   "stars": 3,
-   "name": "Apasari Resort",
-   "similar": true
-  },
-  {
-   "city": "Krabi",
-   "stars": 4,
-   "name": "Krabi Cha-Da Resort",
-   "similar": true
-  },
-  {
-   "city": "Krabi",
-   "stars": 4,
-   "name": "Krabi Heritage Hotel",
-   "similar": true
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Krabi",
-   "activities": [
-    "Please arrive between 1PM - 3PM",
-    "Airport pickup",
-    "Krabi City Tour",
-    "Black Crab Statue",
-    "Local Market",
-    "Check in hotel",
-    "Pick up to restaurant",
-    "Candlelight dinner + flower bouquet"
-   ],
-   "transport": "Private Transport",
-   "meals": "Candlelight Dinner",
-   "hotel": "3-Star Hotel (Krabi)"
-  },
-  {
-   "day": 2,
-   "title": "Krabi Island Tour (shared tour)",
-   "activities": [
-    "Via joined long-tailed boat",
-    "Visit Railay Beach, Phranang Beach & Phranang Cave",
-    "Visit Poda Island, sail rock",
-    "Visit Tub Island, Mor Island and Chicken Island",
-    "Snorkelling and swimming"
-   ],
-   "transport": "Sharing Basis Boat",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Krabi)"
-  },
-  {
-   "day": 3,
-   "title": "Chosen by Customer",
-   "activities": [
+  "slug": "krabi-honeymoon",
+  "destination": "Krabi",
+  "country": "Thailand",
+  "code": "KBV",
+  "tier": "Honeymoon Standard",
+  "tier_code": "HNYSTD",
+  "title": "PAKEJ KRABI HONEYMOON",
+  "duration": "4D3N",
+  "route": "Sightseeing - Island Trip - Food Tour",
+  "basis": "Ground Only (Boat Sharing Basis)",
+  "valid_until": "31 December 2026",
+  "version": "v3",
+  "updated": "2026-08-07",
+  "kb_url": "https://prod-at22.github.io/arba-krabi-kb/",
+  "po": "Fyka",
+  "ops": "CIK IWAN",
+  "source_pdf": "Thailand/Krabi/Catalog/PAKEJ HONEYMOON KRABI 3 STAR 4D3N 2026 v3.pdf",
+  "highlights": [
     {
-     "text": "Emerald Pool (shared tour)",
-     "sub": [
-      "Klongthom hot spring",
-      "Emerald Pool",
-      "Tiger Cave Temple tour"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
     },
     {
-     "text": "OR Phi Phi Island (add RM100/person, shared tour)",
-     "sub": [
-      "Via speedboat",
-      "Bamboo Island and visit Maya Bay",
-      "Pileh Cove, Viking Cave and Monkey Beach",
-      "Phi Phi Don Island",
-      "Tonsai Village for shopping"
-     ]
-    }
-   ],
-   "transport": "Sharing Basis Boat",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Krabi)"
-  },
-  {
-   "day": 4,
-   "title": "Krabi - KUL",
-   "activities": [
-    "Check out hotel",
-    "Airport transfer"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
+      "icon": "bus",
+      "label": "Private Transport"
+    },
     {
-     "name": "Day 2 Upgrade from 4 Islands tour to 7 Islands Sunset Cruise + Plankton (1pm-8pm)",
-     "includes": "Yawasom Island, Chicken Island, Tup Island, Mor Island, Sunset Dinner at Poda Island, night snorkeling with bioluminescent plankton at Koh Raeng; Land Transfer & Longtail boat (SIC basis), guide, snorkeling equipment, BBQ dinner",
-     "price_lines": [
-      "RM80/person"
-     ]
+      "icon": "boat",
+      "label": "Sharing Basis Boat"
     }
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "umbrella",
-   "title": "Subject to Weather Conditions",
-   "body": "Heavy rain and thunderstorm may affect island activities."
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Price Per Couple (RM)"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "3 Star Hotel",
+        "amounts": [
+          "RM2,897"
+        ]
+      }
+    ],
+    "pax_label": "Adult (per couple)",
+    "notes": [
+      "Upgrade to 4 Star Hotel: additional RM450/couple"
+    ]
   },
-  {
-   "icon": "payment",
-   "title": "Prepare Cash",
-   "body": "Prepare cash if you plan to shop or snack, as most places prefer cash."
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (3 Star Hotel)",
+        "Honeymoon Room Decoration",
+        "Flower Bouquet",
+        "Candlelight Dinner",
+        "Private Transportation for Day 1 & Day 4 only",
+        "National Park Entrance Fees",
+        "Halal Meals (3 International Breakfast, 2 Lunch, Dinner)",
+        "Shared Transport for Activities",
+        "Tourist Guide (English Spoken)",
+        "Tipping Fee"
+      ],
+      "excludes": [
+        "Return Flight Tickets",
+        "Luggage, In-Flight Meal & Airport Tax",
+        "Additional Tours & Meals",
+        "Personal Expenses",
+        "Travel Insurance"
+      ]
+    }
+  ],
+  "surcharge": {
+    "title": "Surcharge — Travel Date 2026",
+    "seasons": [
+      {
+        "label": "Peak Season",
+        "period": "11 Jan 2026 - 30 Apr 2026",
+        "rate": "RM250/Pax"
+      },
+      {
+        "label": "Peak Season",
+        "period": "01 Nov 2026 - 31 Dec 2026",
+        "rate": "RM300/Pax"
+      },
+      {
+        "label": "May - June",
+        "period": "-",
+        "rate": "No Additional Surcharge"
+      }
+    ]
   },
-  {
-   "icon": "bus",
-   "title": "Sharing Transport",
-   "body": "Sharing transport will be used for all activity transfers."
-  },
-  {
-   "icon": "info",
-   "title": "Watch out for Monkeys",
-   "body": "They can be aggressive. Keep an eye on your belongings."
-  },
-  {
-   "icon": "payment",
-   "title": "Things Not Mentioned in the Itinerary",
-   "body": "Must be paid by customers, e.g. add-on activities on-site, toilet."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 persons per room.",
-    "Fare is not applicable during peak seasons; please refer to the peak season surcharge.",
-    "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
-    "This package is valid until the 31st December 2026 travel period.",
-    "Private transportation & tour guide is based on 10 hours basis. Additional fees will be charged for every extra hour usage. Payment must be paid in cash.",
-    "Quotation, itinerary and price are subject to change accordingly.",
-    "Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
-    "Shared tour means the boat and activities are shared with other tourists."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to arrival for full payment"
-  }
- ],
- "product": "PAKEJ"
+  "accommodation": [
+    {
+      "city": "Krabi",
+      "stars": 3,
+      "name": "Aonang Silver Orchid Resort",
+      "similar": true
+    },
+    {
+      "city": "Krabi",
+      "stars": 3,
+      "name": "Apasari Resort",
+      "similar": true
+    },
+    {
+      "city": "Krabi",
+      "stars": 4,
+      "name": "Krabi Cha-Da Resort",
+      "similar": true
+    },
+    {
+      "city": "Krabi",
+      "stars": 4,
+      "name": "Krabi Heritage Hotel",
+      "similar": true
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Krabi",
+      "activities": [
+        "Please arrive between 1PM - 3PM",
+        "Airport pickup",
+        "Krabi City Tour",
+        "Black Crab Statue",
+        "Local Market",
+        "Check in hotel",
+        "Pick up to restaurant",
+        "Candlelight dinner + flower bouquet"
+      ],
+      "transport": "Private Transport",
+      "meals": "Candlelight Dinner",
+      "hotel": "3-Star Hotel (Krabi)"
+    },
+    {
+      "day": 2,
+      "title": "Krabi Island Tour (shared tour)",
+      "activities": [
+        "Via joined long-tailed boat",
+        "Visit Railay Beach, Phranang Beach & Phranang Cave",
+        "Visit Poda Island, sail rock",
+        "Visit Tub Island, Mor Island and Chicken Island",
+        "Snorkelling and swimming"
+      ],
+      "transport": "Sharing Basis Boat",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Krabi)"
+    },
+    {
+      "day": 3,
+      "title": "Chosen by Customer",
+      "activities": [
+        {
+          "text": "Emerald Pool (shared tour)",
+          "sub": [
+            "Klongthom hot spring",
+            "Emerald Pool",
+            "Tiger Cave Temple tour"
+          ]
+        },
+        {
+          "text": "OR Phi Phi Island (add RM100/person, shared tour)",
+          "sub": [
+            "Via speedboat",
+            "Bamboo Island and visit Maya Bay",
+            "Pileh Cove, Viking Cave and Monkey Beach",
+            "Phi Phi Don Island",
+            "Tonsai Village for shopping"
+          ]
+        }
+      ],
+      "transport": "Sharing Basis Boat",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Krabi)"
+    },
+    {
+      "day": 4,
+      "title": "Krabi - KUL",
+      "activities": [
+        "Check out hotel",
+        "Airport transfer"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Day 2 Upgrade from 4 Islands tour to 7 Islands Sunset Cruise + Plankton (1pm-8pm)",
+          "includes": "Yawasom Island, Chicken Island, Tup Island, Mor Island, Sunset Dinner at Poda Island, night snorkeling with bioluminescent plankton at Koh Raeng; Land Transfer & Longtail boat (SIC basis), guide, snorkeling equipment, BBQ dinner",
+          "price_lines": [
+            "RM80/person"
+          ]
+        }
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "umbrella",
+      "title": "Subject to Weather Conditions",
+      "body": "Heavy rain and thunderstorm may affect island activities."
+    },
+    {
+      "icon": "payment",
+      "title": "Prepare Cash",
+      "body": "Prepare cash if you plan to shop or snack, as most places prefer cash."
+    },
+    {
+      "icon": "bus",
+      "title": "Sharing Transport",
+      "body": "Sharing transport will be used for all activity transfers."
+    },
+    {
+      "icon": "info",
+      "title": "Watch out for Monkeys",
+      "body": "They can be aggressive. Keep an eye on your belongings."
+    },
+    {
+      "icon": "payment",
+      "title": "Things Not Mentioned in the Itinerary",
+      "body": "Must be paid by customers, e.g. add-on activities on-site, toilet."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 persons per room.",
+        "Fare is not applicable during peak seasons; please refer to the peak season surcharge.",
+        "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+        "This package is valid until the 31st December 2026 travel period.",
+        "Private transportation & tour guide is based on 10 hours basis. Additional fees will be charged for every extra hour usage. Payment must be paid in cash.",
+        "Quotation, itinerary and price are subject to change accordingly.",
+        "Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+        "Shared tour means the boat and activities are shared with other tourists."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to arrival for full payment"
+    }
+  ],
+  "product": "PAKEJ"
 }

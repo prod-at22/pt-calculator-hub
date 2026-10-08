@@ -1,429 +1,429 @@
 {
- "slug": "bali-honeymoon-premium",
- "destination": "Bali",
- "country": "Indonesia",
- "code": "DPS",
- "tier": "Honeymoon Premium",
- "tier_code": "HNYPRE",
- "title": "PRIVATE TOUR BALI HONEYMOON PREMIUM",
- "duration": "4D3N",
- "route": "Uluwatu - Nusa Penida - Kintamani Mt Batur - Ubud",
- "basis": "Ground + Tipping",
- "valid_until": "31 December 2026",
- "version": "v3",
- "updated": "2026-02-02",
- "kb_url": "",
- "po": "Fyka",
- "ops": "CIK IWAN",
- "source_pdf": "Indonesia/Bali/Catalog/PT HONEYMOON BALI PREMIUM (4D3N) v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "4-Star Hotel & Pool Villa"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Price Per Couple (RM)"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "1 Night Luxury Private Pool Villa + 2 Nights 4 Star Hotel",
-    "amounts": [
-     "RM3,797"
-    ]
-   }
-  ],
-  "pax_label": "Honeymoon Premium"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "2 Nights accomodation at 4 Star Hotel",
-    "1 Night accomodation at Luxury Private Pool Villa",
-    "Private Transportation (12 hours basis)",
-    "Entrance Fees",
-    "Fullboard Meals + 1x Floating Breakfast",
+  "slug": "bali-honeymoon-premium",
+  "destination": "Bali",
+  "country": "Indonesia",
+  "code": "DPS",
+  "tier": "Honeymoon Premium",
+  "tier_code": "HNYPRE",
+  "title": "PRIVATE TOUR BALI HONEYMOON PREMIUM",
+  "duration": "4D3N",
+  "route": "Uluwatu - Nusa Penida - Kintamani Mt Batur - Ubud",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v3",
+  "updated": "2026-02-02",
+  "kb_url": "",
+  "po": "Fyka",
+  "ops": "CIK IWAN",
+  "source_pdf": "Indonesia/Bali/Catalog/PT HONEYMOON BALI PREMIUM (4D3N) v3.pdf",
+  "highlights": [
     {
-     "text": "Jimbaran Beach Sunset Dinner",
-     "sub": [
-      "Rose Petals Decoration + Cake + Honeymoon/Birthday Singing",
-      "350g Grilled Lobster + Grilled Fish + Grilled Prawn + Grilled Clam + Fried Calamari + Rice + Fried Vegetables",
-      "2 Glasses of juice/soft drinks"
-     ]
+      "icon": "hotel",
+      "label": "4-Star Hotel & Pool Villa"
     },
     {
-     "text": "Bale Udang Lake View Romantic Dinner",
-     "sub": [
-      "Appetizer + Main Course + Beverage (has to choose from Menu)",
-      "Gemitir Honeymoon Cake 1 Slice",
-      "Greeting Card + Flower Decorations + Traditional Singing + Ice Cream"
-     ]
-    },
-    "Buffet Lunch with Mount Batur View",
-    "Honeymoon Basic Room Decorations",
-    "Driving Guide (English/Indonesian Spoken)",
-    "Tipping Fee, Parking Fee"
-   ],
-   "excludes": [
-    "Extra hour Transport & Tour Guide 150,000 IDR/hour",
-    "Return Flight Tickets",
-    "Luggage, In Flight Meal & Airport Tax",
-    "Additional Tours & Meals",
-    "Personal Expenses",
-    "Travel Insurance"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Bali - Uluwatu & Kuta Tour",
-   "activities": [
-    "Arrival time: please arrive between 1.00PM - 3.00PM",
-    "Airport pickup",
-    "Uluwatu Temple (famous temple landmark)",
-    "Check-in hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "Dinner",
-   "hotel": "4-Star Hotel"
-  },
-  {
-   "day": 2,
-   "title": "Nusa Penida Island OR Nusa Dua Tour",
-   "activities": [
-    {
-     "text": "A) Nusa Penida Island — please choose 1 or 2",
-     "sub": [
-      "Transfer hotel to Sanur Jetty (6.30 - 7.30am pickup)",
-      "Ferry ride to Nusa Penida Island (sharing ferry)",
-      "1) West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong Beach, Crystal Bay Beach",
-      "2) West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended — less crowded, less walking), Crystal Bay",
-      "Back to Sanur Jetty Bali"
-     ]
+      "icon": "bus",
+      "label": "Private Transport"
     },
     {
-     "text": "B) Nusa Dua",
-     "sub": [
-      "Nusa Dua Watersport (activities fee excluded)",
-      "Waterblow (optional — unique reef with massive waves crashing)",
-      "Pandawa Beach",
-      "Melasti Beach",
-      "Back to hotel"
-     ]
-    },
-    "Jimbaran Beach sunset dinner"
-   ],
-   "transport": "Private Transport & boat/ferry (sharing, Nusa Penida Island)",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "4-Star Hotel"
-  },
-  {
-   "day": 3,
-   "title": "Kintamani - Ubud Tour",
-   "activities": [
-    "Alas Harum Rice Terrace (more activity options)",
-    "Kintamani Mount Batur (magnificent view of the volcanic mountain)",
-    "Visit Ubud Coffee Plantation (optional)",
-    "Desa Penglipuran (traditional Balinese village)",
-    "Batik Outlet",
-    "Shopping Ole-Ole Bali",
-    "Bale Udang Lake View honeymoon dinner",
-    "Back to hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "Private Pool Villa"
-  },
-  {
-   "day": 4,
-   "title": "Bali - Airport",
-   "activities": [
-    "Check-out hotel",
-    "Airport transfer"
-   ],
-   "transport": "Airport Transfer",
-   "meals": "Floating breakfast",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "footprints",
-   "title": "Nusa Penida West",
-   "body": "Highly popular & crowded locations where waiting in line for photo stops is common. Walking distance to photo spot takes about 20 minutes walk."
-  },
-  {
-   "icon": "bed",
-   "title": "Accommodation",
-   "body": "Min. 3 consecutive night stay during 22 Dec - 4 Jan 2027. Check-out is not allowed on 31st December."
-  },
-  {
-   "icon": "bus",
-   "title": "Transportation",
-   "body": "2 - 4 pax (Avanza), 5 - 6 pax (Innova), 7 - 12 pax (Hiace). Transport & Guide - 12 Hours Basis. Extra Hour 150,000 IDR/hour (must be paid in cash to driver). Only 1 baggage per person."
-  },
-  {
-   "icon": "info",
-   "title": "Hari Nyepi / Hari Raya",
-   "body": "Blockout dates: 18 - 20 March 2026 and 20 - 23 March 2026."
-  },
-  {
-   "icon": "map-pin",
-   "title": "Heavy Traffic in Bali",
-   "body": "It's common to encounter heavy traffic in Bali especially during Peak Season. Activities or tours may experience delays from the scheduled time. Traffic in Nusa Penida: due to the narrow roads, travel time between locations may take up to 2 hours."
-  },
-  {
-   "icon": "flight",
-   "title": "Arrival / Departure",
-   "body": "Arrival on 1st day included with Airport Transfer & Half Day Tour. No tour is included on the last day (4th day), only airport transfer is available. Please add half-day or full-day transportation with a driver-guide for additional tour."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single Supplement: additional RM1,500 per person.",
-    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
-    "Minimum 3 consecutive night stay during 22 Dec 2026 - 4 Jan 2027.",
-    "Check-out is not allowed on 31st December 2026.",
-    "This package is valid until 31st December 2026 travel period.",
-    "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be made in cash.",
-    "Itinerary, Price, Hotel and Flight are subject to change accordingly.",
-    "Final Itinerary and hotel arrangements 14 days before trip & subject to availability.",
-    "Hotel confirmation and selection is subject to availability at the time of booking.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flight."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Kecak Dance, Uluwatu Temple",
-     "includes": "Performance ticket, transportation for pick-up & drop-off",
-     "excludes": "Meals, personal expenses",
-     "duration": "1 hour performance",
-     "price_lines": [
-      "RM67/pax"
-     ]
-    },
-    {
-     "name": "Barong Dance, Ubud",
-     "includes": "Performance ticket, transportation for pick-up & drop-off",
-     "excludes": "Meals, personal expenses",
-     "duration": "1 hour performance (depart 7am from hotel)",
-     "price_lines": [
-      "RM67/pax"
-     ]
-    },
-    {
-     "name": "Uma Ceking Rice Terrace + Bali Swing",
-     "includes": "Entrance ticket, swing ticket, transportation",
-     "excludes": "Meals, other activities, personal expenses",
-     "duration": "1-2 hours",
-     "price_lines": [
-      "RM117/pax"
-     ]
-    },
-    {
-     "name": "Garuda Wisnu Kencana Cultural Park",
-     "includes": "Entrance ticket & Transportation",
-     "excludes": "Meals, Other Activities, Personal Expenses",
-     "price_lines": [
-      "RM67/pax"
-     ],
-     "duration": "1-2 hours (Available during Nusa Dua Tour Only)"
-    },
-    {
-     "name": "Banana Boat at Nusa Dua",
-     "includes": "Watersport Activity Insurance + 1 Time Ride",
-     "excludes": "Meals, Other Activities, Personal Expenses",
-     "price_lines": [
-      "RM67/pax"
-     ],
-     "duration": "1 hour"
-    },
-    {
-     "name": "Jet Ski Ride at Nusa Dua",
-     "includes": "Watersport Activity Insurance + 1 Time Ride",
-     "excludes": "Other Activities or Personal Expenses",
-     "price_lines": [
-      "RM157/pax"
-     ],
-     "duration": "1-2 hours"
-    },
-    {
-     "name": "Fly Fish at Nusa Dua",
-     "includes": "Activity Insurance + 2 Time Fly",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM177/pax"
-     ],
-     "duration": "1-2 hours Activity"
-    },
-    {
-     "name": "Tubing Ride at Nusa Dua",
-     "includes": "Activity Insurance + 1 Time Ride",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM127/pax"
-     ],
-     "duration": "1 hour Activity"
-    },
-    {
-     "name": "Parasailing Adventure at Nusa Dua",
-     "includes": "Activity Insurance + 1 Time Ride",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM237/pax"
-     ],
-     "duration": "1 hour Activity"
-    },
-    {
-     "name": "Fly Board at Nusa Dua",
-     "includes": "Activity Insurance + 15 Minutes Ride",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM327/pax"
-     ],
-     "duration": "15 minutes Ride"
-    },
-    {
-     "name": "Glass Bottom Boat + Turtle Island at Nusa Dua",
-     "includes": "Activity Insurance + 1 hour Ride",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM197/pax"
-     ],
-     "duration": "1 hour Activity"
-    },
-    {
-     "name": "Snorkeling at Nusa Dua",
-     "includes": "Activity Insurance + 1 hour Ride",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM157/pax"
-     ],
-     "duration": "1 hour Activity"
-    },
-    {
-     "name": "Sea Walking at Nusa Dua",
-     "includes": "Activity Insurance + 40 Minutes Sea Walking",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM347/pax"
-     ],
-     "duration": "40 Minutes"
-    },
-    {
-     "name": "Snorkeling Nusa Penida (Sharing Boat)",
-     "includes": "Life Jacket + Snorkelling Gear + Sharing Boat Transfer; 3 Snorkelling Points (Greenbowl Bay, Gamat Bay, Crystal Bay)",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM107/pax"
-     ]
-    },
-    {
-     "name": "Snorkeling Nusa Penida (Private Boat)",
-     "includes": "Life Jacket + Snorkelling Gear + Private Boat Transfer; 4 Snorkelling Points (Manta Bay, Greenbowl Bay, Gamat Bay, Crystal Bay)",
-     "excludes": "Other activities & Personal expenses",
-     "price_lines": [
-      "RM297/pax"
-     ]
+      "icon": "guide",
+      "label": "Driving Guide"
     }
-   ]
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Price Per Couple (RM)"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "1 Night Luxury Private Pool Villa + 2 Nights 4 Star Hotel",
+        "amounts": [
+          "RM3,797"
+        ]
+      }
+    ],
+    "pax_label": "Honeymoon Premium"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "2 Nights accomodation at 4 Star Hotel",
+        "1 Night accomodation at Luxury Private Pool Villa",
+        "Private Transportation (12 hours basis)",
+        "Entrance Fees",
+        "Fullboard Meals + 1x Floating Breakfast",
+        {
+          "text": "Jimbaran Beach Sunset Dinner",
+          "sub": [
+            "Rose Petals Decoration + Cake + Honeymoon/Birthday Singing",
+            "350g Grilled Lobster + Grilled Fish + Grilled Prawn + Grilled Clam + Fried Calamari + Rice + Fried Vegetables",
+            "2 Glasses of juice/soft drinks"
+          ]
+        },
+        {
+          "text": "Bale Udang Lake View Romantic Dinner",
+          "sub": [
+            "Appetizer + Main Course + Beverage (has to choose from Menu)",
+            "Gemitir Honeymoon Cake 1 Slice",
+            "Greeting Card + Flower Decorations + Traditional Singing + Ice Cream"
+          ]
+        },
+        "Buffet Lunch with Mount Batur View",
+        "Honeymoon Basic Room Decorations",
+        "Driving Guide (English/Indonesian Spoken)",
+        "Tipping Fee, Parking Fee"
+      ],
+      "excludes": [
+        "Extra hour Transport & Tour Guide 150,000 IDR/hour",
+        "Return Flight Tickets",
+        "Luggage, In Flight Meal & Airport Tax",
+        "Additional Tours & Meals",
+        "Personal Expenses",
+        "Travel Insurance"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Bali - Uluwatu & Kuta Tour",
+      "activities": [
+        "Arrival time: please arrive between 1.00PM - 3.00PM",
+        "Airport pickup",
+        "Uluwatu Temple (famous temple landmark)",
+        "Check-in hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "Dinner",
+      "hotel": "4-Star Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Nusa Penida Island OR Nusa Dua Tour",
+      "activities": [
+        {
+          "text": "A) Nusa Penida Island — please choose 1 or 2",
+          "sub": [
+            "Transfer hotel to Sanur Jetty (6.30 - 7.30am pickup)",
+            "Ferry ride to Nusa Penida Island (sharing ferry)",
+            "1) West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong Beach, Crystal Bay Beach",
+            "2) West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended — less crowded, less walking), Crystal Bay",
+            "Back to Sanur Jetty Bali"
+          ]
+        },
+        {
+          "text": "B) Nusa Dua",
+          "sub": [
+            "Nusa Dua Watersport (activities fee excluded)",
+            "Waterblow (optional — unique reef with massive waves crashing)",
+            "Pandawa Beach",
+            "Melasti Beach",
+            "Back to hotel"
+          ]
+        },
+        "Jimbaran Beach sunset dinner"
+      ],
+      "transport": "Private Transport & boat/ferry (sharing, Nusa Penida Island)",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "4-Star Hotel"
+    },
+    {
+      "day": 3,
+      "title": "Kintamani - Ubud Tour",
+      "activities": [
+        "Alas Harum Rice Terrace (more activity options)",
+        "Kintamani Mount Batur (magnificent view of the volcanic mountain)",
+        "Visit Ubud Coffee Plantation (optional)",
+        "Desa Penglipuran (traditional Balinese village)",
+        "Batik Outlet",
+        "Shopping Ole-Ole Bali",
+        "Bale Udang Lake View honeymoon dinner",
+        "Back to hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "Private Pool Villa"
+    },
+    {
+      "day": 4,
+      "title": "Bali - Airport",
+      "activities": [
+        "Check-out hotel",
+        "Airport transfer"
+      ],
+      "transport": "Airport Transfer",
+      "meals": "Floating breakfast",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "footprints",
+      "title": "Nusa Penida West",
+      "body": "Highly popular & crowded locations where waiting in line for photo stops is common. Walking distance to photo spot takes about 20 minutes walk."
+    },
+    {
+      "icon": "bed",
+      "title": "Accommodation",
+      "body": "Min. 3 consecutive night stay during 22 Dec - 4 Jan 2027. Check-out is not allowed on 31st December."
+    },
+    {
+      "icon": "bus",
+      "title": "Transportation",
+      "body": "2 - 4 pax (Avanza), 5 - 6 pax (Innova), 7 - 12 pax (Hiace). Transport & Guide - 12 Hours Basis. Extra Hour 150,000 IDR/hour (must be paid in cash to driver). Only 1 baggage per person."
+    },
+    {
+      "icon": "info",
+      "title": "Hari Nyepi / Hari Raya",
+      "body": "Blockout dates: 18 - 20 March 2026 and 20 - 23 March 2026."
+    },
+    {
+      "icon": "map-pin",
+      "title": "Heavy Traffic in Bali",
+      "body": "It's common to encounter heavy traffic in Bali especially during Peak Season. Activities or tours may experience delays from the scheduled time. Traffic in Nusa Penida: due to the narrow roads, travel time between locations may take up to 2 hours."
+    },
+    {
+      "icon": "flight",
+      "title": "Arrival / Departure",
+      "body": "Arrival on 1st day included with Airport Transfer & Half Day Tour. No tour is included on the last day (4th day), only airport transfer is available. Please add half-day or full-day transportation with a driver-guide for additional tour."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single Supplement: additional RM1,500 per person.",
+        "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+        "Minimum 3 consecutive night stay during 22 Dec 2026 - 4 Jan 2027.",
+        "Check-out is not allowed on 31st December 2026.",
+        "This package is valid until 31st December 2026 travel period.",
+        "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be made in cash.",
+        "Itinerary, Price, Hotel and Flight are subject to change accordingly.",
+        "Final Itinerary and hotel arrangements 14 days before trip & subject to availability.",
+        "Hotel confirmation and selection is subject to availability at the time of booking.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flight."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Kecak Dance, Uluwatu Temple",
+          "includes": "Performance ticket, transportation for pick-up & drop-off",
+          "excludes": "Meals, personal expenses",
+          "duration": "1 hour performance",
+          "price_lines": [
+            "RM67/pax"
+          ]
+        },
+        {
+          "name": "Barong Dance, Ubud",
+          "includes": "Performance ticket, transportation for pick-up & drop-off",
+          "excludes": "Meals, personal expenses",
+          "duration": "1 hour performance (depart 7am from hotel)",
+          "price_lines": [
+            "RM67/pax"
+          ]
+        },
+        {
+          "name": "Uma Ceking Rice Terrace + Bali Swing",
+          "includes": "Entrance ticket, swing ticket, transportation",
+          "excludes": "Meals, other activities, personal expenses",
+          "duration": "1-2 hours",
+          "price_lines": [
+            "RM117/pax"
+          ]
+        },
+        {
+          "name": "Garuda Wisnu Kencana Cultural Park",
+          "includes": "Entrance ticket & Transportation",
+          "excludes": "Meals, Other Activities, Personal Expenses",
+          "price_lines": [
+            "RM67/pax"
+          ],
+          "duration": "1-2 hours (Available during Nusa Dua Tour Only)"
+        },
+        {
+          "name": "Banana Boat at Nusa Dua",
+          "includes": "Watersport Activity Insurance + 1 Time Ride",
+          "excludes": "Meals, Other Activities, Personal Expenses",
+          "price_lines": [
+            "RM67/pax"
+          ],
+          "duration": "1 hour"
+        },
+        {
+          "name": "Jet Ski Ride at Nusa Dua",
+          "includes": "Watersport Activity Insurance + 1 Time Ride",
+          "excludes": "Other Activities or Personal Expenses",
+          "price_lines": [
+            "RM157/pax"
+          ],
+          "duration": "1-2 hours"
+        },
+        {
+          "name": "Fly Fish at Nusa Dua",
+          "includes": "Activity Insurance + 2 Time Fly",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM177/pax"
+          ],
+          "duration": "1-2 hours Activity"
+        },
+        {
+          "name": "Tubing Ride at Nusa Dua",
+          "includes": "Activity Insurance + 1 Time Ride",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM127/pax"
+          ],
+          "duration": "1 hour Activity"
+        },
+        {
+          "name": "Parasailing Adventure at Nusa Dua",
+          "includes": "Activity Insurance + 1 Time Ride",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM237/pax"
+          ],
+          "duration": "1 hour Activity"
+        },
+        {
+          "name": "Fly Board at Nusa Dua",
+          "includes": "Activity Insurance + 15 Minutes Ride",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM327/pax"
+          ],
+          "duration": "15 minutes Ride"
+        },
+        {
+          "name": "Glass Bottom Boat + Turtle Island at Nusa Dua",
+          "includes": "Activity Insurance + 1 hour Ride",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM197/pax"
+          ],
+          "duration": "1 hour Activity"
+        },
+        {
+          "name": "Snorkeling at Nusa Dua",
+          "includes": "Activity Insurance + 1 hour Ride",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM157/pax"
+          ],
+          "duration": "1 hour Activity"
+        },
+        {
+          "name": "Sea Walking at Nusa Dua",
+          "includes": "Activity Insurance + 40 Minutes Sea Walking",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM347/pax"
+          ],
+          "duration": "40 Minutes"
+        },
+        {
+          "name": "Snorkeling Nusa Penida (Sharing Boat)",
+          "includes": "Life Jacket + Snorkelling Gear + Sharing Boat Transfer; 3 Snorkelling Points (Greenbowl Bay, Gamat Bay, Crystal Bay)",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM107/pax"
+          ]
+        },
+        {
+          "name": "Snorkeling Nusa Penida (Private Boat)",
+          "includes": "Life Jacket + Snorkelling Gear + Private Boat Transfer; 4 Snorkelling Points (Manta Bay, Greenbowl Bay, Gamat Bay, Crystal Bay)",
+          "excludes": "Other activities & Personal expenses",
+          "price_lines": [
+            "RM297/pax"
+          ]
+        }
+      ]
+    }
+  ],
+  "surcharge": {
+    "title": "Surcharge — Accommodation Upgrade & Peak Season",
+    "columns": [
+      {
+        "label": "Upgrade Surcharge (Additional)"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "See peak season dates below"
+      }
+    ],
+    "rows": [
+      {
+        "type": "4 Star Hotel",
+        "name": "The Akmani Legian / The One Legian / Sun Island & Spa Legian",
+        "amounts": [
+          "-",
+          "RM120/couple/night"
+        ]
+      },
+      {
+        "type": "Private Pool Villa",
+        "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa / Asterra Villa Seminyak / Sana ViE Villa / La ViE Villa",
+        "amounts": [
+          "-",
+          "RM250/couple/night"
+        ]
+      }
+    ],
+    "seasons": [
+      {
+        "label": "Christmas Holiday",
+        "period": "22 - 31 December 2025",
+        "rate": "Peak season"
+      },
+      {
+        "label": "New Year School Holiday",
+        "period": "1 - 5 January 2026",
+        "rate": "Peak season"
+      },
+      {
+        "label": "Hari Raya Aidilfitri",
+        "period": "19 - 31 March 2026",
+        "rate": "Peak season · Blockout 20 - 23 March 2026"
+      },
+      {
+        "label": "Hari Nyepi (Bali Religious Day)",
+        "period": "18 - 20 March 2026",
+        "rate": "Blockout date"
+      },
+      {
+        "label": "Super Peak Season in Bali",
+        "period": "1 - 31 August 2026",
+        "rate": "Peak season"
+      },
+      {
+        "label": "Christmas Holiday",
+        "period": "20 - 31 December 2026",
+        "rate": "Peak season"
+      },
+      {
+        "label": "New Year School Holiday",
+        "period": "1 - 5 January 2027",
+        "rate": "Peak season"
+      }
+    ]
   }
- ],
- "surcharge": {
-  "title": "Surcharge — Accommodation Upgrade & Peak Season",
-  "columns": [
-   {
-    "label": "Upgrade Surcharge (Additional)"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "See peak season dates below"
-   }
-  ],
-  "rows": [
-   {
-    "type": "4 Star Hotel",
-    "name": "The Akmani Legian / The One Legian / Sun Island & Spa Legian",
-    "amounts": [
-     "-",
-     "RM120/couple/night"
-    ]
-   },
-   {
-    "type": "Private Pool Villa",
-    "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa / Asterra Villa Seminyak / Sana ViE Villa / La ViE Villa",
-    "amounts": [
-     "-",
-     "RM250/couple/night"
-    ]
-   }
-  ],
-  "seasons": [
-   {
-    "label": "Christmas Holiday",
-    "period": "22 - 31 December 2025",
-    "rate": "Peak season"
-   },
-   {
-    "label": "New Year School Holiday",
-    "period": "1 - 5 January 2026",
-    "rate": "Peak season"
-   },
-   {
-    "label": "Hari Raya Aidilfitri",
-    "period": "19 - 31 March 2026",
-    "rate": "Peak season · Blockout 20 - 23 March 2026"
-   },
-   {
-    "label": "Hari Nyepi (Bali Religious Day)",
-    "period": "18 - 20 March 2026",
-    "rate": "Blockout date"
-   },
-   {
-    "label": "Super Peak Season in Bali",
-    "period": "1 - 31 August 2026",
-    "rate": "Peak season"
-   },
-   {
-    "label": "Christmas Holiday",
-    "period": "20 - 31 December 2026",
-    "rate": "Peak season"
-   },
-   {
-    "label": "New Year School Holiday",
-    "period": "1 - 5 January 2027",
-    "rate": "Peak season"
-   }
-  ]
- }
 }

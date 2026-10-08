@@ -1,339 +1,339 @@
 {
- "slug": "istanbul-bursa",
- "destination": "Istanbul-Bursa",
- "country": "Turki",
- "code": "ISTBUR",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR ISTANBUL - BURSA",
- "duration": "5D4N",
- "route": "Topkapi Palace - Blue Mosque - Hagia Sophia - Bosphorus Cruise - Grand Bazaar - Spice Bazaar - Bursa Grand Mosque - Kozahan - Pierre Loti - Eyup Sultan Mosque",
- "basis": "Ground + Tipping",
- "valid_until": "31 December 2026",
- "version": "v4",
- "updated": "2026-05-21",
- "kb_url": "https://prod-at22.github.io/arba-turki-kb/",
- "po": "Acap",
- "ops": "ILY",
- "source_pdf": "Turki/Istanbul-Bursa/Catalog/PT ISTANBUL-BURSA 5D4N 2026 v4.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult"
-   },
-   {
-    "label": "Child with bed",
-    "age": "7-11 Years Old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-6 Years Old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM4,997",
-     "RM4,797",
-     "RM4,597"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM4,697",
-     "RM4,497",
-     "RM4,297"
-    ]
-   },
-   {
-    "pax": "4",
-    "amounts": [
-     "RM4,597",
-     "RM4,397",
-     "RM4,197"
-    ]
-   },
-   {
-    "pax": "5",
-    "amounts": [
-     "RM4,297",
-     "RM4,097",
-     "RM3,897"
-    ]
-   },
-   {
-    "pax": "6",
-    "amounts": [
-     "RM3,897",
-     "RM3,697",
-     "RM3,497"
-    ]
-   },
-   {
-    "pax": "7",
-    "amounts": [
-     "RM3,797",
-     "RM3,597",
-     "RM3,397"
-    ]
-   },
-   {
-    "pax": "8",
-    "amounts": [
-     "RM3,597",
-     "RM3,397",
-     "RM3,197"
-    ]
-   },
-   {
-    "pax": "9",
-    "amounts": [
-     "RM3,197",
-     "RM2,997",
-     "RM2,797"
-    ]
-   }
-  ],
-  "infant": "RM200 per pax"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "Accommodation (3 Star Hotel)",
-    "Private Transport",
-    "Private Driver (Turkish speaking)",
-    "Tour Guide (English speaking)",
-    "Meals (4x International Breakfast, 5x Lunch, 4x Dinner)",
+  "slug": "istanbul-bursa",
+  "destination": "Istanbul-Bursa",
+  "country": "Turki",
+  "code": "ISTBUR",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR ISTANBUL - BURSA",
+  "duration": "5D4N",
+  "route": "Topkapi Palace - Blue Mosque - Hagia Sophia - Bosphorus Cruise - Grand Bazaar - Spice Bazaar - Bursa Grand Mosque - Kozahan - Pierre Loti - Eyup Sultan Mosque",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v4",
+  "updated": "2026-05-21",
+  "kb_url": "https://prod-at22.github.io/arba-turki-kb/",
+  "po": "Acap",
+  "ops": "ILY",
+  "source_pdf": "Turki/Istanbul-Bursa/Catalog/PT ISTANBUL-BURSA 5D4N 2026 v4.pdf",
+  "highlights": [
     {
-     "text": "Entrance Fees",
-     "sub": [
-      "Bosphorus Cruise",
-      "Pierre Loti Teleferik"
-     ]
-    },
-    "Tipping Fee for Driver and Tour Guide"
-   ],
-   "excludes": [
-    "Personal Expenses",
-    "Hagia Sophia Entrance Fee",
-    "Topkapi Palace",
-    "International Flight Ticket",
-    "Additional Meal",
-    "Travel Insurance",
-    "Fees for Optional Activities",
-    "Porter Fee"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Arrival - Istanbul - Bursa",
-   "activities": [
-    "Airport Pickup",
-    "Transfer to Bursa",
-    "Check in Bursa Hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "Dinner",
-   "hotel": "3 Star Hotel (Bursa)"
-  },
-  {
-   "day": 2,
-   "title": "Bursa - Istanbul",
-   "activities": [
-    "Grand Mosque of Bursa",
-    "Kozahan",
-    "Green Mosque",
-    "Tombs of Osman Gazi and Orhan Gazi",
-    "Tophane Clock Tower",
-    "Transfer to Istanbul",
-    "Check in Istanbul Hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3 Star Hotel (Istanbul)"
-  },
-  {
-   "day": 3,
-   "title": "Istanbul",
-   "activities": [
-    "Topkapi Palace (photo stop)",
-    "Hagia Sophia (photo stop)",
-    "Blue Mosque",
-    "Hippodrome"
-   ],
-   "transport": "Tram",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3 Star Hotel (Istanbul)"
-  },
-  {
-   "day": 4,
-   "title": "Istanbul",
-   "activities": [
-    "Bosphorus Cruise",
-    "Spice Bazaar",
-    "Grand Bazaar"
-   ],
-   "transport": "Tram",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3 Star Hotel (Istanbul)"
-  },
-  {
-   "day": 5,
-   "title": "Istanbul - Airport Transfer",
-   "activities": [
-    "Check out Hotel",
-    "Eyup Sultan Mosque",
-    "Pierre Loti Hill",
-    "Airport Transfer (after 5PM)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "bus",
-   "title": "Private Transport",
-   "body": "Please bring a maximum of 1 luggage per person, as it will affect car capacity."
-  },
-  {
-   "icon": "utensils",
-   "title": "Food",
-   "body": "Consistent menu & subtle variation. Don't forget your sambal."
-  },
-  {
-   "icon": "footprints",
-   "title": "Lots of Walking",
-   "body": "Especially in Istanbul (pedestrian zone)."
-  },
-  {
-   "icon": "payment",
-   "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
-   "body": "E.g. entrance fees, shopping, etc."
-  },
-  {
-   "icon": "train",
-   "title": "Public Transport",
-   "body": "2 days using tram in Istanbul City Center."
-  },
-  {
-   "icon": "guide",
-   "title": "Tour Guide",
-   "body": "10-11 hours basis."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM1,000/person.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "Private transportation & driving guide is based on 10-11 hours basis.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
-    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
-    "This package is valid until 31 December 2026 travel period."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to arrival for full payment"
-  }
- ],
- "surcharge": {
-  "title": "Winter Surcharge",
-  "seasons": [
-   {
-    "label": "Winter Season",
-    "period": "December until February",
-    "rate": "Add on RM500/pax"
-   }
-  ]
- },
- "accommodation": [
-  {
-   "city": "Bursa",
-   "stars": 3,
-   "name": "Kervansaray City Hotel",
-   "similar": true
-  },
-  {
-   "city": "Istanbul",
-   "stars": 3,
-   "name": "Viva Deluxe Hotel",
-   "similar": true
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Uludag Snow Park (1D1N)",
-     "includes": "Private Transport, Accommodation (Bursa City), Meals and Guide",
-     "excludes": "Ski Activities, Personal Expenses",
-     "price_lines": [
-      "2 pax: RM800/pax",
-      "3 pax: RM600/pax",
-      "Above 4 pax: RM500/pax"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
     },
     {
-     "name": "Bosphorus Dinner Cruise",
-     "includes": "Dinner, cruise along the Bosphorus, entertainment",
-     "excludes": "Alcoholic drinks, personal expenses",
-     "duration": "2-3 hours",
-     "price_lines": [
-      "RM297/pax"
-     ]
+      "icon": "bus",
+      "label": "Private Transport"
     },
     {
-     "name": "Topkapi Palace Entrance",
-     "includes": "Main Palace, Harem section, and Hagia Irene Church",
-     "excludes": "Guided tour, food/drinks, and personal expenses",
-     "duration": "3-4 hours (recommended)",
-     "price_lines": [
-      "RM277/pax"
-     ]
-    },
-    {
-     "name": "Whirling Dervishes",
-     "includes": "Entrance, performance show",
-     "excludes": "Other activities, personal expenses",
-     "duration": "1 hour show",
-     "price_lines": [
-      "RM227/pax"
-     ]
+      "icon": "guide",
+      "label": "Driving Guide"
     }
-   ]
-  }
- ]
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult"
+      },
+      {
+        "label": "Child with bed",
+        "age": "7-11 Years Old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-6 Years Old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM4,997",
+          "RM4,797",
+          "RM4,597"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM4,697",
+          "RM4,497",
+          "RM4,297"
+        ]
+      },
+      {
+        "pax": "4",
+        "amounts": [
+          "RM4,597",
+          "RM4,397",
+          "RM4,197"
+        ]
+      },
+      {
+        "pax": "5",
+        "amounts": [
+          "RM4,297",
+          "RM4,097",
+          "RM3,897"
+        ]
+      },
+      {
+        "pax": "6",
+        "amounts": [
+          "RM3,897",
+          "RM3,697",
+          "RM3,497"
+        ]
+      },
+      {
+        "pax": "7",
+        "amounts": [
+          "RM3,797",
+          "RM3,597",
+          "RM3,397"
+        ]
+      },
+      {
+        "pax": "8",
+        "amounts": [
+          "RM3,597",
+          "RM3,397",
+          "RM3,197"
+        ]
+      },
+      {
+        "pax": "9",
+        "amounts": [
+          "RM3,197",
+          "RM2,997",
+          "RM2,797"
+        ]
+      }
+    ],
+    "infant": "RM200 per pax"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "Accommodation (3 Star Hotel)",
+        "Private Transport",
+        "Private Driver (Turkish speaking)",
+        "Tour Guide (English speaking)",
+        "Meals (4x International Breakfast, 5x Lunch, 4x Dinner)",
+        {
+          "text": "Entrance Fees",
+          "sub": [
+            "Bosphorus Cruise",
+            "Pierre Loti Teleferik"
+          ]
+        },
+        "Tipping Fee for Driver and Tour Guide"
+      ],
+      "excludes": [
+        "Personal Expenses",
+        "Hagia Sophia Entrance Fee",
+        "Topkapi Palace",
+        "International Flight Ticket",
+        "Additional Meal",
+        "Travel Insurance",
+        "Fees for Optional Activities",
+        "Porter Fee"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival - Istanbul - Bursa",
+      "activities": [
+        "Airport Pickup",
+        "Transfer to Bursa",
+        "Check in Bursa Hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "Dinner",
+      "hotel": "3 Star Hotel (Bursa)"
+    },
+    {
+      "day": 2,
+      "title": "Bursa - Istanbul",
+      "activities": [
+        "Grand Mosque of Bursa",
+        "Kozahan",
+        "Green Mosque",
+        "Tombs of Osman Gazi and Orhan Gazi",
+        "Tophane Clock Tower",
+        "Transfer to Istanbul",
+        "Check in Istanbul Hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3 Star Hotel (Istanbul)"
+    },
+    {
+      "day": 3,
+      "title": "Istanbul",
+      "activities": [
+        "Topkapi Palace (photo stop)",
+        "Hagia Sophia (photo stop)",
+        "Blue Mosque",
+        "Hippodrome"
+      ],
+      "transport": "Tram",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3 Star Hotel (Istanbul)"
+    },
+    {
+      "day": 4,
+      "title": "Istanbul",
+      "activities": [
+        "Bosphorus Cruise",
+        "Spice Bazaar",
+        "Grand Bazaar"
+      ],
+      "transport": "Tram",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3 Star Hotel (Istanbul)"
+    },
+    {
+      "day": 5,
+      "title": "Istanbul - Airport Transfer",
+      "activities": [
+        "Check out Hotel",
+        "Eyup Sultan Mosque",
+        "Pierre Loti Hill",
+        "Airport Transfer (after 5PM)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "bus",
+      "title": "Private Transport",
+      "body": "Please bring a maximum of 1 luggage per person, as it will affect car capacity."
+    },
+    {
+      "icon": "utensils",
+      "title": "Food",
+      "body": "Consistent menu & subtle variation. Don't forget your sambal."
+    },
+    {
+      "icon": "footprints",
+      "title": "Lots of Walking",
+      "body": "Especially in Istanbul (pedestrian zone)."
+    },
+    {
+      "icon": "payment",
+      "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
+      "body": "E.g. entrance fees, shopping, etc."
+    },
+    {
+      "icon": "train",
+      "title": "Public Transport",
+      "body": "2 days using tram in Istanbul City Center."
+    },
+    {
+      "icon": "guide",
+      "title": "Tour Guide",
+      "body": "10-11 hours basis."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM1,000/person.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "Private transportation & driving guide is based on 10-11 hours basis.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+        "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
+        "This package is valid until 31 December 2026 travel period."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to arrival for full payment"
+    }
+  ],
+  "surcharge": {
+    "title": "Winter Surcharge",
+    "seasons": [
+      {
+        "label": "Winter Season",
+        "period": "December until February",
+        "rate": "Add on RM500/pax"
+      }
+    ]
+  },
+  "accommodation": [
+    {
+      "city": "Bursa",
+      "stars": 3,
+      "name": "Kervansaray City Hotel",
+      "similar": true
+    },
+    {
+      "city": "Istanbul",
+      "stars": 3,
+      "name": "Viva Deluxe Hotel",
+      "similar": true
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Uludag Snow Park (1D1N)",
+          "includes": "Private Transport, Accommodation (Bursa City), Meals and Guide",
+          "excludes": "Ski Activities, Personal Expenses",
+          "price_lines": [
+            "2 pax: RM800/pax",
+            "3 pax: RM600/pax",
+            "Above 4 pax: RM500/pax"
+          ]
+        },
+        {
+          "name": "Bosphorus Dinner Cruise",
+          "includes": "Dinner, cruise along the Bosphorus, entertainment",
+          "excludes": "Alcoholic drinks, personal expenses",
+          "duration": "2-3 hours",
+          "price_lines": [
+            "RM297/pax"
+          ]
+        },
+        {
+          "name": "Topkapi Palace Entrance",
+          "includes": "Main Palace, Harem section, and Hagia Irene Church",
+          "excludes": "Guided tour, food/drinks, and personal expenses",
+          "duration": "3-4 hours (recommended)",
+          "price_lines": [
+            "RM277/pax"
+          ]
+        },
+        {
+          "name": "Whirling Dervishes",
+          "includes": "Entrance, performance show",
+          "excludes": "Other activities, personal expenses",
+          "duration": "1 hour show",
+          "price_lines": [
+            "RM227/pax"
+          ]
+        }
+      ]
+    }
+  ]
 }

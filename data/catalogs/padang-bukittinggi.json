@@ -1,280 +1,280 @@
 {
- "slug": "padang-bukittinggi",
- "destination": "Padang-Bukittinggi",
- "country": "Indonesia",
- "code": "PDG",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR PADANG - BUKITTINGGI",
- "duration": "4D3N",
- "route": "Anai Valley - Lembah Harau - Istana Pagaruyung - Puncak Lawang",
- "basis": "Ground + Tipping",
- "valid_until": "31 January 2027",
- "version": "v7",
- "updated": "2026-08-09",
- "kb_url": "",
- "po": "Ezie",
- "ops": "CIK IWAN",
- "source_pdf": "Indonesia/Padang-Bukittinggi/Catalog/PT PDG - BUKITTINGGI 4D3N 2026 v7.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "3-Star Hotel"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM1,297",
-     "RM1,197",
-     "RM1,097"
-    ]
-   },
-   {
-    "pax": "3 - 6",
-    "amounts": [
-     "RM1,157",
-     "RM1,057",
-     "RM957"
-    ]
-   },
-   {
-    "pax": "7 - 10",
-    "amounts": [
-     "RM1,097",
-     "RM997",
-     "RM897"
-    ]
-   },
-   {
-    "pax": "11 - 15",
-    "amounts": [
-     "RM1,057",
-     "RM957",
-     "RM857"
-    ]
-   },
-   {
-    "pax": "16 - 20",
-    "amounts": [
-     "RM1,037",
-     "RM937",
-     "RM837"
-    ]
-   }
-  ],
-  "infant": "FOC"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (3 Star Hotel)",
-    "Private Transportation (12 hours basis)",
-    "Entrance Fees (as stated in itinerary)",
-    "Full Meals",
-    "Driving Guide",
-    "Tipping Fee"
-   ],
-   "excludes": [
-    "Extra hour Transport & Tour Guide 150,000 IDR/hour",
-    "International Flight Ticket",
-    "In Flight Meal",
-    "Additional Tours & Meals",
-    "Personal Expenses",
-    "Travel Insurance"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "KUL - PDG - Bukittinggi",
-   "activities": [
-    "Recommended arrival: 09.00am to 10.00am",
-    "Airport pick-up",
-    "Land transfer to Bukittinggi",
-    "Anai Valley Waterfall (photo stop)",
-    "Minangkabau Documentation and Information Centre",
-    "Pandai Sikek (songket & local craft)",
-    "Check-in hotel in Bukittinggi"
-   ],
-   "transport": "Private Transport",
-   "meals": "Lunch, Dinner",
-   "hotel": "3-Star Hotel (Bukittinggi)"
-  },
-  {
-   "day": 2,
-   "title": "Bukittinggi",
-   "activities": [
+  "slug": "padang-bukittinggi",
+  "destination": "Padang-Bukittinggi",
+  "country": "Indonesia",
+  "code": "PDG",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR PADANG - BUKITTINGGI",
+  "duration": "4D3N",
+  "route": "Anai Valley - Lembah Harau - Istana Pagaruyung - Puncak Lawang",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 January 2027",
+  "version": "v7",
+  "updated": "2026-08-09",
+  "kb_url": "",
+  "po": "Ezie",
+  "ops": "CIK IWAN",
+  "source_pdf": "Indonesia/Padang-Bukittinggi/Catalog/PT PDG - BUKITTINGGI 4D3N 2026 v7.pdf",
+  "highlights": [
     {
-     "text": "Option A",
-     "sub": [
-      "Kelok 9",
-      "Lembah Harau",
-      "Tabek Patah",
-      "Kota Payakumbuh",
-      "Istana Pagaruyung",
-      "Danau Singkarak"
-     ]
+      "icon": "hotel",
+      "label": "3-Star Hotel"
     },
     {
-     "text": "Option B",
-     "sub": [
-      "Istana Pagaruyung",
-      "Danau Singkarak",
-      "Shopping at Bukittinggi"
-     ]
-    }
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Bukittinggi)"
-  },
-  {
-   "day": 3,
-   "title": "Bukittinggi - Padang",
-   "activities": [
-    {
-     "text": "Option A",
-     "sub": [
-      "Panorama Baru Bukittinggi",
-      "Puncak Lawang (Danau Maninjau view)",
-      "Perkampungan Koto Gadang",
-      "Check-in hotel in Padang"
-     ]
+      "icon": "bus",
+      "label": "Private Transport"
     },
     {
-     "text": "Option B",
-     "sub": [
-      "Shopping at Bukittinggi",
-      "Panorama Baru Bukittinggi",
-      "Puncak Lawang",
-      "Perkampungan Koto Gadang",
-      "Check-in hotel in Padang"
-     ]
+      "icon": "guide",
+      "label": "Driving Guide"
     }
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Padang)"
-  },
-  {
-   "day": 4,
-   "title": "PDG - KUL",
-   "activities": [
-    "West Sumatra Grand Mosque",
-    "Air Manis Beach (Malin Kundang)",
-    "Airport transfer"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "bus",
-   "title": "Transportation",
-   "body": "2 - 5 pax (Avanza), 6 - 7 pax (Innova), 8 - 12 pax (Hiace). Please ensure that your travel bag and baggage are of an appropriate size, as larger items may impact your seat space during travel."
-  },
-  {
-   "icon": "bed",
-   "title": "Double Sharing Basis",
-   "body": "3-star hotel only offers double-sharing rooms as standard. If you require a triple-sharing room, we can provide an extra bed in the double room. However, for a proper triple bed arrangement, we recommend upgrading to a 4-star hotel, where triple rooms are available."
-  },
-  {
-   "icon": "utensils",
-   "title": "Meals",
-   "body": "Meals provided during trip will be local Indonesian food at local Indonesian restaurant."
-  },
-  {
-   "icon": "bus",
-   "title": "Heavy Traffic",
-   "body": "Please expect some delays during the trip due to frequent heavy traffic and narrow roads."
-  },
-  {
-   "icon": "flight",
-   "title": "Arrival / Departure",
-   "body": "Suggested arrival time is 9.00am - 10.00am and departure time is at noon. Late arrivals or early departures will not be refunded for activities and meals."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2@3 person per room.",
-    "Single Supplement: additional RM300 per person (Only applicable for 3 Star Hotel Only).",
-    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
-    "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be paid in cash.",
-    "Itinerary, Price, and Flight is subject to change accordingly.",
-    "Final Itinerary and hotel arrangements 14 days before trip.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flight.",
-    "This package is valid until 31st January 2027 travel period."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Upgrade Surcharge"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "25 Dec 2025 - 5 Jan 2026 · 15 - 31 Mar 2026 · 25 Jun - 12 July 2026 · 25 Dec 2026 - 5 Jan 2027"
-   }
   ],
-  "rows": [
-   {
-    "type": "3 Star Hotel",
-    "name": "Grand Bunda / Royal Denai",
-    "amounts": [
-     "-",
-     "RM50/person/night"
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM1,297",
+          "RM1,197",
+          "RM1,097"
+        ]
+      },
+      {
+        "pax": "3 - 6",
+        "amounts": [
+          "RM1,157",
+          "RM1,057",
+          "RM957"
+        ]
+      },
+      {
+        "pax": "7 - 10",
+        "amounts": [
+          "RM1,097",
+          "RM997",
+          "RM897"
+        ]
+      },
+      {
+        "pax": "11 - 15",
+        "amounts": [
+          "RM1,057",
+          "RM957",
+          "RM857"
+        ]
+      },
+      {
+        "pax": "16 - 20",
+        "amounts": [
+          "RM1,037",
+          "RM937",
+          "RM837"
+        ]
+      }
+    ],
+    "infant": "FOC"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (3 Star Hotel)",
+        "Private Transportation (12 hours basis)",
+        "Entrance Fees (as stated in itinerary)",
+        "Full Meals",
+        "Driving Guide",
+        "Tipping Fee"
+      ],
+      "excludes": [
+        "Extra hour Transport & Tour Guide 150,000 IDR/hour",
+        "International Flight Ticket",
+        "In Flight Meal",
+        "Additional Tours & Meals",
+        "Personal Expenses",
+        "Travel Insurance"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "KUL - PDG - Bukittinggi",
+      "activities": [
+        "Recommended arrival: 09.00am to 10.00am",
+        "Airport pick-up",
+        "Land transfer to Bukittinggi",
+        "Anai Valley Waterfall (photo stop)",
+        "Minangkabau Documentation and Information Centre",
+        "Pandai Sikek (songket & local craft)",
+        "Check-in hotel in Bukittinggi"
+      ],
+      "transport": "Private Transport",
+      "meals": "Lunch, Dinner",
+      "hotel": "3-Star Hotel (Bukittinggi)"
+    },
+    {
+      "day": 2,
+      "title": "Bukittinggi",
+      "activities": [
+        {
+          "text": "Option A",
+          "sub": [
+            "Kelok 9",
+            "Lembah Harau",
+            "Tabek Patah",
+            "Kota Payakumbuh",
+            "Istana Pagaruyung",
+            "Danau Singkarak"
+          ]
+        },
+        {
+          "text": "Option B",
+          "sub": [
+            "Istana Pagaruyung",
+            "Danau Singkarak",
+            "Shopping at Bukittinggi"
+          ]
+        }
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Bukittinggi)"
+    },
+    {
+      "day": 3,
+      "title": "Bukittinggi - Padang",
+      "activities": [
+        {
+          "text": "Option A",
+          "sub": [
+            "Panorama Baru Bukittinggi",
+            "Puncak Lawang (Danau Maninjau view)",
+            "Perkampungan Koto Gadang",
+            "Check-in hotel in Padang"
+          ]
+        },
+        {
+          "text": "Option B",
+          "sub": [
+            "Shopping at Bukittinggi",
+            "Panorama Baru Bukittinggi",
+            "Puncak Lawang",
+            "Perkampungan Koto Gadang",
+            "Check-in hotel in Padang"
+          ]
+        }
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Padang)"
+    },
+    {
+      "day": 4,
+      "title": "PDG - KUL",
+      "activities": [
+        "West Sumatra Grand Mosque",
+        "Air Manis Beach (Malin Kundang)",
+        "Airport transfer"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "bus",
+      "title": "Transportation",
+      "body": "2 - 5 pax (Avanza), 6 - 7 pax (Innova), 8 - 12 pax (Hiace). Please ensure that your travel bag and baggage are of an appropriate size, as larger items may impact your seat space during travel."
+    },
+    {
+      "icon": "bed",
+      "title": "Double Sharing Basis",
+      "body": "3-star hotel only offers double-sharing rooms as standard. If you require a triple-sharing room, we can provide an extra bed in the double room. However, for a proper triple bed arrangement, we recommend upgrading to a 4-star hotel, where triple rooms are available."
+    },
+    {
+      "icon": "utensils",
+      "title": "Meals",
+      "body": "Meals provided during trip will be local Indonesian food at local Indonesian restaurant."
+    },
+    {
+      "icon": "bus",
+      "title": "Heavy Traffic",
+      "body": "Please expect some delays during the trip due to frequent heavy traffic and narrow roads."
+    },
+    {
+      "icon": "flight",
+      "title": "Arrival / Departure",
+      "body": "Suggested arrival time is 9.00am - 10.00am and departure time is at noon. Late arrivals or early departures will not be refunded for activities and meals."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2@3 person per room.",
+        "Single Supplement: additional RM300 per person (Only applicable for 3 Star Hotel Only).",
+        "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+        "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be paid in cash.",
+        "Itinerary, Price, and Flight is subject to change accordingly.",
+        "Final Itinerary and hotel arrangements 14 days before trip.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flight.",
+        "This package is valid until 31st January 2027 travel period."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Upgrade Surcharge"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "25 Dec 2025 - 5 Jan 2026 · 15 - 31 Mar 2026 · 25 Jun - 12 July 2026 · 25 Dec 2026 - 5 Jan 2027"
+      }
+    ],
+    "rows": [
+      {
+        "type": "3 Star Hotel",
+        "name": "Grand Bunda / Royal Denai",
+        "amounts": [
+          "-",
+          "RM50/person/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Grand Rocky / Santika / Grand Royal Denai",
+        "amounts": [
+          "Add RM80/person/night",
+          "RM60/person/night"
+        ]
+      }
     ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Grand Rocky / Santika / Grand Royal Denai",
-    "amounts": [
-     "Add RM80/person/night",
-     "RM60/person/night"
-    ]
-   }
-  ]
- }
+  }
 }

@@ -1,433 +1,433 @@
 {
- "slug": "nz-north-south-standard",
- "destination": "New Zealand",
- "country": "New Zealand",
- "code": "NSNZ",
- "tier": "Self Tour · Standard",
- "tier_code": "STD",
- "title": "SELF TOUR (MPV) NEW ZEALAND NORTH & SOUTH ISLAND",
- "duration": "9D8N",
- "route": "Auckland - Rotorua - Taupo - Christchurch - Lake Tekapo - Queenstown - Milford Sound",
- "basis": "Ground · Self Tour",
- "valid_until": "31 March 2027",
- "version": "v3",
- "updated": "2026-03-12",
- "kb_url": "https://prod-at22.github.io/arba-newzealand-kb/",
- "po": "Acap",
- "ops": "ATIQAH",
- "source_pdf": "New Zealand/Catalog/ST NEW ZEALAND NORTH & SOUTH STANDARD 9D8N 2026 v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Self Drive"
-  },
-  {
-   "icon": "flight",
-   "label": "Domestic Flights AKL-CHC & ZQN-AKL"
-  },
-  {
-   "icon": "info",
-   "label": "Self Tour · Standard"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM7,497",
-     "RM7,297",
-     "RM7,097"
-    ]
-   },
-   {
-    "pax": "3 - 4",
-    "amounts": [
-     "RM7,197",
-     "RM6,997",
-     "RM6,797"
-    ]
-   },
-   {
-    "pax": "5 - 6",
-    "amounts": [
-     "RM6,997",
-     "RM6,797",
-     "RM6,597"
-    ]
-   },
-   {
-    "pax": "7 - 8",
-    "amounts": [
-     "RM6,797",
-     "RM6,597",
-     "RM6,397"
-    ]
-   },
-   {
-    "pax": "9 - 10",
-    "amounts": [
-     "RM6,397",
-     "RM6,197",
-     "RM5,997"
-    ]
-   }
-  ],
-  "infant": "RM1,000"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "Rental Vehicle with GPS",
-    "Full Comprehensive Car Insurance",
-    "24/7 Roadside Assistance",
-    "8 Nights Accomodation in 3-4 Star Hotel/Motel",
-    "Online Trip Assistance",
-    "Online Pre Trip Consultation",
-    "NZ-ETA Application for 1st Application",
-    "Domestic Flight AKL - CHC + 20kg baggage",
-    "Domestic Flight ZQN - AKL + 20kg Baggage",
-    "Halal Food/Restaurant Guide"
-   ],
-   "excludes": [
-    "Return International Flight Tickets",
-    "Luggage, In Flight Meal & Airport Tax",
-    "Meals",
-    "Personal Expenses, Fuels & Traffic Summon",
-    "Personal Travel Insurance",
-    "NZ-ETA Re-application",
-    "Pocket Wifi or Internet Access",
-    "Parking & Summon Parking"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Arrival Auckland",
-   "activities": [
-    "Arrival at Auckland Airport",
-    "Transport Pickup & Safety Car briefing at Airport",
-    "Check-in Hotel near Auckland",
-    "Free & Easy",
-    "*Recommended sighseeing Cornwall Park / West Heaven Marina"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 2,
-   "title": "Auckland - Rotorua",
-   "activities": [
-    "Check-out Hotel & transfer to Matamata (3 hours)",
-    "Hobbiton Movie Set Tour (Optional)",
-    "Putaruru Blue Springs",
-    "Redwood Forest",
-    "Check-in Hotel in Rotorua"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 3,
-   "title": "Rotorua - Taupo - Hamilton",
-   "activities": [
-    "Whakarewa Maori Village Tour (Optional)",
-    "Transfer to Taupo (1 hour)",
-    "Huka Fall",
-    "Lake Taupo",
-    "Transfer to Hamilton (3 hours)",
-    "Visit Hamilton Garden",
-    "Check-in Hotel in Hamilton"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 4,
-   "title": "Hamilton - Auckland - Christchurch",
-   "activities": [
-    "Transfer to Auckland Airport",
-    "Domestic Flight Auckland to Christchurch (AKL - CHC)",
-    "Arrival Christchurch Airport & Pickup Car Rental",
-    "Riverside Market",
-    "Masjid An Noor"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 5,
-   "title": "Christchurch - Tekapo - Twizel",
-   "activities": [
-    "Transfer to Tekapo (3 hours)",
-    "Lake Tekapo & Lake Pukaki",
-    "Twizel Canal",
-    "High Country Salmon Farm Twizel",
-    "Aoraki Mt Cook National Park",
-    "Hooker Valley Track",
-    "Check-in Hotel in Twizel"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 6,
-   "title": "Twizel - Cromwell - Te Anau",
-   "activities": [
-    "Transfer to Wanaka (2 hours)",
-    "Lindis Pass Photostop",
-    "Wanaka Lake",
-    "Transfer to Te Anau (2 hours)",
-    "Sourvenir Shopping in Te Anau",
-    "Check-in Hotel in Te Anau"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 7,
-   "title": "Te Anau - Milford Sound - Queenstown",
-   "activities": [
-    "Transfer to Milford Sound (2 hours)",
-    "Milford Sound Cruise Experience (Optional)",
-    "Transfer to Queenstown (4 hours)",
-    "Skyline Gondola Queenstown (Optional)",
-    "Check-in hotel in Queenstown"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 8,
-   "title": "Queenstown - Auckland",
-   "activities": [
-    "Central Shopping Area Queenstown",
-    "Lake Wakatipu",
-    "Transfer to Queenstown Airport & Return Car Rental",
-    "Domestic flight Queenstown to Auckland (ZQN - AKL)",
-    "Arrival Auckland Domestic Airport",
-    "Airport Transfer to hotel",
-    "Check-in Hotel in Auckland"
-   ],
-   "transport": "Self Drive + Car Rental",
-   "meals": "-",
-   "hotel": "3-4 Star Hotel / Motel"
-  },
-  {
-   "day": 9,
-   "title": "Auckland - Kul",
-   "activities": [
-    "Transfer to Auckland International Airport",
-    "International Flight Auckland - KUL",
-    "End of Tour"
-   ],
-   "transport": "Airport Transfer",
-   "meals": "-",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "map-pin",
-   "title": "Road Closure",
-   "body": "New Zealand often experiences road closures. Alternative routes may take more time, so please plan your journey in advance to arrive on time."
-  },
-  {
-   "icon": "payment",
-   "title": "Credit/Debit Card",
-   "body": "A refundable security deposit may be required by hotels during check-in, payable by a valid Credit/Debit card."
-  },
-  {
-   "icon": "info",
-   "title": "Car Rental",
-   "body": "Please bring your physical Malaysian Driving License (English translated) or IDP. Registered Driver required to present a valid credit card for security reasons during the car rental pick-up."
-  },
-  {
-   "icon": "hotel",
-   "title": "Hotel/Motel",
-   "body": "Due to frequent hotel transfers, we recommend packing lightly for your convenience. Some hotels may not have a 24/7 receptionist, please call the hotel number provided for late check-in."
-  },
-  {
-   "icon": "luggage",
-   "title": "Luggage Capacity",
-   "body": "Please bring max 1 luggage for 1 pax as it will affect car capacity & please do not exceed 20kg baggage Domestic Flight Allowances."
-  },
-  {
-   "icon": "utensils",
-   "title": "Exclude Meals",
-   "body": "Exclude Breakfast, lunch and dinner. Halal restaurants in New Zealand usually open later in the day and close earlier. Please manage your meal time accordingly."
-  },
-  {
-   "icon": "info",
-   "title": "Fuel/Diesel",
-   "body": "Please refuel the vehicle using the fuel or diesel type specified by the car rental company, as indicated on the fuel label. Incorrect refueling will incur a penalty charge."
-  },
-  {
-   "icon": "map-pin",
-   "title": "Car Parking",
-   "body": "Parking fees are not included. Please note that street parking in New Zealand CBD areas is strictly prohibited. Kindly use the designated parking areas."
-  },
-  {
-   "icon": "bus",
-   "title": "Long Haul Road Trip",
-   "body": "Some destinations might require a 4-5 hours journey of road trip. Toilet break & Coffee break is recommended. Alternate Driver registration highly recommended."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 or 3 persons per room.",
-    "Single Supplement: Additional RM2,500 per pax.",
-    "Late Booking Surcharge will apply for bookings made less than 45 days before the departure date.",
-    "Itinerary, Price, and Flight is subject to change accordingly.",
-    "Final Itinerary and hotel arrangements 45 days before departure date.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flight.",
-    "This package is valid until 31st March 2027 travel period."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 1,000",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Tour or Activities",
-   "entries": [
+  "slug": "nz-north-south-standard",
+  "destination": "New Zealand",
+  "country": "New Zealand",
+  "code": "NSNZ",
+  "tier": "Self Tour · Standard",
+  "tier_code": "STD",
+  "title": "SELF TOUR (MPV) NEW ZEALAND NORTH & SOUTH ISLAND",
+  "duration": "9D8N",
+  "route": "Auckland - Rotorua - Taupo - Christchurch - Lake Tekapo - Queenstown - Milford Sound",
+  "basis": "Ground · Self Tour",
+  "valid_until": "31 March 2027",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "kb_url": "https://prod-at22.github.io/arba-newzealand-kb/",
+  "po": "Acap",
+  "ops": "ATIQAH",
+  "source_pdf": "New Zealand/Catalog/ST NEW ZEALAND NORTH & SOUTH STANDARD 9D8N 2026 v3.pdf",
+  "highlights": [
     {
-     "name": "Whakarewa The Living Maori Village Tour",
-     "includes": "Whakarewa Maori Village guided Tour (1 hour)",
-     "excludes": "Maori Dance, Geothermal Tour, Meals",
-     "price_lines": [
-      "Adult: RM150/pax (16 years old & above)",
-      "Child/Youth: RM80/pax (5 - 15 years old)",
-      "Infant: FOC (0 - 4 years old)"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
     },
     {
-     "name": "Hobbiton Movie Set Tour",
-     "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
-     "excludes": "Meals and self expenses",
-     "price_lines": [
-      "Adult: RM320/pax (17 years old and above)",
-      "Youth: RM150/pax (11 - 16 years old)",
-      "Child: FOC (below 10 years old)"
-     ]
+      "icon": "bus",
+      "label": "Self Drive"
     },
     {
-     "name": "Agrodome Farm & Animal Show",
-     "includes": "Farm show and Experience 350-Acre Farm Tour",
-     "excludes": "Meals and self expenses",
-     "price_lines": [
-      "Adult: RM180/pax (16 years old and above)",
-      "Youth: RM150/pax (3 - 15 years old)",
-      "Child: FOC (below 10 years old)"
-     ]
+      "icon": "flight",
+      "label": "Domestic Flights AKL-CHC & ZQN-AKL"
     },
     {
-     "name": "Hamilton Garden",
-     "includes": "Enclosed Garden Entry Ticket",
-     "excludes": "Meals, self expenses and Audio Guide",
-     "price_lines": [
-      "Adult: RM65/pax (Free & Easy Self Tour)",
-      "Child: RM25/pax (Free & Easy Self Tour)"
-     ]
-    },
-    {
-     "name": "Skyline Gondola Ride (Queenstown)",
-     "includes": "Return Skyline Gondola Ride at Queenstown City",
-     "excludes": "Luge Ride or additional activities",
-     "price_lines": [
-      "RM180/pax for Adult (15 years old and above)",
-      "RM120/pax for Youth (6 - 14 years old)",
-      "Free for Child below 5 years old"
-     ]
-    },
-    {
-     "name": "Milford Sound Nature Cruise",
-     "includes": "Milford Sound Cruise Ticket Only",
-     "excludes": "Meals on board and Coach Transfer",
-     "price_lines": [
-      "RM450/pax for Adult (15 years old and above)",
-      "RM250/pax for Youth (6 - 14 years old)",
-      "Free for Child below 5 years old"
-     ]
-    },
-    {
-     "name": "Milford Sound Coach + Nature Cruise",
-     "includes": "Milford Sound Coach + Nature Cruise",
-     "excludes": "Meals on board and Additional Tour",
-     "price_lines": [
-      "RM650/pax depart from Queenstown (depart 6:20am)",
-      "RM550/pax depart from Te Anau (depart 9:30am)"
-     ]
-    },
-    {
-     "name": "Maori Culture Performance at Whakarewa Village",
-     "includes": "30 Minutes shows at 12:30pm Daily",
-     "excludes": "Guided Village Tour, Meals and Additional Tour",
-     "price_lines": [
-      "Adult: RM95/pax (16 years old & above)",
-      "Child/Youth: RM60/pax (5 - 15 years old)",
-      "Infant: FOC (0 - 4 years old)"
-     ]
+      "icon": "info",
+      "label": "Self Tour · Standard"
     }
-   ]
-  }
- ],
- "surcharge": {
-  "title": "Surcharge — Peak Seasons Date & Last Minute Booking Surcharge",
-  "seasons": [
-   {
-    "label": "Spring & Summer Season",
-    "period": "1 - 19 Apr 2026 · 1 - 15 July 2026 · 15 - 30 Nov 2026 · 1 - 20 Dec 2026 · 1 Jan - 28 Feb 2027",
-    "rate": "Additional 15% per pax"
-   },
-   {
-    "label": "Christmas & New Year Peak Season",
-    "period": "21 - 31 Dec 2026 · 1 - 20 Jan 2027",
-    "rate": "Additional 20% per pax"
-   },
-   {
-    "label": "Last Minute Surcharge",
-    "period": "Booking 45 days before departure date",
-    "rate": "2 pax: Additional RM1,000 per pax · 3 pax & above: Additional RM800 per pax"
-   }
-  ]
- },
- "product": "ST"
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM7,497",
+          "RM7,297",
+          "RM7,097"
+        ]
+      },
+      {
+        "pax": "3 - 4",
+        "amounts": [
+          "RM7,197",
+          "RM6,997",
+          "RM6,797"
+        ]
+      },
+      {
+        "pax": "5 - 6",
+        "amounts": [
+          "RM6,997",
+          "RM6,797",
+          "RM6,597"
+        ]
+      },
+      {
+        "pax": "7 - 8",
+        "amounts": [
+          "RM6,797",
+          "RM6,597",
+          "RM6,397"
+        ]
+      },
+      {
+        "pax": "9 - 10",
+        "amounts": [
+          "RM6,397",
+          "RM6,197",
+          "RM5,997"
+        ]
+      }
+    ],
+    "infant": "RM1,000"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "Rental Vehicle with GPS",
+        "Full Comprehensive Car Insurance",
+        "24/7 Roadside Assistance",
+        "8 Nights Accomodation in 3-4 Star Hotel/Motel",
+        "Online Trip Assistance",
+        "Online Pre Trip Consultation",
+        "NZ-ETA Application for 1st Application",
+        "Domestic Flight AKL - CHC + 20kg baggage",
+        "Domestic Flight ZQN - AKL + 20kg Baggage",
+        "Halal Food/Restaurant Guide"
+      ],
+      "excludes": [
+        "Return International Flight Tickets",
+        "Luggage, In Flight Meal & Airport Tax",
+        "Meals",
+        "Personal Expenses, Fuels & Traffic Summon",
+        "Personal Travel Insurance",
+        "NZ-ETA Re-application",
+        "Pocket Wifi or Internet Access",
+        "Parking & Summon Parking"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival Auckland",
+      "activities": [
+        "Arrival at Auckland Airport",
+        "Transport Pickup & Safety Car briefing at Airport",
+        "Check-in Hotel near Auckland",
+        "Free & Easy",
+        "*Recommended sighseeing Cornwall Park / West Heaven Marina"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 2,
+      "title": "Auckland - Rotorua",
+      "activities": [
+        "Check-out Hotel & transfer to Matamata (3 hours)",
+        "Hobbiton Movie Set Tour (Optional)",
+        "Putaruru Blue Springs",
+        "Redwood Forest",
+        "Check-in Hotel in Rotorua"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 3,
+      "title": "Rotorua - Taupo - Hamilton",
+      "activities": [
+        "Whakarewa Maori Village Tour (Optional)",
+        "Transfer to Taupo (1 hour)",
+        "Huka Fall",
+        "Lake Taupo",
+        "Transfer to Hamilton (3 hours)",
+        "Visit Hamilton Garden",
+        "Check-in Hotel in Hamilton"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 4,
+      "title": "Hamilton - Auckland - Christchurch",
+      "activities": [
+        "Transfer to Auckland Airport",
+        "Domestic Flight Auckland to Christchurch (AKL - CHC)",
+        "Arrival Christchurch Airport & Pickup Car Rental",
+        "Riverside Market",
+        "Masjid An Noor"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 5,
+      "title": "Christchurch - Tekapo - Twizel",
+      "activities": [
+        "Transfer to Tekapo (3 hours)",
+        "Lake Tekapo & Lake Pukaki",
+        "Twizel Canal",
+        "High Country Salmon Farm Twizel",
+        "Aoraki Mt Cook National Park",
+        "Hooker Valley Track",
+        "Check-in Hotel in Twizel"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 6,
+      "title": "Twizel - Cromwell - Te Anau",
+      "activities": [
+        "Transfer to Wanaka (2 hours)",
+        "Lindis Pass Photostop",
+        "Wanaka Lake",
+        "Transfer to Te Anau (2 hours)",
+        "Sourvenir Shopping in Te Anau",
+        "Check-in Hotel in Te Anau"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 7,
+      "title": "Te Anau - Milford Sound - Queenstown",
+      "activities": [
+        "Transfer to Milford Sound (2 hours)",
+        "Milford Sound Cruise Experience (Optional)",
+        "Transfer to Queenstown (4 hours)",
+        "Skyline Gondola Queenstown (Optional)",
+        "Check-in hotel in Queenstown"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 8,
+      "title": "Queenstown - Auckland",
+      "activities": [
+        "Central Shopping Area Queenstown",
+        "Lake Wakatipu",
+        "Transfer to Queenstown Airport & Return Car Rental",
+        "Domestic flight Queenstown to Auckland (ZQN - AKL)",
+        "Arrival Auckland Domestic Airport",
+        "Airport Transfer to hotel",
+        "Check-in Hotel in Auckland"
+      ],
+      "transport": "Self Drive + Car Rental",
+      "meals": "-",
+      "hotel": "3-4 Star Hotel / Motel"
+    },
+    {
+      "day": 9,
+      "title": "Auckland - Kul",
+      "activities": [
+        "Transfer to Auckland International Airport",
+        "International Flight Auckland - KUL",
+        "End of Tour"
+      ],
+      "transport": "Airport Transfer",
+      "meals": "-",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "map-pin",
+      "title": "Road Closure",
+      "body": "New Zealand often experiences road closures. Alternative routes may take more time, so please plan your journey in advance to arrive on time."
+    },
+    {
+      "icon": "payment",
+      "title": "Credit/Debit Card",
+      "body": "A refundable security deposit may be required by hotels during check-in, payable by a valid Credit/Debit card."
+    },
+    {
+      "icon": "info",
+      "title": "Car Rental",
+      "body": "Please bring your physical Malaysian Driving License (English translated) or IDP. Registered Driver required to present a valid credit card for security reasons during the car rental pick-up."
+    },
+    {
+      "icon": "hotel",
+      "title": "Hotel/Motel",
+      "body": "Due to frequent hotel transfers, we recommend packing lightly for your convenience. Some hotels may not have a 24/7 receptionist, please call the hotel number provided for late check-in."
+    },
+    {
+      "icon": "luggage",
+      "title": "Luggage Capacity",
+      "body": "Please bring max 1 luggage for 1 pax as it will affect car capacity & please do not exceed 20kg baggage Domestic Flight Allowances."
+    },
+    {
+      "icon": "utensils",
+      "title": "Exclude Meals",
+      "body": "Exclude Breakfast, lunch and dinner. Halal restaurants in New Zealand usually open later in the day and close earlier. Please manage your meal time accordingly."
+    },
+    {
+      "icon": "info",
+      "title": "Fuel/Diesel",
+      "body": "Please refuel the vehicle using the fuel or diesel type specified by the car rental company, as indicated on the fuel label. Incorrect refueling will incur a penalty charge."
+    },
+    {
+      "icon": "map-pin",
+      "title": "Car Parking",
+      "body": "Parking fees are not included. Please note that street parking in New Zealand CBD areas is strictly prohibited. Kindly use the designated parking areas."
+    },
+    {
+      "icon": "bus",
+      "title": "Long Haul Road Trip",
+      "body": "Some destinations might require a 4-5 hours journey of road trip. Toilet break & Coffee break is recommended. Alternate Driver registration highly recommended."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 or 3 persons per room.",
+        "Single Supplement: Additional RM2,500 per pax.",
+        "Late Booking Surcharge will apply for bookings made less than 45 days before the departure date.",
+        "Itinerary, Price, and Flight is subject to change accordingly.",
+        "Final Itinerary and hotel arrangements 45 days before departure date.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flight.",
+        "This package is valid until 31st March 2027 travel period."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 1,000",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Tour or Activities",
+      "entries": [
+        {
+          "name": "Whakarewa The Living Maori Village Tour",
+          "includes": "Whakarewa Maori Village guided Tour (1 hour)",
+          "excludes": "Maori Dance, Geothermal Tour, Meals",
+          "price_lines": [
+            "Adult: RM150/pax (16 years old & above)",
+            "Child/Youth: RM80/pax (5 - 15 years old)",
+            "Infant: FOC (0 - 4 years old)"
+          ]
+        },
+        {
+          "name": "Hobbiton Movie Set Tour",
+          "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
+          "excludes": "Meals and self expenses",
+          "price_lines": [
+            "Adult: RM320/pax (17 years old and above)",
+            "Youth: RM150/pax (11 - 16 years old)",
+            "Child: FOC (below 10 years old)"
+          ]
+        },
+        {
+          "name": "Agrodome Farm & Animal Show",
+          "includes": "Farm show and Experience 350-Acre Farm Tour",
+          "excludes": "Meals and self expenses",
+          "price_lines": [
+            "Adult: RM180/pax (16 years old and above)",
+            "Youth: RM150/pax (3 - 15 years old)",
+            "Child: FOC (below 10 years old)"
+          ]
+        },
+        {
+          "name": "Hamilton Garden",
+          "includes": "Enclosed Garden Entry Ticket",
+          "excludes": "Meals, self expenses and Audio Guide",
+          "price_lines": [
+            "Adult: RM65/pax (Free & Easy Self Tour)",
+            "Child: RM25/pax (Free & Easy Self Tour)"
+          ]
+        },
+        {
+          "name": "Skyline Gondola Ride (Queenstown)",
+          "includes": "Return Skyline Gondola Ride at Queenstown City",
+          "excludes": "Luge Ride or additional activities",
+          "price_lines": [
+            "RM180/pax for Adult (15 years old and above)",
+            "RM120/pax for Youth (6 - 14 years old)",
+            "Free for Child below 5 years old"
+          ]
+        },
+        {
+          "name": "Milford Sound Nature Cruise",
+          "includes": "Milford Sound Cruise Ticket Only",
+          "excludes": "Meals on board and Coach Transfer",
+          "price_lines": [
+            "RM450/pax for Adult (15 years old and above)",
+            "RM250/pax for Youth (6 - 14 years old)",
+            "Free for Child below 5 years old"
+          ]
+        },
+        {
+          "name": "Milford Sound Coach + Nature Cruise",
+          "includes": "Milford Sound Coach + Nature Cruise",
+          "excludes": "Meals on board and Additional Tour",
+          "price_lines": [
+            "RM650/pax depart from Queenstown (depart 6:20am)",
+            "RM550/pax depart from Te Anau (depart 9:30am)"
+          ]
+        },
+        {
+          "name": "Maori Culture Performance at Whakarewa Village",
+          "includes": "30 Minutes shows at 12:30pm Daily",
+          "excludes": "Guided Village Tour, Meals and Additional Tour",
+          "price_lines": [
+            "Adult: RM95/pax (16 years old & above)",
+            "Child/Youth: RM60/pax (5 - 15 years old)",
+            "Infant: FOC (0 - 4 years old)"
+          ]
+        }
+      ]
+    }
+  ],
+  "surcharge": {
+    "title": "Surcharge — Peak Seasons Date & Last Minute Booking Surcharge",
+    "seasons": [
+      {
+        "label": "Spring & Summer Season",
+        "period": "1 - 19 Apr 2026 · 1 - 15 July 2026 · 15 - 30 Nov 2026 · 1 - 20 Dec 2026 · 1 Jan - 28 Feb 2027",
+        "rate": "Additional 15% per pax"
+      },
+      {
+        "label": "Christmas & New Year Peak Season",
+        "period": "21 - 31 Dec 2026 · 1 - 20 Jan 2027",
+        "rate": "Additional 20% per pax"
+      },
+      {
+        "label": "Last Minute Surcharge",
+        "period": "Booking 45 days before departure date",
+        "rate": "2 pax: Additional RM1,000 per pax · 3 pax & above: Additional RM800 per pax"
+      }
+    ]
+  },
+  "product": "ST"
 }

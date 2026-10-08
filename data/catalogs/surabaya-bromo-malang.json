@@ -1,357 +1,357 @@
 {
- "slug": "surabaya-bromo-malang",
- "destination": "Surabaya-Bromo-Malang",
- "country": "Indonesia",
- "code": "SUBB",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR SURABAYA - BROMO - MALANG",
- "duration": "4D3N",
- "route": "Surabaya - Malang - Bromo",
- "basis": "Ground + Tipping",
- "valid_until": "31 December 2026",
- "version": "v2",
- "updated": "2026-03-01",
- "kb_url": "",
- "po": "Ezie",
- "ops": "CIK IWAN",
- "source_pdf": "Indonesia/Surabaya-Bromo-Malang/Catalog/PT SURABAYA-BROMO-MALANG 4D3N v2.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "3-Star Hotel"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
+  "slug": "surabaya-bromo-malang",
+  "destination": "Surabaya-Bromo-Malang",
+  "country": "Indonesia",
+  "code": "SUBB",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR SURABAYA - BROMO - MALANG",
+  "duration": "4D3N",
+  "route": "Surabaya - Malang - Bromo",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v2",
+  "updated": "2026-03-01",
+  "kb_url": "",
+  "po": "Ezie",
+  "ops": "CIK IWAN",
+  "source_pdf": "Indonesia/Surabaya-Bromo-Malang/Catalog/PT SURABAYA-BROMO-MALANG 4D3N v2.pdf",
+  "highlights": [
+    {
+      "icon": "hotel",
+      "label": "3-Star Hotel"
+    },
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
+    }
   ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM1,597",
-     "RM1,397",
-     "RM1,197"
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM1,597",
+          "RM1,397",
+          "RM1,197"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM1,497",
+          "RM1,297",
+          "RM1,097"
+        ]
+      },
+      {
+        "pax": "4 - 6",
+        "amounts": [
+          "RM1,397",
+          "RM1,197",
+          "RM997"
+        ]
+      },
+      {
+        "pax": "7 - 10",
+        "amounts": [
+          "RM1,297",
+          "RM1,097",
+          "RM897"
+        ]
+      },
+      {
+        "pax": "11 - 15",
+        "amounts": [
+          "RM1,197",
+          "RM1,097",
+          "RM897"
+        ]
+      }
     ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM1,497",
-     "RM1,297",
-     "RM1,097"
-    ]
-   },
-   {
-    "pax": "4 - 6",
-    "amounts": [
-     "RM1,397",
-     "RM1,197",
-     "RM997"
-    ]
-   },
-   {
-    "pax": "7 - 10",
-    "amounts": [
-     "RM1,297",
-     "RM1,097",
-     "RM897"
-    ]
-   },
-   {
-    "pax": "11 - 15",
-    "amounts": [
-     "RM1,197",
-     "RM1,097",
-     "RM897"
-    ]
-   }
-  ]
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (3 Star Hotel)",
-    "3x International Breakfast",
-    "Private Transportation",
-    "Entrance Fees as per mention",
-    "Tipping Fee, Parking Fee",
-    "Airport Transfer",
-    "Private Driver cum Guide",
-    "Jeep Tour to Bromo by Sunrise"
-   ],
-   "excludes": [
-    "Return Flight Tickets",
-    "Luggage, In Flight Meal & Airport Tax",
-    "Additional Tours",
-    "Personal Expenses",
-    "Travel Insurance",
-    "Mini bar",
-    "Lunch & Dinner"
-   ]
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Upgrade Surcharge"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "21-31 Dec 2025, 1-5 Jan 2026 · 15-30 Mar 2026, 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
-   }
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (3 Star Hotel)",
+        "3x International Breakfast",
+        "Private Transportation",
+        "Entrance Fees as per mention",
+        "Tipping Fee, Parking Fee",
+        "Airport Transfer",
+        "Private Driver cum Guide",
+        "Jeep Tour to Bromo by Sunrise"
+      ],
+      "excludes": [
+        "Return Flight Tickets",
+        "Luggage, In Flight Meal & Airport Tax",
+        "Additional Tours",
+        "Personal Expenses",
+        "Travel Insurance",
+        "Mini bar",
+        "Lunch & Dinner"
+      ]
+    }
   ],
-  "rows": [
-   {
-    "type": "3 Star Hotel",
-    "name": "Surabaya: The Alana",
-    "amounts": [
-     "-",
-     "RM130/pax/night"
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Upgrade Surcharge"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "21-31 Dec 2025, 1-5 Jan 2026 · 15-30 Mar 2026, 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
+      }
+    ],
+    "rows": [
+      {
+        "type": "3 Star Hotel",
+        "name": "Surabaya: The Alana",
+        "amounts": [
+          "-",
+          "RM130/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Hotel",
+        "name": "Malang: Aston Batu Inn",
+        "amounts": [
+          "-",
+          "RM130/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Hotel",
+        "name": "Bromo: Lava View Lodge",
+        "amounts": [
+          "-",
+          "RM130/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Surabaya: Goldvitel Hotel",
+        "amounts": [
+          "Add RM85/pax/night",
+          "RM180/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Malang: Regent Park Hotel",
+        "amounts": [
+          "Add RM85/pax/night",
+          "RM180/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Bromo: Grand Whiz Hotel",
+        "amounts": [
+          "Add RM85/pax/night",
+          "RM180/pax/night"
+        ]
+      }
+    ],
+    "notes": [
+      "Proper bed for triple sharing / Family room only available at 4 star Hotel subject to availability.",
+      "Extra bed available for 3 Star Hotel."
     ]
-   },
-   {
-    "type": "3 Star Hotel",
-    "name": "Malang: Aston Batu Inn",
-    "amounts": [
-     "-",
-     "RM130/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Hotel",
-    "name": "Bromo: Lava View Lodge",
-    "amounts": [
-     "-",
-     "RM130/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Surabaya: Goldvitel Hotel",
-    "amounts": [
-     "Add RM85/pax/night",
-     "RM180/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Malang: Regent Park Hotel",
-    "amounts": [
-     "Add RM85/pax/night",
-     "RM180/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Bromo: Grand Whiz Hotel",
-    "amounts": [
-     "Add RM85/pax/night",
-     "RM180/pax/night"
-    ]
-   }
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Surabaya - Bromo",
+      "activities": [
+        "Please arrive between 10.00am - 11.00am",
+        "Airport pick-up",
+        "Al-Akbar Mosque Surabaya",
+        "Heading to Bromo (3 hours)",
+        "Free and easy",
+        "Check-in hotel in Bromo"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Hotel or Homestay"
+    },
+    {
+      "day": 2,
+      "title": "Bromo - Malang - Turen",
+      "activities": [
+        "Heading to Gunung Bromo at 3am (via jeep)",
+        "Sunrise View Point (photo stop)",
+        "Bukit Teletubbies",
+        "Pasir Berbisik",
+        "Hiking to Kawah Gunung Bromo (horse optional)",
+        "Back to accommodation for breakfast & rest",
+        "Check-out (around 12pm)",
+        "Heading to Malang",
+        "Masjid Tiban",
+        "Check-in hotel in Malang"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 3,
+      "title": "Malang - Surabaya",
+      "activities": [
+        "Check-out hotel",
+        "Air Terjun Coban Rondo",
+        "Ladang Apple & shopping apple strudel",
+        "Visit Taman Bunga Santera De Lanponte",
+        "Heading to Kajoetangan Heritage Village",
+        "Shopping ole-ole",
+        "Check-in hotel in Surabaya"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 4,
+      "title": "Departure to KUL",
+      "activities": [
+        "Check-out hotel",
+        "Melawat Muzium Kapal Selam (entrance excluded)",
+        "Shopping ole-ole",
+        "Transfer to airport",
+        "Flight SUB to KUL"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Water Fall Tumpak Sewu, Goa Tetes, Kapas Biru",
+          "includes": "Price included transport to Tumpak Sewu",
+          "price_lines": [
+            "RM160 / pax"
+          ]
+        },
+        {
+          "name": "Local Guide to Tumpak Sewu",
+          "includes": "Price for 1 guide for 1-5pax",
+          "price_lines": [
+            "RM150 / guide"
+          ]
+        },
+        {
+          "name": "Kawah Ijen Tour",
+          "includes": "Price included with local guide & Masker",
+          "price_lines": [
+            "RM150 / pax"
+          ]
+        },
+        {
+          "name": "Semeru Lava Tour",
+          "includes": "Price included with Entrance Fee & Documentation Video/Photo",
+          "price_lines": [
+            "RM150 / pax"
+          ]
+        },
+        {
+          "name": "ATV Semeru Rental for 1 hour",
+          "includes": "1 ATV max 2 pax",
+          "price_lines": [
+            "RM120 / pax"
+          ]
+        },
+        {
+          "name": "Panorama Kapas Biru",
+          "includes": "Entrance Fee Only",
+          "price_lines": [
+            "RM10 / pax"
+          ]
+        },
+        {
+          "name": "Horse / Pony Ride to Kawah Bromo",
+          "includes": "Return trip to/from Kawah Bromo",
+          "price_lines": [
+            "RM120 / pax"
+          ]
+        }
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "footprints",
+      "title": "Long Distance Walk",
+      "body": "Long-distance walking to Kawah Bromo takes about 30 minutes (Pony Ride is optional)."
+    },
+    {
+      "icon": "hotel",
+      "title": "Homestay style in Bromo",
+      "body": "Hotels in Bromo are very limited. Hotel facilities will also be limited compared to hotels in the city centre."
+    },
+    {
+      "icon": "bus",
+      "title": "Jeep to Bromo",
+      "body": "Journey to Bromo will be using Jeep (Max 5 pax / Jeep). Journey to Bromo will be bumpy and perilous."
+    },
+    {
+      "icon": "altitude",
+      "title": "Sulphurous",
+      "body": "Bromo Crater spews sulphur smoke & dust. Wear proper clothing and a face mask."
+    },
+    {
+      "icon": "snowflake",
+      "title": "Cold Temperature",
+      "body": "Temperature in Bromo is between 7-10 degrees Celsius. Please bring a thick jacket and headcover."
+    },
+    {
+      "icon": "sun",
+      "title": "Early Wake up Call",
+      "body": "2.00 am wake up, heading to Bromo around 3.00 am for the sunrise view."
+    }
   ],
   "notes": [
-   "Proper bed for triple sharing / Family room only available at 4 star Hotel subject to availability.",
-   "Extra bed available for 3 Star Hotel."
-  ]
- },
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Surabaya - Bromo",
-   "activities": [
-    "Please arrive between 10.00am - 11.00am",
-    "Airport pick-up",
-    "Al-Akbar Mosque Surabaya",
-    "Heading to Bromo (3 hours)",
-    "Free and easy",
-    "Check-in hotel in Bromo"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Hotel or Homestay"
-  },
-  {
-   "day": 2,
-   "title": "Bromo - Malang - Turen",
-   "activities": [
-    "Heading to Gunung Bromo at 3am (via jeep)",
-    "Sunrise View Point (photo stop)",
-    "Bukit Teletubbies",
-    "Pasir Berbisik",
-    "Hiking to Kawah Gunung Bromo (horse optional)",
-    "Back to accommodation for breakfast & rest",
-    "Check-out (around 12pm)",
-    "Heading to Malang",
-    "Masjid Tiban",
-    "Check-in hotel in Malang"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 3,
-   "title": "Malang - Surabaya",
-   "activities": [
-    "Check-out hotel",
-    "Air Terjun Coban Rondo",
-    "Ladang Apple & shopping apple strudel",
-    "Visit Taman Bunga Santera De Lanponte",
-    "Heading to Kajoetangan Heritage Village",
-    "Shopping ole-ole",
-    "Check-in hotel in Surabaya"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 4,
-   "title": "Departure to KUL",
-   "activities": [
-    "Check-out hotel",
-    "Melawat Muzium Kapal Selam (entrance excluded)",
-    "Shopping ole-ole",
-    "Transfer to airport",
-    "Flight SUB to KUL"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
     {
-     "name": "Water Fall Tumpak Sewu, Goa Tetes, Kapas Biru",
-     "includes": "Price included transport to Tumpak Sewu",
-     "price_lines": [
-      "RM160 / pax"
-     ]
-    },
-    {
-     "name": "Local Guide to Tumpak Sewu",
-     "includes": "Price for 1 guide for 1-5pax",
-     "price_lines": [
-      "RM150 / guide"
-     ]
-    },
-    {
-     "name": "Kawah Ijen Tour",
-     "includes": "Price included with local guide & Masker",
-     "price_lines": [
-      "RM150 / pax"
-     ]
-    },
-    {
-     "name": "Semeru Lava Tour",
-     "includes": "Price included with Entrance Fee & Documentation Video/Photo",
-     "price_lines": [
-      "RM150 / pax"
-     ]
-    },
-    {
-     "name": "ATV Semeru Rental for 1 hour",
-     "includes": "1 ATV max 2 pax",
-     "price_lines": [
-      "RM120 / pax"
-     ]
-    },
-    {
-     "name": "Panorama Kapas Biru",
-     "includes": "Entrance Fee Only",
-     "price_lines": [
-      "RM10 / pax"
-     ]
-    },
-    {
-     "name": "Horse / Pony Ride to Kawah Bromo",
-     "includes": "Return trip to/from Kawah Bromo",
-     "price_lines": [
-      "RM120 / pax"
-     ]
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single Supplement: additional RM500 per person (only applicable for 3 Star Hotel).",
+        "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before trip.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flight."
+      ]
     }
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "footprints",
-   "title": "Long Distance Walk",
-   "body": "Long-distance walking to Kawah Bromo takes about 30 minutes (Pony Ride is optional)."
-  },
-  {
-   "icon": "hotel",
-   "title": "Homestay style in Bromo",
-   "body": "Hotels in Bromo are very limited. Hotel facilities will also be limited compared to hotels in the city centre."
-  },
-  {
-   "icon": "bus",
-   "title": "Jeep to Bromo",
-   "body": "Journey to Bromo will be using Jeep (Max 5 pax / Jeep). Journey to Bromo will be bumpy and perilous."
-  },
-  {
-   "icon": "altitude",
-   "title": "Sulphurous",
-   "body": "Bromo Crater spews sulphur smoke & dust. Wear proper clothing and a face mask."
-  },
-  {
-   "icon": "snowflake",
-   "title": "Cold Temperature",
-   "body": "Temperature in Bromo is between 7-10 degrees Celsius. Please bring a thick jacket and headcover."
-  },
-  {
-   "icon": "sun",
-   "title": "Early Wake up Call",
-   "body": "2.00 am wake up, heading to Bromo around 3.00 am for the sunrise view."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single Supplement: additional RM500 per person (only applicable for 3 Star Hotel).",
-    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before trip.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flight."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ]
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ]
 }

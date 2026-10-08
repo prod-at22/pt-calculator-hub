@@ -1,360 +1,360 @@
 {
- "slug": "jeju",
- "destination": "Jeju",
- "country": "Korea",
- "code": "JJU",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR JEJU STANDARD",
- "duration": "4D3N",
- "route": "Jeju's City - West - South - East",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v2",
- "updated": "2026-03-12",
- "kb_url": "https://prod-at22.github.io/korea-kb/",
- "po": "Ezie",
- "ops": "ATIQAH",
- "source_pdf": "Korea/Jeju/Catalog/PT JEJU 4D3N v2.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "3-Star Hotel"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "basis": "Price Per Person",
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child Without Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM3,897",
-     "RM3,697",
-     "RM3,497"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM3,197",
-     "RM2,997",
-     "RM2,797"
-    ]
-   },
-   {
-    "pax": "4",
-    "amounts": [
-     "RM2,797",
-     "RM2,597",
-     "RM2,397"
-    ]
-   },
-   {
-    "pax": "5",
-    "amounts": [
-     "RM2,597",
-     "RM2,397",
-     "RM2,197"
-    ]
-   },
-   {
-    "pax": "6 - 7",
-    "amounts": [
-     "RM2,497",
-     "RM2,297",
-     "RM2,097"
-    ]
-   },
-   {
-    "pax": "8 - 9",
-    "amounts": [
-     "RM2,397",
-     "RM2,197",
-     "RM1,997"
-    ]
-   },
-   {
-    "pax": "10",
-    "amounts": [
-     "RM2,297",
-     "RM2,097",
-     "RM1,897"
-    ]
-   }
-  ],
-  "infant": "RM200"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Star Hotel with International Breakfast",
-    "Private Airport Transfer",
-    "Private Transportation (10 Hours Basis)",
-    "Professional Licensed Driving Guide (English Speaking) (10 Hours Basis)",
+  "slug": "jeju",
+  "destination": "Jeju",
+  "country": "Korea",
+  "code": "JJU",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR JEJU STANDARD",
+  "duration": "4D3N",
+  "route": "Jeju's City - West - South - East",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v2",
+  "updated": "2026-03-12",
+  "kb_url": "https://prod-at22.github.io/korea-kb/",
+  "po": "Ezie",
+  "ops": "ATIQAH",
+  "source_pdf": "Korea/Jeju/Catalog/PT JEJU 4D3N v2.pdf",
+  "highlights": [
     {
-     "text": "Entrance Fees",
-     "sub": [
-      "Yongmeori Coast Beach",
-      "Cheonjeyeon Waterfall",
-      "Seongsan Ilchulbong",
-      "Seasonal Tour"
-     ]
+      "icon": "hotel",
+      "label": "3-Star Hotel"
     },
-    "Tipping Fee",
-    "K-ETA Application - Complimentary For Malaysian (1 time)"
-   ],
-   "excludes": [
-    "Lunch, Dinner",
-    "Private Driver & Guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
-    "International Flight",
-    "Domestic Flight",
-    "Personal Expenses",
-    "Optional Activity",
-    "Travel Insurance",
-    "K-ETA Re-Application (RM70)"
-   ]
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Add On"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "1-30 April · 1-31 May · 1-31 October"
-   },
-   {
-    "label": "Super Peak Season Surcharge",
-    "period": "16 December - 1 January"
-   }
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
+    }
   ],
-  "rows": [
-   {
-    "type": "Apartment",
-    "name": "Jeju City Area",
-    "amounts": [
-     "-",
-     "RM50/night/pax",
-     "RM100/night/pax"
+  "prices": {
+    "basis": "Price Per Person",
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child Without Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM3,897",
+          "RM3,697",
+          "RM3,497"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM3,197",
+          "RM2,997",
+          "RM2,797"
+        ]
+      },
+      {
+        "pax": "4",
+        "amounts": [
+          "RM2,797",
+          "RM2,597",
+          "RM2,397"
+        ]
+      },
+      {
+        "pax": "5",
+        "amounts": [
+          "RM2,597",
+          "RM2,397",
+          "RM2,197"
+        ]
+      },
+      {
+        "pax": "6 - 7",
+        "amounts": [
+          "RM2,497",
+          "RM2,297",
+          "RM2,097"
+        ]
+      },
+      {
+        "pax": "8 - 9",
+        "amounts": [
+          "RM2,397",
+          "RM2,197",
+          "RM1,997"
+        ]
+      },
+      {
+        "pax": "10",
+        "amounts": [
+          "RM2,297",
+          "RM2,097",
+          "RM1,897"
+        ]
+      }
+    ],
+    "infant": "RM200"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Star Hotel with International Breakfast",
+        "Private Airport Transfer",
+        "Private Transportation (10 Hours Basis)",
+        "Professional Licensed Driving Guide (English Speaking) (10 Hours Basis)",
+        {
+          "text": "Entrance Fees",
+          "sub": [
+            "Yongmeori Coast Beach",
+            "Cheonjeyeon Waterfall",
+            "Seongsan Ilchulbong",
+            "Seasonal Tour"
+          ]
+        },
+        "Tipping Fee",
+        "K-ETA Application - Complimentary For Malaysian (1 time)"
+      ],
+      "excludes": [
+        "Lunch, Dinner",
+        "Private Driver & Guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
+        "International Flight",
+        "Domestic Flight",
+        "Personal Expenses",
+        "Optional Activity",
+        "Travel Insurance",
+        "K-ETA Re-Application (RM70)"
+      ]
+    }
+  ],
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Add On"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "1-30 April · 1-31 May · 1-31 October"
+      },
+      {
+        "label": "Super Peak Season Surcharge",
+        "period": "16 December - 1 January"
+      }
+    ],
+    "rows": [
+      {
+        "type": "Apartment",
+        "name": "Jeju City Area",
+        "amounts": [
+          "-",
+          "RM50/night/pax",
+          "RM100/night/pax"
+        ]
+      },
+      {
+        "type": "3 Star Hotel City Center",
+        "name": "Parkside Hotel",
+        "similar": true,
+        "amounts": [
+          "-",
+          "RM50/night/pax",
+          "RM100/night/pax"
+        ]
+      },
+      {
+        "type": "4 Star Hotel City Center",
+        "name": "Samhaein Hotel",
+        "similar": true,
+        "amounts": [
+          "RM60/night/pax",
+          "RM50/night/pax",
+          "RM100/night/pax"
+        ]
+      }
     ]
-   },
-   {
-    "type": "3 Star Hotel City Center",
-    "name": "Parkside Hotel",
-    "similar": true,
-    "amounts": [
-     "-",
-     "RM50/night/pax",
-     "RM100/night/pax"
-    ]
-   },
-   {
-    "type": "4 Star Hotel City Center",
-    "name": "Samhaein Hotel",
-    "similar": true,
-    "amounts": [
-     "RM60/night/pax",
-     "RM50/night/pax",
-     "RM100/night/pax"
-    ]
-   }
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival - Jeju City Tour",
+      "activities": [
+        "Suggested arrival: morning arrival",
+        "Airport Pickup at Jeju Airport",
+        "Yongduam Rock (oceanfront volcanic rock formation in the shape of a dragon's head)",
+        "Yongyeon Pond (where water from Hallasan Mountain meets the sea, reflecting its stunning vistas & clear water)",
+        "Saryeoni Forest Trail (beautiful forest with easy walking trails)",
+        "Iho Tewoo Horse Lighthouse (lighthouse built in the shape of the Jeju's pony)",
+        "Dongmun Traditional Market (Jeju's largest & oldest market)",
+        "Check-in"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Jeju"
+    },
+    {
+      "day": 2,
+      "title": "Jeju West & South Tour",
+      "activities": [
+        "Saebyeol Oreum (beautiful in fall with silver grass)",
+        "Osulloc Green Tea Farm and Innisfree Jeju House (a tea farm owned by a premium Korean tea brand + Innisfree signature store)",
+        "Yongmeori Coast Beach (a hydrovolcano rocky shore formed by volcanic debris)",
+        "Cheonjeyeon Waterfalls (famous three-tiered waterfall)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Jeju"
+    },
+    {
+      "day": 3,
+      "title": "Jeju East Tour",
+      "activities": [
+        "Songeup Folk Village (Korean traditional village)",
+        "Seopjikoji (famous lighthouse at a cliff)",
+        "Gimnyeong Beach",
+        "Seongsan Ilchulbong (sunrise peak, a crater, one of UNESCO World Heritage Site)",
+        {
+          "text": "Seasonal Tour (entrance fee included):",
+          "sub": [
+            "Autumn: Sangumburi Park - Silver Grass, Pink Muhly",
+            "Winter: Hallabong Farm - Tangerine Fruit picking",
+            "Spring: Canola Field / Cherry Blossom",
+            "Summer: Sunflower Park / Hydrangea Flowers"
+          ]
+        }
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Jeju"
+    },
+    {
+      "day": 4,
+      "title": "Departure Day",
+      "activities": [
+        "Check-out",
+        "Airport Transfer"
+      ],
+      "transport": "Private Airport Transfer",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Add-on Private Transport",
+      "entries": [
+        {
+          "name": "Airport Transfer — Incheon Airport ↔ Gimpo Airport",
+          "includes": "Private Airport Transfer, Driver Only",
+          "excludes": "Entrance Ticket, Meals",
+          "price_lines": [
+            "1-6 pax: RM360/way",
+            "7-9 pax: RM700/way"
+          ]
+        },
+        {
+          "name": "Domestic Flight — Seoul to Jeju",
+          "includes": "1 way Domestic Flight Ticket, 15kg Checked-in Luggage, 7kg Hand Carry",
+          "excludes": "Entrance Ticket, Meals",
+          "price_lines": [
+            "RM300",
+            "Per Way/Pax"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Udo Island Ferry Ticket",
+          "includes": "2-way Udo Island Ferry Ticket",
+          "excludes": "Activities",
+          "price_lines": [
+            "Adult & Child:",
+            "RM50/person"
+          ]
+        },
+        {
+          "name": "Hanbok Rental at Songeup Folk Village",
+          "includes": "Basic Hanbok Attire",
+          "excludes": "Extra equipment for rental",
+          "duration": "4 Hours",
+          "price_lines": [
+            "Adult & Child:",
+            "RM80/person"
+          ]
+        }
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "footprints",
+      "title": "Lots of Walking",
+      "body": "Please wear comfortable shoes."
+    },
+    {
+      "icon": "utensils",
+      "title": "Lunch & Dinner Excluded",
+      "body": "No lunch and dinner, and no breakfast if you choose the apartment. The guide will bring you to a halal-friendly restaurant or convenience store."
+    },
+    {
+      "icon": "luggage",
+      "title": "Airport Transfer",
+      "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
+    },
+    {
+      "icon": "guide",
+      "title": "Driving Guide",
+      "body": "Korean English-speaking driving guide."
+    },
+    {
+      "icon": "bus",
+      "title": "Driving Guide & Transport",
+      "body": "10 hours basis. 30,000 - 60,000 KRW will be charged for each extra hour."
+    },
+    {
+      "icon": "bed",
+      "title": "Accommodation",
+      "body": "Rooms are small, typically 15-20 sqf (Korean standard). Triple rooms offer even less space."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM800/person.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "This package is valid until the 31st December 2026 travel period.",
+        "Private transportation & driving guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
+        "A driving guide will be provided for groups of 2 to 9 pax.",
+        "A private driver and a professional tour guide will be provided for groups of 10 pax and above.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flights."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to arrival for full payment"
+    }
   ]
- },
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Arrival - Jeju City Tour",
-   "activities": [
-    "Suggested arrival: morning arrival",
-    "Airport Pickup at Jeju Airport",
-    "Yongduam Rock (oceanfront volcanic rock formation in the shape of a dragon's head)",
-    "Yongyeon Pond (where water from Hallasan Mountain meets the sea, reflecting its stunning vistas & clear water)",
-    "Saryeoni Forest Trail (beautiful forest with easy walking trails)",
-    "Iho Tewoo Horse Lighthouse (lighthouse built in the shape of the Jeju's pony)",
-    "Dongmun Traditional Market (Jeju's largest & oldest market)",
-    "Check-in"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Jeju"
-  },
-  {
-   "day": 2,
-   "title": "Jeju West & South Tour",
-   "activities": [
-    "Saebyeol Oreum (beautiful in fall with silver grass)",
-    "Osulloc Green Tea Farm and Innisfree Jeju House (a tea farm owned by a premium Korean tea brand + Innisfree signature store)",
-    "Yongmeori Coast Beach (a hydrovolcano rocky shore formed by volcanic debris)",
-    "Cheonjeyeon Waterfalls (famous three-tiered waterfall)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Jeju"
-  },
-  {
-   "day": 3,
-   "title": "Jeju East Tour",
-   "activities": [
-    "Songeup Folk Village (Korean traditional village)",
-    "Seopjikoji (famous lighthouse at a cliff)",
-    "Gimnyeong Beach",
-    "Seongsan Ilchulbong (sunrise peak, a crater, one of UNESCO World Heritage Site)",
-    {
-     "text": "Seasonal Tour (entrance fee included):",
-     "sub": [
-      "Autumn: Sangumburi Park - Silver Grass, Pink Muhly",
-      "Winter: Hallabong Farm - Tangerine Fruit picking",
-      "Spring: Canola Field / Cherry Blossom",
-      "Summer: Sunflower Park / Hydrangea Flowers"
-     ]
-    }
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Jeju"
-  },
-  {
-   "day": 4,
-   "title": "Departure Day",
-   "activities": [
-    "Check-out",
-    "Airport Transfer"
-   ],
-   "transport": "Private Airport Transfer",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Add-on Private Transport",
-   "entries": [
-    {
-     "name": "Airport Transfer — Incheon Airport ↔ Gimpo Airport",
-     "includes": "Private Airport Transfer, Driver Only",
-     "excludes": "Entrance Ticket, Meals",
-     "price_lines": [
-      "1-6 pax: RM360/way",
-      "7-9 pax: RM700/way"
-     ]
-    },
-    {
-     "name": "Domestic Flight — Seoul to Jeju",
-     "includes": "1 way Domestic Flight Ticket, 15kg Checked-in Luggage, 7kg Hand Carry",
-     "excludes": "Entrance Ticket, Meals",
-     "price_lines": [
-      "RM300",
-      "Per Way/Pax"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Udo Island Ferry Ticket",
-     "includes": "2-way Udo Island Ferry Ticket",
-     "excludes": "Activities",
-     "price_lines": [
-      "Adult & Child:",
-      "RM50/person"
-     ]
-    },
-    {
-     "name": "Hanbok Rental at Songeup Folk Village",
-     "includes": "Basic Hanbok Attire",
-     "excludes": "Extra equipment for rental",
-     "duration": "4 Hours",
-     "price_lines": [
-      "Adult & Child:",
-      "RM80/person"
-     ]
-    }
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "footprints",
-   "title": "Lots of Walking",
-   "body": "Please wear comfortable shoes."
-  },
-  {
-   "icon": "utensils",
-   "title": "Lunch & Dinner Excluded",
-   "body": "No lunch and dinner, and no breakfast if you choose the apartment. The guide will bring you to a halal-friendly restaurant or convenience store."
-  },
-  {
-   "icon": "luggage",
-   "title": "Airport Transfer",
-   "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
-  },
-  {
-   "icon": "guide",
-   "title": "Driving Guide",
-   "body": "Korean English-speaking driving guide."
-  },
-  {
-   "icon": "bus",
-   "title": "Driving Guide & Transport",
-   "body": "10 hours basis. 30,000 - 60,000 KRW will be charged for each extra hour."
-  },
-  {
-   "icon": "bed",
-   "title": "Accommodation",
-   "body": "Rooms are small, typically 15-20 sqf (Korean standard). Triple rooms offer even less space."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM800/person.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "This package is valid until the 31st December 2026 travel period.",
-    "Private transportation & driving guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
-    "A driving guide will be provided for groups of 2 to 9 pax.",
-    "A private driver and a professional tour guide will be provided for groups of 10 pax and above.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flights."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to arrival for full payment"
-  }
- ]
 }

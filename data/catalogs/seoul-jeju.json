@@ -1,375 +1,375 @@
 {
- "slug": "seoul-jeju",
- "destination": "Seoul-Jeju",
- "country": "Korea",
- "code": "SELJJU",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR SEOUL - JEJU STANDARD",
- "duration": "6D5N",
- "route": "Seoul City - Nami Island - Jeju Island",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v2",
- "updated": "2026-08-10",
- "kb_url": "https://prod-at22.github.io/korea-kb/",
- "po": "Ezie",
- "ops": "ATIQAH",
- "source_pdf": "Korea/Seoul-Jeju/Catalog/PT SEOUL - JEJU STD 6D5N v2.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM6,197",
-     "RM5,997",
-     "RM5,797"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM5,197",
-     "RM4,997",
-     "RM4,797"
-    ]
-   },
-   {
-    "pax": "4",
-    "amounts": [
-     "RM4,697",
-     "RM4,497",
-     "RM4,297"
-    ]
-   },
-   {
-    "pax": "5 - 6",
-    "amounts": [
-     "RM4,397",
-     "RM4,197",
-     "RM3,997"
-    ]
-   },
-   {
-    "pax": "7",
-    "amounts": [
-     "RM4,197",
-     "RM3,997",
-     "RM3,797"
-    ]
-   },
-   {
-    "pax": "8",
-    "amounts": [
-     "RM4,097",
-     "RM3,897",
-     "RM3,697"
-    ]
-   },
-   {
-    "pax": "9 - 10",
-    "amounts": [
-     "RM4,397",
-     "RM4,197",
-     "RM3,997"
-    ]
-   },
-   {
-    "pax": "11 - 13",
-    "amounts": [
-     "RM4,097",
-     "RM3,897",
-     "RM3,697"
-    ]
-   },
-   {
-    "pax": "14 - 15",
-    "amounts": [
-     "RM3,997",
-     "RM3,797",
-     "RM3,597"
-    ]
-   }
-  ],
-  "infant": "RM200"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Star Hotel with International Breakfast",
-    "Private Airport Transfer",
-    "Private Transportation (10 Hours Basis)",
-    "Professional Licensed Driving Guide (English Speaking) (10 Hours Basis)",
+  "slug": "seoul-jeju",
+  "destination": "Seoul-Jeju",
+  "country": "Korea",
+  "code": "SELJJU",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR SEOUL - JEJU STANDARD",
+  "duration": "6D5N",
+  "route": "Seoul City - Nami Island - Jeju Island",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v2",
+  "updated": "2026-08-10",
+  "kb_url": "https://prod-at22.github.io/korea-kb/",
+  "po": "Ezie",
+  "ops": "ATIQAH",
+  "source_pdf": "Korea/Seoul-Jeju/Catalog/PT SEOUL - JEJU STD 6D5N v2.pdf",
+  "highlights": [
     {
-     "text": "Entrance Fees",
-     "sub": [
-      "Nami Island",
-      "Gyeongbok Palace",
-      "Namsan Cable Car",
-      "Seongsan Ilchulbong",
-      "Cheonjeyeon",
-      "Yongmeori"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
     },
-    "Return Domestic Flight (20 kg luggage)",
-    "Tipping Fee",
-    "K-ETA Application - Complementary For Malaysian (1 time)"
-   ],
-   "excludes": [
-    "Lunch & Dinner",
-    "Private Driver & Guide is base on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage.",
-    "International Flight",
-    "Personal Expenses",
-    "Optional Activity",
-    "Travel Insurance",
-    "K-ETA Re-Application (RM70)"
-   ]
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Upgrade Surcharge (Additional)"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "1-30 April · 1-31 May · 1-31 October"
-   },
-   {
-    "label": "Super Peak Season Surcharge",
-    "period": "16 December - 1 January"
-   }
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
+    }
   ],
-  "rows": [
-   {
-    "type": "Apartment",
-    "name": "Hongdae Area",
-    "amounts": [
-     "-",
-     "RM70/night/pax",
-     "RM70/night/pax"
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM6,197",
+          "RM5,997",
+          "RM5,797"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM5,197",
+          "RM4,997",
+          "RM4,797"
+        ]
+      },
+      {
+        "pax": "4",
+        "amounts": [
+          "RM4,697",
+          "RM4,497",
+          "RM4,297"
+        ]
+      },
+      {
+        "pax": "5 - 6",
+        "amounts": [
+          "RM4,397",
+          "RM4,197",
+          "RM3,997"
+        ]
+      },
+      {
+        "pax": "7",
+        "amounts": [
+          "RM4,197",
+          "RM3,997",
+          "RM3,797"
+        ]
+      },
+      {
+        "pax": "8",
+        "amounts": [
+          "RM4,097",
+          "RM3,897",
+          "RM3,697"
+        ]
+      },
+      {
+        "pax": "9 - 10",
+        "amounts": [
+          "RM4,397",
+          "RM4,197",
+          "RM3,997"
+        ]
+      },
+      {
+        "pax": "11 - 13",
+        "amounts": [
+          "RM4,097",
+          "RM3,897",
+          "RM3,697"
+        ]
+      },
+      {
+        "pax": "14 - 15",
+        "amounts": [
+          "RM3,997",
+          "RM3,797",
+          "RM3,597"
+        ]
+      }
+    ],
+    "infant": "RM200"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Star Hotel with International Breakfast",
+        "Private Airport Transfer",
+        "Private Transportation (10 Hours Basis)",
+        "Professional Licensed Driving Guide (English Speaking) (10 Hours Basis)",
+        {
+          "text": "Entrance Fees",
+          "sub": [
+            "Nami Island",
+            "Gyeongbok Palace",
+            "Namsan Cable Car",
+            "Seongsan Ilchulbong",
+            "Cheonjeyeon",
+            "Yongmeori"
+          ]
+        },
+        "Return Domestic Flight (20 kg luggage)",
+        "Tipping Fee",
+        "K-ETA Application - Complementary For Malaysian (1 time)"
+      ],
+      "excludes": [
+        "Lunch & Dinner",
+        "Private Driver & Guide is base on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage.",
+        "International Flight",
+        "Personal Expenses",
+        "Optional Activity",
+        "Travel Insurance",
+        "K-ETA Re-Application (RM70)"
+      ]
+    }
+  ],
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Upgrade Surcharge (Additional)"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "1-30 April · 1-31 May · 1-31 October"
+      },
+      {
+        "label": "Super Peak Season Surcharge",
+        "period": "16 December - 1 January"
+      }
+    ],
+    "rows": [
+      {
+        "type": "Apartment",
+        "name": "Hongdae Area",
+        "amounts": [
+          "-",
+          "RM70/night/pax",
+          "RM70/night/pax"
+        ]
+      },
+      {
+        "type": "3 Star Hotel",
+        "name": "Travelodge Hotel, Jeju Parkside Hotel",
+        "similar": true,
+        "amounts": [
+          "-",
+          "RM90/night/pax",
+          "RM140/night/pax"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Migliore Myeongdong",
+        "similar": true,
+        "amounts": [
+          "RM60/night/pax",
+          "RM130/night/pax",
+          "RM170/night/pax"
+        ]
+      }
     ]
-   },
-   {
-    "type": "3 Star Hotel",
-    "name": "Travelodge Hotel, Jeju Parkside Hotel",
-    "similar": true,
-    "amounts": [
-     "-",
-     "RM90/night/pax",
-     "RM140/night/pax"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Migliore Myeongdong",
-    "similar": true,
-    "amounts": [
-     "RM60/night/pax",
-     "RM130/night/pax",
-     "RM170/night/pax"
-    ]
-   }
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Nami Island",
+      "activities": [
+        "Arrival at Incheon International Airport",
+        "Nami Island (filming location for Winter Sonata)",
+        "Dongdaemun Design Plaza (DDP)",
+        "Check in Seoul Hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Seoul"
+    },
+    {
+      "day": 2,
+      "title": "Seoul City",
+      "activities": [
+        "Gyeongbokgung Palace (the main royal historical palace)",
+        "Cheonggyecheon Stream (unique river in Seoul)",
+        "Itaewon Street (first Mosque in South Korea)",
+        "Songsudong Market (street with trendy shops)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Seoul"
+    },
+    {
+      "day": 3,
+      "title": "Jeju Island",
+      "activities": [
+        "Airport Transfer to Gimpo Airport",
+        "Flight to Jeju (Morning flight)",
+        "Airport Pickup at Jeju Airport",
+        "Osulloc Green Tea Farm and Innisfree Jeju House",
+        "Yongmeori Coast Beach (hydrovolcano rocky shore)",
+        "Cheonjeyeon Waterfalls (famous three-tiered waterfall)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Jeju"
+    },
+    {
+      "day": 4,
+      "title": "Jeju Island",
+      "activities": [
+        "Songeup Folk Village (Korean traditional village)",
+        "Seopjikoji (sunrise peak, a crater, one)",
+        "Gimnyeong Beach",
+        "Seongsan Ilchulbong",
+        {
+          "text": "Seasonal Tour (entrance fee included):",
+          "sub": [
+            "Autumn: Sangumburi Park - Silver Grass, Pink Muhly",
+            "Winter: Hallabong Farm - Tangerine Fruit picking",
+            "Spring: Canola Field / Cherry Blossom",
+            "Summer: Sunflower Park / Hydrangea Flowers"
+          ]
+        }
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Jeju"
+    },
+    {
+      "day": 5,
+      "title": "Seoul City",
+      "activities": [
+        "Airport Transfer to Jeju",
+        "Flight to Seoul (Morning flight)",
+        "Namdaemun Market (shopping for souvenirs)",
+        "Namsan Cable Car",
+        "Myeongdong Street (shopping for Korean skincare)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "3-Star Seoul"
+    },
+    {
+      "day": 6,
+      "title": "Departure Day",
+      "activities": [
+        "Check out Hotel",
+        "Airport Transfer"
+      ],
+      "transport": "Airport Transfer",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Hanbok Rental at Gyeongbok Palace",
+          "includes": "Basic Hanbok Attire",
+          "excludes": "Extra equipment for rental",
+          "duration": "4 Hours",
+          "price_lines": [
+            "Adult & Child:",
+            "RM80/person"
+          ]
+        }
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "hotel",
+      "title": "Accommodation",
+      "body": "Rooms are small, typically 15-20 sqf (Korean standard). Triple rooms offer even less space."
+    },
+    {
+      "icon": "footprints",
+      "title": "Lots of Walking",
+      "body": "Please wear comfortable shoes."
+    },
+    {
+      "icon": "utensils",
+      "title": "Lunch & Dinner Excluded",
+      "body": "No lunch and dinner, and no breakfast if you choose the apartment. The guide will bring you to a halal-friendly restaurant or convenience store."
+    },
+    {
+      "icon": "luggage",
+      "title": "Airport Transfer",
+      "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
+    },
+    {
+      "icon": "guide",
+      "title": "Driving Guide",
+      "body": "Korean English-speaking driving guide."
+    },
+    {
+      "icon": "bus",
+      "title": "Driving Guide & Transport",
+      "body": "10 hours basis. 30,000 - 60,000 KRW will be charged for each extra hour."
+    },
+    {
+      "icon": "flight",
+      "title": "Domestic Flight",
+      "body": "1 luggage (20 kg) and 1 piece hand carry (7 kg)."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM1,500/person.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "This package is valid until the 31st December 2026 travel period.",
+        "Private transportation & driving guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
+        "A driving guide will be provided for groups of 2 to 9 pax.",
+        "A private driver and a professional tour guide will be provided for groups of 10 pax and above.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flights."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to arrival for full payment"
+    }
   ]
- },
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Nami Island",
-   "activities": [
-    "Arrival at Incheon International Airport",
-    "Nami Island (filming location for Winter Sonata)",
-    "Dongdaemun Design Plaza (DDP)",
-    "Check in Seoul Hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Seoul"
-  },
-  {
-   "day": 2,
-   "title": "Seoul City",
-   "activities": [
-    "Gyeongbokgung Palace (the main royal historical palace)",
-    "Cheonggyecheon Stream (unique river in Seoul)",
-    "Itaewon Street (first Mosque in South Korea)",
-    "Songsudong Market (street with trendy shops)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Seoul"
-  },
-  {
-   "day": 3,
-   "title": "Jeju Island",
-   "activities": [
-    "Airport Transfer to Gimpo Airport",
-    "Flight to Jeju (Morning flight)",
-    "Airport Pickup at Jeju Airport",
-    "Osulloc Green Tea Farm and Innisfree Jeju House",
-    "Yongmeori Coast Beach (hydrovolcano rocky shore)",
-    "Cheonjeyeon Waterfalls (famous three-tiered waterfall)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Jeju"
-  },
-  {
-   "day": 4,
-   "title": "Jeju Island",
-   "activities": [
-    "Songeup Folk Village (Korean traditional village)",
-    "Seopjikoji (sunrise peak, a crater, one)",
-    "Gimnyeong Beach",
-    "Seongsan Ilchulbong",
-    {
-     "text": "Seasonal Tour (entrance fee included):",
-     "sub": [
-      "Autumn: Sangumburi Park - Silver Grass, Pink Muhly",
-      "Winter: Hallabong Farm - Tangerine Fruit picking",
-      "Spring: Canola Field / Cherry Blossom",
-      "Summer: Sunflower Park / Hydrangea Flowers"
-     ]
-    }
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Jeju"
-  },
-  {
-   "day": 5,
-   "title": "Seoul City",
-   "activities": [
-    "Airport Transfer to Jeju",
-    "Flight to Seoul (Morning flight)",
-    "Namdaemun Market (shopping for souvenirs)",
-    "Namsan Cable Car",
-    "Myeongdong Street (shopping for Korean skincare)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "3-Star Seoul"
-  },
-  {
-   "day": 6,
-   "title": "Departure Day",
-   "activities": [
-    "Check out Hotel",
-    "Airport Transfer"
-   ],
-   "transport": "Airport Transfer",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Hanbok Rental at Gyeongbok Palace",
-     "includes": "Basic Hanbok Attire",
-     "excludes": "Extra equipment for rental",
-     "duration": "4 Hours",
-     "price_lines": [
-      "Adult & Child:",
-      "RM80/person"
-     ]
-    }
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "hotel",
-   "title": "Accommodation",
-   "body": "Rooms are small, typically 15-20 sqf (Korean standard). Triple rooms offer even less space."
-  },
-  {
-   "icon": "footprints",
-   "title": "Lots of Walking",
-   "body": "Please wear comfortable shoes."
-  },
-  {
-   "icon": "utensils",
-   "title": "Lunch & Dinner Excluded",
-   "body": "No lunch and dinner, and no breakfast if you choose the apartment. The guide will bring you to a halal-friendly restaurant or convenience store."
-  },
-  {
-   "icon": "luggage",
-   "title": "Airport Transfer",
-   "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
-  },
-  {
-   "icon": "guide",
-   "title": "Driving Guide",
-   "body": "Korean English-speaking driving guide."
-  },
-  {
-   "icon": "bus",
-   "title": "Driving Guide & Transport",
-   "body": "10 hours basis. 30,000 - 60,000 KRW will be charged for each extra hour."
-  },
-  {
-   "icon": "flight",
-   "title": "Domestic Flight",
-   "body": "1 luggage (20 kg) and 1 piece hand carry (7 kg)."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM1,500/person.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "This package is valid until the 31st December 2026 travel period.",
-    "Private transportation & driving guide is based on 10 hours basis. 30,000 - 60,000 KRW will be charged for every extra hour usage. Payment must be made in cash.",
-    "A driving guide will be provided for groups of 2 to 9 pax.",
-    "A private driver and a professional tour guide will be provided for groups of 10 pax and above.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flights."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to arrival for full payment"
-  }
- ]
 }

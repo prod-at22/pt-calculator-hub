@@ -1,366 +1,366 @@
 {
- "slug": "maldives-standard",
- "destination": "Maldives",
- "country": "Maldives",
- "code": "MLE",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PAKEJ MALDIVES 4 STAR",
- "duration": "4D3N",
- "route": "Sightseeing - Island Trip",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v3",
- "updated": "2025-12-03",
- "kb_url": "https://prod-at22.github.io/arba-maldives-kb/",
- "po": "Acap",
- "ops": "CIK IWAN",
- "source_pdf": "Maldives/Catalog/PT MALDIVES 4D3N 2026 v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "boat",
-   "label": "Sharing Basis Boat"
-  },
-  {
-   "icon": "info",
-   "label": "Standard"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "9 yrs & above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "2 - 9 yrs"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2 - 5 yrs"
-   }
+  "slug": "maldives-standard",
+  "destination": "Maldives",
+  "country": "Maldives",
+  "code": "MLE",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PAKEJ MALDIVES 4 STAR",
+  "duration": "4D3N",
+  "route": "Sightseeing - Island Trip",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v3",
+  "updated": "2025-12-03",
+  "kb_url": "https://prod-at22.github.io/arba-maldives-kb/",
+  "po": "Acap",
+  "ops": "CIK IWAN",
+  "source_pdf": "Maldives/Catalog/PT MALDIVES 4D3N 2026 v3.pdf",
+  "highlights": [
+    {
+      "icon": "hotel",
+      "label": "Accommodation"
+    },
+    {
+      "icon": "boat",
+      "label": "Sharing Basis Boat"
+    },
+    {
+      "icon": "info",
+      "label": "Standard"
+    }
   ],
-  "rows": [
-   {
-    "pax": "2 - 10",
-    "amounts": [
-     "RM3,097",
-     "RM2,197",
-     "RM1,797"
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "9 yrs & above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "2 - 9 yrs"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2 - 5 yrs"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2 - 10",
+        "amounts": [
+          "RM3,097",
+          "RM2,197",
+          "RM1,797"
+        ]
+      }
+    ],
+    "infant": "RM100 (0-2 yrs)"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (4 Star Hotel)",
+        "Return airport transfer by speedboat",
+        "Full board meals: International Breakfast, lunch and dinner (as per itinerary)",
+        "Snorkelling at famous spot and swimming at Sandbank + lunch + dolphin watching (shared tour) — optional",
+        "Snorkelling with nurse sharks, Ship Wreck Point and island hopping + lunch (shared tour) — optional",
+        "Night Fishing trip by boat",
+        "Tipping Fee",
+        "Green Tax",
+        "Tourism & Services Tax"
+      ],
+      "excludes": [
+        "International Flight Ticket (Return)",
+        "In-flight meals",
+        "Additional tours and meals",
+        "Personal expenses",
+        "Any other activities not mentioned in itinerary"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Kuala Lumpur - Male",
+      "activities": [
+        "(Recommend to arrive before 12 noon)",
+        "Airport transfer by speedboat",
+        "Check-in hotel"
+      ],
+      "transport": "Speedboat (sharing basis)",
+      "meals": "Dinner",
+      "hotel": "4-Star Hotel (Maafushi)"
+    },
+    {
+      "day": 2,
+      "title": "Excursion Trip (Shared Tour)",
+      "activities": [
+        {
+          "text": "Kaani Hotels — Full Day Excursion Trip (Shared Tour)",
+          "sub": [
+            "Snorkelling at famous spot",
+            "Swimming at Sand Bank",
+            "Lunch at Sand Bank",
+            "Dolphin Watching or Sightseeing"
+          ]
+        },
+        {
+          "text": "OR Kaani Hotels — Real Break Excursion Trip (Shared Tour)",
+          "sub": [
+            "Snorkelling with Nurse Shark",
+            "Ship Wreck Point",
+            "Island Hopping",
+            "Lunch at Sand Bank"
+          ]
+        },
+        {
+          "text": "Arena Hotels — Full Day Adventure (Shared Tour)",
+          "sub": [
+            "Housereef snorkelling at famous spot",
+            "Island Hopping - Gulhi & Guraidhoo",
+            "Lunch @ Sand bank",
+            "Dolphin Sightseeing"
+          ]
+        },
+        {
+          "text": "OR Arena Hotels — Shark Bay Snorkelling (Shared Tour)",
+          "sub": [
+            "Snorkelling with Nurse Shark",
+            "Manta Rays Point",
+            "Lunch @ Sand Bank",
+            "Dolphin Sightseeing"
+          ]
+        }
+      ],
+      "transport": "Seat-In-Coach, Speedboat",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "4-Star Hotel (Maafushi)"
+    },
+    {
+      "day": 3,
+      "title": "Maafushi",
+      "activities": [
+        "Free & Easy or join optional tours",
+        {
+          "text": "Sunset point + Night Fishing* trip by boat (shared tour)",
+          "sub": [
+            "*Night Fishing might be rescheduled to day 2 or day 3 depending on availability"
+          ]
+        }
+      ],
+      "transport": "Seat-In-Coach, Speedboat",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "4-Star Hotel (Maafushi)"
+    },
+    {
+      "day": 4,
+      "title": "Male - Kuala Lumpur",
+      "activities": [
+        "(Recommend to depart after 12 noon)",
+        "Breakfast",
+        "Check Out Hotel",
+        "Airport Transfer by speedboat"
+      ],
+      "transport": "Speedboat (sharing basis)",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "payment",
+      "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
+      "body": "Eg: Resort Island Excursion Trip."
+    },
+    {
+      "icon": "bus",
+      "title": "Airport Transfer & Island Activities by Speedboat",
+      "body": "Speedboat is per sharing basis."
+    },
+    {
+      "icon": "payment",
+      "title": "Prepare Cash",
+      "body": "Prepare cash if you plan to shop at Maafushi Islands. Cards and QR are not available at some shops and street stalls."
+    },
+    {
+      "icon": "umbrella",
+      "title": "Wet Season",
+      "body": "May to September. Prepare attire and shoes that are suitable to wear during rainy season."
+    },
+    {
+      "icon": "flight",
+      "title": "Arrival at Male Airport",
+      "body": "Hotel or resort staff will be available at the airport upon arrival. Extra charges apply for arrivals after 8pm."
+    },
+    {
+      "icon": "group",
+      "title": "Minimum Pax for Excursion",
+      "body": "Minimum pax required for excursion: 6 pax (Kaani), 10 pax (Arena)."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 or 3 persons per room.",
+        "Single Supplement: Additional RM700/person.",
+        "Late Booking Surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
+        "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
+        "Itinerary, price, flight is subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before trip.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flights.",
+        "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
+        "Any free activities is non exchangeable with other activities, voucher or cash if the client not joining or due to availability & weather condition."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "before departure for full payment"
+    }
+  ],
+  "surcharge": {
+    "title": "Peak Season Dates & Surcharge — Last Minute Surcharge",
+    "seasons": [
+      {
+        "label": "High Season",
+        "period": "11 January 2026 - 30 April 2026 · 1 November 2026 - 20 December 2026",
+        "rate": "Add on RM200 per person"
+      },
+      {
+        "label": "Peak Season",
+        "period": "21 December 2025 - 10 January 2026 · 21 December 2026 - 10 January 2027",
+        "rate": "Add on RM300 per person"
+      },
+      {
+        "label": "Christmas Eve",
+        "period": "24 December",
+        "rate": "Add on RM600 per person"
+      },
+      {
+        "label": "New Year Eve",
+        "period": "31 December",
+        "rate": "Add on RM700 per person"
+      },
+      {
+        "label": "Last Minute Surcharge",
+        "period": "Booking 3 weeks before departure date",
+        "rate": "2 pax: Additional RM400 per group · 3-10 pax: Additional RM300 per group"
+      }
     ]
-   }
+  },
+  "accommodation": [
+    {
+      "city": "Maldives",
+      "stars": 4,
+      "name": "Kaani Grand Seaview",
+      "similar": true
+    },
+    {
+      "city": "Maldives",
+      "stars": 4,
+      "name": "Kaani Palm Beach",
+      "similar": true
+    },
+    {
+      "city": "Maldives",
+      "stars": 4,
+      "name": "Arena Beach Hotel",
+      "similar": true
+    },
+    {
+      "city": "Maldives",
+      "stars": 4,
+      "name": "Crystal Sands",
+      "similar": true
+    },
+    {
+      "city": "Maldives",
+      "stars": 4,
+      "name": "Triton Prestige Seaview",
+      "similar": true
+    }
   ],
-  "infant": "RM100 (0-2 yrs)"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (4 Star Hotel)",
-    "Return airport transfer by speedboat",
-    "Full board meals: International Breakfast, lunch and dinner (as per itinerary)",
-    "Snorkelling at famous spot and swimming at Sandbank + lunch + dolphin watching (shared tour) — optional",
-    "Snorkelling with nurse sharks, Ship Wreck Point and island hopping + lunch (shared tour) — optional",
-    "Night Fishing trip by boat",
-    "Tipping Fee",
-    "Green Tax",
-    "Tourism & Services Tax"
-   ],
-   "excludes": [
-    "International Flight Ticket (Return)",
-    "In-flight meals",
-    "Additional tours and meals",
-    "Personal expenses",
-    "Any other activities not mentioned in itinerary"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Kuala Lumpur - Male",
-   "activities": [
-    "(Recommend to arrive before 12 noon)",
-    "Airport transfer by speedboat",
-    "Check-in hotel"
-   ],
-   "transport": "Speedboat (sharing basis)",
-   "meals": "Dinner",
-   "hotel": "4-Star Hotel (Maafushi)"
-  },
-  {
-   "day": 2,
-   "title": "Excursion Trip (Shared Tour)",
-   "activities": [
+  "addons": [
     {
-     "text": "Kaani Hotels — Full Day Excursion Trip (Shared Tour)",
-     "sub": [
-      "Snorkelling at famous spot",
-      "Swimming at Sand Bank",
-      "Lunch at Sand Bank",
-      "Dolphin Watching or Sightseeing"
-     ]
+      "title": "Add-ons (Kaani Hotels)",
+      "entries": [
+        {
+          "name": "Full Day Excursion Trip (shared tour)",
+          "includes": "Snorkelling & Swimming at famous spot, Lunch on Sand bank, Dolphin Sightseeing",
+          "price_lines": [
+            "RM250"
+          ]
+        },
+        {
+          "name": "Real Break Trip (shared tour)",
+          "includes": "Snorkelling with Nurse Shark, Ship Wreck Point, Island Hopping, Lunch on Sand Bank",
+          "price_lines": [
+            "RM350"
+          ]
+        },
+        {
+          "name": "Whale Shark Trip (shared tour)",
+          "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point",
+          "price_lines": [
+            "RM500"
+          ]
+        },
+        {
+          "name": "Private Island Excursion (shared tour)",
+          "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Malahini Kuda Bandos",
+          "price_lines": [
+            "RM800"
+          ]
+        }
+      ],
+      "notes": [
+        "*Shared Tour = Boat and activity sharing with other tourist."
+      ]
     },
     {
-     "text": "OR Kaani Hotels — Real Break Excursion Trip (Shared Tour)",
-     "sub": [
-      "Snorkelling with Nurse Shark",
-      "Ship Wreck Point",
-      "Island Hopping",
-      "Lunch at Sand Bank"
-     ]
-    },
-    {
-     "text": "Arena Hotels — Full Day Adventure (Shared Tour)",
-     "sub": [
-      "Housereef snorkelling at famous spot",
-      "Island Hopping - Gulhi & Guraidhoo",
-      "Lunch @ Sand bank",
-      "Dolphin Sightseeing"
-     ]
-    },
-    {
-     "text": "OR Arena Hotels — Shark Bay Snorkelling (Shared Tour)",
-     "sub": [
-      "Snorkelling with Nurse Shark",
-      "Manta Rays Point",
-      "Lunch @ Sand Bank",
-      "Dolphin Sightseeing"
-     ]
+      "title": "Add-ons (Arena Hotels)",
+      "entries": [
+        {
+          "name": "Full Day Adventure (shared tour)",
+          "includes": "Housereef snorkelling at famous spot, Island Hopping - Gulhi & Guraidhoo, Lunch @ Sand bank, Dolphin Sightseeing",
+          "price_lines": [
+            "RM320"
+          ]
+        },
+        {
+          "name": "Shark Bay Snorkelling (shared tour)",
+          "includes": "Snorkelling with Nurse Shark, Manta Rays Point, Lunch @ Sand Bank, Dolphin Sightseeing",
+          "price_lines": [
+            "RM270"
+          ]
+        },
+        {
+          "name": "Whale Shark Expedition (shared tour)",
+          "includes": "Snorkelling & Swimming, Whale Shark Point, Island Hopping, Dolphin Cruise, Manta Rays Point, Lunch @ Local Island (Dhigurah)",
+          "price_lines": [
+            "RM520"
+          ]
+        },
+        {
+          "name": "Private Island Excursion (shared tour)",
+          "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Centara Ras Fushi or Adaaran Prestige Vadoo",
+          "price_lines": [
+            "RM800"
+          ]
+        }
+      ],
+      "notes": [
+        "*Shared Tour = Boat and activity sharing with other tourist."
+      ]
     }
-   ],
-   "transport": "Seat-In-Coach, Speedboat",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "4-Star Hotel (Maafushi)"
-  },
-  {
-   "day": 3,
-   "title": "Maafushi",
-   "activities": [
-    "Free & Easy or join optional tours",
-    {
-     "text": "Sunset point + Night Fishing* trip by boat (shared tour)",
-     "sub": [
-      "*Night Fishing might be rescheduled to day 2 or day 3 depending on availability"
-     ]
-    }
-   ],
-   "transport": "Seat-In-Coach, Speedboat",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "4-Star Hotel (Maafushi)"
-  },
-  {
-   "day": 4,
-   "title": "Male - Kuala Lumpur",
-   "activities": [
-    "(Recommend to depart after 12 noon)",
-    "Breakfast",
-    "Check Out Hotel",
-    "Airport Transfer by speedboat"
-   ],
-   "transport": "Speedboat (sharing basis)",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "payment",
-   "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
-   "body": "Eg: Resort Island Excursion Trip."
-  },
-  {
-   "icon": "bus",
-   "title": "Airport Transfer & Island Activities by Speedboat",
-   "body": "Speedboat is per sharing basis."
-  },
-  {
-   "icon": "payment",
-   "title": "Prepare Cash",
-   "body": "Prepare cash if you plan to shop at Maafushi Islands. Cards and QR are not available at some shops and street stalls."
-  },
-  {
-   "icon": "umbrella",
-   "title": "Wet Season",
-   "body": "May to September. Prepare attire and shoes that are suitable to wear during rainy season."
-  },
-  {
-   "icon": "flight",
-   "title": "Arrival at Male Airport",
-   "body": "Hotel or resort staff will be available at the airport upon arrival. Extra charges apply for arrivals after 8pm."
-  },
-  {
-   "icon": "group",
-   "title": "Minimum Pax for Excursion",
-   "body": "Minimum pax required for excursion: 6 pax (Kaani), 10 pax (Arena)."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 or 3 persons per room.",
-    "Single Supplement: Additional RM700/person.",
-    "Late Booking Surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
-    "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
-    "Itinerary, price, flight is subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before trip.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flights.",
-    "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
-    "Any free activities is non exchangeable with other activities, voucher or cash if the client not joining or due to availability & weather condition."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "before departure for full payment"
-  }
- ],
- "surcharge": {
-  "title": "Peak Season Dates & Surcharge — Last Minute Surcharge",
-  "seasons": [
-   {
-    "label": "High Season",
-    "period": "11 January 2026 - 30 April 2026 · 1 November 2026 - 20 December 2026",
-    "rate": "Add on RM200 per person"
-   },
-   {
-    "label": "Peak Season",
-    "period": "21 December 2025 - 10 January 2026 · 21 December 2026 - 10 January 2027",
-    "rate": "Add on RM300 per person"
-   },
-   {
-    "label": "Christmas Eve",
-    "period": "24 December",
-    "rate": "Add on RM600 per person"
-   },
-   {
-    "label": "New Year Eve",
-    "period": "31 December",
-    "rate": "Add on RM700 per person"
-   },
-   {
-    "label": "Last Minute Surcharge",
-    "period": "Booking 3 weeks before departure date",
-    "rate": "2 pax: Additional RM400 per group · 3-10 pax: Additional RM300 per group"
-   }
-  ]
- },
- "accommodation": [
-  {
-   "city": "Maldives",
-   "stars": 4,
-   "name": "Kaani Grand Seaview",
-   "similar": true
-  },
-  {
-   "city": "Maldives",
-   "stars": 4,
-   "name": "Kaani Palm Beach",
-   "similar": true
-  },
-  {
-   "city": "Maldives",
-   "stars": 4,
-   "name": "Arena Beach Hotel",
-   "similar": true
-  },
-  {
-   "city": "Maldives",
-   "stars": 4,
-   "name": "Crystal Sands",
-   "similar": true
-  },
-  {
-   "city": "Maldives",
-   "stars": 4,
-   "name": "Triton Prestige Seaview",
-   "similar": true
-  }
- ],
- "addons": [
-  {
-   "title": "Add-ons (Kaani Hotels)",
-   "entries": [
-    {
-     "name": "Full Day Excursion Trip (shared tour)",
-     "includes": "Snorkelling & Swimming at famous spot, Lunch on Sand bank, Dolphin Sightseeing",
-     "price_lines": [
-      "RM250"
-     ]
-    },
-    {
-     "name": "Real Break Trip (shared tour)",
-     "includes": "Snorkelling with Nurse Shark, Ship Wreck Point, Island Hopping, Lunch on Sand Bank",
-     "price_lines": [
-      "RM350"
-     ]
-    },
-    {
-     "name": "Whale Shark Trip (shared tour)",
-     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point",
-     "price_lines": [
-      "RM500"
-     ]
-    },
-    {
-     "name": "Private Island Excursion (shared tour)",
-     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Malahini Kuda Bandos",
-     "price_lines": [
-      "RM800"
-     ]
-    }
-   ],
-   "notes": [
-    "*Shared Tour = Boat and activity sharing with other tourist."
-   ]
-  },
-  {
-   "title": "Add-ons (Arena Hotels)",
-   "entries": [
-    {
-     "name": "Full Day Adventure (shared tour)",
-     "includes": "Housereef snorkelling at famous spot, Island Hopping - Gulhi & Guraidhoo, Lunch @ Sand bank, Dolphin Sightseeing",
-     "price_lines": [
-      "RM320"
-     ]
-    },
-    {
-     "name": "Shark Bay Snorkelling (shared tour)",
-     "includes": "Snorkelling with Nurse Shark, Manta Rays Point, Lunch @ Sand Bank, Dolphin Sightseeing",
-     "price_lines": [
-      "RM270"
-     ]
-    },
-    {
-     "name": "Whale Shark Expedition (shared tour)",
-     "includes": "Snorkelling & Swimming, Whale Shark Point, Island Hopping, Dolphin Cruise, Manta Rays Point, Lunch @ Local Island (Dhigurah)",
-     "price_lines": [
-      "RM520"
-     ]
-    },
-    {
-     "name": "Private Island Excursion (shared tour)",
-     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Olhuveli Beach & Spa Resort or Sunsiyam Olhuveli or Centara Ras Fushi or Adaaran Prestige Vadoo",
-     "price_lines": [
-      "RM800"
-     ]
-    }
-   ],
-   "notes": [
-    "*Shared Tour = Boat and activity sharing with other tourist."
-   ]
-  }
- ],
- "product": "PAKEJ"
+  ],
+  "product": "PAKEJ"
 }

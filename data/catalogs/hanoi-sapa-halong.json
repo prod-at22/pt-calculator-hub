@@ -1,351 +1,351 @@
 {
- "slug": "hanoi-sapa-halong",
- "destination": "Hanoi-Sapa-Halong",
- "country": "Vietnam",
- "code": "HNSH",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR HANOI - SAPA - HALONG BAY",
- "duration": "5D4N",
- "route": "Halong Bay - Cat Cat Village - Fansipan - Hanoi",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v4",
- "updated": "2026-03-12",
- "kb_url": "https://prod-at22.github.io/arba-hanoi-sapa-kb/",
- "po": "Ezie",
- "ops": "ILY",
- "source_pdf": "Vietnam/Hanoi-Sapa-Halong/Catalog/PT HANOI - SAPA - HALONG BAY 5D4N 2026 v4.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "9 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-8 years old"
-   },
-   {
-    "label": "Child Without Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM3,477",
-     "RM3,277",
-     "RM3,077"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM3,277",
-     "RM3,077",
-     "RM2,877"
-    ]
-   },
-   {
-    "pax": "4 - 5",
-    "amounts": [
-     "RM2,877",
-     "RM2,677",
-     "RM2,477"
-    ]
-   },
-   {
-    "pax": "6 - 7",
-    "amounts": [
-     "RM2,677",
-     "RM2,477",
-     "RM2,277"
-    ]
-   },
-   {
-    "pax": "8 - 9",
-    "amounts": [
-     "RM2,577",
-     "RM2,377",
-     "RM2,177"
-    ]
-   },
-   {
-    "pax": "10",
-    "amounts": [
-     "RM2,397",
-     "RM2,197",
-     "RM1,997"
-    ]
-   },
-   {
-    "pax": "11 - 12",
-    "amounts": [
-     "RM2,297",
-     "RM2,097",
-     "RM1,897"
-    ]
-   },
-   {
-    "pax": "13 - 15",
-    "amounts": [
-     "RM2,097",
-     "RM1,897",
-     "RM1,697"
-    ]
-   }
-  ],
-  "infant": "FOC"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (3 Star Hotel)",
-    "1 Night Cruise",
-    "Private Transportation",
-    "Entrance Fees",
-    "Halal Meals (4B, 3L, 4D)",
-    "Driving Guide (Malay Speaking)",
-    "Tipping Fee",
-    "Train to Fansipan Mountain",
-    "Cable Car to Fansipan Mountain",
-    "Halong Bay Kayak Activity"
-   ],
-   "excludes": [
-    "Return Flight Tickets",
-    "Luggage, In Flight Meal & Airport Tax",
-    "Additional Tours & Meals",
-    "Personal Expenses",
-    "Travel Insurance"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Arrival Hanoi",
-   "activities": [
-    "Suggested arrival: noon time onwards",
-    "Arrival at Hanoi Airport (HAN)",
-    "Transfer to Sapa",
-    "Check in Sapa hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "Dinner",
-   "hotel": "3-Star Hotel (Sapa)"
-  },
-  {
-   "day": 2,
-   "title": "Fansipan - Cat Cat Village",
-   "activities": [
-    "Breakfast",
-    "Train to Cable Car Fansipan Mountain",
-    "Cable Car to Fansipan Mountain (world's longest and highest cable car)",
-    "Cat Cat Village (H'mong ethnic mountain village)",
-    "Moana Sapa",
-    "Muong Hua Valley",
-    "Transfer to Hanoi",
-    "Check in Hanoi hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Hanoi)"
-  },
-  {
-   "day": 3,
-   "title": "Halong Bay",
-   "activities": [
-    "Transfer to Halong Bay",
-    "Check in Halong Bay cruise",
+  "slug": "hanoi-sapa-halong",
+  "destination": "Hanoi-Sapa-Halong",
+  "country": "Vietnam",
+  "code": "HNSH",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR HANOI - SAPA - HALONG BAY",
+  "duration": "5D4N",
+  "route": "Halong Bay - Cat Cat Village - Fansipan - Hanoi",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v4",
+  "updated": "2026-03-12",
+  "kb_url": "https://prod-at22.github.io/arba-hanoi-sapa-kb/",
+  "po": "Ezie",
+  "ops": "ILY",
+  "source_pdf": "Vietnam/Hanoi-Sapa-Halong/Catalog/PT HANOI - SAPA - HALONG BAY 5D4N 2026 v4.pdf",
+  "highlights": [
     {
-     "text": "Island Tour",
-     "sub": [
-      "Stone Dog Island (giant watchdog-shaped island)",
-      "Fighting Cocks (resembling two gallant roosters)",
-      "Gua Sung Sot (largest and most stunning limestone cave)",
-      "Titop Island (crescent-moon shaped beach with soft white sand)"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
+    },
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
     }
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Halong Cruise)"
-  },
-  {
-   "day": 4,
-   "title": "Halong Bay - Hanoi",
-   "activities": [
-    "Gua Luon by kayak",
-    "Check out Halong Bay cruise",
-    "Mega Grand World Hanoi (the largest entertainment area)",
-    "Hanoi Train Street Coffee (taste the local fresh coffee)",
-    "Souvenir shopping",
-    "Check in Hanoi hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel (Hanoi)"
-  },
-  {
-   "day": 5,
-   "title": "Hanoi - Airport",
-   "activities": [
-    "Suggested departure: noon time",
-    "Breakfast",
-    "Check out hotel",
-    "Airport transfer (HAN)"
-   ],
-   "transport": "Private Airport Transfer",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "expect": [
-  {
-   "icon": "bus",
-   "title": "Long Journey",
-   "body": "Hanoi to Sapa one way normally takes around 6 to 8 hours depending on traffic."
-  },
-  {
-   "icon": "umbrella",
-   "title": "Prepare for Weather",
-   "body": "Rainy May - October. Sunny November - April."
-  },
-  {
-   "icon": "footprints",
-   "title": "Lots of Walking",
-   "body": "Some attractions require a lot of walking."
-  },
-  {
-   "icon": "utensils",
-   "title": "Full Board Meals",
-   "body": "Meals are already included in the package. If you choose not to consume them, no refund will be provided."
-  },
-  {
-   "icon": "luggage",
-   "title": "Check In & Check Out",
-   "body": "There are a lot of hotel check-ins and check-outs, and into the boat cruise. Please pack efficiently."
-  },
-  {
-   "icon": "luggage",
-   "title": "Luggage Allocation",
-   "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM700 per person.",
-    "All itinerary, flight, price or quotation is subject to change.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "Last minute surcharge will be charged if the booking is made less than 3 weeks before departure (refer to the Last Minute Surcharges table).",
-    "The itinerary during the trip is subject to change (due to weather, traffic, safety, etc.).",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting flights.",
-    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "surcharge": {
-  "title": "Surcharge — Accommodation, Blockout Dates & Last Minute",
-  "columns": [
-   {
-    "label": "Upgrade Surcharge (Additional)"
-   }
   ],
-  "rows": [
-   {
-    "type": "3 Star Hotel",
-    "name": "Sapa Hotel: Saparis Hotel, Beautiful Sapa Hotel",
-    "similar": true,
-    "amounts": [
-     "-"
-    ]
-   },
-   {
-    "type": "3 Star Hotel",
-    "name": "Hanoi Hotel: CWD Hotel, The Charm Hotel",
-    "similar": true,
-    "amounts": [
-     "-"
-    ]
-   },
-   {
-    "type": "3 Star Hotel",
-    "name": "Halong Bay Cruise: Victory Star Cruise",
-    "amounts": [
-     "-"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Sapa Hotel: Delasol Sapa Hotel, Aliana Boutique Sapa Hotel & Spa",
-    "similar": true,
-    "amounts": [
-     "Add RM140/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Hanoi Hotel: Lake Residence Hotel, Lake Side Hotel",
-    "similar": true,
-    "amounts": [
-     "Add RM140/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "Halong Bay Cruise",
-    "amounts": [
-     "-"
-    ]
-   }
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "9 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-8 years old"
+      },
+      {
+        "label": "Child Without Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM3,477",
+          "RM3,277",
+          "RM3,077"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM3,277",
+          "RM3,077",
+          "RM2,877"
+        ]
+      },
+      {
+        "pax": "4 - 5",
+        "amounts": [
+          "RM2,877",
+          "RM2,677",
+          "RM2,477"
+        ]
+      },
+      {
+        "pax": "6 - 7",
+        "amounts": [
+          "RM2,677",
+          "RM2,477",
+          "RM2,277"
+        ]
+      },
+      {
+        "pax": "8 - 9",
+        "amounts": [
+          "RM2,577",
+          "RM2,377",
+          "RM2,177"
+        ]
+      },
+      {
+        "pax": "10",
+        "amounts": [
+          "RM2,397",
+          "RM2,197",
+          "RM1,997"
+        ]
+      },
+      {
+        "pax": "11 - 12",
+        "amounts": [
+          "RM2,297",
+          "RM2,097",
+          "RM1,897"
+        ]
+      },
+      {
+        "pax": "13 - 15",
+        "amounts": [
+          "RM2,097",
+          "RM1,897",
+          "RM1,697"
+        ]
+      }
+    ],
+    "infant": "FOC"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (3 Star Hotel)",
+        "1 Night Cruise",
+        "Private Transportation",
+        "Entrance Fees",
+        "Halal Meals (4B, 3L, 4D)",
+        "Driving Guide (Malay Speaking)",
+        "Tipping Fee",
+        "Train to Fansipan Mountain",
+        "Cable Car to Fansipan Mountain",
+        "Halong Bay Kayak Activity"
+      ],
+      "excludes": [
+        "Return Flight Tickets",
+        "Luggage, In Flight Meal & Airport Tax",
+        "Additional Tours & Meals",
+        "Personal Expenses",
+        "Travel Insurance"
+      ]
+    }
   ],
-  "seasons": [
-   {
-    "label": "Blockout — Chinese New Year 2027",
-    "period": "17 February - 18 February 2027",
-    "rate": "Blockout date"
-   },
-   {
-    "label": "Last Minute — booking 3 weeks before departure date",
-    "period": "2 pax",
-    "rate": "Additional RM400 per person"
-   },
-   {
-    "label": "Last Minute — booking 3 weeks before departure date",
-    "period": "3 pax & above",
-    "rate": "Additional RM300 per person"
-   }
-  ]
- }
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival Hanoi",
+      "activities": [
+        "Suggested arrival: noon time onwards",
+        "Arrival at Hanoi Airport (HAN)",
+        "Transfer to Sapa",
+        "Check in Sapa hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "Dinner",
+      "hotel": "3-Star Hotel (Sapa)"
+    },
+    {
+      "day": 2,
+      "title": "Fansipan - Cat Cat Village",
+      "activities": [
+        "Breakfast",
+        "Train to Cable Car Fansipan Mountain",
+        "Cable Car to Fansipan Mountain (world's longest and highest cable car)",
+        "Cat Cat Village (H'mong ethnic mountain village)",
+        "Moana Sapa",
+        "Muong Hua Valley",
+        "Transfer to Hanoi",
+        "Check in Hanoi hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Hanoi)"
+    },
+    {
+      "day": 3,
+      "title": "Halong Bay",
+      "activities": [
+        "Transfer to Halong Bay",
+        "Check in Halong Bay cruise",
+        {
+          "text": "Island Tour",
+          "sub": [
+            "Stone Dog Island (giant watchdog-shaped island)",
+            "Fighting Cocks (resembling two gallant roosters)",
+            "Gua Sung Sot (largest and most stunning limestone cave)",
+            "Titop Island (crescent-moon shaped beach with soft white sand)"
+          ]
+        }
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Halong Cruise)"
+    },
+    {
+      "day": 4,
+      "title": "Halong Bay - Hanoi",
+      "activities": [
+        "Gua Luon by kayak",
+        "Check out Halong Bay cruise",
+        "Mega Grand World Hanoi (the largest entertainment area)",
+        "Hanoi Train Street Coffee (taste the local fresh coffee)",
+        "Souvenir shopping",
+        "Check in Hanoi hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel (Hanoi)"
+    },
+    {
+      "day": 5,
+      "title": "Hanoi - Airport",
+      "activities": [
+        "Suggested departure: noon time",
+        "Breakfast",
+        "Check out hotel",
+        "Airport transfer (HAN)"
+      ],
+      "transport": "Private Airport Transfer",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "bus",
+      "title": "Long Journey",
+      "body": "Hanoi to Sapa one way normally takes around 6 to 8 hours depending on traffic."
+    },
+    {
+      "icon": "umbrella",
+      "title": "Prepare for Weather",
+      "body": "Rainy May - October. Sunny November - April."
+    },
+    {
+      "icon": "footprints",
+      "title": "Lots of Walking",
+      "body": "Some attractions require a lot of walking."
+    },
+    {
+      "icon": "utensils",
+      "title": "Full Board Meals",
+      "body": "Meals are already included in the package. If you choose not to consume them, no refund will be provided."
+    },
+    {
+      "icon": "luggage",
+      "title": "Check In & Check Out",
+      "body": "There are a lot of hotel check-ins and check-outs, and into the boat cruise. Please pack efficiently."
+    },
+    {
+      "icon": "luggage",
+      "title": "Luggage Allocation",
+      "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM700 per person.",
+        "All itinerary, flight, price or quotation is subject to change.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "Last minute surcharge will be charged if the booking is made less than 3 weeks before departure (refer to the Last Minute Surcharges table).",
+        "The itinerary during the trip is subject to change (due to weather, traffic, safety, etc.).",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting flights.",
+        "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "surcharge": {
+    "title": "Surcharge — Accommodation, Blockout Dates & Last Minute",
+    "columns": [
+      {
+        "label": "Upgrade Surcharge (Additional)"
+      }
+    ],
+    "rows": [
+      {
+        "type": "3 Star Hotel",
+        "name": "Sapa Hotel: Saparis Hotel, Beautiful Sapa Hotel",
+        "similar": true,
+        "amounts": [
+          "-"
+        ]
+      },
+      {
+        "type": "3 Star Hotel",
+        "name": "Hanoi Hotel: CWD Hotel, The Charm Hotel",
+        "similar": true,
+        "amounts": [
+          "-"
+        ]
+      },
+      {
+        "type": "3 Star Hotel",
+        "name": "Halong Bay Cruise: Victory Star Cruise",
+        "amounts": [
+          "-"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Sapa Hotel: Delasol Sapa Hotel, Aliana Boutique Sapa Hotel & Spa",
+        "similar": true,
+        "amounts": [
+          "Add RM140/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Hanoi Hotel: Lake Residence Hotel, Lake Side Hotel",
+        "similar": true,
+        "amounts": [
+          "Add RM140/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "Halong Bay Cruise",
+        "amounts": [
+          "-"
+        ]
+      }
+    ],
+    "seasons": [
+      {
+        "label": "Blockout — Chinese New Year 2027",
+        "period": "17 February - 18 February 2027",
+        "rate": "Blockout date"
+      },
+      {
+        "label": "Last Minute — booking 3 weeks before departure date",
+        "period": "2 pax",
+        "rate": "Additional RM400 per person"
+      },
+      {
+        "label": "Last Minute — booking 3 weeks before departure date",
+        "period": "3 pax & above",
+        "rate": "Additional RM300 per person"
+      }
+    ]
+  }
 }

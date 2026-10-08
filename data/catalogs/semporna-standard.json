@@ -1,430 +1,430 @@
 {
- "slug": "semporna-standard",
- "destination": "Semporna",
- "country": "Malaysia",
- "code": "SEM",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PAKEJ SEMPORNA STANDARD",
- "duration": "4D3N",
- "route": "Semporna - Island Hopping Bohey Dulang - Mataking - Mabul",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v4",
- "updated": "2026-08-24",
- "kb_url": "https://prod-at22.github.io/arba-semporna-kb/",
- "po": "Fyka",
- "ops": "",
- "source_pdf": "Domestik/Semporna/Catalog/PAKEJ SEMPORNA STANDARD (4D3N) 2026 v4.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
+  "slug": "semporna-standard",
+  "destination": "Semporna",
+  "country": "Malaysia",
+  "code": "SEM",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PAKEJ SEMPORNA STANDARD",
+  "duration": "4D3N",
+  "route": "Semporna - Island Hopping Bohey Dulang - Mataking - Mabul",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v4",
+  "updated": "2026-08-24",
+  "kb_url": "https://prod-at22.github.io/arba-semporna-kb/",
+  "po": "Fyka",
+  "ops": "",
+  "source_pdf": "Domestik/Semporna/Catalog/PAKEJ SEMPORNA STANDARD (4D3N) 2026 v4.pdf",
+  "highlights": [
+    {
+      "icon": "hotel",
+      "label": "Accommodation"
+    },
+    {
+      "icon": "boat",
+      "label": "Sharing Basis Boat"
+    }
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "1",
+        "amounts": [
+          "RM2,297",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "pax": "2 - 10",
+        "amounts": [
+          "RM1,597",
+          "RM1,457",
+          "RM1,357"
+        ]
+      }
+    ],
+    "infant": "FOC"
   },
-  {
-   "icon": "boat",
-   "label": "Sharing Basis Boat"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
+  "price_blocks": [
+    {
+      "includes": [
+        "2 Way Airport Transfer (Sharing Basis)",
+        "Boat Transfer (Sharing Basis)",
+        "1x Night Water Chalet",
+        "2x Night Semporna City Hotel",
+        "Meals: 3x Breakfast, 2x Lunch, 3x Dinner",
+        "1x Island Hopping Set Bohey Dulang Or Set Mataking",
+        "Snorkelling Equipments",
+        "Admissions & Jetty Fee",
+        "Tipping Fee"
+      ],
+      "excludes": [
+        "Personal Expenses",
+        "Additional Packages Cost",
+        "Other meals",
+        "Flight Ticket",
+        "Shower Room",
+        "Tourism Tax (Non Malaysian Passport Holder)",
+        "Travel insurance",
+        "Surcharge for Non Malaysian Passport Holder"
+      ]
+    }
   ],
-  "rows": [
-   {
-    "pax": "1",
-    "amounts": [
-     "RM2,297",
-     "-",
-     "-"
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Upgrade Surcharge (Additional)"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "26 June 2026 - 31 August 2026 | 28 - 30 September 2026 | 1 - 8 October 2026 | 20 - 31 December 2026 | 1 - 23 January 2027 | 12 - 25 February 2027"
+      }
+    ],
+    "rows": [
+      {
+        "type": "3 Star Hotel (Semporna Town)",
+        "name": "Seafest Boutique",
+        "amounts": [
+          "-",
+          "RM30/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Hotel (Semporna Town)",
+        "name": "Seafest Lepa Wing Sea View",
+        "amounts": [
+          "RM30/pax/night",
+          "RM30/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Hotel (Semporna Town)",
+        "name": "Seafest Hotel",
+        "amounts": [
+          "RM30/pax/night",
+          "RM30/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Hotel (Semporna Town)",
+        "name": "Seafest Hotel Sea View",
+        "amounts": [
+          "RM50/pax/night",
+          "RM50/pax/night"
+        ]
+      },
+      {
+        "type": "1 Star Resort (Water Chalet)",
+        "name": "Nusakuya Resort, Blue Ocean Resort",
+        "amounts": [
+          "-",
+          "RM60/pax/night"
+        ]
+      },
+      {
+        "type": "1 Star Resort (Water Chalet)",
+        "name": "Maglami - Lami Water House, Aminah Holiday Resort, Starz Water Villa Standard",
+        "amounts": [
+          "RM150/pax/night",
+          "RM60/pax/night"
+        ]
+      },
+      {
+        "type": "2 Star Resort (Water Chalet)",
+        "name": "Danglai Resort, Dayang Resort",
+        "amounts": [
+          "RM450/pax/night",
+          "RM65/pax/night"
+        ]
+      },
+      {
+        "type": "2 Star Resort (Water Chalet)",
+        "name": "Royal Resort Standard Suite",
+        "amounts": [
+          "RM600/pax/night",
+          "RM80/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Resort (Water Chalet)",
+        "name": "Sipadan Kapalai Standard",
+        "amounts": [
+          "RM2,050/pax/night",
+          "RM85/pax/night"
+        ]
+      },
+      {
+        "type": "3 Star Resort (Water Chalet)",
+        "name": "Sipadan Water Village (SeaView)",
+        "amounts": [
+          "RM1,350/pax/night",
+          "RM85/pax/night"
+        ]
+      }
+    ],
+    "seasons": [
+      {
+        "label": "Surcharge Travel Date 2027",
+        "period": "January - June 2027",
+        "rate": "Add RM150/pax"
+      }
+    ],
+    "notes": [
+      "1 Star & 2 Star Resort: location for island hopping will be at Bum Bum Island.",
+      "3 Star Resort Water Chalet: location for island hopping will be at Mabul Island."
     ]
-   },
-   {
-    "pax": "2 - 10",
-    "amounts": [
-     "RM1,597",
-     "RM1,457",
-     "RM1,357"
-    ]
-   }
+  },
+  "accommodation": [
+    {
+      "city": "Semporna Town",
+      "name": "Wingtat Hotel"
+    },
+    {
+      "city": "Water Chalet",
+      "stars": 1,
+      "name": "Lato Lato Water Chalet"
+    }
   ],
-  "infant": "FOC"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "2 Way Airport Transfer (Sharing Basis)",
-    "Boat Transfer (Sharing Basis)",
-    "1x Night Water Chalet",
-    "2x Night Semporna City Hotel",
-    "Meals: 3x Breakfast, 2x Lunch, 3x Dinner",
-    "1x Island Hopping Set Bohey Dulang Or Set Mataking",
-    "Snorkelling Equipments",
-    "Admissions & Jetty Fee",
-    "Tipping Fee"
-   ],
-   "excludes": [
-    "Personal Expenses",
-    "Additional Packages Cost",
-    "Other meals",
-    "Flight Ticket",
-    "Shower Room",
-    "Tourism Tax (Non Malaysian Passport Holder)",
-    "Travel insurance",
-    "Surcharge for Non Malaysian Passport Holder"
-   ]
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Upgrade Surcharge (Additional)"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "26 June 2026 - 31 August 2026 | 28 - 30 September 2026 | 1 - 8 October 2026 | 20 - 31 December 2026 | 1 - 23 January 2027 | 12 - 25 February 2027"
-   }
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Tawau - Semporna - Water Chalet",
+      "activities": [
+        "Arrive in Tawau Airport",
+        "Depart to Semporna (2 hours journey)",
+        "Shared Boat Transfer (Boat departure: 2pm/4pm)",
+        "Check In Water Chalet",
+        "Swim & Snorkelling (self-arranged)",
+        "Sunset View",
+        "Free & Easy"
+      ],
+      "transport": "Airport transfer & Boat transfer (sharing basis)",
+      "meals": "Dinner",
+      "hotel": "Water Chalet"
+    },
+    {
+      "day": 2,
+      "title": "Island Hopping (SIC)",
+      "activities": [
+        {
+          "text": "Island Hopping Set Bohey Dulang",
+          "sub": [
+            "Bohey Dulang, Mantabuan & Sibuan"
+          ]
+        },
+        {
+          "text": "OR Island Hopping Set Mataking",
+          "sub": [
+            "Mataking, Timba Timba & Pom Pom"
+          ]
+        },
+        "Back to Semporna Jetty",
+        "Check In Hotel at Semporna Town",
+        "Free & Easy"
+      ],
+      "transport": "Boat transfer (sharing basis)",
+      "meals": "Breakfast, Basic Lunch Box, Dinner",
+      "hotel": "Semporna Hotel"
+    },
+    {
+      "day": 3,
+      "title": "Free & Easy",
+      "activities": [
+        "Free & Easy",
+        {
+          "text": "OR Add On Island Hopping Set Mabul (Add On RM180/Pax)",
+          "sub": [
+            "Mabul & Kapalai"
+          ]
+        },
+        "Back to Semporna Jetty",
+        "Check In Hotel at Semporna Town",
+        "Free & Easy"
+      ],
+      "transport": "-",
+      "meals": "Breakfast Only",
+      "hotel": "Semporna Hotel"
+    },
+    {
+      "day": 4,
+      "title": "Semporna - Tawau",
+      "activities": [
+        "Check out Hotel",
+        "Free & Easy",
+        "Shared Airport Transfer to Tawau airport (Airport transfer: 6am/7am/10am/12pm/2pm/5pm)"
+      ],
+      "transport": "Airport transfer (sharing basis)",
+      "meals": "Breakfast",
+      "hotel": "-"
+    }
   ],
-  "rows": [
-   {
-    "type": "3 Star Hotel (Semporna Town)",
-    "name": "Seafest Boutique",
-    "amounts": [
-     "-",
-     "RM30/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Hotel (Semporna Town)",
-    "name": "Seafest Lepa Wing Sea View",
-    "amounts": [
-     "RM30/pax/night",
-     "RM30/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Hotel (Semporna Town)",
-    "name": "Seafest Hotel",
-    "amounts": [
-     "RM30/pax/night",
-     "RM30/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Hotel (Semporna Town)",
-    "name": "Seafest Hotel Sea View",
-    "amounts": [
-     "RM50/pax/night",
-     "RM50/pax/night"
-    ]
-   },
-   {
-    "type": "1 Star Resort (Water Chalet)",
-    "name": "Nusakuya Resort, Blue Ocean Resort",
-    "amounts": [
-     "-",
-     "RM60/pax/night"
-    ]
-   },
-   {
-    "type": "1 Star Resort (Water Chalet)",
-    "name": "Maglami - Lami Water House, Aminah Holiday Resort, Starz Water Villa Standard",
-    "amounts": [
-     "RM150/pax/night",
-     "RM60/pax/night"
-    ]
-   },
-   {
-    "type": "2 Star Resort (Water Chalet)",
-    "name": "Danglai Resort, Dayang Resort",
-    "amounts": [
-     "RM450/pax/night",
-     "RM65/pax/night"
-    ]
-   },
-   {
-    "type": "2 Star Resort (Water Chalet)",
-    "name": "Royal Resort Standard Suite",
-    "amounts": [
-     "RM600/pax/night",
-     "RM80/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Resort (Water Chalet)",
-    "name": "Sipadan Kapalai Standard",
-    "amounts": [
-     "RM2,050/pax/night",
-     "RM85/pax/night"
-    ]
-   },
-   {
-    "type": "3 Star Resort (Water Chalet)",
-    "name": "Sipadan Water Village (SeaView)",
-    "amounts": [
-     "RM1,350/pax/night",
-     "RM85/pax/night"
-    ]
-   }
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Island Hopping (Full Day)",
+          "includes": "1 x island trip (Set A/B/C), snorkelling equipment, shared boat transfer, 1 x basic lunch box, jetty fee, guide. Meeting point: Seafest Jetty",
+          "duration": "From 8am to 2@3pm",
+          "price_lines": [
+            "RM180/pax"
+          ]
+        },
+        {
+          "name": "Tawau Shopping Tour (Full Day)",
+          "includes": "Private transport, driver guide, airport transfer",
+          "duration": "6-8 hours",
+          "price_lines": [
+            "RM120/pax"
+          ]
+        },
+        {
+          "name": "Timbun Mata Watersport (Half Day)",
+          "includes": "Parasailing, jet ski, transparent kayak, banana boat, paddle boat, UFO donut, hiking, snorkelling, buffet lunch. Meeting point: Timbun Mata. 2 sessions (choose 1): 8am - 1pm or 1.30pm - 5pm",
+          "duration": "4-5 hours",
+          "price_lines": [
+            "RM300/pax"
+          ]
+        },
+        {
+          "name": "Seawalking",
+          "includes": "Meeting point: Seafest Jetty. Minimum 2 pax. Recommended to do on the first day",
+          "duration": "45 mins",
+          "price_lines": [
+            "RM180/pax"
+          ]
+        },
+        {
+          "name": "Discovery Scuba Diving",
+          "includes": "Diving equipment, 2 x dives, dive master. Recommended to do on the first day",
+          "price_lines": [
+            "RM280/pax"
+          ]
+        },
+        {
+          "name": "Fun Dive",
+          "includes": "Diving equipment, 3 x dives, dive master. Recommended to do on the first day",
+          "price_lines": [
+            "RM330/pax"
+          ]
+        },
+        {
+          "name": "Private Car Transfer (Tawau City/Hotel - Semporna)",
+          "includes": "1 way transfer (1 - 4 pax maximum)",
+          "price_lines": [
+            "RM160/transport"
+          ]
+        },
+        {
+          "name": "Candlelight Dinner",
+          "includes": "Meals + table decoration",
+          "price_lines": [
+            "RM280/pax"
+          ]
+        },
+        {
+          "name": "Honeymoon Room Deco",
+          "includes": "Room decoration (available in water chalets except Lato-Lato)",
+          "price_lines": [
+            "RM350/room"
+          ]
+        },
+        {
+          "name": "Regular Size Cake",
+          "includes": "For birthday celebration or candlelight dinner",
+          "price_lines": [
+            "RM120/cake"
+          ]
+        }
+      ],
+      "notes": [
+        "All add-on activities must be confirmed and paid at least 2 days before the activity's day.",
+        "Add-on activity is subject to availability and weather conditions."
+      ]
+    }
   ],
-  "seasons": [
-   {
-    "label": "Surcharge Travel Date 2027",
-    "period": "January - June 2027",
-    "rate": "Add RM150/pax"
-   }
+  "expect": [
+    {
+      "icon": "payment",
+      "title": "Not Mentioned in the Itinerary",
+      "body": "Things not mentioned in the itinerary must be paid by customers, e.g. shower room, shopping etc."
+    },
+    {
+      "icon": "payment",
+      "title": "Prepare Cash",
+      "body": "Prepare cash if you plan to shop at Semporna Town Market. Cards and QR are not available at some shops and street stalls."
+    },
+    {
+      "icon": "bus",
+      "title": "Airport Transfer",
+      "body": "Sharing transport will be used for all activity transfers."
+    },
+    {
+      "icon": "hotel",
+      "title": "Water Chalet",
+      "body": "24 hours electricity with air conditioning (A/C), except Nusakuya which has only 12 hours A/C."
+    },
+    {
+      "icon": "utensils",
+      "title": "Meals",
+      "body": "Meals provided during the trip (breakfast, lunch and dinner) will be local food."
+    },
+    {
+      "icon": "umbrella",
+      "title": "Island Hopping",
+      "body": "Sharing boat will be used for all island hopping activities."
+    },
+    {
+      "icon": "bed",
+      "title": "Triple Room Bed",
+      "body": "Triple sharing room with 3 single beds will be provided based on availability. An extra bed will be added if no triple bed is available in the travel period."
+    }
   ],
   "notes": [
-   "1 Star & 2 Star Resort: location for island hopping will be at Bum Bum Island.",
-   "3 Star Resort Water Chalet: location for island hopping will be at Mabul Island."
-  ]
- },
- "accommodation": [
-  {
-   "city": "Semporna Town",
-   "name": "Wingtat Hotel"
-  },
-  {
-   "city": "Water Chalet",
-   "stars": 1,
-   "name": "Lato Lato Water Chalet"
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Tawau - Semporna - Water Chalet",
-   "activities": [
-    "Arrive in Tawau Airport",
-    "Depart to Semporna (2 hours journey)",
-    "Shared Boat Transfer (Boat departure: 2pm/4pm)",
-    "Check In Water Chalet",
-    "Swim & Snorkelling (self-arranged)",
-    "Sunset View",
-    "Free & Easy"
-   ],
-   "transport": "Airport transfer & Boat transfer (sharing basis)",
-   "meals": "Dinner",
-   "hotel": "Water Chalet"
-  },
-  {
-   "day": 2,
-   "title": "Island Hopping (SIC)",
-   "activities": [
     {
-     "text": "Island Hopping Set Bohey Dulang",
-     "sub": [
-      "Bohey Dulang, Mantabuan & Sibuan"
-     ]
-    },
-    {
-     "text": "OR Island Hopping Set Mataking",
-     "sub": [
-      "Mataking, Timba Timba & Pom Pom"
-     ]
-    },
-    "Back to Semporna Jetty",
-    "Check In Hotel at Semporna Town",
-    "Free & Easy"
-   ],
-   "transport": "Boat transfer (sharing basis)",
-   "meals": "Breakfast, Basic Lunch Box, Dinner",
-   "hotel": "Semporna Hotel"
-  },
-  {
-   "day": 3,
-   "title": "Free & Easy",
-   "activities": [
-    "Free & Easy",
-    {
-     "text": "OR Add On Island Hopping Set Mabul (Add On RM180/Pax)",
-     "sub": [
-      "Mabul & Kapalai"
-     ]
-    },
-    "Back to Semporna Jetty",
-    "Check In Hotel at Semporna Town",
-    "Free & Easy"
-   ],
-   "transport": "-",
-   "meals": "Breakfast Only",
-   "hotel": "Semporna Hotel"
-  },
-  {
-   "day": 4,
-   "title": "Semporna - Tawau",
-   "activities": [
-    "Check out Hotel",
-    "Free & Easy",
-    "Shared Airport Transfer to Tawau airport (Airport transfer: 6am/7am/10am/12pm/2pm/5pm)"
-   ],
-   "transport": "Airport transfer (sharing basis)",
-   "meals": "Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Island Hopping (Full Day)",
-     "includes": "1 x island trip (Set A/B/C), snorkelling equipment, shared boat transfer, 1 x basic lunch box, jetty fee, guide. Meeting point: Seafest Jetty",
-     "duration": "From 8am to 2@3pm",
-     "price_lines": [
-      "RM180/pax"
-     ]
-    },
-    {
-     "name": "Tawau Shopping Tour (Full Day)",
-     "includes": "Private transport, driver guide, airport transfer",
-     "duration": "6-8 hours",
-     "price_lines": [
-      "RM120/pax"
-     ]
-    },
-    {
-     "name": "Timbun Mata Watersport (Half Day)",
-     "includes": "Parasailing, jet ski, transparent kayak, banana boat, paddle boat, UFO donut, hiking, snorkelling, buffet lunch. Meeting point: Timbun Mata. 2 sessions (choose 1): 8am - 1pm or 1.30pm - 5pm",
-     "duration": "4-5 hours",
-     "price_lines": [
-      "RM300/pax"
-     ]
-    },
-    {
-     "name": "Seawalking",
-     "includes": "Meeting point: Seafest Jetty. Minimum 2 pax. Recommended to do on the first day",
-     "duration": "45 mins",
-     "price_lines": [
-      "RM180/pax"
-     ]
-    },
-    {
-     "name": "Discovery Scuba Diving",
-     "includes": "Diving equipment, 2 x dives, dive master. Recommended to do on the first day",
-     "price_lines": [
-      "RM280/pax"
-     ]
-    },
-    {
-     "name": "Fun Dive",
-     "includes": "Diving equipment, 3 x dives, dive master. Recommended to do on the first day",
-     "price_lines": [
-      "RM330/pax"
-     ]
-    },
-    {
-     "name": "Private Car Transfer (Tawau City/Hotel - Semporna)",
-     "includes": "1 way transfer (1 - 4 pax maximum)",
-     "price_lines": [
-      "RM160/transport"
-     ]
-    },
-    {
-     "name": "Candlelight Dinner",
-     "includes": "Meals + table decoration",
-     "price_lines": [
-      "RM280/pax"
-     ]
-    },
-    {
-     "name": "Honeymoon Room Deco",
-     "includes": "Room decoration (available in water chalets except Lato-Lato)",
-     "price_lines": [
-      "RM350/room"
-     ]
-    },
-    {
-     "name": "Regular Size Cake",
-     "includes": "For birthday celebration or candlelight dinner",
-     "price_lines": [
-      "RM120/cake"
-     ]
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Price for single supplement is RM1,500 per person.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "All itinerary, flight, price or quotation is subject to change.",
+        "The itinerary during the trip is subject to change due to weather, traffic, safety and similar factors.",
+        "Final itinerary and accommodation arrangements will be shared 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting flights.",
+        "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
+        "Boat timing is subject to weather and sea tide conditions.",
+        "SIC = boat and activity sharing with other tourists.",
+        "Shared Airport Transfer = airport transfer sharing with other tourists.",
+        "Shared Boat Transfer = boat transfer sharing with other tourists."
+      ]
     }
-   ],
-   "notes": [
-    "All add-on activities must be confirmed and paid at least 2 days before the activity's day.",
-    "Add-on activity is subject to availability and weather conditions."
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "payment",
-   "title": "Not Mentioned in the Itinerary",
-   "body": "Things not mentioned in the itinerary must be paid by customers, e.g. shower room, shopping etc."
-  },
-  {
-   "icon": "payment",
-   "title": "Prepare Cash",
-   "body": "Prepare cash if you plan to shop at Semporna Town Market. Cards and QR are not available at some shops and street stalls."
-  },
-  {
-   "icon": "bus",
-   "title": "Airport Transfer",
-   "body": "Sharing transport will be used for all activity transfers."
-  },
-  {
-   "icon": "hotel",
-   "title": "Water Chalet",
-   "body": "24 hours electricity with air conditioning (A/C), except Nusakuya which has only 12 hours A/C."
-  },
-  {
-   "icon": "utensils",
-   "title": "Meals",
-   "body": "Meals provided during the trip (breakfast, lunch and dinner) will be local food."
-  },
-  {
-   "icon": "umbrella",
-   "title": "Island Hopping",
-   "body": "Sharing boat will be used for all island hopping activities."
-  },
-  {
-   "icon": "bed",
-   "title": "Triple Room Bed",
-   "body": "Triple sharing room with 3 single beds will be provided based on availability. An extra bed will be added if no triple bed is available in the travel period."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Price for single supplement is RM1,500 per person.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "All itinerary, flight, price or quotation is subject to change.",
-    "The itinerary during the trip is subject to change due to weather, traffic, safety and similar factors.",
-    "Final itinerary and accommodation arrangements will be shared 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting flights.",
-    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
-    "Boat timing is subject to weather and sea tide conditions.",
-    "SIC = boat and activity sharing with other tourists.",
-    "Shared Airport Transfer = airport transfer sharing with other tourists.",
-    "Shared Boat Transfer = boat transfer sharing with other tourists."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "30 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "product": "PAKEJ"
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "30 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "product": "PAKEJ"
 }

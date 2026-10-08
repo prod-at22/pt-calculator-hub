@@ -1,399 +1,399 @@
 {
- "slug": "tokyo-standard",
- "destination": "Tokyo",
- "country": "Japan",
- "code": "HND",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR TOKYO STANDARD",
- "duration": "5D4N",
- "route": "Fuji - Oishi Park - Shibuya Street - Asakusa",
- "basis": "Ground & Tipping",
- "valid_until": "31 December 2026",
- "version": "v1",
- "updated": "2026-03-09",
- "kb_url": "https://prod-at22.github.io/japan-kb/",
- "po": "Ezie",
- "ops": "ATIQAH",
- "source_pdf": "Jepun/Tokyo/Catalog/PT Tokyo Standard 5D4N 2026 v1.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Accommodation"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM6,197",
-     "RM5,997",
-     "RM5,797"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM4,897",
-     "RM4,697",
-     "RM4,497"
-    ]
-   },
-   {
-    "pax": "4",
-    "amounts": [
-     "RM4,297",
-     "RM4,097",
-     "RM3,897"
-    ]
-   },
-   {
-    "pax": "5",
-    "amounts": [
-     "RM4,097",
-     "RM3,897",
-     "RM3,697"
-    ]
-   },
-   {
-    "pax": "6",
-    "amounts": [
-     "RM3,797",
-     "RM3,597",
-     "RM3,397"
-    ]
-   },
-   {
-    "pax": "7",
-    "amounts": [
-     "RM3,497",
-     "RM3,297",
-     "RM3,097"
-    ]
-   },
-   {
-    "pax": "8 - 9",
-    "amounts": [
-     "RM3,897",
-     "RM3,697",
-     "RM3,497"
-    ]
-   },
-   {
-    "pax": "10",
-    "amounts": [
-     "RM3,697",
-     "RM3,497",
-     "RM3,297"
-    ]
-   },
-   {
-    "pax": "11",
-    "amounts": [
-     "RM3,497",
-     "RM3,297",
-     "RM3,097"
-    ]
-   },
-   {
-    "pax": "12",
-    "amounts": [
-     "RM3,397",
-     "RM3,197",
-     "RM2,997"
-    ]
-   }
-  ],
-  "infant": "RM200"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "Accommodation (Apartment/Hotel)",
-    "Private Airport Transfer (D1,D5)",
-    "Private Transport (D2,D3,D4,D5) (10 hours basis)",
-    "Private Driver & Tour Guide (Malay/English) (D1: Airport Transfer ONLY ,D2 ,D3,D4,D5) (10 hours basis)",
+  "slug": "tokyo-standard",
+  "destination": "Tokyo",
+  "country": "Japan",
+  "code": "HND",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR TOKYO STANDARD",
+  "duration": "5D4N",
+  "route": "Fuji - Oishi Park - Shibuya Street - Asakusa",
+  "basis": "Ground & Tipping",
+  "valid_until": "31 December 2026",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "kb_url": "https://prod-at22.github.io/japan-kb/",
+  "po": "Ezie",
+  "ops": "ATIQAH",
+  "source_pdf": "Jepun/Tokyo/Catalog/PT Tokyo Standard 5D4N 2026 v1.pdf",
+  "highlights": [
     {
-     "text": "Entrance fees",
-     "sub": [
-      "Iyashi No Sato"
-     ]
+      "icon": "hotel",
+      "label": "Accommodation"
     },
-    "Tipping Fee"
-   ],
-   "excludes": [
-    "Extra Hours Transport & Tour Guide : 5,000 - 10,000 yen per hour",
-    "Return flight ticket",
-    "Breakfast, Lunch, Dinner",
-    "Compulsory Car Seat for Infant",
-    "Personal Expenses",
-    "Additional Meal",
-    "Optional activity",
-    "Travel Insurance",
-    "In Flight Meal"
-   ]
-  }
- ],
- "surcharge": {
-  "title": "Peak Season Dates & Surcharge · Last Minute Surcharge",
-  "seasons": [
-   {
-    "label": "Peak Season",
-    "period": "28 March - 15 April 2026 · 29 April - 6 May 2026 · 13 - 16 August 2026 · 19 - 23 September 2026 · 30 December - 3 January 2027",
-    "rate": "Additional 10% per pax"
-   },
-   {
-    "label": "Last Minute Surcharge",
-    "period": "Booking 3 weeks before departure date",
-    "rate": "2 pax: Additional RM500 per pax · 3 pax & Above: Additional RM400 per pax"
-   }
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
+    }
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM6,197",
+          "RM5,997",
+          "RM5,797"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM4,897",
+          "RM4,697",
+          "RM4,497"
+        ]
+      },
+      {
+        "pax": "4",
+        "amounts": [
+          "RM4,297",
+          "RM4,097",
+          "RM3,897"
+        ]
+      },
+      {
+        "pax": "5",
+        "amounts": [
+          "RM4,097",
+          "RM3,897",
+          "RM3,697"
+        ]
+      },
+      {
+        "pax": "6",
+        "amounts": [
+          "RM3,797",
+          "RM3,597",
+          "RM3,397"
+        ]
+      },
+      {
+        "pax": "7",
+        "amounts": [
+          "RM3,497",
+          "RM3,297",
+          "RM3,097"
+        ]
+      },
+      {
+        "pax": "8 - 9",
+        "amounts": [
+          "RM3,897",
+          "RM3,697",
+          "RM3,497"
+        ]
+      },
+      {
+        "pax": "10",
+        "amounts": [
+          "RM3,697",
+          "RM3,497",
+          "RM3,297"
+        ]
+      },
+      {
+        "pax": "11",
+        "amounts": [
+          "RM3,497",
+          "RM3,297",
+          "RM3,097"
+        ]
+      },
+      {
+        "pax": "12",
+        "amounts": [
+          "RM3,397",
+          "RM3,197",
+          "RM2,997"
+        ]
+      }
+    ],
+    "infant": "RM200"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "Accommodation (Apartment/Hotel)",
+        "Private Airport Transfer (D1,D5)",
+        "Private Transport (D2,D3,D4,D5) (10 hours basis)",
+        "Private Driver & Tour Guide (Malay/English) (D1: Airport Transfer ONLY ,D2 ,D3,D4,D5) (10 hours basis)",
+        {
+          "text": "Entrance fees",
+          "sub": [
+            "Iyashi No Sato"
+          ]
+        },
+        "Tipping Fee"
+      ],
+      "excludes": [
+        "Extra Hours Transport & Tour Guide : 5,000 - 10,000 yen per hour",
+        "Return flight ticket",
+        "Breakfast, Lunch, Dinner",
+        "Compulsory Car Seat for Infant",
+        "Personal Expenses",
+        "Additional Meal",
+        "Optional activity",
+        "Travel Insurance",
+        "In Flight Meal"
+      ]
+    }
+  ],
+  "surcharge": {
+    "title": "Peak Season Dates & Surcharge · Last Minute Surcharge",
+    "seasons": [
+      {
+        "label": "Peak Season",
+        "period": "28 March - 15 April 2026 · 29 April - 6 May 2026 · 13 - 16 August 2026 · 19 - 23 September 2026 · 30 December - 3 January 2027",
+        "rate": "Additional 10% per pax"
+      },
+      {
+        "label": "Last Minute Surcharge",
+        "period": "Booking 3 weeks before departure date",
+        "rate": "2 pax: Additional RM500 per pax · 3 pax & Above: Additional RM400 per pax"
+      }
+    ]
+  },
+  "accommodation": [
+    {
+      "city": "Tokyo",
+      "name": "Section L Apartment",
+      "similar": true
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "KUL - HND",
+      "activities": [
+        "Arrive at Tokyo Haneda Airport",
+        "Transfer to accommodation",
+        "Check in"
+      ],
+      "transport": "Private Airport Transfer",
+      "meals": "-",
+      "hotel": "Apartment / Hotel (Tokyo)"
+    },
+    {
+      "day": 2,
+      "title": "Fuji",
+      "activities": [
+        "Depart to Fuji",
+        "Iyashi no Sato Nemba (open-air old Japanese village museum)",
+        "Oishi Park (Fuji view photo spot)",
+        "Kawaguchiko Mosque",
+        "Back to Tokyo"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "Apartment / Hotel (Tokyo)"
+    },
+    {
+      "day": 3,
+      "title": "Tokyo City",
+      "activities": [
+        "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+        "Ueno (Ueno Park, Ameyoko shopping street)",
+        "Shibuya Crossing Street"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "Apartment / Hotel (Tokyo)"
+    },
+    {
+      "day": 4,
+      "title": "Tokyo City / Disney",
+      "activities": [
+        "Akihabara (shopping hub specialising in manga, anime and video games)",
+        "Ginza",
+        "OR Disneyland / DisneySea (add on RM300/pax)"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "Apartment / Hotel (Tokyo)"
+    },
+    {
+      "day": 5,
+      "title": "Tokyo - KUL",
+      "activities": [
+        "Check out",
+        "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+        "Transfer to Haneda Airport"
+      ],
+      "transport": "Private Transport + Private Airport Transfer",
+      "meals": "-",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Add On Accommodation",
+      "entries": [
+        {
+          "name": "Apartment / 3 Star Hotel",
+          "price_lines": [
+            "RM300/Night/Pax"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Add On Private Transport",
+      "entries": [
+        {
+          "name": "Tokyo City Tour",
+          "includes": "Private Transport, Tour Guide (10 hours basis)",
+          "excludes": "Meals, Personal Expenses, Entrance Fee",
+          "duration": "From 9am to 7pm",
+          "price_lines": [
+            "1 - 7 pax (Voxy/Noah): RM3,000",
+            "8 pax (Hiace): RM4,300",
+            "9 - 12 pax (Hiace): RM4,600"
+          ]
+        },
+        {
+          "name": "Fuji Day Tour",
+          "includes": "Private Transport, Tour Guide (10 hours basis)",
+          "excludes": "Meals, Personal Expenses, Entrance Fee",
+          "duration": "From 9am to 7pm",
+          "price_lines": [
+            "1 - 7 pax (Voxy/Noah): RM3,000",
+            "8 pax (Hiace): RM4,300",
+            "9 - 12 pax (Hiace): RM4,600"
+          ]
+        }
+      ],
+      "notes": [
+        "Price per trip.",
+        "*Can arrange to go to halal Restaurant in Tokyo."
+      ]
+    },
+    {
+      "title": "Add On Public Transport",
+      "entries": [
+        {
+          "name": "Tokyo City Tour",
+          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+          "excludes": "Meals, Personal Expenses",
+          "duration": "From 9am to 7pm",
+          "price_lines": [
+            "2 pax: RM697",
+            "3 pax: RM597",
+            "4 pax: RM497",
+            "5 - 9 pax: RM397",
+            "10 - 12 pax: RM297",
+            "*Price per pax"
+          ]
+        },
+        {
+          "name": "Fuji Day Tour",
+          "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
+          "excludes": "Meals, Personal Expenses",
+          "duration": "From 9am to 7pm",
+          "price_lines": [
+            "2 pax: RM1,197",
+            "3 - 4 pax: RM797",
+            "5 - 9 pax: RM697",
+            "10 - 12 pax: RM597",
+            "*Price per pax"
+          ]
+        }
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "luggage",
+      "title": "Airport Transfer",
+      "body": "Please bring max 1 luggage per person as it will affect car capacity."
+    },
+    {
+      "icon": "hotel",
+      "title": "Apartment",
+      "body": "Number of rooms and bathrooms in one house will depend on the number of participants."
+    },
+    {
+      "icon": "bed",
+      "title": "Hotel",
+      "body": "Rooms are small typically 12-16sqf (Japan standard). Triple rooms offer even less space."
+    },
+    {
+      "icon": "altitude",
+      "title": "Stairs",
+      "body": "Some apartments may have stairs inside."
+    },
+    {
+      "icon": "utensils",
+      "title": "Meal",
+      "body": "Exclude lunch and dinner. Guide will bring to Halal or Muslim Friendly restaurant."
+    },
+    {
+      "icon": "utensils",
+      "title": "Breakfast",
+      "body": "Breakfast is only provided if you stay at a hotel."
+    },
+    {
+      "icon": "payment",
+      "title": "Not Mentioned in the Itinerary",
+      "body": "Things not mentioned in the itinerary must be paid by customers. Eg: Entrance Fee, Shopping etc."
+    },
+    {
+      "icon": "bus",
+      "title": "Transport",
+      "body": "10 hours basis. 5,000 - 10,000 yen will be charged for each extra hour."
+    },
+    {
+      "icon": "guide",
+      "title": "Tour Guide",
+      "body": "10 hours basis. 5000-10000 yen will be charged for each extra hour."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single Supplement: Additional RM1,200/person.",
+        "Late booking surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
+        "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
+        "This package is valid until 31st December 2026 travel period.",
+        "Private Driver & Guide is based on 10 hours basis. 5,000 - 10,000 Yen will be charged for every extra hour usage. Payment must be paid in cash.",
+        "Customers are recommended to take AirAsia X flight from Kuala Lumpur to Haneda Airport to match the default itinerary and price.",
+        "Driver cum guide will be provided for group of 2 to 7 pax.",
+        "Private driver and a professional tour guide will be provided for group of 8 pax and above.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before trip.",
+        "Please check with our staff on the trip validity or before booking any connecting domestic flights."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
   ]
- },
- "accommodation": [
-  {
-   "city": "Tokyo",
-   "name": "Section L Apartment",
-   "similar": true
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "KUL - HND",
-   "activities": [
-    "Arrive at Tokyo Haneda Airport",
-    "Transfer to accommodation",
-    "Check in"
-   ],
-   "transport": "Private Airport Transfer",
-   "meals": "-",
-   "hotel": "Apartment / Hotel (Tokyo)"
-  },
-  {
-   "day": 2,
-   "title": "Fuji",
-   "activities": [
-    "Depart to Fuji",
-    "Iyashi no Sato Nemba (open-air old Japanese village museum)",
-    "Oishi Park (Fuji view photo spot)",
-    "Kawaguchiko Mosque",
-    "Back to Tokyo"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "Apartment / Hotel (Tokyo)"
-  },
-  {
-   "day": 3,
-   "title": "Tokyo City",
-   "activities": [
-    "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
-    "Ueno (Ueno Park, Ameyoko shopping street)",
-    "Shibuya Crossing Street"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "Apartment / Hotel (Tokyo)"
-  },
-  {
-   "day": 4,
-   "title": "Tokyo City / Disney",
-   "activities": [
-    "Akihabara (shopping hub specialising in manga, anime and video games)",
-    "Ginza",
-    "OR Disneyland / DisneySea (add on RM300/pax)"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "Apartment / Hotel (Tokyo)"
-  },
-  {
-   "day": 5,
-   "title": "Tokyo - KUL",
-   "activities": [
-    "Check out",
-    "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
-    "Transfer to Haneda Airport"
-   ],
-   "transport": "Private Transport + Private Airport Transfer",
-   "meals": "-",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Add On Accommodation",
-   "entries": [
-    {
-     "name": "Apartment / 3 Star Hotel",
-     "price_lines": [
-      "RM300/Night/Pax"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Add On Private Transport",
-   "entries": [
-    {
-     "name": "Tokyo City Tour",
-     "includes": "Private Transport, Tour Guide (10 hours basis)",
-     "excludes": "Meals, Personal Expenses, Entrance Fee",
-     "duration": "From 9am to 7pm",
-     "price_lines": [
-      "1 - 7 pax (Voxy/Noah): RM3,000",
-      "8 pax (Hiace): RM4,300",
-      "9 - 12 pax (Hiace): RM4,600"
-     ]
-    },
-    {
-     "name": "Fuji Day Tour",
-     "includes": "Private Transport, Tour Guide (10 hours basis)",
-     "excludes": "Meals, Personal Expenses, Entrance Fee",
-     "duration": "From 9am to 7pm",
-     "price_lines": [
-      "1 - 7 pax (Voxy/Noah): RM3,000",
-      "8 pax (Hiace): RM4,300",
-      "9 - 12 pax (Hiace): RM4,600"
-     ]
-    }
-   ],
-   "notes": [
-    "Price per trip.",
-    "*Can arrange to go to halal Restaurant in Tokyo."
-   ]
-  },
-  {
-   "title": "Add On Public Transport",
-   "entries": [
-    {
-     "name": "Tokyo City Tour",
-     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-     "excludes": "Meals, Personal Expenses",
-     "duration": "From 9am to 7pm",
-     "price_lines": [
-      "2 pax: RM697",
-      "3 pax: RM597",
-      "4 pax: RM497",
-      "5 - 9 pax: RM397",
-      "10 - 12 pax: RM297",
-      "*Price per pax"
-     ]
-    },
-    {
-     "name": "Fuji Day Tour",
-     "includes": "Public Transport Card, Tour Guide (10 Hours Basis)",
-     "excludes": "Meals, Personal Expenses",
-     "duration": "From 9am to 7pm",
-     "price_lines": [
-      "2 pax: RM1,197",
-      "3 - 4 pax: RM797",
-      "5 - 9 pax: RM697",
-      "10 - 12 pax: RM597",
-      "*Price per pax"
-     ]
-    }
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "luggage",
-   "title": "Airport Transfer",
-   "body": "Please bring max 1 luggage per person as it will affect car capacity."
-  },
-  {
-   "icon": "hotel",
-   "title": "Apartment",
-   "body": "Number of rooms and bathrooms in one house will depend on the number of participants."
-  },
-  {
-   "icon": "bed",
-   "title": "Hotel",
-   "body": "Rooms are small typically 12-16sqf (Japan standard). Triple rooms offer even less space."
-  },
-  {
-   "icon": "altitude",
-   "title": "Stairs",
-   "body": "Some apartments may have stairs inside."
-  },
-  {
-   "icon": "utensils",
-   "title": "Meal",
-   "body": "Exclude lunch and dinner. Guide will bring to Halal or Muslim Friendly restaurant."
-  },
-  {
-   "icon": "utensils",
-   "title": "Breakfast",
-   "body": "Breakfast is only provided if you stay at a hotel."
-  },
-  {
-   "icon": "payment",
-   "title": "Not Mentioned in the Itinerary",
-   "body": "Things not mentioned in the itinerary must be paid by customers. Eg: Entrance Fee, Shopping etc."
-  },
-  {
-   "icon": "bus",
-   "title": "Transport",
-   "body": "10 hours basis. 5,000 - 10,000 yen will be charged for each extra hour."
-  },
-  {
-   "icon": "guide",
-   "title": "Tour Guide",
-   "body": "10 hours basis. 5000-10000 yen will be charged for each extra hour."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single Supplement: Additional RM1,200/person.",
-    "Late booking surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
-    "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
-    "This package is valid until 31st December 2026 travel period.",
-    "Private Driver & Guide is based on 10 hours basis. 5,000 - 10,000 Yen will be charged for every extra hour usage. Payment must be paid in cash.",
-    "Customers are recommended to take AirAsia X flight from Kuala Lumpur to Haneda Airport to match the default itinerary and price.",
-    "Driver cum guide will be provided for group of 2 to 7 pax.",
-    "Private driver and a professional tour guide will be provided for group of 8 pax and above.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before trip.",
-    "Please check with our staff on the trip validity or before booking any connecting domestic flights."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ]
 }

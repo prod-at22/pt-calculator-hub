@@ -10,7 +10,7 @@ schema, same file names) — Catalog PT's build.py can read data/catalogs/ direc
 index.json = {slug: {code, package, title, duration, version, updated, url}} — which calculator package each
 catalog belongs to (from MAP in crosscheck.py); the destination page's Catalog Details tab reads it.
 """
-import glob, json, os, sys
+import glob, json, os, shutil, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from crosscheck import MAP   # catalog slug -> (destination code, calculator package id)
@@ -26,7 +26,7 @@ def main():
     for f in sorted(glob.glob(os.path.join(SRC, "*.json"))):
         c = json.load(open(f))
         assert c["slug"] == os.path.basename(f)[:-5], f
-        open(os.path.join(OUT, c["slug"] + ".json"), "w").write(json.dumps(c, indent=1, ensure_ascii=False) + "\n")
+        shutil.copyfile(f, os.path.join(OUT, c["slug"] + ".json"))   # byte for byte, so the mirror has no diff
         slugs.append(c["slug"])
     data = json.load(open(os.path.join(ROOT, "data", "data.json")))
     pkgs = {(d["code"], p["id"]) for d in data["destinations"] for p in d["packages"]}

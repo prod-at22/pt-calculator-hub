@@ -1,344 +1,344 @@
 {
- "slug": "jogjakarta",
- "destination": "Jogjakarta",
- "country": "Indonesia",
- "code": "JOG",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR JOGJAKARTA",
- "duration": "4D3N",
- "route": "Obelix Sea View - Hutan Pinus - Timang Beach - Merapi Lava Tour",
- "basis": "Ground + Tipping",
- "valid_until": "31 March 2027",
- "version": "v3",
- "updated": "2026-04-27",
- "kb_url": "",
- "po": "Fyka",
- "ops": "CIK IWAN",
- "source_pdf": "Indonesia/Jogjakarta/Catalog/PT JOGJA 4D3N 2026 v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "3-Star Hotel"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
-  ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM1,457",
-     "RM1,257",
-     "RM1,057"
-    ]
-   },
-   {
-    "pax": "3 - 4",
-    "amounts": [
-     "RM1,357",
-     "RM1,157",
-     "RM957"
-    ]
-   },
-   {
-    "pax": "5 - 7",
-    "amounts": [
-     "RM1,297",
-     "RM1,097",
-     "RM897"
-    ]
-   },
-   {
-    "pax": "8 - 10",
-    "amounts": [
-     "RM1,257",
-     "RM1,057",
-     "RM857"
-    ]
-   },
-   {
-    "pax": "11 - 15",
-    "amounts": [
-     "RM1,197",
-     "RM997",
-     "RM797"
-    ]
-   }
-  ],
-  "infant": "FOC"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "3 Nights Accommodation (3 Star Hotel)",
-    "Private Transportation",
-    "Entrance Fees",
-    "Full Meals (3B, 3L, 3D)",
-    "Driving Guide (Malay/English Spoken)",
-    "Tipping Fee",
-    "Jeep Merapi Lava Tour",
-    "Jeep Timang Beach"
-   ],
-   "excludes": [
-    "Return Flight Tickets",
-    "Luggage, In Flight Meal & Airport Tax",
-    "Additional Tours & Meals",
-    "Personal Expenses",
-    "Travel Insurance"
-   ]
-  }
- ],
- "surcharge": {
-  "columns": [
-   {
-    "label": "Upgrade Surcharge"
-   },
-   {
-    "label": "Peak Season Surcharge",
-    "period": "15 - 30 Mar 2026, 25 May - 5 Jun 2026, 20 Dec 2026 - 5 Jan 2027, 5 - 25 Feb 2027, 5 Mar - 15 Apr 2027"
-   }
-  ],
-  "rows": [
-   {
-    "type": "3 Star Hotel",
-    "name": "Emersia Hotel, Luxury Hotel",
-    "similar": true,
-    "amounts": [
-     "-",
-     "RM120/pax/night"
-    ]
-   },
-   {
-    "type": "4 Star Hotel",
-    "name": "The 101 Yogyakarta Tugu Hotel",
-    "similar": true,
-    "amounts": [
-     "Weekday (Sun-Thu) RM100/person/night · Weekend (Fri-Sat) RM120/person/night",
-     "RM180/pax/night"
-    ]
-   }
-  ]
- },
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Welcome to Jogjakarta",
-   "activities": [
-    "Suggested arrival: noon time onwards",
-    "Arrival & pickup at Yogyakarta International Airport (YIA)",
-    "Gumuk Pasir (activities excluded)",
-    "Obelix Sea View (Parangtritis Beach area)",
-    "Malioboro Street (the 24-hour shopping street)",
-    "Check in hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "Lunch, Dinner",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 2,
-   "title": "Pine Forest - Timang Beach - HeHa Sky View",
-   "activities": [
-    "Bukit Panguk at 4.45am (sunrise)",
-    "Hutan Pinus Mangunan (the largest pine tree forest)",
-    "Timang Beach (gondola excluded)",
-    "HeHa Sky View (scenic photo spot)",
-    "Batik Outlet",
-    "Back to hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 3,
-   "title": "Sultan Palace - Plaosan Temple - Malioboro",
-   "activities": [
-    "Shopping Ole-Ole Khas Jogjakarta",
-    "Visit Kraton Jogja (the royal palace of the Yogyakarta Sultanate)",
-    "Visit Taman Sari Water Castle (the royal garden of the Yogyakarta Sultanate)",
-    "Plaosan Temple",
-    "UNESCO Borobudur Temple (entrance excluded)",
-    "Shopping @ Malioboro Street",
-    "Back to hotel"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast, Lunch, Dinner",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 4,
-   "title": "Mt. Merapi - Airport",
-   "activities": [
-    "Suggested departure: noon time",
+  "slug": "jogjakarta",
+  "destination": "Jogjakarta",
+  "country": "Indonesia",
+  "code": "JOG",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR JOGJAKARTA",
+  "duration": "4D3N",
+  "route": "Obelix Sea View - Hutan Pinus - Timang Beach - Merapi Lava Tour",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 March 2027",
+  "version": "v3",
+  "updated": "2026-04-27",
+  "kb_url": "",
+  "po": "Fyka",
+  "ops": "CIK IWAN",
+  "source_pdf": "Indonesia/Jogjakarta/Catalog/PT JOGJA 4D3N 2026 v3.pdf",
+  "highlights": [
     {
-     "text": "Mount Merapi Lava Jeep Tour (the most active volcano in Indonesia)",
-     "sub": [
-      "Bunker Kaliadem",
-      "Sisa Hartaku Mini Museum",
-      "Hobbit House",
-      "Kali Boyong River"
-     ]
-    },
-    "Back to hotel",
-    "Check out hotel",
-    "Transfer to Yogyakarta International Airport (YIA)"
-   ],
-   "transport": "Private Transport",
-   "meals": "International Breakfast",
-   "hotel": "-"
-  }
- ],
- "addons": [
-  {
-   "title": "Additional Activities",
-   "entries": [
-    {
-     "name": "Jeep Gumuk Pasir",
-     "includes": "Medium Route Jeep Ride (4 pax/jeep), Videos and Photos",
-     "excludes": "Meals, Personal expenses",
-     "duration": "2 hours 30 minutes Ride",
-     "price_lines": [
-      "RM157/Jeep"
-     ]
+      "icon": "hotel",
+      "label": "3-Star Hotel"
     },
     {
-     "name": "ATV Gumuk Pasir",
-     "includes": "1 ATV (2 pax/ATV)",
-     "excludes": "Meals, Personal expenses",
-     "duration": "1 hour Ride",
-     "price_lines": [
-      "RM100/ATV"
-     ]
+      "icon": "bus",
+      "label": "Private Transport"
     },
     {
-     "name": "Gondola Timang Beach",
-     "includes": "Return Gondola Ride at Timang Beach (1 pax)",
-     "excludes": "Meals, Personal expenses",
-     "duration": "15 minutes",
-     "price_lines": [
-      "RM60/pax"
-     ]
-    },
-    {
-     "name": "Borobudur Temple",
-     "includes": "Entrance fee for Temple Ground Area or Structure Area",
-     "excludes": "Meals, Personal expenses, Temple Structure Area",
-     "duration": "1 - 2 hour tour",
-     "price_lines": [
-      "RM130/pax"
-     ]
-    },
-    {
-     "name": "Horse Carriage Ride",
-     "includes": "Horse Carriage Ride (max 6 pax/carriage) at Malioboro Area",
-     "excludes": "Meals, Personal expenses",
-     "duration": "30 minutes",
-     "price_lines": [
-      "RM70/carriage"
-     ]
-    },
-    {
-     "name": "Goa Pindul & Cave Tubing",
-     "includes": "Transport to Goa Pindul & Jomblang Cave Tubing Activity",
-     "excludes": "Meals, Personal expenses and Additional Activities",
-     "duration": "2 hours",
-     "price_lines": [
-      "RM75/pax"
-     ]
-    },
-    {
-     "name": "Gamplong Studio Alam",
-     "includes": "Entrance ticket to Gamplong Studio Alam",
-     "excludes": "Meals, Personal expenses and Additional Activities",
-     "duration": "1 hour",
-     "price_lines": [
-      "RM10/pax"
-     ]
+      "icon": "guide",
+      "label": "Driving Guide"
     }
-   ],
-   "notes": [
-    "Kindly note that all listed entrance fees and activity prices include applicable service charges and currency exchange differences, and may differ from Indonesia Ground handling (Local Rates)."
-   ]
-  }
- ],
- "expect": [
-  {
-   "icon": "footprints",
-   "title": "Walking Distance",
-   "body": "Distance between 3 Star Hotel to Malioboro Street is within 1km and 15 mins walk."
+  ],
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM1,457",
+          "RM1,257",
+          "RM1,057"
+        ]
+      },
+      {
+        "pax": "3 - 4",
+        "amounts": [
+          "RM1,357",
+          "RM1,157",
+          "RM957"
+        ]
+      },
+      {
+        "pax": "5 - 7",
+        "amounts": [
+          "RM1,297",
+          "RM1,097",
+          "RM897"
+        ]
+      },
+      {
+        "pax": "8 - 10",
+        "amounts": [
+          "RM1,257",
+          "RM1,057",
+          "RM857"
+        ]
+      },
+      {
+        "pax": "11 - 15",
+        "amounts": [
+          "RM1,197",
+          "RM997",
+          "RM797"
+        ]
+      }
+    ],
+    "infant": "FOC"
   },
-  {
-   "icon": "hotel",
-   "title": "Double Sharing Occupancy",
-   "body": "For 3 Star Hotel, triple sharing has to use an extra bed. Triple sharing with a proper bed is only available at 4 Star Hotel."
+  "price_blocks": [
+    {
+      "includes": [
+        "3 Nights Accommodation (3 Star Hotel)",
+        "Private Transportation",
+        "Entrance Fees",
+        "Full Meals (3B, 3L, 3D)",
+        "Driving Guide (Malay/English Spoken)",
+        "Tipping Fee",
+        "Jeep Merapi Lava Tour",
+        "Jeep Timang Beach"
+      ],
+      "excludes": [
+        "Return Flight Tickets",
+        "Luggage, In Flight Meal & Airport Tax",
+        "Additional Tours & Meals",
+        "Personal Expenses",
+        "Travel Insurance"
+      ]
+    }
+  ],
+  "surcharge": {
+    "columns": [
+      {
+        "label": "Upgrade Surcharge"
+      },
+      {
+        "label": "Peak Season Surcharge",
+        "period": "15 - 30 Mar 2026, 25 May - 5 Jun 2026, 20 Dec 2026 - 5 Jan 2027, 5 - 25 Feb 2027, 5 Mar - 15 Apr 2027"
+      }
+    ],
+    "rows": [
+      {
+        "type": "3 Star Hotel",
+        "name": "Emersia Hotel, Luxury Hotel",
+        "similar": true,
+        "amounts": [
+          "-",
+          "RM120/pax/night"
+        ]
+      },
+      {
+        "type": "4 Star Hotel",
+        "name": "The 101 Yogyakarta Tugu Hotel",
+        "similar": true,
+        "amounts": [
+          "Weekday (Sun-Thu) RM100/person/night · Weekend (Fri-Sat) RM120/person/night",
+          "RM180/pax/night"
+        ]
+      }
+    ]
   },
-  {
-   "icon": "bus",
-   "title": "Transportation",
-   "body": "Tour to Timang Beach will be using Jeep (max 4 pax / Jeep). Journey to Timang will be bumpy and perilous."
-  },
-  {
-   "icon": "utensils",
-   "title": "Meals",
-   "body": "Meals provided during the trip will be local Indonesian food."
-  },
-  {
-   "icon": "bus",
-   "title": "Heavy Traffic",
-   "body": "Please expect some delays during the trip due to frequent heavy traffic."
-  },
-  {
-   "icon": "flight",
-   "title": "Arrival / Departure",
-   "body": "Suggested arrival and departure times are at noon. Late arrivals or early departures will not be refunded for activities and meals."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM550 per person.",
-    "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
-    "This package is valid until the 31st March 2027 travel period.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flight."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 250",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ]
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Welcome to Jogjakarta",
+      "activities": [
+        "Suggested arrival: noon time onwards",
+        "Arrival & pickup at Yogyakarta International Airport (YIA)",
+        "Gumuk Pasir (activities excluded)",
+        "Obelix Sea View (Parangtritis Beach area)",
+        "Malioboro Street (the 24-hour shopping street)",
+        "Check in hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "Lunch, Dinner",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 2,
+      "title": "Pine Forest - Timang Beach - HeHa Sky View",
+      "activities": [
+        "Bukit Panguk at 4.45am (sunrise)",
+        "Hutan Pinus Mangunan (the largest pine tree forest)",
+        "Timang Beach (gondola excluded)",
+        "HeHa Sky View (scenic photo spot)",
+        "Batik Outlet",
+        "Back to hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 3,
+      "title": "Sultan Palace - Plaosan Temple - Malioboro",
+      "activities": [
+        "Shopping Ole-Ole Khas Jogjakarta",
+        "Visit Kraton Jogja (the royal palace of the Yogyakarta Sultanate)",
+        "Visit Taman Sari Water Castle (the royal garden of the Yogyakarta Sultanate)",
+        "Plaosan Temple",
+        "UNESCO Borobudur Temple (entrance excluded)",
+        "Shopping @ Malioboro Street",
+        "Back to hotel"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast, Lunch, Dinner",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 4,
+      "title": "Mt. Merapi - Airport",
+      "activities": [
+        "Suggested departure: noon time",
+        {
+          "text": "Mount Merapi Lava Jeep Tour (the most active volcano in Indonesia)",
+          "sub": [
+            "Bunker Kaliadem",
+            "Sisa Hartaku Mini Museum",
+            "Hobbit House",
+            "Kali Boyong River"
+          ]
+        },
+        "Back to hotel",
+        "Check out hotel",
+        "Transfer to Yogyakarta International Airport (YIA)"
+      ],
+      "transport": "Private Transport",
+      "meals": "International Breakfast",
+      "hotel": "-"
+    }
+  ],
+  "addons": [
+    {
+      "title": "Additional Activities",
+      "entries": [
+        {
+          "name": "Jeep Gumuk Pasir",
+          "includes": "Medium Route Jeep Ride (4 pax/jeep), Videos and Photos",
+          "excludes": "Meals, Personal expenses",
+          "duration": "2 hours 30 minutes Ride",
+          "price_lines": [
+            "RM157/Jeep"
+          ]
+        },
+        {
+          "name": "ATV Gumuk Pasir",
+          "includes": "1 ATV (2 pax/ATV)",
+          "excludes": "Meals, Personal expenses",
+          "duration": "1 hour Ride",
+          "price_lines": [
+            "RM100/ATV"
+          ]
+        },
+        {
+          "name": "Gondola Timang Beach",
+          "includes": "Return Gondola Ride at Timang Beach (1 pax)",
+          "excludes": "Meals, Personal expenses",
+          "duration": "15 minutes",
+          "price_lines": [
+            "RM60/pax"
+          ]
+        },
+        {
+          "name": "Borobudur Temple",
+          "includes": "Entrance fee for Temple Ground Area or Structure Area",
+          "excludes": "Meals, Personal expenses, Temple Structure Area",
+          "duration": "1 - 2 hour tour",
+          "price_lines": [
+            "RM130/pax"
+          ]
+        },
+        {
+          "name": "Horse Carriage Ride",
+          "includes": "Horse Carriage Ride (max 6 pax/carriage) at Malioboro Area",
+          "excludes": "Meals, Personal expenses",
+          "duration": "30 minutes",
+          "price_lines": [
+            "RM70/carriage"
+          ]
+        },
+        {
+          "name": "Goa Pindul & Cave Tubing",
+          "includes": "Transport to Goa Pindul & Jomblang Cave Tubing Activity",
+          "excludes": "Meals, Personal expenses and Additional Activities",
+          "duration": "2 hours",
+          "price_lines": [
+            "RM75/pax"
+          ]
+        },
+        {
+          "name": "Gamplong Studio Alam",
+          "includes": "Entrance ticket to Gamplong Studio Alam",
+          "excludes": "Meals, Personal expenses and Additional Activities",
+          "duration": "1 hour",
+          "price_lines": [
+            "RM10/pax"
+          ]
+        }
+      ],
+      "notes": [
+        "Kindly note that all listed entrance fees and activity prices include applicable service charges and currency exchange differences, and may differ from Indonesia Ground handling (Local Rates)."
+      ]
+    }
+  ],
+  "expect": [
+    {
+      "icon": "footprints",
+      "title": "Walking Distance",
+      "body": "Distance between 3 Star Hotel to Malioboro Street is within 1km and 15 mins walk."
+    },
+    {
+      "icon": "hotel",
+      "title": "Double Sharing Occupancy",
+      "body": "For 3 Star Hotel, triple sharing has to use an extra bed. Triple sharing with a proper bed is only available at 4 Star Hotel."
+    },
+    {
+      "icon": "bus",
+      "title": "Transportation",
+      "body": "Tour to Timang Beach will be using Jeep (max 4 pax / Jeep). Journey to Timang will be bumpy and perilous."
+    },
+    {
+      "icon": "utensils",
+      "title": "Meals",
+      "body": "Meals provided during the trip will be local Indonesian food."
+    },
+    {
+      "icon": "bus",
+      "title": "Heavy Traffic",
+      "body": "Please expect some delays during the trip due to frequent heavy traffic."
+    },
+    {
+      "icon": "flight",
+      "title": "Arrival / Departure",
+      "body": "Suggested arrival and departure times are at noon. Late arrivals or early departures will not be refunded for activities and meals."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM550 per person.",
+        "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+        "This package is valid until the 31st March 2027 travel period.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flight."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 250",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ]
 }

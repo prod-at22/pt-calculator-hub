@@ -1,316 +1,316 @@
 {
- "slug": "hokkaido-sapporo",
- "destination": "Hokkaido",
- "country": "Japan",
- "code": "CTS",
- "tier": "Standard",
- "tier_code": "STD",
- "title": "PRIVATE TOUR HOKKAIDO - SAPPORO",
- "duration": "5D4N",
- "route": "Sapporo - Otaru - Asahikawa - Bibai - Furano - Noboribetsu",
- "basis": "Ground + Tipping",
- "valid_until": "31 January 2027",
- "version": "v3",
- "updated": "2026-08-08",
- "kb_url": "https://prod-at22.github.io/japan-kb/",
- "po": "Ezie",
- "ops": "ATIQAH",
- "source_pdf": "Jepun/Hokkaido/Catalog/PT HOKKAIDO-SAPPORO 5D4N 2026 v3.pdf",
- "highlights": [
-  {
-   "icon": "hotel",
-   "label": "Hotel / Apartment"
-  },
-  {
-   "icon": "bus",
-   "label": "Private Transport"
-  },
-  {
-   "icon": "guide",
-   "label": "Driving Guide"
-  }
- ],
- "prices": {
-  "columns": [
-   {
-    "label": "Adult",
-    "age": "12 years above"
-   },
-   {
-    "label": "Child With Bed",
-    "age": "6-11 years old"
-   },
-   {
-    "label": "Child No Bed",
-    "age": "2-5 years old"
-   }
+  "slug": "hokkaido-sapporo",
+  "destination": "Hokkaido",
+  "country": "Japan",
+  "code": "CTS",
+  "tier": "Standard",
+  "tier_code": "STD",
+  "title": "PRIVATE TOUR HOKKAIDO - SAPPORO",
+  "duration": "5D4N",
+  "route": "Sapporo - Otaru - Asahikawa - Bibai - Furano - Noboribetsu",
+  "basis": "Ground + Tipping",
+  "valid_until": "31 January 2027",
+  "version": "v3",
+  "updated": "2026-08-08",
+  "kb_url": "https://prod-at22.github.io/japan-kb/",
+  "po": "Ezie",
+  "ops": "ATIQAH",
+  "source_pdf": "Jepun/Hokkaido/Catalog/PT HOKKAIDO-SAPPORO 5D4N 2026 v3.pdf",
+  "highlights": [
+    {
+      "icon": "hotel",
+      "label": "Hotel / Apartment"
+    },
+    {
+      "icon": "bus",
+      "label": "Private Transport"
+    },
+    {
+      "icon": "guide",
+      "label": "Driving Guide"
+    }
   ],
-  "rows": [
-   {
-    "pax": "2",
-    "amounts": [
-     "RM8,397",
-     "RM8,197",
-     "RM7,997"
-    ]
-   },
-   {
-    "pax": "3",
-    "amounts": [
-     "RM6,497",
-     "RM6,297",
-     "RM6,097"
-    ]
-   },
-   {
-    "pax": "4",
-    "amounts": [
-     "RM5,497",
-     "RM5,297",
-     "RM5,097"
-    ]
-   },
-   {
-    "pax": "5",
-    "amounts": [
-     "RM4,997",
-     "RM4,797",
-     "RM4,597"
-    ]
-   },
-   {
-    "pax": "6",
-    "amounts": [
-     "RM4,597",
-     "RM4,397",
-     "RM4,197"
-    ]
-   },
-   {
-    "pax": "7",
-    "amounts": [
-     "RM4,297",
-     "RM4,097",
-     "RM3,897"
-    ]
-   },
-   {
-    "pax": "8",
-    "amounts": [
-     "RM3,997",
-     "RM3,797",
-     "RM3,597"
-    ]
-   },
-   {
-    "pax": "9",
-    "amounts": [
-     "RM4,797",
-     "RM4,597",
-     "RM4,397"
-    ]
-   },
-   {
-    "pax": "10",
-    "amounts": [
-     "RM4,597",
-     "RM4,397",
-     "RM4,197"
-    ]
-   }
+  "prices": {
+    "columns": [
+      {
+        "label": "Adult",
+        "age": "12 years above"
+      },
+      {
+        "label": "Child With Bed",
+        "age": "6-11 years old"
+      },
+      {
+        "label": "Child No Bed",
+        "age": "2-5 years old"
+      }
+    ],
+    "rows": [
+      {
+        "pax": "2",
+        "amounts": [
+          "RM8,397",
+          "RM8,197",
+          "RM7,997"
+        ]
+      },
+      {
+        "pax": "3",
+        "amounts": [
+          "RM6,497",
+          "RM6,297",
+          "RM6,097"
+        ]
+      },
+      {
+        "pax": "4",
+        "amounts": [
+          "RM5,497",
+          "RM5,297",
+          "RM5,097"
+        ]
+      },
+      {
+        "pax": "5",
+        "amounts": [
+          "RM4,997",
+          "RM4,797",
+          "RM4,597"
+        ]
+      },
+      {
+        "pax": "6",
+        "amounts": [
+          "RM4,597",
+          "RM4,397",
+          "RM4,197"
+        ]
+      },
+      {
+        "pax": "7",
+        "amounts": [
+          "RM4,297",
+          "RM4,097",
+          "RM3,897"
+        ]
+      },
+      {
+        "pax": "8",
+        "amounts": [
+          "RM3,997",
+          "RM3,797",
+          "RM3,597"
+        ]
+      },
+      {
+        "pax": "9",
+        "amounts": [
+          "RM4,797",
+          "RM4,597",
+          "RM4,397"
+        ]
+      },
+      {
+        "pax": "10",
+        "amounts": [
+          "RM4,597",
+          "RM4,397",
+          "RM4,197"
+        ]
+      }
+    ],
+    "infant": "RM200"
+  },
+  "price_blocks": [
+    {
+      "includes": [
+        "Accommodation (Hotel / Apartment)",
+        "Private Airport Transfer",
+        "Private Transportation (10 Hours Basis)",
+        "Professional Licensed Driver (Japanese Speaking) (10 Hours Basis)",
+        "Tour Guide (Malay Speaking) (10 Hours Basis)",
+        {
+          "text": "Entrance Fees",
+          "sub": [
+            "Asahiyama Zoo",
+            "Bibai Snowland",
+            "Noboribetsu Date Jidaimura"
+          ]
+        },
+        "Tipping Fee"
+      ],
+      "excludes": [
+        "Breakfast, Lunch & Dinner",
+        "Extra Hours Transport & Tour Guide: 5,000 - 10,000 yen per hour",
+        "Infant car seat (RM197 per day) — compulsory",
+        "International Flight",
+        "Personal Expenses",
+        "Optional Activity",
+        "Travel Insurance"
+      ]
+    }
   ],
-  "infant": "RM200"
- },
- "price_blocks": [
-  {
-   "includes": [
-    "Accommodation (Hotel / Apartment)",
-    "Private Airport Transfer",
-    "Private Transportation (10 Hours Basis)",
-    "Professional Licensed Driver (Japanese Speaking) (10 Hours Basis)",
-    "Tour Guide (Malay Speaking) (10 Hours Basis)",
+  "itinerary": [
     {
-     "text": "Entrance Fees",
-     "sub": [
-      "Asahiyama Zoo",
-      "Bibai Snowland",
-      "Noboribetsu Date Jidaimura"
-     ]
-    },
-    "Tipping Fee"
-   ],
-   "excludes": [
-    "Breakfast, Lunch & Dinner",
-    "Extra Hours Transport & Tour Guide: 5,000 - 10,000 yen per hour",
-    "Infant car seat (RM197 per day) — compulsory",
-    "International Flight",
-    "Personal Expenses",
-    "Optional Activity",
-    "Travel Insurance"
-   ]
-  }
- ],
- "itinerary": [
-  {
-   "day": 1,
-   "title": "Arrival - Sapporo Tour",
-   "activities": [
-    "Airport pickup",
-    "Lake Shikotsu",
-    "Odori Park (a park in the middle of a business district)",
-    "Sapporo TV Tower (Sapporo's landmark with an observation deck and souvenir shop)",
-    "Check-in"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 2,
-   "title": "Otaru Tour",
-   "activities": [
-    "Otaru Canal (a canal lined with red brick warehouses)",
-    "Al-Noor Mosque (Otaru Mosque)",
-    "Sakaimachi Street (street with workshops, souvenir shops and cafes)",
-    "Aurora Town (underground shopping street)"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 3,
-   "title": "Central Hokkaido Tour",
-   "activities": [
-    "Asahiyama Zoo (famous in Hokkaido for its Walking Penguin Show during winter)",
-    "Shirogane Blue Pond (vibrant turquoise pond in Biei)",
-    "Ningle Terrace (souvenir store and cafe in a wooden cabin setting)"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 4,
-   "title": "Choose One",
-   "activities": [
-    {
-     "text": "Winter season",
-     "sub": [
-      "Bibai Snowland (snow tubing, snow rafting, mini snowmobiles and more)",
-      "Mitsui Premium Outlet"
-     ]
+      "day": 1,
+      "title": "Arrival - Sapporo Tour",
+      "activities": [
+        "Airport pickup",
+        "Lake Shikotsu",
+        "Odori Park (a park in the middle of a business district)",
+        "Sapporo TV Tower (Sapporo's landmark with an observation deck and souvenir shop)",
+        "Check-in"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Hotel"
     },
     {
-     "text": "Spring / Summer / Autumn season",
-     "sub": [
-      "Jigokudani Hell Valley (the infamous boiling springs)",
-      "Date Jidaimura Village (Edo-period history park with traditional performances, foods and activities)"
-     ]
+      "day": 2,
+      "title": "Otaru Tour",
+      "activities": [
+        "Otaru Canal (a canal lined with red brick warehouses)",
+        "Al-Noor Mosque (Otaru Mosque)",
+        "Sakaimachi Street (street with workshops, souvenir shops and cafes)",
+        "Aurora Town (underground shopping street)"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Hotel"
     },
-    "Check-in"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "3-Star Hotel"
-  },
-  {
-   "day": 5,
-   "title": "Departure - Kuala Lumpur",
-   "activities": [
-    "Check-out, airport transfer",
-    "Flight CTS - KUL",
-    "Arrive Kuala Lumpur"
-   ],
-   "transport": "Private Transport",
-   "meals": "-",
-   "hotel": "-"
+    {
+      "day": 3,
+      "title": "Central Hokkaido Tour",
+      "activities": [
+        "Asahiyama Zoo (famous in Hokkaido for its Walking Penguin Show during winter)",
+        "Shirogane Blue Pond (vibrant turquoise pond in Biei)",
+        "Ningle Terrace (souvenir store and cafe in a wooden cabin setting)"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 4,
+      "title": "Choose One",
+      "activities": [
+        {
+          "text": "Winter season",
+          "sub": [
+            "Bibai Snowland (snow tubing, snow rafting, mini snowmobiles and more)",
+            "Mitsui Premium Outlet"
+          ]
+        },
+        {
+          "text": "Spring / Summer / Autumn season",
+          "sub": [
+            "Jigokudani Hell Valley (the infamous boiling springs)",
+            "Date Jidaimura Village (Edo-period history park with traditional performances, foods and activities)"
+          ]
+        },
+        "Check-in"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "3-Star Hotel"
+    },
+    {
+      "day": 5,
+      "title": "Departure - Kuala Lumpur",
+      "activities": [
+        "Check-out, airport transfer",
+        "Flight CTS - KUL",
+        "Arrive Kuala Lumpur"
+      ],
+      "transport": "Private Transport",
+      "meals": "-",
+      "hotel": "-"
+    }
+  ],
+  "expect": [
+    {
+      "icon": "footprints",
+      "title": "Lots of Walking",
+      "body": "Please wear comfortable shoes."
+    },
+    {
+      "icon": "utensils",
+      "title": "Meals Excluded",
+      "body": "No breakfast, lunch or dinner. The guide will bring you to a halal-friendly restaurant or convenience store."
+    },
+    {
+      "icon": "luggage",
+      "title": "Airport Transfer",
+      "body": "Please bring a maximum of 1 luggage per person, as it affects car capacity."
+    },
+    {
+      "icon": "bus",
+      "title": "Tour Guide & Transport",
+      "body": "10 hours basis. 5,000 - 10,000 yen will be charged for each extra hour."
+    }
+  ],
+  "notes": [
+    {
+      "title": "",
+      "entries": [
+        "All prices are valid for 24 hours after quotation submission.",
+        "The price is for 2 to 3 persons per room.",
+        "Single supplement: additional RM1,200 - RM2,000/person.",
+        "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+        "Last minute surcharge will be charged if the booking is made less than 3 weeks before departure (refer to the Last Minute Surcharge table).",
+        "Private driver & guide is based on 10 hours basis. 5,000 - 10,000 yen will be charged for every extra hour usage. Payment must be made in cash.",
+        "Itinerary, price and flight are subject to change accordingly.",
+        "The itinerary stated may change on tour day without prior notice, subject to weather and current traffic conditions.",
+        "Final itinerary and hotel arrangements 14 days before the trip.",
+        "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+        "This package is valid until 31 January 2027 travel period."
+      ]
+    }
+  ],
+  "deposit": [
+    {
+      "figure": "RM 500",
+      "text": "deposit per person upon confirmation"
+    },
+    {
+      "figure": "45 days",
+      "text": "prior to departure for full payment"
+    }
+  ],
+  "accommodation": [
+    {
+      "city": "Hotel",
+      "name": "APA Hotel, Mystays",
+      "similar": true
+    },
+    {
+      "city": "Apartment",
+      "name": "Sapporo Town Area (subject to availability)"
+    }
+  ],
+  "surcharge": {
+    "title": "Peak Seasons Date & Surcharge · Last Minute Surcharge",
+    "seasons": [
+      {
+        "label": "Peak Season",
+        "period": "15 June - 1 Sept 2026, 1 Dec - 20 Dec 2026, 6 Jan - 19 Jan 2027, 6 Feb - 1 March 2027",
+        "rate": "Additional 10% of package price per pax"
+      },
+      {
+        "label": "Christmas & New Year Peak Season",
+        "period": "20 Dec 2026 - 5 Jan 2027, 20 Jan - 5 Feb 2027",
+        "rate": "Additional 15% of package price per pax"
+      },
+      {
+        "label": "Last Minute — booking 3 weeks before departure date",
+        "period": "2 pax",
+        "rate": "Additional RM500 per pax"
+      },
+      {
+        "label": "Last Minute — booking 3 weeks before departure date",
+        "period": "3 pax & above",
+        "rate": "Additional RM400 per pax"
+      }
+    ]
   }
- ],
- "expect": [
-  {
-   "icon": "footprints",
-   "title": "Lots of Walking",
-   "body": "Please wear comfortable shoes."
-  },
-  {
-   "icon": "utensils",
-   "title": "Meals Excluded",
-   "body": "No breakfast, lunch or dinner. The guide will bring you to a halal-friendly restaurant or convenience store."
-  },
-  {
-   "icon": "luggage",
-   "title": "Airport Transfer",
-   "body": "Please bring a maximum of 1 luggage per person, as it affects car capacity."
-  },
-  {
-   "icon": "bus",
-   "title": "Tour Guide & Transport",
-   "body": "10 hours basis. 5,000 - 10,000 yen will be charged for each extra hour."
-  }
- ],
- "notes": [
-  {
-   "title": "",
-   "entries": [
-    "All prices are valid for 24 hours after quotation submission.",
-    "The price is for 2 to 3 persons per room.",
-    "Single supplement: additional RM1,200 - RM2,000/person.",
-    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
-    "Last minute surcharge will be charged if the booking is made less than 3 weeks before departure (refer to the Last Minute Surcharge table).",
-    "Private driver & guide is based on 10 hours basis. 5,000 - 10,000 yen will be charged for every extra hour usage. Payment must be made in cash.",
-    "Itinerary, price and flight are subject to change accordingly.",
-    "The itinerary stated may change on tour day without prior notice, subject to weather and current traffic conditions.",
-    "Final itinerary and hotel arrangements 14 days before the trip.",
-    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
-    "This package is valid until 31 January 2027 travel period."
-   ]
-  }
- ],
- "deposit": [
-  {
-   "figure": "RM 500",
-   "text": "deposit per person upon confirmation"
-  },
-  {
-   "figure": "45 days",
-   "text": "prior to departure for full payment"
-  }
- ],
- "accommodation": [
-  {
-   "city": "Hotel",
-   "name": "APA Hotel, Mystays",
-   "similar": true
-  },
-  {
-   "city": "Apartment",
-   "name": "Sapporo Town Area (subject to availability)"
-  }
- ],
- "surcharge": {
-  "title": "Peak Seasons Date & Surcharge · Last Minute Surcharge",
-  "seasons": [
-   {
-    "label": "Peak Season",
-    "period": "15 June - 1 Sept 2026, 1 Dec - 20 Dec 2026, 6 Jan - 19 Jan 2027, 6 Feb - 1 March 2027",
-    "rate": "Additional 10% of package price per pax"
-   },
-   {
-    "label": "Christmas & New Year Peak Season",
-    "period": "20 Dec 2026 - 5 Jan 2027, 20 Jan - 5 Feb 2027",
-    "rate": "Additional 15% of package price per pax"
-   },
-   {
-    "label": "Last Minute — booking 3 weeks before departure date",
-    "period": "2 pax",
-    "rate": "Additional RM500 per pax"
-   },
-   {
-    "label": "Last Minute — booking 3 weeks before departure date",
-    "period": "3 pax & above",
-    "rate": "Additional RM400 per pax"
-   }
-  ]
- }
 }
