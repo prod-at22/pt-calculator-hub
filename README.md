@@ -99,6 +99,15 @@ tour operator (/ hotel, season) selectors, then tabs:
 | Flags | this destination's cross-check flags |
 | History | versions that touched this destination |
 
+## Catalogs → catalog-pt-public
+
+`data/catalogs/<slug>.json` is the catalog content (Catalog Details tab). `catalog-build/build.py`
+renders it into HTML + PDF (headless Chrome) exactly as catalog-pt-public serves it, and the
+`catalogs.yml` workflow publishes it there on every push that changes a catalog — once the admin has set
+the secret `CATALOG_PUBLIC_TOKEN` (fine-grained token, repository catalog-pt-public only, Contents: read
+and write) and the variable `CATALOG_AUTOPUBLISH` = `true` (Settings → Secrets and variables → Actions).
+After editing a catalog also run `python3 tools/import_catalogs.py` (rebuilds `index.json`).
+
 ## FX
 
 FX is read from each R&D sheet (`tools/extract_fx.py`) and shown as 🔒 chips. It is never
