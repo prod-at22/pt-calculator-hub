@@ -85,6 +85,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
 (async () => {
   const files = {};
   for (const f of ["data.json", "history.json", "users.json", "flags.json"]) files["data/" + f] = fs.readFileSync(path.join(ROOT, "data", f), "utf8");
+  for (const f of fs.readdirSync(path.join(ROOT, "data", "catalogs"))) files["data/catalogs/" + f] = fs.readFileSync(path.join(ROOT, "data", "catalogs", f), "utf8");
   const repo = mockRepo(files, ["tok-valid", "tok-new"]);
   const { w, doc, errors } = await boot(repo);
   const P = w.PTCALC, D = P.DATA;
@@ -246,7 +247,19 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.026"), "FX chips: WIF 0.029, Qayyum 0.026");
-    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,contracts,addons,flags,history", "tabs: Costing, TO Contract Rate, Add-ons, Flags, History");
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,catalog,contracts,addons,flags,history", "tabs: Costing, Catalog Details, TO Contract Rate, Add-ons, Flags, History");
+    // Catalog Details: the catalog-pt-public content for the selected package (data/catalogs/<slug>.json)
+    setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
+    await tab(w, doc, "catalog"); await until(() => doc.querySelector("#cat-tokyo-standard"));
+    const cd = doc.querySelector("#cat-tokyo-standard"), cdt = cd ? cd.textContent : "";
+    ok(cd && cdt.includes("PRIVATE TOUR TOKYO STANDARD") && cdt.includes("Iyashi No Sato") && cdt.includes("Tipping Fee") && cdt.includes("Return flight ticket"), "Catalog Details: title, includes, excludes");
+    ok(cd && cd.querySelectorAll(".cd-itin tbody tr").length === 5 && cdt.includes("Kawaguchiko Mosque"), "Catalog Details: 5-day itinerary");
+    ok(cd && cdt.includes("Section L Apartment") && cdt.includes("Peak Season") && cdt.includes("Fuji Day Tour") && cdt.includes("Deposit"), "Catalog Details: accommodation, surcharge, add-ons, deposit");
+    ok(cd && cd.querySelector('a[href$="tokyo-standard.pdf"]'), "Catalog Details links the public PDF");
+    setVal(w, doc.querySelector("#selPkg"), "selftour"); await tick(5);
+    ok(doc.querySelector("#grid").textContent.includes("has no published catalog"), "Self Tour: no catalog");
+    setVal(w, doc.querySelector("#selPkg"), "basic"); await tick(5);
+    await tab(w, doc, "costing");
     ok(doc.querySelector('[data-tabmain="contracts"]').textContent === "TO Contract Rate", "tab named TO Contract Rate");
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     const rowAt = p => doc.querySelector(`#costPax tr[data-pax="${p}"]`);

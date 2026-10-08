@@ -1,0 +1,346 @@
+{
+ "slug": "melbourne-standard",
+ "destination": "Melbourne",
+ "country": "Australia",
+ "code": "MEL",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR MELBOURNE STANDARD",
+ "duration": "5D4N",
+ "route": "Phillip Island - Maru Koala & Wildlife Park - Penguin Parade - Great Ocean Road - Apollo Bay - 12 Apostles",
+ "basis": "Ground + Tipping · Without Flight Ticket",
+ "valid_until": "31 March 2027",
+ "version": "v1",
+ "updated": "2026-03-12",
+ "kb_url": "https://prod-at22.github.io/melbourne-kb/",
+ "po": "Acap",
+ "ops": "ATIQAH",
+ "source_pdf": "Australia/Melbourne/Catalog/PT MELBOURNE STANDARD 5D4N 2026.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "5-11 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-4 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM6,997",
+     "RM6,797",
+     "RM6,497"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM5,497",
+     "RM5,297",
+     "RM4,997"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM4,997",
+     "RM4,797",
+     "RM4,497"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM4,497",
+     "RM4,297",
+     "RM3,997"
+    ]
+   },
+   {
+    "pax": "6 - 7",
+    "amounts": [
+     "RM4,197",
+     "RM3,997",
+     "RM3,697"
+    ]
+   },
+   {
+    "pax": "8 - 10",
+    "amounts": [
+     "RM3,997",
+     "RM3,797",
+     "RM3,497"
+    ]
+   }
+  ],
+  "pax_label": "Group of",
+  "infant": "RM1,000"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "4 Nights Accommodation at 3 Star Hotel in City Centre",
+    "Hotel International Breakfast",
+    "Return Private Airport Transfers",
+    "Private Transportation as per itinerary (12 hours basis)",
+    "Driver cum Guide",
+    "Entry Ticket to Maru Koala & Animal Park",
+    "Entry Ticket to Churchill Island Heritage Farm",
+    "Entry Ticket to Penguin Parade - General Viewing",
+    "Tipping Fee",
+    "Visa Application Assistance (appointment session)"
+   ],
+   "excludes": [
+    "Extra hour Transport & Tour Guide (pay in cash to driver, AUD50/hour)",
+    "Return International Flight Tickets",
+    "Flight Luggage, In-Flight Meal & Airport Tax",
+    "Visa Fee (paid to Australian Immigration)",
+    "Personal Expenses",
+    "Personal Travel Insurance",
+    "Additional Tours & Meals"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "KUL - Arrival Melbourne",
+   "activities": [
+    "Arrival, meet & greet with ARBA driver & guide",
+    "Private airport transfer",
+    "Check-in hotel",
+    "Free & Easy"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Phillip Island, Wildlife & Farm Tour",
+   "activities": [
+    "Maru Koala & Animal Park (meet Australian wildlife, hand-feed kangaroos & wallabies)",
+    "San Remo Pelican Feeding Show (watch wild pelican feeding, photo stop)",
+    "Phillip Island Chocolate Factory Shop",
+    "Churchill Island Heritage Farm (farm shows — cow milking, sheep shearing, whip cracking)",
+    "The Nobbies (cliff-top boardwalks, sunset photo stop)",
+    "Penguin Parade — general viewing (world-famous little penguins at sunset)"
+   ],
+   "transport": "Private Transport (12 hours)",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Great Ocean Road",
+   "activities": [
+    "Aireys Inlet Lighthouse (iconic lighthouse, coastal views, photo stops)",
+    "Great Ocean Road Memorial Arch",
+    "Apollo Bay (seaside town, fresh seafood)",
+    "12 Apostles (iconic Great Ocean Road landmark, photo stop)",
+    "Loch Ard Gorge (stunning beach between cliffs, photo stop)"
+   ],
+   "transport": "Private Transport (12 hours)",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Free & Easy",
+   "activities": [
+    "Free & Easy at your leisure",
+    "OR choose from add-on options (private day tour)"
+   ],
+   "transport": "-",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 5,
+   "title": "Flight Return to KUL",
+   "activities": [
+    "Check-out hotel",
+    "Private airport transfer"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "footprints",
+   "title": "Australian Wildlife",
+   "body": "Visit and interact with Australian wildlife and experience farming shows such as sheep shearing and cow milking."
+  },
+  {
+   "icon": "map-pin",
+   "title": "Scenic Coastal Road",
+   "body": "Stunning coastal cliffs, Twelve Apostles, rainforest walks, seaside towns and wildlife along Australia's most scenic road trip."
+  },
+  {
+   "icon": "guide",
+   "title": "Transport/Guide",
+   "body": "Malaysian driver/tour guide living in Melbourne. Private Transport as per itinerary. Extra Hour surcharge $50/hour (must be paid in cash to driver)."
+  },
+  {
+   "icon": "hotel",
+   "title": "3 Star Hotel",
+   "body": "Hotel in City Centre (Free Tram Zone). Double or Triple Room. 4 Star Hotel or Apart'hotel upgrade available on request."
+  },
+  {
+   "icon": "utensils",
+   "title": "Food Arrangement",
+   "body": "Meal stops at Halal Certified/Friendly Restaurants. Asian, Middle Eastern, Western options."
+  },
+  {
+   "icon": "info",
+   "title": "Visa Application Assistance",
+   "body": "Free online session or physical appointment at our office. AUD $20 application fee to Australian Immigration by own expense. Approval is subject to Australian Immigration's decision."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival / Departure",
+   "body": "Early Arrival or Late Departure time that requires additional tour must choose from Private Day Tour Add-On Options."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 or 3 persons per room.",
+    "Single Supplement: Additional RM2,500/person.",
+    "Late Booking Surcharge will apply for bookings made less than 45 days before the departure date.",
+    "Private Transportation & Driving Guide is based on specified total hour basis as per itinerary. AUD50/hour will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Itinerary, price, flight is subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flights.",
+    "Special Event Date Surcharge (e.g. Christmas / New Year / Chinese New Year) not included – please enquire prior booking."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 1,000",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Peak Season",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "20 Sep 2026 - 30 Sep 2026 · 30 Oct 2026 - 8 Nov 2026 · 1 Dec 2026 - 31 Jan 2027 · 1 Mar 2027 - 12 Apr 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "IBIS Melbourne",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM125/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Grand Chancellor",
+    "similar": true,
+    "amounts": [
+     "RM125/pax/night",
+     "RM125/pax/night"
+    ]
+   }
+  ],
+  "notes": [
+   "*Note: Special Event Date Surcharge (e.g. Christmas / New Year / Chinese New Year) not included – please enquire prior booking."
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Melbourne (City Centre)",
+   "stars": 3,
+   "name": "IBIS Melbourne",
+   "similar": true
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add-on Private Day Tour",
+   "entries": [
+    {
+     "name": "Half/Full-Day City Tour",
+     "includes": "Queen Victoria Market, DFO South Wharf, Flinders Station & Federation Square (Degraves Street & Flinders Lane, Princes Bridge, Hosier Lane), Brighton Beach Bathing Boxes, Shrine of Remembrance",
+     "duration": "Half-Day Private Transport (5 hours) — may only cover half of the tour, customer to choose · Full-Day Private Transport (10 hours)",
+     "price_lines": [
+      "Half-Day: RM800/transport",
+      "Full-Day: RM1,500/transport"
+     ]
+    },
+    {
+     "name": "Puffing Billy & Dandenong Ranges",
+     "includes": "Puffing Billy Steam Train: Belgrave - Lakeside Station (ride iconic heritage steam train), Dandenong/Royal Botanic Garden, Sassafras Village, Skyhigh Lookout (Vehicle Entrance Included)",
+     "excludes": "Puffing Billy Train Ticket",
+     "duration": "Private Transport (8 hours)",
+     "price_lines": [
+      "RM1,500/transport",
+      "Puffing Billy Train Ticket:",
+      "Adult: RM190/pax",
+      "Child: RM95/pax"
+     ]
+    },
+    {
+     "name": "Mornington Peninsula",
+     "includes": "Pure Peninsula Honey, Enchanted Garden Adventure (adventure park: garden mazes, tube slides, canopy walk), Red Hill Lavender Farm (seasonal), Sorrento Ocean Beach, Cape Schanck Boardwalk",
+     "excludes": "Enchanted Garden Adventure Ticket",
+     "duration": "Private Transport (8 hours)",
+     "price_lines": [
+      "RM1,600/transport",
+      "Enchanted Garden Adventure Ticket:",
+      "Adult: RM120/pax",
+      "Child: RM90/pax"
+     ]
+    },
+    {
+     "name": "Winter Snow Trip",
+     "includes": "Mt Buller / Mt Baw Baw (Winter Sports: Skiing, Snowboarding, Tobogganing, etc) OR Lake Mountain (Snow Play, Tobogganing); Vehicle Entrance Ticket & Tyre Snow Chains Included",
+     "duration": "Private Transport (12 hours)",
+     "price_lines": [
+      "RM3,200/transport"
+     ]
+    }
+   ]
+  }
+ ]
+}

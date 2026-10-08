@@ -1,0 +1,372 @@
+{
+ "slug": "perth-premium",
+ "destination": "Perth",
+ "country": "Australia",
+ "code": "PER",
+ "tier": "Premium",
+ "tier_code": "PRE",
+ "title": "PRIVATE TOUR PERTH PREMIUM",
+ "duration": "6D5N",
+ "route": "Swan Valley - Fremantle - Dolphin Cruise Mandurah - Pinnacles Desert",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 March 2027",
+ "version": "v3",
+ "updated": "2026-03-12",
+ "kb_url": "https://prod-at22.github.io/arba-perth-kb/",
+ "po": "Acap",
+ "ops": "ATIQAH",
+ "source_pdf": "Australia/Perth/Catalog/PT PERTH PREMIUM 6D5N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "5-11 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-4 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM7,997",
+     "RM7,797",
+     "RM7,597"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM6,097",
+     "RM5,897",
+     "RM5,697"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM5,797",
+     "RM5,597",
+     "RM5,397"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM4,997",
+     "RM4,797",
+     "RM4,597"
+    ]
+   },
+   {
+    "pax": "6 - 7",
+    "amounts": [
+     "RM4,797",
+     "RM4,597",
+     "RM4,397"
+    ]
+   },
+   {
+    "pax": "8 - 10",
+    "amounts": [
+     "RM4,497",
+     "RM4,297",
+     "RM4,097"
+    ]
+   }
+  ],
+  "pax_label": "Group of",
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Return Private Airport Transfer (06:00AM - 10:00PM)",
+    "Private Transport",
+    "5 Nights Accommodation at 4 Star Hotel",
+    "4x International Breakfast at hotel + 3x Lunch as per itinerary",
+    "Entrance to Caversham Wildlife Park",
+    "Driver cum Guide",
+    "Canal & Dolphin Boat Cruises at Mandurah",
+    "Entrance to Lancelin Sand Dunes",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Private Transport & Driving Guide extra hour surcharge AUD50/hour (pay cash to driver)",
+    "Airport transfer surcharge 10:01PM - 5:59AM (AUD50 flat, charged before arrival)",
+    "Return Flight Tickets",
+    "Luggage, In-Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Visa Application",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "KUL - Arrival Perth",
+   "activities": [
+    "Arrival at Perth Airport",
+    "Meet & greet with ARBA driver",
+    "Transfer to accommodation"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "-",
+   "hotel": "4-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Swan Valley Guided Tour",
+   "activities": [
+    "Caversham Wildlife Park",
+    "Margaret River Chocolate Factory",
+    "Charcoal chicken & lamb ribs lunch",
+    "Solat at nearby masjid",
+    "Back to hotel",
+    "Free & Easy, or add-on trip to fruit orchard / tulip park (optional, seasonal)"
+   ],
+   "transport": "Private Transport (6 hours)",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "4-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Fremantle Day Tour",
+   "activities": [
+    "Blue Boat House",
+    "Rainbow Containers (photo stop)",
+    "Canal & Dolphin Boat Cruises at Mandurah (included)",
+    "Fremantle Prison (bypass only)",
+    "Cappuccino Strip to Round House",
+    "Sunset View in Cottesloe Beach"
+   ],
+   "transport": "Private Transport (8 hours)",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "4-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Perth City Tour",
+   "activities": [
+    "Bell Tower & Elizabeth Quay",
+    "Hay Street Mall including London Court",
+    "Shopping at Watertown Factory Outlets",
+    "Kings Park & Aboriginal Art Gallery",
+    "Solat at Watertown surau",
+    "Free and easy"
+   ],
+   "transport": "Private Transport (4 hours)",
+   "meals": "International Breakfast",
+   "hotel": "4-Star Hotel"
+  },
+  {
+   "day": 5,
+   "title": "Pinnacles Desert & Lancelin Tour",
+   "activities": [
+    "Pinnacles Desert",
+    "Lancelin Sand Dunes (ATV not included)",
+    "Sand board rental (optional)",
+    "Fish & chips lunch",
+    "Stop over for solat",
+    "Back to hotel"
+   ],
+   "transport": "Private Transport (10 hours)",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "4-Star Hotel"
+  },
+  {
+   "day": 6,
+   "title": "Return to KUL",
+   "activities": [
+    "Check-out hotel",
+    "Transfer to airport"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "footprints",
+   "title": "Pinnacles Desert & Sand Dunes Activity",
+   "body": "This trip & activity is less suitable for elderly or underage children due to loose and uneven surface, as it can cause the risk of falls and twisted ankle."
+  },
+  {
+   "icon": "hotel",
+   "title": "4 Star Hotel",
+   "body": "Accommodation for 4 Star Hotel located at Perth CBD area. Note: Hotel provides international style breakfast buffet (Halal friendly options like bread, cereal, pastries & vegetarian food is available)."
+  },
+  {
+   "icon": "bed",
+   "title": "Room Allocation",
+   "body": "Room allocation for 4 Star Hotel will be twin sharing or triple sharing subject to availability. Interconnecting rooms are limited, subject to availability."
+  },
+  {
+   "icon": "bus",
+   "title": "Transportation & Guide",
+   "body": "Tour duration/transport usage as mentioned in itinerary. AUD50/hour will be charged for every extra hour usage. Payment must be paid in cash to driver."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival & Departure",
+   "body": "Additional surcharge applies to airport transfers between 10:01 PM - 05:59 AM. Please arrive & depart between 06:00 AM - 10:00 PM to avoid additional charges."
+  },
+  {
+   "icon": "group",
+   "title": "Peak Seasons Date",
+   "body": "Peak Seasons Surcharge may apply on these dates: 19 - 31 March 2026, 1 - 20 April 2026, 1 - 15 July 2026, 19 - 31 August 2026, 1 - 30 September 2026, 1 - 30 November 2026, 1 - 20 December 2026, 21 December 2026 - 20 February 2027."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Most halal restaurants in Perth usually open at 10:00 AM and above. You can take the free city bus to go to restaurants during your free time."
+  },
+  {
+   "icon": "map-pin",
+   "title": "Free & Easy Day",
+   "body": "Halfday Free & Easy Day 2. No transport or guide is provided but you can explore Perth City on your own. Recommended to use free city buses for city tour."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2@3 person per room (Additional RM2500/person for Single Supplement).",
+    "Full payment has to be made 45 days prior arrival.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "Private Transportation & Driving Guide is based on the hours stated in the itinerary. AUD50/hour will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Airport transfer arrival/return at 10:01pm to 5:59am, AUD50 additional surcharge will be imposed during this hour. Please arrive/return between 6:00am to 10:00pm to avoid charges.",
+    "Quotation, Itinerary and price is subject to change accordingly.",
+    "Hotel location will be confirmed at least 15 days before departure.",
+    "This package is valid until 31st March 2027 travel period.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flights."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 1,000",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "Autumn & Winter Season (see dates below)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "4 Star Hotel",
+    "name": "Mercure On Hay (with breakfast)",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM220/pax/night"
+    ]
+   },
+   {
+    "type": "5 Star Hotel",
+    "name": "Duxton Hotel (Halal breakfast available)",
+    "amounts": [
+     "Add RM350/pax/night",
+     "RM250/pax/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Autumn & Winter Season",
+    "period": "19 - 31 Mar 2026 | 1 - 20 April 2026 | 19 - 31 August 2026 | 1 - 15 July 2026",
+    "rate": "Refer to peak surcharge on accommodation table"
+   },
+   {
+    "label": "Spring & Summer Season",
+    "period": "1 - 30 September 2026 | 1 - 30 November 2026 | 1 - 20 December 2026",
+    "rate": "Additional 5% per pax"
+   },
+   {
+    "label": "Christmas & New Year",
+    "period": "21 - 31 December 2026 | 1 - 31 January 2027 | 1 - 20 February 2027",
+    "rate": "Additional 10% per pax"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Perth",
+   "stars": 4,
+   "name": "Mercure On Hay",
+   "similar": true
+  }
+ ],
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Araluen Tulip Park (Late August to Early October only)",
+     "includes": "Entrance ticket to Araluen Tulip Park",
+     "excludes": "Lunch onboard or additional activities",
+     "price_lines": [
+      "RM85/pax for Adult (12 years old and above)",
+      "RM65/pax for Children (7 - 11 years old)",
+      "Free for Children 6 years old & below"
+     ]
+    },
+    {
+     "name": "Return Ferry Ticket to Rottnest Island",
+     "includes": "Return Ferry Ticket from Fremantle",
+     "excludes": "Shuttle, Activity at Rottnest & Lunch",
+     "price_lines": [
+      "RM350/pax for Adult (13 years old and above)",
+      "RM250/pax for Children (4 - 12 years old)",
+      "Free for Children 3 years old & below"
+     ]
+    },
+    {
+     "name": "Return Shuttle to Rottnest Ferry Terminal",
+     "includes": "Transport pickup & drop off to Rottnest Ferry Terminal",
+     "excludes": "Ferry Ticket & Lunch",
+     "price_lines": [
+      "RM1800/transport",
+      "(Pickup & Drop Off from/to Perth City Area)",
+      "*Transport capacity up to 10 pax"
+     ]
+    }
+   ]
+  }
+ ]
+}

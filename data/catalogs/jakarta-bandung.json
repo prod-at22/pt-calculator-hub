@@ -1,0 +1,325 @@
+{
+ "slug": "jakarta-bandung",
+ "destination": "Jakarta-Bandung",
+ "country": "Indonesia",
+ "code": "JBDO",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR JAKARTA - BANDUNG",
+ "duration": "4D3N",
+ "route": "Kawah Putih Nature - Shopping - Food Tour",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v8",
+ "updated": "2026-08-08",
+ "kb_url": "",
+ "po": "Ezie",
+ "ops": "CIK IWAN",
+ "source_pdf": "Indonesia/Jakarta-Bandung/Catalog/PT JKT-BANDUNG 4D3N 2026 v8.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult"
+   },
+   {
+    "label": "Child with Bed",
+    "age": "6-10 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 3",
+    "amounts": [
+     "RM1,487",
+     "RM1,387",
+     "RM1,187"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM1,227",
+     "RM1,127",
+     "RM927"
+    ]
+   },
+   {
+    "pax": "6 - 9",
+    "amounts": [
+     "RM1,187",
+     "RM1,087",
+     "RM887"
+    ]
+   },
+   {
+    "pax": "10 - 19",
+    "amounts": [
+     "RM1,147",
+     "RM1,047",
+     "RM847"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Driving Guide (Malay/English Spoken)",
+    "Meals (3x International Breakfast, 3 Lunch, 3 Dinner)",
+    "Whoosh Train (1x Jakarta to Bandung only)",
+    {
+     "text": "Entrance Fees",
+     "sub": [
+      "Kawah Putih (Option A)",
+      "Glamping Lakeside (Option A)",
+      "Rengganis Bridge & Keranjang Sultan (Option A)",
+      "Orchid Forest (Option B)",
+      "Lembang Park Zoo (Option B)",
+      "Lodge Maribaya",
+      "Floating Market",
+      "Farm House"
+     ]
+    },
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "International Flight Ticket",
+    "In Flight Meal",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival - Bandung Shopping Tour",
+   "activities": [
+    "Suggested arrival time: 12PM or earlier",
+    "Airport pickup @ Soekarno-Hatta International Airport",
+    "Whoosh Train Jakarta to Bandung (economy seat)",
+    "Rumah Kain Sulam M Collection",
+    "Rumah Textile"
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3-Star Hotel (Bandung)"
+  },
+  {
+   "day": 2,
+   "title": "Nature - Sightseeing - Shopping",
+   "activities": [
+    {
+     "text": "A) Nature sightseeing & activity",
+     "sub": [
+      "Kawah Putih",
+      "Glamping Lakeside",
+      "Rengganis Bridge & Keranjang Sultan (chairlift included)",
+      "Kedai Barang Kulit Cibaduyut",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ]
+    },
+    {
+     "text": "B) Kid-friendly sightseeing & activity",
+     "sub": [
+      "Kopi Luwak Cikole",
+      "Orchid Forest",
+      "Lembang Park & Zoo",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ]
+    }
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Bandung)"
+  },
+  {
+   "day": 3,
+   "title": "Nature - Sightseeing - Shopping - Food Tour",
+   "activities": [
+    "The Lodge Maribaya",
+    "Floating Market Lembang",
+    "Farm House",
+    "Rumah Mode",
+    "Ole Ole Tiga Rasa"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Bandung)"
+  },
+  {
+   "day": 4,
+   "title": "Jakarta Tour - Departure",
+   "activities": [
+    "Ole Ole Kartika Sari",
+    "Land transfer Bandung to Jakarta",
+    {
+     "text": "Optional tour (subject to flight departure time)",
+     "sub": [
+      "Monumen Nasional Jakarta (Monas)",
+      "Masjid Istiqlal Jakarta",
+      "Mangga Dua / Tanah Abang"
+     ]
+    },
+    "Airport drop @ Soekarno-Hatta International Airport"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "bus",
+   "title": "Transportation",
+   "body": "2 - 4 pax (Avanza), 5 - 6 pax (Innova), 7 - 12 pax (Hiace). Please bring a maximum of 1 luggage per pax, as it will affect car capacity."
+  },
+  {
+   "icon": "hotel",
+   "title": "Double Sharing Basis",
+   "body": "For triple sharing, only extra bed available."
+  },
+  {
+   "icon": "info",
+   "title": "Heavy Traffic",
+   "body": "Please expect some delays during the trip due to frequent heavy traffic and narrow roads."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals provided during the trip will be local Indonesian food."
+  },
+  {
+   "icon": "guide",
+   "title": "Driving Guide",
+   "body": "Driver cum guide."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival / Departure",
+   "body": "Suggested arrival time is 12PM or earlier. Suggested return in the evening."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM350/person.",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
+    "Final itinerary and hotel location will be confirmed at least 14-21 days before departure.",
+    "Customers are required to carry their own luggage on the Whoosh train.",
+    "This package is valid until 31 December 2026 travel period."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Peak Season",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "19 - 28 March 2026 | 14 - 16 May 2026 | 27 - 30 May 2026 | 12 - 16 June 2026 | 14 - 16 August 2026 | 21 - 24 August 2026 | 20 December - 1 January 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Zest Hotel",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM30/person/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "ASTON Pasteur Hotel",
+    "similar": true,
+    "amounts": [
+     "Add RM90/person/night",
+     "RM35/person/night"
+    ]
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Bandung",
+   "stars": 3,
+   "name": "Zest Hotel",
+   "similar": true
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add-On",
+   "entries": [
+    {
+     "name": "Zip Bike @ Lodge Maribaya",
+     "price_lines": [
+      "RM10 ~ RM15"
+     ]
+    },
+    {
+     "name": "Rainbow Slide @ Floating Market",
+     "price_lines": [
+      "RM10 ~ RM15"
+     ]
+    },
+    {
+     "name": "Whoosh Train Bandung-Jakarta",
+     "includes": "1 Way Whoosh Ticket (Economy Seat), Private Transport Pickup & Drop Off Train Station",
+     "price_lines": [
+      "RM157/pax"
+     ]
+    }
+   ],
+   "notes": [
+    "Customers are required to carry their own luggage on the Whoosh train.",
+    "** All prices stated above may differ from time to time depending on the current currency exchange.",
+    "** Guests can pay directly at the attraction place if keen."
+   ]
+  }
+ ]
+}

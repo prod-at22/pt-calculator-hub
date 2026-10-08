@@ -1,0 +1,349 @@
+{
+ "slug": "medan-lake-toba",
+ "destination": "Medan-Lake Toba",
+ "country": "Indonesia",
+ "code": "L.TOBA",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR MEDAN - LAKE TOBA",
+ "duration": "4D3N",
+ "route": "Samosir Island - Holbung - Sipiso Piso Waterfall - Shopping @ Medan",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 January 2027",
+ "version": "v3",
+ "updated": "2026-03-13",
+ "kb_url": "",
+ "po": "Ezie",
+ "ops": "CIK IWAN",
+ "source_pdf": "Indonesia/Medan-Lake Toba/Catalog/PT MEDAN-LAKE TOBA 4D3N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,357",
+     "RM1,157",
+     "RM1,057"
+    ]
+   },
+   {
+    "pax": "3 - 4",
+    "amounts": [
+     "RM1,197",
+     "RM1,097",
+     "RM997"
+    ]
+   },
+   {
+    "pax": "5 - 6",
+    "amounts": [
+     "RM1,157",
+     "RM1,057",
+     "RM957"
+    ]
+   },
+   {
+    "pax": "7 - 9",
+    "amounts": [
+     "RM1,107",
+     "RM1,007",
+     "RM907"
+    ]
+   },
+   {
+    "pax": "10 - 19",
+    "amounts": [
+     "RM1,097",
+     "RM997",
+     "RM897"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation (12 hours basis)",
+    "Ferry Ride to Samosir Island (sharing)",
+    "Entrance Fees",
+    "Full Meals (3B, 3L, 3D)",
+    "Driving Guide (Malay/English Spoken)",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Extra hour Transport & Tour Guide 150,000 IDR/hour",
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "KUL - Parapat / Samosir",
+   "activities": [
+    {
+     "text": "Option A",
+     "sub": [
+      "Pickup at Kualanamu Airport (KNO)",
+      "Proceed to Parapat",
+      "Check in Parapat"
+     ]
+    },
+    {
+     "text": "Option B (add on RM50/pax)",
+     "sub": [
+      "Pickup at Kualanamu Airport (KNO)",
+      "Proceed to Samosir Island",
+      "Aek Manik Pool Sidamanik",
+      "Kebun Teh Bah Butong",
+      "Check in Samosir Island"
+     ]
+    }
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3-Star Hotel (Parapat / Samosir)"
+  },
+  {
+   "day": 2,
+   "title": "Parapat / Samosir",
+   "activities": [
+    {
+     "text": "Option A",
+     "sub": [
+      "Ferry to Samosir Island",
+      "Tomok Village",
+      "Proceed to Berastagi",
+      "Simarjarunjung Hill",
+      "Sipiso Piso Waterfall",
+      "Berastagi Central Fruit Market",
+      "Check in Berastagi"
+     ]
+    },
+    {
+     "text": "Option B",
+     "sub": [
+      "Mount Pusuk Buhit",
+      "Bukit Holbung",
+      "Efrata Waterfall",
+      "Bukit Burung",
+      "Proceed to Berastagi",
+      "Sipiso Piso Waterfall",
+      "Check in Berastagi"
+     ]
+    }
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Berastagi)"
+  },
+  {
+   "day": 3,
+   "title": "Berastagi - Medan",
+   "activities": [
+    {
+     "text": "Option A",
+     "sub": [
+      "Shwedagon Pagoda Replica",
+      "Maimoon Palace",
+      "Masjid Raya Al Mashun 1906",
+      "Batik & local product outlets",
+      "Pasar Ikan / Plaza Medan",
+      "Check in Medan"
+     ]
+    },
+    {
+     "text": "Option B",
+     "sub": [
+      "Kaki Gunung Sinabung",
+      "Danau Lau Kawar",
+      "Berastagi Fruit Market",
+      "Check in Medan"
+     ]
+    }
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Medan)"
+  },
+  {
+   "day": 4,
+   "title": "Medan - KUL",
+   "activities": [
+    "Check out",
+    "Free & Easy (shopping)",
+    "Airport transfer"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "footprints",
+   "title": "Sipiso Piso Waterfall",
+   "body": "The trek down to the base of the waterfall is a bit challenging, recommended to wear suitable shoes."
+  },
+  {
+   "icon": "hotel",
+   "title": "Accommodation",
+   "body": "Will be staying at 3 different places: Parapat, Berastagi, Medan."
+  },
+  {
+   "icon": "bus",
+   "title": "Long Haul Trip",
+   "body": "The journey from the airport to Parapat takes about 5 hours by car."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals provided during trip will be Local Indonesian Food."
+  },
+  {
+   "icon": "bus",
+   "title": "Heavy Traffic",
+   "body": "Please expect some delays during the trip due to frequent heavy traffic."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival/Departure",
+   "body": "Suggested arrival and departure times are at noon. Late arrivals or early departures will not be refunded for activities and meals."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 or 3 persons per room.",
+    "Single Supplement: additional RM250 per person.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Itinerary, Price, and Flight is subject to change accordingly.",
+    "Final Itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flight.",
+    "This package is valid until 31st January 2027 travel period.",
+    "If you choose Option A, the same option applies throughout the itinerary.",
+    "If you choose Option B, the same option applies throughout the itinerary."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Peak Season",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "25 Dec 2025 - 5 Jan 2026 · 15 - 31 Mar 2026 · 25 Jun - 12 July 2026 · 25 Dec 2026 - 5 Jan 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Parapat: Atsari · Samosir: Samosir Villa · Berastagi: Uluna Hotel · Medan: MBS Hotel",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM30/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Parapat: Niagara · Berastagi: Sibayak International Hotel · Medan: Emeral",
+    "similar": true,
+    "amounts": [
+     "RM100/pax/night",
+     "RM40/pax/night"
+    ]
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Parapat",
+   "stars": 3,
+   "name": "Atsari",
+   "similar": true
+  },
+  {
+   "city": "Samosir",
+   "stars": 3,
+   "name": "Samosir Villa",
+   "similar": true
+  },
+  {
+   "city": "Berastagi",
+   "stars": 3,
+   "name": "Uluna Hotel",
+   "similar": true
+  },
+  {
+   "city": "Medan",
+   "stars": 3,
+   "name": "MBS Hotel",
+   "similar": true
+  }
+ ],
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Drone Shooting (Option B only)",
+     "includes": "Drone, Drone Pilot, Raw Footage, Edited Footage",
+     "duration": "The Whole Trip",
+     "price_lines": [
+      "RM47/pax"
+     ]
+    }
+   ]
+  }
+ ]
+}

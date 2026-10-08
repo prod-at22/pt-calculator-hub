@@ -1,0 +1,605 @@
+{
+ "aceh-sabang": {
+  "code": "ACEHSBG",
+  "package": "asonanggroe-3-star",
+  "title": "PRIVATE TOUR ACEH + SABANG",
+  "duration": "5D4N",
+  "version": "v2",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/aceh-sabang.html"
+ },
+ "aceh": {
+  "code": "ACEH",
+  "package": "asonanggroe-3-star",
+  "title": "PRIVATE TOUR ACEH",
+  "duration": "4D3N",
+  "version": "v1",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/aceh.html"
+ },
+ "bali-honeymoon-premium": {
+  "code": "DPS",
+  "package": "alfian-hny-prem",
+  "title": "PRIVATE TOUR BALI HONEYMOON PREMIUM",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-02-02",
+  "url": "https://prod-at22.github.io/catalog-pt-public/bali-honeymoon-premium.html"
+ },
+ "bali-honeymoon-standard": {
+  "code": "DPS",
+  "package": "alfian-hny-std",
+  "title": "PRIVATE TOUR BALI HONEYMOON STANDARD",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/bali-honeymoon-standard.html"
+ },
+ "bali-standard": {
+  "code": "DPS",
+  "package": "alfian-std-3s",
+  "title": "PRIVATE TOUR BALI STANDARD",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/bali-standard.html"
+ },
+ "bangkok-standard": {
+  "code": "BKK",
+  "package": "chiwanon-almas-3-star",
+  "title": "PRIVATE TOUR BANGKOK STANDARD",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-07-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/bangkok-standard.html"
+ },
+ "beijing": {
+  "code": "PEK",
+  "package": "tourdechina",
+  "title": "PRIVATE TOUR BEIJING",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-04",
+  "url": "https://prod-at22.github.io/catalog-pt-public/beijing.html"
+ },
+ "danang-hoi-an-4d3n": {
+  "code": "DADH",
+  "package": "bismillah-4d3n",
+  "title": "PRIVATE TOUR DANANG - HOI AN",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-08-06",
+  "url": "https://prod-at22.github.io/catalog-pt-public/danang-hoi-an-4d3n.html"
+ },
+ "danang-hoi-an-5d4n": {
+  "code": "DADH",
+  "package": "bismillah-5d4n",
+  "title": "PRIVATE TOUR DANANG - HOI AN",
+  "duration": "5D4N",
+  "version": "v3",
+  "updated": "2026-08-06",
+  "url": "https://prod-at22.github.io/catalog-pt-public/danang-hoi-an-5d4n.html"
+ },
+ "hanoi-sapa-halong": {
+  "code": "HNSH",
+  "package": "ibrahim-5d4n",
+  "title": "PRIVATE TOUR HANOI - SAPA - HALONG BAY",
+  "duration": "5D4N",
+  "version": "v4",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hanoi-sapa-halong.html"
+ },
+ "hanoi-sapa": {
+  "code": "HNSH",
+  "package": "ibrahim-4d3n",
+  "title": "PRIVATE TOUR HANOI - SAPA",
+  "duration": "4D3N",
+  "version": "v4",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hanoi-sapa.html"
+ },
+ "hcm-dalat-muine-4d3n": {
+  "code": "DLMNHCM",
+  "package": "ibrahim-4d3n",
+  "title": "PRIVATE TOUR HO CHI MINH - DALAT - MUINE",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hcm-dalat-muine-4d3n.html"
+ },
+ "hcm-dalat-muine": {
+  "code": "DLMNHCM",
+  "package": "ibrahim-5d4n",
+  "title": "PRIVATE TOUR HO CHI MINH - DALAT - MUINE",
+  "duration": "5D4N",
+  "version": "v2",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hcm-dalat-muine.html"
+ },
+ "ho-chi-minh": {
+  "code": "HCM",
+  "package": null,
+  "title": "PRIVATE TOUR HO CHI MINH",
+  "duration": "4D3N",
+  "version": "v1",
+  "updated": "2025-12-08",
+  "url": "https://prod-at22.github.io/catalog-pt-public/ho-chi-minh.html"
+ },
+ "hokkaido-sapporo": {
+  "code": "CTS",
+  "package": "wif-cts",
+  "title": "PRIVATE TOUR HOKKAIDO - SAPPORO",
+  "duration": "5D4N",
+  "version": "v3",
+  "updated": "2026-08-08",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hokkaido-sapporo.html"
+ },
+ "istanbul-bursa": {
+  "code": "ISTBUR",
+  "package": "mytrip-3s",
+  "title": "PRIVATE TOUR ISTANBUL - BURSA",
+  "duration": "5D4N",
+  "version": "v4",
+  "updated": "2026-05-21",
+  "url": "https://prod-at22.github.io/catalog-pt-public/istanbul-bursa.html"
+ },
+ "istanbul-cappadocia": {
+  "code": "ISTCAP",
+  "package": "mytrip-pt-3star",
+  "title": "PRIVATE TOUR ISTANBUL - CAPPADOCIA",
+  "duration": "6D5N",
+  "version": "v5",
+  "updated": "2026-03-10",
+  "url": "https://prod-at22.github.io/catalog-pt-public/istanbul-cappadocia.html"
+ },
+ "jakarta-bandung": {
+  "code": "JBDO",
+  "package": "ctrans",
+  "title": "PRIVATE TOUR JAKARTA - BANDUNG",
+  "duration": "4D3N",
+  "version": "v8",
+  "updated": "2026-08-08",
+  "url": "https://prod-at22.github.io/catalog-pt-public/jakarta-bandung.html"
+ },
+ "jeju-udo": {
+  "code": "JJUO",
+  "package": "atk-std",
+  "title": "PRIVATE TOUR JEJU - UDO STANDARD",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/jeju-udo.html"
+ },
+ "jeju": {
+  "code": "JJU",
+  "package": "atk-pt",
+  "title": "PRIVATE TOUR JEJU STANDARD",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/jeju.html"
+ },
+ "jogjakarta": {
+  "code": "JOG",
+  "package": "pak-jamal-3-star",
+  "title": "PRIVATE TOUR JOGJAKARTA",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-04-27",
+  "url": "https://prod-at22.github.io/catalog-pt-public/jogjakarta.html"
+ },
+ "krabi-basic": {
+  "code": "KBV",
+  "package": "budget",
+  "title": "PAKEJ KRABI BASIC",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-08-07",
+  "url": "https://prod-at22.github.io/catalog-pt-public/krabi-basic.html"
+ },
+ "krabi-honeymoon": {
+  "code": "KBV",
+  "package": "honeymoon",
+  "title": "PAKEJ KRABI HONEYMOON",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-08-07",
+  "url": "https://prod-at22.github.io/catalog-pt-public/krabi-honeymoon.html"
+ },
+ "krabi-standard": {
+  "code": "KBV",
+  "package": "standard",
+  "title": "PAKEJ KRABI STANDARD",
+  "duration": "4D3N",
+  "version": "v1",
+  "updated": "2026-08-07",
+  "url": "https://prod-at22.github.io/catalog-pt-public/krabi-standard.html"
+ },
+ "lombok": {
+  "code": "LOP",
+  "package": "pak-anang-3s",
+  "title": "PRIVATE TOUR LOMBOK",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/lombok.html"
+ },
+ "maldives-basic": {
+  "code": "MLE",
+  "package": "mle-basic-low",
+  "title": "PAKEJ MALDIVES BASIC",
+  "duration": "4D3N",
+  "version": "v4",
+  "updated": "2025-12-03",
+  "url": "https://prod-at22.github.io/catalog-pt-public/maldives-basic.html"
+ },
+ "maldives-combo": {
+  "code": "MLE",
+  "package": "mle-combo-low",
+  "title": "PAKEJ MALDIVES COMBO ISLAND",
+  "duration": "4D3N",
+  "version": "v1",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/maldives-combo.html"
+ },
+ "maldives-standard": {
+  "code": "MLE",
+  "package": null,
+  "title": "PAKEJ MALDIVES 4 STAR",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2025-12-03",
+  "url": "https://prod-at22.github.io/catalog-pt-public/maldives-standard.html"
+ },
+ "maldives-water-villa": {
+  "code": "MLE",
+  "package": "mle-water-low",
+  "title": "PAKEJ MALDIVES WATER VILLA",
+  "duration": "4D3N",
+  "version": "v1",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/maldives-water-villa.html"
+ },
+ "medan-lake-toba": {
+  "code": "LTOBA",
+  "package": "emiya",
+  "title": "PRIVATE TOUR MEDAN - LAKE TOBA",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-03-13",
+  "url": "https://prod-at22.github.io/catalog-pt-public/medan-lake-toba.html"
+ },
+ "melbourne-basic": {
+  "code": "MEL",
+  "package": "wae-basic",
+  "title": "PRIVATE TOUR MELBOURNE BASIC",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/melbourne-basic.html"
+ },
+ "melbourne-standard": {
+  "code": "MEL",
+  "package": "wae-standard",
+  "title": "PRIVATE TOUR MELBOURNE STANDARD",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/melbourne-standard.html"
+ },
+ "nz-north-only": {
+  "code": "NSNZ",
+  "package": "arba-to-6d5n-north-st",
+  "title": "SELF TOUR NEW ZEALAND NORTH ISLAND",
+  "duration": "6D5N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-only.html"
+ },
+ "nz-north-south-apartment": {
+  "code": "NSNZ",
+  "package": "arba-to-9d8n-apt",
+  "title": "SELF TOUR (MPV) NEW ZEALAND NORTH & SOUTH ISLAND (APARTMENT)",
+  "duration": "9D8N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south-apartment.html"
+ },
+ "nz-north-south-standard": {
+  "code": "NSNZ",
+  "package": "arba-to-9d8n-std",
+  "title": "SELF TOUR (MPV) NEW ZEALAND NORTH & SOUTH ISLAND",
+  "duration": "9D8N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south-standard.html"
+ },
+ "nz-north-south": {
+  "code": "NSNZ",
+  "package": "arba-to-10d9n-n-s",
+  "title": "PRIVATE TOUR NEW ZEALAND NORTH & SOUTH ISLAND",
+  "duration": "10D9N",
+  "version": "v3",
+  "updated": "2026-03-05",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south.html"
+ },
+ "nz-south-only": {
+  "code": "NSNZ",
+  "package": "arba-to-8d7n-south",
+  "title": "PRIVATE TOUR NEW ZEALAND SOUTH ISLAND",
+  "duration": "8D7N",
+  "version": "v3",
+  "updated": "2026-03-05",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-south-only.html"
+ },
+ "osaka-basic": {
+  "code": "OSK",
+  "package": "wif-basic",
+  "title": "PRIVATE TOUR OSAKA BASIC",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/osaka-basic.html"
+ },
+ "osaka-standard": {
+  "code": "OSK",
+  "package": "ucop-std-wif-std",
+  "title": "PRIVATE TOUR OSAKA STANDARD",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/osaka-standard.html"
+ },
+ "padang-bukittinggi": {
+  "code": "PDG",
+  "package": "herman",
+  "title": "PRIVATE TOUR PADANG - BUKITTINGGI",
+  "duration": "4D3N",
+  "version": "v7",
+  "updated": "2026-08-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/padang-bukittinggi.html"
+ },
+ "perhentian-basic": {
+  "code": "PHT",
+  "package": "shari-la",
+  "title": "PAKEJ PERHENTIAN BASIC",
+  "duration": "3D2N",
+  "version": "v3",
+  "updated": "2026-07-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/perhentian-basic.html"
+ },
+ "perhentian-standard": {
+  "code": "PHT",
+  "package": "mimpi",
+  "title": "PAKEJ PERHENTIAN STANDARD",
+  "duration": "3D2N",
+  "version": "v3",
+  "updated": "2026-07-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/perhentian-standard.html"
+ },
+ "perth-premium": {
+  "code": "PER",
+  "package": "k-n-premium",
+  "title": "PRIVATE TOUR PERTH PREMIUM",
+  "duration": "6D5N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/perth-premium.html"
+ },
+ "perth-standard": {
+  "code": "PER",
+  "package": "k-n-std",
+  "title": "PRIVATE TOUR PERTH STANDARD",
+  "duration": "5D4N",
+  "version": "v3",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/perth-standard.html"
+ },
+ "phu-quoc-4d3n": {
+  "code": "PQC",
+  "package": "ibrahim-4d3n",
+  "title": "PRIVATE TOUR PHU QUOC",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/phu-quoc-4d3n.html"
+ },
+ "phu-quoc-5d4n": {
+  "code": "PQC",
+  "package": "ibrahim-5d4n",
+  "title": "PRIVATE TOUR PHU QUOC",
+  "duration": "5D4N",
+  "version": "v3",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/phu-quoc-5d4n.html"
+ },
+ "phuket-basic": {
+  "code": "PHU",
+  "package": "ktt-ibis-budget-phi-phi-lowseason",
+  "title": "PAKEJ PHUKET BASIC",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-08-05",
+  "url": "https://prod-at22.github.io/catalog-pt-public/phuket-basic.html"
+ },
+ "phuket-standard": {
+  "code": "PHU",
+  "package": "ktt-ibis-standard-lowseason",
+  "title": "PAKEJ PHUKET STANDARD",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-08-05",
+  "url": "https://prod-at22.github.io/catalog-pt-public/phuket-standard.html"
+ },
+ "sabah-kk-kundasang-3d2n": {
+  "code": "KKK",
+  "package": "bahrun-3d-hotel",
+  "title": "PRIVATE TOUR KK - KUNDASANG BASIC",
+  "duration": "3D2N",
+  "version": "v3",
+  "updated": "2026-07-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/sabah-kk-kundasang-3d2n.html"
+ },
+ "sabah-kk-kundasang-4d3n": {
+  "code": "KKK",
+  "package": "bahrun-4d-hotel",
+  "title": "PRIVATE TOUR KK - KUNDASANG STANDARD",
+  "duration": "4D3N",
+  "version": "v3",
+  "updated": "2026-07-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/sabah-kk-kundasang-4d3n.html"
+ },
+ "semporna-basic": {
+  "code": "SEM",
+  "package": "legend-3d-1s",
+  "title": "PAKEJ SEMPORNA BASIC",
+  "duration": "3D2N",
+  "version": "v4",
+  "updated": "2026-08-24",
+  "url": "https://prod-at22.github.io/catalog-pt-public/semporna-basic.html"
+ },
+ "semporna-standard": {
+  "code": "SEM",
+  "package": "legend-4d-1s",
+  "title": "PAKEJ SEMPORNA STANDARD",
+  "duration": "4D3N",
+  "version": "v4",
+  "updated": "2026-08-24",
+  "url": "https://prod-at22.github.io/catalog-pt-public/semporna-standard.html"
+ },
+ "seoul-basic": {
+  "code": "SEL",
+  "package": "atk-bsc",
+  "title": "PRIVATE TOUR SEOUL BASIC",
+  "duration": "5D4N",
+  "version": "v2",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/seoul-basic.html"
+ },
+ "seoul-jeju": {
+  "code": "SELJJU",
+  "package": "atk-std",
+  "title": "PRIVATE TOUR SEOUL - JEJU STANDARD",
+  "duration": "6D5N",
+  "version": "v2",
+  "updated": "2026-08-10",
+  "url": "https://prod-at22.github.io/catalog-pt-public/seoul-jeju.html"
+ },
+ "seoul-standard": {
+  "code": "SEL",
+  "package": "atk-std",
+  "title": "PRIVATE TOUR SEOUL STANDARD",
+  "duration": "5D4N",
+  "version": "v2",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/seoul-standard.html"
+ },
+ "surabaya-bromo-malang": {
+  "code": "SUBB",
+  "package": "pak-jamal-s-b-m",
+  "title": "PRIVATE TOUR SURABAYA - BROMO - MALANG",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/surabaya-bromo-malang.html"
+ },
+ "surabaya-malang": {
+  "code": "SUBB",
+  "package": "pak-jamal-s-m",
+  "title": "PRIVATE TOUR SURABAYA - MALANG",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/surabaya-malang.html"
+ },
+ "switzerland-self-tour": {
+  "code": "SWS",
+  "package": "musafir-arbato-st",
+  "title": "SELF TOUR SWITZERLAND",
+  "duration": "7D6N",
+  "version": "v1",
+  "updated": "2025-12-08",
+  "url": "https://prod-at22.github.io/catalog-pt-public/switzerland-self-tour.html"
+ },
+ "switzerland-standard": {
+  "code": "SWS",
+  "package": "musafir-arbato-pt",
+  "title": "PRIVATE TOUR SWITZERLAND",
+  "duration": "7D6N",
+  "version": "v1",
+  "updated": "2025-12-08",
+  "url": "https://prod-at22.github.io/catalog-pt-public/switzerland-standard.html"
+ },
+ "tokyo-basic": {
+  "code": "HND",
+  "package": "basic",
+  "title": "PRIVATE TOUR TOKYO BASIC",
+  "duration": "5D4N",
+  "version": "v6",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/tokyo-basic.html"
+ },
+ "tokyo-osaka-basic": {
+  "code": "KIX",
+  "package": "wif-bsc",
+  "title": "PRIVATE TOUR TOKYO - OSAKA BASIC",
+  "duration": "7D6N",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/tokyo-osaka-basic.html"
+ },
+ "tokyo-osaka-standard": {
+  "code": "KIX",
+  "package": "qay-ucop-std-wif-std",
+  "title": "PRIVATE TOUR TOKYO - OSAKA STANDARD",
+  "duration": "7D6N",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/tokyo-osaka-standard.html"
+ },
+ "tokyo-standard": {
+  "code": "HND",
+  "package": "standard",
+  "title": "PRIVATE TOUR TOKYO STANDARD",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-09",
+  "url": "https://prod-at22.github.io/catalog-pt-public/tokyo-standard.html"
+ },
+ "turki-klasik-basic": {
+  "code": "TUR",
+  "package": "mytrip-bsc-3star",
+  "title": "PRIVATE TOUR TURKI KLASIK BASIC",
+  "duration": "8D7N",
+  "version": "v1",
+  "updated": "2026-03-06",
+  "url": "https://prod-at22.github.io/catalog-pt-public/turki-klasik-basic.html"
+ },
+ "turki-klasik-std": {
+  "code": "TUR",
+  "package": "mytrip-std-3star",
+  "title": "PRIVATE TOUR TURKI KLASIK STANDARD",
+  "duration": "8D7N",
+  "version": "v1",
+  "updated": "2026-03-06",
+  "url": "https://prod-at22.github.io/catalog-pt-public/turki-klasik-std.html"
+ },
+ "yunnan-3-wilayah-6d5n": {
+  "code": "KMGDL",
+  "package": null,
+  "title": "PRIVATE TOUR YUNNAN 3 WILAYAH",
+  "duration": "6D5N",
+  "version": "v1",
+  "updated": "2026-07-29",
+  "url": "https://prod-at22.github.io/catalog-pt-public/yunnan-3-wilayah-6d5n.html"
+ },
+ "yunnan-4-wilayah": {
+  "code": "KMGDLS",
+  "package": "tourdechina",
+  "title": "PRIVATE TOUR YUNNAN 4 WILAYAH",
+  "duration": "7D6N",
+  "version": "v1",
+  "updated": "2026-07-29",
+  "url": "https://prod-at22.github.io/catalog-pt-public/yunnan-4-wilayah.html"
+ }
+}

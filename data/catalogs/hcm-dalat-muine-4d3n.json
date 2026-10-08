@@ -1,0 +1,309 @@
+{
+ "slug": "hcm-dalat-muine-4d3n",
+ "destination": "HCM-Dalat-Muine",
+ "country": "Vietnam",
+ "code": "DLMNHCM",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR HO CHI MINH - DALAT - MUINE",
+ "duration": "4D3N",
+ "route": "HCM Shopping Tour - Dalat Flower Park - Sand Dunes",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v2",
+ "updated": "2026-03-11",
+ "kb_url": "https://prod-at22.github.io/arba-dalat-kb/",
+ "po": "Ezie",
+ "ops": "ILY",
+ "source_pdf": "Vietnam/HCM-Dalat-Muine/Catalog/PT HCM-DALAT-MUINE 4D3N 2026 (V2).pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "utensils",
+   "label": "Full Board"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 years old and above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-8 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,877",
+     "RM1,677",
+     "RM1,477"
+    ]
+   },
+   {
+    "pax": "3 - 4",
+    "amounts": [
+     "RM1,537",
+     "RM1,337",
+     "RM1,137"
+    ]
+   },
+   {
+    "pax": "5 - 6",
+    "amounts": [
+     "RM1,437",
+     "RM1,237",
+     "RM1,037"
+    ]
+   },
+   {
+    "pax": "7 - 8",
+    "amounts": [
+     "RM1,337",
+     "RM1,137",
+     "RM937"
+    ]
+   },
+   {
+    "pax": "9 - 12",
+    "amounts": [
+     "RM1,237",
+     "RM1,037",
+     "RM837"
+    ]
+   },
+   {
+    "pax": "13 - 15",
+    "amounts": [
+     "RM1,177",
+     "RM977",
+     "RM777"
+    ]
+   }
+  ],
+  "infant": "FOC",
+  "basis": "Price Per Person · 3 Star Fullboard",
+  "pax_label": "Number of Adult"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Entrance Fees (as stated in itinerary)",
+    "Full Meals (3B, 3L, 3D)",
+    "Driving Guide (Malay/English Spoken)",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "JEEP & ATV Activity @ Sand Dunes excluded",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation, Blockout Dates & Last Minute",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge (Additional)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Dalat Hotel: SaiGon's Book Hotel, Peach Valley Hotel",
+    "similar": true,
+    "amounts": [
+     "-"
+    ]
+   },
+   {
+    "type": "3 Star Hotel",
+    "name": "HCM Hotel: Nicecy Boutique Hotel, Queen Central Hotel",
+    "similar": true,
+    "amounts": [
+     "-"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Dalat Hotel: Saigon Dalat Hotel",
+    "similar": true,
+    "amounts": [
+     "Add RM160/person/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "HCM Hotel: Nesta Hotel, Gem Ben Thanh Hotel",
+    "similar": true,
+    "amounts": [
+     "Add RM160/person/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Blockout — Chinese New Year 2027",
+    "period": "17 February - 18 February 2027",
+    "rate": "Blockout date"
+   },
+   {
+    "label": "Last Minute — booking 3 weeks before departure date",
+    "period": "2 pax",
+    "rate": "Additional RM300 per person"
+   },
+   {
+    "label": "Last Minute — booking 3 weeks before departure date",
+    "period": "3 pax & above",
+    "rate": "Additional RM200 per person"
+   },
+   {
+    "label": "Surcharge Travel Date 2027",
+    "period": "January - February 2027",
+    "rate": "Add RM120/pax"
+   }
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival HCM - Transfer to Dalat",
+   "activities": [
+    "Suggested arrival time: 12pm or earlier",
+    "Arrive Tan Son Nhat International Airport (SGN) HCM",
+    "Land transfer to Da Lat (6-8 Hours drive)",
+    "Check In Hotel Dalat"
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3 Star Hotel (Dalat)"
+  },
+  {
+   "day": 2,
+   "title": "Dalat Fullday Tour",
+   "activities": [
+    "Mongo Land (Rainbow Slide Included)",
+    "Flower Park (Largest flower park in Dalat)",
+    "Mei Linh Coffee Garden (Fresh coffee plantation taste)",
+    "Shopping Amee Wholesale (Fashion designer market)",
+    "Datanla Waterfall (Alpine coaster included)",
+    "Railway Station (Experience the thrill train path)",
+    "Return Hotel, Free & Easy"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Dalat)"
+  },
+  {
+   "day": 3,
+   "title": "Muine Fullday Tour",
+   "activities": [
+    "Land transfer to Mui Nee (5 Hours drive)",
+    "White Sand Dunes (The only desert in Southeast Asia)",
+    "Red Sand Dunes (JEEP & ATV Activity @ Sand Dunes optional)",
+    "Fishing Village (Pristine beaches, vibrant fishing boats, and bustling markets)",
+    "Land transfer to HCM (3 Hours drive)",
+    "Stop by Gudang Shopping Telekung, Tudung etc.",
+    "Check in Hotel HCM.",
+    "Free & Easy - Shopping at Malaysia Street & Ben Thanh Market."
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Ho Chi Minh)"
+  },
+  {
+   "day": 4,
+   "title": "HCM - Return KL",
+   "activities": [
+    "Suggested departure time: 3pm & before",
+    "Free & Easy - Shopping Ben Thanh Market",
+    "Transfer to Tan Son Nhat International Airport (SGN)"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "map-pin",
+   "title": "Attraction Places",
+   "body": "Attraction places may require a long journey to reach, 3 to 8 hours on some days."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Prepare for Weather",
+   "body": "Rainy (May - Oct). Sunny (Nov - Apr)."
+  },
+  {
+   "icon": "utensils",
+   "title": "Full Board Meals",
+   "body": "Meals are already included in the package. If you choose not to consume them, no refund will be provided."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lot of Walking",
+   "body": "Some attraction places will require a lot of walking."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel Locations",
+   "body": "Will prioritize near to city centre first. If not available, hotel location will be just outside the city center."
+  },
+  {
+   "icon": "luggage",
+   "title": "Luggage Allocations",
+   "body": "Please bring max 1 luggage for 1 pax as it will affect the car capacity."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Price for Single Supplement: RM240/pax.",
+    "All itinerary, flight, price or quotation is subject to changes.",
+    "Late Booking Surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
+    "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
+    "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
+    "Final itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting flights.",
+    "Any free activities is non exchangeable with other activities, voucher or cash if the client not joining or due to availability & weather condition."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

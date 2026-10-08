@@ -1,0 +1,278 @@
+{
+ "slug": "surabaya-malang",
+ "destination": "Surabaya-Malang",
+ "country": "Indonesia",
+ "code": "SUBM",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR SURABAYA - MALANG",
+ "duration": "4D3N",
+ "route": "Surabaya - Malang",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v2",
+ "updated": "2026-03-01",
+ "kb_url": "https://prod-at22.github.io/arba-surabaya-bromo-malang-kb/",
+ "po": "Ezie",
+ "ops": "CIK IWAN",
+ "source_pdf": "Indonesia/Surabaya-Bromo-Malang/Catalog/PT SURABAYA-MALANG 4D3N v2.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,457",
+     "RM1,257",
+     "RM1,057"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM1,397",
+     "RM1,197",
+     "RM997"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM1,397",
+     "RM1,197",
+     "RM997"
+    ]
+   },
+   {
+    "pax": "6 - 7",
+    "amounts": [
+     "RM1,297",
+     "RM1,097",
+     "RM897"
+    ]
+   },
+   {
+    "pax": "8 - 10",
+    "amounts": [
+     "RM1,257",
+     "RM1,057",
+     "RM857"
+    ]
+   }
+  ]
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Entrance Fees as per itinerary",
+    "International Breakfast at Accomodation",
+    "Tipping Fee, Parking Fee",
+    "Airport Transfer",
+    "Private Driver cum Guide"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours",
+    "Personal Expenses",
+    "Travel Insurance",
+    "Lunch & Dinner"
+   ]
+  }
+ ],
+ "surcharge": {
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "21-31 Dec 2025, 1-5 Jan 2026 · 15-30 Mar 2026, 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Surabaya: The Alana",
+    "amounts": [
+     "-",
+     "RM130/pax/night"
+    ]
+   },
+   {
+    "type": "3 Star Hotel",
+    "name": "Malang: Aston Inn Batu",
+    "amounts": [
+     "-",
+     "RM130/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Surabaya: Goldvitel Hotel",
+    "amounts": [
+     "Add RM85/pax/night",
+     "RM180/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Malang: Regent Park Hotel",
+    "amounts": [
+     "Add RM85/pax/night",
+     "RM180/pax/night"
+    ]
+   }
+  ],
+  "notes": [
+   "Proper bed for triple sharing / Family room only available at 4 star Hotel subject to availability.",
+   "Extra bed available for 3 Star Hotel."
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Surabaya - Batu",
+   "activities": [
+    "Please arrive between 11.00am-12.00pm",
+    "Airport Pick-up",
+    "Monumen Tugu Pahlawan",
+    "Alun-alun Surabaya",
+    "Heading to Masjid Tiban",
+    "Free and Easy",
+    "Check-in Hotel Malang"
+   ],
+   "transport": "Private Transport",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Batu - Malang",
+   "activities": [
+    "Heading to Air Terjun Coban Rondo",
+    "Visit Taman Bunga Santera De Lanponte",
+    "Ladang Apple & Shopping Apple Strudel",
+    "Heading to Museum Angkut",
+    "Shopping Ole-ole",
+    "Back to Hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Malang - Surabaya",
+   "activities": [
+    "Check-out Hotel",
+    "Visit Jatim Park 2",
+    "Shopping Ole-ole",
+    "Heading to Surabaya",
+    "Masjid Agung Surabaya",
+    "Visit Makam Sunan Ampel (Walisongo)",
+    "Check-in Hotel Surabaya"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Depature To Kul",
+   "activities": [
+    "Check-out Hotel",
+    "Transfer to Airport",
+    "Flight SUB to KUL"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "utensils",
+   "title": "Local Food",
+   "body": "Meals dining at local restaurant."
+  },
+  {
+   "icon": "hotel",
+   "title": "3 Star Hotel",
+   "body": "For triple sharing, only extra bed available."
+  },
+  {
+   "icon": "bus",
+   "title": "Transportation",
+   "body": "Please bring max 1 luggage for 1 pax as it will affect car capacity."
+  },
+  {
+   "icon": "footprints",
+   "title": "Shoes",
+   "body": "Please wear suitable shoes in Coban Rondo Waterfall as the roadway is slippery."
+  },
+  {
+   "icon": "info",
+   "title": "Santerra De Laponte",
+   "body": "Only entrance fee included. Additional ride or slides fee excluded."
+  },
+  {
+   "icon": "map-pin",
+   "title": "Land Transfer",
+   "body": "Land transfer from Surabaya to Malang about 1 hour and 45 minutes."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single Supplement: additional RM500 per person (only applicable for 3 Star Hotel).",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flight."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

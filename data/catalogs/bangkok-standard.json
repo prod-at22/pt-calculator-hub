@@ -1,0 +1,305 @@
+{
+ "slug": "bangkok-standard",
+ "destination": "Bangkok",
+ "country": "Thailand",
+ "code": "BKK",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR BANGKOK STANDARD",
+ "duration": "4D3N",
+ "route": "Mae Klong Railway Market - Damnoen Saduak Floating Market - Grand Palace - Chatuchak Market - Siam Paragon - Pratunam Market",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 March 2027",
+ "version": "v3",
+ "updated": "2026-07-01",
+ "kb_url": "https://prod-at22.github.io/bangkok-kb/",
+ "po": "Fyka",
+ "ops": "CIK IWAN",
+ "source_pdf": "Thailand/Bangkok/Catalog/PT BANGKOK STANDARD (4D3N) 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driver"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,597",
+     "RM1,497",
+     "RM1,397"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM1,397",
+     "RM1,297",
+     "RM1,197"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM1,297",
+     "RM1,197",
+     "RM1,097"
+    ]
+   },
+   {
+    "pax": "6 - 10",
+    "amounts": [
+     "RM1,197",
+     "RM1,097",
+     "RM997"
+    ]
+   }
+  ]
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Airport Transfer from BKK or DMK",
+    "3 Star Hotel for 3 Nights",
+    "Daily International Breakfast at Hotel",
+    "Private Transportation & Driver",
+    "Entrance Fee Based on Itinerary",
+    "Tipping"
+   ],
+   "excludes": [
+    "Private Driver & Guide is based on 12 hours basis; additional fees apply for every extra hour",
+    "Flight Ticket",
+    "Personal Insurance",
+    "Personal Expenses",
+    "Excess Baggage Fee",
+    "Additional Meal",
+    "Optional activity"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kuala Lumpur - Bangkok",
+   "activities": [
+    "Pickup at BKK / DMK Airport",
+    "Chocolate Ville",
+    "Shopping at Ramkhamhaeng Night Market",
+    "Check in"
+   ],
+   "transport": "Private Transport",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Bangkok & Maeklong",
+   "activities": [
+    "Breakfast at hotel",
+    "Mae Klong Railway Market",
+    "Damnoen Saduak Floating Market (add-on long tail boat: RM280 per boat)",
+    "Ton Son Mosque Bangkok",
+    "Asiatique",
+    "Chao Phraya halal dinner cruise (optional)"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Bangkok City",
+   "activities": [
+    "Breakfast at Hotel",
+    "The Grand Palace OR Wat Arun Temple",
+    "Chatuchak Market (World Largest Weekend Market)",
+    "Siam Paragon",
+    "Lumpini Park",
+    "Pratunam Market",
+    "OR Kanchanaburi Safari Park Full Day Tour (Add On: RM160 per pax, 3 hours one way journey)",
+    "OR Safari World Bangkok Half Day Tour (Add On: RM150 per pax)",
+    "OR Pattaya Full Day Tour (Add: RM80 per pax, 2-3 hours one way journey)"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Bangkok Airport",
+   "activities": [
+    "Breakfast",
+    "Check out",
+    "Airport transfer"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Personal Expense",
+   "body": "Items not stated in the itinerary are at customers' own expense. Eg: Giraffe Encounter, Sunflower field, Long Tail Boat."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Prepare cash if you plan to shop at Night market. Cards and QR are not available at some shops and street stalls."
+  },
+  {
+   "icon": "bus",
+   "title": "Driver & Transport",
+   "body": "Transport is on 12 hours basis. Extra hours will be charged 500THB/Hour."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lots of Walking",
+   "body": "Expect lots of walking during trips to Safari, Shopping at Night Market, Temple and City Tour."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Wet Season",
+   "body": "November - Feb are wet season in Bangkok. Prepare suitable attire for possible rains."
+  },
+  {
+   "icon": "bed",
+   "title": "Triple Room Bed",
+   "body": "Triple sharing room with 3 single beds will be provided based on availability. Extra bed will be added if no triple bed available on travel period."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals not provided during the trip (Lunch and Dinner). The driver will drop you off at a local Thai or Malay restaurant. The cost of the meals will be at your own expense. Breakfast is included and will be served as a buffet at the hotel."
+  },
+  {
+   "icon": "shopping-bag",
+   "title": "Market",
+   "body": "Ramkhamhaeng: open daily. Pratunam: open daily. Chatuchak: weekend only."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room (Additional RM450/person for Single Supplement).",
+    "Price is not applicable during peak seasons; please refer to the peak season surcharge.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "This package is valid until 31st March 2027 travel period.",
+    "Private Transportation & Tour Guide is based on 12 hours basis. Additional fees will be charged for every extra hour usage. Payment must be made in cash.",
+    "Quotation, consequence of itinerary and price are subject to change accordingly.",
+    "Final itinerary and hotel arrangements will be confirmed at least 15 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flights."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Peak Season",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "20 Dec 2026 - 5 Jan 2027 (Christmas & New Year) · 5 - 7 Feb 2027 (Chinese New Year) · 13 - 15 April 2027 (Songkran Festival)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Almas Hotel / Regent Ramkhamhaeng Hotel",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM80/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Nouvo City Hotel",
+    "similar": true,
+    "amounts": [
+     "RM50/pax/night",
+     "RM80/pax/night"
+    ]
+   },
+   {
+    "type": "5 Star Hotel",
+    "name": "Al-Meroz Hotel",
+    "similar": true,
+    "amounts": [
+     "RM60/pax/night",
+     "RM80/pax/night"
+    ]
+   }
+  ]
+ },
+ "addons": [
+  {
+   "title": "Add On Tour",
+   "entries": [
+    {
+     "name": "Pattaya Beach Tour",
+     "includes": "Pattaya Town, Hard Rock Cafe Pattaya",
+     "duration": "2-3 Hours Journey from Bangkok",
+     "price_lines": [
+      "RM80/pax"
+     ]
+    },
+    {
+     "name": "Kanchanaburi + Safari Park Kanchanaburi (Including Ticket)",
+     "includes": "Safari World Kanchanaburi Admission, River Kwai, Sunflower Field (December - February only, entrance fee not included)",
+     "excludes": "Giraffe Encounter (add RM135/pax)",
+     "duration": "2-3 Hours Journey from Bangkok",
+     "price_lines": [
+      "RM160/pax"
+     ]
+    },
+    {
+     "name": "Safari World Bangkok (Including ticket)",
+     "includes": "Safari Park Admission, Marine Park Admission, Shopping in Bangkok after finishing Safari World tour",
+     "duration": "45 minutes Journey from Bangkok",
+     "price_lines": [
+      "RM150/pax"
+     ]
+    }
+   ]
+  }
+ ]
+}

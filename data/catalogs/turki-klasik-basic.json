@@ -1,0 +1,454 @@
+{
+ "slug": "turki-klasik-basic",
+ "destination": "Turki Klasik",
+ "country": "Turki",
+ "code": "TUR",
+ "tier": "Basic",
+ "tier_code": "BSC",
+ "title": "PRIVATE TOUR TURKI KLASIK BASIC",
+ "duration": "8D7N",
+ "route": "Istanbul - Bolu - Ankara - Cappadocia - Konya - Pamukkale - Bursa",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2026-03-06",
+ "kb_url": "https://prod-at22.github.io/arba-turki-kb/",
+ "po": "Acap",
+ "ops": "ILY",
+ "source_pdf": "Turki/Turki Klasik/Catalog/PT TURKI CLASSIC BASIC 8D7N 2026.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult"
+   },
+   {
+    "label": "Child with Bed",
+    "age": "7-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-6 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM6,297",
+     "RM6,097",
+     "RM5,897"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM5,697",
+     "RM5,497",
+     "RM5,297"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM5,597",
+     "RM5,397",
+     "RM5,197"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM5,297",
+     "RM5,097",
+     "RM4,897"
+    ]
+   },
+   {
+    "pax": "6",
+    "amounts": [
+     "RM3,997",
+     "RM3,797",
+     "RM3,597"
+    ]
+   },
+   {
+    "pax": "7",
+    "amounts": [
+     "RM3,497",
+     "RM3,297",
+     "RM3,097"
+    ]
+   },
+   {
+    "pax": "8",
+    "amounts": [
+     "RM3,297",
+     "RM3,097",
+     "RM2,897"
+    ]
+   },
+   {
+    "pax": "9",
+    "amounts": [
+     "RM2,797",
+     "RM2,597",
+     "RM2,397"
+    ]
+   }
+  ],
+  "infant": "RM200 per pax"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Accomodation (Hotel)",
+    "Private Transport",
+    "Tourist Guide: (English Spoken)",
+    "International Breakfast at Hotel",
+    {
+     "text": "Entrance fees",
+     "sub": [
+      "Cotton Castle",
+      "Boshphorus Cruise"
+     ]
+    },
+    "Tipping Fee for driver and tour guide"
+   ],
+   "excludes": [
+    "Personal Expenses",
+    "Additional Meal",
+    "Travel Insurance",
+    "Fees for optional activities",
+    "Porter fee",
+    "Hagia Sophia Mosque",
+    "Topkapi Palace Tour"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Istanbul - Bolu",
+   "activities": [
+    "Airport pickup",
+    "Transfer to Bolu",
+    "Check in Bolu hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "-",
+   "hotel": "3-Star Bolu"
+  },
+  {
+   "day": 2,
+   "title": "Bolu - Ankara - Cappadocia",
+   "activities": [
+    "Transfer to Ankara",
+    "Ataturk Mausoleum",
+    "Salt Lake",
+    "Transfer to Cappadocia",
+    "Check in Cappadocia hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Cappadocia"
+  },
+  {
+   "day": 3,
+   "title": "Cappadocia",
+   "activities": [
+    "Uchisar Castle",
+    "Love Valley",
+    "Pottery Ceramic Workshop",
+    "Zelve Open Air Museum",
+    "Pasabag Fairy Chimneys Valley",
+    "Devrent Valley"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Cappadocia"
+  },
+  {
+   "day": 4,
+   "title": "Cappadocia - Konya - Pamukkale",
+   "activities": [
+    "Transfer to Konya",
+    "Visit Sultanhani Caravanserai",
+    "Mevlana Museum",
+    "Transfer to Pamukkale",
+    "Check in Pamukkale hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Pamukkale"
+  },
+  {
+   "day": 5,
+   "title": "Pamukkale - Bursa",
+   "activities": [
+    "Cotton Castle",
+    "Ancient City Pamukkale",
+    "Transfer to Bursa",
+    "Check in Bursa hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Bursa"
+  },
+  {
+   "day": 6,
+   "title": "Bursa - Istanbul",
+   "activities": [
+    "Grand Mosque of Bursa",
+    "Kozahan",
+    "Green Mosque",
+    "Tombs of Osman Gazi and Orhan Gazi",
+    "Tophane Clock Tower",
+    "Transfer to Istanbul",
+    "Check in Istanbul hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Istanbul"
+  },
+  {
+   "day": 7,
+   "title": "Istanbul",
+   "activities": [
+    "Topkapi Palace (photo stop)",
+    "Hagia Sophia Mosque (photo stop)",
+    "Blue Mosque",
+    "Grand Bazaar"
+   ],
+   "transport": "Tram",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Istanbul"
+  },
+  {
+   "day": 8,
+   "title": "Istanbul",
+   "activities": [
+    "Check out hotel",
+    "Bosphorus Cruise",
+    "Spice Bazaar",
+    "Airport transfer (after 2PM)"
+   ],
+   "transport": "Tram",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "luggage",
+   "title": "Private Transport",
+   "body": "Please bring a maximum of 1 luggage per person, as it will affect car capacity."
+  },
+  {
+   "icon": "bus",
+   "title": "Long Journey",
+   "body": "From one city to another, it will take a maximum of 8-9 hours."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel",
+   "body": "5 hotel check-ins. Stay organised to minimise hassle!"
+  },
+  {
+   "icon": "altitude",
+   "title": "Stairs",
+   "body": "Cave hotels may have stairs inside."
+  },
+  {
+   "icon": "utensils",
+   "title": "Breakfast",
+   "body": "Only breakfast is provided."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lots of Walking",
+   "body": "Especially in Istanbul (pedestrian zone) and Hierapolis, Pamukkale."
+  },
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary",
+   "body": "Must be paid by customers, e.g. entrance fees, shopping, etc."
+  },
+  {
+   "icon": "train",
+   "title": "Public Transport",
+   "body": "1 full day using the tram in Istanbul city centre."
+  },
+  {
+   "icon": "guide",
+   "title": "Tour Guide",
+   "body": "10-11 hours basis. Will be charged for each extra hour."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM1,000/person.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "This package is valid until the 31st December 2026 travel period.",
+    "Private transportation & driving guide is based on 10-11 hours basis.",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "accommodation": [
+  {
+   "city": "Bolu",
+   "stars": 3,
+   "name": "Elifim Resort Hotel",
+   "similar": true
+  },
+  {
+   "city": "Cappadocia",
+   "stars": 3,
+   "name": "My Cave Hotel",
+   "similar": true
+  },
+  {
+   "city": "Pamukkale",
+   "stars": 3,
+   "name": "Mellrose Viewpoin Suites",
+   "similar": true
+  },
+  {
+   "city": "Bursa",
+   "stars": 3,
+   "name": "Kervansaray City Hotel",
+   "similar": true
+  },
+  {
+   "city": "Istanbul",
+   "stars": 3,
+   "name": "Ramada Pera Hotel",
+   "similar": true
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Travel Date 2026",
+  "seasons": [
+   {
+    "label": "Peak Season",
+    "period": "1 Sept 2026 - 30 Nov 2026",
+    "rate": "Additional 10% per pax"
+   }
+  ]
+ },
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Jeep Tour (min 2 pax)",
+     "includes": "Jeep tour, professional guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 3-4 hours",
+     "price_lines": [
+      "RM257/pax"
+     ]
+    },
+    {
+     "name": "ATV Tour",
+     "includes": "ATV ride, guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 1-2 hours",
+     "price_lines": [
+      "RM227/pax"
+     ]
+    },
+    {
+     "name": "Whirling Dervishes",
+     "includes": "Entrance, performance show",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour show",
+     "price_lines": [
+      "RM227/pax"
+     ]
+    },
+    {
+     "name": "Turkish Night",
+     "includes": "Dinner, cultural performance (dance, music)",
+     "excludes": "Alcoholic beverages, personal expenses",
+     "duration": "3-4 hours",
+     "price_lines": [
+      "RM297/pax"
+     ]
+    },
+    {
+     "name": "Horse Riding",
+     "includes": "Horse ride, instructor",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM257/pax"
+     ]
+    },
+    {
+     "name": "Bosphorus Dinner Cruise",
+     "includes": "Dinner, cruise along the Bosphorus, entertainment",
+     "excludes": "Alcoholic drinks, personal expenses",
+     "duration": "2-3 hours",
+     "price_lines": [
+      "RM297/pax"
+     ]
+    },
+    {
+     "name": "Hot Air Balloon Tour",
+     "includes": "Balloon ride, guide, insurance",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour flight (additional time for preparation)",
+     "price_lines": [
+      "Price varies",
+      "seasonally"
+     ]
+    },
+    {
+     "name": "Topkapi Palace Entrance",
+     "includes": "Main Palace, Harem section, and Hagia Irene Church",
+     "excludes": "Guided tour, food/drinks, and personal expenses",
+     "duration": "3-4 hours (recommended)",
+     "price_lines": [
+      "RM277/pax"
+     ]
+    }
+   ],
+   "notes": [
+    "Hot Air Balloon is an optional activity and will be conducted on day 3 or day 4 depending on the weather. It will be conducted at sunrise and will not interrupt the scheduled itinerary.",
+    "Actual visit time will depend on the weather of the day, and the day's program can be rearranged according to the opening hours of the places visited."
+   ]
+  }
+ ]
+}

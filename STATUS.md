@@ -1,4 +1,4 @@
-# Status & handoff (8 Oct 2026, data v26)
+# Status & handoff (8 Oct 2026, data v26, Catalog Details)
 
 Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
@@ -29,7 +29,19 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - TO Contract Rate tab: files in contracts/<code>/ listed in data.json `contracts`. Uploading from the page needs
   login, which is still not set up (data/users.json empty) — files so far were committed directly.
 
-## Where each destination's cost comes from
+## Catalog content (Catalog Details tab)
+- data/catalogs/<slug>.json = every catalog-pt-public catalog (67), copied unchanged from Catalog PT
+  (Drive "Catalog PT (new)/catalogs", same schema) by tools/import_catalogs.py — a one-off reverse import.
+  data/catalogs/index.json links slug → destination/package (MAP in crosscheck.py); 64 linked, not linked:
+  ho-chi-minh, maldives-standard, yunnan-3-wilayah-6d5n (no calculator package).
+- Destination page tab **Catalog Details**: the selected package's catalog — prices as printed, includes /
+  excludes, surcharge, accommodation, itinerary, add-ons, what to expect, notes, deposit; links to the public page/PDF.
+- Direction from now: the costing hub is the source; Catalog PT should mirror it (build.py reading
+  data/catalogs/ from this repo instead of its own catalogs/). NOT done yet — Catalog PT still builds from its
+  own copy, so until it is switched, a change must go to both (or re-run import_catalogs.py after editing Catalog PT).
+- Not editable on the page yet (read-only view); prices shown are the catalog's, the Costing tab keeps its own.
+
+
 - R&D sheets (tools/extract_rd.py) for everything except below.
 - **SEL** Basic/Standard: ATK CR 2026 in KRW × 0.0030 (tools/build_sel.py, reads contracts/sel/…KRW.xlsx via
   tools/korea_cr.py); Seoul add-ons from ProdReq Korea §7–8. Self Tour = R&D.

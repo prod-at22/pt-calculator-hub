@@ -1,0 +1,350 @@
+{
+ "slug": "aceh-sabang",
+ "destination": "Aceh-Sabang",
+ "country": "Indonesia",
+ "code": "ACHSBG",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR ACEH + SABANG",
+ "duration": "5D4N",
+ "route": "Banda Aceh - Sabang Island - Dolphin Tour - Rubiah Island",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 January 2027",
+ "version": "v2",
+ "updated": "2026-03-01",
+ "kb_url": "https://prod-at22.github.io/arba-aceh-kb/",
+ "po": "Fyka",
+ "ops": "ILY",
+ "source_pdf": "Indonesia/Aceh/Catalog/PT ACEH SABANG 3 STAR (5D3N) 2026 v2.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "11 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-10 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,597",
+     "RM1,037",
+     "RM877"
+    ]
+   },
+   {
+    "pax": "3 - 5",
+    "amounts": [
+     "RM1,557",
+     "RM1,017",
+     "RM857"
+    ]
+   },
+   {
+    "pax": "6 - 10",
+    "amounts": [
+     "RM1,497",
+     "RM997",
+     "RM847"
+    ]
+   },
+   {
+    "pax": "11 - 15",
+    "amounts": [
+     "RM1,457",
+     "RM977",
+     "RM837"
+    ]
+   }
+  ],
+  "pax_label": "Group of"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "4 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation (12 hours basis)",
+    "Entrance Fees",
+    "Full Meals",
+    "Tipping Fee, Parking Fee",
+    "Airport Transfer",
+    "Return Ferry Ticket",
+    "Snorkelling Gear",
+    "Dolphin Trip",
+    "Private Driver & Tour Guide"
+   ],
+   "excludes": [
+    "Extra hour Transport & Tour Guide 150,000 IDR/hour",
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kul - Banda Aceh",
+   "activities": [
+    "(Please arrive between 10.00am-11.00am )",
+    "Airport Pick-up",
+    "Coffee drinks at Sawah Padi",
+    "Sunset at Ulee Lheu Beach & Masjid Baiturrahim",
+    "Check-in Hotel",
+    "Free & Easy"
+   ],
+   "transport": "Private Transport",
+   "meals": "Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Sabang Island Tour",
+   "activities": [
+    "Ferry ride from Ulee Lheu Jetty to Balohan",
+    "Photostop at Anoi Itam & Pantai Sumur Tiga",
+    "Danau Anuek Laot & Tugu Sabang Fair",
+    "Nol Kilometer",
+    "Pantai Iboih to Pulau Rubiah (Snorkelling)",
+    "Shopping at Toko Souvenir",
+    "Check-in Freddies Hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Aceh City Tour + Shopping",
+   "activities": [
+    "Dolphin Trip (around 7.00 am)",
+    "Breakfast at Hotel",
+    "Check-out Hotel",
+    "Ferry Ride from Balohan Jetty to Banda Aceh",
+    "Masjid Baiturrahman",
+    "PLTD Apung",
+    "Museum Tsunami",
+    "Shopping at Pasar Aceh & Toko Souvenir"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Aceh Heritage Site",
+   "activities": [
+    "Breakfast at Hotel",
+    "Taman Gunongan",
+    "Kubah Masjid Terapung",
+    "Rumah Tjut Nyak Dhien",
+    "Lunch at Pantai Lampuuk",
+    "Ship on House",
+    "Makam Ulama Besar Aceh"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 5,
+   "title": "Depature To Kul",
+   "activities": [
+    "Check-out Hotel",
+    "Airport Transfer",
+    "Flight BTJ to KUL"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals provided will be Breakfast, Lunch and Dinner Halal Indonesia meals at local restaurant. Breakfast at Hotel will be continental breakfast."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival / Departure",
+   "body": "Arrival on 1st & Last day must follow the itinerary. For Late Arrival & Early Departure there will be no Refund. Any extra hour/tour required must be added 45 days before departure date."
+  },
+  {
+   "icon": "hotel",
+   "title": "Double Sharing Room",
+   "body": "3-star hotel only offers double-sharing rooms as standard. If you require a triple-sharing room, extra bed will be provided."
+  },
+  {
+   "icon": "bed",
+   "title": "Hotel at Freddies Sabang",
+   "body": "Accommodation at Freddies, Sabang Island is a 3 star Hotel, and this hotel comes with fan only without Air-conditioner. Accommodation with Aircond only available at Sabang Town."
+  },
+  {
+   "icon": "bus",
+   "title": "Transportation",
+   "body": "2 - 4 pax (Avanza), 5 - 6 pax (Innova), 7 - 12 pax (Hiace). Transport & Guide - 12 Hours Basis. Extra Tour has extra charge."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single Supplement: additional RM250 per person.",
+    "This package is valid until 31st January 2027 travel period.",
+    "Private Driver & Guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be made in cash.",
+    "Itinerary, Price, and Flight are subject to change accordingly.",
+    "Final Itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flight."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Peak Season",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "22 Dec 2025 - 5 Jan 2026 · 15 - 30 Mar 2026 · 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Grand Nanggroe",
+    "amounts": [
+     "-",
+     "RM50/person/night"
+    ]
+   },
+   {
+    "type": "3 Star Hotel",
+    "name": "Oasis Hotel",
+    "amounts": [
+     "-",
+     "RM50/person/night"
+    ]
+   },
+   {
+    "type": "3 Star Hotel",
+    "name": "Freddies Hotel",
+    "amounts": [
+     "-",
+     "RM50/person/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Grand Arabiya",
+    "amounts": [
+     "Add RM50/person/night",
+     "RM50/person/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Kyriad Hotel",
+    "amounts": [
+     "Add RM50/person/night",
+     "RM50/person/night"
+    ]
+   },
+   {
+    "type": "5 Star Hotel",
+    "name": "Hermes Palace Hotel",
+    "amounts": [
+     "Add RM90/person/night",
+     "RM50/person/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "January - June",
+    "period": "Travel date 2026",
+    "rate": "Additional RM50/pax"
+   }
+  ],
+  "notes": [
+   "Proper bed for triple sharing / Family room only available at 4 star Hotel subject to availability.",
+   "Extra Rollaway bed available for 3 Star Hotel."
+  ]
+ },
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Ujung Kelindu",
+     "includes": "Transport to Ujung Kelindu (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ]
+    },
+    {
+     "name": "Pantai Pasir Putih Lhok Mee",
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM277/Transport"
+     ]
+    },
+    {
+     "name": "Pantai Lhok Seudu",
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ]
+    },
+    {
+     "name": "Masjid Keuchik Leumik",
+     "includes": "Private Transfer (Max. 4 pax)",
+     "excludes": "Meals & Personal expenses",
+     "price_lines": [
+      "RM257/Transport"
+     ]
+    }
+   ]
+  }
+ ]
+}

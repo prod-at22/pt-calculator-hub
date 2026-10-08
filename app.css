@@ -186,3 +186,28 @@ table.ref tbody td{min-width:96px;max-width:130px;line-height:1.35;white-space:n
 table.ref tbody tr:last-child td{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;border-bottom:0}
 table.ref tbody tr:last-child th{border-bottom:0}
 table.ref .rr-fx{border-left:1px solid var(--line)}
+
+/* catalog details */
+.cd .body{display:flex;flex-direction:column;gap:18px}
+.cd-sec h3{font-size:13px;margin:0 0 8px;color:var(--ink)}
+.cd-sec h3 .muted{font-weight:500;font-size:12px}
+.cd-sec h4{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:10px 0 4px}
+.cd-chips{display:flex;gap:6px;flex-wrap:wrap}
+.cd-list{margin:4px 0 0;padding-left:18px;font-size:13px;line-height:1.5}
+.cd-list ul{padding-left:16px;color:var(--ink-soft)}
+.cd-two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:700px){.cd-two{grid-template-columns:1fr}}
+.cd-lbl{font-weight:600;font-size:12.5px;margin-top:6px}
+.cd-t{border-collapse:collapse;font-size:13px;width:100%}
+.cd-t th{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);padding:7px 10px;border-bottom:1px solid var(--line);text-align:center;vertical-align:bottom}
+.cd-t td{padding:7px 10px;border-bottom:1px solid #eef0f3;text-align:center;vertical-align:top;line-height:1.45}
+.cd-t .l{text-align:left}
+.cd-t .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.cd-t tbody tr:last-child td{border-bottom:0}
+.cd-age{display:block;text-transform:none;letter-spacing:0;font-weight:500}
+.cd-itin td.cd-day{font-weight:700;color:var(--navy);width:40px}
+.cd-itin .cd-list{margin-top:4px}
+.cd-price{white-space:nowrap;font-variant-numeric:tabular-nums;width:1%}
+.cd-acc{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px 18px;font-size:13px;line-height:1.45}
+.cd-note{font-size:12px;color:var(--ink-soft);margin-top:6px}
+.cd h2 .btn{padding:3px 10px;font-size:12px}

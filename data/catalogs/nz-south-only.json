@@ -1,0 +1,400 @@
+{
+ "slug": "nz-south-only",
+ "destination": "New Zealand South",
+ "country": "New Zealand",
+ "code": "SNZ",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR NEW ZEALAND SOUTH ISLAND",
+ "duration": "8D7N",
+ "route": "Christchurch - Tekapo - Queenstown - Milford Sound - Te Anau - Dunedin - Oamaru",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 March 2027",
+ "version": "v3",
+ "updated": "2026-03-05",
+ "kb_url": "https://prod-at22.github.io/arba-newzealand-kb/",
+ "po": "Acap",
+ "ops": "ATIQAH",
+ "source_pdf": "New Zealand/Catalog/PT NEW ZEALAND SOUTH ONLY 8D7N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "info",
+   "label": "Standard"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM12,997",
+     "RM12,797",
+     "RM12,597"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM10,197",
+     "RM9,997",
+     "RM9,797"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM9,797",
+     "RM9,597",
+     "RM9,397"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM9,197",
+     "RM8,997",
+     "RM8,797"
+    ]
+   },
+   {
+    "pax": "6",
+    "amounts": [
+     "RM8,797",
+     "RM8,597",
+     "RM8,397"
+    ]
+   },
+   {
+    "pax": "7",
+    "amounts": [
+     "RM8,197",
+     "RM7,997",
+     "RM7,797"
+    ]
+   },
+   {
+    "pax": "8 - 10",
+    "amounts": [
+     "RM7,797",
+     "RM7,597",
+     "RM7,397"
+    ]
+   }
+  ],
+  "infant": "RM1,000"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Accommodation (3 Star Hotel/Motel)",
+    "Private Transportation",
+    "Private Airport Transfer",
+    "Tipping",
+    "Driving Guide (Malay/English Speaker)",
+    "Fuel & Parking Fee",
+    "Welcome Lunch 1x",
+    "High Country Salmon Farm",
+    "NZ-ETA Application - Complementary 1x Application for Malaysian Citizen"
+   ],
+   "excludes": [
+    "International Flight",
+    "Personal Expenses",
+    "Meals (Breakfast, Lunch, Dinner)",
+    "Optional Activity",
+    "Personal Travel Insurance",
+    "Internet/Roaming Facilities",
+    "NZ-ETA Re-Application or Application for Non-Malaysian Citizen",
+    "Extra baggage for domestic flight"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival Christchurch",
+   "activities": [
+    "Arrival at Christchurch Airport",
+    "Meet & Greet with ARBA Driver Guide",
+    "Welcome Lunch from ARBA",
+    "Riverside Market",
+    "Check-in hotel in Christchurch & rest"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "Lunch",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Christchurch - Lake Tekapo",
+   "activities": [
+    "Check-out Hotel",
+    "Transfer to Tekapo",
+    "Lake Tekapo & Lake Pukaki",
+    "Twizel Canal",
+    "High Country Salmon Farm (Included)",
+    "Check-in Hotel/Motel in Twizel"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "Lunch",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Tekapo - Te Anau",
+   "activities": [
+    "Check-out Hotel",
+    "Transfer to Wanaka",
+    "Wanaka Lake",
+    "Transfer to Te Anau",
+    "Check-in Hotel in Te Anau & Rest"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Te Anau - Milford Sound - Queenstown",
+   "activities": [
+    "Check-out Hotel",
+    "Transfer to Milford Sound",
+    "Milford Sound Cruise (Optional)",
+    "Eglinton Valley",
+    "Mirror Lake",
+    "Transfer to Queenstown",
+    "Check-in Hotel in Queenstown"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 5,
+   "title": "Queenstown City Tour",
+   "activities": [
+    "Transfer to Glenorchy",
+    "Glenorchy Wharf & View Point",
+    "Transfer to Queenstown",
+    "Queenstown Central Shopping Area",
+    "Back to Hotel & Rest"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 6,
+   "title": "Queenstown - Dunedin",
+   "activities": [
+    "Check-out Hotel",
+    "Skyline Gondola at Queenstown (Optional)",
+    "Transfer to Dunedine",
+    "Larnach Castle (Add On)",
+    "Check-in Hotel in Dunedin & rest"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 7,
+   "title": "Dunedine - Timaru - Christchurch",
+   "activities": [
+    "Check-out Hotel",
+    "Transfer to Timaru",
+    "Caroline Bay Beach",
+    "Transfer to Christchurch",
+    "Shopping at Christchurch",
+    "Check-in Hotel in Christchurch & Rest"
+   ],
+   "transport": "Private Transport + Driver Guide",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 8,
+   "title": "Airport Transfer To Christchurch",
+   "activities": [
+    "Check-out hotel",
+    "Transfer to Christchurch Airport",
+    "Airport Drop Off",
+    "End of Tour"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "-",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "map-pin",
+   "title": "Road Closure",
+   "body": "New Zealand often experiences road closures. Alternative routes may take more time, so please follow the Driver Guide on timing management in order to arrive on time."
+  },
+  {
+   "icon": "payment",
+   "title": "Credit/Debit Card",
+   "body": "A refundable security deposit may be required by certain hotels at check-in, payable by Credit/Debit card."
+  },
+  {
+   "icon": "utensils",
+   "title": "Restaurant",
+   "body": "Please note that during winter, many restaurants may open later in the day and close earlier than usual."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel Hopping",
+   "body": "8 times Hotel Transfer. Please pack lightly for easier hotel transfer."
+  },
+  {
+   "icon": "luggage",
+   "title": "Airport Transfer",
+   "body": "Please bring max 1 luggage for 1 pax as it will affect car capacity."
+  },
+  {
+   "icon": "utensils",
+   "title": "Exclude Meals",
+   "body": "Exclude breakfast, lunch and dinner unless mentioned in itinerary."
+  },
+  {
+   "icon": "guide",
+   "title": "Driver Guide",
+   "body": "Malay/English speaking driver cum guide (Max 10 hours daily)."
+  },
+  {
+   "icon": "bus",
+   "title": "Car Parking",
+   "body": "Parking fees for locations listed in the itinerary are included. Please note that parking at any additional locations may incur extra charges."
+  },
+  {
+   "icon": "bus",
+   "title": "Long Haul Road Trip",
+   "body": "Some locations might require a 4-5 hour road trip. Toilet breaks & coffee breaks will be tailored as required."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "Full payment has to be made 45 days prior arrival.",
+    "The price is for 2@3 person per room (Additional RM2500/person for Single Room).",
+    "Itinerary and price are subject to change without prior notices.",
+    "Late Booking Surcharge will apply for bookings made less than 45 days before the departure date.",
+    "Hotel name & location will be confirmed at least 45 days before departure date.",
+    "Itinerary or tour will start from Christchurch Airport & ends at Christchurch Airport.",
+    "This package is valid until 31st March 2027 travel period."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 1,000",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "surcharge": {
+  "seasons": [
+   {
+    "label": "Spring & Summer Season",
+    "period": "1 - 19 Apr 2026 | 1 - 15 July 2026 | 15 - 30 Nov 2026 | 1 - 20 Dec 2026 | 1 Jan - 28 Feb 2027",
+    "rate": "Additional 15% per pax"
+   },
+   {
+    "label": "Christmas & New Year Peak Season",
+    "period": "21 - 31 Dec 2026 | 1 - 20 Jan 2027",
+    "rate": "Additional 20% per pax"
+   },
+   {
+    "label": "Last Minute Surcharge",
+    "period": "Booking less than 45 days before departure date",
+    "rate": "2 pax: Additional RM1500 per pax · 3 pax & above: Additional RM1000 per pax"
+   }
+  ]
+ },
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Skyline Gondola Ride (Queenstown)",
+     "includes": "Return Skyline Gondola Ride at Queenstown City",
+     "excludes": "Luge Ride or additional activities",
+     "price_lines": [
+      "RM180/pax for Adult (15 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ]
+    },
+    {
+     "name": "Milford Sound Nature Cruise",
+     "includes": "Milford Sound Cruise Ticket Only",
+     "excludes": "Meals on board and Coach Transfer",
+     "price_lines": [
+      "RM450/pax for Adult (15 years old and above)",
+      "RM250/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ]
+    },
+    {
+     "name": "Milford Sound Coach + Nature Cruise",
+     "includes": "Milford Sound Coach + Nature Cruise",
+     "excludes": "Meals on board and Additional Tour",
+     "price_lines": [
+      "RM650/pax depart from Queenstown (depart 6:20am)",
+      "RM550/pax depart from Te Anau (depart 9:30am)"
+     ]
+    },
+    {
+     "name": "Shootover Jet Queenstown",
+     "includes": "Individual Pass for 25 minutes Ride",
+     "excludes": "Meals on board and Additional Tour",
+     "price_lines": [
+      "RM480/pax for Adult (16 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ]
+    },
+    {
+     "name": "Fruit Picking at Jackson's Orchard in Cromwell",
+     "includes": "Orchard Guided Tour for 45 minutes",
+     "excludes": "Meals on board and Additional Fruits Purchased",
+     "price_lines": [
+      "RM480/pax for Adult (16 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ]
+    }
+   ],
+   "notes": [
+    "Fruit picking — guided orchard tours are available depending on the season: December: Cherry & Peaches · January: Cherry, Apricot, Peaches & Plum · February: Apricots, Peaches, Nectarines & Plums · March: Apples & Pears · April: Last Apples & Pears."
+   ]
+  }
+ ]
+}

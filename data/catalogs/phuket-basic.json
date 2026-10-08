@@ -1,0 +1,304 @@
+{
+ "slug": "phuket-basic",
+ "destination": "Phuket",
+ "country": "Thailand",
+ "code": "PHU",
+ "tier": "Basic",
+ "tier_code": "BSC",
+ "title": "PAKEJ PHUKET BASIC",
+ "duration": "4D3N",
+ "route": "Sightseeing - Islands Trip - City Tour",
+ "basis": "Ground Only (Boat Sharing Basis)",
+ "valid_until": "31 December 2026",
+ "version": "v2",
+ "updated": "2026-08-05",
+ "kb_url": "https://prod-at22.github.io/phuket-kb/",
+ "po": "Fyka",
+ "ops": "CIK IWAN",
+ "source_pdf": "Thailand/Phuket/Catalog/PT PHUKET BASIC 4D3N 2026 v2.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "boat",
+   "label": "Sharing Basis Boat"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult"
+   },
+   {
+    "label": "Child with extra bed",
+    "age": "4-11 yrs"
+   },
+   {
+    "label": "Child without Bed",
+    "age": "4-11 yrs"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 10",
+    "amounts": [
+     "RM1,397",
+     "RM1,197",
+     "RM997"
+    ]
+   }
+  ],
+  "infant": "Child (0-3 yrs): FOC",
+  "notes": [
+   "Upgrade to 4 Star Hotel: RM300/person"
+  ]
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation (D1 & D4)",
+    "Shared Transport Activities",
+    "James Bond Island + Canoeing by Big Boat (shared tour) — optional",
+    "Phi Phi Islands Tour by speedboat (shared tour) — optional",
+    "National Park Fees & entrance fees",
+    "Full Meals (3 International Breakfast & 2 Lunch)",
+    "Tour Guide (English Spoken)",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "International Flight Ticket",
+    "In-Flight Meal",
+    "Additional Activities, Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Travel Date 2026",
+  "seasons": [
+   {
+    "label": "Peak Season",
+    "period": "11 Jan 2026 - 30 Apr 2026",
+    "rate": "RM250/pax"
+   },
+   {
+    "label": "Peak Season",
+    "period": "01 Nov 2026 - 31 Dec 2026",
+    "rate": "RM300/pax"
+   },
+   {
+    "label": "May - June",
+    "period": "-",
+    "rate": "No additional surcharge"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Phuket",
+   "stars": 3,
+   "name": "IBIS Phuket Kata Beach",
+   "similar": true
+  },
+  {
+   "city": "Phuket",
+   "stars": 3,
+   "name": "Tony Resort Patong Beach",
+   "similar": true
+  },
+  {
+   "city": "Phuket",
+   "stars": 3,
+   "name": "Di Pantai Boutique Beach Resort",
+   "similar": true
+  },
+  {
+   "city": "Phuket",
+   "stars": 4,
+   "name": "The Marina Phuket Hotel",
+   "similar": true
+  },
+  {
+   "city": "Phuket",
+   "stars": 4,
+   "name": "Amata Patong Resort",
+   "similar": true
+  },
+  {
+   "city": "Phuket",
+   "stars": 4,
+   "name": "Best Western Patong Beach",
+   "similar": true
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "KUL - Phuket",
+   "activities": [
+    "Recommended to arrive after 12PM",
+    "Airport transfer",
+    "Check in"
+   ],
+   "transport": "Private Transport",
+   "meals": "-",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Racha and Coral Island by Speedboat (shared tour)",
+   "activities": [
+    "Swim and snorkelling",
+    "Racha Island",
+    "Coral Island",
+    "Lunch"
+   ],
+   "transport": "Sharing Basis Boat",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Chosen by Customer",
+   "activities": [
+    {
+     "text": "Phi Phi Island (add RM100/person, shared tour)",
+     "sub": [
+      "Phi Phi Ley Island by speedboat",
+      "Snorkelling and sightseeing past Maya Bay",
+      "Loh Sama Bay",
+      "Phi Phi Ley Island, Pileh Cove, Viking Cave",
+      "Monkey Bay",
+      "Phi Phi Don (lunch)",
+      "Khai Nok Island",
+      "Koh Khai Island"
+     ]
+    },
+    {
+     "text": "OR James Bond Island + Canoe by Big Boat (shared tour)",
+     "sub": [
+      "Phang Nga Bay",
+      "Panak Island (Canoe)",
+      "Hong Island (Canoe)",
+      "Khao Pinkkan",
+      "Khao Tapoo (James Bond Island)",
+      "Naka Island"
+     ]
+    }
+   ],
+   "transport": "Sharing Basis Boat",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Phuket - KUL",
+   "activities": [
+    "Recommended to depart after 12PM",
+    "Check out hotel",
+    "Airport transfer"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Phuket Aquaria",
+     "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
+     "price_lines": [
+      "RM237/adult",
+      "RM197/kid"
+     ]
+    },
+    {
+     "name": "Andamanda Waterpark Phuket",
+     "includes": "Entrance Ticket (open daily 10.30am - 7pm)",
+     "price_lines": [
+      "RM287/adult",
+      "RM247/kid"
+     ]
+    },
+    {
+     "name": "Banana Boat Coral Island",
+     "price_lines": [
+      "RM67 - RM87/person"
+     ]
+    },
+    {
+     "name": "Parasailing Coral Island",
+     "price_lines": [
+      "RM157 - RM197/person"
+     ]
+    }
+   ]
+  }
+ ],
+ "expect": [
+  {
+   "icon": "umbrella",
+   "title": "Subject to Weather Conditions",
+   "body": "Heavy rain and thunderstorms may affect island activities."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Prepare cash if you plan to shop or snack, as most places prefer cash."
+  },
+  {
+   "icon": "bus",
+   "title": "Sharing Transport",
+   "body": "Sharing transport will be used for all activity transfers."
+  },
+  {
+   "icon": "info",
+   "title": "Watch Out for Monkeys",
+   "body": "They can be aggressive. Keep an eye on your belongings."
+  },
+  {
+   "icon": "payment",
+   "title": "Not Mentioned in the Itinerary",
+   "body": "Things not mentioned in the itinerary must be paid by customers, e.g. add-on activities on-site, toilet."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room (single supplement quoted upon request).",
+    "Fare is not applicable during peak seasons; please refer to the peak season surcharge.",
+    "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "This package is valid until 31st December 2026 travel period.",
+    "Private transportation & tour guide is based on 10 hours basis. Additional fees will be charged for every extra hour usage. Payment must be made in cash.",
+    "Quotation, itinerary and price are subject to change accordingly.",
+    "Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Seat-in-coach (shared tour) means the boat and activities are shared with other tourists."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "product": "PAKEJ"
+}

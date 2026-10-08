@@ -1,0 +1,438 @@
+{
+ "slug": "beijing",
+ "destination": "Beijing",
+ "country": "China",
+ "code": "PEK",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR BEIJING",
+ "duration": "5D4N",
+ "route": "Tiananmen Square - Forbidden City - Great Wall of China - Summer Palace",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2026-03-04",
+ "kb_url": "https://prod-at22.github.io/arba-beijing-kb/",
+ "po": "Fyka",
+ "ops": "ILY",
+ "source_pdf": "China/Beijing/Catalog/PT Beijing 5D4N 2026.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 3",
+    "amounts": [
+     "RM4,397",
+     "RM4,297",
+     "RM4,197"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM4,197",
+     "RM4,097",
+     "RM3,897"
+    ]
+   },
+   {
+    "pax": "6 - 9",
+    "amounts": [
+     "RM3,597",
+     "RM3,497",
+     "RM3,297"
+    ]
+   },
+   {
+    "pax": "10 - 15",
+    "amounts": [
+     "RM3,097",
+     "RM2,997",
+     "RM2,797"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "4 Nights Accommodation with daily International Breakfast on sharing basis (*4Star Hotel)",
+    "Halal Meals mentioned in itinerary",
+    "Private Transportation (10 Hour basis)",
+    "Entrance Fees",
+    "Cable car at Great Wall China",
+    "Tipping Fee, Parking Fee",
+    "Airport Transfer",
+    "English Speaking Guide Service"
+   ],
+   "excludes": [
+    "Private Driver & Guide is base on 10 hours basis. Additional fees will be charged for every extra hour usage",
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Fees or Optional Tour",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival In Beijing + City Tour",
+   "activities": [
+    "(Suggested Flight: Malaysia Airlines 00:40 - 07:00)",
+    "Arrive in Beijing Daxing Intl' Airport (PKX)",
+    "Check in Hotel",
+    "Nandouya Mosque",
+    "Visit Nanluogoxiang (Historic alley famous for its hutongs and traditional heritage houses)",
+    "Sanlitun Shopping District (Shopping)",
+    "Dinner and back to hotel"
+   ],
+   "transport": "Airport Transfer, Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "4-Star Hotel (Beijing)"
+  },
+  {
+   "day": 2,
+   "title": "Great Wall Of China + City Tour",
+   "activities": [
+    "Tiananmen Square (UNESCO Historic Square of Beijing)",
+    "Forbidden City (September to June) (Residence of the Chinese Emperor)",
+    "Visit Jingshan Park (July-August) (Man-made hill with Forbidden City panoramic view)",
+    "Wanfujing Street (Shopping)",
+    "Dinner and back to hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Beijing)"
+  },
+  {
+   "day": 3,
+   "title": "Beijing City + Shopping Tour",
+   "activities": [
+    "Mutianyu Great Wall of China (Incl 2 way Cable Car or Toboggan)",
+    "Summer Palace (Chinese palace with Qing Dynasty architecture)",
+    "Photostop at Bird Nest (Beijing Olympic Stadium)",
+    "Photostop at Water Cube (Olympic Aquatic Centre)",
+    "Dinner and back to hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Beijing)"
+  },
+  {
+   "day": 4,
+   "title": "Muslim Street Tour",
+   "activities": [
+    "Niujie Mosque (Beijing oldest and largest mosque)",
+    "Visit Niujie Muslim Market (Shopping & Halal Food)",
+    "The Place LED Screen (Futuristic shopping center featuring a massive LED screen ceiling)",
+    "Dinner"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Beijing)"
+  },
+  {
+   "day": 5,
+   "title": "Airport Transfer - Departure Beijing - Kuala Lumpur",
+   "activities": [
+    "(Suggested Flight: Malaysia Airlines 09:30 - 16:00)",
+    "Breakfast and hotel check out",
+    "Airport transfer",
+    "Flight to Kuala Lumpur",
+    "Arrive in Kuala Lumpur International Airport (KLIA)",
+    "End of Trip"
+   ],
+   "transport": "-",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "group",
+   "title": "Large Crowds",
+   "body": "Expect large crowds and queues in China, especially during holidays and peak travel seasons."
+  },
+  {
+   "icon": "language",
+   "title": "Communication",
+   "body": "Download WeChat and translation apps for seamless communication."
+  },
+  {
+   "icon": "footprints",
+   "title": "Required Walking",
+   "body": "Wear comfortable shoes and avoid heels, as they're not ideal for the terrain and activities."
+  },
+  {
+   "icon": "payment",
+   "title": "Payment",
+   "body": "Setup E-Wallet payment (Alipay) as some places may prefer cashless payment."
+  },
+  {
+   "icon": "bus",
+   "title": "Private Transport",
+   "body": "Private transport will be used for all activity transfers."
+  },
+  {
+   "icon": "map-pin",
+   "title": "Distant Drop Off",
+   "body": "The drop-off point may not be directly at the entrance & require walking."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single Supplement: Additional RM800/person.",
+    "Fare is not applicable during peak seasons; please refer to the peak season surcharge.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "This package is valid until 31st December 2026 travel period.",
+    "Private Transportation & Tour Guide is based on 10 hours basis. Additional fees will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Quotation, consequence of itinerary and price are subject to change accordingly.",
+    "Final itinerary and hotel arrangements will be confirmed at least 15 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flights.",
+    "Default arrangement might change without prior notice depending on the current weather & traffic condition."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Blackout Dates & Peak Season Surcharge",
+  "seasons": [
+   {
+    "label": "Chinese New Year",
+    "period": "14 Feb - 22 Feb 2026",
+    "rate": "Blackout date"
+   },
+   {
+    "label": "Labor Day",
+    "period": "1 May - 5 May 2026",
+    "rate": "Blackout date"
+   },
+   {
+    "label": "Dragon Boat Festival",
+    "period": "19 - 21 June 2026",
+    "rate": "RM60/pax/night"
+   },
+   {
+    "label": "China Summer Holiday",
+    "period": "Whole July & August",
+    "rate": "RM300/pax"
+   },
+   {
+    "label": "China Golden Week",
+    "period": "1 Oct - 8 Oct 2026",
+    "rate": "RM300/pax"
+   },
+   {
+    "label": "Christmas & New Year",
+    "period": "22 Dec 2026 - 5 Jan 2027",
+    "rate": "RM300/pax"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Beijing",
+   "stars": 4,
+   "name": "Derreal Hotel",
+   "similar": true
+  }
+ ],
+ "itineraries": [
+  {
+   "label": "Morning Arrival & Morning Return",
+   "days": [
+    {
+     "day": 1,
+     "title": "Arrival In Beijing + City Tour",
+     "activities": [
+      "(Suggested Flight: Malaysia Airlines 00:40 - 07:00)",
+      "Arrive in Beijing Daxing Intl' Airport (PKX)",
+      "Check in Hotel",
+      "Nandouya Mosque",
+      "Visit Nanluogoxiang (Historic alley famous for its hutongs and traditional heritage houses)",
+      "Sanlitun Shopping District (Shopping)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Airport Transfer, Private Transport",
+     "meals": "Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 2,
+     "title": "Great Wall Of China + City Tour",
+     "activities": [
+      "Tiananmen Square (UNESCO Historic Square of Beijing)",
+      "Forbidden City (September to June) (Residence of the Chinese Emperor)",
+      "Visit Jingshan Park (July-August) (Man-made hill with Forbidden City panoramic view)",
+      "Wanfujing Street (Shopping)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 3,
+     "title": "Beijing City + Shopping Tour",
+     "activities": [
+      "Mutianyu Great Wall of China (Incl 2 way Cable Car or Toboggan)",
+      "Summer Palace (Chinese palace with Qing Dynasty architecture)",
+      "Photostop at Bird Nest (Beijing Olympic Stadium)",
+      "Photostop at Water Cube (Olympic Aquatic Centre)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 4,
+     "title": "Muslim Street Tour",
+     "activities": [
+      "Niujie Mosque (Beijing oldest and largest mosque)",
+      "Visit Niujie Muslim Market (Shopping & Halal Food)",
+      "The Place LED Screen (Futuristic shopping center featuring a massive LED screen ceiling)",
+      "Dinner"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 5,
+     "title": "Airport Transfer - Departure Beijing - Kuala Lumpur",
+     "activities": [
+      "(Suggested Flight: Malaysia Airlines 09:30 - 16:00)",
+      "Breakfast and hotel check out",
+      "Airport transfer",
+      "Flight to Kuala Lumpur",
+      "Arrive in Kuala Lumpur International Airport (KLIA)",
+      "End of Trip"
+     ],
+     "transport": "-",
+     "meals": "International Breakfast",
+     "hotel": "-"
+    }
+   ]
+  },
+  {
+   "label": "Midnight Arrival & Midnight Return",
+   "days": [
+    {
+     "day": 1,
+     "title": "Arrival In Beijing",
+     "activities": [
+      "(Suggested Flight: AirAsia 18:55 - 01:15 (+1))",
+      "Arrive in Beijing Daxing Intl' Airport (PKX)",
+      "Airport Pickup",
+      "Check in hotel"
+     ],
+     "transport": "Airport Transfer, Private Transport",
+     "meals": "Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 2,
+     "title": "Beijing City + Shopping Tour",
+     "activities": [
+      "Tiananmen Square (Historic Square of Beijing)",
+      "Forbidden City (September to June) (Residence of the Chinese Emperor)",
+      "Visit Jingshan Park (July-August) (Man-made hill with Forbidden City panoramic view)",
+      "Wanfujing Street (Shopping)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 3,
+     "title": "Great Wall Of China + City Tour",
+     "activities": [
+      "Mutianyu Great Wall of China (Incl 2 way Cable Car or Toboggan)",
+      "Summer Palace (Chinese palace with Qing Dynasty architecture)",
+      "Photostop at Bird Nest (Beijing Olympic Stadium)",
+      "Photostop at Water Cube (Olympic Aquatic Centre)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 4,
+     "title": "Muslim Street Tour",
+     "activities": [
+      "Nandouya Mosque",
+      "Visit Nanluogoxiang (Historic alley famous for its hutongs and traditional heritage houses)",
+      "Sanlitun Shopping District (Shopping)",
+      "Dinner and back to hotel"
+     ],
+     "transport": "Private Transport",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    },
+    {
+     "day": 5,
+     "title": "Muslim Street Tour + Airport Transfer",
+     "activities": [
+      "(Suggested Flight: AirAsia 02:30 - 09:00)",
+      "Niujie Mosque (Beijing oldest and largest mosque)",
+      "Visit Niujie Muslim Market (Shopping & Halal Food)",
+      "The Place LED Screen (Futuristic shopping center featuring a massive LED screen ceiling)",
+      "Dinner and airport transfer",
+      "Flight to Kuala Lumpur",
+      "Arrive in Kuala Lumpur International Airport (KLIA)",
+      "End of trip"
+     ],
+     "transport": "Private Airport Transfer",
+     "meals": "International Breakfast, Lunch, Dinner",
+     "hotel": "4-Star Hotel (Beijing)"
+    }
+   ]
+  }
+ ]
+}

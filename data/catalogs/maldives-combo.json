@@ -1,0 +1,225 @@
+{
+ "slug": "maldives-combo",
+ "destination": "Maldives",
+ "country": "Maldives",
+ "code": "MLE",
+ "tier": "Water Villa Combo",
+ "tier_code": "WVC",
+ "title": "PAKEJ MALDIVES COMBO ISLAND",
+ "duration": "4D3N",
+ "route": "Maafushi - Island Trip - Adaaran Select Hudhuran Fushi",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2026-03-11",
+ "kb_url": "https://prod-at22.github.io/arba-maldives-kb/",
+ "po": "Acap",
+ "ops": "CIK IWAN",
+ "source_pdf": "Maldives/Catalog/PT MALDIVES 4D3N COMBO 2026.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "boat",
+   "label": "Sharing Basis Boat"
+  },
+  {
+   "icon": "info",
+   "label": "Water Villa Combo"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 yrs & above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "2 - 9 yrs"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2 - 5 yrs"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 10",
+    "amounts": [
+     "RM4,197",
+     "RM3,997",
+     "RM3,797"
+    ]
+   }
+  ],
+  "infant": "RM100 (0-2 yrs)"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Meet and greet by local representative",
+    "3 Nights accommodation at above selected hotels",
+    "Return airport transfer by speedboat",
+    "Meals as per itinerary",
+    "Full day snorkelling trip & Dolphin sightseeing",
+    "Local guide during excursion",
+    "Kayaking or Stand-up paddle (depends on weather condition)",
+    "Complimentary GoPro photos & videos during snorkelling trips",
+    "Complimentary snorkelling gears and beach towel",
+    "Enjoy a 10% discount on souvenirs at selected store",
+    "All taxes including GST, service tax & tourist green tax"
+   ],
+   "excludes": [
+    "International Flight Ticket (Return)",
+    "In-flight meals",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in itinerary"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Peak Season Dates",
+  "seasons": [
+   {
+    "label": "High Season",
+    "period": "09 Jan 2026 - 05 Apr 2026",
+    "rate": "Add on RM400 per person"
+   },
+   {
+    "label": "Peak Season",
+    "period": "06 Apr 2026 - 07 May 2026",
+    "rate": "Add on RM200 per person"
+   },
+   {
+    "label": "Shoulder Season",
+    "period": "01 Aug 2026 - 31 Aug 2026 · 01 Oct 2026 - 31 Oct 2026",
+    "rate": "Add on RM100 per person"
+   },
+   {
+    "label": "Super Peak Season",
+    "period": "01 Nov 2026 - 31 Dec 2026",
+    "rate": "Price upon request"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Maldives — Local Island Hotel",
+   "name": "Kaani Beach / Marina Seaview / Triton Beach / Kaani Village & Spa",
+   "similar": true
+  },
+  {
+   "city": "Maldives — Water Villa",
+   "name": "Adaaran Select Hudhuran Fushi"
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kuala Lumpur - Male",
+   "activities": [
+    "(Recommend to arrive before 12 noon)",
+    "Airport transfer by speedboat",
+    "Check-in hotel"
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "Dinner",
+   "hotel": "3-Star Hotel (Maafushi)"
+  },
+  {
+   "day": 2,
+   "title": "Adventure Snorkeling + Dolphin Sightseeing (Shared Tour)",
+   "activities": [
+    "Snorkelling at famous spot",
+    "Swimming at Sand Bank",
+    "Lunch at Sand Bank",
+    "Dolphin Watching or Sightseeing"
+   ],
+   "transport": "Seat-In-Coach Speedboat",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Maafushi)"
+  },
+  {
+   "day": 3,
+   "title": "Maafushi - Water Villa",
+   "activities": [
+    "Speedboat transfer to Male Airport, then speedboat transfer to Adaaran Select Hudhuran Fushi",
+    "Enjoy a relaxed holiday with daily activities or free at own leisure"
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Water Villa"
+  },
+  {
+   "day": 4,
+   "title": "Male - Kuala Lumpur",
+   "activities": [
+    "(Recommend to depart after 12 noon)",
+    "Breakfast",
+    "Check Out Hotel",
+    "Airport Transfer by speedboat"
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary",
+   "body": "Must be paid by customers, e.g. resort island excursion trip."
+  },
+  {
+   "icon": "bus",
+   "title": "Airport Transfer & Island Activities by Speedboat",
+   "body": "Speedboat is on a sharing basis."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Prepare cash if you plan to shop at Maafushi Island. Cards and QR are not available at some shops and street stalls."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Wet Season",
+   "body": "May to September. Prepare attire and shoes that are suitable to wear during the rainy season."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival at Male Airport",
+   "body": "Hotel or resort staff will be available at the airport upon arrival. Extra charges apply for arrivals after 8pm."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM700/person.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Itinerary during the trip is subject to changes (due to weather, traffic, safety, etc.).",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "before departure for full payment"
+  }
+ ],
+ "product": "PAKEJ"
+}

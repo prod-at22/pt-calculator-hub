@@ -1,0 +1,318 @@
+{
+ "slug": "phu-quoc-4d3n",
+ "destination": "Phu Quoc",
+ "country": "Vietnam",
+ "code": "PQC",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR PHU QUOC",
+ "duration": "4D3N",
+ "route": "World's Longest Sea-Crossing Cable Car - Sunset Beach - Theme Park",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v3",
+ "updated": "2026-03-11",
+ "kb_url": "https://prod-at22.github.io/arba-phu-quoc-kb/",
+ "po": "Ezie",
+ "ops": "ILY",
+ "source_pdf": "Vietnam/Phu Quoc/Catalog/PT PHU QUOC 4D3N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "utensils",
+   "label": "Full Board"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-8 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 3",
+    "amounts": [
+     "RM2,597",
+     "RM2,397",
+     "RM2,197"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM2,437",
+     "RM2,237",
+     "RM2,037"
+    ]
+   },
+   {
+    "pax": "5 - 6",
+    "amounts": [
+     "RM2,257",
+     "RM2,057",
+     "RM1,857"
+    ]
+   },
+   {
+    "pax": "7 - 8",
+    "amounts": [
+     "RM2,077",
+     "RM1,877",
+     "RM1,677"
+    ]
+   },
+   {
+    "pax": "9 - 10",
+    "amounts": [
+     "RM1,967",
+     "RM1,767",
+     "RM1,567"
+    ]
+   },
+   {
+    "pax": "11 - 15",
+    "amounts": [
+     "RM1,857",
+     "RM1,657",
+     "RM1,457"
+    ]
+   },
+   {
+    "pax": "16 - 20",
+    "amounts": [
+     "RM1,737",
+     "RM1,537",
+     "RM1,337"
+    ]
+   }
+  ],
+  "infant": "FOC",
+  "basis": "Price Per Person · 3 Star Fullboard",
+  "pax_label": "Number of Adult"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Entrance Fees (as stated in itinerary)",
+    "Full Meals (3 International Breakfast, 3 Lunch, 3 Dinner)",
+    "Muslim Driving Guide (Malay / English Spoken)",
+    {
+     "text": "Entrance fees",
+     "sub": [
+      "Hon Thom Cable Car Ticket",
+      "Vinpearl Safari Ticket",
+      "Grand World Ticket",
+      "VinWonders Ticket",
+      "Teddy Bear Museum"
+     ]
+    },
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In-Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade & Last Minute Booking",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge (Additional)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Rova Hotel Phu Quoc, Phung Hung Hotel Phu Quoc",
+    "similar": true,
+    "amounts": [
+     "-"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Muong Thanh Luxury Phu Quoc, Marina Seaside Boutique Phu Quoc",
+    "similar": true,
+    "amounts": [
+     "Add RM140/person/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Last Minute Surcharges",
+    "period": "Booking less than 3 weeks before departure date",
+    "rate": "2 pax: Additional RM300 per person · 3 pax & above: Additional RM200 per person"
+   }
+  ],
+  "notes": [
+   "Blockout Dates: Chinese New Year 2027, 17 February - 18 February 2027."
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival + Phu Quoc Tour",
+   "activities": [
+    "(Suggested Arrival Time : 2pm or earlier)",
+    "Arrival at Phu Quoc International Airport",
+    "Airport Pick-Up",
+    "Lunch",
+    "Visit Sanato Beach (view vibrant sunsets & innovative arts)",
+    "Night Market",
+    "Dinner",
+    "Check in Hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Phu Quoc Tour (North)",
+   "activities": [
+    "Breakfast",
+    "Grand World (known as the Venice of Vietnam)",
+    "Teddy Bear Museum (lively recreation of Teddy Bear)",
+    "VinPearl Safari (include buggy)",
+    "Lunch",
+    {
+     "text": "VinWonders (one of the largest theme parks in Vietnam)",
+     "sub": [
+      "Aquarium (experience the Mermaid show)",
+      "Roller Coasters & Ferris Wheel",
+      "Water Park"
+     ]
+    },
+    "Night Market & Dinner",
+    "Return to Hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Phu Quoc Tour (South)",
+   "activities": [
+    "Breakfast",
+    "Hon Thom Cable Car (world's longest sea-crossing cable car)",
+    {
+     "text": "Aquatopia (water theme park at Hon Thom Island)",
+     "sub": [
+      "Water slides",
+      "Roller Coaster & Eagle Eye Tower"
+     ]
+    },
+    "Lunch",
+    "Ngoc Hien Pearl Farm (pearl shopping)",
+    "Kiss Bridge (two bridges nearly touch, symbolizing love)",
+    "Dinner",
+    "Free & Easy Night (suggested activities: night market, sightseeing, Kiss of The Sea Show)",
+    "Return to Hotel"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Free & Easy - Return Kl",
+   "activities": [
+    "(Suggested Departure Time : 2pm and above)",
+    "Breakfast",
+    "Free & Easy",
+    "Transfer to Phu Quoc International Airport"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Optional Activities",
+   "body": "Activities not mentioned in the itinerary must be paid by customers, e.g. water taxi."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Prepare for Weather",
+   "body": "Rainy (May - Oct), Sunny (Nov - Apr)."
+  },
+  {
+   "icon": "utensils",
+   "title": "Full Board Meals",
+   "body": "Repeat same restaurant but with different meals."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lot of Walking",
+   "body": "Some attraction places will require a lot of walking."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel Locations",
+   "body": "Will prioritize near to city centre first. Hotel location at Sunset Town, South of Phu Quoc."
+  },
+  {
+   "icon": "luggage",
+   "title": "Luggage Allocations",
+   "body": "Please bring max 1 luggage for 1 pax as it will affect the car capacity."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2@3 person per room.",
+    "Price for Single Supplement will be quoted upon request.",
+    "All Itinerary, flight, price or quotation is subject to changes.",
+    "Late Booking Surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
+    "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharges in the Surcharge table).",
+    "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
+    "Final Itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting flights.",
+    "Any free activities is non exchangeable with other activities, voucher or cash if the client is not joining or due to availability & weather condition."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

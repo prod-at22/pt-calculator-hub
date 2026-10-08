@@ -1,0 +1,371 @@
+{
+ "slug": "nz-north-only",
+ "destination": "New Zealand North",
+ "country": "New Zealand",
+ "code": "NNZ",
+ "tier": "Self Tour",
+ "tier_code": "STD",
+ "title": "SELF TOUR NEW ZEALAND NORTH ISLAND",
+ "duration": "6D5N",
+ "route": "Auckland - Rotorua - Matamata - Taupo - Hamilton",
+ "basis": "Ground + Tipping · Self Tour",
+ "valid_until": "31 March 2027",
+ "version": "v3",
+ "updated": "2026-03-12",
+ "kb_url": "https://prod-at22.github.io/arba-newzealand-kb/",
+ "po": "Acap",
+ "ops": "ATIQAH",
+ "source_pdf": "New Zealand/Catalog/ST NEW ZEALAND NORTH ONLY 6D5N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Self Drive"
+  },
+  {
+   "icon": "guide",
+   "label": "Online Trip Assistance"
+  },
+  {
+   "icon": "info",
+   "label": "Self Tour"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM5,197",
+     "RM4,997",
+     "RM4,797"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM4,997",
+     "RM4,797",
+     "RM4,597"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM4,797",
+     "RM4,597",
+     "RM4,397"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM4,597",
+     "RM4,397",
+     "RM4,197"
+    ]
+   },
+   {
+    "pax": "6",
+    "amounts": [
+     "RM4,397",
+     "RM4,197",
+     "RM3,997"
+    ]
+   },
+   {
+    "pax": "7",
+    "amounts": [
+     "RM4,197",
+     "RM3,997",
+     "RM3,797"
+    ]
+   }
+  ],
+  "infant": "RM800"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Rental Vehicle with GPS",
+    "Full Comprehensive Car Insurance",
+    "24/7 Hours Roadside Assistance (Towing)",
+    "5 Nights Accomodation in 3 Star Hotel/Motel",
+    "Online Trip Assistance",
+    "Pre Trip Consultation",
+    "NZ-ETA Application for 1st Application",
+    "Halal Restaurant Guide"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses, Fuels, Parking & Traffic Summon",
+    "Personal Travel Insurance",
+    "NZ-ETA Re-application",
+    "Pocket Wifi or Internet Acccess"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival Auckland",
+   "activities": [
+    "Arrival at Auckland Airport",
+    "Transport Pickup & briefing at Airport",
+    "Check-in Hotel near Auckland",
+    "Free and Easy",
+    "*Recommended sighseeing Cornwall Park / West Heaven Marina"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "3-Star Hotel / Motel"
+  },
+  {
+   "day": 2,
+   "title": "Auckland - Rotorua",
+   "activities": [
+    "Check-out Hotel & transfer to Rotorua (3 hours)",
+    "Redwood Forest",
+    "Whakarewa Maori Village Tour",
+    "Maori Culture Performance (Optional)",
+    "Check-in Hotel in Rotorua"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "3-Star Hotel / Motel"
+  },
+  {
+   "day": 3,
+   "title": "Rotorua - Matamata - Rotorua",
+   "activities": [
+    "Transfer to Matamata (1hour)",
+    "Hobbiton Movie Set Tour (Optional)",
+    "Agrodome Farm & Animal Show (Optional)",
+    "Lake Rotorua",
+    "Back to Hotel in Rotorua"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "3-Star Hotel / Motel"
+  },
+  {
+   "day": 4,
+   "title": "Rotorua - Taupo",
+   "activities": [
+    "Check-out Hotel & Transfer to Taupo (1hour)",
+    "Lake Taupo",
+    "Taupo Cruise ride to Maori Carving",
+    "Huka Falls",
+    "Check-in Hotel in Taupo"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "3-Star Hotel / Motel"
+  },
+  {
+   "day": 5,
+   "title": "Taupo - Hamilton - Auckland",
+   "activities": [
+    "Check-out hotel & Transfer to Hamilton ( 2 hours)",
+    "Hamilton Garden (Optional)",
+    "Transfer to Auckland (2 hour)",
+    "Free and Easy",
+    "Check-in Hotel in Auckland"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "3-Star Hotel / Motel"
+  },
+  {
+   "day": 6,
+   "title": "Auckland - Return To Kul",
+   "activities": [
+    "Free & Easy",
+    "Auckland City Tour",
+    "Heading to Airport",
+    "Return The Rental Car at Auckland Airport",
+    "Flight to KUL"
+   ],
+   "transport": "Self Drive",
+   "meals": "-",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
+   "body": "Eg: Breakfast, Lunch, Additional Activities, Snacking, coffees."
+  },
+  {
+   "icon": "sun",
+   "title": "Super Peak Season",
+   "body": "New Zealand are super peak for tourism in summer season due to summer holidays and Lupin season. Expect high prices during summer."
+  },
+  {
+   "icon": "payment",
+   "title": "High Cost Country",
+   "body": "New Zealand have limited resources in terms of food, hotel, transports, manpower. Thus, the cost of living is expensive, so does things related to tourism in NZ."
+  },
+  {
+   "icon": "bus",
+   "title": "Long Journey Road Trip",
+   "body": "Long road trip from 1 place to another (2 - 4 hours), but keep your eyes open for mesmerising views along the way."
+  },
+  {
+   "icon": "luggage",
+   "title": "Pack Light",
+   "body": "There will be daily check-in/out of hotel. Pack lightly and try to avoid bringing more than 1 luggage per pax for your own convenience."
+  },
+  {
+   "icon": "hotel",
+   "title": "Motel, Inn & Hotel",
+   "body": "Expect to stay at motel and inn (3-4 stars) as most areas we are staying are small towns. But we ensure that you will not share apartment or bathroom with other guest."
+  },
+  {
+   "icon": "shopping-bag",
+   "title": "Visit to Supermarket and Convenient Store",
+   "body": "As breakfast and lunch are excluded, recommended to visit convenient store or supermarkets for Halal pastries & bread."
+  },
+  {
+   "icon": "utensils",
+   "title": "Limited Breakfast Option",
+   "body": "Halal restaurant are hard to find during breakfast as most restaurant in NZ have late opening."
+  },
+  {
+   "icon": "utensils",
+   "title": "Muslim Friendly Restaurant for Lunch",
+   "body": "Halal certified restaurant are limited at some area. Thus, we will recommend you to muslim-friendly restaurant serving halal meat for lunch."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 or 3 persons per room.",
+    "Single Supplement: additional RM1,000 per person.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "Itinerary, Price, and Flight is subject to change accordingly.",
+    "Final Itinerary and hotel arrangements 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting domestic flight."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 1,000",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Additional Tour or Activities in North Island",
+   "entries": [
+    {
+     "name": "Whakarewa The Living Maori Village Tour",
+     "includes": "Whakarewa Maori Village guided Tour (1 hour)",
+     "excludes": "Maori Dance, Geothermal Tour, Meals",
+     "price_lines": [
+      "Adult: RM150/pax (16 years old & above)",
+      "Child/Youth: RM80/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ]
+    },
+    {
+     "name": "Hobbiton Movie Set Tour",
+     "includes": "Hobbiton Movie Set Guided Tour (2.5 hours)",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM320/pax (17 years old and above)",
+      "Youth: RM150/pax (11 - 16 years old)",
+      "Child: FOC (below 10 years old)"
+     ]
+    },
+    {
+     "name": "Agrodome Farm & Animal Show",
+     "includes": "Farm show and Experience 350-Acre Farm Tour",
+     "excludes": "Meals and self expenses",
+     "price_lines": [
+      "Adult: RM180/pax (16 years old and above)",
+      "Youth: RM150/pax (3 - 15 years old)",
+      "Child: FOC (below 10 years old)"
+     ]
+    },
+    {
+     "name": "Hamilton Garden",
+     "includes": "Enclosed Garden Entry Ticket",
+     "excludes": "Meals, self expenses and Audio Guide",
+     "price_lines": [
+      "Adult: RM65/pax (Free & Easy Self Tour)",
+      "Child: RM25/pax (Free & Easy Self Tour)"
+     ]
+    },
+    {
+     "name": "Skyline Gondola Ride (Taupo)",
+     "includes": "Return Skyline Gondola Ride at Taupo",
+     "excludes": "Luge Ride or additional activities",
+     "price_lines": [
+      "RM180/pax for Adult (15 years old and above)",
+      "RM120/pax for Youth (6 - 14 years old)",
+      "Free for Child below 5 years old"
+     ]
+    },
+    {
+     "name": "Maori Culture Performance at Whakarewa Village",
+     "includes": "30 Minutes shows at 12:30pm Daily",
+     "excludes": "Guided Village Tour, Meals and Additional Tour",
+     "price_lines": [
+      "Adult: RM95/pax (16 years old & above)",
+      "Child/Youth: RM60/pax (5 - 15 years old)",
+      "Infant: FOC (0 - 4 years old)"
+     ]
+    }
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Peak Seasons Date & Last Minute Booking Surcharge",
+  "seasons": [
+   {
+    "label": "Spring & Summer Season",
+    "period": "1 - 19 Apr 2026 · 1 - 15 July 2026 · 15 - 30 Nov 2026 · 1 - 20 Dec 2026 · 1 Jan - 28 Feb 2027",
+    "rate": "Additional 15% per pax"
+   },
+   {
+    "label": "Christmas & New Year Peak Season",
+    "period": "21 - 31 Dec 2026 · 1 - 20 Jan 2027",
+    "rate": "Additional 20% per pax"
+   },
+   {
+    "label": "Last Minute Surcharge",
+    "period": "Booking 45 days before departure date",
+    "rate": "2 pax: Additional RM800 per pax · 3 pax & above: Additional RM500 per pax"
+   }
+  ]
+ },
+ "product": "ST"
+}

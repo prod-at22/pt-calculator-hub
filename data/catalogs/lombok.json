@@ -1,0 +1,277 @@
+{
+ "slug": "lombok",
+ "destination": "Lombok",
+ "country": "Indonesia",
+ "code": "LOP",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR LOMBOK",
+ "duration": "4D3N",
+ "route": "Mataram - Gili Trawangan - Sembalun / Pink Beach - Sasak Tour",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 March 2027",
+ "version": "v3",
+ "updated": "2026-03-12",
+ "kb_url": "",
+ "po": "Ezie",
+ "ops": "CIK IWAN",
+ "source_pdf": "Indonesia/Lombok/Catalog/PT Lombok 2026 (3 Star) v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 3",
+    "amounts": [
+     "RM1,257",
+     "RM1,157",
+     "RM1,057"
+    ]
+   },
+   {
+    "pax": "4 - 6",
+    "amounts": [
+     "RM1,197",
+     "RM1,097",
+     "RM997"
+    ]
+   },
+   {
+    "pax": "7 - 10",
+    "amounts": [
+     "RM1,157",
+     "RM1,057",
+     "RM957"
+    ]
+   },
+   {
+    "pax": "11 - 15",
+    "amounts": [
+     "RM1,097",
+     "RM997",
+     "RM897"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation (12 hours basis)",
+    "Entrance Fees (as stated in itinerary)",
+    "Full Meals (3B, 3L, 3D)",
+    "Private Boat",
+    "Bottled Drinking Water While Touring",
+    "Snorkeling Set",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Extra hour Transport & Tour Guide 150,000 IDR/hour",
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "columns": [
+   {
+    "label": "Upgrade Surcharge"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "15 - 31 Mar 2026, 25 Jun - 12 Jul 2026, 25 Dec 2026 - 5 Jan 2027, 5 - 25 Feb 2027, 5 Mar - 15 Apr 2027"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "9 - 11 October 2026"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Hotel Central Inn, Grand Sengigi Hotel, Fave Hotel",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM60/pax/night",
+     "RM150/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Hotel Aruna, Holiday Resort, Primepark Hotel",
+    "similar": true,
+    "amounts": [
+     "RM80/pax/night",
+     "RM70/pax/night",
+     "RM250/pax/night"
+    ]
+   }
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival",
+   "activities": [
+    "Arrive at Lombok Airport",
+    "Land transfer to Mataram / Senggigi",
+    "Transfer to hotel",
+    "Check in hotel & rest"
+   ],
+   "transport": "Private Transport",
+   "meals": "Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Gili Trawangan",
+   "activities": [
+    "Take a boat at the jetty for Gili Trawangan",
+    "Snorkelling activities",
+    "Masjid Baiturrahman",
+    "Explore Gili Trawangan",
+    "Cidomo horse ride (optional)",
+    "Back to hotel & rest"
+   ],
+   "transport": "Private Transport / Boat",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Sembalun OR Pink Beach",
+   "activities": [
+    {
+     "text": "A) Sembalun (Mount Rinjani Tour)",
+     "sub": [
+      "Transfer to Sembalun",
+      "Pusuk Sembalun",
+      "Kebon (strawberry picking — depends on season)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Back to hotel & rest"
+     ]
+    },
+    {
+     "text": "B) Pink Beach (Island Tour)",
+     "sub": [
+      "Transfer to jetty",
+      "Take a private boat at the jetty to Pink Beach",
+      "Snorkelling at Pink Beach",
+      "Boat transfer back to Mataram / Senggigi",
+      "Back to hotel & rest"
+     ]
+    }
+   ],
+   "transport": "Private Transport / Boat",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Sasak Tour",
+   "activities": [
+    "Check out from the hotel",
+    "Desa Banyumulek",
+    "Desa Sukarara",
+    "Sade Rambitan",
+    "Tanjung Aan",
+    "Transfer back to airport"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary",
+   "body": "Must be paid by customers, e.g. horse ride, bicycle zipline, Pink Beach kayak, rainbow slide."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Wet Season",
+   "body": "November to March. Prepare attire and shoes that are suitable to wear during the wet season."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Many places only accept cash, especially local markets, small shops and warungs."
+  },
+  {
+   "icon": "bed",
+   "title": "Triple Room Bed",
+   "body": "Triple sharing with 3 single beds provided if available; otherwise, an extra bed will be added."
+  },
+  {
+   "icon": "footprints",
+   "title": "Moderate Walking",
+   "body": "Some walking required at the Mt. Rinjani area and along beach areas in Lombok."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals include local Indonesian lunch and dinner; breakfast is a hotel buffet."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM500 per person (applicable for 3 Star Hotel only).",
+    "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "This package is valid until the 31st March 2027 travel period.",
+    "Private driver & guide is based on 12 hours basis. 150,000 IDR/hour will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flight."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "before departure for full payment"
+  }
+ ]
+}

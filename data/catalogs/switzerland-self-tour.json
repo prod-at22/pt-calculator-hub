@@ -1,0 +1,326 @@
+{
+ "slug": "switzerland-self-tour",
+ "destination": "Switzerland",
+ "country": "Switzerland",
+ "code": "SWS",
+ "tier": "Self Tour",
+ "tier_code": "STD",
+ "title": "SELF TOUR SWITZERLAND",
+ "duration": "7D6N",
+ "route": "Zurich - Rhine Falls - Lucerne - Bern - Grindelwald - Lauterbrunnen - Zermatt - Blausee - Interlaken",
+ "basis": "Ground & Tipping · Self Guided",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2025-12-08",
+ "kb_url": "https://prod-at22.github.io/arba-switzerland-kb/",
+ "po": "Acap",
+ "ops": "ATIQAH",
+ "source_pdf": "Switzerland/Catalog/ST SWITZERLAND 7D6N 2026.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Public Transport Pass"
+  },
+  {
+   "icon": "info",
+   "label": "Self Tour"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult"
+   },
+   {
+    "label": "Child with Bed",
+    "age": "7-11 Years Old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-6 Years Old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 14",
+    "amounts": [
+     "RM5,897",
+     "RM5,697",
+     "RM5,497"
+    ]
+   }
+  ],
+  "infant": "RM900 (below 2 years old)",
+  "pax_label": "No. of person"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3/4 Star Hotel (with International Breakfast): 2 nights Zurich, 2 nights Bern, 1 night Tasch/Visp, 1 night Bern",
+    "Airport Transfer (local train, tram or bus)",
+    "Transportation Pass in Switzerland (local public transport: train, tram & bus) D1-D7",
+    "Intercity transfer via local train",
+    "Train transfer Tasch to Zermatt",
+    "Cable car to Murren",
+    "Lake Blausee",
+    "Interlaken Lake Cruise",
+    "Rhine Falls Boat Tour",
+    "Consultation session (14 days before the trip)",
+    "Online Trip Assistance (Malaysia working hours)"
+   ],
+   "excludes": [
+    "International flight tickets (return)",
+    "Personal expenses",
+    "Lunch & Dinner",
+    "Travel insurance",
+    "Fees for optional activities",
+    "City taxes or tourism tax"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Peak Season Dates & Surcharges 2026 / 2027",
+  "seasons": [
+   {
+    "label": "Peak Season",
+    "period": "20 December 2025 - 10 January 2026 · 1 - 28 February 2026 · 15 July 2026 - 15 August 2026 · 20 December 2026 - 3 January 2027 · 1 - 28 February 2027 · 15 July 2027 - 15 August 2027",
+    "rate": "Add on RM200 per person per night"
+   },
+   {
+    "label": "Last Minute Surcharge",
+    "period": "Booking 3 weeks before departure date",
+    "rate": "2 pax: Additional RM700 per person · 3 pax & Above: Additional RM500 per person"
+   },
+   {
+    "label": "Surcharge Travel Date 2027",
+    "period": "January - June",
+    "rate": "Add RM370/pax"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Zurich",
+   "name": "Holiday Inn Express, Zurich",
+   "similar": true
+  },
+  {
+   "city": "Bern, Lucerne or Interlaken",
+   "name": "Ibis Hotel, Bern",
+   "similar": true
+  },
+  {
+   "city": "Tasch, Visp or Brig",
+   "name": "Matterhorn Inn, Tasch",
+   "similar": true
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Zurich (Arrival)",
+   "activities": [
+    "Arrive at Zurich",
+    "Check in hotel - Zurich"
+   ],
+   "transport": "Public Transport",
+   "meals": "No Meal",
+   "hotel": "3/4 Star Hotel (Zurich)"
+  },
+  {
+   "day": 2,
+   "title": "Rhine Falls-Zurich",
+   "activities": [
+    "Rhine Falls (The largest waterfall in Europe)",
+    "Zurich Old Town (Historic building & cobblestones alley)",
+    "Lindenhof (Churches with scenice view, CLOY film location)",
+    "Burkliplatz (Oldest bridge in Zurich, CLOY film location)",
+    "Bahnhofstrasse, Zurich (Famous hopping street)"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "3/4 Star Hotel (Zurich)"
+  },
+  {
+   "day": 3,
+   "title": "Engelberg-Lucerne",
+   "activities": [
+    "Check out",
+    "Engelberg & Mount Titlis (360 Rotair Cable Car) - optional",
+    "Lucern Old Town (Historic building & shopping street)",
+    "Chapel Bridge (The famous old wooden bridge)",
+    "Check in hotel - Bern"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "3/4 Star Hotel (Bern)"
+  },
+  {
+   "day": 4,
+   "title": "Grindelwald-Lauterbrunnen-Murren",
+   "activities": [
+    "Grindelwald (Mountain village with Alpine view)",
+    "Lauterbrunnen (Fairy-tale valley with 72 waterfalls)",
+    "Staubach Waterfall",
+    "Murren (Mountain village with Alpine view)",
+    "Birg & Schilthorn (James Bond film location) - optional"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "3/4 Star Hotel (Bern)"
+  },
+  {
+   "day": 5,
+   "title": "Tasch-Zermatt",
+   "activities": [
+    "Check out",
+    "Train from Tasch Zermatt (Panoramic train ride)",
+    "Matterhorn (One of the highest summits in the Alps and Europe, the Tobelerone mountain) - optional",
+    "Gornergrat (The mountain with magnificent view of the Matterhorn) - optional",
+    "Check in hotel - Tasch or Visp"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "3/4 Star Hotel (Tasch)"
+  },
+  {
+   "day": 6,
+   "title": "Blausee-Interlaken",
+   "activities": [
+    "Check out",
+    "Lake Blausee (The famous turquoise-blue lake)",
+    "Interlaken West (Shopping street)",
+    "Interlaken Lake Cruise",
+    "Iseltwald (CLOY Film Location)",
+    "Check in hotel - Bern"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "3/4 Star Hotel (Bern)"
+  },
+  {
+   "day": 7,
+   "title": "Zurich (Departure)",
+   "activities": [
+    "Check out hotel",
+    "Depart from Zurich"
+   ],
+   "transport": "Public Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add-on",
+   "entries": [
+    {
+     "name": "Mount Titlis",
+     "includes": "Admission to Mt. Titlis from Engelberg, Round trip cable-car tickets including Titlis ROTAIR, Glacier cave, Titlis Cliff walk, IceFlyer chairlift, Titlis Glacier Park including snow tubing (weather permitting)",
+     "duration": "Open all year long · Operation hour: 8.30am - 5pm",
+     "price_lines": [
+      "16 years old and above: RM377",
+      "6-15 years old: RM177",
+      "5 years old and below: FREE"
+     ]
+    },
+    {
+     "name": "Iseltwald Bridge Fee",
+     "price_lines": [
+      "RM67"
+     ]
+    },
+    {
+     "name": "Gornergrat Railways",
+     "includes": "Round trip train from Zermatt to Gornergrat, Riffelalp, Riffelberg, Gornergrat",
+     "duration": "Open all year long · Operation hour: 7.30am - 5.40pm",
+     "price_lines": [
+      "16 years old and above: RM387",
+      "6-15 years old: RM287",
+      "5 years old and below: FREE"
+     ]
+    },
+    {
+     "name": "Matterhorn Glacier Paradise (Zermatt)",
+     "includes": "Admission to Matterhorn Glacier Paradise in Zermatt, Round trip by Matterhorn Glacier ride (cable-car), Entry to 360-Degree Viewing Platform, Admission to Glacier Ice Palace, Cinema Lounge, The Peak Shop",
+     "price_lines": [
+      "16 years old and above: RM397",
+      "9-15 years old: RM297",
+      "0-8 years old: FREE"
+     ]
+    }
+   ]
+  }
+ ],
+ "expect": [
+  {
+   "icon": "train",
+   "title": "Public Transport",
+   "body": "7 days full using of public transport."
+  },
+  {
+   "icon": "hotel",
+   "title": "3/4 Star Hotel",
+   "body": "With breakfast, near to the main city train station."
+  },
+  {
+   "icon": "flight",
+   "title": "Airport Transfer (Day 1 & Day 7)",
+   "body": "Mostly using the local train, tram and bus."
+  },
+  {
+   "icon": "altitude",
+   "title": "Stairs",
+   "body": "Some train stations require lots of climbing stairs."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lot of Walking",
+   "body": "Will be using local public transport for most of the tour."
+  },
+  {
+   "icon": "payment",
+   "title": "City Taxes",
+   "body": "City taxes need to be paid at the hotel, the amount is normally around 3.50CHF per person per night."
+  },
+  {
+   "icon": "guide",
+   "title": "Consultation",
+   "body": "Will be done 14 days before the trip and after all trip documents have been received accordingly."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Price for Single Supplement will be quoted upon request.",
+    "All itinerary, flight, price or quotation is subject to changes.",
+    "Late Booking Surcharge of RM50/booking will be charged if booking made less than 45 days of departure.",
+    "Last Minute Surcharge will be charged if booking made less than 3 weeks of departure (refer to the Last Minute Surcharge table).",
+    "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
+    "Final itinerary and hotel arrangements 14 days before trip.",
+    "Trip Consultation will be done 14 days before departure.",
+    "Please check with our staff on the trip validity or before booking any connecting flights.",
+    "Any free activities is non exchangeable with other activities, voucher or cash if the client not joining or due to availability & weather condition.",
+    "Online trip assistance is based on Malaysia Time (9am - 6pm)."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "product": "ST"
+}

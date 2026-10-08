@@ -1,0 +1,271 @@
+{
+ "slug": "ho-chi-minh",
+ "destination": "Ho Chi Minh",
+ "country": "Vietnam",
+ "code": "HCM",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR HO CHI MINH",
+ "duration": "4D3N",
+ "route": "Shopping Tour - Mekong River - Chu Chi Tunnel",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2025-12-08",
+ "kb_url": "https://prod-at22.github.io/arba-dalat-kb/",
+ "po": "Ezie",
+ "ops": "ILY",
+ "source_pdf": "Vietnam/HCM-Dalat-Muine/Catalog/PT HCM 4D3N 2026 (3 Star, FB).pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "utensils",
+   "label": "Full Board"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "basis": "Price Per Person · 3 Star Fullboard",
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-8 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 4",
+    "amounts": [
+     "RM1,377",
+     "RM1,177",
+     "RM997"
+    ]
+   },
+   {
+    "pax": "5 - 7",
+    "amounts": [
+     "RM1,277",
+     "RM1,097",
+     "RM897"
+    ]
+   },
+   {
+    "pax": "8 - 15",
+    "amounts": [
+     "RM1,177",
+     "RM977",
+     "RM777"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Entrance Fees",
+    "Full Meals (3 International Breakfast, 3 Lunch, 3 Dinner)",
+    "Driving Guide (Malay / English Spoken)",
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In-Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation, Blockout Dates & Last Minute",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge (Additional)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Nicecy Boutique Hotel, Queen Central Hotel",
+    "similar": true,
+    "amounts": [
+     "-"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Nesta Hotel, Gem Ben Thanh Hotel",
+    "similar": true,
+    "amounts": [
+     "RM130/person/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Blockout — Chinese New Year 2026",
+    "period": "16 - 22 February 2026",
+    "rate": "Blockout date"
+   },
+   {
+    "label": "Blockout — Chinese New Year 2027",
+    "period": "17 - 18 February 2027",
+    "rate": "Blockout date"
+   },
+   {
+    "label": "Peak Travel 2027",
+    "period": "January - February 2027",
+    "rate": "Add RM120/pax"
+   },
+   {
+    "label": "Last Minute — booking within 3 weeks of departure",
+    "period": "2 pax",
+    "rate": "Additional RM300/person"
+   },
+   {
+    "label": "Last Minute — booking within 3 weeks of departure",
+    "period": "3 pax & above",
+    "rate": "Additional RM200/person"
+   }
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival - HCM Shopping Tour",
+   "activities": [
+    "Suggested arrival time: 12pm or earlier",
+    "Arrive Tan Son Nhat International Airport (SGN)",
+    "Wholesale Shopping Tour - Baju Kurung, Tudung, Telekung, Shoes & Bag",
+    "Free & Easy - street night market"
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3-Star Hotel (Ho Chi Minh)"
+  },
+  {
+   "day": 2,
+   "title": "Mekong River - Shopping & Food Tour",
+   "activities": [
+    "Mekong Tour: Tien (Mekong) River Delta's Dragon, Unicorn, Tortoise and Phoenix Islands",
+    "Honey Bee-farm (taste delicious honey tea with lemon)",
+    "Coconut candy workshop (witness and try to do it)",
+    "Ride on horse-cart",
+    "Visit / pray @ My Tho Mosque, lunch",
+    "Dainy or Sarah (wholesale market)",
+    "Free & Easy - street night market"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Ho Chi Minh)"
+  },
+  {
+   "day": 3,
+   "title": "Chu Chi Tunnel - City - Shopping & Food Tour",
+   "activities": [
+    "Chu Chi Tunnel Tour (underground tunnel during the Vietnam wars)",
+    "Visit / pray @ Jamia Al Muslimin Mosque",
+    "Vietnam War Museum (the War Remnants Museum)",
+    "Central Post Office (Vietnam's largest post office)",
+    "Notre Dame Cathedral",
+    "Opera House",
+    "Shopping Tour - Taka Plaza, Saigon Square"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3-Star Hotel (Ho Chi Minh)"
+  },
+  {
+   "day": 4,
+   "title": "Shopping Tour",
+   "activities": [
+    "Suggested departure time: 2pm onwards",
+    "Shopping at Ben Thanh Market",
+    "Transfer to Tan Son Nhat International Airport (SGN)"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "map-pin",
+   "title": "Attraction Places",
+   "body": "Attractions may require a long journey to reach — 2 to 3 hours each way."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Prepare for Weather",
+   "body": "Rainy May - October. Sunny November - April."
+  },
+  {
+   "icon": "utensils",
+   "title": "Full Board Meals",
+   "body": "Meals are already included in the package. If you choose not to consume them, no refund will be provided."
+  },
+  {
+   "icon": "luggage",
+   "title": "Luggage Allocation",
+   "body": "Please bring a maximum of 1 luggage per pax, as it affects car capacity."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel Locations",
+   "body": "Hotels near the city centre are prioritised. If none are available, the hotel will be just outside the city centre."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lots of Walking",
+   "body": "Some attractions require a lot of walking, for example the Chu Chi Tunnel."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Price for single supplement will be quoted upon request.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "A last minute surcharge applies if the booking is made less than 3 weeks before departure — see the surcharge table above.",
+    "All itinerary, flight, price or quotation is subject to change.",
+    "The itinerary during the trip is subject to change due to weather, traffic, safety and similar factors.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

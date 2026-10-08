@@ -1,0 +1,314 @@
+{
+ "slug": "sabah-kk-kundasang-3d2n",
+ "destination": "KK-Kundasang",
+ "country": "Malaysia",
+ "code": "KKK",
+ "tier": "Basic",
+ "tier_code": "BSC",
+ "title": "PRIVATE TOUR KK - KUNDASANG BASIC",
+ "duration": "3D2N",
+ "route": "Kundasang - Desa Dairy Farm - Rabbit Farm - Filipino Market - Kota Kinabalu",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v3",
+ "updated": "2026-07-01",
+ "kb_url": "https://prod-at22.github.io/arba-kkk-kb/",
+ "po": "Fyka",
+ "ops": "",
+ "source_pdf": "Domestik/KK Kundasang/Catalog/PAKEJ SABAH 3D2N (3 STAR) 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "11 yrs & above"
+   },
+   {
+    "label": "Child with bed",
+    "age": "7-10 yrs"
+   },
+   {
+    "label": "Child no bed",
+    "age": "3-6 yrs"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "1",
+    "amounts": [
+     "RM1,697",
+     "RM1,597",
+     "RM1,497"
+    ]
+   },
+   {
+    "pax": "2",
+    "amounts": [
+     "RM1,117",
+     "RM1,017",
+     "RM917"
+    ]
+   },
+   {
+    "pax": "3 - 4",
+    "amounts": [
+     "RM957",
+     "RM857",
+     "RM757"
+    ]
+   },
+   {
+    "pax": "5 - 6",
+    "amounts": [
+     "RM907",
+     "RM807",
+     "RM707"
+    ]
+   },
+   {
+    "pax": "7 - 8",
+    "amounts": [
+     "RM877",
+     "RM777",
+     "RM677"
+    ]
+   },
+   {
+    "pax": "9 - 10",
+    "amounts": [
+     "RM857",
+     "RM757",
+     "RM657"
+    ]
+   }
+  ]
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Private Transportation (Van OR MPV)",
+    "2 x Nights at 3 Star Hotel (Extra bed/mattress/sofa bed for triple sharing room)",
+    "Local Malaysian Driver cum Guide",
+    "Meals as per Itinerary (2x Breakfast & 1 x Dinner)",
+    "Entrance Fee as per Itinerary (for Malaysian Only)",
+    "Airport Transfer"
+   ],
+   "excludes": [
+    "Personal Expenses",
+    "Extra meals",
+    "Flight Ticket",
+    "Travel insurance",
+    "Entrance Fees, Tourism Tax & Surcharge for Non Malaysian"
+   ]
+  }
+ ],
+ "surcharge": {
+  "columns": [
+   {
+    "label": "Upgrade Surcharge (Additional)"
+   },
+   {
+    "label": "Peak Season Surcharge",
+    "period": "15 July - 20 August 2026 | 28 August - 1 September 2026 | 16 September 2026 | 6 - 10 November 2026 | 20 December 2026 - 3 January 2027 | 4 - 10 February 2027"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "Kundasang: Kinabalu Pine Resort, Celyn, HBenjamin or similar · Kota Kinabalu: Ming Garden Hotel, Dreamtel Hotel",
+    "similar": true,
+    "amounts": [
+     "-",
+     "RM40/pax/night"
+    ]
+   },
+   {
+    "type": "3.5 Star Hotel",
+    "name": "Kundasang: Perkasa, Dreamworld",
+    "similar": true,
+    "amounts": [
+     "Add RM80/pax/night",
+     "RM60/pax/night"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "Kota Kinabalu: Promenade, Palace Hotel",
+    "similar": true,
+    "amounts": [
+     "Add RM150/pax/night",
+     "RM90/pax/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Surcharge Travel Date 2027",
+    "period": "January - June 2027",
+    "rate": "Add RM100/pax"
+   }
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kota Kinabalu - Kundasang",
+   "activities": [
+    "Arrive at Kota Kinabalu",
+    "Depart to Kundasang",
+    "Rumah Terbalik (Upside Down House)",
+    "Nabalu Market (Local fresh farm market)",
+    "Pekan Kundasang (Hill town with best Mt Kinabalu view)",
+    "Check in Hotel in Kundasang & Rest"
+   ],
+   "transport": "Private Transport",
+   "meals": "Dinner",
+   "hotel": "3-Star Hotel (Kundasang)"
+  },
+  {
+   "day": 2,
+   "title": "Kundasang Tour",
+   "activities": [
+    "Check out",
+    "DESA Dairy Farm",
+    "Rabbit Farm",
+    "Jambatan Tamparuli (Suspension Bridge)",
+    "Grilled Lokan, Coconut Jelly",
+    "Anjung Senja Seafood",
+    "Check in Hotel in Kota Kinabalu City & Rest"
+   ],
+   "transport": "Private Transport",
+   "meals": "Breakfast",
+   "hotel": "3-Star Hotel (Kota Kinabalu)"
+  },
+  {
+   "day": 3,
+   "title": "Kota Kinabalu City Tour",
+   "activities": [
+    "Bandaraya Mosque",
+    "Yayasan Building",
+    "Filipino Market (Most popular seafood - market and souvenirs)",
+    "Jamilah Souvenir Shop",
+    "Depart to Kota Kinabalu Airport"
+   ],
+   "transport": "Private Transport",
+   "meals": "Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add-on",
+   "entries": [
+    {
+     "name": "Poring Hot Spring + Canopy Walk (Ranau)",
+     "price_lines": [
+      "RM15/pax",
+      "Minimum 1 person to book"
+     ]
+    },
+    {
+     "name": "Parasailing",
+     "price_lines": [
+      "RM90/pax",
+      "Minimum 1 person to book"
+     ]
+    },
+    {
+     "name": "Seawalking",
+     "price_lines": [
+      "RM180/pax",
+      "Minimum 1 person to book"
+     ]
+    },
+    {
+     "name": "Banana Boat",
+     "price_lines": [
+      "RM50/pax",
+      "Minimum 3 persons to book"
+     ]
+    },
+    {
+     "name": "Mari-mari Cultural Village (add-on)",
+     "includes": "Transport & Lunch/Tea",
+     "price_lines": [
+      "RM160/pax adult",
+      "RM150/pax child"
+     ]
+    }
+   ]
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Not Mentioned in the Itinerary",
+   "body": "Things not mentioned in the itinerary must be paid by customers, e.g. shower room, shopping etc."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Prepare cash if you plan to shop at Sabah Town Market. Cards and QR are not available at some shops and street stalls."
+  },
+  {
+   "icon": "bus",
+   "title": "Airport Transfer",
+   "body": "Private transport will be used for all activity transfers."
+  },
+  {
+   "icon": "bed",
+   "title": "Triple Room Bed",
+   "body": "Triple sharing room with 1 single bed will be provided based on availability. An extra bed will be added if no triple bed is available in the travel period."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals provided during the trip (breakfast) will be local food. Other meals (lunch & dinner) can be decided during the trip with the driver."
+  },
+  {
+   "icon": "info",
+   "title": "For Non Malaysian",
+   "body": "Entrance fees, tourism tax & surcharge for non-Malaysians can be paid during the trip."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Price for single supplement is additional RM300 per person.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "All itinerary, flight, price or quotation is subject to change.",
+    "The itinerary during the trip is subject to change due to weather, traffic, safety and similar factors.",
+    "Final itinerary and accommodation arrangements will be shared 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
+    "Entrance fees, tourism tax & surcharge for non-Malaysians are normally around RM170 - RM370 per person."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "30 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

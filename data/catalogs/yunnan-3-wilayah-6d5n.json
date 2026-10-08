@@ -1,0 +1,312 @@
+{
+ "slug": "yunnan-3-wilayah-6d5n",
+ "destination": "Yunnan 3 Wilayah",
+ "country": "China",
+ "code": "KMGDL",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR YUNNAN 3 WILAYAH",
+ "duration": "6D5N",
+ "route": "Kunming - Dali - Lijiang",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v1",
+ "updated": "2026-07-29",
+ "kb_url": "https://prod-at22.github.io/arba-yunnan-kb/",
+ "po": "Amirul",
+ "ops": "ILY",
+ "source_pdf": "China/Kunming/Catalog/PT YUNNAN 3 WILAYAH 6D5N 2026 v1.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 3",
+    "amounts": [
+     "RM4,997",
+     "RM4,797",
+     "RM4,597"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM4,097",
+     "RM3,897",
+     "RM3,697"
+    ]
+   },
+   {
+    "pax": "6 - 9",
+    "amounts": [
+     "RM3,697",
+     "RM3,497",
+     "RM3,297"
+    ]
+   },
+   {
+    "pax": "10 - 14",
+    "amounts": [
+     "RM3,197",
+     "RM2,997",
+     "RM2,797"
+    ]
+   }
+  ],
+  "infant": "FOC"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "5 Nights Accommodation with International Breakfast on sharing basis (Local 4Star Hotel)",
+    "Private Transportation (10 Hour Basis)",
+    "Bullet Train Second Class Seat (Kunming-Dali, Lijiang-Kunming)",
+    "Halal Meals as specified in itinerary",
+    "Entrance Fees as specified in itinerary",
+    "Boat tour at Dali Erhai Lake",
+    "Cable Car at Jade Dragon Snow Mountain",
+    "Buggy service at Dali Santorini & Shilin Stone Forest",
+    "Tipping Fee, Parking Fee",
+    "Airport Transfer",
+    "English Speaking Tour Guide"
+   ],
+   "excludes": [
+    "Private Driver & Guide is base on 10 hours basis. Additional fees will be charged for every extra hour usage",
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal & Airport Tax",
+    "Additional Fees or Tours",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kuala Lumpur - Kunming",
+   "activities": [
+    "(Suggested Flight: AirAsia or Batik Air)",
+    "Arrive in Kunming Changshui Intl’ Airport",
+    "Airport Pickup",
+    "Transfer to hotel in Kunming and check in",
+    "Rest for the day"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "-",
+   "hotel": "4-Star Hotel (Kunming)"
+  },
+  {
+   "day": 2,
+   "title": "Kunming - Dali [Bullet Train]",
+   "activities": [
+    "After Breakfast, check out Hotel",
+    "Transfer to Dali by Bullet Train (~2 Hour)",
+    "Dali Foreigner Street & Dali Ancient Town",
+    "Dali Santorini (Include Return Buggy)",
+    "Dinner and check in Hotel in Dali"
+   ],
+   "transport": "Private Transport, Bullet Train",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Dali)"
+  },
+  {
+   "day": 3,
+   "title": "Dali - Lijiang",
+   "activities": [
+    "After breakfast, check out Hotel",
+    "Visit Dali Erhai Lake (Include Boat Tour)",
+    "Transfer to Lijiang by private transport (~3Hour Drive)",
+    "Lijiang Ancient City Tour (One of UNESCO best-preserved ancient towns in China)",
+    "Dinner and check-in Hotel in Lijiang"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Lijiang)"
+  },
+  {
+   "day": 4,
+   "title": "Lijiang Tour",
+   "activities": [
+    "Jade Dragon Snow Mountain (Enjoy scenic cable car ride up Glacier park at 4506M from sea level, higher than Mt. Kinabalu!)",
+    "Lijiang Impression Show",
+    "Blue Moon Valley & White Water River (Incl Battery Car)",
+    "Dongbaqu (A Cultural park of Naxi Heritage)",
+    "Dry Sea (Vast grassland at the foot of Jade Dragon Snow Mountain)",
+    "Lijiang Mosque",
+    "Dinner and back to Hotel in Lijiang"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Packed Lunch, Dinner",
+   "hotel": "4-Star Hotel (Lijiang)"
+  },
+  {
+   "day": 5,
+   "title": "Lijiang - Kunming [Bullet Train]",
+   "activities": [
+    "After breakfast, check out from hotel",
+    "Black Dragon Pool (Scenic Lake with Snow Mountain Backdrop)",
+    "Transfer to Kunming by bullet train (~4 to 4.5 Hours)",
+    "Nanping Pedestrian Street (Souvenir shopping)",
+    "Visit Shuncheng Mosque (A historic mosque in Kunming that blends both Chinese & Islamic architecture)",
+    "After dinner, check in to hotel at Kunming"
+   ],
+   "transport": "Private Transport, Bullet Train",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "4-Star Hotel (Kunming)"
+  },
+  {
+   "day": 6,
+   "title": "Kunming City Tour + Airport Transfer",
+   "activities": [
+    "After breakfast, check out from hotel",
+    "Transfer to Shilin Stone Forest (UNESCO Rated stunning limestone formations resembling a stone forest)",
+    "Kunming Waterfall Park",
+    "Visit Yongning Mosque",
+    "After dinner, transfer to airport for midnight flight",
+    {
+     "text": "Note:",
+     "sub": [
+      "Guests with an evening flight will transfer to the airport after lunch & the trip ends on Day 6.",
+      "Return flights from Kunming to KUL depart either in the evening (~5:00 PM, Day 6) or early morning (~2:00 AM, Day 7). Kindly book the correct timing or consult with our travel consultant."
+     ]
+    }
+   ],
+   "transport": "Private Transport, Airport Transfer",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "altitude",
+   "title": "High Altitude Areas",
+   "body": "High altitude areas like Jade Dragon Snow Mountain may impose altitude sickness."
+  },
+  {
+   "icon": "map-pin",
+   "title": "Distant Drop Off & Pickup Point",
+   "body": "The drop-off point may not be directly at the entrance."
+  },
+  {
+   "icon": "group",
+   "title": "Large Crowds",
+   "body": "Expect large crowds and queues in China, especially during holidays and peak travel seasons."
+  },
+  {
+   "icon": "hotel",
+   "title": "Multiple Hotels",
+   "body": "Guests will stay in multiple hotels as the trip covers several cities across Yunnan."
+  },
+  {
+   "icon": "train",
+   "title": "Intercity Transfer",
+   "body": "Intercity transfers via bullet trains and private transport."
+  },
+  {
+   "icon": "payment",
+   "title": "Communication & Payment",
+   "body": "Download WeChat and set up E-wallet as some places may prefer cashless payments."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM600/person.",
+    "Fare is not applicable during peak seasons; please refer to the peak season surcharge.",
+    "Late booking surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "This package is valid until the 31st December 2026 travel period.",
+    "Private transportation & tour guide is based on 10 hours basis. Additional fees will be charged for every extra hour usage. Payment must be paid in cash.",
+    "Quotation, itinerary and price are subject to change accordingly.",
+    "Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Peak Season Dates & Surcharge",
+  "seasons": [
+   {
+    "label": "Dragon Boat Festival",
+    "period": "19 - 21 June 2026",
+    "rate": "RM30/pax/night"
+   },
+   {
+    "label": "China Summer Holiday",
+    "period": "Whole July & August",
+    "rate": "RM300/pax"
+   },
+   {
+    "label": "China Golden Week",
+    "period": "1 Oct - 8 Oct 2026",
+    "rate": "RM300/pax"
+   },
+   {
+    "label": "Christmas & New Year",
+    "period": "22 Dec 2026 - 5 Jan 2027",
+    "rate": "RM300/pax"
+   }
+  ],
+  "notes": [
+   "Blackout dates: Chinese New Year (14 Feb - 22 Feb 2026) and Labor Day (1 May - 5 May 2026)."
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Kunming",
+   "stars": 4,
+   "name": "Country Inn & Suites by Radisson Hotel / Ramada Encore Hotel / Howard Johnson Hotel",
+   "similar": true
+  },
+  {
+   "city": "Dali",
+   "stars": 4,
+   "name": "WenYue Hotel",
+   "similar": true
+  },
+  {
+   "city": "Lijiang",
+   "stars": 4,
+   "name": "Kyriad Hotel",
+   "similar": true
+  }
+ ]
+}

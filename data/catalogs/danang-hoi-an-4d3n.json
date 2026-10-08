@@ -1,0 +1,289 @@
+{
+ "slug": "danang-hoi-an-4d3n",
+ "destination": "Danang-Hoi An",
+ "country": "Vietnam",
+ "code": "DADH",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR DANANG - HOI AN",
+ "duration": "4D3N",
+ "route": "Danang Beach - Bana Hills Cable Car - Coconut Basket Boat Tour",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v3",
+ "updated": "2026-08-06",
+ "kb_url": "https://prod-at22.github.io/arba-danang-kb/",
+ "po": "Ezie",
+ "ops": "ILY",
+ "source_pdf": "Vietnam/Danang-Hoi An/Catalog/PT DANANG HOI AN 4D3N 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "3-Star Hotel"
+  },
+  {
+   "icon": "utensils",
+   "label": "Full Board"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-8 years old"
+   },
+   {
+    "label": "Child Without Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM2,217",
+     "RM2,017",
+     "RM1,817"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM2,147",
+     "RM1,947",
+     "RM1,747"
+    ]
+   },
+   {
+    "pax": "4 - 5",
+    "amounts": [
+     "RM1,977",
+     "RM1,777",
+     "RM1,577"
+    ]
+   },
+   {
+    "pax": "6 - 7",
+    "amounts": [
+     "RM1,777",
+     "RM1,577",
+     "RM1,377"
+    ]
+   },
+   {
+    "pax": "8 - 12",
+    "amounts": [
+     "RM1,677",
+     "RM1,477",
+     "RM1,277"
+    ]
+   }
+  ],
+  "infant": "FOC",
+  "basis": "Price Per Person · 3 Star Fullboard",
+  "pax_label": "Number of Adults"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Private Transportation",
+    "Full Meals (3 International Breakfast, 3 Lunch, 3 Dinner)",
+    "Local Driving Guide (English Speaking)",
+    {
+     "text": "Entrance fees",
+     "sub": [
+      "Champa Museum",
+      "Hoi An Old Quarter",
+      "Coconut Basket Boat Tour",
+      "Cable Car Ticket to Bana Hills"
+     ]
+    },
+    "Tipping Fee"
+   ],
+   "excludes": [
+    "Return Flight Tickets",
+    "Luggage, In-Flight Meal & Airport Tax",
+    "Additional Tours & Meals",
+    "Personal Expenses",
+    "Travel Insurance"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Accommodation Upgrade, Blockout & Travel Date",
+  "columns": [
+   {
+    "label": "Upgrade Surcharge (Additional)"
+   }
+  ],
+  "rows": [
+   {
+    "type": "3 Star Hotel",
+    "name": "LA Beach Hotel / Golden Rose Hotel",
+    "amounts": [
+     "-"
+    ]
+   },
+   {
+    "type": "4 Star Hotel",
+    "name": "RHM Hotel / Santa Luxury Hotel",
+    "amounts": [
+     "Add RM140/person/night"
+    ]
+   }
+  ],
+  "seasons": [
+   {
+    "label": "Blockout: Chinese New Year 2026",
+    "period": "16 February - 22 February 2026",
+    "rate": "Blockout date"
+   },
+   {
+    "label": "Blockout: Chinese New Year 2027",
+    "period": "17 February - 18 February 2027",
+    "rate": "Blockout date"
+   },
+   {
+    "label": "Last Minute Surcharge",
+    "period": "Booking 3 weeks before departure date",
+    "rate": "2 pax: Additional RM300 per person · 3 pax & Above: Additional RM200 per person"
+   },
+   {
+    "label": "Surcharge Travel Date 2027",
+    "period": "January - February 2027",
+    "rate": "Add RM150/pax"
+   }
+  ]
+ },
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Arrival - Danang",
+   "activities": [
+    "(Suggested Arrival Time : 12pm or earlier)",
+    "Arrival at Danang International Airport",
+    "Airport Pickup",
+    "Champa Museum (Included)",
+    "Check in Hotel",
+    "Free and easy at Danang Beach",
+    "Dinner and visit Night Market"
+   ],
+   "transport": "Private Transport",
+   "meals": "Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 2,
+   "title": "Bana Hill Sunworld Tour",
+   "activities": [
+    "Cable Car to Bana Hills (Included)",
+    "French Village",
+    "Alpine Coaster Ride (optional)",
+    "Golden Bridge & Fantasy Park",
+    "Son Tra Night Market"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 3,
+   "title": "Danang City Tour - Hoi An",
+   "activities": [
+    "Love Bridge",
+    "Dragon Bridge",
+    "Shopping at Danang",
+    "Hoi An Old Quarter",
+    "Coconut Basket Boat (Included)"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel"
+  },
+  {
+   "day": 4,
+   "title": "Free & Easy - Departure",
+   "activities": [
+    "(Suggested Departure Time : 11am and above)",
+    "Breakfast",
+    "Free & Easy",
+    "Transfer to Danang International Airport"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Optional Activities",
+   "body": "Activities not mentioned in the itinerary must be paid by customers. Eg: Alpine Coaster at Bana Hill: RM50/pax."
+  },
+  {
+   "icon": "sun",
+   "title": "Prepare for Weather",
+   "body": "Rainy (Sep - Dec), Sunny (Jan - Aug), Hottest: June - Aug."
+  },
+  {
+   "icon": "utensils",
+   "title": "Full Board Meals",
+   "body": "Meals are already included in the package. If you choose not to consume them, no refund will be provided."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lot of Walking",
+   "body": "Some attraction places will require a lot of walking."
+  },
+  {
+   "icon": "hotel",
+   "title": "Hotel Locations",
+   "body": "Will prioritize hotels near to the city centre first. If not available, hotel location will be just outside the city centre."
+  },
+  {
+   "icon": "luggage",
+   "title": "Luggage Allocations",
+   "body": "Please bring max 1 luggage for 1 pax as it will affect the car capacity."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: quoted on request.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "Last Minute Surcharge will be charged if booking is made less than 3 weeks before departure (refer to the Last Minute Surcharge in the Surcharge table).",
+    "All itinerary, flight, price or quotation is subject to change.",
+    "The itinerary during the trip is subject to change due to weather, traffic, safety and similar factors.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to departure for full payment"
+  }
+ ]
+}

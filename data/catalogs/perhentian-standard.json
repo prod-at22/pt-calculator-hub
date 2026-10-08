@@ -1,0 +1,291 @@
+{
+ "slug": "perhentian-standard",
+ "destination": "Perhentian",
+ "country": "Malaysia",
+ "code": "PHT",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PAKEJ PERHENTIAN STANDARD",
+ "duration": "3D2N",
+ "route": "Windmill Trekking - Snorkelling Trip - Shark Point - Fish Point - Turtle Point - Nemo Point - Teluk Keke Beach",
+ "basis": "Ground & Tipping",
+ "valid_until": "15 October 2026",
+ "version": "v3",
+ "updated": "2026-07-01",
+ "kb_url": "https://prod-at22.github.io/arba-perhentian-kb/",
+ "po": "Fyka",
+ "ops": "",
+ "source_pdf": "Domestik/Perhentian/Catalog/PT PERHENTIAN STANDARD (3D2N) 2026 v3.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "boat",
+   "label": "Sharing Basis Boat"
+  },
+  {
+   "icon": "sun",
+   "label": "5 Points Snorkelling Trip"
+  },
+  {
+   "icon": "utensils",
+   "label": "Meals Included"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "12 years above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "6-11 years old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-5 years old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "1",
+    "amounts": [
+     "RM2,197",
+     "-",
+     "-"
+    ]
+   },
+   {
+    "pax": "2 - 10",
+    "amounts": [
+     "RM1,597",
+     "RM1,497",
+     "RM1,397"
+    ]
+   }
+  ]
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Return Boat Transfer (SIC)",
+    "2x Nights at MIMPI Resort Perhentian",
+    "Meals (2x Breakfast, 2x Lunch, 2x Dinner)",
+    "5 points Snorkelling Trip",
+    "Snorkelling Gear"
+   ],
+   "excludes": [
+    "Personal expenses",
+    "Additional meals",
+    "Optional activities",
+    "Travel insurance",
+    "Surcharge for Non Malaysian Passport Holder",
+    "Marine Park Entrance Fees (Adult: RM5 & Child: RM2)"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kuala Besut Jetty - Perhentian Kecil",
+   "activities": [
+    "Shared Boat Transfer (Kuala Besut Jetty to Perhentian Island)",
+    "Check-in Mimpi Perhentian Resort",
+    "Free & Easy",
+    "Beach Activities",
+    "Windmill Trekking",
+    "Longbeach Fireshow"
+   ],
+   "transport": "Boat Transfer Only (K.Besut Jetty - Perhentian Island)",
+   "meals": "Lunch, Dinner",
+   "hotel": "MIMPI Resort, Perhentian Kecil"
+  },
+  {
+   "day": 2,
+   "title": "Perhentian Snorkeling Trip (SIC Tour)",
+   "activities": [
+    "Breakfast at Resort",
+    {
+     "text": "5 Points Snorkeling Trip",
+     "sub": [
+      "Fish Point",
+      "Turtle Point",
+      "Shark Point",
+      "Kg Nelayan (Lunch Break)",
+      "Teluk Keke Beach",
+      "Nemo Point Beach"
+     ]
+    },
+    "Back to Resort",
+    "Dinner at Resort"
+   ],
+   "transport": "Boat for Snorkeling Trip",
+   "meals": "Breakfast, Lunch, Dinner",
+   "hotel": "MIMPI Resort, Perhentian Kecil"
+  },
+  {
+   "day": 3,
+   "title": "Perhentian Kecil - Kuala Besut Jetty",
+   "activities": [
+    "Breakfast at Resort",
+    "Free & Easy",
+    "Check out Resort",
+    "Shared Boat Transfer Perhentian Kecil to Kuala Besut Jetty"
+   ],
+   "transport": "Boat Transfer (Perhentian Island - K.Besut Jetty)",
+   "meals": "Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Includes",
+   "body": "Must be paid by customers, e.g. Marine park, other activities etc."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "For Marine Park and shopping around Perhentian Island. Cards and QR are not available at some shops."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Shared Boat Transfer",
+   "body": "Please be on time as per itinerary and as updated by our team for all boat timing."
+  },
+  {
+   "icon": "bed",
+   "title": "Room Arrangement",
+   "body": "Triple sharing room with 3 single beds will be provided based on availability. Extra bed will be added if no triple bed is available on travel period."
+  },
+  {
+   "icon": "utensils",
+   "title": "Meals",
+   "body": "Meals provided during the trip (Breakfast, Lunch and Dinner) will be local food."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Monsoon Season",
+   "body": "Perhentian is closed during Monsoon season from 15 October - 15 February. No trip available on this date."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2@3 person per room (Additional RM600/person for Single Supplement).",
+    "The price stated is Default Standard Room.",
+    "Price is not applicable during peak seasons; please refer to the peak season surcharge.",
+    "Late Booking Surcharge of RM50/booking will apply for bookings made less than 45 days before the departure date.",
+    "All Itinerary, flight, price or quotation is subject to changes.",
+    "Itinerary during trip is subject to changes (due to weather, traffic, safety & etc).",
+    "Final Itinerary and accommodation arrangements will be shared 14 days before trip.",
+    "Please check with our staff on the trip validity or before booking any connecting flights.",
+    "Any free activities is non exchangeable with other activities, voucher or cash if the client is not joining or due to availability & weather condition.",
+    "Boat timing is subject to weather and sea tide conditions.",
+    "SIC Tour = Boat and activity sharing with other tourist.",
+    "Shared Boat Transfer = Boat transfer sharing with other tourist."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 250",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "30 days",
+   "text": "prior to departure for full payment"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add On Activity",
+   "entries": [
+    {
+     "name": "Return Airport Transfer (Sharing Basis)",
+     "includes": "From Kota Bharu Airport - Kuala Besut Jetty; From Kuala Besut Jetty - Kota Bharu Airport",
+     "price_lines": [
+      "RM65/pax"
+     ]
+    },
+    {
+     "name": "Return Private Boat Transfer (From Jetty Kuala Besut to Resort)",
+     "includes": "Max 12 pax per private boat",
+     "price_lines": [
+      "RM957/Boat"
+     ]
+    },
+    {
+     "name": "Private Boat Island Hopping Tour (5 Snorkelling Point)",
+     "includes": "Max 12 pax per private boat; 5 Snorkelling Point: Shark Point, Fish Point, Nemo Point, Turtle Point, Teluk Keke",
+     "price_lines": [
+      "RM957/Boat"
+     ]
+    },
+    {
+     "name": "Snorkelling Pulau Rawa",
+     "includes": "Sharing boat with other tourist; minimum 4 pax to join this tour",
+     "price_lines": [
+      "RM120/pax"
+     ]
+    },
+    {
+     "name": "Scuba Diving (DSD)",
+     "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
+     "price_lines": [
+      "RM300/pax"
+     ]
+    },
+    {
+     "name": "Scuba Diving (Fun Dive)",
+     "includes": "Scuba Gear & Dive Master; minimum 1 pax to join this tour",
+     "price_lines": [
+      "RM120/pax"
+     ]
+    },
+    {
+     "name": "Honeymoon Package Mimpi Resort Perhentian",
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM600/couple"
+     ]
+    },
+    {
+     "name": "Honeymoon Package Shari-la Resort Perhentian",
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM280/couple"
+     ]
+    },
+    {
+     "name": "Honeymoon Package Ombak Resort Perhentian",
+     "includes": "Honeymoon Bedroom Decoration, Candle Light Dinner for Couple",
+     "price_lines": [
+      "RM380/couple"
+     ]
+    }
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Peak Season",
+  "seasons": [
+   {
+    "label": "Peak Seasons Date & Surcharges",
+    "period": "26 May 2026 - 1 June 2026 | 1 July 2026 - 31 August 2026",
+    "rate": "Add on RM150/pax/night"
+   },
+   {
+    "label": "Surcharge Travel Date 2027",
+    "period": "15 February 2027 - 31 March 2027",
+    "rate": "Add on RM150/pax/night"
+   }
+  ]
+ },
+ "product": "PAKEJ"
+}

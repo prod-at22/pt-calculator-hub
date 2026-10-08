@@ -7,7 +7,7 @@ const REPO = { owner: "prod-at22", name: "pt-calculator-hub", branch: "main" };
 const ROOT = window.PT_ROOT || "";          // "../" on /<code>/ pages
 const PAGE_DEST = window.PT_DEST || null;   // destination code, null on the hub
 const PAGE_VIEW = window.PT_VIEW || null;   // "flags" on /flags/
-const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json", flags: "data/flags.json" };
+const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json", flags: "data/flags.json", catalogs: "data/catalogs/" };
 const KDF_ITER = 310000;
 const IDLE_LOGOUT_MS = 30 * 60 * 1000;
 
@@ -21,7 +21,7 @@ let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
+const TABS = [["costing", "Costing"], ["catalog", "Catalog Details"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
 
@@ -357,6 +357,7 @@ function renderMain(d, pkg) {
   $("#kpis").innerHTML = "";
   const T = SEL.tab;
   if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + costingByPax(d, pkg, pax);
+  else if (T === "catalog") $("#grid").innerHTML = catalogCard(d, pkg);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d) || `<div class="card full"><div class="empty">No add-ons in the R&D for ${esc(d.name)}.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -553,6 +554,64 @@ function addonCard(d) {
 // TO Contract Rate: the TO's contract / rate card files (PDF, Excel, image), kept in the repo
 // under contracts/<code>/ and listed in the destination's `contracts`.
 const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(b / 1024)) + " KB";
+/* ============================================================ catalog details
+   The catalog content (itinerary, includes / excludes, add-ons, notes …) lives in data/catalogs/<slug>.json,
+   same schema as Catalog PT, which mirrors it to catalog-pt-public. index.json links slug → package. */
+const CAT = { index: null, docs: {}, err: null };
+function loadCatalog(path, set) {
+  fetchJson(PATHS.catalogs + path).then(set).catch(e => { CAT.err = e.message; }).then(() => { if (SEL.tab === "catalog") render(); });
+}
+function catalogCard(d, pkg) {
+  if (!CAT.index) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading catalog…"}</div></div>`; }
+  const slugs = Object.keys(CAT.index).filter(s => CAT.index[s].code === d.code && CAT.index[s].package === pkg.id);
+  if (!slugs.length) return `<div class="card full"><div class="empty">${esc(pkg.label)} has no published catalog.</div></div>`;
+  return slugs.map(slug => {
+    const c = CAT.docs[slug];
+    if (!c) { if (!CAT.err) loadCatalog(slug + ".json", x => { CAT.docs[slug] = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading " + esc(slug) + "…"}</div></div>`; }
+    return catalogDoc(c, CAT.index[slug]);
+  }).join("");
+}
+function catalogDoc(c, ix) {
+  const li = it => typeof it === "string" ? `<li>${esc(it)}</li>` : `<li>${esc(it.text)}${it.sub && it.sub.length ? `<ul>${it.sub.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</li>`;
+  const ul = a => a && a.length ? `<ul class="cd-list">${a.map(li).join("")}</ul>` : '<div class="muted">—</div>';
+  const sec = (title, body, sub) => body ? `<section class="cd-sec"><h3>${esc(title)}${sub ? ` <span class="muted">${esc(sub)}</span>` : ""}</h3>${body}</section>` : "";
+  const notes = n => n && n.length ? `<div class="cd-note">${n.map(esc).join("<br>")}</div>` : "";
+  const P = c.prices || {};
+  const price = P.rows && P.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">${esc(P.pax_label || "No. of Pax")}</th>${P.columns.map(x => `<th>${esc(x.label)}${x.age ? `<span class="cd-age">${esc(x.age)}</span>` : ""}</th>`).join("")}</tr></thead>
+      <tbody>${P.rows.map(r => `<tr><td class="l">${esc(r.pax)}</td>${r.amounts.map(v => `<td class="num">${esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+      ${P.infant || P.single_supplement ? `<div class="cd-note">${P.infant ? "Infant: " + esc(P.infant) : ""}${P.infant && P.single_supplement ? " · " : ""}${P.single_supplement ? "Single supplement: " + esc(P.single_supplement) : ""}</div>` : ""}${notes(P.notes)}` : "";
+  const incl = (c.price_blocks || []).map(b => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes)}</div><div><h4>Excludes</h4>${ul(b.excludes)}</div></div>`).join("");
+  const S = c.surcharge || {};
+  const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map(x => `<th>${esc(x.label)}${x.period ? `<span class="cd-age">${esc(x.period)}</span>` : ""}</th>`).join("")}</tr></thead>
+      <tbody>${S.rows.map(r => `<tr><td class="l">${esc(r.type || "")}</td><td class="l">${esc(r.name || "")}${r.similar ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map(v => `<td>${esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
+    + (S.seasons && S.seasons.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">Season</th><th class="l">Travel dates</th><th class="l">Surcharge</th></tr></thead>
+      <tbody>${S.seasons.map(x => `<tr><td class="l"><b>${esc(x.label)}</b></td><td class="l">${esc(x.period || "")}</td><td class="l">${esc(x.rate || "")}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes);
+  const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map(a => `<div><span class="muted">${esc(a.city || "")}</span>${a.stars ? ` · ${"★".repeat(a.stars)}` : ""}<br>${esc(a.name)}${a.similar ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
+  const itins = (c.itineraries || [{ label: null, days: c.itinerary }]).filter(x => x.days && x.days.length);
+  const itin = it => `<div class="scroll"><table class="cd-t cd-itin"><thead><tr><th class="l">Day</th><th class="l">Activities</th><th class="l">Transport</th><th class="l">Meal</th><th class="l">Hotel</th></tr></thead>
+      <tbody>${it.days.map(x => `<tr><td class="l cd-day">${esc(x.day)}</td><td class="l"><b>${esc(x.title || "")}</b>${ul(x.activities)}</td><td class="l">${esc(x.transport || "—")}</td><td class="l">${esc(x.meals || "—")}</td><td class="l">${esc(x.hotel || "—")}</td></tr>`).join("")}</tbody></table></div>`;
+  const addons = (c.addons || []).map(g => sec(g.title, `<div class="scroll"><table class="cd-t"><tbody>${g.entries.map(a => `<tr><td class="l"><b>${esc(a.name)}</b>${["includes", "excludes", "duration"].filter(k => a[k]).map(k => `<div class="muted">${k.charAt(0).toUpperCase() + k.slice(1)}: ${esc(a[k])}</div>`).join("")}</td>
+      <td class="l cd-price">${(a.price_lines || []).map(esc).join("<br>")}</td></tr>`).join("")}</tbody></table></div>${notes(g.notes)}`)).join("");
+  const expect = c.expect && c.expect.length ? `<div class="cd-acc">${c.expect.map(e => `<div><b>${esc(e.title)}</b>${e.tag ? ` <span class="pill">${esc(e.tag)}</span>` : ""}<br><span class="muted">${esc(e.body)}</span></div>`).join("")}</div>` : "";
+  const imp = (c.notes || []).map(n => `${n.title ? `<h4>${esc(n.title)}</h4>` : ""}${ul(n.entries)}`).join("");
+  const dep = (c.deposit || []).map(x => `<div><b>${esc(x.figure)}</b> ${esc(x.text)}</div>`).join("");
+  const meta = [c.duration, c.route, c.basis, c.valid_until ? "valid until " + c.valid_until : "", c.version, c.updated ? "updated " + c.updated : ""].filter(Boolean).map(esc).join(" · ");
+  return `<div class="card full cd" id="cat-${esc(c.slug)}"><h2>${esc(c.title)} <span class="sub">${meta}</span>
+      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Public page</a><a class="btn" href="${esc(ix.url.replace(/\.html$/, ".pdf"))}" target="_blank" rel="noopener">PDF</a></span></h2>
+    <div class="body">
+      ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}
+      ${sec("Package Price", price, "as printed in the catalog")}
+      ${sec("Price Includes / Excludes", incl)}
+      ${sec(S.title || "Surcharge", sur)}
+      ${sec("Accommodation", acc)}
+      ${itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + it.label + ")" : ""), itin(it))).join("")}
+      ${addons}
+      ${sec("What to Expect", expect)}
+      ${sec("Important Notes", imp)}
+      ${sec("Deposit & Full Payment", dep)}
+      <div class="cd-note">Source: data/catalogs/${esc(c.slug)}.json · PO ${esc(c.po || "—")} · Ops ${esc(c.ops || "—")}${c.source_pdf ? " · transcribed from " + esc(c.source_pdf) : ""}</div>
+    </div></div>`;
+}
 function contractCard(d) {
   const list = [...(d.contracts || [])].sort((a, b) => String(b.at).localeCompare(String(a.at)));
   const canEdit = SESSION && !VIEW;

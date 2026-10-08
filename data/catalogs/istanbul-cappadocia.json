@@ -1,0 +1,398 @@
+{
+ "slug": "istanbul-cappadocia",
+ "destination": "Istanbul-Cappadocia",
+ "country": "Turki",
+ "code": "ISTCAP",
+ "tier": "Standard",
+ "tier_code": "STD",
+ "title": "PRIVATE TOUR ISTANBUL - CAPPADOCIA",
+ "duration": "6D5N",
+ "route": "Istanbul - Cappadocia",
+ "basis": "Ground + Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v5",
+ "updated": "2026-03-10",
+ "kb_url": "https://prod-at22.github.io/arba-turki-kb/",
+ "po": "Acap",
+ "ops": "ILY",
+ "source_pdf": "Turki/Istanbul-Cappadocia/Catalog/PT Istanbul+Cappadocia 6D5N 2026 v5.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "bus",
+   "label": "Private Transport"
+  },
+  {
+   "icon": "guide",
+   "label": "Driving Guide"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult"
+   },
+   {
+    "label": "Child with bed",
+    "age": "7-11 Years Old"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2-6 Years Old"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2",
+    "amounts": [
+     "RM6,497",
+     "RM6,297",
+     "RM6,097"
+    ]
+   },
+   {
+    "pax": "3",
+    "amounts": [
+     "RM5,697",
+     "RM5,497",
+     "RM5,297"
+    ]
+   },
+   {
+    "pax": "4",
+    "amounts": [
+     "RM5,597",
+     "RM5,397",
+     "RM5,197"
+    ]
+   },
+   {
+    "pax": "5",
+    "amounts": [
+     "RM5,297",
+     "RM5,097",
+     "RM4,897"
+    ]
+   },
+   {
+    "pax": "6",
+    "amounts": [
+     "RM4,897",
+     "RM4,697",
+     "RM4,497"
+    ]
+   },
+   {
+    "pax": "7",
+    "amounts": [
+     "RM4,797",
+     "RM4,597",
+     "RM4,397"
+    ]
+   },
+   {
+    "pax": "8",
+    "amounts": [
+     "RM4,597",
+     "RM4,397",
+     "RM4,197"
+    ]
+   },
+   {
+    "pax": "9",
+    "amounts": [
+     "RM4,297",
+     "RM4,097",
+     "RM3,897"
+    ]
+   }
+  ],
+  "infant": "RM500 per pax"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "Accommodation (3 Star)",
+    "Private Transport",
+    "Private Driver (Turkish Speaking)",
+    "Tour Guide (English Speaking)",
+    "Domestic Flight (15kg)",
+    "Meals (5x International Breakfast, 4x Lunch, 5x Dinner)",
+    {
+     "text": "Entrance Fees",
+     "sub": [
+      "Bosphorus Cruise",
+      "Pierre Loti Teleferik"
+     ]
+    },
+    "Tipping Fee for driver and tour guide"
+   ],
+   "excludes": [
+    "International Flight",
+    "Personal Expenses",
+    "Additional Meal",
+    "Travel Insurance",
+    "Fees for optional activities",
+    "Porter fee",
+    "Hagia Sophia Mosque",
+    "Topkapi Palace"
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Istanbul",
+   "activities": [
+    "Airport Pickup",
+    "Check in Istanbul",
+    "Free & Easy"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "Dinner",
+   "hotel": "3 Star Hotel (Istanbul)"
+  },
+  {
+   "day": 2,
+   "title": "Istanbul - Cappadocia",
+   "activities": [
+    "Topkapi Palace (photo stop)",
+    "Hagia Sophia Mosque (photo stop)",
+    "Blue Mosque",
+    "Depart to Cappadocia by Flight",
+    "Check in Cappadocia"
+   ],
+   "transport": "Tram, Private Airport Transfer, Domestic Flight",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Cappadocia)"
+  },
+  {
+   "day": 3,
+   "title": "Cappadocia",
+   "activities": [
+    "Uchisar Castle",
+    "Love Valley",
+    "Pottery Ceramic Workshop",
+    "Zelve Open Air Museum",
+    "Pasabag Fair Chimneys Valley",
+    "Devrent Valley"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Cappadocia)"
+  },
+  {
+   "day": 4,
+   "title": "Cappadocia - Istanbul",
+   "activities": [
+    "Depart to Istanbul by Flight",
+    "Bosphorus Cruise",
+    "Spice Bazaar",
+    "Grand Bazaar",
+    "Check in Istanbul"
+   ],
+   "transport": "Tram",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Istanbul)"
+  },
+  {
+   "day": 5,
+   "title": "Istanbul",
+   "activities": [
+    "Eyup Mosque",
+    "Pierre Loti Hill",
+    "Taksim Square and Istiklal Street",
+    "Galata Tower"
+   ],
+   "transport": "Private Transport",
+   "meals": "International Breakfast, Lunch, Dinner",
+   "hotel": "3 Star Hotel (Istanbul)"
+  },
+  {
+   "day": 6,
+   "title": "Istanbul",
+   "activities": [
+    "Check out",
+    "Airport Transfer"
+   ],
+   "transport": "Private Airport Transfer",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "expect": [
+  {
+   "icon": "bus",
+   "title": "Private Transport",
+   "body": "Please bring a maximum of 1 luggage per person, as it will affect car capacity."
+  },
+  {
+   "icon": "utensils",
+   "title": "Food",
+   "body": "Consistent menu & subtle variation. Don't forget your sambal."
+  },
+  {
+   "icon": "footprints",
+   "title": "Lots of Walking",
+   "body": "Especially in Istanbul (pedestrian zone)."
+  },
+  {
+   "icon": "altitude",
+   "title": "Stairs",
+   "body": "Cave hotel may have stairs inside."
+  },
+  {
+   "icon": "train",
+   "title": "Public Transport",
+   "body": "2 days using tram in Istanbul City Center."
+  },
+  {
+   "icon": "guide",
+   "title": "Tour Guide",
+   "body": "10-11 hours basis."
+  },
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary Must Be Paid by Customers",
+   "body": "E.g. entrance fees, shopping, etc."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Single supplement: additional RM1,000/person.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "Quotation is subject to change.",
+    "Private transportation & driving guide is based on 10-11 hours basis.",
+    "Itinerary, price and flight schedule are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before the trip; hotel location will be confirmed at least 14 days before departure.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions.",
+    "This package is valid until 31 December 2026 travel period."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 1,000",
+   "text": "deposit per person"
+  },
+  {
+   "figure": "45 days",
+   "text": "prior to arrival for full payment"
+  }
+ ],
+ "surcharge": {
+  "title": "Surcharge — Travel Date 2026",
+  "seasons": [
+   {
+    "label": "Peak Season",
+    "period": "1 Sept 2026 - 30 Nov 2026",
+    "rate": "Additional 10% per pax"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Istanbul",
+   "stars": 3,
+   "name": "Viva Deluxe Hotel",
+   "similar": true
+  },
+  {
+   "city": "Cappadocia",
+   "stars": 3,
+   "name": "My Cave Hotel",
+   "similar": true
+  }
+ ],
+ "addons": [
+  {
+   "title": "Additional Activities",
+   "entries": [
+    {
+     "name": "Jeep Tour (min 2 pax)",
+     "includes": "Jeep tour, professional guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 3-4 hours",
+     "price_lines": [
+      "RM257/pax"
+     ]
+    },
+    {
+     "name": "ATV Tour",
+     "includes": "ATV ride, guide",
+     "excludes": "Other activities, personal expenses",
+     "duration": "Typically 1-2 hours",
+     "price_lines": [
+      "RM227/pax"
+     ]
+    },
+    {
+     "name": "Whirling Dervishes",
+     "includes": "Entrance, performance show",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour show",
+     "price_lines": [
+      "RM227/pax"
+     ]
+    },
+    {
+     "name": "Turkish Night",
+     "includes": "Dinner, cultural performance (dance, music)",
+     "excludes": "Alcoholic beverages, personal expenses",
+     "duration": "3-4 hours",
+     "price_lines": [
+      "RM297/pax"
+     ]
+    },
+    {
+     "name": "Horse Riding",
+     "includes": "Horse ride, instructor",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1-2 hours",
+     "price_lines": [
+      "RM257/pax"
+     ]
+    },
+    {
+     "name": "Bosphorus Dinner Cruise",
+     "includes": "Dinner, cruise along the Bosphorus, entertainment",
+     "excludes": "Alcoholic drinks, personal expenses",
+     "duration": "2-3 hours",
+     "price_lines": [
+      "RM297/pax"
+     ]
+    },
+    {
+     "name": "Hot Air Balloon Tour",
+     "includes": "Balloon ride, guide, insurance",
+     "excludes": "Other activities, personal expenses",
+     "duration": "1 hour flight (additional time for preparation)",
+     "price_lines": [
+      "Price varies seasonally"
+     ]
+    },
+    {
+     "name": "Topkapi Palace Entrance",
+     "includes": "Main Palace, Harem section, and Hagia Irene Church",
+     "excludes": "Guided tour, food/drinks, and personal expenses",
+     "duration": "3-4 hours (recommended)",
+     "price_lines": [
+      "RM277/pax"
+     ]
+    }
+   ],
+   "notes": [
+    "*** Hot Air Balloon is an optional activity and will be conducted on day 3 or day 4 depending on the weather. It will be conducted during sunrise time in the morning and will not interrupt the scheduled itinerary.",
+    "P/S: Actual visit time will depend on the actual weather of the day, and the program of the day can be rearranged according to the opening hours of the places visited."
+   ]
+  }
+ ]
+}

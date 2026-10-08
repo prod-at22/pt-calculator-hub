@@ -1,0 +1,319 @@
+{
+ "slug": "maldives-basic",
+ "destination": "Maldives",
+ "country": "Maldives",
+ "code": "MLE",
+ "tier": "Basic",
+ "tier_code": "BSC",
+ "title": "PAKEJ MALDIVES BASIC",
+ "duration": "4D3N",
+ "route": "Sightseeing - Island Trip",
+ "basis": "Ground & Tipping",
+ "valid_until": "31 December 2026",
+ "version": "v4",
+ "updated": "2025-12-03",
+ "kb_url": "https://prod-at22.github.io/arba-maldives-kb/",
+ "po": "Acap",
+ "ops": "CIK IWAN",
+ "source_pdf": "Maldives/Catalog/MALDIVES BASIC 4D3N 2026 v4.pdf",
+ "highlights": [
+  {
+   "icon": "hotel",
+   "label": "Accommodation"
+  },
+  {
+   "icon": "boat",
+   "label": "Sharing Basis Boat"
+  },
+  {
+   "icon": "info",
+   "label": "Basic"
+  }
+ ],
+ "prices": {
+  "columns": [
+   {
+    "label": "Adult",
+    "age": "9 yrs & above"
+   },
+   {
+    "label": "Child With Bed",
+    "age": "2 - 9 yrs"
+   },
+   {
+    "label": "Child No Bed",
+    "age": "2 - 5 yrs"
+   }
+  ],
+  "rows": [
+   {
+    "pax": "2 - 10",
+    "amounts": [
+     "RM2,097",
+     "RM1,697",
+     "RM1,097"
+    ]
+   }
+  ],
+  "infant": "RM100 (0-2 yrs)"
+ },
+ "price_blocks": [
+  {
+   "includes": [
+    "3 Nights Accommodation (3 Star Hotel)",
+    "Return airport transfer by speedboat",
+    "Activities as per itinerary",
+    "International Breakfast",
+    "Tipping Fee",
+    "Green Tax",
+    "Tourism & Services Tax"
+   ],
+   "excludes": [
+    "International Flight Ticket (Return)",
+    "In-flight meals",
+    "Lunch & Dinner",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in itinerary"
+   ]
+  }
+ ],
+ "surcharge": {
+  "title": "Peak Season Dates & Surcharge / Last Minute Surcharge",
+  "seasons": [
+   {
+    "label": "High Season",
+    "period": "11 January 2026 - 30 April 2026 · 1 November 2026 - 20 December 2026",
+    "rate": "Add on RM100 per person"
+   },
+   {
+    "label": "Peak Season",
+    "period": "21 December 2026 - 10 January 2027",
+    "rate": "Add on RM200 per person"
+   },
+   {
+    "label": "Christmas Eve",
+    "period": "24 December",
+    "rate": "Add on RM600 per person"
+   },
+   {
+    "label": "New Year Eve",
+    "period": "31 December",
+    "rate": "Add on RM700 per person"
+   },
+   {
+    "label": "Last Minute Surcharge",
+    "period": "Booking 3 weeks before departure date",
+    "rate": "2 pax: Additional RM300 per group · 3-10 pax: Additional RM200 per group"
+   }
+  ]
+ },
+ "accommodation": [
+  {
+   "city": "Maldives",
+   "stars": 3,
+   "name": "ICOM Marina",
+   "similar": true
+  },
+  {
+   "city": "Maldives",
+   "stars": 3,
+   "name": "Tropic Tree",
+   "similar": true
+  },
+  {
+   "city": "Maldives",
+   "stars": 3,
+   "name": "Velana Hotels",
+   "similar": true
+  },
+  {
+   "city": "Maldives",
+   "stars": 3,
+   "name": "Triton Beach & Spa",
+   "similar": true
+  }
+ ],
+ "itinerary": [
+  {
+   "day": 1,
+   "title": "Kuala Lumpur - Male",
+   "activities": [
+    "(Recommend to arrive before 12 noon)",
+    "Airport transfer by speedboat",
+    "Check-in hotel"
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "-",
+   "hotel": "3-Star Hotel (Maafushi)"
+  },
+  {
+   "day": 2,
+   "title": "Excursion Trip (Shared Tour)",
+   "activities": [
+    {
+     "text": "ICOM Hotel: Fish Tank Excursion Trip (Shared Tour)",
+     "sub": [
+      "Dolphin Sightseeing",
+      "Reef Snorkelling",
+      "Fish Tank Snorkelling",
+      "Lunch on Sand Bank",
+      "Return to Maafushi Island"
+     ]
+    },
+    {
+     "text": "Velana Hotel: Nurse Shark Excursion (Shared Tour)",
+     "sub": [
+      "Snorkeling with Nurse Shark",
+      "Lunch on Sand bank",
+      "Stingray feeding",
+      "Dolphin Sightseeing",
+      "Fulidhoo Island Hopping"
+     ]
+    }
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel (Maafushi)"
+  },
+  {
+   "day": 3,
+   "title": "Maafushi Island",
+   "activities": [
+    "Free & Easy (optional tours: refer table below)"
+   ],
+   "transport": "-",
+   "meals": "International Breakfast",
+   "hotel": "3-Star Hotel (Maafushi)"
+  },
+  {
+   "day": 4,
+   "title": "Male - Kuala Lumpur",
+   "activities": [
+    "(Recommend to depart after 12 noon)",
+    "Breakfast",
+    "Check Out Hotel",
+    "Airport Transfer by speedboat"
+   ],
+   "transport": "Speedboat (sharing basis)",
+   "meals": "International Breakfast",
+   "hotel": "-"
+  }
+ ],
+ "addons": [
+  {
+   "title": "Add-ons (ICOM Hotels)",
+   "entries": [
+    {
+     "name": "Vaavu Atoll Shipwreck (shared tour)",
+     "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
+     "price_lines": [
+      "RM350/pax"
+     ]
+    },
+    {
+     "name": "Whale Shark Trip (shared tour)",
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
+     "price_lines": [
+      "RM500/pax"
+     ]
+    },
+    {
+     "name": "Private Island Excursion (shared tour)",
+     "includes": "Adaaran Club Rannalhi Resort or Fihalhohi Island Resort or Adaaran Prestige Vadoo or Centara Rasfushi",
+     "price_lines": [
+      "RM800/pax"
+     ]
+    }
+   ],
+   "notes": [
+    "Shared Tour = Boat and activity sharing with other tourists."
+   ]
+  },
+  {
+   "title": "Add-ons (Velana Hotels)",
+   "entries": [
+    {
+     "name": "Fish Tank Trip (shared tour)",
+     "includes": "Dolphin Sightseeing, Reef Snorkelling, Fish Tank Snorkelling, Lunch on Sand Bank, Gulhi Island Hopping",
+     "price_lines": [
+      "RM350/pax"
+     ]
+    },
+    {
+     "name": "Whale Shark Trip (shared tour)",
+     "includes": "Snorkelling & Swimming, Whale Shark Point, Manta Rays Point, Lunch at Dhigurah",
+     "price_lines": [
+      "RM500/pax"
+     ]
+    },
+    {
+     "name": "Real Break Tour (shared tour)",
+     "includes": "Snorkelling with Nurse Shark, Shipwreck snorkeling, Lunch on Sand bank, Stingray watching, Dolphin Sightseeing",
+     "price_lines": [
+      "RM350/pax"
+     ]
+    }
+   ],
+   "notes": [
+    "Shared Tour = Boat and activity sharing with other tourists."
+   ]
+  }
+ ],
+ "expect": [
+  {
+   "icon": "payment",
+   "title": "Things Not Mentioned in the Itinerary",
+   "body": "Must be paid by customers, e.g. resort island excursion trip."
+  },
+  {
+   "icon": "bus",
+   "title": "Airport Transfer & Island Activities by Speedboat",
+   "body": "Speedboat is on a sharing basis."
+  },
+  {
+   "icon": "payment",
+   "title": "Prepare Cash",
+   "body": "Prepare cash if you plan to shop at Maafushi Island. Cards and QR are not available at some shops and street stalls."
+  },
+  {
+   "icon": "umbrella",
+   "title": "Wet Season",
+   "body": "May to September. Prepare attire and shoes that are suitable to wear during the rainy season."
+  },
+  {
+   "icon": "flight",
+   "title": "Arrival at Male Airport",
+   "body": "Hotel or resort staff will be available at the airport upon arrival. Extra charges apply for arrivals after 8pm."
+  }
+ ],
+ "notes": [
+  {
+   "title": "",
+   "entries": [
+    "All prices are valid for 24 hours after quotation submission.",
+    "The price is for 2 to 3 persons per room.",
+    "Price for single supplement will be quoted upon request.",
+    "The price for upgrade to 4 Star is RM400 per person.",
+    "Late booking surcharge of RM50/booking will be charged if the booking is made less than 45 days before departure.",
+    "Last Minute Surcharge will be charged if the booking is made less than 3 weeks before departure (refer to the Last Minute Surcharge table).",
+    "Itinerary, price and flight are subject to change accordingly.",
+    "Final itinerary and hotel arrangements 14 days before the trip.",
+    "Please check with our staff on the trip validity before booking any connecting domestic flights.",
+    "Itinerary during the trip is subject to changes (due to weather, traffic, safety, etc.).",
+    "Any free activity is non-exchangeable for other activities, vouchers or cash if the client does not join, or due to availability and weather conditions."
+   ]
+  }
+ ],
+ "deposit": [
+  {
+   "figure": "RM 500",
+   "text": "deposit per person upon confirmation"
+  },
+  {
+   "figure": "45 days",
+   "text": "before departure for full payment"
+  }
+ ],
+ "product": "PAKEJ"
+}
