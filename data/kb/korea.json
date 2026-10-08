@@ -1,0 +1,6186 @@
+{
+ "slug": "korea",
+ "kind": "bespoke",
+ "content": {
+  "PKG": [
+   {
+    "n": "PT Seoul Basic 5D4N",
+    "tag": "Seoul · 5D4N",
+    "sub": "2 hari Free & Easy · Nami + Gyeongbok",
+    "f": "@asset:c31becbce035",
+    "intro": "5-day 4-night Private Tour of Seoul, ideal for first-timers. Includes 2 Free & Easy days — private guide & transport on Day 1–2 only (Nami Island & Gyeongbokgung Palace); Day 3–4 are free for your own shopping and exploring.",
+    "inc": [
+     "Hotel 3 bintang + sarapan",
+     "Airport transfer peribadi (Day 1 & Day 5)",
+     "Pengangkutan peribadi Day 1–2 (asas 10 jam/hari)",
+     "Driving guide berlesen English (Day 1–2)",
+     "Tiket masuk: Nami Island, Gyeongbok Palace",
+     "Tipping fee",
+     "K-ETA percuma (1 kali, warganegara Malaysia)"
+    ],
+    "exc": [
+     "Makan tengah hari & makan malam",
+     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
+     "Penerbangan antarabangsa",
+     "Perbelanjaan peribadi",
+     "Aktiviti pilihan (optional)",
+     "Insurans perjalanan",
+     "K-ETA re-application (RM70)"
+    ],
+    "note": "2 hari Free & Easy (Day 3–4) tanpa pemandu/pengangkutan."
+   },
+   {
+    "n": "PT Seoul Standard 5D4N",
+    "tag": "Seoul · 5D4N",
+    "sub": "Full day tour Day 1–4",
+    "f": "@asset:592053d327de",
+    "intro": "5-day 4-night Private Tour of Seoul with full-day touring throughout (Day 1–4) — private guide & transport every day. Covers Nami Island, Gyeongbokgung Palace & Namsan Cable Car.",
+    "inc": [
+     "Hotel 3 bintang + sarapan",
+     "Airport transfer peribadi (Day 5)",
+     "Pengangkutan peribadi Day 1–4 (asas 10 jam/hari)",
+     "Driving guide berlesen English (Day 1–4)",
+     "Tiket masuk: Nami Island, Gyeongbok Palace, Namsan Cable Car",
+     "Tipping fee",
+     "K-ETA percuma (1 kali, warganegara Malaysia)"
+    ],
+    "exc": [
+     "Makan tengah hari & makan malam",
+     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
+     "Penerbangan antarabangsa",
+     "Perbelanjaan peribadi",
+     "Aktiviti pilihan (optional)",
+     "Insurans perjalanan",
+     "K-ETA re-application (RM70)"
+    ],
+    "note": ""
+   },
+   {
+    "n": "PT Seoul–Jeju Standard 6D5N",
+    "tag": "Seoul + Jeju · 6D5N",
+    "sub": "Kombo bandar + pulau · flight domestik",
+    "f": "@asset:22f7d4276507",
+    "intro": "6-day 5-night Seoul + Jeju Island combo with domestic flights included. Blends city highlights (Nami, Gyeongbokgung, Namsan) with Jeju's natural beauty (Seongsan Ilchulbong, Cheonjeyeon, Yongmeori).",
+    "inc": [
+     "Hotel 3 bintang + sarapan",
+     "Airport transfer peribadi",
+     "Pengangkutan peribadi (asas 10 jam/hari)",
+     "Driving guide berlesen English (10 jam)",
+     "Tiket masuk: Nami, Gyeongbok, Namsan Cable Car, Seongsan Ilchulbong, Cheonjeyeon, Yongmeori",
+     "Penerbangan domestik pergi-balik (bagasi 20kg)",
+     "Tipping fee",
+     "K-ETA percuma (1 kali, warganegara Malaysia)"
+    ],
+    "exc": [
+     "Makan tengah hari & makan malam",
+     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
+     "Penerbangan antarabangsa",
+     "Perbelanjaan peribadi",
+     "Aktiviti pilihan (optional)",
+     "Insurans perjalanan",
+     "K-ETA re-application (RM70)"
+    ],
+    "note": ""
+   },
+   {
+    "n": "PT Jeju 4D3N",
+    "tag": "Jeju · 4D3N",
+    "sub": "Fokus pulau Jeju",
+    "f": "@asset:9e3e8281fbee",
+    "intro": "4-day 3-night Private Tour focused on Jeju Island — Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong & a seasonal tour that changes with the time of year.",
+    "inc": [
+     "Hotel 3 bintang + sarapan",
+     "Airport transfer peribadi",
+     "Pengangkutan peribadi (asas 10 jam/hari)",
+     "Driving guide berlesen English (10 jam)",
+     "Tiket masuk: Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
+     "Tipping fee",
+     "K-ETA percuma (1 kali, warganegara Malaysia)"
+    ],
+    "exc": [
+     "Makan tengah hari & makan malam",
+     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
+     "Penerbangan antarabangsa",
+     "Penerbangan domestik",
+     "Perbelanjaan peribadi",
+     "Aktiviti pilihan (optional)",
+     "Insurans perjalanan",
+     "K-ETA re-application (RM70)"
+    ],
+    "note": "Bayaran secara tunai."
+   },
+   {
+    "n": "PT Jeju Udo 5D4N",
+    "tag": "Jeju + Udo · 5D4N",
+    "sub": "Jeju + feri pergi-balik ke Udo",
+    "f": "@asset:046d0657d2fe",
+    "intro": "5-day 4-night Jeju + Udo Island package, including a return ferry ticket to Udo. Covers Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong & a seasonal tour.",
+    "inc": [
+     "Hotel 3 bintang + sarapan",
+     "Airport transfer peribadi",
+     "Pengangkutan peribadi (asas 10 jam/hari)",
+     "Driving guide berlesen English (10 jam)",
+     "Tiket masuk: Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
+     "Tiket feri pergi-balik ke Udo",
+     "Tipping fee",
+     "K-ETA percuma (1 kali, warganegara Malaysia)"
+    ],
+    "exc": [
+     "Makan tengah hari & makan malam",
+     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
+     "Penerbangan antarabangsa",
+     "Penerbangan domestik",
+     "Perbelanjaan peribadi",
+     "Aktiviti pilihan (optional)",
+     "Insurans perjalanan",
+     "K-ETA re-application (RM70)"
+    ],
+    "note": "Bayaran secara tunai."
+   }
+  ],
+  "ITIN": [
+   [
+    {
+     "d": 1,
+     "t": "Nami Island",
+     "a": [
+      "Airport pickup",
+      "Strawberry Farm (fruit picking, Dec–Feb) OR Starfield Library @ COEX (Mar–Nov)",
+      "Nami Island (Winter Sonata filming location)",
+      "Hotel check-in"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Seoul City",
+     "a": [
+      "Namdaemun Market (souvenirs)",
+      "Gyeongbokgung Palace",
+      "Namsan Hanok Village",
+      "Itaewon Mosque (first mosque in South Korea)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Free & Easy",
+     "a": [
+      "Explore at your own pace — no guide/transport"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Free & Easy",
+     "a": [
+      "Explore at your own pace — no guide/transport"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Departure",
+     "a": [
+      "Check-out & private airport transfer"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Nami Island",
+     "a": [
+      "Airport pickup",
+      "Strawberry Farm (Dec–Feb) OR Starfield Library @ COEX (Mar–Nov)",
+      "Nami Island (Winter Sonata filming location)",
+      "Hotel check-in"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Seoul City",
+     "a": [
+      "Gyeongbokgung Palace",
+      "Gwanghwamun Square",
+      "Cheonggyecheon Stream",
+      "HiKR Ground (K-pop cultural center)",
+      "Insadong Street"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Shopping Day",
+     "a": [
+      "Goto Mall (largest underground mall) OR Seongsu-dong",
+      "Namdaemun Market",
+      "Myeongdong Street (skincare, K-pop, street food)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Seoul City",
+     "a": [
+      "Namsan (N Seoul) Tower by cable car",
+      "Itaewon Mosque",
+      "Hongdae Street"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Departure",
+     "a": [
+      "Check-out & private airport transfer"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Nami Island",
+     "a": [
+      "Arrival at Incheon",
+      "Nami Island",
+      "Dongdaemun Design Plaza (DDP)",
+      "Hotel check-in"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Seoul City",
+     "a": [
+      "Gyeongbokgung Palace",
+      "Cheonggyecheon Stream",
+      "Itaewon (first mosque in South Korea)",
+      "Seongsu-dong Market"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Jeju Island",
+     "a": [
+      "Morning flight to Jeju",
+      "Osulloc Green Tea Farm & Innisfree House",
+      "Yongmeori Coast",
+      "Cheonjeyeon Waterfall"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Jeju Island",
+     "a": [
+      "Seongeup Folk Village",
+      "Seopjikoji",
+      "Gimnyeong Beach",
+      "Seongsan Ilchulbong",
+      "Seasonal Tour (see note)"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Seoul City",
+     "a": [
+      "Morning flight to Seoul",
+      "Namdaemun Market",
+      "Namsan Cable Car",
+      "Myeongdong Street"
+     ]
+    },
+    {
+     "d": 6,
+     "t": "Departure",
+     "a": [
+      "Check-out & airport transfer"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Arrival · Jeju City",
+     "a": [
+      "Airport pickup (morning arrival suggested)",
+      "Yongduam Rock",
+      "Yongyeon Pond",
+      "Saryeoni Forest Trail",
+      "Iho Tewoo Horse Lighthouse",
+      "Dongmun Traditional Market",
+      "Check-in"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Jeju West & South",
+     "a": [
+      "Saebyeol Oreum",
+      "Osulloc Green Tea Farm & Innisfree House",
+      "Yongmeori Coast",
+      "Cheonjeyeon Waterfall"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Jeju East",
+     "a": [
+      "Seongeup Folk Village",
+      "Seopjikoji",
+      "Gimnyeong Beach",
+      "Seongsan Ilchulbong (UNESCO)",
+      "Seasonal Tour (see note)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Departure",
+     "a": [
+      "Check-out & private airport transfer"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Arrival · Jeju City",
+     "a": [
+      "Airport pickup (morning arrival suggested)",
+      "Yongduam Rock",
+      "Yongyeon Pond",
+      "Saryeoni Forest Trail",
+      "Iho Tewoo Horse Lighthouse",
+      "Dongmun Traditional Market",
+      "Check-in"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Jeju West & South",
+     "a": [
+      "Saebyeol Oreum",
+      "Osulloc Green Tea Farm & Innisfree House",
+      "Yongmeori Coast",
+      "Cheonjeyeon Waterfall"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Jeju East",
+     "a": [
+      "Seongeup Folk Village",
+      "Seopjikoji",
+      "Gimnyeong Beach",
+      "Seongsan Ilchulbong (UNESCO)",
+      "Seasonal Tour (see note)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Udo · Free & Easy",
+     "a": [
+      "Ferry to Udo Island (~4 hrs, ferry ticket included)",
+      "Free & easy on Udo (guide drops at departure port)"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Departure",
+     "a": [
+      "Check-out & airport transfer"
+     ]
+    }
+   ]
+  ],
+  "SNOTE": {
+   "2": 1,
+   "3": 1,
+   "4": 1
+  },
+  "SEASON_TXT": "Seasonal Tour (entrance included) — Autumn: Sangumburi (silver grass, pink muhly) · Winter: Hallabong tangerine picking · Spring: canola field / cherry blossom · Summer: sunflower / hydrangea.",
+  "ATTR": [
+   {
+    "n": "Nami Island",
+    "t": "Autumn/Winter",
+    "img": "@asset:2f43e77ca255",
+    "short": "Pulau bulan sabit · lokasi shooting K-drama",
+    "intro": "Namiseom, pulau berbentuk bulan sabit di Gapyeong (~1½ jam dari Seoul), terkenal sebagai lokasi penggambaran drama Winter Sonata. Laluan pokok metasequoia & gingko yang ikonik menjadikannya cantik setiap musim.",
+    "hi": [
+     "Laluan pokok metasequoia & gingko yang terkenal",
+     "Naik feri pendek ke pulau (termasuk dalam pakej)",
+     "Basikal, zipline & railbike (bayar sendiri)",
+     "Daun luruh (Okt–Nov) & salji musim sejuk"
+    ],
+    "best": "Musim luruh (Okt–Nov) untuk daun; musim sejuk untuk salji.",
+    "muslim": "Restoran halal Dongmun (persijilan KMF) berdekatan Gapyeong ada surau & tempat wuduk. Bawa sejadah untuk kemudahan solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nami+Island+Gapyeong"
+   },
+   {
+    "n": "Gyeongbokgung Palace",
+    "t": "Heritage",
+    "img": "@asset:592053d327de",
+    "short": "Istana diraja Joseon · pengalaman Hanbok",
+    "intro": "Istana diraja utama Dinasti Joseon di tengah Seoul — seni bina tradisional Korea yang megah dengan latar gunung. Tarikan wajib untuk pengalaman warisan & bergambar berhanbok.",
+    "hi": [
+     "Upacara pertukaran pengawal diraja (waktu tertentu)",
+     "Sewa Hanbok ~RM80/4 jam — masuk istana PERCUMA jika berhanbok",
+     "Paviliun Gyeonghoeru & taman yang cantik",
+     "Berdekatan Bukchon Hanok Village & Insadong"
+    ],
+    "best": "Sepanjang tahun; cherry blossom musim bunga. Tutup hari Selasa.",
+    "muslim": "Restoran halal Cheum & Kampungku di Myeongdong berdekatan; Seoul Central Mosque (Itaewon) ~20 minit.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Gyeongbokgung+Palace+Seoul"
+   },
+   {
+    "n": "N Seoul Tower (Namsan)",
+    "t": "Landmark",
+    "img": "@asset:c31becbce035",
+    "short": "Menara ikonik · panorama Seoul 360°",
+    "intro": "Menara ikonik di puncak Gunung Namsan dengan pemandangan panorama 360° bandar Seoul — paling cantik waktu senja & malam apabila lampu bandar menyala.",
+    "hi": [
+     "Kereta kabel Namsan ke puncak",
+     "Dek pemandangan & teres 'love-lock'",
+     "Kafe & restoran berpemandangan",
+     "Taman Namsan untuk bersantai"
+    ],
+    "best": "Waktu senja hingga malam untuk lampu bandar.",
+    "muslim": "Kawasan Itaewon (Muslim-friendly) & Seoul Central Mosque berhampiran kaki bukit; banyak pilihan halal di sekitar Itaewon.",
+    "map": "https://www.google.com/maps/search/?api=1&query=N+Seoul+Tower+Namsan"
+   },
+   {
+    "n": "Myeongdong",
+    "t": "Shopping",
+    "img": "@asset:559ee57c7a64",
+    "short": "Beli-belah & street food paling popular",
+    "intro": "Pusat beli-belah & street food paling popular di Seoul — syurga kosmetik/skincare, fesyen dan jenama antarabangsa, paling meriah waktu malam.",
+    "hi": [
+     "Skincare & kosmetik (Olive Young, Innisfree)",
+     "Street food waktu malam",
+     "Berdekatan Namdaemun Market",
+     "Tax refund untuk belian > KRW 30,000"
+    ],
+    "best": "Petang hingga malam untuk suasana street food.",
+    "muslim": "Restoran halal Kampungku (ada surau tingkat 3) & Cheum di Myeongdong. Tanya bahan street food (elak sos berasaskan arak) sebelum beli.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Myeongdong+Seoul"
+   },
+   {
+    "n": "Everland",
+    "t": "Family",
+    "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800,h_540/https://arbatravel.com/wp-content/uploads/2023/09/tempat-menarik-di-korea-selatan-arba-travel-03-optimized.jpg",
+    "short": "Taman tema terbesar Korea · sesuai family",
+    "intro": "Taman tema terbesar Korea di Yongin — gabungan rides mendebarkan, zoo safari dan taman bunga bermusim. Sesuai keluarga; peruntukkan satu hari penuh.",
+    "hi": [
+     "Roller coaster T-Express",
+     "Zootopia safari (termasuk panda)",
+     "Festival tulip & rose ikut musim",
+     "Parade & pertunjukan"
+    ],
+    "best": "Musim bunga (tulip) & musim luruh; 1 hari penuh.",
+    "muslim": "Pilihan makanan halal terhad — rancang bekalan awal. Ada ruang solat di kawasan tertentu; driver/guide boleh bantu.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Everland+Yongin+Korea"
+   },
+   {
+    "n": "Vivaldi Park Ski World",
+    "t": "Winter",
+    "img": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800,h_540/https://arbatravel.com/wp-content/uploads/2023/09/tempat-menarik-di-korea-selatan-arba-travel-02-optimized.jpg",
+    "short": "Salji & ski dari Seoul (musim sejuk)",
+    "intro": "Resort ski di Hongcheon, Gangwon — pilihan popular untuk pengalaman salji & ski dari Seoul pada musim sejuk. Ada cerun untuk semua tahap dan kawasan main salji.",
+    "hi": [
+     "Cerun ski untuk pemula hingga mahir",
+     "Sewa kelengkapan ski ~RM300–350 (bayar sendiri)",
+     "Snowy Land untuk main salji tanpa ski",
+     "Kelas ski tersedia (top-up)"
+    ],
+    "best": "Dis–Feb (salji paling tebal pertengahan Januari). Awal Disember selalunya belum buka penuh.",
+    "muslim": "Bawa bekalan makanan halal; solat di rest area. Pakaian tebal, sarung tangan & topi disyorkan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vivaldi+Park+Ski+World+Korea"
+   }
+  ],
+  "CUSTOM_HTML": "\n  <h2>Simple Customisation</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Menu add-on & pelarasan untuk PT Seoul / Jeju / Busan. Harga rujukan TC — sahkan dengan operator sebelum quote.</p>\n  <div class=\"custlegend\">\n    <span class=\"lg\"><span class=\"dotp\"></span> <b>Tambah</b> = campur ke harga katalog</span>\n    <span class=\"lg\"><span class=\"dotm\"></span> <b>Tolak</b> = tolak dari TOTAL harga katalog</span>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Transport & Driving Guide (English Speaking)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Kenderaan / Kapasiti</th><th>Tambah</th><th>Tolak dari katalog</th></tr></thead><tbody>\n      <tr><td class=\"it\">Airport Transfer</td><td>Carnival / Staria / Starex · 1–6 pax</td><td class=\"add\">RM 797</td><td class=\"ded\">RM 700</td></tr>\n      <tr><td class=\"it\">Airport Transfer</td><td>7–10 pax</td><td class=\"add\">RM 1,497</td><td class=\"ded\">RM 1,000</td></tr>\n      <tr><td class=\"it\">Driving Guide Seoul / Jeju / Busan</td><td>1–9 pax</td><td class=\"add\">RM 1,200</td><td class=\"ded\">RM 1,000</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Nami)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">RM 1,200</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Everland)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Vivaldi)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Elysian)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Eobi Ice Valley)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driving Guide Outskirt (Elysian + Eobi Ice Valley)</td><td>1–9 pax</td><td class=\"add\">RM 1,400</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driving Outskirt (Busan – Seoul)</td><td>Solati · 10–13 pax <b class=\"warnred\">driver sahaja</b></td><td class=\"add\">RM 3,787</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driver Outskirt (Nami)</td><td>Solati · 10–13 pax <b class=\"warnred\">driver sahaja</b></td><td class=\"add\">RM 1,797</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driver Seoul</td><td>Solati · 10–13 pax <b class=\"warnred\">driver sahaja</b></td><td class=\"add\">RM 1,697</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driver Everland</td><td>Solati · 10–13 pax <b class=\"warnred\">driver sahaja</b></td><td class=\"add\">RM 1,797</td><td class=\"ded\">–</td></tr>\n      <tr><td class=\"it\">Driver Vivaldi</td><td>Solati · 10–13 pax <b class=\"warnred\">driver sahaja</b></td><td class=\"add\">RM 1,997</td><td class=\"ded\">–</td></tr>\n    </tbody></table>\n    <p class=\"custnote\"><b class=\"warnred\">Solati / 10&#8211;13 pax: harga di atas DRIVER SAHAJA.</b>\n      Wajib tambah <b>Korean Tour Guide RM 1,297 / hari</b> &#8212; rujuk tab\n      <i>Transportation &amp; Guide</i>. Contoh: Driving Outskirt Busan&#8211;Seoul\n      RM 3,787 + RM 1,297 = <b>RM 5,084</b>. Simple Calculator sudah mengiranya sendiri\n      bila pax 10&#8211;13.</p>\n    <p class=\"custnote\">Semua harga per transport. Untuk group &gt;6 pax, bagasi besar tidak muat dalam but; jika &gt;7 pax dengan bagasi besar, perlu tempah kenderaan tambahan.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Add-on Private Transport &#8212; Seoul Basic 5D4N</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Everland Theme Park</td><td class=\"add\">RM 1,400 / transport</td><td>Pengangkutan peribadi + driver sahaja. Excl. tiket masuk &amp; makan.</td></tr>\n      <tr><td class=\"it\">Vivaldi Ski Park</td><td class=\"add\">RM 1,400 / transport</td><td>Pengangkutan peribadi + driver sahaja. Excl. tiket masuk &amp; makan.</td></tr>\n      <tr><td class=\"it\">Seoul City</td><td class=\"add\">RM 1,200 / transport</td><td>Pengangkutan peribadi + driver sahaja. Excl. tiket masuk &amp; makan.</td></tr>\n      <tr><td class=\"it\">Upgrade ke English Speaking Driving Guide</td><td class=\"add\">RM 390 / hari</td><td>Excl. tiket masuk, makan &amp; pengangkutan.</td></tr>\n    </tbody></table>\n    <p class=\"srcnote\">Semua pengangkutan berasaskan Carnival, Staria atau Starex (1&#8211;9 pax). Sumber: katalog PT Seoul Basic 5D4N 2026 v2.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Swap Activities &#8212; Seoul Standard 5D4N (Day 2 / 3 / 4)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Everland Theme Park</td><td class=\"add\">RM 160 / pax</td><td>Termasuk pengangkutan peribadi, driving guide &amp; tiket masuk. Excl. makan.</td></tr>\n      <tr><td class=\"it\">Vivaldi Ski Park</td><td class=\"add\">2 pax: RM 290 / pax<br>3 pax ke atas: RM 240 / pax</td><td>Termasuk pengangkutan peribadi &amp; driving guide. Excl. makan &amp; Snowyland (walk-in).</td></tr>\n    </tbody></table>\n    <p class=\"srcnote\">Sumber: katalog PT Seoul Standard 5D4N 2026 v2.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Add-on Jeju</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Tiket feri Udo Island</td><td class=\"add\">RM 50 / pax</td><td>Feri 2 hala. Excl. aktiviti di Udo. (Sudah termasuk dalam pakej Jeju&#8211;Udo.)</td></tr>\n      <tr><td class=\"it\">Hanbok Rental @ Songeup Folk Village</td><td class=\"add\">RM 80 / pax</td><td>Basic hanbok, 4 jam. Excl. peralatan tambahan.</td></tr>\n      <tr><td class=\"it\">Aktiviti di Udo (basikal elektrik, basikal, motosikal, tri electric car)</td><td class=\"add\">10,000 &#8211; 50,000 KRW / pax</td><td>Ikut tempoh guna &amp; jenis kenderaan. Customer bayar terus di kedai.</td></tr>\n    </tbody></table>\n    <p class=\"srcnote\">Sumber: katalog PT Jeju 4D3N v2 &amp; PT Jeju&#8211;Udo 5D4N v1.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Accommodation</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Tambah 1 Malam (Normal)</th><th>Tambah 1 Malam (Peak)</th><th>Tolak 1 Malam (Normal)</th><th>Tolak 1 Malam (Peak)</th></tr></thead><tbody>\n      <tr><td class=\"it\">3 Star Hotel / Airbnb</td><td class=\"add\">RM 250 /pax</td><td>Rujuk surcharge katalog</td><td class=\"ded\">RM 150 /pax</td><td>Rujuk surcharge katalog</td></tr>\n      <tr><td class=\"it\">Upgrade 4 Star (atau setara)</td><td class=\"add\">RM 400 /pax</td><td>Rujuk surcharge katalog</td><td class=\"ded\">RM 250 /pax</td><td>Rujuk surcharge katalog</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Kebanyakan akomodasi tiada lif. Disarankan client tempah sendiri jika mahu penuhi standard tertentu.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Meals</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Tambah 1 Meal</th><th>Tolak 1 Meal</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Breakfast</td><td class=\"add\">RM 40</td><td class=\"ded\">RM 40</td><td>Hotel breakfast sahaja; Airbnb tidak termasuk</td></tr>\n      <tr><td class=\"it\">Lunch</td><td class=\"add\">RM 50</td><td class=\"ded\">RM 50</td><td>—</td></tr>\n      <tr><td class=\"it\">Dinner</td><td class=\"add\">RM 50</td><td class=\"ded\">RM 50</td><td>—</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Pindah Bandar (Inter-City)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">KTX Seoul &#8596; Busan</td><td class=\"add\">RM 200 / pax / way</td><td>Tiket KTX sehala.</td></tr>\n      <tr><td class=\"it\">Flight domestik Seoul &#8596; Jeju</td><td class=\"add\">RM 300 / pax / way</td><td>Sehala, bagasi 15kg + 7kg hand carry.</td></tr>\n      <tr><td class=\"it\">Transfer hotel &#8596; stesen / airport (1&#8211;6 pax)</td><td class=\"add\">RM 360 / way</td><td>Per kenderaan. Driver sahaja.</td></tr>\n      <tr><td class=\"it\">Transfer hotel &#8596; stesen / airport (7&#8211;9 pax)</td><td class=\"add\">RM 700 / way</td><td>Per kenderaan. Driver sahaja.</td></tr>\n    </tbody></table>\n    <p class=\"custnote\"><b class=\"warnred\">Transfer wajib ditambah setiap pindah bandar</b>\n      &#8212; dua transfer setiap perpindahan (hotel &#8594; stesen/airport, dan\n      stesen/airport &#8594; hotel bandar destinasi).\n      <b>Guide tidak mengikut</b> ke bandar seterusnya; guide baharu menunggu di sana.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Activities (Add-on)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Hanbok Rental @ Gyeongbok Palace</td><td class=\"add\">RM 80 /pax</td><td>Basic hanbok, 4 jam. Excl. peralatan tambahan.</td></tr>\n      <tr><td class=\"it\">Everland Theme Park Ticket</td><td class=\"add\">RM 140 /pax</td><td>Entrance sahaja. Excl. fast lane, meals.</td></tr>\n      <tr><td class=\"it\">Lotte World Seoul Ticket</td><td class=\"add\">RM 100 /pax</td><td>Entrance sahaja. Excl. fast lane, meals.</td></tr>\n      <tr><td class=\"it\">Snowyland</td><td class=\"add\">RM 150 /pax</td><td>Entrance sahaja. Excl. fast lane, meals.</td></tr>\n      <tr><td class=\"it\">N Seoul Tower (cable car)</td><td class=\"add\">RM 60 /pax</td><td>Tiket cable car naik-turun. Harga dari PO.</td></tr>\n      <tr><td class=\"it\">Full Board Ski Activity</td><td class=\"add\">~RM 300 /pax</td><td>Ski equipment + baju + helmet + moving walk. Excl. sarung tangan. Disarankan client rental sendiri.</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Domestic Flight & Airport Transfer</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Domestic Flight Seoul → Jeju</td><td class=\"add\">RM 300 /pax /way</td><td>15kg check-in + 7kg hand carry. +RM 50 setiap tambahan 5kg. Excl. meals.</td></tr>\n      <tr><td class=\"it\">Airport Transfer Hotel / ICN → Gimpo</td><td class=\"add\">1–6 pax: RM 360 /way<br>7–9 pax: RM 700 /way</td><td>Private transfer, driver sahaja. Excl. entrance ticket & meals.</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Add-on Tour Guide</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Korean TG (English Speaking)</td><td class=\"add\">RM 1,297 /hari</td><td>Asas 10 jam. Jam lebih 30,000–60,000 KRW/jam. Excl. public transport & entrance fee.</td></tr>\n      <tr><td class=\"it\">Malay Student (Guide)</td><td class=\"add\">RM 797 /hari</td><td>Asas 10 jam. Terma sama seperti di atas.</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Tour guide boleh ikut client secara private atau public transport, tetapi bukan sebagai pemandu (driver).</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Travel Insurance (add-on)</h3>\n    <p class=\"ssub\" style=\"margin:0 0 6px\">TripCare 360 Takaful (Etiqa), Area 2 — harga jualan RM.</p>\n    <table class=\"ctbl\"><thead><tr><th>Plan</th><th>1–5 hari</th><th>6–10 hari</th></tr></thead><tbody>\n      <tr><td class=\"it\">Individual</td><td class=\"add\">RM 64.00</td><td class=\"add\">RM 88.50</td></tr>\n      <tr><td class=\"it\">Couple</td><td class=\"add\">RM 113.00</td><td class=\"add\">RM 160.50</td></tr>\n      <tr><td class=\"it\">Family</td><td class=\"add\">RM 143.50</td><td class=\"add\">RM 201.50</td></tr>\n      <tr><td class=\"it\">Senior Citizen</td><td class=\"add\">RM 185.50</td><td class=\"add\">RM 265.50</td></tr>\n    </tbody></table>\n  </div>\n  <div class=\"custblk\">\n    <h3>Connectivity & Luggage (add-on)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga jualan</th></tr></thead><tbody>\n      <tr><td class=\"it\">Pocket Wifi 3GB (4G) / hari</td><td class=\"add\">RM 70</td></tr>\n      <tr><td class=\"it\">Pocket Wifi 10GB (5G) / hari</td><td class=\"add\">RM 120</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Silver</td><td class=\"add\">RM 20</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Gold</td><td class=\"add\">RM 40</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Platinum</td><td class=\"add\">RM 55</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Diamond</td><td class=\"add\">RM 70</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Nota: ski resort overnight +RM 500/pax/malam; apartment = tiada breakfast; ski equipment/lesson bayar terus di kaunter resort (excluded).</p>\n  </div>\n",
+  "TRANSPORT_HTML": "\n  <h2>Transportation &amp; Guide</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Jenis kenderaan &amp; guide ikut saiz group. Gambar rujukan model kenderaan.</p>\n  <div class=\"custblk\">\n    <table class=\"ctbl\"><thead><tr><th>Pax</th><th>Transport</th><th>Jenis pemandu</th></tr></thead><tbody>\n      <tr><td class=\"it\">2&#8211;9</td><td><div class=\"vcell\"><img class=\"vthumb\" loading=\"lazy\" alt=\"Hyundai Staria\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/2021%20Hyundai%20Staria%20S.jpg?width=240\" onerror=\"this.style.display='none'\"><span>Carnival / Staria / Starex <a class=\"imglink\" href=\"https://www.google.com/search?tbm=isch&q=Hyundai%20Staria%20van\" target=\"_blank\" rel=\"noopener\">Gambar</a></span></div></td><td>Driving Guide (guide memandu)</td></tr>\n      <tr><td class=\"it\">10&#8211;13</td><td><div class=\"vcell\"><img class=\"vthumb\" loading=\"lazy\" alt=\"Solati (15-seater)\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/00%20hyundai%20solati%202.jpg?width=240\" onerror=\"this.style.display='none'\"><span>Solati (15-seater) <a class=\"imglink\" href=\"https://www.google.com/search?tbm=isch&q=Hyundai%20Solati%2015%20seater\" target=\"_blank\" rel=\"noopener\">Gambar</a></span></div></td><td>Private Driver + Tour Guide berasingan</td></tr>\n      <tr><td class=\"it\">14&#8211;16</td><td><div class=\"vcell\"><img class=\"vthumb\" loading=\"lazy\" alt=\"25-seater minibus\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Hyundai%20Imax%20Minibus.JPG?width=240\" onerror=\"this.style.display='none'\"><span>25-seater minibus <a class=\"imglink\" href=\"https://www.google.com/search?tbm=isch&q=25%20seater%20minibus%20korea\" target=\"_blank\" rel=\"noopener\">Gambar</a></span></div></td><td>Private Driver + Tour Guide berasingan</td></tr>\n      <tr><td class=\"it\">17&#8211;42</td><td><div class=\"vcell\"><img class=\"vthumb\" loading=\"lazy\" alt=\"45-seater bus\" src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Hyundai%20Universe%20Sugizakikanko.jpg?width=240\" onerror=\"this.style.display='none'\"><span>45-seater bus <a class=\"imglink\" href=\"https://www.google.com/search?tbm=isch&q=45%20seater%20coach%20bus\" target=\"_blank\" rel=\"noopener\">Gambar</a></span></div></td><td>Private Driver + Tour Guide berasingan</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Driving guide berlesen berbahasa Inggeris, asas 10 jam/hari. <b>Group 2&#8211;9 pax: driving guide (guide memandu). Group 10 pax ke atas: private driver + professional tour guide berasingan.</b> Jam lebih 30,000&#8211;60,000 KRW/jam, bayaran tunai. Airport transfer: maksimum 1 bagasi/pax; group melebihi 6&#8211;7 pax dengan bagasi besar mungkin perlu kenderaan tambahan. Gambar kenderaan: rujukan model (Wikimedia Commons).</p>\n  </div>\n",
+  "ITINSUGG_HTML": "\n  <h2>Itinerary Suggestions</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Pilihan itinerari ikut bandar — pilih bandar → tema hari → baris itinerari. Tag [kawasan] menentukan kadar transport/driving-guide. Sumber: PT SEL ProdReq.</p>\n\n  <div class=\"custblk\">\n    <h3 class=\"cityhd\">Seoul</h3>\n    <p class=\"thm\">Arrival / Nami Island <span class=\"rtag\">[Nami] / [Seoul]</span></p>\n    <ul class=\"optlist\">\n      <li>Airport pickup → Nami Island → Check in</li>\n      <li>Airport pickup → Nami Island → Petite France &amp; Italian Village → Dongdaemun Market → Check in</li>\n      <li>Airport pickup → Strawberry Farm (Dec–Feb) / Starfield Library COEX → Nami Island → Check in</li>\n      <li>Airport pickup → Namsan Tower → Namdaemun Market → Check in</li>\n    </ul>\n    <p class=\"thm\">Heritage &amp; Palace <span class=\"rtag\">[Seoul]</span></p>\n    <ul class=\"optlist\">\n      <li>Gyeongbok Palace → Gwanghwamun Square → Cheonggyecheon → HiKR Ground → Insadong</li>\n      <li>Gyeongbok Palace → Bukchon Hanok Village → Insadong → Cheonggyecheon → Itaewon</li>\n      <li>Gyeongbok (+Hanbok) → Bukchon Hanok Village → Myeongdong → LOTTE Dept/Duty Free</li>\n    </ul>\n    <p class=\"thm\">Tower <span class=\"rtag\">[Seoul]</span></p>\n    <ul class=\"optlist\">\n      <li>Namsan Tower (cable car) → Itaewon Mosque → Itaewon Street → Hongdae Street</li>\n      <li>Bukchon Hanok Village → Namsan Tower → Itaewon Mosque → Starfield Library COEX</li>\n    </ul>\n    <p class=\"thm\">Shopping <span class=\"rtag\">[Seoul]</span></p>\n    <ul class=\"optlist\">\n      <li>Goto Mall / Seongsu-dong → Namdaemun Market → Myeongdong Street</li>\n      <li>Goto Mall → Dongdaemun Design Plaza → Starfield COEX Mall</li>\n    </ul>\n    <p class=\"thm\">Theme Park &amp; Day Trips</p>\n    <ul class=\"optlist\">\n      <li>Lotte World Seoul <span class=\"rtag\">[Seoul]</span> · Everland <span class=\"rtag\">[Everland]</span> · Vivaldi Ski/Snowyland <span class=\"rtag\">[Vivaldi]</span></li>\n      <li>Suwon: Hwaseong Fortress → Hwaseong Palace → Starfield Mall <span class=\"rtag\">[Suwon]</span></li>\n      <li>DMZ Tour <span class=\"rtag\">[Paju]</span> · Gangnam / K-Pop experience <span class=\"rtag\">[Seoul]</span></li>\n    </ul>\n    <p class=\"thm\">Departure <span class=\"rtag\">[Seoul]</span></p>\n    <ul class=\"optlist\"><li>Check out → Airport transfer to Incheon</li></ul>\n  </div>\n\n  <div class=\"custblk\">\n    <h3 class=\"cityhd\">Jeju</h3>\n    <p class=\"thm\">Arrival / City Tour <span class=\"rtag\">[Jeju]</span></p>\n    <ul class=\"optlist\">\n      <li>Airport pickup → Yongduam Rock → Yongyeon Pond → Saryeoni Forest Trail → Iho Tewoo Horse Lighthouse → Dongmun Market → Check in</li>\n      <li>Airport pickup → Dongmun Market → Yongduam → Yongyeon → Arte Museum (add-on) → Sinchang Windmill Coastal Road sunset → Check in</li>\n    </ul>\n    <p class=\"thm\">West &amp; South Tour <span class=\"rtag\">[Jeju]</span></p>\n    <ul class=\"optlist\"><li>Saebyeol Oreum → Osulloc Green Tea Farm &amp; Innisfree House → Yongmeori Coast → Cheonjeyeon Waterfalls</li></ul>\n    <p class=\"thm\">East Tour <span class=\"rtag\">[Jeju]</span></p>\n    <ul class=\"optlist\"><li>Seongeup Folk Village → Seopjikoji → Gimnyeong Beach → Seongsan Ilchulbong → Seasonal Tour (+Hamdeok Beach optional)</li></ul>\n    <p class=\"thm\">Other</p>\n    <ul class=\"optlist\">\n      <li>Udo Island Day: Ferry ke Udo (~4j) → Free &amp; Easy di Udo</li>\n      <li>Free &amp; Easy Day dengan private transport</li>\n      <li>Departure: Check out → Airport transfer (atau flight domestik ke Seoul/Busan)</li>\n    </ul>\n  </div>\n\n  <div class=\"custblk\">\n    <h3 class=\"cityhd\">Busan</h3>\n    <p class=\"thm\">Arrival / Nampo–Jung-gu <span class=\"rtag\">[Busan]</span></p>\n    <ul class=\"optlist\">\n      <li>Airport pickup → Gamcheon Culture Village → BIFF Square → Jagalchi Fish Market → Check in</li>\n      <li>Airport pickup → Gamcheon → Busan Tower → Yongdusan Park → Jagalchi → BIFF Square → Nampo-dong → Check in</li>\n    </ul>\n    <p class=\"thm\">Coastal — Haeundae <span class=\"rtag\">[Busan]</span></p>\n    <ul class=\"optlist\">\n      <li>Haeundae Blue Line Park (Sky Capsule + Beach Train) → Haeundae Street &amp; Beach</li>\n      <li>Haeundae Blue Line Park → Haedong Yonggungsa Temple → Gwangalli Beach</li>\n    </ul>\n    <p class=\"thm\">Yeongdo / Seo-gu Coastal <span class=\"rtag\">[Busan]</span></p>\n    <ul class=\"optlist\"><li>Songdo Marine Cable Car → Taejongdae (tram) → Huinnyeoul Culture Village → Seomyeon</li></ul>\n    <p class=\"thm\">Other</p>\n    <ul class=\"optlist\">\n      <li>City Center &amp; Tower: Busan Tower → Yongdusan Park → Nampo-dong → Seomyeon</li>\n      <li>Lotte World Busan · Departure: Airport transfer (Gimhae) atau KTX ke Seoul</li>\n    </ul>\n  </div>\n  <div class=\"notebox\"><b>City transitions:</b> Seoul↔Busan guna KTX (60,000 KRW/pax/way + transfer hotel↔stesen 50,000 KRW/kenderaan/way; guide tak ikut). Seoul↔Jeju guna flight domestik (110,000 KRW/pax/way + airport transfer).</div>\n",
+  "WHEELCHAIR_HTML": "\n  <h2>Wheelchair &amp; Baby</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Panduan kebolehcapaian & keluarga dengan bayi. Semua PT adalah private — boleh sesuaikan pace/route. Info khusus (bilik accessible, ramp) sila sahkan dengan operator.</p>\n\n  <div class=\"custblk\">\n    <h3>Wheelchair / Warga Emas</h3>\n    <ul class=\"optlist\">\n      <li><b>Private tour</b> — laluan & rentak boleh disesuaikan untuk pengguna kerusi roda / warga emas. Maklum consultant ≥1 minggu sebelum berlepas.</li>\n      <li><b>Akses:</b> kebanyakan akomodasi <b>tiada lif</b>; sesetengah stesen tren banyak tangga. Untuk pengguna kerusi roda, disyorkan pilih hotel accessible (atas permintaan) & elak itinerari banyak berjalan/tangga.</li>\n      <li><b>Kerusi roda lipat</b> masuk but kenderaan (Staria/Starex), tetapi mengurangkan ruang bagasi — asas maksimum 1 bagasi/pax; jika ruang tak cukup mungkin perlu kenderaan tambahan.</li>\n      <li><b>Elak Self Tour (ST)</b> untuk pengguna kerusi roda — ST self-guided & banyak public transport/berjalan. Sarankan PT dengan private driving guide.</li>\n      <li>Korea secara umum selamat & family-friendly, sesuai untuk warga emas.</li>\n    </ul>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Baby / Infant</h3>\n    <ul class=\"optlist\">\n      <li><b>Harga infant</b> (bawah 2 tahun): ground cost <b>FOC</b>, bayaran flat <b>RM 200</b>.</li>\n      <li><b>K-ETA:</b> dikecualikan untuk bawah 18 tahun & 65 tahun ke atas (pastikan passport & return ticket lengkap).</li>\n      <li><b>Stroller</b> boleh dibawa (masuk but) — sama seperti kerusi roda, ambil kira ruang bagasi (maks 1 bagasi/pax).</li>\n      <li><b>Baby seat/booster</b> — atas permintaan, sahkan awal dengan operator.</li>\n      <li>Makanan halal-friendly & convenience store mudah didapati; Korea family-friendly & sesuai dibawa bayi.</li>\n    </ul>\n  </div>\n  <div class=\"notebox\"><b>Nota TC:</b> untuk keperluan khusus (bilik accessible, ramp, baby seat, wheelchair-friendly vehicle), sahkan availability & sebarang kos tambahan dengan operator sebelum quote muktamad.</div>\n",
+  "HOTELS": [
+   {
+    "tier": "Seoul Basic — 3★",
+    "name": "Designers Hotel Cheongryangri",
+    "note": "atau setaraf · city centre",
+    "imgs": []
+   },
+   {
+    "tier": "Seoul Standard — 3★",
+    "name": "Travelodge Hotel / Designers Hotel Cheongryangri",
+    "note": "atau setaraf · city centre",
+    "imgs": [
+     "@asset:c2b94a56f466"
+    ]
+   },
+   {
+    "tier": "Seoul–Jeju — 3★",
+    "name": "Travelodge Hotel (Seoul) / Jeju Parkside Hotel",
+    "note": "atau setaraf · city centre",
+    "imgs": []
+   },
+   {
+    "tier": "Jeju & Jeju–Udo — 3★",
+    "name": "Parkside Hotel City Center",
+    "note": "atau setaraf · Jeju City",
+    "imgs": []
+   },
+   {
+    "tier": "Upgrade 4★ — Seoul",
+    "name": "Migliore Myeongdong",
+    "note": "atau setaraf · top-up ikut varian",
+    "imgs": []
+   },
+   {
+    "tier": "Upgrade 4★ — Jeju",
+    "name": "Samhaein Hotel City Center",
+    "note": "atau setaraf · top-up RM60/malam/pax",
+    "imgs": []
+   },
+   {
+    "tier": "Pilihan — Apartment",
+    "name": "Apartment / Airbnb (Hongdae atau Jeju City)",
+    "note": "tiada breakfast · disaran book sendiri",
+    "imgs": []
+   }
+  ],
+  "SURCHARGE_HTML": "\n  <h2>Surcharge</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Caj tambahan di atas harga pakej. Semua kadar peak/super-peak adalah <b>per malam, per pax</b>; infant dikecualikan.</p>\n\n  <div class=\"custblk\">\n    <h3>Tetingkap Tarikh Peak Season</h3>\n    <table class=\"ctbl\"><thead><tr><th>Pakej</th><th>Peak Season</th><th>Super Peak Season</th></tr></thead><tbody>\n      <tr><td class=\"it\">Seoul Basic 5D4N</td><td>1&#8211;30 April &#183; 1&#8211;31 Mei &#183; 1&#8211;31 Oktober</td><td>20 Disember &#8211; 1 Januari</td></tr>\n      <tr><td class=\"it\">Seoul Standard 5D4N</td><td>1&#8211;30 April &#183; 1&#8211;31 Mei &#183; 1&#8211;31 Oktober</td><td>16 Disember &#8211; 1 Januari</td></tr>\n      <tr><td class=\"it\">Seoul&#8211;Jeju Standard 6D5N</td><td>1&#8211;30 April &#183; 1&#8211;31 Mei &#183; 1&#8211;31 Oktober</td><td>16 Disember &#8211; 1 Januari</td></tr>\n      <tr><td class=\"it\">Jeju 4D3N &#183; Jeju&#8211;Udo 5D4N</td><td>1&#8211;30 April &#183; 1&#8211;31 Mei &#183; 1&#8211;31 Oktober</td><td>16 Disember &#8211; 1 Januari</td></tr>\n    </tbody></table>\n    <p class=\"srcnote\">Sumber: katalog setiap varian.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Akomodasi &#8212; Seoul Basic 5D4N</h3>\n    <table class=\"ctbl\"><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak Season</th><th>Super Peak</th></tr></thead><tbody>\n      <tr><td class=\"it\">Apartment (Hongdae)</td><td>&#8211;</td><td class=\"add\">RM 70</td><td class=\"add\">RM 70</td></tr>\n      <tr><td class=\"it\">3&#9733; Designers Hotel Cheongryangri atau setaraf</td><td>&#8211;</td><td class=\"add\">RM 50</td><td class=\"add\">RM 90</td></tr>\n      <tr><td class=\"it\">4&#9733; Migliore Myeongdong atau setaraf</td><td class=\"add\">RM 100</td><td class=\"add\">RM 130</td><td class=\"add\">RM 170</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Akomodasi &#8212; Seoul Standard 5D4N &amp; Seoul&#8211;Jeju 6D5N</h3>\n    <table class=\"ctbl\"><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak Season</th><th>Super Peak</th></tr></thead><tbody>\n      <tr><td class=\"it\">Apartment (Hongdae)</td><td>&#8211;</td><td class=\"add\">RM 70</td><td class=\"add\">RM 70</td></tr>\n      <tr><td class=\"it\">3&#9733; Travelodge / Designers Cheongryangri / Jeju Parkside</td><td>&#8211;</td><td class=\"add\">RM 90</td><td class=\"add\">RM 140</td></tr>\n      <tr><td class=\"it\">4&#9733; Migliore Myeongdong atau setaraf</td><td class=\"add\">RM 60</td><td class=\"add\">RM 130</td><td class=\"add\">RM 170</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Akomodasi &#8212; Jeju 4D3N &amp; Jeju&#8211;Udo 5D4N</h3>\n    <table class=\"ctbl\"><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak Season</th><th>Super Peak</th></tr></thead><tbody>\n      <tr><td class=\"it\">Apartment (Jeju City)</td><td>&#8211;</td><td class=\"add\">RM 50</td><td class=\"add\">RM 100</td></tr>\n      <tr><td class=\"it\">3&#9733; Parkside Hotel City Center atau setaraf</td><td>&#8211;</td><td class=\"add\">RM 50</td><td class=\"add\">RM 100</td></tr>\n      <tr><td class=\"it\">4&#9733; Samhaein Hotel City Center atau setaraf</td><td class=\"add\">RM 60</td><td class=\"add\">RM 50</td><td class=\"add\">RM 100</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Lain</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody>\n      <tr><td class=\"it\">Single Supplement &#8212; Seoul&#8211;Jeju 6D5N</td><td class=\"add\">+RM 1,500 / orang</td><td>Guest perlu bilik single.</td></tr>\n      <tr><td class=\"it\">Single Supplement &#8212; Seoul Basic, Seoul Standard, Jeju&#8211;Udo</td><td class=\"add\">+RM 1,000 / orang</td><td>Guest perlu bilik single.</td></tr>\n      <tr><td class=\"it\">Single Supplement &#8212; Jeju 4D3N</td><td class=\"add\">+RM 800 / orang</td><td>Guest perlu bilik single.</td></tr>\n      <tr><td class=\"it\">Late Booking Surcharge</td><td class=\"add\">+RM 50 / booking</td><td>Tempahan kurang 45 hari sebelum berlepas.</td></tr>\n      <tr><td class=\"it\">Travel Date 2027 (1 Jan &#8211; 30 Jun 2027)</td><td class=\"add\">+RM 100 / pax</td><td>Di atas surcharge peak season. Sumber: rate card 2026/2027 Date Surcharge &#8212; tiada dalam katalog.</td></tr>\n      <tr><td class=\"it\">Jam lebih driver / driving guide</td><td class=\"add\">30,000 &#8211; 60,000 KRW / jam</td><td>Melebihi asas 10 jam. Bayaran tunai di lokasi.</td></tr>\n      <tr><td class=\"it\">K-ETA Re-Application</td><td class=\"add\">RM 70</td><td>Permohonan semula selepas K-ETA percuma pertama.</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Harga Kanak-kanak &amp; Infant</h3>\n    <table class=\"ctbl\"><thead><tr><th>Kategori</th><th>Umur</th><th>Harga</th></tr></thead><tbody>\n      <tr><td class=\"it\">Infant</td><td>Bawah 2 tahun</td><td class=\"add\">RM 200 (flat)</td></tr>\n      <tr><td class=\"it\">CNB &#8212; Child No Bed</td><td>2&#8211;5 tahun</td><td class=\"add\">Adult &#8722; RM 400</td></tr>\n      <tr><td class=\"it\">CWB &#8212; Child With Bed</td><td>6&#8211;11 tahun</td><td class=\"add\">Adult &#8722; RM 200</td></tr>\n      <tr><td class=\"it\">Adult</td><td>12 tahun ke atas</td><td>Harga penuh dewasa</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Rujuk tab Harga &amp; Pakej untuk jadual penuh setiap varian. Infant dikecualikan peak surcharge.</p>\n  </div>\n",
+  "ACTS": [
+   {
+    "city": "Seoul",
+    "items": [
+     {
+      "n": "Nami Island",
+      "img": "nami"
+     },
+     {
+      "n": "Gyeongbokgung Palace",
+      "img": "palace"
+     },
+     {
+      "n": "N Seoul Tower",
+      "img": "namsan"
+     },
+     {
+      "n": "Myeongdong",
+      "img": "myeongdong"
+     },
+     {
+      "n": "Itaewon Mosque",
+      "img": "itaewon"
+     },
+     {
+      "n": "Everland",
+      "img": "everland"
+     },
+     {
+      "n": "Hongdae Street",
+      "img": "hongdae"
+     },
+     {
+      "n": "Dongdaemun (DDP)",
+      "img": "ddp"
+     },
+     {
+      "n": "Lotte World",
+      "img": "lotteworld"
+     },
+     {
+      "n": "DMZ Tour",
+      "img": "dmz"
+     },
+     {
+      "n": "Petite France",
+      "img": "petite"
+     },
+     {
+      "n": "Korean Folk Village",
+      "img": "folk"
+     },
+     {
+      "n": "Vivaldi Ski Park",
+      "img": "vivaldi"
+     }
+    ]
+   },
+   {
+    "city": "Jeju",
+    "items": [
+     {
+      "n": "Seongsan Ilchulbong",
+      "img": "jeju"
+     },
+     {
+      "n": "Cheonjeyeon Waterfall",
+      "img": "jejuFall"
+     },
+     {
+      "n": "Sinchang Windmill Coast",
+      "img": "jejuAir"
+     },
+     {
+      "n": "Yongmeori Coast",
+      "img": "yongmeori"
+     },
+     {
+      "n": "Osulloc Green Tea Farm",
+      "img": "osulloc"
+     },
+     {
+      "n": "Seopjikoji",
+      "img": "seopjikoji"
+     },
+     {
+      "n": "Udo Island",
+      "img": "udo"
+     },
+     {
+      "n": "Dongmun Market",
+      "img": "dongmun"
+     }
+    ]
+   },
+   {
+    "city": "Busan",
+    "items": [
+     {
+      "n": "Gamcheon Culture Village",
+      "img": "gamcheon"
+     },
+     {
+      "n": "Haeundae Beach",
+      "img": "haeundae"
+     },
+     {
+      "n": "Haedong Yonggungsa",
+      "img": "yonggungsa"
+     },
+     {
+      "n": "Jagalchi Market",
+      "img": "jagalchi"
+     },
+     {
+      "n": "Gwangalli Beach",
+      "img": "gwangalli"
+     },
+     {
+      "n": "BIFF Square",
+      "img": "biff"
+     }
+    ]
+   }
+  ],
+  "COMPARE_HTML": "\n  <h2>Perbezaan Pakej</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Semua varian guna hotel 3&#9733; city centre, driving guide berbahasa Inggeris (asas 10 jam/hari), sarapan hotel, tipping fee dan K-ETA percuma sekali untuk warganegara Malaysia.</p>\n  <table class='cmp'><colgroup><col class='c1'><col><col><col></colgroup>\n   <thead><tr><th class='blank'></th><th>SEOUL&#8211;JEJU STANDARD &#183; 6D5N</th><th>SEOUL STANDARD &#183; 5D4N</th><th>SEOUL BASIC &#183; 5D4N</th></tr></thead>\n   <tbody>\n    <tr><td class='feat'>Kawasan dilawati</td><td class='val'>Seoul + Nami + Pulau Jeju</td><td class='val'>Seoul + Nami</td><td class='val'>Seoul + Nami</td></tr>\n    <tr><td class='feat'>Hari tour berpandu</td><td class='val'>5 hari (Day 1&#8211;5)</td><td class='val'>4 hari (Day 1&#8211;4)</td><td class='val'>2 hari (Day 1&#8211;2)</td></tr>\n    <tr><td class='feat'>Hari Free &amp; Easy</td><td class='val'><span class='no'>&#8212;</span></td><td class='val'><span class='no'>&#8212;</span></td><td class='val'>2 hari (Day 3&#8211;4)</td></tr>\n    <tr><td class='feat'>Hotel 3&#9733; (default)</td><td class='val'>Travelodge Hotel &#183; Jeju Parkside Hotel</td><td class='val'>Travelodge Hotel &#183; Designers Hotel Cheongryangri</td><td class='val'>Designers Hotel Cheongryangri</td></tr>\n    <tr><td class='feat'>Penerbangan domestik pergi-balik (bagasi 20kg)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&#8212;</span></td><td class='val'><span class='no'>&#8212;</span></td></tr>\n    <tr><td class='feat'>Nami Island</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n    <tr><td class='feat'>Gyeongbok Palace</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n    <tr><td class='feat'>Namsan Cable Car</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&#8212;</span></td></tr>\n    <tr><td class='feat'>Masjid Itaewon (solat)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n    <tr><td class='feat'>Seongsan Ilchulbong, Cheonjeyeon, Yongmeori (Jeju)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&#8212;</span></td><td class='val'><span class='no'>&#8212;</span></td></tr>\n    <tr><td class='feat'>Shopping tour (Namdaemun / Myeongdong / Seongsu)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'>Namdaemun sahaja</td></tr>\n    <tr><td class='feat'>Airport transfer peribadi</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'>Day 5</td><td class='val'>Day 1 &amp; Day 5</td></tr>\n    <tr><td class='feat'>Single Supplement</td><td class='val'>RM 1,500/orang</td><td class='val'>RM 1,000/orang</td><td class='val'>RM 1,000/orang</td></tr>\n    <tr><td class='feat'>Peak / Super Peak 3&#9733; (/pax/malam)</td><td class='val'>RM 90 &#183; RM 140</td><td class='val'>RM 90 &#183; RM 140</td><td class='val'>RM 50 &#183; RM 90</td></tr>\n    <tr><td class='feat'>Harga dari (2 pax / orang)</td><td class='val'>RM 6,197</td><td class='val'>RM 4,597</td><td class='val'>RM 3,497</td></tr>\n    <tr><td class='feat'>Harga dari (8 pax / orang)</td><td class='val'>RM 4,097</td><td class='val'>RM 2,397</td><td class='val'>RM 2,297</td></tr>\n    <tr><td class='feat'>Sesuai untuk</td><td class='val'>Pelanggan yang mahu bandar + pulau dalam satu trip</td><td class='val'>First-timer yang mahu tour penuh setiap hari</td><td class='val'>Bajet lebih rendah &amp; suka masa bebas sendiri</td></tr>\n   </tbody>\n  </table>\n\n  <h2 style=\"margin-top:22px\">Perbezaan Pakej &#8212; Jeju</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Kedua-dua pakej Jeju tidak termasuk penerbangan domestik; boleh ditambah RM 300/pax/sehala.</p>\n  <table class='cmp'><colgroup><col class='c1'><col><col></colgroup>\n   <thead><tr><th class='blank'></th><th>JEJU&#8211;UDO STANDARD &#183; 5D4N</th><th>JEJU STANDARD &#183; 4D3N</th></tr></thead>\n   <tbody>\n    <tr><td class='feat'>Hari tour berpandu</td><td class='val'>4 hari</td><td class='val'>3 hari</td></tr>\n    <tr><td class='feat'>Hotel 3&#9733; (default)</td><td class='val'>Parkside Hotel</td><td class='val'>Parkside Hotel</td></tr>\n    <tr><td class='feat'>Jeju City, West, South &amp; East Tour</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n    <tr><td class='feat'>Tiket feri pergi-balik ke Udo</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'>Add-on RM 50/pax</td></tr>\n    <tr><td class='feat'>Hari Free &amp; Easy di Udo</td><td class='val'>Day 4</td><td class='val'><span class='no'>&#8212;</span></td></tr>\n    <tr><td class='feat'>Seasonal Tour (tiket masuk termasuk)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n    <tr><td class='feat'>Single Supplement</td><td class='val'>RM 1,000/orang</td><td class='val'>RM 800/orang</td></tr>\n    <tr><td class='feat'>Peak / Super Peak 3&#9733; (/pax/malam)</td><td class='val'>RM 50 &#183; RM 100</td><td class='val'>RM 50 &#183; RM 100</td></tr>\n    <tr><td class='feat'>Harga dari (2 pax / orang)</td><td class='val'>RM 4,697</td><td class='val'>RM 3,897</td></tr>\n    <tr><td class='feat'>Harga dari (8 pax / orang)</td><td class='val'>RM 2,897</td><td class='val'>RM 2,397</td></tr>\n    <tr><td class='feat'>Sesuai untuk</td><td class='val'>Pelanggan yang mahu tambah pengalaman pulau Udo</td><td class='val'>Trip pulau ringkas &amp; padat</td></tr>\n   </tbody>\n  </table>\n",
+  "FREEGIFT_HTML": "\n  <h2>Free Gift (Promo)</h2>\n  <details class='qa'>\n   <summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary>\n   <div class='ans'>\n     <p><strong>Seoul:</strong> Hanbok <span class='gchip'>Kod: FSEL2</span> (All pax)</p>\n     <p><strong>Jeju:</strong> Hanbok <span class='gchip'>Kod: FJJUO3</span> (All pax)</p>\n     <p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p>\n     <p class='gnote'>*Bullet wajib tanya PO/Leader</p>\n     <p class='gnote'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p>\n     <p class=\"srcnote\">Sumber: FreeGift Campaign MYP 6/26.</p>\n   </div>\n  </details>\n",
+  "FLIGHT_RECO_HTML": "\n  <div class=\"custblk flt-reco\">\n    <h3>Flight Recommendation &#8212; KUL &#8596; Seoul (Incheon / ICN) &#183; PERGI-BALIK</h3>\n    <table class=\"ctbl\"><thead><tr><th>Airline</th><th>Leg</th><th>Flight</th><th>Berlepas</th><th>Tiba</th><th>Hari</th><th>Jenis</th><th>Anggaran Round-Trip</th></tr></thead><tbody>\n      <tr><td class=\"it\" rowspan=\"2\">Malaysia Airlines</td><td>Pergi &#183; KUL &#8594; ICN</td><td>MH 66</td><td>23:30</td><td>07:10 (+1)</td><td>Harian</td><td>Full Service</td><td class=\"add\" rowspan=\"2\">RM 2,200 &#8211; 2,800</td></tr>\n      <tr><td>Balik &#183; ICN &#8594; KUL</td><td>MH 67</td><td>11:00</td><td>16:35</td><td>Harian</td><td>Full Service</td></tr>\n      <tr><td class=\"it\" rowspan=\"2\">Batik Air</td><td>Pergi &#183; KUL &#8594; ICN</td><td>OD 820</td><td>22:30</td><td>06:00 (+1)</td><td>Ikut jadual</td><td>Low Cost</td><td class=\"add\" rowspan=\"2\">RM 1,600 &#8211; 2,100</td></tr>\n      <tr><td>Balik &#183; ICN &#8594; KUL</td><td>OD 821</td><td>06:50</td><td>12:30</td><td>Isnin, Rabu, Jumaat</td><td>Low Cost</td></tr>\n      <tr><td class=\"it\" rowspan=\"2\">AirAsia X</td><td>Pergi &#183; KUL &#8594; ICN</td><td>D7 506</td><td>22:40</td><td>06:10 (+1)</td><td>Ikut jadual</td><td>Low Cost</td><td class=\"add\" rowspan=\"2\">RM 1,200 &#8211; 1,800</td></tr>\n      <tr><td>Balik &#183; ICN &#8594; KUL</td><td>D7 507 / D7 505</td><td colspan=\"2\">Sahkan waktu di sistem tempahan</td><td>Ikut jadual musim</td><td>Low Cost</td></tr>\n      <tr><td class=\"it\" rowspan=\"2\">Korean Air</td><td>Pergi &#183; KUL &#8594; ICN</td><td>KE 692</td><td>23:55</td><td>07:20 (+1)</td><td>Harian</td><td>Premium</td><td class=\"add\" rowspan=\"2\">RM 2,800 &#8211; 3,500</td></tr>\n      <tr><td>Balik &#183; ICN &#8594; KUL</td><td>KE 691</td><td colspan=\"2\">Sahkan waktu di sistem tempahan</td><td>Harian</td><td>Premium</td></tr>\n    </tbody></table>\n    <h3 style=\"margin-top:14px\">KUL &#8594; Jeju (CJU) &#8212; transit</h3>\n    <table class=\"ctbl\"><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas KUL</th><th>Tiba CJU</th><th>Transit</th><th>Jenis</th><th>Anggaran Round-Trip</th></tr></thead><tbody>\n      <tr><td class=\"it\">Scoot</td><td>TR 453 / TR 812</td><td>21:50</td><td>08:45 (+1)</td><td>Singapura (SIN)</td><td>Low Cost</td><td class=\"add\">RM 1,200 &#8211; 1,600</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Rutin balik dari Jeju: penerbangan domestik CJU &#8594; ICN/Gimpo, kemudian sambung leg antarabangsa ke KUL. Untuk pakej Seoul&#8211;Jeju, penerbangan domestik pergi-balik sudah termasuk dalam pakej.</p>\n    <p class=\"srcnote\">Leg pergi &amp; anggaran harga: Flight Recommendation ARBA (tiada dalam katalog). Leg balik MH 67 dan OD 821: jadual awam syarikat penerbangan &#8212; sahkan waktu semasa tempahan.</p>\n  </div>\n",
+  "PRICES": [
+   {
+    "n": "PT Seoul Basic 5D4N",
+    "cat": "PT SEOUL BASIC 5D4N 2026 v2 (12 Mac 2026)",
+    "single": "RM1,000",
+    "rows": [
+     [
+      "2",
+      "3,497",
+      "3,297",
+      "3,097"
+     ],
+     [
+      "3",
+      "2,997",
+      "2,797",
+      "2,597"
+     ],
+     [
+      "4",
+      "2,697",
+      "2,497",
+      "2,297"
+     ],
+     [
+      "5 - 7",
+      "2,397",
+      "2,197",
+      "1,997"
+     ],
+     [
+      "8 - 9",
+      "2,297",
+      "2,097",
+      "1,897"
+     ],
+     [
+      "10",
+      "2,497",
+      "2,297",
+      "2,097"
+     ],
+     [
+      "11 - 12",
+      "2,397",
+      "2,197",
+      "1,997"
+     ],
+     [
+      "13 - 15",
+      "2,197",
+      "1,997",
+      "1,797"
+     ]
+    ]
+   },
+   {
+    "n": "PT Seoul Standard 5D4N",
+    "cat": "PT SEOUL STANDARD 5D4N 2026 v2 (12 Mac 2026)",
+    "single": "RM1,000",
+    "rows": [
+     [
+      "2",
+      "4,597",
+      "4,397",
+      "4,197"
+     ],
+     [
+      "3",
+      "3,697",
+      "3,497",
+      "3,297"
+     ],
+     [
+      "4",
+      "3,197",
+      "2,997",
+      "2,797"
+     ],
+     [
+      "5",
+      "2,897",
+      "2,697",
+      "2,497"
+     ],
+     [
+      "6 - 7",
+      "2,597",
+      "2,397",
+      "2,197"
+     ],
+     [
+      "8 - 9",
+      "2,397",
+      "2,197",
+      "1,997"
+     ],
+     [
+      "10 - 11",
+      "2,697",
+      "2,497",
+      "2,297"
+     ],
+     [
+      "12 - 13",
+      "2,597",
+      "2,397",
+      "2,197"
+     ],
+     [
+      "14 - 15",
+      "2,397",
+      "2,197",
+      "1,997"
+     ]
+    ]
+   },
+   {
+    "n": "PT Seoul–Jeju Standard 6D5N",
+    "cat": "PT SEOUL - JEJU STD 6D5N v2 (10 Ogos 2026)",
+    "single": "RM1,500",
+    "rows": [
+     [
+      "2",
+      "6,197",
+      "5,997",
+      "5,797"
+     ],
+     [
+      "3",
+      "5,197",
+      "4,997",
+      "4,797"
+     ],
+     [
+      "4",
+      "4,697",
+      "4,497",
+      "4,297"
+     ],
+     [
+      "5 - 6",
+      "4,397",
+      "4,197",
+      "3,997"
+     ],
+     [
+      "7",
+      "4,197",
+      "3,997",
+      "3,797"
+     ],
+     [
+      "8",
+      "4,097",
+      "3,897",
+      "3,697"
+     ],
+     [
+      "9 - 10",
+      "4,397",
+      "4,197",
+      "3,997"
+     ],
+     [
+      "11 - 13",
+      "4,097",
+      "3,897",
+      "3,697"
+     ],
+     [
+      "14 - 15",
+      "3,997",
+      "3,797",
+      "3,597"
+     ]
+    ]
+   },
+   {
+    "n": "PT Jeju Standard 4D3N",
+    "cat": "PT JEJU 4D3N v2 (12 Mac 2026)",
+    "single": "RM800",
+    "rows": [
+     [
+      "2",
+      "3,897",
+      "3,697",
+      "3,497"
+     ],
+     [
+      "3",
+      "3,197",
+      "2,997",
+      "2,797"
+     ],
+     [
+      "4",
+      "2,797",
+      "2,597",
+      "2,397"
+     ],
+     [
+      "5",
+      "2,597",
+      "2,397",
+      "2,197"
+     ],
+     [
+      "6 - 7",
+      "2,497",
+      "2,297",
+      "2,097"
+     ],
+     [
+      "8 - 9",
+      "2,397",
+      "2,197",
+      "1,997"
+     ],
+     [
+      "10",
+      "2,297",
+      "2,097",
+      "1,897"
+     ]
+    ]
+   },
+   {
+    "n": "PT Jeju–Udo Standard 5D4N",
+    "cat": "PT JEJU - UDO 5D4N v1 (12 Mac 2026)",
+    "single": "RM1,000",
+    "rows": [
+     [
+      "2",
+      "4,697",
+      "4,497",
+      "4,297"
+     ],
+     [
+      "3",
+      "3,797",
+      "3,597",
+      "3,397"
+     ],
+     [
+      "4",
+      "3,397",
+      "3,197",
+      "2,997"
+     ],
+     [
+      "5",
+      "3,097",
+      "2,897",
+      "2,697"
+     ],
+     [
+      "6",
+      "2,897",
+      "2,697",
+      "2,497"
+     ],
+     [
+      "7",
+      "3,097",
+      "2,897",
+      "2,697"
+     ],
+     [
+      "8",
+      "2,897",
+      "2,697",
+      "2,497"
+     ],
+     [
+      "9 - 10",
+      "2,797",
+      "2,597",
+      "2,397"
+     ]
+    ]
+   }
+  ]
+ },
+ "snapshot": "\n# PT SEL — Korea Knowledge Base (Important Notes · FAQ · Marketing Info)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*PT Korea — 5 varian: Seoul Basic 5D4N · Seoul Standard 5D4N · Seoul–Jeju Standard 6D5N · Jeju Standard 4D3N · Jeju–Udo Standard 5D4N. Semua Ground & Tipping, sah hingga 31 Disember 2026.*\n\n- Semua harga sah **24 jam** selepas quotation dihantar.\n- Harga untuk **2–3 orang sebilik**.\n- **Single Supplement:** Seoul Basic **RM1,000** · Seoul Standard **RM1,000** · Seoul–Jeju 6D5N **RM1,500** · Jeju 4D3N **RM800** · Jeju–Udo 5D4N **RM1,000** (per orang).\n- **Late Booking Surcharge RM50/booking** jika booking <45 hari sebelum berlepas.\n- Pembayaran secara **tunai (cash)**.\n- **PT Basic:** Private Driver/Guide 10 jam (Day 1–2 sahaja); 30,000–60,000 KRW setiap jam lebih.\n- **PT Standard:** Private Driver/Guide 10 jam (Day 1–4); kadar jam lebih sama.\n- **Driving guide (guide memandu) untuk group 2–9 pax; private driver + professional tour guide untuk 10 pax ke atas.**\n- **ST (Self Tour):** trip self-guided; konsultasi 14 hari sebelum; bantuan online waktu Malaysia 9am–6pm sahaja.\n- Bilik hotel Seoul kecil (~12–20 sqft standard Korea); bilik triple lagi kecil.\n- **PT Basic/Standard:** restoran halal-friendly / kedai serbaneka disarankan (lunch/dinner tidak disediakan).\n- Airport transfer: **maksimum 1 bagasi per pax** (jejas kapasiti kereta).\n- Sesetengah stesen tren banyak tangga.\n- Itinerari muktamad **14 hari** sebelum trip.\n- Aktiviti percuma tak boleh ditukar dengan aktiviti lain/voucher/tunai jika guest tak sertai (cth cuaca/availability).\n- Pakej sah untuk perjalanan hingga **31 Disember 2026**.\n- **Deposit & Full Payment:** Deposit **RM500/orang** semasa confirmation. **Full payment 45 HARI sebelum travel date.**\n- **Peak Season Surcharge:** 1–30 April, 1–31 Mei, 1–31 Oktober 2026/2027. **Super Peak:** 16 Dis 2026 – 1 Jan 2027 (Seoul Standard, Seoul–Jeju, Jeju, Jeju–Udo); 20 Dis 2026 – 1 Jan 2027 (Seoul Basic sahaja).\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej Seoul ni berapa hari?**\nBasic/Standard pakej 5 Hari 4 Malam, sesuai untuk first-timer cover Seoul.\n\n**Tempat apa yang akan dilawati?**\nStandard: Nami Island, Namsan Tower, Gyeongbok Palace, Myeongdong Street, Hongdae, Itaewon Mosque, Namdaemun Market, Everland atau Vivaldi Ski Park (musim sejuk).\n\n**Boleh customize itinerari ikut citarasa saya tak?**\nBoleh — ini private tour. Boleh tukar attractions, fokus shopping/family/K-drama spot. Inform driver/consultant 1 minggu sebelum departure.\n\n**Apa beza PT Seoul Basic dan Standard?**\nBasic ada 2 hari Free & Easy (tanpa transport & guide). Standard adalah full day tour sepanjang pakej.\n\n**Apa beza Self Tour (ST) dengan Private Tour (PT)?**\nSelf Tour guna public transport & tiada guide. Private Tour naik private transport & ada tour guide.\n\n**Self Tour termasuk cost public transport tak?**\nTidak — kami provide T-Money card (macam Touch & Go), anda top up sendiri di kaunter berdekatan stesen tren.\n\n**Boleh pergi Nami Island? Nak tengok tempat shooting drama.**\nBoleh — Nami termasuk dalam standard. Lokasi shooting Winter Sonata & Crash Landing On You. ~1 jam 30 minit dari Seoul.\n\n**Nami Island naik feri ke?**\nYa, naik feri — sudah termasuk dalam pakej.\n\n**Di Nami boleh zipline/railbike/basikal?**\nBoleh — bayar sendiri di sana.\n\n**Everland macam Disneyland Korea? Berbaloi?**\nEverland taman tema terbesar Korea. Sesuai family dengan anak-anak. Berbaloi kalau suka rides — allocate 1 hari penuh.\n\n**Boleh main salji/ski di Vivaldi?**\nBoleh — Vivaldi buka musim sejuk (Dis–Feb). Boleh add-on transport untuk Basic; Standard boleh tukar salah satu hari (tambahan harga). Equipment rental bayar sendiri (~RM300–350 untuk ski equipment + baju + helmet).\n\n**Vivaldi add-on termasuk ski equipment tak?**\nTIDAK. Equipment rental & ski lesson top-up berasingan di lokasi.\n\n**Snowyland/Vivaldi buka awal Disember?**\nBiasanya belum buka penuh awal Disember. Trip awal Dis akan ditolak ke hujung Dis atau attraction alternatif disediakan.\n\n**Boleh combo Busan/Jeju dengan Seoul?**\nPakej ini fokus Seoul. Untuk Busan/Jeju ada pakej berasingan atau combo Seoul + Busan/Jeju.\n\n**Boleh experience Hanbok di Gyeongbok Palace?**\nBoleh — popular. Sewa Hanbok sekitar Gyeongbok ~RM80 untuk 4 jam.\n\n**Apa boleh buat masa Free & Easy day?**\nJalan sendiri / shopping: Myeongdong, Namdaemun, Dongdaemun, Hongdae. Hotel dekat subway untuk akses mudah.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Korea?**\nTerhad berbanding negara Muslim, tapi kami ada list restoran 100% halal certified — disemak tim ARBA yang 8 tahun tinggal di Korea.\n\n**Contoh restoran halal?**\nRestoran halal / Muslim-friendly yang kami bawa (lunch & dinner): (1) **Kampungku** — Myeongdong, Jung-gu; masakan Malaysia halal, ada surau tingkat 3. (2) **Dongmun Restaurant** — Nami Island / Gapyeong; halal-certified KMF, ada surau + wudu. (3) **Gosami** — Sinchon / Sogang area; masakan Korea halal. (4) **Kervan** — Itaewon; restoran Turki halal-certified (kebab). (5) **Cheum** — Myeongdong / Namsan; set meal Korea tradisional halal. (6) **Sindang Tteokbokki** — Sindang-dong (bukan semua kedai halal — sahkan bahan dulu). Lain-lain: Eid Halal Korean Food, Yang Good (halal Korean BBQ), Busan Jib, Murree Pakistani.\n\n**Macam mana pastikan restoran halal?**\nCari logo **Korea Muslim Federation Halal Committee (KMF)** pada papan tanda restoran — rujukan rasmi pengesahan halal di Korea.\n\n**Risau makanan ada arak. Macam mana?**\nBanyak masakan Korea guna soju/mirin. Sebab itu kami strict pilih restoran halal. Untuk street food, kami ajar mana yang safe (cth tteokbokki tanpa sos arak, hotteok, fish cake halal).\n\n**Macam mana nak solat? Ada masjid/surau?**\nItaewon Mosque (Seoul Central Mosque) masjid utama. Luar Itaewon, kami plan stop solat di rest area / prayer room di mall tertentu. Driver tahu lokasi.\n\n**Solat sepanjang trip macam mana?**\nSolat jamak Maghrib + Isya' di hotel. Zuhur + Asar di restoran yang ada surau.\n\n**Hotel ada surau/qiblat?**\nBiasanya tiada qiblat marker. Kami beri cadangan compass app & info qiblat. Boleh request sejadah sebelum departure.\n\n**Waktu solat Subuh sama dengan Malaysia?**\nSangat berbeza. Musim panas: Subuh lebih awal. Musim sejuk: lebih lambat. Tour Leader share waktu solat di Group WhatsApp setiap hari.\n\n**Sedap ke makanan Korea kalau beli pakej PT with meals?**\nMakanan harian: kombinasi makanan Korea, nasi beriyani & masakan Melayu.\n\n### C. Visa, K-ETA & Passport\n\n**Perlu visa untuk Korea?**\nMalaysian perlu **K-ETA** (Korea Electronic Travel Authorization) — bukan visa tradisional. ARBA uruskan A–Z, siap dalam 1 hari bekerja.\n\n**Kos K-ETA?**\nFee rasmi ~KRW 10,000 (~RM35). ARBA charge minimal untuk handling. Tanya consultant untuk rate terkini.\n\n**Warga emas (65+) atau anak bawah 18 perlu K-ETA?**\nTIDAK. K-ETA dikecualikan untuk bawah 18 & 65 tahun ke atas. Pastikan dokumen lain (passport, return ticket) lengkap.\n\n**Passport kena sah berapa lama?**\nMinimum 6 bulan dari tarikh balik. Blank page minimum 2 muka.\n\n**Macam nak elak kena reject masuk Korea?**\nPastikan K-ETA approved. Bawa proof return flight, hotel booking, duit cukup (min USD 1,000 tunai/setara). Dress neat masa imigresen. ARBA bagi briefing sebelum departure.\n\n**Bukan warganegara Malaysia (cth Singapore) perlu visa?**\nSingaporean tidak perlu visa. Warganegara lain, semak requirement spesifik.\n\n**ARBA boleh proses K-ETA untuk ahli keluarga bukan warganegara Malaysia?**\nTidak — ARBA hanya proses untuk warganegara Malaysia. Warganegara lain mohon sendiri di Kedutaan Korea KL.\n\n**PCR test masih wajib?**\nTidak. Korea dah lift PCR/quarantine sejak 2023.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nPT Basic/Standard **GROUND-ONLY** — tak termasuk flight. Kami boleh bantu quote bundle flight + ground (AirAsia X, Korean Air, Malaysia Airlines KUL–ICN).\n\n**Flight recommended untuk PT Seoul:**\n\n| Airline | Flight | Depart (KUL) | Arrive (ICN) | Jenis | Anggaran Return (RM) |\n|---|---|---|---|---|---|\n| Malaysia Airlines | MH 66 | 23:30 | 07:10 (+1) | Full Service | RM 2,200–2,800 |\n| Korean Air | KE 692 | 23:55 | 07:20 (+1) | Premium | RM 2,800–3,500 |\n| AirAsia X | D7 506 | 22:40 | 06:10 (+1) | Low Cost | RM 1,200–1,800 |\n| Batik Air | OD 820 | 22:30 | 06:00 (+1) | Low Cost | RM 1,600–2,100 |\n\n**Sampai airport mana di Seoul?**\nIncheon International Airport (ICN). Dari ICN ke city centre ~1 jam naik kereta.\n\n**Berapa lama flight KL–Seoul?**\n~6 jam 15 minit direct.\n\n**Kena sampai airport berapa awal?**\nSekurang-kurangnya 3 jam sebelum berlepas. Peak holidays lebih awal. Pintu pelepasan antarabangsa tutup 1 jam sebelum.\n\n**Boarding pass macam mana?**\nBeli tiket via ARBA — kami bagi panduan online check-in & boarding pass via WhatsApp. Beli sendiri — buat online check-in sendiri sebelum ke airport.\n\n**Kaunter check-in bagasi KLIA buka bila?**\n3 jam sebelum penerbangan. Berada di kaunter selewatnya 2 jam sebelum flight.\n\n**Sampai Incheon, macam nak jumpa driver ARBA?**\nSelepas ambil bagasi, ke Arrival Hall. Driver ARBA tunggu pegang papan tanda \"ARBA Travel\" + nama peserta. Kenderaan peribadi terus dari airport.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan? Bersih?**\nHotel 3 star city centre — Designer Hotel (PT Basic) / Travelodge Hotel (PT Standard) / Migliore Myeongdong (upgrade 4★ local) atau setaraf. Lokasi strategik, walking distance ke shopping & street food. Boleh upgrade 5-star (top-up).\n\n**Boleh upgrade hotel 5-star?**\nBoleh — tambahan harga untuk hotel premium (Lotte Hotel Seoul, Westin Josun, setaraf). Kami check harga & availability ikut travel date.\n\n**Family besar (5–6 orang), bilik macam mana?**\nStandard 2/bilik (twin sharing). Family ambil 2–3 bilik. Triple jarang available — confirm awal.\n\n**Ada connecting room untuk family?**\nHanya bilik berdua/bertiga. Connecting room TIADA. Kami susun bilik berdekatan (bergantung availability ikut musim).\n\n**Hotel sediakan tuala & seterika?**\nTuala disediakan. Seterika — request dari receptionist.\n\n**Nak PT tapi ada hotel/Airbnb sendiri. Boleh?**\nBoleh — PT boleh disesuaikan tanpa hotel/accommodation.\n\n**Nak tidur Apartment/Airbnb, ARBA boleh buatkan?**\nBoleh, tapi kami sarankan tuan/puan book sendiri (kebanyakan Airbnb tiada lif — susah angkut bagasi). Tiada penambahan harga kecuali request Airbnb melebihi budget yang ditetapkan.\n\n### F. Cuaca & Musim\n\n**Cuaca Korea macam mana? Bila best pergi?**\n1°C (winter) – 29°C (summer). Best: April (cherry blossom), Oktober (autumn foliage), Dis–Feb (snow & ski). Summer (Jun–Ogos) panas & humid, banyak hujan.\n\n**Nak tengok salji, bila best?**\nDis–Feb peak winter. Salji paling tebal mid-January. Suhu boleh -10°C — bawa winter jacket, beanie, gloves, thermal.\n\n**Cherry blossom musim bila?**\nHujung Mac – pertengahan April (ikut tahun). Sangat singkat (1–2 minggu) — book awal. ARBA ada cherry blossom special package.\n\n**Cherry blossom hingga bila?**\nBiasanya Spring (April–Mei). Hujung Mei selalunya dah layu. Tertakluk cuaca tahun tersebut — tiada jaminan 100%.\n\n**Strawberry picking ada lagi masa Mei?**\nBiasanya farm buka sampai Mei. Tertakluk hukum alam — pokok masih berbuah atau tidak.\n\n**Ada tarikh orang Korea cuti & kedai tutup?**\nAda — Chuseok Festival (macam Hari Raya). Tarikh ikut kalendar lunar, berbeza setiap tahun. Semak tarikh terkini — banyak kedai & attraction tutup.\n\n### G. Shopping & Duit\n\n**Korea murah ke shopping?**\nAgak mahal berbanding Asia Tenggara. Best buy: skincare/cosmetics (Olive Young, Innisfree), fashion Hongdae & Myeongdong, K-pop merch. Tax refund untuk pembelian >KRW 30,000.\n\n**Berapa duit poket untuk shopping?**\nCadangan: RM1,500–RM2,000 per orang.\n\n**Better tukar duit di Malaysia atau Korea?**\nTukar di Malaysia siap-siap (Mid Valley, Masjid India, IOI City Mall Putrajaya). Bawa sedikit tunai je, selebihnya guna kad (aktifkan oversea withdrawal dulu).\n\n**Boleh guna kad debit/kredit Malaysia di Korea?**\nBoleh — aktifkan oversea withdrawal pada kad dulu. Hubungi bank untuk pengaktifan.\n\n### H. Payment & Refund\n\n**Deposit dulu atau bayar penuh?**\nBooking dengan deposit RM500/orang. **Full payment (baki) 45 hari sebelum travel date.** Pembayaran secara tunai / online transfer.\n\n**Refund policy kalau cancel?**\nBergantung bila cancel — biasanya deposit forfeit jika cancel <14 hari. Detail penuh dalam T&C.\n\n**Visa/K-ETA rejected, deposit refund?**\n>45 hari sebelum departure: full refund jika rejected. <45 hari: ikut polisi pembatalan biasa.\n\n### I. Add-ons & Customization\n\n**Nak tour guide sahaja, tak nak pakej penuh. Boleh?**\nBoleh — ambil driving guide sahaja: tanpa meals, tanpa entrance fee.\n\n**Boleh request tour guide tertentu (nampak di Instagram)?**\nUntuk guide spesifik, pilih Private Tour (PT) — kami check availability guide dulu.\n\n**PT Seoul, tak nak lunch & dinner, boleh tolak?**\nBoleh — tolak RM35/meal dari harga pakej.\n\n### J. Kesihatan, Keselamatan & Emergency\n\n**Selamat bawa anak kecil ke Korea?**\nSangat selamat. Korea low-crime. Public transport bersih, family-friendly. Sesuai family termasuk warga emas & baby.\n\n**Kalau emergency/sakit?**\nDriver standby sepanjang trip. Hospital Seoul standard tinggi. Sangat encourage travel insurance — tambahan RM50–80/orang untuk Korea.\n\n**Keselamatan barang di Korea?**\nLow-crime, tapi berhati-hati di tempat sesak (Myeongdong, Hongdae, subway). Jaga barang rapi, beg berdekatan, jangan letak telefon/dompet di poket belakang.\n\n### K. Praktikal (SIM, App, Socket, Toilet)\n\n**Internet/SIM di Korea?**\nSewa pocket WiFi di airport (~KRW 5,000/hari), beli SIM Korea (KT/SK Telecom), atau eSIM (Airalo/Maya) sebelum bertolak (~RM50 untuk 5GB).\n\n**App berguna untuk navigation?**\n(1) **NAVER Map** (English) — Google Maps tak berfungsi sepenuhnya di Korea; (2) **Subway Korea** — navigasi tren bawah tanah.\n\n**Plug socket Korea jenis apa?**\n2-pin (Type C / Type F). Bawa travel universal adaptor. Digalakkan bawa extension plug.\n\n**Toilet di Korea ada hose/paip macam Malaysia?**\nTidak ada. Bawa botol kecil/spray ke toilet untuk kemudahan diri.\n\n### L. Packing / Barang Bawa\n\n**Barang basic untuk trip Seoul?**\nPassport, sweater/winter coat (ikut musim), thermal wear (Uniqlo Heat Tech disarankan), sejadah travel, telekung, botol spray untuk wudhu, kasut sneakers selesa, ubat peribadi, international adapter, payung kecil, powerbank, duit poket.\n\n**Kasut macam mana sesuai?**\nSneakers / kasut selesa untuk permukaan rata. Trip Seoul banyak jalan kaki — kasut tak selesa ganggu pengalaman.\n",
+ "calc": {
+  "dest": "KOREA (SEOUL / JEJU / BUSAN)",
+  "currency": "RM",
+  "deposit": 500,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;5)"
+  },
+  "infantNote": "RM 200 flat setiap infant",
+  "singleNote": "Basic / Standard / Jeju&ndash;Udo RM 1,000 &middot; Seoul&ndash;Jeju RM 1,500 &middot; Jeju RM 800",
+  "intro": "Isi pax dan tarikh &mdash; peak season, surcaj 2027 dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka ProdReq (Seoul &middot; Jeju &middot; Busan); kos transport hari itu terus ikut <b>kawasan</b> blok yang dipilih dan <b>saiz group</b>. Malam lebih atau kurang daripada pakej asal dilaras sendiri. Sumber: katalog 2026, rate card 2026/2027 Date Surcharge, PT SEL ProdReq.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "variants": [
+   {
+    "id": "sbasic",
+    "name": "PT Seoul Basic 5D4N",
+    "pkgLabel": "Seoul Basic - Nami Island, Gyeongbok Palace, Namdaemun Market, Itaewon Mosque",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "infant": 200,
+    "single": 1000,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 3497,
+      "c": 3297,
+      "n": 3097
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 2997,
+      "c": 2797,
+      "n": 2597
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 2697,
+      "c": 2497,
+      "n": 2297
+     },
+     {
+      "from": 5,
+      "to": 7,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     },
+     {
+      "from": 8,
+      "to": 9,
+      "a": 2297,
+      "c": 2097,
+      "n": 1897
+     },
+     {
+      "from": 10,
+      "to": 10,
+      "a": 2497,
+      "c": 2297,
+      "n": 2097
+     },
+     {
+      "from": 11,
+      "to": 12,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     },
+     {
+      "from": 13,
+      "to": 15,
+      "a": 2197,
+      "c": 1997,
+      "n": 1797
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       90,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 250,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3084,
+         "peak": 3084
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3384,
+         "peak": 3384
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 9,
+         "normal": 0,
+         "peak": 0
+        },
+        {
+         "from": 10,
+         "to": 13,
+         "normal": 5174,
+         "peak": 5174
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 797,
+         "peak": 797
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 1497,
+         "peak": 1497
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": -350,
+         "peak": -350
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": -700,
+         "peak": -700
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -150,
+         "peak": -150
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -40,
+         "peak": -40
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 300,
+         "peak": 300
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": 360,
+         "peak": 360
+        },
+        {
+         "from": 7,
+         "to": 9,
+         "normal": 700,
+         "peak": 700
+        },
+        {
+         "from": 10,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 100,
+         "peak": 100
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 500,
+         "peak": 500
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Nami Island",
+      "en": "NAMI ISLAND",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Nami]",
+      "act": [
+       "Airport pickup",
+       "Strawberry Farm (Dis-Feb) ATAU Starfield Library @ COEX (Mac-Nov)",
+       "Nami Island (lokasi penggambaran Winter Sonata)",
+       "Check in hotel"
+      ],
+      "eact": [
+       "Airport pickup",
+       "Strawberry Farm (fruit picking, Dec-Feb) OR Starfield Library @ COEX (Mar-Nov)",
+       "Nami Island (Winter Sonata filming location)",
+       "Hotel check in"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d2",
+      "t": "Seoul City",
+      "en": "SEOUL CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Namdaemun Market (cenderahati)",
+       "Gyeongbok Palace",
+       "Namsan Hanok Village",
+       "Itaewon Mosque (masjid pertama di Korea Selatan)"
+      ],
+      "eact": [
+       "Namdaemun Market (souvenir shopping)",
+       "Gyeongbok Palace",
+       "Namsan Hanok Village",
+       "Itaewon Mosque (the first mosque in South Korea)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d3",
+      "t": "Free & Easy",
+      "en": "FREE & EASY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "none",
+      "region": "[Seoul]",
+      "act": [
+       "Free & easy tanpa guide / pengangkutan"
+      ],
+      "eact": [
+       "Free & easy - no guide or transport"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d4",
+      "t": "Free & Easy",
+      "en": "FREE & EASY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "none",
+      "region": "[Seoul]",
+      "act": [
+       "Free & easy tanpa guide / pengangkutan"
+      ],
+      "eact": [
+       "Free & easy - no guide or transport"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "dlast",
+      "t": "Departure Day",
+      "en": "DEPARTURE DAY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Seoul]",
+      "act": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "g": "Itinerary pakej ini"
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3-Star hotel including daily breakfast",
+     "{auto}",
+     "Entrance Fees: Nami Island, Gyeongbok Palace",
+     "Tipping Fee",
+     "K-ETA Application - complimentary for Malaysian (1 time)"
+    ],
+    "exclusions": [
+     "International Flight",
+     "Personal Expenses",
+     "Optional Activity",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Private Driver & Guide is based on 10 hours basis; 30,000 - 60,000 KRW per extra hour",
+     "K-ETA Re-Application (RM 70)",
+     "Others not mentioned above"
+    ]
+   },
+   {
+    "id": "sstd",
+    "name": "PT Seoul Standard 5D4N",
+    "pkgLabel": "Seoul Standard - Nami Island, Gyeongbok Palace, Seongsu, Myeongdong, Namsan Tower, Itaewon Mosque",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "infant": 200,
+    "single": 1000,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 4597,
+      "c": 4397,
+      "n": 4197
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 3697,
+      "c": 3497,
+      "n": 3297
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 3197,
+      "c": 2997,
+      "n": 2797
+     },
+     {
+      "from": 5,
+      "to": 5,
+      "a": 2897,
+      "c": 2697,
+      "n": 2497
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 2597,
+      "c": 2397,
+      "n": 2197
+     },
+     {
+      "from": 8,
+      "to": 9,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     },
+     {
+      "from": 10,
+      "to": 11,
+      "a": 2697,
+      "c": 2497,
+      "n": 2297
+     },
+     {
+      "from": 12,
+      "to": 13,
+      "a": 2597,
+      "c": 2397,
+      "n": 2197
+     },
+     {
+      "from": 14,
+      "to": 15,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 90,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       140,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 250,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3084,
+         "peak": 3084
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3384,
+         "peak": 3384
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 9,
+         "normal": 0,
+         "peak": 0
+        },
+        {
+         "from": 10,
+         "to": 13,
+         "normal": 5174,
+         "peak": 5174
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 797,
+         "peak": 797
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 1497,
+         "peak": 1497
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": -350,
+         "peak": -350
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": -700,
+         "peak": -700
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -150,
+         "peak": -150
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -40,
+         "peak": -40
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 300,
+         "peak": 300
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": 360,
+         "peak": 360
+        },
+        {
+         "from": 7,
+         "to": 9,
+         "normal": 700,
+         "peak": 700
+        },
+        {
+         "from": 10,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 60,
+         "peak": 60
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 500,
+         "peak": 500
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Nami Island",
+      "en": "NAMI ISLAND",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Nami]",
+      "act": [
+       "Airport pickup",
+       "Strawberry Farm (Dis-Feb) ATAU Starfield Library @ COEX (Mac-Nov)",
+       "Nami Island (lokasi penggambaran Winter Sonata)",
+       "Check in hotel"
+      ],
+      "eact": [
+       "Airport pickup",
+       "Strawberry Farm (fruit picking, Dec-Feb) OR Starfield Library @ COEX (Mar-Nov)",
+       "Nami Island (Winter Sonata filming location)",
+       "Hotel check in"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d2",
+      "t": "Seoul City",
+      "en": "SEOUL CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Gyeongbok Palace",
+       "Gwanghwamun Square",
+       "Cheonggyecheon Stream",
+       "HiKR Ground (pusat kebudayaan bertema K-Pop)",
+       "Insadong Street"
+      ],
+      "eact": [
+       "Gyeongbok Palace",
+       "Gwanghwamun Square",
+       "Cheonggyecheon Stream",
+       "HiKR Ground (K-Pop themed cultural center)",
+       "Insadong Street"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d3",
+      "t": "Shopping Day",
+      "en": "SHOPPING DAY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Goto Mall Underground ATAU Seongsu-dong",
+       "Namdaemun Market",
+       "Myeongdong Street (skincare, K-Pop, street food)"
+      ],
+      "eact": [
+       "Goto Mall Underground OR Seongsu-dong",
+       "Namdaemun Market",
+       "Myeongdong Street (skincare, K-Pop, street food)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d4",
+      "t": "Seoul City",
+      "en": "SEOUL CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Namsan Tower naik cable car",
+       "Itaewon Mosque",
+       "Hongdae Street"
+      ],
+      "eact": [
+       "Namsan Tower by cable car",
+       "Itaewon Mosque",
+       "Hongdae Street"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "dlast",
+      "t": "Departure Day",
+      "en": "DEPARTURE DAY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Seoul]",
+      "act": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "g": "Itinerary pakej ini"
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3-Star hotel including daily breakfast",
+     "{auto}",
+     "Entrance Fees: Nami Island, Gyeongbok Palace, Namsan Cable Car",
+     "Tipping Fee",
+     "K-ETA Application - complimentary for Malaysian (1 time)"
+    ],
+    "exclusions": [
+     "International Flight",
+     "Personal Expenses",
+     "Optional Activity",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Private Driver & Guide is based on 10 hours basis; 30,000 - 60,000 KRW per extra hour",
+     "K-ETA Re-Application (RM 70)",
+     "Others not mentioned above"
+    ]
+   },
+   {
+    "id": "seljju",
+    "name": "PT Seoul - Jeju Standard 6D5N",
+    "pkgLabel": "Seoul - Jeju Standard - Seoul City, Nami Island, Jeju Island",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 6,
+    "nights": 5,
+    "infant": 200,
+    "single": 1500,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 6197,
+      "c": 5997,
+      "n": 5797
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 5197,
+      "c": 4997,
+      "n": 4797
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 4697,
+      "c": 4497,
+      "n": 4297
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 4397,
+      "c": 4197,
+      "n": 3997
+     },
+     {
+      "from": 7,
+      "to": 7,
+      "a": 4197,
+      "c": 3997,
+      "n": 3797
+     },
+     {
+      "from": 8,
+      "to": 8,
+      "a": 4097,
+      "c": 3897,
+      "n": 3697
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 4397,
+      "c": 4197,
+      "n": 3997
+     },
+     {
+      "from": 11,
+      "to": 13,
+      "a": 4097,
+      "c": 3897,
+      "n": 3697
+     },
+     {
+      "from": 14,
+      "to": 15,
+      "a": 3997,
+      "c": 3797,
+      "n": 3597
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 90,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       140,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 250,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3084,
+         "peak": 3084
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3384,
+         "peak": 3384
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 9,
+         "normal": 0,
+         "peak": 0
+        },
+        {
+         "from": 10,
+         "to": 13,
+         "normal": 5174,
+         "peak": 5174
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 797,
+         "peak": 797
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 1497,
+         "peak": 1497
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": -350,
+         "peak": -350
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": -700,
+         "peak": -700
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -150,
+         "peak": -150
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -40,
+         "peak": -40
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 300,
+         "peak": 300
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": 360,
+         "peak": 360
+        },
+        {
+         "from": 7,
+         "to": 9,
+         "normal": 700,
+         "peak": 700
+        },
+        {
+         "from": 10,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 60,
+         "peak": 60
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 500,
+         "peak": 500
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Nami Island",
+      "en": "NAMI ISLAND",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Nami]",
+      "act": [
+       "Tiba di Incheon International Airport",
+       "Nami Island",
+       "Dongdaemun Design Plaza (DDP)",
+       "Check in hotel Seoul"
+      ],
+      "eact": [
+       "Arrival at Incheon International Airport",
+       "Nami Island",
+       "Dongdaemun Design Plaza (DDP)",
+       "Check in Seoul hotel"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d2",
+      "t": "Seoul City",
+      "en": "SEOUL CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Gyeongbokgung Palace",
+       "Cheonggyecheon Stream",
+       "Itaewon Mosque",
+       "Seongsu-dong"
+      ],
+      "eact": [
+       "Gyeongbokgung Palace",
+       "Cheonggyecheon Stream",
+       "Itaewon Mosque",
+       "Seongsu-dong"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d3",
+      "t": "Jeju Island",
+      "en": "JEJU ISLAND",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Penerbangan domestik ke Jeju",
+       "Osulloc Green Tea Farm & Innisfree House",
+       "Yongmeori Coast",
+       "Cheonjeyeon Waterfall"
+      ],
+      "eact": [
+       "Domestic flight to Jeju",
+       "Osulloc Green Tea Farm & Innisfree House",
+       "Yongmeori Coast",
+       "Cheonjeyeon Waterfall"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d4",
+      "t": "Jeju Island",
+      "en": "JEJU ISLAND",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong",
+       "Seasonal Tour (tiket masuk termasuk)"
+      ],
+      "eact": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong",
+       "Seasonal Tour (entrance fee included)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d5",
+      "t": "Seoul City",
+      "en": "SEOUL CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Seoul]",
+      "act": [
+       "Penerbangan pagi ke Seoul",
+       "Namdaemun Market",
+       "Namsan Cable Car",
+       "Myeongdong Street"
+      ],
+      "eact": [
+       "Morning flight to Seoul",
+       "Namdaemun Market",
+       "Namsan Cable Car",
+       "Myeongdong Street"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "dlast",
+      "t": "Departure Day",
+      "en": "DEPARTURE DAY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Seoul]",
+      "act": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "g": "Itinerary pakej ini"
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3-Star hotel including daily breakfast",
+     "{auto}",
+     "Entrance Fees: Nami Island, Gyeongbok Palace, Namsan Cable Car, Seongsan Ilchulbong, Cheonjeyeon, Yongmeori",
+     "Return Domestic Flight (20 kg checked luggage)",
+     "Tipping Fee",
+     "K-ETA Application - complimentary for Malaysian (1 time)"
+    ],
+    "exclusions": [
+     "International Flight",
+     "Personal Expenses",
+     "Optional Activity",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Private Driver & Guide is based on 10 hours basis; 30,000 - 60,000 KRW per extra hour",
+     "K-ETA Re-Application (RM 70)",
+     "Others not mentioned above"
+    ]
+   },
+   {
+    "id": "jeju",
+    "name": "PT Jeju Standard 4D3N",
+    "pkgLabel": "Jeju Standard - Jeju City, West, South & East",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "infant": 200,
+    "single": 800,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 3897,
+      "c": 3697,
+      "n": 3497
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 3197,
+      "c": 2997,
+      "n": 2797
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 2797,
+      "c": 2597,
+      "n": 2397
+     },
+     {
+      "from": 5,
+      "to": 5,
+      "a": 2597,
+      "c": 2397,
+      "n": 2197
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 2497,
+      "c": 2297,
+      "n": 2097
+     },
+     {
+      "from": 8,
+      "to": 9,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     },
+     {
+      "from": 10,
+      "to": 10,
+      "a": 2297,
+      "c": 2097,
+      "n": 1897
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       100,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 250,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3084,
+         "peak": 3084
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3384,
+         "peak": 3384
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 9,
+         "normal": 0,
+         "peak": 0
+        },
+        {
+         "from": 10,
+         "to": 13,
+         "normal": 5174,
+         "peak": 5174
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 797,
+         "peak": 797
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 1497,
+         "peak": 1497
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": -350,
+         "peak": -350
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": -700,
+         "peak": -700
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -150,
+         "peak": -150
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -40,
+         "peak": -40
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 300,
+         "peak": 300
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": 360,
+         "peak": 360
+        },
+        {
+         "from": 7,
+         "to": 9,
+         "normal": 700,
+         "peak": 700
+        },
+        {
+         "from": 10,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 60,
+         "peak": 60
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan - Jeju City Tour",
+      "en": "ARRIVAL - JEJU CITY TOUR",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Airport pickup di Jeju Airport",
+       "Yongduam Rock",
+       "Yongyeon Pond",
+       "Saryeoni Forest Trail",
+       "Iho Tewoo Horse Lighthouse",
+       "Dongmun Traditional Market",
+       "Check in hotel"
+      ],
+      "eact": [
+       "Airport pickup at Jeju Airport",
+       "Yongduam Rock",
+       "Yongyeon Pond",
+       "Saryeoni Forest Trail",
+       "Iho Tewoo Horse Lighthouse",
+       "Dongmun Traditional Market",
+       "Hotel check in"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d2",
+      "t": "Jeju West & South",
+      "en": "JEJU WEST & SOUTH TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Saebyeol Oreum",
+       "Osulloc Green Tea Farm & Innisfree Jeju House",
+       "Yongmeori Coast Beach",
+       "Cheonjeyeon Waterfalls"
+      ],
+      "eact": [
+       "Saebyeol Oreum",
+       "Osulloc Green Tea Farm & Innisfree Jeju House",
+       "Yongmeori Coast Beach",
+       "Cheonjeyeon Waterfalls"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d3",
+      "t": "Jeju East",
+      "en": "JEJU EAST TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong (UNESCO)",
+       "Seasonal Tour (tiket masuk termasuk)"
+      ],
+      "eact": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong (UNESCO World Heritage Site)",
+       "Seasonal Tour (entrance fee included)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "dlast",
+      "t": "Departure Day",
+      "en": "DEPARTURE DAY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Jeju]",
+      "act": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "g": "Itinerary pakej ini"
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3-Star hotel including daily breakfast",
+     "{auto}",
+     "Entrance Fees: Yongmeori Coast Beach, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
+     "Tipping Fee",
+     "K-ETA Application - complimentary for Malaysian (1 time)"
+    ],
+    "exclusions": [
+     "International Flight",
+     "Domestic Flight",
+     "Personal Expenses",
+     "Optional Activity",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Private Driver & Guide is based on 10 hours basis; 30,000 - 60,000 KRW per extra hour",
+     "Payment must be made in cash",
+     "K-ETA Re-Application (RM 70)",
+     "Others not mentioned above"
+    ]
+   },
+   {
+    "id": "jejuudo",
+    "name": "PT Jeju - Udo Standard 5D4N",
+    "pkgLabel": "Jeju - Udo Standard - Jeju Island & Udo Island",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "infant": 200,
+    "single": 1000,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 4697,
+      "c": 4497,
+      "n": 4297
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 3797,
+      "c": 3597,
+      "n": 3397
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 3397,
+      "c": 3197,
+      "n": 2997
+     },
+     {
+      "from": 5,
+      "to": 5,
+      "a": 3097,
+      "c": 2897,
+      "n": 2697
+     },
+     {
+      "from": 6,
+      "to": 6,
+      "a": 2897,
+      "c": 2697,
+      "n": 2497
+     },
+     {
+      "from": 7,
+      "to": 7,
+      "a": 3097,
+      "c": 2897,
+      "n": 2697
+     },
+     {
+      "from": 8,
+      "to": 8,
+      "a": 2897,
+      "c": 2697,
+      "n": 2497
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 2797,
+      "c": 2597,
+      "n": 2397
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       100,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 250,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3084,
+         "peak": 3084
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1200,
+         "peak": 1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3184,
+         "peak": 3184
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1400,
+         "peak": 1400
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 3384,
+         "peak": 3384
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 9,
+         "normal": 0,
+         "peak": 0
+        },
+        {
+         "from": 10,
+         "to": 13,
+         "normal": 5174,
+         "peak": 5174
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1000,
+         "peak": -1000
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ],
+       "[Seoul-Busan]": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 797,
+         "peak": 797
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 1497,
+         "peak": 1497
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": -350,
+         "peak": -350
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": -700,
+         "peak": -700
+        },
+        {
+         "from": 11,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -150,
+         "peak": -150
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -40,
+         "peak": -40
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 300,
+         "peak": 300
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": 360,
+         "peak": 360
+        },
+        {
+         "from": 7,
+         "to": 9,
+         "normal": 700,
+         "peak": 700
+        },
+        {
+         "from": 10,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 60,
+         "peak": 60
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan - Jeju City Tour",
+      "en": "ARRIVAL - JEJU CITY TOUR",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Airport pickup di Jeju Airport",
+       "Yongduam Rock",
+       "Yongyeon Pond",
+       "Saryeoni Forest Trail",
+       "Iho Tewoo Horse Lighthouse",
+       "Dongmun Traditional Market",
+       "Check in hotel"
+      ],
+      "eact": [
+       "Airport pickup at Jeju Airport",
+       "Yongduam Rock",
+       "Yongyeon Pond",
+       "Saryeoni Forest Trail",
+       "Iho Tewoo Horse Lighthouse",
+       "Dongmun Traditional Market",
+       "Hotel check in"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d2",
+      "t": "Jeju West & South",
+      "en": "JEJU WEST & SOUTH TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Saebyeol Oreum",
+       "Osulloc Green Tea Farm & Innisfree Jeju House",
+       "Yongmeori Coast Beach",
+       "Cheonjeyeon Waterfalls"
+      ],
+      "eact": [
+       "Saebyeol Oreum",
+       "Osulloc Green Tea Farm & Innisfree Jeju House",
+       "Yongmeori Coast Beach",
+       "Cheonjeyeon Waterfalls"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d3",
+      "t": "Jeju East",
+      "en": "JEJU EAST TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong (UNESCO)",
+       "Seasonal Tour (tiket masuk termasuk)"
+      ],
+      "eact": [
+       "Songeup Folk Village",
+       "Seopjikoji",
+       "Gimnyeong Beach",
+       "Seongsan Ilchulbong (UNESCO World Heritage Site)",
+       "Seasonal Tour (entrance fee included)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "d4",
+      "t": "Udo Island - Free & Easy",
+      "en": "UDO ISLAND - FREE & EASY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Jeju]",
+      "act": [
+       "Feri ke Udo Island (tiket 2 hala termasuk)",
+       "Free & easy di Udo (guide hantar di jeti)"
+      ],
+      "eact": [
+       "Ferry to Udo Island (return ticket included)",
+       "Free & easy on Udo Island (guide drops off at the ferry port)"
+      ],
+      "g": "Itinerary pakej ini"
+     },
+     {
+      "v": "dlast",
+      "t": "Departure Day",
+      "en": "DEPARTURE DAY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Jeju]",
+      "act": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer"
+      ],
+      "g": "Itinerary pakej ini"
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3-Star hotel including daily breakfast",
+     "{auto}",
+     "Entrance Fees: Yongmeori Coast Beach, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
+     "Return Ferry Ticket to Udo Island",
+     "Tipping Fee",
+     "K-ETA Application - complimentary for Malaysian (1 time)"
+    ],
+    "exclusions": [
+     "International Flight",
+     "Domestic Flight",
+     "Personal Expenses",
+     "Optional Activity",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Private Driver & Guide is based on 10 hours basis; 30,000 - 60,000 KRW per extra hour",
+     "Payment must be made in cash",
+     "K-ETA Re-Application (RM 70)",
+     "Others not mentioned above"
+    ]
+   },
+   {
+    "id": "custom",
+    "name": "PT Custom &mdash; bina dari kosong (kos mentah)",
+    "pkgLabel": "Custom Private Tour - built from raw cost",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 0,
+    "infant": 200,
+    "single": 1000,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 1,
+      "to": 99,
+      "a": 0,
+      "c": -200,
+      "n": -400
+     }
+    ],
+    "ladder": 97,
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": [
+      [
+       "2026-04-01",
+       "2026-04-30"
+      ],
+      [
+       "2026-05-01",
+       "2026-05-31"
+      ],
+      [
+       "2026-10-01",
+       "2026-10-31"
+      ],
+      [
+       "2027-04-01",
+       "2027-04-30"
+      ],
+      [
+       "2027-05-01",
+       "2027-05-31"
+      ],
+      [
+       "2027-10-01",
+       "2027-10-31"
+      ],
+      [
+       "2026-12-16",
+       "2027-01-01",
+       null,
+       90,
+       "Super Peak Season"
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "c1",
+      "t": "Hari 1",
+      "en": "DAY 1",
+      "acc": "extra",
+      "meal": "none",
+      "trp": "ext",
+      "region": "[Seoul]",
+      "act": [
+       "Pilih blok itinerary"
+      ],
+      "eact": [
+       "To be confirmed"
+      ],
+      "g": "Bina sendiri"
+     },
+     {
+      "v": "c2",
+      "t": "Hari 2",
+      "en": "DAY 2",
+      "acc": "extra",
+      "meal": "none",
+      "trp": "ext",
+      "region": "[Seoul]",
+      "act": [
+       "Pilih blok itinerary"
+      ],
+      "eact": [
+       "To be confirmed"
+      ],
+      "g": "Bina sendiri"
+     },
+     {
+      "v": "c3",
+      "t": "Hari 3",
+      "en": "DAY 3",
+      "acc": "extra",
+      "meal": "none",
+      "trp": "ext",
+      "region": "[Seoul]",
+      "act": [
+       "Pilih blok itinerary"
+      ],
+      "eact": [
+       "To be confirmed"
+      ],
+      "g": "Bina sendiri"
+     },
+     {
+      "v": "c4",
+      "t": "Hari 4",
+      "en": "DAY 4",
+      "acc": "extra",
+      "meal": "none",
+      "trp": "ext",
+      "region": "[Seoul]",
+      "act": [
+       "Pilih blok itinerary"
+      ],
+      "eact": [
+       "To be confirmed"
+      ],
+      "g": "Bina sendiri"
+     },
+     {
+      "v": "c5",
+      "t": "Hari 5",
+      "en": "DAY 5",
+      "acc": "extra",
+      "meal": "none",
+      "trp": "ext",
+      "region": "[Seoul]",
+      "act": [
+       "Pilih blok itinerary"
+      ],
+      "eact": [
+       "To be confirmed"
+      ],
+      "g": "Bina sendiri"
+     }
+    ],
+    "ext": {
+     "night": {
+      "normal": 270,
+      "peak": 270
+     },
+     "marginPerPax": 1000,
+     "shareVehicle": true,
+     "paxPerVehicle": 42,
+     "rates": {
+      "day": {
+       "[Seoul]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1051,
+         "peak": 1051
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2644,
+         "peak": 2644
+        }
+       ],
+       "[Busan]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1202,
+         "peak": 1202
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2644,
+         "peak": 2644
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1202,
+         "peak": 1202
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 1983,
+         "peak": 1983
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2133,
+         "peak": 2133
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2974,
+         "peak": 2974
+        }
+       ],
+       "[Nami]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1202,
+         "peak": 1202
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2478,
+         "peak": 2478
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2644,
+         "peak": 2644
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2974,
+         "peak": 2974
+        }
+       ],
+       "[Suwon]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1202,
+         "peak": 1202
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2478,
+         "peak": 2478
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2644,
+         "peak": 2644
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2974,
+         "peak": 2974
+        }
+       ],
+       "[Everland]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1202,
+         "peak": 1202
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2478,
+         "peak": 2478
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2343,
+         "peak": 2343
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2974,
+         "peak": 2974
+        }
+       ],
+       "[Vivaldi]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1352,
+         "peak": 1352
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2644,
+         "peak": 2644
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2644,
+         "peak": 2644
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 3635,
+         "peak": 3635
+        }
+       ],
+       "[Paju]": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1652,
+         "peak": 1652
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2478,
+         "peak": 2478
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2343,
+         "peak": 2343
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2974,
+         "peak": 2974
+        }
+       ],
+       "_default": [
+        {
+         "from": 1,
+         "to": 8,
+         "normal": 1051,
+         "peak": 1051
+        },
+        {
+         "from": 9,
+         "to": 13,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 2313,
+         "peak": 2313
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 2644,
+         "peak": 2644
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "airport": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 330,
+         "peak": 330
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 661,
+         "peak": 661
+        },
+        {
+         "from": 11,
+         "to": 13,
+         "normal": 751,
+         "peak": 751
+        },
+        {
+         "from": 14,
+         "to": 16,
+         "normal": 925,
+         "peak": 925
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 1322,
+         "peak": 1322
+        }
+       ],
+       "[Jeju]": [
+        {
+         "from": 1,
+         "to": 5,
+         "normal": 165,
+         "peak": 165
+        },
+        {
+         "from": 6,
+         "to": 10,
+         "normal": 330,
+         "peak": 330
+        },
+        {
+         "from": 11,
+         "to": 16,
+         "normal": 330,
+         "peak": 330
+        },
+        {
+         "from": 17,
+         "to": 42,
+         "normal": 661,
+         "peak": 661
+        }
+       ]
+      },
+      "airportDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -270,
+         "peak": -270
+        }
+       ]
+      },
+      "bfDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "night4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 370,
+         "peak": 370
+        }
+       ]
+      },
+      "legKtx": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 180,
+         "peak": 180
+        }
+       ]
+      },
+      "legFlight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 330,
+         "peak": 330
+        }
+       ]
+      },
+      "cityTransfer": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 330,
+         "peak": 330
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 100,
+         "peak": 100
+        }
+       ]
+      },
+      "ski": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 500,
+         "peak": 500
+        }
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "t": "Hari tambahan (tulis sendiri)",
+    "en": "EXTENSION DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "region": "",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "fed",
+    "t": "Free & Easy - tolak driving guide dari katalog",
+    "en": "FREE & EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "feded",
+    "region": "",
+    "act": [
+     "Free & easy tanpa guide / pengangkutan"
+    ],
+    "eact": [
+     "Free & easy - no guide or transport"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "sa1",
+    "t": "Airport pickup - Nami Island",
+    "en": "NAMI ISLAND",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Nami]",
+    "act": [
+     "Airport pickup",
+     "Nami Island",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Nami Island",
+     "Hotel check in"
+    ],
+    "g": "Seoul - hari ketibaan"
+   },
+   {
+    "v": "sa2",
+    "t": "Nami Island - Petite France - Dongdaemun",
+    "en": "NAMI ISLAND",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Nami]",
+    "act": [
+     "Airport pickup",
+     "Nami Island",
+     "Petite France & Italian Village",
+     "Dongdaemun Market",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Nami Island",
+     "Petite France & Italian Village",
+     "Dongdaemun Market",
+     "Hotel check in"
+    ],
+    "g": "Seoul - hari ketibaan"
+   },
+   {
+    "v": "sa3",
+    "t": "Strawberry Farm - Nami Island (Dis-Feb)",
+    "en": "NAMI ISLAND",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Nami]",
+    "act": [
+     "Airport pickup",
+     "Strawberry Farm (Dis-Feb)",
+     "Nami Island",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Strawberry Farm (Dec-Feb)",
+     "Nami Island",
+     "Hotel check in"
+    ],
+    "g": "Seoul - hari ketibaan"
+   },
+   {
+    "v": "sa4",
+    "t": "Starfield Library COEX - Nami Island",
+    "en": "NAMI ISLAND",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Nami]",
+    "act": [
+     "Airport pickup",
+     "Starfield Library @ COEX",
+     "Nami Island",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Starfield Library @ COEX",
+     "Nami Island",
+     "Hotel check in"
+    ],
+    "g": "Seoul - hari ketibaan"
+   },
+   {
+    "v": "sa5",
+    "t": "Namsan Tower - Namdaemun Market",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Airport pickup",
+     "Namsan Tower",
+     "Namdaemun Market",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Namsan Tower",
+     "Namdaemun Market",
+     "Hotel check in"
+    ],
+    "g": "Seoul - hari ketibaan"
+   },
+   {
+    "v": "sh1",
+    "t": "Gyeongbok Palace - HiKR Ground - Insadong",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Gyeongbok Palace",
+     "Gwanghwamun Square",
+     "Cheonggyecheon Stream",
+     "HiKR Ground",
+     "Insadong Street"
+    ],
+    "eact": [
+     "Gyeongbok Palace",
+     "Gwanghwamun Square",
+     "Cheonggyecheon Stream",
+     "HiKR Ground",
+     "Insadong Street"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sh2",
+    "t": "Gyeongbok Palace - Bukchon Hanok - Itaewon",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Gyeongbok Palace",
+     "Bukchon Hanok Village",
+     "Insadong Street",
+     "Cheonggyecheon Stream",
+     "Itaewon"
+    ],
+    "eact": [
+     "Gyeongbok Palace",
+     "Bukchon Hanok Village",
+     "Insadong Street",
+     "Cheonggyecheon Stream",
+     "Itaewon"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sh3",
+    "t": "Gyeongbokgung (+Hanbok) - Bukchon - Myeongdong",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Gyeongbokgung (+ Hanbok rental)",
+     "Bukchon Hanok Village",
+     "Myeongdong Street",
+     "LOTTE Department Store / Duty Free"
+    ],
+    "eact": [
+     "Gyeongbokgung (+ Hanbok rental)",
+     "Bukchon Hanok Village",
+     "Myeongdong Street",
+     "LOTTE Department Store / Duty Free"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sh4",
+    "t": "Gyeongbok Palace - Sejong Museum - Cheonggyecheon",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Gyeongbok Palace",
+     "Gwanghwamun Square",
+     "Sejong Museum",
+     "Cheonggyecheon Stream",
+     "HiKR Ground"
+    ],
+    "eact": [
+     "Gyeongbok Palace",
+     "Gwanghwamun Square",
+     "Sejong Museum",
+     "Cheonggyecheon Stream",
+     "HiKR Ground"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "st1",
+    "t": "Namsan Tower - Itaewon Mosque - Hongdae",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Itaewon Street",
+     "Hongdae Street"
+    ],
+    "eact": [
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Itaewon Street",
+     "Hongdae Street"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "st2",
+    "t": "Bukchon Hanok - Namsan Tower - Starfield COEX",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Bukchon Hanok Village",
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Starfield Library COEX"
+    ],
+    "eact": [
+     "Bukchon Hanok Village",
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Starfield Library COEX"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "st3",
+    "t": "Namsan Tower - Itaewon Mosque - Banpo River Park",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Banpo River Park",
+     "Hongdae Street"
+    ],
+    "eact": [
+     "Namsan Tower (cable car)",
+     "Itaewon Mosque",
+     "Banpo River Park",
+     "Hongdae Street"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sh5",
+    "t": "Namdaemun - Gyeongbok Palace - Namsan Hanok - Han River",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Namdaemun Market (cenderahati)",
+     "Gyeongbok Palace",
+     "Namsan Hanok Village",
+     "Han River"
+    ],
+    "eact": [
+     "Namdaemun Market (souvenir shopping)",
+     "Gyeongbok Palace",
+     "Namsan Hanok Village",
+     "Han River"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "st4",
+    "t": "Starfield Library COEX - Gangnam - Han River",
+    "en": "SEOUL CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Starfield Library @ COEX",
+     "Gangnam Style Statue",
+     "Banpo River Park (Han River)"
+    ],
+    "eact": [
+     "Starfield Library @ COEX",
+     "Gangnam Style Statue",
+     "Banpo River Park (Han River)"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "ss1",
+    "t": "Goto Mall / Seongsu-dong - Namdaemun - Myeongdong",
+    "en": "SHOPPING DAY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Goto Mall Underground ATAU Seongsu-dong",
+     "Namdaemun Market",
+     "Myeongdong Street"
+    ],
+    "eact": [
+     "Goto Mall Underground OR Seongsu-dong",
+     "Namdaemun Market",
+     "Myeongdong Street"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "ss2",
+    "t": "Seongsu-dong - Namdaemun - Myeongdong",
+    "en": "SHOPPING DAY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Seongsu-dong",
+     "Namdaemun Market",
+     "Myeongdong Street"
+    ],
+    "eact": [
+     "Seongsu-dong",
+     "Namdaemun Market",
+     "Myeongdong Street"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "ss3",
+    "t": "Goto Mall - Dongdaemun DDP - Starfield COEX",
+    "en": "SHOPPING DAY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Goto Mall Underground",
+     "Dongdaemun Design Plaza",
+     "Starfield COEX Mall"
+    ],
+    "eact": [
+     "Goto Mall Underground",
+     "Dongdaemun Design Plaza",
+     "Starfield COEX Mall"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sdp",
+    "t": "Departure Seoul - Incheon",
+    "en": "DEPARTURE DAY",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Seoul]",
+    "act": [
+     "Check out hotel",
+     "Airport transfer ke Incheon"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Airport transfer to Incheon"
+    ],
+    "g": "Seoul"
+   },
+   {
+    "v": "sp1",
+    "t": "Lotte World Seoul",
+    "en": "LOTTE WORLD SEOUL",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Lotte World Seoul",
+     "Seoul Sky / Lotte World Mall (pilihan)"
+    ],
+    "eact": [
+     "Lotte World Seoul",
+     "Seoul Sky / Lotte World Mall (optional)"
+    ],
+    "g": "Seoul - theme park"
+   },
+   {
+    "v": "sp2",
+    "t": "Everland",
+    "en": "EVERLAND",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Everland]",
+    "act": [
+     "Everland Theme Park"
+    ],
+    "eact": [
+     "Everland Theme Park"
+    ],
+    "g": "Seoul - theme park"
+   },
+   {
+    "v": "sp3",
+    "t": "Vivaldi Ski Park / Snowyland",
+    "en": "VIVALDI SKI PARK",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Vivaldi]",
+    "act": [
+     "Vivaldi Ski Park / Snowyland"
+    ],
+    "eact": [
+     "Vivaldi Ski Park / Snowyland"
+    ],
+    "g": "Seoul - theme park"
+   },
+   {
+    "v": "sp4",
+    "t": "Lotte World Aquarium",
+    "en": "LOTTE WORLD AQUARIUM",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Seoul]",
+    "act": [
+     "Lotte World Aquarium"
+    ],
+    "eact": [
+     "Lotte World Aquarium"
+    ],
+    "g": "Seoul - theme park"
+   },
+   {
+    "v": "ja1",
+    "t": "Jeju City Tour penuh",
+    "en": "ARRIVAL - JEJU CITY TOUR",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Airport pickup di Jeju Airport",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Saryeoni Forest Trail",
+     "Iho Tewoo Horse Lighthouse",
+     "Dongmun Traditional Market",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup at Jeju Airport",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Saryeoni Forest Trail",
+     "Iho Tewoo Horse Lighthouse",
+     "Dongmun Traditional Market",
+     "Hotel check in"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "ja2",
+    "t": "Jeju City Tour ringkas",
+    "en": "ARRIVAL - JEJU CITY TOUR",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Airport pickup",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Dongmun Traditional Market",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Dongmun Traditional Market",
+     "Hotel check in"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "ja3",
+    "t": "Jeju City - Arte Museum - Sinchang sunset",
+    "en": "ARRIVAL - JEJU CITY TOUR",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Airport pickup",
+     "Dongmun Market",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Arte Museum (add-on)",
+     "Sinchang Windmill Coastal Road sunset (driver overtime)",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Dongmun Market",
+     "Yongduam Rock",
+     "Yongyeon Pond",
+     "Arte Museum (add-on)",
+     "Sinchang Windmill Coastal Road sunset (driver overtime)",
+     "Hotel check in"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "jw",
+    "t": "Jeju West & South Tour",
+    "en": "JEJU WEST & SOUTH TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Saebyeol Oreum",
+     "Osulloc Green Tea Farm & Innisfree Jeju House",
+     "Yongmeori Coast Beach",
+     "Cheonjeyeon Waterfalls"
+    ],
+    "eact": [
+     "Saebyeol Oreum",
+     "Osulloc Green Tea Farm & Innisfree Jeju House",
+     "Yongmeori Coast Beach",
+     "Cheonjeyeon Waterfalls"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "je",
+    "t": "Jeju East Tour",
+    "en": "JEJU EAST TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Songeup Folk Village",
+     "Seopjikoji",
+     "Gimnyeong Beach",
+     "Seongsan Ilchulbong (UNESCO)",
+     "Seasonal Tour (tiket masuk termasuk)"
+    ],
+    "eact": [
+     "Songeup Folk Village",
+     "Seopjikoji",
+     "Gimnyeong Beach",
+     "Seongsan Ilchulbong (UNESCO World Heritage Site)",
+     "Seasonal Tour (entrance fee included)"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "ju",
+    "t": "Udo Island Day",
+    "en": "UDO ISLAND DAY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Feri ke Udo Island (~4 jam)",
+     "Free & easy di Udo"
+    ],
+    "eact": [
+     "Ferry to Udo Island (approx. 4 hours)",
+     "Free & easy on Udo Island"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "jf",
+    "t": "Jeju Free & Easy dengan private transport",
+    "en": "JEJU FREE & EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Jeju]",
+    "act": [
+     "Free & easy dengan pengangkutan peribadi"
+    ],
+    "eact": [
+     "Free & easy with private transport"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "jdp",
+    "t": "Departure Jeju",
+    "en": "DEPARTURE DAY",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Jeju]",
+    "act": [
+     "Check out hotel",
+     "Airport transfer"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Airport transfer"
+    ],
+    "g": "Jeju"
+   },
+   {
+    "v": "ba1",
+    "t": "Gamcheon - BIFF Square - Jagalchi Market",
+    "en": "BUSAN ARRIVAL",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Airport pickup",
+     "Gamcheon Culture Village",
+     "BIFF Square",
+     "Jagalchi Fish Market",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Gamcheon Culture Village",
+     "BIFF Square",
+     "Jagalchi Fish Market",
+     "Hotel check in"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "ba2",
+    "t": "Gamcheon - Busan Tower - Nampo-dong",
+    "en": "BUSAN ARRIVAL",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Airport pickup",
+     "Gamcheon Culture Village",
+     "Busan Tower",
+     "Yongdusan Park",
+     "Jagalchi Fish Market",
+     "BIFF Square",
+     "Nampo-dong Fashion Street",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Airport pickup",
+     "Gamcheon Culture Village",
+     "Busan Tower",
+     "Yongdusan Park",
+     "Jagalchi Fish Market",
+     "BIFF Square",
+     "Nampo-dong Fashion Street",
+     "Hotel check in"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bh1",
+    "t": "Haeundae Blue Line Park - Haeundae Beach",
+    "en": "HAEUNDAE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Haeundae Blue Line Park (Sky Capsule + Beach Train)",
+     "Haeundae Street & Beach"
+    ],
+    "eact": [
+     "Haeundae Blue Line Park (Sky Capsule + Beach Train)",
+     "Haeundae Street & Beach"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bh2",
+    "t": "Haeundae - Haedong Yonggungsa - Gwangalli",
+    "en": "HAEUNDAE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Haeundae Blue Line Park",
+     "Haedong Yonggungsa Temple",
+     "Gwangalli Beach"
+    ],
+    "eact": [
+     "Haeundae Blue Line Park",
+     "Haedong Yonggungsa Temple",
+     "Gwangalli Beach"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bh3",
+    "t": "Oryukdo - Haeundae - Lotte Outlet - The Bay 101",
+    "en": "HAEUNDAE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Oryukdo Skywalk",
+     "Haeundae Sky Capsule / Beach Train",
+     "Lotte Premium Outlet",
+     "Haeundae Shopping Street",
+     "The Bay 101 (night view)"
+    ],
+    "eact": [
+     "Oryukdo Skywalk",
+     "Haeundae Sky Capsule / Beach Train",
+     "Lotte Premium Outlet",
+     "Haeundae Shopping Street",
+     "The Bay 101 (night view)"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "by1",
+    "t": "Songdo Cable Car - Taejongdae - Huinnyeoul",
+    "en": "YEONGDO COASTAL",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Songdo Marine Cable Car",
+     "Taejongdae (tram)",
+     "Huinnyeoul Culture Village",
+     "Seomyeon Young People's Street"
+    ],
+    "eact": [
+     "Songdo Marine Cable Car",
+     "Taejongdae (tram)",
+     "Huinnyeoul Culture Village",
+     "Seomyeon Young People's Street"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "by2",
+    "t": "Songdo Cable Car - Oryukdo - Centum City",
+    "en": "YEONGDO COASTAL",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Songdo Marine Cable Car",
+     "Oryukdo Skywalk",
+     "Centum City",
+     "Gwangalli Beach"
+    ],
+    "eact": [
+     "Songdo Marine Cable Car",
+     "Oryukdo Skywalk",
+     "Centum City",
+     "Gwangalli Beach"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bo1",
+    "t": "Busan Tower - Yongdusan - Nampo-dong - Seomyeon",
+    "en": "BUSAN CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Busan Tower",
+     "Yongdusan Park",
+     "Nampo-dong",
+     "Seomyeon People Street"
+    ],
+    "eact": [
+     "Busan Tower",
+     "Yongdusan Park",
+     "Nampo-dong",
+     "Seomyeon People Street"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bo2",
+    "t": "Lotte World Busan",
+    "en": "LOTTE WORLD BUSAN",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "region": "[Busan]",
+    "act": [
+     "Lotte World Busan"
+    ],
+    "eact": [
+     "Lotte World Busan"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "bdp",
+    "t": "Departure Busan (Gimhae)",
+    "en": "DEPARTURE DAY",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Busan]",
+    "act": [
+     "Check out hotel",
+     "Airport transfer Gimhae"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Airport transfer to Gimhae"
+    ],
+    "g": "Busan"
+   },
+   {
+    "v": "tsb",
+    "t": "Seoul > Busan - transfer sahaja (tiada itinerary Busan)",
+    "en": "SEOUL TO BUSAN - TRANSFER ONLY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ktx",
+    "region": "[Busan]",
+    "act": [
+     "Check out hotel Seoul",
+     "Transfer hotel ke stesen KTX",
+     "KTX ke Busan",
+     "Transfer stesen ke hotel Busan",
+     "Check in hotel Busan",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Seoul hotel",
+     "Transfer hotel to KTX station",
+     "KTX train to Busan",
+     "Transfer station to Busan hotel",
+     "Check in Busan hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tsbg",
+    "t": "Seoul > Busan + Private Transport & Driving Guide",
+    "en": "SEOUL TO BUSAN & BUSAN TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ktxg",
+    "region": "[Busan]",
+    "act": [
+     "Check out hotel Seoul",
+     "Transfer hotel ke stesen KTX",
+     "KTX ke Busan",
+     "Gamcheon Culture Village",
+     "BIFF Square & Jagalchi Market",
+     "Check in hotel Busan",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Seoul hotel",
+     "Transfer hotel to KTX station",
+     "KTX train to Busan",
+     "Gamcheon Culture Village",
+     "BIFF Square & Jagalchi Market",
+     "Check in Busan hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tbs",
+    "t": "Busan > Seoul - transfer sahaja (tiada itinerary Seoul)",
+    "en": "BUSAN TO SEOUL - TRANSFER ONLY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ktx",
+    "region": "[Seoul]",
+    "act": [
+     "Check out hotel Busan",
+     "Transfer hotel ke stesen KTX",
+     "KTX ke Seoul",
+     "Transfer stesen ke hotel Seoul",
+     "Check in hotel Seoul",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Busan hotel",
+     "Transfer hotel to KTX station",
+     "KTX train to Seoul",
+     "Transfer station to Seoul hotel",
+     "Check in Seoul hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tbsg",
+    "t": "Busan > Seoul + Private Transport & Driving Guide",
+    "en": "BUSAN TO SEOUL & SEOUL TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ktxg",
+    "region": "[Seoul]",
+    "act": [
+     "Check out hotel Busan",
+     "Transfer hotel ke stesen KTX",
+     "KTX ke Seoul",
+     "Namdaemun Market",
+     "Myeongdong Street",
+     "Check in hotel Seoul",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Busan hotel",
+     "Transfer hotel to KTX station",
+     "KTX train to Seoul",
+     "Namdaemun Market",
+     "Myeongdong Street",
+     "Check in Seoul hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tsj",
+    "t": "Seoul > Jeju - transfer sahaja (tiada itinerary Jeju)",
+    "en": "SEOUL TO JEJU - TRANSFER ONLY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "fly",
+    "region": "[Jeju]",
+    "act": [
+     "Check out hotel Seoul",
+     "Transfer hotel ke Gimpo Airport",
+     "Penerbangan domestik ke Jeju",
+     "Transfer airport ke hotel Jeju",
+     "Check in hotel Jeju",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Seoul hotel",
+     "Transfer hotel to Gimpo Airport",
+     "Domestic flight to Jeju",
+     "Transfer airport to Jeju hotel",
+     "Check in Jeju hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tsjg",
+    "t": "Seoul > Jeju + Private Transport & Driving Guide",
+    "en": "SEOUL TO JEJU & JEJU TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "flyg",
+    "region": "[Jeju]",
+    "act": [
+     "Check out hotel Seoul",
+     "Transfer hotel ke Gimpo Airport",
+     "Penerbangan domestik ke Jeju",
+     "Jeju city tour",
+     "Check in hotel Jeju",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Seoul hotel",
+     "Transfer hotel to Gimpo Airport",
+     "Domestic flight to Jeju",
+     "Jeju city tour",
+     "Check in Jeju hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tjs",
+    "t": "Jeju > Seoul - transfer sahaja (tiada itinerary Seoul)",
+    "en": "JEJU TO SEOUL - TRANSFER ONLY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "fly",
+    "region": "[Seoul]",
+    "act": [
+     "Check out hotel Jeju",
+     "Transfer hotel ke Jeju Airport",
+     "Penerbangan domestik ke Seoul",
+     "Transfer airport ke hotel Seoul",
+     "Check in hotel Seoul",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Jeju hotel",
+     "Transfer hotel to Jeju Airport",
+     "Domestic flight to Seoul",
+     "Transfer airport to Seoul hotel",
+     "Check in Seoul hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tjsg",
+    "t": "Jeju > Seoul + Private Transport & Driving Guide",
+    "en": "JEJU TO SEOUL & SEOUL TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "flyg",
+    "region": "[Seoul]",
+    "act": [
+     "Check out hotel Jeju",
+     "Transfer hotel ke Jeju Airport",
+     "Penerbangan domestik ke Seoul",
+     "Namdaemun Market",
+     "Namsan Cable Car",
+     "Check in hotel Seoul",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Jeju hotel",
+     "Transfer hotel to Jeju Airport",
+     "Domestic flight to Seoul",
+     "Namdaemun Market",
+     "Namsan Cable Car",
+     "Check in Seoul hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   },
+   {
+    "v": "tsbd",
+    "t": "Seoul > Busan ikut jalan raya (Solati 10-13 pax)",
+    "en": "SEOUL TO BUSAN BY ROAD",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Seoul-Busan]",
+    "act": [
+     "Check out hotel Seoul",
+     "Perjalanan Seoul ke Busan (Solati)",
+     "Check in hotel Busan",
+     "Guide tidak ikut - guide baharu menunggu di bandar destinasi"
+    ],
+    "eact": [
+     "Check out Seoul hotel",
+     "Road transfer Seoul to Busan (Solati)",
+     "Check in Busan hotel",
+     "Guide does not follow - a new guide waits in the destination city"
+    ],
+    "g": "Pindah bandar"
+   }
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date 2027 (1 Jan - 30 Jun 2027)",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100
+   },
+   {
+    "label": "ATK / TO Charge",
+    "variants": [
+     "custom"
+    ],
+    "perPax": 225,
+    "preLadder": true
+   }
+  ],
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 50,
+   "dinner": 50
+  },
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "autoAddonQty": true,
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade 4 bintang (malam pakej)",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "line": "4-Star hotel upgrade",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade ({days})"
+   },
+   {
+    "v": "ski",
+    "t": "Menginap ski resort Vivaldi (malam pakej)",
+    "cost": "incl",
+    "perPaxRate": "ski",
+    "line": "Ski resort overnight stay",
+    "hotel": "Ski Resort",
+    "incl": "Ski resort overnight stay ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Hotel 3 bintang (malam tambahan)",
+    "cost": "night",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night in 3-Star hotel ({days})"
+   },
+   {
+    "v": "extra4",
+    "t": "Hotel 4 bintang (malam tambahan)",
+    "cost": "night",
+    "nightRate": "night4",
+    "line": "Additional night, 4-Star hotel",
+    "hotel": "4-Star Hotel",
+    "incl": "Additional night in 4-Star hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel - tolak malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "None",
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (termasuk)",
+    "l": 0,
+    "d": 0,
+    "lbl": "International Breakfast"
+   },
+   {
+    "v": "nob",
+    "t": "Tiada breakfast (apartment) - tolak",
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "perPaxRate": "bfDed",
+    "line": "No breakfast (apartment)"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast & Lunch",
+    "l": 1,
+    "d": 0,
+    "lbl": "International Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast & Dinner",
+    "l": 0,
+    "d": 1,
+    "lbl": "International Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch & Dinner",
+    "l": 1,
+    "d": 1,
+    "lbl": "International Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch & Dinner",
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide",
+    "incl": "Private Transportation & Professional Licensed Driving Guide, English Speaking ({days}) - 10 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (termasuk pakej)",
+    "cost": "incl",
+    "lbl": "Airport Transfer",
+    "incl": "Private Airport Transfer ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Guide",
+    "incl": "Additional Private Transportation & Driving Guide ({days}) - 10 hours basis"
+   },
+   {
+    "v": "airx",
+    "t": "Airport Transfer tambahan",
+    "perVehicleRate": "airport",
+    "lbl": "Airport Transfer",
+    "line": "Additional airport transfer",
+    "incl": "Additional Private Airport Transfer ({days})"
+   },
+   {
+    "v": "ktx",
+    "t": "KTX + 2 transfer stesen (transfer sahaja)",
+    "cost": "zero",
+    "perPaxRate": "legKtx",
+    "perVehicleRate": "cityTransfer",
+    "perVehicleQty": 2,
+    "lbl": "KTX + Station Transfer",
+    "line": "KTX inter-city transfer",
+    "incl": "KTX inter-city transfer including 2 station transfers ({days})"
+   },
+   {
+    "v": "ktxg",
+    "t": "KTX + 2 transfer stesen + Private Transport & Driving Guide",
+    "cost": "day",
+    "guided": true,
+    "perPaxRate": "legKtx",
+    "perVehicleRate": "cityTransfer",
+    "perVehicleQty": 2,
+    "lbl": "KTX + Station Transfer + Private Transport & Guide",
+    "line": "KTX inter-city transfer",
+    "incl": "KTX inter-city transfer including 2 station transfers, with Private Transportation & Driving Guide ({days})"
+   },
+   {
+    "v": "fly",
+    "t": "Flight domestik + 2 transfer airport (transfer sahaja)",
+    "cost": "zero",
+    "perPaxRate": "legFlight",
+    "perVehicleRate": "cityTransfer",
+    "perVehicleQty": 2,
+    "lbl": "Domestic Flight + Airport Transfer",
+    "line": "Domestic flight inter-city transfer",
+    "incl": "Domestic flight including 2 airport transfers ({days})"
+   },
+   {
+    "v": "flyg",
+    "t": "Flight domestik + 2 transfer airport + Private Transport & Driving Guide",
+    "cost": "day",
+    "guided": true,
+    "perPaxRate": "legFlight",
+    "perVehicleRate": "cityTransfer",
+    "perVehicleQty": 2,
+    "lbl": "Domestic Flight + Airport Transfer + Private Transport & Guide",
+    "line": "Domestic flight inter-city transfer",
+    "incl": "Domestic flight including 2 airport transfers, with Private Transportation & Driving Guide ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free & easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "feded",
+    "t": "Free & easy - tolak driving guide dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free & easy (driving guide deducted)"
+   },
+   {
+    "v": "airded",
+    "t": "Buang airport transfer - tolak dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "airportDed",
+    "lbl": "-",
+    "line": "Airport transfer deducted"
+   }
+  ],
+  "addons": [
+   [
+    "Hanbok Rental (Gyeongbok Palace / Songeup Folk Village)",
+    80,
+    80,
+    "pax"
+   ],
+   [
+    "Everland Theme Park Ticket",
+    140,
+    140,
+    "pax"
+   ],
+   [
+    "Lotte World Seoul Ticket",
+    100,
+    100,
+    "pax"
+   ],
+   [
+    "Snowyland Vivaldi Ticket",
+    150,
+    150,
+    "pax"
+   ],
+   [
+    "N Seoul Tower Cable Car",
+    60,
+    60,
+    "pax"
+   ],
+   [
+    "Udo Island Ferry Ticket (2 ways)",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Swap Everland - transport, guide & entrance (Standard)",
+    160,
+    160,
+    "pax"
+   ],
+   [
+    "Swap Vivaldi Ski Park - 2 pax (Standard)",
+    290,
+    290,
+    "pax"
+   ],
+   [
+    "Swap Vivaldi Ski Park - 3 pax & above (Standard)",
+    240,
+    240,
+    "pax"
+   ],
+   [
+    "Domestic Flight Seoul - Jeju (one way)",
+    300,
+    300,
+    "pax"
+   ],
+   [
+    "K-ETA Re-Application",
+    70,
+    70,
+    "pax"
+   ],
+   [
+    "Korean Tour Guide only (per day)",
+    1297,
+    0,
+    "unit"
+   ],
+   [
+    "Malay Student Guide (per day)",
+    797,
+    0,
+    "unit"
+   ],
+   [
+    "Driver only - Seoul (per day)",
+    1697,
+    0,
+    "unit"
+   ],
+   [
+    "Driver only - Nami (per day)",
+    1797,
+    0,
+    "unit"
+   ],
+   [
+    "Driver only - Everland (per day)",
+    1797,
+    0,
+    "unit"
+   ],
+   [
+    "Driver only - Vivaldi (per day)",
+    1997,
+    0,
+    "unit"
+   ],
+   [
+    "Driving Outskirt Busan - Seoul, Solati 10-13 pax (per transport)",
+    3787,
+    0,
+    "unit"
+   ],
+   [
+    "Nami Island (kos mentah)",
+    48,
+    48,
+    "pax"
+   ],
+   [
+    "Petite France (kos mentah)",
+    36,
+    36,
+    "pax"
+   ],
+   [
+    "Italian Village (kos mentah)",
+    36,
+    36,
+    "pax"
+   ],
+   [
+    "Petite France + Italian Village (kos mentah)",
+    54,
+    54,
+    "pax"
+   ],
+   [
+    "Garden Morning (kos mentah)",
+    33,
+    33,
+    "pax"
+   ],
+   [
+    "Everland (group 10+) (kos mentah)",
+    99,
+    99,
+    "pax"
+   ],
+   [
+    "Everland (FIT <10) (kos mentah)",
+    122,
+    122,
+    "pax"
+   ],
+   [
+    "Lotte World (kos mentah)",
+    90,
+    90,
+    "pax"
+   ],
+   [
+    "Seoul Sky (kos mentah)",
+    66,
+    66,
+    "pax"
+   ],
+   [
+    "Lotte World + Seoul Sky (kos mentah)",
+    111,
+    111,
+    "pax"
+   ],
+   [
+    "Coex Aquarium (kos mentah)",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Gyeongbok Palace (kos mentah)",
+    9,
+    9,
+    "pax"
+   ],
+   [
+    "Namsan Tower Cable Car (kos mentah)",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Namsan Tower Bus (kos mentah)",
+    9,
+    9,
+    "pax"
+   ],
+   [
+    "Alpaca & Sheep Farm (kos mentah)",
+    54,
+    54,
+    "pax"
+   ],
+   [
+    "DMZ (kos mentah)",
+    30,
+    30,
+    "pax"
+   ],
+   [
+    "Korean Folk Village (group 10+) (kos mentah)",
+    39,
+    39,
+    "pax"
+   ],
+   [
+    "Korean Folk Village (FIT <10) (kos mentah)",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Snowyland Vivaldi (kos mentah)",
+    105,
+    105,
+    "pax"
+   ],
+   [
+    "Ski Full Set (kos mentah)",
+    210,
+    210,
+    "pax"
+   ],
+   [
+    "Kimchi Making (kos mentah)",
+    165,
+    165,
+    "pax"
+   ],
+   [
+    "Strawberry Picking (kos mentah)",
+    33,
+    33,
+    "pax"
+   ],
+   [
+    "Railbike (2-seater) (kos mentah)",
+    120,
+    120,
+    "pax"
+   ],
+   [
+    "Railbike (4-seater) (kos mentah)",
+    168,
+    168,
+    "pax"
+   ],
+   [
+    "Hwaseong Haenggung (kos mentah)",
+    6,
+    6,
+    "pax"
+   ],
+   [
+    "Hwaseong Eocha Trolley (kos mentah)",
+    18,
+    18,
+    "pax"
+   ],
+   [
+    "Lunch (normal) (kos mentah)",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Dinner (normal) (kos mentah)",
+    45,
+    45,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 6,
+    "to": 10,
+    "text": "6&ndash;10 pax: airport service perlu kenderaan bagasi tambahan (ProdReq 5.2) &mdash; sudah dalam kadar airport transfer band 6&ndash;10 pax"
+   },
+   {
+    "from": 10,
+    "to": 13,
+    "text": "10&ndash;13 pax (Solati): kadar 8.6 adalah <b>driver sahaja</b> &mdash; Korean Tour Guide RM 1,297/hari sudah ditambah sendiri dalam kadar hari extension. Rujuk tab <i>Transportation &amp; Guide</i>."
+   },
+   {
+    "from": 9,
+    "to": 99999,
+    "text": "9 pax ke atas: bundle driving guide (1&ndash;8 pax) tidak terpakai &mdash; perlu driver + tour guide berasingan (ProdReq 5.6 &amp; 12); kadar hari extension sudah ikut band ini"
+   }
+  ],
+  "dropOwnRate": true,
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date; payment must be made in cash. A late booking surcharge of RM 50 per booking applies if the booking is made less than 45 days before departure. Airport transfer allows a maximum of 1 luggage per pax. The final itinerary is confirmed 14 days before the trip. Package is valid for travel until 30 June 2027. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+ }
+}

@@ -1,0 +1,2705 @@
+{
+ "slug": "perth",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Perth — Knowledge Base",
+   "brandTag": "Perth KB",
+   "kicker": "ARBA PERTH · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Private Tour Perth — halal, flight, hotel, cuaca, harga & tips untuk travel consultant.",
+   "searchPlaceholder": "cth: flight ke Perth? · perlu visa? · makanan halal? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Perth…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Perth",
+   "statusText": "Last updated: 2 September 2026",
+   "footerHtml": "Rujukan dalaman TC ARBA — dijana daripada katalog PT Perth Standard 5D4N &amp; Premium 6D5N (v3, last updated 12 Mac 2026), Travel Map, Flight Recommendation, Date Surcharge 2026/2027 dan FreeGift Campaign.<br>Harga, itinerari &amp; jadual flight boleh berubah — sahkan versi katalog terkini sebelum quote.<br>Tiada gambar trip lepas untuk Perth dalam folder produk, jadi KB ini tiada tab Gambar Trip Lepas — ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Caversham Wildlife Park — kangaroo feeding & koala photo",
+     "Pinnacles Desert + Lancelin Sand Dunes (Premium)",
+     "Mandurah Dolphin & Canal Cruise (Premium)",
+     "Swan Valley · Margaret River Chocolate Factory",
+     "Fremantle · Cottesloe Beach sunset",
+     "Halal lunch included + solat time-blocked di masjid"
+    ],
+    "usp": "USP ARBA Perth: Tour Leader Malaysian (BM/English), fokus halal (lunch included + solat di masjid/surau), private tour dengan operator specialist K&N (tiada coach share dengan orang lain), dan Standard ada 1 hari Free & Easy — jarang untuk pakej padat 5D4N.",
+    "season": [
+     [
+      "Spring (Sep–Nov)",
+      "Musim terbaik — Tulip Festival, cuaca sederhana 11–25°C, bunga mekar & fruit picking awal."
+     ],
+     [
+      "Summer (Dis–Feb)",
+      "Paling panas 18–32°C (kadang >40°C) — beach, fruit picking (strawberry/apple/cherry), sunset lambat."
+     ],
+     [
+      "Autumn (Mac–Mei)",
+      "Sederhana 13–26°C, kurang crowd, selesa untuk sightseeing."
+     ],
+     [
+      "Winter (Jun–Ogos)",
+      "Sejuk & kadang hujan 8–19°C — sesuai indoor + shopping, hotel lebih murah. Tiada salji di bandar Perth."
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan (1–3 km sehari). Pakai kasut selesa; Pinnacles & Sand Dunes perlu kasut hiking.",
+     "Pinnacles & Lancelin (Premium Day 5): permukaan tidak rata & berhabuk — kurang sesuai warga emas / anak kecil.",
+     "Apartment Standard TIDAK di CBD & 1 bilik air sahaja; Premium 4★ Mercure On Hay di CBD.",
+     "Breakfast: Standard masak sendiri di apartment (kitchenette) atau restoran halal (buka ~10 pagi); Premium breakfast hotel halal-friendly.",
+     "Dinner tidak termasuk mana-mana pakej — explore restoran halal Perth (Melayu, Indonesia, Indian Muslim, Middle Eastern).",
+     "Zon waktu AWST (UTC+8) sama dengan Malaysia — tiada jetlag. English digunakan meluas."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Perth Standard 5D4N",
+    "tag": "Perth · 5D4N · Standard",
+    "sub": "Swan Valley · Perth City · Fremantle",
+    "emoji": "🦘",
+    "img": "Perth Panorama Kings Park.jpg",
+    "intro": "Pakej padat & berbaloi untuk family. 4 malam apartment 3★ (kitchenette — boleh masak breakfast sendiri), 2 hari guided tour (Swan Valley + Fremantle) dan 1 hari Free & Easy. Caversham Wildlife Park & 2x lunch halal sudah termasuk. Sesuai bajet keluarga yang mahu privasi private tour tanpa share coach.",
+    "inc": [
+     "4 malam Apartment 3★ (Comfort Inn & Suites / Good Health atau seumpama)",
+     "Return Private Airport Transfer (06:00–22:00)",
+     "Private transport 2 hari tour (Day 2 & Day 4, 8 jam setiap satu)",
+     "2x Lunch halal — Charcoal Chicken (Day 2) & Kailis Fish & Chips Fremantle (Day 4)",
+     "Entrance Caversham Wildlife Park",
+     "Tipping fee + parking fee (bundled)"
+    ],
+    "exc": [
+     "Tiket flight KUL↔PER, bagasi, in-flight meal, airport tax",
+     "Breakfast (masak sendiri di apartment) & Dinner semua hari",
+     "Mandurah Dolphin Cruise (add-on RM 140/adult), Pinnacles Day Tour (add-on RM 3,800/transport)",
+     "Visa ETA Australia, travel insurance/takaful, personal expenses",
+     "Extra hour transport AUD 50/jam (bayar tunai kepada driver)"
+    ],
+    "note": "Apartment TIDAK di Perth CBD & 1 bilik air setiap unit. Quad/Quint Room kongsi 1 tandas — jika tak selesa, tukar ke double/triple. Upgrade ke 3★ Hotel CBD +RM 180/pax/malam atau 4★ Mercure +RM 300/pax/malam."
+   },
+   {
+    "n": "PT Perth Premium 6D5N",
+    "tag": "Perth · 6D5N · Premium",
+    "sub": "Swan Valley · Fremantle · Mandurah Cruise · Pinnacles",
+    "emoji": "🏜️",
+    "img": "The Pinnacles Western Australia.JPG",
+    "intro": "Pakej full-experience 4★ hotel di CBD. 5 malam Mercure On Hay (breakfast halal-friendly), driver-cum-guide sepanjang trip, dan signature day ke Pinnacles Desert + Lancelin Sand Dunes. Mandurah Dolphin Cruise & Caversham Wildlife Park sudah termasuk. Breakfast 4x + Lunch 3x halal disediakan.",
+    "inc": [
+     "5 malam Hotel 4★ (Mercure On Hay / Mercure Perth / Ibis Perth atau seumpama)",
+     "Return Private Airport Transfer (06:00–22:00) + Driver cum Guide",
+     "Private transport harian (Day 2: 6j, Day 3: 8j, Day 4: 4j, Day 5: 10j)",
+     "4x Breakfast hotel (halal-friendly) + 3x Lunch halal (Charcoal Chicken, Kailis, Pinnacles Fish & Chips)",
+     "Entrance Caversham Wildlife Park + Mandurah Canal & Dolphin Cruise",
+     "Entrance Pinnacles Desert + Lancelin Sand Dunes",
+     "Tipping fee (bundled)"
+    ],
+    "exc": [
+     "Tiket flight KUL↔PER, bagasi, in-flight meal, airport tax",
+     "Dinner semua hari",
+     "Sand Board rental Lancelin (RM 80), Araluen Tulip Park (RM 85, seasonal Ogos–Okt), Rottnest Ferry (RM 350)",
+     "Visa ETA Australia, travel insurance/takaful, personal expenses",
+     "Extra hour transport / airport midnight AUD 50/jam (bayar tunai kepada driver)"
+    ],
+    "note": "Pinnacles & Lancelin (Day 5) — hari panjang 10 jam, perjalanan ~2 jam sehala, permukaan tidak rata. Kurang sesuai warga emas / anak kecil. Upgrade ke 5★ Duxton (breakfast halal) +RM 350/pax/malam."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "KUL → Tiba Perth",
+     "m": "-",
+     "a": [
+      "Tiba di Perth Airport",
+      "Meet & greet dengan driver ARBA",
+      "Transfer ke apartment",
+      "Free & Easy — rehat / explore sekitar hotel"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Swan Valley Guided Tour",
+     "m": "Lunch",
+     "a": [
+      "Caversham Wildlife Park (kangaroo feeding, koala photo) — included",
+      "Margaret River Chocolate Factory (free chocolate testing)",
+      "Lunch Charcoal Chicken (halal) + solat di masjid berdekatan",
+      "Bell Tower & Elizabeth Quay",
+      "Hay St & Murray St Mall (London Court)",
+      "Kembali ke hotel"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Free & Easy",
+     "m": "-",
+     "a": [
+      "Self-explore Perth City — tiada transport/guide",
+      "Cadangan: Langley Park (5 min jalan kaki)",
+      "Guna Free Bus Zone: Yellow / Red / Blue / Green CAT"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Fremantle Day Tour",
+     "m": "Lunch",
+     "a": [
+      "Blue Boat House & Rainbow Containers (photostop)",
+      "Monument Hill (photostop), Fremantle Prison (bypass)",
+      "Lunch Kailis Fish & Chips (halal-friendly)",
+      "Cappuccino Strip → Round House",
+      "Cottesloe Beach (ikut timing)",
+      "Shopping Watertown Factory Outlets"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Perth → KUL",
+     "m": "-",
+     "a": [
+      "Check-out hotel",
+      "Transfer ke airport",
+      "Penerbangan pulang ke KL"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Tiba Perth",
+     "m": "-",
+     "a": [
+      "Tiba di Perth Airport",
+      "Meet & greet dengan driver ARBA",
+      "Transfer ke hotel 4★",
+      "Free & Easy — rehat"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Swan Valley Guided Tour",
+     "m": "B / L",
+     "a": [
+      "Caversham Wildlife Park (included)",
+      "Margaret River Chocolate Factory",
+      "Lunch Charcoal Chicken & Lamb Ribs (halal) + solat di masjid",
+      "Free & Easy petang / add-on Fruit Orchard atau Tulip Park (seasonal)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Fremantle + Mandurah Cruise",
+     "m": "B / L",
+     "a": [
+      "Blue Boat House & Rainbow Containers (photostop)",
+      "Canal & Dolphin Boat Cruise di Mandurah — included",
+      "Fremantle Prison (bypass), Cappuccino Strip → Round House",
+      "Sunset di Cottesloe Beach"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Perth City Tour",
+     "m": "B",
+     "a": [
+      "Bell Tower & Elizabeth Quay",
+      "Hay Street Mall (London Court), shopping Watertown Factory Outlets",
+      "Kings Park & Aboriginal Art Gallery",
+      "Solat di surau Watertown",
+      "Free & Easy"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Pinnacles Desert & Lancelin",
+     "m": "B / L",
+     "a": [
+      "Pinnacles Desert (entrance included)",
+      "Lancelin Sand Dunes (ATV tidak termasuk)",
+      "Sand Board rental (optional add-on)",
+      "Lunch Fish & Chips (halal) + stop over untuk solat",
+      "Kembali ke hotel"
+     ]
+    },
+    {
+     "d": 6,
+     "t": "Perth → KUL",
+     "m": "B",
+     "a": [
+      "Check-out hotel",
+      "Transfer ke airport",
+      "Penerbangan pulang ke KL"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Caversham Wildlife Park",
+    "t": "Wildlife · Swan Valley",
+    "emoji": "🦘",
+    "img": "Roo petting Caversham Park SMC.jpg",
+    "short": "Kangaroo feeding, koala photo & farm show — family favourite.",
+    "intro": "Taman hidupan liar paling popular di Swan Valley. Interaksi rapat: beri makan kangaroo, photo dengan koala, tengok wombat & farm show. Entrance termasuk dalam kedua-dua pakej (Standard & Premium).",
+    "hi": [
+     "Kangaroo feeding & koala photo",
+     "Farm show + wombat encounter",
+     "Laluan stroller-friendly untuk toddler",
+     "Entrance included"
+    ],
+    "best": "Day 2 (Swan Valley). Pagi lebih sejuk & haiwan aktif.",
+    "muslim": "Bawa sejadah — tiada surau khas dalam taman; solat boleh di area rehat. Lunch halal Charcoal Chicken disediakan selepas ini di masjid berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Caversham+Wildlife+Park+Perth"
+   },
+   {
+    "n": "Margaret River Chocolate Factory",
+    "t": "Food Stop · Swan Valley",
+    "emoji": "🍫",
+    "img": "Belgian chocolates assortment.JPG",
+    "short": "Free chocolate tasting & oleh-oleh.",
+    "intro": "Kilang coklat terkenal di Swan Valley dengan free chocolate testing. Boleh beli oleh-oleh coklat & produk tempatan. Stop santai selepas Caversham.",
+    "hi": [
+     "Free chocolate tasting",
+     "Beli oleh-oleh coklat",
+     "Suasana Swan Valley yang tenang"
+    ],
+    "best": "Day 2, gabung dengan Caversham & Swan Valley.",
+    "muslim": "Coklat umumnya halal-friendly (dairy-based) — semak label untuk kandungan alkohol/gelatin pada produk tertentu. Tiada hidangan daging.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Margaret+River+Chocolate+Company+Swan+Valley"
+   },
+   {
+    "n": "Bell Tower & Elizabeth Quay",
+    "t": "Landmark · Perth CBD",
+    "emoji": "🔔",
+    "img": "00 1602 Perth Western Australia - Bell Tower.jpg",
+    "short": "Ikon tepi Sungai Swan di tengah bandar.",
+    "intro": "The Bell Tower & Elizabeth Quay — kawasan waterfront ikonik Perth. Photo spot, jambatan pejalan kaki & pemandangan Sungai Swan. Berdekatan Hay/Murray St Mall untuk shopping.",
+    "hi": [
+     "Photo waterfront Sungai Swan",
+     "The Bell Tower",
+     "Dekat Hay St & Murray St Mall (London Court)"
+    ],
+    "best": "Day 2 (Standard) / Day 4 (Premium). Petang untuk cahaya lembut.",
+    "muslim": "Ada beberapa outlet halal-friendly di sekitar Elizabeth Quay & CBD. Masjid Perth (William St, Northbridge) ~10 min. Bawa sejadah untuk solat cepat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bell+Tower+Elizabeth+Quay+Perth"
+   },
+   {
+    "n": "Kings Park & Botanic Garden",
+    "t": "Taman · Perth CBD",
+    "emoji": "🌳",
+    "img": "Perth skyline from Kings Park.jpg",
+    "short": "Taman bandar terbesar dengan panorama skyline Perth.",
+    "intro": "Salah satu taman bandar terbesar dunia, menghadap skyline Perth & Sungai Swan. Ada Aboriginal Art Gallery, playground kanak-kanak & laluan wheelchair-accessible. Termasuk dalam Premium Day 4.",
+    "hi": [
+     "Panorama skyline Perth & Sungai Swan",
+     "Aboriginal Art Gallery — pengalaman budaya",
+     "Playground & laluan wheelchair-friendly"
+    ],
+    "best": "Day 4 (Premium). Pagi/petang untuk elak panas tengah hari.",
+    "muslim": "Ruang terbuka luas — mudah cari tempat solat sunyi (bawa sejadah). Picnic: bawa makanan halal sendiri. Tandas awam tersedia untuk wudu.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kings+Park+Botanic+Garden+Perth"
+   },
+   {
+    "n": "Fremantle (Fishing Boat Harbour)",
+    "t": "Heritage · Coast",
+    "emoji": "⚓",
+    "img": "Fremantle fishing boat harbour.jpg",
+    "short": "Bandar pelabuhan bersejarah — Kailis Fish & Chips, Cappuccino Strip.",
+    "intro": "Bandar pelabuhan warisan UNESCO. Blue Boat House, Rainbow Containers, Cappuccino Strip & Round House. Lunch di Kailis Fish & Chips (halal-friendly) termasuk dalam pakej.",
+    "hi": [
+     "Kailis Fish & Chips (lunch included)",
+     "Blue Boat House & Rainbow Containers photostop",
+     "Cappuccino Strip, Round House, Fremantle Market"
+    ],
+    "best": "Day 4 (Standard) / Day 3 (Premium).",
+    "muslim": "Kailis = seafood (halal-friendly, tiada khinzir/arak dalam hidangan disediakan). Ada masjid di Fremantle & beberapa kedai halal. Bawa sejadah untuk solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Fishing+Boat+Harbour+Fremantle"
+   },
+   {
+    "n": "Cottesloe Beach",
+    "t": "Pantai · Sunset",
+    "emoji": "🏖️",
+    "img": "52 Cottesloe Beach sunset in Western Australia.jpg",
+    "short": "Pantai paling difoto di Perth — spot sunset.",
+    "intro": "Pantai putih terkenal untuk sunset (~7–8 malam pada musim panas). Santai, photo & pemandangan Lautan Hindi. Dalam itinerari ikut timing.",
+    "hi": [
+     "Sunset Lautan Hindi",
+     "Pantai putih & promenade",
+     "Kafe di sepanjang pantai"
+    ],
+    "best": "Petang untuk sunset. Musim panas sunset lambat ~7:30 malam.",
+    "muslim": "Pantai awam — pakaian sopan digalakkan. Tiada surau di pantai; solat Maghrib boleh diatur di stop seterusnya (bawa sejadah). Semak waktu solat vs sunset.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Cottesloe+Beach+Perth"
+   },
+   {
+    "n": "Pinnacles Desert (Nambung NP)",
+    "t": "Nature · Signature (Premium)",
+    "emoji": "🏜️",
+    "img": "The Pinnacles Western Australia.JPG",
+    "short": "Ribuan tiang batu kapur di padang pasir kuning.",
+    "intro": "Formasi batu kapur ikonik di Nambung National Park (~2 jam dari Perth). Signature day Premium. Perjalanan panjang; permukaan tidak rata & berhabuk.",
+    "hi": [
+     "Landskap batu kapur unik",
+     "Photo padang pasir kuning",
+     "Gabung dengan Lancelin Sand Dunes"
+    ],
+    "best": "Day 5 (Premium). Bawa kasut hiking, topi, sunblock SPF30+, air.",
+    "muslim": "Kawasan terpencil — tiada surau. Solat di rest stop dalam perjalanan (bawa sejadah). Lunch Fish & Chips halal disediakan. Kurang sesuai warga emas/anak kecil.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pinnacles+Desert+Nambung+National+Park"
+   },
+   {
+    "n": "Lancelin Sand Dunes",
+    "t": "Nature · Adventure (Premium)",
+    "emoji": "🏜️",
+    "img": "Lancelin Sand Dunes 2.jpg",
+    "short": "Bukit pasir putih untuk sandboarding.",
+    "intro": "Bukit pasir putih besar untuk sandboarding & photo. Sand board rental optional (~RM 80/pax). ATV tidak termasuk. Gabung dengan Pinnacles Day 5.",
+    "hi": [
+     "Sandboarding di bukit pasir putih",
+     "Photo landskap padang pasir",
+     "Sand board rental optional add-on"
+    ],
+    "best": "Day 5 (Premium), gabung Pinnacles.",
+    "muslim": "Tiada kemudahan di tapak — solat di stop over (bawa sejadah). Pastikan pakaian & kasut sesuai untuk pasir. Kurang sesuai warga emas/anak kecil.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lancelin+Sand+Dunes+Western+Australia"
+   },
+   {
+    "n": "Mandurah Dolphin & Canal Cruise",
+    "t": "Cruise · Family (Premium)",
+    "emoji": "🐬",
+    "img": "Mandurah Banner.jpg",
+    "short": "Pelayaran 1 jam tengok dolphin & rumah tepi kanal mewah.",
+    "intro": "Pelayaran santai 1 jam di kanal Mandurah — peluang tengok dolphin liar & rumah mewah tepi air. Termasuk dalam Premium; Standard boleh add-on (RM 180/adult).",
+    "hi": [
+     "Dolphin liar & scenic canal",
+     "Child-friendly (FOC bawah 2 tahun)",
+     "Included dalam Premium"
+    ],
+    "best": "Day 3 (Premium). Cuaca baik untuk peluang dolphin lebih tinggi.",
+    "muslim": "Bawa snack halal sendiri (lunch onboard tidak termasuk). Solat sebelum/selepas boarding di jeti/rest stop (bawa sejadah).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mandurah+Dolphin+Cruise+jetty"
+   },
+   {
+    "n": "Watertown & DFO Factory Outlets",
+    "t": "Shopping",
+    "emoji": "🛍️",
+    "img": ".00 2609 London Court shopping arcade in Perth (Australia).jpg",
+    "short": "Outlet jenama — Adidas, Nike, Coach Factory, Levi's.",
+    "intro": "Watertown Factory Outlets & Direct Factory Outlet (DFO) — shopping jenama diskaun: Adidas, Nike, Cotton On, Levi's, Tommy Hilfiger, Coach Factory. Shopping ~1.5–3 jam.",
+    "hi": [
+     "Jenama diskaun factory outlet",
+     "Watertown ada surau",
+     "Berdekatan CBD & stesen tren"
+    ],
+    "best": "Day 4 (kedua-dua pakej). Elak hujung minggu jika mahu kurang crowd.",
+    "muslim": "Watertown ada SURAU untuk solat (dijadikan stop solat dalam Premium Day 4). Food court ada pilihan halal-friendly — semak logo halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Watertown+Brand+Outlet+Perth"
+   },
+   {
+    "n": "Araluen Botanic / Tulip Park",
+    "t": "Nature · Seasonal",
+    "emoji": "🌷",
+    "img": "Araluen IMG 0279.JPG",
+    "short": "Tulip Festival — seasonal Ogos hingga Oktober.",
+    "intro": "Taman botani dengan Tulip Festival (Late Ogos–awal Oktober sahaja). Add-on optional (RM 85/adult, RM 65/child). Sesuai musim Spring.",
+    "hi": [
+     "Tulip bermekaran (seasonal)",
+     "Taman botani & landskap bunga",
+     "Photo spot musim Spring"
+    ],
+    "best": "Late Ogos – awal Oktober sahaja (Spring).",
+    "muslim": "Ruang terbuka — bawa sejadah untuk solat. Bawa bekal makanan halal (lunch/aktiviti tambahan tidak termasuk).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Araluen+Botanic+Park+Roleystone"
+   },
+   {
+    "n": "Rottnest Island (Quokka)",
+    "t": "Island · Add-on",
+    "emoji": "🚤",
+    "img": "Quokka sonriendo.jpg",
+    "short": "Pulau quokka — ferry dari Fremantle (add-on).",
+    "intro": "Pulau terkenal dengan quokka (‘haiwan paling gembira di dunia’). Return ferry dari Fremantle add-on (RM 350/adult). Shuttle & aktiviti di pulau tidak termasuk.",
+    "hi": [
+     "Quokka selfie",
+     "Pantai & basikal di pulau",
+     "Add-on ferry return dari Fremantle"
+    ],
+    "best": "Add-on hari Free & Easy (Standard Day 3). Cuaca baik untuk ferry.",
+    "muslim": "Pilihan makanan halal terhad di pulau — bawa bekal halal sendiri. Tiada surau; bawa sejadah untuk solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Rottnest+Island+Western+Australia"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ Apartment (Standard default)",
+    "name": "Comfort Inn & Suites / Good Health atau seumpama",
+    "note": "TIDAK di CBD. Kitchenette (boleh masak breakfast). 1 bilik air setiap unit — Quad/Quint kongsi 1 tandas. Tiada breakfast.",
+    "emoji": "🏢",
+    "img": "Kitchen and Living Room Singlewide.jpg"
+   },
+   {
+    "tier": "3★ Hotel (Standard upgrade)",
+    "name": "Criterion Hotel / European Hotel atau seumpama",
+    "note": "Di CBD, dekat kafe (buka ~8 pagi). Tiada breakfast. Upgrade +RM 180–200/pax/malam.",
+    "emoji": "🏨",
+    "img": "AIMCO apartment interior.jpg"
+   },
+   {
+    "tier": "4★ Hotel (Premium default / Standard upgrade)",
+    "name": "Mercure On Hay / Mercure Perth / Ibis Perth",
+    "note": "Di Perth CBD, Free Bus Zone. English-style breakfast buffet halal-friendly (roti, cereal, pastri, vegetarian, buah). Standard upgrade +RM 300/pax/malam.",
+    "emoji": "🏨",
+    "img": "AIMCO apartment interior 2.jpg"
+   },
+   {
+    "tier": "5★ Hotel (Premium upgrade)",
+    "name": "Duxton Hotel",
+    "note": "Di CBD. Breakfast halal tersedia. Upgrade +RM 350/pax/malam.",
+    "emoji": "🏙️",
+    "img": "Neat Living Room.jpg"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Dua varian PT Perth — Premium 6D5N dan Standard 5D4N.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>PREMIUM 6D5N · HOTEL 4★ CBD</th><th>STANDARD 5D4N · APARTMENT 3★</th></tr></thead><tbody><tr><td class='feat'>Durasi</td><td class='val'>6 Hari 5 Malam</td><td class='val'>5 Hari 4 Malam</td></tr><tr><td class='feat'>Penginapan</td><td class='val'>Hotel 4★ di Perth CBD (Mercure On Hay atau seumpama)</td><td class='val'>Apartment 3★ di luar CBD (kitchenette, 1 bilik air)</td></tr><tr><td class='feat'>Breakfast</td><td class='val'><span class='tick'>✔</span> 4× breakfast hotel (pilihan halal-friendly)</td><td class='val'><span class='no'>—</span> masak sendiri di apartment</td></tr><tr><td class='feat'>Lunch halal</td><td class='val'><span class='tick'>✔</span> 3×</td><td class='val'><span class='tick'>✔</span> 2×</td></tr><tr><td class='feat'>Dinner</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Return private airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driver cum guide</td><td class='val'>Sepanjang trip</td><td class='val'>Hari tour sahaja (Day 2 &amp; Day 4)</td></tr><tr><td class='feat'>Caversham Wildlife Park</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Swan Valley &amp; Margaret River Chocolate Factory</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fremantle day tour</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Perth City (Bell Tower, Elizabeth Quay, Hay St Mall)</td><td class='val'><span class='tick'>✔</span> Day 4</td><td class='val'><span class='tick'>✔</span> dalam Day 2</td></tr><tr><td class='feat'>Mandurah Dolphin &amp; Canal Cruise</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on <small>RM 140/dewasa</small></td></tr><tr><td class='feat'>Pinnacles Desert</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on <small>RM 3,800/transport</small></td></tr><tr><td class='feat'>Lancelin Sand Dunes</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kings Park &amp; Aboriginal Art Gallery</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Free &amp; Easy</td><td class='val'>Half-day (Day 2 petang)</td><td class='val'>1 hari penuh (Day 3)</td></tr><tr><td class='feat'>Durasi tour harian</td><td class='val'>4–10 jam ikut hari</td><td class='val'>2 × 8 jam</td></tr><tr><td class='feat'>Tipping &amp; parking fee</td><td class='val'><span class='tick'>✔</span> bundled</td><td class='val'><span class='tick'>✔</span> bundled</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM 2,500 / pax</td><td class='val'>+RM 1,500 / pax</td></tr><tr><td class='feat'>Harga dari (2 pax, Adult)</td><td class='val'>RM 7,997</td><td class='val'>RM 5,197</td></tr><tr><td class='feat'>Harga dari (8–10 pax, Adult)</td><td class='val'>RM 4,497</td><td class='val'>RM 3,097</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Family yang mahu pengalaman penuh, hotel CBD &amp; signature Pinnacles</td><td class='val'>Family bajet yang mahu privasi private tour dengan hari bebas</td></tr></tbody></table>",
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog per pax, 2–3 orang sebilik (Ground + Tipping). Infant (&lt;2 thn): FOC. Valid until 31 Mac 2027. Harga belum termasuk peak surcharge — lihat tab Surcaj.</p><h3 style='margin:16px 0 6px'>PT Perth Standard 5D4N</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of (pax)</th><th>Adult (12+)</th><th>Child w/Bed (5–11)</th><th>Child no Bed (2–4)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 5,197</td><td>RM 4,797</td><td>RM 4,497</td></tr><tr><td class='it'>3</td><td class='add'>RM 4,197</td><td>RM 3,797</td><td>RM 3,497</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 3,397</td><td>RM 3,097</td><td>RM 2,797</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 3,197</td><td>RM 2,997</td><td>RM 2,697</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 3,097</td><td>RM 2,897</td><td>RM 2,597</td></tr></tbody></table></div><h3 style='margin:16px 0 6px'>PT Perth Premium 6D5N</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of (pax)</th><th>Adult (12+)</th><th>Child w/Bed (5–11)</th><th>Child no Bed (2–4)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 7,997</td><td>RM 7,797</td><td>RM 7,597</td></tr><tr><td class='it'>3</td><td class='add'>RM 6,097</td><td>RM 5,897</td><td>RM 5,697</td></tr><tr><td class='it'>4</td><td class='add'>RM 5,797</td><td>RM 5,597</td><td>RM 5,397</td></tr><tr><td class='it'>5</td><td class='add'>RM 4,997</td><td>RM 4,797</td><td>RM 4,597</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 4,797</td><td>RM 4,597</td><td>RM 4,397</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 4,497</td><td>RM 4,297</td><td>RM 4,097</td></tr></tbody></table></div><p class='ssub' style='margin-top:12px'><strong>Benchmark kompetitor (4 pax):</strong> ARBA STD RM 3,397 · ARBA PREM RM 5,797 · AyyashFaruq 5D4N RM 3,197 · AMI Ground Deluxe RM 2,776 · MTB 5D4N RM 7,750. Kelebihan ARBA: Tour Leader Malaysian, fokus halal + solat, lunch included, tipping bundled, tiada compulsory shopping.</p>",
+   "custom": "<h2>Simple Customisation & Add-ons</h2><p class='ssub'>Harga jualan ARBA (MYR). Konfirmasi 14 hari sebelum departure untuk pastikan availability driver/guide.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Mandurah Dolphin & Canal Cruise</td><td class='add'>RM 140 / adult (16 thn ke atas) · RM 90 / youth (3–15 thn)</td><td>FOC untuk kanak-kanak 2 tahun ke bawah. Sudah termasuk dalam Premium.</td></tr><tr><td class='it'>Pinnacles Day Tour (Standard add-on)</td><td class='add'>RM 3,800 / transport (max 10 pax)</td><td>10 jam + driver guide + entrance. Included dalam Premium.</td></tr><tr><td class='it'>Araluen Tulip Park (seasonal Ogos–Okt)</td><td class='add'>RM 85 / adult · RM 65 / child (7–11)</td><td>FOC ≤6 thn. Entrance sahaja.</td></tr><tr><td class='it'>Rottnest Ferry Return (dari Fremantle)</td><td class='add'>RM 350 / adult · RM 250 / child (4–12)</td><td>Tidak termasuk shuttle, aktiviti & lunch.</td></tr><tr><td class='it'>Rottnest Shuttle (CBD ↔ ferry terminal)</td><td class='add'>RM 1,800 / transport (max 10 pax)</td><td>Pickup/dropoff Perth City.</td></tr><tr><td class='it'>Rottnest pakej sehari (ferry + shuttle)</td><td class='add'>RM 480 / dewasa · RM 250 / kanak-kanak</td><td>8:30 pagi – 8:00 malam. Sumber: FAQ operasi PT Perth — tiada dalam katalog.</td></tr><tr><td class='it'>Lancelin Sand Board Rental</td><td class='add'>RM 80 / pax</td><td>Optional. ATV tidak termasuk.</td></tr><tr><td class='it'>Fruit Picking (seasonal summer)</td><td class='add'>RM 80 / pax</td><td>Strawberry/apple/cherry ikut bulan.</td></tr><tr><td class='it'>Pocket Wifi Australia 3GB (RoamingMan)</td><td class='add'>RM 150 / trip</td><td>Kongsi hingga 5 devices.</td></tr><tr><td class='it'>eSIM Australia 5GB (7 hari)</td><td class='add'>RM 95 / trip</td><td>Phone mesti support eSIM.</td></tr><tr><td class='it'>Extra Night — 4★ Mercure (CBD, breakfast)</td><td class='add'>RM 350 / pax / malam</td><td>Extension pre/post trip.</td></tr><tr><td class='it'>Extra Night — 3★ Apartment</td><td class='add'>RM 200 / pax / malam</td><td>Bukan CBD, tiada breakfast.</td></tr><tr><td class='it'>Extra Lunch / Dinner (restoran halal)</td><td class='add'>RM 90 / RM 120 per pax</td><td>Tambah luar itinerari.</td></tr><tr><td class='it'>Takaful TripCare 360 (Etiqa, Area 3)</td><td class='add'>dari RM 72 / pax (1–5 hari)</td><td>Australia = Area 3. Couple/Family/Senior tersedia.</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20 – RM 70 / pcs</td><td>Silver / Gold / Platinum / Diamond.</td></tr></tbody></table></div><h3>Rate Card Operasi &mdash; Harga Tambahan / Harga Tolak</h3><p>Kadar rasmi untuk <b>ubah suai pakej</b>: tambah komponen (Harga Tambahan) atau buang komponen (Harga Tolak). Kadar transport ialah <b>kos satu kenderaan</b> yang dikongsi seluruh group &mdash; bahagi dengan bilangan pax untuk dapat kos per pax. Kalkulator buat pembahagian ini secara automatik.</p><h4>Transport + Driver &mdash; per kenderaan (dikongsi)</h4><table class='ctbl'><thead><tr><th>Servis</th><th>12 Seater Van (2&ndash;10 pax)</th><th>24 Seater Coaster (11&ndash;23 pax)</th><th>Tolak Van</th><th>Tolak Coaster</th></tr></thead><tbody><tr><td>Airport transfer 1 hala (7 pagi &ndash; 9 malam)</td><td>RM 800</td><td>RM 1,200</td><td>&minus;RM 500</td><td>&minus;RM 800</td></tr><tr><td>Airport transfer 1 hala (10 malam &ndash; 5 pagi)</td><td>RM 1,000</td><td>RM 1,300</td><td>&minus;RM 500</td><td>&minus;RM 800</td></tr><tr><td>Full day tour (10 jam)</td><td>RM 3,000</td><td>RM 3,200</td><td>&minus;RM 2,000</td><td>&minus;RM 2,000</td></tr><tr><td>Tour 8 jam (transport + guide)</td><td>RM 2,300</td><td>RM 2,800</td><td>&minus;RM 1,500</td><td>&minus;RM 2,000</td></tr><tr><td>Tour 6 jam (transport + guide)</td><td>RM 1,800</td><td>&ndash;</td><td>&minus;RM 1,200</td><td>&ndash;</td></tr><tr><td>Tour 4 jam (transport + guide)</td><td>RM 1,300</td><td>&ndash;</td><td>&minus;RM 800</td><td>&ndash;</td></tr><tr><td>Midnight Pinnacles Stargazing (10 jam)</td><td>RM 3,500</td><td>RM 4,500</td><td>&minus;RM 2,500</td><td>&minus;RM 3,500</td></tr><tr><td>Shuttle ke Ferry Terminal Fremantle (5 jam)</td><td>RM 1,500</td><td>RM 2,800</td><td>&ndash;</td><td>&ndash;</td></tr></tbody></table><p class='small'>Shuttle Fremantle boleh diguna untuk Rottnest Island dan juga Mandurah Dolphin Cruise. Kalkulator kekal guna kadar katalog RM 1,800/transport untuk shuttle Rottnest &mdash; kadar rate card RM 1,500 belum diguna, sila sahkan yang mana betul.</p><h4>Accommodation &mdash; per pax / malam</h4><table class='ctbl'><thead><tr><th>Hotel</th><th>Tambah 1 malam (normal)</th><th>Tambah 1 malam (peak)</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td>Comfort Inn &amp; Good Health Apartment</td><td>RM 220</td><td>RM 280</td><td>&minus;RM 130</td><td>Bukan kawasan CBD, berdekatan kedai kebab</td></tr><tr><td>Criterion Hotel 3&#9733;</td><td>RM 250</td><td>RM 280</td><td>&minus;RM 130</td><td>Dalam CBD, Karache Restaurant</td></tr><tr><td>European Hotel 3&#9733;</td><td>RM 250</td><td>RM 280</td><td>&minus;RM 130</td><td>Dalam CBD</td></tr><tr><td>Mercure On Hay 4&#9733;</td><td>RM 450</td><td>RM 550</td><td>&minus;RM 200</td><td>Dalam CBD</td></tr><tr><td>Ibis Perth 4&#9733;</td><td>RM 400</td><td>RM 500</td><td>&minus;RM 200</td><td>Dalam CBD</td></tr></tbody></table><p class='small'>Kolum Tolak tiada kadar peak berasingan dalam rate card &mdash; kadar normal diguna untuk kedua-dua musim.</p><h4>Meals &mdash; per pax</h4><table class='ctbl'><thead><tr><th>Meal</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th></tr></thead><tbody><tr><td>Karache&#39; by Sani (restoran Melayu, buka 11 pagi)</td><td>RM 85</td><td>&ndash;</td></tr><tr><td>Fish &amp; Chips at Kailis</td><td>RM 75</td><td>&minus;RM 50</td></tr><tr><td>Lobster Meal at Kailis</td><td>RM 150</td><td>&ndash;</td></tr><tr><td>Charcoal Chicken</td><td>RM 75</td><td>&minus;RM 50</td></tr><tr><td>Fish &amp; Chips at Lobster Shack (Pinnacles)</td><td>RM 120</td><td>&minus;RM 80</td></tr><tr><td>Lobster Meal at Lobster Shack (Pinnacles)</td><td>RM 180</td><td>&ndash;</td></tr></tbody></table><p class='small'>Lobster Meal at Kailis ialah free gift Matta Fair &mdash; tidak boleh refund.</p><h4>Entrance / Activity &mdash; per pax</h4><table class='ctbl'><thead><tr><th>Item</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Caversham &amp; Wildlife Park</td><td>RM 85</td><td>&minus;RM 60</td></tr><tr><td>Pinnacles Desert entrance</td><td>RM 50</td><td>&minus;RM 40</td></tr><tr><td>Sand Boarding di Lancelin Sand Dunes</td><td>RM 60</td><td>&ndash;</td></tr><tr><td>Dolphin Mandurah Cruise ticket</td><td>RM 150</td><td>&minus;RM 120</td></tr><tr><td>Return Rottnest Island Ferry ticket</td><td>RM 180</td><td>&ndash;</td></tr><tr><td>Araluen Tulip Park (bermusim)</td><td>RM 150</td><td>&ndash;</td></tr></tbody></table><p class='small'>Untuk item yang juga ada dalam katalog (Mandurah cruise, Rottnest ferry, Araluen, sand boarding), kalkulator kekal guna harga katalog. Kadar rate card di atas untuk rujukan operasi.</p><h4>Nota am</h4><ul><li>Sentiasa semak <b>waktu ketibaan flight</b> customer &mdash; transfer 10:01 malam &ndash; 5:59 pagi kena kadar lain.</li><li>Semak <b>availability midnight tour</b> dahulu sebelum tawarkan Pinnacles Stargazing.</li><li>Untuk Rottnest Island: tempah <b>shuttle ke ferry terminal + tiket ferry</b>, dua-dua sekali.</li></ul><p class='src'>Sumber: rate card operasi PT Perth (Transport + Driver, Accommodation, Meals, Entrance) &mdash; tiada dalam katalog.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Pilih pakej, isi tarikh dan bilangan pax &mdash; kalkulator akan kesan peak season sendiri dan kira harga ikut katalog. Buka <b>Ubah Itinerary</b> untuk tukar blok hari, hotel, meal atau transport; setiap perubahan berkos akan terus nampak pada baris hari itu. Cip <b>kadar?</b> merah bermakna kadar jual untuk kombinasi itu belum tersiar &mdash; dapatkan quote K&amp;N dahulu, jangan agak.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Perth Standard 5D4N</option><option value='1'>PT Perth Premium 6D5N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (5&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;4)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>FOC &mdash; tiada caj (bawah 2 tahun)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Standard +RM 1,500 &middot; Premium +RM 2,500</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcaj &amp; Peak Season</h2><p class='ssub'>Semua kadar ikut katalog PT Perth v3 (jadual Surcharge - Accommodation Upgrade &amp; Peak Season). Surcaj peak dikira atas harga pakej.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Peak — Autumn &amp; Winter</td><td class='add'>3★ Apartment +RM 80 · 3★ Hotel +RM 120 · 4★ Mercure +RM 220 · 5★ Duxton +RM 250 (per pax / malam)</td><td>19–31 Mac 2026 · 1–20 April 2026 · 1–15 Julai 2026 · 19–31 Ogos 2026</td></tr><tr><td class='it'>Peak — Spring &amp; Summer</td><td class='add'>+5% per pax</td><td>1–30 September 2026 · 1–30 November 2026 · 1–20 Disember 2026</td></tr><tr><td class='it'>Peak — Christmas &amp; New Year</td><td class='add'>+10% per pax</td><td>21–31 Disember 2026 · 1–31 Januari 2027 · 1–20 Februari 2027</td></tr><tr><td class='it'>Single supplement — Standard</td><td class='add'>+RM 1,500 / pax</td><td>Single occupancy sepanjang trip</td></tr><tr><td class='it'>Single supplement — Premium</td><td class='add'>+RM 2,500 / pax</td><td>Single occupancy sepanjang trip</td></tr><tr><td class='it'>Upgrade Standard → 3★ Hotel</td><td class='add'>Criterion +RM 180 · European +RM 200 (per pax / malam)</td><td>Kedua-duanya tiada breakfast</td></tr><tr><td class='it'>Upgrade Standard → 4★ Hotel</td><td class='add'>+RM 300 / pax / malam</td><td>Mercure On Hay atau seumpama, termasuk breakfast</td></tr><tr><td class='it'>Upgrade Premium → 5★ Hotel</td><td class='add'>+RM 350 / pax / malam</td><td>Duxton Hotel, breakfast halal tersedia</td></tr><tr><td class='it'>Late booking</td><td class='add'>+RM 50 / booking</td><td>Booking kurang 45 hari sebelum departure (per booking, bukan per pax)</td></tr><tr><td class='it'>Extra hour transport &amp; guide</td><td class='add'>AUD 50 / jam</td><td>Selepas jam tour dalam itinerari. Bayar tunai kepada driver</td></tr><tr><td class='it'>Airport transfer lewat malam</td><td class='add'>AUD 50 / jam</td><td>Ketibaan atau pulang 10:01 malam – 5:59 pagi. Dikenakan sebelum ketibaan</td></tr></tbody></table></div><div class='custblk' style='margin-top:14px'><h3 style='margin:0 0 6px'>Add-on Travel Date 2027</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Travel date 1 Jan – 30 Jun 2027</td><td class='add'>+RM 100 / pax</td><td>Ditambah di atas harga pakej dan surcaj peak. Sumber: rate card ARBA 2026/2027 — tiada dalam katalog</td></tr><tr><td class='it'>Late booking — 2 pax ke atas</td><td class='add'>+RM 50 / pax</td><td>By request. Sumber: rate card ARBA 2026/2027 — tiada dalam katalog</td></tr></tbody></table></div>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'>Private transport operator K&N (Perth specialist) — tiada share coach. Tour 8–10 jam sehari ikut itinerari. Extra hour AUD 50/jam bayar tunai kepada driver.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2–4 pax</td><td>6-Seater (kereta / van kecil)</td><td>Driver-cum-guide (English speaking, K&N)</td></tr><tr><td class='it'>5–12 pax</td><td>12-Seater Hiace</td><td>Standard untuk kebanyakan booking</td></tr><tr><td class='it'>13+ pax</td><td>24-Seater Bus</td><td>Group besar</td></tr></tbody></table></div><p class='ssub' style='margin-top:10px'>Standard: 2x airport transfer + 2x tour 8 jam (Day 2 & 4), Day 3 tiada transport. Premium: 2x airport transfer + tour 6–10 jam bergantung hari. Airport transfer termasuk 06:00–22:00; luar waktu itu ada surcaj midnight.</p>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel ikut tier & pakej. Standard = apartment 3★ (bukan CBD, kitchenette, 1 bilik air). Premium = hotel 4★ CBD dengan breakfast halal-friendly. Bilik: 2 pax twin · 3 pax triple · 4 pax quad · 5 pax quint · 6 pax 2× triple. Lokasi apartment/hotel dikonfirmasi 15 hari sebelum departure.</p>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? perth: free lobster lunch kod: fper3 (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau promo?</span></summary><div class='ans'><p><strong>Perth:</strong> Free Lobster Lunch <span style='background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px'>Kod: FPER3</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub'>Tiket flight tidak termasuk dalam pakej. Direct KUL–PER ~5 jam 35 minit, tiada beza zon waktu (Perth AWST = UTC+8, sama dengan Malaysia).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Leg</th><th>Flight</th><th>Berlepas</th><th>Tiba</th><th>Hari</th><th>Anggaran return</th></tr></thead><tbody><tr><td class='it'>AirAsia X</td><td>KUL → PER</td><td>AK 606</td><td>14:15</td><td>19:50</td><td>Harian</td><td class='add' rowspan='2'>RM 550 – RM 800</td></tr><tr><td class='it'>AirAsia X</td><td>PER → KUL</td><td>AK 607</td><td>20:40</td><td>02:15 (+1)</td><td>Harian</td></tr><tr><td class='it'>Malaysia Airlines</td><td>KUL → PER</td><td>MH 125</td><td>08:55</td><td>14:50</td><td>Harian</td><td class='add' rowspan='2'>RM 600 – RM 2,000</td></tr><tr><td class='it'>Malaysia Airlines</td><td>PER → KUL</td><td>MH 126</td><td>02:10</td><td>07:55</td><td>Harian</td></tr></tbody></table><p class='custnote'>Waktu leg pergi dan anggaran harga return: Flight Recommendation ARBA. Waktu leg balik: jadual awam maskapai — sahkan semasa booking kerana waktu berubah ikut musim.</p></div><div class='notebox'><b>Airport transfer:</b> termasuk untuk ketibaan dan pulang antara 06:00 pagi – 10:00 malam. AK 607 berlepas 20:40 dan MH 126 berlepas 02:10 — flight MH 126 jatuh dalam waktu surcaj (AUD 50/jam), jadi maklumkan kepada customer semasa quote.</div>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Laluan rasmi setiap varian pakej.</p><div style='max-width:470px;margin:0 auto 20px'><div style='font-size:12.5px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--greend);margin:0 0 6px;text-align:center'>PT Perth Premium 6D5N</div><img src='@asset:f5505c367fb1' alt='PT Perth Premium 6D5N' style='width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:14px'><p class='custnote' style='text-align:center;margin-top:7px'>Hotel 4★ Perth CBD → Swan Valley (Caversham 30 min, Margaret River Chocolate Factory) → Fremantle &amp; Mandurah (2 jam 10 min) → Perth City → Pinnacles Desert (2 jam 45 min) &amp; Lancelin Sand Dunes (1 jam)</p></div><div style='max-width:470px;margin:0 auto 20px'><div style='font-size:12.5px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--greend);margin:0 0 6px;text-align:center'>PT Perth Standard 5D4N</div><img src='@asset:3729eac37413' alt='PT Perth Standard 5D4N' style='width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:14px'><p class='custnote' style='text-align:center;margin-top:7px'>Apartment → Swan Valley (Caversham 30 min, Margaret River Chocolate Factory) → Perth City (Bell Tower, Elizabeth Quay, Murray St Mall) → Free &amp; Easy → Fremantle (Blue Boat House, Cottesloe, Watertown)</p></div>"
+  },
+  "snapshot": "# PT Perth — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*2 varian: **Standard 5D4N** (apartment 3★, 2 tour + 1 F&E) & **Premium 6D5N** (hotel 4★ CBD, Pinnacles + Mandurah Cruise included). Valid until 31 Mac 2027.*\n\n- **Deposit** RM 1,000/pax untuk confirm booking. **Full payment** 45 hari sebelum arrival.\n- Harga sah **24 jam** selepas quotation submission; quotation, itinerari & harga subject to change.\n- Harga untuk **2–3 orang sebilik**. Single occupancy: +RM 1,500 (STD) / +RM 2,500 (PREM).\n- **Late booking** &lt;45 hari: +RM 50/booking. Peak season surcaj ikut musim & hotel tier (lihat tab Surcaj).\n- **Final itinerari** dikonfirmasi 14 hari sebelum trip; lokasi apartment/hotel 15 hari sebelum departure.\n- **Airport transfer** termasuk 06:00–22:00. Tiba/pulang 10:01 malam–5:59 pagi kena surcaj AUD 50/jam (bayar tunai). Check-in hotel biasanya ~12 tengah hari — jika perlu early check-in, tambah 1 malam.\n- **Extra hour transport** AUD 50/jam bayar TUNAI kepada driver.\n- **Pinnacles & Lancelin (PREM Day 5):** permukaan tidak rata & berhabuk, perjalanan ~2 jam sehala — kurang sesuai warga emas / anak kecil.\n- **Passport** sah minimum 6 bulan. Immigration Australia ketat.\n- Umur dikira ikut **tarikh travel**: Adult 12+, Child w/Bed 5–11, Child no Bed 2–4, Infant &lt;2 (FOC).\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa beza Standard 5D4N dengan Premium 6D5N?**\nStandard: apartment 3★ (bukan CBD, kitchenette), 2 hari tour (Swan Valley + Fremantle) + 1 hari Free & Easy, 2x lunch halal, Caversham included. Premium: hotel 4★ CBD dengan breakfast, driver-cum-guide sepanjang trip, tambah Mandurah Dolphin Cruise + Pinnacles Desert + Lancelin Sand Dunes, 4x breakfast + 3x lunch halal.\n\n**Pakej ni rushing tak?**\nTidak rushing. Standard ada 1 hari Free & Easy (Day 3). Premium ada half-day F&E (Day 2 petang). Tour 6–10 jam sehari dengan stop rehat untuk solat. Nota: Pinnacles Day (PREM Day 5) 10 jam, agak panjang untuk warga emas.\n\n**Pakej ni ada tourist trap / compulsory shopping tak?**\nTiada. ARBA tidak include mana-mana compulsory shopping atau tourist trap. Semua tempat dalam itinerari adalah genuine sightseeing/experience.\n\n**Boleh bawa personal stop / request sendiri?**\nBoleh untuk private tour. Bincang dengan Travel Consultant sebelum trip atau on-the-spot dengan driver.\n\n**Sesuai ke untuk family & kanak-kanak?**\nSangat sesuai. Caversham Wildlife Park (kangaroo feeding, koala) family-favourite, Mandurah Cruise child-friendly, Kings Park ada playground. Elak Pinnacles/Lancelin untuk toddler.\n\n**Sesuai untuk warga emas / yang tak boleh jalan jauh?**\nSesuai, cuma elak Pinnacles (long drive + permukaan tidak rata). Kings Park (PREM) ada laluan wheelchair. Maklumkan Travel Consultant awal untuk kenderaan sesuai.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Perth?**\nYa. Perth ada ramai penduduk Muslim (~50,000+) & banyak restoran halal bersijil — Melayu, Indonesia, Indian Muslim, Middle Eastern, Halal Chinese. Kebanyakan buka ~10 pagi ke atas.\n\n**Kita akan makan apa dalam pakej?**\nStandard (2x lunch): Day 2 Charcoal Chicken (halal), Day 4 Kailis Fish & Chips Fremantle (halal-friendly). Premium (4x breakfast + 3x lunch): breakfast hotel halal-friendly + Charcoal Chicken, Kailis, dan Fish & Chips Pinnacles. Dinner semua hari TIDAK termasuk — explore restoran halal Perth.\n\n**Breakfast macam mana?**\nStandard: masak sendiri di apartment (kitchenette — telur, mi segera, cereal) atau restoran halal (~buka 10 pagi). Premium: breakfast buffet hotel halal-friendly (roti, cereal, pastri, vegetarian, buah, jus).\n\n**Ada masjid/surau untuk solat?**\nYa. Solat time-blocked di masjid pada Day 2 & Day 4 (Standard), dan surau Watertown pada Premium Day 4. Ada Masjid Perth (William St, Northbridge) & masjid di Fremantle. Untuk tempat outdoor (Pinnacles, Cottesloe, Rottnest) — bawa sejadah & solat di rest stop.\n\n### C. Visa & Passport\n\n**Perlu visa ke Australia?**\nYa — ETA Australia (Subclass 601), dimohon online/app rasmi (~AUD 20). Multiple entry setahun, tinggal hingga 3 bulan setiap lawatan. ARBA cadang mohon 90 hari (3 bulan) sebelum trip. Biasanya diluluskan dalam beberapa hari–2 minggu.\n\n**ARBA bantu proses visa?**\nYa, ARBA boleh bantu proses ETA untuk Warganegara Malaysia (service fee mungkin apply). Non-Malaysian perlu arrange visa sendiri.\n\n**Passport perlu sah berapa lama?**\nMinimum 6 bulan dari tarikh berlepas. Immigration Australia ketat.\n\n### D. Flight & Airport\n\n**Kita naik flight apa?**\nFlight tidak termasuk (customer self-arrange, ARBA boleh bantu book). Pilihan direct KUL–PER: Malaysia Airlines (premium, ~5j 35min, bagasi 25–30kg, in-flight meal), AirAsia X (kos efektif, bagasi 20kg add-on), Batik Air. ~4 penerbangan direct sehari.\n\n**Berapa lama flight & ada transit tak?**\nDirect, tiada transit. Masa penerbangan ~5 jam 35 minit KUL–PER.\n\n**Berapa kg bagasi?**\nPremium airlines: 25–30kg (MH Economy 25kg). AirAsia X: 20kg add-on. Semak dengan airline.\n\n**Boleh combine dengan flight domestik Australia (Sydney/Melbourne)?**\nBoleh — bincang Travel Consultant untuk domestic flight + connecting itinerary. Semak validity trip sebelum book connecting flight.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\nStandard: Apartment 3★ (Comfort Inn & Suites / Good Health) — bukan CBD, kitchenette, 1 bilik air/unit. Premium: Hotel 4★ (Mercure On Hay / Mercure Perth / Ibis Perth) di CBD dengan breakfast halal-friendly. Upgrade tersedia (3★ Hotel CBD, 4★, atau 5★ Duxton).\n\n**Bilik macam mana?**\n2 pax twin · 3 pax triple · 4 pax quad · 5 pax quint · 6 pax 2× triple. Apartment Quad/Quint kongsi 1 tandas — jika tak selesa, tukar double/triple. Single occupancy tambah single supplement.\n\n**Boleh book multiple hotels untuk pengalaman berbeza?**\nBoleh, tapi ARBA cadang satu hotel untuk minimize check-in/out & pergerakan luggage. Multi-hotel via Travel Consultant (extra cost mungkin apply).\n\n### F. Cuaca & Musim\n\n**Musim & cuaca Perth macam mana? Bila terbaik?**\n4 musim: Summer (Dis–Feb) 18–32°C kadang >40°C; Autumn (Mac–Mei) 13–26°C; Winter (Jun–Ogos) 8–19°C, lebih hujan; Spring (Sep–Nov) 11–25°C, paling mild + Tulip Festival. Terbaik: Spring untuk tulip & cuaca sederhana; Summer untuk beach & fruit picking.\n\n**Mesti nampak salji ke kalau pergi musim sejuk?**\nTiada salji di bandar Perth. Winter sejuk tapi tak salji. Untuk salji perlu custom ke Ski Resort (Bluff Knoll / Stirling Range) — extra cost & hari.\n\n### G. Shopping & Duit\n\n**Beli apa & di mana?**\nWatertown Factory Outlets & DFO — Adidas, Nike, Cotton On, Levi's, Tommy Hilfiger, Coach Factory. Fremantle Market untuk produk segar & souvenir. Shopping ~1.5–3 jam.\n\n**Cadangan cash & cara bayar?**\nBawa cash RM 1,500–3,000/pax untuk personal expenses, add-on & souvenir. Kedai kecil/market: cash AUD. Shopping centre/hotel/restoran: kad (Visa/MC) & mobile pay (Apple/Google Pay) diterima meluas. ATM tersedia.\n\n### H. Payment & Refund\n\n**Deposit & full payment berapa?**\nDeposit RM 1,000/pax untuk confirm. Full payment 45 hari sebelum arrival. Late booking (&lt;45 hari): +RM 50/booking.\n\n**Harga sah berapa lama?**\n24 jam selepas quotation. Quotation, itinerari & harga subject to change accordingly.\n\n### I. Add-ons & Customization\n\n**Apa add-on popular?**\nMandurah Dolphin Cruise (RM 180/adult — included dalam PREM), Pinnacles Day Tour (RM 3,800/transport untuk STD), Araluen Tulip Park (RM 85, seasonal Ogos–Okt), Rottnest Ferry (RM 350), Sand Board Lancelin (RM 80), Fruit Picking (RM 80, seasonal), Pocket Wifi (RM 150) / eSIM (RM 95), extra night, extra meal, takaful.\n\n**Boleh extend stay?**\nBoleh. Extra night 4★ Mercure RM 350/pax/malam, 3★ Apartment RM 200/pax/malam. Bincang Travel Consultant.\n\n### J. Kesihatan & Keselamatan\n\n**Pinnacles Desert berbahaya untuk warga emas / kanak-kanak?**\nPinnacles & Lancelin Sand Dunes kurang sesuai warga emas/anak kecil sebab permukaan longgar & tidak rata (risiko tergelincir/terseliuh). Walking ~30–45 minit. Bawa kasut sukan/hiking, topi, sunblock.\n\n**Ada precaution kesihatan?**\nPerth bukan altitud tinggi — tiada altitude sickness. Summer boleh >40°C (hydrate); Winter sejuk (bawa jaket). UV Australia kuat — sunblock SPF30+.\n\n### K. Praktikal (SIM, Socket, Internet)\n\n**Adapter plug & voltan?**\nAustralia guna Type I (3-pin bersudut), 230V/50Hz. Bawa universal travel adapter (perlu untuk laptop/hairdryer walaupun ada USB port di hotel).\n\n**Internet macam mana? Boleh roaming?**\nPilihan: Pocket Wifi RoamingMan (RM 150/trip, 3GB, kongsi 5 device), eSIM Australia (RM 95/7 hari, 5GB), roaming telco MY (paling mahal), atau Wifi hotel percuma. Tiada sekatan VPN — Google, FB, IG, YouTube, WhatsApp semua berfungsi.\n\n**Ada service dobi/laundry?**\nLaundry tidak termasuk pakej. Apartment Standard ada washing machine (free). Ada laundromat di CBD. Laundry hotel mahal (~AUD 5–10/item).\n\n### L. Packing\n\n**Apa patut bawa?**\nKasut selesa untuk berjalan (kasut hiking untuk Pinnacles/Lancelin), jaket (angin kuat di pantai & winter sejuk), topi & sunblock SPF30+, sejadah/telekung untuk solat outdoor, universal adapter, dan cash AUD untuk market. Pakaian sopan untuk pantai.\n"
+ },
+ "calc": {
+  "dest": "Perth",
+  "currency": "RM",
+  "deposit": 1000,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (5&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;4)"
+  },
+  "infantNote": "FOC &mdash; tiada caj (bawah 2 tahun)",
+  "singleNote": "Standard +RM 1,500 &middot; Premium +RM 2,500",
+  "intro": "Pilih pakej, isi tarikh dan bilangan pax &mdash; kalkulator akan kesan peak season sendiri dan kira harga ikut katalog. Buka <b>Ubah Itinerary</b> untuk tukar blok hari, hotel, meal atau transport; setiap perubahan berkos akan terus nampak pada baris hari itu. Cip <b>kadar?</b> merah bermakna kadar jual untuk kombinasi itu belum tersiar &mdash; dapatkan quote K&amp;N dahulu, jangan agak.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "library": [
+   {
+    "v": "pa1",
+    "g": "Perth - ketibaan & pulang",
+    "region": "[Airport]",
+    "t": "Airport pickup - transfer ke hotel",
+    "en": "KUL - PERTH ARRIVAL",
+    "acc": "incl",
+    "meal": "nobf",
+    "trp": "air",
+    "act": [
+     "Tiba di Perth Airport (PER)",
+     "Meet & greet dengan driver ARBA",
+     "Private transfer ke hotel / apartment",
+     "Free & easy - rehat"
+    ],
+    "eact": [
+     "Arrive at Perth Airport (PER)",
+     "Meet & greet with ARBA driver",
+     "Private transfer to hotel / apartment",
+     "Free & easy"
+    ]
+   },
+   {
+    "v": "pa2",
+    "g": "Perth - ketibaan & pulang",
+    "region": "[Perth City]",
+    "t": "Airport pickup + Perth City tour terus",
+    "en": "PERTH ARRIVAL + CITY TOUR",
+    "acc": "incl",
+    "meal": "lnb",
+    "trp": "incl",
+    "act": [
+     "Tiba di Perth Airport (PER)",
+     "Meet & greet dengan driver ARBA",
+     "Bell Tower & Elizabeth Quay",
+     "Kings Park",
+     "Check in hotel"
+    ],
+    "eact": [
+     "Arrive at Perth Airport (PER)",
+     "Meet & greet with ARBA driver",
+     "Bell Tower & Elizabeth Quay",
+     "Kings Park",
+     "Hotel check in"
+    ]
+   },
+   {
+    "v": "pd1",
+    "g": "Perth - ketibaan & pulang",
+    "region": "[Airport]",
+    "t": "Check-out - transfer ke airport",
+    "en": "PERTH - KUL DEPARTURE",
+    "acc": "none",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Check-out hotel",
+     "Private transfer ke Perth Airport"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Private airport transfer"
+    ]
+   },
+   {
+    "v": "pd2",
+    "g": "Perth - ketibaan & pulang",
+    "region": "[Perth City]",
+    "t": "Check-out + shopping - transfer ke airport",
+    "en": "SHOPPING + PERTH - KUL DEPARTURE",
+    "acc": "none",
+    "meal": "none",
+    "trp": "incl",
+    "act": [
+     "Check-out hotel",
+     "Shopping Watertown Factory Outlets",
+     "Solat di surau Watertown",
+     "Transfer ke Perth Airport"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Shopping at Watertown Factory Outlets",
+     "Prayer stop at Watertown surau",
+     "Private airport transfer"
+    ]
+   },
+   {
+    "v": "sv8",
+    "g": "Swan Valley",
+    "region": "[Swan Valley]",
+    "t": "Swan Valley Guided Tour 8 jam + Perth CBD",
+    "en": "SWAN VALLEY GUIDED TOUR",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i8",
+    "act": [
+     "Caversham Wildlife Park - kangaroo feeding, koala photo (entrance included)",
+     "Margaret River Chocolate Factory - free chocolate testing",
+     "Lunch Charcoal Chicken halal + solat di masjid berdekatan",
+     "Bell Tower & Elizabeth Quay",
+     "Hay St & Murray St Mall (London Court)",
+     "Kembali ke hotel"
+    ],
+    "eact": [
+     "Caversham Wildlife Park - kangaroo feeding, koala photo (entrance included)",
+     "Margaret River Chocolate Factory - free chocolate tasting",
+     "Halal Charcoal Chicken lunch + prayer stop at nearby mosque",
+     "Bell Tower & Elizabeth Quay",
+     "Hay St & Murray St Mall (London Court)",
+     "Back to hotel"
+    ]
+   },
+   {
+    "v": "sv6",
+    "g": "Swan Valley",
+    "region": "[Swan Valley]",
+    "t": "Swan Valley Guided Tour 6 jam",
+    "en": "SWAN VALLEY GUIDED TOUR",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i6",
+    "act": [
+     "Caversham Wildlife Park (entrance included)",
+     "Margaret River Chocolate Factory",
+     "Lunch Charcoal Chicken & Lamb Ribs halal + solat di masjid",
+     "Free & easy petang"
+    ],
+    "eact": [
+     "Caversham Wildlife Park (entrance included)",
+     "Margaret River Chocolate Factory",
+     "Halal Charcoal Chicken & Lamb Ribs lunch + prayer stop at nearby mosque",
+     "Free & easy in the afternoon"
+    ]
+   },
+   {
+    "v": "svo",
+    "g": "Swan Valley",
+    "region": "[Swan Valley]",
+    "t": "Swan Valley + Fruit Orchard / Araluen Tulip Park (seasonal)",
+    "en": "SWAN VALLEY + SEASONAL ORCHARD",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i6",
+    "act": [
+     "Caversham Wildlife Park (entrance included)",
+     "Margaret River Chocolate Factory",
+     "Lunch Charcoal Chicken halal + solat",
+     "Fruit Orchard atau Araluen Tulip Park (add-on, ikut musim)"
+    ],
+    "eact": [
+     "Caversham Wildlife Park (entrance included)",
+     "Margaret River Chocolate Factory",
+     "Halal Charcoal Chicken lunch + prayer stop",
+     "Fruit Orchard or Araluen Tulip Park (optional, seasonal)"
+    ]
+   },
+   {
+    "v": "pc4",
+    "g": "Perth - bandar",
+    "region": "[Perth City]",
+    "t": "Perth City Tour 4 jam",
+    "en": "PERTH CITY TOUR",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "i4",
+    "act": [
+     "Bell Tower & Elizabeth Quay",
+     "Hay Street Mall (London Court)",
+     "Kings Park & Aboriginal Art Gallery",
+     "Solat di surau Watertown",
+     "Free & easy"
+    ],
+    "eact": [
+     "Bell Tower & Elizabeth Quay",
+     "Hay Street Mall (London Court)",
+     "Kings Park & Aboriginal Art Gallery",
+     "Prayer stop at Watertown surau",
+     "Free & easy"
+    ]
+   },
+   {
+    "v": "pcs",
+    "g": "Perth - bandar",
+    "region": "[Perth City]",
+    "t": "Perth City + shopping Watertown Factory Outlets",
+    "en": "PERTH CITY & SHOPPING",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "i4",
+    "act": [
+     "Bell Tower & Elizabeth Quay",
+     "Hay Street Mall (London Court)",
+     "Shopping Watertown Factory Outlets (1.5 - 3 jam)",
+     "Solat di surau Watertown"
+    ],
+    "eact": [
+     "Bell Tower & Elizabeth Quay",
+     "Hay Street Mall (London Court)",
+     "Shopping at Watertown Factory Outlets (1.5 - 3 hours)",
+     "Prayer stop at Watertown surau"
+    ]
+   },
+   {
+    "v": "pfe",
+    "g": "Perth - bandar",
+    "region": "[Perth City]",
+    "t": "Free & Easy Perth City (tiada transport)",
+    "en": "FREE & EASY",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "none",
+    "act": [
+     "Self-explore Perth City - tiada transport / guide",
+     "Cadangan: Langley Park (5 minit jalan kaki)",
+     "Guna Free Bus Zone: Yellow / Red / Blue / Green CAT"
+    ],
+    "eact": [
+     "Self-explore Perth City - no transport or guide provided",
+     "Suggested: Langley Park (5 minutes on foot)",
+     "Free Bus Zone: Yellow / Red / Blue / Green CAT"
+    ]
+   },
+   {
+    "v": "fr8",
+    "g": "Fremantle & pantai",
+    "region": "[Fremantle]",
+    "t": "Fremantle Day Tour 8 jam",
+    "en": "FREMANTLE DAY TOUR",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i8",
+    "act": [
+     "Blue Boat House & Rainbow Containers (photostop)",
+     "Monument Hill (photostop), Fremantle Prison (bypass)",
+     "Lunch Kailis Fish & Chips (halal-friendly)",
+     "Cappuccino Strip - Round House",
+     "Cottesloe Beach (ikut timing)"
+    ],
+    "eact": [
+     "Blue Boat House & Rainbow Containers (photo stop)",
+     "Monument Hill (photo stop), Fremantle Prison (bypass)",
+     "Halal-friendly lunch at Kailis Fish & Chips",
+     "Cappuccino Strip - Round House",
+     "Cottesloe Beach (subject to timing)"
+    ]
+   },
+   {
+    "v": "frw",
+    "g": "Fremantle & pantai",
+    "region": "[Fremantle]",
+    "t": "Fremantle + shopping Watertown",
+    "en": "FREMANTLE DAY TOUR & SHOPPING",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i8",
+    "act": [
+     "Blue Boat House & Rainbow Containers (photostop)",
+     "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+     "Lunch Kailis Fish & Chips (halal-friendly)",
+     "Cottesloe Beach",
+     "Shopping Watertown Factory Outlets"
+    ],
+    "eact": [
+     "Blue Boat House & Rainbow Containers (photo stop)",
+     "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+     "Halal-friendly lunch at Kailis Fish & Chips",
+     "Cottesloe Beach",
+     "Shopping at Watertown Factory Outlets"
+    ]
+   },
+   {
+    "v": "md8",
+    "g": "Mandurah",
+    "region": "[Mandurah]",
+    "t": "Fremantle + Mandurah Dolphin & Canal Cruise 8 jam",
+    "en": "FREMANTLE + MANDURAH DOLPHIN CRUISE",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i8",
+    "act": [
+     "Blue Boat House & Rainbow Containers (photostop)",
+     "Canal & Dolphin Boat Cruise di Mandurah (1 jam)",
+     "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+     "Sunset di Cottesloe Beach"
+    ],
+    "eact": [
+     "Blue Boat House & Rainbow Containers (photo stop)",
+     "Canal & Dolphin Boat Cruise at Mandurah (1 hour)",
+     "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+     "Sunset at Cottesloe Beach"
+    ]
+   },
+   {
+    "v": "mdo",
+    "g": "Mandurah",
+    "region": "[Mandurah]",
+    "t": "Mandurah Dolphin & Canal Cruise sahaja",
+    "en": "MANDURAH DOLPHIN CRUISE",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "incl",
+    "act": [
+     "Canal & Dolphin Boat Cruise di Mandurah (1 jam)",
+     "Lunch halal di Mandurah",
+     "Free & easy"
+    ],
+    "eact": [
+     "Canal & Dolphin Boat Cruise at Mandurah (1 hour)",
+     "Halal lunch at Mandurah",
+     "Free & easy"
+    ]
+   },
+   {
+    "v": "pn10",
+    "g": "Pinnacles & Lancelin",
+    "region": "[Pinnacles]",
+    "t": "Pinnacles Desert & Lancelin Sand Dunes 10 jam",
+    "en": "PINNACLES DESERT & LANCELIN SAND DUNES",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "i10",
+    "act": [
+     "Pinnacles Desert (entrance included)",
+     "Lancelin Sand Dunes (ATV tidak termasuk)",
+     "Sand board rental (optional add-on)",
+     "Lunch Fish & Chips halal + stop over untuk solat",
+     "Kembali ke hotel"
+    ],
+    "eact": [
+     "Pinnacles Desert (entrance included)",
+     "Lancelin Sand Dunes (ATV not included)",
+     "Sand board rental (optional add-on)",
+     "Halal Fish & Chips lunch + prayer stop",
+     "Back to hotel"
+    ]
+   },
+   {
+    "v": "pnm",
+    "g": "Pinnacles & Lancelin",
+    "region": "[Pinnacles]",
+    "t": "Pinnacles Stargazing (midnight) 10 jam",
+    "en": "PINNACLES STARGAZING",
+    "acc": "incl",
+    "meal": "d",
+    "trp": "i10",
+    "act": [
+     "Berlepas lewat petang ke Pinnacles Desert",
+     "Stargazing di Pinnacles Desert (midnight)",
+     "Dinner halal sebelum berlepas",
+     "Kembali ke hotel awal pagi"
+    ],
+    "eact": [
+     "Late afternoon departure to Pinnacles Desert",
+     "Stargazing at Pinnacles Desert (midnight)",
+     "Halal dinner before departure",
+     "Return to hotel early morning"
+    ]
+   },
+   {
+    "v": "rt1",
+    "g": "Rottnest Island",
+    "region": "[Rottnest]",
+    "t": "Rottnest Island - shuttle + ferry return (F&E di pulau)",
+    "en": "ROTTNEST ISLAND",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "rotS",
+    "act": [
+     "Shuttle dari Perth City ke Fremantle ferry terminal",
+     "Ferry return ke Rottnest Island (tiket add-on)",
+     "Free & easy di pulau - quokka, basikal, pantai",
+     "Ferry balik & shuttle ke hotel"
+    ],
+    "eact": [
+     "Shuttle from Perth City to Fremantle ferry terminal",
+     "Return ferry to Rottnest Island (ticket as add-on)",
+     "Free & easy on the island - quokkas, cycling, beaches",
+     "Return ferry and shuttle back to hotel"
+    ]
+   },
+   {
+    "v": "ext",
+    "g": "Umum",
+    "region": "",
+    "t": "Hari tambahan (tulis sendiri)",
+    "en": "EXTENSION DAY",
+    "acc": "extra",
+    "meal": "none",
+    "trp": "ext",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fe",
+    "g": "Umum",
+    "region": "",
+    "t": "Free & Easy (tiada transport / guide)",
+    "en": "FREE & EASY",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "none",
+    "act": [
+     "Free & easy - tiada transport atau guide disediakan"
+    ],
+    "eact": [
+     "Free & easy - no transport or guide provided"
+    ]
+   }
+  ],
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "fed"
+  },
+  "autoAddonQty": true,
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "upCrit",
+    "t": "Upgrade 3 bintang Criterion (malam pakej &middot; Standard)",
+    "cost": "incl",
+    "perPaxRate": "upCrit",
+    "line": "3-Star Hotel upgrade (Criterion)"
+   },
+   {
+    "v": "upEuro",
+    "t": "Upgrade 3 bintang European (malam pakej &middot; Standard)",
+    "cost": "incl",
+    "perPaxRate": "upEuro",
+    "line": "3-Star Hotel upgrade (European)"
+   },
+   {
+    "v": "upMerc",
+    "t": "Upgrade 4 bintang Mercure On Hay (malam pakej &middot; Standard)",
+    "cost": "incl",
+    "perPaxRate": "upMerc",
+    "line": "4-Star Hotel upgrade (Mercure On Hay)"
+   },
+   {
+    "v": "upDux",
+    "t": "Upgrade 5 bintang Duxton (malam pakej &middot; Premium)",
+    "cost": "incl",
+    "perPaxRate": "upDux",
+    "line": "5-Star Hotel upgrade (Duxton)"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &mdash; hotel pakej",
+    "cost": "night",
+    "line": "Additional night, package accommodation"
+   },
+   {
+    "v": "nCrit",
+    "t": "Malam tambahan &mdash; Criterion 3 bintang",
+    "cost": "night",
+    "nightRate": "hCriterion",
+    "line": "Additional night, Criterion Hotel (3-Star)"
+   },
+   {
+    "v": "nEuro",
+    "t": "Malam tambahan &mdash; European 3 bintang",
+    "cost": "night",
+    "nightRate": "hEuropean",
+    "line": "Additional night, European Hotel (3-Star)"
+   },
+   {
+    "v": "nMerc",
+    "t": "Malam tambahan &mdash; Mercure On Hay 4 bintang",
+    "cost": "night",
+    "nightRate": "hMercure",
+    "line": "Additional night, Mercure On Hay (4-Star)"
+   },
+   {
+    "v": "nDux",
+    "t": "Malam tambahan &mdash; Duxton 5 bintang",
+    "cost": "night",
+    "nightRate": "hDuxton",
+    "line": "Additional night, Duxton Hotel (5-Star)"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel &mdash; tolak malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "nobf",
+    "t": "Tiada makan (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "bfLock": true
+   },
+   {
+    "v": "lnb",
+    "t": "Lunch sahaja (hari ketibaan, tiada breakfast)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "bfLock": true
+   },
+   {
+    "v": "none",
+    "t": "Tiada lunch / dinner",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "l",
+    "t": "Lunch (dalam pakej)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner (dalam pakej)",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner (dalam pakej)",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "lChar",
+    "t": "Tambah lunch &mdash; Charcoal Chicken",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 75,
+    "line": "Additional lunch - Charcoal Chicken"
+   },
+   {
+    "v": "lKai",
+    "t": "Tambah lunch &mdash; Fish &amp; Chips at Kailis",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 75,
+    "line": "Additional lunch - Fish & Chips at Kailis"
+   },
+   {
+    "v": "lKaiL",
+    "t": "Tambah lunch &mdash; Lobster at Kailis",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 150,
+    "line": "Additional lunch - Lobster at Kailis"
+   },
+   {
+    "v": "lShack",
+    "t": "Tambah lunch &mdash; Fish &amp; Chips at Lobster Shack (Pinnacles)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 120,
+    "line": "Additional lunch - Fish & Chips at Lobster Shack"
+   },
+   {
+    "v": "lShackL",
+    "t": "Tambah lunch &mdash; Lobster at Lobster Shack (Pinnacles)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 180,
+    "line": "Additional lunch - Lobster at Lobster Shack"
+   },
+   {
+    "v": "lKar",
+    "t": "Tambah lunch &mdash; Karache by Sani (Melayu, buka 11 pagi)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 85,
+    "line": "Additional lunch - Karache by Sani"
+   },
+   {
+    "v": "lAny",
+    "t": "Tambah lunch &mdash; restoran halal (umum)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 90,
+    "line": "Additional halal lunch"
+   },
+   {
+    "v": "dKar",
+    "t": "Tambah dinner &mdash; Karache by Sani (Melayu)",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner",
+    "perPax": 85,
+    "line": "Additional dinner - Karache by Sani"
+   },
+   {
+    "v": "dAny",
+    "t": "Tambah dinner &mdash; restoran halal (umum)",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner",
+    "perPax": 120,
+    "line": "Additional halal dinner"
+   },
+   {
+    "v": "sKaiL",
+    "t": "Tukar lunch pakej &rarr; Lobster at Kailis",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 100,
+    "line": "Package lunch upgraded to Lobster at Kailis"
+   },
+   {
+    "v": "sShackL",
+    "t": "Tukar lunch pakej &rarr; Lobster at Lobster Shack",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "perPax": 100,
+    "line": "Package lunch upgraded to Lobster at Lobster Shack"
+   },
+   {
+    "v": "lcut",
+    "t": "Tolak lunch pakej &mdash; Charcoal Chicken / Kailis (customer DIY)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "perPax": -50,
+    "line": "Package lunch removed (self-arranged)"
+   },
+   {
+    "v": "lcut80",
+    "t": "Tolak lunch pakej &mdash; Lobster Shack, Pinnacles (customer DIY)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "perPax": -80,
+    "line": "Package lunch removed (self-arranged)"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (termasuk pakej)",
+    "cost": "incl",
+    "lbl": "Private Airport Transfer (06:00 - 22:00)"
+   },
+   {
+    "v": "i4",
+    "t": "Private Transport + Driving Guide 4 jam (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide (4 hours)"
+   },
+   {
+    "v": "i6",
+    "t": "Private Transport + Driving Guide 6 jam (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide (6 hours)"
+   },
+   {
+    "v": "i8",
+    "t": "Private Transport + Driving Guide 8 jam (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide (8 hours)"
+   },
+   {
+    "v": "i10",
+    "t": "Private Transport + Driving Guide 10 jam (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide (10 hours)"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Guide"
+   },
+   {
+    "v": "fed",
+    "t": "Free &amp; easy &mdash; tolak tour day dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free & easy (tour day deducted)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "t10",
+    "t": "Tambah full day tour 10 jam",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "tour10",
+    "lbl": "Private Transport + Guide (10h)",
+    "line": "Full day tour, 10 hours"
+   },
+   {
+    "v": "t8",
+    "t": "Tambah tour 8 jam",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "tour8",
+    "lbl": "Private Transport + Guide (8h)",
+    "line": "Tour, 8 hours"
+   },
+   {
+    "v": "t6",
+    "t": "Tambah tour 6 jam",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "tour6",
+    "lbl": "Private Transport + Guide (6h)",
+    "line": "Tour, 6 hours"
+   },
+   {
+    "v": "t5",
+    "t": "Tambah tour 5 jam",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "tour5",
+    "lbl": "Private Transport + Guide (5h)",
+    "line": "Tour, 5 hours"
+   },
+   {
+    "v": "pinD",
+    "t": "Tambah Pinnacles Day Tour 10 jam + entrance",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "pinDay",
+    "lbl": "Private Transport + Guide (10h)",
+    "line": "Pinnacles Desert day tour, 10 hours"
+   },
+   {
+    "v": "pinM",
+    "t": "Tambah Pinnacles Stargazing (midnight) 10 jam",
+    "cost": "incl",
+    "guided": true,
+    "perVehicleRate": "pinMid",
+    "lbl": "Private Transport + Guide (10h)",
+    "line": "Pinnacles stargazing, midnight 10 hours"
+   },
+   {
+    "v": "rotS",
+    "t": "Tambah Rottnest shuttle (CBD &harr; ferry terminal)",
+    "cost": "incl",
+    "perVehicleRate": "rotShut",
+    "lbl": "Rottnest Shuttle",
+    "line": "Rottnest ferry terminal shuttle"
+   },
+   {
+    "v": "air1",
+    "t": "Tambah airport transfer 1 hala (6 pagi &ndash; 10 malam)",
+    "cost": "incl",
+    "perVehicleRate": "air1",
+    "lbl": "Airport Transfer",
+    "line": "Additional airport transfer one way (06:00-22:00)"
+   },
+   {
+    "v": "air2",
+    "t": "Tambah airport transfer 1 hala (10:01 malam &ndash; 5:59 pagi)",
+    "cost": "incl",
+    "perVehicleRate": "air2",
+    "lbl": "Airport Transfer (late night)",
+    "line": "Additional airport transfer one way (22:01-05:59)"
+   },
+   {
+    "v": "cair1",
+    "t": "Tolak airport transfer 1 hala (6 pagi &ndash; 10 malam)",
+    "cost": "zero",
+    "perVehicleRate": "air1Cut",
+    "lbl": "-",
+    "line": "Less airport transfer one way (06:00-22:00)"
+   },
+   {
+    "v": "cair2",
+    "t": "Tolak airport transfer 1 hala (10:01 malam &ndash; 5:59 pagi)",
+    "cost": "zero",
+    "perVehicleRate": "air2Cut",
+    "lbl": "-",
+    "line": "Less airport transfer one way (22:01-05:59)"
+   },
+   {
+    "v": "ct10",
+    "t": "Tolak full day tour 10 jam",
+    "cost": "zero",
+    "perVehicleRate": "tour10Cut",
+    "lbl": "-",
+    "line": "Less full day tour, 10 hours"
+   },
+   {
+    "v": "ct8",
+    "t": "Tolak tour 8 jam",
+    "cost": "zero",
+    "perVehicleRate": "tour8Cut",
+    "lbl": "-",
+    "line": "Less tour, 8 hours"
+   },
+   {
+    "v": "ct6",
+    "t": "Tolak tour 6 jam",
+    "cost": "zero",
+    "perVehicleRate": "tour6Cut",
+    "lbl": "-",
+    "line": "Less tour, 6 hours"
+   }
+  ],
+  "addons": [
+   [
+    "Mandurah Dolphin & Scenic Canal Cruise (Standard add-on)",
+    140,
+    90,
+    "pax"
+   ],
+   [
+    "Araluen Tulip Park entrance (late Aug - early Oct)",
+    85,
+    65,
+    "pax"
+   ],
+   [
+    "Rottnest Island return ferry from Fremantle",
+    350,
+    250,
+    "pax"
+   ],
+   [
+    "Pinnacles Desert entrance only (own transport)",
+    55,
+    55,
+    "pax"
+   ],
+   [
+    "Caversham Wildlife Park entrance",
+    85,
+    85,
+    "pax"
+   ],
+   [
+    "Lancelin sand board rental",
+    80,
+    80,
+    "pax"
+   ],
+   [
+    "Fruit picking (seasonal)",
+    80,
+    80,
+    "pax"
+   ],
+   [
+    "4-Star hotel upgrade, flat 4-night catalog rate (Standard)",
+    240,
+    240,
+    "pax"
+   ],
+   [
+    "Extra tour hour, private transport + guide",
+    150,
+    0,
+    "unit"
+   ],
+   [
+    "Less entrance - Caversham Wildlife Park",
+    -60,
+    -60,
+    "pax"
+   ],
+   [
+    "Less entrance - Pinnacles Desert",
+    -40,
+    -40,
+    "pax"
+   ],
+   [
+    "Less entrance - Mandurah Dolphin Cruise",
+    -120,
+    -120,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 4,
+    "text": "2&ndash;4 pax: <b>6-Seater</b>. Kadar transport guna band 2&ndash;10 pax."
+   },
+   {
+    "from": 5,
+    "to": 10,
+    "text": "5&ndash;10 pax: <b>12-Seater Hiace</b>. Kadar transport guna band 2&ndash;10 pax."
+   },
+   {
+    "from": 4,
+    "to": 99999,
+    "text": "4 pax ke atas: automatik <b>2 bilik atau lebih</b>. Apartment Comfort Inn Quad/Quint kongsi <b>1 tandas</b> sahaja &mdash; cadangkan double/triple."
+   },
+   {
+    "from": 11,
+    "to": 23,
+    "text": "11&ndash;23 pax: <b>24-Seater bus</b>. Kadar tour 5 jam, Pinnacles dan Rottnest shuttle <b>belum ada harga jual tersiar</b> untuk band ini &mdash; cip merah <b>kadar?</b> akan muncul. Dapatkan quote K&amp;N dahulu."
+   },
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "Pinnacles Day Tour dan Rottnest Shuttle berkapasiti <b>10 pax setiap kenderaan</b> &mdash; 11 pax ke atas perlu 2 kenderaan."
+   },
+   {
+    "from": 24,
+    "to": 99999,
+    "text": "24 pax ke atas: melebihi kapasiti 24-Seater &mdash; perlu 2 kenderaan dan kadar band ini belum diisi. Rujuk K&amp;N sebelum quote."
+   }
+  ],
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "extraSurcharge": [
+   {
+    "label": "Peak Spring and Summer",
+    "dateIn": [
+     "2026-09-01",
+     "2026-09-30"
+    ],
+    "percentOfTier": 5
+   },
+   {
+    "label": "Peak Spring and Summer",
+    "dateIn": [
+     "2026-11-01",
+     "2026-11-30"
+    ],
+    "percentOfTier": 5
+   },
+   {
+    "label": "Peak Spring and Summer",
+    "dateIn": [
+     "2026-12-01",
+     "2026-12-20"
+    ],
+    "percentOfTier": 5
+   },
+   {
+    "label": "Peak Christmas and New Year",
+    "dateIn": [
+     "2026-12-21",
+     "2026-12-31"
+    ],
+    "percentOfTier": 10
+   },
+   {
+    "label": "Peak Christmas and New Year",
+    "dateIn": [
+     "2027-01-01",
+     "2027-01-31"
+    ],
+    "percentOfTier": 10
+   },
+   {
+    "label": "Peak Christmas and New Year",
+    "dateIn": [
+     "2027-02-01",
+     "2027-02-20"
+    ],
+    "percentOfTier": 10
+   },
+   {
+    "label": "Travel date 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100
+   }
+  ],
+  "variants": [
+   {
+    "id": "std",
+    "name": "PT Perth Standard 5D4N",
+    "pkgLabel": "Perth Standard - Swan Valley, Perth City, Fremantle Tour",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Apartment (non-CBD)",
+    "days": 5,
+    "nights": 4,
+    "breakfast": false,
+    "infant": 0,
+    "single": 1500,
+    "labelCwb": "Child With Bed (5-11)",
+    "labelCnb": "Child No Bed (2-4)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 5197,
+      "c": 4797,
+      "n": 4497
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 4197,
+      "c": 3797,
+      "n": 3497
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 3397,
+      "c": 3097,
+      "n": 2797
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 3197,
+      "c": 2997,
+      "n": 2697
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 3097,
+      "c": 2897,
+      "n": 2597
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 80,
+     "windows": [
+      [
+       "2026-03-19",
+       "2026-03-31"
+      ],
+      [
+       "2026-04-01",
+       "2026-04-20"
+      ],
+      [
+       "2026-07-01",
+       "2026-07-15"
+      ],
+      [
+       "2026-08-19",
+       "2026-08-31"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 200,
+      "peak": 200
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 23,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 2300,
+         "peak": 2300
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 2800,
+         "peak": 2800
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1500,
+         "peak": -1500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "air1": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 800,
+         "peak": 800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 1200,
+         "peak": 1200
+        }
+       ]
+      },
+      "air2": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1000,
+         "peak": 1000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 1300,
+         "peak": 1300
+        }
+       ]
+      },
+      "tour10": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 3000,
+         "peak": 3000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 3200,
+         "peak": 3200
+        }
+       ]
+      },
+      "tour8": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 2300,
+         "peak": 2300
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 2800,
+         "peak": 2800
+        }
+       ]
+      },
+      "tour6": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1800,
+         "peak": 1800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "tour5": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "pinDay": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 3800,
+         "peak": 3800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "pinMid": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "rotShut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1800,
+         "peak": 1800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "air1Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -500,
+         "peak": -500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -800,
+         "peak": -800
+        }
+       ]
+      },
+      "air2Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -500,
+         "peak": -500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -800,
+         "peak": -800
+        }
+       ]
+      },
+      "tour10Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -2000,
+         "peak": -2000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "tour8Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1500,
+         "peak": -1500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "tour6Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": -180,
+         "peak": -180
+        }
+       ]
+      },
+      "hApt": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 200,
+         "peak": 200
+        }
+       ]
+      },
+      "hCriterion": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 250,
+         "peak": 290
+        }
+       ]
+      },
+      "hEuropean": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 250,
+         "peak": 290
+        }
+       ]
+      },
+      "hMercure": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 350,
+         "peak": 490
+        }
+       ]
+      },
+      "hDuxton": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "upCrit": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 180,
+         "peak": 220
+        }
+       ]
+      },
+      "upEuro": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 200,
+         "peak": 240
+        }
+       ]
+      },
+      "upMerc": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 300,
+         "peak": 440
+        }
+       ]
+      },
+      "upDux": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Airport]",
+      "t": "KUL - Tiba Perth",
+      "en": "KUL - PERTH ARRIVAL",
+      "acc": "incl",
+      "meal": "nobf",
+      "trp": "air",
+      "act": [
+       "Tiba di Perth Airport",
+       "Meet & greet dengan driver ARBA",
+       "Transfer ke apartment",
+       "Free & easy - rehat / explore sekitar hotel"
+      ],
+      "eact": [
+       "Arrive at Perth Airport",
+       "Meet & greet with ARBA driver",
+       "Private transfer to apartment",
+       "Free & easy"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Swan Valley]",
+      "t": "Swan Valley Guided Tour",
+      "en": "SWAN VALLEY GUIDED TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "i8",
+      "act": [
+       "Caversham Wildlife Park - kangaroo feeding, koala photo (included)",
+       "Margaret River Chocolate Factory - free chocolate testing",
+       "Lunch Charcoal Chicken halal + solat di masjid berdekatan",
+       "Bell Tower & Elizabeth Quay",
+       "Hay St & Murray St Mall (London Court)",
+       "Kembali ke hotel"
+      ],
+      "eact": [
+       "Caversham Wildlife Park - kangaroo feeding, koala photo (included)",
+       "Margaret River Chocolate Factory - free chocolate tasting",
+       "Halal Charcoal Chicken lunch + prayer stop at nearby mosque",
+       "Bell Tower & Elizabeth Quay",
+       "Hay St & Murray St Mall (London Court)",
+       "Back to hotel"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Perth City]",
+      "t": "Free & Easy",
+      "en": "FREE & EASY",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "none",
+      "act": [
+       "Self-explore Perth City - tiada transport / guide",
+       "Cadangan: Langley Park (5 minit jalan kaki)",
+       "Guna Free Bus Zone: Yellow / Red / Blue / Green CAT"
+      ],
+      "eact": [
+       "Self-explore Perth City - no transport or guide provided",
+       "Suggested: Langley Park (5 minutes on foot)",
+       "Free Bus Zone: Yellow / Red / Blue / Green CAT"
+      ]
+     },
+     {
+      "v": "d4",
+      "region": "[Fremantle]",
+      "t": "Fremantle Day Tour",
+      "en": "FREMANTLE DAY TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "i8",
+      "act": [
+       "Blue Boat House & Rainbow Containers (photostop)",
+       "Monument Hill (photostop), Fremantle Prison (bypass)",
+       "Lunch Kailis Fish & Chips (halal-friendly)",
+       "Cappuccino Strip - Round House",
+       "Cottesloe Beach (ikut timing)",
+       "Shopping Watertown Factory Outlets"
+      ],
+      "eact": [
+       "Blue Boat House & Rainbow Containers (photo stop)",
+       "Monument Hill (photo stop), Fremantle Prison (bypass)",
+       "Halal-friendly lunch at Kailis Fish & Chips",
+       "Cappuccino Strip - Round House",
+       "Cottesloe Beach (subject to timing)",
+       "Shopping at Watertown Factory Outlets"
+      ]
+     },
+     {
+      "v": "d5",
+      "region": "[Airport]",
+      "t": "Perth - KUL (Pulang)",
+      "en": "PERTH - KUL DEPARTURE",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Check-out hotel",
+       "Transfer ke airport"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Private airport transfer"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights at 3-Star Apartment (Comfort Inn & Suites / Good Health or similar), non-CBD, with kitchenette",
+     "Return private airport transfers (06:00 - 22:00)",
+     "Private transportation for 2 tour days (Day 2 and Day 4, 8 hours each)",
+     "2x halal lunch - Charcoal Chicken (Day 2) and Kailis Fish & Chips Fremantle (Day 4)",
+     "Entrance ticket to Caversham Wildlife Park",
+     "Tipping fee and parking fee (bundled)",
+     "Room allocation: 2 pax twin sharing, 3 pax triple, 4 pax quad room, 5 pax quint room, 6 pax 2x triple room - each apartment type has ONE bathroom only"
+    ],
+    "exclusions": [
+     "Return international flight tickets, luggage, in-flight meal and airport tax",
+     "Breakfast (self-prepared in the apartment kitchenette)",
+     "Australian ETA visa fee",
+     "Personal travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - AUD 50 per hour, paid in cash to the driver",
+     "Airport transfer between 22:01 and 05:59 - AUD 50 per hour surcharge",
+     "Optional tours and activity tickets not stated above",
+     "Personal expenses and shopping"
+    ]
+   },
+   {
+    "id": "prem",
+    "name": "PT Perth Premium 6D5N",
+    "pkgLabel": "Perth Premium - Swan Valley, Fremantle, Dolphin Cruise Mandurah, Pinnacles Desert",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "4-Star Hotel (Perth CBD)",
+    "days": 6,
+    "nights": 5,
+    "breakfast": true,
+    "infant": 0,
+    "single": 2500,
+    "labelCwb": "Child With Bed (5-11)",
+    "labelCnb": "Child No Bed (2-4)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 7997,
+      "c": 7797,
+      "n": 7597
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 6097,
+      "c": 5897,
+      "n": 5697
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 5797,
+      "c": 5597,
+      "n": 5397
+     },
+     {
+      "from": 5,
+      "to": 5,
+      "a": 4997,
+      "c": 4797,
+      "n": 4597
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 4797,
+      "c": 4597,
+      "n": 4397
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 4497,
+      "c": 4297,
+      "n": 4097
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 220,
+     "windows": [
+      [
+       "2026-03-19",
+       "2026-03-31"
+      ],
+      [
+       "2026-04-01",
+       "2026-04-20"
+      ],
+      [
+       "2026-07-01",
+       "2026-07-15"
+      ],
+      [
+       "2026-08-19",
+       "2026-08-31"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 350,
+      "peak": 350
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 23,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 2300,
+         "peak": 2300
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 2800,
+         "peak": 2800
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1500,
+         "peak": -1500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "air1": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 800,
+         "peak": 800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 1200,
+         "peak": 1200
+        }
+       ]
+      },
+      "air2": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1000,
+         "peak": 1000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 1300,
+         "peak": 1300
+        }
+       ]
+      },
+      "tour10": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 3000,
+         "peak": 3000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 3200,
+         "peak": 3200
+        }
+       ]
+      },
+      "tour8": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 2300,
+         "peak": 2300
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": 2800,
+         "peak": 2800
+        }
+       ]
+      },
+      "tour6": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1800,
+         "peak": 1800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "tour5": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "pinDay": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 3800,
+         "peak": 3800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "pinMid": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "rotShut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": 1800,
+         "peak": 1800
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "air1Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -500,
+         "peak": -500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -800,
+         "peak": -800
+        }
+       ]
+      },
+      "air2Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -500,
+         "peak": -500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -800,
+         "peak": -800
+        }
+       ]
+      },
+      "tour10Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -2000,
+         "peak": -2000
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "tour8Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1500,
+         "peak": -1500
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": -2000,
+         "peak": -2000
+        }
+       ]
+      },
+      "tour6Cut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 10,
+         "normal": -1200,
+         "peak": -1200
+        },
+        {
+         "from": 11,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": -180,
+         "peak": -180
+        }
+       ]
+      },
+      "hApt": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "hCriterion": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "hEuropean": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "hMercure": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 350,
+         "peak": 350
+        }
+       ]
+      },
+      "hDuxton": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 500,
+         "peak": 530
+        }
+       ]
+      },
+      "upCrit": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "upEuro": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "upMerc": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "upDux": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 23,
+         "normal": 350,
+         "peak": 380
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Airport]",
+      "t": "KUL - Tiba Perth",
+      "en": "KUL - PERTH ARRIVAL",
+      "acc": "incl",
+      "meal": "nobf",
+      "trp": "air",
+      "act": [
+       "Tiba di Perth Airport",
+       "Meet & greet dengan driver ARBA",
+       "Transfer ke hotel 4 bintang",
+       "Free & easy - rehat"
+      ],
+      "eact": [
+       "Arrive at Perth Airport",
+       "Meet & greet with ARBA driver-cum-guide",
+       "Private transfer to 4-star hotel",
+       "Free & easy"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Swan Valley]",
+      "t": "Swan Valley Guided Tour",
+      "en": "SWAN VALLEY GUIDED TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "i6",
+      "act": [
+       "Caversham Wildlife Park (included)",
+       "Margaret River Chocolate Factory",
+       "Lunch Charcoal Chicken & Lamb Ribs halal + solat di masjid",
+       "Kembali ke hotel",
+       "Free & easy petang atau add-on Fruit Orchard / Tulip Park (seasonal)"
+      ],
+      "eact": [
+       "Caversham Wildlife Park (included)",
+       "Margaret River Chocolate Factory",
+       "Halal Charcoal Chicken & Lamb Ribs lunch + prayer stop at nearby mosque",
+       "Back to hotel",
+       "Free & easy in the afternoon, or optional Fruit Orchard / Tulip Park (seasonal)"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Mandurah]",
+      "t": "Fremantle + Mandurah Cruise",
+      "en": "FREMANTLE + MANDURAH DOLPHIN CRUISE",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "i8",
+      "act": [
+       "Blue Boat House & Rainbow Containers (photostop)",
+       "Canal & Dolphin Boat Cruise di Mandurah (included)",
+       "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+       "Sunset di Cottesloe Beach"
+      ],
+      "eact": [
+       "Blue Boat House & Rainbow Containers (photo stop)",
+       "Canal & Dolphin Boat Cruise at Mandurah (included)",
+       "Fremantle Prison (bypass), Cappuccino Strip - Round House",
+       "Sunset at Cottesloe Beach"
+      ]
+     },
+     {
+      "v": "d4",
+      "region": "[Perth City]",
+      "t": "Perth City Tour",
+      "en": "PERTH CITY TOUR",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "i4",
+      "act": [
+       "Bell Tower & Elizabeth Quay",
+       "Hay Street Mall (London Court), shopping Watertown Factory Outlets",
+       "Kings Park & Aboriginal Art Gallery",
+       "Solat di surau Watertown",
+       "Free & easy"
+      ],
+      "eact": [
+       "Bell Tower & Elizabeth Quay",
+       "Hay Street Mall (London Court), shopping at Watertown Factory Outlets",
+       "Kings Park & Aboriginal Art Gallery",
+       "Prayer stop at Watertown surau",
+       "Free & easy"
+      ]
+     },
+     {
+      "v": "d5",
+      "region": "[Pinnacles]",
+      "t": "Pinnacles Desert & Lancelin",
+      "en": "PINNACLES DESERT & LANCELIN SAND DUNES",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "i10",
+      "act": [
+       "Pinnacles Desert (entrance included)",
+       "Lancelin Sand Dunes (ATV tidak termasuk)",
+       "Sand board rental (optional add-on)",
+       "Lunch Fish & Chips halal + stop over untuk solat",
+       "Kembali ke hotel",
+       "Nota: permukaan berpasir dan tidak rata - kurang sesuai untuk warga emas atau kanak-kanak kecil (risiko tergelincir dan terseliuh)"
+      ],
+      "eact": [
+       "Pinnacles Desert (entrance included)",
+       "Lancelin Sand Dunes (ATV not included)",
+       "Sand board rental (optional add-on)",
+       "Halal Fish & Chips lunch + prayer stop",
+       "Back to hotel",
+       "Note: loose and uneven surface - less suitable for elderly travellers or young children (risk of falls and twisted ankles)"
+      ]
+     },
+     {
+      "v": "d6",
+      "region": "[Airport]",
+      "t": "Perth - KUL (Pulang)",
+      "en": "PERTH - KUL DEPARTURE",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Check-out hotel",
+       "Transfer ke airport"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Private airport transfer"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights at 4-Star Hotel in Perth CBD (Mercure On Hay / Mercure Perth / Ibis Perth or similar)",
+     "Daily hotel breakfast (halal-friendly options available)",
+     "Return private airport transfers (06:00 - 22:00) with driver-cum-guide",
+     "Private transportation daily (Day 2: 6h, Day 3: 8h, Day 4: 4h, Day 5: 10h)",
+     "3x halal lunch - Charcoal Chicken, Kailis Fremantle and Pinnacles Fish & Chips",
+     "Entrance to Caversham Wildlife Park and Mandurah Canal & Dolphin Cruise",
+     "Entrance to Pinnacles Desert and Lancelin Sand Dunes",
+     "Tipping fee (bundled)",
+     "Room allocation: twin or triple sharing subject to availability - interconnecting rooms are limited"
+    ],
+    "exclusions": [
+     "Return international flight tickets, luggage, in-flight meal and airport tax",
+     "Australian ETA visa fee",
+     "Personal travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - AUD 50 per hour, paid in cash to the driver",
+     "Airport transfer between 22:01 and 05:59 - AUD 50 per hour surcharge",
+     "Sand board rental at Lancelin, ATV rides and other optional tickets",
+     "Personal expenses and shopping"
+    ]
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel/apartment availability as no space has been secured. A deposit of RM 1,000 per pax is required upon confirmation, with full payment due 45 days before the departure date. Private transportation and driver-cum-guide are based on the hours stated in the itinerary; AUD 50 per extra hour is payable in cash to the driver. Airport transfers between 22:01 and 05:59 carry an AUD 50 per hour surcharge, charged before arrival. Apartment or hotel location is confirmed at least 15 days before departure. Itinerary, price and flight schedule are subject to change (weather, traffic, safety). Package valid until 31 March 2027 travel period. Ground arrangement and tipping only - international flight tickets are not included. Pinnacles Desert and the Lancelin sand dunes involve loose, uneven ground and are less suitable for elderly travellers or young children due to the risk of falls."
+ }
+}

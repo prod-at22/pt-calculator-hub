@@ -1,0 +1,1620 @@
+{
+ "slug": "perhentian",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Perhentian — Knowledge Base",
+   "brandTag": "PERHENTIAN KB",
+   "kicker": "ARBA PERHENTIAN · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Pulau Perhentian — halal, flight, resort, snorkeling & tips.",
+   "searchPlaceholder": "cth: macam mana ke Perhentian? · ada surau? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Perhentian…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Perhentian",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC ARBA Travel. Sumber utama: katalog PT PERHENTIAN BASIC (3D2N) 2026 V3 dan PT PERHENTIAN STANDARD (3D2N) 2026 V3. Angka yang tiada dalam katalog dilabel &quot;Sumber: rate card ARBA&quot;.<br>Tiada gambar trip lepas untuk Perhentian dalam folder produk, jadi KB ini tiada tab Gambar Trip Lepas &mdash; ini memang begitu, bukan data yang tertinggal.<br>Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline setiap pakej.",
+   "marketing": {
+    "anchors": [
+     "5-Points Snorkeling",
+     "Turtle & Shark Point",
+     "Longbeach Fireshow",
+     "Windmill Hill Trekking",
+     "Masjid Terapung Ar-Rahman"
+    ],
+    "usp": "USP: fullboard halal - 5-points snorkeling penuh - tipping included - 4 tier resort (budget hingga 4 bintang)",
+    "season": [
+     [
+      "15 Feb - 15 Okt",
+      "Pulau buka - musim trip (katalog sah sehingga 15 Oktober 2026)"
+     ],
+     [
+      "Mei - Ogos",
+      "Musim terbaik - air jernih, visibiliti snorkel terbaik"
+     ],
+     [
+      "15 Okt - 15 Feb",
+      "Monsun - pulau TUTUP, tiada trip"
+     ]
+    ],
+    "expect": [
+     "Shared boat transfer (SIC) - waktu boat tertakluk cuaca & pasang surut",
+     "Wifi resort terhad; Celcom/Digi paling stabil",
+     "Marine Park Fee bayar di jetty: dewasa RM5 / kanak RM2",
+     "Kad & QR tiada di sesetengah kedai - bawa cash",
+     "Harga untuk 2 atau 3 orang sebilik; triple = 3 katil single ikut availability"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Perhentian - Flora Bay (3D2N)",
+    "tag": "Perhentian Besar - Budget",
+    "emoji": "",
+    "sub": "Pilihan paling jimat - pantai tenang di Perhentian Besar",
+    "img": "Perhentian Besar, Malaysia, West beach.jpg",
+    "intro": "Pakej paling ekonomi. Flora Bay Resort di Perhentian Besar yang lebih tenang dan sesuai keluarga. Itinerari 3D2N sama seperti tier lain (5-points snorkeling penuh). Tier ini tiada dalam katalog V3 - harga dari rate card ARBA.",
+    "inc": [
+     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
+     "2 malam penginapan di Flora Bay Resort, Perhentian Besar",
+     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
+     "5 Points Snorkelling Trip",
+     "Snorkelling Gear",
+     "Ground & Tipping - included"
+    ],
+    "exc": [
+     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
+     "Surcaj passport bukan warganegara Malaysia",
+     "Flight domestik ke Kota Bharu / Kuala Terengganu",
+     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
+     "Optional activities (scuba, Pulau Rawa, private boat)",
+     "Travel insurance / takaful",
+     "Personal expenses & tambahan makan"
+    ],
+    "note": "Sumber: rate card ARBA - tiada dalam katalog V3 2026. Peak season +RM50/pax/malam. Single supplement +RM400/pax. Deposit RM250/pax."
+   },
+   {
+    "n": "PT Perhentian BASIC - Shari-la (3D2N)",
+    "tag": "Perhentian Kecil - Basic",
+    "emoji": "",
+    "sub": "Katalog rasmi BASIC 2026 V3 - Shari-la Resort, Long Beach",
+    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg",
+    "intro": "Katalog customer BASIC (V3 2026). Menginap di Shari-la Perhentian Resort di Long Beach, Perhentian Kecil - pusat aktiviti dan lokasi fireshow malam. Fullboard halal dan 5-points snorkeling trip.",
+    "inc": [
+     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
+     "2 malam penginapan di Shari-la Perhentian Resort, Perhentian Kecil",
+     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
+     "5 Points Snorkelling Trip",
+     "Snorkelling Gear",
+     "Ground & Tipping - included"
+    ],
+    "exc": [
+     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
+     "Surcaj passport bukan warganegara Malaysia",
+     "Flight domestik ke Kota Bharu / Kuala Terengganu",
+     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
+     "Optional activities (scuba, Pulau Rawa, private boat)",
+     "Travel insurance / takaful",
+     "Personal expenses & tambahan makan"
+    ],
+    "note": "Katalog BASIC V3 2026, sah sehingga 15 Oktober 2026. Single supplement +RM500/pax. Peak season +RM50/pax/malam (21 Mac 2025 - 30 September 2026). Surcharge travel date 2027 +RM50/pax/malam (15 Februari - 31 Mac 2027). Deposit RM250/pax; late booking +RM50/booking jika tempah kurang 45 hari sebelum bertolak."
+   },
+   {
+    "n": "PT Perhentian - Ombak (3D2N)",
+    "tag": "Perhentian Kecil - 3 Bintang",
+    "emoji": "",
+    "sub": "Resort 3 bintang di Long Beach - pilihan paling popular",
+    "img": "Perhentian Beach (106319844).jpg",
+    "intro": "Tier mid-range. Ombak Perhentian Resort di Long Beach, Perhentian Kecil dengan bilik Twin/Triple/Quad/Family. Keseimbangan terbaik antara harga dan keselesaan. Tier ini tiada dalam katalog V3 - harga dari rate card ARBA.",
+    "inc": [
+     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
+     "2 malam penginapan di Ombak Perhentian Resort, Perhentian Kecil",
+     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
+     "5 Points Snorkelling Trip",
+     "Snorkelling Gear",
+     "Ground & Tipping - included"
+    ],
+    "exc": [
+     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
+     "Surcaj passport bukan warganegara Malaysia",
+     "Flight domestik ke Kota Bharu / Kuala Terengganu",
+     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
+     "Optional activities (scuba, Pulau Rawa, private boat)",
+     "Travel insurance / takaful",
+     "Personal expenses & tambahan makan"
+    ],
+    "note": "Sumber: rate card ARBA - tiada dalam katalog V3 2026. Peak season +RM150/pax/malam. Single supplement +RM400/pax. Tambah 1 malam (4D3N) +RM475/dewasa; halfboard -RM150/dewasa. Deposit RM250/pax."
+   },
+   {
+    "n": "PT Perhentian STANDARD - Mimpi (3D2N)",
+    "tag": "Perhentian Kecil - Premium 4 Bintang",
+    "emoji": "",
+    "sub": "Katalog rasmi STANDARD 2026 V3 - Mimpi Resort",
+    "img": "Perhentine island beach, Malesia.jpg",
+    "intro": "Katalog customer STANDARD (V3 2026). Mimpi Perhentian Resort - pilihan premium untuk honeymoon dan keluarga. Fullboard halal dan 5-points snorkeling trip.",
+    "inc": [
+     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
+     "2 malam penginapan di Mimpi Perhentian Resort, Perhentian Kecil",
+     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
+     "5 Points Snorkelling Trip",
+     "Snorkelling Gear",
+     "Ground & Tipping - included"
+    ],
+    "exc": [
+     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
+     "Surcaj passport bukan warganegara Malaysia",
+     "Flight domestik ke Kota Bharu / Kuala Terengganu",
+     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
+     "Optional activities (scuba, Pulau Rawa, private boat)",
+     "Travel insurance / takaful",
+     "Personal expenses & tambahan makan"
+    ],
+    "note": "Katalog STANDARD V3 2026, sah sehingga 15 Oktober 2026. Single supplement +RM600/pax. Peak season +RM150/pax/malam (26 Mei - 1 Jun 2026 dan 1 Julai - 31 Ogos 2026). Surcharge travel date 2027 +RM150/pax/malam (15 Februari - 31 Mac 2027). Deposit RM250/pax; late booking +RM50/booking jika tempah kurang 45 hari sebelum bertolak."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Kuala Besut Jetty → Perhentian Kecil",
+     "m": "L / D",
+     "a": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
+      "Check-in resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "5-Points Snorkeling Trip (SIC)",
+     "m": "B / L / D",
+     "a": [
+      "Breakfast di resort",
+      "Boat snorkeling trip",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Perhentian Kecil → Kuala Besut Jetty",
+     "m": "B",
+     "a": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Kuala Besut Jetty → Perhentian Kecil",
+     "m": "L / D",
+     "a": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
+      "Check-in resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "5-Points Snorkeling Trip (SIC)",
+     "m": "B / L / D",
+     "a": [
+      "Breakfast di resort",
+      "Boat snorkeling trip",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Perhentian Kecil → Kuala Besut Jetty",
+     "m": "B",
+     "a": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Kuala Besut Jetty → Perhentian Kecil",
+     "m": "L / D",
+     "a": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
+      "Check-in resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "5-Points Snorkeling Trip (SIC)",
+     "m": "B / L / D",
+     "a": [
+      "Breakfast di resort",
+      "Boat snorkeling trip",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Perhentian Kecil → Kuala Besut Jetty",
+     "m": "B",
+     "a": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Kuala Besut Jetty → Perhentian Kecil",
+     "m": "L / D",
+     "a": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
+      "Check-in resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "5-Points Snorkeling Trip (SIC)",
+     "m": "B / L / D",
+     "a": [
+      "Breakfast di resort",
+      "Boat snorkeling trip",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Perhentian Kecil → Kuala Besut Jetty",
+     "m": "B",
+     "a": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "5-Points Snorkeling Trip",
+    "t": "Snorkeling · SIC",
+    "emoji": "",
+    "img": "Perhentine island beach, Malesia.jpg",
+    "short": "Highlight utama — 5 spot snorkel dalam satu trip Day 2",
+    "intro": "Trip snorkeling sharing (SIC) melawat 5 titik terbaik Perhentian dalam satu hari penuh, termasuk lunch break di Kg Nelayan. Semua peralatan (life jacket + mask) disediakan.",
+    "hi": [
+     "Fish Point, Turtle Point, Shark Point",
+     "Kg Nelayan (rehat & lunch)",
+     "Nemo Point & Teluk Keke Beach",
+     "Life jacket + mask included"
+    ],
+    "best": "Mei–Ogos untuk air paling jernih & laut tenang.",
+    "muslim": "Lunch halal disediakan di Kg Nelayan. Boleh solat Zohor/Asar (jamak qasar) di surau kampung atau di resort selepas trip. Bawa pakaian menutup aurat mesra air.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Perhentian+snorkeling+points"
+   },
+   {
+    "n": "Turtle Point",
+    "t": "Marine · Snorkel",
+    "emoji": "",
+    "img": "Green Sea Turtle swimming.jpg",
+    "short": "Berenang bersama penyu hijau di dasar berpasir",
+    "intro": "Antara spot paling digemari — dasar laut berpasir tempat penyu hijau meragut. Peluang tinggi berjumpa penyu sepanjang tahun.",
+    "hi": [
+     "Penyu hijau di habitat asli",
+     "Air cetek, sesuai pemula & kanak",
+     "Ikan karang berwarna-warni"
+    ],
+    "best": "Sepanjang musim buka (15 Feb - 15 Okt); pagi lebih tenang.",
+    "muslim": "Aktiviti air sahaja — tiada isu halal. Solat di resort/boat (jamak) sebelum atau selepas trip.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Turtle+Point+Perhentian"
+   },
+   {
+    "n": "Shark Point",
+    "t": "Marine · Snorkel",
+    "emoji": "",
+    "img": "Snorkeler with blacktip reef shark.jpg",
+    "short": "Jerung karang blacktip yang jinak — selamat untuk snorkel",
+    "intro": "Snorkel bersama jerung karang blacktip yang jinak, bersama penyu, angelfish & ratusan ikan karang. Salah satu titik paling ikonik di Perhentian.",
+    "hi": [
+     "Jerung karang blacktip (tidak berbahaya)",
+     "Terumbu karang sihat",
+     "Pelbagai ikan karang"
+    ],
+    "best": "Mei–Ogos; ikut arahan boatman untuk keselamatan.",
+    "muslim": "Aktiviti air. Tiada isu halal; solat di resort/boat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shark+Point+Perhentian"
+   },
+   {
+    "n": "Long Beach (Perhentian Kecil)",
+    "t": "Pantai",
+    "emoji": "",
+    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg",
+    "short": "Pusat aktiviti Perhentian Kecil + fireshow malam",
+    "intro": "Pantai pasir putih paling meriah di Perhentian Kecil, lokasi kebanyakan resort (Ombak, Shari-la). Waktu malam ada persembahan fireshow di tepi pantai.",
+    "hi": [
+     "Pasir putih & air jernih",
+     "Fireshow malam",
+     "Banyak kedai makan halal & runcit"
+    ],
+    "best": "Petang untuk sunset; malam untuk fireshow.",
+    "muslim": "Banyak pilihan makan halal berdekatan. Masjid Ar-Rahman (terapung) berdekatan untuk solat. Pakaian sopan digalakkan di kawasan pantai umum.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Long+Beach+Perhentian+Kecil"
+   },
+   {
+    "n": "Windmill Hill Trekking",
+    "t": "Trekking · View",
+    "emoji": "",
+    "img": "Perhentian Beach (106319844).jpg",
+    "short": "Trek pendek ke puncak — panorama Long Beach & Coral Bay",
+    "intro": "Trekking santai merentas bukit menghubungkan Long Beach & Coral Bay, dengan pemandangan panorama pulau dari puncak. Termasuk dalam itinerari Day 1.",
+    "hi": [
+     "Panorama Long Beach & Coral Bay",
+     "Trek pendek ~20–30 min",
+     "Sesuai semua peringkat umur"
+    ],
+    "best": "Pagi atau lewat petang (elak panas tengah hari).",
+    "muslim": "Aktiviti darat. Solat di surau resort. Bawa air & pakai kasut trekking.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Windmill+Perhentian+Kecil"
+   },
+   {
+    "n": "Coral Bay & Teluk Keke",
+    "t": "Pantai · Sunset",
+    "emoji": "",
+    "img": "Perhentian Besar, Malaysia, West beach.jpg",
+    "short": "Teluk tenang — sunset terbaik di Perhentian Kecil",
+    "intro": "Teluk di sebelah barat Perhentian Kecil, lebih tenang daripada Long Beach dan terkenal dengan pemandangan sunset terbaik. Teluk Keke antara henti trip snorkeling.",
+    "hi": [
+     "Sunset paling cantik di pulau",
+     "Teluk tenang, sesuai berenang",
+     "Suasana santai"
+    ],
+    "best": "Waktu senja untuk sunset.",
+    "muslim": "Makan halal di kawasan berdekatan; solat Maghrib di surau/resort selepas sunset.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Coral+Bay+Perhentian+Kecil"
+   },
+   {
+    "n": "Nemo Point & Fish Point",
+    "t": "Marine · Snorkel",
+    "emoji": "",
+    "img": "Amphiprion ocellaris (Clown anemonefish) by Nick Hobgood.jpg",
+    "short": "Clownfish (Nemo) & taman ikan karang",
+    "intro": "Titik snorkel penuh warna — Nemo Point terkenal dengan clownfish dalam anemone, Fish Point pula padat dengan pelbagai ikan karang. Sesuai untuk gambar bawah air.",
+    "hi": [
+     "Clownfish (Nemo) dalam anemone",
+     "Ratusan ikan karang",
+     "Air cetek mesra kanak"
+    ],
+    "best": "Mei–Ogos, visibiliti terbaik.",
+    "muslim": "Aktiviti air; solat di resort/boat (jamak).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nemo+Point+Perhentian"
+   },
+   {
+    "n": "Masjid Terapung Ar-Rahman",
+    "t": "Masjid · Solat",
+    "emoji": "",
+    "img": "Crystal Mosque in 2016.jpg",
+    "short": "Masjid atas air di Perhentian Kecil (dibina 2011)",
+    "intro": "Masjid Ar-Rahman dibina atas air di Perhentian Kecil untuk keperluan penduduk & pelancong. Menjadi mercu tanda mesra Muslim di pulau ini.",
+    "hi": [
+     "Masjid atas air, seni bina cantik",
+     "Ruang solat lelaki & perempuan",
+     "Berdekatan kampung & Long Beach"
+    ],
+    "best": "Waktu solat fardhu; Jumaat untuk solat Jumaat.",
+    "muslim": "Kemudahan solat penuh (ambil wuduk, ruang berasingan). Di Perhentian Besar pula ada Surau Al-Hijrah berhampiran Flora Bay. Semua makanan di resort ARBA adalah halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ar-Rahman+Mosque+Perhentian+Kecil"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "Budget - Perhentian Besar",
+    "name": "Flora Bay Resort",
+    "emoji": "",
+    "note": "Perhentian Besar. Bilik chalet, pantai tenang. Sumber: rate card ARBA - tiada dalam katalog V3.",
+    "img": "Perhentian Besar, Malaysia, West beach.jpg"
+   },
+   {
+    "tier": "Basic - Perhentian Kecil",
+    "name": "Shari-la Perhentian Resort",
+    "emoji": "",
+    "note": "Long Beach, Perhentian Kecil. Default Standard Room, aircond. Hotel rasmi katalog BASIC V3 2026.",
+    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg"
+   },
+   {
+    "tier": "3 Bintang - Perhentian Kecil",
+    "name": "Ombak Perhentian Resort",
+    "emoji": "",
+    "note": "Long Beach, Perhentian Kecil. Twin/Triple/Quad/Family. Sumber: rate card ARBA - tiada dalam katalog V3.",
+    "img": "Perhentian Beach (106319844).jpg"
+   },
+   {
+    "tier": "Premium 4 Bintang - Perhentian Kecil",
+    "name": "Mimpi Perhentian Resort",
+    "emoji": "",
+    "note": "Perhentian Kecil. Default Standard Room. Hotel rasmi katalog STANDARD V3 2026.",
+    "img": "Perhentine island beach, Malesia.jpg"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Empat tier resort, itinerari 3D2N yang sama - beza pada resort, harga dan surcaj.</p><table class='cmp'><colgroup><col class='c1'><col><col><col><col></colgroup><thead><tr><th class='blank'></th><th>MIMPI &middot; STANDARD &middot; KATALOG</th><th>OMBAK &middot; 3 BINTANG &middot; RATE CARD</th><th>SHARI-LA &middot; BASIC &middot; KATALOG</th><th>FLORA BAY &middot; BUDGET &middot; RATE CARD</th></tr></thead><tbody><tr><td class='feat'>Pulau</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Besar</td></tr><tr><td class='feat'>Jenis bilik</td><td class='val'>Standard Room</td><td class='val'>Twin - Family</td><td class='val'>Standard Room</td><td class='val'>Chalet</td></tr><tr><td class='feat'>Return Boat Transfer (SIC)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Fullboard 2B / 2L / 2D (halal)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>5 Points Snorkelling + gear</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Ground &amp; Tipping</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Windmill Trekking + Longbeach Fireshow</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Marine Park Fee</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport &harr; Jetty transfer</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td></tr><tr><td class='feat'>Honeymoon set (per couple)</td><td class='val'>RM600</td><td class='val'>RM380</td><td class='val'>RM280</td><td class='val'>RM297</td></tr><tr><td class='feat'>Scuba / Pulau Rawa / Private boat</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM600</td><td class='val'>+RM400</td><td class='val'>+RM500</td><td class='val'>+RM400</td></tr><tr><td class='feat'>Peak season (per pax/malam)</td><td class='val'>+RM150</td><td class='val'>+RM150</td><td class='val'>+RM50</td><td class='val'>+RM50</td></tr><tr><td class='feat'>Deposit</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td></tr><tr><td class='feat'>Harga dewasa dari (2 pax)</td><td class='val'>RM1,597</td><td class='val'>RM1,177</td><td class='val'>RM1,097</td><td class='val'>RM797</td></tr><tr><td class='feat'>Harga dewasa dari (8-10 pax)</td><td class='val'>RM1,597</td><td class='val'>RM1,077</td><td class='val'>RM997</td><td class='val'>RM607</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Honeymoon &amp; keluarga mahu premium</td><td class='val'>Group besar, nilai terbaik</td><td class='val'>Bajet terkawal di Long Beach</td><td class='val'>Paling jimat, suasana tenang</td></tr></tbody></table>",
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar per pax, 3D2N, 2 atau 3 orang sebilik (Default Standard Room). MYR, tiada margin ditambah. Shari-la = katalog BASIC V3 2026; Mimpi = katalog STANDARD V3 2026. Ombak &amp; Flora Bay: sumber rate card ARBA - tiada dalam katalog.</p><div class='custblk'><h3>Kadar Dewasa (12 tahun ke atas) - RM/pax</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Mimpi (STANDARD) <span class='src'>katalog V3</span></th><th>Ombak <span class='src'>rate card</span></th><th>Shari-la (BASIC) <span class='src'>katalog V3</span></th><th>Flora Bay <span class='src'>rate card</span></th></tr></thead><tbody><tr><td class='it'>1 (solo)</td><td class='add'>2,197</td><td class='add'>1,510</td><td class='add'>1,457</td><td>on request</td></tr><tr><td class='it'>2 - 3</td><td class='add'>1,597</td><td class='add'>1,177</td><td class='add'>1,097</td><td class='add'>797</td></tr><tr><td class='it'>4 - 5</td><td class='add'>1,597</td><td class='add'>1,127</td><td class='add'>1,057</td><td class='add'>657</td></tr><tr><td class='it'>6 - 7</td><td class='add'>1,597</td><td class='add'>1,127</td><td class='add'>1,007</td><td class='add'>657</td></tr><tr><td class='it'>8 - 10</td><td class='add'>1,597</td><td class='add'>1,077</td><td class='add'>997</td><td class='add'>607</td></tr></tbody></table><p class='custnote'>Katalog Ombak (2 pax) RM1,177 dan Flora Bay RM797 ke bawah adalah kadar rate card ARBA. Mimpi rata RM1,597 untuk 2 hingga 10 pax.</p></div><div class='custblk'><h3>Kadar Kanak-kanak - Tier Katalog</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Shari-la CWB<br>(6-11 thn)</th><th>Shari-la CNB<br>(2-5 thn)</th><th>Mimpi CWB<br>(6-11 thn)</th><th>Mimpi CNB<br>(2-5 thn)</th></tr></thead><tbody><tr><td class='it'>2 - 3</td><td class='add'>997</td><td class='add'>897</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>4 - 5</td><td class='add'>957</td><td class='add'>857</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>6 - 7</td><td class='add'>907</td><td class='add'>807</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>8 - 10</td><td class='add'>897</td><td class='add'>797</td><td class='add'>1,497</td><td class='add'>1,397</td></tr></tbody></table><p class='custnote'>Kadar 1 pax (solo) tiada kadar kanak-kanak dalam katalog. CWB = Child With Bed, CNB = Child No Bed.</p></div><div class='custblk'><h3>Kadar Kanak-kanak - Tier Rate Card</h3><table class='ctbl'><thead><tr><th>Resort</th><th>Child With Bed</th><th>Child No Bed</th><th>Infant</th></tr></thead><tbody><tr><td class='it'>Ombak <span class='src'>rate card</span></td><td class='add'>1,057</td><td class='add'>657</td><td>FOC</td></tr><tr><td class='it'>Flora Bay <span class='src'>rate card</span></td><td class='add'>597</td><td class='add'>357</td><td>FOC</td></tr></tbody></table></div><div class='custblk'><h3>Nota Harga Katalog</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Tempoh sah katalog</td><td>Valid until 15 Oktober 2026</td></tr><tr><td class='it'>Sah sebut harga</td><td>Semua harga sah 24 jam selepas quotation dihantar</td></tr><tr><td class='it'>Asas bilik</td><td>Harga untuk 2 atau 3 orang sebilik, Default Standard Room</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM250 per pax</td></tr><tr><td class='it'>Full payment</td><td>30 hari sebelum bertolak</td></tr><tr><td class='it'>Late booking</td><td class='add'>RM50/booking</td></tr><tr><td class='it'>Peak season</td><td>Harga tidak terpakai semasa peak season - rujuk tab Surcharge</td></tr></tbody></table></div>",
+   "custom": "<h2>Simple Customisation (Add-ons)</h2><p class='ssub'>Add-on rasmi katalog V3 2026 di atas; item rate card ARBA di bawah.</p><div class='custblk'><h3>Add On Activity - Katalog V3 2026</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Return Airport Transfer (sharing)</td><td class='add'>RM65/pax</td><td>Kota Bharu Airport &harr; Jetty Kuala Besut</td></tr><tr><td class='it'>Return Private Boat Transfer</td><td class='add'>RM957/boat</td><td>Jetty Kuala Besut &harr; resort, max 12 pax sebot</td></tr><tr><td class='it'>Private Boat Island Hopping (5 point)</td><td class='add'>RM957/boat</td><td>Shark, Fish, Nemo, Turtle Point &amp; Teluk Keke; max 12 pax</td></tr><tr><td class='it'>Snorkelling Pulau Rawa</td><td class='add'>RM120/pax</td><td>sharing boat, minimum 4 pax</td></tr><tr><td class='it'>Scuba Diving (DSD)</td><td class='add'>RM300/pax</td><td>termasuk scuba gear &amp; dive master, minimum 1 pax</td></tr><tr><td class='it'>Scuba Diving (Fun Dive)</td><td class='add'>RM120/pax</td><td>termasuk scuba gear &amp; dive master, minimum 1 pax</td></tr><tr><td class='it'>Honeymoon Package - Mimpi</td><td class='add'>RM600/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr><tr><td class='it'>Honeymoon Package - Ombak</td><td class='add'>RM380/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr><tr><td class='it'>Honeymoon Package - Shari-la</td><td class='add'>RM280/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr></tbody></table></div><div class='custblk'><h3>Add On Lain - Sumber: rate card ARBA (tiada dalam katalog)</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Per</th></tr></thead><tbody><tr><td class='it'>Honeymoon Package - Flora Bay</td><td class='add'>RM297</td><td>couple</td></tr><tr><td class='it'>Kayak</td><td class='add'>RM15</td><td>jam/couple</td></tr><tr><td class='it'>Picnic Trip</td><td class='add'>RM45</td><td>pax/trip</td></tr><tr><td class='it'>Extra Breakfast</td><td class='add'>RM25</td><td>pax</td></tr><tr><td class='it'>Extra Lunch / Dinner</td><td class='add'>RM35</td><td>pax</td></tr><tr><td class='it'>BBQ Dinner</td><td class='add'>RM37</td><td>pax</td></tr><tr><td class='it'>Takaful TripCare 360 (individu 1-5 hari)</td><td class='add'>RM50</td><td>pax</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM20 - RM70</td><td>unit</td></tr></tbody></table></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Buka panel itinerary hanya bila nak ubah hari.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Perhentian BASIC &middot; Shari-la Resort (3D2N) &mdash; katalog V3</option><option value='1'>PT Perhentian STANDARD &middot; Mimpi Resort (3D2N) &mdash; katalog V3</option><option value='2'>PT Perhentian &middot; Ombak Resort (3D2N) &mdash; rate card ARBA</option><option value='3'>PT Perhentian &middot; Flora Bay Resort (3D2N) &mdash; rate card ARBA</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Kanak-kanak dengan katil (6&ndash;11 thn)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Kanak-kanak tanpa katil (2&ndash;5 thn)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Katalog V3 tiada kategori infant; rate card ARBA tulis infant <b>FOC</b> untuk Ombak &amp; Flora Bay. Sahkan polisi resort.</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Katalog: Mimpi +RM600 &middot; Shari-la +RM500 &middot; Ombak / Flora Bay +RM400 (rate card). Kadar rata untuk pakej 2 malam &mdash; tidak berskala bila malam ditambah.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge &amp; Supplement</h2><p class='ssub'>Nilai katalog V3 2026 adalah rujukan rasmi. Item yang tiada dalam katalog dilabel rate card ARBA.</p><div class='custblk'><h3>Peak Season &amp; Travel Date</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Tarikh</th><th>Surcaj</th></tr></thead><tbody><tr><td class='it'>Shari-la (BASIC) <span class='src'>katalog V3</span></td><td>21 Mac 2025 - 30 September 2026</td><td class='add'>+RM50/pax/malam</td></tr><tr><td class='it'>Shari-la (BASIC) 2027 <span class='src'>katalog V3</span></td><td>15 Februari 2027 - 31 Mac 2027</td><td class='add'>+RM50/pax/malam</td></tr><tr><td class='it'>Mimpi (STANDARD) <span class='src'>katalog V3</span></td><td>26 Mei - 1 Jun 2026 &middot; 1 Julai - 31 Ogos 2026</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Mimpi (STANDARD) 2027 <span class='src'>katalog V3</span></td><td>15 Februari 2027 - 31 Mac 2027</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Ombak <span class='src'>rate card</span></td><td>Ikut tarikh peak rate card 2026</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Flora Bay <span class='src'>rate card</span></td><td>Ikut tarikh peak rate card 2026</td><td class='add'>+RM50/pax/malam</td></tr></tbody></table></div><div class='custblk'><h3>Supplement &amp; Caj Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement - Mimpi (STANDARD)</td><td class='add'>+RM600/pax</td><td><span class='src'>katalog V3</span></td></tr><tr><td class='it'>Single Supplement - Shari-la (BASIC)</td><td class='add'>+RM500/pax</td><td><span class='src'>katalog V3</span></td></tr><tr><td class='it'>Single Supplement - Ombak / Flora Bay</td><td class='add'>+RM400/pax</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM50/booking</td><td>tempahan kurang 45 hari sebelum bertolak <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Marine Park Entrance Fee</td><td class='add'>RM5 dewasa / RM2 kanak</td><td>wajib, bayar sendiri di jetty <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Passport bukan warganegara Malaysia</td><td class='add'>by request</td><td>surcaj dikira semasa quotation <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Tambah 1 malam (4D3N)</td><td class='add'>Ombak +RM475/dewasa &middot; Mimpi +RM550 &middot; CWB +RM375</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Kurang 1 malam (2D1N)</td><td class='ded'>Ombak -RM400/dewasa &middot; CWB -RM300</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Halfboard (breakfast sahaja)</td><td class='ded'>-RM150/dewasa &middot; -RM100/kanak</td><td><span class='src'>rate card</span></td></tr></tbody></table></div>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub'>Destinasi domestik - pengangkutan darat ke jetty dan boat transfer ke pulau. Flight tidak termasuk.</p><div class='custblk'><h3>Boat &amp; Transfer</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Jetty Kuala Besut</td><td>Beroperasi lebih kurang 8 pagi hingga 5 petang; boat 30 - 45 minit ke pulau</td></tr><tr><td class='it'>Shared Boat Transfer</td><td>Boat transfer berkongsi dengan pelancong lain - termasuk dalam pakej <span class='src'>katalog V3</span></td></tr><tr><td class='it'>SIC Tour</td><td>Boat dan aktiviti berkongsi dengan pelancong lain <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Waktu boat</td><td>Tertakluk kepada cuaca dan keadaan pasang surut <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Return Airport Transfer</td><td class='add'>RM65/pax</td></tr><tr><td class='it'>Return Private Boat Transfer</td><td class='add'>RM957/boat (max 12 pax)</td></tr><tr><td class='it'>Guide</td><td>Tiada tour leader ARBA onsite; boatman dan staf resort menguruskan group. Tour leader upon request.</td></tr></tbody></table></div>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Empat tier resort. Shari-la dan Mimpi adalah hotel rasmi katalog V3 2026; Ombak dan Flora Bay dari rate card ARBA.</p><div class='custblk'><h3>Susunan Bilik</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Asas harga</td><td>2 atau 3 orang sebilik <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Jenis bilik</td><td>Default Standard Room <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Triple sharing</td><td>3 katil single disediakan ikut availability; extra bed ditambah jika tiada katil triple <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Single supplement</td><td class='add'>Mimpi +RM600 &middot; Shari-la +RM500 &middot; Ombak / Flora Bay +RM400</td></tr><tr><td class='it'>Penginapan akhir</td><td>Itinerari dan susunan penginapan akhir dikongsi 14 hari sebelum trip <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Solat</td><td>Semua resort ada ruang solat; Masjid Ar-Rahman di Perhentian Kecil dan Surau Al-Hijrah di Perhentian Besar</td></tr></tbody></table></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? perhentian: marine park fee kod: fpht (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Perhentian:</strong> Marine Park Fee <span class='gchip'>Kod: FPHT</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Peta laluan rasmi produk PT Perhentian 3H2M.</p><div class='mapcard'><div class='maptitle'>PT Perhentian 3H2M - Private Trip</div><img src='@asset:430332200caf' alt='PT Perhentian 3H2M Travel Map'><div class='mapcap'>Kuala Besut Jetty &rarr; Perhentian Kecil (Long Beach) &rarr; 5 Points Snorkelling (Fish Point, Turtle Point, Shark Point, Kg Nelayan, Teluk Keke, Nemo Point) &rarr; Kuala Besut Jetty.</div></div>"
+  },
+  "snapshot": "# PT Perhentian - Knowledge Base (Important Notes & FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Empat tier resort 3D2N. Shari-la (katalog BASIC V3 2026) dan Mimpi (katalog STANDARD V3 2026) di Perhentian Kecil. Ombak (Perhentian Kecil) dan Flora Bay (Perhentian Besar) dari rate card ARBA - tiada dalam katalog V3.*\n\n- Semua harga sah 24 jam selepas quotation dihantar.\n- Harga untuk 2 atau 3 orang sebilik, Default Standard Room.\n- Single supplement: Mimpi +RM600/pax, Shari-la +RM500/pax, Ombak & Flora Bay +RM400/pax.\n- Deposit RM250 per pax. Full payment 30 hari sebelum bertolak.\n- Late booking +RM50/booking untuk tempahan kurang 45 hari sebelum tarikh bertolak.\n- Marine Park Entrance Fee wajib dibayar sendiri di jetty: dewasa RM5, kanak-kanak RM2.\n- Harga tidak terpakai semasa peak season - rujuk tab Surcharge.\n- Katalog sah sehingga 15 Oktober 2026. Pulau TUTUP semasa monsun 15 Oktober hingga 15 Februari, tiada trip pada tarikh tersebut.\n- Itinerari dan susunan penginapan akhir dikongsi 14 hari sebelum trip.\n- Itinerari boleh berubah ikut cuaca, keadaan laut, trafik dan keselamatan tanpa notis awal.\n- Waktu boat tertakluk kepada cuaca dan keadaan pasang surut.\n- Sila semak dengan staf ARBA tentang validity trip sebelum tempah sebarang connecting flight.\n- Aktiviti percuma tidak boleh ditukar dengan aktiviti lain, voucher atau tunai jika customer tidak menyertai atau atas sebab cuaca dan availability.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej Perhentian ni betul-betul all-in?**\nTermasuk return boat transfer SIC, 2 malam penginapan, fullboard halal (2x Breakfast, 2x Lunch, 2x Dinner), 5 points snorkelling trip dengan gear, serta ground and tipping. Belum termasuk Marine Park Fee, flight, airport transfer dan optional activities.\n\n**Apa kelebihan pakej ARBA?**\nFullboard halal sepenuhnya, 5 points snorkelling penuh (bukan 3 points), ground and tipping sudah included, dan empat pilihan tier resort dari budget hingga premium.\n\n**Beza Flora Bay, Shari-la, Ombak dan Mimpi?**\nMimpi = katalog STANDARD, premium, dari RM1,597/pax. Ombak = tier 3 bintang di Long Beach, dari RM1,177/pax (rate card). Shari-la = katalog BASIC di Long Beach, dari RM1,097/pax. Flora Bay = paling jimat, di Perhentian Besar yang lebih tenang, dari RM797/pax (rate card).\n\n**Tempat mana akan dilawati?**\nLima snorkelling point (Fish Point, Turtle Point, Shark Point, Nemo Point dan Teluk Keke Beach) dengan lunch break di Kg Nelayan, Windmill Trekking, dan Longbeach Fireshow.\n\n**Pakej ni rushing tak?**\nTidak. Day 1 free and easy dengan aktiviti pantai, Day 2 snorkelling trip penuh, Day 3 leisure sebelum check out.\n\n**Boleh customize itinerari?**\nBoleh. Tambah 1 malam jadi 4D3N (+RM475/dewasa Ombak, +RM550 Mimpi), tukar ke halfboard (-RM150/dewasa), atau tambah aktiviti seperti scuba diving, Pulau Rawa dan private boat island hopping.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat?**\nYa. Semua meals dalam pakej adalah halal dan disediakan di resort (masakan tempatan). Di Long Beach dan kampung ada banyak kedai makan halal.\n\n**Akan makan apa?**\n2x Breakfast, 2x Lunch dan 2x Dinner. Satu lunch di Kg Nelayan semasa snorkelling trip. Meals adalah local food. Boleh tambah BBQ Dinner RM37/pax.\n\n**Kalau saya tak nak pergi snorkelling hari kedua, lunch dekat mana?**\nKalau ikut snorkelling trip, lunch disediakan di Kg Nelayan. Kalau tidak ikut, customer boleh walk in ke mana-mana cafe atau kedai makan berdekatan resort.\n\n**Ada masjid atau surau untuk solat?**\nYa. Di Perhentian Kecil ada Masjid Ar-Rahman (masjid terapung). Di Perhentian Besar ada Surau Al-Hijrah berhampiran Flora Bay. Semua resort menyediakan ruang solat.\n\n**Macam mana nak solat masa snorkelling trip?**\nBoleh jamak dan qasar. Solat di surau Kg Nelayan semasa lunch break, atau di resort sebelum dan selepas trip. Bawa telekung dan sejadah ringkas.\n\n### C. Visa & Passport\n\n**Perlu visa?**\nTidak. Perhentian destinasi domestik Malaysia, tiada visa diperlukan.\n\n**Dokumen apa perlu dibawa?**\nMyKad untuk check in flight domestik. Simpan salinan tempahan. Pemegang passport bukan warganegara Malaysia dikenakan surcaj - minta quotation dari PO.\n\n### D. Flight & Airport\n\n**Naik flight apa dan ke mana?**\nFlight tidak termasuk dalam pakej. Terbang ke Kota Bharu (KBR) yang paling dekat dengan Jetty Kuala Besut (lebih kurang 1 jam), atau Kuala Terengganu (TGG) lebih kurang 1.5 hingga 2 jam. Airline domestik: AirAsia, Malaysia Airlines, Batik Air. Sumber: rujukan dalaman ARBA - Perhentian tiada dalam Flight Recommendation.\n\n**Ada transfer dari airport ke jetty?**\nAda, add on RM65/pax untuk return airport transfer secara sharing, Kota Bharu Airport ke Jetty Kuala Besut dan sebaliknya.\n\n**Berapa kg bagasi dan had boat?**\nDomestik: AirAsia 20kg, Malaysia Airlines 25kg. Boat berkapasiti terhad - bawa maksimum satu luggage setiap pax.\n\n**Pukul berapa boat terakhir?**\nLebih kurang 4 hingga 4.30 petang dari Jetty Kuala Besut. Kalau mendarat di Kota Bharu, pastikan tiba di jetty sebelum 3 petang.\n\n### E. Hotel & Bilik\n\n**Menginap di pulau mana?**\nPerhentian Kecil untuk Shari-la, Ombak dan Mimpi. Perhentian Besar untuk Flora Bay.\n\n**Bilik macam mana?**\nDefault Standard Room untuk 2 atau 3 orang sebilik. Triple sharing dengan 3 katil single disediakan ikut availability; extra bed ditambah jika tiada katil triple pada tarikh tersebut.\n\n**Berapa single supplement?**\nMimpi +RM600/pax, Shari-la +RM500/pax, Ombak dan Flora Bay +RM400/pax.\n\n**Ada aircond dan wifi?**\nSemua bilik aircond. Wifi resort terhad, jangan jangka laju.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\nMei hingga Ogos - cuaca kering, air jernih dan laut tenang, paling sesuai untuk snorkelling.\n\n**Bila pulau tutup?**\n15 Oktober hingga 15 Februari, musim monsun Pantai Timur. Pulau tutup dan tiada trip pada tarikh tersebut.\n\n**Cuaca semasa musim buka macam mana?**\nUmumnya kering dan tenang. Waktu petang boat kadang sedikit choppy.\n\n### G. Shopping & Duit\n\n**Perlu bawa cash berapa?**\nRM200 hingga RM500 setiap pax untuk Marine Park Fee, minuman, souvenir dan optional activity. Kad dan QR tiada di sesetengah kedai.\n\n**Ada ATM di pulau?**\nTiada ATM yang boleh diharap. Keluarkan cash di Kota Bharu atau Kuala Besut sebelum menyeberang.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM250 per pax untuk semua tier.\n\n**Bila full payment?**\n30 hari sebelum tarikh bertolak.\n\n**Ada late booking charge?**\nYa, RM50 per booking untuk tempahan kurang 45 hari sebelum tarikh bertolak.\n\n**Harga quotation sah berapa lama?**\n24 jam selepas quotation dihantar.\n\n### I. Add-ons & Customization\n\n**Ada pakej honeymoon?**\nAda. Mimpi RM600/couple, Ombak RM380/couple, Shari-la RM280/couple, Flora Bay RM297/couple (rate card). Termasuk deko bilik honeymoon dan candle light dinner.\n\n**Boleh scuba diving?**\nBoleh. Discover Scuba Diving RM300/pax dan Fun Dive RM120/pax, termasuk scuba gear dan dive master, minimum 1 pax.\n\n**Ada snorkelling tambahan?**\nAda. Snorkelling Pulau Rawa RM120/pax secara sharing boat, minimum 4 pax untuk join.\n\n**Boleh sewa boat sendiri?**\nBoleh. Return Private Boat Transfer RM957/boat dan Private Boat Island Hopping 5 point RM957/boat, maksimum 12 pax setiap boat.\n\n**Ada insurans atau takaful?**\nAda add on Takaful TripCare 360 dari RM50/pax (rate card).\n\n### J. Kesihatan & Keselamatan\n\n**Snorkelling selamat untuk bukan perenang?**\nYa. Life jacket disediakan dan boatman mengawasi. Spot seperti Turtle Point cetek dan sesuai untuk pemula.\n\n**Sesuai untuk warga emas?**\nSesuai. Boat ride boleh choppy waktu petang, bawa ubat motion sickness.\n\n**Sesuai untuk anak kecil?**\nSesuai. Life jacket included. Anak bawah 4 tahun disarankan bawa goggle sendiri kerana saiz resort tidak muat.\n\n### K. Praktikal (Connectivity & Pakaian)\n\n**Ada coverage telefon?**\nCelcom dan Digi paling stabil di kebanyakan kawasan. Maxis dan U Mobile lebih lemah. Wifi resort terhad.\n\n**Boleh guna kad atau QR untuk bayar?**\nTerhad. Kebanyakan kedai di pulau menerima cash sahaja.\n\n**Betul ke Perhentian strict tentang pakaian?**\nBetul. Selagi boleh cover, kena cover. Di area Kg Nelayan atau perkampungan nelayan wajib pakai t-shirt atau tuala menutup badan kerana itu kawasan perkampungan. Di area beach lebih santai kerana bercampur dengan tourist.\n\n### L. Packing\n\n**Apa perlu bawa?**\nPakaian menutup aurat mesra air (rashguard atau legging), telekung dan sejadah ringkas, sunblock, topi, ubat motion sickness, dry bag, goggle untuk anak kecil, cash secukupnya dan MyKad.\n"
+ },
+ "calc": {
+  "dest": "Perhentian",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "childLabels": {
+   "cwb": "Kanak-kanak dengan katil (6&ndash;11 thn)",
+   "cnb": "Kanak-kanak tanpa katil (2&ndash;5 thn)"
+  },
+  "infantNote": "Katalog V3 tiada kategori infant; rate card ARBA tulis infant <b>FOC</b> untuk Ombak &amp; Flora Bay. Sahkan polisi resort.",
+  "singleNote": "Katalog: Mimpi +RM600 &middot; Shari-la +RM500 &middot; Ombak / Flora Bay +RM400 (rate card). Kadar rata untuk pakej 2 malam &mdash; tidak berskala bila malam ditambah.",
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "extra"
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 35,
+   "drop": 35
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "library": [
+   {
+    "v": "ext",
+    "g": "Hari tambahan",
+    "region": "[Perhentian]",
+    "t": "Hari tambahan di pulau - free & easy",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "none",
+    "act": [
+     "Free & easy di resort",
+     "Aktiviti pantai / snorkeling sendiri",
+     "Breakfast, lunch & dinner di resort"
+    ],
+    "en": "EXTRA DAY AT PERHENTIAN - FREE & EASY",
+    "eact": [
+     "Free & easy at resort",
+     "Beach activities at leisure",
+     "Breakfast, lunch & dinner at resort"
+    ]
+   },
+   {
+    "v": "libact",
+    "g": "Hari tambahan",
+    "region": "[Perhentian]",
+    "t": "Hari tambahan - aktiviti optional (beli sebagai add-on)",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "none",
+    "act": [
+     "Free & easy / aktiviti optional ikut pilihan customer",
+     "Pilih add-on: Pulau Rawa, scuba diving atau private boat island hopping",
+     "Breakfast, lunch & dinner di resort"
+    ],
+    "en": "EXTRA DAY AT PERHENTIAN - OPTIONAL ACTIVITIES",
+    "eact": [
+     "Free & easy at leisure",
+     "Optional activities as selected",
+     "Breakfast, lunch & dinner at resort"
+    ]
+   },
+   {
+    "v": "kbin",
+    "g": "Transfer lapangan terbang",
+    "t": "Ketibaan Kota Bharu - transfer ke Jetty Kuala Besut",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "kbtrf",
+    "act": [
+     "Tiba Lapangan Terbang Sultan Ismail Petra, Kota Bharu (KBR)",
+     "Transfer sharing ke Jetty Kuala Besut (~1 jam 30 minit)",
+     "Bermalam di Kuala Besut / Kota Bharu - penginapan belum termasuk"
+    ],
+    "en": "KOTA BHARU ARRIVAL - KUALA BESUT JETTY",
+    "eact": [
+     "Arrive Sultan Ismail Petra Airport, Kota Bharu (KBR)",
+     "Transfer on sharing basis to Kuala Besut Jetty (approx. 1 hour 30 minutes)"
+    ]
+   },
+   {
+    "v": "kbout",
+    "g": "Transfer lapangan terbang",
+    "t": "Jetty Kuala Besut - transfer ke Kota Bharu, berlepas",
+    "acc": "none",
+    "meal": "none",
+    "trp": "kbtrf",
+    "act": [
+     "Transfer sharing dari Jetty Kuala Besut ke Lapangan Terbang Kota Bharu (KBR)",
+     "Berlepas"
+    ],
+    "en": "KUALA BESUT JETTY - KOTA BHARU DEPARTURE",
+    "eact": [
+     "Transfer on sharing basis from Kuala Besut Jetty to Kota Bharu Airport (KBR)",
+     "Departure"
+    ]
+   }
+  ],
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Resort (malam dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan di resort (fullboard)",
+    "cost": "night",
+    "nightRate": "addnight",
+    "incl": "Additional night at resort on fullboard basis ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / balik ke jetty)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (dalam pakej)",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Breakfast"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner (hari ketibaan)",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner (fullboard)",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch sahaja",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "boatin",
+    "t": "Shared boat transfer &mdash; Jetty Kuala Besut &rarr; Perhentian (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Shared Boat Transfer (Kuala Besut Jetty - Perhentian Island)",
+    "incl": "Return Shared Boat Transfer (SIC), Kuala Besut Jetty to Perhentian Island ({days})"
+   },
+   {
+    "v": "boatsnk",
+    "t": "Boat 5-points snorkeling trip (SIC, dalam pakej)",
+    "cost": "incl",
+    "lbl": "Boat for 5-Points Snorkelling Trip (SIC)",
+    "incl": "5 Points Snorkelling Trip including snorkelling gear ({days})"
+   },
+   {
+    "v": "boatout",
+    "t": "Shared boat transfer &mdash; Perhentian &rarr; Jetty Kuala Besut (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Shared Boat Transfer (Perhentian Island - Kuala Besut Jetty)"
+   },
+   {
+    "v": "kbtrf",
+    "t": "Airport transfer Kota Bharu &harr; Jetty Kuala Besut (sharing, sehala)",
+    "cost": "zero",
+    "perPax": 65,
+    "lbl": "Airport Transfer (Kota Bharu - Kuala Besut Jetty)",
+    "line": "Airport Transfer on sharing basis (one way)",
+    "incl": "Airport Transfer on sharing basis, Kota Bharu Airport to Kuala Besut Jetty ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada boat / free &amp; easy di pulau",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 1,
+    "to": 1,
+    "text": "Solo: harga tier 1 pax <b>sudah</b> berasaskan bilik single occupancy &mdash; <b>jangan tambah single supplement lagi</b>. Flora Bay tiada harga tersiar untuk 1 pax (<i>on request</i>)."
+   },
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "11 pax ke atas: tier katalog berhenti pada 10 pax, jadi kalkulator guna tier 8&ndash;10. <b>Quote manual</b> dan sahkan dengan operator. Private boat maksimum 12 pax sebot."
+   },
+   {
+    "from": 1,
+    "to": 99999,
+    "text": "<b>Kadar tidak tersiar</b> (quote manual, sahkan dengan operator): tarikh peak Ombak &amp; Flora Bay (amaun tersiar +RM150 dan +RM50 per pax per malam, tarikh tidak) &middot; tambah-malam BASIC &amp; Flora Bay &middot; kurang-malam BASIC, STANDARD &amp; Flora Bay."
+   },
+   {
+    "from": 1,
+    "to": 99999,
+    "text": "Semak tarikh bertolak bukan dalam musim monsun (<b>15 Okt &ndash; 15 Feb</b>, pulau tutup). Marine Park Fee (katalog RM5/RM2 &middot; RAW DATA PHT 2026 RM12/pax &mdash; sahkan) dan flight domestik tidak termasuk."
+   }
+  ],
+  "addons": [
+   [
+    "Airport Transfer Kota Bharu - Jetty Kuala Besut (sharing, sehala)",
+    65,
+    65,
+    "pax"
+   ],
+   [
+    "Airport Transfer Kota Bharu - Jetty Kuala Besut (sharing, return)",
+    130,
+    130,
+    "pax"
+   ],
+   [
+    "Private Boat Transfer return - Jetty Kuala Besut ke resort (max 12 pax sebot)",
+    957,
+    0,
+    "unit"
+   ],
+   [
+    "Private Boat Island Hopping 5 snorkelling point (max 12 pax sebot)",
+    957,
+    0,
+    "unit"
+   ],
+   [
+    "Snorkelling Pulau Rawa (sharing boat, minimum 4 pax)",
+    120,
+    120,
+    "pax"
+   ],
+   [
+    "Scuba Diving DSD - termasuk gear & dive master (minimum 1 pax)",
+    300,
+    300,
+    "pax"
+   ],
+   [
+    "Scuba Diving Fun Dive - termasuk gear & dive master (minimum 1 pax)",
+    120,
+    120,
+    "pax"
+   ],
+   [
+    "Honeymoon Package Mimpi - deko bilik + candle light dinner",
+    600,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon Package Ombak - deko bilik + candle light dinner",
+    380,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon Package Shari-la - deko bilik + candle light dinner",
+    280,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon Package Flora Bay - deko bilik + candle light dinner",
+    297,
+    0,
+    "unit"
+   ],
+   [
+    "Picnic Trip",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Extra Breakfast",
+    25,
+    25,
+    "pax"
+   ],
+   [
+    "Extra Lunch / Dinner",
+    35,
+    35,
+    "pax"
+   ],
+   [
+    "BBQ Dinner",
+    37,
+    37,
+    "pax"
+   ],
+   [
+    "Kayak - per jam per couple",
+    15,
+    0,
+    "unit"
+   ],
+   [
+    "Takaful TripCare 360 individu 1-5 hari (Area 1 domestik)",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Luggage Tracker Blue Ribbon Silver",
+    20,
+    0,
+    "unit"
+   ],
+   [
+    "Luggage Tracker Blue Ribbon Gold",
+    40,
+    0,
+    "unit"
+   ],
+   [
+    "Luggage Tracker Blue Ribbon Platinum",
+    55,
+    0,
+    "unit"
+   ],
+   [
+    "Luggage Tracker Blue Ribbon Diamond",
+    70,
+    0,
+    "unit"
+   ]
+  ],
+  "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to resort and room availability as no space has been secured. Prices are quoted for 2 to 3 persons per room on a Default Standard Room basis. A deposit of RM 250 per person is required upon confirmation, with full payment due 30 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Boat timings are subject to weather and sea tide conditions; SIC tour and shared boat transfer are shared with other travellers. Marine Park Entrance Fees (Adult RM 5 / Child RM 2) are payable directly by guests at Kuala Besut Jetty. Perhentian Island is closed during the monsoon season from 15 October to 15 February and no trips operate on those dates. Triple sharing rooms with 3 single beds are provided subject to availability; an extra bed is added if no triple bed is available during the travel period. Itinerary, price and boat schedule are subject to change (weather, sea conditions, safety). Final itinerary and accommodation arrangements are confirmed 14 days before the trip. Any complimentary activity is non-exchangeable for other activities, vouchers or cash. Package is valid until 15 October 2026.",
+  "variants": [
+   {
+    "id": "basic",
+    "name": "PT Perhentian BASIC &middot; Shari-la Resort (3D2N) &mdash; katalog V3",
+    "pkgLabel": "Private Tour Perhentian BASIC - Shari-la Resort",
+    "hotelLabel": "Shari-la Perhentian Resort (2.5-Star)",
+    "days": 3,
+    "nights": 2,
+    "single": 500,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": 1457,
+      "c": 0,
+      "n": 0
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "a": 1097,
+      "c": 997,
+      "n": 897
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 1057,
+      "c": 957,
+      "n": 857
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 1007,
+      "c": 907,
+      "n": 807
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 997,
+      "c": 897,
+      "n": 797
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": [
+      [
+       "2025-03-21",
+       "2026-09-30"
+      ],
+      [
+       "2027-02-15",
+       "2027-03-31"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "day": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 12,
+     "rates": {
+      "addnight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Perhentian]",
+      "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+      "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "boatin",
+      "act": [
+       "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+       "Check-in Shari-la Perhentian Resort (~3pm)",
+       "Free & easy + aktiviti pantai",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (malam)",
+       "Lunch & dinner di resort"
+      ],
+      "eact": [
+       "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+       "Check-in at Shari-la Perhentian Resort (approx. 3pm)",
+       "Free & easy, beach activities",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (evening)",
+       "Lunch & dinner at resort"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Perhentian]",
+      "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+      "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "boatsnk",
+      "act": [
+       "Breakfast di resort",
+       "Boat snorkeling trip 5 points",
+       "Fish Point",
+       "Turtle Point (penyu)",
+       "Shark Point (jerung karang blacktip)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Balik resort, free & easy",
+       "Dinner di resort"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "5 Points Snorkelling Trip by boat",
+       "Fish Point",
+       "Turtle Point",
+       "Shark Point (blacktip reef shark)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Return to resort, free & easy",
+       "Dinner at resort"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Perhentian]",
+      "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+      "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "boatout",
+      "act": [
+       "Breakfast di resort",
+       "Free & easy / leisure",
+       "Check-out Shari-la Perhentian Resort",
+       "Shared boat transfer balik ke Jetty Kuala Besut"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "Free & easy at leisure",
+       "Check-out from Shari-la Perhentian Resort",
+       "Shared boat transfer back to Kuala Besut Jetty"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "{nights} nights accommodation at Shari-la Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+     "All meals as per itinerary - halal local food",
+     "Ground handling & tipping"
+    ],
+    "exclusions": [
+     "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+     "Surcharge for Non-Malaysian passport holders (quoted separately)",
+     "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+     "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+     "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+     "Travel insurance / takaful",
+     "Personal expenses and additional meals"
+    ]
+   },
+   {
+    "id": "standard",
+    "name": "PT Perhentian STANDARD &middot; Mimpi Resort (3D2N) &mdash; katalog V3",
+    "pkgLabel": "Private Tour Perhentian STANDARD - Mimpi Resort",
+    "hotelLabel": "Mimpi Perhentian Resort (4-Star)",
+    "days": 3,
+    "nights": 2,
+    "single": 600,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": 2197,
+      "c": 0,
+      "n": 0
+     },
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1597,
+      "c": 1497,
+      "n": 1397
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 150,
+     "windows": [
+      [
+       "2026-05-26",
+       "2026-06-01"
+      ],
+      [
+       "2026-07-01",
+       "2026-08-31"
+      ],
+      [
+       "2027-02-15",
+       "2027-03-31"
+      ]
+     ]
+    },
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "day": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 12,
+     "rates": {
+      "addnight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 550,
+         "peak": 550
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Perhentian]",
+      "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+      "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "boatin",
+      "act": [
+       "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+       "Check-in Mimpi Perhentian Resort (~3pm)",
+       "Free & easy + aktiviti pantai",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (malam)",
+       "Lunch & dinner di resort"
+      ],
+      "eact": [
+       "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+       "Check-in at Mimpi Perhentian Resort (approx. 3pm)",
+       "Free & easy, beach activities",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (evening)",
+       "Lunch & dinner at resort"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Perhentian]",
+      "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+      "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "boatsnk",
+      "act": [
+       "Breakfast di resort",
+       "Boat snorkeling trip 5 points",
+       "Fish Point",
+       "Turtle Point (penyu)",
+       "Shark Point (jerung karang blacktip)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Balik resort, free & easy",
+       "Dinner di resort"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "5 Points Snorkelling Trip by boat",
+       "Fish Point",
+       "Turtle Point",
+       "Shark Point (blacktip reef shark)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Return to resort, free & easy",
+       "Dinner at resort"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Perhentian]",
+      "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+      "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "boatout",
+      "act": [
+       "Breakfast di resort",
+       "Free & easy / leisure",
+       "Check-out Mimpi Perhentian Resort",
+       "Shared boat transfer balik ke Jetty Kuala Besut"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "Free & easy at leisure",
+       "Check-out from Mimpi Perhentian Resort",
+       "Shared boat transfer back to Kuala Besut Jetty"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "{nights} nights accommodation at Mimpi Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+     "All meals as per itinerary - halal local food",
+     "Ground handling & tipping"
+    ],
+    "exclusions": [
+     "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+     "Surcharge for Non-Malaysian passport holders (quoted separately)",
+     "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+     "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+     "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+     "Travel insurance / takaful",
+     "Personal expenses and additional meals"
+    ]
+   },
+   {
+    "id": "ombak",
+    "name": "PT Perhentian &middot; Ombak Resort (3D2N) &mdash; rate card ARBA",
+    "pkgLabel": "Private Tour Perhentian - Ombak Resort",
+    "hotelLabel": "Ombak Perhentian Resort (3-Star)",
+    "days": 3,
+    "nights": 2,
+    "single": 400,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": 1510,
+      "c": 0,
+      "n": 0
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "a": 1177,
+      "c": 1057,
+      "n": 657
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 1127,
+      "c": 1057,
+      "n": 657
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 1127,
+      "c": 1057,
+      "n": 657
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 1077,
+      "c": 1057,
+      "n": 657
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 150,
+     "windows": []
+    },
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "day": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 12,
+     "rates": {
+      "addnight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 475,
+         "peak": 475
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -400,
+         "peak": -400
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Perhentian]",
+      "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+      "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "boatin",
+      "act": [
+       "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+       "Check-in Ombak Perhentian Resort (~3pm)",
+       "Free & easy + aktiviti pantai",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (malam)",
+       "Lunch & dinner di resort"
+      ],
+      "eact": [
+       "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+       "Check-in at Ombak Perhentian Resort (approx. 3pm)",
+       "Free & easy, beach activities",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (evening)",
+       "Lunch & dinner at resort"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Perhentian]",
+      "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+      "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "boatsnk",
+      "act": [
+       "Breakfast di resort",
+       "Boat snorkeling trip 5 points",
+       "Fish Point",
+       "Turtle Point (penyu)",
+       "Shark Point (jerung karang blacktip)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Balik resort, free & easy",
+       "Dinner di resort"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "5 Points Snorkelling Trip by boat",
+       "Fish Point",
+       "Turtle Point",
+       "Shark Point (blacktip reef shark)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Return to resort, free & easy",
+       "Dinner at resort"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Perhentian]",
+      "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+      "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "boatout",
+      "act": [
+       "Breakfast di resort",
+       "Free & easy / leisure",
+       "Check-out Ombak Perhentian Resort",
+       "Shared boat transfer balik ke Jetty Kuala Besut"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "Free & easy at leisure",
+       "Check-out from Ombak Perhentian Resort",
+       "Shared boat transfer back to Kuala Besut Jetty"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "{nights} nights accommodation at Ombak Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+     "All meals as per itinerary - halal local food",
+     "Ground handling & tipping"
+    ],
+    "exclusions": [
+     "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+     "Surcharge for Non-Malaysian passport holders (quoted separately)",
+     "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+     "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+     "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+     "Travel insurance / takaful",
+     "Personal expenses and additional meals"
+    ]
+   },
+   {
+    "id": "florabay",
+    "name": "PT Perhentian &middot; Flora Bay Resort (3D2N) &mdash; rate card ARBA",
+    "pkgLabel": "Private Tour Perhentian - Flora Bay Resort",
+    "hotelLabel": "Flora Bay Resort (Budget)",
+    "days": 3,
+    "nights": 2,
+    "single": 400,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": "request",
+      "c": "request",
+      "n": "request"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "a": 797,
+      "c": 597,
+      "n": 357
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 657,
+      "c": 597,
+      "n": 357
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 657,
+      "c": 597,
+      "n": 357
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 607,
+      "c": 597,
+      "n": 357
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 50,
+     "windows": []
+    },
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "day": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 12,
+     "rates": {
+      "addnight": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      }
+     }
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "region": "[Perhentian]",
+      "t": "Jetty Kuala Besut - Perhentian Besar (ketibaan)",
+      "en": "KUALA BESUT JETTY - PERHENTIAN BESAR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "boatin",
+      "act": [
+       "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+       "Check-in Flora Bay Resort (~3pm)",
+       "Free & easy + aktiviti pantai",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (malam)",
+       "Lunch & dinner di resort"
+      ],
+      "eact": [
+       "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+       "Check-in at Flora Bay Resort (approx. 3pm)",
+       "Free & easy, beach activities",
+       "Windmill Hill trekking",
+       "Longbeach Fireshow (evening)",
+       "Lunch & dinner at resort"
+      ]
+     },
+     {
+      "v": "d2",
+      "region": "[Perhentian]",
+      "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+      "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "boatsnk",
+      "act": [
+       "Breakfast di resort",
+       "Boat snorkeling trip 5 points",
+       "Fish Point",
+       "Turtle Point (penyu)",
+       "Shark Point (jerung karang blacktip)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Balik resort, free & easy",
+       "Dinner di resort"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "5 Points Snorkelling Trip by boat",
+       "Fish Point",
+       "Turtle Point",
+       "Shark Point (blacktip reef shark)",
+       "Kg Nelayan (lunch break)",
+       "Teluk Keke Beach",
+       "Nemo Point",
+       "Return to resort, free & easy",
+       "Dinner at resort"
+      ]
+     },
+     {
+      "v": "d3",
+      "region": "[Perhentian]",
+      "t": "Perhentian Besar - Jetty Kuala Besut (berlepas)",
+      "en": "PERHENTIAN BESAR - KUALA BESUT JETTY",
+      "acc": "none",
+      "meal": "b",
+      "trp": "boatout",
+      "act": [
+       "Breakfast di resort",
+       "Free & easy / leisure",
+       "Check-out Flora Bay Resort",
+       "Shared boat transfer balik ke Jetty Kuala Besut"
+      ],
+      "eact": [
+       "Breakfast at resort",
+       "Free & easy at leisure",
+       "Check-out from Flora Bay Resort",
+       "Shared boat transfer back to Kuala Besut Jetty"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "{nights} nights accommodation at Flora Bay Resort, Perhentian Besar (Default Standard Room, 2-3 pax sharing)",
+     "All meals as per itinerary - halal local food",
+     "Ground handling & tipping"
+    ],
+    "exclusions": [
+     "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+     "Surcharge for Non-Malaysian passport holders (quoted separately)",
+     "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+     "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+     "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+     "Travel insurance / takaful",
+     "Personal expenses and additional meals"
+    ]
+   }
+  ]
+ }
+}

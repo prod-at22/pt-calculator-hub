@@ -1,0 +1,1514 @@
+{
+ "slug": "switzerland",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Switzerland — Knowledge Base (TC Reference)",
+   "brandTag": "SWITZERLAND KB",
+   "kicker": "ARBA SWITZERLAND · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Private Tour Switzerland — halal, flight, visa, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: flight ke Zurich? · perlu visa Schengen? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Switzerland…",
+   "heroImage": "@asset:215f64dac8dc",
+   "overviewTitle": "Pakej Private Tour Switzerland",
+   "statusText": "Last updated: 2 September 2026",
+   "footerHtml": "Rujukan dalaman TC &mdash; dijana daripada katalog PT SWITZERLAND STANDARD 7D6N 2026 (8 Dis 2025, sah hingga 31 Dis 2026), rate card R&amp;D, PT Travel Maps, Flight Recommendation, jadual flight frequency KUL &#8644; Zurich (Emirates &amp; Qatar), sheet operator Swiss Additional Activities, FAQ Swiss-Italy &amp; Notion Product FAQ. <b>Katalog adalah source of truth.</b> Last updated: 2 September 2026.<br>Pakej ini <b>Ground &amp; Tipping</b> &mdash; hanya breakfast termasuk; lunch &amp; dinner customer uruskan sendiri. Requirement muslim-friendly (halal, solat) adalah baseline setiap pakej.<br><b>Nota:</b> tiada gambar trip lepas untuk Switzerland dalam folder produk, jadi KB ini tiada tab <i>Gambar Trip Lepas</i> &mdash; ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Rhine Falls — air terjun terbesar Eropah",
+     "Lauterbrunnen — lembah 72 air terjun",
+     "Matterhorn & FREE panoramic train ke Zermatt",
+     "Lokasi filem CLOY: Iseltwald, Lindenhof, Bürkliplatz"
+    ],
+    "usp": "Hotel 3/4★ dekat city centre, Malaysian driver-cum-guide (BM/English), FREE train Täsch–Zermatt, FREE Blausee & FREE Rhine Falls Boat Tour — driver bawa ke restoran halal setiap hari. Overnight di Täsch (lebih dekat Zermatt) — kelebihan berbanding pesaing.",
+    "season": [
+     [
+      "Mei–Sep",
+      "Musim panas: cuaca nyaman 18–25°C, hijau & semua cable car buka — best untuk family."
+     ],
+     [
+      "Dis–Feb",
+      "Musim salji: winter scenery & ski (-5 hingga 5°C); high chance salji di Titlis/Zermatt."
+     ],
+     [
+      "Apr & Nov",
+      "Shoulder season — elak; sesetengah cable car tutup untuk maintenance."
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan kaki di old town & alpine village",
+     "Breakfast di hotel sahaja — Lunch/Dinner di stop halal yang driver bawa",
+     "Pergunungan jauh lebih sejuk dari bandar — pakai berlapis",
+     "ETIAS diperlukan mulai 2026; passport min 3 bulan validity selepas tarikh keluar Eropah",
+     "Max 1 luggage/pax kerana kapasiti van"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Switzerland Standard 7D6N",
+    "tag": "SWITZERLAND · 7D6N",
+    "sub": "Private Tour · Zurich–Zermatt–Interlaken · Malaysian driver-cum-guide",
+    "emoji": "🏔️",
+    "img": "@asset:cd6693630614",
+    "intro": "Private tour 7 hari 6 malam merentasi Switzerland — Zurich, Rhine Falls, Lucerne, Bern, Grindelwald, Lauterbrunnen, Zermatt, Blausee & Interlaken. Travel khas untuk family/group anda sahaja dengan van/MPV persendirian dan Malaysian driver-cum-guide (BM/English). Selesa, fleksibel, santai berbanding group tour — dan driver bawa ke stop halal setiap hari.",
+    "inc": [
+     "Hotel 3/4★ + breakfast — 2 malam Zurich, 2 malam Bern, 1 malam Täsch, 1 malam Bern",
+     "Private Airport Transfer (MPV/Van) — Hari 1 & Hari 7",
+     "Private Transport dalam Switzerland (MPV/Van) — Hari 2–6 + intercity transfer",
+     "Malaysian Driver cum Guide (BM/English speaking)",
+     "FREE Train Transfer Täsch–Zermatt (panoramic ride)",
+     "FREE Entry Lake Blausee",
+     "FREE Rhine Falls Boat Tour (kecuali musim sejuk)",
+     "Tipping included"
+    ],
+    "exc": [
+     "Tiket penerbangan antarabangsa (return)",
+     "Makan Lunch & Dinner (driver bawa ke tempat halal)",
+     "Travel insurance / takaful",
+     "Yuran optional / cable car (Mt Titlis, Schilthorn, Gornergrat, Matterhorn GP, Mount Rigi)",
+     "ETIAS / dokumen perjalanan & perbelanjaan peribadi"
+    ],
+    "note": "Harga Ground & Tipping sahaja — tiket flight TIDAK termasuk. Sah untuk travel period sehingga 31 Dis 2026. Harga based 2–3 orang sebilik. Age based on travel date: Adult 12+, CWB 7–11, CNB 2–6, Infant <2 (RM 900 flat, bukan FOC)."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Zurich (Ketibaan)",
+     "m": "—",
+     "a": [
+      "Tiba di Zurich Airport (ZRH), disambut Malaysian driver-cum-guide",
+      "Transfer ke hotel & check-in",
+      "Free & easy"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Rhine Falls & Zurich",
+     "m": "Breakfast",
+     "a": [
+      "Rhine Falls — air terjun terbesar Eropah (FREE Boat Tour)",
+      "Zurich Old Town — bangunan bersejarah & lorong berbatu",
+      "Lindenhof — lokasi filem CLOY",
+      "Bürkliplatz — jambatan tertua Zurich, lokasi CLOY",
+      "Bahnhofstrasse — shopping street terkenal"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Engelberg & Lucerne",
+     "m": "Breakfast",
+     "a": [
+      "Check out",
+      "Engelberg & Mount Titlis — 360° Rotair cable car (optional)",
+      "Lucerne Old Town — bangunan bersejarah & shopping",
+      "Chapel Bridge — jambatan kayu lama terkenal",
+      "Check in hotel Bern"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Grindelwald–Lauterbrunnen–Mürren",
+     "m": "Breakfast",
+     "a": [
+      "Grindelwald — alpine village dengan pemandangan Alps",
+      "Lauterbrunnen — lembah fairy-tale dengan 72 air terjun",
+      "Staubbach Waterfall",
+      "Mürren — alpine village",
+      "Birg & Schilthorn — lokasi filem James Bond (optional)"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Täsch–Zermatt",
+     "m": "Breakfast",
+     "a": [
+      "Check out",
+      "FREE panoramic train Täsch–Zermatt",
+      "Matterhorn — 'Toblerone mountain' (optional)",
+      "Gornergrat — pemandangan Matterhorn (optional)",
+      "Check in hotel Täsch / Visp"
+     ]
+    },
+    {
+     "d": 6,
+     "t": "Blausee & Interlaken",
+     "m": "Breakfast",
+     "a": [
+      "Check out",
+      "Lake Blausee — tasik biru turquoise (FREE entry)",
+      "Interlaken West — shopping street",
+      "Interlaken Lake Cruise",
+      "Iseltwald — lokasi filem CLOY",
+      "Check in hotel Bern"
+     ]
+    },
+    {
+     "d": 7,
+     "t": "Zurich (Berlepas)",
+     "m": "Breakfast",
+     "a": [
+      "Check out hotel",
+      "Transfer & berlepas dari Zurich Airport"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Rhine Falls",
+    "t": "Air Terjun · Schaffhausen",
+    "emoji": "💦",
+    "img": "@asset:f602350b3c04",
+    "short": "Air terjun terbesar & terkuat di Eropah.",
+    "intro": "Rhine Falls di Schaffhausen ialah air terjun terbesar Eropah dari segi isipadu. Pakej termasuk FREE Boat Tour menghampiri jeram (kecuali musim sejuk).",
+    "hi": [
+     "FREE Boat Tour ke tengah jeram",
+     "Viewing platform Schloss Laufen",
+     "Foto ikonik air terjun"
+    ],
+    "best": "Musim panas (Mei–Sep) — aliran paling deras.",
+    "muslim": "Kawasan terbuka, tiada isu. Tiada surau di tapak — solat jamak/qasar di hotel Zurich. Kios makanan bukan halal; bawa snek atau makan di stop halal Zurich.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Rhine+Falls+Schaffhausen"
+   },
+   {
+    "n": "Zurich Old Town & Bahnhofstrasse",
+    "t": "Bandar · Zurich",
+    "emoji": "🏙️",
+    "short": "Bandar lama bersejarah + shopping street terkenal.",
+    "img": "@asset:23cd12d1dee0",
+    "intro": "Zurich Old Town penuh bangunan bersejarah & lorong berbatu; Bahnhofstrasse ialah shopping street utama. Lindenhof & Bürkliplatz adalah lokasi penggambaran CLOY.",
+    "hi": [
+     "Lindenhof (CLOY)",
+     "Bürkliplatz — jambatan tertua (CLOY)",
+     "Bahnhofstrasse shopping"
+    ],
+    "best": "Sepanjang tahun; petang untuk suasana old town.",
+    "muslim": "Zurich ada 40+ restoran halal (tumpuan District 4 & 5 / Langstrasse). Masjid utama: Islamisches Zentrum Zürich (Oerlikon). Zurich Airport ada prayer room di Airside Center, Level 2 (ada tanda kiblat).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Zurich+Old+Town"
+   },
+   {
+    "n": "Mount Titlis (Engelberg)",
+    "t": "Gunung · Optional",
+    "emoji": "🚠",
+    "short": "Cable car 360° Rotair ke puncak bersalji.",
+    "img": "@asset:76841187c238",
+    "intro": "Dari Engelberg, naik 360° Rotair cable car ke puncak Titlis — glacier cave, cliff walk & IceFlyer. Add-on optional (bukan termasuk base).",
+    "hi": [
+     "360° Rotair cable car",
+     "Glacier Cave & Cliff Walk",
+     "Snow tubing (ikut cuaca)"
+    ],
+    "best": "Buka sepanjang tahun (8.30am–5pm).",
+    "muslim": "Titlis dianggap 'gold standard' untuk pelawat Muslim — ada makanan halal di puncak & mesra Muslim. Solat boleh di ruang lapang / rest area stesen.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mount+Titlis+Engelberg"
+   },
+   {
+    "n": "Lucerne & Chapel Bridge",
+    "t": "Bandar · Lucerne",
+    "emoji": "🌉",
+    "short": "Old town tepi tasik & jambatan kayu ikonik.",
+    "img": "@asset:02c04608891b",
+    "intro": "Lucerne Old Town yang cantik tepi tasik, dengan Chapel Bridge (Kapellbrücke) — jambatan kayu tertua Eropah.",
+    "hi": [
+     "Chapel Bridge (Kapellbrücke)",
+     "Old Town & shopping",
+     "Lakefront Lucerne"
+    ],
+    "best": "Musim panas & awal musim luruh.",
+    "muslim": "Moschee Luzern untuk komuniti tempatan. Restoran halal terhad — driver bawa ke stop halal / bawa bekal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chapel+Bridge+Lucerne"
+   },
+   {
+    "n": "Grindelwald",
+    "t": "Alpine Village · Jungfrau",
+    "emoji": "🏘️",
+    "short": "Kampung alpine dengan pemandangan Alps.",
+    "img": "@asset:d69dd2d62a25",
+    "intro": "Grindelwald di Jungfrau Region — kampung pergunungan dengan pemandangan Alps yang menakjubkan.",
+    "hi": [
+     "Panorama Eiger & Alps",
+     "Suasana kampung alpine",
+     "Gerbang ke Jungfrau"
+    ],
+    "best": "Mei–Sep (hijau) atau Dis–Feb (salji).",
+    "muslim": "Kampung kecil — makanan halal terhad; base halal terdekat di Interlaken. Solat jamak di hotel/rest area.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Grindelwald+Switzerland"
+   },
+   {
+    "n": "Lauterbrunnen & Mürren",
+    "t": "Lembah Air Terjun · Jungfrau",
+    "emoji": "🏞️",
+    "short": "Lembah fairy-tale dengan 72 air terjun.",
+    "img": "@asset:7f436a0193fc",
+    "intro": "Lauterbrunnen ialah lembah fairy-tale dengan 72 air terjun (termasuk Staubbach). Mürren ialah alpine village di tebing; Birg & Schilthorn (James Bond) sebagai add-on optional.",
+    "hi": [
+     "Staubbach Waterfall",
+     "Mürren alpine village",
+     "Schilthorn / Piz Gloria (optional, James Bond)"
+    ],
+    "best": "Mei–Sep untuk air terjun penuh.",
+    "muslim": "Kawasan pergunungan — makanan halal terhad; base di Interlaken. Solat jamak di hotel / rest area cable car.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lauterbrunnen+Switzerland"
+   },
+   {
+    "n": "Zermatt & Matterhorn",
+    "t": "Gunung · Zermatt",
+    "emoji": "🏔️",
+    "short": "Puncak Matterhorn 'Toblerone' & bandar car-free.",
+    "img": "@asset:731b3b3b58a9",
+    "intro": "Zermatt ialah bandar pergunungan car-free di kaki Matterhorn — puncak ikonik 'Toblerone'. Gornergrat Railway & Matterhorn Glacier Paradise sebagai add-on optional. FREE panoramic train dari Täsch termasuk.",
+    "hi": [
+     "Matterhorn viewpoint",
+     "Gornergrat Railway (optional)",
+     "Matterhorn Glacier Paradise (optional)"
+    ],
+    "best": "Mei–Okt untuk pemandangan jelas puncak.",
+    "muslim": "Zermatt bandar pelancong — beberapa pilihan mesra Muslim; driver bawa ke stop halal. Solat jamak di hotel Täsch/Visp.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Zermatt+Matterhorn"
+   },
+   {
+    "n": "Lake Blausee",
+    "t": "Tasik · FREE Entry",
+    "emoji": "💧",
+    "short": "Tasik biru turquoise jernih di hutan.",
+    "img": "@asset:457165585b24",
+    "intro": "Lake Blausee ialah tasik kecil biru turquoise yang jernih dalam kawasan hutan semula jadi. Entry termasuk PERCUMA dalam pakej.",
+    "hi": [
+     "Air turquoise jernih",
+     "Boat ride kecil",
+     "Taman semula jadi"
+    ],
+    "best": "Musim panas untuk warna paling cerah.",
+    "muslim": "Kawasan taman terbuka; kafe di tapak bukan halal. Bawa bekal; solat di rest area / hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Blausee+Switzerland"
+   },
+   {
+    "n": "Interlaken & Lake Cruise",
+    "t": "Bandar Tasik · Berner Oberland",
+    "emoji": "⛵",
+    "short": "Halal hub Switzerland + lake cruise.",
+    "img": "@asset:16579c53fb63",
+    "intro": "Interlaken terletak antara Lake Thun & Lake Brienz — pusat Berner Oberland. Pakej termasuk Interlaken West shopping & Interlaken Lake Cruise.",
+    "hi": [
+     "Interlaken West shopping",
+     "Lake Cruise",
+     "Base terbaik untuk Jungfrau"
+    ],
+    "best": "Mei–Sep.",
+    "muslim": "Interlaken ialah 'Halal Hub' Switzerland — banyak restoran halal (cth: Kebab Haus, Taj Mahal) & Masjid Darussalam untuk pelawat. Paling mudah untuk Muslim family.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Interlaken+Switzerland"
+   },
+   {
+    "n": "Iseltwald",
+    "t": "Tasik · Lokasi CLOY",
+    "emoji": "🎬",
+    "short": "Kampung tepi Lake Brienz — lokasi CLOY.",
+    "img": "@asset:900eeac4895a",
+    "intro": "Iseltwald ialah kampung indah tepi Lake Brienz, terkenal sebagai lokasi penggambaran Crash Landing on You (CLOY). Ada bridge fee optional RM 67.",
+    "hi": [
+     "Jetty CLOY yang ikonik",
+     "Lake Brienz turquoise",
+     "Kampung tenang"
+    ],
+    "best": "Pagi untuk elak orang ramai.",
+    "muslim": "Kampung kecil — tiada restoran halal; base halal di Interlaken berdekatan. Solat di rest area / hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Iseltwald+Switzerland"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3/4★ — Zurich (2 malam)",
+    "name": "Holiday Inn Express, Zurich or similar",
+    "note": "Dekat city centre / airport. Pilihan lain: The Flag Zurich, Mövenpick Airport, Dorint Airport, Ibis Styles Zurich Center.",
+    "emoji": "🏨",
+    "img": "@asset:8bc7b1857aae"
+   },
+   {
+    "tier": "3/4★ — Bern (2+1 malam)",
+    "name": "Ibis Hotel, Bern or similar",
+    "note": "Base untuk day-trip Interlaken/Lucerne & Jungfrau region.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "3/4★ — Täsch (1 malam)",
+    "name": "Matterhorn Inn, Täsch or similar",
+    "note": "Dekat stesen train ke Zermatt — jimat masa & lebih banyak masa di Zermatt.",
+    "emoji": "🏔️"
+   },
+   {
+    "tier": "Single Supplement",
+    "name": "Bilik seorang (solo occupancy)",
+    "note": "+RM 2,800/pax — quoted upon request.",
+    "emoji": "🛏️"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog — <b>per pax, 2–3 sebilik, Ground &amp; Tipping sahaja</b> (tiket flight TIDAK termasuk). Sah hingga 31 Dis 2026.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (7–11)</th><th>Child No Bed (2–6)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 14,997</td><td>RM 14,797</td><td>RM 14,597</td></tr><tr><td class='it'>3</td><td class='add'>RM 11,997</td><td>RM 11,797</td><td>RM 11,597</td></tr><tr><td class='it'>4</td><td class='add'>RM 9,997</td><td>RM 9,797</td><td>RM 9,597</td></tr><tr><td class='it'>5</td><td class='add'>RM 8,997</td><td>RM 8,797</td><td>RM 8,597</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 7,997</td><td>RM 7,797</td><td>RM 7,597</td></tr><tr><td class='it'>8</td><td class='add'>RM 9,997</td><td>RM 9,797</td><td>RM 9,597</td></tr><tr><td class='it'>9–10</td><td class='add'>RM 8,997</td><td>RM 8,797</td><td>RM 8,597</td></tr><tr><td class='it'>11–14</td><td class='add'>RM 7,997</td><td>RM 7,797</td><td>RM 7,597</td></tr></tbody></table></div><p class='ssub'><b>Infant (&lt;2 tahun):</b> RM 900 flat (bukan FOC). <b>Pax 8 — kenapa lebih mahal:</b> pax 8 = RM 9,997 (lebih tinggi dari pax 7 RM 7,997) kerana perubahan konfigurasi kenderaan — turun semula pada pax 9–10.</p><h2>Perbandingan vs Pesaing (internal)</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Aspek</th><th>ARBA Standard</th><th>Pesaing Standard</th></tr></thead><tbody><tr><td class='it'>Hotel</td><td class='add'>3/4★ · city centre</td><td class='ded'>2/3★</td></tr><tr><td class='it'>Overnight Täsch</td><td class='add'>Included — lebih dekat Zermatt</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Entry Lake Blausee</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Rhine Falls Boat Tour</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Driver cum Guide</td><td class='add'>Malaysian (BM/English)</td><td class='ded'>Local driver</td></tr><tr><td class='it'>Train Täsch–Zermatt</td><td class='add'>FREE</td><td class='ded'>Bayar</td></tr><tr><td class='it'>Tipping</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr></tbody></table></div>",
+   "custom": "<h2>Simple Customisation / Add-Ons</h2><p class='ssub'>Harga per pax kecuali dinyatakan. Semua aktiviti puncak, cable car dan panoramic train adalah <b>optional</b> &mdash; tiada dalam base package.</p><div class='custblk'><h3>Optional Tour &mdash; Puncak, Cable Car &amp; Cruise</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>16 tahun ke atas</th><th>Kanak-kanak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Jungfraujoch &mdash; Top of Europe</td><td class='add'>RM 1,577</td><td>6&ndash;15 thn: RM 797 &middot; 0&ndash;5 thn: FREE</td><td>Train + cable car pergi-balik, Alpine Sensation, observation deck, Ice Palace. Snow Fun Park pertengahan Mei hingga pertengahan Okt.</td></tr><tr><td class='it'>Gornergrat Railway (Zermatt)</td><td class='add'>RM 837</td><td>6&ndash;15 thn: RM 417 &middot; &le;5 thn: FREE</td><td>Train pergi-balik Zermatt &rarr; Gornergrat (Riffelalp, Riffelberg). Buka sepanjang tahun, 7.30 pagi &ndash; 5.40 petang.</td></tr><tr><td class='it'>Mount Titlis (Engelberg)</td><td class='add'>RM 687</td><td>6&ndash;15 thn: RM 347 &middot; &le;5 thn: FREE</td><td>Cable car pergi-balik termasuk Titlis ROTAIR, Glacier Cave, Cliff Walk, IceFlyer, Glacier Park &amp; snow tubing (ikut cuaca). Sepanjang tahun, 8.30 pagi &ndash; 5 petang.</td></tr><tr><td class='it'>Matterhorn Glacier Paradise (Zermatt)</td><td class='add'>RM 687</td><td>9&ndash;15 thn: RM 347 &middot; 0&ndash;8 thn: FREE</td><td>Cable car pergi-balik, platform 360 darjah, Glacier Ice Palace, Cinema Lounge, The Peak Shop.</td></tr><tr><td class='it'>Schilthorn / Piz Gloria</td><td class='add'>RM 687</td><td>6&ndash;15 thn: RM 347 &middot; &le;5 thn: FREE</td><td>Cable car pergi-balik dari Stechelberg. Spy World &amp; Cinema, Walk of Fame, Piz Gloria view point, Skyline Walk &amp; Thrill Walk di Birg. 8 pagi &ndash; 4 petang.</td></tr><tr><td class='it'>Grindelwald First + 1 aktiviti</td><td class='add'>RM 537</td><td>6&ndash;15 thn: RM 297 &middot; &le;5 thn: FREE (tanpa aktiviti)</td><td>Cable car pergi-balik, First Walk by Tissot, First View, Bort Alpine playground. Aktiviti Jan&ndash;Okt ikut availability: First Glider, First Flyer, Mountain Cart, Trottibike.</td></tr><tr><td class='it'>Mount Rigi Pass</td><td class='add'>RM 497</td><td>6&ndash;15 thn: RM 357 &middot; &le;5 thn: FREE</td><td>Train + cable car. Pilihan puncak paling murah. Sumber: rate card ARBA &mdash; tiada dalam sheet operator.</td></tr><tr><td class='it'>Murren (Stechelberg &rarr; Murren)</td><td class='add'>RM 327</td><td>6&ndash;15 thn: RM 277 &middot; &le;5 thn: FREE</td><td>Cable car pergi-balik. Buka sepanjang tahun, 6 pagi &ndash; 11 malam.</td></tr><tr><td class='it'>Interlaken Lake Cruise (Lake Thun)</td><td class='add'>RM 327 (10 thn ke atas)</td><td>&le;9 thn: FREE</td><td>Tiket cruise 2nd class, sehala.</td></tr><tr><td class='it'>Kandersteg Oeschinensee</td><td class='add'>RM 197</td><td>6&ndash;15 thn: RM 97 &middot; &le;5 thn: FREE</td><td>Cable car / gondola pergi-balik. Ada tempoh tutup untuk maintenance &mdash; lihat dropdown waktu operasi.</td></tr><tr><td class='it'>Pfingstegg Grindelwald</td><td class='add'>RM 197</td><td>6&ndash;15 thn: RM 97 &middot; &le;5 thn: FREE</td><td>Cable car / gondola pergi-balik.</td></tr><tr><td class='it'>Iseltwald Bridge Fee</td><td class='add'>RM 67</td><td>Sama untuk semua umur</td><td>Lokasi filem CLOY di Lake Brienz.</td></tr></tbody></table></div><div class='custblk'><h3>Panoramic Train (tiket sehala)</h3><table class='ctbl'><thead><tr><th>Train &amp; laluan</th><th>16 tahun ke atas</th><th>Kanak-kanak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Bernina Express &mdash; Chur &rarr; St Moritz</td><td class='add'>RM 997</td><td>6&ndash;15 thn: RM 497 &middot; &le;5 thn: FREE</td><td>Perjalanan lebih kurang 4 jam. Sepanjang tahun.</td></tr><tr><td class='it'>Glacier Express &mdash; Chur &rarr; Zermatt</td><td class='add'>RM 797</td><td>6&ndash;15 thn: RM 397 &middot; &le;5 thn: FREE</td><td>Perjalanan lebih kurang 4 jam 30 minit. Sepanjang tahun.</td></tr><tr><td class='it'>GoldenPass Belle Epoque &mdash; Zweisimmen &rarr; Montreux</td><td class='add'>RM 237</td><td>6&ndash;15 thn: RM 137 &middot; &le;5 thn: FREE</td><td>Perjalanan lebih kurang 2 jam. Sepanjang tahun kecuali beberapa tarikh terpilih.</td></tr></tbody></table></div><div class='custblk'><h3>Aktiviti Adventure (harga per ride / per aktiviti)</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga</th><th>Had umur / berat</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Skydiving (Interlaken)</td><td class='add'>RM 2,797</td><td>12 tahun ke atas &middot; berat 40&ndash;100 kg &middot; tinggi min 140 cm</td><td>Skydive, safety briefing &amp; peralatan. Slot 8.30 pagi dan 12 tengah hari. Bawah 12 tahun tidak dibenarkan.</td></tr><tr><td class='it'>Paragliding (Interlaken)</td><td class='add'>RM 1,337</td><td>5 tahun ke atas &middot; berat min 30 kg</td><td>Bas berhawa dingin, pilot berpengalaman, peralatan, penerbangan 10&ndash;20 minit. Slot 8.15 pagi, 4.45 petang &amp; 6 petang tidak sesuai untuk melebihi 80 kg; beberapa slot tengah hari tidak sesuai melebihi 100 kg.</td></tr><tr><td class='it'>Mountain Cart (Grindelwald First)</td><td class='add'>16+: RM 137 &middot; 6&ndash;15 thn: RM 97</td><td>&le;5 thn tidak dibenarkan</td><td>Per ride. Operasi 9 pagi &ndash; 5.30 petang dalam musim.</td></tr><tr><td class='it'>Zipline / Flyline (Pfingstegg)</td><td class='add'>16+: RM 77 &middot; 4&ndash;15 thn: RM 57</td><td>&le;4 thn tidak dibenarkan</td><td>Per ride.</td></tr><tr><td class='it'>Mountain Coaster (Pfingstegg)</td><td class='add'>16+: RM 57 &middot; 8&ndash;15 thn: RM 37 &middot; 4&ndash;7 thn: RM 17</td><td>4&ndash;7 thn wajib bersama dewasa</td><td>Per ride.</td></tr><tr><td class='it'>Mountain Coaster (Oeschinensee)</td><td class='add'>RM 37</td><td>4&ndash;7 thn wajib bersama dewasa</td><td>Per ride. Cuaca kering sahaja.</td></tr></tbody></table></div><div class='custblk'><h3>Travel Essentials</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket WiFi (3GB)</td><td><span class='add'>RM 200</span></td><td>Setiap trip</td></tr><tr><td class='it'>Pocket WiFi (6GB)</td><td><span class='add'>RM 140</span></td><td>Setiap trip</td></tr><tr><td class='it'>Luggage Tag Blue Ribbon</td><td><span class='add'>RM 20&ndash;70</span></td><td>Silver 20 &middot; Gold 40 &middot; Platinum 55 &middot; Diamond 70</td></tr><tr><td class='it'>Takaful TripCare 360 (Etiqa)</td><td><span class='add'>dari RM 72</span></td><td>Ikut kategori (Individu / Couple / Family / Senior) &amp; tempoh</td></tr></tbody></table></div><div class='custblk'><h3>Kadar Extension / Custom Itinerary</h3><table class='ctbl'><thead><tr><th>Komponen</th><th>Normal Season</th><th>Peak Season</th></tr></thead><tbody><tr><td class='it'>Transport &mdash; per transport per hari (maks 7 pax)</td><td><span class='add'>RM 3,400</span></td><td><span class='add'>RM 3,700</span></td></tr><tr><td class='it'>Accommodation &mdash; per pax per hari</td><td><span class='add'>RM 500</span></td><td><span class='add'>RM 650</span></td></tr></tbody></table><p><b>Reminder guna calculator ini:</b></p><ul><li>Tambah <b>RM 1,300 per pax</b> sebagai margin.</li><li><b>Bullet:</b> diskaun RM 200 dan pocket WiFi.</li><li>Hanya untuk <b>negara bersebelahan</b> sahaja &mdash; tiada domestic flight yang boleh guna calculator ini.</li></ul></div><p class='ssub'>Sumber harga optional tour: sheet operator <i>Swiss Additional Activities</i>. Waktu operasi dan tarikh tutup adalah seperti dalam sheet operator &mdash; sahkan availability semasa tempahan kerana cable car dan aktiviti alpine tertakluk kepada cuaca. Kadar extension adalah kegunaan dalaman ARBA, bukan untuk diberi kepada customer.</p><details class='qa' data-text='add-on mana patut tc cadangkan? customer biasanya pilih satu sahaja aktiviti puncak — kesan pengalaman bertindih dan kos tinggi. panduan ringkas: add-on sesuai untuk nota mount titlis (engelberg) first-timer, keluarga 2 cable car termasuk gondola rotair. salji sepanjang tahun. glacier cave, cliff walk, snow tubing. gornergrat railway (zermatt) yang mahu lihat matterhorn dekat train panoramik — pengalaman kereta api switzerland yang ikonik. matterhorn glacier paradise puncak tertinggi boleh dicapai cable car 360-degree platform, glacier ice palace. schilthorn / piz gloria peminat james bond thrill walk &amp; skyline walk di birg. lokasi filem 007. mount rigi pass bajet lebih rendah paling murah antara semua puncak. train + cable car. suhu di titlis dan puncak tinggi jauh lebih sejuk dari kawasan base — wajib jaket tebal, sarung tangan &amp; kasut tidak licin walaupun musim panas. jika customer tidak ambil add-on: mereka bebas free &amp; easy di kawasan base. guide akan beri cadangan aktiviti sementara yang lain naik ke puncak.'><summary><span class='tw'>&#9654;</span><span>Add-on mana patut TC cadangkan?</span></summary><div class='ans'><p>Customer biasanya <b>pilih satu sahaja</b> aktiviti puncak &mdash; kesan pengalaman bertindih dan kos tinggi. Panduan ringkas:</p><div class='custblk'><table class='ctbl'><thead><tr><th>Add-on</th><th>Sesuai untuk</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Mount Titlis (Engelberg)</td><td>First-timer, keluarga</td><td>2 cable car termasuk Gondola Rotair. Salji sepanjang tahun. Glacier cave, cliff walk, snow tubing.</td></tr><tr><td class='it'>Gornergrat Railway (Zermatt)</td><td>Yang mahu lihat Matterhorn dekat</td><td>Train panoramik &mdash; pengalaman kereta api Switzerland yang ikonik.</td></tr><tr><td class='it'>Matterhorn Glacier Paradise</td><td>Puncak tertinggi boleh dicapai cable car</td><td>360-degree platform, Glacier Ice Palace.</td></tr><tr><td class='it'>Schilthorn / Piz Gloria</td><td>Peminat James Bond</td><td>Thrill Walk &amp; Skyline Walk di Birg. Lokasi filem 007.</td></tr><tr><td class='it'>Mount Rigi Pass</td><td>Bajet lebih rendah</td><td>Paling murah antara semua puncak. Train + cable car.</td></tr></tbody></table></div><p>Suhu di Titlis dan puncak tinggi jauh lebih sejuk dari kawasan base &mdash; wajib jaket tebal, sarung tangan &amp; kasut tidak licin walaupun musim panas.</p><p><b>Jika customer tidak ambil add-on:</b> mereka bebas free &amp; easy di kawasan base. Guide akan beri cadangan aktiviti sementara yang lain naik ke puncak.</p></div></details><details class='qa' data-text='waktu operasi dan tarikh tutup aktiviti waktu operasi seperti dalam sheet operator. aktiviti alpine tertakluk cuaca - sahkan availability semasa tempahan. aktiviti waktu operasi tempoh tutup mount titlis 8.30 pagi - 5 petang buka sepanjang tahun gornergrat railway 7.30 pagi - 5.40 petang buka sepanjang tahun murren 6 pagi - 11 malam buka sepanjang tahun schilthorn 8 pagi - 4 petang tutup pertengahan okt hingga pertengahan mac kandersteg oeschinensee 8.30 pagi - 6 petang (musim panas) · 9 pagi - 5 petang (musim sejuk) tutup hujung nov dan pertengahan mac hingga pertengahan mei pfingstegg grindelwald 8.30 pagi - 7 petang (puncak musim panas) · 9 pagi - 6 petang tutup luar musim grindelwald first 8 pagi - 5.30 petang (musim panas) · 9 pagi - 4 petang tutup hujung okt hingga akhir nov mountain coaster (oeschinensee & pfingstegg) 9 pagi - 5.30 petang ikut musim cuaca kering sahaja snow fun park di jungfraujoch beroperasi pertengahan mei hingga pertengahan oktober sahaja. aktiviti adventure grindelwald first (first glider, first flyer, mountain cart, trottibike) tersedia jan hingga okt ikut availability.'><summary><span class='tw'>&#9654;</span><span>Waktu operasi &amp; tarikh tutup aktiviti</span></summary><div class='ans'><p>Waktu operasi seperti dalam sheet operator. Aktiviti alpine tertakluk cuaca &mdash; sahkan availability semasa tempahan.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Waktu operasi</th><th>Tempoh tutup</th></tr></thead><tbody><tr><td class='it'>Mount Titlis</td><td>8.30 pagi &ndash; 5 petang</td><td>Buka sepanjang tahun</td></tr><tr><td class='it'>Gornergrat Railway</td><td>7.30 pagi &ndash; 5.40 petang</td><td>Buka sepanjang tahun</td></tr><tr><td class='it'>Murren</td><td>6 pagi &ndash; 11 malam</td><td>Buka sepanjang tahun</td></tr><tr><td class='it'>Schilthorn</td><td>8 pagi &ndash; 4 petang</td><td>Tutup pertengahan Okt hingga pertengahan Mac</td></tr><tr><td class='it'>Kandersteg Oeschinensee</td><td>8.30 pagi &ndash; 6 petang (musim panas) &middot; 9 pagi &ndash; 5 petang (musim sejuk)</td><td>Tutup hujung Nov dan pertengahan Mac hingga pertengahan Mei</td></tr><tr><td class='it'>Pfingstegg Grindelwald</td><td>8.30 pagi &ndash; 7 petang (puncak musim panas) &middot; 9 pagi &ndash; 6 petang</td><td>Tutup luar musim</td></tr><tr><td class='it'>Grindelwald First</td><td>8 pagi &ndash; 5.30 petang (musim panas) &middot; 9 pagi &ndash; 4 petang</td><td>Tutup hujung Okt hingga akhir Nov</td></tr><tr><td class='it'>Mountain Coaster (Oeschinensee &amp; Pfingstegg)</td><td>9 pagi &ndash; 5.30 petang ikut musim</td><td>Cuaca kering sahaja</td></tr></tbody></table></div><p>Snow Fun Park di Jungfraujoch beroperasi pertengahan Mei hingga pertengahan Oktober sahaja. Aktiviti adventure Grindelwald First (First Glider, First Flyer, Mountain Cart, Trottibike) tersedia Jan hingga Okt ikut availability.</p></div></details><details class='qa' data-text='macam mana kira extension atau tambah hari guna kadar dalam jadual kadar extension / custom itinerary di atas. transport dikira per kenderaan per hari (maks 7 pax satu kenderaan), accommodation dikira per pax per hari . contoh: 4 pax, tambah 2 hari, normal season komponen kiraan jumlah transport rm 3,400 × 2 hari rm 6,800 accommodation rm 500 × 4 pax × 2 hari rm 4,000 margin rm 1,300 × 4 pax rm 5,200 jumlah quotation rm 6,800 + rm 4,000 + rm 5,200 rm 16,000 (rm 4,000 per pax) peak season guna rm 3,700 (transport) dan rm 650 (accommodation). lebih 7 pax perlu kenderaan kedua - darab kadar transport mengikut bilangan kenderaan. had penggunaan: calculator ini hanya untuk sambungan ke negara bersebelahan yang boleh dipandu. mana-mana rancangan yang melibatkan domestic flight tidak boleh guna kadar ini - minta quotation berasingan dari operator. customer bullet dapat diskaun rm 200 dan pocket wifi.'><summary><span class='tw'>&#9654;</span><span>Macam mana kira extension / tambah hari?</span></summary><div class='ans'><p>Guna kadar dalam jadual <b>Kadar Extension / Custom Itinerary</b> di atas. Transport dikira <b>per kenderaan per hari</b> (maks 7 pax satu kenderaan), accommodation dikira <b>per pax per hari</b>.</p><p><b>Contoh: 4 pax, tambah 2 hari, normal season</b></p><div class='custblk'><table class='ctbl'><thead><tr><th>Komponen</th><th>Kiraan</th><th>Jumlah</th></tr></thead><tbody><tr><td class='it'>Transport</td><td>RM 3,400 &times; 2 hari</td><td><span class='add'>RM 6,800</span></td></tr><tr><td class='it'>Accommodation</td><td>RM 500 &times; 4 pax &times; 2 hari</td><td><span class='add'>RM 4,000</span></td></tr><tr><td class='it'>Margin</td><td>RM 1,300 &times; 4 pax</td><td><span class='add'>RM 5,200</span></td></tr><tr><td class='it'>Jumlah quotation</td><td>RM 6,800 + RM 4,000 + RM 5,200</td><td><span class='add'>RM 16,000 (RM 4,000 per pax)</span></td></tr></tbody></table></div><p>Peak season guna RM 3,700 (transport) dan RM 650 (accommodation). Lebih 7 pax perlu kenderaan kedua &mdash; darab kadar transport mengikut bilangan kenderaan.</p><p><b>Had penggunaan:</b> calculator ini hanya untuk sambungan ke <b>negara bersebelahan</b> yang boleh dipandu. Mana-mana rancangan yang melibatkan domestic flight tidak boleh guna kadar ini &mdash; minta quotation berasingan dari operator. Customer Bullet dapat diskaun RM 200 dan pocket WiFi.</p></div></details>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season, surcaj travel 2027, last minute dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka (Zurich &middot; Lucerne &middot; Interlaken &middot; Zermatt &middot; panoramic train). Hari yang TC tambah sendiri terus berkos ikut kadar extension; malam lebih atau kurang daripada pakej asal dilaras sendiri. Sumber: katalog PT Switzerland Standard 7D6N 2026 (last updated 8 Dis 2025) dan rate card ARBA. Switzerland <b>tiada ProdReq</b>, jadi kadar transport adalah satu kadar rata seluruh negara &mdash; tiada kadar ikut kawasan.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (7&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;6)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>RM 900 flat, bukan FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 2,800 setiap satu (rate card ARBA)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (adult)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila</th></tr></thead><tbody><tr><td class='it'>Peak Season</td><td class='add'>+RM 200/pax/mlm<br>(×6 mlm = +RM 1,200/pax)</td><td>20 Dis'25–10 Jan'26 · 1–28 Feb'26 · 15 Jul–15 Ogos'26 · 20 Dis'26–3 Jan'27 · 1–28 Feb'27 · 15 Jul–15 Ogos'27</td></tr><tr><td class='it'>Travel Surcharge 2027</td><td class='add'>+RM 370/pax</td><td>Travel Jan–Jun 2027 (atas peak season)</td></tr><tr><td class='it'>Last Minute (2 pax)</td><td class='add'>+RM 700/pax</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Last Minute (3+ pax)</td><td class='add'>+RM 500/pax</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Late Booking</td><td class='add'>RM 50/booking</td><td>Booking &lt;45 hari sebelum departure</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 2,800/pax</td><td>Bilik seorang (solo)</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM 500/pax</td><td>Semasa booking confirmation</td></tr></tbody></table></div><p class='ssub' style='margin-top:16px'><b>Peak Season Surcharge — Rate Card 2026 / 2027</b> <span style='color:var(--halal)'>✔ sepadan dengan katalog (disahkan, tiada percanggahan)</span></p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season</td><td class='add'>+RM 200/pax/malam</td><td>20 Dis'25–10 Jan'26 · 1–28 Feb'26 · 15 Jul–15 Ogos'26 · 20 Dis'26–3 Jan'27 · 1–28 Feb'27 · 15 Jul–15 Ogos'27</td></tr><tr><td class='it'>Travel Date 2027</td><td class='add'>+RM 370/pax</td><td>1 Jan – 30 Jun 2027 (atas peak season)</td></tr><tr><td class='it'>Late Booking (&lt;3 minggu)</td><td class='add'>2 pax +RM 700 · 3+ pax +RM 500</td><td>per pax</td></tr></tbody></table></div>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub'>Private MPV/Van dengan Malaysian driver-cum-guide (BM/English) sepanjang trip.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Transport</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2–7</td><td>1× Private MPV/Van</td><td>Driver-cum-guide Malaysia</td></tr><tr><td class='it'>8–14</td><td>2× Private MPV/Van</td><td>Dua kenderaan + driver (sebab kos pax 8 naik)</td></tr></tbody></table></div><p class='ssub'>Airport transfer Hari 1 &amp; 7 · intercity transfer private · <b>FREE panoramic train Täsch–Zermatt</b>. <b>Luggage:</b> max 1 luggage/pax kerana kapasiti kenderaan. Sesetengah tempat drop &amp; pick-up basis.</p>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel 3/4★ dengan breakfast, dekat city centre / lokasi strategik: 2 malam Zurich · 2+1 malam Bern · 1 malam Täsch. Semua include breakfast; Lunch/Dinner customer arrange (driver bawa ke stop halal).</p><details class='qa' data-text='kemudahan bilik &amp; hotel tukar hotel 3 kali sepanjang trip: zurich (2 malam) → bern (2 malam) → täsch (1 malam) → bern (1 malam). sarankan customer pack satu bag kecil untuk malam di täsch. kettle: tidak semua hotel sediakan. air panas boleh diminta di reception. iron: bergantung hotel dan biasanya terhad — sarankan bawa sendiri jika perlu. saiz bilik hotel europe biasanya lebih kecil dari asia. connecting/family room tidak dijamin — tertakluk availability. semua hotel 3/4★ dengan breakfast, dekat city centre atau lokasi strategik.'><summary><span class='tw'>&#9654;</span><span>Kemudahan bilik &amp; hotel</span></summary><div class='ans'><ul><li><b>Tukar hotel 3 kali</b> sepanjang trip: Zurich (2 malam) &rarr; Bern (2 malam) &rarr; T&auml;sch (1 malam) &rarr; Bern (1 malam). Sarankan customer pack satu bag kecil untuk malam di T&auml;sch.</li><li><b>Kettle:</b> tidak semua hotel sediakan. Air panas boleh diminta di reception.</li><li><b>Iron:</b> bergantung hotel dan biasanya terhad &mdash; sarankan bawa sendiri jika perlu.</li><li><b>Saiz bilik</b> hotel Europe biasanya lebih kecil dari Asia. Connecting/family room tidak dijamin &mdash; tertakluk availability.</li><li>Semua hotel 3/4&#9733; dengan breakfast, dekat city centre atau lokasi strategik.</li></ul></div></details>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub'><b>Jadual penerbangan KUL &#8644; Zurich (ZRH)</b> &mdash; semua transit, tiada direct KUL&ndash;ZRH. Pakej Ground sahaja (flight tidak termasuk).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Flight frequency (KUL &rarr; Zurich)</th><th>Emirates</th><th>Qatar Airways</th></tr></thead><tbody><tr><td class='it'>Departure &ndash; Arrival</td><td>2.25 AM &ndash; 1.20 PM<br>10.15 AM &ndash; 8.20 PM</td><td>2.55 AM &ndash; 2.20 PM<br>9.00 PM &ndash; 7.55 AM (+1)</td></tr><tr><td class='it'>Flight Duration</td><td>16 hingga 17 jam</td><td>16 hingga 18 jam</td></tr></tbody></table></div><div class='custblk'><table class='ctbl'><thead><tr><th>Flight frequency (Zurich &rarr; KUL)</th><th>Emirates</th><th>Qatar Airways</th></tr></thead><tbody><tr><td class='it'>Departure &ndash; Arrival</td><td>3.25 PM &ndash; 2.25 PM (+1)<br>10.15 PM &ndash; 9.50 PM (+1)</td><td>9.40 AM &ndash; 7.50 AM (+1)<br>4.40 PM &ndash; 2.45 PM (+1)<br>4.40 PM &ndash; 3.25 PM (+1)</td></tr><tr><td class='it'>Flight Duration</td><td>17 hingga 18 jam</td><td>16 hingga 17 jam</td></tr></tbody></table></div><p class='ssub'>Waktu adalah waktu tempatan setiap airport; (+1) bermaksud tiba hari berikutnya. Emirates transit Dubai (DXB), Qatar Airways transit Doha (DOH). Jadual tertakluk perubahan &mdash; sahkan dengan airline semasa issue tiket.</p><details class='qa' data-text='leg balik (zrh ke kul) macam mana? semua routing ke zurich adalah transit - tiada direct kul-zrh. leg balik guna hub yang sama dengan leg pergi: emirates melalui dubai (dxb), qatar airways melalui doha (doh). emirates: zurich 3.25 pm → kul 2.25 pm (+1), atau zurich 10.15 pm → kul 9.50 pm (+1). jangka masa 17-18 jam. qatar airways: zurich 9.40 am → kul 7.50 am (+1), zurich 4.40 pm → kul 2.45 pm (+1), atau zurich 4.40 pm → kul 3.25 pm (+1). jangka masa 16-17 jam. nombor flight dan kelas tambang bergantung kepada tarikh - ticketing akan tetapkan semasa issue tiket. ingatkan customer day 7 berlepas dari zurich : flight pagi qatar (9.40 am) memerlukan check-out awal, manakala flight petang/malam (4.40 pm atau 10.15 pm) lebih selesa untuk hari terakhir.'><summary><span class='tw'>&#9654;</span><span>Leg balik (ZRH &rarr; KUL) macam mana?</span></summary><div class='ans'><p>Semua routing ke Zurich adalah <b>transit</b> &mdash; tiada direct KUL&ndash;ZRH. Leg balik guna hub yang sama dengan leg pergi: <b>Emirates</b> melalui Dubai (DXB), <b>Qatar Airways</b> melalui Doha (DOH).</p><ul><li><b>Emirates:</b> Zurich 3.25 PM &rarr; KUL 2.25 PM (+1), atau Zurich 10.15 PM &rarr; KUL 9.50 PM (+1). Jangka masa 17&ndash;18 jam.</li><li><b>Qatar Airways:</b> Zurich 9.40 AM &rarr; KUL 7.50 AM (+1), Zurich 4.40 PM &rarr; KUL 2.45 PM (+1), atau Zurich 4.40 PM &rarr; KUL 3.25 PM (+1). Jangka masa 16&ndash;17 jam.</li></ul><p>Nombor flight dan kelas tambang bergantung kepada tarikh &mdash; ticketing akan tetapkan semasa issue tiket. Ingatkan customer <b>Day 7 berlepas dari Zurich</b>: flight pagi Qatar (9.40 AM) memerlukan check-out awal, manakala flight petang/malam (4.40 PM atau 10.15 PM) lebih selesa untuk hari terakhir.</p></div></details><details class='qa' data-text='harga anggaran dan pilihan airline lain jadual di atas ialah waktu penerbangan. untuk harga anggaran round-trip , rujuk arba flight recommendation: airline flight no. departs kul arrives zrh type est. round-trip (rm) freq singapore airlines sq125 / sq346 8.50 pm 11.40 am (+1) premium rm 5,000-8,000 harian oman air wy824 / wy154 9.25 pm +1 (transit muscat) mid tier rm 2,600-3,600 harian turkish airlines tk61 / tk1908 11.25 pm +1 (transit istanbul) mid tier rm 2,600-3,600 harian sumber: arba flight recommendation. harga emirates dan qatar airways tidak disenaraikan dalam flight recommendation - ambil quotation semasa dari airline atau ticketing. semua harga anggaran dan tertakluk perubahan mengikut tarikh dan kelas tambang.'><summary><span class='tw'>&#9654;</span><span>Harga anggaran &amp; pilihan airline lain</span></summary><div class='ans'><p>Jadual di atas ialah waktu penerbangan. Untuk harga anggaran <b>round-trip</b>, rujuk ARBA Flight Recommendation:</p><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Flight No.</th><th>Departs KUL</th><th>Arrives ZRH</th><th>Type</th><th>Est. Round-Trip (RM)</th><th>Freq</th></tr></thead><tbody><tr><td class='it'>Singapore Airlines</td><td>SQ125 / SQ346</td><td>8.50 PM</td><td>11.40 AM (+1)</td><td>Premium</td><td class='add'>RM 5,000&ndash;8,000</td><td>Harian</td></tr><tr><td class='it'>Oman Air</td><td>WY824 / WY154</td><td>9.25 PM</td><td>+1 (transit Muscat)</td><td>Mid Tier</td><td class='add'>RM 2,600&ndash;3,600</td><td>Harian</td></tr><tr><td class='it'>Turkish Airlines</td><td>TK61 / TK1908</td><td>11.25 PM</td><td>+1 (transit Istanbul)</td><td>Mid Tier</td><td class='add'>RM 2,600&ndash;3,600</td><td>Harian</td></tr></tbody></table></div><p>Sumber: ARBA Flight Recommendation. Harga Emirates dan Qatar Airways tidak disenaraikan dalam Flight Recommendation &mdash; ambil quotation semasa dari airline atau ticketing. Semua harga anggaran dan tertakluk perubahan mengikut tarikh dan kelas tambang.</p></div></details><details class='qa' data-text='bagasi, powerbank &amp; hand carry bagasi check-in: emirates 30kg · turkish airlines 30kg. maksimum 2 luggage/pax , satu beg tidak melebihi 30kg. hand carry 7kg (1 handbag/sling + 1 cabin bag). katalog: bawa maksimum 1 luggage per pax — kapasiti mpv/van terhad. share allowance: boleh dikongsi dalam booking yang sama (3 pax × 30kg = 90kg); had 2 beg per pax kekal. powerbank &amp; semua bateri: wajib hand carry, tidak boleh check-in. had 100wh (±20,000mah). cecair &gt;100ml dan barang tajam (gunting, pencukur, pemotong kuku) mesti check-in. infant: barang bayi dikira dalam 7kg hand carry penjaga; stroller foc.'><summary><span class='tw'>&#9654;</span><span>Bagasi, powerbank &amp; hand carry</span></summary><div class='ans'><ul><li><b>Bagasi check-in:</b> Emirates 30kg &middot; Turkish Airlines 30kg. Maksimum <b>2 luggage/pax</b>, satu beg tidak melebihi 30kg. Hand carry 7kg (1 handbag/sling + 1 cabin bag).</li><li><b>Katalog:</b> bawa <b>maksimum 1 luggage per pax</b> &mdash; kapasiti MPV/Van terhad.</li><li><b>Share allowance:</b> boleh dikongsi dalam booking yang sama (3 pax &times; 30kg = 90kg); had 2 beg per pax kekal.</li><li><b>Powerbank &amp; semua bateri:</b> WAJIB hand carry, tidak boleh check-in. Had 100Wh (&plusmn;20,000mAh).</li><li><b>Cecair &gt;100ml</b> dan barang tajam (gunting, pencukur, pemotong kuku) mesti check-in.</li><li><b>Infant:</b> barang bayi dikira dalam 7kg hand carry penjaga; stroller FOC.</li></ul></div></details><details class='qa' data-text='transit, dokumen &amp; seat layover: tiada tempat rehat khas diberikan — customer bebas bergerak dalam airport tetapi mesti berada di boarding gate pada masa yang ditetapkan. dokumen: tour voucher (softcopy memadai, 1 per family) + covernote insurance. passport sah minimum 6 bulan. bawah 18 tahun: passport sahaja cukup jika bersama parents; photocopy surat beranak sebagai standby. seat: untuk pt, customer beli tiket sendiri — seat selection diuruskan sendiri melalui airline. sarankan pilih seat awal untuk keluarga dengan anak kecil atau warga emas. pakaian flight: pakai yang selesa untuk penerbangan panjang, tetapi pastikan coat/padded jacket mudah dicapai untuk dipakai sebaik tiba di zurich.'><summary><span class='tw'>&#9654;</span><span>Transit, dokumen &amp; seat</span></summary><div class='ans'><ul><li><b>Layover:</b> tiada tempat rehat khas diberikan &mdash; customer bebas bergerak dalam airport tetapi mesti berada di boarding gate pada masa yang ditetapkan. Hub transit utama: Dubai (DXB) untuk Emirates, Doha (DOH) untuk Qatar Airways.</li><li><b>Dokumen:</b> Tour Voucher (softcopy memadai, 1 per family) + Covernote Insurance. Passport sah minimum 6 bulan.</li><li><b>Bawah 18 tahun:</b> passport sahaja cukup jika bersama parents; photocopy surat beranak sebagai standby.</li><li><b>Seat:</b> untuk PT, customer beli tiket sendiri &mdash; seat selection diuruskan sendiri melalui airline. Sarankan pilih seat awal untuk keluarga dengan anak kecil atau warga emas.</li><li><b>Pakaian flight:</b> pakai yang selesa untuk penerbangan panjang, tetapi pastikan coat/padded jacket mudah dicapai untuk dipakai sebaik tiba di Zurich.</li></ul></div></details>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' open data-text='free gift untuk campaign atau promo? switzerland (pt): free lindt chocolate factory kod: fsws2 (all pax) swiss (st): free pocket wifi kod: fsws6 (per booking) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Switzerland (PT):</strong> Free Lindt Chocolate Factory <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FSWS2</span> <span style='font-size:12px;color:#6b6b6b'>(All pax)</span></p><p><strong>Swiss (ST):</strong> Free Pocket Wifi <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FSWS6</span> <span style='font-size:12px;color:#6b6b6b'>(Per booking)</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p><strong>Disclaimer:</strong> <span style='color:var(--greend)'>Sila sahkan dengan PO jika di luar waktu Promo.</span></p></div></details>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi PT Switzerland 7H6M. Susunan boleh berubah ikut cuaca, musim &amp; keadaan jalan tanpa notis terlebih dahulu.</p><div class='custblk' style='max-width:470px;margin:0 auto 20px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Switzerland 7H6M (Zurich in &#8594; Zurich out)</div><img src='@asset:9608858b5a37' alt='Route Map PT Switzerland 7H6M' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>Zurich (2+1 malam) &#8594; Bern (2 malam) &#8594; T&auml;sch (1 malam) &#8594; Bern &#8594; Zurich. Semua pergerakan guna private MPV/Van.</div></div><div class='custblk'><h3>Masa perjalanan antara sektor</h3><table class='ctbl'><thead><tr><th>Sektor</th><th>Masa</th><th>Hari</th></tr></thead><tbody><tr><td class='it'>Zurich &rarr; Rhine Falls</td><td class='add'>1 jam</td><td>Day 2</td></tr><tr><td class='it'>Zurich &rarr; Engelberg</td><td class='add'>1 jam 30 min</td><td>Day 3</td></tr><tr><td class='it'>Engelberg &rarr; Lucerne</td><td class='add'>1 jam</td><td>Day 3</td></tr><tr><td class='it'>Lucerne &rarr; Bern</td><td class='add'>1 jam 30 min</td><td>Day 3</td></tr><tr><td class='it'>Bern &rarr; Grindelwald</td><td class='add'>1 jam</td><td>Day 4</td></tr><tr><td class='it'>Grindelwald &harr; Lauterbrunnen</td><td class='add'>30 min</td><td>Day 4</td></tr><tr><td class='it'>Bern &rarr; T&auml;sch</td><td class='add'>2 jam 30 min</td><td>Day 5</td></tr><tr><td class='it'>T&auml;sch &rarr; Zermatt</td><td class='add'>Train panoramik (termasuk)</td><td>Day 5</td></tr><tr><td class='it'>T&auml;sch &rarr; Blausee &rarr; Interlaken</td><td class='add'>1 jam 30 min</td><td>Day 6</td></tr><tr><td class='it'>Interlaken &rarr; Iseltwald &rarr; Zurich</td><td class='add'>15 min + 2 jam</td><td>Day 6</td></tr></tbody></table><p class='custnote'>Zermatt adalah kawasan bebas kereta &mdash; sebab itu bermalam di T&auml;sch dan masuk Zermatt dengan train panoramik (sudah termasuk dalam pakej).</p></div><details class='qa' open data-text='susunan hari — 7h6m day 1 — tiba zurich (zrh), airport transfer, check in zurich. day 2 — rhine falls (boat tour termasuk), zurich old town, lindenhof, bürkliplatz, bahnhofstrasse. day 3 — engelberg &amp; mount titlis (optional), lucerne old town, chapel bridge. check in bern. day 4 — grindelwald, lauterbrunnen, staubbach waterfall, mürren, birg &amp; schilthorn (optional). malam di bern. day 5 — train täsch–zermatt, matterhorn glacier paradise (optional), gornergrat (optional). check in täsch/visp. day 6 — lake blausee, interlaken west, interlaken lake cruise, iseltwald (lokasi filem cloy). malam di bern. day 7 — check out, airport transfer, berlepas dari zurich. lindenhof, bürkliplatz dan iseltwald adalah lokasi penggambaran crash landing on you — selling point kuat untuk customer peminat drama korea.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 7H6M</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Tiba Zurich (ZRH), airport transfer, check in Zurich.</li><li><strong>Day 2</strong> &mdash; Rhine Falls (boat tour termasuk), Zurich Old Town, Lindenhof, B&uuml;rkliplatz, Bahnhofstrasse.</li><li><strong>Day 3</strong> &mdash; Engelberg &amp; Mount Titlis (optional), Lucerne Old Town, Chapel Bridge. Check in Bern.</li><li><strong>Day 4</strong> &mdash; Grindelwald, Lauterbrunnen, Staubbach Waterfall, M&uuml;rren, Birg &amp; Schilthorn (optional). Malam di Bern.</li><li><strong>Day 5</strong> &mdash; Train T&auml;sch&ndash;Zermatt, Matterhorn Glacier Paradise (optional), Gornergrat (optional). Check in T&auml;sch/Visp.</li><li><strong>Day 6</strong> &mdash; Lake Blausee, Interlaken West, Interlaken Lake Cruise, Iseltwald (lokasi filem CLOY). Malam di Bern.</li><li><strong>Day 7</strong> &mdash; Check out, airport transfer, berlepas dari Zurich.</li></ul><p>Lindenhof, B&uuml;rkliplatz dan Iseltwald adalah lokasi penggambaran <em>Crash Landing on You</em> &mdash; selling point kuat untuk customer peminat drama Korea.</p></div></details>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub'>Perkara paling penting untuk TC: pakej ini hanya termasuk <b>breakfast di hotel</b>. <b>Lunch &amp; dinner TIDAK termasuk</b> &mdash; customer uruskan sendiri, driving guide Malaysia akan bawa ke pilihan halal atau tempat yang sesuai.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Waktu</th><th>Status</th><th>Nota untuk TC</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td class='add'>Termasuk</td><td>Di hotel setiap hari (6 breakfast). Biasanya continental &mdash; bread, cereal, egg, cheese, yogurt, buah. Elak sosej/ham.</td></tr><tr><td class='it'>Lunch</td><td class='ded'>Tidak termasuk</td><td>Di kawasan pekan/bandar (Zurich, Lucerne, Interlaken, Zermatt) guide beri cadangan kedai halal. Di kawasan gunung, pilihan halal terhad &mdash; sarankan customer bawa packed food, ada picnic bench disediakan.</td></tr><tr><td class='it'>Dinner</td><td class='ded'>Tidak termasuk</td><td>Kebiasaan: dine-in di restoran halal (nasi / Indian / kebab / pasta-pizza), terutama di Zurich. Jika masa tidak mengizinkan, packed food.</td></tr></tbody></table><p class='custnote'>Anggaran belanja makan: <b>&plusmn;20 euro per orang setiap meal</b>. Ingatkan customer sediakan bajet makan berasingan &mdash; ini bukan pakej fullboard seperti pakej Asia.</p></div><details class='qa' open data-text='makanan apa yang boleh dibawa dari malaysia? selamat: makanan kering — biskut, roti, kek, coklat, kerepek, mi segera tanpa daging , minuman 3-in-1. elak: apa-apa berasaskan daging atau tenusu — berisiko tidak lepas imigresen switzerland. maggi: perisa ayam/daging berisiko dirampas (dianggap produk berasaskan haiwan). perisa kari/sayur/tomyam lebih selamat kerana berasaskan rempah. milo / serbuk minuman: serbuk instant untuk kegunaan sendiri biasanya dibenarkan, tetapi berhati-hati dengan 3-in-1 yang ada susu — switzerland ada kawalan produk tenusu. kuantiti besar berisiko dirampas. letak semua makanan dalam satu beg berlabel jelas untuk memudahkan pemeriksaan.'><summary><span class='tw'>&#9654;</span><span>Makanan apa yang boleh dibawa dari Malaysia?</span></summary><div class='ans'><ul><li><b>Selamat:</b> makanan kering &mdash; biskut, roti, kek, coklat, kerepek, mi segera <b>tanpa daging</b>, minuman 3-in-1.</li><li><b>Elak:</b> apa-apa berasaskan <b>daging atau tenusu</b> &mdash; berisiko tidak lepas imigresen Switzerland.</li><li><b>Maggi:</b> perisa ayam/daging berisiko dirampas (dianggap produk berasaskan haiwan). Perisa kari/sayur/tomyam lebih selamat kerana berasaskan rempah.</li><li><b>Milo / serbuk minuman:</b> serbuk instant untuk kegunaan sendiri biasanya dibenarkan, tetapi berhati-hati dengan 3-in-1 yang ada susu &mdash; Switzerland ada kawalan produk tenusu. Kuantiti besar berisiko dirampas.</li><li>Letak semua makanan dalam satu beg berlabel jelas untuk memudahkan pemeriksaan.</li></ul></div></details><details class='qa' data-text='solat — apa yang perlu diberitahu awal switzerland tiada masjid di setiap bandar seperti asia. solat biasanya dijamak/qasar di hotel atau di dalam kenderaan semasa perjalanan antara bandar. waktu solat berubah drastik ikut musim — musim panas subuh boleh awal ~3:30 pagi dan maghrib lewat ~9:00 malam; musim sejuk sebaliknya. guna app waktu solat. guide (malaysia, muslim) akan sediakan stop untuk solat semasa long drive. wajib bawa telekung, sejadah kecil dan botol kecil untuk wudhu — tandas di europe tiada getah paip, dan sesetengah tandas awam berbayar 1–2 euro.'><summary><span class='tw'>&#9654;</span><span>Solat &mdash; apa yang perlu diberitahu awal</span></summary><div class='ans'><ul><li>Switzerland <b>tiada masjid di setiap bandar</b> seperti Asia. Solat biasanya <b>dijamak/qasar di hotel</b> atau di dalam kenderaan semasa perjalanan antara bandar.</li><li>Waktu solat berubah drastik ikut musim &mdash; musim panas Subuh boleh awal ~3:30 pagi dan Maghrib lewat ~9:00 malam; musim sejuk sebaliknya. Guna app waktu solat.</li><li>Guide (Malaysia, Muslim) akan sediakan stop untuk solat semasa long drive.</li><li>Wajib bawa telekung, sejadah kecil dan botol kecil untuk wudhu &mdash; tandas di Europe tiada getah paip, dan sesetengah tandas awam berbayar 1&ndash;2 euro.</li></ul></div></details>"
+  },
+  "snapshot": "# PT Switzerland Standard 7D6N — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*PT Switzerland Standard 7D6N — Ground & Tipping sahaja (tanpa flight). Sah untuk travel period sehingga 31 Dis 2026.*\n\n- Harga sah 24 jam selepas quotation submission; itinerari, harga & jadual flight subject to change (cuaca/traffic/safety).\n- Harga based 2–3 orang sebilik. Single supplement +RM 2,800/pax (quoted upon request).\n- Age based on travel date: Adult 12+, Child With Bed 7–11, Child No Bed 2–6, Infant <2 (RM 900 flat — bukan FOC).\n- Deposit RM 500/pax semasa confirmation; full payment 45 hari sebelum departure.\n- Late Booking +RM 50/booking jika <45 hari; Last Minute +RM 700/pax (2 pax) atau +RM 500/pax (3+ pax) jika <3 minggu.\n- Peak Season +RM 200/pax/malam (×6 = +RM 1,200/pax) — lihat tab Surcharge untuk tarikh.\n- Final itinerary & hotel arrangement 14 hari sebelum trip.\n- Free activities non-exchangeable dengan voucher/cash jika tidak join atau due to weather/availability.\n- Pax 8 — kenapa lebih mahal: pax 8 = RM 9,997 (lebih tinggi dari pax 7) sebab tambahan kenderaan — turun semula pada pax 9–10.\n- Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline — driver bawa ke stop halal setiap hari.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa kelebihan Private Tour Switzerland dengan ARBA?**\nLebih fleksibel & selesa — travel dengan family/group sendiri tanpa bercampur peserta lain. Private van/MPV + Malaysian driver-cum-guide, hotel 3/4★ city centre, dan banyak FREE add-on (train Täsch–Zermatt, Blausee, Rhine Falls Boat Tour).\n\n**Switzerland trip pergi mana sahaja?**\nZurich, Rhine Falls, Lucerne, Bern, Grindelwald, Lauterbrunnen, Zermatt, Blausee & Interlaken (7D6N).\n\n**Ada lokasi filem CLOY (Crash Landing on You)?**\nYa — Lindenhof & Bürkliplatz (Zurich) dan Iseltwald (Lake Brienz).\n\n**Ada optional activities?**\nMount Titlis, Schilthorn (James Bond), Gornergrat Railway, Matterhorn Glacier Paradise & Mount Rigi Pass. Semua add-on (lihat tab Customisation).\n\n**Pakej rushing tak?**\nSantai berbanding group tour, tapi tetap ada perjalanan antara bandar & banyak berjalan kaki di alpine village.\n\n**Sesuai untuk family / warga emas?**\nSesuai family — suasana selesa, bersih, pemandangan cantik. Warga emas boleh, tapi ambil kira banyak walking & kawasan berbukit alpine.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat?**\nBandar besar lebih mudah — Zurich ada 40+ restoran halal, Interlaken ialah 'Halal Hub'. Kawasan alpine terhad; driver-cum-guide bawa ke stop halal. Bawa snek ringan tambahan.\n\n**Lunch & Dinner termasuk?**\nTidak — hanya breakfast hotel yang termasuk. L/D customer arrange, driver bawa ke tempat halal.\n\n**Ada masjid/surau untuk solat?**\nYa — Islamisches Zentrum Zürich (Oerlikon), Masjid Darussalam Interlaken, Moschee Luzern. Zurich Airport ada prayer room (Airside Center, Level 2, ada tanda kiblat). Di pergunungan, solat jamak/qasar di hotel atau rest area.\n\n**Mount Titlis mesra Muslim?**\nYa — Titlis dianggap 'gold standard' untuk pelawat Muslim dengan makanan halal di puncak.\n\n**Makanan apa boleh dibawa dari Malaysia?**\nMakanan **kering** selamat: biskut, roti, kek, coklat, kerepek, mi segera tanpa daging, minuman 3-in-1. **Elak** apa-apa berasaskan **daging atau tenusu** — berisiko tidak lepas imigresen. Maggi perisa ayam/daging berisiko dirampas; perisa kari/sayur/tomyam lebih selamat. Milo serbuk untuk kegunaan sendiri biasanya OK, tetapi hati-hati dengan 3-in-1 bersusu dan kuantiti besar.\n\n**Makanan bayi boleh dibawa?**\nBoleh — dalam cabin, dalam **pek asal beserta label** (jangan buka atau salin pek). Air panas untuk bancuh susu boleh diminta dari kru penerbangan.\n\n### C. Visa & Passport\n\n**Rakyat Malaysia perlu visa ke Switzerland?**\nTiada visa Schengen diperlukan untuk lawatan <90 hari. TAPI mulai Q4 2026, ETIAS (travel authorisation dalam talian) diperkenalkan — mandatori sekitar pertengahan 2027 selepas tempoh transisi.\n\n**Apa itu ETIAS & berapa kos?**\nETIAS ialah kebenaran perjalanan dalam talian untuk Schengen. Yuran EUR 20/pax (sah 3 tahun); percuma untuk <18 & >70 tahun. Apply online di laman rasmi EU ETIAS.\n\n**Passport perlu berapa lama validity?**\nMinimum 3 bulan selepas tarikh keluar dari Eropah, dan dikeluarkan dalam tempoh 10 tahun terakhir. (Amalan biasa: pastikan min 6 bulan.)\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak — pakej Ground & Tipping sahaja. Tiket flight antarabangsa customer beli berasingan.\n\n**Ada flight direct KUL–Zurich?**\nTiada flight direct — semua transit. Dua pilihan utama: **Emirates** (transit Dubai) dan **Qatar Airways** (transit Doha).\nKUL → Zurich: Emirates 2.25 AM–1.20 PM atau 10.15 AM–8.20 PM (16–17 jam); Qatar 2.55 AM–2.20 PM atau 9.00 PM–7.55 AM (+1) (16–18 jam).\nZurich → KUL: Emirates 3.25 PM–2.25 PM (+1) atau 10.15 PM–9.50 PM (+1) (17–18 jam); Qatar 9.40 AM–7.50 AM (+1), 4.40 PM–2.45 PM (+1) atau 4.40 PM–3.25 PM (+1) (16–17 jam).\n\n**Masuk & keluar dari airport mana?**\nZurich Airport (ZRH) — ketibaan Hari 1, berlepas Hari 7. Driver-cum-guide tunggu di airport semasa ketibaan.\n\n**Boleh book connecting flight tambahan?**\nSila check dengan staff ARBA dahulu sebelum book connecting flight tambahan.\n\n**Bagasi macam mana?**\nEmirates 30kg · Turkish Airlines 30kg. Maksimum **2 luggage/pax**, satu beg tidak melebihi 30kg. Hand carry 7kg (1 handbag/sling + 1 cabin bag). Tetapi **katalog minta maksimum 1 luggage per pax** kerana kapasiti MPV/Van terhad.\n\n**Boleh share luggage allowance?**\nBoleh dalam booking yang sama — 3 pax × 30kg = 90kg. Had 2 beg per pax kekal, setiap beg ≤30kg.\n\n**Powerbank & bateri macam mana?**\n**Semua bateri & powerbank WAJIB hand carry** — tidak boleh dalam check-in. Had **100Wh (±20,000mAh)**.\n\n**Apa boleh & tak boleh dalam hand carry?**\nCecair **≤100ml** sahaja, dalam plastik yang diikat ketat. Cecair >100ml (lotion, gel) mesti check-in. Barang tajam (gunting kecil, mata pisau pencukur, pembuka botol, pemotong kuku) mesti check-in.\n\n**Dokumen apa perlu disediakan?**\n**Tour Voucher** (softcopy memadai, 1 per family) + **Covernote Insurance**. Bawa printed jika risau tiada internet. Bawah 18 tahun: passport sahaja cukup jika bersama parents.\n\n**Semasa layover, ada tempat rehat disediakan?**\nTidak — customer bebas bergerak dalam airport, tetapi mesti berada di boarding gate pada masa yang ditetapkan. Routing ke Zurich semua transit — Dubai (Emirates) atau Doha (Qatar Airways).\n\n**Boleh pilih seat dalam flight?**\nUntuk PT, customer beli tiket sendiri — seat selection diuruskan sendiri melalui airline. Sarankan pilih seat awal untuk keluarga dengan anak kecil atau warga emas.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n3/4★ dengan breakfast: Holiday Inn Express (Zurich) · Ibis (Bern) · Matterhorn Inn (Täsch) atau similar — semua dekat city centre / lokasi strategik.\n\n**Berapa malam di mana?**\n2 malam Zurich · 2 malam Bern · 1 malam Täsch · 1 malam Bern (jumlah 6 malam).\n\n**Boleh bilik seorang?**\nBoleh — single supplement +RM 2,800/pax (quoted upon request).\n\n**Berapa kali tukar hotel?**\n**Tiga kali:** Zurich (2 malam) → Bern (2 malam) → Täsch (1 malam) → Bern (1 malam). Sarankan customer pack satu bag kecil untuk malam di Täsch supaya tidak perlu buka luggage besar.\n\n**Ada kettle & iron dalam bilik?**\n**Kettle:** tidak semua hotel sediakan — air panas boleh diminta di reception. **Iron:** bergantung hotel dan biasanya terhad; sarankan bawa sendiri jika perlu.\n\n**Saiz bilik macam mana? Ada connecting/family room?**\nBilik hotel Europe biasanya lebih kecil dari Asia. Connecting/family room **tidak dijamin** — tertakluk availability.\n\n### F. Cuaca & Musim\n\n**Cuaca Switzerland macam mana?**\n4 musim. Panas (Jun–Ogos) 18–25°C · Spring/Autumn 8–18°C · Winter (Dis–Feb) -5 hingga 5°C (salji). Pergunungan sentiasa lebih sejuk.\n\n**Bila musim terbaik untuk travel?**\nMei–Sep (cuaca terbaik, semua cable car buka). Dis–Mac untuk salji & winter scenery. Elak Apr/Nov (shoulder — sesetengah cable car tutup untuk maintenance).\n\n**Winter mesti dapat salji?**\nPergunungan Titlis/Zermatt high chance salji, tapi tetap bergantung cuaca.\n\n### G. Shopping & Duit\n\n**Guna mata wang apa?**\nSwiss Franc (CHF). 1 CHF ≈ RM 5.00. Tukar di Zurich Airport atau Bahnhof exchange.\n\n**Bawa cash berapa?**\nCadangan RM 3,000–5,000/pax untuk shopping + tiket add-on + makan. Swiss terima Mastercard/Visa di mana-mana; hanya kedai kampung kecil mungkin cash sahaja.\n\n**Shopping di mana?**\nBahnhofstrasse (Zurich) & Interlaken West.\n\n**Tukar duit Swiss Franc atau Euro?**\nTukar **kedua-dua**. Nisbah cadangan: 200 euro : 100 Swiss Franc, bergantung gaya perbelanjaan. Jangan tukar Euro sahaja — risiko tiada tempat tukar duit di sana.\n\n**Berapa duit belanja harian?**\nAnggaran **±20 euro per orang setiap meal** (lunch & dinner tidak termasuk dalam pakej). Tambah lagi untuk snack & shopping. Kebanyakan tempat terima kad; tunai perlu untuk kedai kecil dan **caj masuk tandas awam (1–2 euro)**.\n\n**Boleh guna kad atau e-wallet?**\nVisa/Mastercard boleh — **aktifkan dahulu** dengan bank untuk kegunaan luar negara. Wise, Apple Pay dan BigPay boleh. **Touch 'n Go e-wallet TIDAK boleh** digunakan di Switzerland.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM 500/pax semasa booking confirmation.\n\n**Bila full payment?**\n45 hari sebelum tarikh departure.\n\n**Ada surcharge lain?**\nPeak season +RM 200/pax/malam, late booking +RM 50/booking, last minute +RM 500–700/pax. Lihat tab Surcharge.\n\n### I. Add-ons & Customization\n\n**Cable car mana yang optional?**\nMt Titlis (RM 687), Schilthorn (RM 687), Gornergrat (RM 837), Matterhorn Glacier Paradise (RM 687), Mount Rigi (RM 497) — semua add-on, bukan dalam base.\n\n**Ada WiFi & insurance?**\nPocket WiFi dari RM 140/trip; Takaful TripCare 360 (Etiqa) dari RM 72/pax. Lihat tab Customisation.\n\n**Kalau customer tak ambil add-on, mereka tunggu di mana?**\nBebas free & easy di kawasan base. Guide akan beri cadangan aktiviti sementara peserta lain naik ke puncak.\n\n**Semua add-on perlu ambil?**\nTidak — sarankan **pilih satu sahaja** aktiviti puncak kerana pengalaman bertindih dan kos tinggi. Rujuk jadual panduan add-on di bahagian atas tab ini.\n\n### J. Kesihatan & Keselamatan\n\n**Selamat untuk family?**\nYa — Switzerland antara negara paling selamat & bersih. Ikut arahan driver-cum-guide di kawasan alpine.\n\n**Perlu insurance/takaful?**\nSangat digalakkan (tidak termasuk dalam pakej) — boleh tambah TripCare 360.\n\n**Boleh bawa ubat preskripsi?**\nBoleh. Ubat berpreskripsi (darah tinggi, kencing manis) perlu dibawa **bersama surat doktor** — boleh didapatkan dari mana-mana klinik jika hilang. Ubat OTC (panadol, selsema) tidak perlu preskripsi dan tidak wajib label.\n\n**Mesin nebuliser portable boleh dibawa?**\nBoleh dibawa **on board** (hand carry). Sertakan surat doktor jika ada.\n\n### K. Praktikal (SIM/Socket/Tandas)\n\n**Internet & SIM?**\nBeli eSIM Swisscom/Salt atau Pocket WiFi (roaming EU tidak semestinya cover Switzerland kerana Swiss BUKAN EU). Hotel ada free WiFi.\n\n**Socket & tandas?**\nSwiss guna plug Type J (3-pin) — bawa universal adapter. Tandas awam kadang berbayar (bawa syiling kecil).\n\n### L. Packing\n\n**Kena pakai baju tebal?**\nYa — terutama winter atau pergunungan (Titlis/Zermatt). Pakai berlapis; bawa jaket kalis air, kasut selesa untuk banyak berjalan.\n\n**Berapa luggage boleh bawa?**\nMax 1 luggage/pax kerana kapasiti van. Bawa beg sandang kecil untuk daily.\n"
+ },
+ "calc": {
+  "dest": "SWITZERLAND",
+  "currency": "RM",
+  "deposit": 500,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (7&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;6)"
+  },
+  "infantNote": "RM 900 flat, bukan FOC",
+  "singleNote": "+RM 2,800 setiap satu (rate card ARBA)",
+  "intro": "Isi pax dan tarikh &mdash; peak season, surcaj travel 2027, last minute dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka (Zurich &middot; Lucerne &middot; Interlaken &middot; Zermatt &middot; panoramic train). Hari yang TC tambah sendiri terus berkos ikut kadar extension; malam lebih atau kurang daripada pakej asal dilaras sendiri. Sumber: katalog PT Switzerland Standard 7D6N 2026 (last updated 8 Dis 2025) dan rate card ARBA. Switzerland <b>tiada ProdReq</b>, jadi kadar transport adalah satu kadar rata seluruh negara &mdash; tiada kadar ikut kawasan.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "variants": [
+   {
+    "id": "std",
+    "name": "PT Switzerland Standard 7D6N",
+    "pkgLabel": "Zurich - Rhine Falls - Lucerne - Bern - Grindelwald - Lauterbrunnen - Zermatt - Blausee - Interlaken Switzerland Muslim Tour (3/4*)",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3/4-Star Hotel",
+    "days": 7,
+    "nights": 6,
+    "infant": 900,
+    "single": 2800,
+    "labelCwb": "Child With Bed (7-11)",
+    "labelCnb": "Child No Bed (2-6)",
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 700,
+     "rate3": 500
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 14997,
+      "c": 14797,
+      "n": 14597
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 11997,
+      "c": 11797,
+      "n": 11597
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 9997,
+      "c": 9797,
+      "n": 9597
+     },
+     {
+      "from": 5,
+      "to": 5,
+      "a": 8997,
+      "c": 8797,
+      "n": 8597
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 7997,
+      "c": 7797,
+      "n": 7597
+     },
+     {
+      "from": 8,
+      "to": 8,
+      "a": 9997,
+      "c": 9797,
+      "n": 9597
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 8997,
+      "c": 8797,
+      "n": 8597
+     },
+     {
+      "from": 11,
+      "to": 14,
+      "a": 7997,
+      "c": 7797,
+      "n": 7597
+     }
+    ],
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KL - Zurich (Ketibaan)",
+      "en": "ZURICH ARRIVAL",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Tiba Zurich Airport (ZRH), disambut Malaysian driver-cum-guide",
+       "Transfer ke hotel & check in Zurich",
+       "Free & easy"
+      ],
+      "eact": [
+       "Arrive Zurich Airport (ZRH), met by Malaysian driver-cum-guide",
+       "Transfer to hotel & check in Zurich",
+       "Free & easy"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Rhine Falls & Zurich",
+      "en": "RHINE FALLS & ZURICH",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Rhine Falls - air terjun terbesar Eropah (FREE Boat Tour)",
+       "Zurich Old Town",
+       "Lindenhof (lokasi CLOY)",
+       "Burkliplatz - jambatan tertua Zurich (lokasi CLOY)",
+       "Bahnhofstrasse - shopping street"
+      ],
+      "eact": [
+       "Rhine Falls - largest waterfall in Europe (FREE Boat Tour)",
+       "Zurich Old Town",
+       "Lindenhof (CLOY filming location)",
+       "Burkliplatz - oldest bridge in Zurich (CLOY filming location)",
+       "Bahnhofstrasse shopping street"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Engelberg - Lucerne - Bern",
+      "en": "ENGELBERG - LUCERNE - BERN",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Check out",
+       "Engelberg & Mount Titlis - 360 Rotair cable car (optional)",
+       "Lucerne Old Town",
+       "Chapel Bridge - jambatan kayu lama",
+       "Check in hotel Bern"
+      ],
+      "eact": [
+       "Check out",
+       "Engelberg & Mount Titlis - 360 Rotair cable car (optional)",
+       "Lucerne Old Town",
+       "Chapel Bridge - the famous old wooden bridge",
+       "Check in hotel Bern"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Grindelwald - Lauterbrunnen - Murren",
+      "en": "GRINDELWALD - LAUTERBRUNNEN - MURREN",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Grindelwald - alpine village dengan pemandangan Alps",
+       "Lauterbrunnen - lembah dengan 72 air terjun",
+       "Staubbach Waterfall",
+       "Murren - alpine village",
+       "Birg & Schilthorn - lokasi filem James Bond (optional)"
+      ],
+      "eact": [
+       "Grindelwald - mountain village with Alpine view",
+       "Lauterbrunnen - fairy-tale valley with 72 waterfalls",
+       "Staubbach Waterfall",
+       "Murren - mountain village with Alpine view",
+       "Birg & Schilthorn - James Bond filming location (optional)"
+      ]
+     },
+     {
+      "v": "d5",
+      "t": "Tasch - Zermatt",
+      "en": "TASCH - ZERMATT",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Check out",
+       "FREE panoramic train Tasch - Zermatt",
+       "Matterhorn - gunung 'Toblerone' (optional)",
+       "Gornergrat - pemandangan Matterhorn (optional)",
+       "Check in hotel Tasch / Visp"
+      ],
+      "eact": [
+       "Check out",
+       "FREE panoramic train Tasch - Zermatt",
+       "Matterhorn - the 'Toblerone' mountain (optional)",
+       "Gornergrat - magnificent view of the Matterhorn (optional)",
+       "Check in hotel Tasch / Visp"
+      ]
+     },
+     {
+      "v": "d6",
+      "t": "Blausee - Interlaken - Iseltwald",
+      "en": "BLAUSEE - INTERLAKEN - ISELTWALD",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Check out",
+       "Lake Blausee - tasik biru turquoise (FREE entry)",
+       "Interlaken West - shopping street",
+       "Interlaken Lake Cruise (optional)",
+       "Iseltwald - lokasi filem CLOY",
+       "Check in hotel Bern"
+      ],
+      "eact": [
+       "Check out",
+       "Lake Blausee - the famous turquoise-blue lake (FREE entry)",
+       "Interlaken West shopping street",
+       "Interlaken Lake Cruise (optional)",
+       "Iseltwald - CLOY filming location",
+       "Check in hotel Bern"
+      ]
+     },
+     {
+      "v": "d7",
+      "t": "Zurich (Berlepas)",
+      "en": "ZURICH DEPARTURE",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "act": [
+       "Check out hotel",
+       "Transfer ke Zurich Airport",
+       "Berlepas - tamat perkhidmatan"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Transfer to Zurich Airport",
+       "Departure - end of service"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation in 3/4-Star hotels including daily breakfast (base package: 2 nights Zurich, 2 nights Bern, 1 night Tasch, 1 night Bern)",
+     "Private Airport Transfer (MPV or Van) on Day 1 & Day {days}",
+     "Transportation in Switzerland via Private Transport (MPV or Van), Day 2 - Day 6",
+     "Intercity transfer via Private Transport",
+     "Malaysian driver-cum-guide (Malay / English speaking)",
+     "FREE panoramic train transfer Tasch to Zermatt",
+     "FREE entry to Lake Blausee",
+     "FREE Rhine Falls Boat Tour",
+     "Tipping for driver-cum-guide"
+    ],
+    "exclusions": [
+     "International flight tickets (return)",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Fees for other or optional activities not stated above",
+     "City taxes or tourism tax where applicable",
+     "ETIAS travel authorisation (approx. EUR 20 per pax, from Q4 2026)"
+    ]
+   }
+  ],
+  "library": [
+   {
+    "v": "lb_zarr",
+    "g": "Zurich & sekitar",
+    "t": "Ketibaan Zurich (airport transfer + check in)",
+    "en": "ZURICH ARRIVAL",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Tiba Zurich Airport (ZRH)",
+     "Airport transfer",
+     "Check in hotel Zurich"
+    ],
+    "eact": [
+     "Arrive Zurich Airport (ZRH)",
+     "Airport transfer",
+     "Check in hotel Zurich"
+    ]
+   },
+   {
+    "v": "lb_zdep",
+    "g": "Zurich & sekitar",
+    "t": "Berlepas Zurich (check out + airport transfer)",
+    "en": "ZURICH DEPARTURE",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "act": [
+     "Check out hotel",
+     "Airport transfer",
+     "Berlepas - tamat perkhidmatan"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Airport transfer",
+     "Departure - end of service"
+    ]
+   },
+   {
+    "v": "lb_zcity",
+    "g": "Zurich & sekitar",
+    "t": "Zurich Old Town & Bahnhofstrasse",
+    "en": "ZURICH OLD TOWN & BAHNHOFSTRASSE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Zurich Old Town - lorong berbatu bersejarah",
+     "Lindenhof (lokasi CLOY)",
+     "Burkliplatz (lokasi CLOY)",
+     "Bahnhofstrasse - shopping street"
+    ],
+    "eact": [
+     "Zurich Old Town - historic cobblestone alleys",
+     "Lindenhof (CLOY filming location)",
+     "Burkliplatz (CLOY filming location)",
+     "Bahnhofstrasse shopping street"
+    ]
+   },
+   {
+    "v": "lb_rhine",
+    "g": "Zurich & sekitar",
+    "t": "Rhine Falls (FREE Boat Tour)",
+    "en": "RHINE FALLS",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Rhine Falls - air terjun terbesar Eropah",
+     "FREE Boat Tour ke tengah jeram",
+     "Viewing platform Schloss Laufen"
+    ],
+    "eact": [
+     "Rhine Falls - largest waterfall in Europe",
+     "FREE Boat Tour to the centre of the falls",
+     "Schloss Laufen viewing platform"
+    ]
+   },
+   {
+    "v": "lb_rhinez",
+    "g": "Zurich & sekitar",
+    "t": "Rhine Falls & Zurich (blok katalog Hari 2)",
+    "en": "RHINE FALLS & ZURICH",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Rhine Falls + FREE Boat Tour",
+     "Zurich Old Town",
+     "Lindenhof & Burkliplatz (lokasi CLOY)",
+     "Bahnhofstrasse"
+    ],
+    "eact": [
+     "Rhine Falls + FREE Boat Tour",
+     "Zurich Old Town",
+     "Lindenhof & Burkliplatz (CLOY filming locations)",
+     "Bahnhofstrasse"
+    ]
+   },
+   {
+    "v": "lb_engel",
+    "g": "Central Switzerland - Lucerne",
+    "t": "Engelberg & Mount Titlis (optional)",
+    "en": "ENGELBERG & MOUNT TITLIS",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Engelberg - alpine resort town",
+     "Mount Titlis 360 Rotair cable car (optional)",
+     "Glacier Cave & Cliff Walk (optional)"
+    ],
+    "eact": [
+     "Engelberg - alpine resort town",
+     "Mount Titlis 360 Rotair cable car (optional)",
+     "Glacier Cave & Cliff Walk (optional)"
+    ]
+   },
+   {
+    "v": "lb_lucerne",
+    "g": "Central Switzerland - Lucerne",
+    "t": "Lucerne Old Town & Chapel Bridge",
+    "en": "LUCERNE & CHAPEL BRIDGE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Lucerne Old Town - bangunan bersejarah & shopping",
+     "Chapel Bridge (Kapellbrucke)",
+     "Lakefront Lucerne"
+    ],
+    "eact": [
+     "Lucerne Old Town - historic buildings & shopping",
+     "Chapel Bridge (Kapellbrucke)",
+     "Lucerne lakefront"
+    ]
+   },
+   {
+    "v": "lb_englu",
+    "g": "Central Switzerland - Lucerne",
+    "t": "Engelberg - Lucerne - Bern (blok katalog Hari 3)",
+    "en": "ENGELBERG - LUCERNE - BERN",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Check out",
+     "Engelberg & Mount Titlis (optional)",
+     "Lucerne Old Town",
+     "Chapel Bridge",
+     "Check in hotel Bern"
+    ],
+    "eact": [
+     "Check out",
+     "Engelberg & Mount Titlis (optional)",
+     "Lucerne Old Town",
+     "Chapel Bridge",
+     "Check in hotel Bern"
+    ]
+   },
+   {
+    "v": "lb_rigi",
+    "g": "Central Switzerland - Lucerne",
+    "t": "Mount Rigi (optional)",
+    "en": "MOUNT RIGI",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Mount Rigi - train + cable car (optional)",
+     "Pemandangan Lake Lucerne",
+     "Pilihan puncak paling murah"
+    ],
+    "eact": [
+     "Mount Rigi - train + cable car (optional)",
+     "Lake Lucerne panorama",
+     "Most affordable summit option"
+    ]
+   },
+   {
+    "v": "lb_bern",
+    "g": "Central Switzerland - Lucerne",
+    "t": "Bern city (ibu negara)",
+    "en": "BERN CITY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Bern Old Town (UNESCO)",
+     "Zytglogge clock tower",
+     "Bear Park & Aare riverside"
+    ],
+    "eact": [
+     "Bern Old Town (UNESCO)",
+     "Zytglogge clock tower",
+     "Bear Park & Aare riverside"
+    ]
+   },
+   {
+    "v": "lb_grind",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Grindelwald",
+    "en": "GRINDELWALD",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Grindelwald - alpine village",
+     "Panorama Eiger & Alps",
+     "Grindelwald First + aktiviti (optional)"
+    ],
+    "eact": [
+     "Grindelwald - alpine village",
+     "Eiger & Alps panorama",
+     "Grindelwald First + activity (optional)"
+    ]
+   },
+   {
+    "v": "lb_lauter",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Lauterbrunnen & Murren",
+    "en": "LAUTERBRUNNEN & MURREN",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Lauterbrunnen - lembah dengan 72 air terjun",
+     "Staubbach Waterfall",
+     "Murren - alpine village",
+     "Schilthorn / Piz Gloria (optional)"
+    ],
+    "eact": [
+     "Lauterbrunnen - valley of 72 waterfalls",
+     "Staubbach Waterfall",
+     "Murren - alpine village",
+     "Schilthorn / Piz Gloria (optional)"
+    ]
+   },
+   {
+    "v": "lb_grlam",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Grindelwald - Lauterbrunnen - Murren (blok katalog Hari 4)",
+    "en": "GRINDELWALD - LAUTERBRUNNEN - MURREN",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Grindelwald",
+     "Lauterbrunnen & Staubbach Waterfall",
+     "Murren",
+     "Birg & Schilthorn (optional)"
+    ],
+    "eact": [
+     "Grindelwald",
+     "Lauterbrunnen & Staubbach Waterfall",
+     "Murren",
+     "Birg & Schilthorn (optional)"
+    ]
+   },
+   {
+    "v": "lb_inter",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Interlaken & Lake Cruise",
+    "en": "INTERLAKEN & LAKE CRUISE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Interlaken West - shopping street",
+     "Interlaken Lake Cruise (optional)",
+     "Halal hub Switzerland"
+    ],
+    "eact": [
+     "Interlaken West shopping street",
+     "Interlaken Lake Cruise (optional)",
+     "Switzerland halal hub"
+    ]
+   },
+   {
+    "v": "lb_blausee",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Lake Blausee (FREE entry)",
+    "en": "LAKE BLAUSEE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Lake Blausee - tasik biru turquoise (FREE entry)",
+     "Boat ride kecil",
+     "Taman semula jadi"
+    ],
+    "eact": [
+     "Lake Blausee - turquoise-blue lake (FREE entry)",
+     "Small boat ride",
+     "Nature park"
+    ]
+   },
+   {
+    "v": "lb_isel",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Iseltwald (lokasi CLOY)",
+    "en": "ISELTWALD",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Iseltwald - kampung tepi Lake Brienz",
+     "Jetty CLOY yang ikonik",
+     "Lake Brienz turquoise"
+    ],
+    "eact": [
+     "Iseltwald - village on Lake Brienz",
+     "The iconic CLOY jetty",
+     "Turquoise Lake Brienz"
+    ]
+   },
+   {
+    "v": "lb_blint",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Blausee - Interlaken - Iseltwald (blok katalog Hari 6)",
+    "en": "BLAUSEE - INTERLAKEN - ISELTWALD",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Check out",
+     "Lake Blausee (FREE entry)",
+     "Interlaken West",
+     "Interlaken Lake Cruise (optional)",
+     "Iseltwald - lokasi CLOY",
+     "Check in hotel Bern"
+    ],
+    "eact": [
+     "Check out",
+     "Lake Blausee (FREE entry)",
+     "Interlaken West",
+     "Interlaken Lake Cruise (optional)",
+     "Iseltwald - CLOY filming location",
+     "Check in hotel Bern"
+    ]
+   },
+   {
+    "v": "lb_jungfrau",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Jungfraujoch - Top of Europe (optional)",
+    "en": "JUNGFRAUJOCH - TOP OF EUROPE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Jungfraujoch - Top of Europe (optional)",
+     "Alpine Sensation & Ice Palace",
+     "Observation deck Sphinx",
+     "Snow Fun Park (pertengahan Mei - pertengahan Okt)"
+    ],
+    "eact": [
+     "Jungfraujoch - Top of Europe (optional)",
+     "Alpine Sensation & Ice Palace",
+     "Sphinx observation deck",
+     "Snow Fun Park (mid May - mid Oct)"
+    ]
+   },
+   {
+    "v": "lb_kander",
+    "g": "Bernese Oberland - Interlaken & Jungfrau",
+    "t": "Kandersteg Oeschinensee (optional)",
+    "en": "KANDERSTEG OESCHINENSEE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Kandersteg",
+     "Oeschinensee gondola (optional)",
+     "Mountain Coaster (optional)"
+    ],
+    "eact": [
+     "Kandersteg",
+     "Oeschinensee gondola (optional)",
+     "Mountain Coaster (optional)"
+    ]
+   },
+   {
+    "v": "lb_zermatt",
+    "g": "Zermatt & Valais",
+    "t": "Tasch - Zermatt (FREE panoramic train)",
+    "en": "TASCH - ZERMATT",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "FREE panoramic train Tasch - Zermatt",
+     "Zermatt - bandar car-free",
+     "Matterhorn viewpoint"
+    ],
+    "eact": [
+     "FREE panoramic train Tasch - Zermatt",
+     "Zermatt - car-free town",
+     "Matterhorn viewpoint"
+    ]
+   },
+   {
+    "v": "lb_gorner",
+    "g": "Zermatt & Valais",
+    "t": "Gornergrat Railway (optional)",
+    "en": "GORNERGRAT RAILWAY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Gornergrat Railway pergi-balik (optional)",
+     "Riffelalp & Riffelberg",
+     "Pemandangan Matterhorn"
+    ],
+    "eact": [
+     "Gornergrat Railway round trip (optional)",
+     "Riffelalp & Riffelberg",
+     "Matterhorn panorama"
+    ]
+   },
+   {
+    "v": "lb_glacier",
+    "g": "Zermatt & Valais",
+    "t": "Matterhorn Glacier Paradise (optional)",
+    "en": "MATTERHORN GLACIER PARADISE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Matterhorn Glacier Paradise (optional)",
+     "Platform 360 darjah",
+     "Glacier Ice Palace"
+    ],
+    "eact": [
+     "Matterhorn Glacier Paradise (optional)",
+     "360-degree viewing platform",
+     "Glacier Ice Palace"
+    ]
+   },
+   {
+    "v": "lb_bernina",
+    "g": "Panoramic train (tiket sehala)",
+    "t": "Bernina Express - Chur ke St Moritz",
+    "en": "BERNINA EXPRESS - CHUR TO ST MORITZ",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Bernina Express Chur - St Moritz (optional, sehala)",
+     "Perjalanan lebih kurang 4 jam"
+    ],
+    "eact": [
+     "Bernina Express Chur - St Moritz (optional, one way)",
+     "Approximately 4 hours"
+    ]
+   },
+   {
+    "v": "lb_glacierx",
+    "g": "Panoramic train (tiket sehala)",
+    "t": "Glacier Express - Chur ke Zermatt",
+    "en": "GLACIER EXPRESS - CHUR TO ZERMATT",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Glacier Express Chur - Zermatt (optional, sehala)",
+     "Perjalanan lebih kurang 4 jam 30 minit"
+    ],
+    "eact": [
+     "Glacier Express Chur - Zermatt (optional, one way)",
+     "Approximately 4 hours 30 minutes"
+    ]
+   },
+   {
+    "v": "lb_golden",
+    "g": "Panoramic train (tiket sehala)",
+    "t": "GoldenPass Belle Epoque - Zweisimmen ke Montreux",
+    "en": "GOLDENPASS BELLE EPOQUE",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "GoldenPass Belle Epoque Zweisimmen - Montreux (optional, sehala)",
+     "Perjalanan lebih kurang 2 jam"
+    ],
+    "eact": [
+     "GoldenPass Belle Epoque Zweisimmen - Montreux (optional, one way)",
+     "Approximately 2 hours"
+    ]
+   },
+   {
+    "v": "ext",
+    "g": "Hari tambahan & lain-lain",
+    "t": "Hari tambahan - Private Transport + Driving Guide",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "act": [
+     "Hari tambahan mengikut permintaan customer",
+     "Private transport + Malaysian driving guide"
+    ],
+    "eact": [
+     "Additional day as per customer request",
+     "Private transport + Malaysian driving guide"
+    ]
+   },
+   {
+    "v": "lb_free",
+    "g": "Hari tambahan & lain-lain",
+    "t": "Free & easy (tiada transport)",
+    "en": "FREE & EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "none",
+    "act": [
+     "Free & easy di kawasan base",
+     "Tiada transport berpandu pada hari ini"
+    ],
+    "eact": [
+     "Free & easy around the base town",
+     "No guided transport on this day"
+    ]
+   }
+  ],
+  "peak": {
+   "mode": "perNight",
+   "value": 200,
+   "windows": [
+    [
+     "2025-12-20",
+     "2026-01-10"
+    ],
+    [
+     "2026-02-01",
+     "2026-02-28"
+    ],
+    [
+     "2026-07-15",
+     "2026-08-15"
+    ],
+    [
+     "2026-12-20",
+     "2027-01-03"
+    ],
+    [
+     "2027-02-01",
+     "2027-02-28"
+    ],
+    [
+     "2027-07-15",
+     "2027-08-15"
+    ]
+   ]
+  },
+  "extraSurcharge": [
+   {
+    "label": "Travel surcharge 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 370
+   }
+  ],
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "autoAddonQty": true,
+  "ext": {
+   "night": {
+    "normal": 500,
+    "peak": 650
+   },
+   "marginPerPax": 1300,
+   "paxPerVehicle": 7,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 14,
+       "normal": 3400,
+       "peak": 3700
+      }
+     ]
+    },
+    "dayDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 14,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 14,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    }
+   }
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3/4 bintang (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "extra",
+    "t": "Hotel 3/4 bintang (malam tambahan)",
+    "cost": "night",
+    "line": "Additional night, 3/4-Star hotel"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel - tolak malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "None",
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (termasuk pakej)",
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast & Lunch",
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast & Dinner",
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch & Dinner",
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch & Dinner",
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (termasuk pakej)",
+    "cost": "incl",
+    "lbl": "Airport Transfer"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Guide"
+   },
+   {
+    "v": "feded",
+    "t": "Free & easy - tolak driving guide dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free & easy (driving guide deducted)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free & easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "addons": [
+   [
+    "Jungfraujoch - Top of Europe",
+    1577,
+    797,
+    "pax"
+   ],
+   [
+    "Gornergrat Railway (Zermatt)",
+    837,
+    417,
+    "pax"
+   ],
+   [
+    "Mount Titlis (Engelberg)",
+    687,
+    347,
+    "pax"
+   ],
+   [
+    "Matterhorn Glacier Paradise (Zermatt)",
+    687,
+    347,
+    "pax"
+   ],
+   [
+    "Schilthorn / Piz Gloria",
+    687,
+    347,
+    "pax"
+   ],
+   [
+    "Grindelwald First + 1 aktiviti",
+    537,
+    297,
+    "pax"
+   ],
+   [
+    "Mount Rigi Pass",
+    497,
+    357,
+    "pax"
+   ],
+   [
+    "Murren (Stechelberg)",
+    327,
+    277,
+    "pax"
+   ],
+   [
+    "Interlaken Lake Cruise",
+    327,
+    0,
+    "pax"
+   ],
+   [
+    "Kandersteg Oeschinensee",
+    197,
+    97,
+    "pax"
+   ],
+   [
+    "Pfingstegg Grindelwald",
+    197,
+    97,
+    "pax"
+   ],
+   [
+    "Iseltwald Bridge Fee",
+    67,
+    67,
+    "pax"
+   ],
+   [
+    "Bernina Express (sehala)",
+    997,
+    497,
+    "pax"
+   ],
+   [
+    "Glacier Express (sehala)",
+    797,
+    397,
+    "pax"
+   ],
+   [
+    "GoldenPass Belle Epoque (sehala)",
+    237,
+    137,
+    "pax"
+   ],
+   [
+    "Skydiving (Interlaken)",
+    2797,
+    0,
+    "pax"
+   ],
+   [
+    "Paragliding (Interlaken)",
+    1337,
+    1337,
+    "pax"
+   ],
+   [
+    "Mountain Cart (Grindelwald First)",
+    137,
+    97,
+    "pax"
+   ],
+   [
+    "Zipline / Flyline (Pfingstegg)",
+    77,
+    57,
+    "pax"
+   ],
+   [
+    "Mountain Coaster (Pfingstegg)",
+    57,
+    37,
+    "pax"
+   ],
+   [
+    "Mountain Coaster (Oeschinensee)",
+    37,
+    37,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 8,
+    "to": 8,
+    "text": "8 pax: harga per pax <b>lebih tinggi</b> daripada 6&ndash;7 pax kerana konfigurasi kenderaan berubah kepada 2 kenderaan. Ia turun semula pada 9&ndash;10 pax &mdash; ini memang betul mengikut katalog."
+   },
+   {
+    "from": 8,
+    "to": 14,
+    "text": "8&ndash;14 pax: 2&times; Private MPV/Van + driver. Kadar transport hari tambahan didarab dengan bilangan kenderaan (maks 7 pax satu kenderaan)."
+   },
+   {
+    "from": 15,
+    "to": 99999,
+    "text": "Melebihi 14 pax: <b>di luar julat katalog</b> &mdash; minta quotation berasingan daripada operator sebelum quote kepada customer."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel/room availability as no space has been secured. Prices are based on 2&ndash;3 persons per room; single supplement is quoted upon request. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Itinerary, price and flight schedule are subject to change (weather, traffic, safety). Free activities are non-exchangeable for other activities, vouchers or cash. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+ }
+}

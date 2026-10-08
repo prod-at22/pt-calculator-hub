@@ -39157,6 +39157,17 @@
      "label": "Perhentian › Add On (catalog add-ons imported)"
     }
    ]
+  },
+  {
+   "v": 32,
+   "at": "2026-10-08T16:39:07Z",
+   "by": "system",
+   "note": "KB House content imported into the hub: data/kb/<slug>.json (28 KBs: page content + Simple Calculator config). pt-kb-house pages are now built from the hub (kb-build/build.py, mirror.yml in pt-kb-house); KB pages unchanged",
+   "summary": [
+    "28 KB imported into data/kb/ (content + calc)",
+    "Images stay in pt-kb-house/<slug>/assets.json"
+   ],
+   "changes": []
   }
  ]
 }

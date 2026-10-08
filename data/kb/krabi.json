@@ -1,0 +1,1449 @@
+{
+ "slug": "krabi",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Krabi — Knowledge Base",
+   "brandTag": "KRABI KB",
+   "kicker": "ARBA KRABI · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Krabi — halal, flight, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: flight ke Krabi? · perlu visa? · beza Budget vs Standard?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Krabi…",
+   "heroImage": "@asset:8fab2b460b1f",
+   "overviewTitle": "Pakej Private Tour Krabi",
+   "statusText": "Snapshot — sumber: PT Krabi R&D + katalog + rate card (FreeGift / Surcharge / Flight) 2026 · Last updated 3 Sep 2026",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada PT Krabi R&D, katalog &amp; rate card kongsi (FreeGift Campaign, Date Surcharge 2026/2027, Flight Recommendation).<br>Harga MYR ikut rate card — sahkan sebut harga akhir dengan operator/consultant. Requirement muslim-friendly (halal, surau/masjid) adalah baseline setiap pakej.<br>Last updated: 3 Sep 2026 — tambah rate card Tambah/Tolak Malam &amp; Meal dalam Simple Custom, dan tab Simple Calculator.",
+   "marketing": {
+    "anchors": [
+     "4-Islands (Railay · Phranang · Poda · Tub · Chicken)",
+     "Hong Island — Hidden Lagoon",
+     "Emerald Pool & Klongthom Hot Spring",
+     "Phi Phi Island (Maya Bay) — pilihan Standard"
+    ],
+    "usp": "Krabi = alam & jungle: long-tail boat, lagun tersembunyi, emerald pool & tebing batu kapur — bandar kecil santai, komuniti Muslim besar & makanan halal mudah (Aonang). Tipping included, halfboard, guide English.",
+    "season": [
+     [
+      "Nov–Apr",
+      "Musim kering — laut tenang, langit cerah, terbaik untuk island hopping"
+     ],
+     [
+      "Mei–Okt",
+      "Musim hujan (green season) — hujan petang, laut kadang bergelora, harga lebih murah"
+     ]
+    ],
+    "expect": [
+     "Island hopping SIC (long-tail / speedboat) — laut boleh mencabar",
+     "Makanan halal mudah di Aonang; bawa snek halal ketika trip pulau",
+     "Bandar kecil & santai — tumpuan pada alam, bukan nightlife",
+     "Dinner tidak included (kecuali Honeymoon) — bebas explore makanan halal setempat"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Krabi Budget 4D3N",
+    "tag": "Krabi · 4D3N · Budget · dari RM1,097/pax",
+    "sub": "4-Islands + Hong Island — dari RM1,097/pax (Tier 2)",
+    "emoji": "🏝️",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sea_Kayak_Ko_Hong.jpg/1280px-Sea_Kayak_Ko_Hong.jpg",
+    "intro": "Pilihan paling jimat. Krabi City Tour, 4-Islands Tour (long-tail boat), dan Hong Island (speedboat). Tier 2 (jual) dari RM1,097/pax; katalog RM1,297/pax. 3★ Aonang.",
+    "inc": [
+     "Hotel 3★ Aonang (3 malam) — Aonang Silver Orchid / Apasari",
+     "Transfer persendirian (D1 & D4)",
+     "Shared transport SIC (D2 & D3) — long-tail boat / speedboat",
+     "Yuran masuk (National Park, Tiger Cave, Hot Spring — ikut itinerari)",
+     "Halfboard: 3 sarapan + 2 makan tengahari",
+     "Guide berbahasa Inggeris (tempatan Krabi)",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket penerbangan KUL–KBV (ARBA boleh uruskan)",
+     "In-flight meal, bagasi, airport tax",
+     "Makan malam (kecuali Honeymoon)",
+     "Tour tambahan (Phi Phi upgrade, 7-Islands, kayaking) & perbelanjaan peribadi",
+     "Insurans / takaful perjalanan (add-on TripCare 360)"
+    ],
+    "note": "Budget = Pakej B. Day 3 = Hong Island sahaja (TIADA pilihan Emerald Pool / Phi Phi). Optional kayaking Hong Island +RM70 dewasa / +RM50 kanak-kanak."
+   },
+   {
+    "n": "PT Krabi Standard 4D3N",
+    "tag": "Krabi · 4D3N · Standard · dari RM1,297/pax",
+    "sub": "4-Islands + pilihan Emerald Pool / Phi Phi — dari RM1,297/pax (Tier 2)",
+    "emoji": "⛰️",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/1280px-Railay_Beach_5.jpg",
+    "intro": "Pakej penuh. Krabi City Tour, 4-Islands Tour, dan Day 3 pilihan Emerald Pool + Tiger Cave (land tour) ATAU Phi Phi Island / Maya Bay (+RM100/pax, speedboat). Tier 2 dari RM1,297/pax; katalog RM1,497/pax.",
+    "inc": [
+     "Hotel 3★ Aonang (3 malam) — Aonang Silver Orchid / Apasari",
+     "Transfer persendirian (D1 & D4)",
+     "Shared transport SIC (D2 & D3) — long-tail boat / speedboat",
+     "Yuran masuk (National Park, Tiger Cave, Hot Spring — ikut itinerari)",
+     "Halfboard: 3 sarapan + 2 makan tengahari",
+     "Guide berbahasa Inggeris (tempatan Krabi)",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket penerbangan KUL–KBV (ARBA boleh uruskan)",
+     "In-flight meal, bagasi, airport tax",
+     "Makan malam (kecuali Honeymoon)",
+     "Tour tambahan (Phi Phi upgrade, 7-Islands, kayaking) & perbelanjaan peribadi",
+     "Insurans / takaful perjalanan (add-on TripCare 360)"
+    ],
+    "note": "Day 3 boleh pilih Emerald Pool (default) atau Phi Phi Island (+RM100/pax). Harga jual sama; kos beza (speedboat lebih mahal)."
+   },
+   {
+    "n": "PT Krabi Honeymoon 4D3N",
+    "tag": "Krabi · 4D3N · Honeymoon",
+    "sub": "Standard + candlelight dinner, bouquet & room decoration",
+    "emoji": "💑",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg",
+    "intro": "Untuk pasangan. Itinerari sama seperti Standard, ditambah candlelight dinner (D1), sejambak bunga, hiasan bilik honeymoon dan fullboard (semua dinner included). Sebut harga dengan ops.",
+    "inc": [
+     "Hotel 3★ Aonang (3 malam) — Aonang Silver Orchid / Apasari",
+     "Transfer persendirian (D1 & D4)",
+     "Shared transport SIC (D2 & D3) — long-tail boat / speedboat",
+     "Yuran masuk (National Park, Tiger Cave, Hot Spring — ikut itinerari)",
+     "Halfboard: 3 sarapan + 2 makan tengahari",
+     "Halfboard dinaik taraf fullboard (3 dinner)",
+     "Candlelight dinner (D1) + sejambak bunga",
+     "Hiasan bilik honeymoon",
+     "Guide berbahasa Inggeris",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket penerbangan KUL–KBV (ARBA boleh uruskan)",
+     "In-flight meal, bagasi, airport tax",
+     "Tour tambahan (Phi Phi upgrade, 7-Islands, kayaking) & perbelanjaan peribadi",
+     "Insurans / takaful perjalanan (add-on TripCare 360)"
+    ],
+    "note": "Honeymoon = Standard + candlelight dinner, bouquet, room deco, fullboard. Harga: sebut harga (base Standard + honeymoon extras)."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "KUL → Krabi · Arrival + City Tour",
+     "m": "—",
+     "a": [
+      "Tiba Krabi (KBV) 1–3 PM, airport pickup",
+      "Krabi City Tour — Black Crab Statue, Local Market",
+      "Check-in hotel 3★ Aonang",
+      "Bebas & santai"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Krabi 4-Islands (SIC Long-tail Boat)",
+     "m": "B / L",
+     "a": [
+      "Railay Beach & Phranang Beach + Cave",
+      "Poda Island, Sail Rock (Koh Kai)",
+      "Tub Island, Mor Island, Chicken Island",
+      "Snorkelling & swimming",
+      "Makan tengahari disediakan"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Hong Island (SIC Speedboat)",
+     "m": "B / L",
+     "a": [
+      "Hong Island — Hidden Lagoon",
+      "Pakbia Island, Paradise Island",
+      "Swim & snorkel",
+      "Optional: Kayaking +RM70 dewasa / +RM50 kanak-kanak"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Krabi → KUL · Departure",
+     "m": "B",
+     "a": [
+      "Sarapan & check-out",
+      "Transfer persendirian ke KBV",
+      "Penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Krabi · Arrival + City Tour",
+     "m": "—",
+     "a": [
+      "Tiba Krabi (KBV) 1–3 PM, airport pickup",
+      "Krabi City Tour — Black Crab Statue, Local Market",
+      "Check-in hotel 3★ Aonang",
+      "Bebas & santai"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Krabi 4-Islands (SIC Long-tail Boat)",
+     "m": "B / L",
+     "a": [
+      "Railay Beach & Phranang Beach + Cave",
+      "Poda Island, Sail Rock (Koh Kai)",
+      "Tub Island, Mor Island, Chicken Island",
+      "Snorkelling & swimming",
+      "Makan tengahari disediakan"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Pilihan: Emerald Pool ATAU Phi Phi Island",
+     "m": "B / L",
+     "a": [
+      "Pilihan A (default): Klongthom Hot Spring + Emerald Pool + Tiger Cave Temple (land tour)",
+      "Pilihan B (+RM100/pax): Phi Phi — Bamboo Island, Maya Bay, Pileh Cove, Viking Cave, Monkey Beach, Phi Phi Don, Tonsai Village (speedboat)",
+      "Makan tengahari disediakan"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Krabi → KUL · Departure",
+     "m": "B",
+     "a": [
+      "Sarapan & check-out",
+      "Transfer persendirian ke KBV",
+      "Penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Krabi · Arrival + Candlelight Dinner",
+     "m": "Candlelight Dinner",
+     "a": [
+      "Tiba Krabi (KBV) 1–3 PM, airport pickup",
+      "Krabi City Tour — Black Crab Statue, Local Market",
+      "Check-in + hiasan bilik honeymoon",
+      "Malam: candlelight dinner + sejambak bunga"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Krabi 4-Islands (SIC Long-tail Boat)",
+     "m": "B / L / D",
+     "a": [
+      "Railay Beach & Phranang Beach + Cave",
+      "Poda Island, Sail Rock (Koh Kai)",
+      "Tub Island, Mor Island, Chicken Island",
+      "Snorkelling & swimming",
+      "Fullboard: dinner included"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Emerald Pool / Phi Phi (Pilihan)",
+     "m": "B / L / D",
+     "a": [
+      "Pilihan A (default): Emerald Pool + Klongthom Hot Spring + Tiger Cave",
+      "Pilihan B (+RM100/pax): Phi Phi Island / Maya Bay (speedboat)",
+      "Fullboard: dinner included"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Krabi → KUL · Departure",
+     "m": "B",
+     "a": [
+      "Sarapan & check-out",
+      "Transfer persendirian ke KBV",
+      "Penerbangan pulang"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "4-Islands Tour",
+    "t": "Island Hopping",
+    "emoji": "🛥️",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Koh_Poda_6.jpg/1280px-Koh_Poda_6.jpg",
+    "short": "Pulau-pulau ikonik Krabi dengan long-tail boat.",
+    "intro": "Tour klasik Day 2 (semua pakej) — Railay Beach, Phranang Beach & Cave, Poda Island, Sail Rock (Koh Kai), Tub Island, Mor Island dan Chicken Island. Snorkelling & swimming dengan air laut jernih.",
+    "hi": [
+     "Railay Beach & Phranang Cave",
+     "Poda Island & Sail Rock",
+     "Tub / Mor / Chicken Island",
+     "Snorkelling terumbu karang"
+    ],
+    "best": "Nov–Apr, laut tenang. Mula awal pagi elak orang ramai.",
+    "muslim": "Bawa snek/bekal halal & air ke pulau. Solat jamak-qasar di hotel. Aonang (pangkalan) ada Masjid Nurul Islam & banyak kedai halal. Awas monyet di Phra Nang Cave — tutup beg.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Krabi+4+Islands+Tour+Ao+Nang"
+   },
+   {
+    "n": "Hong Island",
+    "t": "Pulau & Lagun",
+    "emoji": "🏝️",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sea_Kayak_Ko_Hong.jpg/1280px-Sea_Kayak_Ko_Hong.jpg",
+    "short": "Lagun tersembunyi dikelilingi tebing batu kapur.",
+    "intro": "Day 3 pakej Budget (speedboat). Highlight: Hidden Lagoon Hong Island yang dimasuki melalui celahan batu, plus Pakbia Island & Paradise Island. Optional kayaking +RM70/RM50.",
+    "hi": [
+     "Hidden Lagoon Hong Island",
+     "Pakbia Island & Paradise Island",
+     "Pantai pasir putih",
+     "Optional kayaking"
+    ],
+    "best": "Nov–Apr. Air pasang untuk masuk lagun.",
+    "muslim": "Tiada surau di pulau — solat jamak-qasar di penginapan. Bawa bekal halal. Pangkalan Aonang ada kemudahan halal & masjid.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hong+Island+Krabi"
+   },
+   {
+    "n": "Emerald Pool & Tiger Cave",
+    "t": "Jungle & Land Tour",
+    "emoji": "💧",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Emerald_pool_park%2C_Krabi_province%2C_Thailand_2018_5.jpg/1280px-Emerald_pool_park%2C_Krabi_province%2C_Thailand_2018_5.jpg",
+    "short": "Kolam hijau zamrud, hot spring & kuil gua.",
+    "intro": "Day 3 pilihan A (Standard/Honeymoon) — Klongthom Hot Spring, Emerald Pool (Sa Morakot) dalam hutan tropika, dan Tiger Cave Temple (Wat Tham Sua). Pengalaman 'jungle nature' yang membezakan Krabi.",
+    "hi": [
+     "Emerald Pool (Sa Morakot)",
+     "Klongthom Hot Spring",
+     "Tiger Cave Temple (Wat Tham Sua)",
+     "Denai hutan tropika"
+    ],
+    "best": "Nov–Apr (denai kurang licin).",
+    "muslim": "Kawasan pedalaman — bawa bekal halal. Tiada surau di tapak; solat di hotel. Makanan halal di Aonang / Krabi Town.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Emerald+Pool+Krabi+Sa+Morakot"
+   },
+   {
+    "n": "Phi Phi Island",
+    "t": "Pulau & Snorkelling",
+    "emoji": "🐠",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg",
+    "short": "Maya Bay & teluk terkenal — pilihan Day 3 (+RM100).",
+    "intro": "Day 3 pilihan B (Standard/Honeymoon, +RM100/pax, speedboat) — Bamboo Island, Maya Bay, Pileh Cove, Viking Cave, Monkey Beach, Phi Phi Don & Tonsai Village.",
+    "hi": [
+     "Maya Bay & Pileh Cove",
+     "Bamboo Island",
+     "Monkey Beach & Viking Cave",
+     "Tonsai Village shopping"
+    ],
+    "best": "Nov–Apr. Maya Bay tertakluk penutupan pemuliharaan — sahkan operasi.",
+    "muslim": "Bawa bekal halal ke pulau. Solat jamak-qasar di penginapan. Aonang/Krabi Town untuk makanan halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Phi+Phi+Island+Maya+Bay"
+   },
+   {
+    "n": "Railay Beach",
+    "t": "Pantai & Tebing",
+    "emoji": "🧗",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/1280px-Railay_Beach_5.jpg",
+    "short": "Semenanjung tebing kapur — dilawati dalam 4-Islands.",
+    "intro": "Semenanjung terpencil yang dicapai dengan long-tail boat, dikelilingi tebing batu kapur. Dilawati sebagai sebahagian 4-Islands Tour (Day 2), bersama Phra Nang Beach & Cave.",
+    "hi": [
+     "Railay West & East",
+     "Phra Nang Beach & Cave",
+     "Tebing rock-climbing",
+     "Long-tail boat"
+    ],
+    "best": "Nov–Apr. Bot dari Aonang ~15 minit.",
+    "muslim": "Beberapa warung Thai-Muslim di sekitar; jika ragu, bawa bekal halal. Solat di hotel Aonang.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Railay+Beach+Krabi"
+   },
+   {
+    "n": "Aonang",
+    "t": "Bandar Pangkalan",
+    "emoji": "🕌",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg",
+    "short": "Pusat pelancong Krabi — hab makanan halal & masjid.",
+    "intro": "Aonang ialah pangkalan utama (hotel 3★ pakej) dan titik mula island tour. Kampung Aonang ada komuniti Muslim besar — makanan halal sangat mudah (restoran Thai-Muslim, seafood halal, gerai berhampiran masjid).",
+    "hi": [
+     "Aonang Beach",
+     "Masjid Nurul Islam / Ao Nang Mosque",
+     "Jame Food Centre (halal)",
+     "Kedai & gerai halal"
+    ],
+    "best": "Sepanjang tahun; paling meriah Nov–Apr.",
+    "muslim": "Paling mudah untuk Muslim: masjid untuk solat harian & Jumaat; banyak kedai halal. Hotel pakej terletak di sini.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ao+Nang+Mosque+Krabi"
+   },
+   {
+    "n": "Krabi Town",
+    "t": "City Tour",
+    "emoji": "🏙️",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Krabi_-_Krabbenskulptur_-_0001.jpg/1280px-Krabi_-_Krabbenskulptur_-_0001.jpg",
+    "short": "Bandar kecil santai — city tour Day 1.",
+    "intro": "Lawatan Day 1 — Black Crab Statue (patung ketam), pasar tempatan (Local Market) dan suasana bandar kecil yang tenang.",
+    "hi": [
+     "Black Crab Statue",
+     "Local Market / Walking Street",
+     "Wat Kaew Korawaram",
+     "Makanan jalanan"
+    ],
+    "best": "Petang/malam untuk pasar.",
+    "muslim": "Krabi Town ada pilihan halal & masjid tempatan. Guide bawa ke restoran halal/Muslim-friendly.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Krabi+Town+Black+Crab+Statue"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (default)",
+    "name": "Aonang Silver Orchid Resort / Apasari Resort",
+    "note": "Kawasan Aonang, 3 malam, sarapan included. Twin/double.",
+    "emoji": "🏨",
+    "img": ""
+   },
+   {
+    "tier": "4★ (+RM240/pax)",
+    "name": "Krabi Cha-Da / Krabi Heritage / Blue Tara / Aonang Buri / AVA Sea / Ananta Burin / Bluesotel",
+    "note": "Upgrade 4★ +RM240/pax. Bluesotel SMART = Adult Only.",
+    "emoji": "🏨",
+    "img": ""
+   },
+   {
+    "tier": "4★+ (premium)",
+    "name": "Aonang Princeville Resort & Spa",
+    "note": "Upgrade premium +RM500–700/pax (anggaran) — sebut harga.",
+    "emoji": "🏨",
+    "img": ""
+   },
+   {
+    "tier": "Single Supp",
+    "name": "Single occupancy (mana-mana tier)",
+    "note": "+RM450/pax untuk bilik seorang.",
+    "emoji": "🛏️",
+    "img": ""
+   }
+  ],
+  "actGroups": [
+   {
+    "city": "Aonang (pangkalan)",
+    "items": [
+     {
+      "n": "Aonang Beach",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/A_view_of_Ao_Nang_beach%2C_Krabi.jpg/1280px-A_view_of_Ao_Nang_beach%2C_Krabi.jpg"
+     },
+     {
+      "n": "Masjid Nurul Islam / Ao Nang Mosque",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mosque_Ao_Nang.jpg/1280px-Mosque_Ao_Nang.jpg"
+     },
+     {
+      "n": "Jame Food Centre (halal)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Krabi_Walking_Street_2.jpg/1280px-Krabi_Walking_Street_2.jpg"
+     },
+     {
+      "n": "Titik mula island tour",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Long-tail_boats%2C_Tup_Island%2C_Krabi_Province_1.jpg/1280px-Long-tail_boats%2C_Tup_Island%2C_Krabi_Province_1.jpg"
+     }
+    ]
+   },
+   {
+    "city": "Kepulauan",
+    "items": [
+     {
+      "n": "4-Islands (Railay·Phranang·Poda·Tub·Chicken)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Koh_Poda_6.jpg/1280px-Koh_Poda_6.jpg"
+     },
+     {
+      "n": "Hong Island — Hidden Lagoon",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sea_Kayak_Ko_Hong.jpg/1280px-Sea_Kayak_Ko_Hong.jpg"
+     },
+     {
+      "n": "Phi Phi Island / Maya Bay (+RM100)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg/1280px-Maya_Bay%2C_Koh_Phi_Phi%2C_Krabi%2C_Thailand.jpg"
+     }
+    ]
+   },
+   {
+    "city": "Pedalaman",
+    "items": [
+     {
+      "n": "Emerald Pool (Sa Morakot)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Emerald_pool_park%2C_Krabi_province%2C_Thailand_2018_5.jpg/1280px-Emerald_pool_park%2C_Krabi_province%2C_Thailand_2018_5.jpg"
+     },
+     {
+      "n": "Klongthom Hot Spring",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Hot_Spring_Waterfall_%28121207107%29.jpeg/1280px-Hot_Spring_Waterfall_%28121207107%29.jpeg"
+     },
+     {
+      "n": "Tiger Cave Temple (Wat Tham Sua)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Krabi%2C_Tiger_Cave_Temple%2C_Thailand.jpg/1280px-Krabi%2C_Tiger_Cave_Temple%2C_Thailand.jpg"
+     }
+    ]
+   },
+   {
+    "city": "Krabi Town",
+    "items": [
+     {
+      "n": "Krabi City Tour (Day 1)",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Krabi_-_Krabbenskulptur_-_0001.jpg/1280px-Krabi_-_Krabbenskulptur_-_0001.jpg"
+     },
+     {
+      "n": "Black Crab Statue",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Krabi_-_Krabbenskulptur_-_0001.jpg/1280px-Krabi_-_Krabbenskulptur_-_0001.jpg"
+     },
+     {
+      "n": "Local Market / Walking Street",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Krabi_Walking_Street_2.jpg/1280px-Krabi_Walking_Street_2.jpg"
+     }
+    ]
+   }
+  ],
+  "blocks": {
+   "compare": "<h2>Perbezaan Pakej — Budget · Standard · Honeymoon</h2><table class='cmp'><colgroup><col class='c1'><col><col><col></colgroup><thead><tr><th class='blank'></th><th>BUDGET</th><th>STANDARD</th><th>HONEYMOON</th></tr></thead><tbody><tr><td class='feat'>Hotel</td><td class='val'>3★ Aonang</td><td class='val'>3★ Aonang</td><td class='val'>3★ Aonang</td></tr><tr><td class='feat'>Transfer lapangan terbang (D1 & D4)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Krabi City Tour (D1)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>4-Islands Tour (D2)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hong Island (D3)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Emerald Pool / Tiger Cave (D3)</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Phi Phi Island (D3)</td><td class='val'><span class='no'>—</span></td><td class='val'>Add-on +RM100</td><td class='val'>Add-on +RM100</td></tr><tr><td class='feat'>Makan</td><td class='val'>Halfboard 3B+2L</td><td class='val'>Halfboard 3B+2L</td><td class='val'>Fullboard</td></tr><tr><td class='feat'>Candlelight dinner + bouquet + room deco</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Guide English + Tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Transport (asas)</td><td class='val'>10 jam</td><td class='val'>10 jam</td><td class='val'>10 jam</td></tr><tr><td class='feat'>Harga dari (Tier 2, 3★)</td><td class='val'>RM 1,097</td><td class='val'>RM 1,297</td><td class='val'>Sebut harga</td></tr></tbody></table><p class='custnote'>✔ = termasuk · Add-on = bayaran tambahan · — = tiada. Harga per pax (2–3 sebilik). 4★ upgrade +RM240/pax.</p>",
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar per pax (2–3 sebilik), 3★ Aonang. <b>Tier 2</b> = harga jual group; <b>Katalog</b> = Tier 4 (Tier 2 + RM200).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pakej (3★)</th><th>Tier 2 (jual)</th><th>Katalog</th><th>CWB</th><th>CNB</th></tr></thead><tbody><tr><td class='it'>Budget 4D3N</td><td class='add'>RM 1,097</td><td>RM 1,297</td><td>RM 897</td><td>RM 797</td></tr><tr><td class='it'>Standard 4D3N</td><td class='add'>RM 1,297</td><td>RM 1,497</td><td>RM 1,097</td><td>RM 997</td></tr><tr><td class='it'>Honeymoon 4D3N</td><td class='add'>Sebut harga</td><td>—</td><td>—</td><td>—</td></tr></tbody></table><p class='custnote'>CWB = Adult − RM200 · CNB = Adult − RM400 · Infant (&lt;3 thn) FOC. Umur: Adult ≥12, CWB 3–11, CNB 3–7. 4★ upgrade +RM240/pax · 4★+ Aonang Princeville +RM500–700/pax (anggaran) · Single Supplement +RM450/pax. Harga sah 24 jam.</p></div>",
+   "custom": "<h2>Simple Customisation &amp; Add-ons</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga (jual)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Phi Phi Island (D3, ganti Emerald Pool)</td><td class='add'>+RM 100/pax</td><td>Standard / Honeymoon</td></tr><tr><td class='it'>Upgrade 4-Islands → 7-Islands + Plankton (D2)</td><td class='add'>+RM 80/pax</td><td>Budget / Standard</td></tr><tr><td class='it'>7-Islands Sunset + Plankton + BBQ (1pm–8pm)</td><td class='add'>RM 250/pax</td><td>Full add-on</td></tr><tr><td class='it'>Kayaking Hong Island (D3 Budget)</td><td class='add'>RM 70 / RM 50</td><td>Dewasa / kanak-kanak</td></tr><tr><td class='it'>Pocket WiFi (RoamingMan) 4D3N</td><td class='add'>RM 80 / RM 120</td><td>3GB 4G / 10GB 5G</td></tr><tr><td class='it'>Takaful TripCare 360 (Etiqa)</td><td class='add'>dari RM 64/pax</td><td>Disyorkan</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20–70</td><td>Silver–Diamond</td></tr></tbody></table><p class='custnote'>Add-on pulau lain (banana boat, dll.) = own expenses (cash).</p></div><div class='custblk'><h3>Tambah / Tolak Malam &mdash; Accommodation</h3><p class='ssub'>Kadar <b>per bilik per malam</b> (rate card operasi). Lajur Peak terpakai bila tarikh trip jatuh dalam tetingkap peak season.</p><table class='ctbl'><thead><tr><th>Accom</th><th>Tambah 1 Night (Normal)</th><th>Tolak 1 Night (Normal)</th><th>Tambah 1 Night (Peak)</th><th>Tolak 1 Night (Peak)</th></tr></thead><tbody><tr><td class='it'>3 star (dalam pakej)</td><td class='add'>+RM 250</td><td class='ded'>&minus;RM 80</td><td class='add'>+RM 450</td><td class='ded'>&minus;RM 100</td></tr><tr><td class='it'>4 star</td><td class='add'>+RM 325</td><td class='ded'>&minus;RM 100</td><td class='add'>+RM 600</td><td class='ded'>&minus;RM 150</td></tr><tr><td class='it'>Aonang Buri</td><td class='add'>+RM 250</td><td class='ded'>&minus;RM 80</td><td class='add'>+RM 500</td><td class='ded'>&minus;RM 100</td></tr><tr><td class='it'>AVA Sea Aonang Resort</td><td class='add'>+RM 325</td><td class='ded'>&minus;RM 100</td><td class='add'>+RM 520</td><td class='ded'>&minus;RM 150</td></tr><tr><td class='it'>Anantaburin Resort</td><td class='add'>+RM 280</td><td class='ded'>&minus;RM 100</td><td class='add'>+RM 600</td><td class='ded'>&minus;RM 200</td></tr></tbody></table><p class='custnote'>Hotel lain &mdash; <b>sebut harga</b> (quoted upon request). Semua kadar di atas <b>per bilik</b>; Simple Calculator menukarnya kepada per pax atas asas 2 pax sebilik &mdash; contoh 3&#9733; tambah 1 malam = RM 125/pax normal, RM 225/pax peak; tolak 1 malam = &minus;RM 40/pax normal, &minus;RM 50/pax peak.</p></div><div class='custblk'><h3>Tambah / Tolak Meal</h3><table class='ctbl'><thead><tr><th>Meals</th><th>Tambah 1 Meal</th><th>Tolak 1 Meal</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Suggested makan di hotel sahaja</td><td>&mdash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 55/pax/meal</td><td class='ded'>&minus;RM 30/pax/meal</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 55/pax/meal</td><td class='ded'>&minus;RM 30/pax/meal</td></tr></tbody></table><p class='custnote'>Breakfast sentiasa termasuk dalam pakej (3B untuk 4D3N) &mdash; tiada kadar tambah/tolak; makan di hotel sahaja.</p></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Harga asas = harga katalog</b> (Basic RM1,297 &middot; Standard RM1,497 &middot; Honeymoon RM2,897/pasangan); diskaun Tier 2 (&minus;RM200/pax) TIDAK dikira di sini &mdash; tolak sendiri kalau quote guna Tier 2. <b>Malam tambahan / tolak:</b> kadar rate card diberi per bilik dan ditukar ke per pax atas asas 2 pax sebilik. <b>Hari tambahan:</b> Krabi tiada kadar transport hari tambahan yang tersiar &mdash; kalkulator akan tandakan <i>kadar belum diisi</i> (merah) supaya TC sebut harga dengan operator, bukan quote RM 0.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Krabi Budget 4D3N</option><option value='1'>PT Krabi Standard 4D3N</option><option value='2'>PT Krabi Honeymoon 4D3N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (3-11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (3-7)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 3 tahun = FOC (katalog)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement +RM450/pax (semua varian)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item (katalog / R&amp;D)</th><th>Caj</th><th>Bila</th></tr></thead><tbody><tr><td class='it'>Peak — Budget (High Season)</td><td class='add'>+RM 250/pax</td><td>11 Jan – 30 Apr 2026</td></tr><tr><td class='it'>Peak — Budget (Year-End)</td><td class='add'>+RM 300/pax</td><td>1 Nov – 31 Dec 2026</td></tr><tr><td class='it'>Peak — Standard (High Season)</td><td class='add'>+RM 250/pax</td><td>11 Jan – 30 Apr 2026</td></tr><tr><td class='it'>Peak — Standard (Year-End)</td><td class='add'>+RM 300/pax</td><td>1 Dec – 31 Dec 2026</td></tr><tr><td class='it'>4★ Hotel Upgrade</td><td class='add'>+RM 240/pax</td><td>Bila-bila masa</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 450/pax</td><td>Bilik single</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>&lt;45 hari sebelum berlepas</td></tr></tbody></table></div><div class='custblk'><h3>Peak Season Surcharge — Rate Card 2026 / 2027 (ALL KRABI)</h3><table class='ctbl'><thead><tr><th>Tempoh</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>20 Dec 2025 – 3 Jan 2026</td><td class='add'>+RM 150/pax</td><td>Christmas & New Year</td></tr><tr><td class='it'>17 – 18 Feb 2026</td><td class='add'>+RM 150/pax</td><td>Chinese New Year</td></tr><tr><td class='it'>13 – 15 Apr 2026</td><td class='add'>+RM 150/pax</td><td>Songkran Festival</td></tr><tr><td class='it'>Travel Nov – Dec 2026</td><td class='add'>+RM 80/pax/malam</td><td>—</td></tr><tr><td class='it'>Travel 2027 (1 Nov 2026 – 30 Apr 2027)</td><td class='add'>+RM 300/pax</td><td>By request</td></tr></tbody></table><p class='custnote'>⚠ Angka katalog/R&amp;D (+RM250/+RM300) berbeza daripada rate-card kongsi (+RM150 / +RM80/malam / +RM300). Sahkan tarikh & jumlah tepat dengan PO sebelum quote.</p></div>",
+   "transport": "<h2>Transportation &amp; Guide</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Hari</th><th>Transport</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>D1 & D4</td><td>Private transport</td><td>Airport ⇄ hotel (10 jam basis)</td></tr><tr><td class='it'>D2</td><td>SIC Long-tail Boat</td><td>4-Islands (sharing)</td></tr><tr><td class='it'>D3</td><td>SIC Speedboat / Coach</td><td>Hong Island / Emerald / Phi Phi</td></tr><tr><td class='it'>Guide</td><td>English speaking (tempatan)</td><td>Tipping included</td></tr></tbody></table><p class='custnote'>Private transport 10 jam basis; extra hour cash to driver (negotiable).</p></div>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel 3★ Aonang (3 malam), sarapan included — Aonang Silver Orchid / Apasari. Upgrade 4★ +RM240/pax; 4★+ Aonang Princeville sebut harga. Single supplement +RM450/pax.</p>",
+   "flight": "<div class='custblk'><h3>✈️ Flight Recommendation (KUL → KBV)</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Departs KUL</th><th>Arrives KBV</th><th>Type</th><th>Est. RTP (RM)</th><th>Freq</th></tr></thead><tbody><tr><td class='it'>AirAsia X</td><td>AK 868</td><td>1:40 PM</td><td>1:55 PM</td><td>Low Cost</td><td class='add'>RM 320–380</td><td>*Mon/Wed NA</td></tr><tr><td class='it'>Firefly</td><td>FY 3610</td><td>11:30 AM</td><td>12:00 PM</td><td>Low Cost</td><td class='add'>RM 360–400</td><td>Daily</td></tr></tbody></table><p class='custnote'>KUL–KBV direct ~1j 20–25 min. Batik Air Malaysia juga terbang laluan ini. Anggaran round-trip; harga & jadual berubah — sahkan semasa booking.</p></div>",
+   "freegift": "<h2>🎁 Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? krabi: upgrade to 7 islands + sunset bbq + plankton kod: fkbv2 bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Krabi:</strong> Upgrade to 7 Islands + Sunset BBQ + Plankton <span class='rtag'>Kod: FKBV2</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket WiFi 4G (per booking)</p><p style='color:#b03030'>*Bullet wajib tanya PO/Leader</p><p style='color:#b03030'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>"
+  },
+  "snapshot": "# PT Krabi — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*3 varian: **Budget** (RM1,097 Tier 2 — 4-Islands + Hong Island), **Standard** (RM1,297 Tier 2 — 4-Islands + Emerald Pool/Phi Phi), **Honeymoon** (Standard + candlelight dinner, bouquet, room deco, fullboard). Semua 4D3N, ground-only, 3★ Aonang.*\n\n- Harga Tier 2 (jual): Budget RM1,097/pax · Standard RM1,297/pax · Honeymoon sebut harga. Katalog = Tier 2 + RM200.\n- CWB = Adult − RM200 · CNB = Adult − RM400 · Infant (<3 thn) FOC. Umur: Adult ≥12, CWB 3–11, CNB 3–7.\n- Pakej **ground-only** — tiket penerbangan tidak termasuk (ARBA boleh uruskan).\n- Meals: **halfboard** (3B + 2L); dinner own expense kecuali **Honeymoon** (fullboard).\n- Budget Day 3 = Hong Island; **tiada** pilihan Emerald/Phi Phi. Standard/Honeymoon Day 3 = Emerald Pool (default) atau Phi Phi (+RM100/pax).\n- Deposit **RM250/pax**; full payment **45 hari** sebelum berlepas. Late booking <45 hari +RM50/booking.\n- Itinerari & hotel difinalkan **15 hari** sebelum trip. Harga sah **24 jam**. Pakej sah travel hingga **31 Dec 2026**.\n- Peak season: Budget 11 Jan–30 Apr +RM250, 1 Nov–31 Dec +RM300; Standard 11 Jan–30 Apr +RM250, 1 Dec–31 Dec +RM300. (Rate-card kongsi: Christmas/CNY/Songkran +RM150, Nov–Dec +RM80/malam, 2027 +RM300 — sahkan dengan PO.)\n- Single Supplement +RM450/pax. Private transport 10 jam basis (extra hour cash to driver).\n- Passport sah minimum **6 bulan**; Malaysia **visa-free 30 hari** (isi TDAC sebelum tiba).\n- Island hopping tidak digalakkan untuk warga emas / wanita mengandung — bot mencabar. Musim terbaik **Nov–Apr**.\n- Muslim-friendly (halal, surau/masjid) baseline — Krabi komuniti Muslim besar, halal mudah di Aonang. Awas monyet di Phra Nang Cave & pantai.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa yang best di Krabi?**\nKrabi destinasi mesra Muslim — mudah cari makanan halal & masjid. Terkenal dengan alam & jungle: tebing batu kapur, lagun tersembunyi, emerald pool dan island hopping long-tail boat. Bandar kecil santai berbanding Phuket.\n\n**Beza Budget, Standard dan Honeymoon?**\nBudget (RM1,097 Tier 2): 4-Islands + Hong Island. Standard (RM1,297 Tier 2): 4-Islands + Day 3 pilihan Emerald Pool atau Phi Phi (+RM100). Honeymoon: sama Standard + candlelight dinner, bouquet, hiasan bilik & fullboard.\n\n**Tempat mana akan dilawat?**\nRailay Beach, Phranang Cave, Poda/Tub/Mor/Chicken Island, Sail Rock, Hong Island (Budget), Emerald Pool + Klongthom Hot Spring + Tiger Cave Temple (Standard A), Phi Phi/Maya Bay (Standard B), Black Crab Statue & Local Market (city tour).\n\n**Ada aktiviti snorkeling?**\nYa — island hopping & snorkeling aktiviti utama Day 2 (4-Islands) dan Day 3 (Hong Island / Phi Phi). Air laut jernih, boleh lihat terumbu karang.\n\n**Pakej termasuk tiket flight?**\nBelum. Private ground-only. Book sendiri (AirAsia AK868 / Firefly FY3610) atau minta ARBA belikan.\n\n**Boleh customize itinerari?**\nBoleh — Private Tour fleksibel. Contoh add-on: Phi Phi (+RM100), 7-Islands + Plankton (+RM80 upgrade / RM250 full), kayaking Hong Island (RM70/50).\n\n**Berapa lama transport tiap hari?**\nPrivate transport 10 jam basis (D1 & D4). Extra hour dikenakan cash to driver.\n\n### B. Halal, Makanan & Solat\n\n**Senang dapat makanan halal di Krabi?**\nSangat mudah, terutama Aonang — komuniti Muslim besar, banyak restoran Thai-Muslim, seafood halal & gerai berhampiran masjid (Jame Food Centre, Madina).\n\n**Macam mana ARBA pastikan halal?**\nTeam ARBA pergi ke Krabi untuk pastikan operator pilih restoran yang menepati kriteria halal / Muslim-friendly.\n\n**Ada masjid / surau untuk solat?**\nYa — Masjid Nurul Islam / Ao Nang Mosque untuk solat harian & Jumaat. Di pulau tiada surau — solat jamak-qasar di hotel.\n\n**Akan makan apa?**\nHalfboard: 3 sarapan + 2 makan tengahari (dinner own expense). Honeymoon: fullboard (semua meals). Lunch island tour sharing buffet.\n\n### C. Visa & Passport\n\n**Perlu visa ke Thailand?**\nTidak. Rakyat Malaysia visa-exempt 30 hari. Perlu bukti perjalanan pulang.\n\n**Perlu isi apa-apa sebelum masuk?**\nYa — Thailand Digital Arrival Card (TDAC) dalam talian sebelum tiba.\n\n**Passport sah berapa lama?**\nMinimum 6 bulan dari tarikh berlepas.\n\n### D. Flight & Airport\n\n**Berapa lama flight KL–Krabi?**\nDirect ~1 jam 25 minit ke Krabi International Airport (KBV). AirAsia X (AK868) & Firefly (FY3610) — Batik Air Malaysia juga terbang laluan ini.\n\n**Anggaran harga tiket?**\nRate card: AK868 RM320–380 (Mon/Wed NA), FY3610 RM360–400 (daily) round-trip. Harga berubah — sahkan semasa booking.\n\n**Transfer dari airport macam mana?**\nPrivate transport disediakan Day 1 & Day 4 (airport ⇄ hotel).\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n3★ Aonang: Aonang Silver Orchid Resort atau Apasari Resort (kawasan pelancong Aonang), sarapan included.\n\n**Boleh upgrade hotel?**\nBoleh — 4★ +RM240/pax (Krabi Cha-Da / Heritage / Blue Tara / Aonang Buri / AVA Sea / Ananta Burin / Bluesotel). 4★+ Aonang Princeville sebut harga.\n\n**Berapa orang sebilik?**\n2–3 orang sebilik. Single occupancy +RM450/pax.\n\n**Sesuai honeymoon?**\nYa — varian Honeymoon ada candlelight dinner, sejambak bunga & hiasan bilik.\n\n### F. Cuaca & Musim\n\n**Bila waktu terbaik?**\nNovember–April (musim kering) — laut tenang, cuaca cerah, sesuai island hopping. Suhu 22–32°C.\n\n**Macam mana Mei–Oktober?**\nMusim hujan (monsoon) — hujan lebat & ribut petir boleh jejas aktiviti laut. Kelebihan: harga lebih murah, kurang orang.\n\n**Kalau aktiviti pulau cancel sebab hujan?**\nAmalan biasa: tiada refund. Driver-guide adjust itinerari (cth city tour). Sahkan dengan operator.\n\n### G. Shopping & Duit\n\n**Mata wang apa?**\nThai Baht (THB). Kad OK di hotel & restoran besar; tunai THB perlu untuk pasar, kedai kecil & add-on on-site.\n\n**Cash poket berapa?**\nCadangan RM500–1,500 per orang bergantung tabiat membeli-belah & optional activities.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM250/pax. Baki full payment 45 hari sebelum berlepas.\n\n**Bila itinerari difinalkan?**\n15 hari sebelum trip. Harga quotation sah 24 jam. Pakej sah travel hingga 31 Dec 2026.\n\n**Late booking ada surcharge?**\nYa — <45 hari sebelum berlepas +RM50/booking.\n\n### I. Add-ons & Customization\n\n**Apa boleh tambah?**\nPhi Phi D3 (+RM100), upgrade 7-Islands + Plankton (+RM80 / RM250 full), kayaking Hong Island (RM70/50), Pocket WiFi (RM80/120), takaful TripCare 360, luggage tracker.\n\n**Free gift promo?**\nKrabi: Upgrade to 7 Islands + Sunset BBQ + Plankton (kod FKBV2). Bullet (BRB Luggage Tag / Pocket WiFi 4G) — wajib tanya PO/Leader; sahkan jika di luar waktu Promo.\n\n### J. Kesihatan & Keselamatan\n\n**Island hopping sesuai untuk semua?**\nSesuai untuk kebanyakan orang, TAPI tidak digalakkan untuk warga emas, wanita mengandung atau yang ada masalah kesihatan — perjalanan bot mencabar. Pakai life jacket.\n\n**Awas apa-apa?**\nMonyet di Phra Nang Cave & pantai — jangan tunjuk makanan, tutup beg. Ambil takaful perjalanan (aktiviti laut ada risiko).\n\n### K. Praktikal (SIM / Socket / Toilet)\n\n**Internet macam mana?**\nPocket WiFi RoamingMan (3GB 4G RM80 / 10GB 5G RM120 untuk 4D3N) atau roaming/eSIM sendiri. Liputan baik di Aonang & Krabi Town.\n\n**Socket & plug?**\nThailand Type A/B/C, 220V. Bawa universal adapter.\n\n### L. Packing\n\n**Apa perlu bawa?**\nBaju ringan cepat kering, swimwear muslim-friendly, sunblock, topi, kasut air, telekung/sejadah ringkas, bekal snek halal, dan cash THB.\n"
+ },
+ "calc": {
+  "dest": "Krabi",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (3-11)",
+   "cnb": "Child No Bed (3-7)"
+  },
+  "infantNote": "Bawah 3 tahun = FOC (katalog)",
+  "singleNote": "Single supplement +RM450/pax (semua varian)",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Harga asas = harga katalog</b> (Basic RM1,297 &middot; Standard RM1,497 &middot; Honeymoon RM2,897/pasangan); diskaun Tier 2 (&minus;RM200/pax) TIDAK dikira di sini &mdash; tolak sendiri kalau quote guna Tier 2. <b>Malam tambahan / tolak:</b> kadar rate card diberi per bilik dan ditukar ke per pax atas asas 2 pax sebilik. <b>Hari tambahan:</b> Krabi tiada kadar transport hari tambahan yang tersiar &mdash; kalkulator akan tandakan <i>kadar belum diisi</i> (merah) supaya TC sebut harga dengan operator, bukan quote RM 0.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 55,
+   "drop": 30
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 125,
+    "peak": 225
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 10,
+   "shareVehicle": true,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    },
+    "dayDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    },
+    "n4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 162.5,
+       "peak": 300
+      }
+     ]
+    },
+    "nBuri": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 125,
+       "peak": 250
+      }
+     ]
+    },
+    "nAva": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 162.5,
+       "peak": 260
+      }
+     ]
+    },
+    "nAnanta": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 140,
+       "peak": 300
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": -40,
+       "peak": -50
+      }
+     ]
+    },
+    "upPrem": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 30,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang Aonang (dalam pakej)",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "Accommodation at 3-Star Hotel in Ao Nang ({days})"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade 4 bintang &middot; Krabi Cha-Da / Krabi Heritage",
+    "cost": "incl",
+    "perPax": 240,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "4-Star hotel upgrade - Krabi Cha-Da Resort or Krabi Heritage Hotel ({days})"
+   },
+   {
+    "v": "up4buri",
+    "t": "Upgrade 4 bintang &middot; Aonang Buri",
+    "cost": "incl",
+    "perPax": 240,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "4-Star hotel upgrade - Aonang Buri Resort ({days})"
+   },
+   {
+    "v": "up4ava",
+    "t": "Upgrade 4 bintang &middot; AVA Sea Aonang Resort",
+    "cost": "incl",
+    "perPax": 240,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "4-Star hotel upgrade - AVA Sea Ao Nang Resort ({days})"
+   },
+   {
+    "v": "up4anan",
+    "t": "Upgrade 4 bintang &middot; Anantaburin Resort",
+    "cost": "incl",
+    "perPax": 240,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "4-Star hotel upgrade - Anantaburin Resort ({days})"
+   },
+   {
+    "v": "upprem",
+    "t": "Upgrade Aonang Princeville &ndash; sebut harga",
+    "cost": "incl",
+    "perPaxRate": "upPrem",
+    "hotel": "4-Star Premium Hotel",
+    "line": "Aonang Princeville upgrade",
+    "incl": "Premium hotel upgrade - Aonang Princeville Resort & Spa ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; 4 bintang Cha-Da / Heritage",
+    "cost": "night",
+    "nightRate": "n4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "nBuri",
+    "t": "Malam tambahan &middot; Aonang Buri",
+    "cost": "night",
+    "nightRate": "nBuri",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, Aonang Buri Resort",
+    "incl": "Additional night at Aonang Buri Resort ({days})"
+   },
+   {
+    "v": "nAva",
+    "t": "Malam tambahan &middot; AVA Sea Aonang Resort",
+    "cost": "night",
+    "nightRate": "nAva",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, AVA Sea Ao Nang Resort",
+    "incl": "Additional night at AVA Sea Ao Nang Resort ({days})"
+   },
+   {
+    "v": "nAnanta",
+    "t": "Malam tambahan &middot; Anantaburin Resort",
+    "cost": "night",
+    "nightRate": "nAnanta",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, Anantaburin Resort",
+    "incl": "Additional night at Anantaburin Resort ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel &ndash; tolak 1 malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "nobf",
+    "t": "Tiada makan (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "bfLock": true
+   },
+   {
+    "v": "none",
+    "t": "Breakfast sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "cld",
+    "t": "Candlelight Dinner (Honeymoon, dalam pakej)",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Candlelight Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "air",
+    "t": "Private Airport Transfer + Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport",
+    "incl": "Private airport transfer with English speaking guide ({days}) - 10 hours basis"
+   },
+   {
+    "v": "sic",
+    "t": "Shared Transport SIC + Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "SIC Transport + Guide",
+    "incl": "Shared transport (SIC) with English speaking guide ({days})"
+   },
+   {
+    "v": "priv",
+    "t": "Private Transport + Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Guide",
+    "incl": "Private transportation with English speaking guide ({days}) - 10 hours basis"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Guide",
+    "incl": "Additional day private transportation with guide ({days}) - 10 hours basis"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport deducted)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "lb_7is",
+    "t": "7-Islands Sunset Cruise + Plankton + BBQ (1pm-8pm)",
+    "en": "7-ISLANDS SUNSET CRUISE WITH PLANKTON",
+    "acc": "incl",
+    "meal": "d",
+    "trp": "sic",
+    "act": [
+     "Long-tail boat (SIC basis) 1:00 - 8:00 malam",
+     "Yawasom Island, Chicken Island, Tup Island, Mor Island",
+     "Sunset dinner (BBQ) di Poda Island",
+     "Night snorkeling dengan bioluminescent plankton di Koh Raeng"
+    ],
+    "eact": [
+     "Long-tail boat on SIC basis, 1.00PM - 8.00PM",
+     "Yawasom Island, Chicken Island, Tup Island and Mor Island",
+     "Sunset BBQ dinner at Poda Island",
+     "Night snorkeling with bioluminescent plankton at Koh Raeng"
+    ],
+    "region": "[Island SIC]",
+    "g": "Krabi - island tour"
+   },
+   {
+    "v": "lb_city",
+    "t": "Krabi City Tour sahaja (half day)",
+    "en": "KRABI CITY TOUR",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "priv",
+    "act": [
+     "Black Crab Statue di tepi laut Krabi Town",
+     "Local Market / Walking Street",
+     "Kembali ke hotel Ao Nang"
+    ],
+    "eact": [
+     "Black Crab Statue at Krabi Town waterfront",
+     "Local Market and Walking Street",
+     "Return to hotel in Ao Nang"
+    ],
+    "region": "[Land SIC]",
+    "g": "Krabi - bandar"
+   },
+   {
+    "v": "lb_fe",
+    "t": "Free & easy di Ao Nang (tiada tour)",
+    "en": "FREE AND EASY IN AO NANG",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "none",
+    "act": [
+     "Hari bebas di Ao Nang",
+     "Ao Nang Beach, Ao Nang Walking Street",
+     "Makan dan aktiviti bayaran sendiri"
+    ],
+    "eact": [
+     "Free day in Ao Nang",
+     "Ao Nang Beach and Ao Nang Walking Street",
+     "Meals and activities at own expense"
+    ],
+    "region": "[Free & Easy]",
+    "g": "Krabi - free & easy"
+   },
+   {
+    "v": "ext",
+    "t": "Hari tambahan di Krabi (transport + guide)",
+    "en": "ADDITIONAL DAY IN KRABI",
+    "acc": "extra",
+    "meal": "none",
+    "trp": "ext",
+    "act": [
+     "Hari tambahan - itinerary ikut permintaan customer",
+     "Private transport + guide (10 jam basis)"
+    ],
+    "eact": [
+     "Additional day - itinerary as requested",
+     "Private transportation with guide on 10 hours basis"
+    ],
+    "region": "[Free & Easy]",
+    "g": "Hari tambahan"
+   },
+   {
+    "v": "lb_out",
+    "t": "Krabi - KUL (berlepas, tanpa hotel)",
+    "en": "KRABI DEPARTURE",
+    "acc": "none",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Sarapan di hotel dan check-out",
+     "Airport transfer ke KBV"
+    ],
+    "eact": [
+     "Breakfast at hotel and check out",
+     "Airport transfer to KBV"
+    ],
+    "region": "[Airport Transfer]",
+    "g": "Hari tambahan"
+   }
+  ],
+  "addons": [
+   [
+    "Phi Phi Island and Maya Bay tour (replaces Emerald Pool)",
+    100,
+    100
+   ],
+   [
+    "Upgrade 4-Islands to 7-Islands Sunset Cruise with Plankton",
+    80,
+    80
+   ],
+   [
+    "7-Islands Sunset Cruise with Plankton and BBQ dinner (1pm-8pm)",
+    250,
+    250
+   ],
+   [
+    "Kayaking at Hong Island",
+    70,
+    50
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 10,
+    "text": "Katalog Krabi 2026 beri harga <b>rata untuk 2&ndash;10 pax</b>."
+   },
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "11 pax ke atas: katalog hanya sampai 10 pax dan rate card tiada tier lanjutan. <b>Sebut harga baharu dengan operator</b> &mdash; jangan guna tier 2&ndash;10."
+   }
+  ],
+  "validity": "Prices are based on the PT Krabi 2026 catalogues last updated 7 August 2026 and are valid for travel until 31 December 2026; departures from 1 January 2027 must be requoted. This quotation is valid for 24 hours. A deposit of RM250 per person is due on confirmation and full payment 45 days before departure. A late booking surcharge of RM50 per booking applies to bookings made less than 45 days before departure. Prices are for 2 to 3 persons per room. Private transportation and tour guide are on a 10 hours basis; extra hours are payable in cash to the driver. The final itinerary and hotel arrangements are confirmed at least 15 days before the trip. Island activities are subject to weather conditions.",
+  "variants": [
+   {
+    "id": "budget",
+    "name": "PT Krabi Budget 4D3N",
+    "pkgLabel": "Krabi Budget - Krabi City Tour, 4-Islands Tour, Hong Island",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "single": 450,
+    "infant": 0,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1297,
+      "c": 1097,
+      "n": 997
+     }
+    ],
+    "peak": {
+     "mode": "flat",
+     "value": 250,
+     "windows": [
+      [
+       "2026-01-11",
+       "2026-04-30",
+       "budget",
+       250,
+       "High Season"
+      ],
+      [
+       "2026-11-01",
+       "2026-12-31",
+       "budget",
+       300,
+       "Year-End Peak"
+      ],
+      [
+       "2027-01-01",
+       "2027-12-31",
+       "budget",
+       "request",
+       "Travel 2027 (luar tempoh katalog)"
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Krabi (ketibaan) + Krabi City Tour",
+      "en": "KRABI ARRIVAL - CITY TOUR",
+      "acc": "incl",
+      "meal": "nobf",
+      "trp": "air",
+      "act": [
+       "Tiba Krabi (KBV) - ketibaan antara 1:00 - 3:00 petang",
+       "Airport pickup, transfer ke Ao Nang",
+       "Krabi City Tour - Black Crab Statue, Local Market",
+       "Check-in hotel 3 bintang Ao Nang",
+       "Bebas dan santai; dinner bayaran sendiri"
+      ],
+      "eact": [
+       "Arrive Krabi (KBV) - arrival between 1.00PM - 3.00PM",
+       "Airport pickup and transfer to Ao Nang",
+       "Krabi City Tour - Black Crab Statue and Local Market",
+       "Check in 3-Star hotel in Ao Nang",
+       "Free and easy; dinner at own expense"
+      ],
+      "region": "[Airport Transfer]"
+     },
+     {
+      "v": "d2",
+      "t": "Krabi 4-Islands Tour (SIC long-tail boat)",
+      "en": "KRABI 4-ISLANDS TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "sic",
+      "act": [
+       "Joined long-tail boat (sharing basis)",
+       "Railay Beach, Phranang Beach & Phranang Cave",
+       "Poda Island, Sail Rock (Koh Kai)",
+       "Tub Island, Mor Island, Chicken Island",
+       "Snorkeling dan swimming",
+       "Makan tengahari halal disediakan"
+      ],
+      "eact": [
+       "Joined long-tail boat on sharing basis",
+       "Railay Beach, Phranang Beach and Phranang Cave",
+       "Poda Island and Sail Rock",
+       "Tub Island, Mor Island and Chicken Island",
+       "Snorkeling and swimming",
+       "Halal lunch provided"
+      ],
+      "region": "[Island SIC]"
+     },
+     {
+      "v": "d3b",
+      "t": "Hong Island Tour (SIC speedboat)",
+      "en": "HONG ISLAND TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "sic",
+      "act": [
+       "Via speedboat (sharing basis)",
+       "Pakbia Island dan Paradise Island",
+       "Hidden Lagoon of Hong Island",
+       "Swimming dan snorkeling",
+       "Makan tengahari halal disediakan"
+      ],
+      "eact": [
+       "Via speedboat on sharing basis",
+       "Pakbia Island and Paradise Island",
+       "Hidden Lagoon of Hong Island",
+       "Swimming and snorkeling",
+       "Halal lunch provided"
+      ],
+      "region": "[Island SIC]"
+     },
+     {
+      "v": "d4",
+      "t": "Krabi - KUL (berlepas)",
+      "en": "KRABI DEPARTURE",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Sarapan di hotel dan check-out",
+       "Airport transfer ke Krabi International Airport (KBV)",
+       "Penerbangan pulang ke KUL"
+      ],
+      "eact": [
+       "Breakfast at hotel and check out",
+       "Airport transfer to Krabi International Airport (KBV)",
+       "Return flight to Kuala Lumpur"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "3 nights accommodation at 3-Star Hotel in Ao Nang",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Half board halal meals - 3 breakfasts and 2 lunches",
+     "English speaking tour guide (local Krabi)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets (KUL - KBV)",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance or takaful"
+    ],
+    "exclusionsTail": [
+     "Extra hour private transport and tour guide beyond 10 hours - paid in cash to the driver"
+    ],
+    "labelCwb": "Child With Bed (3-11)",
+    "labelCnb": "Child No Bed (3-7)"
+   },
+   {
+    "id": "std",
+    "name": "PT Krabi Standard 4D3N",
+    "pkgLabel": "Krabi Standard - Krabi City Tour, 4-Islands Tour, Emerald Pool or Phi Phi",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "single": 450,
+    "infant": 0,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1497,
+      "c": 1297,
+      "n": 1097
+     }
+    ],
+    "peak": {
+     "mode": "flat",
+     "value": 250,
+     "windows": [
+      [
+       "2026-01-11",
+       "2026-04-30",
+       "std",
+       250,
+       "High Season"
+      ],
+      [
+       "2026-12-01",
+       "2026-12-31",
+       "std",
+       300,
+       "Year-End Peak"
+      ],
+      [
+       "2027-01-01",
+       "2027-12-31",
+       "std",
+       "request",
+       "Travel 2027 (luar tempoh katalog)"
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Krabi (ketibaan) + Krabi City Tour",
+      "en": "KRABI ARRIVAL - CITY TOUR",
+      "acc": "incl",
+      "meal": "nobf",
+      "trp": "air",
+      "act": [
+       "Tiba Krabi (KBV) - ketibaan antara 1:00 - 3:00 petang",
+       "Airport pickup, transfer ke Ao Nang",
+       "Krabi City Tour - Black Crab Statue, Local Market",
+       "Check-in hotel 3 bintang Ao Nang",
+       "Bebas dan santai; dinner bayaran sendiri"
+      ],
+      "eact": [
+       "Arrive Krabi (KBV) - arrival between 1.00PM - 3.00PM",
+       "Airport pickup and transfer to Ao Nang",
+       "Krabi City Tour - Black Crab Statue and Local Market",
+       "Check in 3-Star hotel in Ao Nang",
+       "Free and easy; dinner at own expense"
+      ],
+      "region": "[Airport Transfer]"
+     },
+     {
+      "v": "d2",
+      "t": "Krabi 4-Islands Tour (SIC long-tail boat)",
+      "en": "KRABI 4-ISLANDS TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "sic",
+      "act": [
+       "Joined long-tail boat (sharing basis)",
+       "Railay Beach, Phranang Beach & Phranang Cave",
+       "Poda Island, Sail Rock (Koh Kai)",
+       "Tub Island, Mor Island, Chicken Island",
+       "Snorkeling dan swimming",
+       "Makan tengahari halal disediakan"
+      ],
+      "eact": [
+       "Joined long-tail boat on sharing basis",
+       "Railay Beach, Phranang Beach and Phranang Cave",
+       "Poda Island and Sail Rock",
+       "Tub Island, Mor Island and Chicken Island",
+       "Snorkeling and swimming",
+       "Halal lunch provided"
+      ],
+      "region": "[Island SIC]"
+     },
+     {
+      "v": "d3e",
+      "t": "Emerald Pool + Hot Spring + Tiger Cave (SIC land tour)",
+      "en": "EMERALD POOL AND TIGER CAVE TOUR",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "sic",
+      "act": [
+       "Klongthom Hot Spring",
+       "Emerald Pool",
+       "Tiger Cave Temple",
+       "Makan tengahari halal disediakan"
+      ],
+      "eact": [
+       "Klongthom Hot Spring",
+       "Emerald Pool",
+       "Tiger Cave Temple",
+       "Halal lunch provided"
+      ],
+      "region": "[Land SIC]"
+     },
+     {
+      "v": "d4",
+      "t": "Krabi - KUL (berlepas)",
+      "en": "KRABI DEPARTURE",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Sarapan di hotel dan check-out",
+       "Airport transfer ke Krabi International Airport (KBV)",
+       "Penerbangan pulang ke KUL"
+      ],
+      "eact": [
+       "Breakfast at hotel and check out",
+       "Airport transfer to Krabi International Airport (KBV)",
+       "Return flight to Kuala Lumpur"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "3 nights accommodation at 3-Star Hotel in Ao Nang",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Half board halal meals - 3 breakfasts and 2 lunches",
+     "English speaking tour guide (local Krabi)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets (KUL - KBV)",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance or takaful"
+    ],
+    "exclusionsTail": [
+     "Extra hour private transport and tour guide beyond 10 hours - paid in cash to the driver"
+    ],
+    "labelCwb": "Child With Bed (3-11)",
+    "labelCnb": "Child No Bed (3-7)"
+   },
+   {
+    "id": "hny",
+    "name": "PT Krabi Honeymoon 4D3N",
+    "pkgLabel": "Krabi Honeymoon - Krabi City Tour, 4-Islands Tour, Emerald Pool or Phi Phi",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "single": 450,
+    "infant": 0,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1448.5,
+      "c": 1448.5,
+      "n": 1448.5
+     }
+    ],
+    "peak": {
+     "mode": "flat",
+     "value": 250,
+     "windows": [
+      [
+       "2026-01-11",
+       "2026-04-30",
+       "hny",
+       250,
+       "High Season"
+      ],
+      [
+       "2026-11-01",
+       "2026-12-31",
+       "hny",
+       300,
+       "Year-End Peak"
+      ],
+      [
+       "2027-01-01",
+       "2027-12-31",
+       "hny",
+       "request",
+       "Travel 2027 (luar tempoh katalog)"
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1h",
+      "t": "KUL - Krabi (ketibaan) + Candlelight Dinner",
+      "en": "KRABI ARRIVAL - CANDLELIGHT DINNER",
+      "acc": "incl",
+      "meal": "cld",
+      "trp": "priv",
+      "act": [
+       "Tiba Krabi (KBV) - ketibaan antara 1:00 - 3:00 petang",
+       "Airport pickup, transfer ke Ao Nang",
+       "Krabi City Tour - Black Crab Statue, Local Market",
+       "Check-in + hiasan bilik honeymoon",
+       "Pick up ke restoran: candlelight dinner + sejambak bunga"
+      ],
+      "eact": [
+       "Arrive Krabi (KBV) - arrival between 1.00PM - 3.00PM",
+       "Airport pickup and transfer to Ao Nang",
+       "Krabi City Tour - Black Crab Statue and Local Market",
+       "Check in hotel with honeymoon room decoration",
+       "Transfer to restaurant for candlelight dinner with flower bouquet"
+      ],
+      "region": "[Airport Transfer]"
+     },
+     {
+      "v": "d2h",
+      "t": "Krabi 4-Islands Tour + dinner (Honeymoon)",
+      "en": "KRABI 4-ISLANDS TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "sic",
+      "act": [
+       "Joined long-tail boat (sharing basis)",
+       "Railay Beach, Phranang Beach & Phranang Cave",
+       "Poda Island, Sail Rock (Koh Kai)",
+       "Tub Island, Mor Island, Chicken Island",
+       "Snorkeling dan swimming",
+       "Fullboard: makan tengahari dan makan malam disediakan"
+      ],
+      "eact": [
+       "Joined long-tail boat on sharing basis",
+       "Railay Beach, Phranang Beach and Phranang Cave",
+       "Poda Island and Sail Rock",
+       "Tub Island, Mor Island and Chicken Island",
+       "Snorkeling and swimming",
+       "Full board - halal lunch and dinner provided"
+      ],
+      "region": "[Island SIC]"
+     },
+     {
+      "v": "d3e",
+      "t": "Emerald Pool + Hot Spring + Tiger Cave (SIC land tour)",
+      "en": "EMERALD POOL AND TIGER CAVE TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "sic",
+      "act": [
+       "Klongthom Hot Spring",
+       "Emerald Pool",
+       "Tiger Cave Temple",
+       "Makan tengahari halal disediakan"
+      ],
+      "eact": [
+       "Klongthom Hot Spring",
+       "Emerald Pool",
+       "Tiger Cave Temple",
+       "Halal lunch provided"
+      ],
+      "region": "[Land SIC]"
+     },
+     {
+      "v": "d4",
+      "t": "Krabi - KUL (berlepas)",
+      "en": "KRABI DEPARTURE",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Sarapan di hotel dan check-out",
+       "Airport transfer ke Krabi International Airport (KBV)",
+       "Penerbangan pulang ke KUL"
+      ],
+      "eact": [
+       "Breakfast at hotel and check out",
+       "Airport transfer to Krabi International Airport (KBV)",
+       "Return flight to Kuala Lumpur"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "3 nights accommodation at 3-Star Hotel in Ao Nang",
+     "Honeymoon room decoration and flower bouquet",
+     "Candlelight dinner on Day 1",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Full board halal meals - 3 breakfasts, 2 lunches and dinner",
+     "English speaking tour guide (local Krabi)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets (KUL - KBV)",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance or takaful"
+    ],
+    "exclusionsTail": [
+     "Extra hour private transport and tour guide beyond 10 hours - paid in cash to the driver"
+    ],
+    "labelCwb": "Child With Bed (3-11)",
+    "labelCnb": "Child No Bed (3-7)"
+   }
+  ]
+ }
+}

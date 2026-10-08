@@ -1,0 +1,1706 @@
+{
+ "slug": "jogja",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Jogjakarta — Knowledge Base (TC Reference)",
+   "brandTag": "JOGJAKARTA KB",
+   "kicker": "ARBA JOGJAKARTA · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Jogjakarta 4D3N — halal, flight, hotel, cuaca, Jeep Merapi & tips.",
+   "searchPlaceholder": "cth: flight ke Jogja? · perlu visa? · makanan halal? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Jogjakarta…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Jogjakarta",
+   "statusText": "Rujukan dalaman TC — sumber: katalog PT Jogja 4D3N 2026 V3 (27 April 2026) + Rate Card Operasi PT Jogjakarta (3 September 2026)",
+   "footerHtml": "Rujukan dalaman Travel Consultant ARBA Travel — Private Tour Jogjakarta 4D3N.<br>Sumber utama: katalog PT Jogja 4D3N 2026 V3 (27 April 2026), Rate Card Operasi PT Jogjakarta (3 September 2026), Travel Map 4H3M, Flight Recommendation, 2026/2027 Date Surcharge, FreeGift Campaign MYP 6/26, Product FAQ Notion.<br>Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline setiap pakej.<br>Tiada gambar trip lepas dalam folder produk Jogjakarta, jadi KB ini tiada tab Gambar Trip Lepas — ini bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Mt Merapi Jeep Lava Tour",
+     "Bukit Panguk Sunrise",
+     "Timang Beach Jeep",
+     "Kraton & Taman Sari",
+     "Plaosan Temple",
+     "Borobudur (add-on)",
+     "Obelix Sea View",
+     "Hutan Pinus Mangunan",
+     "Heha Sky View",
+     "Malioboro Street"
+    ],
+    "usp": "USP: Hotel City Centre (1km / 15 min dari Malioboro) · Full Board halal (3B+3L+3D) · Jeep Timang & Jeep Merapi INCLUDED · Tipping bundled · Transport UNLIMITED sampai tengah malam · Driving Guide Malay/English (Pak Jamal 10+ tahun) · Plaosan Temple included (pesaing selalu skip) · pilihan hotel 3★ Luxury atau 4★ The 101 Tugu.",
+    "season": [
+     [
+      "Mei–Okt",
+      "Musim kering — pagi cool, hujan minima, best untuk sunrise Bukit Panguk & Jeep tour"
+     ],
+     [
+      "Jun–Ogos",
+      "Cuti sekolah — peak family; langit cerah, sesuai bawa anak"
+     ],
+     [
+      "Okt–Nov",
+      "Festival & acara budaya Jawa"
+     ],
+     [
+      "Dis–Jan / Mac–Apr",
+      "Elak jika boleh — peak (Christmas/Hari Raya equiv) + musim hujan"
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan — hotel ke Malioboro dalam 1km / 15 min; bawa kasut selesa",
+     "Jeep Timang & Jeep Merapi bumpy & mencabar fizikal — kurang sesuai toddler/warga emas berkerusi roda",
+     "Bukit Panguk sunrise = pickup pre-dawn ~4:45 AM Day 2",
+     "Makanan Indonesia tempatan halal (Nasi Gudeg, Ayam Goreng Kalasan, Sate Klatak, Soto)",
+     "Heavy traffic Jogja — expect sedikit delay; buffer time built-in",
+     "Arrival Day 1 & Departure Day 4 disyorkan waktu tengah hari (noon)"
+    ]
+   },
+   "lastUpdated": "3 September 2026"
+  },
+  "packages": [
+   {
+    "n": "PT Jogjakarta 4D3N",
+    "tag": "Jogjakarta · 4D3N · Private Tour",
+    "sub": "Budaya Jawa, gunung berapi & pantai — Ground + Tipping",
+    "emoji": "🌋",
+    "img": "Borobudur-Nothwest-view.jpg",
+    "intro": "Private Tour 4 hari 3 malam meneroka jantung budaya Jawa: istana Sultan, candi bersejarah, hutan pinus, pantai selatan yang dramatik dan Jeep Lava Tour di Gunung Merapi — gunung berapi paling aktif di Indonesia. Satu itinerari, dua pilihan hotel: 3★ Luxury (default) atau upgrade 4★ The 101 Yogyakarta Tugu. Harga per pax, 2–3 sebilik, Ground + Tipping (tidak termasuk flight).",
+    "inc": [
+     "3 malam hotel (3 Bintang default — Emersia / Luxury Hotel atau setaraf; upgrade 4 Bintang The 101 Yogyakarta Tugu)",
+     "Private transport (Avanza/Innova/Hiace/Bus ikut pax) — UNLIMITED sampai tengah malam",
+     "Pickup & dropoff Yogyakarta International Airport (YIA)",
+     "Full Board: 3× Breakfast + 3× Lunch + 3× Dinner (Indo local, halal)",
+     "Entrance fees ikut itinerari",
+     "Driving Guide (Malay/English) — driver cum guide tempatan",
+     "Tipping Fee (bundled)",
+     "Jeep Merapi Lava Tour (Day 4)",
+     "Jeep Timang Beach (Day 2, max 4 pax/jeep)"
+    ],
+    "exc": [
+     "Tiket flight KUL ↔ YIA (return)",
+     "Luggage, in-flight meal & airport tax",
+     "Additional tours & meals di luar itinerari",
+     "Personal expenses",
+     "Travel insurance / Takaful",
+     "Borobudur entrance (RM150/pax Ground, RM185/pax Temple guided), Gondola Timang (RM80/pax) & add-on lain — lihat tab Customisation"
+    ],
+    "note": "Harga sah 24 jam selepas quotation. 2–3 orang sebilik. Single Supplement RM 550/pax. Late Booking Surcharge RM 50/booking jika booking kurang 45 hari sebelum berlepas. Deposit RM 250/pax; full payment 45 hari sebelum berlepas. Pakej sah untuk perjalanan hingga 31 Mac 2027."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Welcome to Jogjakarta (Arrival ~noon)",
+     "m": "Lunch / Dinner",
+     "a": [
+      "Arrival & pickup di Yogyakarta International Airport (YIA)",
+      "Gumuk Pasir — sand dunes (Jeep/ATV add-on tersedia)",
+      "Obelix Sea View (kawasan Parangtritis)",
+      "Malioboro Street (24-hour shopping street)",
+      "Check-in hotel"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Hutan Pinus · Timang Beach · Heha Sky View",
+     "m": "B / L / D",
+     "a": [
+      "Bukit Panguk 4:45 AM — sunrise & awan karpet",
+      "Hutan Pinus Mangunan (hutan pinus terbesar)",
+      "Timang Beach — Jeep INCLUDED (Gondola add-on)",
+      "Heha Sky View (scenic photo spot)",
+      "Batik Outlet",
+      "Kembali ke hotel"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Kraton · Taman Sari · Plaosan · Malioboro",
+     "m": "B / L / D",
+     "a": [
+      "Shopping ole-ole khas Jogja",
+      "Kraton Jogja (Istana Sultan Yogyakarta)",
+      "Taman Sari Water Castle (taman diraja abad ke-18)",
+      "Plaosan Temple (candi tenang, tanpa entrance)",
+      "Borobudur Temple — UNESCO (entrance add-on)",
+      "Shopping @ Malioboro Street → kembali ke hotel"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Mt. Merapi Lava Tour · Airport (Departure ~noon)",
+     "m": "Breakfast",
+     "a": [
+      "Mount Merapi Jeep Lava Tour — Bunker Kaliadem, Sisa Hartaku Mini Museum, Hobbit House, Kali Boyong River",
+      "Kembali ke hotel · check-out",
+      "Transfer ke Yogyakarta International Airport (YIA)"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Mount Merapi Jeep Lava Tour",
+    "t": "Gunung Berapi · Adventure",
+    "emoji": "🌋",
+    "img": "Mount Merapi in 2014.jpg",
+    "short": "Jeep 4x4 merentas kawasan letusan gunung berapi paling aktif Indonesia.",
+    "intro": "Highlight Day 4. Jeep Lava Tour membawa anda ke Bunker Kaliadem, Sisa Hartaku Mini Museum (memori letusan 2010), Hobbit House dan Kali Boyong River. Pengalaman off-road yang mencabar tetapi ikonik.",
+    "hi": [
+     "Bunker Kaliadem",
+     "Sisa Hartaku Mini Museum",
+     "Hobbit House",
+     "Kali Boyong River"
+    ],
+    "best": "Pagi Day 4 sebelum transfer airport. Musim kering (Mei–Okt) untuk laluan jeep terbaik.",
+    "muslim": "Surau tersedia di base camp Jeep Merapi (Kaliurang/Kaliadem). Makanan halal mudah — kawasan Muslim-majority. Jeep bumpy — kurang sesuai wanita hamil / toddler.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bunker+Kaliadem+Merapi+Lava+Tour"
+   },
+   {
+    "n": "Bukit Panguk Kediwung",
+    "t": "Sunrise · Scenic Nature",
+    "emoji": "🌄",
+    "img": "Mangunan Pine Forest.jpg",
+    "short": "Sunrise 4:45 AM dengan 'awan karpet' di atas lembah.",
+    "intro": "Pickup pre-dawn Day 2. Viewpoint bukit terkenal untuk matahari terbit dengan hamparan awan menyerupai karpet. Instagram-worthy.",
+    "hi": [
+     "Sunrise ~5:30 AM",
+     "Awan karpet (sea of clouds)",
+     "Photo deck kayu"
+    ],
+    "best": "Wajib sampai sebelum 5 AM. Cerah paling kerap musim kering (Jun–Sep).",
+    "muslim": "Bawa sejadah — solat Subuh boleh dilakukan di viewpoint (kawasan lapang). Warung halal berdekatan buka awal pagi.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bukit+Panguk+Kediwung+Mangunan"
+   },
+   {
+    "n": "Timang Beach",
+    "t": "Pantai · Adventure",
+    "emoji": "🏖️",
+    "img": "Pemandangan Pantai Timang dan Pulau Panjang.jpg",
+    "short": "Pantai selatan dramatik — Jeep ride INCLUDED, gondola/jambatan add-on.",
+    "intro": "Day 2. Perjalanan ke Timang guna Jeep (max 4 pax/jeep) melalui laluan bumpy. Terkenal dengan gondola tradisional & suspension bridge merentas ke pulau batu karang (add-on).",
+    "hi": [
+     "Jeep ride included",
+     "Gondola tradisional (RM80/pax add-on)",
+     "Suspension bridge (~RM50 add-on)",
+     "Ombak Lautan Hindi"
+    ],
+    "best": "Tengah hari Day 2. Elok musim kering — laut kurang bergelora.",
+    "muslim": "Surau kecil di kawasan parkir Timang. Warung seafood halal tempatan. Gondola/jambatan mencabar — pilihan customer.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Timang+Beach+Gunungkidul"
+   },
+   {
+    "n": "Kraton Yogyakarta (Istana Sultan)",
+    "t": "Budaya · Warisan",
+    "emoji": "🏯",
+    "img": "Yogyakarta Indonesia Kraton-the-Sultans-Palace-02.jpg",
+    "short": "Istana diraja Kesultanan Yogyakarta yang masih aktif.",
+    "intro": "Day 3. Kompleks istana Sultan yang masih berfungsi, lengkap dengan muzium, koleksi diraja dan persembahan budaya (gamelan/wayang ikut jadual).",
+    "hi": [
+     "Kompleks istana Sultan",
+     "Muzium & koleksi diraja",
+     "Persembahan budaya Jawa",
+     "Abdi dalem (pegawai istana)"
+    ],
+    "best": "Pagi Day 3 (buka ~9 AM, tutup awal petang; sesetengah bahagian tutup hari tertentu).",
+    "muslim": "Masjid Gedhe Kauman (masjid diraja) bersebelahan Kraton — antara masjid tertua Jogja. Makanan halal berlimpah di sekitar Alun-Alun.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Keraton+Yogyakarta"
+   },
+   {
+    "n": "Taman Sari Water Castle",
+    "t": "Budaya · Warisan",
+    "emoji": "⛲",
+    "img": "Taman Sari Water Castle, Yogyakarta, 20220818 1041 8964.jpg",
+    "short": "Kompleks taman & kolam mandi diraja abad ke-18.",
+    "intro": "Day 3. Bekas taman rehat & kolam mandi Sultan yang dibina 1758. Seni bina campuran Jawa-Portugis, lorong bawah tanah & Sumur Gumuling.",
+    "hi": [
+     "Kolam mandi diraja",
+     "Sumur Gumuling (masjid bawah tanah)",
+     "Lorong bawah tanah",
+     "Photo spot arca"
+    ],
+    "best": "Sambung selepas Kraton, pagi/tengah hari Day 3.",
+    "muslim": "Sumur Gumuling asalnya masjid bawah tanah bersejarah. Surau & makanan halal mudah di sekitar kampung Taman Sari.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Taman+Sari+Water+Castle+Yogyakarta"
+   },
+   {
+    "n": "Plaosan Temple",
+    "t": "Candi · Warisan",
+    "emoji": "🛕",
+    "img": "Prambanan temple, Central Java, Indonesia, 20220818 1311 9139.jpg",
+    "short": "Candi Buddha tenang & kurang ramai — INCLUDED (pesaing selalu skip).",
+    "intro": "Day 3. Kompleks candi Buddha abad ke-9 yang damai berhampiran Prambanan. Tiada entrance fee (dikelola komuniti) — peluang foto tanpa orang ramai.",
+    "hi": [
+     "Candi kembar Plaosan Lor",
+     "Suasana tenang, kurang pelancong",
+     "Tiada entrance fee",
+     "Latar sawah padi"
+    ],
+    "best": "Lewat pagi Day 3. Cahaya emas waktu petang cantik untuk foto.",
+    "muslim": "Surau di kampung sekitar Plaosan. Warung halal tempatan berdekatan Prambanan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Plaosan+Temple"
+   },
+   {
+    "n": "Borobudur Temple (add-on)",
+    "t": "Candi · UNESCO",
+    "emoji": "🛕",
+    "img": "Borobudur-Nothwest-view.jpg",
+    "short": "Candi Buddha terbesar dunia — entrance add-on RM150/pax (Ground Area) atau RM185/pax (Temple/Hill guided).",
+    "intro": "Day 3 (opsyenal). Monumen Buddha abad ke-9, Tapak Warisan Dunia UNESCO. Entrance tidak termasuk pakej — pilih Ground Area atau Structure Area.",
+    "hi": [
+     "Candi Buddha terbesar dunia",
+     "504 arca Buddha",
+     "Relief batu terperinci",
+     "Pilihan Ground / Structure area"
+    ],
+    "best": "Pagi (elak panas tengah hari). Perlu tempah slot Structure Area awal.",
+    "muslim": "Surau di kompleks Borobudur. Makanan halal di kawasan Magelang/Muntilan. Tutup aurat & kasut selesa untuk naik candi.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Borobudur+Temple"
+   },
+   {
+    "n": "Obelix Sea View",
+    "t": "Viewpoint · Pantai",
+    "emoji": "🌅",
+    "img": "Pantai parangtritis (3).jpg",
+    "short": "Viewpoint tebing atas Pantai Parangtritis dengan sunset.",
+    "intro": "Day 1. Kompleks viewpoint & F&B moden di tebing selatan Jogja, menghadap Pantai Parangtritis. Popular untuk sunset & foto.",
+    "hi": [
+     "Tebing atas Parangtritis",
+     "Deck & photo spot",
+     "Sunset Lautan Hindi",
+     "Kafe & gazebo"
+    ],
+    "best": "Petang Day 1 untuk sunset.",
+    "muslim": "Surau tersedia di kompleks Obelix. Menu F&B halal. Gumuk Pasir (sand dunes) berdekatan untuk Jeep/ATV add-on.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Obelix+Sea+View+Parangtritis"
+   },
+   {
+    "n": "Hutan Pinus Mangunan",
+    "t": "Scenic Nature",
+    "emoji": "🌲",
+    "img": "Mangunan Pine Forest.jpg",
+    "short": "Hutan pinus terbesar Jogja — sejuk & photogenic.",
+    "intro": "Day 2. Hutan pinus di Bantul dengan udara sejuk, laluan berjalan & pentas kayu. Popular untuk foto keluarga.",
+    "hi": [
+     "Hutan pinus tinggi",
+     "Udara sejuk pagi",
+     "Pentas kayu & photo spot",
+     "Family-friendly walk"
+    ],
+    "best": "Pagi Day 2 selepas sunrise Bukit Panguk (sekawasan).",
+    "muslim": "Surau di kawasan parkir Mangunan. Warung halal tempatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hutan+Pinus+Mangunan"
+   },
+   {
+    "n": "Heha Sky View",
+    "t": "Viewpoint · F&B",
+    "emoji": "🌇",
+    "img": "",
+    "short": "Viewpoint bukit dengan installations instagram & F&B.",
+    "intro": "Day 2. Destinasi viewpoint moden di Gunungkidul dengan taman, glass deck & restoran menghadap lampu bandar Jogja waktu malam.",
+    "hi": [
+     "Installations instagram",
+     "Glass deck",
+     "Pemandangan bandar waktu malam",
+     "Restoran & kafe"
+    ],
+    "best": "Lewat petang Day 2 untuk sunset & city lights.",
+    "muslim": "Surau di kompleks Heha. Restoran dengan pilihan halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Heha+Sky+View"
+   },
+   {
+    "n": "Malioboro Street",
+    "t": "Shopping · City",
+    "emoji": "🛍️",
+    "img": "Malioboro Street, Yogyakarta.JPG",
+    "short": "Jalan shopping ikonik Jogja — hotel dalam 1km / 15 min.",
+    "intro": "Day 1 & Day 3. Nadi bandar Jogja: batik, ole-ole, kraf, street food & Pasar Beringharjo. Hotel pakej terletak dalam jarak berjalan kaki.",
+    "hi": [
+     "Batik & ole-ole khas Jogja",
+     "Pasar Beringharjo",
+     "Street food & kopi Jogja",
+     "Horse carriage (add-on RM70)"
+    ],
+    "best": "Petang/malam untuk suasana. Buka 24 jam (kedai utama ~10 AM–9 PM).",
+    "muslim": "Masjid & surau berlimpah sepanjang Malioboro (termasuk Masjid Gedhe Kauman berdekatan). Street food halal senang dicari.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Malioboro+Street+Yogyakarta"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3 Bintang (default)",
+    "name": "Emersia Hotel / Luxury Hotel atau setaraf",
+    "note": "City Centre, dalam 1 km / 15 minit jalan kaki ke Malioboro. 2 pax twin sharing; 3 pax triple dengan extra bed. Peak season RM 120/pax/malam.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "4 Bintang (upgrade)",
+    "name": "The 101 Yogyakarta Tugu Hotel atau setaraf",
+    "note": "Upgrade RM 100/pax/malam (Ahad–Khamis), RM 120/pax/malam (Jumaat–Sabtu). 3 pax triple dengan proper bed. Peak season RM 180/pax/malam.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "Single Occupancy",
+    "name": "Single Supplement (mana-mana tier)",
+    "note": "RM 550/pax untuk bilik single, seluruh trip.",
+    "emoji": "🛏"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "map": "<h2>Travel Map</h2><div class='mapcard'><div class='maptitle'>PT Jogjakarta 4H3M &mdash; Peta Laluan</div><img src='@asset:7f15bde9ecc4' alt='Travel Map PT Jogjakarta 4H3M'><div class='mapcap'><b>Laluan:</b> YIA &rarr; Gumuk Pasir &amp; Obelix Sea View &rarr; City Centre / Malioboro (D1) &rarr; Hutan Pinus Mangunan &rarr; Timang Beach &rarr; HeHa Sky View (D2) &rarr; Kraton &amp; Taman Sari &rarr; Plaosan Temple atau Borobudur &rarr; Malioboro (D3) &rarr; Merapi Lava Tour &rarr; YIA (D4). Anggaran masa antara kawasan 1 jam hingga 2 jam.</div></div>",
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub' style='margin:0 0 10px'>Kadar katalog <b>PT Jogja 4D3N 2026 V3</b> (Last Updated 27 April 2026) — per pax, 2&ndash;3 orang sebilik, <b>Ground + Tipping</b>. Tidak termasuk tiket flight. Sah untuk perjalanan hingga 31 Mac 2027.</p><div class='custblk'><h3>PT Jogjakarta 4D3N &mdash; Hotel 3 Bintang (default, RM/pax)</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Adult (12 tahun ke atas)</th><th>Child With Bed (6&ndash;11)</th><th>Child No Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 1,457</td><td>RM 1,257</td><td>RM 1,057</td></tr><tr><td class='it'>3&ndash;4</td><td class='add'>RM 1,357</td><td>RM 1,157</td><td>RM 957</td></tr><tr><td class='it'>5&ndash;7</td><td class='add'>RM 1,297</td><td>RM 1,097</td><td>RM 897</td></tr><tr><td class='it'>8&ndash;10</td><td class='add'>RM 1,257</td><td>RM 1,057</td><td>RM 857</td></tr><tr><td class='it'>11&ndash;15</td><td class='add'>RM 1,197</td><td>RM 997</td><td>RM 797</td></tr></tbody></table><p class='custnote'>Infant bawah 2 tahun: FOC. Umur dikira ikut tarikh travel. Group 16 pax dan ke atas: kadar mengikut quotation operator.</p></div><div class='custblk'><h3>Pilihan Hotel &amp; Kadar Upgrade</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Hotel</th><th>Upgrade Surcharge</th><th>Peak Season</th></tr></thead><tbody><tr><td class='it'>3 Bintang (default)</td><td>Emersia Hotel / Luxury Hotel atau setaraf</td><td>&mdash;</td><td class='add'>RM 120 /pax/malam</td></tr><tr><td class='it'>4 Bintang</td><td>The 101 Yogyakarta Tugu Hotel atau setaraf</td><td class='add'>RM 100 /pax/malam (Ahad&ndash;Khamis)<br>RM 120 /pax/malam (Jumaat&ndash;Sabtu)</td><td class='add'>RM 180 /pax/malam</td></tr></tbody></table><p class='custnote'>Hotel 3 Bintang: triple sharing menggunakan extra bed. Hotel 4 Bintang: triple sharing dengan proper bed. Single Supplement RM 550 /pax. Kedua-dua tier di City Centre, dalam 1 km / 15 minit jalan kaki ke Malioboro.</p></div>",
+   "custom": "<h2>Simple Customisation (Add-On)</h2><p class='ssub'>Menu add-on pakej Jogjakarta. Harga dalam MYR, semua tidak termasuk meals &amp; personal expenses. Harga add-on diselaraskan dengan <b>Rate Card Operasi PT Jogjakarta (3 September 2026)</b> &mdash; di mana rate card bercanggah dengan katalog V3, rate card yang dipakai sebagai harga jual.</p><div class='custblk'><h3>Aktiviti Tambahan &amp; Entrance</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Borobudur Temple &mdash; Ground Area</td><td class='add'>RM 150 /pax</td><td>Day 3 &middot; kawasan dataran candi &middot; 1&ndash;2 jam</td></tr><tr><td class='it'>Borobudur Temple &mdash; Temple / Hill Area (Guided Tour)</td><td class='add'>RM 185 /pax</td><td>Day 3 &middot; naik struktur candi dengan guide berlesen &middot; kuota harian terhad, book awal</td></tr><tr><td class='it'>Jeep Gumuk Pasir</td><td class='add'>RM 157 /jeep</td><td>Day 1 &middot; medium route &middot; 2 jam 30 min &middot; 4 pax/jeep &middot; termasuk video &amp; foto</td></tr><tr><td class='it'>ATV Gumuk Pasir</td><td class='add'>RM 100 /ATV</td><td>Day 1 &middot; 1 jam &middot; 2 pax/ATV</td></tr><tr><td class='it'>Gondola Timang Beach</td><td class='add'>RM 80 /pax</td><td>Day 2 &middot; gondola pergi-balik &middot; 15 minit &middot; tolak RM 50/pax jika dibuang dari pakej</td></tr><tr><td class='it'>Jambatan (Suspension Bridge) Timang Beach</td><td class='add'>RM 50 /pax</td><td>Day 2 &middot; alternatif gondola &middot; tolak RM 30/pax jika dibuang</td></tr><tr><td class='it'>Goa Pindul &amp; Cave Tubing</td><td class='add'>RM 100 /pax</td><td>Add-on &middot; termasuk transport ke Goa Pindul &amp; Jomblang &middot; 2 jam</td></tr><tr><td class='it'>Gamplong Studio Alam</td><td class='add'>RM 25 /pax</td><td>Add-on &middot; entrance studio filem &middot; 1 jam</td></tr><tr><td class='it'>Horse Carriage Ride</td><td class='add'>RM 70 /carriage</td><td>Day 3 &middot; kawasan Malioboro &middot; maks 6 pax &middot; 30 minit</td></tr><tr><td class='it'>Obelix Sea View</td><td class='add'>RM 20 /pax</td><td>Day 1 (sudah dalam pakej) &middot; tolak RM 10/pax jika dibuang</td></tr><tr><td class='it'>Pine Forest (Hutan Pinus Mangunan)</td><td class='add'>RM 25 /pax</td><td>Day 2 (sudah dalam pakej) &middot; tolak RM 10/pax jika dibuang</td></tr><tr><td class='it'>Jeep Timang Beach</td><td class='add'>RM 160 /jeep</td><td>Day 2 (sudah dalam pakej) &middot; 4 pax/jeep &middot; tolak RM 100/jeep jika dibuang</td></tr><tr><td class='it'>Merapi + Hobbit Jeep Lava Tour</td><td class='add'>RM 250 /jeep</td><td>Day 4 (sudah dalam pakej) &middot; 4 pax/jeep &middot; tolak RM 150/jeep jika dibuang</td></tr></tbody></table></div><p class='custnote'>Harga add-on untuk kanak-kanak: 60% daripada harga adult (sumber: Product FAQ Notion &mdash; tiada dalam katalog V3). Semua entrance fee dan harga aktiviti sudah termasuk service charge dan perbezaan tukaran mata wang, jadi boleh berbeza daripada local rate Indonesia. Add-on boleh dibayar di Jogja &mdash; minta Tour Guide assist. Item yang ditanda <i>sudah dalam pakej</i> hanya relevan bila customer mahu <b>membuang</b> aktiviti itu daripada itinerari &mdash; gunakan harga tolak.</p><div class='custblk'><h3>Special Occasion</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Honeymoon Decoration</td><td class='add'>RM 250</td><td>Cake + flower + card</td></tr><tr><td class='it'>Candle Light Dinner (2 pax)</td><td class='add'>RM 200</td><td>Romantic add-on</td></tr></tbody></table></div><p class='custnote'>Sumber: rate card ARBA &mdash; item ini tiada dalam katalog V3. Extension Bromo (3D2N, perlu flight Surabaya) atau Bali (pakej berasingan): bincang dengan Travel Consultant.</p><h2 style='margin-top:30px'>Rate Card Operasi</h2><p class='ssub'>Kadar operasi PT Jogjakarta (rate card PO, 3 September 2026). Inilah sumber kadar untuk tab <b>Simple Calculator</b>. Kadar transport ialah <b>per kenderaan (per transport) per hari</b>, bukan per pax &mdash; kalkulator pilih kelas kenderaan ikut bilangan pax dan buat pembahagian ini automatik. Lajur <b>tolak</b> ialah jumlah yang dipotong daripada harga katalog bila item itu dibuang daripada itinerari.</p><div class='custblk'><h3>Transport + Driver</h3><table class='ctbl'><thead><tr><th>Tour</th><th>Avanza / APV<br>2&ndash;4 pax</th><th>tolak</th><th>Innova<br>5&ndash;6 pax</th><th>tolak</th><th>Hiace<br>7&ndash;12 pax</th><th>tolak</th><th>Hiace VVIP<br>7&ndash;8 pax</th><th>tolak</th></tr></thead><tbody><tr><td class='it'>Full Day Tour (12 jam)</td><td class='add'>RM 250</td><td class='ded'>&minus;RM 150</td><td class='add'>RM 300</td><td class='ded'>&minus;RM 200</td><td class='add'>RM 500</td><td class='ded'>&minus;RM 300</td><td class='add'>RM 950</td><td class='ded'>&minus;RM 600</td></tr><tr><td class='it'>Half Day Tour (5&ndash;6 jam)</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 100</td><td class='add'>RM 250</td><td class='ded'>&minus;RM 150</td><td class='add'>RM 400</td><td class='ded'>&minus;RM 300</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>Airport Transfer + Half Day Tour (6 jam)</td><td class='add'>RM 250</td><td class='ded'>&minus;RM 150</td><td class='add'>RM 300</td><td class='ded'>&minus;RM 200</td><td class='add'>RM 500</td><td class='ded'>&minus;RM 300</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>Airport Transfer sahaja</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 100</td><td class='add'>RM 250</td><td class='ded'>&minus;RM 150</td><td class='add'>RM 400</td><td class='ded'>&minus;RM 300</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table></div><p class='custnote'>Hiace VVIP hanya 8-seater dan hanya tersedia untuk Full Day Tour. Rate card berhenti di Hiace 7&ndash;12 pax, tetapi katalog ada tier harga sehingga 11&ndash;15 pax &mdash; <b>13 pax ke atas tiada kadar transport tersiar</b>. Kalkulator akan tanda cip merah <i>kadar?</i> untuk band itu; minta sebut harga operasi. Kadar untuk destinasi luar bandar Jogja (Dieng, Kebumen, Nepal van Java) juga belum tersiar &mdash; sama-sama ditanda sebagai gap.</p><div class='custblk'><h3>Accommodation &mdash; malam tambah / tolak</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Hotel</th><th>Tambah 1 malam<br>(normal)</th><th>Tambah 1 malam<br>(peak)</th><th>Tolak 1 malam<br>(normal)</th><th>Tolak 1 malam<br>(peak)</th></tr></thead><tbody><tr><td class='it'>3 Bintang</td><td>Luxury Malioboro</td><td class='add'>RM 150 /pax/malam</td><td class='add'>RM 250 /pax/malam</td><td class='ded'>&minus;RM 80</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'>3 Bintang</td><td>Emersia Hotel</td><td class='add'>RM 150 /pax/malam</td><td class='add'>RM 250 /pax/malam</td><td class='ded'>&minus;RM 80</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'>4 Bintang</td><td>The 101 Yogyakarta Tugu</td><td class='add'>RM 180 /pax/malam</td><td class='add'>RM 350 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>4 Bintang</td><td>Grand Zuri Malioboro</td><td class='add'>RM 180 /pax/malam</td><td class='add'>RM 350 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>3 Bintang &mdash; kawasan Dieng (luar bandar Jogja)</td><td>Villa Pintu Langit</td><td class='add'>RM 200 /pax/malam</td><td class='add'>RM 350 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>Glamping Nepal van Java (luar bandar Jogja)</td><td>Trianggulasi Hotel</td><td class='add'>RM 150 /pax/malam</td><td class='add'>RM 250 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>Glamping Nepal van Java (luar bandar Jogja)</td><td>Linggar Jati Hotel</td><td class='add'>RM 150 /pax/malam</td><td class='add'>RM 250 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>3 Bintang &mdash; Kebumen (luar bandar Jogja)</td><td>Hotel Kebumen Maxolie</td><td class='add'>RM 210 /pax/malam</td><td class='add'>RM 350 /pax/malam</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table></div><p class='custnote'>Kadar per pax per malam, 2&ndash;3 orang sebilik. Hanya hotel 3 Bintang ada kadar <b>tolak</b> malam (RM 80/pax/malam, normal dan peak sama) &mdash; tier lain belum tersiar. Peak season ikut senarai tarikh dalam tab Surcharge. Villa Pintu Langit (Dieng), Trianggulasi &amp; Linggar Jati (glamping Nepal van Java, Magelang) dan Hotel Kebumen Maxolie berada <b>di luar bandar Jogja</b> &mdash; guna hanya untuk itinerari extension, dan sahkan kadar transport dengan operasi.</p><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Cadang makan di hotel</td><td>&mdash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30 /pax</td><td class='ded'>&minus;RM 20 /pax</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30 /pax</td><td class='ded'>&minus;RM 20 /pax</td></tr></tbody></table></div><p class='custnote'>Breakfast sudah termasuk dalam kadar hotel &mdash; tiada harga tambah atau tolak berasingan. Lunch dan dinner: tambah RM 30/pax setiap hidangan, tolak RM 20/pax setiap hidangan yang dibuang daripada pakej (pakej asal 3B / 3L / 3D).</p><div class='custblk'><h3>Entrance &amp; Activity</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga tambah</th><th>Harga tolak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Borobudur Ground Area</td><td class='add'>RM 150 /pax</td><td>&mdash;</td><td></td></tr><tr><td class='it'>Borobudur Temple / Hill Area (Guided Tour)</td><td class='add'>RM 185 /pax</td><td>&mdash;</td><td></td></tr><tr><td class='it'>Goa Pindul &amp; Cave Tubing</td><td class='add'>RM 100 /pax</td><td>&mdash;</td><td></td></tr><tr><td class='it'>Gamplong Studio Alam</td><td class='add'>RM 25 /pax</td><td>&mdash;</td><td></td></tr><tr><td class='it'>Obelix Sea View</td><td class='add'>RM 20 /pax</td><td class='ded'>&minus;RM 10 /pax</td><td></td></tr><tr><td class='it'>Pine Forest</td><td class='add'>RM 25 /pax</td><td class='ded'>&minus;RM 10 /pax</td><td></td></tr><tr><td class='it'>Jeep Timang Beach</td><td class='add'>RM 160 /jeep</td><td class='ded'>&minus;RM 100 /jeep</td><td>1 jeep muat 4 pax</td></tr><tr><td class='it'>Gondola Timang Beach</td><td class='add'>RM 80 /pax</td><td class='ded'>&minus;RM 50 /pax</td><td></td></tr><tr><td class='it'>Jambatan Timang Beach</td><td class='add'>RM 50 /pax</td><td class='ded'>&minus;RM 30 /pax</td><td></td></tr><tr><td class='it'>Merapi + Hobbit Jeep</td><td class='add'>RM 250 /jeep</td><td class='ded'>&minus;RM 150 /jeep</td><td>1 jeep muat 4 pax</td></tr></tbody></table></div><p class='custnote'>Jeep Timang Beach dan Merapi + Hobbit Jeep <b>sudah termasuk</b> dalam harga katalog &mdash; lajur tambah hanya dipakai untuk jeep tambahan (contoh 5&ndash;8 pax perlu 2 jeep), lajur tolak dipakai bila aktiviti itu dibuang. Keputusan PO 3 Sep 2026: lajur tolak Gondola (RM 50) dan Jambatan (RM 30) ditulis <i>/Jeep</i> dalam rate card &mdash; itu salah taip, dibaca sebagai <b>per pax</b> sepadan dengan lajur tambah.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season dan late booking RM 50 dikira sendiri. Pakej asal <b>3 Bintang</b>; untuk 4 Bintang tukar pilihan Accommodation pada setiap malam. Transport ikut kelas kenderaan: 2&ndash;4 pax Avanza/APV, 5&ndash;6 pax Innova, 7&ndash;12 pax Hiace; kadar per kenderaan per hari ikut tempoh tour yang dipilih pada baris hari. Upgrade 4 Bintang bergantung pada hari dalam minggu dan musim &mdash; pilih <i>Ahad&ndash;Khamis</i> (RM 100) atau <i>Jumaat&ndash;Sabtu</i> (RM 120) ikut tarikh yang dipapar pada baris hari, dan versi <i>PEAK</i> (RM 160 / RM 180) untuk malam yang jatuh dalam tetingkap peak season.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 550 setiap satu</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila</th></tr></thead><tbody><tr><td class='it'>Single Supplement</td><td class='add'>RM 550 /pax</td><td>Bilik single occupancy, seluruh trip, mana-mana tier</td></tr><tr><td class='it'>Upgrade 4 Bintang (Ahad&ndash;Khamis)</td><td class='add'>RM 100 /pax/malam</td><td>The 101 Yogyakarta Tugu atau setaraf</td></tr><tr><td class='it'>Upgrade 4 Bintang (Jumaat&ndash;Sabtu)</td><td class='add'>RM 120 /pax/malam</td><td>The 101 Yogyakarta Tugu atau setaraf</td></tr><tr><td class='it'>Peak Season &mdash; 3 Bintang</td><td class='add'>RM 120 /pax/malam</td><td>Tarikh peak (senarai di bawah)</td></tr><tr><td class='it'>Peak Season &mdash; 4 Bintang</td><td class='add'>RM 180 /pax/malam</td><td>Tarikh peak (senarai di bawah)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>RM 50 /booking</td><td>Booking kurang 45 hari sebelum tarikh berlepas</td></tr></tbody></table></div><div class='custblk'><h3>Tarikh Peak Season</h3><table class='ctbl'><thead><tr><th>Blok</th><th>Tarikh</th></tr></thead><tbody><tr><td class='it'>1</td><td>15 &ndash; 30 Mac 2026</td></tr><tr><td class='it'>2</td><td>25 Mei &ndash; 5 Jun 2026</td></tr><tr><td class='it'>3</td><td>20 Dis 2026 &ndash; 5 Jan 2027</td></tr><tr><td class='it'>4</td><td>5 &ndash; 25 Feb 2027</td></tr><tr><td class='it'>5</td><td>5 Mac &ndash; 15 Apr 2027</td></tr></tbody></table><p class='custnote'>Surcharge peak season dikira per pax per malam dan ditambah di atas harga pakej. Sumber: katalog PT Jogja 4D3N 2026 V3 dan 2026/2027 Date Surcharge.</p></div>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub' style='margin:0 0 10px'>Private transport &mdash; <b>unlimited sampai tengah malam</b>, semua berhawa dingin. Driving Guide (Malay / English) merangkap driver tempatan.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2&ndash;4</td><td>Avanza / Innova</td><td>Minivan</td></tr><tr><td class='it'>5&ndash;6</td><td>Innova (extended)</td><td>Minivan besar</td></tr><tr><td class='it'>7&ndash;13</td><td>Hiace</td><td>Van</td></tr><tr><td class='it'>14 dan ke atas</td><td>Bus</td><td>Coach</td></tr></tbody></table><p class='custnote'>Timang Beach menggunakan Jeep khas (maks 4 pax/jeep) melalui laluan gravel yang bumpy. Jeep Timang Beach dan Jeep Merapi Lava Tour sudah termasuk dalam pakej. Wakil ARBA atau Tour Leader boleh diatur upon request.</p></div>",
+   "stay": "<h2>Accommodation</h2><p class='ssub' style='margin:0 0 10px'>Satu pakej, dua pilihan hotel di City Centre (dalam 1 km / 15 minit jalan kaki ke Malioboro). Default 3 Bintang; upgrade 4 Bintang The 101 Yogyakarta Tugu. Kawasan Muslim-majority &mdash; surau, masjid dan makanan halal berlimpah.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Perkara</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>2 pax</td><td>Twin sharing</td></tr><tr><td class='it'>3 pax &mdash; 3 Bintang</td><td>Triple sharing dengan extra bed</td></tr><tr><td class='it'>3 pax &mdash; 4 Bintang</td><td>Triple sharing dengan proper bed</td></tr><tr><td class='it'>4 pax</td><td>2 bilik</td></tr><tr><td class='it'>Single occupancy</td><td>Single Supplement RM 550 /pax</td></tr><tr><td class='it'>Connecting room</td><td>Tersedia di Emersia Malioboro &mdash; perlu request semasa booking (subject to availability)</td></tr></tbody></table><p class='custnote'>Nama hotel muktamad dimaklumkan 14 hari sebelum trip. Connecting room: sumber Product FAQ Notion &mdash; tiada dalam katalog V3.</p></div>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub' style='margin:0 0 10px'>Full Board disediakan dalam pakej: <b>3&times; Breakfast + 3&times; Lunch + 3&times; Dinner</b>, masakan Indonesia tempatan yang halal. Jogjakarta kawasan Muslim-majority &mdash; hampir semua restoran halal atau halal-friendly.</p><div class='custblk'><h3>Senarai Restoran Rujukan</h3><table class='ctbl'><thead><tr><th>Restoran</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Rumah Makan Bu Hartin</td><td>Masakan Jawa tempatan, sesuai group</td></tr><tr><td class='it'>Lombok Ijo</td><td>Masakan Jawa, ada menu pedas</td></tr><tr><td class='it'>Pawon Segar</td><td>Masakan Indonesia, set group</td></tr><tr><td class='it'>Bale Bebakaran</td><td>Menu bakar / grill</td></tr><tr><td class='it'>Pondok Cabe</td><td>Masakan Indonesia tempatan</td></tr></tbody></table><p class='custnote'>Sumber: Product FAQ Notion (view jog) &mdash; tiada dalam katalog V3. Restoran muktamad ditentukan operator mengikut laluan harian.</p></div><div class='custblk'><h3>Hidangan Wajib Cuba</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Nasi Gudeg</td><td>Signature Jogja &mdash; nangka muda dimasak manis dengan ayam &amp; telur</td></tr><tr><td class='it'>Ayam Goreng Kalasan</td><td>Ayam goreng rempah khas kawasan Kalasan</td></tr><tr><td class='it'>Sate Klatak</td><td>Sate kambing dibakar dengan lidi besi</td></tr><tr><td class='it'>Soto Jogja</td><td>Sup ayam ringan, sesuai untuk kanak-kanak &amp; warga emas</td></tr><tr><td class='it'>Bakpia Pathok</td><td>Ole-ole wajib &mdash; kuih isi kacang hijau</td></tr></tbody></table><p class='custnote'>Restoran halal di Jogja tidak menggunakan arak dalam masakan. Keperluan diet khas (alahan, vegetarian, bubur untuk warga emas, makanan bayi) maklum kepada Travel Consultant semasa booking supaya operator boleh atur awal.</p></div>",
+   "prayer": "<h2>Solat</h2><p class='ssub' style='margin:0 0 10px'>Jogjakarta kawasan Muslim-majority &mdash; masjid dan surau tersedia di hotel dan hampir setiap attraction dalam itinerari.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Lokasi (hari)</th><th>Kemudahan solat</th></tr></thead><tbody><tr><td class='it'>Hotel City Centre</td><td>Surau hotel; masjid dalam radius jalan kaki di kawasan Malioboro</td></tr><tr><td class='it'>Malioboro Street (D1 &amp; D3)</td><td>Masjid dan surau sepanjang Malioboro, termasuk Masjid Gedhe Kauman</td></tr><tr><td class='it'>Obelix Sea View &amp; Gumuk Pasir (D1)</td><td>Surau di kompleks Obelix Sea View</td></tr><tr><td class='it'>Bukit Panguk (D2, waktu Subuh)</td><td>Kawasan viewpoint terbuka &mdash; bawa sejadah, solat Subuh di viewpoint</td></tr><tr><td class='it'>Hutan Pinus Mangunan (D2)</td><td>Surau di kawasan parkir</td></tr><tr><td class='it'>Timang Beach (D2)</td><td>Surau kecil di kawasan parkir</td></tr><tr><td class='it'>HeHa Sky View (D2)</td><td>Surau di kompleks</td></tr><tr><td class='it'>Kraton &amp; Taman Sari (D3)</td><td>Masjid Gedhe Kauman &mdash; masjid diraja bersebelahan Kraton, antara tertua di Jogja</td></tr><tr><td class='it'>Plaosan Temple / Borobudur (D3)</td><td>Surau di kampung sekitar Plaosan; surau di kompleks Borobudur</td></tr><tr><td class='it'>Merapi Lava Tour (D4)</td><td>Surau di base camp Jeep (Kaliurang / Kaliadem)</td></tr></tbody></table><p class='custnote'>Bawa sejadah dan telekung sendiri &mdash; memudahkan solat di viewpoint dan kawasan terbuka. Jamak dan qasar boleh dipraktikkan semasa perjalanan panjang antara kawasan (1 jam hingga 2 jam).</p></div>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub' style='margin:0 0 10px'>KUL &harr; <b>Yogyakarta International Airport (YIA)</b>, direct, tempoh penerbangan lebih kurang 2 jam 45 minit. Tiket flight <b>tidak termasuk</b> dalam pakej. Suggested arrival Day 1 dan departure Day 4 = waktu tengah hari.</p><div class='custblk'><h3>Leg Pergi &mdash; KUL ke YIA</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas KUL</th><th>Tiba YIA</th><th>Hari operasi</th><th>Jenis</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>AK 346</td><td>9:40 AM</td><td>11:20 AM</td><td>Harian</td><td>Low Cost</td></tr><tr><td class='it'>AirAsia</td><td>AK 348</td><td>3:25 PM</td><td>lebih kurang 2 jam 45 minit selepas berlepas</td><td>Isnin, Rabu&ndash;Ahad</td><td>Low Cost</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 857</td><td>7:10 AM</td><td>lebih kurang 2 jam 45 minit selepas berlepas</td><td>Selasa &amp; Sabtu</td><td>Full Service</td></tr></tbody></table></div><div class='custblk'><h3>Leg Balik &mdash; YIA ke KUL</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas YIA</th><th>Tiba KUL</th><th>Hari operasi</th><th>Jenis</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>AK 347</td><td>11:45 AM</td><td>3:15 PM</td><td>Harian</td><td>Low Cost</td></tr><tr><td class='it'>AirAsia</td><td>AK 349</td><td>5:30 PM</td><td>lebih kurang 2 jam 45 minit selepas berlepas</td><td>Isnin, Khamis&ndash;Ahad</td><td>Low Cost</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 856</td><td>10:10 AM</td><td>lebih kurang 2 jam 45 minit selepas berlepas</td><td>Selasa &amp; Sabtu</td><td>Full Service</td></tr></tbody></table><p class='custnote'><b>Anggaran harga:</b> AirAsia RM 390 &ndash; RM 600 return/pax (sumber: Flight Recommendation ARBA). Malaysia Airlines premium &mdash; harga ikut kelas tempahan, tiada anggaran dalam Flight Recommendation. Pasangan biasa yang digunakan: <b>AK 346 pergi + AK 347 balik</b> (kedua-duanya harian). Waktu tiba AK 346 ikut Flight Recommendation ARBA; waktu AK 347 ikut jadual penerbangan semasa. Beza zon waktu: YIA UTC+7, KUL UTC+8 (KUL 1 jam ke depan).</p></div><div class='custblk'><h3>Bagasi &amp; Airport</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>Hand carry 7 kg; check-in bagasi add-on (lebih murah dibeli online)</td></tr><tr><td class='it'>Malaysia Airlines</td><td>25 &ndash; 30 kg ikut kelas tempahan</td></tr><tr><td class='it'>Powerbank</td><td>Maksimum 100Wh (lebih kurang 20,000mAh), wajib hand carry &mdash; tidak boleh dalam check-in</td></tr><tr><td class='it'>Cecair</td><td>Melebihi 100ml wajib masuk check-in luggage</td></tr><tr><td class='it'>Pickup &amp; dropoff YIA</td><td>Termasuk dalam pakej (private transport)</td></tr></tbody></table><p class='custnote'>Semak validity trip dengan staff sebelum tempah connecting domestic flight di Indonesia.</p></div>",
+   "weather": "<h2>Cuaca &amp; Musim</h2><p class='ssub' style='margin:0 0 10px'>Iklim tropika, lebih kurang 24&deg;C &ndash; 32&deg;C. Pagi cool (24&deg;C), tengah hari panas (32&deg;C). Musim hujan November hingga April (hujan biasanya waktu petang).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Tempoh</th><th>Keadaan &amp; kesesuaian</th></tr></thead><tbody><tr><td class='it'>Mei &ndash; Oktober</td><td class='add'>Musim kering &mdash; pagi cool, hujan minima. Terbaik untuk sunrise Bukit Panguk dan Jeep tour</td></tr><tr><td class='it'>Jun &ndash; Ogos</td><td>Cuti sekolah, peak family. Langit cerah, sesuai bawa anak</td></tr><tr><td class='it'>Oktober &ndash; November</td><td>Festival dan acara budaya Jawa</td></tr><tr><td class='it'>Disember &ndash; Januari</td><td>Musim hujan dan peak season &mdash; surcharge dikenakan</td></tr><tr><td class='it'>Mac &ndash; April</td><td>Musim hujan dan peak season &mdash; surcharge dikenakan</td></tr></tbody></table><p class='custnote'>Bulan terbaik: Jun, Julai, Ogos, September. Untuk elak orang ramai: Mei atau September. Bawa jaket nipis untuk pagi di Merapi dan Bukit Panguk, serta payung atau raincoat jika travel November &ndash; April.</p></div>",
+   "tips": "<h2>Shopping &amp; Tips</h2><p class='ssub' style='margin:0 0 10px'>Malioboro dan Pasar Beringharjo adalah pusat shopping utama, dalam 1 km dari hotel.</p><div class='custblk'><h3>Duit &amp; Pembayaran</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Cadangan</th></tr></thead><tbody><tr><td class='it'>Cash untuk dibawa</td><td class='add'>RM 1,000 &ndash; RM 1,500 /pax</td></tr><tr><td class='it'>Tukaran wang</td><td>Tukar RM ke IDR di money changer Jogja &mdash; rate biasanya lebih baik daripada KLIA</td></tr><tr><td class='it'>Kedai kecil &amp; pasar</td><td>Cash IDR lebih diutamakan (Malioboro, Beringharjo)</td></tr><tr><td class='it'>Mall, hotel, restoran besar</td><td>Terima kad; QRIS (GoPay / OVO) meluas</td></tr></tbody></table></div><div class='custblk'><h3>Beli Apa</h3><table class='ctbl'><thead><tr><th>Item</th><th>Di mana</th></tr></thead><tbody><tr><td class='it'>Batik</td><td>Batik Outlet (Day 2), Malioboro</td></tr><tr><td class='it'>Bakpia &amp; gudeg kaleng</td><td>Kedai ole-ole Malioboro, Bakpia Pathok</td></tr><tr><td class='it'>Kraf perak</td><td>Kotagede</td></tr><tr><td class='it'>Souvenir &amp; kraf tangan</td><td>Pasar Beringharjo, Malioboro</td></tr></tbody></table></div><div class='custblk'><h3>Praktikal</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Internet</td><td>Pocket Wifi RM 100 &ndash; 150/trip, eSIM Indonesia RM 30 &ndash; 50 untuk 7 hari, atau roaming. Wifi hotel percuma</td></tr><tr><td class='it'>Laundry</td><td>Laundry hotel RM 5 &ndash; 10/item; laundry kiloan tempatan RM 5 &ndash; 10/kg. Tidak termasuk pakej</td></tr><tr><td class='it'>Packing</td><td>Kasut selesa (banyak berjalan), baju ringan + jaket nipis, topi &amp; sunblock, sejadah / telekung, ubat peribadi, payung</td></tr><tr><td class='it'>Kuasa elektrik</td><td>Indonesia 230V, plug Type C / F &mdash; bawa adapter</td></tr></tbody></table><p class='custnote'>Sumber harga internet dan laundry: rate card ARBA &mdash; tiada dalam katalog V3.</p></div>",
+   "visa": "<h2>Visa &amp; Passport</h2><p class='ssub' style='margin:0 0 10px'>Rakyat Malaysia <b>tidak perlu visa</b> untuk Indonesia &mdash; visa-free 30 hari (perjanjian ASEAN).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Perkara</th><th>Keperluan</th></tr></thead><tbody><tr><td class='it'>Visa</td><td class='add'>Tidak perlu &mdash; visa-free 30 hari untuk rakyat Malaysia</td></tr><tr><td class='it'>Passport</td><td>Sah minimum 6 bulan dari tarikh berlepas</td></tr><tr><td class='it'>All Indonesia Arrival Card</td><td class='add'>Wajib &mdash; isi online 2 hari sebelum berlepas di allindonesia.imigrasi.go.id, simpan QR Code</td></tr><tr><td class='it'>Tour Voucher</td><td>Softcopy memadai. Satu family boleh guna satu voucher</td></tr><tr><td class='it'>Insurance</td><td>Covernote insurance / Takaful (softcopy memadai) &mdash; disyorkan, tidak termasuk pakej</td></tr><tr><td class='it'>Kanak-kanak bawah 18</td><td>Passport sahaja memadai jika bersama parents. Photocopy surat beranak boleh disediakan standby</td></tr><tr><td class='it'>Bukan warga Malaysia</td><td>Customer uruskan visa sendiri mengikut kewarganegaraan</td></tr></tbody></table></div><div class='custblk'><h3>Cara Isi All Indonesia Arrival Card</h3><table class='ctbl'><thead><tr><th>Langkah</th><th>Tindakan</th></tr></thead><tbody><tr><td class='it'>1</td><td>Buka allindonesia.imigrasi.go.id, pilih <b>Arrival Card &mdash; Foreign Visitor</b></td></tr><tr><td class='it'>2</td><td>Tukar bahasa ke English di setting atas kanan (jika perlu)</td></tr><tr><td class='it'>3</td><td>Isi data passport (boleh tekan <b>Scan MRZ</b> untuk scan passport), nombor telefon &amp; email</td></tr><tr><td class='it'>4</td><td>Tekan <b>+ Add Traveller</b> untuk isi maklumat ahli keluarga</td></tr><tr><td class='it'>5</td><td>Masukkan tarikh ketibaan dan nombor flight</td></tr><tr><td class='it'>6</td><td>Isi alamat hotel dan tujuan lawatan</td></tr><tr><td class='it'>7</td><td>Jawab deklarasi barang dan kesihatan (ubat preskripsi: tanda Ya)</td></tr><tr><td class='it'>8</td><td>Submit dan simpan QR Code</td></tr><tr><td class='it'>9</td><td>Tekan <b>Apply Visa Exemption</b> &mdash; PDF dihantar ke email</td></tr><tr><td class='it'>10</td><td>Tunjuk QR Code di imigresen ketika tiba di YIA</td></tr></tbody></table><p class='custnote'>Ubat preskripsi (darah tinggi, kencing manis) perlu dibawa dengan surat doktor. Ubat OTC seperti panadol dan ubat selsema tidak perlu preskripsi. Sumber: FAQ Indonesia ARBA.</p></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? jogjakarta: free lobster lunch at pantai timang kod: fjog2 (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Jogjakarta:</strong> Free Lobster Lunch at Pantai Timang <span class='rtag'>Kod: FJOG2</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo</p></div></details>",
+   "polisi": "<h2>Polisi &amp; Payment</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Perkara</th><th>Polisi</th></tr></thead><tbody><tr><td class='it'>Validity quotation</td><td>Harga sah 24 jam selepas quotation dihantar</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM 250 /pax semasa confirmation</td></tr><tr><td class='it'>Full payment</td><td class='add'>45 hari sebelum tarikh berlepas</td></tr><tr><td class='it'>Late booking</td><td>Booking kurang 45 hari sebelum berlepas: RM 50 /booking</td></tr><tr><td class='it'>Occupancy</td><td>Harga untuk 2 &ndash; 3 orang sebilik</td></tr><tr><td class='it'>Single Supplement</td><td>RM 550 /pax</td></tr><tr><td class='it'>Umur</td><td>Adult 12 tahun ke atas &middot; Child With Bed 6 &ndash; 11 &middot; Child No Bed 2 &ndash; 5 &middot; Infant bawah 2 FOC. Umur dikira ikut tarikh travel</td></tr><tr><td class='it'>Final itinerary &amp; hotel</td><td>Dimuktamadkan 14 hari sebelum trip</td></tr><tr><td class='it'>Arrival / Departure</td><td>Suggested arrival Day 1 dan departure Day 4 waktu tengah hari. Late arrival atau early departure tidak refundable untuk activities dan meals yang tertinggal</td></tr><tr><td class='it'>Connecting domestic flight</td><td>Semak validity trip dengan staff sebelum tempah connecting domestic flight di Indonesia</td></tr><tr><td class='it'>Perubahan</td><td>Itinerari, harga dan flight tertakluk kepada perubahan</td></tr><tr><td class='it'>Validity pakej</td><td class='add'>Sah untuk perjalanan hingga 31 Mac 2027</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT Jogja 4D3N 2026 V3 &mdash; Important Notes, Deposit &amp; Full Payment.</p></div>"
+  },
+  "snapshot": "# PT Jogjakarta — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*PT Jogjakarta 4D3N — satu itinerari, dua pilihan hotel: 3★ Luxury (default) atau 4★ The 101 Yogyakarta Tugu (upgrade). Ground + Tipping, tidak termasuk flight.*\n\n- Semua harga sah **24 jam** selepas quotation dihantar.\n- Harga untuk **2–3 orang sebilik**. 3★ Luxury: triple = **extra bed (rollaway)**; 4★ Tugu: triple = **proper bed**.\n- **Single Supplement:** +**RM550/pax** (seluruh trip, mana-mana tier).\n- **Late Booking Surcharge RM50/booking** jika booking <45 hari sebelum berlepas (per booking).\n- **Peak Season:** 3 Bintang **RM120/pax/malam** · 4 Bintang **RM180/pax/malam**. Blok: 15–30 Mac 2026 · 25 Mei–5 Jun 2026 · 20 Dis 2026–5 Jan 2027 · 5–25 Feb 2027 · 5 Mac–15 Apr 2027.\n- **Upgrade 4 Bintang:** RM100/pax/malam (Ahad–Khamis), RM120/pax/malam (Jumaat–Sabtu).\n- Pengangkutan ikut saiz group: 2–4 pax Avanza/Innova · 5–6 pax Innova · 7–13 pax Hiace · 14+ Bus. **Transport UNLIMITED sampai tengah malam.**\n- **Deposit RM250/pax** untuk confirm booking. **Full payment 45 hari** sebelum travel date.\n- **Umur:** Adult 12+ · CWB (Child With Bed) 6–11 · CNB (Child No Bed) 2–5 · Infant <2 (FOC). Umur dikira ikut **tarikh travel**.\n- **Suggested Arrival Day 1 & Departure Day 4 = waktu tengah hari (noon).** Late arrival / early departure **tidak refundable** untuk activities & meals yang miss.\n- Itinerari, harga & flight **tertakluk perubahan**. Final itinerari & hotel **14 hari** sebelum trip.\n- Sila semak validity trip dengan staff sebelum book connecting domestic flight di Indonesia.\n- Pakej **sah untuk perjalanan hingga 31 Mac 2027**.\n- **Free Gift (Promo):** Free Lobster Lunch at Pantai Timang — kod **FJOG2**, All pax (FreeGift Campaign MYP 6/26).\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej Jogja ni betul-betul ALL-IN atau ada kos tambahan?**\nDari segi Ground, pakej sudah ALL-INCLUDED: 3 malam hotel (3★ atau 4★ upgrade), Full Board (3B+3L+3D), private transport unlimited sampai tengah malam, entrance fees ikut itinerari, driving guide, tipping, Jeep Merapi & Jeep Timang. TIDAK termasuk: flight, add-on activities (Borobudur, Gondola Timang, Jeep/ATV Gumuk Pasir dll), travel insurance & personal expenses.\n\n**Apa kelebihan ambil pakej Jogja dengan ARBA berbanding lain?**\nARBA beroperasi sejak 2014. Untuk Jogja: hotel City Centre (1km/15 min ke Malioboro), Full Board halal, tipping & Jeep Timang/Merapi included, Plaosan Temple included (pesaing selalu skip), transport unlimited, dan pilihan hotel 3★ atau 4★ dalam satu pakej.\n\n**Ada tourist trap atau compulsory shopping tak?**\nTiada. ARBA tidak include compulsory shopping atau tourist trap. Semua tempat dalam itinerari genuine sightseeing.\n\n**Boleh customize itinerari?**\nBoleh — ini Private Tour. Boleh tambah spot, tukar fokus atau upgrade hotel ikut budget & preference. Maklum TC awal; itinerari muktamad 14 hari sebelum trip.\n\n**Pakej ni rushing tak?**\nTidak terlalu rushing — 4 hari rhythm relax. Cuma Day 2 Bukit Panguk sunrise = bangun ~4 AM, dan Day 4 Merapi pagi sebelum flight.\n\n**Berapa lama penggunaan transport?**\nUNLIMITED — boleh guna kenderaan sampai lewat malam (up to midnight), termasuk round Malioboro waktu malam.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Jogja?**\nSangat senang — Jogja kawasan Muslim-majority. Hampir semua restoran halal-certified atau halal-friendly. Banyak pilihan tempatan murah & sedap.\n\n**Kita makan apa di Jogja?**\nMasakan Indonesia tempatan (halal): Nasi Gudeg (signature Jogja — nangka manis), Ayam Goreng Kalasan, Sate Klatak (sate kambing), Soto, dan banyak lagi. Semua meal (3B+3L+3D) disediakan dalam pakej.\n\n**Ada masjid/surau untuk solat?**\nYa, berlimpah. Masjid Gedhe Kauman (masjid diraja bersebelahan Kraton) antara tertua. Setiap attraction ada surau — Merapi base camp, Timang, Heha, Hutan Pinus, Obelix, Borobudur. Bawa sejadah untuk sunrise Bukit Panguk.\n\n**Ada arak dalam masakan tempatan?**\nRestoran halal di Jogja tidak guna arak. Sahkan sebarang keperluan diet khas dengan TC awal.\n\n### C. Visa & Passport\n\n**Adakah Indonesia perlu visa?**\nTidak. Rakyat Malaysia **visa-free 30 hari** untuk masuk Indonesia (perjanjian ASEAN). Perlu: passport sah **minimum 6 bulan**, dan **All Indonesia Arrival Card** (customs/immigration declaration) diisi online sebelum flight — simpan QR untuk ditunjuk di YIA.\n\n**Apa perlu disediakan untuk perjalanan?**\nPassport sah 6 bulan+, tiket flight return, All Indonesia Arrival Card QR (online), cash IDR/RM, dan travel insurance/Takaful (disyorkan). Customer bukan warga Malaysia uruskan visa sendiri.\n\n### D. Flight & Airport\n\n**Kita naik flight apa?**\nKUL ↔ Yogyakarta International Airport (YIA), direct, masa terbang lebih kurang **2 jam 45 minit**. Pasangan biasa: **AK 346** (KUL 9:40 AM → YIA 11:20 AM, harian) pergi dan **AK 347** (YIA 11:45 AM → KUL 3:15 PM, harian) balik. Alternatif AirAsia: AK 348 (KUL 3:25 PM) dan AK 349 (YIA 5:30 PM). Malaysia Airlines MH 857 / MH 856 beroperasi **Selasa & Sabtu sahaja**. Flight tidak termasuk pakej.\n\n**Berapa anggaran harga flight?**\n**RM390–600 return/pax** untuk AirAsia (sumber: Flight Recommendation ARBA). Malaysia Airlines premium — harga ikut kelas tempahan. Booking awal (3 bulan ke atas) lebih murah. Terdapat lebih kurang 11 flight direct seminggu setiap arah KUL–YIA.\n\n**Berapa kg bagasi?**\nMalaysia Airlines 25–30 kg (ikut kelas). AirAsia hand carry 7 kg; check-in bagasi add-on (lebih murah dibeli online). Powerbank maksimum 100Wh (lebih kurang 20,000mAh) wajib hand carry.\n\n### E. Hotel & Bilik\n\n**Kita menginap hotel mana?**\nDefault: **hotel 3 Bintang** (Emersia Hotel / Luxury Hotel atau setaraf) — City Centre, dalam 1 km dari Malioboro. Upgrade: **4 Bintang The 101 Yogyakarta Tugu atau setaraf**. Nama hotel muktamad dimaklumkan 14 hari sebelum trip.\n\n**Bilik macam mana?**\n2 pax = twin sharing. 3 pax hotel 3 Bintang = triple dengan extra bed. 3 pax hotel 4 Bintang = triple dengan proper bed. 4 pax = 2 bilik. Single = RM550/pax.\n\n**Ada connecting room di hotel Jogja?**\nAda di Emersia Malioboro — perlu request semasa booking, subject to availability. (Sumber: Product FAQ Notion.)\n\n### F. Cuaca & Musim\n\n**Bila masa terbaik pergi Jogja?**\n**Mei–Oktober (musim kering)** — pagi cooler, hujan minima, best untuk sunrise & Jeep tour. Bulan terbaik: Jun, Jul, Ogos, Sep. Untuk elak orang ramai: Mei atau Sep.\n\n**Cuaca terlalu panas ke?**\nTropika, ~24–32°C. Pagi cool (~24°C), tengah hari panas (~32°C, kadang lebih). Bawa baju ringan + topi + sunblock. Nov–April musim hujan (hujan petang).\n\n### G. Shopping & Duit\n\n**Cadangan cash untuk dibawa?**\nRM1,000–1,500/pax untuk shopping, souvenir & add-on (Borobudur RM150, Gondola RM80, dll). Tukar RM → IDR di money changer Jogja (rate lebih baik dari KLIA).\n\n**Cara bayar terbaik — cash atau cashless?**\nKedai kecil & pasar (Malioboro, Beringharjo): **cash IDR** preferred. Shopping mall, hotel, restoran besar terima kad. QRIS (GoPay/OVO) meluas.\n\n**Beli apa di Jogja?**\nBatik, ole-ole khas Jogja (bakpia, gudeg kaleng), kraf perak Kotagede, souvenir Malioboro & Pasar Beringharjo.\n\n### H. Payment & Refund\n\n**Berapa deposit untuk book?**\n**RM250/pax** untuk confirm booking (murah berbanding destinasi Australia RM1,000).\n\n**Bila settle full payment?**\n**45 hari** sebelum departure. Late booking (<45 hari) ada surcharge RM50/booking.\n\n**Kenapa harga berbeza ikut tarikh?**\nSebab musim travel (peak +RM120/pax/malam 3★, +RM180 4★), cuti Hari Raya/Christmas/CNY, dan pilihan hotel tier. Elak Dis–Jan & Mac–Apr jika mahu harga lebih baik.\n\n### I. Add-ons & Customization\n\n**Apa add-on popular?**\nBorobudur entrance (RM150/pax Ground Area, RM185/pax Temple/Hill guided), Gondola Timang (RM80/pax), Jambatan Timang (RM50/pax), Jeep Gumuk Pasir (RM157/jeep), ATV (RM100/ATV), Horse Carriage Malioboro (RM70/carriage), Goa Pindul cave tubing (RM100/pax), Gamplong Studio Alam (RM25/pax). Harga ikut Rate Card Operasi 3 September 2026 (menang atas katalog V3). Lihat tab Customisation.\n\n**Harga add-on untuk kanak-kanak sama dengan adult?**\nTidak — add-on untuk kanak-kanak dikenakan **60% daripada harga adult**. (Sumber: Product FAQ Notion — tiada dalam katalog V3.)\n\n**Add-on boleh bayar di Jogja?**\nBoleh. Jika customer berubah fikiran semasa trip, pembayaran add-on boleh dibuat di sana — minta Tour Guide assist.\n\n**Boleh extend ke Bromo atau Bali?**\nBoleh — bincang dengan TC. Jogja + Bromo (3D2N add-on, perlu flight Surabaya) atau Jogja + Bali (pakej berasingan).\n\n### J. Kesihatan & Keselamatan\n\n**Trip Jogja sesuai untuk family & kanak-kanak?**\nYa, sangat sesuai. Banyak attraction family-friendly (Bukit Panguk, Hutan Pinus, Kraton, Heha). Jeep Timang ada opsyen gentle.\n\n**Sesuai untuk anak kecil (toddler/infant)?**\nKurang sesuai untuk <5 tahun — Jeep Timang & Jeep Merapi **bumpy & perilous**, dan Bukit Panguk perlu bangun pre-dawn. Boleh skip aktiviti tertentu.\n\n**Sesuai untuk warga emas / yang tak boleh jalan jauh?**\nSecara umum Jogja sesuai untuk warga emas. Yang perlu diberi perhatian ialah **Jeep Tour** — laluan gravel, sedikit adventurous. Bukit Panguk dan kompleks candi pula banyak berjalan dan tangga. Jika ada masalah kesihatan yang kurang sesuai dengan keadaan tour ini, sebaiknya elakkan aktiviti berkenaan; itinerari boleh dicustom untuk kurangkan aktiviti fizikal. (Sumber: Product FAQ Notion.)\n\n### K. Praktikal (Internet · Transport · Laundry)\n\n**Internet bagaimana di Jogja?**\nPilihan: Pocket Wifi (RoamingMan) RM100–150/trip (3–10GB, kongsi 5 device), Indonesia eSIM RM30–50/7 hari, atau international roaming (Maxis/Celcom). Hotel Wifi percuma.\n\n**Ada service laundry?**\nYa. Hotel laundry (~RM5–10/item, agak mahal) atau laundry kiloan tempatan (RM5–10/kg, jauh lebih murah). Tidak termasuk pakej.\n\n**Transport apa digunakan?**\n2–4 pax: Avanza/Innova · 5–6: Innova · 7–13: Hiace · 14+: Bus. Semua berhawa dingin, driver standby sampai tengah malam.\n\n### L. Packing\n\n**Apa perlu bawa?**\nKasut selesa (banyak berjalan), baju ringan + jaket nipis (pagi sejuk di Merapi/Bukit Panguk), topi & sunblock, sejadah/telekung, ubat peribadi, payung/raincoat (Nov–April), dan cash IDR/RM.\n"
+ },
+ "calc": {
+  "dest": "JOGJAKARTA",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;5)"
+  },
+  "infantNote": "Bawah 2 tahun FOC",
+  "singleNote": "+RM 550 setiap satu",
+  "intro": "Isi pax dan tarikh &mdash; peak season dan late booking RM 50 dikira sendiri. Pakej asal <b>3 Bintang</b>; untuk 4 Bintang tukar pilihan Accommodation pada setiap malam. Transport ikut kelas kenderaan: 2&ndash;4 pax Avanza/APV, 5&ndash;6 pax Innova, 7&ndash;12 pax Hiace; kadar per kenderaan per hari ikut tempoh tour yang dipilih pada baris hari. Upgrade 4 Bintang bergantung pada hari dalam minggu dan musim &mdash; pilih <i>Ahad&ndash;Khamis</i> (RM 100) atau <i>Jumaat&ndash;Sabtu</i> (RM 120) ikut tarikh yang dipapar pada baris hari, dan versi <i>PEAK</i> (RM 160 / RM 180) untuk malam yang jatuh dalam tetingkap peak season.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "hideGeneric": [
+   "ext",
+   "cus",
+   "fe"
+  ],
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "x3",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 30,
+   "drop": 20
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3&#9733; (malam dalam pakej)",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "{nights} nights accommodation at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "up4wd",
+    "t": "Upgrade 4&#9733; &mdash; malam Ahad&ndash;Khamis (biasa)",
+    "cost": "incl",
+    "perPaxRate": "up4wd",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+    "line": "4-Star hotel upgrade (Sun-Thu)"
+   },
+   {
+    "v": "up4we",
+    "t": "Upgrade 4&#9733; &mdash; malam Jumaat&ndash;Sabtu (biasa)",
+    "cost": "incl",
+    "perPaxRate": "up4we",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+    "line": "4-Star hotel upgrade (Fri-Sat)"
+   },
+   {
+    "v": "up4wdp",
+    "t": "Upgrade 4&#9733; &mdash; malam Ahad&ndash;Khamis PEAK",
+    "cost": "incl",
+    "perPaxRate": "up4wdp",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+    "line": "4-Star hotel upgrade, peak season (Sun-Thu)"
+   },
+   {
+    "v": "up4wep",
+    "t": "Upgrade 4&#9733; &mdash; malam Jumaat&ndash;Sabtu PEAK",
+    "cost": "incl",
+    "perPaxRate": "up4wep",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+    "line": "4-Star hotel upgrade, peak season (Fri-Sat)"
+   },
+   {
+    "v": "x3",
+    "t": "Malam tambahan 3&#9733; (Luxury Malioboro / Emersia)",
+    "cost": "night",
+    "nightRate": "n3",
+    "hotel": "3-Star Hotel",
+    "incl": "Additional night at 3-Star Hotel - Luxury Malioboro or Emersia Hotel ({days})"
+   },
+   {
+    "v": "x4",
+    "t": "Malam tambahan 4&#9733; (The 101 Tugu / Grand Zuri Malioboro)",
+    "cost": "night",
+    "nightRate": "n4",
+    "hotel": "4-Star Hotel",
+    "incl": "Additional night at 4-Star Hotel - The 101 Yogyakarta Tugu or Grand Zuri Malioboro ({days})"
+   },
+   {
+    "v": "xdi",
+    "t": "Malam tambahan Dieng 3&#9733; (Villa Pintu Langit)",
+    "cost": "night",
+    "nightRate": "nDieng",
+    "hotel": "3-Star Hotel (Dieng)",
+    "incl": "Additional night at Villa Pintu Langit, Dieng ({days})"
+   },
+   {
+    "v": "xgl",
+    "t": "Malam tambahan glamping (Trianggulasi / Linggar Jati)",
+    "cost": "night",
+    "nightRate": "nGlamp",
+    "hotel": "Glamping (Nepal van Java)",
+    "incl": "Additional night at glamping - Trianggulasi or Linggar Jati ({days})"
+   },
+   {
+    "v": "xke",
+    "t": "Malam tambahan Kebumen 3&#9733; (Hotel Kebumen Maxolie)",
+    "cost": "night",
+    "nightRate": "nKebumen",
+    "hotel": "3-Star Hotel (Kebumen)",
+    "incl": "Additional night at Hotel Kebumen Maxolie ({days})"
+   },
+   {
+    "v": "no3",
+    "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (dalam pakej)",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast (pakej) &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast (pakej) &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast (pakej), Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch sahaja",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private Transportation & Driving Guide ({days}) - unlimited until midnight"
+   },
+   {
+    "v": "air",
+    "t": "Private Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Private Airport Transfer",
+    "incl": "Private Airport Transfer at Yogyakarta International Airport ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation & driving guide ({days})"
+   },
+   {
+    "v": "vvip",
+    "t": "Hiace VVIP 8-seater &ndash; Full Day Tour (hari tambahan)",
+    "cost": "zero",
+    "guided": true,
+    "perVehicleRate": "vvip",
+    "lbl": "Private Transport + Driving Guide (Hiace VVIP)",
+    "incl": "Additional day private transportation & driving guide - Hiace VVIP ({days})",
+    "line": "Hiace VVIP full day tour"
+   },
+   {
+    "v": "vded",
+    "t": "Tolak hari Hiace VVIP dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "vvipDed",
+    "lbl": "-",
+    "line": "Hiace VVIP day deducted"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport deducted)"
+   }
+  ],
+  "addons": [
+   [
+    "Borobudur Temple - Ground Area",
+    150,
+    90,
+    "pax"
+   ],
+   [
+    "Borobudur Temple - Temple / Hill Area (guided)",
+    185,
+    111,
+    "pax"
+   ],
+   [
+    "Goa Pindul & Cave Tubing",
+    100,
+    60,
+    "pax"
+   ],
+   [
+    "Gamplong Studio Alam",
+    25,
+    15,
+    "pax"
+   ],
+   [
+    "Obelix Sea View",
+    20,
+    12,
+    "pax"
+   ],
+   [
+    "Pine Forest - Hutan Pinus Mangunan",
+    25,
+    15,
+    "pax"
+   ],
+   [
+    "Gondola Timang Beach",
+    80,
+    48,
+    "pax"
+   ],
+   [
+    "Jambatan (suspension bridge) Timang Beach",
+    50,
+    30,
+    "pax"
+   ],
+   [
+    "Jeep Timang Beach - per jeep (4 pax/jeep)",
+    160,
+    0,
+    "unit"
+   ],
+   [
+    "Merapi + Hobbit Jeep - per jeep (4 pax/jeep)",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Jeep Gumuk Pasir - per jeep (4 pax/jeep)",
+    157,
+    0,
+    "unit"
+   ],
+   [
+    "ATV Gumuk Pasir - per ATV (2 pax/ATV)",
+    100,
+    0,
+    "unit"
+   ],
+   [
+    "Horse Carriage Ride Malioboro - per carriage (max 6 pax)",
+    70,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon Decoration - cake, flower and card",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Candle Light Dinner for 2 persons",
+    200,
+    0,
+    "unit"
+   ],
+   [
+    "Buang Obelix Sea View dari pakej",
+    -10,
+    -10,
+    "pax"
+   ],
+   [
+    "Buang Pine Forest dari pakej",
+    -10,
+    -10,
+    "pax"
+   ],
+   [
+    "Buang Gondola Timang dari pakej",
+    -50,
+    -50,
+    "pax"
+   ],
+   [
+    "Buang Jambatan Timang dari pakej",
+    -30,
+    -30,
+    "pax"
+   ],
+   [
+    "Buang Jeep Timang Beach - per jeep",
+    -100,
+    0,
+    "unit"
+   ],
+   [
+    "Buang Merapi + Hobbit Jeep - per jeep",
+    -150,
+    0,
+    "unit"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 1,
+    "to": 4,
+    "text": "2&ndash;4 pax: <b>Avanza / APV</b> &mdash; kadar transport band Avanza rate card."
+   },
+   {
+    "from": 5,
+    "to": 6,
+    "text": "5&ndash;6 pax: <b>Innova</b> &mdash; kadar transport band Innova rate card."
+   },
+   {
+    "from": 7,
+    "to": 8,
+    "text": "7&ndash;8 pax: <b>Hiace</b>. Pilihan <i>Hiace VVIP 8-seater</i> tersedia untuk Full Day Tour (RM 950 per hari)."
+   },
+   {
+    "from": 9,
+    "to": 12,
+    "text": "9&ndash;12 pax: <b>Hiace</b> &mdash; kadar transport band Hiace rate card."
+   },
+   {
+    "from": 13,
+    "to": 99999,
+    "text": "13 pax ke atas: katalog ada tier harga (11&ndash;15 pax) tetapi <b>rate card tiada kadar transport</b> melebihi Hiace 7&ndash;12 pax. Kalkulator akan tanda <i>kadar?</i> &mdash; minta sebut harga operasi (KB tab Transport sebut 14 pax ke atas guna Bus, tetapi kadar Bus belum tersiar)."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Prices are quoted for 2 to 3 persons per room; at the 3-Star Hotel a triple room uses an extra bed, while a proper triple bed is available only at the 4-Star Hotel. Single supplement is RM 550 per person. Private transportation is unlimited until midnight. Peak season surcharge applies as stated and is not included in the base price. Suggested arrival and departure times are at noon; late arrivals or early departures will not be refunded for activities and meals missed. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed 14 days before the trip. This package is valid for travel until 31 March 2027. Ground arrangement and tipping only - flight tickets are not included.",
+  "variants": [
+   {
+    "id": "s3",
+    "name": "PT Jogjakarta 4D3N",
+    "pkgLabel": "Private Tour Jogjakarta",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1457,
+      "c": 1257,
+      "n": 1057
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 1357,
+      "c": 1157,
+      "n": 957
+     },
+     {
+      "from": 5,
+      "to": 7,
+      "a": 1297,
+      "c": 1097,
+      "n": 897
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 1257,
+      "c": 1057,
+      "n": 857
+     },
+     {
+      "from": 11,
+      "to": 15,
+      "a": 1197,
+      "c": 997,
+      "n": 797
+     }
+    ],
+    "infant": 0,
+    "single": 550,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL &ndash; Jogjakarta (Ketibaan)",
+      "en": "KUALA LUMPUR - JOGJAKARTA",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Airport + Half Day]",
+      "act": [
+       "Ketibaan &amp; pickup di Yogyakarta International Airport (YIA)",
+       "Gumuk Pasir &mdash; sand dunes (Jeep / ATV add-on)",
+       "Obelix Sea View (kawasan Parangtritis)",
+       "Malioboro Street (jalan shopping 24 jam)",
+       "Check-in hotel"
+      ],
+      "eact": [
+       "Arrival and pick up at Yogyakarta International Airport (YIA)",
+       "Gumuk Pasir sand dunes",
+       "Obelix Sea View at Parangtritis Beach area",
+       "Malioboro Street - the 24 hours shopping street",
+       "Hotel check in"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Hutan Pinus &middot; Timang Beach &middot; Heha Sky View",
+      "en": "PINE FOREST - TIMANG BEACH - HEHA SKYVIEW",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Full Day]",
+      "act": [
+       "Bukit Panguk 4:45 AM &mdash; sunrise &amp; awan karpet",
+       "Hutan Pinus Mangunan (hutan pinus terbesar)",
+       "Timang Beach &mdash; Jeep INCLUDED (Gondola add-on)",
+       "Heha Sky View (scenic photo spot)",
+       "Batik Outlet",
+       "Kembali ke hotel"
+      ],
+      "eact": [
+       "Bukit Panguk at 4.45 AM for sunrise",
+       "Hutan Pinus Mangunan - the largest pine tree forest",
+       "Timang Beach - Jeep ride included",
+       "Heha Sky View - scenic photo spot",
+       "Batik Outlet",
+       "Back to hotel"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Kraton &middot; Taman Sari &middot; Plaosan &middot; Malioboro",
+      "en": "SULTAN PALACE - PLAOSAN TEMPLE - MALIOBORO",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Full Day]",
+      "act": [
+       "Shopping ole-ole khas Jogja",
+       "Kraton Jogja (Istana Sultan Yogyakarta)",
+       "Taman Sari Water Castle (taman diraja abad ke-18)",
+       "Plaosan Temple (candi tenang, tanpa entrance)",
+       "Borobudur Temple &mdash; UNESCO (entrance add-on)",
+       "Shopping @ Malioboro Street &rarr; kembali ke hotel"
+      ],
+      "eact": [
+       "Shopping for Jogjakarta local delicacies",
+       "Kraton Jogja - the Royal Palace of Yogyakarta Sultanate",
+       "Taman Sari Water Castle - the Royal Garden",
+       "Plaosan Temple",
+       "UNESCO Borobudur Temple",
+       "Shopping at Malioboro Street and back to hotel"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Mt. Merapi Lava Tour &middot; Airport (Berlepas)",
+      "en": "MT. MERAPI - AIRPORT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport + Half Day]",
+      "act": [
+       "Mount Merapi Jeep Lava Tour &mdash; Bunker Kaliadem, Sisa Hartaku Mini Museum, Hobbit House, Kali Boyong River",
+       "Kembali ke hotel &middot; check-out",
+       "Transfer ke Yogyakarta International Airport (YIA)"
+      ],
+      "eact": [
+       "Mount Merapi Lava Jeep Tour - Bunker Kaliadem, Sisa Hartaku Mini Museum, Hobbit House and Kali Boyong River",
+       "Back to hotel and check out",
+       "Transfer to Yogyakarta International Airport (YIA)"
+      ]
+     }
+    ],
+    "library": [
+     {
+      "v": "ext",
+      "t": "Hari tambahan &ndash; pilih blok day tour di bawah",
+      "en": "ADDITIONAL DAY",
+      "g": "Umum",
+      "region": "[Full Day]",
+      "acc": "x3",
+      "meal": "bld",
+      "trp": "ext",
+      "act": [
+       "Pilih satu blok day tour untuk hari ini supaya kadar transport ikut tempoh tour"
+      ],
+      "eact": [
+       "Additional day - itinerary to be confirmed"
+      ]
+     },
+     {
+      "v": "fed",
+      "t": "Free &amp; Easy &ndash; tolak transport dari katalog",
+      "en": "FREE & EASY",
+      "g": "Umum",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "feded",
+      "act": [
+       "Free &amp; easy tanpa transport atau driving guide"
+      ],
+      "eact": [
+       "Free and easy - no transport or driving guide"
+      ]
+     },
+     {
+      "v": "fBor",
+      "t": "Borobudur &amp; Magelang (full day)",
+      "en": "BOROBUDUR & MAGELANG",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Borobudur Temple &mdash; UNESCO (entrance add-on: Ground RM 150 / Temple RM 185)",
+       "Gereja Ayam Bukit Rhema",
+       "Punthuk Setumbu sunrise point"
+      ],
+      "eact": [
+       "UNESCO Borobudur Temple",
+       "Gereja Ayam Bukit Rhema",
+       "Punthuk Setumbu sunrise point"
+      ]
+     },
+     {
+      "v": "fPra",
+      "t": "Prambanan &amp; Plaosan (full day)",
+      "en": "PRAMBANAN & PLAOSAN",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Prambanan Temple &mdash; UNESCO",
+       "Plaosan Temple",
+       "Ratu Boko sunset"
+      ],
+      "eact": [
+       "UNESCO Prambanan Temple",
+       "Plaosan Temple",
+       "Ratu Boko sunset point"
+      ]
+     },
+     {
+      "v": "fKra",
+      "t": "Kraton, Taman Sari &amp; Malioboro (full day)",
+      "en": "SULTAN PALACE - TAMAN SARI - MALIOBORO",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Kraton Jogja (Istana Sultan Yogyakarta)",
+       "Taman Sari Water Castle",
+       "Horse Carriage Ride Malioboro (add-on)",
+       "Shopping @ Malioboro Street"
+      ],
+      "eact": [
+       "Kraton Jogja - the Royal Palace of Yogyakarta Sultanate",
+       "Taman Sari Water Castle",
+       "Shopping at Malioboro Street"
+      ]
+     },
+     {
+      "v": "fTim",
+      "t": "Timang Beach &amp; Gunung Kidul (full day)",
+      "en": "TIMANG BEACH & GUNUNG KIDUL",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Timang Beach &mdash; Jeep (RM 160/jeep, 4 pax/jeep)",
+       "Gondola Timang (add-on RM 80/pax) atau Jambatan Timang (RM 50/pax)",
+       "Heha Ocean View"
+      ],
+      "eact": [
+       "Timang Beach with jeep ride",
+       "Timang Beach gondola or suspension bridge",
+       "Heha Ocean View"
+      ]
+     },
+     {
+      "v": "fMer",
+      "t": "Mt. Merapi Lava Jeep Tour (full day)",
+      "en": "MT. MERAPI LAVA JEEP TOUR",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Merapi + Hobbit Jeep Lava Tour (RM 250/jeep, 4 pax/jeep)",
+       "Bunker Kaliadem",
+       "Sisa Hartaku Mini Museum",
+       "Kali Boyong River"
+      ],
+      "eact": [
+       "Mount Merapi Lava Jeep Tour",
+       "Bunker Kaliadem",
+       "Sisa Hartaku Mini Museum",
+       "Kali Boyong River"
+      ]
+     },
+     {
+      "v": "fPan",
+      "t": "Bukit Panguk sunrise &amp; Hutan Pinus (full day)",
+      "en": "BUKIT PANGUK SUNRISE & PINE FOREST",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Bukit Panguk 4:45 AM &mdash; sunrise &amp; awan karpet",
+       "Hutan Pinus Mangunan (add-on RM 25/pax)",
+       "Heha Sky View",
+       "Batik Outlet"
+      ],
+      "eact": [
+       "Bukit Panguk at 4.45 AM for sunrise",
+       "Hutan Pinus Mangunan pine forest",
+       "Heha Sky View",
+       "Batik Outlet"
+      ]
+     },
+     {
+      "v": "fGum",
+      "t": "Gumuk Pasir &amp; Parangtritis (full day)",
+      "en": "GUMUK PASIR & PARANGTRITIS",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Gumuk Pasir sand dunes &mdash; Jeep RM 157/jeep atau ATV RM 100/ATV (add-on)",
+       "Obelix Sea View (add-on RM 20/pax)",
+       "Parangtritis Beach"
+      ],
+      "eact": [
+       "Gumuk Pasir sand dunes",
+       "Obelix Sea View",
+       "Parangtritis Beach"
+      ]
+     },
+     {
+      "v": "fPin",
+      "t": "Goa Pindul &amp; Cave Tubing (full day)",
+      "en": "GOA PINDUL CAVE TUBING",
+      "g": "Full day tour (12 jam)",
+      "region": "[Full Day]",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Goa Pindul &amp; Jomblang cave tubing (add-on RM 100/pax)",
+       "Gamplong Studio Alam (add-on RM 25/pax)"
+      ],
+      "eact": [
+       "Goa Pindul and Jomblang cave tubing",
+       "Gamplong Studio Alam"
+      ]
+     },
+     {
+      "v": "hMal",
+      "t": "Malioboro &amp; city half day",
+      "en": "MALIOBORO CITY HALF DAY",
+      "g": "Half day tour (5-6 jam)",
+      "region": "[Half Day]",
+      "acc": "incl",
+      "meal": "bd",
+      "trp": "incl",
+      "act": [
+       "Shopping @ Malioboro Street",
+       "Pasar Beringharjo",
+       "Titik Nol Kilometer"
+      ],
+      "eact": [
+       "Shopping at Malioboro Street",
+       "Beringharjo Market",
+       "Titik Nol Kilometer"
+      ]
+     },
+     {
+      "v": "hBat",
+      "t": "Batik &amp; kraftangan half day",
+      "en": "BATIK & HANDICRAFT HALF DAY",
+      "g": "Half day tour (5-6 jam)",
+      "region": "[Half Day]",
+      "acc": "incl",
+      "meal": "bd",
+      "trp": "incl",
+      "act": [
+       "Batik Outlet",
+       "Kotagede silver workshop",
+       "Ole-ole khas Jogja"
+      ],
+      "eact": [
+       "Batik Outlet",
+       "Kotagede silver workshop",
+       "Local delicacies shopping"
+      ]
+     },
+     {
+      "v": "tAir",
+      "t": "Airport transfer sehala (YIA)",
+      "en": "AIRPORT TRANSFER",
+      "g": "Airport transfer",
+      "region": "[Airport]",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "act": [
+       "Airport transfer sehala Yogyakarta International Airport (YIA)"
+      ],
+      "eact": [
+       "One way airport transfer at Yogyakarta International Airport (YIA)"
+      ]
+     },
+     {
+      "v": "tAhd",
+      "t": "Airport transfer + half day tour",
+      "en": "AIRPORT TRANSFER + HALF DAY TOUR",
+      "g": "Airport transfer",
+      "region": "[Airport + Half Day]",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "incl",
+      "act": [
+       "Pickup di YIA",
+       "Half day tour sebelum check-in hotel"
+      ],
+      "eact": [
+       "Pick up at YIA",
+       "Half day tour before hotel check in"
+      ]
+     },
+     {
+      "v": "lDie",
+      "t": "Dieng Plateau (luar bandar &mdash; kadar transport belum tersiar)",
+      "en": "DIENG PLATEAU",
+      "g": "Luar bandar Jogja - kadar transport belum tersiar",
+      "region": "[Dieng]",
+      "acc": "xdi",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Kawah Sikidang",
+       "Telaga Warna",
+       "Candi Arjuna",
+       "Bermalam di Villa Pintu Langit (pilih acc Dieng)"
+      ],
+      "eact": [
+       "Sikidang Crater",
+       "Telaga Warna coloured lake",
+       "Arjuna Temple"
+      ]
+     },
+     {
+      "v": "lNep",
+      "t": "Nepal van Java glamping (luar bandar &mdash; kadar transport belum tersiar)",
+      "en": "NEPAL VAN JAVA",
+      "g": "Luar bandar Jogja - kadar transport belum tersiar",
+      "region": "[Nepal van Java]",
+      "acc": "xgl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Kampung Butuh Magelang &mdash; Nepal van Java",
+       "Bermalam glamping Trianggulasi / Linggar Jati (pilih acc glamping)"
+      ],
+      "eact": [
+       "Butuh village, Magelang - Nepal van Java",
+       "Glamping stay"
+      ]
+     },
+     {
+      "v": "lKeb",
+      "t": "Kebumen (luar bandar &mdash; kadar transport belum tersiar)",
+      "en": "KEBUMEN",
+      "g": "Luar bandar Jogja - kadar transport belum tersiar",
+      "region": "[Kebumen]",
+      "acc": "xke",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Goa Jatijajar",
+       "Pantai Menganti",
+       "Bermalam di Hotel Kebumen Maxolie (pilih acc Kebumen)"
+      ],
+      "eact": [
+       "Jatijajar Cave",
+       "Menganti Beach"
+      ]
+     }
+    ],
+    "ext": {
+     "night": {
+      "normal": 150,
+      "peak": 250
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 12,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Full Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 250,
+         "peak": 250
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 500,
+         "peak": 500
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 160,
+         "peak": 160
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 250,
+         "peak": 250
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 400,
+         "peak": 400
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Airport + Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 250,
+         "peak": 250
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 500,
+         "peak": 500
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Airport]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 160,
+         "peak": 160
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 250,
+         "peak": 250
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 400,
+         "peak": 400
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Full Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -200,
+         "peak": -200
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -300,
+         "peak": -300
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -100,
+         "peak": -100
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -300,
+         "peak": -300
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Airport + Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -200,
+         "peak": -200
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -300,
+         "peak": -300
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Airport]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -100,
+         "peak": -100
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -300,
+         "peak": -300
+        },
+        {
+         "from": 13,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "vvip": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Full Day]": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 7,
+         "to": 8,
+         "normal": 950,
+         "peak": 950
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "vvipDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ],
+       "[Full Day]": [
+        {
+         "from": 1,
+         "to": 6,
+         "normal": null,
+         "peak": null
+        },
+        {
+         "from": 7,
+         "to": 8,
+         "normal": -600,
+         "peak": -600
+        },
+        {
+         "from": 9,
+         "to": 99,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "up4wd": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 100,
+         "peak": 100
+        }
+       ]
+      },
+      "up4we": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 120,
+         "peak": 120
+        }
+       ]
+      },
+      "up4wdp": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 160,
+         "peak": 160
+        }
+       ]
+      },
+      "up4wep": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 180,
+         "peak": 180
+        }
+       ]
+      },
+      "n3": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 150,
+         "peak": 250
+        }
+       ]
+      },
+      "n4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 180,
+         "peak": 350
+        }
+       ]
+      },
+      "nDieng": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 200,
+         "peak": 350
+        }
+       ]
+      },
+      "nGlamp": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 150,
+         "peak": 250
+        }
+       ]
+      },
+      "nKebumen": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 210,
+         "peak": 350
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -80,
+         "peak": -80
+        }
+       ]
+      }
+     }
+    },
+    "peak": {
+     "mode": "perNight",
+     "value": 120,
+     "windows": [
+      [
+       "2026-03-15",
+       "2026-03-30"
+      ],
+      [
+       "2026-05-25",
+       "2026-06-05"
+      ],
+      [
+       "2026-12-20",
+       "2027-01-05"
+      ],
+      [
+       "2027-02-05",
+       "2027-02-25"
+      ],
+      [
+       "2027-03-05",
+       "2027-04-15"
+      ]
+     ]
+    },
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel in Yogyakarta city centre - Emersia Hotel or Luxury Malioboro or similar, 2 to 3 persons per room",
+     "{auto}",
+     "Entrance fees based on itinerary",
+     "Driving Guide (Malay or English spoken)",
+     "Travel insurance",
+     "Tipping fee",
+     "Jeep Merapi Lava Tour",
+     "Jeep Timang Beach"
+    ],
+    "exclusions": [
+     "Return flight tickets Kuala Lumpur - Yogyakarta (YIA)",
+     "Luggage, in flight meal and airport tax",
+     "Additional tours and meals outside the itinerary",
+     "Personal expenses"
+    ],
+    "exclusionsTail": [
+     "Borobudur Temple entrance, Timang Beach gondola and other optional activities unless listed above"
+    ]
+   }
+  ]
+ }
+}

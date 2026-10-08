@@ -1,0 +1,1339 @@
+{
+ "slug": "medan-lake-toba",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Medan–Danau Toba — Knowledge Base",
+   "brandTag": "MEDAN–DANAU TOBA KB",
+   "kicker": "ARBA MEDAN · DANAU TOBA · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Medan–Danau Toba — halal, flight, hotel, cuaca, itinerari & tips.",
+   "searchPlaceholder": "cth: flight ke Medan? · perlu visa? · Sipiso-Piso lasak tak? · surau di Danau Toba?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Medan–Danau Toba…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Medan–Danau Toba",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada katalog PT MEDAN-LAKE TOBA 4D3N 2026 v3 (Last Updated 13 Mac 2026). Harga, itinerari &amp; hotel sah untuk tempoh perjalanan hingga 31 Januari 2027. Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline setiap pakej.<br>Tiada gambar trip lepas untuk Medan-Danau Toba dalam folder produk, jadi KB ini tiada tab Gambar Trip Lepas — ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Danau Toba & Pulau Samosir",
+     "Air Terjun Sipiso-Piso",
+     "Masjid Raya Al-Mashun 1906",
+     "Istana Maimoon",
+     "Bukit Holbung",
+     "Shopping Medan"
+    ],
+    "usp": "USP ARBA: No tourist trap · sesuai untuk family & kanak-kanak · full experience (bukan free & easy semata) · half-day tour hari terakhir · tipping SUDAH termasuk · disambut dengan kain tenun ulos.",
+    "season": [
+     [
+      "Mei–Sep",
+      "Musim kering terbaik untuk Danau Toba & aktiviti luar — cuaca cerah, kelembapan rendah."
+     ],
+     [
+      "Pertengahan Jun–Jul",
+      "Minggu paling kering; bertepatan peak season — tempah awal, kadar naik."
+     ],
+     [
+      "Nov–Mac",
+      "Musim hujan (lembap) — tetap boleh dilawat, bawa payung/raincoat."
+     ],
+     [
+      "Peak surcharge",
+      "25 Dis 2025-5 Jan 2026, 15-31 Mac 2026, 25 Jun-12 Jul 2026, 25 Dis 2026-5 Jan 2027 — RM30/pax/malam (3 bintang), RM40 (4 bintang)."
+     ]
+    ],
+    "expect": [
+     "Long haul: perjalanan lapangan terbang (KNO) ke Parapat ~5 jam kereta.",
+     "Menginap di 3 lokasi berbeza: Parapat, Berastagi & Medan.",
+     "Trek turun ke dasar Air Terjun Sipiso-Piso agak mencabar — pakai kasut bersesuaian.",
+     "Trafik kadang sesak — jangkakan sedikit kelewatan.",
+     "Makanan sepanjang trip ialah masakan tempatan Indonesia (halal).",
+     "Cadangan tiba & pulang waktu tengah hari; late arrival / early departure tiada refund."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Medan–Danau Toba 4D3N · Option A",
+    "tag": "MEDAN · 4D3N · Standard",
+    "sub": "Laluan klasik Parapat-dahulu — Samosir, Sipiso-Piso & bandar Medan",
+    "emoji": "",
+    "img": "sk:cover",
+    "intro": "Pakej Private Tour 4 hari 3 malam versi standard ARBA. Laluan Parapat-dahulu: sambut di Kualanamu (KNO), terus ke Danau Toba (Parapat), feri ke Pulau Samosir (Tomok), naik ke Berastagi lalu Air Terjun Sipiso-Piso, dan akhirnya bandar Medan untuk warisan Islam Kesultanan Deli & shopping. Sesuai untuk keluarga dan first-timer yang mahu highlight utama Danau Toba–Medan tanpa aktiviti terlalu lasak.",
+    "inc": [
+     "3 malam penginapan (hotel 3 bintang)",
+     "Pengangkutan persendirian (asas 12 jam/hari)",
+     "Feri ke Pulau Samosir (sharing)",
+     "Yuran masuk (entrance fees)",
+     "Makan penuh 3B / 3L / 3D (masakan tempatan halal)",
+     "Driving guide (Melayu/Inggeris)",
+     "Yuran tipping SUDAH termasuk"
+    ],
+    "exc": [
+     "Tiket penerbangan pergi-balik",
+     "Bagasi, in-flight meal & airport tax",
+     "Extra hour transport & guide (150,000 IDR/jam, tunai)",
+     "Lawatan & makan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Harga untuk 2–3 orang sebilik (twin/triple sharing). Single supplement +RM250/pax. Late booking (<45 hari) +RM50/booking. Naik taraf hotel 4★: +RM100/pax/malam."
+   },
+   {
+    "n": "PT Medan–Danau Toba 4D3N · Option B",
+    "tag": "MEDAN · 4D3N · Samosir & Holbung",
+    "sub": "Laluan Samosir-dahulu untuk nature lovers — Bukit Holbung, Pusuk Buhit & Efrata",
+    "emoji": "",
+    "img": "sk:simarjarunjung",
+    "intro": "Versi Option B (tambah RM50/pax) untuk pelancong yang mahu lebih banyak alam semula jadi & spot fotografi. Terus ke Pulau Samosir hari pertama, kemudian Bukit Holbung ('Little Teletubbies'), Mount Pusuk Buhit, Air Terjun Efrata dan Bukit Burung, sebelum Berastagi (kaki Gunung Sinabung & Danau Lau Kawar) dan Medan. Landskap lebih dramatik; ada sedikit lebih banyak berjalan.",
+    "inc": [
+     "3 malam penginapan (hotel 3 bintang)",
+     "Pengangkutan persendirian (asas 12 jam/hari)",
+     "Feri ke Pulau Samosir (sharing)",
+     "Yuran masuk (entrance fees)",
+     "Makan penuh 3B / 3L / 3D (masakan tempatan halal)",
+     "Driving guide (Melayu/Inggeris)",
+     "Yuran tipping SUDAH termasuk"
+    ],
+    "exc": [
+     "Tiket penerbangan pergi-balik",
+     "Bagasi, in-flight meal & airport tax",
+     "Extra hour transport & guide (150,000 IDR/jam, tunai)",
+     "Lawatan & makan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Add-on Option B: +RM50/pax. Drone shooting hanya untuk Option B: +RM47/pax. Sama seperti Option A: harga 2–3 sebilik, single supplement +RM250, naik taraf 4★ +RM100/pax/malam. Pilih satu option — laluan yang sama digunakan sepanjang itinerari."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "KUL → Kualanamu (KNO) → Parapat / Danau Toba",
+     "m": "L / D",
+     "a": [
+      "Sambut di Lapangan Terbang Kualanamu (KNO)",
+      "Perjalanan ke Parapat, Danau Toba (~5 jam)",
+      "Daftar masuk hotel di Parapat"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Parapat → Pulau Samosir → Berastagi",
+     "m": "B / L / D",
+     "a": [
+      "Feri menyeberang ke Pulau Samosir",
+      "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
+      "Puncak Simarjarunjung (spot foto)",
+      "Air Terjun Sipiso-Piso",
+      "Pasar Buah Berastagi",
+      "Daftar masuk hotel di Berastagi"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Berastagi → Medan",
+     "m": "B / L / D",
+     "a": [
+      "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
+      "Istana Maimoon (Kesultanan Deli, 1888)",
+      "Masjid Raya Al-Mashun 1906",
+      "Outlet batik & produk tempatan",
+      "Pasar Ikan / Plaza Medan (shopping telekung, baju, handbag)",
+      "Daftar masuk hotel di Medan"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Medan → Kualanamu (KNO) → KUL",
+     "m": "B",
+     "a": [
+      "Sarapan & daftar keluar",
+      "Free & easy (shopping buah tangan)",
+      "Pemindahan ke lapangan terbang untuk penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Kualanamu (KNO) → Pulau Samosir",
+     "m": "L / D",
+     "a": [
+      "Sambut di Lapangan Terbang Kualanamu (KNO)",
+      "Kolam Aek Manik Sidamanik",
+      "Kebun Teh Bah Butong",
+      "Menyeberang ke Pulau Samosir via feri",
+      "Daftar masuk hotel di Samosir"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Samosir → Berastagi",
+     "m": "B / L / D",
+     "a": [
+      "Mount Pusuk Buhit",
+      "Bukit Holbung ('Little Teletubbies')",
+      "Air Terjun Efrata",
+      "Bukit Burung",
+      "Perjalanan ke Berastagi",
+      "Air Terjun Sipiso-Piso",
+      "Daftar masuk hotel di Berastagi"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Berastagi → Medan",
+     "m": "B / L / D",
+     "a": [
+      "Kaki Gunung Sinabung",
+      "Danau Lau Kawar",
+      "Pasar Buah Berastagi",
+      "Perjalanan ke Medan",
+      "Daftar masuk hotel di Medan"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Medan → Kualanamu (KNO) → KUL",
+     "m": "B",
+     "a": [
+      "Sarapan & daftar keluar",
+      "Free & easy (shopping buah tangan)",
+      "Pemindahan ke lapangan terbang untuk penerbangan pulang"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Danau Toba & Parapat",
+    "t": "Tasik & Tabii",
+    "emoji": "",
+    "img": "sk:parapat",
+    "short": "Tasik kawah gunung berapi terbesar di dunia",
+    "intro": "Danau Toba ialah tasik kawah gunung berapi terbesar di dunia (~1.145 km²), terbentuk daripada letusan gergasi ~74,000 tahun lalu. Parapat ialah bandar tepi tasik yang menjadi pintu masuk utama ke Pulau Samosir. Udara sejuk nyaman kerana ketinggian ~900m.",
+    "hi": [
+     "Pemandangan tasik & bukit yang menakjubkan",
+     "Bandar Parapat & Pantai Bebas",
+     "Titik naik feri ke Samosir"
+    ],
+    "best": "Pagi hari untuk air tenang & cahaya terbaik; musim kering Mei–Sep.",
+    "muslim": "Restoran tempatan sekitar Parapat menyajikan menu halal (ikan bakar, masakan Melayu-Indonesia). Ada surau/masjid di pekan Parapat untuk solat. Guide boleh atur waktu berhenti solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lake+Toba+Parapat"
+   },
+   {
+    "n": "Tomok Village, Pulau Samosir",
+    "t": "Budaya Batak",
+    "emoji": "",
+    "img": "sk:tomok",
+    "short": "Perkampungan budaya Batak di Pulau Samosir",
+    "intro": "Tomok ialah kampung warisan di Pulau Samosir — pulau di tengah Danau Toba yang hampir sebesar Singapura. Di sini terdapat Makam Raja Sidabutar, rumah tradisional Batak beratap melengkung, dan persembahan tarian boneka Sigale-gale.",
+    "hi": [
+     "Museum & Makam Raja Sidabutar",
+     "Tarian Sigale-gale",
+     "Deretan gerai cenderahati kain tenun ulos"
+    ],
+    "best": "Selepas menyeberang feri pada waktu pagi/tengah hari.",
+    "muslim": "Kawasan pelancongan; makan tengah hari diatur di restoran halal berhampiran Parapat/Samosir. Bawa sejadah — surau terhad di dalam kampung, guide akan bantu cari ruang solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tomok+Samosir"
+   },
+   {
+    "n": "Air Terjun Sipiso-Piso",
+    "t": "Air Terjun",
+    "emoji": "",
+    "img": "sk:sipiso",
+    "short": "Air terjun ~120m antara tertinggi di Indonesia",
+    "intro": "Sipiso-Piso menjunam ~120 meter dari tebing kawah tua di hujung utara Danau Toba — antara air terjun tertinggi di Indonesia. Pemandangan dari puncak sudah cukup menakjubkan; yang cergas boleh trek turun ke dasar.",
+    "hi": [
+     "Pemandangan air terjun & Danau Toba dari puncak",
+     "Trek turun ke dasar (mencabar)",
+     "Spot fotografi popular"
+    ],
+    "best": "Pagi, cuaca cerah. Elak selepas hujan lebat kerana denai licin.",
+    "muslim": "Tiada surau di tapak; solat boleh dijamak/qasar di hotel atau masjid berdekatan. Tiada isu makanan (hanya lawatan). Pakai kasut bertapak baik untuk trek.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sipiso-piso+Waterfall"
+   },
+   {
+    "n": "Bukit Holbung",
+    "t": "Bukit & Landskap",
+    "emoji": "",
+    "img": "sk:cover",
+    "short": "Bukit hijau bergelombang 'Little Teletubbies' (Option B)",
+    "intro": "Bukit Holbung di Samosir terkenal dengan barisan bukit hijau bergelombang yang menyerupai landskap 'Teletubbies', menghadap Danau Toba. Spot mendaki ringan & fotografi yang popular dalam Option B.",
+    "hi": [
+     "Panorama Danau Toba dari puncak bukit",
+     "Pendakian ringan–sederhana",
+     "Foto landskap ikonik"
+    ],
+    "best": "Pagi (elak panas tengah hari); musim kering.",
+    "muslim": "Kawasan terbuka tanpa kemudahan; sediakan sejadah & solat di hotel. Bawa air & pelindung matahari.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bukit+Holbung+Samosir"
+   },
+   {
+    "n": "Simarjarunjung Hill",
+    "t": "Bukit & View Point",
+    "emoji": "",
+    "img": "sk:simarjarunjung",
+    "short": "Puncak view Danau Toba dengan rumah pokok & swing",
+    "intro": "Puncak Simarjarunjung ialah kawasan tarikan tepi bukit dengan rumah pokok, basikal awan (sky bike) dan buaian menghadap Danau Toba — sesuai untuk sesi bergambar keluarga.",
+    "hi": [
+     "Rumah pokok & sky bike",
+     "Buaian menghadap tasik",
+     "Kafe/gerai tepi bukit"
+    ],
+    "best": "Tengah hari cerah untuk view tasik.",
+    "muslim": "Ada gerai makanan tempatan; sahkan halal dengan guide. Solat di hotel/masjid berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Simarjarunjung+Hill"
+   },
+   {
+    "n": "Masjid Raya Al-Mashun (1906)",
+    "t": "Warisan Islam",
+    "emoji": "",
+    "img": "sk:masjid",
+    "short": "Masjid Agung Kesultanan Deli, seni bina Moorish",
+    "intro": "Masjid Raya Al-Mashun dibina 1906 oleh Sultan Deli. Seni bina campuran Moor, Timur Tengah, India & Sepanyol dengan kubah hitam yang ikonik — masih berfungsi sebagai masjid utama Medan sehingga kini.",
+    "hi": [
+     "Seni bina Moorish yang menakjubkan",
+     "Kaca patri & marmar import",
+     "Terletak berhampiran Istana Maimoon"
+    ],
+    "best": "Luar waktu solat fardhu untuk lawatan; datang awal untuk foto.",
+    "muslim": "Masjid berfungsi penuh — tempat solat utama dalam itinerari. Sediakan pakaian sopan; telekung/kain digalakkan. Wuduk & tandas tersedia.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Masjid+Raya+Al-Mashun+Medan"
+   },
+   {
+    "n": "Istana Maimoon",
+    "t": "Warisan & Sejarah",
+    "emoji": "",
+    "img": "sk:maimoon",
+    "short": "Istana Kesultanan Deli (1888), kuning khas Melayu",
+    "intro": "Istana Maimoon dibina 1888 untuk Sultan Deli — bangunan kuning dua tingkat menggabungkan gaya Melayu, Moghul, Itali & Belanda. Sebahagian dibuka kepada pelawat dengan koleksi peninggalan diraja.",
+    "hi": [
+     "Dewan singgahsana diraja",
+     "Seni bina warna kuning ikonik",
+     "Sewa baju tradisional untuk foto"
+    ],
+    "best": "Pagi/tengah hari; digandingkan dengan Masjid Raya berdekatan.",
+    "muslim": "Lawatan sejarah (bukan makan). Masjid Raya Al-Mashun berdekatan untuk solat. Pakaian sopan disyorkan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Maimun+Palace+Medan"
+   },
+   {
+    "n": "Taman Alam Lumbini",
+    "t": "Taman & Fotografi",
+    "emoji": "",
+    "img": "sk:shwedagon",
+    "short": "Replika Pagoda Shwedagon Myanmar di Berastagi",
+    "intro": "Taman Alam Lumbini di Berastagi mempamerkan replika Pagoda Shwedagon Myanmar yang berwarna keemasan, dikelilingi taman & pergunungan. Tarikan fotografi popular dalam perjalanan Berastagi–Medan.",
+    "hi": [
+     "Replika pagoda keemasan",
+     "Taman & latar pergunungan",
+     "Spot fotografi keluarga"
+    ],
+    "best": "Pagi/tengah hari cerah.",
+    "muslim": "Lawatan fotografi luar sahaja (bukan tempat ibadah untuk peserta). Tiada isu makanan; solat di hotel/masjid berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Taman+Alam+Lumbini+Berastagi"
+   },
+   {
+    "n": "Berastagi (Sinabung, Sibayak & Pasar Buah)",
+    "t": "Tanah Tinggi Karo",
+    "emoji": "",
+    "img": "sk:berastagi_market",
+    "short": "Bandar bukit sejuk — pasar buah, gunung berapi & strawberi",
+    "intro": "Berastagi ialah bandar peranginan tanah tinggi Karo yang sejuk, dikelilingi Gunung Sinabung & Sibayak. Terkenal dengan Pasar Buah Berastagi, ladang strawberi, Bukit Gundaling dan Danau Lau Kawar (Option B).",
+    "hi": [
+     "Pasar Buah & Bunga Berastagi",
+     "Kaki Gunung Sinabung & Danau Lau Kawar",
+     "Petik strawberi / Bukit Gundaling"
+    ],
+    "best": "Sepanjang tahun; bawa jaket kerana sejuk waktu malam.",
+    "muslim": "Restoran halal tersedia; buah & makanan tempatan. Ada masjid/surau di pekan Berastagi.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Berastagi+Fruit+Market"
+   },
+   {
+    "n": "Shopping Medan (Pasar Ikan / Plaza Medan)",
+    "t": "Shopping",
+    "emoji": "",
+    "img": "sk:plaza_medan",
+    "short": "Telekung, baju, kain, handbag & buah tangan Medan",
+    "intro": "Medan ialah destinasi shopping utama Sumatera. Pasar Ikan / Plaza Medan dan outlet batik menawarkan telekung, baju, kain, handbag serta buah tangan Medan (bika ambon, bolu Meranti, kopi) dengan harga berpatutan.",
+    "hi": [
+     "Telekung, baju & kain",
+     "Batik & handbag",
+     "Buah tangan: bika ambon, bolu Meranti, kopi"
+    ],
+    "best": "Hari 3/4 itinerari; bawa cash untuk kedai kecil.",
+    "muslim": "Pusat bandar Medan padat dengan restoran halal & masjid. Money changer di airport & bandar (rate mungkin kurang menarik — tukar secukupnya di Malaysia).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pasar+Ikan+Lama+Medan"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3 Bintang - Parapat (default)",
+    "name": "Atsari Hotel atau setaraf",
+    "note": "Tepi Danau Toba. Twin/triple sharing, sarapan hotel.",
+    "emoji": "",
+    "img": "sk:hotel_parapat"
+   },
+   {
+    "tier": "3 Bintang - Samosir (Option B)",
+    "name": "Samosir Villa Resort atau setaraf",
+    "note": "Di Pulau Samosir, guna untuk laluan Option B.",
+    "emoji": ""
+   },
+   {
+    "tier": "3 Bintang - Berastagi (default)",
+    "name": "Uluna Hotel atau setaraf",
+    "note": "Tanah tinggi Karo, cuaca sejuk waktu malam.",
+    "emoji": "",
+    "img": "sk:hotel_berastagi"
+   },
+   {
+    "tier": "3 Bintang - Medan (default)",
+    "name": "MBS Hotel atau setaraf",
+    "note": "Pusat bandar Medan, dekat kawasan shopping.",
+    "emoji": "",
+    "img": "sk:hotel_medan"
+   },
+   {
+    "tier": "4 Bintang - Parapat (upgrade)",
+    "name": "Niagara Hotel atau setaraf",
+    "note": "Upgrade +RM100/pax/malam.",
+    "emoji": ""
+   },
+   {
+    "tier": "4 Bintang - Berastagi (upgrade)",
+    "name": "Sibayak International Hotel atau setaraf",
+    "note": "Upgrade +RM100/pax/malam.",
+    "emoji": ""
+   },
+   {
+    "tier": "4 Bintang - Medan (upgrade)",
+    "name": "Emerald Garden Hotel atau setaraf",
+    "note": "Upgrade +RM100/pax/malam.",
+    "emoji": ""
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2>\n<p class=\"ssub\" style=\"margin:0 0 10px\">Kadar katalog TO — <b>per pax, 2–3 orang sebilik, Ground + Tipping</b>. Tidak termasuk flight. Sah untuk tempoh perjalanan hingga 31 Januari 2027.</p>\n<div class=\"custblk\">\n  <h3>PT Medan–Danau Toba 4D3N — Hotel 3 Bintang (RM/pax)</h3>\n  <table class=\"ctbl\"><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody>\n    <tr><td class=\"it\">2</td><td class=\"add\">RM 1,357</td><td>RM 1,157</td><td>RM 1,057</td></tr>\n    <tr><td class=\"it\">3–4</td><td class=\"add\">RM 1,197</td><td>RM 1,097</td><td>RM 997</td></tr>\n    <tr><td class=\"it\">5–6</td><td class=\"add\">RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr>\n    <tr><td class=\"it\">7–9</td><td class=\"add\">RM 1,107</td><td>RM 1,007</td><td>RM 907</td></tr>\n    <tr><td class=\"it\">10–19</td><td class=\"add\">RM 1,097</td><td>RM 997</td><td>RM 897</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Infant (bawah 2 tahun): FOC. Option B: +RM50/pax. Naik taraf hotel 4 bintang: +RM100/pax/malam.</p>\n</div>\n<div class=\"notebox\"><b>Nota harga:</b> Semua harga sah 24 jam selepas quotation dihantar. Harga untuk 2–3 orang sebilik. Itinerari, harga & flight tertakluk kepada perubahan.</div>",
+   "custom": "<h2>Simple Customisation & Add-ons</h2>\n<div class=\"custblk\">\n  <h3>Add-on Aktiviti</h3>\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">Option B (laluan Samosir/Holbung)</td><td class=\"add\">+RM 50/pax</td><td>Ganti laluan Option A</td></tr>\n    <tr><td class=\"it\">Drone Shooting</td><td class=\"add\">RM 47/pax</td><td>Option B sahaja — dron, juruterbang, raw + edited footage, sepanjang trip</td></tr>\n  </tbody></table>\n</div>\n<div class=\"custblk\">\n  <h3>Add-on Travel Essentials</h3>\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga (jual)</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">TripCare 360 Takaful (Etiqa) — Individual</td><td class=\"add\">RM 64 (1–5h) / RM 88.50 (6–10h)</td><td>Area 2 (Indonesia)</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Couple</td><td class=\"add\">RM 113 / RM 160.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Family</td><td class=\"add\">RM 143.50 / RM 201.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Senior Citizen</td><td class=\"add\">RM 185.50 / RM 265.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">Luggage Tracker (Blue Ribbon)</td><td class=\"add\">RM 20 / 40 / 55 / 70</td><td>1 / 2 / 3 / 4 unit</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber harga insurans &amp; luggage tracker: rate card ARBA - tiada dalam katalog. Extra hour driver & guide (melebihi asas 12 jam): 150,000 IDR/jam — bayaran tunai di Medan.</p>\n</div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season RM 30/pax/malam (hotel 3&#9733;) dan late booking RM 50/booking dikira sendiri. <b>Option B</b> (laluan Samosir/Holbung, +RM 50/pax) ialah varian pakej berasingan &mdash; pilih dari dropdown pakej, bukan add-on. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Upgrade hotel 4&#9733; &mdash; malam PEAK</i> supaya surcaj peak 4&#9733; RM 40/pax/malam dikira betul (RM 30 auto + RM 10 beza). Kadar hari tambahan &amp; malam tambahan <b>belum tersiar</b> dalam katalog atau rate card, jadi ia papar <i>kadar?</i> sehingga diisi dalam calc-config.json.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Medan&ndash;Danau Toba 4D3N &middot; Option A (Parapat dahulu)</option><option value='1'>PT Medan&ndash;Danau Toba 4D3N &middot; Option B (Samosir / Holbung) +RM 50/pax</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 250 setiap satu (sepanjang 3 malam)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2>\n<div class=\"custblk\">\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">Peak Season (hotel 3 bintang)</td><td class=\"add\">+RM 30/pax/malam</td><td>25 Dis 2025-5 Jan 2026 &middot; 15-31 Mac 2026 &middot; 25 Jun-12 Jul 2026 &middot; 25 Dis 2026-5 Jan 2027</td></tr>\n    <tr><td class=\"it\">Peak Season (hotel 4 bintang)</td><td class=\"add\">+RM 40/pax/malam</td><td>Tempoh sama seperti di atas</td></tr>\n    <tr><td class=\"it\">Naik taraf hotel 4 bintang</td><td class=\"add\">+RM 100/pax/malam</td><td>Parapat: Niagara &middot; Berastagi: Sibayak International &middot; Medan: Emerald Garden</td></tr>\n    <tr><td class=\"it\">Single Supplement</td><td class=\"add\">+RM 250/pax</td><td>Bilik single occupancy sepanjang 3 malam</td></tr>\n    <tr><td class=\"it\">Late Booking</td><td class=\"add\">+RM 50/booking</td><td>Tempahan kurang 45 hari sebelum tarikh berlepas</td></tr>\n    <tr><td class=\"it\">Extra hour transport &amp; guide</td><td class=\"add\">150,000 IDR/jam</td><td>Melebihi asas 12 jam sehari. Bayaran tunai di Medan</td></tr>\n    <tr><td class=\"it\">Option B (laluan Samosir / Holbung)</td><td class=\"add\">+RM 50/pax</td><td>Menggantikan laluan Option A</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber: katalog PT MEDAN-LAKE TOBA 4D3N 2026 v3.</p>\n</div>\n<div class=\"custblk\">\n  <h3>Travel Date 2027 (di luar tempoh sah katalog)</h3>\n  <table class=\"ctbl\"><thead><tr><th>Tarikh perjalanan</th><th>Caj tambahan</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">8-15 Mac 2027</td><td class=\"add\">+RM 90/pax</td><td>Dikira atas harga pakej, tambahan kepada peak season jika bertindih</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber: 2026 / 2027 Date Surcharge (baris MEDAN 4D3N) — tiada dalam katalog. Katalog v3 sah untuk tempoh perjalanan hingga 31 Januari 2027 sahaja.</p>\n</div>",
+   "compare": "<h2>Perbezaan Pakej — Option A vs Option B</h2>\n<p class=\"ssub\" style=\"margin:0 0 10px\">Kedua-dua 4D3N, hotel 3★, fullboard (3B/3L/3D) & tipping termasuk. Pilih satu — laluan sama digunakan sepanjang trip.</p>\n<table class=\"cmp\"><colgroup><col class=\"c1\"><col><col></colgroup>\n<thead><tr><th class=\"blank\"></th><th>OPTION A · Standard</th><th>OPTION B · Samosir &amp; Holbung</th></tr></thead>\n<tbody>\n<tr><td class=\"feat\">Tempoh</td><td class=\"val\">4H3M</td><td class=\"val\">4H3M</td></tr>\n<tr><td class=\"feat\">Hotel</td><td class=\"val\">3 bintang (default)</td><td class=\"val\">3 bintang (default)</td></tr>\n<tr><td class=\"feat\">Airport transfer (KNO)</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Driver + driving guide</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Feri ke Pulau Samosir</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Tomok Village (budaya Batak)</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"no\">—</span></td></tr>\n<tr><td class=\"feat\">Air Terjun Sipiso-Piso</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Bukit Holbung · Pusuk Buhit · Efrata</td><td class=\"val\"><span class=\"no\">—</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Warisan Islam Medan (Masjid Raya &amp; Istana Maimoon)</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"no\">—</span></td></tr>\n<tr><td class=\"feat\">Kaki Gunung Sinabung &amp; Danau Lau Kawar</td><td class=\"val\"><span class=\"no\">—</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Drone shooting</td><td class=\"val\"><span class=\"no\">—</span></td><td class=\"val\">Add-on RM 47</td></tr>\n<tr><td class=\"feat\">Fullboard 3B/3L/3D + tipping</td><td class=\"val\"><span class=\"tick\">✔</span></td><td class=\"val\"><span class=\"tick\">✔</span></td></tr>\n<tr><td class=\"feat\">Harga dari (2 pax)</td><td class=\"val\">RM 1,357</td><td class=\"val\">RM 1,407</td></tr>\n<tr><td class=\"feat\">Harga dari (10–19 pax)</td><td class=\"val\">RM 1,097</td><td class=\"val\">RM 1,147</td></tr>\n</tbody></table>",
+   "flight": "<h2>Flight &amp; Airport</h2>\n<div class=\"custblk\">\n  <h3>Flight Recommendation - KUL ke Medan (KNO), pergi-balik</h3>\n  <table class=\"ctbl\"><thead><tr><th>Leg</th><th>Airline</th><th>Flight</th><th>Berlepas</th><th>Tiba</th><th>Hari operasi</th></tr></thead><tbody>\n    <tr><td class=\"it\">Pergi &mdash; KUL ke KNO</td><td>AirAsia</td><td>AK 391</td><td>10:30 (waktu Malaysia)</td><td>10:30 (WIB)</td><td>Setiap hari</td></tr>\n    <tr><td class=\"it\">Balik &mdash; KNO ke KUL</td><td>AirAsia</td><td>AK 392</td><td>17:50 (WIB)</td><td>19:55 (waktu Malaysia)</td><td>Selasa hingga Ahad. Tiada penerbangan hari Isnin</td></tr>\n  </tbody></table>\n  <table class=\"ctbl\"><thead><tr><th>Jenis</th><th>Anggaran harga pergi-balik</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">Low Cost (AirAsia)</td><td class=\"add\">RM 400 - RM 600/pax</td><td>Sumber: Flight Recommendation ARBA - tiada dalam katalog</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Penerbangan terus, masa terbang lebih kurang 1 jam. Waktu Medan (WIB) 1 jam di belakang waktu Malaysia. Batik Air dan Malaysia Airlines turut menerbangkan laluan ini. Tiket penerbangan tidak termasuk dalam pakej; ARBA boleh uruskan tempahan. Waktu penerbangan pergi mengikut Flight Recommendation; waktu leg balik mengikut jadual semasa AirAsia. Kerana AK 392 tidak beroperasi hari Isnin, elak susun tarikh balik pada hari Isnin atau guna airline lain.</p>\n</div>\n<div class=\"custblk\">\n  <h3>Lapangan Terbang &amp; Transfer</h3>\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody>\n    <tr><td class=\"it\">Lapangan terbang</td><td>Kualanamu International Airport (KNO), lebih kurang 39 km dari bandar Medan</td></tr>\n    <tr><td class=\"it\">Sambutan</td><td>Team tempatan menunggu di hadapan arrival gate dengan papan tanda ARBA Travel</td></tr>\n    <tr><td class=\"it\">KNO ke Parapat</td><td>Lebih kurang 5 jam pemanduan. Cadangan tiba waktu tengah hari</td></tr>\n    <tr><td class=\"it\">Surau di KNO</td><td>Ada surau di terminal keberangkatan dan ketibaan</td></tr>\n  </tbody></table>\n</div>",
+   "freegift": "<h2>Free Gift (Promo)</h2>\n<details class=\"qa\">\n <summary><span class=\"tw\">▶</span><span>Free Gift untuk campaign atau Promo?</span></summary>\n <div class=\"ans\">\n   <p><strong>Medan-Lake-Toba:</strong> Free Upgrade to 4 Star Hotel at Berastagi (1 night) <span style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FLTOB2</span> (All pax)</p>\n   <p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p>\n   <p style=\"color:var(--greend)\">*Bullet wajib tanya PO/Leader</p>\n   <p style=\"color:var(--greend)\"><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p>\n </div>\n</details>",
+   "transport": "<h2>Transportation & Guide</h2>\n<p class=\"ssub\" style=\"margin:0 0 10px\">Pengangkutan persendirian, asas 12 jam sehari. Driving guide (Melayu/Inggeris). ARBA tidak menyarankan bas — beberapa attraction terpaksa di-skip jika naik bas.</p>\n<div class=\"custblk\">\n  <table class=\"ctbl\"><thead><tr><th>Bilangan Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">1–4 pax</td><td>Toyota Avanza</td><td>Driver + driving guide</td></tr>\n    <tr><td class=\"it\">5 pax</td><td>Toyota Innova</td><td>Driver + driving guide</td></tr>\n    <tr><td class=\"it\">6 pax ke atas</td><td>Toyota Hiace / van</td><td>Driver + driving guide</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Tiada wakil ARBA dari Malaysia mengiringi. Team ARBA menyambut di hadapan arrival gate Kualanamu (KNO) dengan papan tanda ARBA Travel.</p>\n</div>",
+   "stay": "<h2>Accommodation</h2>\n<p class=\"ssub\">Menginap di 3 lokasi berbeza sepanjang trip: Parapat (tepi Danau Toba), Berastagi (tanah tinggi, sejuk waktu malam) dan Medan (bandar). Bilik twin atau triple sharing mengikut bilangan pax, sarapan hotel disediakan. Susunan hotel akhir disahkan 14 hari sebelum trip.</p>\n<div class=\"custblk\">\n  <table class=\"ctbl\"><thead><tr><th>Malam</th><th>Lokasi</th><th>Nota muslim-friendly</th></tr></thead><tbody>\n    <tr><td class=\"it\">Malam 1</td><td>Parapat (Option A) atau Pulau Samosir (Option B)</td><td>Sejadah disediakan atas permintaan. Arah kiblat boleh minta dari kaunter hotel</td></tr>\n    <tr><td class=\"it\">Malam 2</td><td>Berastagi</td><td>Masjid dan surau ada di pekan Berastagi</td></tr>\n    <tr><td class=\"it\">Malam 3</td><td>Medan</td><td>Banyak masjid berdekatan, termasuk Masjid Raya Al-Mashun</td></tr>\n  </tbody></table>\n</div>",
+   "map": "<h2>Travel Map</h2>\n<p class=\"ssub\" style=\"margin:0 0 10px\">Laluan rasmi PT Medan-Danau Toba 4H3M. Guna semasa brief customer.</p>\n<div style=\"max-width:470px;margin:0 auto\">\n  <div style=\"font-size:12.5px;font-weight:800;text-align:center;margin:0 0 8px\">PT Medan-Danau Toba 4H3M - Travel Map</div>\n  <img src=\"@asset:e5b8ccf18bb9\" alt=\"Travel Map PT Medan-Danau Toba 4H3M\" style=\"width:100%;display:block;border-radius:12px;border:1px solid var(--line)\">\n  <p class=\"custnote\" style=\"text-align:center;margin-top:8px\">Option A: Kualanamu (KNO) ke Parapat lebih kurang 3 jam 30 minit, feri ke Pulau Samosir, naik ke Berastagi melalui Simarjarunjung dan Sipiso-Piso lebih kurang 1 jam, Berastagi ke Medan lebih kurang 2 jam. Option B: KNO terus ke Pulau Samosir melalui Aek Manik Sidamanik dan Kebun Teh Bah Butong.</p>\n</div>"
+  },
+  "snapshot": "# PT Medan–Danau Toba — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Pakej Private Tour 4D3N — Option A (Standard) & Option B (+RM50, laluan Samosir/Holbung). Sah untuk perjalanan hingga 31 Januari 2027.*\n\n- Harga sah 24 jam selepas quotation dihantar.\n- Harga untuk 2–3 orang sebilik (twin/triple sharing).\n- Single Supplement: tambahan RM250/pax untuk bilik single (3 malam).\n- Late Booking Surcharge RM50/booking untuk tempahan kurang 45 hari sebelum berlepas.\n- Driver & guide asas 12 jam sehari; extra hour 150,000 IDR/jam (bayaran tunai di Medan).\n- Itinerari, harga & jadual flight tertakluk kepada perubahan.\n- Itinerari akhir & susunan hotel disahkan 14 hari sebelum trip.\n- Menginap di 3 lokasi berbeza: Parapat, Berastagi & Medan.\n- Long haul: KNO ke Parapat ~5 jam kereta; jangkakan trafik sesak.\n- Trek Air Terjun Sipiso-Piso agak mencabar — pakai kasut bersesuaian.\n- Cadangan tiba & pulang waktu tengah hari; late arrival / early departure tiada refund untuk aktiviti & makan.\n- Pilih satu option (A atau B) — laluan sama digunakan sepanjang itinerari.\n- Peak season katalog: 25 Dis 2025–5 Jan 2026, 15–31 Mac 2026, 25 Jun–12 Jul 2026, 25 Dis 2026–5 Jan 2027 — RM30/pax/malam (3 bintang), RM40/pax/malam (4 bintang).\n- Deposit RM250 per pax semasa pengesahan; bayaran penuh 45 hari sebelum berlepas.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej ni berapa hari?**\n4 hari 3 malam (4D3N), Private Tour.\n\n**Apa beza Option A dan Option B?**\nOption A ialah laluan standard (Parapat dahulu → Samosir → Berastagi → Medan). Option B (+RM50/pax) fokus alam semula jadi: terus ke Pulau Samosir, Bukit Holbung, Mount Pusuk Buhit, Air Terjun Efrata & Bukit Burung. Pilih satu sahaja — laluan yang sama digunakan sepanjang trip.\n\n**Pakej ni dah all-in termasuk makan & flight ke?**\nMakan penuh (3B/3L/3D) SUDAH termasuk. Tiket flight TIDAK termasuk — boleh minta ARBA belikan.\n\n**Berapa tempat menarik yang dilawati?**\nDanau Toba & Pulau Samosir (Tomok), Air Terjun Sipiso-Piso, Berastagi, dan bandar Medan (Masjid Raya Al-Mashun, Istana Maimoon, shopping). Option B tambah Bukit Holbung, Pusuk Buhit & Efrata.\n\n**Ada wakil ARBA dari Malaysia ikut sepanjang trip?**\nTiada. Team ARBA (driver/guide tempatan) menyambut di hadapan arrival gate Kualanamu (KNO) dengan papan tanda ARBA Travel.\n\n**Minimum & maksimum berapa pax?**\nMinimum 2 pax to go. Tiada maksimum untuk Private Tour — boleh sehingga ratusan pax dalam satu group.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat tak di sana?**\nYa. Makanan sepanjang trip ialah masakan tempatan Indonesia yang halal (3 kali sehari: sarapan, tengah hari, malam). Guide mengatur restoran halal.\n\n**Makan berapa kali sehari?**\n3 kali sehari — breakfast, lunch & dinner (kecuali hari terakhir: sarapan sahaja).\n\n**Senang tak nak solat sepanjang trip?**\nMedan & Berastagi ada banyak masjid/surau. Masjid Raya Al-Mashun (Medan) adalah antara tempat solat dalam itinerari. Di kawasan Danau Toba/Samosir surau lebih terhad — bawa sejadah, guide boleh atur waktu & tempat berhenti solat (boleh jamak/qasar).\n\n**Ada surau di tempat attraction seperti Sipiso-Piso & Bukit Holbung?**\nKawasan outdoor ini tiada surau. Solat biasanya di hotel atau masjid berdekatan sebelum/selepas lawatan.\n\n**Perlu bawa telekung sendiri?**\nYa, digalakkan bawa sejadah & telekung sendiri untuk kemudahan solat sepanjang perjalanan.\n\n### C. Visa & Passport\n\n**Rakyat Malaysia perlu visa ke Medan/Indonesia?**\nTidak. Rakyat Malaysia bebas visa ke Indonesia untuk lawatan sehingga 30 hari (perjanjian ASEAN) — tiada permohonan diperlukan.\n\n**Passport kena valid berapa lama?**\nSekurang-kurangnya 6 bulan dari tarikh berlepas, dengan sekurang-kurangnya 1 muka surat kosong. Imigresen mungkin minta tiket pulang & alamat hotel.\n\n**Perlu isi arrival card Indonesia?**\nYa. Semua penumpang yang tiba di Indonesia perlu hantar All Indonesia Arrival Card secara dalam talian di allindonesia.imigrasi.go.id. Isi dalam tempoh 3 hari (72 jam) sebelum tiba — lebih awal daripada itu akan ditolak. Percuma di portal rasmi; simpan QR code untuk ditunjuk di imigresen.\n\n### D. Flight & Airport\n\n**Flight sudah termasuk dalam pakej ke?**\nBelum termasuk. Nak ARBA belikan pun boleh.\n\n**Anggaran harga tiket flight KUL–Medan?**\nAnggaran RM400–RM600 pergi-balik per pax untuk AirAsia (sumber: Flight Recommendation ARBA). Harga bergerak ikut musim & tarikh tempahan.\n\n**Berapa lama flight & masuk lapangan terbang mana?**\nKUL–Medan (Kualanamu, KNO) lebih kurang 1 jam terus. Cadangan pergi-balik: **AK 391** berlepas KUL 10:30 tiba KNO 10:30 WIB (setiap hari); balik **AK 392** berlepas KNO 17:50 WIB tiba KUL 19:55 (Selasa hingga Ahad — tiada penerbangan hari Isnin). Batik Air & Malaysia Airlines turut menerbangkan laluan ini. KNO ialah lapangan terbang utama Medan.\n\n**Berapa lama dari airport ke Parapat/Danau Toba?**\n~5 jam pemanduan (long haul). Cadangan tiba waktu tengah hari.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\nHotel 3★ setaraf: Parapat (Atsari), Berastagi (Uluna), Medan (MBS); Samosir (Samosir Villa) untuk Option B. Naik taraf 4★ +RM100/pax/malam: Niagara (Parapat), Sibayak International (Berastagi), Emerald (Medan).\n\n**Duduk hotel atau apartment?**\nHotel 3 bintang yang selesa, termasuk sarapan buffet.\n\n**Bilik macam mana?**\nTwin/triple sharing ikut jumlah ahli. Berdua = twin; bertiga = triple. Lebih 3 orang = 2 bilik atau lebih (masih konsep twin/triple). Kami tidak gabungkan group berbeza dalam satu bilik kecuali atas permintaan.\n\n**Berapa single supplement kalau nak bilik sorang?**\nSekitar RM250 untuk 3 malam (bergantung hotel).\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik ke Danau Toba/Medan?**\nMusim kering Mei–September; pertengahan Jun–Julai paling kering (juga peak season, tempah awal). Nov–Mac lebih hujan tapi tetap boleh dilawat.\n\n**Suhu di sana macam mana?**\nMedan tropika (~18°C–29°C). Danau Toba & Berastagi lebih sejuk kerana ketinggian (sekitar 22°C–30°C waktu siang, sejuk waktu malam) — bawa jaket.\n\n### G. Shopping & Duit\n\n**Beli apa di Medan?**\nTelekung, baju, kain, handbag di Pasar Ikan/Plaza Medan & outlet batik; buah tangan seperti bika ambon, bolu Meranti & kopi.\n\n**Cadangan cash untuk dibawa?**\nSekitar RM1,000–RM1,500 per pax (setengah tripdoc cadang RM1,500–RM3,000 untuk shopping berat).\n\n**Bayar guna card atau cash?**\nKedai kecil: cash. Pusat membeli-belah besar: boleh guna card. Tukar duit secukupnya di Malaysia — rate money changer di Medan mungkin kurang menarik.\n\n### H. Payment & Refund\n\n**Berapa deposit untuk book?**\nRM250 per pax semasa pengesahan.\n\n**Bila kena settle full payment?**\n45 hari sebelum tarikh berlepas.\n\n**Boleh bayar ansuran?**\nBoleh — deposit RM250 dahulu, kemudian ansuran sehingga bayaran penuh 45 hari sebelum trip.\n\n### I. Add-ons & Customisation\n\n**Ada add-on aktiviti?**\nOption B (+RM50/pax) untuk laluan Samosir/Holbung; Drone Shooting RM47/pax (Option B sahaja) merangkumi dron, juruterbang, raw & edited footage sepanjang trip.\n\n**Ada insurans perjalanan?**\nBoleh tambah TripCare 360 Takaful (Etiqa, Area 2): Individual dari RM64, Couple dari RM113, Family dari RM143.50, Senior dari RM185.50 (ikut tempoh). Luggage tracker dari RM20.\n\n**Boleh guna lebih lama dari 12 jam sehari?**\nBoleh — extra hour driver & guide 150,000 IDR/jam, bayaran tunai di Medan.\n\n**Boleh add-on aktiviti berkuda atau gajah?**\nBerkuda ada di Berastagi dan boleh ditambah sebagai add-on. Aktiviti gajah tiada dalam pakej ini — gajah di destinasi lain.\n\n### J. Kesihatan & Keselamatan\n\n**Sesuai untuk warga emas & OKU (wheelchair)?**\nBoleh. Jalan di Medan sesuai untuk wheelchair & naik private van. Warga emas/OKU tidak digalakkan buat aktiviti lasak (cth trek Sipiso-Piso).\n\n**Ada aktiviti lasak yang perlu diberi perhatian?**\nTrek turun ke dasar Sipiso-Piso agak mencabar; Bukit Holbung/Pusuk Buhit (Option B) melibatkan pendakian ringan. Pakai kasut bertapak baik.\n\n**Pakej ni ada hiking atau aktiviti kurang sesuai untuk warga emas & kanak-kanak?**\nSecara keseluruhan okay untuk warga emas & kanak-kanak. Cuma di kawasan Danau Toba banyak berjalan kaki — sediakan kasut selesa dan beritahu guide awal jika perlu rehat lebih kerap.\n\n### K. Praktikal (Pengangkutan, Tipping, Laundry)\n\n**Naik kereta apa?**\n1–4 pax: Avanza · 5 pax: Innova · 6 pax ke atas: Hiace/van. ARBA tidak sarankan bas (ada attraction terpaksa di-skip).\n\n**Perlu bayar tipping pada guide & driver?**\nTidak. Tipping SUDAH termasuk dalam pakej ARBA (berbeza dengan sesetengah pakej lain yang belum termasuk).\n\n**Ada servis laundry?**\nLaundry tidak termasuk dalam pakej; boleh guna servis hotel (bayaran sendiri).\n\n### L. Packing\n\n**Sesuai untuk anak kecil?**\nYa, itinerari-wise tiada masalah untuk anak kecil.\n\n**Apa perlu bawa?**\nPassport (sah 6 bulan), pakaian mengikut hari & aktiviti, sejadah/telekung, jaket (Berastagi/Toba sejuk), kasut bertapak baik untuk trek, adapter/plug antarabangsa, powerbank, ubat peribadi, dan cash poket."
+ },
+ "calc": {
+  "dest": "MEDAN - LAKE TOBA",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;5)"
+  },
+  "infantNote": "Bawah 2 tahun FOC",
+  "singleNote": "+RM 250 setiap satu (sepanjang 3 malam)",
+  "intro": "Isi pax dan tarikh &mdash; peak season RM 30/pax/malam (hotel 3&#9733;) dan late booking RM 50/booking dikira sendiri. <b>Option B</b> (laluan Samosir/Holbung, +RM 50/pax) ialah varian pakej berasingan &mdash; pilih dari dropdown pakej, bukan add-on. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Upgrade hotel 4&#9733; &mdash; malam PEAK</i> supaya surcaj peak 4&#9733; RM 40/pax/malam dikira betul (RM 30 auto + RM 10 beza). Kadar hari tambahan &amp; malam tambahan <b>belum tersiar</b> dalam katalog atau rate card, jadi ia papar <i>kadar?</i> sehingga diisi dalam calc-config.json.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "peak": {
+   "mode": "perNight",
+   "value": 30,
+   "windows": [
+    [
+     "2025-12-25",
+     "2026-01-05"
+    ],
+    [
+     "2026-03-15",
+     "2026-03-31"
+    ],
+    [
+     "2026-06-25",
+     "2026-07-12"
+    ],
+    [
+     "2026-12-25",
+     "2027-01-05"
+    ]
+   ]
+  },
+  "extraSurcharge": [
+   {
+    "label": "Travel date surcharge 8&ndash;15 Mac 2027",
+    "dateIn": [
+     "2027-03-08",
+     "2027-03-15"
+    ],
+    "perPax": 90
+   }
+  ],
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3&#9733; (malam dalam pakej)",
+    "cost": "incl",
+    "hotel": "3-Star Hotel"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade hotel 4&#9733; &mdash; malam BUKAN peak",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "4-Star hotel upgrade - Niagara Parapat, Sibayak International Berastagi and Emerald Garden Medan or similar ({days})"
+   },
+   {
+    "v": "up4pk",
+    "t": "Upgrade hotel 4&#9733; &mdash; malam PEAK (termasuk beza surcaj peak 4&#9733;)",
+    "cost": "incl",
+    "perPaxRate": "up4pk",
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade (peak season night)",
+    "incl": "4-Star hotel upgrade - Niagara Parapat, Sibayak International Berastagi and Emerald Garden Medan or similar ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan hotel 3&#9733;",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "no3",
+    "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (dalam pakej)",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast (pakej) &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast (pakej) &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast (pakej), Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch sahaja",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner (hari ketibaan)",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private Transportation and Driving Guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Private Airport Transfer KNO (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Private Airport Transfer",
+    "incl": "Private Airport Transfer at Kualanamu International Airport KNO ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation and driving guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "mday",
+    "t": "Sambungan tour berbilang hari (kos sudah dikira pada hari pertama)",
+    "cost": "zero",
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Multi-day tour private transportation and driving guide ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport &amp; guide dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport and driving guide deducted)"
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "t": "Hari tambahan - pilih blok hari di bawah",
+    "en": "ADDITIONAL DAY",
+    "g": "Umum",
+    "region": "",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Additional day - itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fe",
+    "t": "Free & Easy - tolak transport & guide dari katalog",
+    "en": "FREE & EASY",
+    "g": "Umum",
+    "region": "",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "feded",
+    "act": [
+     "Free & easy tanpa transport atau driving guide"
+    ],
+    "eact": [
+     "Free and easy - no transport or driving guide"
+    ]
+   },
+   {
+    "v": "aSam",
+    "t": "Pulau Samosir, Simarjarunjung & Sipiso-Piso (Option A)",
+    "en": "SAMOSIR ISLAND & SIPISO PISO WATERFALL",
+    "g": "Blok hari - Option A",
+    "region": "[Samosir]",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Feri menyeberang ke Pulau Samosir",
+     "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
+     "Puncak Simarjarunjung",
+     "Air Terjun Sipiso-Piso",
+     "Pasar Buah Berastagi"
+    ],
+    "eact": [
+     "Ferry ride to Samosir Island",
+     "Tomok Village (King Sidabutar Museum, Sigale-gale dance)",
+     "Simarjarunjung Hill",
+     "Sipiso Piso Waterfall",
+     "Berastagi Central Fruit Market"
+    ]
+   },
+   {
+    "v": "aMdn",
+    "t": "Medan city, Istana Maimoon & shopping (Option A)",
+    "en": "MEDAN CITY & SHOPPING",
+    "g": "Blok hari - Option A",
+    "region": "[Medan]",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
+     "Istana Maimoon (Kesultanan Deli)",
+     "Masjid Raya Al-Mashun 1906",
+     "Outlet batik & produk tempatan",
+     "Pasar Ikan / Plaza Medan"
+    ],
+    "eact": [
+     "Shwedagon Pagoda Replica at Taman Alam Lumbini",
+     "Maimoon Palace (Deli Sultanate)",
+     "Masjid Raya Al-Mashun 1906",
+     "Batik and local product outlets",
+     "Pasar Ikan / Plaza Medan"
+    ]
+   },
+   {
+    "v": "bHol",
+    "t": "Bukit Holbung, Pusuk Buhit & Air Terjun Efrata (Option B)",
+    "en": "BUKIT HOLBUNG & PUSUK BUHIT",
+    "g": "Blok hari - Option B",
+    "region": "[Samosir]",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Mount Pusuk Buhit",
+     "Bukit Holbung (Little Teletubbies)",
+     "Air Terjun Efrata",
+     "Bukit Burung"
+    ],
+    "eact": [
+     "Mount Pusuk Buhit",
+     "Bukit Holbung (Little Teletubbies)",
+     "Efrata Waterfall",
+     "Bukit Burung"
+    ]
+   },
+   {
+    "v": "bSin",
+    "t": "Kaki Gunung Sinabung & Danau Lau Kawar (Option B)",
+    "en": "MOUNT SINABUNG & LAU KAWAR LAKE",
+    "g": "Blok hari - Option B",
+    "region": "[Berastagi]",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Kaki Gunung Sinabung",
+     "Danau Lau Kawar",
+     "Pasar Buah Berastagi"
+    ],
+    "eact": [
+     "Mount Sinabung foothills",
+     "Lau Kawar Lake",
+     "Berastagi Central Fruit Market"
+    ]
+   },
+   {
+    "v": "bTea",
+    "t": "Aek Manik Sidamanik & Kebun Teh Bah Butong (Option B)",
+    "en": "AEK MANIK & BAH BUTONG TEA PLANTATION",
+    "g": "Blok hari - Option B",
+    "region": "[Parapat]",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Kolam Aek Manik Sidamanik",
+     "Kebun Teh Bah Butong"
+    ],
+    "eact": [
+     "Aek Manik Pool, Sidamanik",
+     "Bah Butong Tea Plantation"
+    ]
+   },
+   {
+    "v": "arr",
+    "t": "Airport transfer ketibaan KNO sahaja",
+    "en": "ARRIVAL TRANSFER",
+    "g": "Transfer",
+    "region": "[Airport]",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Sambut di Lapangan Terbang Kualanamu (KNO)",
+     "Pemindahan ke hotel"
+    ],
+    "eact": [
+     "Arrival at Kualanamu International Airport (KNO)",
+     "Transfer to hotel"
+    ]
+   },
+   {
+    "v": "dep",
+    "t": "Airport transfer berlepas KNO sahaja",
+    "en": "DEPARTURE TRANSFER",
+    "g": "Transfer",
+    "region": "[Airport]",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "act": [
+     "Sarapan & daftar keluar",
+     "Pemindahan ke Lapangan Terbang Kualanamu (KNO)"
+    ],
+    "eact": [
+     "Breakfast at hotel",
+     "Hotel check out",
+     "Airport transfer to Kualanamu (KNO)"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Drone Shooting (Option B sahaja) - dron, juruterbang, raw + edited footage, sepanjang trip",
+    47,
+    47,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 1,
+    "to": 4,
+    "text": "1&ndash;4 pax: Toyota Avanza (driver + driving guide)."
+   },
+   {
+    "from": 5,
+    "to": 5,
+    "text": "5 pax: Toyota Innova (driver + driving guide)."
+   },
+   {
+    "from": 6,
+    "to": 19,
+    "text": "6 pax ke atas: Toyota Hiace / van (driver + driving guide). ARBA tidak menyarankan bas &mdash; beberapa attraction terpaksa di-skip."
+   },
+   {
+    "from": 20,
+    "to": 99999,
+    "text": "20 pax ke atas: <b>melebihi tier katalog</b> (tertinggi 10&ndash;19 pax). Kalkulator kekal guna tier 10&ndash;19 &mdash; minta sebut harga operasi."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to hotel and room availability as no space has been secured. Prices are quoted for 2 to 3 persons per room; single supplement is RM 250 per person. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Private driver and driving guide are on a 12 hours basis per day; 150,000 IDR per hour is charged for every extra hour and must be paid in cash in Medan. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed 14 days before the trip. Suggested arrival and departure times are at noon; late arrivals or early departures will not be refunded for activities and meals. This package is valid for travel until 31 January 2027. Ground arrangement and tipping only - flight tickets are not included.",
+  "variants": [
+   {
+    "id": "optiona",
+    "name": "PT Medan&ndash;Danau Toba 4D3N &middot; Option A (Parapat dahulu)",
+    "pkgLabel": "Private Tour Medan - Lake Toba Option A",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1357,
+      "c": 1157,
+      "n": 1057
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 1197,
+      "c": 1097,
+      "n": 997
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 1157,
+      "c": 1057,
+      "n": 957
+     },
+     {
+      "from": 7,
+      "to": 9,
+      "a": 1107,
+      "c": 1007,
+      "n": 907
+     },
+     {
+      "from": 10,
+      "to": 19,
+      "a": 1097,
+      "c": 997,
+      "n": 897
+     }
+    ],
+    "infant": 0,
+    "single": 250,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Kualanamu (KNO) - Parapat / Danau Toba",
+      "en": "KUALA LUMPUR - PARAPAT (LAKE TOBA)",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Parapat]",
+      "act": [
+       "Sambut di Lapangan Terbang Kualanamu (KNO)",
+       "Perjalanan ke Parapat, Danau Toba (lebih kurang 5 jam)",
+       "Daftar masuk hotel di Parapat"
+      ],
+      "eact": [
+       "Arrival at Kualanamu International Airport (KNO)",
+       "Transfer to Parapat, Lake Toba (approximately 5 hours)",
+       "Hotel check in at Parapat"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Parapat - Pulau Samosir - Berastagi",
+      "en": "PARAPAT - SAMOSIR ISLAND - BERASTAGI",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Samosir]",
+      "act": [
+       "Feri menyeberang ke Pulau Samosir",
+       "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
+       "Puncak Simarjarunjung",
+       "Air Terjun Sipiso-Piso",
+       "Pasar Buah Berastagi",
+       "Daftar masuk hotel di Berastagi"
+      ],
+      "eact": [
+       "Ferry ride to Samosir Island",
+       "Tomok Village (King Sidabutar Museum, Sigale-gale dance)",
+       "Simarjarunjung Hill",
+       "Sipiso Piso Waterfall",
+       "Berastagi Central Fruit Market",
+       "Hotel check in at Berastagi"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Berastagi - Medan",
+      "en": "BERASTAGI - MEDAN",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Medan]",
+      "act": [
+       "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
+       "Istana Maimoon (Kesultanan Deli, 1888)",
+       "Masjid Raya Al-Mashun 1906",
+       "Outlet batik & produk tempatan",
+       "Pasar Ikan / Plaza Medan (shopping telekung, baju, handbag)",
+       "Daftar masuk hotel di Medan"
+      ],
+      "eact": [
+       "Shwedagon Pagoda Replica at Taman Alam Lumbini",
+       "Maimoon Palace (Deli Sultanate, 1888)",
+       "Masjid Raya Al-Mashun 1906",
+       "Batik and local product outlets",
+       "Pasar Ikan / Plaza Medan shopping",
+       "Hotel check in at Medan"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Medan - Kualanamu (KNO) - KUL",
+      "en": "MEDAN - KUALA LUMPUR",
+      "acc": "none",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Medan]",
+      "act": [
+       "Sarapan & daftar keluar hotel",
+       "Free & easy (shopping buah tangan)",
+       "Pemindahan ke Lapangan Terbang Kualanamu (KNO) untuk penerbangan pulang"
+      ],
+      "eact": [
+       "Breakfast at hotel",
+       "Hotel check out",
+       "Free and easy shopping",
+       "Airport transfer to Kualanamu International Airport (KNO)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel - Atsari Hotel Parapat, Uluna Hotel Berastagi and MBS Hotel Medan or similar, 2 to 3 persons per room",
+     "{auto}",
+     "Ferry ride to Samosir Island (sharing)",
+     "Entrance fees based on itinerary",
+     "Full meals as per itinerary - local halal cuisine",
+     "Tipping fee for driver and driving guide"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Baggage, in-flight meal and airport tax",
+     "Additional tours and meals",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, payable in cash in Medan"
+    ],
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 19,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": null
+        },
+        {
+         "from": 5,
+         "to": 5,
+         "normal": null
+        },
+        {
+         "from": 6,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": null
+        },
+        {
+         "from": 5,
+         "to": 5,
+         "normal": null
+        },
+        {
+         "from": 6,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": 100
+        }
+       ]
+      },
+      "up4pk": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": 110
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "id": "optionb",
+    "name": "PT Medan&ndash;Danau Toba 4D3N &middot; Option B (Samosir / Holbung) +RM 50/pax",
+    "pkgLabel": "Private Tour Medan - Lake Toba Option B",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1407,
+      "c": 1207,
+      "n": 1107
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 1247,
+      "c": 1147,
+      "n": 1047
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 1207,
+      "c": 1107,
+      "n": 1007
+     },
+     {
+      "from": 7,
+      "to": 9,
+      "a": 1157,
+      "c": 1057,
+      "n": 957
+     },
+     {
+      "from": 10,
+      "to": 19,
+      "a": 1147,
+      "c": 1047,
+      "n": 947
+     }
+    ],
+    "infant": 0,
+    "single": 250,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Kualanamu (KNO) - Pulau Samosir",
+      "en": "KUALA LUMPUR - SAMOSIR ISLAND",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Samosir]",
+      "act": [
+       "Sambut di Lapangan Terbang Kualanamu (KNO)",
+       "Kolam Aek Manik Sidamanik",
+       "Kebun Teh Bah Butong",
+       "Menyeberang ke Pulau Samosir via feri",
+       "Daftar masuk hotel di Pulau Samosir"
+      ],
+      "eact": [
+       "Arrival at Kualanamu International Airport (KNO)",
+       "Aek Manik Pool, Sidamanik",
+       "Bah Butong Tea Plantation",
+       "Ferry ride to Samosir Island",
+       "Hotel check in at Samosir Island"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Pulau Samosir - Berastagi",
+      "en": "SAMOSIR ISLAND - BERASTAGI",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Samosir]",
+      "act": [
+       "Mount Pusuk Buhit",
+       "Bukit Holbung (Little Teletubbies)",
+       "Air Terjun Efrata",
+       "Bukit Burung",
+       "Perjalanan ke Berastagi",
+       "Air Terjun Sipiso-Piso",
+       "Daftar masuk hotel di Berastagi"
+      ],
+      "eact": [
+       "Mount Pusuk Buhit",
+       "Bukit Holbung (Little Teletubbies)",
+       "Efrata Waterfall",
+       "Bukit Burung",
+       "Transfer to Berastagi",
+       "Sipiso Piso Waterfall",
+       "Hotel check in at Berastagi"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Berastagi - Medan",
+      "en": "BERASTAGI - MEDAN",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Berastagi]",
+      "act": [
+       "Kaki Gunung Sinabung",
+       "Danau Lau Kawar",
+       "Pasar Buah Berastagi",
+       "Perjalanan ke Medan",
+       "Daftar masuk hotel di Medan"
+      ],
+      "eact": [
+       "Mount Sinabung foothills",
+       "Lau Kawar Lake",
+       "Berastagi Central Fruit Market",
+       "Transfer to Medan",
+       "Hotel check in at Medan"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Medan - Kualanamu (KNO) - KUL",
+      "en": "MEDAN - KUALA LUMPUR",
+      "acc": "none",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Medan]",
+      "act": [
+       "Sarapan & daftar keluar hotel",
+       "Free & easy (shopping buah tangan)",
+       "Pemindahan ke Lapangan Terbang Kualanamu (KNO) untuk penerbangan pulang"
+      ],
+      "eact": [
+       "Breakfast at hotel",
+       "Hotel check out",
+       "Free and easy shopping",
+       "Airport transfer to Kualanamu International Airport (KNO)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel - Samosir Villa Resort, Uluna Hotel Berastagi and MBS Hotel Medan or similar, 2 to 3 persons per room",
+     "{auto}",
+     "Ferry ride to Samosir Island (sharing)",
+     "Entrance fees based on itinerary",
+     "Full meals as per itinerary - local halal cuisine",
+     "Tipping fee for driver and driving guide"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Baggage, in-flight meal and airport tax",
+     "Additional tours and meals",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, payable in cash in Medan"
+    ],
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 19,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": null
+        },
+        {
+         "from": 5,
+         "to": 5,
+         "normal": null
+        },
+        {
+         "from": 6,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": null
+        },
+        {
+         "from": 5,
+         "to": 5,
+         "normal": null
+        },
+        {
+         "from": 6,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": 100
+        }
+       ]
+      },
+      "up4pk": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": 110
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 19,
+         "normal": null
+        }
+       ]
+      }
+     }
+    }
+   }
+  ]
+ }
+}

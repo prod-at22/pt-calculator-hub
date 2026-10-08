@@ -1,0 +1,1925 @@
+{
+ "slug": "yunnan",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Yunnan — Knowledge Base",
+   "brandTag": "Yunnan KB",
+   "kicker": "ARBA YUNNAN · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Private Tour Yunnan — halal, makanan, flight, hotel, high altitude & tips. Kunming · Dali · Lijiang · Shangri La.",
+   "searchPlaceholder": "cth: flight balik dari Kunming? · ubat high altitude? · makanan apa? · book hotel sendiri?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Yunnan…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Yunnan",
+   "statusText": "Paparan snapshot — sumber: katalog PT Yunnan 3W 6D5N & 4W 7D6N (v1, 29 Jul 2026), Product Cheatsheet 2026, rate card & FAQs TL Online / CX Channel China. Simple Calculator ditambah 3 Sep 2026",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada katalog baharu (v1, 29 Jul 2026), selling kit, rate card, tripdoc & FAQs TL Online / CX Channel China. Fakta flight & visa disemak Julai 2026. Tab <b>Simple Calculator</b> dikemas kini 3 September 2026.<br>Harga, itinerari & jadual flight boleh berubah; sahkan dengan operator/consultant sebelum sahkan kepada customer. Requirement muslim-friendly (halal, surau/masjid) adalah baseline setiap pakej. Maklumat perubatan (Diamox/oksigen) bukan nasihat perubatan — guest wajib rujuk doktor.",
+   "marketing": {
+    "anchors": [
+     "Jade Dragon Snow Mountain 4,506m",
+     "Bullet train 2x (2nd class)",
+     "Fullboard halal + lawatan masjid"
+    ],
+    "usp": "USP ARBA: 2x bullet train (Kunming–Dali, Shangri La–Kunming), lebih lama di Dali Santorini & Erhai Lake boat tour, tipping included, TIADA shopping stops / tourist traps, guide English speaking & makan fullboard halal.",
+    "season": [
+     [
+      "Mac–Mei (Spring)",
+      "Cuaca paling selesa 15–25°C, bunga mekar, kurang hujan — musim terbaik."
+     ],
+     [
+      "Sep–Nov (Autumn)",
+      "Sejuk nyaman 10–25°C, langit cerah; awal Oktober elak Golden Week (sesak + surcharge)."
+     ],
+     [
+      "Jun–Ogos (Summer)",
+      "Hijau & subur tapi paling ramai + kerap hujan; surcharge cuti sekolah China."
+     ],
+     [
+      "Dis–Feb (Winter)",
+      "Sejuk -4 hingga 15°C; peluang nampak salji di JDSM & Shangri La."
+     ]
+    ],
+    "expect": [
+     "Kawasan altitud tinggi — Kunming 1,895m, Lijiang 2,410m, Shangri La 3,300m, puncak JDSM 4,506m (lebih tinggi dari Gunung Kinabalu). Risiko altitude sickness: bawa ubat (rujuk doktor) & beli oxygen canister di Lijiang.",
+     "Makan fullboard halal gaya sharing (6–8 dishes + nasi + sup per meja) — restoran Muslim Hui di setiap bandar.",
+     "Banyak berjalan & beratur; drop-off point selalunya jauh dari pintu masuk — pakai kasut selesa/water resistant.",
+     "Bullet train 2x + private transport antara bandar; peserta bawa luggage sendiri di stesen (ada coach khas luggage).",
+     "China blok Google/WhatsApp/IG/TikTok — guna pocket wifi (ada VPN) atau roaming Malaysia; JANGAN beli SIM lokal atau guna eSIM tempatan.",
+     "Bawa botol spray untuk wudhu (kebanyakan tandas tiada paip) + telekung/sejadah travel.",
+     "WAJIB book RETURN flight — slot balik dari Kunming hanya petang (~5:55 PM) atau awal pagi (~2:30 AM)."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Yunnan 3 Wilayah (6D5N)",
+    "tag": "Yunnan · 6D5N",
+    "sub": "Kunming – Dali – Lijiang",
+    "emoji": "🏔️",
+    "img": "@asset:8223c134da9c",
+    "intro": "Pakej klasik 6 hari 5 malam meliputi tiga wilayah utama Yunnan: Kunming, Dali dan Lijiang. Bullet train 2x, cable car Jade Dragon Snow Mountain, Erhai Lake boat tour, makan fullboard halal & lawatan masjid. Ground & Tipping — tiket flight tidak termasuk.",
+    "inc": [
+     "5 malam hotel 4-Star (daily breakfast, 2@3 sebilik)",
+     "Private transport (10 jam sehari) + airport transfer",
+     "Bullet train 2nd class (Kunming–Dali, Lijiang–Kunming)",
+     "Halal meals seperti dalam itinerari (fullboard)",
+     "Entrance fees seperti dalam itinerari",
+     "Boat tour Erhai Lake (Dali)",
+     "Cable car Jade Dragon Snow Mountain",
+     "Buggy Dali Santorini & Shilin Stone Forest",
+     "Tipping fee, parking fee",
+     "English speaking tour guide"
+    ],
+    "exc": [
+     "Return flight tickets, luggage, in-flight meal & airport tax",
+     "Private driver & guide melebihi 10 jam (extra hour dikenakan caj, bayar tunai)",
+     "Additional fees / optional tours",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "note": "Harga untuk 2@3 sebilik. Single Supplement +RM600/pax. Late booking (<45 hari) +RM50/booking. Trip tamat Day 6 (Kunming city tour + airport transfer). Flight balik: petang ~5:55 PM Day 6 ATAU awal pagi ~2:30 AM Day 7 — pastikan guest book timing yang betul. Katalog v1, last updated 29 Jul 2026."
+   },
+   {
+    "n": "PT Yunnan 4 Wilayah (7D6N)",
+    "tag": "Yunnan · 7D6N",
+    "sub": "Kunming – Dali – Lijiang – Shangri La",
+    "emoji": "🕌",
+    "img": "@asset:96840801ebfe",
+    "intro": "Pakej flagship 7 hari 6 malam — semua highlight 3 Wilayah PLUS Shangri La: Tiger Leaping Gorge (incl escalator) & Dukezong Ancient Town. Bullet train balik dari Shangri La ke Kunming. Ground & Tipping — tiket flight tidak termasuk.",
+    "inc": [
+     "6 malam hotel 4-Star (daily breakfast, 2@3 sebilik)",
+     "Private transport (10 jam sehari) + airport transfer",
+     "Bullet train 2nd class (Kunming–Dali, Shangri La–Kunming)",
+     "Halal meals seperti dalam itinerari (fullboard)",
+     "Entrance fees seperti dalam itinerari",
+     "Boat tour Erhai Lake (Dali)",
+     "Cable car Jade Dragon Snow Mountain",
+     "Escalator Tiger Leaping Gorge",
+     "Buggy Dali Santorini & Shilin Stone Forest",
+     "Tipping fee, parking fee",
+     "English speaking tour guide"
+    ],
+    "exc": [
+     "Return flight tickets, luggage, in-flight meal & airport tax",
+     "Private driver & guide melebihi 10 jam (extra hour dikenakan caj, bayar tunai)",
+     "Additional fees / optional tours",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "note": "Harga untuk 2@3 sebilik. Single Supplement +RM700/pax. Late booking (<45 hari) +RM50/booking. Trip tamat Day 7 (Kunming city tour + airport transfer). Flight balik: petang ~5:55 PM Day 7 ATAU awal pagi ~2:30 AM Day 8 — pastikan guest book timing yang betul. Katalog v1, last updated 29 Jul 2026."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Kuala Lumpur → Kunming",
+     "m": "-",
+     "a": [
+      "Suggested flight: AirAsia / Batik Air",
+      "Tiba di Kunming Changshui Intl' Airport (KMG)",
+      "Airport pickup & transfer ke hotel Kunming",
+      "Check-in, rehat"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Kunming → Dali [Bullet Train]",
+     "m": "B / L / D",
+     "a": [
+      "Check out, bullet train ke Dali (~2 jam)",
+      "Dali Foreigner Street & Dali Ancient Town",
+      "Dali Santorini (incl return buggy)",
+      "Dinner & check-in hotel Dali"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Dali → Lijiang",
+     "m": "B / L / D",
+     "a": [
+      "Dali Erhai Lake (incl boat tour)",
+      "Transfer ke Lijiang secara private transport (~3 jam)",
+      "Lijiang Ancient City tour (warisan UNESCO)",
+      "Dinner & check-in hotel Lijiang"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Lijiang Tour",
+     "m": "B / Packed L / D",
+     "a": [
+      "Jade Dragon Snow Mountain (cable car ~4,506m)",
+      "Lijiang Impression Show",
+      "Blue Moon Valley & White Water River (incl battery car)",
+      "Dongbaqu (taman budaya warisan Naxi)",
+      "Dry Sea (padang rumput kaki JDSM)",
+      "Lijiang Mosque"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Lijiang → Kunming [Bullet Train]",
+     "m": "B / L / D",
+     "a": [
+      "Black Dragon Pool (tasik latar Snow Mountain)",
+      "Bullet train ke Kunming (~4–4.5 jam)",
+      "Nanping Pedestrian Street (souvenir shopping)",
+      "Shuncheng Mosque (seni bina Cina + Islam)",
+      "Check-in hotel Kunming"
+     ]
+    },
+    {
+     "d": 6,
+     "t": "Kunming City Tour + Airport Transfer",
+     "m": "B / L / D",
+     "a": [
+      "Shilin Stone Forest (UNESCO, incl buggy)",
+      "Kunming Waterfall Park",
+      "Yongning Mosque",
+      "Selepas dinner, transfer ke airport untuk flight awal pagi (~2:30 AM Day 7)",
+      "Nota: guest dengan flight petang (~5:55 PM) transfer selepas lunch — trip tamat Day 6"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Kuala Lumpur → Kunming",
+     "m": "-",
+     "a": [
+      "Suggested flight: AirAsia / Batik Air",
+      "Tiba di Kunming Changshui Intl' Airport (KMG)",
+      "Airport pickup & transfer ke hotel Kunming",
+      "Check-in, rehat"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Kunming → Dali [Bullet Train]",
+     "m": "B / L / D",
+     "a": [
+      "Check out, bullet train ke Dali (~2 jam)",
+      "Dali Foreigner Street & Dali Ancient Town",
+      "Dali Santorini (incl return buggy)",
+      "Dinner & check-in hotel Dali"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Dali → Lijiang",
+     "m": "B / L / D",
+     "a": [
+      "Dali Erhai Lake (incl boat tour)",
+      "Transfer ke Lijiang secara private transport (~3 jam)",
+      "Lijiang Ancient City tour (warisan UNESCO)",
+      "Dinner & check-in hotel Lijiang"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Lijiang Tour",
+     "m": "B / Packed L / D",
+     "a": [
+      "Jade Dragon Snow Mountain (cable car ~4,506m)",
+      "Lijiang Impression Show",
+      "Blue Moon Valley & White Water River (incl battery car)",
+      "Dongbaqu (taman budaya warisan Naxi)",
+      "Dry Sea (padang rumput kaki JDSM)",
+      "Lijiang Mosque"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Lijiang → Shangri La",
+     "m": "B / L / D",
+     "a": [
+      "Black Dragon Pool (tasik latar Snow Mountain)",
+      "Transfer ke Shangri La secara private transport (~2 jam)",
+      "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+      "Dukezong Ancient Town",
+      "Dinner & check-in hotel Shangri La"
+     ]
+    },
+    {
+     "d": 6,
+     "t": "Shangri La → Kunming [Bullet Train]",
+     "m": "B / L / D",
+     "a": [
+      "Bullet train ke Kunming (~5–6 jam)",
+      "Nanping Pedestrian Street (souvenir shopping)",
+      "Shuncheng Mosque (seni bina Cina + Islam)",
+      "Check-in hotel Kunming"
+     ]
+    },
+    {
+     "d": 7,
+     "t": "Kunming City Tour + Airport Transfer",
+     "m": "B / L / D",
+     "a": [
+      "Shilin Stone Forest (UNESCO, incl buggy)",
+      "Kunming Waterfall Park",
+      "Yongning Mosque",
+      "Selepas dinner, transfer ke airport untuk flight awal pagi (~2:35 AM Day 8)",
+      "Nota: guest dengan flight petang (~5:55 PM) transfer selepas lunch — trip tamat Day 7"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Jade Dragon Snow Mountain (JDSM)",
+    "t": "Gunung · Lijiang",
+    "emoji": "🏔️",
+    "img": "@asset:f366ce167d81",
+    "short": "Puncak glasier ~4,506m — lebih tinggi dari Gunung Kinabalu.",
+    "intro": "Gunung salji ikonik Yunnan dengan cable car ke Glacier Park pada ketinggian ~4,506m dari aras laut. Pemandangan puncak berais yang menakjubkan; termasuk dalam kedua-dua pakej.",
+    "hi": [
+     "Scenic cable car ke Glacier Park",
+     "Blue Moon Valley & White Water River",
+     "Dry Sea (padang rumput kaki gunung)"
+    ],
+    "best": "Pagi (langit cerah); cable car mungkin ditutup jika angin kencang atau penyelenggaraan.",
+    "muslim": "Tiada surau di puncak — solat Zohor/Asar boleh dijamak di kaki gunung atau on the road; bawa sejadah travel. Makan tengah hari packed lunch halal disediakan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jade+Dragon+Snow+Mountain+Lijiang"
+   },
+   {
+    "n": "Lijiang Ancient Town",
+    "t": "Bandar Lama · UNESCO",
+    "emoji": "🏮",
+    "img": "@asset:c6cb0c64431e",
+    "short": "Salah satu bandar lama terbaik terpelihara di China.",
+    "intro": "Bandar lama warisan UNESCO dengan lorong batu, terusan air & seni bina Naxi. Suasana klasik untuk berjalan-jalan waktu petang & malam.",
+    "hi": [
+     "Lorong batu & terusan air Naxi",
+     "Kedai souvenir & kraf tempatan",
+     "Suasana malam yang meriah"
+    ],
+    "best": "Lewat petang hingga malam bila lampu dinyalakan.",
+    "muslim": "Ada Lijiang Mosque berdekatan (dilawati dalam itinerari Day 4) untuk solat. Cari gerai makanan halal Muslim Hui; sahkan status halal sebelum makan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lijiang+Ancient+Town"
+   },
+   {
+    "n": "Dali Santorini",
+    "t": "Tarikan · Dali",
+    "emoji": "🤍",
+    "img": "@asset:e46665439c70",
+    "short": "Bangunan putih bergaya Santorini tepi Erhai Lake.",
+    "intro": "Spot foto popular bergaya Mediterranean/Santorini menghadap Erhai Lake. Termasuk return buggy. ARBA luangkan masa lebih lama di sini (USP berbanding pesaing).",
+    "hi": [
+     "Bangunan putih & photo spots",
+     "Pemandangan Erhai Lake",
+     "Return buggy service disediakan"
+    ],
+    "best": "Waktu pagi untuk cahaya lembut & kurang orang.",
+    "muslim": "Tiada surau khusus — rancang solat di hotel Dali. Bawa botol spray untuk wudhu. Makanan halal disediakan oleh tour (fullboard).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dali+Santorini+Yunnan"
+   },
+   {
+    "n": "Erhai Lake",
+    "t": "Tasik · Dali",
+    "emoji": "⛵",
+    "img": "@asset:eba8b35ae520",
+    "short": "Tasik alpine luas dengan boat tour disediakan.",
+    "intro": "Tasik terbesar kedua di Yunnan, dikelilingi gunung. Pakej termasuk boat tour — antara USP ARBA yang membezakan dari pesaing.",
+    "hi": [
+     "Boat tour di atas tasik",
+     "Pemandangan pergunungan",
+     "Suasana tenang & lapang"
+    ],
+    "best": "Pagi hingga tengah hari, cuaca cerah.",
+    "muslim": "Solat di atas bot tidak praktikal — jamak di darat. Bawa sejadah travel. Makan halal ikut jadual tour.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Erhai+Lake+Dali"
+   },
+   {
+    "n": "Tiger Leaping Gorge",
+    "t": "Canyon · Shangri La",
+    "emoji": "🐯",
+    "img": "@asset:6eccdf0ab6a8",
+    "short": "Salah satu canyon terdalam dunia di Sungai Jinsha (4W sahaja).",
+    "intro": "Ngarai spektakular di Sungai Jinsha antara puncak-puncak tinggi. Termasuk escalator (USP ARBA) untuk akses lebih mudah ke tapak tontonan. Hanya dalam pakej 4 Wilayah.",
+    "hi": [
+     "Pemandangan ngarai & air deras",
+     "Escalator ke viewing deck",
+     "Latar pergunungan Shangri La"
+    ],
+    "best": "Tengah hari; berhati-hati kerana altitud tinggi & banyak berjalan.",
+    "muslim": "Tiada surau di tapak — jamak solat di darat/hotel Shangri La. Bawa sejadah. Makanan halal ikut jadual.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tiger+Leaping+Gorge"
+   },
+   {
+    "n": "Shilin Stone Forest",
+    "t": "UNESCO · Kunming",
+    "emoji": "🪨",
+    "img": "@asset:e4f2acef4a8b",
+    "short": "Formasi batu kapur menakjubkan bak 'hutan batu'.",
+    "intro": "Tapak Geopark UNESCO dengan formasi limestone tinggi menyerupai hutan batu. Termasuk buggy service. Dilawati pada hari terakhir sebelum airport transfer.",
+    "hi": [
+     "Formasi batu kapur unik",
+     "Buggy service dalam kawasan",
+     "Spot foto ikonik"
+    ],
+    "best": "Pagi sebelum panas & sesak.",
+    "muslim": "Tiada surau di dalam — jamak solat sebelum/selepas lawatan. Yongning Mosque dilawati pada hari sama. Lunch halal disediakan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shilin+Stone+Forest+Kunming"
+   },
+   {
+    "n": "Shuncheng Mosque",
+    "t": "Masjid · Kunming",
+    "emoji": "🕌",
+    "img": "@asset:0bb6d2087488",
+    "short": "Masjid bersejarah gabungan seni bina Cina & Islam.",
+    "intro": "Masjid bersejarah di Kunming yang menggabungkan seni bina Cina & Islam. Pusat komuniti Muslim Hui dengan gerai & restoran halal di sekitarnya.",
+    "hi": [
+     "Seni bina Cina-Islam",
+     "Kawasan makanan halal Hui berdekatan",
+     "Peluang solat berjemaah"
+    ],
+    "best": "Waktu solat fardhu; dilawati dalam itinerari.",
+    "muslim": "Tempat solat sebenar — surau/ruang solat tersedia. Kawasan sekeliling ada banyak pilihan makanan halal Muslim.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shuncheng+Mosque+Kunming"
+   },
+   {
+    "n": "Dukezong Ancient Town",
+    "t": "Bandar Lama · Shangri La",
+    "emoji": "🏯",
+    "img": "@asset:248845743035",
+    "short": "Bandar lama Tibet di Shangri La (4W sahaja).",
+    "intro": "Bandar lama bergaya Tibet dengan kuil, rumah kayu tradisional & suasana dataran tinggi. Hanya dalam pakej 4 Wilayah.",
+    "hi": [
+     "Seni bina Tibet",
+     "Suasana dataran tinggi",
+     "Berjalan santai waktu petang"
+    ],
+    "best": "Petang; berpakaian panas kerana sejuk & altitud tinggi.",
+    "muslim": "Tiada surau di tapak — solat di hotel Shangri La. Makanan halal ikut jadual tour; pilihan luar terhad, bergantung pada tour.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dukezong+Ancient+Town+Shangri+La"
+   },
+   {
+    "n": "Black Dragon Pool",
+    "t": "Taman · Lijiang",
+    "emoji": "🐉",
+    "img": "@asset:ffeaab3b3cf3",
+    "short": "Tasik indah dengan latar Snow Mountain.",
+    "intro": "Taman & tasik terkenal di Lijiang dengan pantulan Jade Dragon Snow Mountain di permukaan air. Spot foto klasik.",
+    "hi": [
+     "Pantulan Snow Mountain di tasik",
+     "Pavilion & jambatan klasik",
+     "Taman tenang untuk foto"
+    ],
+    "best": "Pagi cerah untuk pantulan gunung terbaik.",
+    "muslim": "Tiada surau — solat di hotel/on the road. Bawa sejadah travel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Black+Dragon+Pool+Lijiang"
+   },
+   {
+    "n": "Blue Moon Valley",
+    "t": "Tarikan · Lijiang",
+    "emoji": "💧",
+    "img": "@asset:e072d1f5c946",
+    "short": "Air biru pirus di kaki Jade Dragon Snow Mountain.",
+    "intro": "Lembah dengan tasik & sungai berwarna biru pirus (White Water River) di kaki JDSM. Termasuk battery car untuk bergerak dalam kawasan.",
+    "hi": [
+     "Air biru pirus",
+     "White Water River",
+     "Battery car disediakan"
+    ],
+    "best": "Tengah hari bila air paling biru.",
+    "muslim": "Tiada surau — jamak solat. Makan packed lunch halal (hari JDSM).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Blue+Moon+Valley+Lijiang"
+   },
+   {
+    "n": "Lijiang Impression Show",
+    "t": "Persembahan · Lijiang",
+    "emoji": "🎭",
+    "img": "@asset:fc0fb28bb00e",
+    "short": "Persembahan budaya luar dengan latar JDSM.",
+    "intro": "Persembahan seni budaya berskala besar arahan Zhang Yimou, dipentaskan di luar dengan latar Jade Dragon Snow Mountain.",
+    "hi": [
+     "Persembahan budaya Naxi/etnik",
+     "Latar semula jadi JDSM",
+     "Skala besar & meriah"
+    ],
+    "best": "Sesi siang (ikut jadual tour).",
+    "muslim": "Tempat terbuka tiada surau — solat sebelum/selepas show. Tiada makanan dijual dalam; bawa snack halal jika perlu.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lijiang+Impression+Show"
+   },
+   {
+    "n": "Nanping Pedestrian Street",
+    "t": "Shopping · Kunming",
+    "emoji": "🛍️",
+    "img": "@asset:04c1b0639f54",
+    "short": "Jalan pejalan kaki utama untuk souvenir.",
+    "intro": "Kawasan membeli-belah & pejalan kaki utama di pusat Kunming — sesuai untuk cari souvenir & rasa suasana bandar.",
+    "hi": [
+     "Souvenir & kedai tempatan",
+     "Suasana bandar Kunming",
+     "Berdekatan Shuncheng Mosque"
+    ],
+    "best": "Petang/malam.",
+    "muslim": "Shuncheng Mosque berdekatan untuk solat. Banyak pilihan makanan halal Hui di sekitar; sahkan sijil halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nanping+Street+Kunming"
+   },
+   {
+    "n": "Kunming Waterfall Park",
+    "t": "Taman · Kunming",
+    "emoji": "🌊",
+    "img": "@asset:9c6811a00750",
+    "short": "Air terjun buatan terlebar di Asia.",
+    "intro": "Taman bandar dengan air terjun buatan yang lebar & mengagumkan — tempat santai sebelum airport transfer.",
+    "hi": [
+     "Air terjun lebar",
+     "Taman untuk foto & santai",
+     "Berdekatan laluan ke airport"
+    ],
+    "best": "Pagi/tengah hari.",
+    "muslim": "Tiada surau khusus — Yongning Mosque dilawati hari sama. Bawa sejadah travel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kunming+Waterfall+Park"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "4★ · Kunming",
+    "name": "Country Inn & Suites by Radisson / Ramada Encore / Howard Johnson (atau setaraf)",
+    "note": "2@3 sebilik. Kunming ada aircond & standard bandar besar.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "4★ · Dali",
+    "name": "WenYue Hotel (atau setaraf)",
+    "note": "1 malam. Berdekatan kawasan tarikan Dali.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "4★ · Lijiang",
+    "name": "Kyriad Hotel (atau setaraf)",
+    "note": "2 malam. Base untuk tour JDSM & Ancient Town.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "4★ · Shangri La (4W sahaja)",
+    "name": "LanOu Hotel (atau setaraf)",
+    "note": "1 malam. Altitud tinggi — bilik mungkin sederhana; bawa pakaian panas.",
+    "emoji": "🏨"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog TO — Ground & Tipping, per pax, 2@3 sebilik. TIDAK termasuk tiket flight. Sah sehingga 31 Dis 2026. Sumber: katalog v1, last updated 29 Jul 2026 — harga tidak berubah dari katalog sebelumnya.</p><h3 style='margin:14px 0 6px'>PT Yunnan 3 Wilayah (6D5N) — Kunming·Dali·Lijiang</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 4,997</td><td>RM 4,797</td><td>RM 4,597</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 4,097</td><td>RM 3,897</td><td>RM 3,697</td></tr><tr><td class='it'>6–9</td><td class='add'>RM 3,697</td><td>RM 3,497</td><td>RM 3,297</td></tr><tr><td class='it'>10–14</td><td class='add'>RM 3,197</td><td>RM 2,997</td><td>RM 2,797</td></tr></tbody></table></div><p class='ssub'>Infant: FOC. Upgrade hotel 4-star (tier 4–5 pax): +RM240/pax. Single Supplement: +RM600/pax.</p><h3 style='margin:18px 0 6px'>PT Yunnan 4 Wilayah (7D6N) — Kunming·Dali·Lijiang·Shangri La</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 5,697</td><td>RM 5,497</td><td>RM 5,297</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 4,497</td><td>RM 4,297</td><td>RM 4,097</td></tr><tr><td class='it'>6–9</td><td class='add'>RM 4,097</td><td>RM 3,897</td><td>RM 3,697</td></tr><tr><td class='it'>10–14</td><td class='add'>RM 3,597</td><td>RM 3,397</td><td>RM 3,197</td></tr></tbody></table></div><p class='ssub'>Infant: FOC. Upgrade hotel 4-star (tier 4–5 pax): +RM240/pax. Single Supplement: +RM700/pax.</p>",
+   "custom": "<h2>Simple Customisation & Add-ons</h2><p class='ssub'>Kadar rasmi dari <b>Product Cheatsheet 2026 &ndash; Yunnan</b>. Ini private tour &mdash; hampir semua komponen boleh tambah (Tambah) atau buang (Tolak). Sahkan setiap perubahan dengan operator sebelum confirm kepada customer.</p><h3 style='margin:16px 0 6px'>Airport Transfer</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Kenderaan</th><th>Kapasiti</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>MPV</td><td>2&ndash;4 pax</td><td class='add'>RM 150/way</td><td class='add'>RM 150/way</td><td>&minus;RM 100/transport</td></tr><tr><td class='it'>Small Bus</td><td>5&ndash;6 pax</td><td class='add'>RM 250/way</td><td class='add'>RM 250/way</td><td>&minus;RM 150/transport</td></tr><tr><td class='it'>Big Bus</td><td>7&ndash;12 pax</td><td class='add'>RM 300/way</td><td class='add'>RM 350/way</td><td>&minus;RM 250/transport</td></tr><tr><td class='it'>Big Bus</td><td>12 pax ke atas</td><td>&mdash;</td><td class='add'>RM 650/way</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Accommodation</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>Hotel 4-Star &mdash; 1 malam</td><td class='add'>+RM 200/bilik/malam</td><td class='add'>+RM 250/bilik/malam</td><td>&minus;RM 100/bilik/malam</td></tr><tr><td class='it'>Upgrade hotel 4-star (tier 4&ndash;5 pax)</td><td class='add'>+RM 240/pax</td><td class='add'>+RM 240/pax</td><td>&mdash;</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 600/pax</td><td class='add'>+RM 700/pax</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Extra Night + Extra Day Tour</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Pax</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>Extra 1 malam + 1 day tour</td><td>2&ndash;4 pax</td><td class='add'>+RM 650/pax</td><td class='add'>+RM 650/pax</td><td>&minus;RM 300/pax</td></tr><tr><td class='it'>Extra 1 malam + 1 day tour</td><td>5&ndash;6 pax</td><td class='add'>+RM 850/pax</td><td class='add'>+RM 750/pax</td><td>&minus;RM 300/pax</td></tr><tr><td class='it'>Extra day tour sahaja<br><span class='ssub'>(transport + guide + meals, tanpa hotel)</span></td><td>&mdash;</td><td class='add'>+RM 400/pax</td><td class='add'>+RM 400/pax</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Meals</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Tambah</th><th>Tolak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>&mdash;</td><td>&mdash;</td><td>Sudah termasuk dalam bilik hotel &mdash; tidak boleh tambah/tolak</td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 60/pax/meal</td><td>&minus;RM 30/pax/meal</td><td>Halal, gaya sharing</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 60/pax/meal</td><td>&minus;RM 30/pax/meal</td><td>Halal, gaya sharing</td></tr><tr><td class='it'>Indian / Arabic meals</td><td class='add'>RM 80/pax/meal</td><td>&mdash;</td><td>Surcharge +RM 30/pax berbanding meal biasa. Terpakai untuk <b>3W &amp; 4W</b></td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Transport, Guide &amp; Bullet Train</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Extra hour driver &amp; guide</td><td class='add'>RM 160/jam</td><td>Asas 10 jam/hari. Kadar ini <b>meliputi driver &amp; guide</b>. Bayar TUNAI di sana</td></tr><tr><td class='it'>Upgrade bullet train &mdash; 1st class (2+2)</td><td class='add'>3W +RM100/pax/way<br>4W +RM120/pax/way</td><td>Rujuk tab <b>Transportation &amp; Guide</b> untuk gambar &amp; susunan seat</td></tr><tr><td class='it'>Upgrade bullet train &mdash; Business class (2+1)</td><td class='add'>+RM 300/pax/way</td><td>Hanya 1/56 seat &mdash; book seawal 1 minggu, tidak dijamin</td></tr><tr><td class='it'>Luggage van (untuk bullet train)</td><td class='add'>RM 650&ndash;750/one way</td><td>3W RM650 &middot; 4W RM750 (2&ndash;4 pax) / RM650 (5&ndash;6 pax)</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Itinerari &amp; Lain-lain</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Yi Ethnic Costume / hanfu rental</td><td>Bayar di sana</td><td>Maklum Tour Leader untuk assist &mdash; juga Free Gift promo (kod FKMGDL)</td></tr><tr><td class='it'>Pocket wifi</td><td>Ikut sewa</td><td>Ada VPN &mdash; akses WhatsApp/Google tanpa sekatan. 1 wifi = 3 telefon</td></tr><tr><td class='it'>Travel insurance</td><td>Ikut plan</td><td>Tidak termasuk pakej &mdash; digalakkan</td></tr><tr><td class='it'>Oxygen canister</td><td>~50 Yuan/tangki</td><td>Beli di Lijiang, TL assist. Rujuk tab <b>Shopping &amp; Tips</b></td></tr></tbody></table></div><p class='ssub'>Semua kadar di atas adalah rujukan dalaman dari Product Cheatsheet 2026 &ndash; Yunnan. Harga tertakluk pada perubahan &mdash; sahkan dengan operator sebelum keluarkan quotation.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Kadar katalog PT Yunnan v1 (29 Jul 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Yunnan 3 Wilayah (6D5N)</option><option value='1'>PT Yunnan 4 Wilayah (7D6N)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant bawah 2 tahun: FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement 3 Wilayah RM 600/pax &middot; 4 Wilayah RM 700/pax</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge & Blackout</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement (3W)</td><td class='add'>+RM 600/pax</td><td>Bilik single, pakej 6D5N</td></tr><tr><td class='it'>Single Supplement (4W)</td><td class='add'>+RM 700/pax</td><td>Bilik single, pakej 7D6N</td></tr><tr><td class='it'>Dragon Boat Festival</td><td class='add'>+RM 30/pax/malam</td><td>19–21 Jun 2026</td></tr><tr><td class='it'>China Golden Week</td><td class='add'>+RM 300/pax</td><td>1–8 Okt 2026</td></tr><tr><td class='it'>China Summer Holiday</td><td class='add'>Peak (semak surcharge)</td><td>Seluruh Julai & Ogos</td></tr><tr><td class='it'>Christmas & New Year</td><td class='add'>Peak (semak surcharge)</td><td>22 Dis – 5 Jan</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan &lt;45 hari sebelum bertolak</td></tr></tbody></table></div><p class='ssub'>BLACKOUT DATES: Chinese New Year (14–22 Feb 2026), Labor Day (1–5 Mei 2026). Harga tidak sah semasa peak season — rujuk surcharge.</p><h3 style='margin:18px 0 6px'>Peak Season Surcharge — Rate Card 2026 / 2027</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Dragon Boat Festival</td><td class='add'>+RM 30/pax/malam</td><td>2026: 19–21 Jun · 2027: 12–14 Jun</td></tr><tr><td class='it'>Other peak dates</td><td class='add'>+RM 300/pax</td><td>Summer (Jul–Ogos), Golden Week (1–8 Okt), Christmas &amp; NY (22 Dis–5 Jan)</td></tr><tr><td class='it'>2027 travel add-on</td><td class='add'>+RM 100/pax</td><td>Travel date 1 Jan–30 Jun 2027 (atas surcharge peak)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan &lt;45 hari sebelum bertolak</td></tr></tbody></table></div><p class='ssub'>Dragon Boat Festival: <b>guna RM30/pax/malam ikut katalog PT</b>. Rate card 2026/2027 pernah tunjuk RM60/pax/malam &mdash; angka itu <b>tidak digunakan</b> (keputusan PO, 30 Jul 2026).</p>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'>Semua kenderaan private (bukan sharing) + English speaking guide. Tier kenderaan ikut jumlah pax:</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax tier</th><th>Kenderaan (seats)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td>MPV 7-seater</td><td>Private + English guide &middot; ruang bagasi paling terhad</td></tr><tr><td class='it'>4&ndash;5 pax</td><td>MPV / Van 9-seater</td><td>Private + English guide</td></tr><tr><td class='it'>6&ndash;9 pax</td><td>Bus 17-seater</td><td>Private + English guide</td></tr><tr><td class='it'>10&ndash;15 pax</td><td>Bus 26 atau 38-seater</td><td>Private + English guide</td></tr><tr><td class='it'>16 pax ke atas</td><td>Bus 38-seater</td><td>Private + English guide</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Bullet Train &mdash; Kelas &amp; Susunan Tempat Duduk</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Kelas</th><th>Susunan seat</th><th>Termasuk pakej?</th><th>Upgrade (per pax / per way)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2nd class (Economy)</td><td><b>3+2</b> (A B C &middot; D F)</td><td class='add'>Ya &mdash; standard pakej</td><td>&mdash;</td><td>Seat kongsi 5 sebaris; ruang kaki standard</td></tr><tr><td class='it'>1st class</td><td><b>2+2</b></td><td>Tidak</td><td class='add'>3W +RM100/pax/way<br>4W +RM120/pax/way</td><td>Lebih lapang, kerusi lebih besar &amp; recline</td></tr><tr><td class='it'>Business class</td><td><b>2+1</b></td><td>Tidak</td><td class='add'>+RM300/pax/way</td><td>Kerusi kulit boleh baring. <b>Hanya 1/56 seat</b> &mdash; kena book seawal 1 minggu, tidak dijamin</td></tr></tbody></table></div><p class='ssub'>Sumber: Product Cheatsheet 2026 &ndash; Yunnan. Sahkan availability dengan operator sebelum confirm upgrade kepada customer.</p><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Bullet train &mdash; rupa setiap kelas (gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px\"><figure style='margin:0'><img src=\"@asset:58a00c827da8\" alt=\"<b>2nd class (Economy)</b> &mdash; susunan 3+2. Se\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'><b>2nd class (Economy)</b> &mdash; susunan 3+2. Seat A B C di satu sisi, D F di sisi lain. Ini kelas standard dalam pakej.</figcaption></figure><figure style='margin:0'><img src=\"@asset:9a060b518edc\" alt=\"<b>1st class</b> &mdash; susunan 2+2. Kerusi lebih\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'><b>1st class</b> &mdash; susunan 2+2. Kerusi lebih besar, ruang kaki lebih lapang.</figcaption></figure><figure style='margin:0'><img src=\"@asset:7c39370207ec\" alt=\"<b>Business class</b> &mdash; susunan 2+1. Kerusi \" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'><b>Business class</b> &mdash; susunan 2+1. Kerusi kulit boleh baring; hanya 1/56 seat setiap coach.</figcaption></figure></div></div></details><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Luggage van untuk bullet train &mdash; ada option?</span></summary><div class='ans'><p>Ada. Kalau guest ada luggage banyak dan tak mahu angkat sendiri naik/turun train, boleh tempah luggage van berasingan:</p><table class='kb'><thead><tr><th>Pakej</th><th>Pax</th><th>Harga</th></tr></thead><tbody><tr><td>4 Wilayah</td><td>2&ndash;4 pax</td><td>RM750/one way</td></tr><tr><td>4 Wilayah</td><td>5&ndash;6 pax</td><td>RM650/one way</td></tr><tr><td>3 Wilayah</td><td>&mdash;</td><td>RM650/one way</td></tr></tbody></table><p>Sumber: Product Cheatsheet 2026. Sahkan dengan operator sebelum quote.</p></div></details><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Kenderaan sebenar operator macam mana? (gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:10px 0 4px\"><figure style=\"margin:0\"><img src=\"@asset:b5a5222d9575\" alt=\"Kenderaan sebenar operator Yunnan — van/bus 9–17 seater. Rua\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Kenderaan sebenar operator Yunnan — van/bus 9–17 seater. Ruang bagasi dikongsi dengan ruang tempat duduk, jadi nasihatkan guest bawa 1 luggage besar + 1 hand carry sahaja.</figcaption></figure></div></div></details><p class='ssub'>Private transport &amp; guide asas <b>10 jam/hari</b>; extra hour dikenakan caj (bayar TUNAI di sana). Bullet train 2nd class: 3W = Kunming&ndash;Dali &amp; Lijiang&ndash;Kunming; 4W = Kunming&ndash;Dali &amp; Shangri La&ndash;Kunming. Airport transfer disediakan.</p><details class='qa' data-text=\"bagasi luggage bullet train siapa uruskan bawa sendiri coach khas pintu masuk\"><summary><span class='tw'>&#9654;</span><span>Bagasi di bullet train — siapa uruskan?</span></summary><div class='ans'><p>Peserta bawa luggage sendiri di stesen. Di dalam train ada satu coach khas untuk luggage besar berdekatan pintu masuk &mdash; guest boleh letak luggage besar di situ.</p></div></details><details class='qa' data-text=\"seating arrangement bullet train duduk bersama partner family berpecah train penuh\"><summary><span class='tw'>&#9654;</span><span>Boleh duduk sebelah family dalam bullet train?</span></summary><div class='ans'><p>Kebiasaannya ya, duduk bersama partner/family. Tetapi sekiranya train penuh, ada kemungkinan group berpecah. Tour Leader akan bantu susun.</p></div></details><details class='qa' data-text=\"port charger plug dalam bas train power bank ada tak\"><summary><span class='tw'>&#9654;</span><span>Ada port charger dalam bas atau train?</span></summary><div class='ans'><p>Tidak dijamin. Bergantung kepada bas yang trip dapat &mdash; kadang-kadang ada. Untuk bullet train, tidak semua seat ada port charger. Nasihatkan guest bawa power bank (WAJIB dalam hand carry).</p></div></details><details class='qa' data-text=\"simpan luggage selepas check out hotel hari pertukaran hotel tinggal dalam bas\"><summary><span class='tw'>&#9654;</span><span>Di mana simpan luggage selepas check out hotel?</span></summary><div class='ans'><p>Pada hari pertukaran hotel, luggage boleh disimpan di dalam bas sepanjang hari sementara group meneruskan tour.</p></div></details><details class='qa' data-text=\"berapa luggage boleh bawa ruang bagasi terhad mpv 7 seater\"><summary><span class='tw'>&#9654;</span><span>Bagasi banyak — cukup ruang dalam kenderaan?</span></summary><div class='ans'><p>Ruang bagasi terhad, terutamanya tier 2&ndash;3 pax (MPV 7-seater) kerana luggage diletak di ruang tempat duduk belakang. Nasihatkan guest bawa maksimum 1 luggage besar + 1 hand carry seorang.</p></div></details><details class='qa' data-text=\"extra hour driver guide 10 jam caj tunai overtime\"><summary><span class='tw'>&#9654;</span><span>Apa jadi kalau lebih 10 jam sehari?</span></summary><div class='ans'><p><b>Extra hour driver &amp; guide: RM160/jam</b> (Product Cheatsheet 2026) &mdash; kadar ini meliputi kedua-duanya, <b>dibayar TUNAI</b> oleh guest di sana. Punca biasa overtime: guest lewat, atau hotel guest sendiri jauh dari zon hotel rasmi ARBA.</p></div></details>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel 4-Star tempatan ikut bandar (2@3 sebilik, daily breakfast). Final hotel disahkan sekurang-kurangnya 15 hari sebelum trip. Kad hotel di bawah.</p><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Customer book hotel sendiri (pakej tanpa hotel) &mdash; apa perlu diingat?</span></summary><div class='ans'><div><p style='margin:0 0 6px'>Hotel yang di-book sendiri <b>WAJIB dalam bandar/zon yang sama &amp; berdekatan dengan hotel rasmi ARBA</b> untuk setiap malam (Kunming, Dali, Lijiang, Shangri La). Jadual pickup, drop-off, intercity transfer &amp; masa bullet train disusun berdasarkan lokasi hotel rasmi.</p><p style='margin:0 0 6px'>Kalau hotel guest jauh dari zon tersebut, akan berlaku <b>operational hiccup</b>:</p><ul style='margin:0 0 6px 18px'><li>Pickup lewat &mdash; guest lain dalam group terpaksa tunggu</li><li>Driver &amp; guide melebihi asas 10 jam &rarr; extra hour dikenakan caj TUNAI kepada guest</li><li>Risiko tertinggal bullet train (Kunming&ndash;Dali / Lijiang atau Shangri La&ndash;Kunming)</li><li>Itinerari hari tersebut terpaksa dipendekkan</li></ul><p style='margin:0'><b>Tindakan TC:</b> minta alamat penuh + nama hotel guest, hantar kepada PO/operator <b>sekurang-kurangnya 15 hari</b> sebelum trip untuk semakan zon. Kalau lokasi tidak sesuai &mdash; minta guest tukar hotel, ATAU guest datang sendiri ke meeting point hotel rasmi pada waktu yang ditetapkan (atas kos sendiri).</p></div></div></details>",
+   "compare": "<h2>Perbezaan Pakej — 3 Wilayah (6D5N) vs 4 Wilayah (7D6N)</h2><p class='ssub'>Ground &amp; Tipping sahaja (tanpa tiket flight). ✔ = termasuk · — = tidak termasuk.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>3 WILAYAH</th><th>4 WILAYAH</th></tr></thead><tbody><tr><td class='feat'>Wilayah / Bandar</td><td class='val'>Kunming · Dali · Lijiang</td><td class='val'>Kunming · Dali · Lijiang · Shangri La</td></tr><tr><td class='feat'>Durasi</td><td class='val'>6D5N</td><td class='val'>7D6N</td></tr><tr><td class='feat'>Malam hotel</td><td class='val'>5 malam</td><td class='val'>6 malam</td></tr><tr><td class='feat'>Hotel 4★ tempatan</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Private transport + English guide (10 jam/hari)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Bullet train 2nd class (2x)</td><td class='val'>Kunming–Dali, Lijiang–Kunming</td><td class='val'>Kunming–Dali, Shangri La–Kunming</td></tr><tr><td class='feat'>Jade Dragon Snow Mountain (cable car)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Dali Santorini + Erhai Lake boat tour</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Lijiang Ancient Town + Blue Moon Valley</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Shilin Stone Forest</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tiger Leaping Gorge (incl escalator)</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Dukezong Ancient Town</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Trip tamat pada</td><td class='val'>Day 6</td><td class='val'>Day 7</td></tr><tr><td class='feat'>Flight balik (awal pagi)</td><td class='val'>~2:30 AM Day 7</td><td class='val'>~2:30 AM Day 8</td></tr><tr><td class='feat'>Fullboard halal meals</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tipping included</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Lawatan masjid (Shuncheng / Yongning / Lijiang)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Single Supplement</td><td class='val'>RM 600/pax</td><td class='val'>RM 700/pax</td></tr><tr><td class='feat'>Harga from (4–5 pax)</td><td class='val'>RM 4,097</td><td class='val'>RM 4,497</td></tr><tr><td class='feat'>Harga from (2–3 pax)</td><td class='val'>RM 4,997</td><td class='val'>RM 5,697</td></tr></tbody></table>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text=\"free gift promo campaign yi ethnic costume rental fkmgdl luggage tag pocket wifi\"><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Yunnan (3 &amp; 4 Wilayah):</strong> Yi Ethnic Costume Rental <span class='rtag'>Kod: FKMGDL</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:#b03030'>*Bullet wajib tanya PO/Leader</p><p style='color:#b03030'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "flight": "<h2>Flight & Airport</h2><p class='ssub'>Pakej <b>Ground &amp; Tipping</b> — tiket flight TIDAK termasuk. <b>Sentiasa quote &amp; book RETURN (pergi-balik), bukan one-way</b> — immigration China minta bukti tiket balik, harga return lebih murah, dan slot balik dari Kunming terhad.</p><h3 style='margin:14px 0 6px'>Cadangan Penerbangan RETURN — KUL &rlarr; Kunming (KMG)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Pilihan</th><th>Pergi (KUL&rarr;KMG)</th><th>Balik (KMG&rarr;KUL)</th><th>Jenis</th><th>Anggaran RT (RM)</th><th>Sesuai untuk</th></tr></thead><tbody><tr><td class='it'>A &mdash; Recommended</td><td>AirAsia X <b>AK 103</b><br>9:40 PM &rarr; 1:30 AM (+1)</td><td>AirAsia <b>AK 104</b><br>2:30 AM &rarr; 6:25 AM</td><td>Low Cost</td><td class='add'>RM 930&ndash;960</td><td>Guest habiskan Day akhir sepenuhnya (city tour + dinner) sebelum transfer ke airport</td></tr><tr><td class='it'>B &mdash; Balik petang</td><td>AirAsia X <b>AK 103</b><br>9:40 PM &rarr; 1:30 AM (+1)</td><td>AirAsia <b>AK 102</b><br>5:55 PM &rarr; 9:55 PM</td><td>Low Cost</td><td class='add'>RM 930&ndash;960</td><td>Guest yang tak mahu flight tengah malam &mdash; tapi transfer selepas lunch, miss Yongning Mosque, Waterfall Park &amp; dinner</td></tr><tr><td class='it'>C &mdash; Batik Air</td><td>Batik Air <b>OD 670</b><br>9:50 PM &rarr; 1:35 AM (+1)</td><td>Batik Air <b>OD 671</b><br>2:35 AM &rarr; 6:35 AM</td><td>Mid Tier</td><td class='add'>RM 880&ndash;920</td><td>Guest nak mid-tier / bagasi included; Isnin &amp; Rabu&ndash;Ahad sahaja</td></tr></tbody></table></div><p class='ssub'>Kekerapan: AirAsia harian &middot; Batik Air Isnin, Rabu&ndash;Ahad. Masa penerbangan terus ~3 jam 45 minit. Anggaran round-trip per pax. Sahkan harga &amp; jadual semasa tempahan.</p><h3 style='margin:18px 0 6px'>Padanan Flight Balik dengan Day Akhir</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Pakej</th><th>Trip tamat</th><th>Balik awal pagi (recommended)</th><th>Balik petang</th></tr></thead><tbody><tr><td class='it'>3 Wilayah (6D5N)</td><td>Day 6 &mdash; Kunming city tour</td><td class='add'>AK 104 / OD 671 &mdash; 2:30&ndash;2:35 AM <b>Day 7</b></td><td>AK 102 &mdash; 5:55 PM <b>Day 6</b><br><span class='ssub'>transfer selepas lunch</span></td></tr><tr><td class='it'>4 Wilayah (7D6N)</td><td>Day 7 &mdash; Kunming city tour</td><td class='add'>AK 104 / OD 671 &mdash; 2:30&ndash;2:35 AM <b>Day 8</b></td><td>AK 102 &mdash; 5:55 PM <b>Day 7</b><br><span class='ssub'>transfer selepas lunch</span></td></tr></tbody></table></div><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Nota PO &mdash; pembetulan nombor flight Batik Air (OD 540 vs OD 670/671)</span></summary><div class='ans'><p>Katalog/KB lama tersilap catat <b>Batik Air OD 540</b> untuk KUL&ndash;KMG. OD 540 sebenarnya laluan KUL&ndash;Phuket. Nombor betul untuk Kunming: <b>OD 670</b> (pergi) / <b>OD 671</b> (balik). Sila guna nombor baharu ini dalam semua quotation.</p></div></details>",
+   "food": "<h2>Halal & Makanan</h2><p class='ssub'>Fullboard halal &mdash; semua lunch &amp; dinner di restoran Muslim (komuniti Hui) yang disahkan operator. Sarapan di hotel (International breakfast).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Waktu</th><th>Format</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Sarapan</td><td>Hotel &mdash; International breakfast</td><td>Termasuk pakej setiap hari</td></tr><tr><td class='it'>Lunch</td><td>Restoran halal / packed lunch</td><td>Day 4 (Jade Dragon Snow Mountain) = <b>packed lunch</b></td></tr><tr><td class='it'>Dinner</td><td>Restoran halal, gaya sharing di meja pusing</td><td>6&ndash;8 dishes + nasi putih + sup per meja</td></tr></tbody></table></div><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Boleh tunjuk gambar hidangan sebenar?</span></summary><div class='ans'><p class='ssub'>Gambar sebenar dari trip ARBA &mdash; boleh dikongsi dengan guest yang tanya “makanan macam mana?”</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:10px 0 4px\"><figure style=\"margin:0\"><img src=\"@asset:be7c147c0226\" alt=\"Hidangan tengah hari: ayam panggang/bakar, kobis goreng, tim\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Hidangan tengah hari: ayam panggang/bakar, kobis goreng, timun segar dengan 4 jenis sambal &amp; dip (cili merah, bijan, cili masam, cili hijau) dan sup daging. Nasi putih tanpa had.</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:9b32d9108017\" alt=\"Contoh set dinner: hirisan daging lembu berempah, mantou gor\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Contoh set dinner: hirisan daging lembu berempah, mantou goreng, jagung &amp; edamame, ayam masak cili, daging kisar cili hijau, cendawan goreng, nasi kukus, ayam kukus berempah, sup daging, daging lembu goreng lada, telur goreng tomato, kentang bakar berperisa.</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:84886d693555\" alt=\"Contoh set lain: ikan bilis goreng, terung &amp; kentang gor\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Contoh set lain: ikan bilis goreng, terung &amp; kentang goreng, ayam/itik panggang, mantou, sayur goreng bijan, tauhu masak cili, sup kobis bihun, kailan goreng, daging lembu hot plate, kobis goreng, jagung campur, telur dadar.</figcaption></figure></div><p class='ssub'>Sambal &amp; dip diletak <b>di sebelah</b>, bukan dalam masakan &mdash; guest boleh kawal tahap pedas sendiri. Boleh minta guide/TL maklum restoran untuk kurangkan pedas.</p></div></details><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Makanan apa yang TIDAK boleh dibawa dari Malaysia?</span></summary><div class='ans'><div><ul style='margin:0 0 0 18px'><li>Produk berasaskan daging &mdash; serunding, rendang, sambal daging (berisiko dirampas kastam China)</li><li>Buah &amp; sayur segar</li><li>RTE / kembara meals jenis <b>self-heating / warmer</b> (dikira dangerous goods &mdash; hand carry &amp; checked luggage)</li></ul><p style='margin:6px 0 0'>Dibenarkan: makanan kering bukan daging (biskut, mi segera, roti, coklat, RTE biasa). Digalakkan lampirkan senarai ingredient &amp; jenama dalam bentuk A4 untuk urusan kastam.</p></div></div></details>",
+   "tips": "<h2>Shopping & Tips</h2><h3 style='margin:14px 0 4px'>Kenapa Yunnan dianggap “high altitude”?</h3><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Berapa tinggi destinasi Yunnan berbanding KL &amp; Gunung Kinabalu? (carta)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin:10px 0 4px\"><figure style=\"margin:0\"><img src=\"@asset:87c50fa08495\" alt=\"Perbandingan ketinggian destinasi Yunnan vs Kuala Lumpur (13\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Perbandingan ketinggian destinasi Yunnan vs Kuala Lumpur (139m) dan Gunung Kinabalu (4,095m). Puncak Jade Dragon Snow Mountain 4,506m — lebih tinggi dari Kinabalu.</figcaption></figure></div></div></details><p>Kuala Lumpur hanya <b>139m</b> atas paras laut. Semua bandar dalam itinerari Yunnan jauh lebih tinggi &mdash; Tiger Leaping Gorge 1,800m &middot; Kunming 1,895m &middot; Dali 2,090m &middot; Lijiang 2,410m &middot; Shangri La 3,300m &middot; puncak <b>Jade Dragon Snow Mountain 4,506m</b>. Pada ketinggian 4,500m, oksigen yang tersedia untuk badan kira-kira <b>40% lebih rendah</b> berbanding paras laut &mdash; sebab itu guest boleh alami <b>Acute Mountain Sickness (AMS)</b>: sakit kepala, pening, loya, sesak nafas, letih luar biasa, susah tidur.</p><p class='ssub'>Guest berisiko tinggi: warga emas, kanak-kanak, masalah jantung/paru-paru, anemia, atau tidak pernah ke kawasan tinggi &mdash; syorkan dapatkan clearance doktor sebelum book.</p><h3 style='margin:18px 0 4px'>Ubat &amp; oksigen untuk high altitude</h3><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Diamox untuk AMS &mdash; apa TC perlu tahu?</span></summary><div class='ans'><div style='display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;margin:8px 0'><div style='flex:0 0 200px;max-width:220px'><figure style=\"margin:0\"><img src=\"@asset:a046b92544c8\" alt=\"Diamox (Acetazolamide) 250mg\" style=\"width:100%;height:auto;display:block;border-radius:10px\" loading=\"lazy\"><figcaption style=\"font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px\">Diamox (Acetazolamide) 250mg</figcaption></figure></div><div style='flex:1 1 320px;min-width:280px'><p style='margin:0 0 8px'><b>Diamox (Acetazolamide 250mg)</b> ialah ubat yang paling biasa disebut untuk cegah/kurangkan AMS. Di Malaysia ia <b>ubat berpreskripsi</b> &mdash; guest WAJIB rujuk doktor atau ahli farmasi dahulu untuk dos &amp; kesesuaian. Kontraindikasi termasuk alahan sulfa, masalah buah pinggang, dan ibu mengandung/menyusu.</p><p style='margin:0;color:#b03030'><b>ARBA tidak preskripsi, tidak syorkan dos, dan tidak bekalkan ubat ini.</b> TC hanya maklum bahawa ubat ini ada &mdash; keputusan &amp; dos adalah antara guest dan doktor mereka. Untuk tujuan kastam, ubat OTC seperti panadol &amp; ubat selsema tidak perlu preskripsi; ubat preskripsi (darah tinggi, kencing manis) perlu dibawa dengan surat doktor.</p></div></div></div></details><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Oxygen canister</td><td>~<b>50 Yuan</b>/tangki, dibeli <b>di sana</b> (Lijiang). Bas akan singgah di kedai sebelum naik JDSM; Tour Leader assist pembelian.</td></tr><tr><td class='it'>Cadangan kuantiti</td><td>1 tangki di JDSM + 1 tangki di Shangri La (4 Wilayah). Optional &mdash; rujuk TL.</td></tr><tr><td class='it'>Paling disyorkan untuk</td><td>Warga emas &amp; kanak-kanak</td></tr><tr><td class='it'>Kalau AMS berlaku</td><td>Berhenti, rehat, minum air, guna oksigen, maklum guide/TL SEGERA. Jangan paksa naik &mdash; rawatan terbaik ialah turun ke altitud lebih rendah.</td></tr><tr><td class='it'>Elak sebelum naik</td><td>Makan terlalu berat, merokok, bergerak/berlari cepat di puncak. Minum air banyak &amp; tidur cukup malam sebelum.</td></tr></tbody></table></div>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi ARBA untuk kedua-dua pakej &mdash; guna untuk terangkan aliran perjalanan &amp; masa antara bandar kepada guest.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin:12px 0 6px\"><figure style='margin:0'><div style='font-weight:700;font-size:14px;margin-bottom:6px'>PT Yunnan 3 Wilayah (6D5N)</div><img src=\"@asset:77aa41feef58\" alt=\"Route map Yunnan 3 Wilayah\" loading=\"lazy\" style=\"width:100%;height:auto;display:block;border-radius:12px;border:1px solid rgba(0,0,0,.08)\"><figcaption style='font-size:12.5px;line-height:1.5;color:#5b5b5b;margin-top:8px'>Kunming &rarr; Dali (bullet train 2j 30m) &rarr; Erhai Lake &rarr; Lijiang (private transport 2.5&ndash;3j, 2 malam) &rarr; Kunming (bullet train 3.5&ndash;4.5j). Kunming 1+1 malam.</figcaption></figure><figure style='margin:0'><div style='font-weight:700;font-size:14px;margin-bottom:6px'>PT Yunnan 4 Wilayah (7D6N)</div><img src=\"@asset:acacbdf0d216\" alt=\"Route map Yunnan 4 Wilayah\" loading=\"lazy\" style=\"width:100%;height:auto;display:block;border-radius:12px;border:1px solid rgba(0,0,0,.08)\"><figcaption style='font-size:12.5px;line-height:1.5;color:#5b5b5b;margin-top:8px'>Kunming &rarr; Dali (bullet train 2j 30m) &rarr; Erhai Lake &rarr; Lijiang (2.5&ndash;3j, 2 malam) &rarr; Shangri La (3&ndash;3.5j) &rarr; Kunming (bullet train 5&ndash;6j). Kunming 1+1 malam.</figcaption></figure></div><p class='ssub'>Semua masa perjalanan adalah anggaran default itinerary &mdash; boleh berubah ikut cuaca, musim &amp; keadaan trafik tanpa notis.</p><p class='ssub'>&#9888; <b>Nota status map</b> (rekod dalaman &mdash; map masih sah untuk guna):<br>(1) Label pada map masih <b>7H5M</b> &amp; <b>8H6M</b> manakala katalog v1 sudah guna <b>6D5N</b> &amp; <b>7D6N</b>. Laluan, bandar &amp; bilangan malam <b>tidak berubah</b> (5 malam / 6 malam) &mdash; jadi map ini masih tepat, cuma label hari belum dikemas kini.<br>(2) Fail <b>PT TRAVEL MAPS (FINAL) Yunan 4.pdf</b> mengandungi map 3 Wilayah, bukan 4 Wilayah. Map 3 Wilayah di sini sudah versi FINAL (HD); map 4 Wilayah masih versi lama.</p>",
+   "polisi": "<h2>Polisi & Payment</h2>",
+   "triplepas": "<h2>Gambar Trip Lepas</h2><p class='ssub'>Gambar sebenar dari trip PT Yunnan terdahulu &mdash; rujukan visual untuk TC semasa jawab soalan customer. Untuk poster, katalog atau iklan berbayar, dapatkan kelulusan marketing dahulu (consent peserta dalam gambar).</p><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Aktiviti &amp; lokasi (3 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px\"><figure style='margin:0'><img src=\"@asset:f64bb5271fe4\" alt=\"Group photo di puncak <b>Jade Dragon Snow Mountain</b> \" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'>Group photo di puncak <b>Jade Dragon Snow Mountain</b> &mdash; papan tanda <b>4506</b> (meter) kelihatan di sebelah kanan. Musim sejuk: salji di puncak, guest pakai winter coat &amp; sarung tangan.</figcaption></figure><figure style='margin:0'><img src=\"@asset:c09756f9e3fa\" alt=\"Group photo di perkarangan <b>masjid</b> dalam itinerar\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'>Group photo di perkarangan <b>masjid</b> dalam itinerari &mdash; seni bina Cina-Islam, dewan solat berplak 禮拜堂 (Li Bai Tang / dewan sembahyang).</figcaption></figure><figure style='margin:0'><img src=\"@asset:8730f637f5c0\" alt=\"Dalam <b>bullet train 2nd class</b> (susunan 3+2, kerus\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'>Dalam <b>bullet train 2nd class</b> (susunan 3+2, kerusi biru China Railway) antara bandar. Ini kelas standard yang termasuk dalam pakej.</figcaption></figure></div></div></details><details class='qa' data-extra='1'><summary><span class='tw'>&#9654;</span><span>Makanan halal (2 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px\"><figure style='margin:0'><img src=\"@asset:62d33a59505d\" alt=\"Dinner halal gaya <b>sharing</b> di meja pusing &mdash;\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'>Dinner halal gaya <b>sharing</b> di meja pusing &mdash; lauk diletak di tengah, nasi &amp; sup individu. Restoran Muslim moden, ruang selesa untuk group 8&ndash;10 pax.</figcaption></figure><figure style='margin:0'><img src=\"@asset:5522dd12004f\" alt=\"Satu lagi contoh meja makan halal &mdash; 5&ndash;6 lau\" loading='lazy' style='width:100%;height:auto;display:block;border-radius:10px'><figcaption style='font-size:12.5px;line-height:1.45;color:#5b5b5b;margin-top:6px'>Satu lagi contoh meja makan halal &mdash; 5&ndash;6 lauk + nasi putih untuk satu meja. Guest boleh tambah nasi tanpa had.</figcaption></figure></div></div></details><p class='ssub'>Ada gambar trip lebih baharu? Letak dalam folder <b>TRIP LEPAS</b> dan saya tambah ke tab ini.</p>"
+  },
+  "snapshot": "# PT Yunnan — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Dua varian: PT Yunnan 3 Wilayah (6D5N, Kunming–Dali–Lijiang) & PT Yunnan 4 Wilayah (7D6N, tambah Shangri La). Kedua-dua Ground & Tipping sahaja — TIDAK termasuk tiket flight.*\n\n- Katalog semasa: PT YUNNAN 3 WILAYAH 6D5N 2026 v1 & PT YUNNAN 4 WILAYAH 7D6N 2026 v1 (last updated 29 Jul 2026).\n- Harga sah 24 jam selepas quotation dihantar.\n- Harga untuk 2@3 orang sebilik.\n- Single Supplement: +RM600/pax (3W) · +RM700/pax (4W).\n- Harga tidak sah semasa peak season — rujuk surcharge.\n- Late Booking Surcharge RM50/booking untuk tempahan <45 hari sebelum bertolak.\n- Private transport & guide asas 10 jam/hari; extra hour dikenakan caj (bayar TUNAI).\n- Quotation, itinerari & harga tertakluk pada perubahan.\n- Final itinerari & hotel disahkan sekurang-kurangnya 15 hari sebelum trip.\n- WAJIB book RETURN flight (pergi-balik). Flight balik dari Kunming ada dua slot: petang (~5:55 PM, hari terakhir tour) atau awal pagi (~2:30 AM, hari selepas tour tamat) — pastikan timing betul.\n- Customer yang book hotel sendiri (pakej tanpa hotel): hotel WAJIB dalam bandar/zon yang sama & berdekatan dengan hotel rasmi ARBA — elak operational hiccup.\n- Semak trip validity & sahkan dengan staff sebelum book connecting domestic flight.\n- Pakej sah untuk travel period sehingga 31 Dis 2026.\n- Deposit RM500/pax; full payment 45 hari sebelum ketibaan.\n- Blackout: Chinese New Year (14–22 Feb 2026), Labor Day (1–5 Mei 2026).\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Ada berapa pakej Yunnan?**\nDua: PT Yunnan 3 Wilayah (6D5N — Kunming, Dali, Lijiang) dan PT Yunnan 4 Wilayah (7D6N — tambah Shangri La dengan Tiger Leaping Gorge & Dukezong Ancient Town).\n\n**Kenapa durasi katalog berubah dari 7D5N/8D6N ke 6D5N/7D6N?**\nKatalog baharu (v1, 29 Jul 2026) mengira hari berdasarkan hari tour sebenar di Yunnan. Bilangan malam, itinerari dan harga kekal SAMA (5 malam untuk 3W, 6 malam untuk 4W) — hanya hari ketibaan semula di KL tidak lagi dikira sebagai satu Day. Guna 6D5N & 7D6N dalam semua komunikasi baharu.\n\n**Apa beza 3 Wilayah dan 4 Wilayah?**\n4 Wilayah tambah satu wilayah (Shangri La) + 1 malam, dengan Tiger Leaping Gorge (incl escalator) & Dukezong Ancient Town. Bullet train balik dari Shangri La ke Kunming (~5–6 jam) berbanding Lijiang ke Kunming (~4–4.5 jam) untuk 3 Wilayah.\n\n**Pakej ni cover apa (highlight)?**\nJade Dragon Snow Mountain (cable car ~4,506m), Dali Santorini & Erhai Lake boat tour, Lijiang Ancient Town (UNESCO), Shilin Stone Forest (UNESCO), Blue Moon Valley, Lijiang Impression Show, Dongbaqu, Dry Sea, Black Dragon Pool, Kunming Waterfall Park, lawatan masjid (Shuncheng, Yongning, Lijiang) — dan untuk 4W, Tiger Leaping Gorge & Dukezong.\n\n**Apa USP ARBA berbanding pesaing?**\n2x bullet train (bukan coach), lebih lama di Dali Santorini & Erhai Lake boat tour, tipping included, TIADA shopping stops / tourist traps (cth cream centre, kilang), guide English speaking, makan fullboard halal.\n\n**Boleh customize itinerari?**\nBoleh — ini private tour. Sahkan sebarang perubahan dengan operator sebelum confirm ke customer.\n\n**Bullet train kelas apa termasuk dalam pakej? Boleh upgrade?**\nTermasuk pakej: **2nd class (Economy)**, susunan seat 3+2. Boleh upgrade — 1st class (2+2) +RM100/pax/way (3W) atau +RM120/pax/way (4W); Business class (2+1) +RM300/pax/way tetapi hanya 1/56 seat setiap coach, kena book seawal 1 minggu dan tidak dijamin. Rujuk tab Transportation & Guide untuk gambar setiap kelas.\n\n**Berapa lama perjalanan setiap hari?**\nAntara bandar guna bullet train (~2 jam Kunming–Dali; ~4–6 jam balik ke Kunming) & private transport (~2–3 jam). Private transport asas 10 jam/hari.\n\n**Flight petang, macam mana Day akhir?**\nGuest dengan flight petang (AK 102, ~5:55 PM) akan transfer ke airport selepas lunch pada hari city tour Kunming, dan trip tamat pada hari tersebut — Day 6 untuk 3W, Day 7 untuk 4W. Guest ini akan miss Yongning Mosque, Kunming Waterfall Park & dinner.\n\n**Bila trip sebenarnya tamat?**\n3 Wilayah: Day 6 (Kunming city tour + airport transfer). 4 Wilayah: Day 7. Flight awal pagi bermakna guest berlepas ~2:30 AM keesokan harinya.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat?**\nYa — makan fullboard halal disediakan sepanjang trip (kecuali sarapan hotel & selera sendiri). Yunnan ada komuniti Muslim Hui yang ramai, jadi restoran halal wujud di semua bandar dalam itinerari.\n\n**Makanan apa yang dihidang? (contoh menu sebenar)**\nHidangan Cina-Muslim gaya sharing di meja pusing: ayam panggang/bakar & ayam kukus, hirisan daging lembu, daging kisar cili hijau, kobis/sawi/kailan goreng, telur goreng tomato, jagung & edamame, kentang bakar berperisa, cendawan goreng, ikan bilis goreng, mantou (bun goreng), sup daging atau sup kobis, dan nasi putih kukus tanpa had. Sambal & dip (cili merah, cili hijau, bijan) diletak di sebelah — bukan dalam masakan. Rujuk tab ini untuk gambar hidangan sebenar trip ARBA.\n\n**Berapa hidangan setiap kali makan?**\nBiasanya 6–8 dishes + nasi putih + sup untuk satu meja (8–10 pax), gaya sharing. Untuk group kecil (2–5 pax) bilangan dishes dikurangkan mengikut saiz meja tetapi kuantiti kekal cukup.\n\n**Makanan Yunnan pedas ke?**\nMasakan Yunnan memang guna cili, tetapi tidak semua hidangan pedas. Sambal dan dip diletak di sebelah supaya guest boleh kawal sendiri. Boleh minta guide/TL maklum kepada restoran untuk kurangkan pedas.\n\n**Ada arak dalam makanan?**\nMakanan yang disediakan tour adalah halal. Untuk makan sendiri di luar, sahkan status halal & elak masakan yang guna arak/lemak babi.\n\n**Boleh bawa makanan sendiri dari Malaysia (RTE / kembara meals)?**\nBoleh — makanan segera seperti pek kembara, mi segera, biskut, roti & coklat dibenarkan. TETAPI makanan RTE yang ada self-heating / warmer TIDAK boleh dibawa (dikira dangerous goods) sama ada dalam hand carry atau checked luggage.\n\n**Makanan berasaskan daging boleh dibawa?**\nTIDAK digalakkan. Pihak berkuasa China ketat terhadap produk daging — serunding, rendang & sambal daging berisiko dirampas di kastam. Bawa makanan kering bukan daging sahaja. Buah & sayur segar juga tidak dibenarkan.\n\n**Perlu declare makanan di kastam?**\nTidak perlu declare untuk makanan kering bukan daging. Digalakkan lampirkan senarai ingredient & jenama dalam bentuk A4 supaya mudah diurus jika kastam bertanya.\n\n**Makanan bayi macam mana?**\nMakanan bayi boleh dibawa dalam cabin. Bawa dalam pek asal beserta label — jangan dibuka atau disalin ke bekas lain.\n\n**Air mineral disediakan?**\nYa — setiap peserta terima satu botol air mineral setiap hari sepanjang tour. Hotel juga sediakan air mineral botol dalam bilik.\n\n**Air panas untuk bancuh susu anak dalam flight?**\nBoleh minta terus dengan flight attendant di atas flight.\n\n**Macam mana nak solat? Ada masjid/surau?**\nItinerari termasuk lawatan masjid — Shuncheng Mosque & Yongning Mosque (Kunming), Lijiang Mosque. Di tempat tarikan yang tiada surau, solat Zohor/Asar biasanya dijamak on the road atau di hotel.\n\n**Perlu bawa telekung/sejadah sendiri?**\nYa — bawa sejadah kecil/travel & pakaian solat kerana anda mungkin perlu solat di tempat terbuka. Bawa juga botol spray untuk wudhu.\n\n**Waktu solat sama dengan Malaysia?**\nZon waktu sama (UTC+8), jadi hampir sama. Kerana lebih ke utara: musim sejuk Subuh lewat & Maghrib awal; musim panas Subuh awal & Maghrib lewat. Guna app seperti Muslim Pro untuk waktu tepat.\n\n### C. Visa & Passport\n\n**Perlu visa ke China?**\nTidak — rakyat Malaysia (passport biasa) boleh masuk China tanpa visa sehingga 30 hari setiap lawatan, di bawah pengecualian visa China–Malaysia yang dilanjutkan sehingga 31 Dis 2026.\n\n**Ada borang/QR wajib sebelum masuk?**\nYa — lengkapkan China Arrival Card (borang ketibaan) sebelum/semasa ketibaan. Sediakan juga bukti tiket balik & tempahan penginapan.\n\n**Arrival card — kanak-kanak kena isi juga?**\nYa. Kedua-dua dewasa dan kanak-kanak perlu isi. Untuk kanak-kanak, butiran boleh diisi di bahagian accompanying family members.\n\n**Salah isi arrival form, boleh edit?**\nTidak boleh diedit. Kalau ada ralat, apply semula borang baharu.\n\n**Inviter details — nombor telefon perlu letak 86?**\nTidak perlu letak kod 86. Isi nombor seperti biasa.\n\n**Perlu register fingerprint masa turun plane?**\nTidak perlu register di mesin self-declaration. Biasanya ada announcement selepas landing menyuruh register fingerprint sebelum immigration — boleh skip, jimat masa.\n\n**Flow turun kapal di Kunming macam mana?**\n1) Turun plane, skip mesin self-declaration fingerprint. 2) Immigration screening. 3) Isi arrival form (pastikan semua details lengkap). 4) Immigration. 5) Claim luggage — meeting point kita.\n\n**Passport kena sah berapa lama?**\nSekurang-kurangnya 6 bulan dari tarikh trip. Pastikan passport tidak rosak/koyak. Semak tarikh luput awal-awal.\n\n**Anak bawah 18 tahun perlu surat beranak?**\nKalau bersama parents, cukup passport sahaja. Boleh sediakan salinan surat beranak sebagai standby.\n\n**Bukan warganegara Malaysia macam mana?**\nSyarat visa mungkin berbeza mengikut kewarganegaraan. Minta customer semak dengan kedutaan China / consultant lebih awal.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak — pakej Ground & Tipping sahaja. Tiket flight, bagasi, in-flight meal & airport tax TIDAK termasuk.\n\n**Kenapa kena book RETURN flight, bukan one-way?**\nTiga sebab: (1) Immigration China minta bukti tiket balik semasa ketibaan. (2) Harga return jauh lebih murah dari dua one-way. (3) Slot flight balik dari Kunming terhad (petang ~5:55 PM atau awal pagi ~2:30 AM) — kalau book one-way dahulu, guest berisiko tiada seat balik pada tarikh yang padan dengan tamat tour. Sentiasa quote & book pergi-balik sekali.\n\n**Flight ke Kunming dari KL macam mana?**\nPenerbangan terus KUL ke Kunming (KMG) ~3 jam 45 minit. Pilihan utama: AirAsia AK 103 (9:40 PM, harian) & Batik Air OD 670 (9:50 PM, Isnin & Rabu–Ahad). Kedua-duanya tiba awal pagi hari berikutnya.\n\n**Flight balik dari Kunming ada pilihan apa?**\nTiga: AK 104 (2:30 AM, tiba KUL 6:25 AM, harian) · OD 671 (2:35 AM, tiba KUL 6:35 AM) · AK 102 (5:55 PM, tiba KUL 9:55 PM). Slot awal pagi = guest habiskan Day akhir sepenuhnya. Slot petang 5:55 PM = transfer ke airport selepas lunch, trip tamat lebih awal. Rujuk tab Flight & Airport untuk padanan penuh.\n\n**Sampai airport mana?**\nKunming Changshui International Airport (KMG).\n\n**Bagasi berapa kg? Boleh share dengan family?**\nAirAsia: 20kg/pax. Boleh kongsi allowance dengan ahli keluarga — contoh 3 orang = 60kg total. Setiap pax maksimum 2 luggage, dan tiada satu beg boleh melebihi 32kg.\n\n**Power bank & bateri — boleh check-in?**\nTIDAK. Power bank dan semua jenis bateri WAJIB dalam hand carry, tidak boleh dalam check-in luggage. Power bank tanpa logo CCC berisiko dirampas di China — bawa yang ada logo CCC.\n\n**Hand carry — apa tak boleh bawa?**\nCecair melebihi 100ml (kena check-in); cecair 100ml ke bawah perlu dibungkus dalam plastik yang diikat ketat. Barang tajam (gunting kecil, mata pisau pencukur, pembuka botol, pemotong kuku) tidak boleh — kena check-in.\n\n**Beg susu anak dikira dalam hand carry?**\nYa. Infant bawah 2 tahun tiada baggage allowance; hanya stroller free of charge. Botol susu, pampers, swaddle, milk powder & tisu dikira dalam cabin allowance (7kg) penjaga/parents.\n\n**Stroller kena check-in?**\nTidak. Inform staf kaunter semasa check-in untuk dapatkan tag. Stroller tidak dikira hand luggage dan boleh dibawa sampai ke pintu kapal — assistant akan ambil di pintu pesawat.\n\n**Wrap bag perlu?**\nTidak wajib, tetapi disyorkan untuk luggage keras. Boleh wrap sebelum briefing & check-in di KLIA2. Plastik yang sama boleh diguna semula untuk wrap balik.\n\n**Boleh pilih/booking seat dalam flight?**\nTidak — tiket group booking, seat ditetapkan random oleh airline. Airport Conductor & Tour Leader akan susun seating supaya ahli keluarga duduk berdekatan, dengan keutamaan kepada keluarga dengan anak kecil & warga emas.\n\n**Boleh preorder in-flight meal terus dari AirAsia?**\nTidak — kami tidak berikan nombor booking flight kepada peserta kerana tiket dibeli secara group booking. Guest boleh beli meal di atas flight; sediakan cash MYR.\n\n**Rokok boleh bawa?**\nBoleh, maksimum 1 karton (200 puntung rokok).\n\n**Heat pack — hand carry atau check-in?**\nDisposable heat pack disyorkan simpan dalam check-in luggage.\n\n**Kena sampai airport berapa awal?**\nBerada di boarding gate sekurang-kurangnya 1 jam 15 minit sebelum berlepas. Airport Conductor akan maklum masa & tempat berkumpul dalam WhatsApp group.\n\n**Ada connecting domestic flight?**\nSemak trip validity dengan staff sebelum book sebarang connecting domestic flight.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\nHotel 4-Star tempatan ikut bandar: Kunming (Country Inn & Suites by Radisson / Ramada Encore / Howard Johnson), Dali (WenYue), Lijiang (Kyriad), Shangri La (LanOu) — atau setaraf.\n\n**Berapa malam & di mana?**\n3W: 5 malam (Kunming, Dali, Lijiang x2, Kunming). 4W: 6 malam (tambah Shangri La 1 malam). Guest akan tukar hotel beberapa kali sebab trip merentas beberapa bandar.\n\n**Boleh upgrade hotel?**\nUntuk tier 4–5 pax, upgrade 4-star +RM240/pax. Sahkan pilihan lain dengan operator.\n\n**Bilik untuk single?**\nSingle Supplement +RM600/pax (3W) atau +RM700/pax (4W).\n\n**Dalam bilik hotel ada iron?**\nKebiasaannya ya — hotel di China sediakan iron & ironing board dalam bilik.\n\n**Ada laundry di hotel?**\nKebiasaannya hotel di China ada laundry room. Rujuk Tour Guide/Tour Leader semasa di hotel untuk tahu di tingkat mana.\n\n**Bila itinerari & hotel final?**\nDisahkan sekurang-kurangnya 15 hari sebelum trip.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik ke Yunnan?**\nSpring (Mac–Mei, 15–25°C) & Autumn (Sep–Nov, 10–25°C) paling selesa & kurang hujan. Summer hijau tapi ramai + kerap hujan. Winter sejuk (-4 hingga 15°C) — peluang nampak salji di JDSM/Shangri La.\n\n**Yunnan ada salji tak?**\nUmumnya tiada di bandar (Yunnan di selatan China). Masa winter boleh nampak salji di Jade Dragon Snow Mountain atau Shangri La.\n\n**Perlu kasut snow?**\nTidak wajib. Sport shoes atau kasut yang selesa sudah memadai. Kalau boleh dapat kasut water resistant / snow boots, lebih baik terutama musim winter di JDSM & Shangri La. Bawa stokin lebih — in case kasut atau stokin basah.\n\n**Thermal wear — pakai dari Malaysia atau salin di sana?**\nSebaiknya salin di sana. Pakai baju yang selesa untuk flight; risau panas & kurang selesa kalau pakai thermal wear dari Malaysia.\n\n**Di mana beli hot pack?**\nBoleh cari di Daiso atau Decathlon di Malaysia. Boleh juga beli di sana — minta tour guide atau Tour Leader assist.\n\n**Pakaian apa nak bawa?**\nWinter/Autumn: thermal wear, sweater, coat. Spring/Summer: pakaian ringan. Sentiasa bawa jaket untuk JDSM (puncak sejuk) + topi/cermin mata hitam untuk sunburn di puncak. Semak suhu terkini di accuweather.com.\n\n### G. Shopping & Duit\n\n**Guna duit apa?**\nRenminbi (RMB / Chinese Yuan / CNY). Denominasi biasa: 1, 5, 10, 20, 50, 100 Yuan.\n\n**Cara bayar di sana?**\nTunai diterima (kedai kecil/luar bandar). Kad kredit/debit di hotel & pusat besar (aktifkan untuk luar negara). E-wallet/QR sangat popular — Alipay, WeChat Pay, Touch'N Go. Pastikan e-wallet ada baki cukup.\n\n**Perlu setup account Alipay?**\nTidak perlu. Touch'N Go eWallet sudah mencukupi kerana ia guna sistem yang sama dengan Alipay di China. Ini pilihan yang kami syorkan.\n\n**Touch'N Go diterima meluas di sana?**\nYa — TNG eWallet guna sistem yang sama dengan Alipay. Walau begitu, sediakan juga cash untuk kedai-kedai kecil.\n\n**Boleh guna WeChat Pay, Wise card atau Maybank QR?**\nWeChat Pay boleh, tetapi proses installation agak rumit — TNG lebih mudah. Maybank QR boleh digunakan. Wise card boleh guna tetapi perlu link dengan Alipay. Kalau ada notifikasi akaun Alipay restricted, minta guest check dengan bank/Wise — kami tidak boleh selesaikan isu akaun pihak ketiga.\n\n**Berapa duit poket dicadangkan?**\nSekitar RM200–RM500 seorang. Tukar duit siap di Malaysia & isi e-wallet awal. Jangan bawa tunai banyak. Isytihar jika bawa >5,000 RMB / setara 5,000 USD.\n\n**Shopping stop bila & di mana?**\nSouvenir shopping di Nanping Pedestrian Street, Kunming — Day 5 untuk 3 Wilayah, Day 6 untuk 4 Wilayah. Ada juga peluang beli souvenir di Lijiang Ancient Town & Dali Ancient Town. TIADA shopping stop paksa / tourist trap dalam pakej ARBA.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM500/pax deposit. Full payment 45 hari sebelum ketibaan.\n\n**Harga sah berapa lama?**\n24 jam selepas quotation dihantar. Tertakluk pada perubahan.\n\n**Late booking ada surcharge?**\nYa — RM50/booking untuk tempahan <45 hari sebelum bertolak.\n\n**Extra hour driver/guide bayar macam mana?**\nBayar TUNAI di sana. Private transport & guide asas 10 jam sehari. Extra hour driver & guide: RM160/jam (Product Cheatsheet 2026) — kadar ini meliputi kedua-duanya. Rujuk tab Simple Customisation untuk kadar penuh.\n\n### I. Add-ons & Customization\n\n**Ada spot tambahan / optional?**\nExtra hour driver & guide RM160/jam (bayar TUNAI di sana). Extra 1 malam + 1 day tour, extra day tour sahaja (+RM400/pax), Indian/Arabic meals (RM80/pax/meal) dan upgrade bullet train — rujuk tab Simple Customisation untuk kadar penuh.\n\n**Boleh tambah wifi / insurans?**\nBoleh — pocket wifi (ada VPN, akses WhatsApp/Google tanpa sekatan) & travel insurance boleh ditambah (tidak termasuk pakej).\n\n**Yi Ethnic Costume / hanfu — bayar di sana boleh?**\nBoleh. Add-on Yi Ethnic Costume dan sewa hanfu boleh dibayar terus di sana — guest cuma perlu maklum kepada Tour Leader untuk assist proses sewa.\n\n### J. Kesihatan, Keselamatan & Emergency\n\n**Kenapa Yunnan dianggap kawasan high altitude?**\nKuala Lumpur hanya 139m atas paras laut. Semua bandar dalam itinerari Yunnan jauh lebih tinggi: Kunming 1,895m · Tiger Leaping Gorge 1,800m · Dali 2,090m · Lijiang 2,410m · Shangri La 3,300m · puncak Jade Dragon Snow Mountain 4,506m — lebih tinggi dari Gunung Kinabalu (4,095m). Pada 4,500m, oksigen yang ada untuk badan kira-kira 40% lebih rendah berbanding paras laut, jadi guest boleh alami Acute Mountain Sickness (AMS). Rujuk tab Shopping & Tips untuk carta perbandingan ketinggian.\n\n**Apa tanda AMS & apa perlu buat?**\nTanda biasa: sakit kepala, pening, loya, sesak nafas, letih luar biasa, susah tidur. Kalau berlaku — berhenti bergerak, rehat, minum air, guna oxygen canister, dan maklum kepada guide/Tour Leader SEGERA. Jangan paksa teruskan naik. Rawatan paling berkesan ialah turun ke altitud lebih rendah.\n\n**Siapa paling berisiko?**\nWarga emas, kanak-kanak, guest yang ada masalah jantung/paru-paru, anemia, atau tidak pernah ke kawasan tinggi. Kami syorkan guest berisiko dapatkan clearance doktor sebelum book.\n\n**Perlu bawa ubat untuk high altitude? Kena preskripsi?**\nBoleh bawa kalau perlu. Ubat yang paling biasa disebut ialah Diamox (Acetazolamide 250mg) untuk cegah/kurangkan AMS — di Malaysia ia ubat berpreskripsi, jadi guest WAJIB rujuk doktor atau ahli farmasi dahulu untuk dos & kesesuaian (ada kontraindikasi seperti alahan sulfa, masalah buah pinggang, ibu mengandung/menyusu). ARBA tidak preskripsi atau bekalkan ubat ini. Untuk tujuan kastam, ubat OTC seperti panadol & ubat selsema tidak perlu preskripsi.\n\n**Oxygen canister — beli di Malaysia atau di sana?**\nBeli di sana. Harga sekitar 50 Yuan/tangki, dijual di Lijiang. Sebelum naik JDSM, bas akan singgah di satu tempat pembelian oxygen tank dan Tour Leader akan assist. Kami syorkan beli terutama untuk warga emas & kanak-kanak.\n\n**Berapa tangki oksigen diperlukan seorang?**\nCadangan: 1 tangki di JDSM + 1 tangki di Shangri La (untuk pakej 4 Wilayah). Ini optional sahaja — guest boleh rujuk Tour Leader untuk maklumat lanjut.\n\n**Tips elak AMS sebelum naik JDSM?**\nMinum air banyak, tidur cukup malam sebelum, elak makan terlalu berat, elak merokok, bergerak perlahan-lahan di puncak (jangan berlari atau naik tangga cepat), dan pakai jaket tebal kerana sejuk memburukkan gejala.\n\n**Ubat preskripsi (darah tinggi, kencing manis) macam mana?**\nBawa bersama surat doktor sebagai bukti guest memang perlu ambil ubat tersebut. Surat boleh didapatkan dari mana-mana klinik jika yang asal hilang.\n\n**Portable nebuliser boleh bawa?**\nBoleh dibawa on board. Kalau ada surat doktor, bawa sekali.\n\n**Cable car boleh tutup?**\nYa — cable car JDSM mungkin ditutup jika angin kencang atau penyelenggaraan. Alternatif: lawat kawasan kaki gunung seperti Blue Moon Valley & Dry Sea.\n\n**Keselamatan barang?**\nChina ramai pelancong & kawasan sesak — jaga barang peribadi, berhati-hati saku/beg di tempat awam & pintu masuk.\n\n### K. Praktikal (SIM, Socket, Toilet, Internet)\n\n**Internet di China?**\nFacebook, Instagram, TikTok, Google (Gmail/YouTube) & WhatsApp disekat. Guna pocket wifi (ada VPN) atau roaming Malaysia (SIM Malaysia yang aktif). JANGAN beli SIM lokal China. Muat turun Google Translate/WeChat Translator awal.\n\n**eSIM ok tak?**\nKurang disarankan — banyak apps disekat di China, jadi ada risiko app tertentu tidak boleh digunakan dengan eSIM tempatan. Kami syorkan roaming Malaysia atau pocket wifi.\n\n**Roaming — perlu VPN? Bila turn on?**\nCheck dengan telco provider sama ada pakej roaming mereka termasuk VPN. Turn on roaming SELEPAS sampai di China, bukan sebelum berlepas.\n\n**Pocket wifi — bila dapat & boleh share berapa telefon?**\nSatu pocket wifi boleh dikongsi untuk 3 telefon. Pocket wifi diberikan di airport pada hari berlepas — wakil kami akan pickup & distribute semasa assembly & briefing.\n\n**WhatsApp / TikTok boleh guna?**\nDisekat kalau guna line tempatan China. Boleh guna seperti biasa jika sambung melalui pocket wifi (roamingman) atau roaming Malaysia — off mobile data telefon dan connect ke pocket wifi.\n\n**Plug socket jenis apa?**\nBerbeza dari Malaysia — bawa travel universal adapter. Digalakkan bawa extension plug. Simpan power bank/charger/adapter dalam hand carry.\n\n**Toilet ada paip/hose?**\nKebanyakan tandas TIADA paip/bidet — bawa botol spray & tisu untuk wudhu & kegunaan tandas.\n\n**Language barrier?**\nBahasa utama Mandarin & dialek tempatan; ramai penduduk tidak fasih English. Guna app terjemahan.\n\n### L. Packing / Barang Bawa\n\n**Barang basic untuk trip Yunnan? (checklist)**\nPassport, sweater/light jacket/thermal (Spring/Autumn), winter coat/thermal (Winter), telekung & sejadah travel, botol spray kosong (wudhu), tisu/wet wipes, stokin 2+ pasang (bawa lebih), kasut selesa/sneakers atau water resistant boots, peralatan mandian & solek, ubat peribadi + surat doktor untuk ubat preskripsi, universal adapter plug, payung kecil, tuala travel, baju hujan/poncho, power bank (hand carry, logo CCC), hot pack, duit poket (RM200–RM500), snek kering bukan daging.\n\n**Nota pakaian penting?**\nPakai kasut/sneakers selesa (banyak berjalan) — elak kasut tumit tinggi. Bawa payung/baju hujan terutama musim luruh. Untuk JDSM & Shangri La, jaket tebal wajib walaupun musim panas.\n\n**Apa yang TIDAK boleh dibawa?**\nPower bank/bateri dalam check-in luggage · RTE self-heating · produk daging (serunding, rendang, sambal daging) · buah & sayur segar · barang tajam dalam hand carry · cecair melebihi 100ml dalam hand carry · lebih 1 karton rokok."
+ },
+ "calc": {
+  "dest": "Yunnan",
+  "currency": "RM",
+  "deposit": 500,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;5)"
+  },
+  "infantNote": "Infant bawah 2 tahun: FOC",
+  "singleNote": "Single supplement 3 Wilayah RM 600/pax &middot; 4 Wilayah RM 700/pax",
+  "intro": "Kadar katalog PT Yunnan v1 (29 Jul 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "hideGeneric": [
+   "fe",
+   "ext"
+  ],
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "extincl"
+  },
+  "autoAddonQty": true,
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 60,
+   "drop": 30
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 4 bintang (dalam pakej)",
+    "cost": "incl",
+    "hotel": "4-Star Hotel",
+    "incl": "Accommodation with International Breakfast on sharing basis, Local 4-Star Hotel ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan + day tour (kadar katalog)",
+    "cost": "night",
+    "nightRate": "extNight",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night with day tour",
+    "incl": "Accommodation with International Breakfast on sharing basis, Local 4-Star Hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel &ndash; tolak 1 malam + day tour dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "ld",
+    "t": "Breakfast, Lunch &amp; Dinner (dalam pakej)",
+    "l": 1,
+    "d": 1,
+    "b": 0,
+    "lbl": "International Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Breakfast &amp; Lunch",
+    "l": 1,
+    "d": 0,
+    "b": 0,
+    "lbl": "International Breakfast, Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Breakfast &amp; Dinner",
+    "l": 0,
+    "d": 1,
+    "b": 0,
+    "lbl": "International Breakfast, Dinner"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast hotel sahaja",
+    "l": 0,
+    "d": 0,
+    "b": 0,
+    "lbl": "International Breakfast"
+   },
+   {
+    "v": "none",
+    "t": "Tiada makan (hari ketibaan)",
+    "l": 0,
+    "d": 0,
+    "b": 0,
+    "lbl": "-"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + English Speaking Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport",
+    "incl": "Private Transportation on 10 hours basis with English Speaking Tour Guide ({days})"
+   },
+   {
+    "v": "train",
+    "t": "Bullet Train 2nd Class + Private Transport (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport, Bullet Train",
+    "incl": "Bullet Train Second Class Seat ({days})"
+   },
+   {
+    "v": "air",
+    "t": "Private Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Private Airport Transfer",
+    "incl": "Private Airport Transfer ({days})"
+   },
+   {
+    "v": "airtrp",
+    "t": "Private Airport Transfer + tour hari itu (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport, Airport Transfer",
+    "incl": "Private Airport Transfer with private transportation and English Speaking Tour Guide ({days})"
+   },
+   {
+    "v": "extincl",
+    "t": "Transport + guide + meals (sudah termasuk dalam malam tambahan)",
+    "cost": "zero",
+    "guided": true,
+    "lbl": "Private Transport",
+    "incl": "Private Transportation on 10 hours basis with English Speaking Tour Guide ({days})"
+   },
+   {
+    "v": "daytour",
+    "t": "Day tour tambahan &ndash; transport + guide + meals (tanpa hotel)",
+    "cost": "zero",
+    "perPaxRate": "dayTour",
+    "guided": true,
+    "lbl": "Private Transport",
+    "line": "Additional day tour",
+    "incl": "Additional day tour with transport, guide and meals ({days})"
+   },
+   {
+    "v": "apick",
+    "t": "Tambah airport transfer pick up",
+    "cost": "incl",
+    "perVehicleRate": "airT",
+    "lbl": "Private Airport Transfer",
+    "line": "Airport transfer pick up",
+    "incl": "Private Airport Transfer ({days})"
+   },
+   {
+    "v": "adrop",
+    "t": "Tambah airport transfer drop off",
+    "cost": "incl",
+    "perVehicleRate": "airT",
+    "lbl": "Private Airport Transfer",
+    "line": "Airport transfer drop off",
+    "incl": "Private Airport Transfer ({days})"
+   },
+   {
+    "v": "acut",
+    "t": "Buang airport transfer &ndash; tolak dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "airTCut",
+    "lbl": "-",
+    "line": "Less airport transfer"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "t": "Kuala Lumpur - Kunming (ketibaan)",
+    "en": "KUALA LUMPUR - KUNMING",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "air",
+    "region": "[Kunming]",
+    "act": [
+     "Suggested flight: AirAsia atau Batik Air",
+     "Tiba di Kunming Changshui Intl Airport (KMG)",
+     "Airport pickup & transfer ke hotel Kunming",
+     "Check-in hotel, rehat"
+    ],
+    "eact": [
+     "Suggested flight: AirAsia or Batik Air",
+     "Arrive in Kunming Changshui Intl Airport",
+     "Airport pickup",
+     "Transfer to hotel in Kunming and check in",
+     "Rest for the day"
+    ],
+    "v": "Larr",
+    "g": "Kunming - ketibaan & pulang"
+   },
+   {
+    "t": "Kunming City Tour + Airport Transfer (pulang)",
+    "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+    "acc": "none",
+    "meal": "ld",
+    "trp": "airtrp",
+    "region": "[Kunming]",
+    "act": [
+     "Check out hotel",
+     "Shilin Stone Forest (UNESCO, incl buggy)",
+     "Kunming Waterfall Park",
+     "Yongning Mosque",
+     "Selepas dinner, transfer ke airport untuk flight awal pagi",
+     "Nota: guest dengan flight petang transfer selepas lunch"
+    ],
+    "eact": [
+     "After breakfast, check out from hotel",
+     "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+     "Kunming Waterfall Park",
+     "Visit Yongning Mosque",
+     "After dinner, transfer to airport for midnight flight"
+    ],
+    "v": "Ldep",
+    "g": "Kunming - ketibaan & pulang"
+   },
+   {
+    "v": "Ldepo",
+    "t": "Check-out + airport transfer pulang (tanpa tour)",
+    "en": "KUNMING DEPARTURE",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Kunming]",
+    "act": [
+     "Check out hotel",
+     "Private airport transfer ke Kunming Changshui Intl Airport"
+    ],
+    "eact": [
+     "Check out hotel",
+     "Private airport transfer to Kunming Changshui Intl Airport"
+    ],
+    "g": "Kunming - ketibaan & pulang"
+   },
+   {
+    "v": "Lkmgcity",
+    "t": "Kunming City Tour (Shilin, Waterfall Park, Yongning Mosque)",
+    "en": "KUNMING CITY TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Kunming]",
+    "act": [
+     "Shilin Stone Forest (UNESCO, incl buggy)",
+     "Kunming Waterfall Park",
+     "Yongning Mosque"
+    ],
+    "eact": [
+     "Shilin Stone Forest, UNESCO rated limestone formations (include buggy)",
+     "Kunming Waterfall Park",
+     "Visit Yongning Mosque"
+    ],
+    "g": "Kunming"
+   },
+   {
+    "v": "Lkmgtown",
+    "t": "Kunming - Nanping Street & Shuncheng Mosque",
+    "en": "KUNMING CITY",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Kunming]",
+    "act": [
+     "Nanping Pedestrian Street (souvenir shopping)",
+     "Shuncheng Mosque (seni bina Cina + Islam)"
+    ],
+    "eact": [
+     "Nanping Pedestrian Street for souvenir shopping",
+     "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture"
+    ],
+    "g": "Kunming"
+   },
+   {
+    "t": "Kunming - Dali [Bullet Train]",
+    "en": "KUNMING - DALI [BULLET TRAIN]",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "train",
+    "region": "[Dali]",
+    "act": [
+     "Check out hotel, bullet train ke Dali (~2 jam)",
+     "Dali Foreigner Street & Dali Ancient Town",
+     "Dali Santorini (incl return buggy)",
+     "Dinner & check-in hotel Dali"
+    ],
+    "eact": [
+     "After breakfast, check out hotel",
+     "Transfer to Dali by Bullet Train (~2 hours)",
+     "Dali Foreigner Street and Dali Ancient Town",
+     "Dali Santorini (include return buggy)",
+     "Dinner and check in hotel in Dali"
+    ],
+    "v": "Ldali1",
+    "g": "Dali"
+   },
+   {
+    "t": "Dali - Lijiang",
+    "en": "DALI - LIJIANG",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Lijiang]",
+    "act": [
+     "Check out hotel",
+     "Dali Erhai Lake (incl boat tour)",
+     "Transfer ke Lijiang secara private transport (~3 jam)",
+     "Lijiang Ancient City tour (warisan UNESCO)",
+     "Dinner & check-in hotel Lijiang"
+    ],
+    "eact": [
+     "After breakfast, check out hotel",
+     "Visit Dali Erhai Lake (include boat tour)",
+     "Transfer to Lijiang by private transport (~3 hour drive)",
+     "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+     "Dinner and check in hotel in Lijiang"
+    ],
+    "v": "Ldali2",
+    "g": "Dali"
+   },
+   {
+    "v": "Ldalitown",
+    "t": "Dali Ancient Town, Foreigner Street & Santorini",
+    "en": "DALI TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Dali]",
+    "act": [
+     "Dali Foreigner Street & Dali Ancient Town",
+     "Dali Santorini (incl return buggy)"
+    ],
+    "eact": [
+     "Dali Foreigner Street and Dali Ancient Town",
+     "Dali Santorini (include return buggy)"
+    ],
+    "g": "Dali"
+   },
+   {
+    "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+    "en": "LIJIANG TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Lijiang]",
+    "act": [
+     "Jade Dragon Snow Mountain (cable car ~4,506m)",
+     "Lijiang Impression Show",
+     "Blue Moon Valley & White Water River (incl battery car)",
+     "Dongbaqu (taman budaya warisan Naxi)",
+     "Dry Sea (padang rumput kaki JDSM)",
+     "Lijiang Mosque",
+     "Dinner & kembali ke hotel Lijiang"
+    ],
+    "eact": [
+     "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+     "Lijiang Impression Show",
+     "Blue Moon Valley and White Water River (include battery car)",
+     "Dongbaqu, a cultural park of Naxi heritage",
+     "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+     "Lijiang Mosque",
+     "Dinner and back to hotel in Lijiang"
+    ],
+    "v": "Lljtour",
+    "g": "Lijiang"
+   },
+   {
+    "t": "Lijiang - Kunming [Bullet Train]",
+    "en": "LIJIANG - KUNMING [BULLET TRAIN]",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "train",
+    "region": "[Kunming]",
+    "act": [
+     "Check out hotel",
+     "Black Dragon Pool (tasik latar Snow Mountain)",
+     "Bullet train ke Kunming (~4-4.5 jam)",
+     "Nanping Pedestrian Street (souvenir shopping)",
+     "Shuncheng Mosque (seni bina Cina + Islam)",
+     "Dinner & check-in hotel Kunming"
+    ],
+    "eact": [
+     "After breakfast, check out from hotel",
+     "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+     "Transfer to Kunming by bullet train (~4 to 4.5 hours)",
+     "Nanping Pedestrian Street for souvenir shopping",
+     "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+     "After dinner, check in to hotel at Kunming"
+    ],
+    "v": "Lljkmg",
+    "g": "Lijiang"
+   },
+   {
+    "v": "Lljcity",
+    "t": "Lijiang Ancient City & Black Dragon Pool",
+    "en": "LIJIANG CITY TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Lijiang]",
+    "act": [
+     "Lijiang Ancient City tour (warisan UNESCO)",
+     "Black Dragon Pool",
+     "Lijiang Mosque"
+    ],
+    "eact": [
+     "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+     "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+     "Lijiang Mosque"
+    ],
+    "g": "Lijiang"
+   },
+   {
+    "t": "Lijiang - Shangri La",
+    "en": "LIJIANG - SHANGRI LA",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Shangri La]",
+    "act": [
+     "Check out hotel",
+     "Black Dragon Pool (tasik latar Snow Mountain)",
+     "Transfer ke Shangri La secara private transport (~2 jam)",
+     "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+     "Dukezong Ancient Town",
+     "Dinner & check-in hotel Shangri La"
+    ],
+    "eact": [
+     "After breakfast, check out from hotel",
+     "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+     "Transfer to Shangri La by private transport (~2 hour drive)",
+     "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+     "Dukezong Ancient Town",
+     "After dinner, check in to hotel at Shangri La"
+    ],
+    "v": "Lsl1",
+    "g": "Shangri La"
+   },
+   {
+    "t": "Shangri La - Kunming [Bullet Train]",
+    "en": "SHANGRI LA - KUNMING [BULLET TRAIN]",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "train",
+    "region": "[Kunming]",
+    "act": [
+     "Check out hotel",
+     "Bullet train ke Kunming (~5-6 jam)",
+     "Nanping Pedestrian Street (souvenir shopping)",
+     "Shuncheng Mosque (seni bina Cina + Islam)",
+     "Dinner & check-in hotel Kunming"
+    ],
+    "eact": [
+     "After breakfast, check out from hotel",
+     "Transfer to Kunming by bullet train (~5 to 6 hours)",
+     "Nanping Pedestrian Street for souvenir shopping",
+     "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+     "After dinner, check in to hotel at Kunming"
+    ],
+    "v": "Lsl2",
+    "g": "Shangri La"
+   },
+   {
+    "v": "Lsltown",
+    "t": "Shangri La - Tiger Leaping Gorge & Dukezong Ancient Town",
+    "en": "SHANGRI LA TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Shangri La]",
+    "act": [
+     "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+     "Dukezong Ancient Town"
+    ],
+    "eact": [
+     "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+     "Dukezong Ancient Town"
+    ],
+    "g": "Shangri La"
+   },
+   {
+    "v": "Lext",
+    "t": "Hari tambahan - malam tambahan + day tour (kadar katalog)",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "ld",
+    "trp": "extincl",
+    "region": "",
+    "act": [
+     "Hari tambahan - kos malam + day tour ikut kadar katalog",
+     "Itinerari hari ini untuk disahkan dengan operator"
+    ],
+    "eact": [
+     "Additional day - itinerary to be confirmed"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "Lday",
+    "t": "Day tour tambahan sahaja (tanpa hotel)",
+    "en": "ADDITIONAL DAY TOUR",
+    "acc": "none",
+    "meal": "ld",
+    "trp": "daytour",
+    "region": "",
+    "act": [
+     "Day tour tambahan - transport + guide + meals, tanpa malam hotel"
+    ],
+    "eact": [
+     "Additional day tour - transport, guide and meals"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "Lfe",
+    "t": "Free & Easy (tiada transport atau guide)",
+    "en": "FREE & EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "none",
+    "region": "",
+    "act": [
+     "Free & easy - tiada transport atau guide"
+    ],
+    "eact": [
+     "Free and easy - no transport or guide"
+    ],
+    "g": "Umum"
+   }
+  ],
+  "peak": {
+   "mode": "perNight",
+   "value": 30,
+   "windows": [
+    [
+     "2026-06-19",
+     "2026-06-21"
+    ],
+    [
+     "2027-06-12",
+     "2027-06-14"
+    ]
+   ]
+  },
+  "extraSurcharge": [
+   {
+    "label": "Peak Season - China Summer Holiday",
+    "dateIn": [
+     "2026-07-01",
+     "2026-08-31"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "Peak Season - China Golden Week",
+    "dateIn": [
+     "2026-10-01",
+     "2026-10-08"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "Peak Season - Christmas and New Year",
+    "dateIn": [
+     "2026-12-22",
+     "2027-01-05"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "Peak Season - China Summer Holiday",
+    "dateIn": [
+     "2027-07-01",
+     "2027-08-31"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "Peak Season - China Golden Week",
+    "dateIn": [
+     "2027-10-01",
+     "2027-10-08"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "Peak Season - Christmas and New Year",
+    "dateIn": [
+     "2027-12-22",
+     "2028-01-05"
+    ],
+    "perPax": 300
+   },
+   {
+    "label": "2027 travel surcharge",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100
+   }
+  ],
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "addons": [
+   [
+    "Bullet train 1st Class upgrade, 3 Wilayah - per pax per way",
+    100,
+    100,
+    "unit"
+   ],
+   [
+    "Bullet train 1st Class upgrade, 4 Wilayah - per pax per way",
+    120,
+    120,
+    "unit"
+   ],
+   [
+    "Bullet train Business Class upgrade - per pax per way",
+    300,
+    300,
+    "unit"
+   ],
+   [
+    "Luggage van for bullet train, 3 Wilayah - per one way",
+    650,
+    0,
+    "share"
+   ],
+   [
+    "Luggage van for bullet train, 4 Wilayah 2-4 pax - per one way",
+    750,
+    0,
+    "share"
+   ],
+   [
+    "Luggage van for bullet train, 4 Wilayah 5-6 pax - per one way",
+    650,
+    0,
+    "share"
+   ],
+   [
+    "Additional 4-Star hotel night, 3 Wilayah - per room per night",
+    200,
+    0,
+    "unit"
+   ],
+   [
+    "Additional 4-Star hotel night, 4 Wilayah - per room per night",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Less one hotel night - per room per night",
+    -100,
+    0,
+    "unit"
+   ],
+   [
+    "Indian or Arabic meal surcharge - per pax per meal",
+    30,
+    30,
+    "unit"
+   ],
+   [
+    "Upgrade to 4-Star hotel - per pax (kadar muka depan katalog)",
+    240,
+    240,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 3,
+    "text": "2&ndash;3 pax: MPV 7-seater &mdash; ruang bagasi paling terhad, nasihat 1 luggage besar + 1 hand carry seorang"
+   },
+   {
+    "from": 4,
+    "to": 5,
+    "text": "4&ndash;5 pax: MPV / Van 9-seater"
+   },
+   {
+    "from": 6,
+    "to": 9,
+    "text": "6&ndash;9 pax: Bus 17-seater"
+   },
+   {
+    "from": 10,
+    "to": 14,
+    "text": "10&ndash;14 pax: Bus 26 atau 38-seater"
+   },
+   {
+    "from": 15,
+    "to": 99999,
+    "text": "15 pax ke atas: katalog hanya beri harga sehingga 14 pax. Kadar extension &amp; airport transfer di luar band akan papar <i>kadar belum diisi</i> &mdash; quote manual dengan operator."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room and covers <b>Ground &amp; Tipping only</b> &mdash; international flight tickets are not included. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies for bookings made less than 45 days before departure. Private transportation and tour guide are based on a 10 hour basis; every extra hour is chargeable at RM 160 per hour and must be paid in cash on the ground. Fare is not applicable during peak seasons; please refer to the peak season surcharge. Blackout dates: Chinese New Year 14&ndash;22 February 2026 and Labor Day 1&ndash;5 May 2026. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. Itinerary, price and flight schedule are subject to change. This package is valid for travel until 31 December 2026.",
+  "variants": [
+   {
+    "id": "w3",
+    "name": "PT Yunnan 3 Wilayah (6D5N)",
+    "pkgLabel": "Yunnan 3 Wilayah - Kunming, Dali, Lijiang",
+    "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+    "hotelLabel": "4-Star Hotel",
+    "days": 6,
+    "nights": 5,
+    "infant": 0,
+    "single": 600,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 3,
+      "a": 4997,
+      "c": 4797,
+      "n": 4597
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 4097,
+      "c": 3897,
+      "n": 3697
+     },
+     {
+      "from": 6,
+      "to": 9,
+      "a": 3697,
+      "c": 3497,
+      "n": 3297
+     },
+     {
+      "from": 10,
+      "to": 14,
+      "a": 3197,
+      "c": 2997,
+      "n": 2797
+     }
+    ],
+    "itin": [
+     {
+      "t": "Kuala Lumpur - Kunming (ketibaan)",
+      "en": "KUALA LUMPUR - KUNMING",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "region": "[Kunming]",
+      "act": [
+       "Suggested flight: AirAsia atau Batik Air",
+       "Tiba di Kunming Changshui Intl Airport (KMG)",
+       "Airport pickup & transfer ke hotel Kunming",
+       "Check-in hotel, rehat"
+      ],
+      "eact": [
+       "Suggested flight: AirAsia or Batik Air",
+       "Arrive in Kunming Changshui Intl Airport",
+       "Airport pickup",
+       "Transfer to hotel in Kunming and check in",
+       "Rest for the day"
+      ],
+      "v": "d1"
+     },
+     {
+      "t": "Kunming - Dali [Bullet Train]",
+      "en": "KUNMING - DALI [BULLET TRAIN]",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "train",
+      "region": "[Dali]",
+      "act": [
+       "Check out hotel, bullet train ke Dali (~2 jam)",
+       "Dali Foreigner Street & Dali Ancient Town",
+       "Dali Santorini (incl return buggy)",
+       "Dinner & check-in hotel Dali"
+      ],
+      "eact": [
+       "After breakfast, check out hotel",
+       "Transfer to Dali by Bullet Train (~2 hours)",
+       "Dali Foreigner Street and Dali Ancient Town",
+       "Dali Santorini (include return buggy)",
+       "Dinner and check in hotel in Dali"
+      ],
+      "v": "d2"
+     },
+     {
+      "t": "Dali - Lijiang",
+      "en": "DALI - LIJIANG",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Lijiang]",
+      "act": [
+       "Check out hotel",
+       "Dali Erhai Lake (incl boat tour)",
+       "Transfer ke Lijiang secara private transport (~3 jam)",
+       "Lijiang Ancient City tour (warisan UNESCO)",
+       "Dinner & check-in hotel Lijiang"
+      ],
+      "eact": [
+       "After breakfast, check out hotel",
+       "Visit Dali Erhai Lake (include boat tour)",
+       "Transfer to Lijiang by private transport (~3 hour drive)",
+       "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+       "Dinner and check in hotel in Lijiang"
+      ],
+      "v": "d3"
+     },
+     {
+      "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+      "en": "LIJIANG TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Lijiang]",
+      "act": [
+       "Jade Dragon Snow Mountain (cable car ~4,506m)",
+       "Lijiang Impression Show",
+       "Blue Moon Valley & White Water River (incl battery car)",
+       "Dongbaqu (taman budaya warisan Naxi)",
+       "Dry Sea (padang rumput kaki JDSM)",
+       "Lijiang Mosque",
+       "Dinner & kembali ke hotel Lijiang"
+      ],
+      "eact": [
+       "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+       "Lijiang Impression Show",
+       "Blue Moon Valley and White Water River (include battery car)",
+       "Dongbaqu, a cultural park of Naxi heritage",
+       "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+       "Lijiang Mosque",
+       "Dinner and back to hotel in Lijiang"
+      ],
+      "v": "d4"
+     },
+     {
+      "t": "Lijiang - Kunming [Bullet Train]",
+      "en": "LIJIANG - KUNMING [BULLET TRAIN]",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "train",
+      "region": "[Kunming]",
+      "act": [
+       "Check out hotel",
+       "Black Dragon Pool (tasik latar Snow Mountain)",
+       "Bullet train ke Kunming (~4-4.5 jam)",
+       "Nanping Pedestrian Street (souvenir shopping)",
+       "Shuncheng Mosque (seni bina Cina + Islam)",
+       "Dinner & check-in hotel Kunming"
+      ],
+      "eact": [
+       "After breakfast, check out from hotel",
+       "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+       "Transfer to Kunming by bullet train (~4 to 4.5 hours)",
+       "Nanping Pedestrian Street for souvenir shopping",
+       "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+       "After dinner, check in to hotel at Kunming"
+      ],
+      "v": "d5"
+     },
+     {
+      "t": "Kunming City Tour + Airport Transfer (pulang)",
+      "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+      "acc": "none",
+      "meal": "ld",
+      "trp": "airtrp",
+      "region": "[Kunming]",
+      "act": [
+       "Check out hotel",
+       "Shilin Stone Forest (UNESCO, incl buggy)",
+       "Kunming Waterfall Park",
+       "Yongning Mosque",
+       "Selepas dinner, transfer ke airport untuk flight awal pagi",
+       "Nota: guest dengan flight petang transfer selepas lunch"
+      ],
+      "eact": [
+       "After breakfast, check out from hotel",
+       "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+       "Kunming Waterfall Park",
+       "Visit Yongning Mosque",
+       "After dinner, transfer to airport for midnight flight"
+      ],
+      "v": "d6"
+     }
+    ],
+    "ext": {
+     "shareVehicle": true,
+     "paxPerVehicle": 14,
+     "marginPerPax": 0,
+     "nightTiers": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 650,
+       "peak": 650
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 850,
+       "peak": 850
+      },
+      {
+       "from": 7,
+       "to": 14,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "rates": {
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 14,
+         "normal": -300,
+         "peak": -300
+        }
+       ]
+      },
+      "dayTour": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 14,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "extNight": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 650,
+         "peak": 650
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 850,
+         "peak": 850
+        },
+        {
+         "from": 7,
+         "to": 14,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "airT": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 150
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 250
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 300
+        },
+        {
+         "from": 13,
+         "to": 14,
+         "normal": null
+        }
+       ]
+      },
+      "airTCut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -100
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -150
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -250
+        },
+        {
+         "from": 13,
+         "to": 14,
+         "normal": null
+        }
+       ]
+      }
+     }
+    },
+    "inclusions": [
+     "{auto}",
+     "Halal Meals as specified in itinerary",
+     "Entrance Fees as specified in itinerary",
+     "Boat tour at Dali Erhai Lake",
+     "Cable Car at Jade Dragon Snow Mountain",
+     "Buggy service at Dali Santorini and Shilin Stone Forest",
+     "Tipping Fee, Parking Fee",
+     "English Speaking Tour Guide"
+    ],
+    "exclusions": [
+     "Return Flight Tickets",
+     "Luggage, In Flight Meal and Airport Tax",
+     "Additional Fees or Tours",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+     "Optional tours and activities not stated above"
+    ]
+   },
+   {
+    "id": "w4",
+    "name": "PT Yunnan 4 Wilayah (7D6N)",
+    "pkgLabel": "Yunnan 4 Wilayah - Kunming, Dali, Lijiang, Shangri La",
+    "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+    "hotelLabel": "4-Star Hotel",
+    "days": 7,
+    "nights": 6,
+    "infant": 0,
+    "single": 700,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 3,
+      "a": 5697,
+      "c": 5497,
+      "n": 5297
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 4497,
+      "c": 4297,
+      "n": 4097
+     },
+     {
+      "from": 6,
+      "to": 9,
+      "a": 4097,
+      "c": 3897,
+      "n": 3697
+     },
+     {
+      "from": 10,
+      "to": 14,
+      "a": 3597,
+      "c": 3397,
+      "n": 3197
+     }
+    ],
+    "itin": [
+     {
+      "t": "Kuala Lumpur - Kunming (ketibaan)",
+      "en": "KUALA LUMPUR - KUNMING",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "region": "[Kunming]",
+      "act": [
+       "Suggested flight: AirAsia atau Batik Air",
+       "Tiba di Kunming Changshui Intl Airport (KMG)",
+       "Airport pickup & transfer ke hotel Kunming",
+       "Check-in hotel, rehat"
+      ],
+      "eact": [
+       "Suggested flight: AirAsia or Batik Air",
+       "Arrive in Kunming Changshui Intl Airport",
+       "Airport pickup",
+       "Transfer to hotel in Kunming and check in",
+       "Rest for the day"
+      ],
+      "v": "d1"
+     },
+     {
+      "t": "Kunming - Dali [Bullet Train]",
+      "en": "KUNMING - DALI [BULLET TRAIN]",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "train",
+      "region": "[Dali]",
+      "act": [
+       "Check out hotel, bullet train ke Dali (~2 jam)",
+       "Dali Foreigner Street & Dali Ancient Town",
+       "Dali Santorini (incl return buggy)",
+       "Dinner & check-in hotel Dali"
+      ],
+      "eact": [
+       "After breakfast, check out hotel",
+       "Transfer to Dali by Bullet Train (~2 hours)",
+       "Dali Foreigner Street and Dali Ancient Town",
+       "Dali Santorini (include return buggy)",
+       "Dinner and check in hotel in Dali"
+      ],
+      "v": "d2"
+     },
+     {
+      "t": "Dali - Lijiang",
+      "en": "DALI - LIJIANG",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Lijiang]",
+      "act": [
+       "Check out hotel",
+       "Dali Erhai Lake (incl boat tour)",
+       "Transfer ke Lijiang secara private transport (~3 jam)",
+       "Lijiang Ancient City tour (warisan UNESCO)",
+       "Dinner & check-in hotel Lijiang"
+      ],
+      "eact": [
+       "After breakfast, check out hotel",
+       "Visit Dali Erhai Lake (include boat tour)",
+       "Transfer to Lijiang by private transport (~3 hour drive)",
+       "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+       "Dinner and check in hotel in Lijiang"
+      ],
+      "v": "d3"
+     },
+     {
+      "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+      "en": "LIJIANG TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Lijiang]",
+      "act": [
+       "Jade Dragon Snow Mountain (cable car ~4,506m)",
+       "Lijiang Impression Show",
+       "Blue Moon Valley & White Water River (incl battery car)",
+       "Dongbaqu (taman budaya warisan Naxi)",
+       "Dry Sea (padang rumput kaki JDSM)",
+       "Lijiang Mosque",
+       "Dinner & kembali ke hotel Lijiang"
+      ],
+      "eact": [
+       "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+       "Lijiang Impression Show",
+       "Blue Moon Valley and White Water River (include battery car)",
+       "Dongbaqu, a cultural park of Naxi heritage",
+       "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+       "Lijiang Mosque",
+       "Dinner and back to hotel in Lijiang"
+      ],
+      "v": "d4"
+     },
+     {
+      "t": "Lijiang - Shangri La",
+      "en": "LIJIANG - SHANGRI LA",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Shangri La]",
+      "act": [
+       "Check out hotel",
+       "Black Dragon Pool (tasik latar Snow Mountain)",
+       "Transfer ke Shangri La secara private transport (~2 jam)",
+       "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+       "Dukezong Ancient Town",
+       "Dinner & check-in hotel Shangri La"
+      ],
+      "eact": [
+       "After breakfast, check out from hotel",
+       "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+       "Transfer to Shangri La by private transport (~2 hour drive)",
+       "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+       "Dukezong Ancient Town",
+       "After dinner, check in to hotel at Shangri La"
+      ],
+      "v": "d5"
+     },
+     {
+      "t": "Shangri La - Kunming [Bullet Train]",
+      "en": "SHANGRI LA - KUNMING [BULLET TRAIN]",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "train",
+      "region": "[Kunming]",
+      "act": [
+       "Check out hotel",
+       "Bullet train ke Kunming (~5-6 jam)",
+       "Nanping Pedestrian Street (souvenir shopping)",
+       "Shuncheng Mosque (seni bina Cina + Islam)",
+       "Dinner & check-in hotel Kunming"
+      ],
+      "eact": [
+       "After breakfast, check out from hotel",
+       "Transfer to Kunming by bullet train (~5 to 6 hours)",
+       "Nanping Pedestrian Street for souvenir shopping",
+       "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+       "After dinner, check in to hotel at Kunming"
+      ],
+      "v": "d6"
+     },
+     {
+      "t": "Kunming City Tour + Airport Transfer (pulang)",
+      "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+      "acc": "none",
+      "meal": "ld",
+      "trp": "airtrp",
+      "region": "[Kunming]",
+      "act": [
+       "Check out hotel",
+       "Shilin Stone Forest (UNESCO, incl buggy)",
+       "Kunming Waterfall Park",
+       "Yongning Mosque",
+       "Selepas dinner, transfer ke airport untuk flight awal pagi",
+       "Nota: guest dengan flight petang transfer selepas lunch"
+      ],
+      "eact": [
+       "After breakfast, check out from hotel",
+       "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+       "Kunming Waterfall Park",
+       "Visit Yongning Mosque",
+       "After dinner, transfer to airport for midnight flight"
+      ],
+      "v": "d7"
+     }
+    ],
+    "ext": {
+     "shareVehicle": true,
+     "paxPerVehicle": 14,
+     "marginPerPax": 0,
+     "nightTiers": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 650,
+       "peak": 650
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 750,
+       "peak": 750
+      },
+      {
+       "from": 7,
+       "to": 14,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "rates": {
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 14,
+         "normal": -300,
+         "peak": -300
+        }
+       ]
+      },
+      "dayTour": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 14,
+         "normal": 400,
+         "peak": 400
+        }
+       ]
+      },
+      "extNight": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 650,
+         "peak": 650
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 750,
+         "peak": 750
+        },
+        {
+         "from": 7,
+         "to": 14,
+         "normal": null,
+         "peak": null
+        }
+       ]
+      },
+      "airT": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 150
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": 250
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": 350
+        },
+        {
+         "from": 13,
+         "to": 14,
+         "normal": 650
+        }
+       ]
+      },
+      "airTCut": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -100
+        },
+        {
+         "from": 5,
+         "to": 6,
+         "normal": -150
+        },
+        {
+         "from": 7,
+         "to": 12,
+         "normal": -250
+        },
+        {
+         "from": 13,
+         "to": 14,
+         "normal": null
+        }
+       ]
+      }
+     }
+    },
+    "inclusions": [
+     "{auto}",
+     "Halal Meals as specified in itinerary",
+     "Entrance Fees as specified in itinerary",
+     "Boat tour at Dali Erhai Lake",
+     "Cable Car at Jade Dragon Snow Mountain",
+     "Escalator at Tiger Leaping Gorge",
+     "Buggy service at Dali Santorini and Shilin Stone Forest",
+     "Tipping Fee, Parking Fee",
+     "English Speaking Tour Guide"
+    ],
+    "exclusions": [
+     "Return Flight Tickets",
+     "Luggage, In Flight Meal and Airport Tax",
+     "Additional Fees or Tours",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+     "Optional tours and activities not stated above"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2714 @@
+{
+ "slug": "kk-kundasang",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA KK-Kundasang — Knowledge Base",
+   "brandTag": "KK–Kundasang KB",
+   "kicker": "ARBA KK–KUNDASANG · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej KK–Kundasang — halal, flight, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: flight ke Kota Kinabalu? · perlu visa? · bila musim terbaik lihat Gunung Kinabalu?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej KK–Kundasang…",
+   "heroImage": "@asset:34a10e107dd1",
+   "overviewTitle": "Pakej Private Tour KK–Kundasang",
+   "statusText": "Snapshot 3 Sept 2026 — katalog PT Sabah 3D2N/4D3N (V3, 1 Julai 2026) & Rate Card Operasi KB KK–Kundasang · Simple Calculator aktif",
+   "footerHtml": "Rujukan dalaman TC — kemas kini <b>3 September 2026</b>. Sumber: katalog PT Sabah 3D2N/4D3N (V3, 1 Julai 2026) &amp; Rate Card Operasi KB KK–Kundasang. Tab <b>Simple Calculator</b> mengira quotation terus daripada kadar ini.<br>Harga, itinerari & jadual flight boleh berubah; sahkan dengan operator/consultant sebelum sahkan kepada customer. Requirement muslim-friendly (halal, surau/masjid) adalah baseline setiap pakej.",
+   "marketing": {
+    "anchors": [
+     "Pekan Kundasang (view Gunung Kinabalu)",
+     "Desa Dairy Farm",
+     "Rumah Terbalik",
+     "Rabbit Farm & Fish Spa",
+     "Jambatan Tamparuli",
+     "Masjid Bandaraya KK",
+     "Pasar Filipino",
+     "Pulau Sapi & Manukan (4D3N)"
+    ],
+    "usp": "USP: Muslim-friendly — makan halal (2–3 breakfast + lunch/dinner), entrance fee & tipping included, driver-guide cakap Melayu fleksibel hingga tengah malam. 4 varian: 3D2N/4D3N × Hotel/Guesthouse.",
+    "season": [
+     [
+      "Mac–Mei",
+      "View Gunung Kinabalu paling jelas, langit cerah, cuaca kering"
+     ],
+     [
+      "Jun–Sep",
+      "Cuaca elok, tapi Jun–Jul peak cuti sekolah — book awal"
+     ],
+     [
+      "Okt–Feb",
+      "Kadang hujan (tak teruk); Dis peak (cuti + Krismas/Tahun Baru)"
+     ]
+    ],
+    "expect": [
+     "Kundasang sejuk 15–22°C waktu malam — bawa jacket/windbreaker",
+     "Double sharing; triple = extra bed/mattress/sofa bed",
+     "Perjalanan KK ⇄ Kundasang ~2 jam — private transport, boleh berhenti rehat",
+     "Non-Malaysian: tambah entrance fee + tourism tax ~RM170–370/pax",
+     "View Gunung Kinabalu paling jelas awal pagi sebelum berkabus"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT KK–Kundasang Basic 3D2N",
+    "tag": "KK–Kundasang · 3D2N",
+    "sub": "Highland + city — 1 malam Kundasang + 1 malam KK",
+    "emoji": "🏔️",
+    "img": "@asset:0c91bb05798e",
+    "intro": "Percutian santai untuk family & couple: nikmati udara sejuk Kundasang dengan view Gunung Kinabalu, Desa Dairy Farm ala New Zealand, Rumah Terbalik dan Rabbit Farm, sebelum turun ke bandar Kota Kinabalu untuk city tour & seafood halal. Transport private, driver-guide cakap Melayu, dan hampir semua sudah all-in.",
+    "inc": [
+     "Private Transportation (Van atau MPV)",
+     "2 malam Hotel 3-Star (extra bed/mattress untuk triple sharing)",
+     "Local Malaysian Driver cum Guide (cakap Melayu)",
+     "Makan halal: 2× Breakfast + 1× Dinner",
+     "Entrance Fee ikut itinerari (Malaysian sahaja)",
+     "Airport Transfer + tipping driver-guide"
+    ],
+    "exc": [
+     "Tiket flight domestik ke BKI (book sendiri)",
+     "Personal expenses & extra meals",
+     "Travel insurance / takaful",
+     "Aktiviti optional (Poring, parasailing, Mari-Mari, dll.)",
+     "Entrance fee, tourism tax & surcharge untuk Non-Malaysian (~RM170–370/pax)"
+    ],
+    "note": "Varian: Hotel 3-Star (default, breakfast included) atau Guesthouse (D'Manis + Marina Court, tiada breakfast, −RM100/pax). Single supplement +RM300/pax."
+   },
+   {
+    "n": "PT KK–Kundasang Standard 4D3N",
+    "tag": "KK–Kundasang · 4D3N",
+    "sub": "Highland + city + island hopping Sapi & Manukan",
+    "emoji": "🏝️",
+    "img": "@asset:0c91bb05798e",
+    "intro": "Pakej penuh 4 hari: gabungan highland Kundasang, city tour Kota Kinabalu, dan island hopping ke Pulau Sapi & Manukan di Taman Laut Tunku Abdul Rahman. Sesuai untuk family yang mahu pengalaman lengkap gunung + laut, dengan snorkeling air jernih dan sunset di Tanjung Aru.",
+    "inc": [
+     "Private Transportation (Van atau MPV)",
+     "3 malam Hotel 3-Star (1 malam Kundasang + 2 malam KK)",
+     "Local Malaysian Driver cum Guide (cakap Melayu)",
+     "Makan halal: 3× Breakfast + 1× Lunch + 1× Dinner",
+     "Island Trip Pulau Sapi & Manukan (shared tour) — bot + jetty fee",
+     "Entrance Fee ikut itinerari (Malaysian) + Airport Transfer + tipping"
+    ],
+    "exc": [
+     "Tiket flight domestik ke BKI (book sendiri)",
+     "Personal expenses & extra meals",
+     "Travel insurance / takaful",
+     "Aktiviti optional (parasailing, seawalking, jetski, Mari-Mari, dll.)",
+     "Entrance fee, tourism tax & surcharge untuk Non-Malaysian (~RM170–370/pax)"
+    ],
+    "note": "Varian: Hotel 3-Star (default) atau Guesthouse (−RM100/pax). Single supplement +RM420/pax. Island trip tertakluk cuaca — boleh swap dengan Mari-Mari Cultural Village."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan KK → Kundasang",
+     "m": "—",
+     "a": [
+      "Tiba di Lapangan Terbang KK (BKI), sambut & bertolak ke Kundasang (~2 jam)",
+      "Rumah Terbalik (Upside Down House)",
+      "Nabalu Market (produk & buah tempatan)",
+      "Polumpang Melangkap Camp View Site",
+      "Pekan Kundasang — view Gunung Kinabalu, check-in hotel, free & easy"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Kundasang Tour → Transit ke KK",
+     "m": "Breakfast / Dinner",
+     "a": [
+      "Check out, Desa Dairy Farm (ladang tenusu ala NZ, gelato & keju)",
+      "Fish Spa Marakau",
+      "Rabbit Farm",
+      "Jambatan Tamparuli (jambatan gantung)",
+      "Transit ke Kota Kinabalu, dinner seafood halal (Anjung Senja / restoran tempatan), check-in KK"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "KK City Tour & Berlepas",
+     "m": "Breakfast",
+     "a": [
+      "Check out",
+      "Masjid Bandaraya Kota Kinabalu (masjid terapung)",
+      "Bangunan Yayasan Sabah",
+      "Pasar Filipino (seafood & souvenir)",
+      "Jamilah Souvenir/Jewellery",
+      "Transfer ke BKI untuk penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan KK → Kundasang",
+     "m": "—",
+     "a": [
+      "Tiba di Lapangan Terbang KK (BKI), sambut & bertolak ke Kundasang (~2 jam)",
+      "Rumah Terbalik (Upside Down House)",
+      "Nabalu Market",
+      "Polumpang Melangkap Camp View Site",
+      "Pekan Kundasang — view Gunung Kinabalu, check-in, free & easy"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Kundasang Tour → Transit ke KK",
+     "m": "Breakfast / Dinner",
+     "a": [
+      "Check out, Desa Dairy Farm",
+      "Fish Spa Marakau",
+      "Rabbit Farm",
+      "Jambatan Tamparuli",
+      "Transit ke KK, dinner seafood halal, check-in KK"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Island Hopping — Sapi & Manukan",
+     "m": "Breakfast / Lunch",
+     "a": [
+      "Private jetty ke Taman Laut Tunku Abdul Rahman",
+      "Snorkeling di Pulau Sapi (air jernih, terumbu karang)",
+      "Pulau Manukan (pantai & aktiviti laut)",
+      "Sunset di Pantai Tanjung Aru",
+      "Kembali ke hotel KK"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "KK City Tour & Berlepas",
+     "m": "Breakfast",
+     "a": [
+      "Check out",
+      "Masjid Bandaraya Kota Kinabalu",
+      "Bangunan Yayasan Sabah",
+      "Pasar Filipino",
+      "Jamilah Souvenir/Jewellery",
+      "Transfer ke BKI untuk penerbangan pulang"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Pekan Kundasang",
+    "t": "Highland / View",
+    "emoji": "🏔️",
+    "img": "Kundasang Sabah GeneralView-01.jpg",
+    "short": "Pekan bukit dengan view terus ke Gunung Kinabalu",
+    "intro": "Pekan kecil di ketinggian ~1,500m dengan udara sejuk dan pemandangan terus ke Gunung Kinabalu. Titik utama untuk merasai suasana highland dan berhenti membeli hasil tani tempatan.",
+    "hi": [
+     "View Gunung Kinabalu (paling jelas awal pagi)",
+     "Udara sejuk 15–22°C",
+     "Gerai buah, sayur & strawberi tempatan"
+    ],
+    "best": "Awal pagi (6–9am) sebelum puncak berkabus; Mac–Mei paling jelas.",
+    "muslim": "Banyak gerai makanan Muslim/halal sekitar pekan; surau kecil ada di kawasan pekan & R&R berdekatan. Bawa sejadah untuk fleksibiliti waktu perjalanan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pekan+Kundasang+Sabah"
+   },
+   {
+    "n": "Rumah Terbalik (Upside Down House)",
+    "t": "Quirky / Photo",
+    "emoji": "🏠",
+    "img": "Rumah Terbalik upside down house (11932005065).jpg",
+    "short": "Rumah terbalik pertama di Asia Tenggara",
+    "intro": "Tarikan unik di mana seluruh rumah — perabot dan peralatan — tergantung di atas kepala anda kerana siling menjadi lantai. Popular untuk foto keluarga yang menyeronokkan.",
+    "hi": [
+     "Konsep terbalik penuh yang unik",
+     "Spot foto keluarga & kanak-kanak",
+     "Ada 3D museum & kafe di kawasan sama"
+    ],
+    "best": "Bila-bila waktu operasi; elok digabung dengan perjalanan ke Kundasang.",
+    "muslim": "Tiada makanan tidak halal dihidang; surau/tandas tersedia di kompleks. Kafe berdekatan sajikan minuman & snek ringan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Rumah+Terbalik+Sabah"
+   },
+   {
+    "n": "Desa Dairy Farm",
+    "t": "Local Farm",
+    "emoji": "🐄",
+    "img": "Desa Cattle Dairy Farm, Kundasang 28 December 2023 06.jpg",
+    "short": "Ladang tenusu ala New Zealand di Mesilou",
+    "intro": "Ladang tenusu tempatan di Kg. Mesilou dengan padang hijau menghadap Gunung Kinabalu. Pelawat boleh lihat lembu diperah, beri makan haiwan, dan cuba gelato/keju/susu segar. Kemasukan terhad — booking awal disyorkan.",
+    "hi": [
+     "Padang hijau + view Gunung Kinabalu",
+     "Gelato, keju & susu segar",
+     "Petting area — sesuai kanak-kanak"
+    ],
+    "best": "Pagi hingga tengah hari; hujung minggu lebih sesak.",
+    "muslim": "Produk tenusu (susu, gelato, keju) sesuai Muslim; tiada elemen tidak halal. Surau/tandas ada di kawasan ladang.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Desa+Dairy+Farm+Kundasang"
+   },
+   {
+    "n": "Rabbit Farm & Fish Spa Marakau",
+    "t": "Family / Nature",
+    "emoji": "🐰",
+    "img": "",
+    "short": "Beri makan arnab & fish spa semula jadi",
+    "intro": "Aktiviti ringan mesra keluarga: berinteraksi dengan arnab di Rabbit Farm dan merasai fish spa di sungai/kolam Marakau di mana ikan kecil menggigit sel kulit mati kaki.",
+    "hi": [
+     "Beri makan & pegang arnab",
+     "Fish spa semula jadi",
+     "Sangat digemari kanak-kanak"
+    ],
+    "best": "Waktu siang; digabung dengan tour Kundasang Hari 2.",
+    "muslim": "Aktiviti mesra keluarga; tiada isu halal. Makan tengah hari halal boleh diatur berdekatan; surau di pekan/R&R terdekat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Fish+Spa+Marakau+Ranau"
+   },
+   {
+    "n": "Jambatan Tamparuli",
+    "t": "Heritage / Photo",
+    "emoji": "🌉",
+    "img": "Tamparuli Sabah SwingingBridge-1.jpg",
+    "short": "Jambatan gantung ikonik lagu 'Jambatan Tamparuli'",
+    "intro": "Jambatan gantung bersejarah di Tamparuli yang terkenal menerusi lagu rakyat Sabah. Spot foto menarik dalam perjalanan turun dari Kundasang ke Kota Kinabalu.",
+    "hi": [
+     "Jambatan gantung ikonik",
+     "Spot foto & pemandangan sungai",
+     "Pekan Tamparuli berdekatan"
+    ],
+    "best": "Dalam perjalanan Kundasang → KK (Hari 2).",
+    "muslim": "Pekan Tamparuli ada kedai makan Muslim/halal & surau. Sesuai untuk berhenti rehat + solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jambatan+Tamparuli+Sabah"
+   },
+   {
+    "n": "Polumpang Melangkap Camp View",
+    "t": "View Point",
+    "emoji": "⛰️",
+    "img": "Kinabalu Sabah Borneo Kampong Kundasang 2.jpg",
+    "short": "View site tenang menghadap Gunung Kinabalu",
+    "intro": "Titik pemandangan yang lebih tenang menghadap Gunung Kinabalu dan lembah Melangkap — alternatif menarik untuk foto tanpa orang ramai.",
+    "hi": [
+     "Pemandangan Gunung Kinabalu",
+     "Suasana kampung yang tenang",
+     "Spot foto alternatif"
+    ],
+    "best": "Pagi cerah untuk view puncak.",
+    "muslim": "Kawasan luar bandar — bawa sejadah; surau terdekat di pekan Kundasang. Bekalkan makanan/snek halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Melangkap+Kota+Belud+Sabah"
+   },
+   {
+    "n": "Masjid Bandaraya Kota Kinabalu",
+    "t": "Mosque / Landmark",
+    "emoji": "🕌",
+    "img": "KotaKinabalu Sabah CityMosque-07.jpg",
+    "short": "Masjid 'terapung' ikonik Kota Kinabalu",
+    "intro": "Masjid Bandaraya Kota Kinabalu yang terkenal dengan kubah biru-emas dan kedudukan seolah-olah terapung di atas laguna. Antara landmark Muslim utama dan spot foto wajib di KK.",
+    "hi": [
+     "Seni bina kubah biru-emas",
+     "Kelihatan 'terapung' di laguna",
+     "Landmark & spot foto ikonik"
+    ],
+    "best": "Waktu pagi/petang untuk cahaya foto terbaik; boleh solat di sini.",
+    "muslim": "Masjid penuh kemudahan — ruang solat lelaki & perempuan, tempat wuduk, telekung biasanya tersedia. Patuhi kod pakaian sopan (pelawat perempuan disediakan jubah).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Masjid+Bandaraya+Kota+Kinabalu"
+   },
+   {
+    "n": "Pasar Filipino (Filipino Market)",
+    "t": "Market / Shopping",
+    "emoji": "🛍️",
+    "img": "Filipino market Kota Kinabalu, 2024 (01).jpg",
+    "short": "Pasar souvenir & seafood BBQ di waterfront",
+    "intro": "Pasar terkenal di waterfront KK untuk membeli souvenir, mutiara, kraf tangan, serta seafood BBQ segar (ikan bakar, sotong, udang). Suasana meriah waktu petang.",
+    "hi": [
+     "Souvenir, mutiara & kraf tangan",
+     "Seafood BBQ segar (halal certified)",
+     "Suasana meriah waktu senja"
+    ],
+    "best": "Datang awal (~5pm) untuk pilihan seafood terbaik.",
+    "muslim": "Gerai seafood BBQ di pasar ini halal certified; banyak pilihan makanan Muslim. Surau ada berdekatan waterfront/pusat bandar.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Filipino+Market+Kota+Kinabalu"
+   },
+   {
+    "n": "Pulau Sapi & Manukan (TAR Marine Park)",
+    "t": "Island / Marine (4D3N)",
+    "emoji": "🏝️",
+    "img": "Pulau Sapi beach - Sabah - Borneo - Malaysia - panoramio.jpg",
+    "short": "Island hopping & snorkeling di Taman Laut TAR",
+    "intro": "Dua pulau paling popular di Taman Laut Tunku Abdul Rahman, ~15 minit bot dari KK. Air jernih, terumbu karang berwarna dan pantai putih — sesuai snorkeling, mandi laut dan aktiviti air. (Hanya dalam pakej 4D3N.)",
+    "hi": [
+     "Snorkeling & terumbu karang",
+     "Pantai pasir putih",
+     "Aktiviti air optional (parasailing, seawalking, banana boat)"
+    ],
+    "best": "Pagi (bot 8am–5pm); elak musim monsun Nov–Feb untuk laut tenang.",
+    "muslim": "Bawa makanan/snek halal & air; pilihan makan halal terhad di pulau. Surau kecil ada di jeti/pulau utama tetapi terhad — rancang waktu solat. Pakaian muslimah: legging + baju labuh sesuai untuk snorkeling.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Manukan+Island+Kota+Kinabalu"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ Default — Kundasang",
+    "name": "Kinabalu Pine Resort / Celyn / HBenjamin (atau setaraf)",
+    "note": "Bilik Std/Superior/Deluxe · breakfast included · 1 malam",
+    "emoji": "🏨",
+    "img": "Morning view of Mount Kinabalu in Malaysia, with its peak clearly visible.jpg"
+   },
+   {
+    "tier": "3★ Default — Kota Kinabalu",
+    "name": "Ming Garden Hotel / Dreamtel (atau setaraf)",
+    "note": "Bilik Std/Superior/Deluxe · breakfast included · 1–2 malam",
+    "emoji": "🏨",
+    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
+   },
+   {
+    "tier": "Guesthouse — Kundasang",
+    "name": "D'Manis / Lamin Kopio / White Valley / Kiram Village",
+    "note": "Tier bajet · tiada breakfast · −RM100/pax (Weekday RM350–380, Weekend RM450–480)",
+    "emoji": "🏡",
+    "img": "A luxury short-let bedroom.jpg"
+   },
+   {
+    "tier": "Guesthouse — Kota Kinabalu",
+    "name": "Marina Court",
+    "note": "City apartment-style · tiada breakfast · −RM100/pax (Weekday RM280, Weekend RM350)",
+    "emoji": "🏡",
+    "img": "A luxury short-let bedroom.jpg"
+   },
+   {
+    "tier": "Upgrade 3.5★ — Kundasang",
+    "name": "Perkasa / Dreamworld (atau setaraf)",
+    "note": "+RM150/pax/malam",
+    "emoji": "⭐",
+    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
+   },
+   {
+    "tier": "Upgrade 4★ — Kota Kinabalu",
+    "name": "Promenade / Palace Hotel (city centre)",
+    "note": "+RM150/pax/malam · 4★ KK sahaja (tiada 4★ di Kundasang)",
+    "emoji": "⭐",
+    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
+   }
+  ],
+  "actGroups": [
+   {
+    "city": "Kundasang / Ranau (Highland)",
+    "items": [
+     {
+      "n": "Pekan Kundasang (view Gunung Kinabalu)",
+      "img": "Kundasang Sabah GeneralView-01.jpg"
+     },
+     {
+      "n": "Rumah Terbalik",
+      "img": "Rumah Terbalik upside down house (11932005065).jpg"
+     },
+     {
+      "n": "Nabalu Market",
+      "img": "Nabalu Sabah Viewpoint-01.jpg"
+     },
+     {
+      "n": "Polumpang Melangkap Camp View",
+      "img": "Kinabalu Sabah Borneo Kampong Kundasang 2.jpg"
+     },
+     {
+      "n": "Desa Dairy Farm",
+      "img": "Desa Cattle Dairy Farm, Kundasang 28 December 2023 06.jpg"
+     },
+     {
+      "n": "Fish Spa Marakau",
+      "img": ""
+     },
+     {
+      "n": "Rabbit Farm",
+      "img": ""
+     },
+     {
+      "n": "Jambatan Tamparuli",
+      "img": "Tamparuli Sabah SwingingBridge-1.jpg"
+     },
+     {
+      "n": "Poring Hot Spring + Canopy Walk (optional)",
+      "img": "Poring Sabah PoringHotSprings-04.jpg"
+     }
+    ]
+   },
+   {
+    "city": "Kota Kinabalu (City)",
+    "items": [
+     {
+      "n": "Masjid Bandaraya (masjid terapung)",
+      "img": "KotaKinabalu Sabah CityMosque-07.jpg"
+     },
+     {
+      "n": "Bangunan Yayasan Sabah",
+      "img": "KotaKinabalu Malaysia Tun-Mustapha-Tower-04.jpg"
+     },
+     {
+      "n": "Pasar Filipino",
+      "img": "Filipino market Kota Kinabalu, 2024 (01).jpg"
+     },
+     {
+      "n": "Jamilah Jewellery/Souvenir",
+      "img": ""
+     },
+     {
+      "n": "Imago Mall",
+      "img": ""
+     },
+     {
+      "n": "Anjung Senja Seafood (halal)",
+      "img": ""
+     }
+    ]
+   },
+   {
+    "city": "Taman Laut TAR (Island — 4D3N)",
+    "items": [
+     {
+      "n": "Pulau Sapi (snorkeling)",
+      "img": "Pulau Sapi beach - Sabah - Borneo - Malaysia - panoramio.jpg"
+     },
+     {
+      "n": "Pulau Manukan",
+      "img": "Manukan Island Jetty View of KK.jpg"
+     },
+     {
+      "n": "Pantai Tanjung Aru (sunset)",
+      "img": "Sunset At Tanjung Aru Beach.jpg"
+     },
+     {
+      "n": "Mari-Mari Cultural Village (optional swap)",
+      "img": "Pelita at Mari Mari Cultural Village 01.jpg"
+     }
+    ]
+   }
+  ],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog <b>Ground &amp; Tipping</b> — per pax, asas 2–3 sebilik. Termasuk entrance fee (Malaysian). <b>Belum termasuk flight.</b> Sah sehingga 31 Dis 2026.</p><div class='custblk'><h3 style='margin:4px 0 8px'>3D2N (Basic) — Hotel 3-Star</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (11+)</th><th>Child w/bed (7–10)</th><th>Child no bed (3–6)</th></tr></thead><tbody><tr><td class='it'>1 pax</td><td class='add'>RM 1,697</td><td>RM 1,597</td><td>RM 1,497</td></tr><tr><td class='it'>2 pax</td><td class='add'>RM 1,117</td><td>RM 1,017</td><td>RM 917</td></tr><tr><td class='it'>3–4 pax</td><td class='add'>RM 957</td><td>RM 857</td><td>RM 757</td></tr><tr><td class='it'>5–6 pax</td><td class='add'>RM 907</td><td>RM 807</td><td>RM 707</td></tr><tr><td class='it'>7–8 pax</td><td class='add'>RM 877</td><td>RM 777</td><td>RM 677</td></tr><tr><td class='it'>9–10 pax</td><td class='add'>RM 857</td><td>RM 757</td><td>RM 657</td></tr></tbody></table></div><div class='custblk'><h3 style='margin:14px 0 8px'>4D3N (Standard) — Hotel 3-Star</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (11+)</th><th>Child w/bed (7–10)</th><th>Child no bed (3–6)</th></tr></thead><tbody><tr><td class='it'>1 pax</td><td class='add'>RM 2,157</td><td>RM 2,057</td><td>RM 1,957</td></tr><tr><td class='it'>2 pax</td><td class='add'>RM 1,457</td><td>RM 1,357</td><td>RM 1,257</td></tr><tr><td class='it'>3 pax</td><td class='add'>RM 1,357</td><td>RM 1,257</td><td>RM 1,157</td></tr><tr><td class='it'>4–5 pax</td><td class='add'>RM 1,197</td><td>RM 1,097</td><td>RM 997</td></tr><tr><td class='it'>6–7 pax</td><td class='add'>RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr><tr><td class='it'>8–10 pax</td><td class='add'>RM 1,097</td><td>RM 997</td><td>RM 897</td></tr></tbody></table></div><p class='ssub' style='margin-top:10px'>Guesthouse variant: −RM100/pax (tiada breakfast). Pakej Honeymoon (HNY): 3D2N couple RM 2,577 · 4D3N couple RM 3,177 (termasuk deco bilik).</p><div class='custblk'><h3 style='margin:14px 0 8px'>Benchmark Kompetitor (R&D — internal)</h3><table class='ctbl'><thead><tr><th>Agency</th><th>3D2N (2 pax)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>ARBA 3-Star</td><td class='add'>RM 1,117</td><td>Halal meals + entrance + tipping included</td></tr><tr><td class='it'>AYK Travelway</td><td>RM 1,420 (2–3 pax)</td><td>Meals own expense; tipping not stated</td></tr><tr><td class='it'>Star Travel</td><td>RM 1,050</td><td>Hotel branded; tipping not stated</td></tr></tbody></table><p class='ssub'>Positioning ARBA: Muslim-friendly (halal + entrance + tipping all-in) berbanding harga bajet kompetitor.</p></div>",
+   "custom": "<h2>Simple Customisation &amp; Add-Ons</h2><p class='ssub'>Rate Card Operasi KB &mdash; Kota Kinabalu &amp; Kundasang. Semua nilai <b>harga jualan MYR</b>. <span class='add'>Hijau = harga tambah</span> &middot; <span class='ded'>merah = harga tolak</span> bila item dibuang daripada pakej katalog. Kadar peak dikenakan pada tarikh peak season katalog v3.</p><div class='custblk'><h3>Transport + Driver &mdash; per kenderaan sehari</h3><table class='ctbl'><thead><tr><th>Segmen</th><th>Kenderaan</th><th>Kapasiti</th><th>Tambah</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>Full Day Tour (12 jam)</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 280</td><td class='ded'>&minus;RM 180</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 380</td><td class='ded'>&minus;RM 250</td></tr><tr><td class='it'></td><td>Van 16 Seater</td><td>9-16 pax</td><td class='add'>RM 500</td><td class='ded'>&minus;RM 400</td></tr><tr><td class='it'>Full Day Tour KK ke Kudat (12 jam)</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 600</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 750</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Van 16 Seater</td><td>9-16 pax</td><td class='add'>RM 850</td><td class='ded'>&mdash;</td></tr><tr><td class='it'>Airport Transfer &harr; KK Town</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 50</td><td class='ded'>&minus;RM 30</td></tr><tr><td class='it'>Airport Transfer &harr; Kundasang</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 450</td><td class='ded'>&minus;RM 280</td></tr><tr><td class='it'>Airport Transfer + Half Day Tour (6 jam)</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 1,000</td><td class='ded'>&minus;RM 700</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 1,300</td><td class='ded'>&minus;RM 900</td></tr><tr><td class='it'></td><td>Van 16 Seater</td><td>9-16 pax</td><td class='add'>RM 2,000</td><td class='ded'>&minus;RM 1,600</td></tr><tr><td class='it'>Mari-Mari Cultural Village Transportation</td><td>Avanza / Innova</td><td>2-4 pax</td><td class='add'>RM 180</td><td class='ded'>sahkan PO</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 250</td><td class='ded'>&minus;RM 150</td></tr></tbody></table></div><p class='ssub'>Kadar ialah <b>per kenderaan</b>, bukan per pax &mdash; kongsi antara seluruh group. Airport Transfer KK Town dan Airport Transfer Kundasang hanya ada kadar Avanza / Innova (2&ndash;4 pax); untuk group lebih besar sila minta kadar daripada operasi.</p><div class='custblk'><h3>Pakej Transport Penuh (Transportation + Driver sahaja)</h3><table class='ctbl'><thead><tr><th>Pakej</th><th>Kenderaan</th><th>Kapasiti</th><th>Tambah</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>3D2N Full Tour</td><td>Avanza</td><td>2-4 pax</td><td class='add'>RM 800</td><td class='ded'>&minus;RM 600</td></tr><tr><td class='it'></td><td>Innova</td><td>2-4 pax</td><td class='add'>RM 850</td><td class='ded'>&minus;RM 800</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 1,100</td><td class='ded'>&minus;RM 800</td></tr><tr><td class='it'></td><td>Van 16 Seater</td><td>9-16 pax</td><td class='add'>RM 1,500</td><td class='ded'>&minus;RM 1,200</td></tr><tr><td class='it'>4D3N Full Tour</td><td>Avanza</td><td>2-4 pax</td><td class='ded'>sahkan PO</td><td class='ded'>sahkan PO</td></tr><tr><td class='it'></td><td>Innova</td><td>2-4 pax</td><td class='add'>RM 1,100</td><td class='ded'>&minus;RM 700</td></tr><tr><td class='it'></td><td>Van 8 Seater</td><td>5-8 pax</td><td class='add'>RM 1,350</td><td class='ded'>&minus;RM 1,000</td></tr><tr><td class='it'></td><td>Van 16 Seater</td><td>9-16 pax</td><td class='add'>RM 2,000</td><td class='ded'>&minus;RM 1,450</td></tr></tbody></table></div><p class='ssub'><b>3D2N Full Tour</b> = Airport Transfer ke Kundasang + Half Day Tour (6 jam) &middot; 1 Full Day Tour (12 jam) &middot; Airport Transfer KK Town ke Airport + Half Day Tour (6 jam). <b>4D3N Full Tour</b> = sama, tetapi 2 Full Day Tour (12 jam). Guna untuk quote transport-only; bukan tambahan harian.</p><div class='custblk'><h3>Accommodation &mdash; Kota Kinabalu City</h3><table class='ctbl'><thead><tr><th>Hotel</th><th>Room Type</th><th>Room Configuration</th><th>+1 Malam (Normal)</th><th>+1 Malam (Peak)</th><th>&minus;1 Malam</th></tr></thead><tbody><tr><td class='it'>Dreamtel Hotel (tier 3 Star)</td><td>Superior Twin / Double Room</td><td>2 Single / 1 Queen Bed</td><td class='add'>RM 100</td><td class='add'>RM 150</td><td class='ded'>&minus;RM 65</td></tr><tr><td class='it'></td><td>Deluxe Twin / Double Room</td><td>2 Single / 1 Queen Bed</td><td class='add'>RM 110</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'></td><td>Deluxe Triple Room</td><td>1 Queen Bed + 1 Single Bed</td><td class='add'>RM 110</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 65</td></tr><tr><td class='it'>Ming Garden Hotel (tier 3 Star)</td><td>Superior Room</td><td>King / Twin Room</td><td class='add'>RM 120</td><td class='add'>RM 180</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'></td><td>Deluxe Room</td><td>King / Twin Room</td><td class='add'>RM 150</td><td class='add'>RM 210</td><td class='ded'>&minus;RM 90</td></tr><tr><td class='it'></td><td>Premier Room</td><td>King Room</td><td class='add'>RM 220</td><td class='add'>RM 280</td><td class='ded'>&minus;RM 150</td></tr><tr><td class='it'>Promenade Hotel (tier 4 Star)</td><td>Superior Room</td><td>Double Bed / Twin Bed</td><td class='add'>RM 130</td><td class='add'>RM 210</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'></td><td>Deluxe Room</td><td>Double Bed / Twin Bed</td><td class='add'>RM 150</td><td class='add'>RM 240</td><td class='ded'>&minus;RM 90</td></tr><tr><td class='it'></td><td>Junior Suite</td><td>King Bed</td><td class='add'>RM 200</td><td class='add'>RM 330</td><td class='ded'>&minus;RM 130</td></tr></tbody></table></div><div class='custblk'><h3>Accommodation &mdash; Kundasang</h3><table class='ctbl'><thead><tr><th>Hotel</th><th>Room Type</th><th>Room Configuration</th><th>+1 Malam (Normal)</th><th>+1 Malam (Peak)</th><th>&minus;1 Malam</th></tr></thead><tbody><tr><td class='it'>Kinabalu Pine Resort, KPR (3 Star)</td><td>Standard Room</td><td>King / Twin Bed</td><td class='add'>RM 130</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 80</td></tr><tr><td class='it'></td><td>Superior Standard Room</td><td>King / Twin Bed</td><td class='add'>RM 150</td><td class='add'>RM 180</td><td class='ded'>&minus;RM 85</td></tr><tr><td class='it'></td><td>Deluxe Room</td><td>King / Twin Bed</td><td class='add'>RM 165</td><td class='add'>RM 200</td><td class='ded'>&minus;RM 100</td></tr><tr><td class='it'></td><td>Superior Deluxe Room</td><td>King / Twin Bed</td><td class='add'>RM 185</td><td class='add'>RM 220</td><td class='ded'>&minus;RM 130</td></tr><tr><td class='it'>Celyn Resort Kinabalu (3 Star)</td><td>Valley Wing (2 pax)</td><td>Queen / Twin Bed</td><td class='add'>RM 140</td><td class='add'>RM 190</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Kinabalu Wing (2 pax)</td><td>Queen / Twin Bed</td><td class='add'>RM 150</td><td class='add'>RM 200</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Kinabalu Suite (2 pax)</td><td>King Bed</td><td class='add'>RM 170</td><td class='add'>RM 220</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Jungle Junior (2 pax)</td><td>King Bed / Twin Bed</td><td class='add'>RM 150</td><td class='add'>RM 200</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Family Room (3 pax)</td><td>1 King Bed + 1 Single Bed</td><td class='add'>RM 150</td><td class='add'>RM 150</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Jungle Suite (3 pax)</td><td>1 King Bed + 1 Single Bed</td><td class='add'>RM 150</td><td class='add'>RM 200</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Jungle Family (3 pax)</td><td>1 King Bed + 1 Single Bed</td><td class='add'>RM 150</td><td class='add'>RM 200</td><td class='ded'>&mdash;</td></tr><tr><td class='it'></td><td>Villa / Chalet (4 pax)</td><td>2 Bedroom + Living + Kitchen</td><td class='add'>RM 180</td><td class='add'>RM 230</td><td class='ded'>&mdash;</td></tr></tbody></table></div><div class='notebox'><b>Tier hotel ikut katalog v3, bukan label rate card.</b> Rate card melabel Ming Garden sebagai <i>4 Star Hotel</i>, tetapi katalog v3 meletakkannya dalam tier <b>3-Star</b> (bersama Dreamtel) &mdash; itulah hotel dalam harga pakej. Tier <b>4-Star</b> katalog ialah Promenade / Palace di Kota Kinabalu (upgrade +RM 150/pax/malam), dan tier <b>3.5-Star</b> ialah Perkasa / Dreamworld di Kundasang (upgrade +RM 80/pax/malam). Simple Calculator ikut tier katalog.</div><p class='ssub'>Kadar accommodation ialah <b>per pax per malam</b> (asas 2 sebilik). Celyn Resort Kinabalu tiada kadar tolak tersiar &mdash; minta operasi sahkan sebelum quote pengurangan malam di sana.</p><div class='custblk'><h3>Meals &mdash; per pax per hidangan</h3><table class='ctbl'><thead><tr><th>Meal</th><th>Tambah 1 Meal</th><th>Tolak 1 Meal</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Tidak dijual</td><td class='ded'>&minus;RM 20</td><td>Termasuk pakej &mdash; disyorkan makan di hotel sahaja</td></tr><tr><td class='it'>Lunch Regular (adult/child)</td><td class='add'>RM 35</td><td class='ded'>&minus;RM 30</td><td>&nbsp;</td></tr><tr><td class='it'>Lunch Kinabalu Pine Resort</td><td class='add'>RM 40</td><td class='ded'>&minus;RM 30</td><td>&nbsp;</td></tr><tr><td class='it'>Dinner Kinabalu Pine Resort</td><td class='add'>RM 40</td><td class='ded'>&minus;RM 30</td><td>Dinner default pakej</td></tr><tr><td class='it'>Dinner Dream World</td><td class='add'>RM 50</td><td class='ded'>&mdash;</td><td>Buffet</td></tr><tr><td class='it'>Dinner Todak Waterfront</td><td class='add'>RM 40</td><td class='ded'>&mdash;</td><td>&nbsp;</td></tr><tr><td class='it'>Dinner Kampung Nelayan</td><td class='add'>RM 75</td><td class='ded'>&mdash;</td><td>Seafood halal</td></tr><tr><td class='it'>Candle Light Dinner di KPR</td><td class='add'>RM 150</td><td class='ded'>&mdash;</td><td>Honeymoon</td></tr><tr><td class='it'>Table Decoration</td><td class='add'>RM 50</td><td class='ded'>&mdash;</td><td>Per meja</td></tr></tbody></table></div><div class='custblk'><h3>Attraction / Entrance Fee &mdash; per pax</h3><table class='ctbl'><thead><tr><th>Attraction</th><th>Add-on (Adult)</th><th>Add-on (Kanak)</th><th>Tolak Entrance</th></tr></thead><tbody><tr><td class='it'>Rumah Terbalik</td><td class='add'>RM 15</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Desa Dairy Farm</td><td class='add'>RM 15</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Poring Hot Spring</td><td class='add'>RM 15</td><td class='add'>RM 5</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Canopy Walk</td><td class='add'>RM 5</td><td class='add'>RM 5</td><td class='ded'>&minus;RM 5</td></tr><tr><td class='it'>Kinabalu Park (guna tiket Poring)</td><td class='add'>RM 15</td><td class='add'>RM 15</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Rabbit Farm</td><td class='add'>RM 10</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Marakau Fish Spa</td><td class='add'>RM 10</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>War Memorial</td><td class='add'>RM 5</td><td class='add'>RM 5</td><td class='ded'>&minus;RM 5</td></tr><tr><td class='it'>Alpaca Club</td><td class='add'>RM 15</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Polumpung Melangkap Camp View Site</td><td class='add'>RM 5</td><td class='add'>RM 5</td><td class='ded'>&minus;RM 5</td></tr><tr><td class='it'>Island Trip (Sapi + Manukan)</td><td class='add'>RM 75</td><td class='add'>RM 55</td><td class='ded'>&minus;RM 60</td></tr><tr><td class='it'>Additional Island (Gaya / Mamutik)</td><td class='add'>RM 10</td><td class='add'>RM 10</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Parasailing</td><td class='add'>RM 70</td><td class='add'>RM 70</td><td class='ded'>&minus;RM 60</td></tr><tr><td class='it'>Seawalking</td><td class='add'>RM 150</td><td class='add'>RM 160</td><td class='ded'>&minus;RM 130</td></tr><tr><td class='it'>Banana Boat</td><td class='add'>RM 35</td><td class='add'>RM 30</td><td class='ded'>&minus;RM 30</td></tr><tr><td class='it'>Jetski</td><td class='add'>RM 80</td><td class='add'>RM 75</td><td class='ded'>&minus;RM 60</td></tr><tr><td class='it'>Mari-Mari Cultural Village + Lunch</td><td class='add'>RM 110</td><td class='add'>RM 80</td><td class='ded'>&minus;RM 100</td></tr><tr><td class='it'>Balai Seni Lukis Sabah</td><td class='add'>RM 15</td><td class='add'>RM 15</td><td class='ded'>&minus;RM 10</td></tr><tr><td class='it'>Chanteek Borneo Indigenous Museum</td><td class='add'>RM 270</td><td class='add'>RM 270</td><td class='ded'>&minus;RM 250</td></tr><tr><td class='it'>Cocoa Kingdom Kota Kinabalu</td><td class='add'>Free entry</td><td class='add'>Free entry</td><td class='ded'>&mdash;</td></tr><tr><td class='it'>Atkinson Clock Tower (photostop)</td><td class='add'>Free entry</td><td class='add'>Free entry</td><td class='ded'>&mdash;</td></tr><tr><td class='it'>Gaya Street</td><td class='add'>Free entry</td><td class='add'>Free entry</td><td class='ded'>&mdash;</td></tr></tbody></table></div><div class='custblk'><h3>Add-On Katalog v3 (harga customer)</h3><table class='ctbl'><thead><tr><th>Add-on</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Poring Hot Spring + Canopy Walk (Ranau)</td><td class='add'>RM 15/pax</td><td>Min 1 pax</td></tr><tr><td class='it'>Parasailing</td><td class='add'>RM 90/pax</td><td>Min 1 pax</td></tr><tr><td class='it'>Seawalking</td><td class='add'>RM 180/pax</td><td>Min 1 pax</td></tr><tr><td class='it'>Banana Boat</td><td class='add'>RM 50/pax</td><td>Min 3 pax</td></tr><tr><td class='it'>Mari-Mari Cultural Village (add-on)</td><td class='add'>RM 160/adult &middot; RM 150/kanak</td><td>Termasuk transport &amp; lunch/tea</td></tr><tr><td class='it'>Mari-Mari Cultural Village (swap Island Trip)</td><td class='add'>RM 120/transport</td><td>Termasuk transport &amp; lunch/tea</td></tr></tbody></table></div><div class='notebox'><b>Mana satu nak quote?</b> Untuk add-on yang customer beli, guna <b>harga Katalog v3</b> di atas &mdash; itu yang tersiar dalam katalog bertarikh 1 Julai 2026 dan itu yang dipakai Simple Calculator. Jadual Attraction / Entrance Fee ialah rate card operasi: gunanya untuk kira <b>tolakan</b> bila lawatan dibuang daripada itinerary, dan untuk attraction yang tiada dalam katalog (Alpaca Club, Chanteek Borneo, Balai Seni Lukis, Additional Island, Jetski, Kinabalu Park, War Memorial, Rabbit Farm).</div><div class='custblk'><h3>Car Rental &mdash; Self Drive</h3><table class='ctbl'><thead><tr><th>Kenderaan</th><th>Harga</th><th>Seat</th></tr></thead><tbody><tr><td class='it'>Myvi 1.5 / Bezza 1.3</td><td class='add'>RM 150 sehari</td><td>4-seater</td></tr><tr><td class='it'>Avanza 1.5</td><td class='add'>RM 200 sehari</td><td>6-seater</td></tr><tr><td class='it'>Van Hiace (M)</td><td class='add'>RM 350 sehari</td><td>10-seater</td></tr></tbody></table></div><p class='ssub'>Travel essentials (Takaful TripCare 360, Luggage Tracker Blue Ribbon) dijual oleh after-sales, bukan dalam quotation pakej.</p><p class='ssub'>Custom lain: tambah Mt Kinabalu Park, tukar Island Trip &harr; Mari-Mari, extend malam di KK atau Kundasang. Climb Gunung Kinabalu tidak termasuk &mdash; perlu permit + guide, booking ~6 bulan awal, quote manual.</p><div class='notebox'><b>Perlu disahkan PO.</b> Sel bertanda <span class='ded'>sahkan PO</span> ada nilai dalam rate card tetapi nilainya tidak konsisten, jadi ia tidak dipakai: (1) Mari-Mari Avanza tolak RM 190 lebih besar daripada tambah RM 180; (2) 4D3N Full Tour Avanza tambah RM 700 = tolak RM 700, dan lebih murah daripada 3D2N Avanza RM 800; (3) Chanteek Borneo RM 270/pax jauh lebih tinggi daripada semua entrance fee lain &mdash; angka dikekalkan tetapi sila sahkan. Sel <span class='ded'>&mdash;</span> pula bermakna rate card memang <b>tidak menyiarkan</b> kadar itu (contoh tolak Kudat, tolak Celyn Resort). Simple Calculator tidak akan caj apa-apa untuk kedua-dua jenis sel ini &mdash; ia papar cip merah <span class='ded'>kadar?</span> supaya TC nampak, bukan RM 0 senyap.</div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season, late booking dan surcaj travel 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza / Innova 2&ndash;4 pax, Van 8 Seater 5&ndash;8 pax, Van 16 Seater 9&ndash;16 pax) &mdash; pilih blok itinerary supaya kos berlabuh pada kawasan yang betul. Kadar accommodation ialah per pax per malam ikut hotel dan jenis bilik, dan ada kadar peak sendiri. Pilihan bertanda <i>dalam pakej</i> = RM 0 supaya tiada double-count dengan harga katalog.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT KK&ndash;Kundasang Basic 3D2N &middot; Hotel 3 Bintang</option><option value='1'>PT KK&ndash;Kundasang Standard 4D3N &middot; Hotel 3 Bintang</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child w/ bed (7&ndash;10)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child no bed (3&ndash;6)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant 1&ndash;2 tahun: <b>FREE</b> untuk kedua-dua pakej.</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement RM 300/pax (3D2N) &middot; RM 450/pax (4D3N) &mdash; katalog v3.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge &amp; Supplement</h2><p class='ssub'>Sumber: <b>Katalog v3</b> (last updated 1 Julai 2026, sah hingga 31 Dis 2026). Katalog v3 menang atas R&amp;D Sheet bila bercanggah &mdash; keputusan PO.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season 3-Star</td><td class='add'>+RM 40/pax/malam</td><td>Tarikh peak katalog v3 (lihat bawah)</td></tr><tr><td class='it'>Peak Season 3.5-Star</td><td class='add'>+RM 60/pax/malam</td><td>Tarikh peak sama</td></tr><tr><td class='it'>Peak Season 4-Star</td><td class='add'>+RM 90/pax/malam</td><td>Tarikh peak sama</td></tr><tr><td class='it'>Upgrade 3-Star &rarr; 3.5-Star</td><td class='add'>+RM 80/pax/malam</td><td>Kundasang: Perkasa / Dreamworld</td></tr><tr><td class='it'>Upgrade 3-Star &rarr; 4-Star</td><td class='add'>+RM 150/pax/malam</td><td>Kota Kinabalu: Promenade / Palace (KK sahaja)</td></tr><tr><td class='it'>Single Supplement 3D2N</td><td class='add'>+RM 300/pax</td><td>Bilik single</td></tr><tr><td class='it'>Single Supplement 4D3N</td><td class='add'>+RM 450/pax</td><td>Bilik single</td></tr><tr><td class='it'>Surcharge Travel Date 2027</td><td class='add'>+RM 100/pax</td><td>1 Jan &ndash; 30 Jun 2027</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Booking kurang 45 hari sebelum departure</td></tr><tr><td class='it'>Non-Malaysian Entrance + Tourism Tax</td><td class='ded'>~RM 170&ndash;370/pax</td><td>Wajib; dibayar sendiri semasa trip, ARBA tidak handle</td></tr></tbody></table></div><p><b>Tarikh Peak Season (Katalog v3):</b> 15 Jul &ndash; 20 Ogos 2026 &middot; 28 Ogos &ndash; 1 Sep 2026 &middot; 16 Sep 2026 &middot; 6 &ndash; 10 Nov 2026 &middot; 20 Dis 2026 &ndash; 3 Jan 2027 &middot; 4 &ndash; 10 Feb 2027.</p><div class='notebox'><b>Deposit &amp; bayaran (Katalog v3):</b> deposit RM 250/pax; full payment 30 hari sebelum departure; harga sah 24 jam selepas quotation; itinerary final 14 hari sebelum trip.<br><b>Ditarik keluar:</b> caj Last Minute (&lt;3 minggu) +RM 300 / +RM 200 per pax tiada dalam Katalog v3 &mdash; ia datang dari R&amp;D Sheet sahaja. Jangan quote sehingga PO sahkan.</div>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'>Private transport ikut saiz group. Driver-guide tempatan cakap Melayu, fleksibel hingga tengah malam. Airport transfer included.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2–4 pax</td><td>Avanza / Innova</td><td>Private, ber-aircond</td></tr><tr><td class='it'>5–8 pax</td><td>Van 10-seater (Hiace)</td><td>Private</td></tr><tr><td class='it'>9+ pax</td><td>Van 16-seater</td><td>Private</td></tr></tbody></table></div><p class='ssub'>Driver hours ~12 jam/hari. <b>Max 1 luggage per pax</b> (kapasiti kenderaan). Tiada tour leader dari KL — hanya driver cum guide tempatan.</p>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Asas double sharing; triple = extra bed/mattress/sofa bed. Kundasang sejuk — hotel sediakan selimut tebal. Pilihan hotel ikut tier di bawah.</p>",
+   "compare": "<h2>Perbezaan Pakej — 3D2N Basic vs 4D3N Standard</h2><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>3D2N BASIC</th><th>4D3N STANDARD</th></tr></thead><tbody><tr><td class='feat'>Hotel 3-Star</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Bilangan malam</td><td class='val'>2 (1 Kundasang + 1 KK)</td><td class='val'>3 (1 Kundasang + 2 KK)</td></tr><tr><td class='feat'>Airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driver-guide (cakap Melayu)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Entrance fee (Malaysian)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Breakfast</td><td class='val'>2×</td><td class='val'>3×</td></tr><tr><td class='feat'>Dinner</td><td class='val'>1×</td><td class='val'>1×</td></tr><tr><td class='feat'>Lunch</td><td class='val'><span class='no'>—</span></td><td class='val'>1×</td></tr><tr><td class='feat'>Island Hopping (Sapi & Manukan)</td><td class='val'>Add-on</td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Highland tour (Desa Dairy, Rumah Terbalik, Rabbit Farm)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>City tour KK (Masjid Bandaraya, Pasar Filipino)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Poring Hot Spring / Mari-Mari Cultural Village</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 1,117</td><td class='val'>RM 1,457</td></tr><tr><td class='feat'>Harga from (grup besar)</td><td class='val'>RM 857 (9–10 pax)</td><td class='val'>RM 1,097 (8–10 pax)</td></tr></tbody></table>",
+   "freegift": "<h2>🎁 Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? sabah (kk–kundasang): free alpaca farm visit kod: fsbh3 bullet: brb luggage tag / pocket wifi 4g per booking *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Sabah (KK–Kundasang):</strong> Free Alpaca Farm Visit <span class='rtag'>Kod: FSBH3</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G per booking</p><p style='color:#b03030'>*Bullet wajib tanya PO/Leader</p><p style='color:#b03030'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "flight": "<h2>Flight & Airport</h2><p class='ssub'>Cadangan penerbangan KUL → BKI (Kota Kinabalu). Harga anggaran round-trip — semak semasa booking. Flight tidak termasuk dalam pakej.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Flight No.</th><th>Departs KUL</th><th>Arrives BKI</th><th>Jenis</th><th>Est. Round-Trip</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>AK5110</td><td>10:35</td><td>13:15</td><td>Low cost</td><td class='add'>RM 500–600</td></tr><tr><td class='it'>AirAsia</td><td>AK5140</td><td>11:45</td><td>14:20</td><td>Low cost</td><td class='add'>RM 500–600</td></tr><tr><td class='it'>Batik Air</td><td>OD1002</td><td>08:00</td><td>10:30</td><td>Low cost</td><td class='add'>RM 410–550</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH2610</td><td>09:15</td><td>11:55</td><td>Full service</td><td class='add'>RM 470–580</td></tr></tbody></table></div><p class='ssub'>Sumber: Flight Recommendation (rate card ARBA).</p>"
+  },
+  "snapshot": "# PT KK-Kundasang — Knowledge Base (Important Notes / FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*4 varian: 3D2N / 4D3N x Hotel 3-Star / Guesthouse. Harga per pax, asas 2-3 sebilik.*\n\n- Harga quotation sah **24 jam** selepas dikeluarkan.\n- **Deposit RM300/pax** (Pakej Honeymoon/SEM RM500/pax); atau 50% deposit selepas confirm booking.\n- **Full payment 30 hari** sebelum departure.\n- Itinerari **final 7 hari** sebelum trip.\n- Late booking <21 hari: caj RM50/booking; <3 minggu: +RM300/pax (2 pax) atau +RM200/pax (3+ pax).\n- Bawa **MyKad atau Passport** untuk check-in flight domestik.\n- Non-Malaysian: tambah entrance fee + tourism tax ~RM170-370/pax (ARBA tidak handle).\n- Max 1 luggage per pax (kapasiti kenderaan).\n- Peak season & school holiday (Mac/Mei/Dis + Krismas/Tahun Baru): rujuk tab Surcharge.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej KK-Kundasang ini all-in?**\nHampir. Sudah termasuk private transport, hotel, makan halal (2-3 breakfast + dinner/lunch), entrance fee (Malaysian), airport transfer, dan tipping driver-guide. Belum termasuk flight, aktiviti optional, dan fee Non-Malaysian.\n\n**Apa kelebihan ARBA?**\nBeroperasi sejak 2014, Muslim-friendly tour, makan halal, entrance fee included, driver-guide cakap Melayu, dan fleksibel hingga tengah malam.\n\n**Apa beza 3D2N dan 4D3N?**\n3D2N: 1 malam Kundasang + 1 malam KK, tiada island trip. 4D3N: 1 malam Kundasang + 2 malam KK + island hopping Pulau Sapi & Manukan (shared tour).\n\n**Tempat mana akan dilawat?**\nHari 1: Rumah Terbalik, Nabalu Market, Pekan Kundasang. Hari 2: Desa Dairy Farm, Fish Spa, Rabbit Farm, Jambatan Tamparuli. Hari akhir: Masjid Bandaraya & Pasar Filipino (3D2N), atau Island Trip Sapi+Manukan (4D3N).\n\n**Boleh customize itinerari?**\nBoleh. Tambah Poring Hot Spring (RM15/pax), Mari-Mari Cultural Village (RM160/dewasa), atau Mt Kinabalu Park.\n\n**Sesuai untuk hiking Gunung Kinabalu?**\nPakej ini tidak termasuk pendakian Gunung Kinabalu. Boleh request custom package — perlu permit + guide (booking ~6 bulan awal).\n\n**Sesuai untuk family, warga emas & anak kecil?**\nSangat sesuai. Family-friendly — kanak-kanak suka Rabbit Farm, Desa Dairy Farm & Fish Spa. Warga emas OK kerana private transport fleksibel untuk rehat (perjalanan KK-Kundasang ~2 jam).\n\n### B. Halal, Makanan & Solat\n\n**Makanan disediakan apa?**\n3D2N: 2 Breakfast + 1 Dinner. 4D3N: 3 Breakfast + 1 Lunch + 1 Dinner. Semua **halal** (Anjung Senja Seafood / restoran tempatan Muslim).\n\n**Senang cari makanan halal di sana?**\nYa. Kota Kinabalu banyak restoran halal; Pasar Filipino ada gerai seafood BBQ halal certified; Kampung Nelayan & Gayang antara seafood halal certified. Di Kundasang ada gerai Muslim di pekan & R&R.\n\n**Ada masjid atau surau untuk solat?**\nYa. Masjid Bandaraya KK (masjid terapung) ada ruang solat lelaki/perempuan, tempat wuduk & telekung. Di Kundasang, surau ada di pekan, R&R dan kebanyakan attraction. Untuk island trip, surau di pulau terhad — rancang waktu solat & bawa sejadah.\n\n**Perlu bawa telekung/sejadah sendiri?**\nDisyorkan bawa sejadah ringan & telekung untuk fleksibiliti semasa perjalanan dan di lokasi luar bandar / pulau.\n\n### C. Visa & Passport\n\n**Perlu visa?**\nTidak. Ini domestik Malaysia. Bawa **MyKad atau Passport** untuk check-in penerbangan domestik.\n\n**Rakyat asing (Non-Malaysian) macam mana?**\nPerlu bawa passport dan tambah entrance fee + tourism tax ~RM170-370/pax. ARBA tidak handle bayaran ini.\n\n### D. Flight & Airport\n\n**Naik flight apa?**\nPenerbangan domestik terus ke **BKI (Kota Kinabalu)** — AirAsia, Malaysia Airlines, Batik Air atau Firefly dari KUL. Masa penerbangan ~2.5 jam (2j30m-2j45m).\n\n**Flight termasuk dalam pakej?**\nTidak. Tiket flight book sendiri (exclusion). ARBA sediakan airport transfer di KK.\n\n**Berapa kg bagasi?**\nBergantung airline — AirAsia biasanya 20kg, MAS 25kg (semak semasa booking).\n\n### E. Hotel & Bilik\n\n**Menginap di mana?**\nKundasang: Kinabalu Pine Resort / Celyn / HBenjamin (3-Star). KK: Ming Garden / Dreamtel (3-Star). Tier Guesthouse: D'Manis (Kundasang) + Marina Court (KK).\n\n**Bilik macam mana?**\nAsas double sharing. Triple = extra bed/mattress/sofa bed. Single supplement RM300/pax (3D2N) atau RM420/pax (4D3N).\n\n**Boleh upgrade hotel?**\nBoleh. 3.5-Star (Perkasa/Dreamworld, Kundasang) atau 4-Star (Promenade/Palace, KK sahaja) — +RM150/pax/malam. Tiada 4-Star di Kundasang.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\n**Mac-Sep** cuaca elok. Mac-Mei view Gunung Kinabalu paling jelas. Elak Dis (peak + sesak); Okt-Feb kadang hujan tapi tidak teruk.\n\n**Cuaca di sana macam mana?**\nKundasang sejuk **15-22°C** (highland ~1,500m), boleh turun ~13°C malam. Kota Kinabalu panas 26-32°C.\n\n**Perlu bawa baju sejuk?**\nYa. Kundasang sejuk waktu malam — bawa jacket / windbreaker. Bawa payung/raincoat ringan sebab hujan boleh datang bila-bila.\n\n### G. Shopping & Duit\n\n**Boleh shopping di mana?**\nKK: Pasar Filipino (seafood + souvenir), Jamilah Jewellery, Imago Mall, kedai coklat/hub Sabah. Kundasang: Nabalu Market & pekan (buah, sayur, strawberi, produk tenusu).\n\n**Perlu bawa cash berapa?**\nSekitar RM200-500/pax. Kad OK di bandar KK; cash untuk gerai tempatan Kundasang (Nabalu Market, pekan).\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM300/pax (Honeymoon/SEM RM500/pax), atau 50% deposit selepas confirm booking.\n\n**Bila full payment?**\n30 hari sebelum departure.\n\n**Last minute booking macam mana?**\n<3 minggu sebelum departure: +RM300/pax (2 pax) atau +RM200/pax (3+ pax). <21 hari: caj RM50/booking.\n\n### I. Add-ons & Customization\n\n**Ada aktiviti tambahan?**\nYa: Island trip (RM68/pax), Poring Hot Spring (RM15/pax), Mari-Mari Cultural Village (RM160/dewasa), parasailing (RM70), seawalking (RM150), banana boat (RM35), jetski (RM155). Lihat tab Simple Customisation.\n\n**Boleh tambah insurance/takaful?**\nBoleh. Takaful TripCare 360 (Etiqa) dari RM50/pax untuk domestik.\n\n### J. Kesihatan & Keselamatan\n\n**Ada isu ketinggian di Kundasang?**\nKetinggian ~1,500m — kebanyakan orang tiada masalah. Bawa ubat peribadi; warga emas & yang ada masalah pernafasan ambil masa untuk sesuaikan diri.\n\n**Aktiviti laut selamat?**\nIsland trip dikendalikan operator berlesen dengan jaket keselamatan. Ikut arahan guide; snorkeling di kawasan ditetapkan.\n\n### K. Praktikal (SIM/Talian/Tandas)\n\n**Talian & internet OK?**\nMaxis/Celcom/Digi semua OK di KK & Kundasang; 4G stabil di kebanyakan kawasan.\n\n**Kuasa & soket elektrik?**\nMalaysia — soket Type G (3 pin), 240V. Sama seperti Semenanjung, tak perlu adapter.\n\n### L. Packing\n\n**Apa perlu bawa?**\nJacket/windbreaker (Kundasang sejuk), selipar & kasut selesa, payung/raincoat, sejadah & telekung, ubat peribadi, sunblock, dan pakaian renang (4D3N island trip). Muslimah: legging + baju labuh untuk aktiviti air.\n"
+ },
+ "calc": {
+  "dest": "KK - Kundasang",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child w/ bed (7&ndash;10)",
+   "cnb": "Child no bed (3&ndash;6)"
+  },
+  "infantNote": "Infant 1&ndash;2 tahun: <b>FREE</b> untuk kedua-dua pakej.",
+  "singleNote": "Single supplement RM 300/pax (3D2N) &middot; RM 450/pax (4D3N) &mdash; katalog v3.",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season, late booking dan surcaj travel 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza / Innova 2&ndash;4 pax, Van 8 Seater 5&ndash;8 pax, Van 16 Seater 9&ndash;16 pax) &mdash; pilih blok itinerary supaya kos berlabuh pada kawasan yang betul. Kadar accommodation ialah per pax per malam ikut hotel dan jenis bilik, dan ada kadar peak sendiri. Pilihan bertanda <i>dalam pakej</i> = RM 0 supaya tiada double-count dengan harga katalog.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "hideGeneric": [
+   "ext",
+   "fe"
+  ],
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "nMgSup",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 40,
+   "drop": 30
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "peak": {
+   "mode": "perNight",
+   "value": 40,
+   "windows": [
+    [
+     "2026-07-15",
+     "2026-08-20"
+    ],
+    [
+     "2026-08-28",
+     "2026-09-01"
+    ],
+    [
+     "2026-09-16",
+     "2026-09-16"
+    ],
+    [
+     "2026-11-06",
+     "2026-11-10"
+    ],
+    [
+     "2026-12-20",
+     "2027-01-03"
+    ],
+    [
+     "2027-02-04",
+     "2027-02-10"
+    ]
+   ]
+  },
+  "extraSurcharge": [
+   {
+    "label": "Surcharge travel date 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100
+   }
+  ],
+  "ext": {
+   "night": {
+    "normal": 130,
+    "peak": 160
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 16,
+   "shareVehicle": true,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 280,
+       "peak": 280
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 500,
+       "peak": 500
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kundasang]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 280,
+       "peak": 280
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 500,
+       "peak": 500
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kota Kinabalu]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 280,
+       "peak": 280
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 500,
+       "peak": 500
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Island]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 280,
+       "peak": 280
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 500,
+       "peak": 500
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kudat]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 600,
+       "peak": 600
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 750,
+       "peak": 750
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 850,
+       "peak": 850
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Mari-Mari]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 180,
+       "peak": 180
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 250,
+       "peak": 250
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "dayDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -180,
+       "peak": -180
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -250,
+       "peak": -250
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": -400,
+       "peak": -400
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kundasang]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -180,
+       "peak": -180
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -250,
+       "peak": -250
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": -400,
+       "peak": -400
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kota Kinabalu]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -180,
+       "peak": -180
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -250,
+       "peak": -250
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": -400,
+       "peak": -400
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Island]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -180,
+       "peak": -180
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -250,
+       "peak": -250
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": -400,
+       "peak": -400
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Kudat]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ],
+     "[Mari-Mari]": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -150,
+       "peak": -150
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "athd": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 1000,
+       "peak": 1000
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": 1300,
+       "peak": 1300
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": 2000,
+       "peak": 2000
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "athdDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -700,
+       "peak": -700
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": -900,
+       "peak": -900
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": -1600,
+       "peak": -1600
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "atkk": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 50,
+       "peak": 50
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "atkkDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -30,
+       "peak": -30
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "atkds": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": 450,
+       "peak": 450
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "atkdsDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 4,
+       "normal": -280,
+       "peak": -280
+      },
+      {
+       "from": 5,
+       "to": 8,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 9,
+       "to": 16,
+       "normal": null,
+       "peak": null
+      },
+      {
+       "from": 17,
+       "to": 99,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "nDtSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 100,
+       "peak": 150
+      }
+     ]
+    },
+    "nDtDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 110,
+       "peak": 160
+      }
+     ]
+    },
+    "nDtTri": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 110,
+       "peak": 160
+      }
+     ]
+    },
+    "nMgSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 120,
+       "peak": 180
+      }
+     ]
+    },
+    "nMgDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 210
+      }
+     ]
+    },
+    "nMgPrm": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 220,
+       "peak": 280
+      }
+     ]
+    },
+    "nPmSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 130,
+       "peak": 210
+      }
+     ]
+    },
+    "nPmDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 240
+      }
+     ]
+    },
+    "nPmJsu": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 200,
+       "peak": 330
+      }
+     ]
+    },
+    "nKprStd": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 130,
+       "peak": 160
+      }
+     ]
+    },
+    "nKprSst": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 180
+      }
+     ]
+    },
+    "nKprDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 165,
+       "peak": 200
+      }
+     ]
+    },
+    "nKprSdx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 185,
+       "peak": 220
+      }
+     ]
+    },
+    "nCelVw": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 140,
+       "peak": 190
+      }
+     ]
+    },
+    "nCelKw": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 200
+      }
+     ]
+    },
+    "nCelKs": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 170,
+       "peak": 220
+      }
+     ]
+    },
+    "nCelJj": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 200
+      }
+     ]
+    },
+    "nCelFr": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 150
+      }
+     ]
+    },
+    "nCelJs": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 200
+      }
+     ]
+    },
+    "nCelJf": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 150,
+       "peak": 200
+      }
+     ]
+    },
+    "nCelVc": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 180,
+       "peak": 230
+      }
+     ]
+    },
+    "dKprStd": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -80,
+       "peak": -80
+      }
+     ]
+    },
+    "dKprSst": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -85,
+       "peak": -85
+      }
+     ]
+    },
+    "dKprDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -100,
+       "peak": -100
+      }
+     ]
+    },
+    "dKprSdx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -130,
+       "peak": -130
+      }
+     ]
+    },
+    "dMgSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -80,
+       "peak": -80
+      }
+     ]
+    },
+    "dMgDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -90,
+       "peak": -90
+      }
+     ]
+    },
+    "dMgPrm": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -150,
+       "peak": -150
+      }
+     ]
+    },
+    "dDtSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -65,
+       "peak": -65
+      }
+     ]
+    },
+    "dDtDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -80,
+       "peak": -80
+      }
+     ]
+    },
+    "dDtTri": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -65,
+       "peak": -65
+      }
+     ]
+    },
+    "dPmSup": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -80,
+       "peak": -80
+      }
+     ]
+    },
+    "dPmDlx": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -90,
+       "peak": -90
+      }
+     ]
+    },
+    "dPmJsu": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -130,
+       "peak": -130
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang (dalam pakej)",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "Accommodation at 3-Star Hotel ({days}) - Kinabalu Pine Resort, Celyn or HBenjamin in Kundasang, Ming Garden or Dreamtel in Kota Kinabalu or similar"
+   },
+   {
+    "v": "up35",
+    "t": "Naik taraf 3.5 bintang Kundasang (malam normal)",
+    "cost": "incl",
+    "perPax": 80,
+    "hotel": "3.5-Star Hotel (Kundasang)",
+    "line": "3.5-Star hotel upgrade in Kundasang",
+    "incl": "Accommodation at 3.5-Star Hotel in Kundasang ({days}) - Perkasa or Dreamworld or similar, upgraded from 3-Star"
+   },
+   {
+    "v": "up35pk",
+    "t": "Naik taraf 3.5 bintang Kundasang &ndash; malam peak season",
+    "cost": "incl",
+    "perPax": 100,
+    "hotel": "3.5-Star Hotel (Kundasang)",
+    "line": "3.5-Star hotel upgrade in Kundasang (peak season night)",
+    "incl": "Accommodation at 3.5-Star Hotel in Kundasang ({days}) - Perkasa or Dreamworld or similar, upgraded from 3-Star"
+   },
+   {
+    "v": "up4",
+    "t": "Naik taraf 4 bintang Kota Kinabalu (malam normal)",
+    "cost": "incl",
+    "perPax": 150,
+    "hotel": "4-Star Hotel (Kota Kinabalu)",
+    "line": "4-Star hotel upgrade in Kota Kinabalu",
+    "incl": "Accommodation at 4-Star Hotel in Kota Kinabalu ({days}) - Promenade or Palace Hotel or similar, upgraded from 3-Star"
+   },
+   {
+    "v": "up4pk",
+    "t": "Naik taraf 4 bintang Kota Kinabalu &ndash; malam peak season",
+    "cost": "incl",
+    "perPax": 200,
+    "hotel": "4-Star Hotel (Kota Kinabalu)",
+    "line": "4-Star hotel upgrade in Kota Kinabalu (peak season night)",
+    "incl": "Accommodation at 4-Star Hotel in Kota Kinabalu ({days}) - Promenade or Palace Hotel or similar, upgraded from 3-Star"
+   },
+   {
+    "v": "nKprStd",
+    "t": "Malam tambahan &middot; Kundasang KPR Standard Room",
+    "cost": "night",
+    "nightRate": "nKprStd",
+    "hotel": "3-Star Hotel (Kundasang)",
+    "line": "Additional night, Kinabalu Pine Resort, Standard Room, Kundasang",
+    "incl": "Additional night at Kinabalu Pine Resort, Standard Room, Kundasang ({days})"
+   },
+   {
+    "v": "nKprSst",
+    "t": "Malam tambahan &middot; Kundasang KPR Superior Standard",
+    "cost": "night",
+    "nightRate": "nKprSst",
+    "hotel": "3-Star Hotel (Kundasang)",
+    "line": "Additional night, Kinabalu Pine Resort, Superior Standard Room, Kundasang",
+    "incl": "Additional night at Kinabalu Pine Resort, Superior Standard Room, Kundasang ({days})"
+   },
+   {
+    "v": "nKprDlx",
+    "t": "Malam tambahan &middot; Kundasang KPR Deluxe Room",
+    "cost": "night",
+    "nightRate": "nKprDlx",
+    "hotel": "3-Star Hotel (Kundasang)",
+    "line": "Additional night, Kinabalu Pine Resort, Deluxe Room, Kundasang",
+    "incl": "Additional night at Kinabalu Pine Resort, Deluxe Room, Kundasang ({days})"
+   },
+   {
+    "v": "nKprSdx",
+    "t": "Malam tambahan &middot; Kundasang KPR Superior Deluxe",
+    "cost": "night",
+    "nightRate": "nKprSdx",
+    "hotel": "3-Star Hotel (Kundasang)",
+    "line": "Additional night, Kinabalu Pine Resort, Superior Deluxe Room, Kundasang",
+    "incl": "Additional night at Kinabalu Pine Resort, Superior Deluxe Room, Kundasang ({days})"
+   },
+   {
+    "v": "nCelVw",
+    "t": "Malam tambahan &middot; Kundasang Celyn Valley Wing",
+    "cost": "night",
+    "nightRate": "nCelVw",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Valley Wing, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Valley Wing, Kundasang ({days})"
+   },
+   {
+    "v": "nCelKw",
+    "t": "Malam tambahan &middot; Kundasang Celyn Kinabalu Wing",
+    "cost": "night",
+    "nightRate": "nCelKw",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Kinabalu Wing, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Kinabalu Wing, Kundasang ({days})"
+   },
+   {
+    "v": "nCelKs",
+    "t": "Malam tambahan &middot; Kundasang Celyn Kinabalu Suite",
+    "cost": "night",
+    "nightRate": "nCelKs",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Kinabalu Suite, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Kinabalu Suite, Kundasang ({days})"
+   },
+   {
+    "v": "nCelJj",
+    "t": "Malam tambahan &middot; Kundasang Celyn Jungle Junior",
+    "cost": "night",
+    "nightRate": "nCelJj",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Jungle Junior, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Jungle Junior, Kundasang ({days})"
+   },
+   {
+    "v": "nCelFr",
+    "t": "Malam tambahan &middot; Kundasang Celyn Family Room (3 pax)",
+    "cost": "night",
+    "nightRate": "nCelFr",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Family Room, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Family Room, Kundasang ({days})"
+   },
+   {
+    "v": "nCelJs",
+    "t": "Malam tambahan &middot; Kundasang Celyn Jungle Suite (3 pax)",
+    "cost": "night",
+    "nightRate": "nCelJs",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Jungle Suite, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Jungle Suite, Kundasang ({days})"
+   },
+   {
+    "v": "nCelJf",
+    "t": "Malam tambahan &middot; Kundasang Celyn Jungle Family (3 pax)",
+    "cost": "night",
+    "nightRate": "nCelJf",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Jungle Family Room, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Jungle Family Room, Kundasang ({days})"
+   },
+   {
+    "v": "nCelVc",
+    "t": "Malam tambahan &middot; Kundasang Celyn Villa / Chalet (4 pax)",
+    "cost": "night",
+    "nightRate": "nCelVc",
+    "hotel": "3-Star Resort (Kundasang)",
+    "line": "Additional night, Celyn Resort Kinabalu, Villa or Chalet, Kundasang",
+    "incl": "Additional night at Celyn Resort Kinabalu, Villa or Chalet, Kundasang ({days})"
+   },
+   {
+    "v": "nMgSup",
+    "t": "Malam tambahan &middot; KK Ming Garden Superior",
+    "cost": "night",
+    "nightRate": "nMgSup",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Ming Garden Hotel, Superior Room, Kota Kinabalu",
+    "incl": "Additional night at Ming Garden Hotel, Superior Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nMgDlx",
+    "t": "Malam tambahan &middot; KK Ming Garden Deluxe",
+    "cost": "night",
+    "nightRate": "nMgDlx",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Ming Garden Hotel, Deluxe Room, Kota Kinabalu",
+    "incl": "Additional night at Ming Garden Hotel, Deluxe Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nMgPrm",
+    "t": "Malam tambahan &middot; KK Ming Garden Premier",
+    "cost": "night",
+    "nightRate": "nMgPrm",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Ming Garden Hotel, Premier Room, Kota Kinabalu",
+    "incl": "Additional night at Ming Garden Hotel, Premier Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nDtSup",
+    "t": "Malam tambahan &middot; KK Dreamtel Superior",
+    "cost": "night",
+    "nightRate": "nDtSup",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Dreamtel Hotel, Superior Room, Kota Kinabalu",
+    "incl": "Additional night at Dreamtel Hotel, Superior Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nDtDlx",
+    "t": "Malam tambahan &middot; KK Dreamtel Deluxe",
+    "cost": "night",
+    "nightRate": "nDtDlx",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Dreamtel Hotel, Deluxe Room, Kota Kinabalu",
+    "incl": "Additional night at Dreamtel Hotel, Deluxe Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nDtTri",
+    "t": "Malam tambahan &middot; KK Dreamtel Deluxe Triple",
+    "cost": "night",
+    "nightRate": "nDtTri",
+    "hotel": "3-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Dreamtel Hotel, Deluxe Triple Room, Kota Kinabalu",
+    "incl": "Additional night at Dreamtel Hotel, Deluxe Triple Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nPmSup",
+    "t": "Malam tambahan &middot; KK Promenade Superior (4 bintang)",
+    "cost": "night",
+    "nightRate": "nPmSup",
+    "hotel": "4-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Promenade Hotel, Superior Room, Kota Kinabalu",
+    "incl": "Additional night at Promenade Hotel, Superior Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nPmDlx",
+    "t": "Malam tambahan &middot; KK Promenade Deluxe (4 bintang)",
+    "cost": "night",
+    "nightRate": "nPmDlx",
+    "hotel": "4-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Promenade Hotel, Deluxe Room, Kota Kinabalu",
+    "incl": "Additional night at Promenade Hotel, Deluxe Room, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "nPmJsu",
+    "t": "Malam tambahan &middot; KK Promenade Junior Suite (4 bintang)",
+    "cost": "night",
+    "nightRate": "nPmJsu",
+    "hotel": "4-Star Hotel (Kota Kinabalu)",
+    "line": "Additional night, Promenade Hotel, Junior Suite, Kota Kinabalu",
+    "incl": "Additional night at Promenade Hotel, Junior Suite, Kota Kinabalu ({days})"
+   },
+   {
+    "v": "dKprStd",
+    "t": "Tolak 1 malam &middot; Kundasang KPR Standard",
+    "cost": "zero",
+    "perPaxRate": "dKprStd",
+    "dropsNight": true,
+    "line": "Less one night, Kinabalu Pine Resort Standard Room, Kundasang"
+   },
+   {
+    "v": "dKprSst",
+    "t": "Tolak 1 malam &middot; Kundasang KPR Superior Standard",
+    "cost": "zero",
+    "perPaxRate": "dKprSst",
+    "dropsNight": true,
+    "line": "Less one night, Kinabalu Pine Resort Superior Standard Room, Kundasang"
+   },
+   {
+    "v": "dKprDlx",
+    "t": "Tolak 1 malam &middot; Kundasang KPR Deluxe",
+    "cost": "zero",
+    "perPaxRate": "dKprDlx",
+    "dropsNight": true,
+    "line": "Less one night, Kinabalu Pine Resort Deluxe Room, Kundasang"
+   },
+   {
+    "v": "dKprSdx",
+    "t": "Tolak 1 malam &middot; Kundasang KPR Superior Deluxe",
+    "cost": "zero",
+    "perPaxRate": "dKprSdx",
+    "dropsNight": true,
+    "line": "Less one night, Kinabalu Pine Resort Superior Deluxe Room, Kundasang"
+   },
+   {
+    "v": "dMgSup",
+    "t": "Tolak 1 malam &middot; KK Ming Garden Superior",
+    "cost": "zero",
+    "perPaxRate": "dMgSup",
+    "dropsNight": true,
+    "line": "Less one night, Ming Garden Hotel Superior Room, Kota Kinabalu"
+   },
+   {
+    "v": "dMgDlx",
+    "t": "Tolak 1 malam &middot; KK Ming Garden Deluxe",
+    "cost": "zero",
+    "perPaxRate": "dMgDlx",
+    "dropsNight": true,
+    "line": "Less one night, Ming Garden Hotel Deluxe Room, Kota Kinabalu"
+   },
+   {
+    "v": "dMgPrm",
+    "t": "Tolak 1 malam &middot; KK Ming Garden Premier",
+    "cost": "zero",
+    "perPaxRate": "dMgPrm",
+    "dropsNight": true,
+    "line": "Less one night, Ming Garden Hotel Premier Room, Kota Kinabalu"
+   },
+   {
+    "v": "dDtSup",
+    "t": "Tolak 1 malam &middot; KK Dreamtel Superior",
+    "cost": "zero",
+    "perPaxRate": "dDtSup",
+    "dropsNight": true,
+    "line": "Less one night, Dreamtel Hotel Superior Room, Kota Kinabalu"
+   },
+   {
+    "v": "dDtDlx",
+    "t": "Tolak 1 malam &middot; KK Dreamtel Deluxe",
+    "cost": "zero",
+    "perPaxRate": "dDtDlx",
+    "dropsNight": true,
+    "line": "Less one night, Dreamtel Hotel Deluxe Room, Kota Kinabalu"
+   },
+   {
+    "v": "dDtTri",
+    "t": "Tolak 1 malam &middot; KK Dreamtel Deluxe Triple",
+    "cost": "zero",
+    "perPaxRate": "dDtTri",
+    "dropsNight": true,
+    "line": "Less one night, Dreamtel Hotel Deluxe Triple Room, Kota Kinabalu"
+   },
+   {
+    "v": "dPmSup",
+    "t": "Tolak 1 malam &middot; KK Promenade Superior",
+    "cost": "zero",
+    "perPaxRate": "dPmSup",
+    "dropsNight": true,
+    "line": "Less one night, Promenade Hotel Superior Room, Kota Kinabalu"
+   },
+   {
+    "v": "dPmDlx",
+    "t": "Tolak 1 malam &middot; KK Promenade Deluxe",
+    "cost": "zero",
+    "perPaxRate": "dPmDlx",
+    "dropsNight": true,
+    "line": "Less one night, Promenade Hotel Deluxe Room, Kota Kinabalu"
+   },
+   {
+    "v": "dPmJsu",
+    "t": "Tolak 1 malam &middot; KK Promenade Junior Suite",
+    "cost": "zero",
+    "perPaxRate": "dPmJsu",
+    "dropsNight": true,
+    "line": "Less one night, Promenade Hotel Junior Suite, Kota Kinabalu"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / balik)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "bfLock": true
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner",
+    "bfLock": true
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Full Day Tour + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private transportation with local Malay-speaking driver cum guide, 12 hours basis ({days})"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer + Half Day Tour (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Airport Transfer + Driving Guide",
+    "incl": "Private airport transfer at Kota Kinabalu International Airport (BKI) with half day tour and driving guide, 6 hours basis ({days})"
+   },
+   {
+    "v": "boat",
+    "t": "Private Transport + Boat, Shared Tour (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Boat (Shared Tour)",
+    "incl": "Private transportation and shared boat transfer to Sapi and Manukan Island, boat and activity shared with other tourists ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Full Day Tour 12 jam (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional full day tour, 12 hours basis, with private transportation and driving guide ({days})"
+   },
+   {
+    "v": "athd",
+    "t": "Airport Transfer + Half Day Tour 6 jam (hari tambahan)",
+    "cost": "zero",
+    "guided": true,
+    "perVehicleRate": "athd",
+    "lbl": "Airport Transfer + Driving Guide",
+    "line": "Private airport transfer with half day tour, 6 hours basis",
+    "incl": "Private airport transfer with half day tour, 6 hours basis, and driving guide ({days})"
+   },
+   {
+    "v": "atkk",
+    "t": "Airport Transfer &harr; KK Town sahaja",
+    "cost": "zero",
+    "perVehicleRate": "atkk",
+    "lbl": "Airport Transfer",
+    "line": "Private airport transfer, Kota Kinabalu Airport to Kota Kinabalu town",
+    "incl": "Private airport transfer between Kota Kinabalu International Airport (BKI) and Kota Kinabalu town ({days})"
+   },
+   {
+    "v": "atkds",
+    "t": "Airport Transfer &harr; Kundasang sahaja",
+    "cost": "zero",
+    "perVehicleRate": "atkds",
+    "lbl": "Airport Transfer",
+    "line": "Private airport transfer, Kota Kinabalu Airport to Kundasang",
+    "incl": "Private airport transfer between Kota Kinabalu International Airport (BKI) and Kundasang ({days})"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak Full Day Tour dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy day (private transport and driving guide deducted)"
+   },
+   {
+    "v": "athdded",
+    "t": "Buang Airport Transfer + Half Day &ndash; tolak dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "athdDed",
+    "lbl": "-",
+    "line": "Less airport transfer with half day tour"
+   },
+   {
+    "v": "atkkded",
+    "t": "Buang Airport Transfer KK Town &ndash; tolak dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "atkkDed",
+    "lbl": "-",
+    "line": "Less airport transfer, Kota Kinabalu Airport to town"
+   },
+   {
+    "v": "atkdsded",
+    "t": "Buang Airport Transfer Kundasang &ndash; tolak dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "atkdsDed",
+    "lbl": "-",
+    "line": "Less airport transfer, Kota Kinabalu Airport to Kundasang"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "t": "Hari tambahan - pilih blok tour di bawah",
+    "en": "ADDITIONAL DAY",
+    "acc": "nMgSup",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kota Kinabalu]",
+    "g": "Umum",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fe",
+    "t": "Free & easy - tiada tour",
+    "en": "FREE AND EASY",
+    "acc": "nMgSup",
+    "meal": "b",
+    "trp": "none",
+    "region": "[Kota Kinabalu]",
+    "g": "Umum",
+    "act": [
+     "Hari bebas - tiada aktiviti dijadualkan"
+    ],
+    "eact": [
+     "Free and easy day at own leisure"
+    ]
+   },
+   {
+    "v": "feblk",
+    "t": "Free & easy - tolak Full Day Tour dari katalog",
+    "en": "FREE AND EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "feded",
+    "region": "[Kota Kinabalu]",
+    "g": "Umum",
+    "act": [
+     "Hari bebas tanpa transport atau driving guide"
+    ],
+    "eact": [
+     "Free and easy day without transport or driving guide"
+    ]
+   },
+   {
+    "v": "atkkblk",
+    "t": "Airport Transfer KK Town sahaja (tanpa tour)",
+    "en": "AIRPORT TRANSFER",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "atkk",
+    "region": "[Kota Kinabalu]",
+    "g": "Umum",
+    "act": [
+     "Airport transfer Kota Kinabalu (BKI) ke bandar KK"
+    ],
+    "eact": [
+     "Airport transfer between Kota Kinabalu Airport and Kota Kinabalu town"
+    ]
+   },
+   {
+    "v": "atkdsblk",
+    "t": "Airport Transfer Kundasang sahaja (tanpa tour)",
+    "en": "AIRPORT TRANSFER",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "atkds",
+    "region": "[Kundasang]",
+    "g": "Umum",
+    "act": [
+     "Airport transfer Kota Kinabalu (BKI) ke Kundasang"
+    ],
+    "eact": [
+     "Airport transfer between Kota Kinabalu Airport and Kundasang"
+    ]
+   },
+   {
+    "v": "athdblk",
+    "t": "Airport Transfer + Half Day Tour 6 jam",
+    "en": "AIRPORT TRANSFER WITH HALF DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "athd",
+    "region": "[Kota Kinabalu]",
+    "g": "Umum",
+    "act": [
+     "Airport transfer Kota Kinabalu (BKI)",
+     "Half day tour 6 jam"
+    ],
+    "eact": [
+     "Airport transfer at Kota Kinabalu Airport",
+     "Half day tour, 6 hours basis"
+    ]
+   },
+   {
+    "v": "lKdsFarm",
+    "t": "Kundasang - Desa Dairy Farm, Fish Spa, Rabbit Farm",
+    "en": "KUNDASANG - DESA DAIRY FARM, FISH SPA, RABBIT FARM",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kundasang]",
+    "g": "Kundasang / Ranau",
+    "act": [
+     "DESA Dairy Farm",
+     "Marakau Fish Spa",
+     "Rabbit Farm",
+     "Jambatan Tamparuli"
+    ],
+    "eact": [
+     "DESA Dairy Farm",
+     "Marakau Fish Spa",
+     "Rabbit Farm",
+     "Jambatan Tamparuli suspension bridge"
+    ]
+   },
+   {
+    "v": "lPoring",
+    "t": "Ranau - Poring Hot Spring, Canopy Walk, Kinabalu Park",
+    "en": "RANAU - PORING HOT SPRING, CANOPY WALK, KINABALU PARK",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kundasang]",
+    "g": "Kundasang / Ranau",
+    "act": [
+     "Poring Hot Spring",
+     "Canopy Walk",
+     "Kinabalu Park (guna tiket Poring)"
+    ],
+    "eact": [
+     "Poring Hot Spring",
+     "Canopy Walk",
+     "Kinabalu Park, entry using Poring ticket"
+    ]
+   },
+   {
+    "v": "lKdsView",
+    "t": "Kundasang - Pekan Kundasang, War Memorial, Alpaca Club",
+    "en": "KUNDASANG - TOWN, WAR MEMORIAL, ALPACA CLUB",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kundasang]",
+    "g": "Kundasang / Ranau",
+    "act": [
+     "Pekan Kundasang - view Gunung Kinabalu",
+     "Kundasang War Memorial",
+     "Alpaca Club",
+     "Polumpung Melangkap Camp View Site"
+    ],
+    "eact": [
+     "Kundasang town with Mount Kinabalu view",
+     "Kundasang War Memorial",
+     "Alpaca Club",
+     "Polumpung Melangkap Camp View Site"
+    ]
+   },
+   {
+    "v": "lKkCity",
+    "t": "Kota Kinabalu City Tour",
+    "en": "KOTA KINABALU CITY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kota Kinabalu]",
+    "g": "Kota Kinabalu",
+    "act": [
+     "Masjid Bandaraya",
+     "Yayasan Building",
+     "Pasar Filipino",
+     "Jamilah Souvenir Shop",
+     "Atkinson Clock Tower (photostop)",
+     "Gaya Street"
+    ],
+    "eact": [
+     "Bandaraya Mosque",
+     "Yayasan Building",
+     "Filipino Market",
+     "Jamilah Souvenir Shop",
+     "Atkinson Clock Tower photo stop",
+     "Gaya Street"
+    ]
+   },
+   {
+    "v": "lIsland",
+    "t": "Island Trip - Sapi & Manukan (Shared Tour)",
+    "en": "ISLAND TRIP - SAPI AND MANUKAN ISLAND (SIC)",
+    "acc": "incl",
+    "meal": "bl",
+    "trp": "boat",
+    "region": "[Island]",
+    "g": "Kota Kinabalu",
+    "act": [
+     "Private Jetty",
+     "Snorkeling & swimming di Pulau Sapi",
+     "Pulau Manukan",
+     "Sunset di Pantai Tanjung Aru"
+    ],
+    "eact": [
+     "Private jetty",
+     "Snorkeling and swimming at Sapi Island",
+     "Manukan Island",
+     "Sunset at Tanjung Aru Beach"
+    ]
+   },
+   {
+    "v": "lMari",
+    "t": "Mari-Mari Cultural Village + Lunch",
+    "en": "MARI-MARI CULTURAL VILLAGE",
+    "acc": "incl",
+    "meal": "bl",
+    "trp": "ext",
+    "region": "[Mari-Mari]",
+    "g": "Kota Kinabalu",
+    "act": [
+     "Mari-Mari Cultural Village",
+     "Lunch atau tea di Mari-Mari"
+    ],
+    "eact": [
+     "Mari-Mari Cultural Village",
+     "Lunch or tea at Mari-Mari"
+    ]
+   },
+   {
+    "v": "lKudat",
+    "t": "Full Day Tour KK ke Kudat - Tip of Borneo",
+    "en": "FULL DAY TOUR KOTA KINABALU TO KUDAT - TIP OF BORNEO",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Kudat]",
+    "g": "Kudat",
+    "act": [
+     "Perjalanan KK ke Kudat",
+     "Tip of Borneo (Tanjung Simpang Mengayau)",
+     "Rumah Panjang Rungus"
+    ],
+    "eact": [
+     "Overland journey from Kota Kinabalu to Kudat",
+     "Tip of Borneo, Tanjung Simpang Mengayau",
+     "Rungus Longhouse"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Poring Hot Spring and Canopy Walk, Ranau, minimum 1 pax - per pax",
+    15,
+    15,
+    "pax"
+   ],
+   [
+    "Parasailing, minimum 1 pax - per pax",
+    90,
+    90,
+    "pax"
+   ],
+   [
+    "Seawalking, minimum 1 pax - per pax",
+    180,
+    180,
+    "pax"
+   ],
+   [
+    "Banana Boat, minimum 3 pax - per pax",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Mari-Mari Cultural Village including transport and lunch or tea - per pax",
+    160,
+    150,
+    "pax"
+   ],
+   [
+    "Mari-Mari Cultural Village, swap with Island Trip, including transport and lunch or tea - per transport",
+    120,
+    0,
+    "share"
+   ],
+   [
+    "Island Trip to Sapi and Manukan Island, for 3D2N package only - per pax",
+    75,
+    55,
+    "pax"
+   ],
+   [
+    "Additional island, Gaya or Mamutik - per pax",
+    10,
+    10,
+    "pax"
+   ],
+   [
+    "Jetski - per pax",
+    80,
+    75,
+    "pax"
+   ],
+   [
+    "Alpaca Club entrance - per pax",
+    15,
+    10,
+    "pax"
+   ],
+   [
+    "Kinabalu Park entrance, using Poring ticket - per pax",
+    15,
+    15,
+    "pax"
+   ],
+   [
+    "Kundasang War Memorial entrance - per pax",
+    5,
+    5,
+    "pax"
+   ],
+   [
+    "Balai Seni Lukis Sabah entrance - per pax",
+    15,
+    15,
+    "pax"
+   ],
+   [
+    "Chanteek Borneo Indigenous Museum entrance - per pax",
+    270,
+    270,
+    "pax"
+   ],
+   [
+    "Lunch at Kinabalu Pine Resort - per pax",
+    40,
+    40,
+    "pax"
+   ],
+   [
+    "Dinner at Dream World buffet - per pax",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Dinner at Todak Waterfront - per pax",
+    40,
+    40,
+    "pax"
+   ],
+   [
+    "Dinner at Kampung Nelayan halal seafood - per pax",
+    75,
+    75,
+    "pax"
+   ],
+   [
+    "Candle Light Dinner at Kinabalu Pine Resort - per pax",
+    150,
+    150,
+    "pax"
+   ],
+   [
+    "Table decoration - per table",
+    50,
+    0,
+    "unit"
+   ],
+   [
+    "Car rental Myvi or Bezza self drive, 4-seater - per day",
+    150,
+    0,
+    "unit"
+   ],
+   [
+    "Car rental Avanza self drive, 6-seater - per day",
+    200,
+    0,
+    "unit"
+   ],
+   [
+    "Car rental Van Hiace self drive, 10-seater - per day",
+    350,
+    0,
+    "unit"
+   ],
+   [
+    "Less Rumah Terbalik entrance from package - per pax",
+    -10,
+    -10,
+    "pax",
+    "Rumah Terbalik, Upside Down House"
+   ],
+   [
+    "Less DESA Dairy Farm entrance from package - per pax",
+    -10,
+    -10,
+    "pax",
+    "DESA Dairy Farm"
+   ],
+   [
+    "Less Rabbit Farm entrance from package - per pax",
+    -10,
+    -10,
+    "pax",
+    "Rabbit Farm"
+   ],
+   [
+    "Less Marakau Fish Spa from 4D3N package - per pax",
+    -10,
+    -10,
+    "pax",
+    "Marakau Fish Spa"
+   ],
+   [
+    "Less Polumpung Melangkap Camp View Site from 4D3N package - per pax",
+    -5,
+    -5,
+    "pax",
+    "Polumpung Melangkap Camp View Site"
+   ],
+   [
+    "Less Island Trip Sapi and Manukan from 4D3N package - per pax",
+    -60,
+    -60,
+    "pax",
+    "Island Trip to Sapi and Manukan Island"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 1,
+    "to": 4,
+    "text": "1&ndash;4 pax: Avanza / Innova &mdash; kadar transport band 2&ndash;4 pax rate card"
+   },
+   {
+    "from": 5,
+    "to": 8,
+    "text": "5&ndash;8 pax: Van 8 Seater &mdash; kadar transport band 5&ndash;8 pax"
+   },
+   {
+    "from": 9,
+    "to": 16,
+    "text": "9&ndash;16 pax: Van 16 Seater &mdash; kadar transport band 9&ndash;16 pax. Airport Transfer KK Town dan Airport Transfer Kundasang <b>tiada kadar tersiar</b> untuk van &mdash; minta operasi."
+   },
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "11 pax ke atas: katalog v3 berhenti pada 10 pax, jadi harga tier guna baris terakhir (9&ndash;10 untuk 3D2N, 8&ndash;10 untuk 4D3N). <b>Quote manual</b> &mdash; sahkan dengan PO sebelum hantar."
+   },
+   {
+    "from": 17,
+    "to": 99999,
+    "text": "17 pax ke atas: melebihi satu Van 16 Seater. Rate card tidak menyiarkan kadar untuk lebih satu kenderaan &mdash; quote manual."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> Prices are based on the PT Sabah 3D2N and 4D3N 3-Star catalogues version 3, last updated 1 July 2026 and valid until 31 December 2026. This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability, as no space has been secured. Prices are for 2 to 3 persons per room; single supplement is RM 300 per person for the 3D2N package and RM 450 per person for the 4D3N package. A deposit of RM 250 per person is due on confirmation and full payment 30 days before departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before departure. Departures between 1 January and 30 June 2027 carry a travel date surcharge of RM 100 per person. The driver cum guide is Malay speaking and works on a 12 hours basis per day; luggage is limited to one piece per person because of vehicle capacity. The final itinerary and hotel arrangements are shared 14 days before the trip and remain subject to change due to weather, traffic, safety or operational conditions. Entrance fees, tourism tax and surcharges for non-Malaysian passport holders, normally around RM 170 to RM 370 per person, are excluded and payable directly during the trip. Free activities are not exchangeable for other activities, vouchers or cash if the client does not join, or where availability or weather prevents them.",
+  "variants": [
+   {
+    "id": "b3d2n",
+    "name": "PT KK&ndash;Kundasang Basic 3D2N &middot; Hotel 3 Bintang",
+    "pkgLabel": "KK - Kundasang Basic - Kundasang, Desa Dairy Farm, Rabbit Farm, Filipino Market, Kota Kinabalu",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 3,
+    "nights": 2,
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": 1697,
+      "c": 1597,
+      "n": 1497
+     },
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1117,
+      "c": 1017,
+      "n": 917
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 957,
+      "c": 857,
+      "n": 757
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 907,
+      "c": 807,
+      "n": 707
+     },
+     {
+      "from": 7,
+      "to": 8,
+      "a": 877,
+      "c": 777,
+      "n": 677
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 857,
+      "c": 757,
+      "n": 657
+     }
+    ],
+    "infant": 0,
+    "single": 300,
+    "labelCwb": "Child With Bed (7-10 yrs)",
+    "labelCnb": "Child No Bed (3-6 yrs)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Kota Kinabalu - Kundasang",
+      "en": "KOTA KINABALU - KUNDASANG",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "air",
+      "region": "[Kundasang]",
+      "act": [
+       "Tiba di Kota Kinabalu",
+       "Bertolak ke Kundasang",
+       "Rumah Terbalik (Upside Down House)",
+       "Nabalu Market (pasar segar tempatan)",
+       "Pekan Kundasang (view terbaik Gunung Kinabalu)",
+       "Check in hotel di Kundasang & rehat"
+      ],
+      "eact": [
+       "Arrive at Kota Kinabalu",
+       "Depart to Kundasang",
+       "Rumah Terbalik, Upside Down House",
+       "Nabalu Market, local fresh farm market",
+       "Pekan Kundasang, hill town with best Mount Kinabalu view",
+       "Check in hotel in Kundasang and rest"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Kundasang Tour",
+      "en": "KUNDASANG TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Kundasang]",
+      "act": [
+       "Check out",
+       "DESA Dairy Farm",
+       "Rabbit Farm",
+       "Jambatan Tamparuli",
+       "Grilled Lokan, Coconut Jelly",
+       "Anjung Senja Seafood",
+       "Check in hotel di Kota Kinabalu & rehat"
+      ],
+      "eact": [
+       "Check out",
+       "DESA Dairy Farm",
+       "Rabbit Farm",
+       "Jambatan Tamparuli suspension bridge",
+       "Grilled Lokan and Coconut Jelly",
+       "Anjung Senja Seafood",
+       "Check in hotel in Kota Kinabalu city and rest"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Kota Kinabalu City Tour",
+      "en": "KOTA KINABALU CITY TOUR",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Kota Kinabalu]",
+      "act": [
+       "Masjid Bandaraya",
+       "Yayasan Building",
+       "Pasar Filipino (pasar seafood & souvenir paling popular)",
+       "Jamilah Souvenir Shop",
+       "Bertolak ke Lapangan Terbang Kota Kinabalu"
+      ],
+      "eact": [
+       "Bandaraya Mosque",
+       "Yayasan Building",
+       "Filipino Market, most popular seafood market and souvenirs",
+       "Jamilah Souvenir Shop",
+       "Depart to Kota Kinabalu Airport"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "Entrance fee: Rumah Terbalik, Upside Down House",
+     "Entrance fee: DESA Dairy Farm",
+     "Entrance fee: Rabbit Farm",
+     "Entrance fees stated above are for Malaysian citizens only",
+     "Extra bed, mattress or sofa bed for triple sharing room, subject to availability",
+     "Tipping for the driver cum guide"
+    ],
+    "exclusions": [
+     "Domestic flight ticket to Kota Kinabalu (BKI)",
+     "Personal expenses",
+     "Travel insurance",
+     "Entrance fees, tourism tax and surcharge for non-Malaysian passport holders, normally around RM 170 to RM 370 per person"
+    ],
+    "exclusionsTail": [
+     "Optional activities and add-ons not listed in the itinerary",
+     "Climb permit and mountain guide for Mount Kinabalu summit"
+    ]
+   },
+   {
+    "id": "s4d3n",
+    "name": "PT KK&ndash;Kundasang Standard 4D3N &middot; Hotel 3 Bintang",
+    "pkgLabel": "KK - Kundasang Standard - Kundasang, Desa Dairy Farm, Rabbit Farm, Manukan Island, Tanjung Aru",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "tiers": [
+     {
+      "from": 1,
+      "to": 1,
+      "a": 2157,
+      "c": 2057,
+      "n": 1957
+     },
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1457,
+      "c": 1357,
+      "n": 1257
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 1357,
+      "c": 1257,
+      "n": 1157
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 1197,
+      "c": 1097,
+      "n": 997
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 1157,
+      "c": 1057,
+      "n": 957
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 1097,
+      "c": 997,
+      "n": 897
+     }
+    ],
+    "infant": 0,
+    "single": 450,
+    "labelCwb": "Child With Bed (7-10 yrs)",
+    "labelCnb": "Child No Bed (3-6 yrs)",
+    "itin": [
+     {
+      "v": "e1",
+      "t": "Kota Kinabalu - Kundasang",
+      "en": "KOTA KINABALU - KUNDASANG",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "air",
+      "region": "[Kundasang]",
+      "act": [
+       "Tiba di Kota Kinabalu",
+       "Bertolak ke Kundasang",
+       "Rumah Terbalik (Upside Down House)",
+       "Polumpung Melangkap Camp View Site",
+       "Nabalu Market (pasar segar tempatan)",
+       "Pekan Kundasang",
+       "Check in hotel di Kundasang & rehat"
+      ],
+      "eact": [
+       "Arrive at Kota Kinabalu",
+       "Depart to Kundasang",
+       "Rumah Terbalik, Upside Down House",
+       "Polumpung Melangkap Camp View Site",
+       "Nabalu Market, local fresh farm market",
+       "Pekan Kundasang",
+       "Check in hotel in Kundasang and rest"
+      ]
+     },
+     {
+      "v": "e2",
+      "t": "Kundasang Tour",
+      "en": "KUNDASANG TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Kundasang]",
+      "act": [
+       "DESA Dairy Farm",
+       "Fish Spa",
+       "Rabbit Farm",
+       "Jambatan Tamparuli",
+       "Anjung Senja Seafood",
+       "Check in hotel di Kota Kinabalu & rehat"
+      ],
+      "eact": [
+       "DESA Dairy Farm",
+       "Fish Spa",
+       "Rabbit Farm",
+       "Jambatan Tamparuli suspension bridge",
+       "Anjung Senja Seafood",
+       "Check in hotel in Kota Kinabalu and rest"
+      ]
+     },
+     {
+      "v": "e3",
+      "t": "Manukan & Sapi Island Tour (SIC)",
+      "en": "MANUKAN AND SAPI ISLAND TOUR (SIC)",
+      "acc": "incl",
+      "meal": "bl",
+      "trp": "boat",
+      "region": "[Island]",
+      "act": [
+       "Bertolak ke Private Jetty",
+       "Snorkeling & berenang di Pulau Sapi",
+       "Bertolak ke Pulau Manukan",
+       "Balik ke jetty",
+       "Sunset di Pantai Tanjung Aru",
+       "Free & easy"
+      ],
+      "eact": [
+       "Depart to private jetty",
+       "Snorkeling and swimming at Sapi Island",
+       "Depart to Manukan Island",
+       "Back to jetty",
+       "Sunset at Tanjung Aru Beach",
+       "Free and easy"
+      ]
+     },
+     {
+      "v": "e4",
+      "t": "Kota Kinabalu City Tour",
+      "en": "KOTA KINABALU CITY TOUR",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Kota Kinabalu]",
+      "act": [
+       "Check out",
+       "Masjid Bandaraya",
+       "Yayasan Building",
+       "Pasar Filipino",
+       "Jamilah Souvenir Shop",
+       "Bertolak ke Lapangan Terbang Kota Kinabalu"
+      ],
+      "eact": [
+       "Check out",
+       "Bandaraya Mosque",
+       "Yayasan Building",
+       "Filipino Market",
+       "Jamilah Souvenir Shop",
+       "Depart to Kota Kinabalu Airport"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "Entrance fee: Rumah Terbalik, Upside Down House",
+     "Entrance fee: Polumpung Melangkap Camp View Site",
+     "Entrance fee: DESA Dairy Farm",
+     "Entrance fee: Marakau Fish Spa",
+     "Entrance fee: Rabbit Farm",
+     "Entrance fee: Island Trip to Sapi and Manukan Island",
+     "Entrance fees stated above are for Malaysian citizens only",
+     "Extra bed, mattress or sofa bed for triple sharing room, subject to availability",
+     "Tipping for the driver cum guide"
+    ],
+    "exclusions": [
+     "Domestic flight ticket to Kota Kinabalu (BKI)",
+     "Personal expenses",
+     "Travel insurance",
+     "Entrance fees, tourism tax and surcharge for non-Malaysian passport holders, normally around RM 170 to RM 370 per person"
+    ],
+    "exclusionsTail": [
+     "Optional activities and add-ons not listed in the itinerary",
+     "Climb permit and mountain guide for Mount Kinabalu summit"
+    ]
+   }
+  ]
+ }
+}

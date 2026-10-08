@@ -1,0 +1,2088 @@
+{
+ "slug": "bali",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Bali — Knowledge Base",
+   "brandTag": "Bali KB",
+   "kicker": "ARBA BALI · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Rujukan pantas TC untuk pakej PT Bali 4D3N — Standard, Honeymoon Standard dan Honeymoon Premium. Harga, surcharge, halal, solat, flight dan hotel.",
+   "searchPlaceholder": "cth: harga Standard 2 pax? · blackout Nyepi? · makanan halal? · Nusa Penida atau Nusa Dua?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Bali…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Bali 4D3N",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman Travel Consultant ARBA Travel. Sumber: katalog PT BALI V3 (Standard, Honeymoon Standard, Honeymoon Premium &mdash; 2 Februari 2026), PT Bali 4H3M Travel Map, Flight Recommendation ARBA, rate sheet 2026/2027 Date Surcharge, FreeGift Campaign MYP 6/26, rate card PT_DPS, sheet customisation tambah/tolak PT Bali, sheet tour add-on PT Bali dan Notion Product FAQ (3 Ogos 2026). Katalog adalah source of truth; item di luar katalog dilabel sumbernya. Tiada gambar trip lepas untuk Bali dalam folder produk, jadi KB ini tiada tab Gambar Trip Lepas &mdash; ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Uluwatu Temple",
+     "Nusa Penida (Kelingking)",
+     "Nusa Dua & Pandawa",
+     "Kintamani Mt Batur",
+     "Alas Harum Rice Terrace",
+     "Desa Penglipuran",
+     "Bale Udang Lake View",
+     "Jimbaran Sunset Dinner"
+    ],
+    "usp": "USP: 3 varian (Standard / Honeymoon Standard / Honeymoon Premium) - private transport 12 jam sehari dengan driving guide - restoran halal dan waktu solat diuruskan guide - tipping dan parking sudah termasuk - Day 2 pilihan Nusa Penida atau Nusa Dua",
+    "season": [
+     [
+      "Mei - September",
+      "Musim kering, terbaik untuk Nusa Penida dan aktiviti luar"
+     ],
+     [
+      "April & Oktober",
+      "Shoulder season, cuaca elok dan kurang orang"
+     ],
+     [
+      "1 - 31 Ogos 2026",
+      "Super peak season, surcharge sebulan penuh"
+     ],
+     [
+      "18 - 20 Mac 2026",
+      "Blackout Nyepi, Bali tutup sepenuhnya 24 jam"
+     ],
+     [
+      "20 - 23 Mac 2026",
+      "Blackout Aidilfitri, tour tidak tersedia"
+     ],
+     [
+      "Disember - Februari",
+      "Musim hujan dan peak hujung tahun, minimum 3 malam 22 Dis - 4 Jan"
+     ]
+    ],
+    "expect": [
+     "Bali majoriti Hindu; restoran halal diuruskan driving guide (Bale Udang, Wong Solo, Ayam Tulang Lunak).",
+     "Nusa Penida: laluan bumpy dan tangga curam, hari panjang lebih kurang 12 jam. Kurang sesuai anak kecil dan warga emas.",
+     "Trafik Bali kerap sesak terutama ke Ubud; jadual perlu longgar.",
+     "Hotel 3 bintang double sharing sahaja; triple menggunakan extra bed. Proper triple hanya di hotel 4 bintang.",
+     "Honeymoon adalah harga per pasangan dan tidak menerima kanak-kanak.",
+     "Transport dan guide asas 12 jam; jam tambahan 150,000 IDR/jam dibayar tunai kepada driver."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Bali Standard 4D3N",
+    "tag": "Bali · 4D3N · Standard",
+    "sub": "3 bintang - dari RM917/pax (10-15 pax), RM1,057/pax (2-3 pax)",
+    "emoji": "",
+    "img": "@asset:5b0da6eb3190",
+    "intro": "Pakej Private Tour Bali paling laris: 4 hari 3 malam, hotel 3★ di Kuta/Legian, private car + driver-guide (Melayu/English) 12 jam sehari. Merangkumi Uluwatu, pilihan Day 2 Nusa Penida ATAU Nusa Dua, dan Kintamani Mt Batur + Ubud. Sarapan setiap hari; lunch & dinner customer pilih sendiri (driver bawa ke restoran halal). Tipping & parking sudah termasuk.",
+    "inc": [
+     "3 malam hotel 3★ (double/twin sharing) + sarapan",
+     "Private transport 12 jam/hari + driver-guide (Melayu/English)",
+     "Tiket masuk seperti itinerari (Uluwatu, Nusa Penida ferry, Kintamani)",
+     "Tipping Fee & Parking Fee",
+     "Air mineral dalam kenderaan"
+    ],
+    "exc": [
+     "Tiket flight KUL-DPS-KUL",
+     "Lunch dan dinner (customer pilih sendiri, guide bawa ke restoran halal)",
+     "Extra hour transport (150,000 IDR/jam, tunai)",
+     "Additional tours & watersport",
+     "Travel insurance / Takaful",
+     "Perbelanjaan peribadi & bagasi flight"
+    ],
+    "note": "Harga Ground + Tipping, sah sehingga 31 Disember 2026. Blackout: Nyepi 18-20 Mac 2026 dan Aidilfitri 20-23 Mac 2026. Single supplement RM250/pax."
+   },
+   {
+    "n": "PT Bali Honeymoon Standard 4D3N",
+    "tag": "Bali · 4D3N · HNY Standard",
+    "sub": "RM2,197/pasangan - 2 malam 3 bintang + 1 malam Private Pool Villa",
+    "emoji": "",
+    "img": "@asset:e43b1e049fcb",
+    "intro": "Pakej honeymoon romantis: 2 malam hotel 3★ + 1 malam Private Pool Villa (Seminyak), Romantic Dinner di Bale Udang Lake View, dan honeymoon room decoration. Private car + driver-guide 12 jam. Itinerari sama seperti Standard (Uluwatu, Nusa Penida/Nusa Dua, Kintamani-Ubud) dengan sentuhan romantik. Harga per-pasangan (2 pax) — tiada harga kanak-kanak.",
+    "inc": [
+     "2 malam hotel 3 bintang + 1 malam Private Pool Villa",
+     "Sarapan harian di hotel",
+     "Romantic Dinner di Bale Udang Lake View",
+     "Honeymoon basic room decoration",
+     "Private transportation asas 12 jam + driving guide",
+     "Tiket masuk seperti dalam itinerari",
+     "Tipping fee dan parking fee"
+    ],
+    "exc": [
+     "Tiket flight KUL-DPS-KUL",
+     "Additional tours & watersport",
+     "Extra hour transport (150,000 IDR/jam, tunai)",
+     "Travel insurance / Takaful",
+     "Perbelanjaan peribadi"
+    ],
+    "note": "Harga RM2,197 per pasangan (2 pax). Tiada kadar CWB/CNB dan tidak menerima kanak-kanak. Single supplement RM800/pax."
+   },
+   {
+    "n": "PT Bali Honeymoon Premium 4D3N",
+    "tag": "Bali · 4D3N · HNY Premium",
+    "sub": "RM3,797/pasangan - 2 malam 4 bintang + 1 malam Luxury Private Pool Villa",
+    "emoji": "",
+    "img": "@asset:276cefbc58f3",
+    "intro": "Honeymoon mewah: 2 malam hotel 4★ + 1 malam Luxury Private Pool Villa, Floating Breakfast di villa, Jimbaran Beach Sunset Dinner, Romantic Dinner Bale Udang, dan Buffet Lunch dengan pemandangan Mt Batur. Fullboard meals sepanjang trip + honeymoon decorations penuh (rose petals, kek, dll). Private car + driver-guide 12 jam.",
+    "inc": [
+     "2 malam hotel 4 bintang + 1 malam Luxury Private Pool Villa",
+     "Fullboard meals + 1x Floating Breakfast",
+     "Jimbaran Beach Sunset Dinner",
+     "Bale Udang Lake View Romantic Dinner",
+     "Buffet lunch dengan pemandangan Mount Batur",
+     "Honeymoon basic room decoration",
+     "Private transportation asas 12 jam + driving guide",
+     "Tiket masuk, tipping fee dan parking fee"
+    ],
+    "exc": [
+     "Tiket flight KUL-DPS-KUL",
+     "Additional tours & watersport",
+     "Extra hour transport (150,000 IDR/jam, tunai)",
+     "Travel insurance / Takaful",
+     "Perbelanjaan peribadi"
+    ],
+    "note": "Harga RM3,797 per pasangan (2 pax). Tiada kadar CWB/CNB dan tidak menerima kanak-kanak. Single supplement RM1,500/pax. Free gift: Free Couple Swing Alas Harum (kod FDPS3)."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "m": "Tiada makan termasuk",
+     "a": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 3 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (bayaran sendiri)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "m": "Breakfast",
+     "a": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Dinner di Bale Udang Lake View (bayaran sendiri)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Kintamani Mt Batur & Ubud",
+     "m": "Breakfast",
+     "a": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Berlepas",
+     "m": "Breakfast",
+     "a": [
+      "Sarapan dan check-out hotel",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "m": "Tiada makan termasuk",
+     "a": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 3 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (bayaran sendiri)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "m": "Breakfast & Romantic Dinner",
+     "a": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Bale Udang Lake View Honeymoon Dinner (termasuk)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Kintamani Mt Batur & Ubud",
+     "m": "Breakfast",
+     "a": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole",
+      "Check-in Private Pool Villa di Seminyak dengan honeymoon room decoration"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Berlepas",
+     "m": "Breakfast",
+     "a": [
+      "Sarapan dan check-out hotel",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "m": "Fullboard",
+     "a": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 4 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (bayaran sendiri)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "m": "Fullboard",
+     "a": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Jimbaran Beach Sunset Dinner atau Bale Udang Lake View Romantic Dinner (termasuk)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Kintamani Mt Batur & Ubud",
+     "m": "Fullboard",
+     "a": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur dengan buffet lunch pemandangan gunung",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole",
+      "Check-in Luxury Private Pool Villa di Seminyak dengan honeymoon decoration"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Berlepas",
+     "m": "Floating Breakfast",
+     "a": [
+      "Floating Breakfast di private pool villa, kemudian check-out",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Uluwatu Temple & Kecak",
+    "t": "Kuil / Budaya",
+    "emoji": "",
+    "img": "@asset:c04b3fdc5b96",
+    "short": "Kuil atas tebing + tarian Kecak ketika sunset",
+    "intro": "Pura Luhur Uluwatu di atas tebing menghadap Lautan Hindi — landmark Day 1. Terkenal dengan sunset dan tarian Kecak tradisional (add-on).",
+    "hi": [
+     "Kuil di atas tebing tinggi",
+     "Tarian Kecak ketika sunset (add-on RM67/pax)",
+     "Pemandangan laut"
+    ],
+    "best": "Petang untuk sunset & Kecak.",
+    "muslim": "Tarian Kecak = seni budaya (bukan ibadah penonton). Tiada surau dalam kompleks — driver atur solat di masjid berdekatan (Jimbaran/Kuta). Jaga barang daripada monyet.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Uluwatu+Temple+Bali"
+   },
+   {
+    "n": "Nusa Penida (Kelingking)",
+    "t": "Pulau / Pantai",
+    "emoji": "",
+    "img": "@asset:428a8e02d822",
+    "short": "Day 2 Opsyen A — tebing 'T-Rex' ikonik",
+    "intro": "Pulau di tenggara Bali (fast boat ~45 min dari Sanur). Kelingking Beach, Broken Beach, Angel's Billabong, Crystal Bay (West) atau Diamond Beach (East).",
+    "hi": [
+     "Kelingking Beach viewpoint",
+     "Broken Beach & Angel's Billabong",
+     "Crystal Bay / Diamond Beach"
+    ],
+    "best": "Musim kering Mei-Sep, laut tenang. Mula awal pagi.",
+    "muslim": "Pilihan makan terhad — set lunch halal diatur; bawa snack. Surau terhad — rancang solat jamak/qasar. Laluan bumpy & tangga curam (Kelingking) — kasut sukan; tidak sesuai masalah lutut/jantung.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kelingking+Beach+Nusa+Penida"
+   },
+   {
+    "n": "Nusa Dua & Pandawa Beach",
+    "t": "Pantai",
+    "emoji": "",
+    "img": "@asset:67d71345b543",
+    "short": "Day 2 Opsyen B — pantai tenang + watersport",
+    "intro": "Alternatif Day 2 bagi yang tidak mahu ferry: Pandawa Beach, Melasti Beach dan Waterblow di Nusa Dua. Sesuai keluarga & yang mahu santai.",
+    "hi": [
+     "Pandawa & Melasti Beach",
+     "Waterblow",
+     "Watersport Tanjung Benoa (add-on)"
+    ],
+    "best": "Sepanjang hari; pagi untuk laut tenang.",
+    "muslim": "Kawasan Nusa Dua/Kuta banyak restoran halal berdekatan; surau/masjid mudah dicari. Patuh bendera keselamatan pantai.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pandawa+Beach+Bali"
+   },
+   {
+    "n": "Kintamani & Mt Batur",
+    "t": "Alam / Gunung",
+    "emoji": "",
+    "img": "@asset:6b4c83bfa71f",
+    "short": "Day 3 — lunch pemandangan gunung berapi",
+    "intro": "Highland ~1,200m dengan pemandangan Gunung Batur & tasik. Lunch panorama (Standard/HNY: Bale Udang; HNY Prem: Buffet Mt Batur).",
+    "hi": [
+     "Panorama Gunung Batur & tasik",
+     "Udara sejuk (15-22°C)",
+     "Lunch dengan pemandangan"
+    ],
+    "best": "Tengah hari (pagi kadang berkabus). Bawa jaket nipis.",
+    "muslim": "Restoran (Bale Udang / Batur Sari) uruskan pilihan halal; surau berdekatan. Sesuai keluarga — tak perlu mendaki.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kintamani+Mount+Batur+Bali"
+   },
+   {
+    "n": "Alas Harum Rice Terrace",
+    "t": "Alam / Ubud",
+    "emoji": "",
+    "img": "@asset:e49cf5c0ddd0",
+    "short": "Day 3 — sawah bertingkat + Couple Swing",
+    "intro": "Sawah bertingkat di kawasan Tegallalang/Ubud (bukan tourist trap biasa). Ada Bali Swing / Couple Swing (free gift HNY Premium) dan kafe pemandangan.",
+    "hi": [
+     "Sawah bertingkat hijau",
+     "Couple Swing / Bali Swing",
+     "Kafe pemandangan"
+    ],
+    "best": "Pagi, musim kering paling hijau.",
+    "muslim": "Kafe — pilih makanan/minuman halal. Tiada surau di lokasi; driver atur solat berdekatan Ubud. Kasut selesa.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Alas+Harum+Bali"
+   },
+   {
+    "n": "Desa Penglipuran",
+    "t": "Budaya / Kampung",
+    "emoji": "",
+    "img": "@asset:34e11775d5ce",
+    "short": "Day 3 — kampung tradisional Bali terkemas",
+    "intro": "Salah satu kampung tradisional paling bersih & terkemas di dunia — barisan rumah adat Bali sepanjang lorong berbatu. Pengalaman budaya autentik.",
+    "hi": [
+     "Rumah adat Bali tersusun",
+     "Lorong batu ikonik",
+     "Budaya & foto"
+    ],
+    "best": "Pagi/petang, elak tengah hari panas.",
+    "muslim": "Kampung Hindu — dilawati sebagai tapak budaya. Bawa air; restoran halal diatur oleh driver di laluan. Pakaian sopan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Penglipuran+Village+Bali"
+   },
+   {
+    "n": "Ubud",
+    "t": "Bandar / Budaya",
+    "emoji": "",
+    "img": "@asset:bc9b86b3ef2a",
+    "short": "Pusat seni Bali — kraf, kopi, pasar",
+    "intro": "Jantung seni & budaya Bali: galeri, kampung kraf, pasar seni dan Coffee Plantation (tasting — pilih minuman halal).",
+    "hi": [
+     "Ubud Coffee Plantation (tasting)",
+     "Pasar seni & kraf",
+     "Kafe pemandangan sawah"
+    ],
+    "best": "Pagi untuk pasar; elak trafik puncak.",
+    "muslim": "Pilihan halal di Ubud lebih terhad — driver cadang restoran; masjid/surau ada di bandar. Coffee plantation: pilih minuman tanpa arak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ubud+Bali"
+   },
+   {
+    "n": "Bale Udang (Halal Dinner)",
+    "t": "Makan / Halal",
+    "emoji": "",
+    "img": "@asset:6507f78a8b76",
+    "short": "Restoran halal lake-view — Romantic/Standard Dinner",
+    "intro": "Restoran halal ikonik dengan konsep lake-view/lesehan. Lokasi Romantic Dinner untuk Honeymoon Standard dan dinner untuk Standard variant.",
+    "hi": [
+     "Suasana lake-view / lesehan",
+     "Menu halal Indonesia",
+     "Romantic Dinner (HNY)"
+    ],
+    "best": "Waktu dinner Day 3.",
+    "muslim": "Restoran halal — antara pilihan utama halal ARBA di Bali (bersama Wong Solo, Ayam Tulang Lunak, Warung Makjo). Surau biasanya tersedia berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bale+Udang+Bali"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3 bintang - Standard & Honeymoon Standard",
+    "name": "Favehotel Kartika Plaza",
+    "note": "Kuta / Legian. Pilihan lain: Swiss Belexpress Legian, Hotel Zia Kuta. Double sharing + sarapan; triple menggunakan extra bed.",
+    "emoji": "",
+    "img": "@asset:ea184cadcad4"
+   },
+   {
+    "tier": "4 bintang - upgrade Standard, termasuk Honeymoon Premium",
+    "name": "The One Legian",
+    "note": "Pilihan lain: The Akmani Legian, Sun Island Hotel & Spa Legian (+RM60/pax/malam); Adhi Jaya Hotel, Wyndham Garden Hotel (+RM80/pax/malam). Proper triple room tersedia.",
+    "emoji": "",
+    "img": "@asset:276cefbc58f3"
+   },
+   {
+    "tier": "Private Pool Villa - Honeymoon Standard",
+    "name": "Asa Bali Villas & Spa",
+    "note": "Seminyak. Pilihan lain: The Sakaye Villa & Spa, Maca Villas Umalas. Satu malam untuk Honeymoon Standard.",
+    "emoji": "",
+    "img": "@asset:cbb399d1473c"
+   },
+   {
+    "tier": "Luxury Private Pool Villa - Honeymoon Premium",
+    "name": "Asterra Villa Seminyak",
+    "note": "Pilihan lain: Alaya Dedaun Kuta Villa, Lumbini Villa & Spa, Sana ViE Villa, La ViE Villa. Satu malam untuk Honeymoon Premium.",
+    "emoji": "",
+    "img": ""
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "compare": "<h2>Perbezaan Pakej</h2>\n<p class='ssub'>Tiga varian PT Bali 4D3N — customer pilih SATU.</p>\n<table class='cmp'><colgroup><col class='c1'><col><col><col></colgroup>\n<thead><tr><th class='blank'></th><th>STANDARD &middot; 4D3N</th><th>HNY STANDARD &middot; 4D3N</th><th>HNY PREMIUM &middot; 4D3N</th></tr></thead>\n<tbody>\n<tr><td class='feat'>Asas harga</td><td class='val'>Per pax (2-15 pax)</td><td class='val'>Per pasangan (2 pax)</td><td class='val'>Per pasangan (2 pax)</td></tr>\n<tr><td class='feat'>Akomodasi</td><td class='val'>3 malam hotel 3&#9733;</td><td class='val'>2 malam 3&#9733; + 1 malam Private Pool Villa</td><td class='val'>2 malam 4&#9733; + 1 malam Luxury Private Pool Villa</td></tr>\n<tr><td class='feat'>Sarapan harian</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Lunch &amp; Dinner</td><td class='val'><span class='no'>&mdash;</span> customer pilih sendiri</td><td class='val'>Romantic Dinner Bale Udang Lake View</td><td class='val'>Fullboard + Jimbaran Sunset Dinner + Bale Udang + Buffet Lunch Mt Batur</td></tr>\n<tr><td class='feat'>Floating Breakfast</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10004;</span> 1x di villa</td></tr>\n<tr><td class='feat'>Honeymoon decoration</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'>Basic room decoration</td><td class='val'>Basic room decoration</td></tr>\n<tr><td class='feat'>Private transport 12 jam + driving guide</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Tiket masuk ikut itinerari</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Tipping &amp; parking</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Harga kanak-kanak (CWB/CNB)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Single supplement</td><td class='val'>RM250/pax</td><td class='val'>RM800/pax</td><td class='val'>RM1,500/pax</td></tr>\n<tr><td class='feat'>Upgrade 4&#9733;</td><td class='val'>+RM60 atau +RM80/pax/malam</td><td class='val'>+RM120 atau +RM160/pasangan/malam</td><td class='val'>4&#9733; sudah termasuk</td></tr>\n<tr><td class='feat'>Free gift (kod)</td><td class='val'>FDPS2</td><td class='val'>FDPS2</td><td class='val'>FDPS3</td></tr>\n<tr><td class='feat'>Harga</td><td class='val'>Dari RM917/pax (10-15 pax) &middot; RM1,057/pax (2-3 pax)</td><td class='val'>RM2,197/pasangan</td><td class='val'>RM3,797/pasangan</td></tr>\n<tr><td class='feat'>Sesuai untuk</td><td class='val'>Keluarga &amp; group, budget fleksibel</td><td class='val'>Pengantin baru, satu malam villa</td><td class='val'>Pengantin baru premium, fullboard tanpa risau</td></tr>\n</tbody></table>",
+   "pricing": "<h2>Harga &amp; Pakej</h2>\n<p class='ssub'>Katalog V3 (2 Feb 2026) &mdash; Ground + Tipping. Tiket flight tidak termasuk. Sah untuk travel period sehingga 31 Disember 2026.</p>\n<div class='notebox'><b>Blackout:</b> Hari Nyepi 18-20 Mac 2026 (Bali tutup 24 jam) dan Hari Raya Aidilfitri 20-23 Mac 2026 &mdash; tour tidak tersedia. Rujuk tab Surcharge untuk peak season.</div>\n<div class='custblk'><h3>Standard 4D3N (3&#9733;) &mdash; harga per pax</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Adult (12 tahun ke atas)</th><th>Child With Bed (6-11)</th><th>Child No Bed (2-5)</th></tr></thead><tbody>\n<tr><td class='it'>2 - 3</td><td class='add'>RM 1,057</td><td>RM 997</td><td>RM 957</td></tr>\n<tr><td class='it'>4 - 5</td><td class='add'>RM 997</td><td>RM 957</td><td>RM 897</td></tr>\n<tr><td class='it'>6 - 7</td><td class='add'>RM 957</td><td>RM 897</td><td>RM 857</td></tr>\n<tr><td class='it'>8 - 9</td><td class='add'>RM 937</td><td>RM 857</td><td>RM 797</td></tr>\n<tr><td class='it'>10 - 15</td><td class='add'>RM 917</td><td>RM 837</td><td>RM 777</td></tr>\n</tbody></table><p class='custnote'>Umur dikira pada tarikh travel. Katalog memaparkan tier sehingga 15 pax. Infant bawah 2 tahun = FOC (sumber: rate card ARBA &mdash; tiada dalam katalog).</p></div>\n<div class='custblk'><h3>Honeymoon &mdash; harga per pasangan (2 pax)</h3><table class='ctbl'><thead><tr><th>Varian</th><th>Harga/pasangan</th><th>Akomodasi</th><th>Makan termasuk</th></tr></thead><tbody>\n<tr><td class='it'>Honeymoon Standard</td><td class='add'>RM 2,197</td><td>2 malam 3&#9733; + 1 malam Private Pool Villa</td><td>Sarapan + Romantic Dinner Bale Udang</td></tr>\n<tr><td class='it'>Honeymoon Premium</td><td class='add'>RM 3,797</td><td>2 malam 4&#9733; + 1 malam Luxury Private Pool Villa</td><td>Fullboard + Floating Breakfast + Jimbaran Sunset Dinner + Buffet Lunch Mt Batur</td></tr>\n</tbody></table><p class='custnote'>Honeymoon harga flat per pasangan &mdash; tiada kadar CWB/CNB dan tidak menerima kanak-kanak. 4 pax honeymoon = 2 pasangan (harga didarab dua).</p></div>\n<div class='custblk'><h3>Termasuk &amp; Tidak Termasuk</h3><table class='ctbl'><thead><tr><th>Termasuk</th><th>Tidak termasuk</th></tr></thead><tbody>\n<tr><td>Akomodasi 3 malam ikut varian</td><td>Tiket penerbangan pergi-balik</td></tr>\n<tr><td>Private transportation (asas 12 jam)</td><td>Extra hour transport &amp; guide 150,000 IDR/jam</td></tr>\n<tr><td>Tiket masuk seperti dalam itinerari</td><td>Bagasi, in-flight meal &amp; airport tax</td></tr>\n<tr><td>Sarapan harian di hotel</td><td>Additional tours &amp; meals</td></tr>\n<tr><td>Driving guide (English/Indonesian)</td><td>Perbelanjaan peribadi</td></tr>\n<tr><td>Tipping fee &amp; parking fee</td><td>Travel insurance</td></tr>\n<tr><td>&mdash;</td><td>Lunch &amp; dinner (Standard)</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Deposit &amp; Pembayaran</h3><table class='ctbl'><thead><tr><th>Item</th><th>Terma</th></tr></thead><tbody>\n<tr><td class='it'>Deposit</td><td class='add'>RM250 per pax semasa confirmation</td></tr>\n<tr><td class='it'>Full payment</td><td>45 hari sebelum tarikh berlepas</td></tr>\n<tr><td class='it'>Kesahan quotation</td><td>24 jam selepas quotation dihantar</td></tr>\n<tr><td class='it'>Itinerari &amp; hotel muktamad</td><td>14 hari sebelum trip, tertakluk availability</td></tr>\n</tbody></table></div>",
+   "map": "<h2>Travel Map</h2>\n<p class='ssub'>Laluan rasmi PT Bali 4H3M &mdash; rujukan pantas untuk brief customer.</p>\n<div class='mapcard'><div class='maptitle'>PT Bali 4 Hari 3 Malam</div>\n<img src='@asset:44f9b773ace9' alt='Travel Map PT Bali 4H3M'>\n<div class='mapcap'>Day 1 Ketibaan DPS &rarr; Uluwatu &middot; Day 2 Sanur Jetty &rarr; Nusa Penida atau Nusa Dua &middot; Day 3 Kintamani Mt Batur &rarr; Alas Harum &rarr; Ubud &middot; Day 4 Transfer ke lapangan terbang</div></div>",
+   "custom": "<h2>Simple Customisation (Add-On)</h2>\n<p class='ssub'>Harga jualan per pax kecuali dinyatakan. Semua add-on ditempah sebelum berlepas.</p>\n<div class='custblk'><h3>Tambah / Tolak Komponen Pakej</h3><p class='ssub'>Guna jadual ini bila customer nak tambah komponen pada pakej asal, atau nak buang komponen dan tolak dari harga. Harga tambah dan harga tolak adalah dua kadar berbeza &mdash; jangan guna kadar tambah untuk tolak. Sumber: sheet customisation PT Bali (rate card ARBA), tiada dalam katalog V3.</p><p class='ssub' style='margin:14px 0 6px;font-weight:700;color:#333'>Transport + Driver</p><table class='ctbl'><thead><tr><th>Jenis Tour</th><th>Transport</th><th>Kapasiti</th><th>Harga Tambah</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it' rowspan='3'>Full Day Tour <span class='rtag'>12 jam</span></td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 250 / transport</td><td class='ded'>RM 120 / transport</td></tr><tr><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 350 / transport</td><td class='ded'>RM 220 / transport</td></tr><tr><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 280 / transport</td></tr><tr><td class='it' rowspan='3'>Half Day Tour <span class='rtag'>5 - 6 jam</span></td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 150 / transport</td><td class='ded'>RM 70 / transport</td></tr><tr><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr><tr><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 400 / transport</td><td class='ded'>RM 250 / transport</td></tr><tr><td class='it' rowspan='3'>Airport Transfer + Half Day Tour <span class='rtag'>6 jam</span></td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr><tr><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr><tr><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr><tr><td class='it' rowspan='3'>Airport Transfer</td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 150 / transport</td><td class='ded'>RM 70 / transport</td></tr><tr><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr><tr><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>RM 100 / transport</td></tr></tbody></table><p class='custnote'>Harga per transport, bukan per pax. Driver sudah termasuk. Kapasiti adalah had penumpang kenderaan &mdash; pilih kenderaan ikut saiz group.</p><p class='ssub' style='margin:16px 0 6px;font-weight:700;color:#333'>Accommodation (per pax / malam)</p><table class='ctbl'><thead><tr><th>Kategori</th><th>Hotel / Villa</th><th>Tambah 1 Malam (Normal)</th><th>Tambah 1 Malam (Peak)</th><th>Tolak 1 Malam (Normal)</th><th>Tolak 1 Malam (Peak)</th></tr></thead><tbody><tr><td class='it'>3 Star Hotel</td><td>Favehotel Kartika Plaza &middot; Swiss-Belexpress Kuta Legian &middot; Hotel Zia Kuta</td><td class='add'>RM 80</td><td class='add'>RM 120</td><td class='ded'>RM 50</td><td>&ndash;</td></tr><tr><td class='it'>4 Star Hotel</td><td>The One Legian &middot; Sun Island &amp; Spa Legian &middot; Akmani Legian</td><td class='add'>RM 120</td><td class='add'>RM 180</td><td class='ded'>RM 60</td><td>&ndash;</td></tr><tr><td class='it'>4 Star Hotel</td><td>Adhi Jaya Hotel &middot; Wyndham Garden Hotel</td><td class='add'>RM 140</td><td class='add'>RM 220</td><td class='ded'>RM 80</td><td>&ndash;</td></tr><tr><td class='it'>Private Pool Villa</td><td>Asa Bali Superior One Bedroom Villa &middot; Sakaye One Bedroom Villa &middot; Maca Villa Umalas</td><td class='add'>RM 280</td><td class='add'>RM 460</td><td class='ded'>RM 180</td><td>&ndash;</td></tr><tr><td class='it'>Premium Private Pool Villa</td><td>Lumbini Luxury Villa &amp; Spa &middot; Alaya Dedaub Kuta Villa</td><td class='add'>RM 380</td><td class='add'>RM 660</td><td class='ded'>RM 280</td><td>&ndash;</td></tr><tr><td class='it'>Luxury Private Pool Villa</td><td>Asterra Villa Seminyak &middot; Sana Vie Villa Seminyak &middot; La Vie Villa Seminyak</td><td class='add'>RM 450</td><td class='add'>RM 890</td><td class='ded'>RM 280</td><td>&ndash;</td></tr></tbody></table><p class='custnote'>Tiada tolak untuk peak season &mdash; sepanjang peak, malam hotel hanya boleh ditambah, tidak boleh ditolak. Rujuk tab Surcharge untuk tarikh peak dan blackout.</p><p class='ssub' style='margin:16px 0 6px;font-weight:700;color:#333'>Meals</p><table class='ctbl'><thead><tr><th>Meal</th><th>Harga Tambah</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Disyorkan makan di hotel sahaja</td><td>&ndash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 35 / pax</td><td class='ded'>RM 20 / pax</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 35 / pax</td><td class='ded'>RM 20 / pax</td></tr></tbody></table><p class='custnote'>Breakfast sudah termasuk dalam semua pakej &mdash; tidak boleh ditolak.</p></div><div class='custblk'><h3>Aktiviti Tambahan (katalog V3)</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n<tr><td class='it'>Kecak Dance Uluwatu Temple</td><td class='add'>RM 67/pax</td><td>Persembahan 1 jam, tiket + transport</td></tr>\n<tr><td class='it'>Barong Dance Ubud</td><td class='add'>RM 67/pax</td><td>Persembahan 1 jam, bertolak 7 pagi dari hotel</td></tr>\n<tr><td class='it'>Uma Ceking Rice Terrace + Bali Swing</td><td class='add'>RM 117/pax</td><td>Tiket masuk + swing + transport, 1-2 jam</td></tr>\n<tr><td class='it'>Garuda Wisnu Kencana Cultural Park</td><td class='add'>RM 67/pax</td><td>1-2 jam, hanya semasa tour Nusa Dua</td></tr>\n<tr><td class='it'>Banana Boat Nusa Dua</td><td class='add'>RM 67/pax</td><td>1 ride + insurans aktiviti</td></tr>\n<tr><td class='it'>Jet Ski Nusa Dua</td><td class='add'>RM 157/pax</td><td>1 ride + insurans aktiviti</td></tr>\n<tr><td class='it'>Tubing Ride Nusa Dua</td><td class='add'>RM 127/pax</td><td>1 ride, 1 jam</td></tr>\n<tr><td class='it'>Fly Fish Nusa Dua</td><td class='add'>RM 177/pax</td><td>2 kali fly, 1-2 jam</td></tr>\n<tr><td class='it'>Snorkeling Nusa Dua</td><td class='add'>RM 157/pax</td><td>1 jam</td></tr>\n<tr><td class='it'>Glass Bottom Boat + Turtle Island</td><td class='add'>RM 197/pax</td><td>1 jam</td></tr>\n<tr><td class='it'>Parasailing Adventure Nusa Dua</td><td class='add'>RM 237/pax</td><td>1 ride</td></tr>\n<tr><td class='it'>Fly Board Nusa Dua</td><td class='add'>RM 327/pax</td><td>15 minit</td></tr>\n<tr><td class='it'>Sea Walking Nusa Dua</td><td class='add'>RM 347/pax</td><td>40 minit</td></tr>\n<tr><td class='it'>Snorkeling Nusa Penida (sharing boat)</td><td class='add'>RM 107/pax</td><td>3 titik: Greenbowl, Gamat Bay, Crystal Bay</td></tr>\n<tr><td class='it'>Snorkeling Nusa Penida (private boat)</td><td class='add'>RM 297/pax</td><td>4 titik: Manta Bay, Greenbowl, Gamat Bay, Crystal Bay</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Honeymoon Dinner &amp; Room Decoration (katalog V3)</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Termasuk</th></tr></thead><tbody>\n<tr><td class='it'>Romantic Dinner di Bale Udang</td><td class='add'>RM 150/pasangan</td><td>Deco meja main dining, 3 course, kek &amp; 2 minuman</td></tr>\n<tr><td class='it'>Intimate Dinner di Bale Udang</td><td class='add'>RM 250/pasangan</td><td>Floating deck + kelopak bunga, 3 course, kek, jambangan bunga</td></tr>\n<tr><td class='it'>Floating Breakfast di Water Villa</td><td class='add'>RM 50/pasangan</td><td>Bakul terapung di private pool villa</td></tr>\n<tr><td class='it'>Honeymoon Sunset Dinner Jimbaran</td><td class='add'>RM 450/pasangan</td><td>Deco pantai, welcome drink, lobster 300g, kek + nyanyian</td></tr>\n<tr><td class='it'>Bedroom Decoration (Asa Bali Villa)</td><td class='add'>RM 150/pasangan</td><td>Kelopak bunga bilik + hand bouquet</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Add-On Lain</h3><p class='ssub'>Sumber: rate card ARBA (PT_DPS) &mdash; tiada dalam katalog V3.</p><div class='notebox'><b>Sila tambah transport.</b> Harga dalam jadual ini adalah tiket masuk / kos aktiviti sahaja &mdash; belum termasuk transport, meals atau tiket masuk lokasi lain dalam laluan yang sama. Untuk setiap add-on tour, kira empat komponen: <b>(1)</b> transport ikut jenis kenderaan dan jenis tour (rujuk jadual Tambah / Tolak Komponen Pakej di atas), <b>(2)</b> tiket masuk setiap lokasi per pax, <b>(3)</b> meals ikut kadar jadual meals di atas, <b>(4)</b> hotel jika perlu tambah hari. Tour full day <b>perlu ambil tambahan hari</b> atau <b>gantikan</b> salah satu full day tour asal (Nusa Penida / Nusa Dua / Ubud Kintamani). Rujuk jadual Tour Tambahan di bawah untuk kombinasi lengkap.</div><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n<tr><td class='it'>Tanah Lot Temple</td><td class='add'>RM 25/pax</td><td>Kuil sunset</td></tr>\n<tr><td class='it'>Alas Harum + Couple Swing</td><td class='add'>RM 120/pax</td><td>Alternatif kepada Uma Ceking</td></tr>\n<tr><td class='it'>Mt Batur Jeep Ride</td><td class='add'>RM 250/pax</td><td>Black sand jeep tour, lebih kurang 2 jam</td></tr>\n<tr><td class='it'>Mt Batur Hiking</td><td class='add'>RM 180/pax</td><td>Sunrise hike</td></tr>\n<tr><td class='it'>Water Rafting Ubud</td><td class='add'>RM 150/pax</td><td>Adventure</td></tr>\n<tr><td class='it'>Bali Dolphin Lovina Tour</td><td class='add'>RM 80/pax</td><td>Awal pagi</td></tr>\n<tr><td class='it'>Bali Safari Jungle Hopper</td><td class='add'>RM 200/pax</td><td>Keluarga</td></tr>\n<tr><td class='it'>Bali Safari Night Tour</td><td class='add'>RM 280/pax</td><td>Malam</td></tr>\n<tr><td class='it'>Bali Zoo</td><td class='add'>RM 160/pax</td><td>Keluarga</td></tr>\n<tr><td class='it'>Pocket Wifi 10GB (4D3N)</td><td class='add'>RM 80/trip</td><td>Per booking</td></tr>\n<tr><td class='it'>Pocket Wifi 3GB (4D3N)</td><td class='add'>RM 120/trip</td><td>Per booking</td></tr>\n<tr><td class='it'>Takaful TripCare 360 (individu 1-5 hari)</td><td class='add'>RM 64/pax</td><td>Etiqa Area 2</td></tr>\n<tr><td class='it'>Takaful TripCare 360 (pasangan 1-5 hari)</td><td class='add'>RM 113</td><td>Etiqa Area 2</td></tr>\n<tr><td class='it'>Blue Ribbon Luggage (Silver-Diamond)</td><td class='add'>RM 20 - RM 70</td><td>Per unit</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Tour Tambahan &mdash; Full Day (kos berasingan)</h3><p class='ssub'>Setiap tour di bawah dikira sebagai satu hari penuh dan kosnya berasingan dari pakej asal. Jumlahkan transport + meals + tiket masuk untuk dapat harga tour, kemudian tambah hotel jika tambah hari.</p><div class='notebox'><b>Transport, meals dan hotel ikut jadual di atas.</b> Jangan guna kadar dalam sheet tour lama &mdash; sheet itu 2025 dan sudah tidak dikemas kini. Transport: jadual <b>Tambah / Tolak Komponen Pakej</b>. Meals: kadar tambah <b>RM 35 / pax</b> setiap lunch atau dinner. Hotel jika tambah hari: jadual <b>Accommodation</b>, ikut kategori dan sama ada tarikh itu normal atau peak. Tiket masuk bertanda <span class='rtag'>diselaras</span> telah dikemas kini mengikut jadual <b>Add-On Lain</b> / <b>Aktiviti Tambahan</b> di atas, menggantikan harga sheet lama.</div><table class='ctbl'><thead><tr><th>Tour</th><th>Transport</th><th>Meals</th><th>Tiket Masuk (per pax)</th><th>Nota Penting</th></tr></thead><tbody><tr><td class='it'>Tanah Lot Full Day Tour<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:3px'>Keluar hotel 8 - 9 pagi &middot; balik hotel 5 - 6 petang</div></td><td>Kadar <b>Full Day Tour</b><div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Rujuk jadual Tambah / Tolak di atas</div></td><td>Lunch + Dinner<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Kadar meals jadual di atas</div></td><td>Tanah Lot: RM 25 <span class='rtag'>diselaras</span><br>Pura Ulun Danu Beratan: RM 25<br>Wanagiri Hidden Hill: RM 35<br>Handara Gate: RM 10<br><b>Total: RM 95 / pax</b></td><td>Bagi yang nak Tanah Lot sahaja, kira sebagai half day tour &mdash; guna kadar transport <b>Half Day Tour</b> dari jadual di atas.</td></tr><tr><td class='it'>Lempuyang Full Day Tour<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:3px'>Keluar hotel 9 pagi &middot; balik hotel 5 - 6 petang</div></td><td>Kadar <b>Full Day Tour</b><div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Rujuk jadual Tambah / Tolak di atas</div></td><td>Lunch + Dinner<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Kadar meals jadual di atas</div></td><td>Lempuyang Temple (Gate of Heaven): RM 35<br>Tirta Empul: RM 20<br>Tirta Gangga: RM 20<br><b>Total: RM 75 / pax</b></td><td>&mdash;</td></tr><tr><td class='it'>Dolphin - Bedugul Full Day Tour<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:3px'>Keluar hotel 3 pagi &middot; balik hotel 5 - 6 petang</div></td><td>Kadar <b>Full Day Tour</b><div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Rujuk jadual Tambah / Tolak di atas</div></td><td>Lunch + Dinner<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Kadar meals jadual di atas</div></td><td>Bali Dolphin Lovina Tour: RM 80 <span class='rtag'>diselaras</span><br>Pura Ulun Danu Beratan: RM 25<br>Handara Gate: RM 10<br>Tanah Lot: RM 25 (pilihan) <span class='rtag'>diselaras</span><br><b>Total: RM 115 / pax</b><br><b>Dengan Tanah Lot: RM 140 / pax</b></td><td>Boleh add-on Tanah Lot selepas Handara Gate. Bagi yang nak Dolphin sahaja, tetap guna kadar transport <b>Full Day Tour</b> (bertolak 3 pagi, perjalanan jauh ke Lovina) walaupun dikira sebagai half day tour; meals dan tiket masuk pilih ikut keperluan.</td></tr><tr><td class='it'>Bali Safari &amp; Marine Park Tour<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:3px'>Keluar hotel 9 pagi &middot; balik hotel 5 - 6 petang</div></td><td>Kadar <b>Full Day Tour</b><div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Rujuk jadual Tambah / Tolak di atas</div></td><td>Lunch + Dinner<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Kadar meals jadual di atas</div></td><td>Bali Safari Jungle Hopper: RM 200 <span class='rtag'>diselaras</span><br>Kuta Seminyak Beach / City Tour: percuma<br><b>Total: RM 200 / pax</b></td><td>Tiket termasuk Safari Journey 1x, Animal Show, Big Cat Show dan Elephant Show. Bali Agung Show hanya tersedia hujung minggu. Jadual Add-On Lain guna kadar rata RM 200 / pax &mdash; tiada harga kanak-kanak berasingan.</td></tr><tr><td class='it'>Jeep Mt Batur Kintamani - Ubud Tour<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:3px'>Keluar hotel 3 pagi &middot; balik hotel 5 - 6 petang</div></td><td>Kadar <b>Full Day Tour</b><div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Rujuk jadual Tambah / Tolak di atas</div></td><td>Lunch + Dinner<div style='font-weight:400;color:#777;font-size:11.5px;margin-top:2px'>Kadar meals jadual di atas</div></td><td>Mt Batur Jeep Ride: RM 250 <span class='rtag'>diselaras</span><br>Tegallalang Paddy Terrace: RM 20<br>Mt Kintamani Lookout Point (+ lunch): RM 50<br>Ubud Coffee Plantation: percuma<br>Tegenungan Waterfall: RM 10<br><b>Total: RM 330 / pax</b></td><td>Mt Batur Jeep dikira <b>per pax</b> ikut jadual Add-On Lain di atas. Lunch sudah termasuk dalam Kintamani Lookout Point &mdash; jangan caj lunch dua kali. Bagi yang nak Jeep Mt Batur sahaja, tetap guna kadar transport <b>Full Day Tour</b>; meals dan tiket masuk pilih ikut keperluan.</td></tr></tbody></table><p class='custnote'>Setiap full day tour perlu ambil tambahan hari atau gantikan salah satu full day tour asal (Nusa Penida / Nusa Dua / Ubud Kintamani). Tiket masuk yang tiada dalam jadual di atas (Pura Ulun Danu Beratan, Wanagiri Hidden Hill, Handara Gate, Lempuyang, Tirta Empul, Tirta Gangga, Tegallalang, Kintamani Lookout, Tegenungan) dikekalkan dari sheet tour &mdash; sahkan dengan operator sebelum quote jika tarikh jauh.</p></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Hari Nyepi 18&ndash;20 Mac 2026 (Bali tutup 24 jam) dan Hari Raya Aidilfitri 20&ndash;23 Mac 2026 &mdash; tour tidak tersedia; 2027: 5&ndash;10 Mac dan 9&ndash;12 Mac. Kalkulator tetap mengira tarikh itu, jadi semak sendiri. <b>Honeymoon:</b> harga flat per pasangan (2 pax) dan tidak menerima kanak-kanak. Malam villa dalam pakej Honeymoon kena surcaj peak season lebih tinggi daripada malam hotel &mdash; bila tarikh jatuh dalam peak window, tukar pilihan Accommodation hari villa kepada versi <i>tambah surcaj peak season villa</i>.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Bali Standard 4D3N</option><option value='1'>PT Bali Honeymoon Standard 4D3N</option><option value='2'>PT Bali Honeymoon Premium 4D3N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (rate card ARBA, tiada dalam katalog v3)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Standard RM250/pax &middot; HNY Standard RM800/pax &middot; HNY Premium RM1,500/pax</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2>\n<div class='custblk'><h3>Standard &mdash; Upgrade Akomodasi &amp; Peak Season</h3><table class='ctbl'><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak season</th></tr></thead><tbody>\n<tr><td class='it'>3&#9733; Favehotel Kartika Plaza / Swiss Belexpress Legian / Hotel Zia Kuta</td><td>&mdash;</td><td class='add'>RM40/pax/malam</td></tr>\n<tr><td class='it'>4&#9733; The One Legian / The Akmani Legian / Sun Island Hotel &amp; Spa Legian</td><td class='add'>+RM60/pax/malam</td><td class='add'>RM60/pax/malam</td></tr>\n<tr><td class='it'>4&#9733; Adhi Jaya Hotel / Wyndham Garden Hotel</td><td class='add'>+RM80/pax/malam</td><td class='add'>RM100/pax/malam</td></tr>\n<tr><td class='it'>Villa Asa Bali / The Sakaye / Maca Villas Umalas</td><td class='add'>+RM460/pasangan/malam</td><td class='add'>RM160/pasangan/malam</td></tr>\n<tr><td class='it'>Villa Alaya Dedaun Kuta / Lumbini Villa &amp; Spa</td><td class='add'>+RM650/pasangan/malam</td><td class='add'>RM250/pasangan/malam</td></tr>\n<tr><td class='it'>Villa Asterra Seminyak</td><td class='add'>+RM780/pasangan/malam</td><td class='add'>RM250/pasangan/malam</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Honeymoon Standard &mdash; Upgrade Akomodasi &amp; Peak Season</h3><table class='ctbl'><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak season</th></tr></thead><tbody>\n<tr><td class='it'>3&#9733; Favehotel Kartika Plaza / Swiss Belexpress Legian / Hotel Zia Kuta</td><td>&mdash;</td><td class='add'>RM80/pasangan/malam</td></tr>\n<tr><td class='it'>4&#9733; The One Legian / Sun Island Hotel &amp; Spa Legian / The Akmani Legian</td><td class='add'>+RM120/pasangan/malam</td><td class='add'>RM120/pasangan/malam</td></tr>\n<tr><td class='it'>4&#9733; Adhi Jaya Hotel / Wyndham Garden Hotel</td><td class='add'>+RM160/pasangan/malam</td><td class='add'>RM200/pasangan/malam</td></tr>\n<tr><td class='it'>Villa Asa Bali / The Sakaye / Maca Villas Umalas</td><td>&mdash;</td><td class='add'>RM160/pasangan/malam</td></tr>\n<tr><td class='it'>Villa Alaya Dedaun Kuta / Lumbini Villa &amp; Spa</td><td class='add'>+RM650/pasangan/malam</td><td class='add'>RM250/pasangan/malam</td></tr>\n<tr><td class='it'>Villa Asterra Seminyak</td><td class='add'>+RM780/pasangan/malam</td><td class='add'>RM250/pasangan/malam</td></tr>\n</tbody></table></div>\n<div class='custblk'><h3>Honeymoon Premium &mdash; Peak Season</h3><table class='ctbl'><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak season</th></tr></thead><tbody>\n<tr><td class='it'>4&#9733; The Akmani Legian / The One Legian / Sun Island &amp; Spa Legian</td><td>&mdash;</td><td class='add'>RM120/pasangan/malam</td></tr>\n<tr><td class='it'>Private Pool Villa Alaya Dedaun / Lumbini / Asterra Seminyak / Sana ViE / La ViE</td><td>&mdash;</td><td class='add'>RM250/pasangan/malam</td></tr>\n</tbody></table><p class='custnote'>Honeymoon Premium sudah termasuk 4&#9733; dan Luxury Villa &mdash; tiada kos upgrade, hanya peak season.</p></div>\n<div class='custblk'><h3>Peak Season &amp; Blackout</h3><table class='ctbl'><thead><tr><th>Window</th><th>Tarikh</th><th>Nota</th></tr></thead><tbody>\n<tr><td class='it'>Christmas Holiday</td><td>22 - 31 Disember 2025</td><td>Peak</td></tr>\n<tr><td class='it'>New Year School Holiday</td><td>1 - 5 Januari 2026</td><td>Peak</td></tr>\n<tr><td class='it'>Hari Raya Aidilfitri</td><td>19 - 31 Mac 2026</td><td>Peak, kecuali tarikh blackout</td></tr>\n<tr><td class='it'>Super Peak Season Bali</td><td>1 - 31 Ogos 2026</td><td>Sebulan penuh</td></tr>\n<tr><td class='it'>Christmas Holiday</td><td>20 - 31 Disember 2026</td><td>Minimum 3 malam berturut-turut 22 Dis 2026 - 4 Jan 2027; check-out tidak dibenarkan pada 31 Disember 2026</td></tr>\n<tr><td class='it'>New Year School Holiday</td><td>1 - 5 Januari 2027</td><td>Peak</td></tr>\n<tr><td class='it'>BLACKOUT Hari Nyepi</td><td>18 - 20 Mac 2026</td><td>Bali tutup sepenuhnya 24 jam &mdash; tiada tour</td></tr>\n<tr><td class='it'>BLACKOUT Hari Raya Aidilfitri</td><td>20 - 23 Mac 2026</td><td>Tour tidak tersedia</td></tr>\n</tbody></table><p class='custnote'>Hari Nyepi ialah hari keagamaan Bali &mdash; seluruh pulau tutup, tiada penerbangan, transport atau kedai. Customer perlu pulang sebelum atau menyambung selepas window tersebut.</p></div>\n<div class='custblk'><h3>Travel Date 2027 (1 Jan - 30 Jun 2027)</h3><p class='ssub'>Sumber: rate sheet 2026/2027 Date Surcharge &mdash; tiada dalam katalog V3.</p><table class='ctbl'><thead><tr><th>Item</th><th>Standard &amp; HNY Standard</th><th>HNY Premium</th></tr></thead><tbody>\n<tr><td class='it'>Add-on travel date 2027</td><td class='add'>RM50/pax</td><td class='add'>RM100/pax</td></tr>\n<tr><td class='it'>Peak season 2027 (1-5 Jan 2027)</td><td class='add'>RM40/pax/malam</td><td class='add'>RM40/pax/malam</td></tr>\n<tr><td class='it'>Blackout Nyepi 2027</td><td>5 - 10 Mac 2027 &amp; 9 - 12 Mac 2027</td><td>5 - 10 Mac 2027 &amp; 9 - 12 Mac 2027</td></tr>\n</tbody></table><p class='custnote'>Add-on 2027 dikira di atas surcharge peak season yang berkenaan.</p></div>\n<div class='custblk'><h3>Fi Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody>\n<tr><td class='it'>Single Supplement &mdash; Standard</td><td class='add'>RM250/pax</td><td>Solo occupancy</td></tr>\n<tr><td class='it'>Single Supplement &mdash; Honeymoon Standard</td><td class='add'>RM800/pax</td><td>Solo occupancy</td></tr>\n<tr><td class='it'>Single Supplement &mdash; Honeymoon Premium</td><td class='add'>RM1,500/pax</td><td>Solo occupancy</td></tr>\n<tr><td class='it'>Late Booking</td><td class='add'>RM50/booking</td><td>Booking kurang 45 hari sebelum berlepas</td></tr>\n<tr><td class='it'>Extra Hour Transport &amp; Guide</td><td class='add'>150,000 IDR/jam</td><td>Selepas asas 12 jam, bayar tunai kepada driver</td></tr>\n</tbody></table></div>",
+   "transport": "<h2>Transportation &amp; Guide</h2>\n<p class='ssub'>Private transportation dengan driving guide (English/Indonesian), asas 12 jam sehari. Extra hour 150,000 IDR/jam dibayar tunai terus kepada driver.</p>\n<div class='custblk'><h3>Kenderaan ikut bilangan pax (katalog V3)</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Kenderaan</th></tr></thead><tbody>\n<tr><td class='it'>2 - 5 pax</td><td>Avanza</td></tr>\n<tr><td class='it'>6 - 7 pax</td><td>Innova</td></tr>\n<tr><td class='it'>8 - 12 pax</td><td>Hiace</td></tr>\n</tbody></table><p class='custnote'>Airport transfer maksimum 1 bagasi setiap pax kerana kapasiti kenderaan. Untuk group lebih besar (van 14-seater atau bas 30-seater), quote diberi mengikut keperluan (sumber: rate card ARBA &mdash; tiada dalam katalog).</p></div>\n<div class='custblk'><h3>Nota operasi</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Butiran</th></tr></thead><tbody>\n<tr><td class='it'>Driving guide</td><td>Guide tempatan Indonesia, mengiringi customer sepanjang tour dan menguruskan tiket masuk</td></tr>\n<tr><td class='it'>Halal &amp; solat</td><td>Driving guide mengatur perhentian restoran halal dan waktu solat sepanjang laluan</td></tr>\n<tr><td class='it'>Nusa Penida</td><td>Transport di pulau menggunakan kenderaan tempatan; penyeberangan guna ferry sharing dari Sanur Jetty</td></tr>\n<tr><td class='it'>Trafik</td><td>Trafik Bali kerap sesak terutama ke Ubud &mdash; jangkakan sedikit kelewatan</td></tr>\n</tbody></table></div>",
+   "stay": "<h2>Accommodation</h2>\n<p class='ssub'>Hotel mengikut varian pakej, di kawasan Kuta / Legian / Seminyak. Bilik 3&#9733; adalah double sharing; untuk triple, extra bed disediakan. Proper triple room hanya di hotel 4&#9733; tertakluk availability. Untuk keselesaan customer Muslim, mohon sejadah dan penunjuk arah kiblat semasa booking &mdash; masjid dan surau mudah dicari di Kuta, Legian dan Seminyak.</p>",
+   "flight": "<div class='custblk'><h3>Flight Recommendation KUL &ndash; DPS pergi-balik</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Leg</th><th>Flight</th><th>Berlepas</th><th>Tiba</th><th>Hari operasi</th><th>Anggaran round-trip</th></tr></thead><tbody>\n<tr><td class='it'>AirAsia</td><td>Pergi KUL &rarr; DPS</td><td>AK 364</td><td>9:00 pagi</td><td>12:15 tengah hari</td><td>Harian</td><td class='add' rowspan='2'>RM 550 - RM 800</td></tr>\n<tr><td class='it'>AirAsia</td><td>Balik DPS &rarr; KUL</td><td>AK 365</td><td>1:00 petang</td><td>4:10 petang</td><td>Harian</td></tr>\n<tr><td class='it'>Malaysia Airlines</td><td>Pergi KUL &rarr; DPS</td><td>MH 715</td><td>9:00 pagi</td><td>12:05 tengah hari</td><td>Harian</td><td class='add' rowspan='2'>RM 680 - RM 1,500</td></tr>\n<tr><td class='it'>Malaysia Airlines</td><td>Balik DPS &rarr; KUL</td><td>MH 714</td><td>1:05 petang</td><td>4:05 petang</td><td>Harian</td></tr>\n</tbody></table><p class='custnote'>Harga anggaran round-trip ikut Flight Recommendation ARBA. Waktu leg balik ikut jadual maskapai semasa (tiada dalam katalog) &mdash; sahkan waktu sebenar semasa tempahan. Lapangan terbang: I Gusti Ngurah Rai (DPS), penerbangan terus lebih kurang 3 jam 10 minit. Pakej adalah ground package; tiket tidak termasuk.</p></div>\n<div class='custblk'><h3>Waktu ketibaan &amp; berlepas yang disyorkan</h3><table class='ctbl'><thead><tr><th>Hari</th><th>Saranan</th></tr></thead><tbody>\n<tr><td class='it'>Day 1 (ketibaan)</td><td>Tiba antara 1:00 petang hingga 3:00 petang supaya sempat tour Uluwatu</td></tr>\n<tr><td class='it'>Day 4 (berlepas)</td><td>Berlepas sekitar tengah hari. Ketibaan lewat atau berlepas awal tidak dikembalikan bayaran untuk aktiviti dan makan yang tertinggal</td></tr>\n</tbody></table></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2>\n<details class='qa' data-text='apa free gift untuk pakej bali? \\n \\n bali: free upgrade to 4 star hotel kod: fdps2 (all pax) \\n bali honeymoon premium: free couple swing alas harum kod: fdps3 (all pax) \\n bullet: brb luggage tag / pocket wifi 4g (per booking) \\n *bullet wajib tanya po/leader \\n disclaimer: sila sahkan dengan po jika di luar waktu promo. \\n'><summary><span class='tw'>&#9654;</span><span>Apa free gift untuk pakej Bali?</span></summary>\n<div class='ans'>\n<p><strong>Bali:</strong> Free Upgrade to 4 Star Hotel <span class='gchip'>Kod: FDPS2</span> (All pax)</p>\n<p><strong>Bali Honeymoon Premium:</strong> Free Couple Swing Alas Harum <span class='gchip'>Kod: FDPS3</span> (All pax)</p>\n<p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p>\n<p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p>\n<p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p>\n</div></details>"
+  },
+  "snapshot": "# PT Bali 4D3N — Knowledge Base (Important Notes / FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*3 varian: Standard (per-pax 2-15), Honeymoon Standard (RM2,197/pasangan), Honeymoon Premium (RM3,797/pasangan). Catalog V3, 2 Feb 2026.*\n\n- **BLACKOUT Nyepi 18-20 Mac 2026** — Bali tutup sepenuhnya 24 jam (tiada flight/transport/kedai). **BLACKOUT Aidilfitri 20-23 Mac 2026** — tour TIDAK tersedia.\n- Harga Ground+Tipping, flight TIDAK termasuk, sah sehingga 31 Dis 2026. Tipping & parking sudah termasuk.\n- Deposit RM250/pax; full payment 45 hari sebelum departure. Late booking (kurang 45 hari) +RM50/booking. Single supplement: Standard RM250/pax, HNY Standard RM800/pax, HNY Premium RM1,500/pax.\n- Peak: Christmas 22-31 Dis 2025 dan 20-31 Dis 2026 · New Year 1-5 Jan 2026 dan 1-5 Jan 2027 · Aidilfitri 19-31 Mac 2026 · Super Peak 1-31 Ogos 2026. Minimum 3 malam berturut-turut 22 Dis 2026 - 4 Jan 2027; check-out tidak dibenarkan pada 31 Disember 2026.\n- 3★ double-sharing sahaja; triple = extra bed. Honeymoon per-pasangan (tiada CWB/CNB).\n- Day 2: customer pilih Nusa Penida (bumpy, ~12 jam) ATAU Nusa Dua (santai).\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa beza 3 varian?**\nStandard (3★, per-pax, L&D pilih sendiri), Honeymoon Standard (2N 3★ + 1N Pool Villa + Romantic Dinner, RM2,197/pasangan), Honeymoon Premium (2N 4★ + 1N Luxury Villa + Fullboard + Jimbaran + Floating Breakfast, RM3,797/pasangan). Rujuk tab Perbezaan Pakej.\n\n**Pakej betul-betul all-in?**\nSemua termasuk sarapan. Standard: lunch & dinner TIDAK termasuk (customer pilih sendiri, driver bawa ke restoran halal). Honeymoon Premium: fullboard.\n\n**Tempat apa dilawati?**\nUluwatu Temple, Day 2 Nusa Penida ATAU Nusa Dua, Kintamani Mt Batur, Ubud (Alas Harum, Desa Penglipuran).\n\n**Rushing tak?**\nTidak terlalu rushing, tapi Nusa Penida hari panjang & perjalanan ke Ubud lama (jalan kampung + trafik).\n\n**Boleh customize?**\nBoleh (Private Tour) — tambah aktiviti/add-on ikut budget. Rujuk tab Simple Customisation.\n\n### B. Halal, Makanan & Solat\n\n**Senang dapat makanan halal?**\nBali majoriti Hindu (~85%), tapi driver-guide (Alfian) atur restoran halal: Bale Udang, Wong Solo, Ayam Tulang Lunak, Warung Makjo, BQ Nusa Penida, Batur Sari Kintamani. Di Ubud/pedalaman pilihan lebih terhad.\n\n**Tempat solat / masjid & surau?**\nMasjid & surau mudah dicari di Kuta/Seminyak/Denpasar. Driver atur berhenti solat; untuk Nusa Penida (surau terhad) disyorkan solat jamak/qasar.\n\n**Makanan halal di Nusa Penida?**\nTerhad — set lunch halal diatur; bawa snack & air.\n\n### C. Visa & Passport\n\n**Perlu visa?**\nTidak — rakyat Malaysia visa-free Indonesia sehingga 30 hari (ASEAN).\n\n**Syarat pasport & dokumen?**\nPasport sah min 6 bulan. Sediakan pasport, tiket flight, dan Travel Declaration / Arrival Card (QR online) sebelum tiba.\n\n### D. Flight & Airport\n\n**Flight apa & anggaran?**\nDirect KUL-DPS lebih kurang 3 jam 10 minit. AirAsia AK 364 pergi dan AK 365 balik (RM550-800 round-trip); Malaysia Airlines MH 715 pergi dan MH 714 balik (RM680-1,500 round-trip). Lapangan terbang: I Gusti Ngurah Rai (DPS). Rujuk tab Flight & Airport untuk waktu penuh.\n\n**Bagasi?**\nPremium (MAS) 25-30kg; AirAsia X 20kg (bergantung tambang).\n\n**Flight termasuk?**\nTidak — Ground package sahaja.\n\n### E. Hotel & Bilik\n\n**Hotel apa?**\nStandard 3★: Favehotel Kartika / Hotel Zia / Swiss Belexpress. 4★ (upgrade/HNY Prem): One Legian / Sun Island. Villa (HNY): Asa Bali / Sakaye / Maca (Std), Sana Vie / Asterra (Prem).\n\n**Bilik untuk 3 orang?**\nDouble/twin sharing; triple = extra bed. Proper triple hanya 4★ (subject availability).\n\n**Single room?**\nSingle supplement mengikut varian: Standard RM250/pax, Honeymoon Standard RM800/pax, Honeymoon Premium RM1,500/pax.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\nMei-Sep (kering) terbaik untuk Nusa Penida & aktiviti luar. Apr/Okt shoulder. Dis-Feb musim hujan + peak hujung tahun.\n\n**Suhu?**\n24-32°C tropika; highland Kintamani lebih sejuk (15-22°C) — bawa jaket nipis.\n\n### G. Shopping & Duit\n\n**Duit apa & berapa poket?**\nRupiah (IDR); 1 RM ≈ 3,300-3,500 IDR. Cash poket RM1,000-1,500/pax. Tukar di DPS atau money changer Kuta (berlesen).\n\n**Cara bayar?**\nMall & restoran besar: kad. Pasar/warung & tips: tunai. eWallet terhad untuk pelancong asing.\n\n**Beli apa?**\nBatik, kraf, kopi, ole-ole (Krisna). Boleh tawar-menawar di pasar.\n\n### H. Payment & Refund\n\n**Deposit & full payment?**\nDeposit RM250/pax semasa booking; full payment 45 hari sebelum departure. Boleh ansuran (settle 45 hari sebelum trip).\n\n**Quotation sah berapa lama?**\nQuotation sah 24 jam. Itinerari & hotel final 14 hari sebelum trip.\n\n### I. Add-ons & Customization\n\n**Aktiviti tambahan popular?**\nIkut katalog V3: Kecak Dance Uluwatu RM67, Barong Dance Ubud RM67, Uma Ceking Rice Terrace + Bali Swing RM117, GWK RM67, Banana Boat RM67, Jet Ski RM157, Parasailing RM237, Snorkeling Nusa Penida RM107 (sharing) atau RM297 (private). Add-on lain seperti Tanah Lot RM25, Mt Batur Jeep RM250, Pocket Wifi dan Takaful adalah dari rate card ARBA. Rujuk tab Simple Customisation.\n\n**Boleh minta tour leader ARBA?**\nUpon request. Default: driver cum guide (Melayu/English).\n\n### J. Kesihatan & Keselamatan\n\n**Nusa Penida sesuai untuk semua?**\nTidak — laluan bumpy & tangga curam, hari panjang (~12 jam). Kurang sesuai anak kecil / warga emas / masalah lutut/jantung. Pilih Nusa Dua sebagai ganti.\n\n**Keselamatan lain?**\nJaga barang dari monyet (Uluwatu). Patuh bendera keselamatan pantai. Minum air botol.\n\n### K. Praktikal (SIM/socket/internet)\n\n**Internet?**\nTelkomsel/XL eSIM atau Pocket Wifi; 4G elok di zon pelancong (Nusa Penida lebih lemah).\n\n**Socket?**\nTipe C/F (dua pin bulat), 230V — bawa adapter.\n\n**Extra hour transport?**\n150,000 IDR/jam (~RM32), bayar tunai kepada driver.\n\n### L. Packing\n\n**Apa perlu bawa?**\nKasut sukan (Nusa Penida/rice terrace), pakaian ringan & sopan, jaket nipis (Kintamani), sunblock, topi, sejadah, ubat peribadi, tunai IDR, adapter. Untuk kuil: pakaian menutup lutut (sarung disediakan).\n"
+ },
+ "calc": {
+  "dest": "Bali",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-11)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (rate card ARBA, tiada dalam katalog v3)",
+  "singleNote": "Standard RM250/pax &middot; HNY Standard RM800/pax &middot; HNY Premium RM1,500/pax",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Hari Nyepi 18&ndash;20 Mac 2026 (Bali tutup 24 jam) dan Hari Raya Aidilfitri 20&ndash;23 Mac 2026 &mdash; tour tidak tersedia; 2027: 5&ndash;10 Mac dan 9&ndash;12 Mac. Kalkulator tetap mengira tarikh itu, jadi semak sendiri. <b>Honeymoon:</b> harga flat per pasangan (2 pax) dan tidak menerima kanak-kanak. Malam villa dalam pakej Honeymoon kena surcaj peak season lebih tinggi daripada malam hotel &mdash; bila tarikh jatuh dalam peak window, tukar pilihan Accommodation hari villa kepada versi <i>tambah surcaj peak season villa</i>.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 35,
+   "drop": 20
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 80,
+    "peak": 120
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 12,
+   "shareVehicle": true,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 250,
+       "peak": 250
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 350,
+       "peak": 350
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": 450,
+       "peak": 450
+      }
+     ],
+     "[Full Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 250,
+       "peak": 250
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 350,
+       "peak": 350
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": 450,
+       "peak": 450
+      }
+     ],
+     "[Half Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 150,
+       "peak": 150
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 200,
+       "peak": 200
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": 400,
+       "peak": 400
+      }
+     ],
+     "[Airport + Half Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 200,
+       "peak": 200
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 200,
+       "peak": 200
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": 200,
+       "peak": 200
+      }
+     ],
+     "[Airport Transfer]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 150,
+       "peak": 150
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": 200,
+       "peak": 200
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": 200,
+       "peak": 200
+      }
+     ]
+    },
+    "dayDed": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -120,
+       "peak": -120
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": -220,
+       "peak": -220
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": -280,
+       "peak": -280
+      }
+     ],
+     "[Full Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -120,
+       "peak": -120
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": -220,
+       "peak": -220
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": -280,
+       "peak": -280
+      }
+     ],
+     "[Half Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -70,
+       "peak": -70
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": -100,
+       "peak": -100
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": -250,
+       "peak": -250
+      }
+     ],
+     "[Airport + Half Day]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -100,
+       "peak": -100
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": -100,
+       "peak": -100
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": -100,
+       "peak": -100
+      }
+     ],
+     "[Airport Transfer]": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -70,
+       "peak": -70
+      },
+      {
+       "from": 5,
+       "to": 6,
+       "normal": -100,
+       "peak": -100
+      },
+      {
+       "from": 7,
+       "to": 12,
+       "normal": -100,
+       "peak": -100
+      }
+     ]
+    },
+    "h4a": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 120,
+       "peak": 180
+      }
+     ]
+    },
+    "h4b": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 140,
+       "peak": 220
+      }
+     ]
+    },
+    "vPool": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 280,
+       "peak": 460
+      }
+     ]
+    },
+    "vPrem": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 380,
+       "peak": 660
+      }
+     ]
+    },
+    "vLux": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 450,
+       "peak": 890
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": -50,
+       "peak": 0
+      }
+     ]
+    },
+    "up4a": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 60,
+       "peak": 80
+      }
+     ]
+    },
+    "up4b": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 80,
+       "peak": 140
+      }
+     ]
+    },
+    "upvPool": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 230,
+       "peak": 270
+      }
+     ]
+    },
+    "upvPrem": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 325,
+       "peak": 410
+      }
+     ]
+    },
+    "upvLux": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 15,
+       "normal": 390,
+       "peak": 475
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel dalam pakej",
+    "cost": "incl"
+   },
+   {
+    "v": "villa",
+    "t": "Private Pool Villa (dalam pakej)",
+    "cost": "incl",
+    "hotel": "Private Pool Villa"
+   },
+   {
+    "v": "lvilla",
+    "t": "Luxury Private Pool Villa (dalam pakej)",
+    "cost": "incl",
+    "hotel": "Luxury Private Pool Villa"
+   },
+   {
+    "v": "vpk1",
+    "t": "Private Pool Villa (dalam pakej) &ndash; tambah surcaj peak season villa",
+    "cost": "incl",
+    "perPax": 40,
+    "hotel": "Private Pool Villa",
+    "line": "Villa night peak season surcharge"
+   },
+   {
+    "v": "vpk2",
+    "t": "Luxury Private Pool Villa (dalam pakej) &ndash; tambah surcaj peak season villa",
+    "cost": "incl",
+    "perPax": 65,
+    "hotel": "Luxury Private Pool Villa",
+    "line": "Luxury villa night peak season surcharge"
+   },
+   {
+    "v": "up4a",
+    "t": "Upgrade 4 bintang &middot; The One / Sun Island / Akmani Legian",
+    "cost": "incl",
+    "perPaxRate": "up4a",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - The One Legian, Sun Island Hotel & Spa Legian or The Akmani Legian ({days})"
+   },
+   {
+    "v": "up4b",
+    "t": "Upgrade 4 bintang &middot; Adhi Jaya / Wyndham Garden",
+    "cost": "incl",
+    "perPaxRate": "up4b",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - Adhi Jaya Hotel or Wyndham Garden Hotel ({days})"
+   },
+   {
+    "v": "upvPool",
+    "t": "Upgrade Private Pool Villa &middot; Asa Bali / Sakaye / Maca Umalas",
+    "cost": "incl",
+    "perPaxRate": "upvPool",
+    "hotel": "Private Pool Villa",
+    "incl": "Private Pool Villa upgrade - Asa Bali, The Sakaye or Maca Villas Umalas ({days})"
+   },
+   {
+    "v": "upvPrem",
+    "t": "Upgrade Premium Private Pool Villa &middot; Alaya Dedaun / Lumbini",
+    "cost": "incl",
+    "perPaxRate": "upvPrem",
+    "hotel": "Premium Private Pool Villa",
+    "incl": "Premium Private Pool Villa upgrade - Alaya Dedaun Kuta or Lumbini Villa & Spa ({days})"
+   },
+   {
+    "v": "upvLux",
+    "t": "Upgrade Luxury Private Pool Villa &middot; Asterra Seminyak",
+    "cost": "incl",
+    "perPaxRate": "upvLux",
+    "hotel": "Luxury Private Pool Villa",
+    "incl": "Luxury Private Pool Villa upgrade - Asterra Villa Seminyak ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4a",
+    "t": "Malam tambahan &middot; 4 bintang The One / Sun Island / Akmani",
+    "cost": "night",
+    "nightRate": "h4a",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "n4b",
+    "t": "Malam tambahan &middot; 4 bintang Adhi Jaya / Wyndham Garden",
+    "cost": "night",
+    "nightRate": "h4b",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "nvPool",
+    "t": "Malam tambahan &middot; Private Pool Villa",
+    "cost": "night",
+    "nightRate": "vPool",
+    "hotel": "Private Pool Villa",
+    "line": "Additional night, Private Pool Villa",
+    "incl": "Additional night at Private Pool Villa ({days})"
+   },
+   {
+    "v": "nvPrem",
+    "t": "Malam tambahan &middot; Premium Private Pool Villa",
+    "cost": "night",
+    "nightRate": "vPrem",
+    "hotel": "Premium Private Pool Villa",
+    "line": "Additional night, Premium Private Pool Villa",
+    "incl": "Additional night at Premium Private Pool Villa ({days})"
+   },
+   {
+    "v": "nvLux",
+    "t": "Malam tambahan &middot; Luxury Private Pool Villa",
+    "cost": "night",
+    "nightRate": "vLux",
+    "hotel": "Luxury Private Pool Villa",
+    "line": "Additional night, Luxury Private Pool Villa",
+    "incl": "Additional night at Luxury Private Pool Villa ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel &ndash; tolak malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "fbf",
+    "t": "Floating Breakfast (dalam pakej)",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Floating Breakfast"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private transportation with driving guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Airport Transfer + Driving Guide",
+    "incl": "Private airport transfer with driving guide ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation with driving guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport deducted)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "t": "Hari tambahan - pilih blok tour di bawah",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ],
+    "region": "[Full Day]",
+    "g": "Umum"
+   },
+   {
+    "v": "exth",
+    "t": "Hari tambahan - half day tour",
+    "en": "ADDITIONAL HALF DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "act": [
+     "Half day tour mengikut permintaan customer (5 - 6 jam)"
+    ],
+    "eact": [
+     "Half day tour as requested by customer (5 - 6 hours)"
+    ],
+    "region": "[Half Day]",
+    "g": "Umum"
+   },
+   {
+    "v": "arr",
+    "t": "Ketibaan - airport transfer sahaja",
+    "en": "BALI ARRIVAL",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Airport pickup di I Gusti Ngurah Rai",
+     "Check-in hotel"
+    ],
+    "eact": [
+     "Airport pickup at I Gusti Ngurah Rai",
+     "Hotel check in"
+    ],
+    "region": "[Airport Transfer]",
+    "g": "Umum"
+   },
+   {
+    "v": "dep",
+    "t": "Berlepas - airport transfer sahaja",
+    "en": "BALI DEPARTURE",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "act": [
+     "Check-out hotel",
+     "Airport transfer ke DPS"
+    ],
+    "eact": [
+     "Hotel check out",
+     "Airport transfer to DPS"
+    ],
+    "region": "[Airport Transfer]",
+    "g": "Umum"
+   },
+   {
+    "v": "tanahlot",
+    "t": "Tanah Lot Full Day Tour",
+    "en": "TANAH LOT FULL DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Keluar hotel 8 - 9 pagi, balik hotel 5 - 6 petang",
+     "Handara Gate",
+     "Wanagiri Hidden Hill",
+     "Pura Ulun Danu Beratan",
+     "Tanah Lot Temple (sunset)",
+     "Tiket masuk RM 95/pax - pilih add-on Tiket masuk Tanah Lot Full Day Tour"
+    ],
+    "eact": [
+     "Depart hotel 8 - 9AM, return 5 - 6PM",
+     "Handara Gate",
+     "Wanagiri Hidden Hill",
+     "Pura Ulun Danu Beratan",
+     "Tanah Lot Temple (sunset)"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "lempuyang",
+    "t": "Lempuyang Full Day Tour",
+    "en": "LEMPUYANG FULL DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Keluar hotel 9 pagi, balik hotel 5 - 6 petang",
+     "Lempuyang Temple (Gate of Heaven)",
+     "Tirta Empul",
+     "Tirta Gangga",
+     "Tiket masuk RM 75/pax - pilih add-on Tiket masuk Lempuyang Full Day Tour"
+    ],
+    "eact": [
+     "Depart hotel 9AM, return 5 - 6PM",
+     "Lempuyang Temple (Gate of Heaven)",
+     "Tirta Empul",
+     "Tirta Gangga"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "dolphin",
+    "t": "Dolphin - Bedugul Full Day Tour",
+    "en": "DOLPHIN & BEDUGUL FULL DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Keluar hotel 3 pagi, balik hotel 5 - 6 petang",
+     "Bali Dolphin Lovina Tour",
+     "Pura Ulun Danu Beratan",
+     "Handara Gate",
+     "Tanah Lot Temple (pilihan)",
+     "Tiket masuk RM 115/pax, RM 140/pax dengan Tanah Lot"
+    ],
+    "eact": [
+     "Depart hotel 3AM, return 5 - 6PM",
+     "Bali Dolphin Lovina Tour",
+     "Pura Ulun Danu Beratan",
+     "Handara Gate",
+     "Tanah Lot Temple (optional)"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "safari",
+    "t": "Bali Safari & Marine Park Tour",
+    "en": "BALI SAFARI & MARINE PARK TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Keluar hotel 9 pagi, balik hotel 5 - 6 petang",
+     "Bali Safari Jungle Hopper - Safari Journey, Animal Show, Big Cat Show, Elephant Show",
+     "Kuta Seminyak Beach / City Tour",
+     "Tiket masuk RM 200/pax - pilih add-on Bali Safari Jungle Hopper"
+    ],
+    "eact": [
+     "Depart hotel 9AM, return 5 - 6PM",
+     "Bali Safari Jungle Hopper - Safari Journey, Animal Show, Big Cat Show, Elephant Show",
+     "Kuta Seminyak Beach / City Tour"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "batur",
+    "t": "Jeep Mt Batur Kintamani - Ubud Tour",
+    "en": "JEEP MT BATUR KINTAMANI & UBUD TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Keluar hotel 3 pagi, balik hotel 5 - 6 petang",
+     "Mt Batur Jeep Ride (black sand jeep tour)",
+     "Tegallalang Paddy Terrace",
+     "Mt Kintamani Lookout Point (lunch termasuk dalam tiket)",
+     "Ubud Coffee Plantation",
+     "Tegenungan Waterfall",
+     "Tiket masuk RM 330/pax - lunch sudah termasuk, jangan caj dua kali"
+    ],
+    "eact": [
+     "Depart hotel 3AM, return 5 - 6PM",
+     "Mt Batur Jeep Ride (black sand jeep tour)",
+     "Tegallalang Paddy Terrace",
+     "Mt Kintamani Lookout Point (lunch included in ticket)",
+     "Ubud Coffee Plantation",
+     "Tegenungan Waterfall"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "nusadua",
+    "t": "Nusa Dua Watersport Day Tour",
+    "en": "NUSA DUA WATERSPORT DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Nusa Dua Watersport (fi aktiviti pilih dari add-on)",
+     "Waterblow",
+     "Pandawa Beach",
+     "Melasti Beach"
+    ],
+    "eact": [
+     "Nusa Dua Watersport (activity fees as per optional add-ons)",
+     "Waterblow",
+     "Pandawa Beach",
+     "Melasti Beach"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   },
+   {
+    "v": "nusapenida",
+    "t": "Nusa Penida Island Day Tour",
+    "en": "NUSA PENIDA ISLAND DAY TOUR",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "incl",
+    "act": [
+     "Transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+     "Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+     "Atau Kelingking Beach, Diamond Beach, Crystal Bay"
+    ],
+    "eact": [
+     "Transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida",
+     "Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+     "Or Kelingking Beach, Diamond Beach, Crystal Bay"
+    ],
+    "region": "[Full Day]",
+    "g": "Tour tambahan - full day"
+   }
+  ],
+  "addons": [
+   [
+    "Kecak Dance Uluwatu Temple",
+    67,
+    67
+   ],
+   [
+    "Barong Dance Ubud",
+    67,
+    67
+   ],
+   [
+    "Uma Ceking Rice Terrace + Bali Swing",
+    117,
+    117
+   ],
+   [
+    "Garuda Wisnu Kencana Cultural Park",
+    67,
+    67
+   ],
+   [
+    "Banana Boat Nusa Dua",
+    67,
+    67
+   ],
+   [
+    "Jet Ski Nusa Dua",
+    157,
+    157
+   ],
+   [
+    "Tubing Ride Nusa Dua",
+    127,
+    127
+   ],
+   [
+    "Fly Fish Nusa Dua",
+    177,
+    177
+   ],
+   [
+    "Snorkeling Nusa Dua",
+    157,
+    157
+   ],
+   [
+    "Glass Bottom Boat + Turtle Island",
+    197,
+    197
+   ],
+   [
+    "Parasailing Adventure Nusa Dua",
+    237,
+    237
+   ],
+   [
+    "Fly Board Nusa Dua",
+    327,
+    327
+   ],
+   [
+    "Sea Walking Nusa Dua",
+    347,
+    347
+   ],
+   [
+    "Snorkeling Nusa Penida (sharing boat)",
+    107,
+    107
+   ],
+   [
+    "Snorkeling Nusa Penida (private boat)",
+    297,
+    297
+   ],
+   [
+    "Romantic Dinner di Bale Udang - per pasangan",
+    150,
+    0,
+    "unit"
+   ],
+   [
+    "Intimate Dinner di Bale Udang - per pasangan",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Floating Breakfast di Water Villa - per pasangan",
+    50,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon Sunset Dinner Jimbaran - per pasangan",
+    450,
+    0,
+    "unit"
+   ],
+   [
+    "Bedroom Decoration (Asa Bali Villa) - per pasangan",
+    150,
+    0,
+    "unit"
+   ],
+   [
+    "Tanah Lot Temple",
+    25,
+    25
+   ],
+   [
+    "Alas Harum + Couple Swing",
+    120,
+    120
+   ],
+   [
+    "Mt Batur Jeep Ride",
+    250,
+    250
+   ],
+   [
+    "Mt Batur Hiking",
+    180,
+    180
+   ],
+   [
+    "Water Rafting Ubud",
+    150,
+    150
+   ],
+   [
+    "Bali Dolphin Lovina Tour",
+    80,
+    80
+   ],
+   [
+    "Bali Safari Jungle Hopper",
+    200,
+    200
+   ],
+   [
+    "Bali Safari Night Tour",
+    280,
+    280
+   ],
+   [
+    "Bali Zoo",
+    160,
+    160
+   ],
+   [
+    "Tiket masuk Tanah Lot Full Day Tour (4 lokasi)",
+    95,
+    95
+   ],
+   [
+    "Tiket masuk Lempuyang Full Day Tour (3 lokasi)",
+    75,
+    75
+   ],
+   [
+    "Tiket masuk Dolphin - Bedugul Full Day Tour (3 lokasi)",
+    115,
+    115
+   ],
+   [
+    "Tiket masuk Dolphin - Bedugul + Tanah Lot (4 lokasi)",
+    140,
+    140
+   ],
+   [
+    "Tiket masuk Jeep Mt Batur Kintamani - Ubud (5 lokasi)",
+    330,
+    330
+   ],
+   [
+    "Pura Ulun Danu Beratan",
+    25,
+    25
+   ],
+   [
+    "Wanagiri Hidden Hill",
+    35,
+    35
+   ],
+   [
+    "Handara Gate",
+    10,
+    10
+   ],
+   [
+    "Lempuyang Temple (Gate of Heaven)",
+    35,
+    35
+   ],
+   [
+    "Tirta Empul",
+    20,
+    20
+   ],
+   [
+    "Tirta Gangga",
+    20,
+    20
+   ],
+   [
+    "Tegallalang Paddy Terrace",
+    20,
+    20
+   ],
+   [
+    "Mt Kintamani Lookout Point (termasuk lunch)",
+    50,
+    50
+   ],
+   [
+    "Tegenungan Waterfall",
+    10,
+    10
+   ]
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 50,
+    "variants": [
+     "std",
+     "hnystd"
+    ]
+   },
+   {
+    "label": "Travel date 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100,
+    "variants": [
+     "hnyprem"
+    ]
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 4,
+    "text": "2&ndash;4 pax: kenderaan Avanza / APV"
+   },
+   {
+    "from": 5,
+    "to": 6,
+    "text": "5&ndash;6 pax: kenderaan Innova"
+   },
+   {
+    "from": 7,
+    "to": 12,
+    "text": "7&ndash;12 pax: kenderaan Hiace"
+   },
+   {
+    "from": 13,
+    "to": 99999,
+    "text": "13 pax ke atas: katalog beri tier harga sehingga 15 pax, tetapi rate card transport hanya sehingga Hiace 12 pax. Perlu dua kenderaan atau van 14-seater / bas 30-seater &mdash; sahkan kadar dengan operator sebelum quote."
+   }
+  ],
+  "validity": "Prices are based on the PT Bali v3 catalogue dated 2 February 2026 and are valid for travel until 31 December 2026; departures from 1 January to 30 June 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours. A deposit of RM250 per pax is due on confirmation and full payment 45 days before departure. The final itinerary and hotels are confirmed 14 days before the trip, subject to availability. Blackout dates: Hari Nyepi 18&ndash;20 March 2026 (Bali closes for 24 hours) and Hari Raya Aidilfitri 20&ndash;23 March 2026 &mdash; tours are not available.",
+  "variants": [
+   {
+    "id": "std",
+    "name": "PT Bali Standard 4D3N",
+    "pkgLabel": "Bali Standard - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 250,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 3,
+      "a": 1057,
+      "c": 997,
+      "n": 957
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 997,
+      "c": 957,
+      "n": 897
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 957,
+      "c": 897,
+      "n": 857
+     },
+     {
+      "from": 8,
+      "to": 9,
+      "a": 937,
+      "c": 857,
+      "n": 797
+     },
+     {
+      "from": 10,
+      "to": 15,
+      "a": 917,
+      "c": 837,
+      "n": 777
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 40,
+     "windows": [
+      [
+       "2025-12-22",
+       "2025-12-31"
+      ],
+      [
+       "2026-01-01",
+       "2026-01-05"
+      ],
+      [
+       "2026-03-19",
+       "2026-03-31"
+      ],
+      [
+       "2026-08-01",
+       "2026-08-31"
+      ],
+      [
+       "2026-12-20",
+       "2026-12-31"
+      ],
+      [
+       "2027-01-01",
+       "2027-01-05",
+       null,
+       40
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Tiba Bali - Uluwatu & Kuta",
+      "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+       "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+       "Check-in hotel 3 bintang di Kuta atau Legian",
+       "Dinner di restoran halal (bayaran sendiri)"
+      ],
+      "eact": [
+       "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+       "Uluwatu Temple, famous cliff-top temple landmark",
+       "Check in 3-Star hotel in Kuta or Legian",
+       "Halal dinner (own expense)"
+      ],
+      "region": "[Airport + Half Day]"
+     },
+     {
+      "v": "d2",
+      "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+      "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+       "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+       "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+       "Dinner di Bale Udang Lake View (bayaran sendiri)"
+      ],
+      "eact": [
+       "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+       "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+       "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+       "Dinner at Bale Udang Lake View (own expense)"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d3",
+      "t": "Kintamani Mt Batur & Ubud",
+      "en": "KINTAMANI MT BATUR & UBUD TOUR",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+       "Ubud Coffee Plantation (opsyenal)",
+       "Desa Penglipuran, kampung tradisional Bali",
+       "Batik outlet dan shopping ole-ole"
+      ],
+      "eact": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur - magnificent volcano and lake view",
+       "Ubud Coffee Plantation (optional)",
+       "Desa Penglipuran, traditional Balinese village",
+       "Batik outlet and souvenir shopping"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d4",
+      "t": "Berlepas",
+      "en": "BALI - AIRPORT DEPARTURE",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "act": [
+       "Sarapan dan check-out hotel",
+       "Airport transfer ke DPS untuk penerbangan pulang"
+      ],
+      "eact": [
+       "Breakfast and hotel check-out",
+       "Airport transfer to DPS for return flight"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "3 nights accommodation at 3-Star Hotel in Kuta or Legian",
+     "Daily breakfast at hotel",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Driving guide (English / Indonesian spoken)",
+     "Tipping fee and parking fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+    ],
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)"
+   },
+   {
+    "id": "hnystd",
+    "name": "PT Bali Honeymoon Standard 4D3N",
+    "pkgLabel": "Bali Honeymoon Standard - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 800,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 12,
+      "a": 1098.5,
+      "c": 1098.5,
+      "n": 1098.5
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 40,
+     "windows": [
+      [
+       "2025-12-22",
+       "2025-12-31"
+      ],
+      [
+       "2026-01-01",
+       "2026-01-05"
+      ],
+      [
+       "2026-03-19",
+       "2026-03-31"
+      ],
+      [
+       "2026-08-01",
+       "2026-08-31"
+      ],
+      [
+       "2026-12-20",
+       "2026-12-31"
+      ],
+      [
+       "2027-01-01",
+       "2027-01-05",
+       null,
+       40
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Tiba Bali - Uluwatu & Kuta",
+      "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+       "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+       "Check-in hotel 3 bintang di Kuta atau Legian",
+       "Dinner di restoran halal (bayaran sendiri)"
+      ],
+      "eact": [
+       "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+       "Uluwatu Temple, famous cliff-top temple landmark",
+       "Check in 3-Star hotel in Kuta or Legian",
+       "Halal dinner (own expense)"
+      ],
+      "region": "[Airport + Half Day]"
+     },
+     {
+      "v": "d2",
+      "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+      "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+      "acc": "incl",
+      "meal": "bd",
+      "trp": "incl",
+      "act": [
+       "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+       "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+       "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+       "Bale Udang Lake View Honeymoon Dinner (termasuk)"
+      ],
+      "eact": [
+       "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+       "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+       "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+       "Bale Udang Lake View Honeymoon Dinner (included)"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d3",
+      "t": "Kintamani Mt Batur & Ubud",
+      "en": "KINTAMANI MT BATUR & UBUD TOUR",
+      "acc": "villa",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+       "Ubud Coffee Plantation (opsyenal)",
+       "Desa Penglipuran, kampung tradisional Bali",
+       "Batik outlet dan shopping ole-ole",
+       "Check-in Private Pool Villa di Seminyak dengan honeymoon room decoration"
+      ],
+      "eact": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur - magnificent volcano and lake view",
+       "Ubud Coffee Plantation (optional)",
+       "Desa Penglipuran, traditional Balinese village",
+       "Batik outlet and souvenir shopping",
+       "Check in Private Pool Villa in Seminyak with honeymoon room decoration"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d4",
+      "t": "Berlepas",
+      "en": "BALI - AIRPORT DEPARTURE",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "act": [
+       "Sarapan dan check-out hotel",
+       "Airport transfer ke DPS untuk penerbangan pulang"
+      ],
+      "eact": [
+       "Breakfast and hotel check-out",
+       "Airport transfer to DPS for return flight"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "2 nights accommodation at 3-Star Hotel in Kuta or Legian",
+     "1 night accommodation at Private Pool Villa in Seminyak",
+     "Daily breakfast at hotel",
+     "Romantic Dinner at Bale Udang Lake View",
+     "Honeymoon basic room decoration",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Driving guide (English / Indonesian spoken)",
+     "Tipping fee and parking fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+    ]
+   },
+   {
+    "id": "hnyprem",
+    "name": "PT Bali Honeymoon Premium 4D3N",
+    "pkgLabel": "Bali Honeymoon Premium - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "4-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 1500,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 12,
+      "a": 1898.5,
+      "c": 1898.5,
+      "n": 1898.5
+     }
+    ],
+    "peak": {
+     "mode": "perNight",
+     "value": 60,
+     "windows": [
+      [
+       "2025-12-22",
+       "2025-12-31"
+      ],
+      [
+       "2026-01-01",
+       "2026-01-05"
+      ],
+      [
+       "2026-03-19",
+       "2026-03-31"
+      ],
+      [
+       "2026-08-01",
+       "2026-08-31"
+      ],
+      [
+       "2026-12-20",
+       "2026-12-31"
+      ],
+      [
+       "2027-01-01",
+       "2027-01-05",
+       null,
+       40
+      ]
+     ]
+    },
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Tiba Bali - Uluwatu & Kuta",
+      "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "air",
+      "act": [
+       "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+       "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+       "Check-in hotel 4 bintang di Kuta atau Legian",
+       "Dinner di restoran halal (termasuk fullboard)"
+      ],
+      "eact": [
+       "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+       "Uluwatu Temple, famous cliff-top temple landmark",
+       "Check in 4-Star hotel in Kuta or Legian",
+       "Halal dinner (fullboard included)"
+      ],
+      "region": "[Airport + Half Day]"
+     },
+     {
+      "v": "d2",
+      "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+      "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+       "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+       "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+       "Jimbaran Beach Sunset Dinner (termasuk)"
+      ],
+      "eact": [
+       "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+       "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+       "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+       "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+       "Jimbaran Beach Sunset Dinner (included)"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d3",
+      "t": "Kintamani Mt Batur & Ubud",
+      "en": "KINTAMANI MT BATUR & UBUD TOUR",
+      "acc": "lvilla",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur dengan buffet lunch pemandangan gunung",
+       "Ubud Coffee Plantation (opsyenal)",
+       "Desa Penglipuran, kampung tradisional Bali",
+       "Batik outlet dan shopping ole-ole",
+       "Bale Udang Lake View Honeymoon Dinner (termasuk)",
+       "Check-in Luxury Private Pool Villa di Seminyak dengan honeymoon decoration"
+      ],
+      "eact": [
+       "Alas Harum Rice Terrace",
+       "Kintamani Mount Batur with buffet lunch and mountain view",
+       "Ubud Coffee Plantation (optional)",
+       "Desa Penglipuran, traditional Balinese village",
+       "Batik outlet and souvenir shopping",
+       "Bale Udang Lake View Honeymoon Dinner (included)",
+       "Check in Luxury Private Pool Villa in Seminyak with honeymoon decoration"
+      ],
+      "region": "[Full Day]"
+     },
+     {
+      "v": "d4",
+      "t": "Berlepas",
+      "en": "BALI - AIRPORT DEPARTURE",
+      "acc": "none",
+      "meal": "fbf",
+      "trp": "air",
+      "act": [
+       "Floating Breakfast di private pool villa, kemudian check-out",
+       "Airport transfer ke DPS untuk penerbangan pulang"
+      ],
+      "eact": [
+       "Floating Breakfast at the private pool villa, then check out",
+       "Airport transfer to DPS for return flight"
+      ],
+      "region": "[Airport Transfer]"
+     }
+    ],
+    "inclusions": [
+     "2 nights accommodation at 4-Star Hotel in Kuta or Legian",
+     "1 night accommodation at Luxury Private Pool Villa in Seminyak",
+     "Fullboard meals with 1x Floating Breakfast",
+     "Jimbaran Beach Sunset Dinner",
+     "Bale Udang Lake View Romantic Dinner",
+     "Buffet lunch with Mount Batur view",
+     "Honeymoon basic room decoration",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Driving guide (English / Indonesian spoken)",
+     "Tipping fee and parking fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+    ]
+   }
+  ]
+ }
+}

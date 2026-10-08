@@ -1,0 +1,1537 @@
+{
+ "slug": "phuket",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Phuket — Knowledge Base",
+   "brandTag": "PHUKET KB",
+   "kicker": "ARBA PHUKET · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Phuket — halal, flight, hotel, cuaca & tips island hopping. Nota: pakej ini sharing basis (seat-in-coach), bukan private tour.",
+   "searchPlaceholder": "cth: flight ke Phuket? · perlu visa? · makanan halal? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Phuket…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Phuket 4D3N (Sharing Basis — Bukan Private Tour)",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada katalog PAKEJ PHUKET STANDARD &amp; BASIC 4D3N 2026 v2 (Last Updated 5 Ogos 2026), PT Phuket 4H3M Travel Map, Flight Recommendation, 2026/2027 Date Surcharge dan FreeGift Campaign.<br><strong>PENTING:</strong> pakej ini <strong>bukan pakej private tour</strong> — semua island tour &amp; pengangkutan aktiviti adalah <strong>sharing basis / seat-in-coach</strong> bersama pelancong lain. Hanya transfer lapangan terbang Hari 1 &amp; Hari 4 yang private.<br>Tiada gambar trip lepas untuk Phuket dalam folder produk, jadi KB ini tiada tab <strong>Gambar Trip Lepas</strong> — ini memang begitu, bukan data yang tertinggal.<br>Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline setiap pakej.",
+   "marketing": {
+    "anchors": [
+     "Phi Phi Island & Maya Bay",
+     "James Bond Island + Sea Canoe",
+     "Racha & Coral Island Snorkeling"
+    ],
+    "usp": "USP: Pakej ground-only sharing basis (BUKAN private tour) — island tour & pengangkutan aktiviti dikongsi seat-in-coach dengan pelancong lain; hanya transfer airport Hari 1 & Hari 4 private. Tour guide English + tipping fee included, fullboard (3B & 2L). 2 varian — Standard (3 island tour + city tour) vs Basic (pilih 1 island tour).",
+    "season": [
+     [
+      "Nov–Apr",
+      "Musim kering — laut tenang, langit cerah, terbaik untuk island hopping & snorkeling"
+     ],
+     [
+      "May–Okt",
+      "Musim hujan (monsun barat daya) — aktiviti laut boleh terjejas, tapi harga & crowd lebih rendah"
+     ]
+    ],
+    "expect": [
+     "BUKAN private tour — semua island tour & aktiviti sharing (seat-in-coach) dengan pelancong lain",
+     "Private transport hanya Hari 1 & Hari 4 (transfer lapangan terbang)",
+     "Sediakan cash — kebanyakan tempat & add-on di pulau prefer tunai",
+     "Hati-hati dengan monyet di viewpoint/pulau — jaga barang",
+     "Dinner tidak disediakan — bebas explore makan malam Phuket (halal mudah di Patong & Old Town)"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "Pakej Phuket Standard 4D3N",
+    "tag": "Phuket · 4D3N · Standard · Sharing Basis",
+    "sub": "Pakej penuh — island tour + city tour (bukan private tour)",
+    "emoji": "",
+    "img": "@asset:1d425e4ac18a",
+    "intro": "Varian paling lengkap: James Bond Island + sea canoe, Phi Phi Island by speedboat, DAN Phuket City Tour dalam satu pakej 4 hari 3 malam. PENTING — ini BUKAN pakej private tour: semua island tour dijalankan secara sharing (seat-in-coach) bersama pelancong lain, dan hanya transfer lapangan terbang Hari 1 & Hari 4 sahaja yang private. Ground-only (tanpa tiket flight), fullboard 3 breakfast & 2 lunch, tour guide English & tipping fee sudah termasuk.",
+    "inc": [
+     "3 malam hotel 3★ (Ibis Kata / Tony Resort Patong / Di Pantai Boutique)",
+     "Private transportation — Hari 1 & Hari 4 sahaja (transfer lapangan terbang)",
+     "Shared transport (seat-in-coach) untuk SEMUA aktiviti & island tour",
+     "Racha & Coral Island Tour by speedboat (shared tour)",
+     "James Bond Island + Canoeing by Big Boat (shared tour)",
+     "Phi Phi Islands Tour by speedboat (shared tour)",
+     "Phuket City Tour",
+     "National Park fees & entrance fees",
+     "Fullboard: 3 Breakfast & 2 Lunch",
+     "Tour guide (English spoken) + tipping fee"
+    ],
+    "exc": [
+     "Tiket flight antarabangsa (KUL–HKT) & in-flight meal",
+     "Additional tours & meals (termasuk semua dinner)",
+     "Perbelanjaan peribadi",
+     "Travel insurance (boleh tambah Takaful — lihat Customisation)"
+    ],
+    "note": "Katalog PHUKET STANDARD 4D3N 2026 v2 (5 Ogos 2026) — harga per pax, 2–10 pax, 2–3 orang sebilik: Adult RM1,797 · Child with bed RM1,597 · Child no bed RM1,397 · Child 0–3 tahun FOC. Upgrade hotel 4★ RM300/pax. Single supplement RM450/pax. Ground &amp; tipping sahaja (tanpa tiket flight). Sah untuk tempoh perjalanan sehingga 31 Disember 2026."
+   },
+   {
+    "n": "Pakej Phuket Basic 4D3N",
+    "tag": "Phuket · 4D3N · Basic · Sharing Basis",
+    "sub": "Bajet mesra — pilih 1 island tour (bukan private tour)",
+    "emoji": "",
+    "img": "@asset:1d425e4ac18a",
+    "intro": "Pilihan bajet — ground only, boat sharing basis, tanpa tiket flight. Racha & Coral Island pada Hari 2, dan pilih SATU tour utama pada Hari 3: Phi Phi Island (+RM100/pax) ATAU James Bond Island + canoe. PENTING — ini BUKAN pakej private tour: island tour & pengangkutan aktiviti adalah sharing (seat-in-coach) bersama pelancong lain; hanya transfer lapangan terbang Hari 1 & Hari 4 private. Fullboard 3 breakfast & 2 lunch, guide English & tipping fee tetap termasuk.",
+    "inc": [
+     "3 malam hotel 3★ (Ibis Kata / Tony Resort Patong / Di Pantai Boutique)",
+     "Private transportation — Hari 1 & Hari 4 sahaja (transfer lapangan terbang)",
+     "Shared transport (seat-in-coach) untuk SEMUA aktiviti & island tour",
+     "Racha & Coral Island by speedboat (Hari 2, shared tour)",
+     "Hari 3 (pilih satu): James Bond Island + Canoe by Big Boat ATAU Phi Phi Island by speedboat (+RM100/pax)",
+     "National Park fees & entrance fees",
+     "Fullboard: 3 Breakfast & 2 Lunch",
+     "Tour guide (English spoken) + tipping fee"
+    ],
+    "exc": [
+     "Tiket flight antarabangsa (KUL–HKT) & in-flight meal",
+     "Additional activities, tours & meals (termasuk semua dinner)",
+     "Perbelanjaan peribadi",
+     "Travel insurance (boleh tambah Takaful — lihat Customisation)"
+    ],
+    "note": "Katalog PHUKET BASIC 4D3N 2026 v2 (5 Ogos 2026) — harga per pax, 2–10 pax, 2–3 orang sebilik: Adult RM1,397 · Child with bed RM1,197 · Child no bed RM997 · Child 0–3 tahun FOC. Upgrade hotel 4★ RM300/pax. Single supplement quoted upon request. Ground only, boat sharing basis (tanpa tiket flight). Sah untuk tempoh perjalanan sehingga 31 Disember 2026."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "KUL → Phuket · Ketibaan",
+     "m": "—",
+     "a": [
+      "Cadangan tiba selepas 12 tengah hari",
+      "Airport pickup — private transport (Hari 1 sahaja)",
+      "Check-in hotel 3★, free & easy"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "James Bond Island + Sea Canoe (Big Boat) · Shared Tour",
+     "m": "B / L",
+     "a": [
+      "Sharing basis boat — bersama pelancong lain",
+      "Phang Nga Bay",
+      "Panak Island (canoe)",
+      "Hong Island (canoe)",
+      "Khao Pinkkan",
+      "Khao Tapoo (James Bond Island)",
+      "Naka Island",
+      "Lunch termasuk"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Phi Phi Island Tour (Speedboat) · Shared Tour",
+     "m": "B / L",
+     "a": [
+      "Sharing basis speedboat — bersama pelancong lain",
+      "Phi Phi Ley Island",
+      "Snorkeling & sightseeing pass Maya Bay",
+      "Loh Sama Bay, Piley Cove, Viking Cave",
+      "Monkey Bay",
+      "Phi Phi Don (lunch)",
+      "Khai Nok & Koh Khai Island"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Phuket City Tour → KUL",
+     "m": "B",
+     "a": [
+      "Check-out hotel",
+      "Phuket View Point di Kata Noi Beach",
+      "Promthep Cape",
+      "Cashew Nut Factory & shopping produk tempatan",
+      "Pearl Jam Factory · Bee Farm · Gem Factory",
+      "Bangunan Sino-Portugis Thalang Road (Old Town)",
+      "T-shirt Factory · Pornthip Sea Store",
+      "Transfer ke Phuket Airport — private transport (cadangan berlepas selepas 4pm)"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Phuket · Ketibaan",
+     "m": "—",
+     "a": [
+      "Cadangan tiba selepas 12 tengah hari",
+      "Airport transfer — private transport (Hari 1 sahaja)",
+      "Check-in hotel 3★, free & easy"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Racha & Coral Island by Speedboat · Shared Tour",
+     "m": "B / L",
+     "a": [
+      "Sharing basis speedboat — bersama pelancong lain",
+      "Racha Island — swim & snorkeling",
+      "Coral Island — swim & snorkeling",
+      "Lunch termasuk"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Hari Pilihan Customer · Shared Tour",
+     "m": "B / L",
+     "a": [
+      "Sharing basis boat — bersama pelancong lain",
+      "OPSYEN A: Phi Phi Island (+RM100/pax) — Maya Bay, Loh Sama Bay, Viking Cave, Monkey Bay, Phi Phi Don, Khai Nok & Koh Khai",
+      "OPSYEN B: James Bond Island + Canoe by Big Boat — Phang Nga Bay, Panak, Hong, Khao Pinkkan, Khao Tapoo, Naka Island",
+      "Lunch termasuk"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Phuket → KUL · Berlepas",
+     "m": "B",
+     "a": [
+      "Check-out hotel",
+      "Airport transfer — private transport (Hari 4 sahaja)",
+      "Cadangan berlepas selepas 12 tengah hari"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Phi Phi Island & Maya Bay",
+    "t": "Island Hopping",
+    "emoji": "",
+    "img": "Playa Maya, Ko Phi Phi, Tailandia, 2013-08-19, DD 13.JPG",
+    "short": "Pulau ikonik air biru kristal — lokasi filem 'The Beach'.",
+    "intro": "Gugusan Phi Phi (Krabi province) diakses ~45 min speedboat dari Phuket. Highlight: Maya Bay yang terkenal, Loh Sama Bay, Viking Cave, Monkey Bay dan makan tengah hari di Phi Phi Don. Snorkeling air jernih dengan ikan warna-warni.",
+    "hi": [
+     "Maya Bay (sightseeing & snorkel)",
+     "Loh Sama Bay & Piley Cove",
+     "Viking Cave",
+     "Phi Phi Don (lunch)",
+     "Khai Islands snorkel"
+    ],
+    "best": "Nov–Apr (laut tenang, visibiliti terbaik). Elak musim monsun May–Okt.",
+    "muslim": "Lunch disediakan di Phi Phi Don — minta set halal/seafood tanpa non-halal (ARBA maklum operator awal). Tiada masjid di pulau; solat jamak/qasar di bot atau kawasan rehat — bawa sejadah travel. Ambil wuduk sebelum bertolak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Phi+Phi+Islands+Thailand"
+   },
+   {
+    "n": "James Bond Island (Phang Nga Bay)",
+    "t": "Island + Sea Canoe",
+    "emoji": "",
+    "img": "Isla Tapu, Phuket, Tailandia, 2013-08-20, DD 36.JPG",
+    "short": "Batu kapur ikonik Khao Tapoo di teluk Phang Nga.",
+    "intro": "Khao Tapoo — batu limestone menegak yang muncul dalam filem James Bond 'The Man with the Golden Gun'. Tour big boat merangkumi canoeing di Panak & Hong Island menyusuri gua dan lagun tersembunyi Phang Nga Bay.",
+    "hi": [
+     "Khao Tapoo (James Bond Island)",
+     "Canoe di Panak Island",
+     "Canoe di Hong Island",
+     "Khao Pinkkan",
+     "Naka Island"
+    ],
+    "best": "Sepanjang tahun; paling selesa Nov–Apr. Air pasang surut menentukan akses canoe.",
+    "muslim": "Lunch termasuk — minta set halal. Tiada surau di pulau; solat di bot/kawasan jeti — bawa sejadah. Restoran halal mudah di jeti pelancong di tanah besar.",
+    "map": "https://www.google.com/maps/search/?api=1&query=James+Bond+Island+Phang+Nga+Bay"
+   },
+   {
+    "n": "Racha & Coral Island",
+    "t": "Snorkel & Beach",
+    "emoji": "",
+    "img": "Racha 2015 december - panoramio (2).jpg",
+    "short": "Dua pulau dekat Phuket — snorkel & mandi laut.",
+    "intro": "Racha Island (Raya) terkenal dengan air jernih & terumbu karang cetek sesuai snorkel; Coral Island (Koh Hae) hanya ~15 min dari Phuket, sesuai untuk banana boat & parasailing (add-on). Termasuk dalam kedua-dua pakej pada Hari 2.",
+    "hi": [
+     "Snorkeling di Racha Island",
+     "Mandi laut Coral Island",
+     "Banana boat (add-on)",
+     "Parasailing (add-on)"
+    ],
+    "best": "Nov–Apr. Aktiviti laut boleh dibatalkan jika cuaca buruk (musim hujan).",
+    "muslim": "Lunch buffet di pulau — sahkan pilihan halal dengan operator. Tiada surau; solat di kawasan rehat/bot. Bawa sejadah & pakaian renang sopan (rashguard/muslimah swimwear).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Coral+Island+Phuket"
+   },
+   {
+    "n": "Phuket Old Town (Sino-Portuguese)",
+    "t": "Heritage & Shopping",
+    "emoji": "",
+    "img": "Buildings in Old Phuket Town.jpg",
+    "short": "Bangunan warisan Sino-Portugis warna-warni di Thalang Road.",
+    "intro": "Pusat bandar lama Phuket dengan seni bina Sino-Portugis abad ke-19, kafe, mural jalanan dan kedai souvenir. Sebahagian daripada City Tour pakej Standard (Hari 4). Kawasan ini ada komuniti Muslim & pilihan makanan halal.",
+    "hi": [
+     "Thalang Road heritage",
+     "Mural & kafe",
+     "Souvenir & produk tempatan",
+     "Makanan jalanan"
+    ],
+    "best": "Pagi/petang untuk elak panas. Ahad ada Walking Street market (jika bertepatan).",
+    "muslim": "Restoran & gerai halal ada di sekitar Old Town & Phuket Town. Masjid tempatan berhampiran. Mudah cari makan halal berbanding kawasan tourist lain.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Phuket+Old+Town+Thalang+Road"
+   },
+   {
+    "n": "Promthep Cape & Kata Noi Viewpoint",
+    "t": "Viewpoint",
+    "emoji": "",
+    "img": "Laem Phromthep in Phuket (5733622568).jpg",
+    "short": "Tanjung paling selatan Phuket — sunset & panorama.",
+    "intro": "Promthep Cape ialah titik sunset paling popular di Phuket dengan panorama Laut Andaman. Kata Noi Viewpoint (Karon Viewpoint) menawarkan pemandangan tiga teluk. Kedua-dua dalam City Tour pakej Standard.",
+    "hi": [
+     "Sunset Promthep Cape",
+     "Panorama 3 teluk Kata Noi",
+     "Foto & santai"
+    ],
+    "best": "Petang menjelang sunset (~5–6.30pm).",
+    "muslim": "Kawasan viewpoint terbuka — solat di surau berdekatan atau jamak di hotel. Bawa sejadah. Hati-hati monyet di sesetengah viewpoint.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Promthep+Cape+Phuket"
+   },
+   {
+    "n": "Big Buddha & Wat Chalong",
+    "t": "Landmark (Optional)",
+    "emoji": "",
+    "img": "The Big Buddha, Phuket.jpg",
+    "short": "Patung Buddha 45m & kuil utama Phuket — spot foto.",
+    "intro": "Big Buddha (Nakkerd Hill) — patung marmar putih 45m dengan pemandangan menyeluruh; Wat Chalong kuil Buddha paling penting di Phuket. Bukan dalam itinerari standard tapi popular sebagai add-on/customisation untuk pengalaman budaya & foto.",
+    "hi": [
+     "Big Buddha Nakkerd Hill",
+     "Wat Chalong",
+     "Panorama pulau"
+    ],
+    "best": "Pagi (elak panas & ramai). Berpakaian sopan menutup lutut & bahu.",
+    "muslim": "Ini tapak keagamaan Buddha — untuk lawatan budaya/foto sahaja, bukan ibadah. Berpakaian sopan. Solat di surau/hotel. Boleh diskip jika customer tak berminat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Big+Buddha+Phuket"
+   },
+   {
+    "n": "Patong Beach & Bangla Area",
+    "t": "Beach & Food Hub",
+    "emoji": "",
+    "img": "Вид с вертолета на Патонг (март 2013) - panoramio.jpg",
+    "short": "Pusat Patong — pantai, shopping & hub makanan halal.",
+    "intro": "Patong ialah kawasan paling meriah di Phuket. Waktu siang: pantai & shopping (Jungceylon, Banzaan Market). Kawasan ini ada Masjid Patong (Nanai Road) dan banyak restoran halal. Nota: Bangla Road ialah kawasan hiburan malam — TC boleh nasihat customer keluarga elak waktu malam.",
+    "hi": [
+     "Pantai Patong",
+     "Jungceylon & Banzaan Market (gerai halal)",
+     "Masjid Patong (Nanai Rd)",
+     "Shopping"
+    ],
+    "best": "Siang untuk pantai & shopping. Keluarga Muslim digalak elak kawasan Bangla waktu malam.",
+    "muslim": "Hub halal terbaik di Phuket — banyak restoran halal & Muslim-friendly di Patong. Masjid Patong (Nanai Road, ~5 min dari pantai) & Al-Madani Mosque untuk solat Jumaat/harian. Bawa sejadah sebagai backup.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Patong+Beach+Phuket"
+   },
+   {
+    "n": "Andamanda Waterpark / Phuket Aquaria",
+    "t": "Family Add-on",
+    "emoji": "",
+    "img": "Water slide at Gulf Islands Waterpark in Gulfport, Mississippi.jpg",
+    "short": "Taman air & akuarium — pilihan keluarga (add-on).",
+    "intro": "Untuk hari tambahan atau keluarga dengan anak-anak: Andamanda Waterpark (taman air bertema, RM287 adult / RM247 kid) dan Phuket Aquaria (akuarium, RM237 adult / RM197 kid). Bukan dalam itinerari — add-on own arrangement.",
+    "hi": [
+     "Andamanda Waterpark",
+     "Phuket Aquaria",
+     "Sesuai kanak-kanak"
+    ],
+    "best": "Buka harian 10.30am–7pm.",
+    "muslim": "Ada surau/prayer room di sesetengah mall & attraction besar (cth Central Festival). Bawa pakaian renang sopan untuk waterpark. Makanan di premis — pilih outlet halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Andamanda+Waterpark+Phuket"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (default)",
+    "name": "Ibis Phuket Kata Beach",
+    "note": "Default 3★ ikut katalog. Bilik double/twin standard; triple = extra bed (tertakluk availability).",
+    "emoji": "",
+    "img": ""
+   },
+   {
+    "tier": "3★ (alternatif)",
+    "name": "Tony Resort Patong Beach / Di Pantai Boutique Beach Resort",
+    "note": "Alternatif 3★ atau setaraf, ikut availability.",
+    "emoji": "",
+    "img": ""
+   },
+   {
+    "tier": "4★ (upgrade +RM300/pax)",
+    "name": "The Marina Phuket Hotel",
+    "note": "Pilihan 4★ ikut katalog. Upgrade RM300/pax.",
+    "emoji": "",
+    "img": ""
+   },
+   {
+    "tier": "4★ (alternatif)",
+    "name": "Amata Patong Resort / Best Western Patong Beach",
+    "note": "Alternatif 4★ atau setaraf ikut katalog, tertakluk availability.",
+    "emoji": "",
+    "img": ""
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'><strong>Nota penting:</strong> ini <strong>bukan pakej private tour</strong> — island tour &amp; pengangkutan aktiviti adalah sharing basis (seat-in-coach) bersama pelancong lain. Private transport hanya Hari 1 &amp; Hari 4.</p><p class='ssub'>Kadar katalog 2026 v2 (5 Ogos 2026), per pax · 2–3 orang sebilik · 2–10 pax · ground-only tanpa tiket flight. Child 0–3 tahun FOC. Sah untuk tempoh perjalanan sehingga 31 Disember 2026.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pakej</th><th>Adult</th><th>Child with extra bed (4–11)</th><th>Child without bed (4–11)</th></tr></thead><tbody><tr><td class='it'>Standard 4D3N</td><td class='add'>RM 1,797</td><td>RM 1,597</td><td>RM 1,397</td></tr><tr><td class='it'>Basic 4D3N</td><td class='add'>RM 1,397</td><td>RM 1,197</td><td>RM 997</td></tr></tbody></table></div><p class='ssub'>Upgrade hotel 4★ +RM300/pax · Basic Hari 3 upgrade Phi Phi +RM100/pax · Single supplement: Standard +RM450/pax, Basic quoted upon request. Deposit RM250/pax; full payment 45 hari sebelum berlepas. Harga sah 24 jam selepas quotation dikeluarkan.</p>",
+   "custom": "<h2>Simple Customisation & Add-Ons</h2><p class='ssub'>Harga jualan per pax kecuali dinyatakan. Add-on di pulau = own expenses (cash).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Phuket Aquaria</td><td class='add'>RM 237 adult / RM 197 kid</td><td>Buka 10.30am–7pm</td></tr><tr><td class='it'>Andamanda Waterpark</td><td class='add'>RM 287 adult / RM 247 kid</td><td>Buka 10.30am–7pm</td></tr><tr><td class='it'>Banana Boat (Coral Island)</td><td class='add'>RM 67–87</td><td>Own expenses</td></tr><tr><td class='it'>Parasailing (Coral Island)</td><td class='add'>RM 157–197</td><td>Own expenses</td></tr><tr><td class='it'>Phi Phi (Basic Hari 3)</td><td class='add'>+RM 100</td><td>Upgrade opsyen Basic</td></tr><tr><td class='it'>Pocket Wifi Thailand 3GB (4D3N)</td><td class='add'>RM 80</td><td>RoamingMan</td></tr><tr><td class='it'>Pocket Wifi Thailand 10GB (4D3N)</td><td class='add'>RM 120</td><td>RoamingMan</td></tr><tr><td class='it'>Extra Lunch / Dinner</td><td class='add'>RM 80</td><td>Per pax/meal</td></tr><tr><td class='it'>Takaful TripCare 360 (Individu, 1–5 hari)</td><td class='add'>RM 45</td><td>Couple RM79 · Family RM100</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20–70</td><td>Silver→Diamond</td></tr></tbody></table></div><h3>Rate Card Operasi &mdash; Harga Tambahan / Harga Tolak</h3><p>Kadar rasmi untuk <b>ubah suai pakej</b>. Accommodation dikira <b>per bilik per malam</b>; meal dan day tour dikira <b>per pax</b>. Rate card hanya beri kadar normal &mdash; tiada kadar malam tambahan waktu peak.</p><h4>Accommodation &mdash; per bilik / malam</h4><table class='ctbl'><thead><tr><th>Hotel</th><th>Tambah 1 malam (normal)</th><th>Tolak 1 malam (normal)</th></tr></thead><tbody><tr><td>3&#9733; (hotel default pakej)</td><td class='add'>RM 265</td><td>&minus;RM 150</td></tr><tr><td>4&#9733; (upgrade +RM 300/pax)</td><td class='add'>RM 330</td><td>&minus;RM 150</td></tr></tbody></table><p class='small'>Kadar accommodation adalah <b>per bilik</b>, bukan per pax &mdash; asas katalog 2&ndash;3 orang sebilik. Harga tolak sama untuk 3&#9733; dan 4&#9733;.</p><h4>Day Tour &mdash; per pax</h4><table class='ctbl'><thead><tr><th>Item</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Tolak 1 day tour</td><td>&minus;RM 50</td></tr></tbody></table><p class='small'>Rate card tiada harga tambahan day tour &mdash; day tour tambahan sebut harga ikut operator.</p><h4>Meals &mdash; per pax / hidangan</h4><table class='ctbl'><thead><tr><th>Meal</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th></tr></thead><tbody><tr><td>Breakfast</td><td class='add'>Cadang makan di hotel</td><td>&ndash;</td></tr><tr><td>Lunch</td><td class='add'>RM 80</td><td>&minus;RM 50</td></tr><tr><td>Dinner</td><td class='add'>RM 80</td><td>&minus;RM 50</td></tr></tbody></table><ul><li><b>Lunch</b> sudah termasuk dalam island package &mdash; tolak hanya kalau customer tidak mahu pergi island.</li><li><b>Dinner</b> tidak disediakan dalam pakej. Galakkan customer explore dinner scene sendiri; sebut harga atas permintaan.</li><li><b>Breakfast</b> sudah termasuk dalam semua malam hotel &mdash; tiada harga tolak.</li></ul><p class='src'>Sumber: rate card operasi PT Phuket (Accommodation, Meals, Day Tour) &mdash; tiada dalam katalog.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Kadar katalog 2026 v2 (5 Ogos 2026), per pax, 2&ndash;3 orang sebilik, 2&ndash;10 pax, ground only tanpa tiket flight. Pakej ini <b>bukan private tour</b> &mdash; bot dan pengangkutan aktiviti adalah sharing basis; private transport hanya Hari 1 &amp; Hari 4. Kadar tambah/tolak meal dari rate card operasi PT Phuket (tambah RM 80/pax, tolak RM 50/pax setiap hidangan). Malam tambahan dan tolakan malam pakej dikira <b>per bilik</b> &mdash; tandakan hari itu dalam dropdown Accommodation, kemudian pilih add-on <i>&hellip; per bilik</i> dan isi bilangan bilik.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>Phuket Standard 4D3N &middot; Hotel 3 bintang</option><option value='1'>Phuket Standard 4D3N &middot; Upgrade hotel 4 bintang</option><option value='2'>Phuket Basic 4D3N &middot; Hotel 3 bintang</option><option value='3'>Phuket Basic 4D3N &middot; Upgrade hotel 4 bintang</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child 4&ndash;11 (extra bed)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child 4&ndash;11 (tanpa bed)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Child 0&ndash;3 tahun FOC (ground only).</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Standard +RM 450/pax. <b>Basic: sebut harga atas permintaan</b> &mdash; kalkulator caj RM 0 untuk bilik single Basic, dapatkan kadar dari operasi dahulu.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge & Supplement</h2><p class='ssub'>Kadar dan tarikh ikut katalog 2026 v2 (5 Ogos 2026). Setiap varian ada jadual peak season sendiri.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season — Standard</td><td class='add'>+RM 300/pax</td><td>21 Dis 2026 – 10 Jan 2027</td></tr><tr><td class='it'>Peak Season — Standard</td><td class='add'>+RM 250/pax</td><td>11 Jan 2027 – 30 Apr 2027</td></tr><tr><td class='it'>Peak Season — Basic</td><td class='add'>+RM 250/pax</td><td>11 Jan 2026 – 30 Apr 2026</td></tr><tr><td class='it'>Peak Season — Basic</td><td class='add'>+RM 300/pax</td><td>1 Nov 2026 – 31 Dis 2026</td></tr><tr><td class='it'>Mei – Jun</td><td class='add'>Tiada surcharge</td><td>Kedua-dua varian</td></tr><tr><td class='it'>Upgrade hotel 4★</td><td class='add'>+RM 300/pax</td><td>Kedua-dua varian</td></tr><tr><td class='it'>Upgrade Phi Phi Island (Basic, Hari 3)</td><td class='add'>+RM 100/pax</td><td>Ganti James Bond Island</td></tr><tr><td class='it'>Single supplement — Standard</td><td class='add'>+RM 450/pax</td><td>Bilik single</td></tr><tr><td class='it'>Single supplement — Basic</td><td class='add'>Quoted upon request</td><td>Bilik single</td></tr><tr><td class='it'>Late booking</td><td class='add'>+RM 50/booking</td><td>Tempah kurang 45 hari sebelum berlepas</td></tr><tr><td class='it'>Extra hour transport / guide</td><td class='add'>Ikut kadar operator</td><td>Asas 10 jam sehari; lebihan dibayar tunai di destinasi</td></tr><tr><td class='it'>Extra night 3★ / 4★</td><td class='add'>+RM 265 / +RM 330</td><td>Per malam per bilik. <em>Sumber: rate card ARBA — tiada dalam katalog</em></td></tr></tbody></table></div><p class='ssub'>Rate card Date Surcharge 2026/2027 menyenaraikan ALL PHUKET (4D3N) pada RM300/pax untuk 1 Nov 2026 – 9 Jan 2027 dan 10 Jan – 30 Apr 2027. Untuk quotation, guna jadual katalog di atas.</p>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'><strong>Pakej ini bukan private tour.</strong> Private transport hanya untuk transfer lapangan terbang Hari 1 &amp; Hari 4. Semua island tour &amp; aktiviti menggunakan <strong>sharing transport / seat-in-coach</strong> (boat &amp; van dikongsi dengan pelancong lain). Asas 10 jam/hari — lebihan jam dicaj per jam (bayar tunai).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Airport Transfer (Hari 1 &amp; 4)</td><td class='add'>Termasuk</td><td>Private transport</td></tr><tr><td class='it'>Island tours (Hari 2 &amp; 3)</td><td class='add'>Seat-in-coach</td><td>Speedboat / big boat — sharing dengan pelancong lain</td></tr><tr><td class='it'>Top-up Airport Transfer Van (max 8)</td><td class='add'>RM 150/way</td><td>Private (rate card KTT)</td></tr><tr><td class='it'>Hotel–Resto Tuk Tuk (max 6)</td><td class='add'>RM 120/car/way</td><td>Add-on</td></tr><tr><td class='it'>Full Day Tour Car (2–4 pax)</td><td class='add'>RM 415/car</td><td>Add-on private, asas 8 jam</td></tr><tr><td class='it'>Full Day Tour Van (max 8)</td><td class='add'>RM 450/van</td><td>Add-on private, asas 8 jam</td></tr></tbody></table></div>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>3★ adalah default kedua-dua varian; upgrade 4★ +RM300/pax. Bilik standard double/twin; triple menggunakan extra bed tertakluk availability. Semua termasuk breakfast. Hotel muktamad disahkan sekurang-kurangnya 15 hari sebelum trip.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Tier</th><th>Hotel (atau setaraf)</th></tr></thead><tbody><tr><td class='it'>3★ (default)</td><td>Ibis Phuket Kata Beach · Tony Resort Patong Beach · Di Pantai Boutique Beach Resort</td></tr><tr><td class='it'>4★ (upgrade +RM300/pax)</td><td>The Marina Phuket Hotel · Amata Patong Resort · Best Western Patong Beach</td></tr></tbody></table></div>",
+   "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Perbandingan ringkas dua varian Phuket 4D3N untuk bantu customer pilih.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>STANDARD · 4D3N · SIGHTSEEING · ISLAND TRIP · CITY TOUR</th><th>BASIC · 4D3N · GROUND ONLY</th></tr></thead><tbody><tr><td class='feat'>Tempoh</td><td class='val'>4D3N</td><td class='val'>4D3N</td></tr><tr><td class='feat'>Jenis pengangkutan</td><td class='val'>Sharing basis (seat-in-coach)</td><td class='val'>Sharing basis (seat-in-coach)</td></tr><tr><td class='feat'>Private transport</td><td class='val'>Hari 1 &amp; Hari 4 sahaja</td><td class='val'>Hari 1 &amp; Hari 4 sahaja</td></tr><tr><td class='feat'>Hotel default</td><td class='val'>3★ (upgrade 4★ +RM300/pax)</td><td class='val'>3★ (upgrade 4★ +RM300/pax)</td></tr><tr><td class='feat'>James Bond Island + Sea Canoe</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Pilih 1 pada Hari 3</td></tr><tr><td class='feat'>Phi Phi Island by speedboat</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Pilih 1 pada Hari 3 (+RM100/pax)</td></tr><tr><td class='feat'>Racha &amp; Coral Island</td><td class='val'>Dalam inclusion katalog</td><td class='val'><span class='tick'>✔</span> Hari 2</td></tr><tr><td class='feat'>Phuket City Tour (Hari 4)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>National park &amp; entrance fees</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard 3 Breakfast &amp; 2 Lunch</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Dinner</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Tour guide English + tipping fee</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tiket flight KUL–HKT</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Harga dari (Adult, 2–10 pax)</td><td class='val'>RM 1,797</td><td class='val'>RM 1,397</td></tr><tr><td class='feat'>Child with extra bed (4–11)</td><td class='val'>RM 1,597</td><td class='val'>RM 1,197</td></tr><tr><td class='feat'>Child without bed (4–11)</td><td class='val'>RM 1,397</td><td class='val'>RM 997</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Customer yang mahu semua island tour utama + city tour dalam satu pakej</td><td class='val'>Customer bajet yang cukup dengan satu island tour pilihan</td></tr></tbody></table>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? phuket: std — free upgrade to 4 star hotel kod: fphu (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Phuket:</strong> STD — Free Upgrade to 4 Star Hotel <span class='gchip'>Kod: FPHU</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "flight": "<h2>Flight & Airport</h2><p class='ssub'>Tiket flight <strong>tidak termasuk</strong> dalam kedua-dua pakej (ground only). Cadangan penerbangan terus KUL ⇄ HKT (Phuket International Airport). Waktu pergi dan harga anggaran pergi-balik ikut rate card Flight Recommendation ARBA; waktu balik ikut jadual maskapai semasa. Sahkan waktu tepat semasa tempahan.</p><div class='custblk'><p class='ssub'><strong>Leg pergi — KUL → HKT</strong></p><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Depart KUL</th><th>Tiba HKT</th><th>Type</th><th>Est. round-trip</th><th>Operasi</th></tr></thead><tbody><tr><td class='it'>AirAsia X</td><td>AK 822</td><td>3:00 PM</td><td>3:30 PM</td><td>Low Cost</td><td class='add'>RM 460 – RM 500</td><td>Harian</td></tr><tr><td class='it'>Batik Air</td><td>OD 540</td><td>12:00 PM</td><td>12:30 PM</td><td>Mid Tier</td><td class='add'>RM 580 – RM 600</td><td>Harian</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 794</td><td>12:55 PM</td><td>1:30 PM</td><td>Full Service</td><td class='add'>RM 700 – RM 960</td><td>Harian</td></tr></tbody></table><p class='ssub' style='margin-top:12px'><strong>Leg balik — HKT → KUL</strong></p><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Depart HKT</th><th>Tiba KUL</th><th>Type</th><th>Masa terbang</th><th>Operasi</th></tr></thead><tbody><tr><td class='it'>AirAsia X</td><td>AK 823</td><td>3:40 PM</td><td>6:10 PM</td><td>Low Cost</td><td>1j 30m</td><td>Harian (mulai 25 Okt 2026)</td></tr><tr><td class='it'>Batik Air</td><td>OD 541</td><td>1:15 PM</td><td>3:45 PM</td><td>Mid Tier</td><td>1j 30m</td><td>Harian</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 795</td><td>2:05 PM</td><td>4:40 PM</td><td>Full Service</td><td>1j 35m</td><td>Harian</td></tr></tbody></table></div><p class='ssub'>Katalog cadangkan <strong>tiba selepas 12 tengah hari</strong> pada Hari 1. Standard cadangkan <strong>berlepas selepas 4 petang</strong> pada Hari 4 kerana ada city tour; Basic cadangkan berlepas selepas 12 tengah hari. Masa terbang KUL–HKT lebih kurang 1 jam 30 minit; Phuket UTC+7, satu jam ke belakang dari Malaysia. Terminal antarabangsa HKT ada surau/prayer room dan beberapa outlet makanan; bawa bekalan snek halal jika transit lama.</p>",
+   "map": "<h2>Travel Map</h2><div class='mapcard'><div class='maptitle'>PT Phuket 4H3M — Route Map (Standard &amp; Basic)</div><img src='@asset:1d6b747c4747' alt='Peta laluan PT Phuket 4H3M' loading='lazy'><div class='mapcap'><strong>Standard:</strong> Hari 1 tiba Phuket → Hari 2 James Bond Island (Phang Nga Bay, Panak, Hong, Khao Pinkkan, Khao Tapoo, Naka) → Hari 3 Phi Phi Island (Maya Bay, Loh Sama Bay, Viking Cave, Monkey Bay, Phi Phi Don, Khai Nok, Koh Khai) → Hari 4 Phuket City Tour dan transfer lapangan terbang.<br><strong>Basic:</strong> Hari 1 tiba Phuket → Hari 2 Racha &amp; Coral Island by speedboat → Hari 3 pilih Phi Phi Island atau James Bond Island + canoe → Hari 4 check-out dan transfer lapangan terbang.<br>Hotel di Patong Beach atau Kata Noi. Laluan lalai tertakluk kepada cuaca, musim dan keadaan trafik.</div></div>"
+  },
+  "snapshot": "# Pakej Phuket — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Pakej Phuket 4D3N — 2 varian: **Standard** (island tour + city tour) & **Basic** (pilih 1 island tour). Kedua-dua **ground-only** (tanpa tiket flight).*\n\n**PAKEJ INI BUKAN PAKEJ PRIVATE TOUR.** Semua island tour dan pengangkutan aktiviti adalah **sharing basis / seat-in-coach** — dikongsi dengan pelancong lain. Hanya **transfer lapangan terbang Hari 1 & Hari 4** yang menggunakan private transport. Jangan promosikan sebagai private tour kepada customer.\n\n- Semua harga sah **24 jam** selepas quotation dihantar (kadar operator boleh berubah).\n- Harga untuk **2–3 orang sebilik**. Single Supplement: Standard **+RM450/pax**; Basic **quoted upon request**.\n- **Deposit RM250/pax** semasa confirmation. **Full payment 45 hari** sebelum travel date.\n- **Late Booking Surcharge RM50/booking** jika tempah <45 hari sebelum berlepas.\n- Private transport (Hari 1 & 4) & tour guide asas **10 jam/hari**; jam lebih dicaj (bayar **tunai**). Island tour Hari 2–3 = **sharing basis**, bukan private.\n- **Peak Season (ikut katalog 2026 v2):** Standard — 21 Dis 2026–10 Jan 2027 +RM300/pax · 11 Jan 2027–30 Apr 2027 +RM250/pax. Basic — 11 Jan 2026–30 Apr 2026 +RM250/pax · 1 Nov 2026–31 Dis 2026 +RM300/pax. Mei–Jun tiada surcharge.\n- **Upgrade hotel 4★:** +RM300/pax. Basic upgrade Phi Phi (Hari 3): +RM100/pax.\n- Itinerari & hotel muktamad **15 hari** sebelum trip; itinerari/harga tertakluk perubahan.\n- **TDAC (Thailand Digital Arrival Card) WAJIB** untuk semua pelancong — isi online di tdac.immigration.go.th dalam tempoh **3 hari** sebelum ketibaan (setiap orang termasuk kanak-kanak).\n- Passport sah **minimum 6 bulan** dari tarikh berlepas.\n- Sila semak validity trip dengan staff sebelum booking sebarang connecting domestic flight.\n- **Dinner tidak disediakan** (fullboard = 3 Breakfast & 2 Lunch) — customer bebas explore makan malam.\n- Pakej sah untuk perjalanan hingga **31 Disember 2026**.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Ada berapa pakej Phuket?**\nDua: (1) **Standard 4D3N** — James Bond Island + canoe (Hari 2), Phi Phi Island (Hari 3) + Phuket City Tour (Hari 4); (2) **Basic 4D3N** — Racha & Coral (Hari 2) + pilih SATU tour Hari 3 (Phi Phi +RM100/pax ATAU James Bond + canoe). Kedua-dua **ground-only** dan **bukan private tour** — island tour sharing basis.\n\n**Beza Standard dengan Basic?**\nStandard rasa semua highlight (island tour + Phuket City Tour, RM1,797). Basic lebih murah (RM1,397) tapi pilih 1 tour utama pada Hari 3 dan tiada city tour. Kedua-dua sah sepanjang tahun (tertakluk peak season surcharge).\n\n**Pakej Phuket dah termasuk tiket flight?**\nBelum — ini pakej **ground-only**. Customer boleh book flight sendiri atau minta ARBA quote bundle flight + ground.\n\n**Ini pakej private tour ke?**\n**Bukan.** Pakej Phuket Standard & Basic adalah **sharing basis (seat-in-coach)** — island tour dan pengangkutan aktiviti dikongsi dengan pelancong lain. Hanya transfer lapangan terbang Hari 1 & Hari 4 yang private. Jangan janjikan kepada customer sebagai private tour. Jika customer mahu betul-betul private, minta PO quote pakej private tour berasingan.\n\n**Boleh customize itinerari?**\nTerhad — kerana island tour ikut jadual sharing tour operator, itinerari teras tidak boleh diubah. Yang boleh: tukar/upgrade hotel, tambah malam, dan tambah add-on aktiviti (Big Buddha, Wat Chalong, Andamanda Waterpark, Phuket Aquaria) dengan kos tambahan. Maklum consultant awal; itinerari muktamad 15 hari sebelum trip.\n\n**Berapa lama tour setiap hari?**\nTransport & guide asas 10 jam/hari. Jam lebih dicaj (bayar tunai). Island tour biasanya penuh sehari.\n\n**Island hopping sesuai untuk semua?**\nSesuai untuk kebanyakan orang, TAPI **tidak digalakkan untuk warga emas, wanita mengandung atau yang ada masalah kesihatan** — perjalanan speedboat mencabar & berombak.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Phuket?**\nSangat mudah — Phuket ada komuniti Muslim yang besar. Restoran & gerai halal banyak di **Patong, Phuket Old Town, Kata dan Chalong**. Banzaan Market (Patong) ada gerai halal.\n\n**Lunch dalam island tour halal? (tour sharing)**\nLunch disediakan semasa island tour (Coral Island / Phi Phi Don). ARBA maklum operator awal untuk sediakan pilihan **halal/seafood**. Sahkan dengan consultant semasa booking; bawa snack sebagai backup.\n\n**Kenapa dinner tak included?**\nFullboard pakej = 3 Breakfast + 2 Lunch. Dinner sengaja exclude supaya customer bebas explore makan malam Phuket (halal mudah di Patong & Old Town).\n\n**Macam mana nak solat? Ada masjid/surau?**\nDi pulau (Phi Phi, James Bond, Coral) **tiada masjid** — solat jamak/qasar di bot atau kawasan rehat, bawa sejadah travel & ambil wuduk awal. Di darat: **Masjid Patong (Nanai Road)** & Al-Madani Mosque; ada prayer room di Phuket Airport & Central Festival mall.\n\n**Perlu bawa telekung/sejadah sendiri?**\nSangat digalakkan — bawa telekung & sejadah travel kerana kebanyakan attraction pulau tiada surau.\n\n**Waktu solat sama dengan Malaysia?**\nThailand 1 jam lebih lewat dari Malaysia. Waktu solat lebih kurang sama; ikut jadual tempatan yang guide kongsi.\n\n### C. Visa & Passport\n\n**Perlu visa ke Thailand?**\nTidak. Warganegara Malaysia **bebas visa sehingga 30 hari** (masuk melalui udara) di bawah perjanjian ASEAN.\n\n**Apa itu TDAC & wajib ke?**\nYa, **wajib**. Thailand Digital Arrival Card (TDAC) menggantikan kad kertas TM6. Isi online **percuma** di tdac.immigration.go.th dalam tempoh **3 hari** sebelum ketibaan. **Setiap orang** (termasuk kanak-kanak) perlu satu TDAC. Simpan QR untuk tunjuk di imigresen.\n\n**Passport kena sah berapa lama?**\nMinimum **6 bulan** dari tarikh berlepas, dengan muka surat kosong.\n\n**Bukan warganegara Malaysia macam mana?**\nBergantung kewarganegaraan — sesetengah perlu Visa on Arrival / e-Visa. Semak requirement mengikut passport & tetap perlu isi TDAC.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak — pakej **ground-only**. ARBA boleh bantu quote bundle flight + ground.\n\n**Flight KL ke Phuket macam mana?**\nDirect **KUL–HKT ~1 jam 25–30 minit**. Banyak pilihan harian:\n\n| Airline | Pergi (KUL→HKT) | Balik (HKT→KUL) |\n|---|---|---|\n| AirAsia X | AK 822 · 3:00 PM → 3:30 PM | AK 823 · 3:40 PM → 6:10 PM |\n| Batik Air Malaysia | OD 540 · 12:00 PM → 12:30 PM | OD 541 · 1:15 PM → 3:45 PM |\n| Malaysia Airlines | MH 794 · 12:55 PM → 1:30 PM | MH 795 · 2:05 PM → 4:40 PM |\n\n**Sampai airport mana?**\nPhuket International Airport (**HKT**), di utara pulau (~45 min–1 jam ke Patong). Driver ARBA tunggu di Arrival dengan papan tanda.\n\n**Kena sampai airport berapa awal?**\nSekurang-kurangnya 3 jam sebelum flight antarabangsa.\n\n**Bila patut tiba Hari 1?**\nCadangan tiba **selepas 12 tengah hari**. Standard: berlepas balik cadangan selepas 4pm (ada city tour Hari 4); Basic: selepas 12 tengah hari.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n3★ default: **Ibis Phuket Kata Beach / Tony Resort Patong Beach / Di Pantai Boutique Beach Resort**. 4★ upgrade: **The Marina Phuket Hotel / Amata Patong Resort / Best Western Patong Beach** (+RM300/pax) — atau setaraf ikut availability.\n\n**Boleh upgrade hotel?**\nBoleh — 4★ +RM300/pax. Semua termasuk breakfast.\n\n**Bilik untuk family / triple?**\nStandard double/twin. Triple = extra bed (tertakluk availability). Untuk bilik family proper, maklum consultant awal.\n\n**Single occupancy macam mana?**\nStandard: Single Supplement +RM450/pax. Basic: quoted upon request — minta PO quote.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik ke Phuket?**\n**November–April** (musim kering) — laut tenang, langit cerah, terbaik untuk pantai, snorkel & island hopping. Januari paling kering.\n\n**Musim hujan bila?**\n**May–Oktober** (monsun barat daya). September paling lebat. Island hopping boleh terjejas/dibatalkan jika laut bergelora. Kelebihan: harga & crowd lebih rendah.\n\n**Cuaca panas ke?**\nTropika panas lembap (~27–33°C) sepanjang tahun. Bawa sunblock, topi, cermin mata & raincoat kecil.\n\n### G. Shopping & Duit\n\n**Beli apa di Phuket?**\nProduk cashew nut, mutiara (pearl), gula-gula & snack Thai, souvenir di Old Town, Jungceylon & Banzaan Market (Patong).\n\n**Guna duit apa?**\n**Thai Baht (THB)**. Tukar di money changer Malaysia untuk kadar lebih baik. Kad diterima di kebanyakan tempat, tapi **cash lebih meluas** — banyak gerai & add-on pulau prefer tunai.\n\n**Berapa duit poket dicadangkan?**\n**RM500–RM1,500/pax** bergantung tabiat shopping & optional activities (semua meal utama sudah termasuk kecuali dinner).\n\n### H. Payment & Refund\n\n**Deposit dulu atau bayar penuh?**\nDeposit **RM250/pax** semasa confirmation. Baki (full payment) **45 hari** sebelum travel date.\n\n**Harga sah berapa lama?**\nQuotation sah **24 jam** selepas dihantar.\n\n**Late booking ada surcharge?**\nYa — **RM50/booking** jika tempah <45 hari sebelum berlepas.\n\n### I. Add-ons & Customization\n\n**Ada aktiviti tambahan popular?**\nPhuket Aquaria (RM237 adult/RM197 kid), Andamanda Waterpark (RM287/RM247), Banana Boat (RM67–87), Parasailing (RM157–197). Basic boleh upgrade Phi Phi Hari 3 (+RM100/pax).\n\n**Boleh tambah wifi / insurans / luggage tracker?**\nBoleh — Pocket Wifi RoamingMan (3GB RM80 / 10GB RM120 setrip); Takaful TripCare 360 (Individu RM45 / Couple RM79 / Family RM100); Luggage tracker Blue Ribbon RM20–70.\n\n### J. Kesihatan & Keselamatan\n\n**Selamat bawa anak & warga emas?**\nPhuket selamat & mesra keluarga. TAPI island hopping (speedboat) tidak digalakkan untuk warga emas, wanita mengandung atau yang ada masalah kesihatan — laut boleh bergelora.\n\n**Hati-hati apa di attraction?**\n**Monyet** di sesetengah viewpoint & pulau boleh agresif — jangan beri makan, jaga barang (kamera, cermin mata, beg). Ikut arahan guide semasa snorkel.\n\n**Kalau emergency?**\nGuide standby sepanjang trip; hospital tersedia di Phuket Town. Sangat digalakkan ambil travel insurance/Takaful (add-on).\n\n### K. Praktikal (SIM, Socket, Toilet)\n\n**Internet/SIM di Phuket?**\nSIM tempatan Thailand ada di airport, atau guna **roaming/eSIM**, atau **pocket wifi** RoamingMan (add-on ARBA, RM80–120/trip).\n\n**Plug socket jenis apa?**\nKebanyakan Type A/B/C — soket Thailand terima palam 2-pin flat & round. Bawa universal adaptor. Simpan power bank & charger dalam hand carry.\n\n**Toilet ada paip/hose?**\nKebanyakan toilet ada hose/bidet. Bawa botol spray kecil & tisu untuk keselesaan, terutama di pulau.\n\n### L. Packing / Barang Bawa\n\n**Barang basic untuk trip Phuket? (checklist)**\nPassport (sah ≥6 bulan) + TDAC QR, pakaian ringan menutup aurat, pakaian ibadah (telekung & sejadah travel), baju renang sopan/rashguard untuk snorkel, sunblock kalis air, topi & cermin mata, raincoat kecil, ubat mabuk laut (island hopping berombak), power bank & universal adaptor (hand carry), kasut selesa + selipar, dan duit poket RM500–RM1,500 (tukar THB di Malaysia).\n\n**Snorkeling kena bawa apa?**\nGear snorkel biasanya disediakan tour. Bawa baju renang sopan/rashguard, sunblock kalis air, baju ganti & beg kalis air untuk telefon.\n"
+ },
+ "calc": {
+  "dest": "Phuket",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child 4&ndash;11 (extra bed)",
+   "cnb": "Child 4&ndash;11 (tanpa bed)"
+  },
+  "infantNote": "Child 0&ndash;3 tahun FOC (ground only).",
+  "singleNote": "Standard +RM 450/pax. <b>Basic: sebut harga atas permintaan</b> &mdash; kalkulator caj RM 0 untuk bilik single Basic, dapatkan kadar dari operasi dahulu.",
+  "intro": "Kadar katalog 2026 v2 (5 Ogos 2026), per pax, 2&ndash;3 orang sebilik, 2&ndash;10 pax, ground only tanpa tiket flight. Pakej ini <b>bukan private tour</b> &mdash; bot dan pengangkutan aktiviti adalah sharing basis; private transport hanya Hari 1 &amp; Hari 4. Kadar tambah/tolak meal dari rate card operasi PT Phuket (tambah RM 80/pax, tolak RM 50/pax setiap hidangan). Malam tambahan dan tolakan malam pakej dikira <b>per bilik</b> &mdash; tandakan hari itu dalam dropdown Accommodation, kemudian pilih add-on <i>&hellip; per bilik</i> dan isi bilangan bilik.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "breakfastLabel": "Hotel Breakfast",
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 80,
+   "drop": 50
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "x3"
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel (malam dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "x3",
+    "t": "Malam tambahan 3&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "x4",
+    "t": "Malam tambahan 4&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+    "cost": "incl",
+    "hotel": "4-Star Hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "nodrop",
+    "t": "Tanpa hotel &ndash; tolak malam pakej (isi add-on bilik)",
+    "cost": "zero",
+    "dropsNight": true
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada meal (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "bfLock": true
+   },
+   {
+    "v": "bf",
+    "t": "Breakfast sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch + Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "air",
+    "t": "Private transport (termasuk pakej &mdash; Hari 1 &amp; Hari 4)",
+    "cost": "incl",
+    "lbl": "Private Transport",
+    "incl": "Private Transportation ({days})"
+   },
+   {
+    "v": "shared",
+    "t": "Shared tour transport (termasuk pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Sharing Basis Boat",
+    "incl": "Shared Transport & Island / City Tour Activities ({days})"
+   },
+   {
+    "v": "ppup",
+    "t": "Shared tour + upgrade Phi Phi Basic (+RM 100/pax)",
+    "cost": "incl",
+    "guided": true,
+    "perPax": 100,
+    "lbl": "Sharing Basis Boat",
+    "line": "Phi Phi Island upgrade",
+    "incl": "Phi Phi Islands Tour by Speedboat, shared tour ({days})"
+   },
+   {
+    "v": "fe",
+    "t": "Free &amp; easy (tiada transport)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "dropday",
+    "t": "Tolak 1 day tour dari pakej (tukar meal ke Breakfast sahaja juga)",
+    "cost": "zero",
+    "perPax": -50,
+    "lbl": "-",
+    "line": "1 day tour removed from package"
+   },
+   {
+    "v": "daytour",
+    "t": "Day tour tambahan (sebut harga operasi)",
+    "cost": "day",
+    "lbl": "Sharing Basis Boat",
+    "incl": "Additional Shared Day Tour ({days})"
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "g": "Hari tambahan",
+    "t": "Hari tambahan - free and easy",
+    "en": "FREE AND EASY IN PHUKET",
+    "acc": "x3",
+    "meal": "bf",
+    "trp": "fe",
+    "act": [
+     "Free and easy",
+     "Tiada transport disediakan - own arrangement"
+    ],
+    "eact": [
+     "Free and easy",
+     "Own arrangement"
+    ]
+   },
+   {
+    "v": "extd",
+    "g": "Hari tambahan",
+    "t": "Hari tambahan - day tour (sebut harga operasi)",
+    "en": "ADDITIONAL DAY TOUR IN PHUKET",
+    "acc": "x3",
+    "meal": "l",
+    "trp": "daytour",
+    "act": [
+     "Day tour tambahan - sebut harga operasi"
+    ],
+    "eact": [
+     "Additional day tour"
+    ]
+   },
+   {
+    "v": "city",
+    "g": "Pilihan lain",
+    "t": "Phuket City Tour (day tour)",
+    "en": "PHUKET CITY TOUR",
+    "acc": "incl",
+    "meal": "bf",
+    "trp": "shared",
+    "act": [
+     "Phuket View Point di Kata Noi Beach",
+     "Promthep Cape",
+     "Cashew Nut Factory",
+     "Pearl Jam Factory",
+     "Bee Farm",
+     "Gem Factory",
+     "Bangunan Sino-Portugis Thalang Road",
+     "T-shirt Factory",
+     "Pornthip Sea Store"
+    ],
+    "eact": [
+     "Phuket View Point at Kata Noi Beach",
+     "Promthep Cape",
+     "Cashew Nut Factory",
+     "Pearl Jam Factory",
+     "Bee Farm",
+     "Gem Factory",
+     "Century old Sino-Portuguese building at Thalang Road",
+     "T-shirt Factory",
+     "Pornthip Sea Store"
+    ]
+   },
+   {
+    "v": "racha",
+    "g": "Pilihan lain",
+    "t": "Racha and Coral Island (Speedboat) - day tour",
+    "en": "RACHA AND CORAL ISLAND BY SPEEDBOAT",
+    "acc": "incl",
+    "meal": "l",
+    "trp": "shared",
+    "act": [
+     "Swim and snorkelling",
+     "Racha Island",
+     "Coral Island",
+     "Lunch"
+    ],
+    "eact": [
+     "Swim and snorkelling",
+     "Racha Island",
+     "Coral Island",
+     "Lunch"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Additional night, 3-Star Hotel - per room",
+    265,
+    0,
+    "unit",
+    "Additional night at 3-Star Hotel"
+   ],
+   [
+    "Additional night, 4-Star Hotel - per room",
+    330,
+    0,
+    "unit",
+    "Additional night at 4-Star Hotel"
+   ],
+   [
+    "Package night removed - per room",
+    -150,
+    0,
+    "unit"
+   ],
+   [
+    "Phuket Aquaria entrance ticket",
+    237,
+    197,
+    "pax",
+    "Phuket Aquaria Entrance Ticket"
+   ],
+   [
+    "Andamanda Waterpark entrance ticket",
+    287,
+    247,
+    "pax",
+    "Andamanda Waterpark Entrance Ticket"
+   ]
+  ],
+  "peak": {
+   "mode": "flat",
+   "value": 300,
+   "windows": [
+    [
+     "2026-12-21",
+     "2027-01-10",
+     "std3",
+     300,
+     "Peak Season"
+    ],
+    [
+     "2026-12-21",
+     "2027-01-10",
+     "std4",
+     300,
+     "Peak Season"
+    ],
+    [
+     "2027-01-11",
+     "2027-04-30",
+     "std3",
+     250,
+     "Peak Season"
+    ],
+    [
+     "2027-01-11",
+     "2027-04-30",
+     "std4",
+     250,
+     "Peak Season"
+    ],
+    [
+     "2026-11-01",
+     "2026-12-31",
+     "bsc3",
+     300,
+     "Peak Season"
+    ],
+    [
+     "2026-11-01",
+     "2026-12-31",
+     "bsc4",
+     300,
+     "Peak Season"
+    ],
+    [
+     "2026-01-11",
+     "2026-04-30",
+     "bsc3",
+     250,
+     "Peak Season"
+    ],
+    [
+     "2026-01-11",
+     "2026-04-30",
+     "bsc4",
+     250,
+     "Peak Season"
+    ],
+    [
+     "2027-01-11",
+     "2027-04-30",
+     "bsc3",
+     250,
+     "Peak Season"
+    ],
+    [
+     "2027-01-11",
+     "2027-04-30",
+     "bsc4",
+     250,
+     "Peak Season"
+    ]
+   ]
+  },
+  "ext": {
+   "night": {
+    "normal": 0,
+    "peak": 0
+   },
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    }
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 10
+  },
+  "paxNotes": [
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "Katalog hanya siarkan tier <b>2&ndash;10 pax</b>. 11 pax ke atas: sebut harga operasi sebelum quote."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Prices are quoted for 2 to 3 persons per room; a triple room uses an extra bed subject to availability. Boat and activity transfers are on a sharing basis (seat-in-coach) with other tourists; private transportation applies on Day 1 and the final day only. Private transportation and tour guide are based on a 10 hours basis per day; additional hours are charged by the operator and payable in cash. Peak season surcharge applies as stated and is not included in the base price. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. This package is valid for travel until 31 December 2026; 2027 travel dates are quoted using the 2026 catalogue rate plus the published 2027 peak season surcharge and are subject to reconfirmation. Ground arrangement and tipping only - flight tickets are not included.",
+  "variants": [
+   {
+    "id": "std3",
+    "name": "Phuket Standard 4D3N &middot; Hotel 3 bintang",
+    "pkgLabel": "Phuket Standard",
+    "pkgType": "Group Tour, Ground Arrangement Only (Boat &amp; Activities Sharing Basis)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1797,
+      "c": 1597,
+      "n": 1397
+     }
+    ],
+    "labelCwb": "Child 4-11 with extra bed",
+    "labelCnb": "Child 4-11 without bed",
+    "itin": [
+     {
+      "v": "s1",
+      "t": "KUL - Phuket (Ketibaan)",
+      "en": "KUL - PHUKET ARRIVAL",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Cadangan tiba selepas 12 tengah hari",
+       "Airport pickup - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ],
+      "eact": [
+       "Recommended to arrive after 12pm",
+       "Airport pickup - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ]
+     },
+     {
+      "v": "s2",
+      "t": "James Bond Island + Canoe (Big Boat) - Shared Tour",
+      "en": "JAMES BOND ISLAND + CANOE BY BIG BOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island"
+      ],
+      "eact": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island"
+      ]
+     },
+     {
+      "v": "s3",
+      "t": "Phi Phi Island Tour (Speedboat) - Shared Tour",
+      "en": "PHI PHI ISLAND TOUR BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ],
+      "eact": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ]
+     },
+     {
+      "v": "s4",
+      "t": "Phuket City Tour - KUL",
+      "en": "PHUKET CITY TOUR - KUL",
+      "acc": "none",
+      "meal": "bf",
+      "trp": "air",
+      "act": [
+       "Check out hotel",
+       "Phuket View Point di Kata Noi Beach",
+       "Sightseeing di Promthep Cape",
+       "Cashew Nut Factory dan shopping produk tempatan",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Bangunan Sino-Portugis Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store",
+       "Transfer ke Phuket Airport (cadangan berlepas selepas 4pm)"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Phuket View Point at Kata Noi Beach",
+       "Sightseeing at Promthep Cape",
+       "Cashew Nut Factory and local product shopping",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Century old Sino-Portuguese building at Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store",
+       "Transfer back to Phuket Airport (recommended to depart after 4pm)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} Nights Accommodation (3-Star Hotel)",
+     "{auto}",
+     "National Park Fees & Entrance Fees",
+     "Tour Guide (English Speaking)",
+     "Tipping Fee"
+    ],
+    "exclusions": [
+     "International Flight Ticket",
+     "In-Flight Meal",
+     "Additional Tours & Meals",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Anything not mentioned in the Price Included list"
+    ],
+    "single": 450
+   },
+   {
+    "id": "std4",
+    "name": "Phuket Standard 4D3N &middot; Upgrade hotel 4 bintang",
+    "pkgLabel": "Phuket Standard",
+    "pkgType": "Group Tour, Ground Arrangement Only (Boat &amp; Activities Sharing Basis)",
+    "hotelLabel": "4-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 2097,
+      "c": 1897,
+      "n": 1697
+     }
+    ],
+    "labelCwb": "Child 4-11 with extra bed",
+    "labelCnb": "Child 4-11 without bed",
+    "itin": [
+     {
+      "v": "s1",
+      "t": "KUL - Phuket (Ketibaan)",
+      "en": "KUL - PHUKET ARRIVAL",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Cadangan tiba selepas 12 tengah hari",
+       "Airport pickup - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ],
+      "eact": [
+       "Recommended to arrive after 12pm",
+       "Airport pickup - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ]
+     },
+     {
+      "v": "s2",
+      "t": "James Bond Island + Canoe (Big Boat) - Shared Tour",
+      "en": "JAMES BOND ISLAND + CANOE BY BIG BOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island"
+      ],
+      "eact": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island"
+      ]
+     },
+     {
+      "v": "s3",
+      "t": "Phi Phi Island Tour (Speedboat) - Shared Tour",
+      "en": "PHI PHI ISLAND TOUR BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ],
+      "eact": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ]
+     },
+     {
+      "v": "s4",
+      "t": "Phuket City Tour - KUL",
+      "en": "PHUKET CITY TOUR - KUL",
+      "acc": "none",
+      "meal": "bf",
+      "trp": "air",
+      "act": [
+       "Check out hotel",
+       "Phuket View Point di Kata Noi Beach",
+       "Sightseeing di Promthep Cape",
+       "Cashew Nut Factory dan shopping produk tempatan",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Bangunan Sino-Portugis Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store",
+       "Transfer ke Phuket Airport (cadangan berlepas selepas 4pm)"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Phuket View Point at Kata Noi Beach",
+       "Sightseeing at Promthep Cape",
+       "Cashew Nut Factory and local product shopping",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Century old Sino-Portuguese building at Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store",
+       "Transfer back to Phuket Airport (recommended to depart after 4pm)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} Nights Accommodation (4-Star Hotel)",
+     "{auto}",
+     "National Park Fees & Entrance Fees",
+     "Tour Guide (English Speaking)",
+     "Tipping Fee"
+    ],
+    "exclusions": [
+     "International Flight Ticket",
+     "In-Flight Meal",
+     "Additional Tours & Meals",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Anything not mentioned in the Price Included list"
+    ],
+    "single": 450
+   },
+   {
+    "id": "bsc3",
+    "name": "Phuket Basic 4D3N &middot; Hotel 3 bintang",
+    "pkgLabel": "Phuket Basic",
+    "pkgType": "Group Tour, Ground Arrangement Only (Boat &amp; Activities Sharing Basis)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1397,
+      "c": 1197,
+      "n": 997
+     }
+    ],
+    "labelCwb": "Child 4-11 with extra bed",
+    "labelCnb": "Child 4-11 without bed",
+    "itin": [
+     {
+      "v": "b1",
+      "t": "KUL - Phuket (Ketibaan)",
+      "en": "KUL - PHUKET ARRIVAL",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Cadangan tiba selepas 12 tengah hari",
+       "Airport transfer - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ],
+      "eact": [
+       "Recommended to arrive after 12pm",
+       "Airport transfer - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ]
+     },
+     {
+      "v": "b2",
+      "t": "Racha and Coral Island (Speedboat) - Shared Tour",
+      "en": "RACHA AND CORAL ISLAND BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ]
+     },
+     {
+      "v": "b3jb",
+      "t": "Hari 3 OPSYEN B: James Bond Island + Canoe (Big Boat)",
+      "en": "JAMES BOND ISLAND + CANOE BY BIG BOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island",
+       "Lunch"
+      ]
+     },
+     {
+      "v": "b4",
+      "t": "Phuket - KUL (Berlepas)",
+      "en": "PHUKET - KUL DEPARTURE",
+      "acc": "none",
+      "meal": "bf",
+      "trp": "air",
+      "act": [
+       "Check out hotel",
+       "Airport transfer - private transport",
+       "Cadangan berlepas selepas 12 tengah hari"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer - private transport",
+       "Recommended to depart after 12pm"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} Nights Accommodation (3-Star Hotel)",
+     "{auto}",
+     "National Park Fees & Entrance Fees",
+     "Tour Guide (English Speaking)",
+     "Tipping Fee"
+    ],
+    "exclusions": [
+     "International Flight Ticket",
+     "In-Flight Meal",
+     "Additional Tours & Meals",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Anything not mentioned in the Price Included list"
+    ],
+    "library": [
+     {
+      "v": "b3pp",
+      "g": "Basic - pilihan Hari 3",
+      "t": "Hari 3 OPSYEN A: Phi Phi Island (Speedboat) +RM 100/pax",
+      "en": "PHI PHI ISLAND TOUR BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "ppup",
+      "act": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ],
+      "eact": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ]
+     },
+     {
+      "v": "ext",
+      "g": "Hari tambahan",
+      "t": "Hari tambahan - free and easy",
+      "en": "FREE AND EASY IN PHUKET",
+      "acc": "x3",
+      "meal": "bf",
+      "trp": "fe",
+      "act": [
+       "Free and easy",
+       "Tiada transport disediakan - own arrangement"
+      ],
+      "eact": [
+       "Free and easy",
+       "Own arrangement"
+      ]
+     },
+     {
+      "v": "extd",
+      "g": "Hari tambahan",
+      "t": "Hari tambahan - day tour (sebut harga operasi)",
+      "en": "ADDITIONAL DAY TOUR IN PHUKET",
+      "acc": "x3",
+      "meal": "l",
+      "trp": "daytour",
+      "act": [
+       "Day tour tambahan - sebut harga operasi"
+      ],
+      "eact": [
+       "Additional day tour"
+      ]
+     },
+     {
+      "v": "city",
+      "g": "Pilihan lain",
+      "t": "Phuket City Tour (day tour)",
+      "en": "PHUKET CITY TOUR",
+      "acc": "incl",
+      "meal": "bf",
+      "trp": "shared",
+      "act": [
+       "Phuket View Point di Kata Noi Beach",
+       "Promthep Cape",
+       "Cashew Nut Factory",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Bangunan Sino-Portugis Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store"
+      ],
+      "eact": [
+       "Phuket View Point at Kata Noi Beach",
+       "Promthep Cape",
+       "Cashew Nut Factory",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Century old Sino-Portuguese building at Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store"
+      ]
+     },
+     {
+      "v": "racha",
+      "g": "Pilihan lain",
+      "t": "Racha and Coral Island (Speedboat) - day tour",
+      "en": "RACHA AND CORAL ISLAND BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "bsc4",
+    "name": "Phuket Basic 4D3N &middot; Upgrade hotel 4 bintang",
+    "pkgLabel": "Phuket Basic",
+    "pkgType": "Group Tour, Ground Arrangement Only (Boat &amp; Activities Sharing Basis)",
+    "hotelLabel": "4-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 10,
+      "a": 1697,
+      "c": 1497,
+      "n": 1297
+     }
+    ],
+    "labelCwb": "Child 4-11 with extra bed",
+    "labelCnb": "Child 4-11 without bed",
+    "itin": [
+     {
+      "v": "b1",
+      "t": "KUL - Phuket (Ketibaan)",
+      "en": "KUL - PHUKET ARRIVAL",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "air",
+      "act": [
+       "Cadangan tiba selepas 12 tengah hari",
+       "Airport transfer - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ],
+      "eact": [
+       "Recommended to arrive after 12pm",
+       "Airport transfer - private transport",
+       "Check in hotel",
+       "Free and easy"
+      ]
+     },
+     {
+      "v": "b2",
+      "t": "Racha and Coral Island (Speedboat) - Shared Tour",
+      "en": "RACHA AND CORAL ISLAND BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ]
+     },
+     {
+      "v": "b3jb",
+      "t": "Hari 3 OPSYEN B: James Bond Island + Canoe (Big Boat)",
+      "en": "JAMES BOND ISLAND + CANOE BY BIG BOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Phang Nga Bay",
+       "Panak Island (canoe)",
+       "Hong Island (canoe)",
+       "Khao Pinkkan",
+       "Khao Tapoo (James Bond Island)",
+       "Naka Island",
+       "Lunch"
+      ]
+     },
+     {
+      "v": "b4",
+      "t": "Phuket - KUL (Berlepas)",
+      "en": "PHUKET - KUL DEPARTURE",
+      "acc": "none",
+      "meal": "bf",
+      "trp": "air",
+      "act": [
+       "Check out hotel",
+       "Airport transfer - private transport",
+       "Cadangan berlepas selepas 12 tengah hari"
+      ],
+      "eact": [
+       "Check out hotel",
+       "Airport transfer - private transport",
+       "Recommended to depart after 12pm"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} Nights Accommodation (4-Star Hotel)",
+     "{auto}",
+     "National Park Fees & Entrance Fees",
+     "Tour Guide (English Speaking)",
+     "Tipping Fee"
+    ],
+    "exclusions": [
+     "International Flight Ticket",
+     "In-Flight Meal",
+     "Additional Tours & Meals",
+     "Personal Expenses",
+     "Travel Insurance"
+    ],
+    "exclusionsTail": [
+     "Anything not mentioned in the Price Included list"
+    ],
+    "library": [
+     {
+      "v": "b3pp",
+      "g": "Basic - pilihan Hari 3",
+      "t": "Hari 3 OPSYEN A: Phi Phi Island (Speedboat) +RM 100/pax",
+      "en": "PHI PHI ISLAND TOUR BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "ppup",
+      "act": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ],
+      "eact": [
+       "Phi Phi Ley Island by speedboat",
+       "Snorkeling and sightseeing pass Maya Bay",
+       "Loh Sama Bay",
+       "Piley Cove, Viking Cave",
+       "Monkey Bay",
+       "Phi Phi Don (lunch)",
+       "Khai Nok Island",
+       "Koh Khai Island"
+      ]
+     },
+     {
+      "v": "ext",
+      "g": "Hari tambahan",
+      "t": "Hari tambahan - free and easy",
+      "en": "FREE AND EASY IN PHUKET",
+      "acc": "x3",
+      "meal": "bf",
+      "trp": "fe",
+      "act": [
+       "Free and easy",
+       "Tiada transport disediakan - own arrangement"
+      ],
+      "eact": [
+       "Free and easy",
+       "Own arrangement"
+      ]
+     },
+     {
+      "v": "extd",
+      "g": "Hari tambahan",
+      "t": "Hari tambahan - day tour (sebut harga operasi)",
+      "en": "ADDITIONAL DAY TOUR IN PHUKET",
+      "acc": "x3",
+      "meal": "l",
+      "trp": "daytour",
+      "act": [
+       "Day tour tambahan - sebut harga operasi"
+      ],
+      "eact": [
+       "Additional day tour"
+      ]
+     },
+     {
+      "v": "city",
+      "g": "Pilihan lain",
+      "t": "Phuket City Tour (day tour)",
+      "en": "PHUKET CITY TOUR",
+      "acc": "incl",
+      "meal": "bf",
+      "trp": "shared",
+      "act": [
+       "Phuket View Point di Kata Noi Beach",
+       "Promthep Cape",
+       "Cashew Nut Factory",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Bangunan Sino-Portugis Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store"
+      ],
+      "eact": [
+       "Phuket View Point at Kata Noi Beach",
+       "Promthep Cape",
+       "Cashew Nut Factory",
+       "Pearl Jam Factory",
+       "Bee Farm",
+       "Gem Factory",
+       "Century old Sino-Portuguese building at Thalang Road",
+       "T-shirt Factory",
+       "Pornthip Sea Store"
+      ]
+     },
+     {
+      "v": "racha",
+      "g": "Pilihan lain",
+      "t": "Racha and Coral Island (Speedboat) - day tour",
+      "en": "RACHA AND CORAL ISLAND BY SPEEDBOAT",
+      "acc": "incl",
+      "meal": "l",
+      "trp": "shared",
+      "act": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ],
+      "eact": [
+       "Swim and snorkelling",
+       "Racha Island",
+       "Coral Island",
+       "Lunch"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

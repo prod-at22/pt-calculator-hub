@@ -1,0 +1,1583 @@
+{
+ "slug": "phu-quoc",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Phu Quoc — Knowledge Base",
+   "brandTag": "PHU QUOC KB",
+   "kicker": "ARBA PHU QUOC · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Phu Quoc — halal & solat, flight, hotel, cable car, harga, cuaca & tips.",
+   "searchPlaceholder": "cth: perlu visa? · ada masjid di Phu Quoc? · cable car tutup bila hujan?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Phu Quoc…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Phu Quoc",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC &mdash; dijana daripada katalog PT PHU QUOC 4D3N &amp; 5D4N 2026 V3 (11 Mac 2026), ProdReq PQC, Tripdoc, Travel Map, Flight Recommendation, FAQ Vietnam &amp; Date Surcharge 2026/2027. <b>Katalog adalah source of truth.</b> Last updated: 3 September 2026.<br>Harga, itinerari &amp; jadual flight boleh berubah. Requirement muslim-friendly (halal, solat, kemudahan wanita) adalah baseline setiap pakej &mdash; ambil perhatian tiada masjid awam di pulau Phu Quoc.",
+   "marketing": {
+    "anchors": [
+     "Hon Thom Cable Car (7,899.9 m — terpanjang di dunia merentas laut)",
+     "VinWonders Phu Quoc (theme park + aquarium)",
+     "VinPearl Safari (+ buggy)",
+     "Grand World (Venice of Vietnam)",
+     "Sanato Beach & Kiss Bridge (sunset)"
+    ],
+    "usp": "USP: Semua entrance fee (Cable Car, VinWonders, Safari + buggy, Grand World, Aquatopia, Teddy Bear) + tipping sudah termasuk · Fullboard halal · Muslim driving guide (Melayu/English) · Tiada peak season surcharge — boleh travel sepanjang tahun · Direct flight AirAsia KUL–PQC ~1j50m.",
+    "season": [
+     [
+      "Nov–Apr",
+      "Musim kering — laut tenang, view cable car & sunset terbaik. Waktu paling sesuai."
+     ],
+     [
+      "Mei–Okt",
+      "Musim hujan/berkabus (paling kerap Jun–Sep). Baju hujan disediakan; cable car jarang tutup kecuali angin kuat/taufan."
+     ],
+     [
+      "Mac",
+      "Bulan paling panas & kering — sangat sesuai theme park & pantai, bawa sunblock."
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan di VinWonders & VinPearl Safari — kasut sport wajib (buggy termasuk untuk Safari).",
+     "Restoran halal terhad di Phu Quoc — operator guna restoran halal/Muslim yang sama, hidangan berbeza setiap hari.",
+     "TIADA masjid awam di pulau Phu Quoc — solat di bilik hotel / dijamak; masjid terdekat di Rach Gia (tanah besar). Guide (Muslim) aturkan ruang solat di restoran halal yang digunakan.",
+     "Bukan destinasi shopping seperti Ho Chi Minh — fokus theme park, pantai & keluarga.",
+     "Cable car merentas laut 7.9km ~15 minit sehala — pastikan travel insurance meliputi aktiviti ketinggian.",
+     "Anak bawah 100cm masuk VinWonders percuma (Fairy Land, Animal Farm, Mini Ferris Wheel, Carousel, Aquarium)."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Phu Quoc 4D3N",
+    "tag": "Phu Quoc · 4D3N",
+    "sub": "Cable car, theme park & pantai — padat dalam 4 hari",
+    "emoji": "🚡",
+    "img": "@asset:781ab1f5e16b",
+    "intro": "Pakej Private Tour 4 hari 3 malam untuk keluarga & pasangan yang mahu rasa semua highlight Phu Quoc — kereta kabel merentas laut terpanjang di dunia, VinWonders, VinPearl Safari, Grand World dan Aquatopia — dalam masa singkat. Fullboard (3B/3L/3D), Muslim driving guide, tipping & semua entrance fee sudah termasuk. Hotel 3-Star di Sunset Town (Selatan).",
+    "inc": [
+     "3 malam hotel 3-Star (Rova / Phung Hung atau setaraf)",
+     "Pengangkutan persendirian (private transport)",
+     "Muslim driving guide (Melayu/English)",
+     "Fullboard: 3 Breakfast, 3 Lunch, 3 Dinner (halal)",
+     "Entrance: Hon Thom Cable Car, Aquatopia, VinPearl Safari (+buggy), Grand World, VinWonders, Teddy Bear Museum",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik, luggage, in-flight meal & airport tax",
+     "Additional tours & meals di luar itinerari",
+     "Perbelanjaan peribadi",
+     "Travel insurance (disyorkan — meliputi cable car & adventure)"
+    ],
+    "note": "Harga 2@3 orang sebilik. Single supplement +RM240/pax. Deposit RM250/pax; baki 45 hari sebelum berlepas."
+   },
+   {
+    "n": "PT Phu Quoc 5D4N",
+    "tag": "Phu Quoc · 5D4N",
+    "sub": "Sama highlight + hari ekstra santai & Tranh Stream",
+    "emoji": "🏝️",
+    "img": "@asset:5fdade874276",
+    "intro": "Versi 5 hari 4 malam — semua highlight 4D3N tetapi lebih relaks dengan hari tambahan: VinPearl Safari + Tranh Stream diasingkan ke hari sendiri, plus lebih masa di Sanato Beach & Grand World. Sesuai untuk keluarga besar atau yang tak mahu itinerari terlalu padat. Fullboard 4B/4L/4D.",
+    "inc": [
+     "4 malam hotel 3-Star (Rova / Phung Hung atau setaraf)",
+     "Pengangkutan persendirian (private transport)",
+     "Muslim tour guide (Melayu/English)",
+     "Fullboard: 4 Breakfast, 4 Lunch, 4 Dinner (halal)",
+     "Entrance: Hon Thom Cable Car, Aquatopia, VinPearl Safari (+buggy), Grand World, VinWonders, Teddy Bear Museum + Ngoc Hien Pearl Farm & Sanato Beach",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik, luggage, in-flight meal & airport tax",
+     "Additional tours & meals di luar itinerari",
+     "Perbelanjaan peribadi",
+     "Travel insurance (disyorkan — meliputi cable car & adventure)"
+    ],
+    "note": "Harga 2@3 orang sebilik. Single supplement +RM320/pax. Deposit RM250/pax; baki 45 hari sebelum berlepas."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Arrival + Phu Quoc Tour",
+     "m": "L / D",
+     "a": [
+      "Tiba di Phu Quoc International Airport (cadangan tiba 2pm atau awal), airport pick-up",
+      "Lunch",
+      "Sanato Beach (sunset & seni instalasi)",
+      "Night Market",
+      "Dinner",
+      "Check-in hotel"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Phu Quoc Tour (Utara)",
+     "m": "B / L / D",
+     "a": [
+      "Grand World (Venice of Vietnam)",
+      "Teddy Bear Museum",
+      "VinPearl Safari (termasuk buggy)",
+      "VinWonders — Aquarium (Mermaid show), Roller Coaster & Ferris Wheel, Water Park",
+      "Night Market & Dinner"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Phu Quoc Tour (Selatan)",
+     "m": "B / L / D",
+     "a": [
+      "Hon Thom Cable Car (merentas laut terpanjang di dunia)",
+      "Aquatopia — water slides, roller coaster & Eagle Eye Tower",
+      "Ngoc Hien Pearl Farm (mutiara)",
+      "Kiss Bridge",
+      "Free & easy malam (cadangan: Kiss of the Sea Show / night market)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Free & Easy — Return KL",
+     "m": "B",
+     "a": [
+      "Free & easy (cadangan berlepas 2pm ke atas)",
+      "Transfer ke Phu Quoc International Airport"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Arrival — Phu Quoc",
+     "m": "L / D",
+     "a": [
+      "Tiba di Phu Quoc International Airport (cadangan tiba 2pm atau awal), airport pick-up",
+      "Lunch",
+      "Pantai Long Beach (sunset)",
+      "Check-in hotel",
+      "Night Market & Dinner"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Phu Quoc Tour",
+     "m": "B / L / D",
+     "a": [
+      "Grand World (Venice of Vietnam)",
+      "Teddy Bear Museum",
+      "VinWonders (salah satu theme park terbesar di Vietnam) + Aquarium",
+      "Night Market & Dinner"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Phu Quoc Tour",
+     "m": "B / L / D",
+     "a": [
+      "VinPearl Safari (taman konservasi semi-wild + buggy)",
+      "Tranh Stream",
+      "Lunch",
+      "Sanato Beach (sunset & seni)",
+      "Dinner"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Phu Quoc Tour",
+     "m": "B / L / D",
+     "a": [
+      "Hon Thom Cable Car (merentas laut terpanjang di dunia)",
+      "Aquatopia — water slides, roller coaster & Eagle Eye Tower",
+      "Kiss Bridge (sunset)",
+      "Dinner"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Free & Easy — Departure",
+     "m": "B",
+     "a": [
+      "Free & easy (cadangan berlepas 2pm ke atas)",
+      "Transfer ke Phu Quoc International Airport"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Hon Thom Cable Car",
+    "t": "Anchor · Cable Car",
+    "emoji": "🚡",
+    "img": "@asset:781ab1f5e16b",
+    "short": "Kereta kabel merentas laut terpanjang di dunia (7.9km)",
+    "intro": "Rekod dunia Guinness untuk kereta kabel 3-kabel terpanjang — 7,899.9 meter merentasi laut dari Sunset Town ke Pulau Hon Thom. Perjalanan ~15 minit sehala, kabin tertutup & berhawa dingin, pemandangan pulau, kapal nelayan & laut biru. Tiket sudah termasuk dalam pakej.",
+    "hi": [
+     "Rekod dunia — 7,899.9 m merentas laut",
+     "Kabin tertutup, ~15 minit sehala",
+     "Pemandangan panorama pulau & kapal nelayan",
+     "Sambung terus ke Aquatopia di Hon Thom",
+     "Tiket termasuk dalam pakej"
+    ],
+    "best": "Musim kering Nov–Apr, laut tenang & view paling jelas. Waktu operasi Sun World ~9:00 pagi–5:00 petang (masa peak dilanjutkan); ada rehat teknikal berkala — guide susun masa naik.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Tiada surau awam di stesen Sunset Town / Hon Thom — guide akan aturkan ruang solat; jangan janji \"ada surau\". Cable car boleh ditutup masa angin kuat/taufan (jarang) — jika jadual berubah, solat boleh dijamak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hon+Thom+Cable+Car+Phu+Quoc"
+   },
+   {
+    "n": "VinWonders Phu Quoc",
+    "t": "Anchor · Theme Park",
+    "emoji": "🎢",
+    "img": "@asset:64abf59812f8",
+    "short": "Salah satu theme park terbesar di Vietnam",
+    "intro": "Taman tema gergasi dengan roller coaster, Ferris wheel, water park dan aquarium (Mermaid show). Ada zon khas untuk kanak-kanak. Entrance termasuk dalam pakej.",
+    "hi": [
+     "Aquarium & Mermaid show",
+     "Roller coaster & Ferris wheel",
+     "Water park",
+     "Fairy Land & Animal Farm untuk anak <100cm (masuk percuma)"
+    ],
+    "best": "Datang awal pagi — banyak berjalan, elak panas tengah hari. Harga pintu masuk rasmi (rujukan sahaja, sudah termasuk pakej): dewasa 140cm+ 950,000 VND · 100–140cm & warga emas 60+ 710,000 VND.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Makanan halal terhad di dalam park; operator susun set halal / makan di restoran Muslim di luar. Water park: pakaian renang muslimah/bertutup disyorkan, bilik tukar tersedia.",
+    "map": "https://www.google.com/maps/search/?api=1&query=VinWonders+Phu+Quoc"
+   },
+   {
+    "n": "VinPearl Safari",
+    "t": "Wildlife · Safari",
+    "emoji": "🦁",
+    "img": "@asset:b0f52f665dea",
+    "short": "Taman safari semi-wild + buggy",
+    "intro": "Taman konservasi haiwan semi-wild — naik buggy melalui zon haiwan bebas. Termasuk buggy dalam pakej. Banyak berjalan; sesuai untuk keluarga.",
+    "hi": [
+     "Safari haiwan semi-wild",
+     "Buggy termasuk",
+     "Show haiwan & burung",
+     "Mesra kanak-kanak"
+    ],
+    "best": "Sesi pagi — haiwan lebih aktif & cuaca lebih nyaman.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Makan halal diuruskan guide di luar park. Banyak berjalan — kasut selesa; buggy termasuk dalam pakej.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vinpearl+Safari+Phu+Quoc"
+   },
+   {
+    "n": "Grand World",
+    "t": "Attraction · Venice",
+    "emoji": "🎡",
+    "img": "@asset:e92bd4bb40c3",
+    "short": "\"Venice of Vietnam\" — kanal, gondola & show",
+    "intro": "Kompleks hiburan bertema Venice dengan kanal, water taxi gondola, seni bina Eropah & persembahan Kiss of the Sea. Tempat berjalan santai & bergambar. Entrance termasuk; water taxi optional (add-on).",
+    "hi": [
+     "Kanal ala-Venice & water taxi gondola",
+     "Kiss of the Sea Show (waktu malam)",
+     "Seni bina & spot foto",
+     "Kedai & kafe"
+    ],
+    "best": "Waktu petang ke malam — lampu & show paling cantik.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Pilihan makanan halal di dalam terhad — guide bantu. Water taxi (gondola) RM50/pax optional (",
+    "map": "https://www.google.com/maps/search/?api=1&query=Grand+World+Phu+Quoc"
+   },
+   {
+    "n": "Aquatopia Water Park",
+    "t": "Water Park",
+    "emoji": "🌊",
+    "img": "@asset:e94fc81407d7",
+    "short": "Taman air di Pulau Hon Thom",
+    "intro": "Taman air besar di Hon Thom (sambungan cable car) — water slides, roller coaster & Eagle Eye Tower. Termasuk dalam pakej.",
+    "hi": [
+     "Water slides pelbagai",
+     "Roller coaster & Eagle Eye Tower",
+     "Berhampiran cable car Hon Thom"
+    ],
+    "best": "Tengah hari — waktu paling seronok main air.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Pakaian renang muslimah/bertutup disyorkan (swimsuit wajib untuk water slides); bilik tukar & tandas tersedia. Bawa pakaian ganti. Jika customer tak mahu masuk water park, tiket Aquatopia non-refundable — boleh bersiar di kawasan sekitar.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Aquatopia+Water+Park+Hon+Thom+Phu+Quoc"
+   },
+   {
+    "n": "Sanato Beach",
+    "t": "Beach · Sunset",
+    "emoji": "🏖️",
+    "img": "@asset:9129f410edbd",
+    "short": "Pantai sunset dengan seni instalasi",
+    "intro": "Pantai konsep dengan seni instalasi & sunset yang cantik — tempat santai untuk bergambar & menikmati senja. Antara anchor pakej.",
+    "hi": [
+     "Sunset & seni instalasi",
+     "Spot foto Instagram",
+     "Suasana santai"
+    ],
+    "best": "Waktu senja (sunset) untuk pemandangan terbaik.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Kawasan pantai terbuka — tiada surau. Pakaian sopan disyorkan. Biasanya 30 minit–1 jam di sini (tunggu night market buka).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sanato+Beach+Phu+Quoc"
+   },
+   {
+    "n": "Kiss Bridge (Cau Hon)",
+    "t": "Landmark · Sunset",
+    "emoji": "💋",
+    "img": "@asset:1643ca56f912",
+    "short": "Dua jambatan hampir bersentuh — simbol cinta",
+    "intro": "Jambatan ikonik rekaan Marco Casamonti di Sunset Town — dua hujung hampir bersentuh melambangkan ciuman. Antara spot sunset paling popular di Phu Quoc.",
+    "hi": [
+     "Seni bina unik & spot foto",
+     "Sunset viewing",
+     "Berhampiran Kiss of the Sea Show"
+    ],
+    "best": "Waktu sunset — latar langit paling cantik.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Kawasan terbuka di Sunset Town; tiada surau disahkan. Solat dijamak di hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kiss+Bridge+Sunset+Town+Phu+Quoc"
+   },
+   {
+    "n": "Teddy Bear Museum",
+    "t": "Museum · Family",
+    "emoji": "🧸",
+    "img": "@asset:815c572c7d76",
+    "short": "Muzium teddy bear yang hidup & ceria",
+    "intro": "Muzium tema teddy bear dengan diorama & spot foto yang comel — disukai kanak-kanak & keluarga. Entrance termasuk dalam pakej.",
+    "hi": [
+     "Diorama teddy bear pelbagai tema",
+     "Spot foto keluarga",
+     "Sesuai untuk anak-anak"
+    ],
+    "best": "Bila-bila masa — dalam bangunan berhawa dingin.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Dalam bangunan berhawa dingin; tiada isu makanan. Solat dijamak di hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Teddy+Bear+Museum+Phu+Quoc"
+   },
+   {
+    "n": "Ngoc Hien Pearl Farm",
+    "t": "Shopping · Mutiara",
+    "emoji": "🦪",
+    "img": "",
+    "short": "Ladang mutiara — beli-belah cenderahati",
+    "intro": "Ladang mutiara terkenal Phu Quoc — lihat proses penghasilan mutiara & beli barang kemas mutiara asli. Perhentian dalam itinerari 4D3N.",
+    "hi": [
+     "Proses penghasilan mutiara",
+     "Barang kemas mutiara asli",
+     "Cenderahati"
+    ],
+    "best": "Waktu tengah hari, selepas aktiviti pantai/cable car.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Kedai/ladang — tiada isu makanan. Guide tunjuk arah kiblat; solat dijamak di hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ngoc+Hien+Pearl+Farm+Phu+Quoc"
+   },
+   {
+    "n": "Tranh Stream",
+    "t": "Nature · 5D4N",
+    "emoji": "💧",
+    "img": "",
+    "short": "Anak sungai & hutan — hanya dalam pakej 5D4N",
+    "intro": "Suoi Tranh — anak sungai berbatu dalam kawasan hutan Phu Quoc, laluan berjalan pendek yang santai & sejuk. Hanya termasuk dalam itinerari 5D4N (Day 3, digabung dengan VinPearl Safari).",
+    "hi": [
+     "Laluan hutan pendek & santai",
+     "Air jernih & batu-batan",
+     "Sesuai selepas Safari",
+     "Hanya dalam pakej 5D4N"
+    ],
+    "best": "Pagi/tengah hari selepas Safari. Aliran air paling menarik dalam musim hujan (Jun–Sep); boleh kering musim kering.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Kawasan hutan terbuka — tiada surau. Pakaian sopan & kasut bertutup (laluan basah/berbatu).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tranh+Stream+Suoi+Tranh+Phu+Quoc"
+   },
+   {
+    "n": "Kiss of the Sea Show",
+    "t": "Show · Optional",
+    "emoji": "🎆",
+    "img": "",
+    "short": "Show multimedia atas laut di Sunset Town (optional)",
+    "intro": "Persembahan multimedia bertaraf antarabangsa di pentas atas laut, Sunset Town — air, cahaya, laser & bunga api, ~30 minit. TIDAK termasuk dalam pakej; harga pintu rasmi ~950,000 VND/pax (",
+    "hi": [
+     "Pentas atas laut + bunga api",
+     "~30 minit, biasanya sekitar 9:00 malam",
+     "Anak bawah 1m biasanya free",
+     "Optional — bukan inclusion pakej"
+    ],
+    "best": "Malam (sekitar 9:00 malam) — sahkan showtime semasa kerana jadual berubah ikut hari/musim.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip). Kawasan terbuka; solat Maghrib+Isyak dijamak sebelum keluar. Pilihan makanan halal di Sunset Town terhad — makan dinner dahulu dengan guide.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kiss+of+the+Sea+Sunset+Town+Phu+Quoc"
+   },
+   {
+    "n": "Night Market Phu Quoc",
+    "t": "Night · Duong Dong",
+    "emoji": "🏮",
+    "img": "",
+    "short": "Pasar malam Duong Dong — cenderahati & suasana",
+    "intro": "Pasar malam utama di Duong Dong — gerai cenderahati, lada hitam Phu Quoc, mutiara, kraf tangan & makanan tempatan. Perhentian malam dalam itinerari (Day 1 & Day 2). Biasanya ~1 jam.",
+    "hi": [
+     "Lada hitam Phu Quoc & mutiara",
+     "Kraf tangan tempatan",
+     "Suasana malam & bergambar",
+     "Biasanya ~1 jam dalam itinerari"
+    ],
+    "best": "Selepas dinner (petang–malam). Tutup lebih awal / gerai kurang masa hujan lebat.",
+    "muslim": "Tiada masjid awam di pulau Phu Quoc (masjid terdekat: Rach Gia, tanah besar ~1 jam feri). Solat Zohor+Asar / Maghrib+Isyak dijamak di hotel atau di restoran halal yang diuruskan guide. Bawa sejadah, telekung & botol kecil (tandas di Phu Quoc tiada getah paip).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Phu+Quoc+Night+Market+Duong+Dong"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (default)",
+    "name": "Rova Hotel / Phung Hung Hotel Phu Quoc",
+    "note": "Termasuk dalam pakej · sarapan setiap hari · keutamaan berdekatan city centre / Sunset Town (Selatan). Susunan hotel muktamad 14 hari sebelum trip.",
+    "emoji": "🏨",
+    "img": "@asset:f69a88249afc"
+   },
+   {
+    "tier": "4★ (upgrade)",
+    "name": "Muong Thanh Luxury / Marina Seaside Boutique Phu Quoc",
+    "note": "Tambah RM140/pax/malam (4D3N +RM420 · 5D4N +RM560). Laundry service hotel ada (tiada self-service).",
+    "emoji": "🏩",
+    "img": "@asset:a358a8e956cb"
+   },
+   {
+    "tier": "Special (Utara)",
+    "name": "Kawasan Grand World Hotel",
+    "note": "Pilihan lokasi Utara Phu Quoc (berdekatan Grand World) · +RM50/pax atas permintaan. Katalog hanya ada tier 3★ dan 4★.",
+    "emoji": "🏙️",
+    "img": "@asset:e92bd4bb40c3"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar <b>katalog</b> per pax (RM), 2@3 orang sebilik, hotel 3&#9733; fullboard, ground + tipping. Sah untuk travel hingga 31 Dis 2026. Sumber: katalog PT Phu Quoc 4D3N / 5D4N V3 (11 Mac 2026). Harga katalog <b>ialah harga customer</b> &mdash; TC quote terus dari jadual ini.</p><div class='custblk'><h3>PT Phu Quoc 4D3N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9thn+)</th><th>Child w/ Bed (6&ndash;8)</th><th>Child no Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2&ndash;3</td><td class='add'>RM 2,597</td><td>RM 2,397</td><td>RM 2,197</td></tr><tr><td class='it'>4</td><td class='add'>RM 2,437</td><td>RM 2,237</td><td>RM 2,037</td></tr><tr><td class='it'>5&ndash;6</td><td class='add'>RM 2,257</td><td>RM 2,057</td><td>RM 1,857</td></tr><tr><td class='it'>7&ndash;8</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>9&ndash;10</td><td class='add'>RM 1,967</td><td>RM 1,767</td><td>RM 1,567</td></tr><tr><td class='it'>11&ndash;15</td><td class='add'>RM 1,857</td><td>RM 1,657</td><td>RM 1,457</td></tr><tr><td class='it'>16&ndash;20</td><td class='add'>RM 1,737</td><td>RM 1,537</td><td>RM 1,337</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 thn): FOC. Child w/ Bed = Adult &minus; RM200; Child no Bed = Adult &minus; RM400. Untuk <b>21 pax dan ke atas</b>, katalog tidak ada tier &mdash; minta quote khas dari operator.</p></div><div class='custblk'><h3>PT Phu Quoc 5D4N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9thn+)</th><th>Child w/ Bed (6&ndash;8)</th><th>Child no Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2&ndash;3</td><td class='add'>RM 3,077</td><td>RM 2,877</td><td>RM 2,677</td></tr><tr><td class='it'>4</td><td class='add'>RM 2,867</td><td>RM 2,667</td><td>RM 2,467</td></tr><tr><td class='it'>5&ndash;6</td><td class='add'>RM 2,677</td><td>RM 2,477</td><td>RM 2,277</td></tr><tr><td class='it'>7&ndash;8</td><td class='add'>RM 2,567</td><td>RM 2,367</td><td>RM 2,167</td></tr><tr><td class='it'>9&ndash;10</td><td class='add'>RM 2,297</td><td>RM 2,097</td><td>RM 1,897</td></tr><tr><td class='it'>11&ndash;13</td><td class='add'>RM 2,177</td><td>RM 1,977</td><td>RM 1,777</td></tr><tr><td class='it'>14&ndash;16</td><td class='add'>RM 2,147</td><td>RM 1,947</td><td>RM 1,747</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 thn): FOC. Untuk <b>17 pax dan ke atas</b>, katalog tidak ada tier &mdash; minta quote khas dari operator.</p></div><div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li><b>Minimum 2 pax</b> &mdash; jadual katalog bermula pada tier 2&#8211;3 pax.</li><li><b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun, termasuk cuti sekolah &amp; musim raya.</li><li>Harga termasuk semua entrance fee (Hon Thom Cable Car, Vinpearl Safari, Grand World, VinWonders, Teddy Bear Museum) + tipping + fullboard.</li><li>Umur dikira ikut <b>tarikh perjalanan</b>. Harga sah 24 jam selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant, jangan guna angka destinasi lain.</li></ul></div>",
+   "custom": "<h2>Simple Customisation (Add-ons)</h2><p class='ssub'>Semua harga <b>jualan</b> (RM), dari <b>Rate Card Simple Customisation Phu Quoc</b>. Lajur Peak dalam rate card kosong &mdash; Phu Quoc tiada peak season, jadi kadar sama sepanjang tahun. Sahkan availability dengan operator sebelum confirm kepada customer.</p><div class='custblk'><h3>Accommodation &mdash; per pax per malam</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade 3 bintang &rarr; 4 bintang</td><td class='add'>+RM 140</td><td>&mdash;</td><td>Muong Thanh Luxury Phu Quoc / Marina Seaside Boutique. Per pax, per malam yang di-upgrade &mdash; bukan sekali per trip</td></tr><tr><td class='it'>Hotel 3 bintang (kelas pakej)</td><td class='add'>+RM 100</td><td class='ded'>&minus;RM 50</td><td>Rova Hotel / Phung Hung Hotel, Sunset Town. Kadar inilah yang dipakai bila TC tambah atau buang satu malam</td></tr><tr><td class='it'>Hotel 4 bintang</td><td class='add'>+RM 240</td><td class='ded'>&minus;RM 120</td><td>Lajur tolak hanya berkenaan kalau malam itu memang sudah di-upgrade 4 bintang</td></tr><tr><td class='it'>Hotel 5 bintang</td><td class='add'>+RM 320</td><td>&mdash;</td><td><b>Malam tambahan sahaja.</b> Rate card tiada kadar upgrade 3 bintang &rarr; 5 bintang, jadi pakej 5 bintang belum boleh diquote &mdash; rujuk PO</td></tr><tr><td class='it'>Hotel kawasan Grand World (Utara)</td><td class='add'>+RM 50 / pax</td><td>&mdash;</td><td>Sekali per pax, bukan per malam. Atas permintaan, ganti hotel default di Sunset Town</td></tr></tbody></table></div><div class='custblk'><h3>Meals &mdash; per pax per hidangan</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 hidangan</th><th>Tolak 1 hidangan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>&mdash;</td><td>&mdash;</td><td>Breakfast datang bersama bilik hotel &mdash; tiada kadar tambah, dan <b>tidak boleh ditolak</b></td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 30</td><td class='ded'>&minus;RM 20</td><td>Per pax, per hidangan</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 30</td><td class='ded'>&minus;RM 20</td><td>Per pax, per hidangan</td></tr></tbody></table></div><div class='notebox'><b>Jangan campur dua perkara ini.</b> Kadar <i>Tolak 1 hidangan</i> (&minus;RM 20) ialah untuk membuang hidangan itu daripada pakej semasa quote. Ia bukan refund: kalau hidangan sudah termasuk dalam harga dan customer pilih untuk tidak makan semasa trip, <b>tiada refund</b> &mdash; itu yang katalog nyatakan.</div><div class='custblk'><h3>Aktiviti &mdash; add on dan exclude</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Add on</th><th>Exclude</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Water Taxi (gondola Grand World)</td><td class='add'>+RM 50</td><td>&mdash;</td><td>Per pax, per ride. Katalog senaraikan sebagai contoh aktiviti optional yang dibayar customer</td></tr><tr><td class='it'>Teddy Bear Museum</td><td>&mdash;</td><td class='ded'>&minus;RM 20</td><td>Sudah termasuk dalam pakej &mdash; lajur Exclude ialah kadar tolak kalau customer tak mahu</td></tr><tr><td class='it'>VinWonders Theme Park</td><td>&mdash;</td><td class='ded'>&minus;RM 100</td><td>Sudah termasuk dalam pakej</td></tr><tr><td class='it'>Hon Thom Cable Car + Aquatopia</td><td>&mdash;</td><td class='ded'>&minus;RM 110</td><td>Sudah termasuk dalam pakej. Satu kadar untuk kedua-duanya, bukan berasingan</td></tr><tr><td class='it'>VinPearl Safari + buggy</td><td>&mdash;</td><td class='ded'>&minus;RM 250</td><td>Sudah termasuk dalam pakej</td></tr><tr><td class='it'>Honeymoon Bedroom Decoration</td><td class='add'>+RM 250</td><td>&mdash;</td><td>Per pasangan</td></tr><tr><td class='it'>Honeymoon Candle Light Dinner</td><td class='add'>+RM 250</td><td>&mdash;</td><td>Per pasangan</td></tr><tr><td class='it'>Kiss of the Sea Show</td><td>&mdash;</td><td>&mdash;</td><td>Bayar sendiri di lokasi. Optional, Sunset Town, ~30 minit sekitar 9:00 malam, harga pintu ~950,000 VND/pax &mdash; tiada harga jualan ARBA</td></tr></tbody></table></div><div class='notebox'><b>Kadar transport hari tambahan tiada dalam rate card.</b> Rate card hanya ada accommodation, meals dan aktiviti. Jadi bila TC tambah hari dalam Simple Calculator, baris hari itu akan bertanda <i>kadar belum diisi</i> untuk transport &mdash; minta harga operator dahulu, jangan anggap RM 0.</div><div class='custblk'><h3>Wifi, SIM &amp; takaful</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket Wifi 3GB 4G (RoamingMan) &mdash; 4D3N</td><td class='add'>RM 80</td><td>Per trip</td></tr><tr><td class='it'>Pocket Wifi 3GB 4G (RoamingMan) &mdash; 5D4N</td><td class='add'>RM 175</td><td>Per trip</td></tr><tr><td class='it'>Local SIM Card Unlimited</td><td class='add'>RM 30</td><td>Order awal dengan guide (beli di airport RM60&#8211;80)</td></tr><tr><td class='it'>Takaful Etiqa TripCare 360 &mdash; Individu</td><td class='add'>RM 45 (1&#8211;5 hari)<br>RM 62 (6&#8211;10 hari)</td><td>Vietnam = Area 1 (ASEAN)</td></tr><tr><td class='it'>Takaful &mdash; Couple</td><td class='add'>RM 79 / RM 112</td><td>Area 1</td></tr><tr><td class='it'>Takaful &mdash; Family</td><td class='add'>RM 100 / RM 141</td><td>Area 1</td></tr><tr><td class='it'>Takaful &mdash; Senior</td><td class='add'>RM 130 / RM 186</td><td>Area 1</td></tr><tr><td class='it'>Luggage Tracker Blue Ribbon</td><td class='add'>RM 20 / 40 / 55 / 70</td><td>Silver &rarr; Gold &rarr; Platinum &rarr; Diamond</td></tr></tbody></table></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Kadar accommodation, meal dan aktiviti mengikut <b>Rate Card Simple Customisation Phu Quoc</b>. <b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027). CNY 2026 (16&ndash;22 Feb 2026) masih boleh booking, tetapi kedai souvenir banyak tutup &mdash; set expectation customer. <b>Perhatian:</b> rate card tiada kadar transport untuk hari tambahan, jadi hari tambahan akan bertanda <i>kadar belum diisi</i> &mdash; minta harga operator.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Phu Quoc 4D3N (3-Star Fullboard)</option><option value='1'>PT Phu Quoc 5D4N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge &amp; Blackout</h2><p class='ssub'>Semua angka ikut katalog masing-masing (V3, 11 Mac 2026). Perhatikan <b>last-minute surcharge berbeza</b> antara dua varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>4D3N</th><th>5D4N</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season Surcharge</td><td class='ded'>RM 0</td><td class='ded'>RM 0</td><td>Tiada &mdash; boleh travel sepanjang tahun</td></tr><tr><td class='it'>Single Supplement</td><td>Atas permintaan</td><td>Atas permintaan</td><td>Katalog: <i>quoted upon request</i> &mdash; minta quote consultant</td></tr><tr><td class='it'>Hotel upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>+RM 140/pax/malam<br>(3 malam = +RM 420)</td><td class='add'>+RM 140/pax/malam<br>(4 malam = +RM 560)</td><td>Muong Thanh Luxury / Marina Seaside Boutique</td></tr><tr><td class='it'>Hotel kawasan Grand World (Utara)</td><td class='add'>+RM 50/pax</td><td class='add'>+RM 50/pax</td><td>Atas permintaan (rate card ARBA)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td class='add'>+RM 50/booking</td><td>Tempah &lt;45 hari sebelum berlepas</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>2 pax: +RM 300/pax<br>3 pax&#43;: +RM 200/pax</td><td class='add'>2 pax: +RM 400/pax<br>3 pax&#43;: +RM 300/pax</td><td>Kadar 4D3N lebih rendah &mdash; jangan guna kadar 5D4N</td></tr><tr><td class='it'>Travel 2027 (1 Jan &ndash; 30 Jun 2027)</td><td class='add'>+RM 100/pax</td><td class='add'>+RM 100/pax</td><td>Add-on di atas harga katalog (Date Surcharge 2026/2027)</td></tr></tbody></table></div><div class='custblk'><h3>Blackout &amp; check-availability</h3><table class='ctbl'><thead><tr><th>Tarikh</th><th>Status</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>CNY 2027 &mdash; 17&#8211;18 Feb 2027</td><td class='ded'>Blackout</td><td>Satu-satunya blackout dalam katalog V3 &mdash; tidak boleh booking</td></tr><tr><td class='it'>CNY 2026 &mdash; 16&#8211;22 Feb 2026</td><td class='add'>Boleh booking</td><td>Bukan blackout dalam katalog V3. Attraction utama buka; kedai souvenir &amp; banyak gerai tutup &mdash; set expectation customer</td></tr><tr><td class='it'>Raya Aidilfitri &middot; Raya Haji &middot; New Year &middot; Christmas</td><td>Check availability</td><td>Tiada caj tetap &mdash; semak availability dengan operator sebelum quote</td></tr></tbody></table></div><details class='qa' data-text='polisi harga lain yang perlu disebut awal semua harga sah 24 jam selepas quotation dihantar. deposit rm250/pax ; full payment 45 hari sebelum berlepas. itinerari, flight &amp; harga tertakluk perubahan (cuaca, keadaan laut, trafik, keselamatan). susunan hotel &amp; itinerari muktamad 14 hari sebelum trip. meals sudah termasuk — tiada refund jika customer pilih untuk tidak makan, dan tiada kadar potong meal . aktiviti/entrance yang tidak disertai tidak boleh ditukar dengan aktiviti lain, voucher atau tunai (cth: tiket aquatopia non-refundable). semak validity trip dengan staff sebelum booking connecting flight domestik.'><summary><span class='tw'>&#9654;</span><span>Polisi harga lain yang perlu disebut awal</span></summary><div class='ans'><ul><li>Semua harga sah <strong>24 jam</strong> selepas quotation dihantar.</li><li><strong>Deposit RM250/pax</strong>; full payment <strong>45 hari</strong> sebelum berlepas.</li><li>Itinerari, flight &amp; harga tertakluk perubahan (cuaca, keadaan laut, trafik, keselamatan).</li><li>Susunan hotel &amp; itinerari muktamad <strong>14 hari</strong> sebelum trip.</li><li>Meals sudah termasuk &mdash; <strong>tiada refund</strong> jika customer pilih untuk tidak makan, dan <strong>tiada kadar potong meal</strong>.</li><li>Aktiviti/entrance yang tidak disertai <strong>tidak boleh</strong> ditukar dengan aktiviti lain, voucher atau tunai (cth: tiket Aquatopia non-refundable).</li><li>Semak validity trip dengan staff sebelum booking connecting flight domestik.</li></ul></div></details>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub'>Private transport sepanjang trip + airport transfer (sudah termasuk dalam pakej). <b>Muslim driving guide</b> (Melayu/English) ikut katalog; group besar dapat tour guide berasingan.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Guide</th></tr></thead><tbody><tr><td class='it'>2&ndash;7</td><td>Van persendirian</td><td>Muslim driving guide</td></tr><tr><td class='it'>8&ndash;16</td><td>Mini bus</td><td>Muslim driving guide</td></tr><tr><td class='it'>17&ndash;30</td><td>Big bus</td><td>Muslim tour guide</td></tr></tbody></table><p class='custnote'>Katalog: bawa <b>maksimum 1 luggage per pax</b> &mdash; kapasiti kenderaan terhad. Minimum 2 pax (jadual harga katalog bermula 2&#8211;3 pax).</p></div><details class='qa' data-text='nota operasi transport &amp; guide airport transfer pqc (dua hala) sudah termasuk — airport ke kawasan hotel sekitar 10–20 minit. guide/driver fleksibel masa — katalog tidak menetapkan had jam harian, jadi tiada caj jam lebih untuk phu quoc. jarak dalam pulau pendek; hari paling panjang ialah hari hon thom (cable car + aquatopia). sarankan customer bawa power bank sendiri (hand carry, ≤100wh) — port charger dalam kenderaan tidak dijamin. aktiviti optional (cth water taxi) dibayar terus di lokasi atau ditempah awal melalui consultant.'><summary><span class='tw'>&#9654;</span><span>Nota operasi transport &amp; guide</span></summary><div class='ans'><ul><li>Airport transfer PQC (dua hala) sudah termasuk &mdash; airport ke kawasan hotel sekitar 10&#8211;20 minit.</li><li>Guide/driver fleksibel masa &mdash; katalog tidak menetapkan had jam harian, jadi tiada caj jam lebih untuk Phu Quoc.</li><li>Jarak dalam pulau pendek; hari paling panjang ialah hari Hon Thom (cable car + Aquatopia).</li><li>Sarankan customer bawa power bank sendiri (hand carry, &le;100Wh) &mdash; port charger dalam kenderaan tidak dijamin.</li><li>Aktiviti optional (cth water taxi) dibayar terus di lokasi atau ditempah awal melalui consultant.</li></ul></div></details>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel 3&#9733; default (Rova / Phung Hung atau setaraf) di kawasan city centre / Sunset Town, Selatan Phu Quoc. Sarapan setiap hari, 2&ndash;3 orang sebilik (bilik triple = extra bed). Upgrade 4&#9733; +RM140/pax/malam. Susunan hotel muktamad 14 hari sebelum trip. Laundry service hotel ada (tiada self-service); sabun &amp; syampu disediakan.</p>",
+   "compare": "<h2>Perbezaan Pakej — 4D3N vs 5D4N</h2><p class='ssub'>Kedua-dua varian kongsi highlight yang sama; 5D4N tambah hari santai + Tranh Stream.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>PT PHU QUOC 4D3N</th><th>PT PHU QUOC 5D4N</th></tr></thead><tbody><tr><td class='feat'>Bilangan malam</td><td class='val'>3 malam</td><td class='val'>4 malam</td></tr><tr><td class='feat'>Hotel (3★ default · upgrade 4★)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard meals</td><td class='val'>3B / 3L / 3D</td><td class='val'>4B / 4L / 4D</td></tr><tr><td class='feat'>Airport transfer + private transport</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Muslim driving guide</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hon Thom Cable Car</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>VinWonders</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>VinPearl Safari (+ buggy)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Grand World</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Aquatopia</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Teddy Bear Museum</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Sanato Beach &amp; Kiss Bridge</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Ngoc Hien Pearl Farm</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tranh Stream</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hari santai / free &amp; easy</td><td class='val'>Sikit</td><td class='val'>Lebih relaks</td></tr><tr><td class='feat'>Tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Harga dari (2 pax)</td><td class='val'>RM 2,597</td><td class='val'>RM 3,077</td></tr><tr><td class='feat'>Harga dari (6 pax)</td><td class='val'>RM 2,257</td><td class='val'>RM 2,677</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM 240</td><td class='val'>+RM 320</td></tr></tbody></table><p class='custnote'>4D3N padat &amp; menjimatkan; 5D4N sesuai keluarga besar / yang mahu itinerari lebih santai.</p>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub'>Tiket <b>tidak termasuk</b> pakej &mdash; customer beli sendiri. AirAsia satu-satunya direct KUL &#8596; PQC (&plusmn;1 jam 50 minit). Beza masa: Phu Quoc GMT+7, satu jam lewat dari Malaysia. Harga anggaran adalah <b>round-trip</b> per pax.</p><div class='custblk'><h3>Return flight KUL &#8596; Phu Quoc (PQC)</h3><table class='ctbl'><thead><tr><th>Leg</th><th>Airline</th><th>Flight</th><th>Rute</th><th>Waktu</th><th>Hari</th><th>Anggaran return (RM)</th></tr></thead><tbody><tr><td class='it'>Pergi</td><td>AirAsia</td><td>AK 545</td><td>KUL &rarr; PQC</td><td>12:50 &ndash; 13:35</td><td>Harian</td><td class='add' rowspan='2'>RM 660 &ndash; 1,000</td></tr><tr><td class='it'>Balik</td><td>AirAsia</td><td>AK 546</td><td>PQC &rarr; KUL</td><td>14:05 &ndash; 16:33</td><td>Harian</td></tr></tbody></table><p class='custnote'>AK 545 dari Flight Recommendation (ARBA); AK 546 dari jadual penerbangan awam AirAsia. Pasangan ini <b>padan dengan syor katalog</b>: tiba PQC sebelum 2pm hari pertama, berlepas 2pm ke atas hari akhir. AirAsia ada 2&#8211;3 flight sehari &mdash; jika customer pilih flight lain, pastikan masih dalam window katalog.</p></div><div class='custblk'><h3>Waktu flight yang disyorkan katalog</h3><table class='ctbl'><thead><tr><th>Leg</th><th>Syor katalog</th><th>Sebab</th></tr></thead><tbody><tr><td class='it'>Ketibaan Day 1</td><td class='add'>2:00 petang atau lebih awal</td><td>Day 1 ada lunch + Sanato/Long Beach sunset + night market</td></tr><tr><td class='it'>Berlepas hari akhir</td><td class='add'>2:00 petang atau lebih lewat</td><td>Hari akhir free &amp; easy sebelum transfer ke airport</td></tr></tbody></table></div><div class='custblk'><h3>Airport &amp; bagasi</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Bagasi AirAsia</td><td>Check-in 20kg (maks 2 beg/pax, satu beg tidak melebihi 30kg) &middot; Hand carry 7kg (1 handbag + 1 cabin bag)</td></tr><tr><td class='it'>Share allowance</td><td>Boleh dikongsi dalam keluarga (3 pax = 60kg); had 2 beg per pax kekal</td></tr><tr><td class='it'>Katalog</td><td>Bawa <b>maksimum 1 luggage per pax</b> &mdash; kapasiti kenderaan private</td></tr><tr><td class='it'>Powerbank</td><td>Maksimum 100Wh (~20,000mAh) &mdash; <b>hand carry sahaja</b>, tidak boleh check-in</td></tr><tr><td class='it'>Cecair &amp; barang tajam</td><td>Cecair &gt;100ml dan barang tajam (gunting, pencukur, pemotong kuku) mesti check-in</td></tr><tr><td class='it'>Arrival card</td><td><b>Vietnam tiada arrival card</b> &mdash; tiada borang online sebelum berlepas</td></tr><tr><td class='it'>Seat</td><td>Untuk PT, customer beli tiket sendiri &mdash; seat selection diuruskan sendiri melalui AirAsia. Sarankan pilih seat awal untuk keluarga dengan anak kecil atau warga emas</td></tr><tr><td class='it'>Di KLIA2</td><td>Tiba <b>3 jam</b> sebelum berlepas; berada di boarding gate sekurang-kurangnya 1 jam 15 minit sebelum berlepas</td></tr><tr><td class='it'>Dokumen</td><td>Tour Voucher (softcopy memadai, 1 per family) + Covernote Insurance. Passport sah minimum 6 bulan, 2 muka surat kosong</td></tr></tbody></table></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' open data-text='free gift untuk campaign atau promo? phu quoc: water taxi experience in grand world kod: fpqc2 (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Phu Quoc:</strong> Water Taxi Experience in Grand World <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FPQC2</span> <span style='font-size:12px;color:#6b6b6b'>(All pax)</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p><strong>Disclaimer:</strong> <span style='color:var(--greend)'>Sila sahkan dengan PO jika di luar waktu Promo.</span></p></div></details>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub'>Fullboard: semua breakfast (hotel) + lunch &amp; dinner di restoran halal yang diuruskan guide. Katalog: <b>Muslim driving guide</b>. Pilihan restoran halal di Phu Quoc <b>terhad</b> &mdash; operator guna restoran halal/Muslim yang sama dengan hidangan berbeza setiap hari. Nyatakan ini awal kepada customer.</p><div class='custblk'><h3>Menu biasa (rujukan TC)</h3><table class='ctbl'><thead><tr><th>Waktu</th><th>Hidangan</th></tr></thead><tbody><tr><td class='it'>Breakfast (hotel)</td><td>Nasi lemak, mee goreng mamak, bihun goreng, nasi goreng, kuetiau goreng, sup daging Vietnam, roti canai</td></tr><tr><td class='it'>Lunch &amp; Dinner</td><td>Set menu: nasi putih, sup, ayam, sayur, telur goreng, ikan &amp; buah-buahan</td></tr></tbody></table><p class='custnote'>Restoran halal yang dipilih terletak berhampiran hotel &amp; kawasan kegemaran rakyat Malaysia. Meals termasuk dalam pakej &mdash; tiada refund jika customer tidak makan.</p></div><details class='qa' data-text='makanan di dalam theme park &amp; night market pilihan halal di dalam vinwonders / vinpearl safari / grand world adalah sangat terhad — guide susun set halal atau makan di luar park. jangan janji “ada gerai halal dalam park”. night market duong dong: banyak gerai bukan halal (makanan laut bercampur, arak dijual). nasihatkan customer makan set dinner halal dahulu, kemudian beli barang bukan makanan di pasar malam. vietnam tiada sistem sertifikasi halal yang standard — kesahihan bergantung pada senarai restoran operator. untuk customer yang sangat strict, nyatakan perkara ini awal. boleh bawa sambal/snack dari malaysia, tetapi biasanya tidak perlu. letak semua makanan &amp; ubat dalam satu beg berlabel jelas. makanan bayi boleh dibawa dalam cabin (pek asal + label). air panas untuk bancuh susu boleh diminta dari kru penerbangan.'><summary><span class='tw'>&#9654;</span><span>Makanan di dalam theme park &amp; night market</span></summary><div class='ans'><ul><li>Pilihan halal di dalam VinWonders / VinPearl Safari / Grand World adalah <b>sangat terhad</b> &mdash; guide susun set halal atau makan di luar park. Jangan janji &ldquo;ada gerai halal dalam park&rdquo;.</li><li>Night market Duong Dong: banyak gerai <b>bukan halal</b> (makanan laut bercampur, arak dijual). Nasihatkan customer makan set dinner halal dahulu, kemudian beli barang bukan makanan di pasar malam.</li><li>Vietnam tiada sistem sertifikasi halal yang standard &mdash; kesahihan bergantung pada senarai restoran operator. Untuk customer yang sangat strict, nyatakan perkara ini awal.</li><li>Boleh bawa sambal/snack dari Malaysia, tetapi biasanya tidak perlu. Letak semua makanan &amp; ubat dalam satu beg berlabel jelas.</li><li>Makanan bayi boleh dibawa dalam cabin (pek asal + label). Air panas untuk bancuh susu boleh diminta dari kru penerbangan.</li></ul></div></details><details class='qa' data-text='solat — fakta penting untuk set expectation tiada masjid awam di pulau phu quoc. masjid terdekat di rach gia (tanah besar), kira-kira 1 jam dengan feri. ini fakta yang mesti disebut awal kepada customer. zohor + asar dan maghrib + isyak boleh dijamak di hotel . semasa tour, guide (muslim) akan aturkan ruang solat di restoran halal yang digunakan. jangan janji “ada surau” di theme park atau kompleks attraction. wajib bawa telekung, sejadah kecil dan botol kecil/spray untuk wudhu — tandas di phu quoc tiada getah paip.'><summary><span class='tw'>&#9654;</span><span>Solat &mdash; fakta penting untuk set expectation</span></summary><div class='ans'><ul><li><b>Tiada masjid awam di pulau Phu Quoc.</b> Masjid terdekat di Rach Gia (tanah besar), kira-kira 1 jam dengan feri. Ini fakta yang mesti disebut awal kepada customer.</li><li>Zohor + Asar dan Maghrib + Isyak boleh <b>dijamak di hotel</b>.</li><li>Semasa tour, guide (Muslim) akan aturkan ruang solat di restoran halal yang digunakan. <b>Jangan janji &ldquo;ada surau&rdquo;</b> di theme park atau kompleks attraction.</li><li>Wajib bawa telekung, sejadah kecil dan botol kecil/spray untuk wudhu &mdash; tandas di Phu Quoc tiada getah paip.</li></ul></div></details>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi PT Phu Quoc (4H3M &amp; 5H4M) — default itinerary. Susunan boleh berubah ikut cuaca, musim, keadaan laut &amp; trafik tanpa notis terlebih dahulu.</p><div class='custblk' style='max-width:470px;margin:0 auto 20px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Phu Quoc — Travel Map (4H3M + 5H4M)</div><img src='@asset:6e5c6bb8288a' alt='Route Map PT Phu Quoc' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>PQC &#8594; Sanato Beach / Long Beach (Day 1, 10 min dari airport) &#8594; Phu Quoc Utara: Grand World / VinWonders / VinPearl Safari (Day 2, ~30 min) &#8594; Sunset Town &amp; Hon Thom Cable Car (Day 3/4, ~1 jam dari Utara) &#8594; PQC.</div></div>",
+   "trippix": "<h2>Gambar Trip Lepas</h2><p class='ssub'>Gambar sebenar dari trip PT Phu Quoc terdahulu &mdash; rujukan visual untuk TC semasa jawab soalan customer. Untuk poster, katalog atau iklan berbayar, dapatkan kelulusan marketing dahulu (consent peserta dalam gambar).</p><details class='qa' open data-text='anchor attractions (6 gambar) group di sanato beach — seni instalasi gajah &amp; sunset seni instalasi muka batu di sanato beach grand world — seni bina ala-venice pintu masuk vinwonders (istana &amp; ferris wheel) group di pintu masuk vinpearl safari water taxi (gondola) di kanal grand world — add-on rm50/pax guna gambar ini untuk set expectation: sanato beach ialah pantai konsep (seni instalasi + sunset), bukan pantai snorkeling; grand world &amp; vinwonders adalah kawasan berjalan yang luas.'><summary><span class='tw'>&#9654;</span><span>Anchor attractions (6 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:cc5f8e00f959\" alt=\"Group di Sanato Beach — seni instalasi gajah & sunset\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Group di Sanato Beach — seni instalasi gajah & sunset</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:dd714f3ecf65\" alt=\"Seni instalasi muka batu di Sanato Beach\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Seni instalasi muka batu di Sanato Beach</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:aa4034aedabe\" alt=\"Grand World — seni bina ala-Venice\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Grand World — seni bina ala-Venice</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:71bfc2955c92\" alt=\"Pintu masuk VinWonders (istana & ferris wheel)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Pintu masuk VinWonders (istana & ferris wheel)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:d54a8212de8f\" alt=\"Group di pintu masuk VinPearl Safari\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Group di pintu masuk VinPearl Safari</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:2ba9a7f3d0b4\" alt=\"Water taxi (gondola) di kanal Grand World — add-on RM50/pax\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Water taxi (gondola) di kanal Grand World — add-on RM50/pax</figcaption></figure></div><p>Guna gambar ini untuk set expectation: Sanato Beach ialah pantai konsep (seni instalasi + sunset), bukan pantai snorkeling; Grand World &amp; VinWonders adalah kawasan berjalan yang luas.</p></div></details><details class='qa' data-text='cable car, theme park &amp; night market (6 gambar) pemandangan laut &amp; pulau dari kabin hon thom cable car dalam kabin cable car — tertutup &amp; berhawa dingin night market duong dong bersama anak kecil vinpearl safari — zon zirafah ferris wheel / roller coaster vinwonders aquarium vinwonders — sesuai untuk anak kecil kabin cable car tertutup &amp; berhawa dingin (~15 minit sehala). aquarium vinwonders sesuai untuk anak kecil; ferris wheel &amp; roller coaster ada had ketinggian.'><summary><span class='tw'>&#9654;</span><span>Cable car, theme park &amp; night market (6 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:4dcd9878b723\" alt=\"Pemandangan laut & pulau dari kabin Hon Thom Cable Car\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Pemandangan laut & pulau dari kabin Hon Thom Cable Car</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:1470f473d3b8\" alt=\"Dalam kabin cable car — tertutup & berhawa dingin\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Dalam kabin cable car — tertutup & berhawa dingin</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:009c6cad6f50\" alt=\"Night market Duong Dong bersama anak kecil\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Night market Duong Dong bersama anak kecil</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:56f99c0e8b66\" alt=\"VinPearl Safari — zon zirafah\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">VinPearl Safari — zon zirafah</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:3ee553fa65e1\" alt=\"Ferris wheel / roller coaster VinWonders\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Ferris wheel / roller coaster VinWonders</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:9e08aec098be\" alt=\"Aquarium VinWonders — sesuai untuk anak kecil\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Aquarium VinWonders — sesuai untuk anak kecil</figcaption></figure></div><p>Kabin cable car tertutup &amp; berhawa dingin (~15 minit sehala). Aquarium VinWonders sesuai untuk anak kecil; ferris wheel &amp; roller coaster ada had ketinggian.</p></div></details>"
+  },
+  "snapshot": "# PT Phu Quoc — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Dua varian: PT Phu Quoc 4D3N & 5D4N — hotel 3★ fullboard, ground + tipping, sah untuk travel hingga 31 Dis 2026. Katalog V3 (kemas kini 11 Mac 2026).*\n\n- Semua harga sah **24 jam** selepas quotation dihantar.\n- Harga untuk **2@3 orang sebilik**. **Single supplement:** katalog nyatakan *quoted upon request* — minta quote dari consultant.\n- **Deposit RM250/pax**; full payment **45 hari** sebelum berlepas.\n- **Late Booking Surcharge RM50/booking** jika tempah kurang 45 hari sebelum berlepas.\n- **Last Minute Surcharge** jika tempah kurang 3 minggu — rujuk tab Surcharge.\n- **Tiada peak season surcharge** untuk Phu Quoc — boleh travel sepanjang tahun termasuk cuti sekolah & raya.\n- **Travel 2027 (1 Jan – 30 Jun 2027): +RM100/pax** di atas harga katalog.\n- Itinerari, flight & harga tertakluk perubahan (cuaca, laut, trafik, keselamatan). Susunan hotel & itinerari muktamad **14 hari** sebelum trip.\n- Passport mesti sah minimum **6 bulan** dari tarikh berlepas, dengan sekurang-kurangnya 2 muka surat kosong.\n- **Tiket flight pergi-balik TIDAK termasuk** — customer beli sendiri. Cadangan: tiba PQC sebelum 2pm; berlepas 2pm ke atas pada hari akhir.\n- Operational caveat: susunan default boleh berubah tanpa notis ikut keadaan **cuaca & laut**. Hon Thom Cable Car (merentas laut 7.9km) boleh ditutup masa angin kuat/taufan (jarang).\n- Aktiviti/entrance yang tidak disertai **tidak boleh** ditukar dengan aktiviti lain, voucher atau tunai (cth: tiket Aquatopia non-refundable).\n- Requirement muslim-friendly (halal, solat, kemudahan wanita) adalah **baseline** setiap pakej. **Perhatian: tiada masjid awam di pulau Phu Quoc** — rujuk tab Solat.\n- Sila semak validity trip dengan staff sebelum booking connecting domestic flight.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Ada berapa varian pakej Phu Quoc?**\nDua: **PT Phu Quoc 4D3N** (3 malam) dan **PT Phu Quoc 5D4N** (4 malam). Kedua-duanya 3★ fullboard, private transport, Muslim driving guide, semua entrance fee + tipping termasuk.\n\n**Apa beza pakej 4D3N dan 5D4N?**\n5D4N menambah satu hari: VinPearl Safari + **Tranh Stream** diasingkan ke hari sendiri, plus lebih masa di Sanato Beach & Grand World. 4D3N menggabungkan Safari + VinWonders dalam Day 2 (lebih padat). Rujuk tab **Perbezaan Pakej** untuk perbandingan penuh.\n\n**Apa tarikan utama pakej ini?**\nHon Thom Cable Car (7,899.9 m — terpanjang di dunia merentas laut), VinWonders + VinPearl Safari (termasuk buggy), Grand World (Venice of Vietnam), Aquatopia, Sanato Beach, Kiss Bridge & Teddy Bear Museum. Semua entrance sudah termasuk.\n\n**Pakej ini fullboard?**\nYa — 4D3N: 3B/3L/3D · 5D4N: 4B/4L/4D. Breakfast di hotel, lunch & dinner di restoran halal yang diuruskan guide.\n\n**Tipping kena bayar lagi?**\nTidak. Tipping sudah termasuk dalam pakej — ini antara USP utama kami berbanding pesaing.\n\n**Boleh customize itinerari?**\nBoleh untuk perkara kecil (susunan hari, tambah add-on). Day 1 & hari akhir terikat pada waktu flight. Hari Utara (Grand World/VinWonders/Safari) dan hari Selatan (cable car/Aquatopia) boleh ditukar tempat kerana dalam pulau yang sama. Perubahan besar perlu quote semula.\n\n**Berapa lama tour setiap hari?**\nTiada had jam rasmi didokumenkan untuk Phu Quoc (berbeza dengan pakej China yang ada asas 10 jam/hari) — driver & guide fleksibel. Biasanya mula selepas breakfast dan balik selepas dinner/night market.\n\n**Berapa lama di Sanato Beach dan night market?**\nSanato Beach lebih kurang 30 minit–1 jam (lebih lama jika tunggu night market buka); night market lebih kurang 1 jam.\n\n**Day 2 sempat ke night market selepas show VinWonders?**\nSempat. Show dijangka mula 6:00 petang dan habis dalam sejam, kemudian dinner dan terus ke night market.\n\n**Kalau tak nak masuk water park boleh skip?**\nBoleh — tetapi tiket entrance Aquatopia **non-refundable**. Customer boleh bersiar-siar di kawasan sekitar sementara yang lain bermain air.\n\n**VinWonders untuk anak bawah 100cm boleh?**\nBoleh dan **masuk percuma** — Fairy Land (mini carousel, mini train, bouncy castle), Animal Farm & petting zoo, Mini Ferris Wheel, Giant Sandbox, Soft Play Area, Carousel of Sea Creatures & Aquarium. Permainan besar (roller coaster) ada had ketinggian.\n\n**Banyak berjalan tak?**\nYa, terutama VinWonders & VinPearl Safari. Buggy termasuk untuk Safari. Pakai kasut sport yang selesa; stroller boleh dibawa tetapi tidak semua tempat stroller-friendly.\n\n**Ada travel map untuk trip ini?**\nAda — rujuk tab **Travel Map** (route map rasmi 4H3M + 5H4M). Susunan default boleh berubah ikut cuaca, laut & trafik tanpa notis.\n\n**Kiss of the Sea Show termasuk dalam pakej?**\n**Tidak** — optional, bayar sendiri di lokasi. Show ~30 minit di Sunset Town, biasanya sekitar 9:00 malam, harga pintu ~950,000 VND/pax. Tiada harga jualan ARBA untuk show ini.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Phu Quoc?**\nTidak — pilihan halal **terhad**. Operator guna restoran halal/Muslim yang sama sepanjang trip dengan hidangan berbeza setiap hari. Ini perlu dinyatakan awal kepada customer supaya tiada kejutan.\n\n**Makan apa dalam pakej?**\nBreakfast di hotel: nasi lemak, mee goreng mamak, bihun goreng, nasi goreng, kuetiau goreng, sup daging Vietnam, roti canai. Lunch & dinner: set menu — nasi putih, sup, ayam, sayur, telur goreng, ikan & buah.\n\n**Ada makanan halal dalam theme park?**\nSangat terhad. Guide susun set halal atau makan di luar park. Jangan janji ada gerai halal dalam VinWonders/Safari/Grand World.\n\n**Boleh makan di night market?**\nTidak disarankan untuk makanan — banyak gerai bukan halal dan arak dijual. Makan set dinner halal dahulu, kemudian beli cenderahati/barang bukan makanan di pasar malam.\n\n**Boleh bawa makanan sendiri dari Malaysia?**\nBoleh, tetapi elakkan terlalu banyak pek makanan ready-to-eat (isu kastam). Letak semua makanan & ubat dalam satu beg khas dengan label jelas untuk mudah diperiksa.\n\n**Makanan bayi boleh dibawa?**\nBoleh — dalam cabin, dalam pek asal beserta label (jangan buka atau salin pek). Air panas untuk bancuh susu boleh minta dari kru penerbangan.\n\n**Ada masjid di Phu Quoc?**\n**Tiada masjid awam di pulau Phu Quoc.** Masjid terdekat di Rach Gia (tanah besar), kira-kira 1 jam dengan feri. Ini fakta penting untuk set expectation customer.\n\n**Jadi solat di mana?**\nZohor + Asar dan Maghrib + Isyak boleh **dijamak di hotel**. Semasa tour, guide akan aturkan ruang solat di restoran halal yang digunakan. Tour Leader kongsi waktu solat dalam group WhatsApp; guna app Muslim untuk arah kiblat.\n\n**Ada surau di theme park & attraction?**\nTiada surau awam yang didokumenkan di kompleks Vinpearl, Grand World, Sunset Town atau Hon Thom. Guide (Muslim) akan aturkan ruang solat di restoran halal yang digunakan, dan Zohor+Asar / Maghrib+Isyak boleh dijamak di hotel. **Jangan janji \"ada surau\"** kepada customer.\n\n**Perlu bawa apa untuk solat?**\nTelekung, sejadah kecil dan **botol kecil/spray untuk wudhu** — tandas di Phu Quoc tiada getah paip.\n\n**Ada arak dalam makanan?**\nTidak dalam restoran halal yang digunakan. Tetapi arak dijual bebas di night market, kafe & Grand World — bukan isu untuk makanan pakej, cuma perlu tahu suasana.\n\n### C. Visa & Passport\n\n**Perlu visa ke Phu Quoc?**\nTidak. Dua lapisan pengecualian: (1) warga Malaysia bebas visa ke Vietnam **30 hari**; (2) Phu Quoc ada pengecualian visa **30 hari untuk semua warganegara** asalkan tiba terus ke Phu Quoc melalui udara/laut.\n\n**Kalau transit di Ho Chi Minh atau Hanoi macam mana?**\nJika kekal dalam kawasan transit antarabangsa (tidak melalui imigresen), pengecualian Phu Quoc masih terpakai. Untuk warga Malaysia ini tidak jadi isu kerana bebas visa 30 hari ke seluruh Vietnam.\n\n**Boleh sambung ke tanah besar Vietnam?**\nUntuk warga Malaysia — boleh (bebas visa 30 hari). Untuk pelancong bukan Malaysia yang guna pengecualian khas Phu Quoc — **tidak boleh** keluar dari pulau tanpa visa.\n\n**Passport perlu sah berapa lama?**\nMinimum **6 bulan** dari tarikh berlepas, dengan sekurang-kurangnya 2 muka surat kosong. Tanggungjawab customer untuk semak awal.\n\n**Dokumen apa perlu disediakan?**\nTour Voucher (softcopy memadai; satu family satu voucher) + Covernote insurance. Untuk anak bawah 18 tahun, cukup passport jika bersama parents — salinan surat beranak sebagai standby.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak. Customer beli sendiri. Rujuk tab **Flight & Airport** untuk cadangan.\n\n**Berapa lama flight KL–Phu Quoc?**\nKira-kira **1 jam 50 minit** direct. AirAsia satu-satunya airline direct KUL–PQC.\n\n**Flight apa yang disyorkan?**\n**AK 545** (KUL 12:50 → PQC 13:35) pergi dan **AK 546** (PQC 14:05 → KUL 16:33) balik — harian, anggaran return RM660–1,000. Pasangan ini padan dengan syor katalog: tiba sebelum 2pm hari pertama, berlepas 2pm ke atas hari akhir. Rujuk jadual di bahagian atas tab Flight & Airport.\n\n**Airport apa di Phu Quoc?**\nPhu Quoc International Airport (PQC), ~10 minit dari kawasan Long Beach/Duong Dong. Cadangan tiba sebelum 2pm untuk mula tour; hari akhir berlepas 2pm ke atas.\n\n**Perlu isi arrival card?**\n**Tidak** — Vietnam tiada arrival card.\n\n**Flow selepas turun plane?**\nGuide/Tour Leader akan brief secara detail selepas touch down. Airport pick-up sudah termasuk dalam pakej.\n\n**Bagasi AirAsia macam mana?**\nCheck-in **20kg** (maksimum 2 beg/pax; satu beg tidak melebihi 30kg kerana had pengendalian). Hand carry **7kg** — 1 handbag/sling bag + 1 cabin luggage.\n\n**Boleh share luggage allowance dengan keluarga?**\nBoleh — 3 pax = 60kg dikongsi. Tiada had kuantiti beg jika combine, tetapi total tidak melebihi allowance dan satu beg tidak melebihi 30kg. Had 2 beg per pax kekal.\n\n**Apa boleh dan tak boleh dalam hand carry?**\nCecair maksimum 100ml (dalam plastik ketat); lebih 100ml kena check-in. Barang tajam (gunting, mata pisau, pemotong kuku, pembuka botol) kena check-in.\n\n**Powerbank macam mana?**\nMaksimum **100Wh (~20,000mAh)**, **hand carry sahaja** — tiada bateri/powerbank dalam check-in luggage. Charger, cable & adapter pun letak hand carry.\n\n**Beg susu anak dikira hand carry?**\nYa. Infant bawah 2 tahun tiada baggage allowance; hanya stroller free of charge. Barang lain dikira dalam allowance cabin 7kg penjaga.\n\n**Stroller perlu check in?**\nTidak. Inform staf kaunter semasa check-in untuk dapatkan tag; stroller boleh dibawa hingga pintu pesawat. Disyorkan stroller travel-friendly/mudah dilipat kerana ada tempat yang tidak stroller-friendly.\n\n**Perlu wrap bag?**\nTidak wajib, tetapi disyorkan untuk luggage keras. Servis wrap ada di KLIA2 (belakang Starbucks); plastik sama boleh guna semula untuk balik.\n\n**Boleh pilih seat dalam flight?**\nTiket group booking — seat ditetapkan random oleh airline. Airport conductor / Tour Leader akan susun supaya keluarga duduk berdekatan, keutamaan kepada keluarga dengan anak kecil & warga emas.\n\n**Meeting point di KLIA2 di mana?**\nDepan Restoran **Din Tai Fung, Level 3**, **4 jam sebelum** waktu berlepas untuk briefing bersama airport conductor. Sebarang perubahan diumumkan dalam group WhatsApp. Berada di boarding gate sekurang-kurangnya 1 jam 15 minit sebelum berlepas.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n3★ default: Rova Hotel / Phung Hung Hotel Phu Quoc atau setaraf, keutamaan berdekatan city centre / Sunset Town (Selatan).\n\n**Boleh upgrade hotel?**\nBoleh — 4★ (Muong Thanh Luxury / Marina Seaside Boutique) **+RM140/pax/malam** (4D3N +RM420 · 5D4N +RM560). Katalog hanya ada tier 3★ dan 4★. Rate card ada kadar **malam tambahan** 5★ (RM320/pax/malam) tetapi **tiada kadar upgrade 3★ → 5★**, jadi pakej penuh 5★ belum boleh diquote — rujuk PO.\n\n**Boleh pilih hotel di kawasan Utara?**\nBoleh — kawasan Grand World (Utara) **+RM50/pax** atas permintaan. Sesuai jika customer nak dekat Grand World/VinWonders, tetapi jauh dari Sunset Town/cable car.\n\n**Bilik untuk 3 orang macam mana?**\nHarga berdasarkan 2@3 orang sebilik; bilik triple biasanya extra bed. Bilik single = single supplement.\n\n**Ada bilik family / connecting?**\nIkut availability. Susunan bilik keluarga berdekatan diuruskan — minta awal semasa booking.\n\n**Bila hotel muktamad disahkan?**\n**14 hari** sebelum trip (itinerari & susunan hotel muktamad).\n\n**Ada laundry & barang mandian?**\nLaundry service hotel ada (tiada self-service) — bawa baju secukupnya. Sabun mandi & syampu disediakan.\n\n### F. Cuaca & Musim\n\n**Bila waktu terbaik ke Phu Quoc?**\nMusim kering **Nov–April** — laut tenang, view cable car & sunset terbaik. Tetapi boleh travel sepanjang tahun kerana tiada peak season surcharge.\n\n**Musim hujan bila?**\nPaling kerap **Jun–September** (musim hujan luas Mei–Okt). Baju hujan disediakan. Bulan paling panas & kering: **Mac**.\n\n**Cuaca sama macam Malaysia?**\nYa, hampir sama (tropika, GMT+7). Musim hujan lebih ketara pertengahan tahun.\n\n**Hujan teruk cable car buka tak?**\nBeroperasi seperti biasa dalam hujan biasa; hanya ditutup masa **angin kuat/taufan** (jarang). Ada juga rehat teknikal berkala sepanjang hari — guide susun masa naik. Jika ditutup, itinerari disusun semula.\n\n### G. Shopping & Duit\n\n**Guna duit apa?**\nVietnamese Dong (VND). Kad debit/kredit, BigPay/Wise, online transfer & tunai diterima di kebanyakan tempat besar; gerai kecil & night market utamakan tunai.\n\n**Bawa duit belanja berapa?**\nTripdoc: anggaran **RM1,000–RM1,500/pax**; untuk yang tidak banyak membeli-belah **RM300–RM600** sudah memadai (≈2–4 juta Dong). Tukar wang lebih awal di Malaysia; guide boleh bantu.\n\n**Perlu aktifkan kad untuk overseas withdrawal?**\nYa — bagi yang nak guna kad debit/kredit untuk keluarkan tunai, aktifkan fungsi overseas withdrawal sebelum berlepas.\n\n**Phu Quoc sesuai untuk shopping?**\nBukan destinasi shopping seperti Ho Chi Minh. Cenderahati popular: **lada hitam Phu Quoc**, mutiara Phu Quoc (Ngoc Hien Pearl Farm) & kraf tangan tempatan.\n\n**Ada apa-apa yang perlu bayar sendiri dalam itinerari?**\nYa — perkara yang tidak tersenarai, contohnya water taxi di Grand World (RM50/pax) dan Kiss of the Sea Show. Nyatakan awal supaya customer tidak terkejut.\n\n### H. Payment & Refund\n\n**Deposit berapa & bila full payment?**\nDeposit **RM250/pax**; full payment **45 hari** sebelum berlepas (katalog V3).\n\n**Harga boleh berubah?**\nQuotation sah 24 jam. Selepas itu harga tertakluk semakan (kadar operator & availability hotel).\n\n**Ada surcharge peak season?**\nTiada untuk Phu Quoc — boleh travel sepanjang tahun tanpa tambahan. Untuk travel 1 Jan–30 Jun 2027: **+RM100/pax**.\n\n**Boleh travel waktu CNY?**\nBoleh. Satu-satunya blackout dalam katalog V3 ialah **CNY 2027 (17–18 Feb 2027)**. CNY 2026 (16–22 Feb 2026) **boleh booking** — attraction utama buka, cuma kedai souvenir & banyak gerai tutup.\n\n**Ada surcharge kalau booking lewat?**\nYa — Late Booking RM50/booking (<45 hari) dan Last Minute (<3 minggu) ikut katalog setiap varian: **4D3N** 2 pax +RM300/pax · 3+ pax +RM200/pax; **5D4N** 2 pax +RM400/pax · 3+ pax +RM300/pax.\n\n**Single supplement berapa?**\n+RM240/pax (4D3N), +RM320/pax (5D4N).\n\n### I. Add-ons & Customization\n\n**Ada add-on apa?**\nWater taxi Grand World, honeymoon decoration & candle light dinner, extra meal, pocket wifi, local SIM, takaful Etiqa & luggage tracker. Rujuk tab **Simple Customisation**.\n\n**Water taxi Grand World berapa?**\n**RM50/pax/ride** (optional, harga jualan). Katalog senaraikan water taxi sebagai contoh aktiviti optional yang dibayar sendiri oleh customer.\n\n**Ada pakej honeymoon?**\nAda — bedroom decoration RM250/pasangan & candle light dinner RM250/pasangan.\n\n**Boleh tambah insurans & wifi?**\nYa — Takaful Etiqa TripCare 360 dari RM45 (individu, 1–5 hari, Area 1); pocket wifi RoamingMan RM80 (4D3N) / RM175 (5D4N); atau local SIM unlimited RM30 (order awal dengan guide — di airport RM60–80).\n\n**Bila pocket WiFi diserahkan?**\nBiasanya semasa briefing di KLIA2 sebelum berlepas (bersama airport conductor).\n\n**Boleh tambah meal?**\nYa — tambah **RM30/pax/meal**, dan rate card juga ada kadar **potong RM20/pax/meal** untuk lunch atau dinner. Breakfast tidak boleh dipotong (ia datang bersama bilik). Jangan campur dua perkara: potong RM20 ialah membuang hidangan itu daripada pakej semasa quote — kalau hidangan sudah termasuk dalam harga dan customer pilih untuk tidak makan semasa trip, katalog nyatakan **tiada refund**.\n\n**Ada free gift?**\nAda — Phu Quoc: **Water Taxi Experience in Grand World** (kod FPQC2), plus bullet BRB Luggage Tag / Pocket Wifi 4G per booking. Bullet wajib tanya PO/Leader dahulu.\n\n### J. Kesihatan & Keselamatan\n\n**Perlu travel insurance?**\nSangat disyorkan — cable car merentas laut 7.9km & aktiviti adventure (water park, roller coaster). Pastikan polisi meliputi aktiviti ketinggian.\n\n**Selamat ke Phu Quoc?**\nSecara umum selamat. Jaga barang peribadi terutama di kawasan sesak & tempat awam (night market, theme park) untuk elak kecurian/seluk saku.\n\n**Boleh bawa ubat preskripsi?**\nBoleh — ubat preskripsi (darah tinggi, kencing manis) perlu disertakan surat doktor/salinan preskripsi. Ubat OTC seperti panadol & selsema tidak perlu preskripsi.\n\n**Mesin nebuliser portable boleh dibawa?**\nBoleh, dibawa on board. Sertakan surat doktor jika ada.\n\n**Ada sekatan kastam yang perlu tahu?**\nTidak dibenarkan: dadah, steroid, senjata api, bahan letupan, produk haiwan terancam, dan produk segar (buah, daging, tenusu). Elakkan bawa terlalu banyak pek makanan ready-to-eat.\n\n**Air paip boleh diminum?**\nTidak — guna air botol. Hotel biasanya sediakan air botol harian.\n\n### K. Praktikal (Internet, Socket, Masa, Tandas)\n\n**Pilihan internet?**\nLocal SIM unlimited RM30 (order awal dengan guide; RM60–80 di airport), pocket wifi RoamingMan melalui portal pelanggan ARBA, atau roaming telco sendiri. Tiada sekatan aplikasi di Vietnam — WhatsApp, Google & media sosial berfungsi seperti biasa (tidak perlu VPN).\n\n**Beza masa dengan Malaysia?**\nPhu Quoc GMT+7 — **1 jam lewat** dari Malaysia.\n\n**Plug socket jenis apa?**\n2-pin: Type A (pipih) & Type C (bulat). Bawa universal adapter; extension plug berguna jika banyak peralatan.\n\n**Tandas macam mana?**\nBersih di hotel & theme park, tetapi **tiada getah paip** — bawa botol kecil/spray untuk istinjak & wudhu.\n\n**Boleh guna e-hailing sendiri?**\nGrab ada di Phu Quoc, tetapi pakej ini private transport sepanjang trip jadi biasanya tidak perlu. Untuk free & easy, guide boleh bantu aturkan.\n\n**Bahasa apa digunakan?**\nVietnamese. Guide bertutur Melayu/English, jadi tiada isu komunikasi sepanjang tour.\n\n### L. Packing\n\n**Kasut apa sesuai?**\nKasut sport/selesa — banyak berjalan di theme park & safari. Selipar untuk pantai/water park.\n\n**Apa perlu bawa?**\nDuit poket, passport (sah 6 bulan), pakaian secukupnya, pakaian ibadah (telekung/sejadah), botol kecil untuk wudhu, peralatan mandi & solek, powerbank + charger + universal adapter (hand carry), kasut selesa, ubat peribadi, sunblock & topi.\n\n**Perlu bawa apa untuk water park?**\nPakaian renang (muslimah/bertutup) — **swimsuit wajib** untuk water slides; tuala, pakaian ganti & beg plastik untuk baju basah.\n\n**Perlu kipas atau baju sejuk?**\nKipas elektronik kecil berguna untuk musim panas (Mac). Baju sejuk nipis untuk hawa dingin kenderaan/kabin cable car & flight.\n"
+ },
+ "calc": {
+  "dest": "Phu Quoc",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-8)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+  "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Kadar accommodation, meal dan aktiviti mengikut <b>Rate Card Simple Customisation Phu Quoc</b>. <b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027). CNY 2026 (16&ndash;22 Feb 2026) masih boleh booking, tetapi kedai souvenir banyak tutup &mdash; set expectation customer. <b>Perhatian:</b> rate card tiada kadar transport untuk hari tambahan, jadi hari tambahan akan bertanda <i>kadar belum diisi</i> &mdash; minta harga operator.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 30,
+   "drop": 20
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 100,
+    "peak": 100
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 30,
+   "shareVehicle": true,
+   "autoNights": false,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    },
+    "up4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 140,
+       "peak": 140
+      }
+     ]
+    },
+    "h4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 240,
+       "peak": 240
+      }
+     ]
+    },
+    "h5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 320,
+       "peak": 320
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -50,
+       "peak": -50
+      }
+     ]
+    },
+    "nightShort4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -120,
+       "peak": -120
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang, Sunset Town (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade hotel 4 bintang &middot; Muong Thanh Luxury / Marina Seaside Boutique",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - Muong Thanh Luxury Phu Quoc or Marina Seaside Boutique Phu Quoc ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; hotel 4 bintang",
+    "cost": "night",
+    "nightRate": "h4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "n5",
+    "t": "Malam tambahan &middot; hotel 5 bintang",
+    "cost": "night",
+    "nightRate": "h5",
+    "hotel": "5-Star Hotel",
+    "line": "Additional night, 5-Star hotel",
+    "incl": "Additional night at 5-Star Hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tolak 1 malam pakej &middot; hotel 3 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "noht4",
+    "t": "Tolak 1 malam pakej &middot; hotel 4 bintang (selepas upgrade)",
+    "cost": "zero",
+    "perPaxRate": "nightShort4",
+    "dropsNight": true,
+    "line": "Package night removed (4-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "arr",
+    "t": "Lunch &amp; Dinner (hari ketibaan &mdash; tiada breakfast)",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner",
+    "bfLock": true
+   },
+   {
+    "v": "arrl",
+    "t": "Lunch sahaja (hari ketibaan &mdash; tiada breakfast)",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch",
+    "bfLock": true
+   },
+   {
+    "v": "nobf",
+    "t": "Tiada makan (hari ketibaan &mdash; tiada breakfast)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-",
+    "bfLock": true
+   },
+   {
+    "v": "none",
+    "t": "Tiada lunch / dinner",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Muslim Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Muslim Driving Guide",
+    "incl": "Private transportation with Muslim driving guide (Malay / English spoken) ({days})"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Airport Transfer",
+    "incl": "Private airport transfer ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation with driving guide ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "L4d1",
+    "t": "Ketibaan - Phu Quoc tour",
+    "en": "ARRIVAL - PHU QUOC TOUR",
+    "acc": "incl",
+    "meal": "arr",
+    "trp": "incl",
+    "region": "[Sunset Town]",
+    "act": [
+     "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+     "Airport pick-up",
+     "Sanato Beach - matahari terbenam dan seni pantai",
+     "Night market",
+     "Check-in hotel 3 bintang"
+    ],
+    "eact": [
+     "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+     "Airport pick-up",
+     "Sanato Beach - vibrant sunsets and innovative arts",
+     "Night market",
+     "Check in 3-Star hotel"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d2",
+    "t": "Phu Quoc tour (Utara) - Grand World dan VinWonders",
+    "en": "PHU QUOC TOUR (NORTH)",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Utara]",
+    "act": [
+     "Grand World, dikenali sebagai Venice of Vietnam",
+     "Teddy Bear Museum",
+     "VinPearl Safari (termasuk buggy)",
+     "VinWonders, salah satu theme park terbesar di Vietnam",
+     "Aquarium - Mermaid show",
+     "Roller coaster dan ferris wheel",
+     "Water park",
+     "Night market dan makan malam"
+    ],
+    "eact": [
+     "Grand World, known as the Venice of Vietnam",
+     "Teddy Bear Museum",
+     "VinPearl Safari (buggy included)",
+     "VinWonders, one of the largest theme parks in Vietnam",
+     "Aquarium - Mermaid show",
+     "Roller coasters and Ferris wheel",
+     "Water park",
+     "Night market and dinner"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d3",
+    "t": "Phu Quoc tour (Selatan) - Hon Thom cable car",
+    "en": "PHU QUOC TOUR (SOUTH)",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Hon Thom]",
+    "act": [
+     "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+     "Aquatopia water theme park di Pulau Hon Thom",
+     "Water slides, roller coaster dan Eagle Eye Tower",
+     "Ngoc Hien Pearl Farm",
+     "Kiss Bridge",
+     "Free and easy malam - night market atau Kiss of The Sea Show (bayar sendiri)"
+    ],
+    "eact": [
+     "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+     "Aquatopia water theme park at Hon Thom Island",
+     "Water slides, roller coaster and Eagle Eye Tower",
+     "Ngoc Hien Pearl Farm",
+     "Kiss Bridge",
+     "Free and easy evening - night market or Kiss of The Sea Show (paid on site)"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d4",
+    "t": "Free and easy - penerbangan pulang",
+    "en": "FREE AND EASY - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "none",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Free and easy",
+     "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+    ],
+    "eact": [
+     "Free and easy",
+     "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L5d1",
+    "t": "Ketibaan Phu Quoc - Long Beach",
+    "en": "ARRIVAL PHU QUOC - LONG BEACH",
+    "acc": "incl",
+    "meal": "arr",
+    "trp": "incl",
+    "region": "[Sunset Town]",
+    "act": [
+     "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+     "Airport pick-up",
+     "Pantai Long Beach - matahari terbenam",
+     "Check-in hotel 3 bintang",
+     "Night market dan makan malam"
+    ],
+    "eact": [
+     "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+     "Airport pick-up",
+     "Long Beach - vibrant sunsets",
+     "Check in 3-Star hotel",
+     "Night market and dinner"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d2",
+    "t": "Grand World dan VinWonders",
+    "en": "GRAND WORLD AND VINWONDERS TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Utara]",
+    "act": [
+     "Grand World, dikenali sebagai Venice of Vietnam",
+     "Teddy Bear Museum",
+     "VinWonders, salah satu theme park terbesar di Vietnam",
+     "VinWonders Aquarium, antara akuarium terbesar dunia",
+     "Kembali ke hotel",
+     "Night market dan makan malam"
+    ],
+    "eact": [
+     "Grand World, known as the Venice of Vietnam",
+     "Teddy Bear Museum",
+     "VinWonders, one of the largest theme parks in Vietnam",
+     "VinWonders Aquarium, among the world's largest aquariums",
+     "Return to hotel",
+     "Night market and dinner"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d3",
+    "t": "VinPearl Safari dan Tranh Stream",
+    "en": "VINPEARL SAFARI AND TRANH STREAM",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Utara]",
+    "act": [
+     "VinPearl Safari, taman pemuliharaan haiwan semi-liar",
+     "Tranh Stream",
+     "Sanato Beach - matahari terbenam dan seni pantai",
+     "Kembali ke hotel"
+    ],
+    "eact": [
+     "VinPearl Safari, semi-wild animal conservation park",
+     "Tranh Stream",
+     "Sanato Beach - vibrant sunsets and innovative art",
+     "Return to hotel"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d4",
+    "t": "Hon Thom cable car dan Aquatopia",
+    "en": "HON THOM CABLE CAR AND AQUATOPIA",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Hon Thom]",
+    "act": [
+     "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+     "Aquatopia water theme park di Pulau Hon Thom",
+     "Water slides, roller coaster dan Eagle Eye Tower",
+     "Kiss Bridge - pemandangan matahari terbenam",
+     "Kembali ke hotel"
+    ],
+    "eact": [
+     "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+     "Aquatopia water theme park at Hon Thom Island",
+     "Water slides, roller coaster and Eagle Eye Tower",
+     "Kiss Bridge - sunset viewing",
+     "Return to hotel"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d5",
+    "t": "Free and easy - penerbangan pulang",
+    "en": "FREE AND EASY - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "none",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Free and easy",
+     "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+    ],
+    "eact": [
+     "Free and easy",
+     "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "ext",
+    "t": "Hari tambahan - itinerari ikut permintaan customer",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "none",
+    "trp": "ext",
+    "region": "[Sunset Town]",
+    "g": "Umum",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fed",
+    "t": "Free and easy - tiada transport",
+    "en": "FREE AND EASY",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "none",
+    "region": "[Sunset Town]",
+    "g": "Umum",
+    "act": [
+     "Free and easy sepanjang hari"
+    ],
+    "eact": [
+     "Free and easy at own leisure"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Water Taxi at Grand World - per pax per ride",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Grand World area hotel (North Phu Quoc) - per pax, on request",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Honeymoon bedroom decoration - per couple",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Honeymoon candle light dinner - per couple",
+    250,
+    0,
+    "unit"
+   ],
+   [
+    "Additional extra meal, beyond the day meal plan - per pax",
+    30,
+    30,
+    "pax"
+   ],
+   [
+    "Less Teddy Bear Museum entrance - per pax",
+    -20,
+    -20,
+    "pax",
+    "Teddy Bear Museum"
+   ],
+   [
+    "Less VinWonders Theme Park entrance - per pax",
+    -100,
+    -100,
+    "pax",
+    "VinWonders Theme Park"
+   ],
+   [
+    "Less Hon Thom Cable Car + Aquatopia entrance - per pax",
+    -110,
+    -110,
+    "pax",
+    "Hon Thom Cable Car and Aquatopia"
+   ],
+   [
+    "Less VinPearl Safari + buggy entrance - per pax",
+    -250,
+    -250,
+    "pax",
+    "VinPearl Safari with buggy"
+   ]
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date surcharge 2027 (January - February)",
+    "dateIn": [
+     "2027-01-01",
+     "2027-02-28"
+    ],
+    "perPax": 120
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 7,
+    "text": "2&ndash;7 pax: van persendirian &middot; Muslim driving guide"
+   },
+   {
+    "from": 8,
+    "to": 16,
+    "text": "8&ndash;16 pax: mini bus &middot; Muslim driving guide"
+   },
+   {
+    "from": 17,
+    "to": 30,
+    "text": "17&ndash;30 pax: big bus &middot; Muslim tour guide berasingan"
+   },
+   {
+    "from": 21,
+    "to": 99999,
+    "text": "Di luar jadual harga katalog (maksimum 20 pax 4D3N / 16 pax 5D4N) &mdash; rujuk consultant"
+   }
+  ],
+  "validity": "Prices follow the PT Phu Quoc 4D3N and 5D4N 2026 v3 catalogues dated 11 March 2026, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
+  "variants": [
+   {
+    "id": "v4d3n",
+    "name": "PT Phu Quoc 4D3N (3-Star Fullboard)",
+    "pkgLabel": "Phu Quoc Island: World's Longest Sea-Crossing Cable Car, Sunset Beach, Theme Park",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "breakfast": true,
+    "single": 240,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 300,
+     "rate3": 200
+    },
+    "ext": {
+     "night": {
+      "normal": 100,
+      "peak": 100
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 30,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 140,
+         "peak": 140
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 3,
+      "a": 2597,
+      "c": 2397,
+      "n": 2197
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 2437,
+      "c": 2237,
+      "n": 2037
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 2257,
+      "c": 2057,
+      "n": 1857
+     },
+     {
+      "from": 7,
+      "to": 8,
+      "a": 2077,
+      "c": 1877,
+      "n": 1677
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 1967,
+      "c": 1767,
+      "n": 1567
+     },
+     {
+      "from": 11,
+      "to": 15,
+      "a": 1857,
+      "c": 1657,
+      "n": 1457
+     },
+     {
+      "from": 16,
+      "to": 20,
+      "a": 1737,
+      "c": 1537,
+      "n": 1337
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan - Phu Quoc tour",
+      "en": "ARRIVAL - PHU QUOC TOUR",
+      "acc": "incl",
+      "meal": "arr",
+      "trp": "incl",
+      "region": "[Sunset Town]",
+      "act": [
+       "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+       "Airport pick-up",
+       "Sanato Beach - matahari terbenam dan seni pantai",
+       "Night market",
+       "Check-in hotel 3 bintang"
+      ],
+      "eact": [
+       "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+       "Airport pick-up",
+       "Sanato Beach - vibrant sunsets and innovative arts",
+       "Night market",
+       "Check in 3-Star hotel"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Phu Quoc tour (Utara) - Grand World dan VinWonders",
+      "en": "PHU QUOC TOUR (NORTH)",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Utara]",
+      "act": [
+       "Grand World, dikenali sebagai Venice of Vietnam",
+       "Teddy Bear Museum",
+       "VinPearl Safari (termasuk buggy)",
+       "VinWonders, salah satu theme park terbesar di Vietnam",
+       "Aquarium - Mermaid show",
+       "Roller coaster dan ferris wheel",
+       "Water park",
+       "Night market dan makan malam"
+      ],
+      "eact": [
+       "Grand World, known as the Venice of Vietnam",
+       "Teddy Bear Museum",
+       "VinPearl Safari (buggy included)",
+       "VinWonders, one of the largest theme parks in Vietnam",
+       "Aquarium - Mermaid show",
+       "Roller coasters and Ferris wheel",
+       "Water park",
+       "Night market and dinner"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Phu Quoc tour (Selatan) - Hon Thom cable car",
+      "en": "PHU QUOC TOUR (SOUTH)",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Hon Thom]",
+      "act": [
+       "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+       "Aquatopia water theme park di Pulau Hon Thom",
+       "Water slides, roller coaster dan Eagle Eye Tower",
+       "Ngoc Hien Pearl Farm",
+       "Kiss Bridge",
+       "Free and easy malam - night market atau Kiss of The Sea Show (bayar sendiri)"
+      ],
+      "eact": [
+       "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+       "Aquatopia water theme park at Hon Thom Island",
+       "Water slides, roller coaster and Eagle Eye Tower",
+       "Ngoc Hien Pearl Farm",
+       "Kiss Bridge",
+       "Free and easy evening - night market or Kiss of The Sea Show (paid on site)"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Free and easy - penerbangan pulang",
+      "en": "FREE AND EASY - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Free and easy",
+       "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+      ],
+      "eact": [
+       "Free and easy",
+       "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel",
+     "{auto}",
+     "Entrance fee: Hon Thom Cable Car and Aquatopia",
+     "Entrance fee: VinPearl Safari with buggy",
+     "Entrance fee: Grand World",
+     "Entrance fee: VinWonders Theme Park",
+     "Entrance fee: Teddy Bear Museum",
+     "Daily breakfast at hotel",
+     "Muslim driving guide (Malay / English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Optional activities not stated in the itinerary, for example water taxi and the Kiss of The Sea Show"
+    ]
+   },
+   {
+    "id": "v5d4n",
+    "name": "PT Phu Quoc 5D4N (3-Star Fullboard)",
+    "pkgLabel": "Phu Quoc Island: World's Longest Sea-Crossing Cable Car, Sunset Beach, Theme Park",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "breakfast": true,
+    "single": 320,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 400,
+     "rate3": 300
+    },
+    "ext": {
+     "night": {
+      "normal": 100,
+      "peak": 100
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 30,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 0,
+         "peak": 0
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 140,
+         "peak": 140
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 3,
+      "a": 3077,
+      "c": 2877,
+      "n": 2677
+     },
+     {
+      "from": 4,
+      "to": 4,
+      "a": 2867,
+      "c": 2667,
+      "n": 2467
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 2677,
+      "c": 2477,
+      "n": 2277
+     },
+     {
+      "from": 7,
+      "to": 8,
+      "a": 2567,
+      "c": 2367,
+      "n": 2167
+     },
+     {
+      "from": 9,
+      "to": 10,
+      "a": 2297,
+      "c": 2097,
+      "n": 1897
+     },
+     {
+      "from": 11,
+      "to": 13,
+      "a": 2177,
+      "c": 1977,
+      "n": 1777
+     },
+     {
+      "from": 14,
+      "to": 16,
+      "a": 2147,
+      "c": 1947,
+      "n": 1747
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan Phu Quoc - Long Beach",
+      "en": "ARRIVAL PHU QUOC - LONG BEACH",
+      "acc": "incl",
+      "meal": "arr",
+      "trp": "incl",
+      "region": "[Sunset Town]",
+      "act": [
+       "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+       "Airport pick-up",
+       "Pantai Long Beach - matahari terbenam",
+       "Check-in hotel 3 bintang",
+       "Night market dan makan malam"
+      ],
+      "eact": [
+       "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+       "Airport pick-up",
+       "Long Beach - vibrant sunsets",
+       "Check in 3-Star hotel",
+       "Night market and dinner"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Grand World dan VinWonders",
+      "en": "GRAND WORLD AND VINWONDERS TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Utara]",
+      "act": [
+       "Grand World, dikenali sebagai Venice of Vietnam",
+       "Teddy Bear Museum",
+       "VinWonders, salah satu theme park terbesar di Vietnam",
+       "VinWonders Aquarium, antara akuarium terbesar dunia",
+       "Kembali ke hotel",
+       "Night market dan makan malam"
+      ],
+      "eact": [
+       "Grand World, known as the Venice of Vietnam",
+       "Teddy Bear Museum",
+       "VinWonders, one of the largest theme parks in Vietnam",
+       "VinWonders Aquarium, among the world's largest aquariums",
+       "Return to hotel",
+       "Night market and dinner"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "VinPearl Safari dan Tranh Stream",
+      "en": "VINPEARL SAFARI AND TRANH STREAM",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Utara]",
+      "act": [
+       "VinPearl Safari, taman pemuliharaan haiwan semi-liar",
+       "Tranh Stream",
+       "Sanato Beach - matahari terbenam dan seni pantai",
+       "Kembali ke hotel"
+      ],
+      "eact": [
+       "VinPearl Safari, semi-wild animal conservation park",
+       "Tranh Stream",
+       "Sanato Beach - vibrant sunsets and innovative art",
+       "Return to hotel"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Hon Thom cable car dan Aquatopia",
+      "en": "HON THOM CABLE CAR AND AQUATOPIA",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Hon Thom]",
+      "act": [
+       "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+       "Aquatopia water theme park di Pulau Hon Thom",
+       "Water slides, roller coaster dan Eagle Eye Tower",
+       "Kiss Bridge - pemandangan matahari terbenam",
+       "Kembali ke hotel"
+      ],
+      "eact": [
+       "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+       "Aquatopia water theme park at Hon Thom Island",
+       "Water slides, roller coaster and Eagle Eye Tower",
+       "Kiss Bridge - sunset viewing",
+       "Return to hotel"
+      ]
+     },
+     {
+      "v": "d5",
+      "t": "Free and easy - penerbangan pulang",
+      "en": "FREE AND EASY - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "none",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Free and easy",
+       "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+      ],
+      "eact": [
+       "Free and easy",
+       "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel",
+     "{auto}",
+     "Entrance fee: Hon Thom Cable Car and Aquatopia",
+     "Entrance fee: VinPearl Safari with buggy",
+     "Entrance fee: Grand World",
+     "Entrance fee: VinWonders Theme Park",
+     "Entrance fee: Teddy Bear Museum",
+     "Daily breakfast at hotel",
+     "Muslim tour guide (Malay / English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Optional activities not stated in the itinerary, for example water taxi"
+    ]
+   }
+  ]
+ }
+}

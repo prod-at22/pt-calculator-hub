@@ -1,0 +1,1404 @@
+{
+ "slug": "danang",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Danang Hoi An — Knowledge Base",
+   "brandTag": "Danang Hoi An KB",
+   "kicker": "ARBA DANANG HOI AN · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Danang Hoi An — halal, flight, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: flight ke Danang? · perlu visa? · Bana Hills ada surau?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Danang Hoi An…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Danang Hoi An",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC &mdash; dijana daripada katalog <b>PT DANANG HOI AN 4D3N &amp; 5D4N 2026 V3 (6 Ogos 2026)</b>, <b>Rate Card Operasi KB (3 Sep 2026)</b>, PT Travel Maps, Flight Recommendation, FAQ Vietnam &amp; Tripdoc. <b>Katalog adalah source of truth.</b> Sah untuk travel hingga 31 Dis 2026. Last updated: 3 September 2026.<br><b>Perhatian:</b> guide untuk pakej ini ialah <b>Local Driving Guide (English Speaking)</b> &mdash; penduduk tempatan Vietnam, <b>bukan Muslim</b> dan tidak bertutur Melayu. Makanan halal tetap dijamin kerana restoran ditempah oleh operator.<br><b>Nota:</b> tiada gambar trip lepas untuk Danang&ndash;Hoi An dalam folder produk, jadi KB ini tiada tab <i>Gambar Trip Lepas</i> &mdash; ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Bana Hills (Cable Car + Golden Bridge + Fantasy Park)",
+     "Hoi An Old Quarter (UNESCO)",
+     "Coconut Basket Boat Ride",
+     "Han River Cruise (5D4N)"
+    ],
+    "usp": "USP: Tipping included · semua aktiviti utama included · Local Driving Guide (English Speaking) · guide flexible time.",
+    "season": [
+     [
+      "Feb–Mei",
+      "Kering & selesa (20–28°C) — waktu terbaik untuk sightseeing."
+     ],
+     [
+      "Jun–Ogos",
+      "Panas & cerah (28–35°C) — sesuai pantai, boleh cecah 40°C."
+     ],
+     [
+      "Sep–Jan",
+      "Musim hujan lebat + risiko taufan; Hoi An kadang banjir."
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan — Bana Hills & Hoi An Old Quarter (zon pejalan kaki).",
+     "Bana Hills sejuk (15–22°C di puncak 1,489m) — bawa jaket nipis.",
+     "Max 1 luggage/pax kerana kapasiti kereta.",
+     "Aktiviti FREE tak boleh tukar cash/voucher jika tak join."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Danang Hoi An 4D3N",
+    "tag": "Danang Hoi An · 4D3N",
+    "sub": "Danang Beach · Bana Hills Cable Car · Coconut Basket Boat",
+    "emoji": "🚡",
+    "img": "@asset:350352b1a1ec",
+    "intro": "Pakej padat 4 hari 3 malam (Ground & Tipping) — fokus tarikan ikonik Danang: cable car ke Bana Hills & Golden Bridge, city tour Danang, dan Hoi An Old Quarter dengan Coconut Basket Boat. Hotel 3-Star Fullboard, Local Driving Guide (English Speaking), tipping included.",
+    "inc": [
+     "3 malam penginapan (Hotel 3-Star)",
+     "Private transportation sepanjang trip",
+     "Full meals halal (3B, 3L, 3D)",
+     "Local Driving Guide (English Speaking)",
+     "Tiket masuk: Champa Museum",
+     "FREE Coconut Basket Boat Tour",
+     "FREE Cable Car ke Bana Hills",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik",
+     "Luggage, in-flight meal & airport tax",
+     "Tour & meal tambahan",
+     "Perbelanjaan peribadi",
+     "Travel insurance / takaful",
+     "Alpine Coaster di Bana Hill (RM50/pax, optional)"
+    ],
+    "note": "Blackout CNY 2026 (16–22 Feb) & CNY 2027 (17–18 Feb) — tour tidak available. Deposit RM250/pax; bayaran penuh 45 hari sebelum departure."
+   },
+   {
+    "n": "PT Danang Hoi An 5D4N",
+    "tag": "Danang Hoi An · 5D4N",
+    "sub": "Han River Cruise · Bana Hills · Marble Mountain · Hoi An",
+    "emoji": "🛶",
+    "img": "@asset:c9c4c5f70350",
+    "intro": "Versi lanjutan 5 hari 4 malam — tambah 1 hari penuh untuk Hoi An Ancient Quarter + Marble Mountain, plus Han River Cruise waktu malam dan Asia Park. Sesuai untuk yang mahu pengalaman lebih santai & menyeluruh. Hotel 3-Star Fullboard, tipping included.",
+    "inc": [
+     "4 malam penginapan (Hotel 3-Star)",
+     "Private transportation sepanjang trip",
+     "Full meals halal (4B, 4L, 4D)",
+     "Local Driving Guide (English Speaking)",
+     "Tiket masuk: Champa Museum, Marble Mountain, Bana Hills, Hoi An Old Quarter",
+     "FREE Han River Cruise",
+     "FREE Coconut Basket Boat Tour",
+     "FREE Cable Car ke Bana Hills",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik",
+     "Luggage, in-flight meal & airport tax",
+     "Tour & meal tambahan",
+     "Perbelanjaan peribadi",
+     "Travel insurance / takaful",
+     "Alpine Coaster di Bana Hill (RM50/pax, optional)"
+    ],
+    "note": "Blackout CNY 2026 (16–22 Feb) & CNY 2027 (17–18 Feb) — tour tidak available. Deposit RM250/pax; bayaran penuh 45 hari sebelum departure."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan — Danang",
+     "m": "L / D",
+     "a": [
+      "Tiba di Danang International Airport (cadangan sampai 12pm atau awal)",
+      "Airport pickup",
+      "Champa Museum (Included)",
+      "Check-in hotel",
+      "Free & easy di Danang Beach",
+      "Dinner & lawat Night Market"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Bana Hill SunWorld Tour",
+     "m": "B / L / D",
+     "a": [
+      "Cable Car ke Bana Hills (Included)",
+      "French Village",
+      "Alpine Coaster Ride (optional +RM50)",
+      "Golden Bridge & Fantasy Park",
+      "Son Tra Night Market"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Danang City Tour — Hoi An",
+     "m": "B / L / D",
+     "a": [
+      "Love Bridge",
+      "Dragon Bridge",
+      "Shopping di Danang",
+      "Hoi An Old Quarter",
+      "Coconut Basket Boat (Included)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Free & Easy — Departure",
+     "m": "B",
+     "a": [
+      "Sarapan",
+      "Free & easy",
+      "Transfer ke Danang International Airport (cadangan bertolak 11am ke atas)"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan — Danang",
+     "m": "L / D",
+     "a": [
+      "Tiba di Danang International Airport (cadangan sampai 12pm atau awal)",
+      "Airport pickup",
+      "Check-in hotel",
+      "Free & easy di Danang Beach",
+      "Han River Cruise (Included)",
+      "Kembali ke hotel"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Bana Hill SunWorld Tour",
+     "m": "B / L / D",
+     "a": [
+      "Cable Car ke Bana Hills (Included)",
+      "French Village",
+      "Alpine Coaster Ride (optional +RM50)",
+      "Golden Bridge & Fantasy Park",
+      "Son Tra Night Market"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Danang City Tour",
+     "m": "B / L / D",
+     "a": [
+      "Love Bridge",
+      "Shopping di Danang",
+      "Asia Park Danang",
+      "Dragon Bridge"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Danang — Hoi An",
+     "m": "B / L / D",
+     "a": [
+      "Champa Museum (Included)",
+      "Hoi An Ancient Quarter (Included)",
+      "Coconut Basket Boat Tour (Included)",
+      "Marble Mountain (Included)"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Free & Easy — Departure",
+     "m": "B",
+     "a": [
+      "Sarapan",
+      "Free & easy",
+      "Transfer ke Danang International Airport (cadangan bertolak 11am ke atas)"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Bana Hills & Golden Bridge",
+    "t": "Theme Park",
+    "emoji": "🌉",
+    "img": "@asset:a361f7f1be07",
+    "short": "Cable car terpanjang dunia, Golden Bridge & French Village",
+    "intro": "Resort pergunungan di puncak 1,489m, disambung dengan cable car terpanjang dunia (5,801m). Tarikan utama ialah Golden Bridge yang seolah-olah dipegang dua tapak tangan gergasi, French Village bergaya Eropah, dan Fantasy Park (indoor games) — sesuai untuk keluarga.",
+    "hi": [
+     "Golden Bridge (tangan gergasi)",
+     "Cable Car SunWorld",
+     "French Village",
+     "Fantasy Park indoor games",
+     "Alpine Coaster (optional +RM50)"
+    ],
+    "best": "Pagi (elak queue cable car 30–60 min waktu peak). Cuaca sejuk 15–22°C.",
+    "muslim": "Ada bilik solat/surau di tingkat 5 bangunan Arapang, French Village (naik lif). Halal buffet lunch boleh diatur oleh guide. Bawa jaket kerana sejuk di puncak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ba+Na+Hills+Golden+Bridge+Da+Nang"
+   },
+   {
+    "n": "Hoi An Ancient Town",
+    "t": "UNESCO Heritage",
+    "emoji": "🏮",
+    "img": "@asset:89af829baa0d",
+    "short": "Bandar lama UNESCO — tanglung, Japanese Covered Bridge, tailor sutera",
+    "intro": "Bekas pelabuhan dagang termasyhur abad ke-15–19, disenaraikan UNESCO World Heritage sejak 1999. Terkenal dengan tanglung kertas warna-warni waktu malam, Japanese Covered Bridge, rumah kedai lama dan kedai jahit sutera express.",
+    "hi": [
+     "Tanglung kertas waktu senja",
+     "Japanese Covered Bridge",
+     "Kedai jahit sutera express",
+     "Riverside & shopping cenderamata"
+    ],
+    "best": "Waktu senja/malam untuk lampu tanglung. Zon pejalan kaki — banyak berjalan.",
+    "muslim": "Pilihan halal di dalam Hoi An lebih terhad berbanding Danang — restoran halal ditempah awal oleh operator (guide bukan Muslim) (biasanya makan di Danang). Untuk solat, guide bantu cari surau/ruang solat; disarankan bawa sejadah lipat & telekung.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hoi+An+Ancient+Town"
+   },
+   {
+    "n": "Coconut Basket Boat",
+    "t": "Aktiviti Budaya",
+    "emoji": "🛶",
+    "img": "@asset:d539ec78be2b",
+    "short": "Bot buluh bulat di Cam Thanh Coconut Forest + boat dance show",
+    "intro": "Pengalaman santai naik bot buluh bulat tradisional (thúng chai) di hutan kelapa Cam Thanh berhampiran Hoi An, lengkap dengan boat dance show yang menghiburkan. Aktiviti FREE dalam kedua-dua pakej.",
+    "hi": [
+     "Bot buluh bulat tradisional",
+     "Boat dance show berputar",
+     "Suasana hutan kelapa nipah"
+    ],
+    "best": "Waktu pagi/petang. Kaki mungkin basah — bawa selipar/tuala kecil.",
+    "muslim": "Aktiviti mesra keluarga. Makan tengah hari halal diatur oleh guide berdekatan. Warga emas bermasalah belakang & anak terlalu kecil perlu berhati-hati semasa naik/turun bot.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Cam+Thanh+Coconut+Forest+Hoi+An"
+   },
+   {
+    "n": "Marble Mountains",
+    "t": "Alam & Gua",
+    "emoji": "⛰️",
+    "img": "",
+    "short": "Lima bukit marmar dengan gua & lif pemandangan (5D4N)",
+    "intro": "Kompleks lima bukit batu marmar (Ngu Hanh Son) dengan gua-gua, tangga batu dan pemandangan kota Danang. Ada lif untuk mereka yang tidak mahu mendaki. Termasuk dalam pakej 5D4N.",
+    "hi": [
+     "Gua Huyen Khong",
+     "Lif pemandangan",
+     "View kota & pantai Danang",
+     "Kedai ukiran marmar"
+    ],
+    "best": "Pagi sebelum panas. Ada tangga & permukaan tidak rata.",
+    "muslim": "Kawasan terbuka — solat boleh dilakukan di ruang lapang; guide bantu cari tempat sesuai. Bawa sejadah lipat. Makan halal diatur di Danang.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Marble+Mountains+Da+Nang"
+   },
+   {
+    "n": "Dragon Bridge & Han River",
+    "t": "Ikon Bandar",
+    "emoji": "🐉",
+    "img": "@asset:ebfd7c27638d",
+    "short": "Jambatan naga, Han River Cruise & Love Bridge",
+    "intro": "Ikon Danang — Dragon Bridge yang menyembur api & air pada hujung minggu, Love Bridge di tepi Sungai Han, dan Han River Cruise waktu malam (FREE dalam 5D4N) untuk menikmati lampu kota dari air.",
+    "hi": [
+     "Dragon Bridge (fire show hujung minggu)",
+     "Han River Cruise malam (5D4N)",
+     "Love Bridge",
+     "Lampu kota tepi sungai"
+    ],
+    "best": "Waktu malam. Fire show Dragon Bridge biasanya Sabtu & Ahad ~9pm.",
+    "muslim": "Kawasan awam terbuka. Restoran halal ada berhampiran Son Tra District; guide bantu waktu solat. Pakaian sopan digalakkan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dragon+Bridge+Da+Nang"
+   },
+   {
+    "n": "Danang Beach (My Khe)",
+    "t": "Pantai",
+    "emoji": "🏖️",
+    "img": "@asset:f760bf875c83",
+    "short": "Pantai pasir putih berdekatan Masjid Al-Noor Son Tra",
+    "intro": "My Khe Beach — pantai pasir putih yang tenang di sepanjang pesisir Danang, sesuai untuk free & easy petang. Berdekatan dengan kawasan Son Tra yang mempunyai lebih banyak pilihan halal dan masjid.",
+    "hi": [
+     "Pasir putih & air jernih",
+     "Free & easy waktu petang",
+     "Dekat kawasan halal Son Tra"
+    ],
+    "best": "Petang untuk sunset. Jun–Ogos paling sesuai untuk pantai.",
+    "muslim": "Masjid Al-Noor (Da Nang Mosque) di Son Tra District — masjid utama kota, ada solat Jumaat. Pakaian mandi/berenang yang sopan digalakkan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=My+Khe+Beach+Da+Nang"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (Default)",
+    "name": "LA Beach Hotel / Golden Rose Hotel",
+    "note": "Semua malam · sarapan included · prioriti dekat city centre",
+    "emoji": "🏨",
+    "img": "@asset:a27a7742985b"
+   },
+   {
+    "tier": "4★ (Upgrade)",
+    "name": "RHM Hotel / Santa Luxury Hotel",
+    "note": "+RM140/pax/malam",
+    "emoji": "🏩",
+    "img": "@asset:a19b6209175b"
+   },
+   {
+    "tier": "Nota Lokasi",
+    "name": "Kawasan Danang",
+    "note": "Jika hotel city centre penuh, lokasi mungkin di luar sedikit dari pusat bandar",
+    "emoji": "📍",
+    "img": "@asset:0776fe89de59"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar <b>katalog V3 (6 Ogos 2026)</b> &mdash; per pax, 2@3 orang sebilik, MYR, Ground &amp; Tipping sahaja. Sah untuk travel hingga <b>31 Dis 2026</b>. CWB = Adult &minus;RM200 &middot; CNB = Adult &minus;RM400 &middot; Infant (bawah 2 tahun): FOC.</p><div class='custblk'><h3>PT Danang Hoi An 4D3N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,217</td><td>RM 2,017</td><td>RM 1,817</td></tr><tr><td class='it'>3</td><td class='add'>RM 2,147</td><td>RM 1,947</td><td>RM 1,747</td></tr><tr><td class='it'>4&#8211;5</td><td class='add'>RM 1,977</td><td>RM 1,777</td><td>RM 1,577</td></tr><tr><td class='it'>6&#8211;7</td><td class='add'>RM 1,777</td><td>RM 1,577</td><td>RM 1,377</td></tr><tr><td class='it'>8&#8211;12</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT DANANG HOI AN 4D3N 2026 <b>V3</b> (6 Ogos 2026). Perhatian: harga V3 <b>lebih tinggi</b> daripada V2 &mdash; jangan quote dari katalog lama. Tier tertinggi kini <b>8&#8211;12 pax</b> (dahulu 8&#8211;10).</p></div><div class='custblk'><h3>PT Danang Hoi An 5D4N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2&#8211;4</td><td class='add'>RM 2,377</td><td>RM 2,177</td><td>RM 1,977</td></tr><tr><td class='it'>5&#8211;7</td><td class='add'>RM 2,277</td><td>RM 2,077</td><td>RM 1,877</td></tr><tr><td class='it'>8&#8211;10</td><td class='add'>RM 2,177</td><td>RM 1,977</td><td>RM 1,777</td></tr><tr><td class='it'>11&#8211;15</td><td class='add'>RM 1,977</td><td>RM 1,777</td><td>RM 1,577</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT DANANG HOI AN 5D4N 2026 <b>V3</b> (6 Ogos 2026). Untuk 16 pax dan ke atas, minta quote khas dari operator.</p></div><div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li>Harga sah <b>24 jam</b> selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant.</li><li>Meals termasuk &mdash; <b>tiada refund</b> jika customer pilih untuk tidak makan.</li><li>Aktiviti yang tiada dalam itinerari dibayar sendiri (cth Alpine Coaster Bana Hills RM50/pax).</li><li>Itinerari &amp; hotel muktamad <b>14 hari</b> sebelum trip. Deposit RM250/pax; full payment 45 hari sebelum berlepas.</li></ul></div>",
+   "custom": "<h2>Simple Customisation</h2><p class='ssub'>Kadar <b>Rate Card Operasi KB</b> (3 Sep 2026) &mdash; harga jualan per pax (MYR). Lajur <b>Peak</b> rate card semuanya &quot;-&quot; untuk accommodation, jadi kadar peak <b>sama</b> dengan normal. Semua kadar ini sudah masuk dalam <b>Simple Calculator</b>.</p><div class='custblk'><h3>Accommodation &mdash; tambah / tolak 1 malam</h3><table class='ctbl'><thead><tr><th>Kelas hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Hotel</th></tr></thead><tbody><tr><td class='it'>3&#9733; (dalam pakej)</td><td class='add'>RM 100</td><td class='ded'>&minus;RM 50</td><td><b>Danang:</b> LA Beach Hotel &middot; Golden Rose Hotel</td></tr><tr><td class='it'>4&#9733;</td><td class='add'>RM 240</td><td class='ded'>&minus;RM 120</td><td><b>Danang:</b> RHM Hotel &middot; Santa Luxury Hotel</td></tr><tr><td class='it'>5&#9733;</td><td class='add'>RM 350</td><td>&mdash;</td><td><b>Danang:</b> Nalod Hotel &middot; <b>Hoi An:</b> Grand Sunrise Hotel</td></tr></tbody></table><p class='custnote'>Per pax per malam. Rate card <b>tiada</b> kadar tolak untuk 5&#9733; &mdash; kalau customer nak buang malam 5&#9733;, minta quote dari consultant.</p></div><div class='custblk'><h3>Upgrade hotel &mdash; malam yang sudah ada dalam pakej</h3><table class='ctbl'><thead><tr><th>Upgrade</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>3&#9733; &rarr; 4&#9733;</td><td class='add'>RM 140</td><td>per pax / malam &middot; RHM atau Santa Luxury</td></tr><tr><td class='it'>3&#9733; &rarr; 5&#9733;</td><td class='add'>RM 320</td><td>per pax / malam &middot; Nalod atau Grand Sunrise</td></tr></tbody></table><p class='custnote'>Upgrade dikenakan pada <b>setiap malam</b> yang di-upgrade, bukan sekali untuk seluruh trip. Beza dengan baris di atas: itu untuk <b>tambah</b> malam baharu.</p></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1</th><th>Tolak 1</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td class='add'>RM 30</td><td>&mdash;</td><td>Rate card cadang <b>makan di hotel sahaja</b>; kadar RM30 dari R&amp;D Sheet</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30</td><td class='ded'>&minus;RM 20</td><td>per pax / hidangan</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30</td><td class='ded'>&minus;RM 20</td><td>per pax / hidangan</td></tr></tbody></table><p class='custnote'>Meals dalam pakej <b>tiada refund</b> kalau customer pilih untuk tidak makan &mdash; tolakan RM20 hanya bila hidangan itu memang dibuang dari itinerari sebelum trip.</p></div><div class='custblk'><h3>Hari tambahan</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Hari tambahan &middot; private transport + driving guide</td><td class='add'>RM 50</td><td>per pax / hari</td></tr></tbody></table><p class='custnote'>Tiada kos transport berasingan &mdash; Danang dan Hoi An dalam kawasan yang sama, jadi tiada caj transfer jarak jauh. Malam hotel dikira <b>berasingan</b> (lihat jadual accommodation di atas).</p></div><div class='custblk'><h3>Add-on activities</h3><table class='ctbl'><thead><tr><th>Activity</th><th>Harga</th><th>Nota operasi</th></tr></thead><tbody><tr><td class='it'>Hoi An Memories Show</td><td class='add'>RM 110</td><td>per pax / entrance &middot; entrance fee + show fee, seat <b>High Class</b><br>Buka Isnin&ndash;Ahad, <b>tutup Selasa</b> &middot; 4:00pm&ndash;10:00pm<br>Mini show 5:00pm&ndash;7:00pm &middot; Main show 8:00pm&ndash;9:00pm<br>Customer kena sampai dewan persembahan <b>15 minit</b> sebelum show mula</td></tr><tr><td class='it'>Alpine Coaster (Bana Hills)</td><td class='add'>RM 50</td><td>per pax &middot; tidak termasuk dalam tiket cable car pakej</td></tr></tbody></table></div><div class='custblk'><h3>Travel essentials</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket Wifi 3GB (4D3N)</td><td class='add'>RM 80</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Pocket Wifi 3GB (5D4N)</td><td class='add'>RM 175</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Pocket Wifi 10GB 5G (4D3N)</td><td class='add'>RM 120</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Travel Takaful (Etiqa TripCare 360)</td><td class='add'>dari RM 45</td><td>Individual Area 1 &middot; ikut tempoh dan area</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20&ndash;70</td><td>Silver &rarr; Diamond</td></tr></tbody></table><p class='custnote'>Travel essentials dijual oleh <b>after-sales</b>, bukan dalam quotation calculator.</p></div><p class='custnote'>Aktiviti yang tiada dalam itinerari kena bayar sendiri oleh customer. Itinerari dan hotel muktamad 14 hari sebelum trip.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Guide:</b> Local Driving Guide berbahasa English sahaja, bukan Muslim dan tidak bertutur Melayu &mdash; jangan janjikan sebaliknya. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027).</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Danang Hoi An 4D3N (3-Star Fullboard)</option><option value='1'>PT Danang Hoi An 5D4N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><p class='ssub'>Caj tambahan (MYR).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement 4D3N</td><td class='add'>+RM 240</td><td>per pax · bilik single</td></tr><tr><td class='it'>Single Supplement 5D4N</td><td class='add'>+RM 320</td><td>per pax · bilik single</td></tr><tr><td class='it'>Upgrade Hotel 4★</td><td class='add'>+RM 140</td><td>per pax / malam</td></tr><tr><td class='it'>Peak Travel Jan–Feb 2027</td><td class='add'>+RM 150</td><td>per pax</td></tr><tr><td class='it'>Last Minute 4D3N (&lt;3 minggu)</td><td class='add'>+RM 300 / +RM 200</td><td>2 pax / 3+ pax</td></tr><tr><td class='it'>Last Minute 5D4N (&lt;3 minggu)</td><td class='add'>+RM 400 / +RM 300</td><td>2 pax / 3+ pax</td></tr><tr><td class='it'>Late Booking (&lt;45 hari)</td><td class='add'>+RM 50</td><td>per booking</td></tr><tr><td class='it'>Blackout CNY 2026</td><td class='ded'>Tutup</td><td>16–22 Feb 2026 · tidak available</td></tr><tr><td class='it'>Blackout CNY 2027</td><td class='ded'>Tutup</td><td>17–18 Feb 2027 · tidak available</td></tr></tbody></table></div><div class='custblk'><h3>Peak Season Surcharge — Rate Card 2026 / 2027</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season Windows</td><td>—</td><td>CNY · Raya Aidilfitri & Raya Haji · New Year · Christmas</td></tr><tr><td class='it'>Travel Date 2027 Add-on</td><td class='add'>+RM 100</td><td>per pax · atas harga (1 Jan–30 Jun 2027)</td></tr><tr><td class='it'>Late Booking (&lt;3 minggu)</td><td class='add'>+RM 300 / +RM 200</td><td>2 pax / 3+ pax · per pax</td></tr><tr><td class='it'>Block Date CNY 2027</td><td class='ded'>Tutup</td><td>17–18 Feb 2027</td></tr></tbody></table><p class='custnote'>Kadar last-minute <b>berbeza ikut varian</b>, bukan percanggahan sumber: katalog 4D3N V3 kata 2 pax +RM300/pax &amp; 3 pax ke atas +RM200/pax; katalog 5D4N V3 kata 2 pax +RM400/pax &amp; 3 pax ke atas +RM300/pax. Guna kadar varian yang di-quote.</p></div>",
+   "compare": "<h2>Perbezaan Pakej — 4D3N vs 5D4N</h2><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>4D3N</th><th>5D4N</th></tr></thead><tbody><tr><td class='feat'>Durasi</td><td class='val'>4H 3M</td><td class='val'>5H 4M</td></tr><tr><td class='feat'>Hotel</td><td class='val'>3★ Fullboard</td><td class='val'>3★ Fullboard</td></tr><tr><td class='feat'>Full Meals</td><td class='val'>3B / 3L / 3D</td><td class='val'>4B / 4L / 4D</td></tr><tr><td class='feat'>Local Driving Guide (English)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Tipping Included</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Cable Car Bana Hills</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Coconut Basket Boat</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Champa Museum</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hoi An Old Quarter</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Han River Cruise</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Marble Mountain</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Asia Park Danang</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hari penuh di Hoi An</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Harga dari (2 pax)</td><td class='val'>RM 2,177</td><td class='val'>RM 2,377</td></tr><tr><td class='feat'>Harga dari (6–7 / 5–7 pax)</td><td class='val'>RM 1,577</td><td class='val'>RM 2,277</td></tr></tbody></table><p class='custnote'>Kedua-dua Ground & Tipping · Hotel 3★ · selling price sama tak kira operator.</p>",
+   "flight": "<h2>Flight & Airport</h2><h3 style='font-size:14px;margin:8px 0 8px'>️ Flight Recommendation — KUL → Danang (DAD)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Flight No.</th><th>Departs (KUL)</th><th>Arrives (DAD)</th><th>Type</th><th>Est. Round-Trip (RM)</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>AK 642</td><td>9:15 AM</td><td>10:50 AM</td><td>Low Cost</td><td class='add'>RM 600–1,000</td></tr><tr><td class='it'>Batik Air</td><td>OD 502</td><td>10:30 AM</td><td>12:05 PM</td><td>Low Cost</td><td class='add'>RM 500–900</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 746</td><td>8:35 AM</td><td>10:35 AM</td><td>Full Service</td><td class='add'>RM 1,300–1,700</td></tr><tr><td class='it'>Vietjet</td><td>VJ 824</td><td>2:30 PM</td><td>4:10 PM</td><td>Full Service</td><td class='add'>RM 780–900</td></tr></tbody></table><p class='custnote'>Anggaran round-trip (rate card) · pakej Ground sahaja, flight tak termasuk. Danang International Airport (DAD).</p></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' open data-text='free gift untuk campaign atau promo? danang: buffet lunch at bana hill kod: fdadh (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader buffet lunch ini di bana hills (day 2 kedua-dua varian) — halal, diatur operator. disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Danang:</strong> Buffet Lunch at Bana Hill <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FDADH</span> <span style='font-size:12px;color:#6b6b6b'>(All pax)</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p>Buffet lunch ini di Bana Hills (Day 2 kedua-dua varian) &mdash; halal, diatur operator.</p><p><strong>Disclaimer:</strong> <span style='color:var(--greend)'>Sila sahkan dengan PO jika di luar waktu Promo.</span></p></div></details>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub'>Private transport ikut saiz group, sepanjang trip. Tipping sudah termasuk. Bawa maksimum 1 luggage per pax (kapasiti kenderaan).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2&#8211;4</td><td>MPV 7-seater</td><td>Private &middot; driver + guide</td></tr><tr><td class='it'>5&#8211;12</td><td>Van 16-seater</td><td>Private</td></tr><tr><td class='it'>13&#8211;15</td><td>Mini bus 25-seater</td><td>Private</td></tr></tbody></table></div><div class='custblk'><h3>Guide &mdash; baca ini sebelum quote</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Fakta katalog V3</th></tr></thead><tbody><tr><td class='it'>Jenis guide</td><td class='add'>Local Driving Guide (English Speaking)</td></tr><tr><td class='it'>Warganegara</td><td>Penduduk tempatan Vietnam</td></tr><tr><td class='it'>Agama</td><td class='ded'><b>Bukan Muslim</b></td></tr><tr><td class='it'>Bahasa</td><td class='ded'><b>English sahaja</b> &mdash; tidak bertutur Melayu</td></tr><tr><td class='it'>Peranan</td><td>Driving guide (memandu + memandu arah), waktu fleksibel</td></tr><tr><td class='it'>Tipping</td><td>Sudah termasuk &mdash; customer tidak perlu bayar tambahan</td></tr></tbody></table><p class='custnote'><b>Jangan janjikan guide Muslim atau guide berbahasa Melayu untuk pakej Danang&ndash;Hoi An.</b> Katalog V3 kedua-dua varian menyatakan <i>Local Driving Guide (English Speaking)</i>. Ini berbeza daripada pakej HCM&ndash;Dalat&ndash;Mui Ne yang memang ada guide Muslim berbahasa Melayu &mdash; jangan campur dua-dua produk.</p></div><details class='qa' open data-text='apa yang tc perlu beritahu customer awal komunikasi sepanjang trip dalam english . untuk group warga emas atau yang kurang english, sarankan seorang ahli keluarga bertindak sebagai penterjemah. guide tidak akan ingatkan waktu solat secara automatik — customer perlu minta stop solat secara jelas dan guna app waktu solat sendiri. restoran halal sudah ditempah oleh operator , bukan dipilih guide di tempat. jadi status halal tidak terjejas walaupun guide bukan muslim. penduduk tempatan danang/hoi an terhad english — guide tetap membantu translate dengan penduduk tempatan. jika customer mesti ada guide muslim berbahasa melayu, maklum consultant awal supaya boleh cadangkan destinasi lain.'><summary><span class='tw'>&#9654;</span><span>Apa yang TC perlu beritahu customer awal</span></summary><div class='ans'><ul><li>Komunikasi sepanjang trip dalam <b>English</b>. Untuk group warga emas atau yang kurang English, sarankan seorang ahli keluarga bertindak sebagai penterjemah.</li><li>Guide <b>tidak akan ingatkan waktu solat</b> secara automatik &mdash; customer perlu minta stop solat secara jelas dan guna app waktu solat sendiri.</li><li>Restoran halal <b>sudah ditempah oleh operator</b>, bukan dipilih guide di tempat. Jadi status halal tidak terjejas walaupun guide bukan Muslim.</li><li>Penduduk tempatan Danang/Hoi An terhad English &mdash; guide tetap membantu translate dengan penduduk tempatan.</li><li>Jika customer <b>mesti</b> ada guide Muslim berbahasa Melayu, maklum consultant awal supaya boleh cadangkan destinasi lain.</li></ul></div></details>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel <b>3&#9733;</b> (default) di Danang, sarapan included semua malam. Upgrade <b>4&#9733; +RM140</b> atau <b>5&#9733; +RM320</b> per pax per malam. Malam tambahan: 3&#9733; RM100 &middot; 4&#9733; RM240 &middot; 5&#9733; RM350 per pax. Lihat tab <b>Simple Customisation</b> untuk jadual penuh.</p>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi kedua-dua varian. Susunan boleh berubah ikut cuaca, trafik &amp; keadaan jalan tanpa notis terlebih dahulu.</p><div class='custblk' style='max-width:470px;margin:0 auto 18px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Danang&ndash;Hoi An 4H3M</div><img src='@asset:b5b269d9780f' alt='Route Map PT Danang-Hoi An 4H3M' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>DAD &#8594; Danang &#8594; Bana Hills &#8594; Danang city &#8594; Hoi An &#8594; DAD. Semua dalam radius pendek &mdash; tiada long drive.</div></div><div class='custblk' style='max-width:470px;margin:0 auto 18px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Danang&ndash;Hoi An 5H4M</div><img src='@asset:a87c580c7acc' alt='Route Map PT Danang-Hoi An 5H4M' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>Sama laluan, tambah <b>Marble Mountain</b>, <b>Han River Cruise</b> &amp; <b>Asia Park</b>; Hoi An dipindah ke Day 4.</div></div><details class='qa' open data-text='susunan hari — 4h3m day 1 — tiba dad (syor sebelum 12 tengah hari), airport pickup, champa museum, check in, free &amp; easy danang beach, night market. day 2 — cable car bana hills, french village, golden bridge &amp; fantasy park, son tra night market. alpine coaster optional (rm50/pax). day 3 — love bridge, dragon bridge, shopping danang, hoi an old quarter, coconut basket boat. day 4 — free &amp; easy, transfer ke dad (syor berlepas 11am ke atas).'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 4H3M</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Tiba DAD (syor sebelum 12 tengah hari), airport pickup, Champa Museum, check in, free &amp; easy Danang Beach, night market.</li><li><strong>Day 2</strong> &mdash; Cable car Bana Hills, French Village, Golden Bridge &amp; Fantasy Park, Son Tra Night Market. Alpine Coaster optional (RM50/pax).</li><li><strong>Day 3</strong> &mdash; Love Bridge, Dragon Bridge, shopping Danang, Hoi An Old Quarter, Coconut Basket Boat.</li><li><strong>Day 4</strong> &mdash; Free &amp; easy, transfer ke DAD (syor berlepas 11am ke atas).</li></ul></div></details><details class='qa' data-text='susunan hari — 5h4m day 1 — tiba dad, airport pickup, check in, free &amp; easy danang beach. day 2 — cable car bana hills, french village, golden bridge &amp; fantasy park, son tra night market. day 3 — love bridge, shopping danang, asia park danang, dragon bridge, han river cruise . day 4 — champa museum, hoi an old quarter, coconut basket boat. day 5 — free &amp; easy, transfer ke dad. 5h4m tambah marble mountain , han river cruise dan asia park , plus satu malam extra — sesuai untuk customer yang mahu lebih santai.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 5H4M</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Tiba DAD, airport pickup, check in, free &amp; easy Danang Beach.</li><li><strong>Day 2</strong> &mdash; Cable car Bana Hills, French Village, Golden Bridge &amp; Fantasy Park, Son Tra Night Market.</li><li><strong>Day 3</strong> &mdash; Love Bridge, shopping Danang, Asia Park Danang, Dragon Bridge, <b>Han River Cruise</b>.</li><li><strong>Day 4</strong> &mdash; Champa Museum, Hoi An Old Quarter, Coconut Basket Boat.</li><li><strong>Day 5</strong> &mdash; Free &amp; easy, transfer ke DAD.</li></ul><p>5H4M tambah <b>Marble Mountain</b>, <b>Han River Cruise</b> dan <b>Asia Park</b>, plus satu malam extra &mdash; sesuai untuk customer yang mahu lebih santai.</p></div></details>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub'>Fullboard halal ikut katalog: <b>4H3M 3B/3L/3D</b> &middot; <b>5H4M 4B/4L/4D</b>. Semua makan diuruskan operator di restoran halal. Tipping sudah termasuk.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Kawasan</th><th>Situasi halal</th><th>Nota untuk TC</th></tr></thead><tbody><tr><td class='it'>Danang</td><td class='add'>Ada</td><td>Pilihan halal paling banyak, terutama sekitar Son Tra District. Kebanyakan makan diatur di Danang.</td></tr><tr><td class='it'>Hoi An</td><td>Terhad</td><td>Pilihan halal dalam Hoi An Old Quarter <b>lebih terhad</b> &mdash; makan biasanya diatur kembali di Danang atau di restoran halal terpilih.</td></tr><tr><td class='it'>Bana Hills</td><td>Diatur</td><td>Halal buffet lunch boleh diatur (ini juga free gift campaign). Ada bilik solat di tingkat 5 bangunan Arapang, French Village.</td></tr></tbody></table><p class='custnote'>Meals termasuk dalam pakej &mdash; tiada refund jika customer tidak makan.</p></div><details class='qa' open data-text='guide bukan muslim — apa implikasinya kepada makanan &amp; solat? ikut katalog v3, guide ialah local driving guide (english speaking) — penduduk tempatan vietnam, bukan muslim dan tidak bertutur melayu . ini tidak bermakna makanan tidak halal: senarai restoran halal ditetapkan oleh operator , bukan dipilih guide secara spontan. makanan: semua lunch &amp; dinner sudah ditempah awal di restoran halal oleh operator. guide hanya bawa ke lokasi yang telah ditetapkan. solat: guide tidak akan ingatkan waktu solat secara automatik. sarankan customer minta stop solat secara jelas dan guna app waktu solat sendiri. bahasa: komunikasi dalam english . untuk group warga emas yang kurang english, sarankan seorang ahli keluarga jadi penterjemah. jika customer mahu guide muslim berbahasa melayu, itu produk berbeza — maklum consultant awal, jangan janjikan.'><summary><span class='tw'>&#9654;</span><span>Guide bukan Muslim &mdash; apa implikasinya kepada makanan &amp; solat?</span></summary><div class='ans'><p>Ikut katalog V3, guide ialah <b>Local Driving Guide (English Speaking)</b> &mdash; penduduk tempatan Vietnam, <b>bukan Muslim</b> dan <b>tidak bertutur Melayu</b>. Ini <b>tidak</b> bermakna makanan tidak halal: senarai restoran halal ditetapkan oleh <b>operator</b>, bukan dipilih guide secara spontan.</p><ul><li><b>Makanan:</b> semua lunch &amp; dinner sudah ditempah awal di restoran halal oleh operator. Guide hanya bawa ke lokasi yang telah ditetapkan.</li><li><b>Solat:</b> guide tidak akan ingatkan waktu solat secara automatik. Sarankan customer <b>minta stop solat secara jelas</b> dan guna app waktu solat sendiri.</li><li><b>Bahasa:</b> komunikasi dalam <b>English</b>. Untuk group warga emas yang kurang English, sarankan seorang ahli keluarga jadi penterjemah.</li><li>Jika customer mahu guide Muslim berbahasa Melayu, itu produk berbeza &mdash; maklum consultant awal, jangan janjikan.</li></ul></div></details><details class='qa' data-text='boleh bawa makanan sendiri? boleh — mi segera, biskut, snack kering dibenarkan, tetapi biasanya tidak perlu kerana fullboard sudah cukup. elak daging, ayam, buah &amp; sayur segar (halangan kastam). makanan bayi boleh dibawa dalam cabin dalam pek asal berlabel; air panas boleh diminta dari kru penerbangan.'><summary><span class='tw'>&#9654;</span><span>Boleh bawa makanan sendiri?</span></summary><div class='ans'><p>Boleh &mdash; mi segera, biskut, snack kering dibenarkan, tetapi biasanya tidak perlu kerana fullboard sudah cukup. Elak daging, ayam, buah &amp; sayur segar (halangan kastam). Makanan bayi boleh dibawa dalam cabin dalam pek asal berlabel; air panas boleh diminta dari kru penerbangan.</p></div></details><details class='qa' data-text='solat — di mana? bana hills: ada bilik solat/surau di tingkat 5 bangunan arapang, french village (naik lif). danang &amp; hoi an: tiada surau di kebanyakan attraction — solat jamak/qasar di hotel, atau di ruang lapang untuk kawasan terbuka seperti marble mountain. wajib bawa telekung, sejadah lipat dan botol kecil untuk wudhu — tandas di vietnam biasanya tiada getah paip. ingatkan customer: guide bukan muslim , jadi minta stop solat secara jelas.'><summary><span class='tw'>&#9654;</span><span>Solat &mdash; di mana?</span></summary><div class='ans'><ul><li><b>Bana Hills:</b> ada bilik solat/surau di tingkat 5 bangunan Arapang, French Village (naik lif).</li><li><b>Danang &amp; Hoi An:</b> tiada surau di kebanyakan attraction &mdash; solat jamak/qasar di hotel, atau di ruang lapang untuk kawasan terbuka seperti Marble Mountain.</li><li>Wajib bawa telekung, sejadah lipat dan botol kecil untuk wudhu &mdash; tandas di Vietnam biasanya tiada getah paip.</li><li>Ingatkan customer: <b>guide bukan Muslim</b>, jadi minta stop solat secara jelas.</li></ul></div></details>"
+  },
+  "snapshot": "# PT Danang Hoi An — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Dua varian: 4D3N (3 malam) dan 5D4N (4 malam). Kedua-dua Ground & Tipping, Hotel 3-Star Fullboard, Local Driving Guide (English Speaking). Selling price sama tak kira operator — sahkan dengan consultant.*\n\n- Harga sah 24 jam selepas quotation submission.\n- Harga based 2–3 orang per bilik; single supplement dikira berasingan (4D3N +RM240, 5D4N +RM320).\n- Deposit RM250/pax; bayaran penuh 45 hari sebelum departure.\n- Late Booking Surcharge RM50/booking jika booking <45 hari sebelum departure.\n- Last Minute Surcharge jika booking <3 minggu (rujuk tab Surcharge).\n- Blackout CNY 2026 (16–22 Feb) & CNY 2027 (17–18 Feb) — tour TIDAK available.\n- Surcharge peak Jan–Feb 2027: +RM150/pax.\n- Itinerari, harga & flight boleh berubah (cuaca/traffic/safety). Final itinerary & hotel 14 hari sebelum trip.\n- Aktiviti FREE tidak boleh ditukar dengan voucher/cash jika tidak join atau kerana availability/cuaca.\n- Pakej Ground sahaja — flight tidak termasuk. Sila check dengan staff sebelum book connecting flight.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa beza pakej 4D3N dan 5D4N?**\n5D4N tambah 1 hari penuh di Hoi An + Marble Mountain + Han River Cruise (FREE) dan Asia Park. 4D3N lebih padat: Danang, Bana Hills, dan gabungan city tour + Hoi An dalam satu hari.\n\n**Apa yang menarik di Danang & Hoi An?**\nTheme park Bana Hills (cable car + Golden Bridge + Fantasy Park), Hoi An Old Quarter (UNESCO), Dragon Bridge, Han River, Coconut Basket Boat, dan Marble Mountain.\n\n**Macam mana lawatan Bana Hills?**\nNaik cable car terpanjang dunia ke puncak (Included). Lawat Golden Bridge, French Village & Fantasy Park. Alpine Coaster optional (+RM50). Sejuk di puncak — bawa jaket.\n\n**Hoi An lawat ke mana?**\nHoi An Old Quarter (UNESCO) — tanglung, Japanese Covered Bridge, kedai sutera. 5D4N tambah Marble Mountain. Banyak berjalan (zon pejalan kaki).\n\n**Coconut Basket Boat sesuai untuk warga emas/kanak-kanak?**\nSesuai — bot buluh tradisional yang santai. Tetapi warga emas dengan masalah belakang atau anak terlalu kecil perlu berhati-hati semasa naik/turun bot.\n\n**Sesuai untuk OKU wheelchair?**\nSesuai untuk warga emas yang sihat & aktif. Tidak sesuai untuk OKU wheelchair atau masalah mobiliti serius kerana banyak berjalan & tangga.\n\n**Boleh travel sepanjang tahun?**\nBoleh, tapi elak CNY (Feb — blackout & ramai pelancong) dan musim hujan Sep–Jan. Terbaik Feb–Mei.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal disediakan?**\nYa — full board di restoran halal (4D3N: 3B/3L/3D; 5D4N: 4B/4L/4D). Operator kami Muslim-operated, jadi makanan halal dijaga sepanjang trip. Bana Hills ada halal buffet lunch.\n\n**Susah cari halal di Hoi An?**\nPilihan halal di dalam Hoi An lebih terhad berbanding Danang (Son Tra). Guide akan atur makan halal (biasanya di Danang) dan pastikan waktu makan lancar.\n\n**Ada masjid atau surau untuk solat?**\nYa. Masjid Al-Noor (Da Nang Mosque) di Son Tra District ialah masjid utama kota (ada solat Jumaat). Di Bana Hills ada bilik solat di tingkat 5 bangunan Arapang, French Village. Guide bantu cari surau/ruang solat di lokasi lain.\n\n**Perlu bawa sejadah & telekung sendiri?**\nDisarankan bawa sejadah lipat & telekung, terutama untuk Hoi An & tempat terbuka di mana surau mungkin terhad.\n\n### C. Visa & Passport\n\n**Rakyat Malaysia perlu visa ke Vietnam?**\nTidak — Malaysia visa-free ke Vietnam sehingga 30 hari. Untuk tinggal lebih lama, boleh mohon e-Visa (sehingga 90 hari).\n\n**Syarat passport?**\nPassport mesti sah sekurang-kurangnya 6 bulan dari tarikh perjalanan, dengan sekurang-kurangnya 2 muka surat kosong.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak — pakej Ground sahaja. Flight, luggage, in-flight meal & airport tax adalah excluded.\n\n**Flight apa dari KL ke Danang?**\nDirect dari KUL ke Danang International Airport (DAD) — AirAsia, Batik Air, Malaysia Airlines & VietJet. Masa penerbangan lebih kurang 2j 35min – 2j 50min.\n\n**Kalau flight delay macam mana?**\nMaklum ARBA secepat mungkin. Guide akan adjust itinerari. Aktiviti FREE yang terlepas (cth Han River Cruise) mungkin tidak dapat diganti.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\nHotel 3-Star (default) — LA Beach Hotel / Golden Rose Hotel atau setaraf, sarapan included. Prioriti dekat city centre; jika penuh, lokasi mungkin di luar sedikit.\n\n**Boleh upgrade hotel 4-Star?**\nBoleh — RHM Hotel / Santa Luxury Hotel, +RM140/pax/malam.\n\n**Bilik untuk berapa orang?**\nHarga based 2–3 orang per bilik. Single occupancy dikenakan single supplement (4D3N +RM240, 5D4N +RM320).\n\n### F. Cuaca & Musim\n\n**Bila waktu terbaik untuk travel?**\nFebruari–Mei — kering, selesa (20–28°C), sesuai sightseeing. Elak CNY (ramai pelancong) dan Sep–Jan (musim hujan + risiko taufan).\n\n**Cuaca Danang & Hoi An macam mana?**\nMusim kering Feb–Ogos (panas Jun–Ogos boleh cecah 40°C). Musim hujan Sep–Jan, hujan lebat berkala & Hoi An kadang banjir. Bana Hills (1,489m) sejuk sepanjang tahun.\n\n### G. Shopping & Duit\n\n**Guna duit apa & tukar di mana?**\nVietnamese Dong (VND) — lebih kurang 1 RM ≈ 5,800 VND. Tukar di Danang airport atau Han Market. Cash disarankan RM1,500–2,500/pax.\n\n**Boleh guna kad / cashless?**\nMall & restoran tourist di Danang terima kad. Night market & kedai jahit Hoi An guna cash — bawa VND (nota 100K–500K).\n\n**Beli apa sebagai cenderamata?**\nSutera & pakaian tailor Hoi An, kopi Vietnam, ukiran marmar (Marble Mountain), tanglung, dan snek tempatan.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM250/pax semasa booking. Baki bayaran penuh 45 hari sebelum departure.\n\n**Ada surcharge last minute?**\nYa, jika booking <3 minggu: 4D3N 2 pax +RM300 / 3+ pax +RM200; 5D4N 2 pax +RM400 / 3+ pax +RM300. Late booking <45 hari +RM50/booking.\n\n**Boleh bayar ansuran?**\nDeposit RM250 cukup untuk confirm. Baki boleh diselesaikan sebelum tarikh full payment (45 hari sebelum departure).\n\n### I. Add-ons & Customization\n\n**Apa add-on yang ada?**\nAlpine Coaster Bana Hill (+RM50), Hoi An Memories Show (+RM110), extra meal (+RM30/meal), pocket wifi (RM80–175), travel takaful (dari RM45), luggage tracker (RM20–70).\n\n**Aktiviti luar itinerari kena bayar?**\nYa — aktiviti yang tiada dalam itinerari kena dibayar sendiri oleh customer.\n\n### J. Kesihatan & Keselamatan\n\n**Travel insurance/takaful wajib?**\nTidak termasuk tapi sangat disarankan — terutama untuk cable car Bana Hills & Coconut Basket Boat. Boleh tambah Etiqa TripCare 360 dari RM45/pax.\n\n**Ada banyak berjalan?**\nYa — Bana Hills (4–6 jam termasuk cable car & park) dan Hoi An Old Quarter (zon pejalan kaki). Pakai kasut selesa.\n\n### K. Praktikal (SIM / Internet / Komunikasi)\n\n**Internet & SIM macam mana?**\nBoleh beli pocket wifi sebagai add-on, atau eSIM Viettel/Vinaphone. Coverage 4G baik di Danang, Hoi An & Bana Hills.\n\n**Guide Muslim ke? Boleh cakap Melayu?**\n**Tidak.** Katalog V3 kedua-dua varian menyatakan **Local Driving Guide (English Speaking)** — penduduk tempatan Vietnam, **bukan Muslim** dan **tidak bertutur Melayu**. Komunikasi sepanjang trip dalam **English**. Jangan janjikan guide Muslim atau guide Melayu untuk pakej ini. (Pakej HCM–Dalat–Mui Ne pula memang ada guide Muslim berbahasa Melayu — jangan campur dua-dua produk.)\n\n**Kalau guide bukan Muslim, makanan masih halal?**\nYa. Senarai restoran halal **ditempah awal oleh operator**, bukan dipilih guide di tempat. Guide hanya bawa ke lokasi yang telah ditetapkan. Fullboard halal ikut katalog: 4H3M 3B/3L/3D, 5H4M 4B/4L/4D.\n\n**Guide akan ingatkan waktu solat?**\n**Tidak secara automatik** kerana guide bukan Muslim. Sarankan customer **minta stop solat secara jelas** dan guna app waktu solat sendiri. Guide fleksibel dan akan berhenti bila diminta.\n\n**Customer kurang English — macam mana?**\nSarankan seorang ahli keluarga bertindak sebagai penterjemah, terutama untuk group warga emas. Guide tetap membantu translate dengan penduduk tempatan (yang terhad English).\n\n### L. Packing\n\n**Apa perlu bawa?**\nPakaian ringan & selesa, jaket nipis untuk Bana Hills (15–22°C), baju hujan/payung untuk Sep–Jan, kasut selesa untuk berjalan, sejadah lipat & telekung, dan cash VND. Max 1 luggage/pax.\n"
+ },
+ "calc": {
+  "dest": "Danang - Hoi An",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-8)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+  "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Guide:</b> Local Driving Guide berbahasa English sahaja, bukan Muslim dan tidak bertutur Melayu &mdash; jangan janjikan sebaliknya. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027).",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 30,
+   "drop": 20
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 100,
+    "peak": 100
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 25,
+   "shareVehicle": true,
+   "autoNights": false,
+   "rates": {
+    "up4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 140,
+       "peak": 140
+      }
+     ]
+    },
+    "up5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 320,
+       "peak": 320
+      }
+     ]
+    },
+    "h4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 240,
+       "peak": 240
+      }
+     ]
+    },
+    "h5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 350,
+       "peak": 350
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -50,
+       "peak": -50
+      }
+     ]
+    },
+    "nightShort4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -120,
+       "peak": -120
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang &middot; LA Beach / Golden Rose (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade hotel 4 bintang &middot; RHM / Santa Luxury",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - RHM Hotel or Santa Luxury Hotel ({days})"
+   },
+   {
+    "v": "up5",
+    "t": "Upgrade hotel 5 bintang &middot; Nalod / Grand Sunrise",
+    "cost": "incl",
+    "perPaxRate": "up5",
+    "hotel": "5-Star Hotel",
+    "incl": "5-Star hotel upgrade - Nalod Hotel Danang or Grand Sunrise Hotel Hoi An ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; hotel 4 bintang",
+    "cost": "night",
+    "nightRate": "h4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "n5",
+    "t": "Malam tambahan &middot; hotel 5 bintang",
+    "cost": "night",
+    "nightRate": "h5",
+    "hotel": "5-Star Hotel",
+    "line": "Additional night, 5-Star hotel",
+    "incl": "Additional night at 5-Star Hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tolak 1 malam &middot; hotel 3 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "noht4",
+    "t": "Tolak 1 malam &middot; hotel 4 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort4",
+    "dropsNight": true,
+    "line": "Package night removed (4-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Local Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Local Driving Guide",
+    "incl": "Private transportation with local driving guide (English spoken) ({days})"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Airport Transfer",
+    "incl": "Private airport transfer ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "zero",
+    "guided": true,
+    "perPax": 50,
+    "lbl": "Private Transport + Local Driving Guide",
+    "line": "Additional day, private transport with local driving guide",
+    "incl": "Additional day private transportation with local driving guide ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "L4d1",
+    "t": "Ketibaan Danang - Champa Museum",
+    "en": "ARRIVAL - DANANG",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Danang]",
+    "act": [
+     "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+     "Airport pickup",
+     "Champa Museum (termasuk)",
+     "Check-in hotel 3 bintang",
+     "Free and easy di Danang Beach",
+     "Makan malam dan lawatan night market"
+    ],
+    "eact": [
+     "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+     "Airport pickup",
+     "Champa Museum (included)",
+     "Check in 3-Star hotel",
+     "Free and easy at Danang Beach",
+     "Dinner and night market visit"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d2",
+    "t": "Bana Hills Sunworld tour",
+    "en": "BANA HILLS SUNWORLD TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Bana Hills]",
+    "act": [
+     "Cable Car ke Bana Hills (termasuk)",
+     "French Village",
+     "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+     "Golden Bridge dan Fantasy Park",
+     "Son Tra Night Market"
+    ],
+    "eact": [
+     "Cable car to Bana Hills (included)",
+     "French Village",
+     "Alpine Coaster Ride (optional, paid separately)",
+     "Golden Bridge and Fantasy Park",
+     "Son Tra Night Market"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d3",
+    "t": "Danang city tour - Hoi An",
+    "en": "DANANG CITY TOUR - HOI AN",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Hoi An]",
+    "act": [
+     "Love Bridge",
+     "Dragon Bridge",
+     "Shopping di Danang",
+     "Hoi An Old Quarter (termasuk)",
+     "Coconut Basket Boat (termasuk)"
+    ],
+    "eact": [
+     "Love Bridge",
+     "Dragon Bridge",
+     "Shopping in Danang",
+     "Hoi An Old Quarter (included)",
+     "Coconut Basket Boat Tour (included)"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L4d4",
+    "t": "Free and easy - penerbangan pulang",
+    "en": "FREE AND EASY - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Free and easy",
+     "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+    ],
+    "eact": [
+     "Free and easy",
+     "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+    ],
+    "g": "Blok 4D3N"
+   },
+   {
+    "v": "L5d1",
+    "t": "Ketibaan Danang - Han River Cruise",
+    "en": "ARRIVAL - DANANG",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Danang]",
+    "act": [
+     "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+     "Airport pick-up",
+     "Check-in hotel 3 bintang",
+     "Free and easy di Danang Beach",
+     "Han River Cruise (termasuk)",
+     "Kembali ke hotel"
+    ],
+    "eact": [
+     "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+     "Airport pick-up",
+     "Check in 3-Star hotel",
+     "Free and easy at Danang Beach",
+     "Han River Cruise (included)",
+     "Return to hotel"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d2",
+    "t": "Bana Hills Sunworld tour",
+    "en": "BANA HILLS SUNWORLD TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Bana Hills]",
+    "act": [
+     "Cable Car ke Bana Hills (termasuk)",
+     "French Village",
+     "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+     "Golden Bridge dan Fantasy Park",
+     "Son Tra Night Market"
+    ],
+    "eact": [
+     "Cable car to Bana Hills (included)",
+     "French Village",
+     "Alpine Coaster Ride (optional, paid separately)",
+     "Golden Bridge and Fantasy Park",
+     "Son Tra Night Market"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d3",
+    "t": "Danang city tour",
+    "en": "DANANG CITY TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Danang]",
+    "act": [
+     "Love Bridge",
+     "Shopping di Danang",
+     "Asia Park Danang",
+     "Dragon Bridge"
+    ],
+    "eact": [
+     "Love Bridge",
+     "Shopping in Danang",
+     "Asia Park Danang",
+     "Dragon Bridge"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d4",
+    "t": "Danang - Hoi An",
+    "en": "DANANG - HOI AN",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Hoi An]",
+    "act": [
+     "Champa Museum (termasuk)",
+     "Hoi An Old Quarter (termasuk)",
+     "Coconut Basket Boat Tour (termasuk)"
+    ],
+    "eact": [
+     "Champa Museum (included)",
+     "Hoi An Old Quarter (included)",
+     "Coconut Basket Boat Tour (included)"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "L5d5",
+    "t": "Free and easy - penerbangan pulang",
+    "en": "FREE AND EASY - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Free and easy",
+     "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+    ],
+    "eact": [
+     "Free and easy",
+     "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+    ],
+    "g": "Blok 5D4N"
+   },
+   {
+    "v": "ext",
+    "t": "Hari tambahan - itinerari ikut permintaan customer",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Danang]",
+    "g": "Umum",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fed",
+    "t": "Free and easy - tiada transport",
+    "en": "FREE AND EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "none",
+    "region": "[Danang]",
+    "g": "Umum",
+    "act": [
+     "Free and easy sepanjang hari"
+    ],
+    "eact": [
+     "Free and easy at own leisure"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Alpine Coaster at Bana Hills",
+    50,
+    50
+   ],
+   [
+    "Hoi An Memories Show - high class seat, closed on Tuesday",
+    110,
+    110
+   ],
+   [
+    "Extra meal - breakfast, lunch or dinner",
+    30,
+    30
+   ]
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date surcharge 2027 (January - February)",
+    "dateIn": [
+     "2027-01-01",
+     "2027-02-28"
+    ],
+    "perPax": 150
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 4,
+    "text": "2&ndash;4 pax: MPV 7-seater &middot; private, driver + guide"
+   },
+   {
+    "from": 5,
+    "to": 12,
+    "text": "5&ndash;12 pax: Van 16-seater &middot; private"
+   },
+   {
+    "from": 13,
+    "to": 15,
+    "text": "13&ndash;15 pax: Mini bus 25-seater &middot; private"
+   },
+   {
+    "from": 16,
+    "to": 99999,
+    "text": "16 pax ke atas: di luar jadual harga katalog (4D3N tamat 12 pax, 5D4N tamat 15 pax) &mdash; rujuk consultant"
+   }
+  ],
+  "validity": "Prices follow the PT Danang Hoi An 4D3N and 5D4N 2026 v3 catalogues, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout dates: 16 - 22 February 2026 and 17 - 18 February 2027 (Chinese New Year).",
+  "variants": [
+   {
+    "id": "v4d3n",
+    "name": "PT Danang Hoi An 4D3N (3-Star Fullboard)",
+    "pkgLabel": "Danang - Hoi An: Danang Beach, Bana Hills Cable Car, Coconut Basket Boat Tour",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 240,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 300,
+     "rate3": 200
+    },
+    "ext": {
+     "night": {
+      "normal": 100,
+      "peak": 100
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 25,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 140,
+         "peak": 140
+        }
+       ]
+      },
+      "up5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 350,
+         "peak": 350
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 2217,
+      "c": 2017,
+      "n": 1817
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 2147,
+      "c": 1947,
+      "n": 1747
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 1977,
+      "c": 1777,
+      "n": 1577
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 1777,
+      "c": 1577,
+      "n": 1377
+     },
+     {
+      "from": 8,
+      "to": 12,
+      "a": 1677,
+      "c": 1477,
+      "n": 1277
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan Danang - Champa Museum",
+      "en": "ARRIVAL - DANANG",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Danang]",
+      "act": [
+       "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+       "Airport pickup",
+       "Champa Museum (termasuk)",
+       "Check-in hotel 3 bintang",
+       "Free and easy di Danang Beach",
+       "Makan malam dan lawatan night market"
+      ],
+      "eact": [
+       "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+       "Airport pickup",
+       "Champa Museum (included)",
+       "Check in 3-Star hotel",
+       "Free and easy at Danang Beach",
+       "Dinner and night market visit"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Bana Hills Sunworld tour",
+      "en": "BANA HILLS SUNWORLD TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Bana Hills]",
+      "act": [
+       "Cable Car ke Bana Hills (termasuk)",
+       "French Village",
+       "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+       "Golden Bridge dan Fantasy Park",
+       "Son Tra Night Market"
+      ],
+      "eact": [
+       "Cable car to Bana Hills (included)",
+       "French Village",
+       "Alpine Coaster Ride (optional, paid separately)",
+       "Golden Bridge and Fantasy Park",
+       "Son Tra Night Market"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Danang city tour - Hoi An",
+      "en": "DANANG CITY TOUR - HOI AN",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Hoi An]",
+      "act": [
+       "Love Bridge",
+       "Dragon Bridge",
+       "Shopping di Danang",
+       "Hoi An Old Quarter (termasuk)",
+       "Coconut Basket Boat (termasuk)"
+      ],
+      "eact": [
+       "Love Bridge",
+       "Dragon Bridge",
+       "Shopping in Danang",
+       "Hoi An Old Quarter (included)",
+       "Coconut Basket Boat Tour (included)"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Free and easy - penerbangan pulang",
+      "en": "FREE AND EASY - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Free and easy",
+       "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+      ],
+      "eact": [
+       "Free and easy",
+       "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel",
+     "{auto}",
+     "Entrance fees: Champa Museum and Hoi An Old Quarter",
+     "Coconut Basket Boat Tour",
+     "Cable car ticket to Bana Hills",
+     "Daily breakfast at hotel",
+     "Local driving guide (English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Alpine Coaster ride at Bana Hills"
+    ]
+   },
+   {
+    "id": "v5d4n",
+    "name": "PT Danang Hoi An 5D4N (3-Star Fullboard)",
+    "pkgLabel": "Danang - Hoi An: Han River Cruise, Bana Hills Cable Car, Coconut Basket Boat Tour",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "single": 320,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 400,
+     "rate3": 300
+    },
+    "ext": {
+     "night": {
+      "normal": 100,
+      "peak": 100
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 25,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 140,
+         "peak": 140
+        }
+       ]
+      },
+      "up5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 350,
+         "peak": 350
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 4,
+      "a": 2377,
+      "c": 2177,
+      "n": 1977
+     },
+     {
+      "from": 5,
+      "to": 7,
+      "a": 2277,
+      "c": 2077,
+      "n": 1877
+     },
+     {
+      "from": 8,
+      "to": 10,
+      "a": 2177,
+      "c": 1977,
+      "n": 1777
+     },
+     {
+      "from": 11,
+      "to": 15,
+      "a": 1977,
+      "c": 1777,
+      "n": 1577
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan Danang - Han River Cruise",
+      "en": "ARRIVAL - DANANG",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Danang]",
+      "act": [
+       "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+       "Airport pick-up",
+       "Check-in hotel 3 bintang",
+       "Free and easy di Danang Beach",
+       "Han River Cruise (termasuk)",
+       "Kembali ke hotel"
+      ],
+      "eact": [
+       "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+       "Airport pick-up",
+       "Check in 3-Star hotel",
+       "Free and easy at Danang Beach",
+       "Han River Cruise (included)",
+       "Return to hotel"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Bana Hills Sunworld tour",
+      "en": "BANA HILLS SUNWORLD TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Bana Hills]",
+      "act": [
+       "Cable Car ke Bana Hills (termasuk)",
+       "French Village",
+       "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+       "Golden Bridge dan Fantasy Park",
+       "Son Tra Night Market"
+      ],
+      "eact": [
+       "Cable car to Bana Hills (included)",
+       "French Village",
+       "Alpine Coaster Ride (optional, paid separately)",
+       "Golden Bridge and Fantasy Park",
+       "Son Tra Night Market"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Danang city tour",
+      "en": "DANANG CITY TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Danang]",
+      "act": [
+       "Love Bridge",
+       "Shopping di Danang",
+       "Asia Park Danang",
+       "Dragon Bridge"
+      ],
+      "eact": [
+       "Love Bridge",
+       "Shopping in Danang",
+       "Asia Park Danang",
+       "Dragon Bridge"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Danang - Hoi An",
+      "en": "DANANG - HOI AN",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Hoi An]",
+      "act": [
+       "Champa Museum (termasuk)",
+       "Hoi An Old Quarter (termasuk)",
+       "Coconut Basket Boat Tour (termasuk)"
+      ],
+      "eact": [
+       "Champa Museum (included)",
+       "Hoi An Old Quarter (included)",
+       "Coconut Basket Boat Tour (included)"
+      ]
+     },
+     {
+      "v": "d5",
+      "t": "Free and easy - penerbangan pulang",
+      "en": "FREE AND EASY - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Free and easy",
+       "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+      ],
+      "eact": [
+       "Free and easy",
+       "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel",
+     "{auto}",
+     "Entrance fees: Champa Museum, Marble Mountain, Bana Hills and Hoi An Old Quarter",
+     "Han River Cruise",
+     "Coconut Basket Boat Tour",
+     "Cable car ticket to Bana Hills",
+     "Daily breakfast at hotel",
+     "Local driving guide (English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Alpine Coaster ride at Bana Hills"
+    ]
+   }
+  ]
+ }
+}

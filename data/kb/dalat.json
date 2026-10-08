@@ -1,0 +1,1861 @@
+{
+ "slug": "dalat",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA HCM-Dalat-Mui Ne — Knowledge Base (TC Reference)",
+   "brandTag": "DALAT KB",
+   "kicker": "ARBA HCM · DALAT · MUI NE — KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Private Tour HCM-Dalat-Mui Ne — Taman Bunga Dalat, Sand Dunes Mui Ne, Mekong Delta, shopping borong HCM, halal, flight, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: perlu visa ke Vietnam? · berapa jam HCM ke Dalat? · makanan halal senang dapat? · jeep sand dunes termasuk?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej HCM-Dalat-Mui Ne…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour HCM-Dalat-Mui Ne",
+   "statusText": "Last updated: 5 August 2026",
+   "footerHtml": "Rujukan dalaman TC &mdash; dijana daripada katalog PT HCM-DALAT-MUINE 5D4N 2026 V2 (11 Mac 2026), katalog PT HCM 4D3N 2026 (8 Dis 2025), Travel Map, Flight Recommendation, FAQ Vietnam &amp; Notion Product FAQ. <b>Katalog adalah source of truth.</b> Last updated: 5 August 2026.<br>Harga, itinerari &amp; jadual flight boleh berubah. Requirement muslim-friendly (halal, masjid/surau, solat) adalah baseline setiap pakej.",
+   "marketing": {
+    "anchors": [
+     "Dalat Flower Park & Rainbow Slide (Mongo Land)",
+     "White & Red Sand Dunes, Mui Ne",
+     "Mekong Delta fullday (5D4N)",
+     "Shopping borong HCM & Ben Thanh Market"
+    ],
+    "usp": "USP: 3-in-1 Vietnam Selatan dalam satu trip — bandar (Ho Chi Minh), tanah tinggi sejuk (Dalat) & padang pasir/pantai (Mui Ne). Private tour sepenuhnya: kenderaan & driving guide sendiri (Melayu/English, guide Muslim tempatan), fullboard halal, semua entrance fee ikut itinerari + Rainbow Slide & Alpine Coaster, tipping sudah termasuk. Sesuai family, couple & group shopping.",
+    "season": [
+     [
+      "Nov–Apr",
+      "Musim kering — paling sesuai. Dalat sejuk 12–23°C, HCM/Mui Ne cerah 28–33°C. Terbaik untuk Flower Park & sand dunes."
+     ],
+     [
+      "May–Okt",
+      "Musim hujan — hujan lebat petang, risiko banjir di kawasan Mekong. Boleh jalan tapi set expectation customer."
+     ],
+     [
+      "Cuti sekolah & CNY",
+      "Paling ramai. CNY banyak kedai borong tutup (tempat pelancongan buka seperti biasa) — elak untuk trip shopping."
+     ],
+     [
+      "Jan–Feb 2027",
+      "Travel date 2027: surcharge +RM120/pax (kedua-dua varian, ikut katalog)."
+     ]
+    ],
+    "expect": [
+     "Long drive: HCM–Dalat 6–8 jam · Dalat–Mui Ne 5 jam · Mui Ne–HCM 3 jam. Toilet break disediakan; kurang sesuai untuk yang tak tahan perjalanan jauh.",
+     "Banyak berjalan — Flower Park, Sand Dunes, Datanla, Chu Chi Tunnel. Pakai kasut sport, elak heels.",
+     "Fullboard halal 100% (restoran Muslim) — tiada refund jika customer tak makan.",
+     "Solat kerap dijamak / 'on road' — bawa sejadah kecil, telekung & botol spray untuk wuduk (tandas tiada hos).",
+     "Dalat sejuk malam (12–15°C) — wajib bawa sweater/light jacket. HCM & Mui Ne panas.",
+     "Vape / e-cigarette DILARANG masuk Vietnam (sejak 1 Jan 2025) — kompaun tinggi & risiko ditahan di lapangan terbang.",
+     "Bawa VND tunai — banyak kedai borong & pasar hanya terima tunai."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT HCM-Dalat-Mui Ne 5D4N",
+    "tag": "5D4N · 3★ Fullboard",
+    "sub": "Flagship 3-in-1: HCM · Dalat · Mui Ne + Mekong Delta",
+    "emoji": "🌸",
+    "img": "@asset:1dd9ed5b99d4",
+    "intro": "Pakej lengkap 5 hari 4 malam menggabungkan tiga wajah Vietnam Selatan: hiruk-pikuk bandar Ho Chi Minh, kesejukan tanah tinggi Dalat (Taman Bunga, Datanla), dan padang pasir Mui Ne — ditambah tur sehari penuh Mekong Delta. Sesuai untuk keluarga & pasangan yang mahu pengalaman pelbagai dalam satu trip. Guide Melayu/English, tipping & fullboard halal termasuk.",
+    "inc": [
+     "4 malam hotel 3★ (Dalat + HCM)",
+     "Pengangkutan peribadi sepanjang trip",
+     "Yuran masuk ikut itinerari (Mongo Land, Flower Park, Datanla, Railway Station, Mekong)",
+     "Fullboard 4B / 4L / 4D (restoran halal)",
+     "Driving/Tour Guide Melayu/English",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik",
+     "Bagasi, in-flight meal & airport tax",
+     "Aktiviti JEEP & ATV @ Sand Dunes (optional)",
+     "Tur & makanan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Long drive: HCM-Dalat 6-8 jam, Dalat-Mui Ne 5 jam, Mui Ne-HCM 3 jam. Tiba HCM sebelum 12 tengah hari (Hari 1); berlepas 3pm & sebelum (Hari 5). Single supplement +RM320/pax."
+   },
+   {
+    "n": "PT HCM 4D3N (Shopping Tour)",
+    "tag": "4D3N · 3★ Fullboard",
+    "sub": "HCM sahaja: Shopping · Mekong River · Chu Chi Tunnel",
+    "emoji": "🛍️",
+    "img": "@asset:4856c0db5bc5",
+    "intro": "Pakej padat 4 hari 3 malam fokus di Ho Chi Minh — surga shopping borong (baju kurung, tudung, telekung, kasut, beg), tur Mekong Delta, dan Chu Chi Tunnel bersejarah. Pilihan lebih jimat & santai tanpa long drive ke Dalat. Sesuai untuk yang mahu shopping puas + sejarah dalam masa singkat.",
+    "inc": [
+     "3 malam hotel 3★ (Ho Chi Minh)",
+     "Pengangkutan peribadi",
+     "Yuran masuk (ikut itinerari)",
+     "Fullboard 3B / 3L / 3D (restoran halal)",
+     "Driving Guide Melayu/English",
+     "Tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik",
+     "Bagasi, in-flight meal & airport tax",
+     "Tur & makanan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Tiba HCM sebelum 12 tengah hari (Hari 1); berlepas 2pm onwards (Hari 4). Single supplement dipetik atas permintaan (lebih kurang +RM240/pax)."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan SGN → Transfer ke Dalat",
+     "m": "L / D",
+     "a": [
+      "Tiba Tan Son Nhat International Airport (SGN), HCM",
+      "Land transfer ke Dalat (6-8 jam pemanduan)",
+      "Check-in hotel Dalat"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Dalat Fullday Tour",
+     "m": "B / L / D",
+     "a": [
+      "Mongo Land (Rainbow Slide included)",
+      "Flower Park (taman bunga terbesar di Dalat)",
+      "Mei Linh Coffee Garden (rasa kopi ladang segar)",
+      "Shopping Amee Wholesale (pasar fesyen)",
+      "Datanla Waterfall (roller coaster/alpine coaster included)",
+      "Railway Station (laluan kereta api bersejarah)",
+      "Free & easy"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Mui Ne Fullday → Transfer HCM",
+     "m": "B / L / D",
+     "a": [
+      "Land transfer ke Mui Ne (5 jam)",
+      "White Sand Dunes (satu-satunya padang pasir di Asia Tenggara)",
+      "Red Sand Dunes (JEEP & ATV optional)",
+      "Fishing Village (pantai & perahu nelayan)",
+      "Land transfer ke HCM (3 jam)",
+      "Singgah Gudang Shopping (telekung, tudung)",
+      "Check-in hotel HCM, Free & easy Malaysia Street & Ben Thanh Market"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Mekong River Fullday Tour",
+     "m": "B / L / D",
+     "a": [
+      "Mekong Tour: Delta Sungai Tien (Pulau Dragon, Unicorn, Tortoise, Phoenix)",
+      "Honey Bee-farm (teh madu lemon)",
+      "Coconut candy workshop",
+      "Naik pedati kuda (horse-cart)",
+      "Soai Kinh Lam Fabric Market (pasar kain terbesar)",
+      "Free & easy — street night market"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "HCM → Pulang KL",
+     "m": "B",
+     "a": [
+      "Free & easy — Shopping Ben Thanh Market",
+      "Transfer ke Tan Son Nhat International Airport (SGN)",
+      "Berlepas 3pm & sebelum"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan HCM — Shopping Tour",
+     "m": "L / D",
+     "a": [
+      "Tiba Tan Son Nhat International Airport (SGN)",
+      "Wholesale Shopping Tour — baju kurung, tudung, telekung, kasut & beg",
+      "Free & easy — street night market"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Mekong River — Shopping/Food Tour",
+     "m": "B / L / D",
+     "a": [
+      "Mekong Tour: Delta Sungai Tien (Pulau Dragon, Unicorn, Tortoise, Phoenix)",
+      "Honey Bee-farm (teh madu lemon)",
+      "Coconut candy workshop",
+      "Naik pedati kuda (horse-cart)",
+      "Lawat/solat @ Masjid My Tho",
+      "Wholesale market (Dainy/Sarah)",
+      "Free & easy — street night market"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Chu Chi Tunnel — City — Shopping",
+     "m": "B / L / D",
+     "a": [
+      "Chu Chi Tunnel Tour (terowong bawah tanah zaman Perang Vietnam)",
+      "Lawat/solat @ Masjid Jamia Al Muslimin",
+      "War Remnants Museum",
+      "Central Post Office (pejabat pos terbesar Vietnam)",
+      "Notre Dame Cathedral & Opera House (foto luar)",
+      "Shopping — Taka Plaza, Saigon Square"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Shopping Tour → Departure",
+     "m": "B",
+     "a": [
+      "Shopping Ben Thanh Market",
+      "Transfer ke Tan Son Nhat International Airport (SGN)",
+      "Berlepas 2pm onwards"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Dalat Flower Park",
+    "t": "Dalat · Taman",
+    "emoji": "🌷",
+    "img": "@asset:f11c9b84abb1",
+    "short": "Taman bunga terbesar di Dalat",
+    "intro": "Taman bunga terbesar di Dalat dengan ribuan spesies bunga berwarna-warni sepanjang tahun. Antara spot foto paling popular dalam pakej — suasana sejuk 'City of Eternal Spring'.",
+    "hi": [
+     "Ribuan spesies bunga & taman bertingkat",
+     "Spot foto keluarga terbaik",
+     "Suasana sejuk sepanjang tahun"
+    ],
+    "best": "Nov–Apr (musim kering) waktu pagi — cerah & sejuk.",
+    "muslim": "Tiada surau dalam taman. Solat Zohor/Asar biasanya dijamak — guide bantu cari surau/restoran halal berhampiran. Bawa sejadah kecil.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dalat+Flower+Park+Vietnam"
+   },
+   {
+    "n": "Mongo Land (Rainbow Slide)",
+    "t": "Dalat · Aktiviti",
+    "emoji": "🌈",
+    "img": "@asset:4de0f33c28df",
+    "short": "Rainbow Slide & taman tema alam",
+    "intro": "Taman rekreasi Dalat terkenal dengan 'Rainbow Slide' pelangi dan latar tasik/bukit yang cantik. Aktiviti santai sesuai keluarga.",
+    "hi": [
+     "Rainbow Slide (included)",
+     "Latar tasik & bukit untuk foto",
+     "Santai, mesra kanak-kanak"
+    ],
+    "best": "Pagi hingga tengah hari, cuaca cerah.",
+    "muslim": "Tiada surau di lokasi. Makan tengah hari diatur di restoran halal oleh guide; solat dijamak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mongo+Land+Dalat"
+   },
+   {
+    "n": "Datanla Waterfall (Alpine Coaster)",
+    "t": "Dalat · Aktiviti",
+    "emoji": "🎢",
+    "img": "@asset:c7c50a50edaa",
+    "short": "Air terjun + roller/alpine coaster",
+    "intro": "Air terjun Datanla dengan alpine/roller coaster menuruni hutan — antara aktiviti paling seronok di Dalat. Coaster naik-turun sendiri ikut kelajuan anda.",
+    "hi": [
+     "Alpine/roller coaster ke air terjun",
+     "Pemandangan hutan hijau",
+     "Adrenalin ringan untuk semua umur"
+    ],
+    "best": "Cuaca kering (elak licin waktu hujan).",
+    "muslim": "Tiada surau. Solat dijamak; guide uruskan makan di restoran halal. Alpine coaster mungkin kurang sesuai untuk warga emas / anak sangat kecil.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Datanla+Waterfall+Dalat"
+   },
+   {
+    "n": "Dalat Railway Station",
+    "t": "Dalat · Warisan",
+    "emoji": "🚂",
+    "img": "@asset:15e7a387d143",
+    "short": "Stesen kereta api bersejarah & vintaj",
+    "intro": "Stesen kereta api tertua Vietnam bergaya Art Deco — spot foto vintaj dengan kereta api klasik dan laluan pendek yang menarik.",
+    "hi": [
+     "Seni bina Art Deco klasik",
+     "Kereta api vintaj",
+     "Spot foto Instagram popular"
+    ],
+    "best": "Pagi untuk cahaya terbaik & kurang sesak.",
+    "muslim": "Tiada surau di stesen. Solat dijamak; guide bantu cari tempat solat berhampiran.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dalat+Railway+Station"
+   },
+   {
+    "n": "Mui Ne Sand Dunes",
+    "t": "Mui Ne · Alam",
+    "emoji": "🏜️",
+    "img": "@asset:3ef3e00fe606",
+    "short": "White & Red Sand Dunes — padang pasir SEA",
+    "intro": "Satu-satunya 'padang pasir' di Asia Tenggara. White Sand Dunes luas keperang-perangan & Red Sand Dunes berwarna oren keemasan — pengalaman unik dalam pakej.",
+    "hi": [
+     "White Sand Dunes (pasir putih luas)",
+     "Red Sand Dunes (pasir merah)",
+     "JEEP & ATV (optional add-on)"
+    ],
+    "best": "Awal pagi atau lewat petang — elak panas terik tengah hari.",
+    "muslim": "Kawasan terbuka tanpa surau. Solat 'on road' / dijamak — bawa sejadah & botol air untuk wudhu. Panas terik: bawa topi, air & sunscreen.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mui+Ne+White+Sand+Dunes"
+   },
+   {
+    "n": "Mui Ne Fishing Village",
+    "t": "Mui Ne · Alam",
+    "emoji": "🎣",
+    "img": "@asset:cb65c89a5015",
+    "short": "Perkampungan nelayan & pantai indah",
+    "intro": "Perkampungan nelayan tradisional dengan perahu bulat (thung chai) yang ikonik, pantai bersih dan pasar ikan yang meriah.",
+    "hi": [
+     "Perahu bulat tradisional",
+     "Pantai & pemandangan laut",
+     "Suasana kampung nelayan autentik"
+    ],
+    "best": "Awal pagi ketika nelayan pulang menangkap ikan.",
+    "muslim": "Tiada surau di kawasan. Solat dijamak; makan tengah hari halal diatur guide.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mui+Ne+Fishing+Village"
+   },
+   {
+    "n": "Mekong River Delta",
+    "t": "My Tho · Alam & Budaya",
+    "emoji": "🛶",
+    "img": "@asset:b803761e44d3",
+    "short": "Tur bot pulau Naga/Unicorn + workshop",
+    "intro": "Tur sehari Delta Mekong menyusuri Sungai Tien ke pulau-pulau Dragon, Unicorn, Tortoise & Phoenix. Rasa teh madu di ladang lebah, tengok pembuatan gula-gula kelapa, dan naik pedati kuda.",
+    "hi": [
+     "Naik bot menyusuri Delta Mekong",
+     "Honey bee-farm & coconut candy workshop",
+     "Pedati kuda + naik sampan kecil"
+    ],
+    "best": "Nov–Apr (elak May–Oct kerana risiko banjir).",
+    "muslim": "Masjid My Tho berhampiran (dilawati dalam pakej 4D3N) — boleh solat. Makan tengah hari di restoran halal. Elakkan membeli makanan tidak halal di gerai pulau.",
+    "map": "https://www.google.com/maps/search/?api=1&query=My+Tho+Mekong+Delta+Mosque"
+   },
+   {
+    "n": "Chu Chi Tunnel",
+    "t": "Ho Chi Minh · Sejarah",
+    "emoji": "🕳️",
+    "img": "Củ Chi tunnels Vietnam－クチトンネル B299598.JPG",
+    "short": "Terowong bawah tanah Perang Vietnam",
+    "intro": "Rangkaian terowong bawah tanah bersejarah zaman Perang Vietnam. Pengalaman mendidik tentang taktik perang gerila — sebahagian terowong boleh dimasuki (sempit).",
+    "hi": [
+     "Terowong bawah tanah bersejarah",
+     "Paparan taktik perang gerila",
+     "Pengalaman mendidik untuk keluarga"
+    ],
+    "best": "Pagi — elak panas & sesak (banyak berjalan).",
+    "muslim": "Masjid Jamia Al Muslimin dilawati pada hari yang sama (pakej 4D3N) — boleh solat. Makan halal diatur guide.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Cu+Chi+Tunnels+Ho+Chi+Minh"
+   },
+   {
+    "n": "Ben Thanh Market",
+    "t": "Ho Chi Minh · Shopping",
+    "emoji": "🛒",
+    "img": "@asset:4856c0db5bc5",
+    "short": "Pasar ikonik HCM — surga shopping",
+    "intro": "Pasar paling terkenal di Ho Chi Minh — dari kain, pakaian, beg, buah tangan hingga makanan. Berhampiran 'Malaysia Street' yang menjual telekung, tudung & barang Muslim.",
+    "hi": [
+     "Kain, fesyen, beg & buah tangan",
+     "Berhampiran Malaysia Street (barang Muslim)",
+     "Latihan tawar-menawar (bargaining)"
+    ],
+    "best": "Petang/malam ketika lebih meriah.",
+    "muslim": "Banyak kedai makan halal & restoran Muslim di kawasan Malaysia Street/Saigon Central Mosque (District 1) berdekatan. Bawa duit VND tunai.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ben+Thanh+Market+Ho+Chi+Minh"
+   },
+   {
+    "n": "Mei Linh Coffee Garden",
+    "t": "Dalat · Ladang",
+    "emoji": "☕",
+    "img": "@asset:e3446779688f",
+    "short": "Ladang kopi Dalat — rasa kopi segar",
+    "intro": "Ladang kopi di tanah tinggi Dalat, termasuk kopi 'weasel' yang terkenal. Pemandangan ladang berbukit yang cantik dan sesi rasa kopi segar.",
+    "hi": [
+     "Ladang kopi berbukit",
+     "Sesi rasa kopi segar",
+     "Spot foto pemandangan"
+    ],
+    "best": "Pagi ketika cuaca sejuk & cerah.",
+    "muslim": "Sesetengah produk kopi mungkin bercampur perisa — pastikan pilihan halal. Solat dijamak; tiada surau di ladang.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Me+Linh+Coffee+Garden+Dalat"
+   },
+   {
+    "n": "Masjid Jamia Al Muslimin (Saigon Central Mosque)",
+    "t": "Ho Chi Minh · Masjid",
+    "emoji": "🕌",
+    "img": "",
+    "short": "Masjid utama District 1 — berjalan kaki dari Ben Thanh.",
+    "intro": "Masjid pusat Ho Chi Minh di District 1 (Jalan Dong Khoi), dibina komuniti Muslim India Selatan. Berdekatan Ben Thanh Market & Malaysia Street — memudahkan solat Zohor/Asar semasa shopping. Dilawati dalam itinerari pakej HCM 4D3N (hari Chu Chi Tunnel).",
+    "hi": [
+     "Masjid aktif dengan ruang wanita",
+     "Walking distance dari Ben Thanh & Malaysia Street",
+     "Kedai makan halal India/Melayu berhampiran"
+    ],
+    "best": "Waktu Zohor/Asar semasa tour bandar atau sesi shopping Ben Thanh.",
+    "muslim": "Ruang solat lelaki & wanita berasingan, tempat wuduk disediakan. Guide boleh atur berhenti solat di sini semasa tour bandar HCM. Untuk pakej 5D4N (Dalat-Mui Ne), berhenti di masjid ini bergantung pada masa & trafik — jangan janji kepada customer tanpa sahkan dengan operator.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jamia+Al+Muslimin+Mosque+Ho+Chi+Minh"
+   },
+   {
+    "n": "Malaysia Street (Nguyen An Ninh)",
+    "t": "Ho Chi Minh · Shopping & Halal",
+    "emoji": "🧕",
+    "img": "",
+    "short": "Lorong telekung, tudung & makanan halal sebelah Ben Thanh.",
+    "intro": "Lorong Nguyen An Ninh yang dikenali pelancong Malaysia sebagai 'Malaysia Street' — bersebelahan Ben Thanh Market. Penuh kedai telekung, tudung, baju kurung, beg & kasut, serta restoran halal yang biasa melayan pelanggan Malaysia. Hotel pakej di HCM diutamakan walking distance ke kawasan ini.",
+    "hi": [
+     "Telekung, tudung, baju kurung & kain borong",
+     "Restoran halal mesra pelancong Malaysia",
+     "Walking distance dari hotel pakej & Ben Thanh"
+    ],
+    "best": "Petang & malam (Free & Easy) — lebih meriah, sesuai selepas tour.",
+    "muslim": "Pilihan makanan halal paling banyak di HCM ada di sini. Masjid Jamia Al Muslimin berdekatan untuk solat. Tetap semak logo/pengesahan halal kedai; guide boleh sarankan restoran yang biasa digunakan ARBA.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nguyen+An+Ninh+Street+Ben+Thanh+Ho+Chi+Minh"
+   },
+   {
+    "n": "Masjid My Tho (Mekong)",
+    "t": "My Tho · Masjid",
+    "emoji": "🕌",
+    "img": "",
+    "short": "Tempat solat semasa tour Mekong Delta.",
+    "intro": "Masjid kecil di My Tho, pintu masuk ke Delta Mekong. Dilawati untuk solat semasa tour Mekong dalam pakej HCM 4D3N; untuk 5D4N (Hari 4 Mekong) berhentinya bergantung pada jadual bot & makan tengah hari.",
+    "hi": [
+     "Solat Zohor semasa tour Mekong",
+     "Berdekatan jeti bot Delta Mekong",
+     "Makan tengah hari halal diatur guide"
+    ],
+    "best": "Waktu Zohor, sebelum atau selepas tour bot.",
+    "muslim": "Ruang solat & wuduk asas. Ini satu-satunya tempat solat yang pasti dalam laluan Mekong — jika tidak sempat, solat dijamak. Sarankan customer bawa sejadah & botol kecil kerana kemudahan agak asas.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Masjid+My+Tho+Vietnam"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ Default · Dalat",
+    "name": "SaiGon's Book Hotel / Peach Valley Hotel",
+    "note": "Diutamakan dekat pusat bandar Dalat. Bilik 2-3 pax (twin/triple).",
+    "emoji": "🏨",
+    "img": "@asset:0504c38fb126"
+   },
+   {
+    "tier": "3★ Default · HCM",
+    "name": "Nicecy Boutique / Queen Central Hotel",
+    "note": "Diutamakan dekat District 1 / Ben Thanh. Bilik 2-3 pax.",
+    "emoji": "🏨",
+    "img": "@asset:55c14bf437f1"
+   },
+   {
+    "tier": "4★ Upgrade · Dalat",
+    "name": "Saigon Dalat Hotel atau seumpama",
+    "note": "+RM160/pax/malam.",
+    "emoji": "⭐",
+    "img": "@asset:de9f2f1407d7"
+   },
+   {
+    "tier": "4★ Upgrade · HCM",
+    "name": "Nesta / Gem Ben Thanh Hotel atau seumpama",
+    "note": "+RM160/pax/malam.",
+    "emoji": "⭐",
+    "img": "@asset:14aca90920f2"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar katalog per pax (2&#8211;3 orang sebilik), MYR &mdash; <b>ground &amp; tipping sahaja, tidak termasuk flight</b>. Umur ikut <b>tarikh perjalanan</b>. Infant (bawah 2 tahun): FOC. Sah untuk travel hingga <b>31 Dis 2026</b>.</p><div class='custblk'><h3>PT HCM-Dalat-Mui Ne 5H4M (3&#9733; Fullboard)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>3&#8211;4</td><td class='add'>RM 1,777</td><td>RM 1,677</td><td>RM 1,477</td></tr><tr><td class='it'>5&#8211;6</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr><tr><td class='it'>7&#8211;8</td><td class='add'>RM 1,477</td><td>RM 1,277</td><td>RM 1,077</td></tr><tr><td class='it'>9&#8211;15</td><td class='add'>RM 1,377</td><td>RM 1,177</td><td>RM 977</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT HCM-DALAT-MUINE 5D4N 2026 V2 (11 Mac 2026). Single supplement +RM320/pax. Deposit RM250/pax; full payment 45 hari sebelum berlepas. Perhatikan tier <b>3&#8211;4 pax</b>: gap CWB/CNB berbeza (&minus;RM100/&minus;RM300) berbanding tier lain (&minus;RM200/&minus;RM400) &mdash; ikut katalog, bukan silap taip.</p></div><div class='custblk'><h3>PT HCM 4H3M Shopping Tour (3&#9733; Fullboard, HCM sahaja)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2&#8211;4</td><td class='add'>RM 1,377</td><td>RM 1,177</td><td>RM 997</td></tr><tr><td class='it'>5&#8211;7</td><td class='add'>RM 1,277</td><td>RM 1,097</td><td>RM 897</td></tr><tr><td class='it'>8&#8211;15</td><td class='add'>RM 1,177</td><td>RM 977</td><td>RM 777</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT HCM 4D3N 2026 (3 Star, FB) &mdash; 8 Dis 2025. Kandungan: Shopping Tour + Mekong River + Chu Chi Tunnel, <b>HCM sahaja</b> (tiada Dalat / Mui Ne). Single supplement RM240/pax (rate card ARBA).</p></div><div class='custblk'><h3>Dua perkara yang TC kerap silap</h3><ul class='klist'><li><b>Group 16+ pax:</b> katalog berhenti pada tier <b>9&#8211;15 pax</b>. Untuk 16 pax dan ke atas, minta <b>quote khas dari operator</b> &mdash; jangan extrapolasi sendiri dari tier 9&#8211;15.</li><li><b>Tiada pakej &quot;4H3M HCM-Dalat-Mui Ne&quot;.</b> Varian 4H3M yang dijual ialah <b>HCM shopping tour</b> (jadual kedua di atas). Kalau customer mahu Dalat + Mui Ne, itu pakej <b>5H4M</b> &mdash; land transfer SGN&#8594;Dalat sahaja sudah 6&#8211;8 jam, tidak padat dalam 4 hari.</li></ul></div>",
+   "custom": "<h2>Simple Customisation (Add-Ons)</h2><p class='ssub'>Rate Card Operasi HCM / HCM &ndash; Dalat &ndash; Mui Ne. Harga jualan MYR. Kadar <span class='add'>hijau</span> = tambah, <span class='ded'>merah</span> = tolak. Sahkan availability dengan operator sebelum confirm.</p><div class='custblk'><h3>Transport + Driver &mdash; HCM Full Day Tour (8 jam)</h3><table class='ctbl'><thead><tr><th>Jenis Transport</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Sedan</td><td>2&ndash;4 pax</td><td class='add'>RM 300 / transport</td><td class='ded'>RM 150 / transport</td></tr><tr><td>Van</td><td>5&ndash;13 pax</td><td class='add'>RM 380 / transport</td><td class='ded'>RM 190 / transport</td></tr><tr><td>Bus</td><td>14 pax ke atas</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 230 / transport</td></tr></tbody></table></div><div class='custblk'><h3>Transport + Driver &mdash; Airport Transfer</h3><table class='ctbl'><thead><tr><th>Jenis Transport</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Sedan</td><td>2&ndash;4 pax</td><td class='add'>RM 300 / transport</td><td class='ded'>RM 150 / transport</td></tr><tr><td>Van</td><td>5&ndash;13 pax</td><td class='add'>RM 380 / transport</td><td class='ded'>RM 190 / transport</td></tr><tr><td>Bus</td><td>14 pax ke atas</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 230 / transport</td></tr></tbody></table></div><div class='custblk'><h3>Accommodation</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td>Upgrade 3&#9733; &rarr; 4&#9733;</td><td>RM 160 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'>Nesta Hotel, Gem Ben Thanh atau setara</td></tr><tr><td>Upgrade 3&#9733; &rarr; 5&#9733;</td><td>RM 350 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'></td></tr><tr><td>Hotel 3&#9733; (atau setara)</td><td>RM 120 / pax / malam</td><td class='add'>RM 50 / pax / malam</td><td class='ded'>Tiada kadar peak berasingan</td></tr><tr><td>Hotel 4&#9733; (atau setara)</td><td>RM 240 / pax / malam</td><td class='add'>RM 120 / pax / malam</td><td class='ded'>Tiada kadar peak berasingan</td></tr><tr><td>Hotel 5&#9733; (atau setara)</td><td>RM 320 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'></td></tr><tr><td>Single Supplement</td><td>RM 80 / malam / pax</td><td class='add'>&mdash;</td><td class='ded'>5D4N = RM 320 &middot; 4D3N = RM 240 (padan katalog)</td></tr></tbody></table></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th><th>Nota</th></tr></thead><tbody><tr><td>Breakfast</td><td>Cadangan makan di hotel</td><td class='add'>&mdash;</td><td class='ded'>Sudah termasuk dalam pakej</td></tr><tr><td>Lunch</td><td>RM 30</td><td class='add'>RM 20</td><td class='ded'>per pax / meal</td></tr><tr><td>Dinner</td><td>RM 30</td><td class='add'>RM 20</td><td class='ded'>per pax / meal</td></tr></tbody></table></div><div class='custblk'><h3>Add-On Activities</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td>Cyclo Tour HCM</td><td class='add'>RM 97 / pax</td><td>1 jam</td></tr><tr><td>Saigon River Cruise HCM</td><td class='add'>RM 107 / pax</td><td>1&ndash;1.5 jam</td></tr><tr><td>JEEP @ White Sand Dune Mui Ne</td><td class='add'>RM 200 / jeep</td><td>max 6 pax &middot; <b>FREE waktu MATTA Fair</b></td></tr><tr><td>ATV @ White Sand Dune Mui Ne</td><td class='add'>RM 180 / ATV</td><td>max 2 pax</td></tr><tr><td>Dalat Alpine Coaster</td><td class='add'>RM 50 / pax</td><td>Datanla Waterfall</td></tr><tr><td>Day Tour Chu Chi</td><td class='add'>RM 300 / 200 / 150 / 100 per pax</td><td>2 pax: 300 &middot; 3&ndash;5 pax: 200 &middot; 6&ndash;8 pax: 150 &middot; 9 pax ke atas: 100<br>Termasuk private transport, lunch, Muslim TG, entrance fees<br>Itinerari: Chu Chi Tunnel &middot; lunch &middot; Post Office &middot; Notre Dame &middot; Book Street</td></tr><tr><td>Day Tour Mekong River</td><td class='ded'>kadar belum diisi</td><td>Rate card belum letak harga &mdash; minta kadar dari operator sebelum quote</td></tr></tbody></table></div><div class='custblk'><h3>Wifi, Takaful &amp; Luggage Tracker</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td>Pocket Wifi Vietnam (4D3N)</td><td class='add'>RM 80</td><td>per trip (RoamingMan 3GB/hari)</td></tr><tr><td>Pocket Wifi Vietnam (5D4N)</td><td class='add'>RM 175</td><td>per trip</td></tr><tr><td>TripCare 360 Individual (1&ndash;5 hari)</td><td class='add'>RM 45</td><td>Etiqa Area 1 (ASEAN)</td></tr><tr><td>TripCare 360 Couple (1&ndash;5 hari)</td><td class='add'>RM 79</td><td>Etiqa Area 1</td></tr><tr><td>TripCare 360 Family (1&ndash;5 hari)</td><td class='add'>RM 100</td><td>Etiqa Area 1</td></tr><tr><td>Blue Ribbon Luggage Tracker</td><td class='add'>RM 20&ndash;70</td><td>Silver RM20 &middot; Gold RM40 &middot; Platinum RM55 &middot; Diamond RM70</td></tr></tbody></table></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tidak boleh booking. <b>Check availability</b> dengan operator untuk Raya Aidilfitri, Raya Haji, New Year dan Christmas.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT HCM - Dalat - Mui Ne 5D4N (3-Star Fullboard)</option><option value='1'>PT HCM 4D3N Shopping Tour (3-Star Fullboard, HCM sahaja)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>RM 80 per malam per pax (Rate Card Operasi) &mdash; 5D4N = RM 320, 4D3N = RM 240, padan katalog. Melaras sendiri bila hari ditambah atau dibuang.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge &amp; Polisi Harga</h2><p class='ssub'>Semua angka ikut <b>katalog</b> masing-masing (5H4M: 11 Mac 2026 &middot; 4H3M: 8 Dis 2025). Perhatikan surcharge <b>berbeza</b> antara dua varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>5H4M (HCM-Dalat-Mui Ne)</th><th>4H3M (HCM sahaja)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Hotel upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>+RM 160/pax/malam</td><td class='add'>+RM 130/pax/malam</td><td>5H4M: 4 malam &middot; 4H3M: 3 malam</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 320/pax</td><td class='add'>+RM 240/pax</td><td>5H4M dari katalog &middot; 4H3M dari rate card ARBA</td></tr><tr><td class='it'>Travel Date 2027 (Jan &ndash; Feb)</td><td class='add'>+RM 120/pax</td><td class='add'>+RM 120/pax</td><td>Add-on travel date, kedua-dua varian</td></tr><tr><td class='it'>Peak season (per malam)</td><td>Tiada</td><td>Tiada</td><td>Tiada caj peak per malam untuk produk ini</td></tr><tr><td class='it'>Late Booking (&lt;45 hari)</td><td class='add'>+RM 50/booking</td><td class='add'>+RM 50/booking</td><td>Per booking, bukan per pax</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>2 pax: +RM 400/pax<br>3 pax&#43;: +RM 300/pax</td><td class='add'>2 pax: +RM 300/pax<br>3 pax&#43;: +RM 200/pax</td><td>Kadar 4H3M lebih rendah &mdash; jangan guna kadar 5H4M</td></tr><tr><td class='it'>Blockout &mdash; CNY 2026</td><td class='ded'>16&#8211;22 Feb 2026</td><td class='ded'>16&#8211;22 Feb 2026</td><td>Tidak boleh booking</td></tr><tr><td class='it'>Blockout &mdash; CNY 2027</td><td class='ded'>17&#8211;18 Feb 2027</td><td class='ded'>17&#8211;18 Feb 2027</td><td>Tidak boleh booking</td></tr></tbody></table></div><div class='custblk'><h3>Check availability dahulu</h3><p style='margin:0;font-size:13px;line-height:1.7'>Tarikh berikut <strong>wajib semak availability</strong> dengan operator sebelum quote: <strong>Chinese New Year</strong> &middot; <strong>Raya Aidilfitri &amp; Raya Haji</strong> &middot; <strong>New Year</strong> &middot; <strong>Christmas Holiday</strong>. Waktu CNY banyak kedai tutup, tetapi tempat pelancongan buka seperti biasa.</p></div><details class='qa' data-text='polisi harga lain yang perlu disebut awal semua harga sah 24 jam selepas quotation dihantar. itinerari, flight, harga &amp; quotation tertakluk kepada perubahan. itinerari &amp; hotel muktamad 14 hari sebelum trip. aktiviti percuma tidak boleh ditukar dengan aktiviti lain, voucher atau tunai jika customer tidak join, atau kerana availability / cuaca. meals sudah termasuk — tiada refund jika customer pilih untuk tidak makan. semak validity trip dengan staff sebelum booking connecting flight domestik.'><summary><span class='tw'>&#9654;</span><span>Polisi harga lain yang perlu disebut awal</span></summary><div class='ans'><ul><li>Semua harga sah <strong>24 jam</strong> selepas quotation dihantar.</li><li>Itinerari, flight, harga &amp; quotation tertakluk kepada perubahan.</li><li>Itinerari &amp; hotel muktamad <strong>14 hari</strong> sebelum trip.</li><li>Aktiviti percuma <strong>tidak boleh ditukar</strong> dengan aktiviti lain, voucher atau tunai jika customer tidak join, atau kerana availability / cuaca.</li><li>Meals sudah termasuk &mdash; <strong>tiada refund</strong> jika customer pilih untuk tidak makan.</li><li>Semak validity trip dengan staff sebelum booking connecting flight domestik.</li></ul></div></details>",
+   "transport": "<h2>Transportation &amp; Guide</h2><p class='ssub'>Pengangkutan peribadi ikut saiz group. Tipping &amp; Driving/Tour Guide (Melayu/English) sudah termasuk. Airport transfer peribadi termasuk untuk kedua-dua varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Transport</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2&ndash;4</td><td>MPV 7-seater</td><td>Max 1 bagasi/pax (jaga kapasiti kereta)</td></tr><tr><td class='it'>5&ndash;12</td><td>Van 16-seater</td><td>Driver + guide</td></tr><tr><td class='it'>13&ndash;15</td><td>Mini bus 25-seater</td><td>Driver + guide</td></tr></tbody></table><p class='custnote'>Minimum 4 pax, maksimum 30 pax bagi Join Trip. 16+ pax untuk PT: rujuk consultant.</p></div><div class='custblk'><h3>Masa perjalanan darat</h3><table class='ctbl'><thead><tr><th>Sektor</th><th>Masa</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>SGN (HCM) &rarr; Dalat</td><td class='add'>6&ndash;8 jam</td><td>Hari paling panjang &mdash; Day 1. Tiba SGN sebelum 12 tengah hari.</td></tr><tr><td class='it'>Dalat &rarr; Mui Ne</td><td class='add'>5 jam</td><td>Jalan bukit berliku &mdash; sesuai untuk yang mudah loya bawa ubat.</td></tr><tr><td class='it'>Mui Ne &rarr; HCM</td><td class='add'>3 jam</td><td>Stop kedai shopping di pertengahan jalan.</td></tr><tr><td class='it'>HCM &rarr; Mekong Delta</td><td class='add'>&plusmn;2 jam sehala</td><td>Tour sehari penuh (5H4M Day 4).</td></tr></tbody></table></div><details class='qa' data-text='nota operasi transport &amp; guide toilet break disediakan sepanjang long drive — guide akan pilih stop dengan tandas &amp; ruang solat jika ada. guide adalah orang tempatan vietnam, muslim , boleh bertutur melayu — terlatih uruskan makanan halal &amp; waktu solat. guide biasanya lelaki ; guide perempuan tidak dijamin. guide berpengalaman bawa group lelaki &amp; perempuan. tipping sudah termasuk dalam pakej — customer tidak perlu bayar tambahan kepada guide/driver. port charger dalam kenderaan tidak dijamin — sarankan customer bawa power bank (hand carry, ≤100wh). aktiviti bayar terus kepada guide (jeep/atv) — sediakan cash vnd.'><summary><span class='tw'>&#9654;</span><span>Nota operasi transport &amp; guide</span></summary><div class='ans'><ul><li>Toilet break disediakan sepanjang long drive &mdash; guide akan pilih stop dengan tandas &amp; ruang solat jika ada.</li><li>Guide adalah <strong>orang tempatan Vietnam, Muslim</strong>, boleh bertutur Melayu &mdash; terlatih uruskan makanan halal &amp; waktu solat.</li><li>Guide biasanya <strong>lelaki</strong>; guide perempuan tidak dijamin. Guide berpengalaman bawa group lelaki &amp; perempuan.</li><li><strong>Tipping sudah termasuk</strong> dalam pakej &mdash; customer tidak perlu bayar tambahan kepada guide/driver.</li><li>Port charger dalam kenderaan tidak dijamin &mdash; sarankan customer bawa power bank (hand carry, &le;100Wh).</li><li>Aktiviti bayar terus kepada guide (jeep/ATV) &mdash; sediakan cash VND.</li></ul></div></details><details class='qa' data-text='add-on aktiviti — cara bayar jeep &amp; atv @ sand dunes: katalog nyatakan excluded — optional. boleh ditempah awal melalui consultant (harga jualan dalam tab simple customisation) atau bayar terus kepada guide di basecamp dalam vnd. kalau customer tidak join jeep/atv, boleh free &amp; easy di basecamp — ada kiosk minuman di kawasan itu. aktiviti lain (cruise, cyclo, chu chi) juga boleh diatur awal — lebih senang untuk group besar.'><summary><span class='tw'>&#9654;</span><span>Add-on aktiviti &mdash; cara bayar</span></summary><div class='ans'><ul><li><strong>JEEP &amp; ATV @ Sand Dunes:</strong> katalog nyatakan <strong>excluded</strong> &mdash; optional. Boleh ditempah awal melalui consultant (harga jualan dalam tab Simple Customisation) atau <strong>bayar terus kepada guide</strong> di basecamp dalam VND.</li><li>Kalau customer tidak join JEEP/ATV, boleh free &amp; easy di basecamp &mdash; ada kiosk minuman di kawasan itu.</li><li>Aktiviti lain (cruise, cyclo, Chu Chi) juga boleh diatur awal &mdash; lebih senang untuk group besar.</li></ul></div></details>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel 3&#9733; (default) diutamakan dekat pusat bandar; jika tidak tersedia, lokasi mungkin sedikit di luar bandar. Upgrade 4&#9733; tersedia (+RM160/pax/malam). Final hotel disahkan 14 hari sebelum trip.</p><details class='qa' data-text='nota bilik, kemudahan &amp; laundry bilik: 2–3 pax sebilik (twin/triple). triple = tambah katil sahaja. connecting room tidak tersedia — jika satu keluarga, arrangement bilik berdekatan diusahakan (tertakluk availability). saiz bilik selesa &amp; agak luas; hotel hcm biasanya walking distance ke malaysia street / ben thanh market. towel disediakan dalam bilik; sterika biasanya perlu request di kaunter. sabun &amp; syampu disediakan di semua hotel. laundry: ada servis hotel (berbayar), tiada self-service laundry — sarankan customer bawa baju secukupnya. breakfast di hotel; lunch &amp; dinner di restoran halal luar. upgrade hanya jenis bilik/hotel , tertakluk availability.'><summary><span class='tw'>&#9654;</span><span>Nota bilik, kemudahan &amp; laundry</span></summary><div class='ans'><ul><li><strong>Bilik:</strong> 2&ndash;3 pax sebilik (twin/triple). Triple = tambah katil sahaja. Connecting room <strong>tidak tersedia</strong> &mdash; jika satu keluarga, arrangement bilik berdekatan diusahakan (tertakluk availability).</li><li><strong>Saiz bilik</strong> selesa &amp; agak luas; hotel HCM biasanya walking distance ke Malaysia Street / Ben Thanh Market.</li><li><strong>Towel</strong> disediakan dalam bilik; <strong>sterika</strong> biasanya perlu request di kaunter.</li><li><strong>Sabun &amp; syampu</strong> disediakan di semua hotel.</li><li><strong>Laundry:</strong> ada servis hotel (berbayar), <strong>tiada self-service laundry</strong> &mdash; sarankan customer bawa baju secukupnya.</li><li><strong>Breakfast</strong> di hotel; lunch &amp; dinner di restoran halal luar.</li><li>Upgrade hanya <strong>jenis bilik/hotel</strong>, tertakluk availability.</li></ul></div></details>",
+   "compare": "<h2>Perbezaan Pakej — 5D4N vs 4D3N</h2><p class='ssub'>Bandingkan dua varian untuk padankan dengan keperluan customer.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>5D4N · HCM-DALAT-MUI NE</th><th>4D3N · HCM SHOPPING</th></tr></thead><tbody><tr><td class='feat'>Bilangan hari / malam</td><td class='val'>5H 4M</td><td class='val'>4H 3M</td></tr><tr><td class='feat'>Destinasi</td><td class='val'>HCM + Dalat + Mui Ne</td><td class='val'>HCM sahaja</td></tr><tr><td class='feat'>Hotel 3★ Fullboard</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Airport transfer peribadi</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driver-guide Melayu/English</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard meals</td><td class='val'>4B / 4L / 4D</td><td class='val'>3B / 3L / 3D</td></tr><tr><td class='feat'>Tipping included</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Dalat: Flower Park + Datanla + Mongo Land</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Mui Ne Sand Dunes</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Mekong Delta tour</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Chu Chi Tunnel</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>JEEP / ATV @ Sand Dunes</td><td class='val'>Add-on</td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Long drive (darat)</td><td class='val'>6-8j + 5j + 3j</td><td class='val'>Minimal (dalam HCM)</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 2,077</td><td class='val'>RM 1,377</td></tr><tr><td class='feat'>Harga from (group 9-15 / 8-15)</td><td class='val'>RM 1,377</td><td class='val'>RM 1,177</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM 320</td><td class='val'>~+RM 240</td></tr></tbody></table>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' open data-text='free gift untuk campaign atau promo? hcm-dalat-mui ne: white sand dune jeep ride kod: fdlmnhcm3 (all pax) pt hcm 4h3m (shopping tour): tiada kod free gift dalam freegift campaign — baris hcm kosong. bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader promo operator (ibrahim): matta fair −rm30/pax + free jeep @ sand dunes · mid year sale free jeep @ sand dunes · group &gt;16 pax foc 1 pax. disclaimer: promo operator bersyarat (musim/fair). sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>HCM-Dalat-Mui Ne:</strong> White Sand Dune Jeep Ride <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FDLMNHCM3</span> <span style='font-size:12px;color:#6b6b6b'>(All pax)</span></p><p><strong>PT HCM 4H3M (shopping tour):</strong> tiada kod free gift dalam FreeGift Campaign &mdash; baris HCM kosong.</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p><strong>Promo operator (Ibrahim):</strong> MATTA Fair &minus;RM30/pax + FREE Jeep @ Sand Dunes &middot; Mid Year Sale FREE Jeep @ Sand Dunes &middot; Group &gt;16 pax FOC 1 pax.</p><p><strong>Disclaimer:</strong> <span style='color:var(--greend)'>Promo operator bersyarat (musim/fair). Sila sahkan dengan PO jika di luar waktu Promo.</span></p></div></details>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi PT Ho Chi Minh &ndash; Dalat &ndash; Mui Ne. Susunan boleh berubah ikut cuaca, trafik &amp; keadaan jalan tanpa notis terlebih dahulu.</p><div class='custblk' style='max-width:470px;margin:0 auto 20px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT HCM-Dalat-Mui Ne (Kuala Lumpur &ndash; Ho Chi Minh)</div><img src='@asset:a783542e612f' alt='Route Map PT HCM-Dalat-Mui Ne' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>SGN (HCM) &rarr; Dalat 6&ndash;8 jam darat &rarr; Mui Ne 5 jam &rarr; HCM 3 jam &rarr; SGN. Mekong Delta dari HCM &plusmn;2 jam sehala.</div></div><details class='qa' open data-text='susunan hari — 5h4m (hcm-dalat-mui ne) day 1 — airport pickup sgn, land transfer ke dalat (6–8 jam). malam di dalat. day 2 — mongo land (rainbow slide included), flower park, mei linh coffee garden, shopping amee wholesale, datanla waterfall (roller coaster included), railway station. day 3 — land transfer ke mui ne (5 jam): white sand dunes, red sand dunes, fishing village. teruskan ke hcm (3 jam) — stop gudang shopping telekung/tudung. free &amp; easy malaysia street &amp; ben thanh. day 4 — mekong river sehari penuh: 4 pulau delta, honey bee-farm, coconut candy workshop, pedati kuda, soai kinh lam fabric market, street night market. day 5 — free &amp; easy ben thanh, transfer ke sgn. berlepas 3pm atau lebih awal.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 5H4M (HCM-Dalat-Mui Ne)</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Airport pickup SGN, land transfer ke Dalat (6&#8211;8 jam). Malam di Dalat.</li><li><strong>Day 2</strong> &mdash; Mongo Land (Rainbow Slide included), Flower Park, Mei Linh Coffee Garden, shopping Amee Wholesale, Datanla Waterfall (roller coaster included), Railway Station.</li><li><strong>Day 3</strong> &mdash; Land transfer ke Mui Ne (5 jam): White Sand Dunes, Red Sand Dunes, Fishing Village. Teruskan ke HCM (3 jam) &mdash; stop Gudang shopping telekung/tudung. Free &amp; easy Malaysia Street &amp; Ben Thanh.</li><li><strong>Day 4</strong> &mdash; Mekong River sehari penuh: 4 pulau delta, honey bee-farm, coconut candy workshop, pedati kuda, Soai Kinh Lam Fabric Market, street night market.</li><li><strong>Day 5</strong> &mdash; Free &amp; easy Ben Thanh, transfer ke SGN. Berlepas 3pm atau lebih awal.</li></ul></div></details><details class='qa' data-text='susunan hari — 4h3m (hcm shopping tour) varian 4h3m yang dijual adalah hcm sahaja — tiada dalat atau mui ne. route map di atas hanya untuk 5h4m. day 1 — airport pickup sgn, wholesale shopping tour (baju kurung, tudung, telekung, kasut, beg), free &amp; easy street night market. day 2 — mekong river: 4 pulau delta, honey bee-farm, coconut candy workshop, pedati kuda, lawat/solat di masjid my tho , wholesale market (dainy / sarah). day 3 — chu chi tunnel + shopping hcm. day 4 — shopping akhir &amp; transfer ke sgn.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 4H3M (HCM shopping tour)</span></summary><div class='ans'><p>Varian 4H3M yang dijual adalah <strong>HCM sahaja</strong> &mdash; tiada Dalat atau Mui Ne. Route map di atas hanya untuk 5H4M.</p><ul><li><strong>Day 1</strong> &mdash; Airport pickup SGN, Wholesale Shopping Tour (baju kurung, tudung, telekung, kasut, beg), free &amp; easy street night market.</li><li><strong>Day 2</strong> &mdash; Mekong River: 4 pulau delta, honey bee-farm, coconut candy workshop, pedati kuda, <strong>lawat/solat di Masjid My Tho</strong>, wholesale market (Dainy / Sarah).</li><li><strong>Day 3</strong> &mdash; Chu Chi Tunnel + shopping HCM.</li><li><strong>Day 4</strong> &mdash; Shopping akhir &amp; transfer ke SGN.</li></ul></div></details>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub'>Cadangan <b>return flight (pergi-balik)</b> KUL &#8596; <b>Tan Son Nhat (SGN)</b>, Ho Chi Minh. Tiket <b>tidak termasuk</b> dalam pakej &mdash; customer beli sendiri (bagasi, in-flight meal &amp; airport tax juga excluded). Harga anggaran adalah <b>round-trip</b> per pax.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Pergi</th><th>KUL &rarr; SGN</th><th>Balik</th><th>SGN &rarr; KUL</th><th>Jenis</th><th>Anggaran return (RM)</th></tr></thead><tbody><tr><td class='it'>AirAsia</td><td>AK 520</td><td>07:05 &ndash; 08:05</td><td>AK 521</td><td>08:35 &ndash; 11:35</td><td>Low Cost</td><td class='add'>RM 580 &ndash; 900</td></tr><tr><td class='it'>VietJet Air</td><td>VJ 826</td><td>13:35 &ndash; 14:20</td><td>VJ 825</td><td>09:30 &ndash; 12:35</td><td>Low Cost</td><td class='add'>RM 500 &ndash; 800</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 750</td><td>09:00 &ndash; 10:00</td><td>MH 751</td><td>11:00 &ndash; 13:55</td><td>Full Service</td><td class='add'>RM 1,100 &ndash; 1,500</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 758</td><td>14:30 &ndash; 15:40</td><td>MH 759</td><td>16:40 &ndash; 19:14</td><td>Full Service</td><td class='add'>RM 1,100 &ndash; 1,500</td></tr></tbody></table><p class='custnote'>Durasi &plusmn;2 jam sehala. Waktu pergi dari Flight Recommendation (ARBA); waktu balik dari jadual penerbangan awam airline. Semua leg beroperasi harian.</p></div><div class='custblk'><h3>Waktu flight yang disyorkan katalog</h3><table class='ctbl'><thead><tr><th>Leg</th><th>Syor katalog</th><th>Sebab</th></tr></thead><tbody><tr><td class='it'>Ketibaan Day 1</td><td class='add'>12:00 tengah hari atau lebih awal</td><td>Land transfer SGN &rarr; Dalat 6&#8211;8 jam. Tiba lewat = sampai Dalat lewat malam.</td></tr><tr><td class='it'>Berlepas hari akhir</td><td class='add'>3:00 petang atau lebih awal</td><td>Ikut katalog (<i>Suggested Departure Time: 3pm &amp; before</i>) &mdash; beri ruang transfer ke SGN selepas shopping pagi.</td></tr></tbody></table><p class='custnote'>Padanan terbaik dengan syor katalog: <b>AK 520 / AK 521</b> (tiba 08:05, balik 08:35) atau <b>VJ 826 / VJ 825</b>. <b>MH 759</b> berlepas 16:40 &mdash; lewat daripada syor katalog, sesuai hanya jika customer terima transfer ke SGN pada waktu petang.</p></div><details class='qa' data-text='ada flight direct ke dalat (dli)? pakej ini dibina melalui sgn (ho chi minh) — masuk sgn kemudian land transfer 6–8 jam ke dalat, kerana land transfer itu sendiri sebahagian daripada itinerari (stop &amp; pemandangan sepanjang jalan). pakej tidak termasuk transfer dari lien khuong (dli). kalau customer masuk melalui dli, itinerari &amp; harga perlu dibina semula sebagai quotation berasingan.'><summary><span class='tw'>&#9654;</span><span>Ada flight direct ke Dalat (DLI)?</span></summary><div class='ans'><p>Pakej ini dibina <strong>melalui SGN (Ho Chi Minh)</strong> &mdash; masuk SGN kemudian land transfer 6&#8211;8 jam ke Dalat, kerana land transfer itu sendiri sebahagian daripada itinerari (stop &amp; pemandangan sepanjang jalan).</p><p>Pakej <strong>tidak termasuk</strong> transfer dari Lien Khuong (DLI). Kalau customer masuk melalui DLI, itinerari &amp; harga perlu dibina semula sebagai quotation berasingan.</p></div></details><details class='qa' data-text='bagasi, powerbank &amp; hand carry airasia: check-in 20kg — maksimum 2 luggage/pax , satu beg tidak melebihi 30kg. hand carry 7kg. share allowance: boleh dikongsi dengan ahli keluarga (cth 3 pax × 20kg = 60kg). tiada limit kuantiti beg jika combine, tetapi setiap beg ≤30kg. powerbank &amp; semua bateri: wajib hand carry, tidak boleh dalam check-in. had 100wh (±20,000mah). cecair &gt;100ml dan barang tajam (gunting, pencukur, pemotong kuku) — mesti check-in. hand carry: 1 handbag/sling + 1 cabin luggage. backpack besar dikira sebagai luggage. infant &lt;2 tahun: tiada baggage allowance; stroller foc (tag di kaunter, boleh bawa ke pintu pesawat). barang bayi dikira dalam 7kg penjaga. katalog: bawa maksimum 1 luggage per pax — kapasiti kenderaan private terhad, terutama mpv untuk 2–4 pax. wrap bag: tidak wajib — disyorkan untuk luggage keras.'><summary><span class='tw'>&#9654;</span><span>Bagasi, powerbank &amp; hand carry</span></summary><div class='ans'><ul><li><strong>AirAsia:</strong> check-in 20kg &mdash; maksimum <strong>2 luggage/pax</strong>, satu beg tidak melebihi 30kg. Hand carry 7kg.</li><li><strong>Share allowance:</strong> boleh dikongsi dengan ahli keluarga (cth 3 pax &times; 20kg = 60kg). Tiada limit kuantiti beg jika combine, tetapi setiap beg &le;30kg.</li><li><strong>Powerbank &amp; semua bateri:</strong> WAJIB hand carry, tidak boleh dalam check-in. Had 100Wh (&plusmn;20,000mAh).</li><li><strong>Cecair &gt;100ml</strong> dan barang tajam (gunting, pencukur, pemotong kuku) &mdash; mesti check-in.</li><li><strong>Hand carry:</strong> 1 handbag/sling + 1 cabin luggage. Backpack besar dikira sebagai luggage.</li><li><strong>Infant &lt;2 tahun:</strong> tiada baggage allowance; stroller FOC (tag di kaunter, boleh bawa ke pintu pesawat). Barang bayi dikira dalam 7kg penjaga.</li><li><strong>Katalog:</strong> bawa <strong>maksimum 1 luggage per pax</strong> &mdash; kapasiti kenderaan private terhad, terutama MPV untuk 2&#8211;4 pax.</li><li><strong>Wrap bag:</strong> tidak wajib &mdash; disyorkan untuk luggage keras.</li></ul></div></details><details class='qa' data-text='arrival card, seat &amp; dokumen arrival card: vietnam tiada arrival card — tidak perlu isi apa-apa borang online sebelum berlepas. seat: untuk pt, customer beli tiket sendiri — seat selection diuruskan sendiri melalui airline. sarankan pilih seat awal jika mahu duduk bersama keluarga, terutama yang ada anak kecil atau warga emas. (susunan seat oleh airport conductor / tl hanya terpakai untuk group booking jt.) dokumen: tour voucher (softcopy memadai, 1 per family) + covernote insurance. bawa printed jika risau tiada internet. bawah 18 tahun: passport sahaja cukup jika bersama parents; photocopy surat beranak sebagai standby. tiba klia/klia2 3 jam sebelum berlepas (lebih awal pada musim puncak).'><summary><span class='tw'>&#9654;</span><span>Arrival card, seat &amp; dokumen</span></summary><div class='ans'><ul><li><strong>Arrival card:</strong> <strong>Vietnam tiada arrival card</strong> &mdash; tidak perlu isi apa-apa borang online sebelum berlepas.</li><li><strong>Seat:</strong> untuk PT, customer beli tiket sendiri &mdash; seat selection diuruskan sendiri melalui airline. Sarankan pilih seat awal jika mahu duduk bersama keluarga, terutama yang ada anak kecil atau warga emas. (Susunan seat oleh Airport Conductor / TL hanya terpakai untuk group booking JT.)</li><li><strong>Dokumen:</strong> Tour Voucher (softcopy memadai, 1 per family) + Covernote Insurance. Bawa printed jika risau tiada internet.</li><li><strong>Bawah 18 tahun:</strong> passport sahaja cukup jika bersama parents; photocopy surat beranak sebagai standby.</li><li>Tiba KLIA/KLIA2 <strong>3 jam</strong> sebelum berlepas (lebih awal pada musim puncak).</li></ul></div></details>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub'>Fullboard <b>100% halal</b> &mdash; 5H4M: 4B/4L/4D &middot; 4H3M: 3B/3L/3D. Breakfast di hotel; semua lunch &amp; dinner diuruskan guide di restoran Muslim/halal di luar. Tipping sudah termasuk.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Kawasan</th><th>Situasi halal</th><th>Nota untuk TC</th></tr></thead><tbody><tr><td class='it'>Ho Chi Minh</td><td class='add'>Mudah</td><td>Banyak restoran Muslim &amp; halal sekitar District 1 / Malaysia Street berhampiran Ben Thanh.</td></tr><tr><td class='it'>Dalat</td><td>Terhad tetapi ada</td><td>Restoran halal dikenali: Sarah Halal Food, Fatimah, Kampung Melayu. Guide sudah atur awal.</td></tr><tr><td class='it'>Mui Ne</td><td>Sangat terhad</td><td>Hari transit &mdash; makan diatur di restoran halal terpilih / bekalan dari Dalat atau HCM.</td></tr><tr><td class='it'>Mekong Delta</td><td>Diatur</td><td>Itinerari termasuk Masjid My Tho / Jamia Al Muslimin &mdash; makan diatur di sekitar.</td></tr></tbody></table><p class='custnote'>Guide adalah orang tempatan Vietnam, Muslim, boleh bertutur Melayu &mdash; biasa menguruskan makanan halal &amp; waktu solat. Meals tidak boleh direfund jika customer pilih untuk tidak makan.</p></div><details class='qa' data-text='perlu bawa sambal atau pek kembara? tidak perlu. fullboard sudah cukup dan mengenyangkan — 3 kali makan setiap hari, semuanya halal. kalau customer tetap mahu bawa: boleh, tetapi elak daging &amp; buah segar (halangan kastam). letak semua makanan dalam satu beg berlabel jelas.'><summary><span class='tw'>&#9654;</span><span>Perlu bawa sambal atau pek kembara?</span></summary><div class='ans'><p>Tidak perlu. Fullboard sudah cukup dan mengenyangkan &mdash; 3 kali makan setiap hari, semuanya halal.</p><p>Kalau customer tetap mahu bawa: boleh, tetapi <strong>elak daging &amp; buah segar</strong> (halangan kastam). Letak semua makanan dalam satu beg berlabel jelas.</p></div></details><details class='qa' data-text='makanan bayi, ubat &amp; declaration makanan bayi: boleh dibawa dalam cabin — kekalkan dalam pek asal berlabel (jangan buka atau salin pek). air panas untuk bancuh susu boleh diminta dari flight attendant. ubat preskripsi (darah tinggi, kencing manis): bawa bersama surat doktor. surat boleh didapatkan dari mana-mana klinik jika hilang. ubat otc (panadol, selsema) tidak perlu preskripsi dan tidak wajib label. letak semua makanan &amp; ubat dalam satu beg khas berlabel jelas untuk memudahkan pemeriksaan kastam.'><summary><span class='tw'>&#9654;</span><span>Makanan bayi, ubat &amp; declaration</span></summary><div class='ans'><ul><li><strong>Makanan bayi:</strong> boleh dibawa dalam cabin &mdash; kekalkan dalam pek asal berlabel (jangan buka atau salin pek).</li><li><strong>Air panas</strong> untuk bancuh susu boleh diminta dari flight attendant.</li><li><strong>Ubat preskripsi</strong> (darah tinggi, kencing manis): bawa bersama surat doktor. Surat boleh didapatkan dari mana-mana klinik jika hilang.</li><li><strong>Ubat OTC</strong> (panadol, selsema) tidak perlu preskripsi dan tidak wajib label.</li><li>Letak semua makanan &amp; ubat dalam <strong>satu beg khas berlabel jelas</strong> untuk memudahkan pemeriksaan kastam.</li></ul></div></details><details class='qa' data-text='solat &amp; kemudahan hcm: saigon central mosque (district 1) &amp; beberapa masjid lain. itinerari mekong lawat masjid my tho / jamia al muslimin. dalat &amp; mui ne: surau sangat terhad — maghrib &amp; isyak biasanya dijamak di hotel ; zohor &amp; asar di restoran yang ada ruang solat atau masjid/surau sepanjang perjalanan. guide kongsi waktu solat dan sediakan stop untuk solat semasa long drive. wajib bawa: telekung, sejadah kecil, botol kecil/spray untuk wudhu — tandas di vietnam biasanya tiada getah paip.'><summary><span class='tw'>&#9654;</span><span>Solat &amp; kemudahan</span></summary><div class='ans'><ul><li><strong>HCM:</strong> Saigon Central Mosque (District 1) &amp; beberapa masjid lain. Itinerari Mekong lawat Masjid My Tho / Jamia Al Muslimin.</li><li><strong>Dalat &amp; Mui Ne:</strong> surau sangat terhad &mdash; Maghrib &amp; Isyak biasanya <strong>dijamak di hotel</strong>; Zohor &amp; Asar di restoran yang ada ruang solat atau masjid/surau sepanjang perjalanan.</li><li>Guide kongsi waktu solat dan sediakan stop untuk solat semasa long drive.</li><li><strong>Wajib bawa:</strong> telekung, sejadah kecil, botol kecil/spray untuk wudhu &mdash; tandas di Vietnam biasanya tiada getah paip.</li></ul></div></details>",
+   "trippix": "<h2>Gambar Trip Lepas</h2><p class='ssub'>Gambar sebenar dari trip PT HCM-Dalat-Mui Ne (7&#8211;10 Feb 2025) &mdash; rujukan visual untuk TC semasa jawab soalan customer. Untuk poster, katalog atau iklan berbayar, dapatkan kelulusan marketing dahulu (consent peserta dalam gambar).</p><details class='qa' open data-text='dalat — flower park &amp; datanla (2 gambar) dalat flower park — taman bunga terbesar di dalat, cuaca sejuk &amp; cerah (7 feb 2025) alpine coaster di datanla waterfall — 2 pax satu kereta, kelajuan kawal sendiri (8 feb 2025) dua gambar ini paling berkesan untuk close customer family: coaster boleh dinaiki berdua (dewasa + anak) dengan laluan berpagar, dan taman bunga yang luas &amp; sejuk. kedua-duanya sudah termasuk dalam pakej 5h4m day 2.'><summary><span class='tw'>&#9654;</span><span>Dalat &mdash; Flower Park &amp; Datanla (2 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:e9476f01656d\" alt=\"Dalat Flower Park &mdash; taman bunga terbesar di Dalat, cuaca sejuk &amp; cerah (7 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Dalat Flower Park &mdash; taman bunga terbesar di Dalat, cuaca sejuk &amp; cerah (7 Feb 2025)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:e2e46b334c33\" alt=\"Alpine Coaster di Datanla Waterfall &mdash; 2 pax satu kereta, kelajuan kawal sendiri (8 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Alpine Coaster di Datanla Waterfall &mdash; 2 pax satu kereta, kelajuan kawal sendiri (8 Feb 2025)</figcaption></figure></div><p>Dua gambar ini paling berkesan untuk close customer family: coaster boleh dinaiki berdua (dewasa + anak) dengan laluan berpagar, dan taman bunga yang luas &amp; sejuk. Kedua-duanya <strong>sudah termasuk</strong> dalam pakej 5H4M Day 2.</p></div></details><details class='qa' data-text='mui ne — sand dunes (2 gambar) jeep ride di sand dunes mui ne (nissan patrol terbuka) — add-on optional (9 feb 2025) luncur pasir di white sand dunes — kawasan terbuka, panas terik &amp; banyak berjalan atas pasir (9 feb 2025) guna untuk set expectation: bukit pasir terbuka tanpa tempat berlindung — sarankan topi, sunscreen &amp; air. jeep &amp; atv tidak termasuk dalam harga pakej (katalog: excluded) kecuali semasa promo.'><summary><span class='tw'>&#9654;</span><span>Mui Ne &mdash; Sand Dunes (2 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:e18cd1e38cc7\" alt=\"Jeep ride di Sand Dunes Mui Ne (Nissan Patrol terbuka) &mdash; add-on optional (9 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Jeep ride di Sand Dunes Mui Ne (Nissan Patrol terbuka) &mdash; add-on optional (9 Feb 2025)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:5dca3f721905\" alt=\"Luncur pasir di White Sand Dunes &mdash; kawasan terbuka, panas terik &amp; banyak berjalan atas pasir (9 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Luncur pasir di White Sand Dunes &mdash; kawasan terbuka, panas terik &amp; banyak berjalan atas pasir (9 Feb 2025)</figcaption></figure></div><p>Guna untuk set expectation: bukit pasir terbuka tanpa tempat berlindung &mdash; sarankan topi, sunscreen &amp; air. JEEP &amp; ATV <strong>tidak termasuk</strong> dalam harga pakej (katalog: excluded) kecuali semasa promo.</p></div></details><details class='qa' data-text='mekong delta (4 gambar) honey bee-farm — sarang lebah ditunjuk kepada peserta, diikuti teh madu lemon (10 feb 2025) bot besar delta mekong — rehat &amp; air kelapa dalam perjalanan ke pulau (10 feb 2025) sampan kecil menyusuri anak sungai mekong — topi nón lá disediakan (10 feb 2025) naik pedati kuda (horse-cart) di pulau mekong (10 feb 2025) turutan biasa hari mekong: bot besar → honey bee-farm → coconut candy workshop → pedati kuda → sampan kecil. semua termasuk dalam 5h4m (day 4) &amp; pt hcm 4h3m (day 2).'><summary><span class='tw'>&#9654;</span><span>Mekong Delta (4 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:53a3ac5b3488\" alt=\"Honey bee-farm &mdash; sarang lebah ditunjuk kepada peserta, diikuti teh madu lemon (10 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Honey bee-farm &mdash; sarang lebah ditunjuk kepada peserta, diikuti teh madu lemon (10 Feb 2025)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:36e6569a4379\" alt=\"Bot besar Delta Mekong &mdash; rehat &amp; air kelapa dalam perjalanan ke pulau (10 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Bot besar Delta Mekong &mdash; rehat &amp; air kelapa dalam perjalanan ke pulau (10 Feb 2025)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:c1d1dba9c790\" alt=\"Sampan kecil menyusuri anak sungai Mekong &mdash; topi n&oacute;n l&aacute; disediakan (10 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Sampan kecil menyusuri anak sungai Mekong &mdash; topi n&oacute;n l&aacute; disediakan (10 Feb 2025)</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:528f1a2a08e3\" alt=\"Naik pedati kuda (horse-cart) di pulau Mekong (10 Feb 2025)\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Naik pedati kuda (horse-cart) di pulau Mekong (10 Feb 2025)</figcaption></figure></div><p>Turutan biasa hari Mekong: bot besar &rarr; honey bee-farm &rarr; coconut candy workshop &rarr; pedati kuda &rarr; sampan kecil. Semua termasuk dalam 5H4M (Day 4) &amp; PT HCM 4H3M (Day 2).</p></div></details>"
+  },
+  "snapshot": "# PT HCM-Dalat-Mui Ne — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*2 varian: **5H4M** (HCM-Dalat-Mui Ne penuh + Mekong Delta) & **4H3M** (HCM shopping tour). Kedua-duanya **3★ fullboard**, tipping & guide Melayu included, ground only.*\n\n- Semua harga sah **24 jam** selepas quotation dihantar. Harga untuk **2–3 orang sebilik** (twin/triple).\n- **Deposit RM250/pax** semasa confirmation; **full payment 45 hari** sebelum berlepas.\n- **Single Supplement:** 5H4M **+RM320/pax** · 4H3M **~+RM240/pax**.\n- **Hotel Upgrade 3★ → 4★:** +RM160/pax/malam (5H4M: 4 malam · 4H3M: 3 malam).\n- **Late Booking Surcharge RM50/booking** jika tempah <45 hari sebelum berlepas.\n- **Last Minute Surcharge** jika tempah <3 minggu: **2 pax +RM400/pax · 3 pax & ke atas +RM300/pax**.\n- **Travel Date 2027 (1 Jan – 30 Jun 2027):** add-on **+RM100/pax**. Tiada caj peak season per malam untuk destinasi ini.\n- **Blockout (tidak boleh booking):** CNY 2026 **16–22 Feb 2026** · CNY 2027 **17–18 Feb 2027**.\n- **Wajib check availability** dahulu untuk: Chinese New Year · Raya Aidilfitri & Raya Haji · New Year · Christmas Holiday.\n- Kategori umur (ikut tarikh travel): **Adult** 9 tahun ke atas · **CWB** 6–8 tahun · **CNB** 2–5 tahun · **Infant** bawah 2 tahun (**FOC**).\n- **Tiket flight pergi-balik TIDAK termasuk** — customer beli sendiri. Bagasi, in-flight meal & airport tax juga excluded. Rujuk tab Flight & Airport.\n- **Waktu flight kritikal:** ketibaan SGN **sebelum 12 tengah hari** Hari 1 (land transfer 6–8 jam ke Dalat) & berlepas **3pm atau lebih awal** hari akhir.\n- **Long drive:** HCM–Dalat 6–8 jam · Dalat–Mui Ne 5 jam · Mui Ne–HCM 3 jam. Set expectation customer awal-awal.\n- **Fullboard included** — tiada refund jika tidak dimakan. Aktiviti free tidak boleh ditukar dengan cash/voucher.\n- Itinerari, flight & harga tertakluk perubahan (cuaca, trafik, keselamatan). **Final itinerari & hotel disahkan 14 hari** sebelum trip.\n- **Larangan Vietnam:** vape / e-cigarette **dilarang sepenuhnya** sejak 1 Jan 2025 — jangan bawa masuk (risiko ditahan & saman).\n- Requirement **muslim-friendly** (halal, masjid/surau, solat) adalah **baseline** setiap pakej.\n- Sila semak validity trip dengan staff sebelum booking connecting domestic flight.\n- Pakej sah untuk travel hingga **31 Disember 2026**.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Ada berapa varian pakej ini?**\nDua. **5H4M** — HCM + Dalat (tanah tinggi sejuk) + Mui Ne (padang pasir/pantai) + tur Mekong Delta sehari penuh. **4H3M** — fokus HCM: shopping borong, Mekong River & Chu Chi Tunnel, tanpa long drive ke Dalat.\n\n**Apa beza 5H4M dengan 4H3M?**\n5H4M cover 3 destinasi & 4 malam, harga from RM2,077 (2 pax) / RM1,377 (9–15 pax). 4H3M dalam HCM sahaja, minimal long drive, harga from RM1,377 (2–4 pax) / RM1,177 (8–15 pax). Rujuk tab **Perbezaan Pakej** untuk perbandingan penuh.\n\n**Ada travel map untuk trip ini?**\nAda — rujuk tab **Travel Map**. Route map rasmi menunjukkan laluan SGN → Dalat → Mui Ne → HCM berserta susunan hari. Susunan boleh berubah ikut cuaca & trafik.\n\n**Berapa lama perjalanan darat?**\nHCM ke Dalat 6–8 jam, Dalat ke Mui Ne 5 jam, Mui Ne ke HCM 3 jam, HCM ke Mekong ±2 jam sehala. Ini pakej yang banyak land transfer — jangan tawarkan kepada customer yang tidak tahan long drive.\n\n**Boleh customize itinerari?**\nBoleh untuk PT — tambah/tolak aktiviti, tukar hotel tier, tambah malam. Rujuk tab **Simple Customisation** untuk kadar add-on. Sahkan availability dengan operator sebelum confirm kepada customer.\n\n**JEEP & ATV di Sand Dunes termasuk?**\nTidak — optional, bayar terus kepada guide. Jeep RM197 (max 6 pax mengikut kadar ARBA; operator sebut 1 juta VND untuk 4 pax), ATV RM197 (max 2 pax). Kadang FREE semasa promo MATTA Fair / Mid Year Sale. Yang tidak join boleh free & easy di basecamp — ada kiosk minuman.\n\n**Sesuai untuk warga emas atau anak kecil?**\nLong drive 6–8 jam ke Dalat mungkin kurang selesa untuk yang tidak biasa. Alpine coaster @ Datanla kurang sesuai untuk anak sangat kecil / warga emas. **4H3M (HCM sahaja) lebih santai** — cadangkan varian ini untuk group berumur.\n\n**Guide bercakap Melayu?**\nYa. Guide adalah orang tempatan Vietnam, **Muslim**, boleh bertutur Melayu — terlatih uruskan makanan halal & waktu solat. Guide biasanya lelaki; guide perempuan tidak dijamin.\n\n**Boleh pilih tarikh sendiri?**\nUntuk **PT (Private Tour)** ya — customer pilih tarikh sendiri. Untuk **JT (Join Trip)** tarikh sudah ditetapkan; kalau nak tarikh sendiri, cadangkan tukar ke PT.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal disediakan?**\nYa — **fullboard 100% halal**. 5H4M: 4B/4L/4D · 4H3M: 3B/3L/3D. Breakfast di hotel; lunch & dinner di restoran Muslim/halal yang diatur guide. Kita **tidak makan di hotel** untuk lunch/dinner.\n\n**Halal senang dapat di setiap destinasi?**\nHCM **mudah** (banyak restoran Muslim, District 1 / Malaysia Street). Dalat **terhad tetapi ada** — Sarah Halal Food, Fatimah, Kampung Melayu. Mui Ne **sangat terhad** (hari transit — makan diatur di restoran terpilih). Semua sudah diatur guide.\n\n**Cadangan makanan untuk kanak-kanak?**\nNasi putih, ayam, ikan, sup sayur dan pho (mi sup Vietnam) mudah didapati di restoran halal. Rasa tidak terlalu pedas.\n\n**Boleh bawa makanan sendiri / sambal / pek kembara?**\nBoleh, tetapi **tidak perlu** — meals sudah cukup dan mengenyangkan. Elak bawa daging & buah segar (halangan kastam). Letak makanan & ubat dalam satu beg berlabel jelas untuk memudahkan pemeriksaan.\n\n**Makanan bayi boleh dibawa?**\nBoleh dalam cabin — kekalkan dalam **pek asal berlabel** (jangan buka atau salin pek). Air panas untuk bancuh susu boleh diminta dari flight attendant di atas flight.\n\n**Ada masjid/surau untuk solat?**\nHCM: Saigon Central Mosque (District 1) & beberapa masjid lain; itinerari Mekong lawat **Masjid My Tho / Jamia Al Muslimin**. Dalat & Mui Ne: surau **sangat terhad** — solat biasanya dijamak di hotel atau 'on road' semasa stop.\n\n**Solat di mana — masjid atau hotel?**\nMaghrib & Isyak biasanya **dijamak di hotel**. Zohor & Asar di restoran yang ada ruang solat, di surau/masjid jika ada, atau 'on road'. Jika hari itu ada lawatan masjid, solat di masjid. Guide kongsi waktu solat dalam group WhatsApp.\n\n**Perlu bawa apa untuk solat?**\n**Wajib:** telekung, sejadah kecil dan botol kecil/spray untuk wudhu — tandas di Vietnam biasanya **tiada getah paip/bidet**.\n\n### C. Visa & Passport\n\n**Perlu visa ke Vietnam?**\nTidak. Warganegara Malaysia **bebas visa sehingga 30 hari** untuk pelancongan — pakej 4H3M/5H4M jauh di bawah had ini.\n\n**Syarat passport?**\nPassport mesti sah **sekurang-kurangnya 6 bulan** dari tarikh berlepas. Tanggungjawab customer untuk semak tarikh luput lebih awal.\n\n**Kalau nak tinggal lebih 30 hari?**\nRakyat Malaysia layak mohon **e-Visa sehingga 90 hari** secara berasingan — tetapi untuk pakej ini bebas visa sudah memadai.\n\n**Kanak-kanak bawah 18 tahun perlu dokumen tambahan?**\nJika bersama parents, **passport sahaja cukup**. Boleh sediakan photocopy surat beranak sebagai standby.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam harga?**\nTidak — pakej **ground only**. Flight, bagasi, in-flight meal & airport tax semuanya excluded.\n\n**Flight apa disyorkan dari KUL (pergi-balik)?**\nKUL → **Tan Son Nhat (SGN)**: AirAsia AK 520 (07:05–08:05, ~RM580–900 return) · MAS MH 750 (09:00–10:00) / MH 758 (14:30–15:40, ~RM1,100–1,500) · VietJet VJ 826 (13:35–14:20, ~RM500–800). Rujuk tab **Flight & Airport**.\n\n**Berapa lama flight KL ke HCM?**\n±2 jam direct.\n\n**Waktu flight mana yang sesuai?**\nKetibaan **12 tengah hari atau lebih awal** pada Hari 1 (kerana land transfer 6–8 jam ke Dalat), dan berlepas **3 petang atau lewat** pada hari akhir. AK 520 pagi & MH 750 adalah pilihan paling selamat untuk Hari 1.\n\n**Ada flight direct ke Dalat?**\nPakej ini dibina melalui **SGN** — land transfer ke Dalat sebahagian daripada itinerari. Lien Khuong (DLI) ada penerbangan bermusim/transit dari KL pada sesetengah tempoh, tetapi **jangan janji kepada customer** — sahkan dengan operator, dan pakej tidak termasuk transfer dari DLI.\n\n**Bagasi macam mana untuk AirAsia?**\nCheck-in **20kg**, maksimum **2 luggage/pax**, satu beg tidak melebihi **30kg**. Hand carry **7kg**.\n\n**Boleh share luggage allowance dengan keluarga?**\nBoleh. Contoh 3 pax × 20kg = 60kg untuk satu keluarga. Jika combine tiada limit kuantiti beg, tetapi total tidak melebihi allowance dan setiap beg ≤30kg. Setiap orang maksimum 2 luggage.\n\n**Apa boleh & tak boleh dalam hand carry?**\nCecair **≤100ml** sahaja, dibungkus dalam plastik yang diikat ketat. Cecair >100ml mesti check-in. Barang tajam (gunting kecil, mata pisau pencukur, pembuka botol, pemotong kuku) mesti check-in. Dibenarkan 1 handbag/sling + 1 cabin luggage — backpack besar dikira sebagai luggage.\n\n**Powerbank & bateri macam mana?**\n**Semua bateri & powerbank WAJIB hand carry** — tidak boleh dalam check-in luggage. Had **100Wh (±20,000mAh)**.\n\n**Barang bayi & stroller dikira sebagai bagasi?**\nInfant bawah 2 tahun **tiada baggage allowance**; **stroller FOC** (inform kaunter, dapat tag, boleh bawa hingga pintu pesawat). Beg susu/pampers/wet tissue dikira dalam 7kg hand carry penjaga.\n\n**Perlu isi arrival card?**\n**Tidak — Vietnam tiada arrival card.** Tiada borang online yang perlu diisi sebelum berlepas.\n\n**Boleh pilih seat dalam flight?**\nTiket group booking — seat ditetapkan **random** oleh airline. Airport Conductor / Tour Leader akan susun supaya keluarga duduk berdekatan, keutamaan kepada keluarga dengan anak kecil & warga emas.\n\n**Dokumen apa perlu disediakan?**\n**Tour Voucher** (softcopy memadai, 1 per family) + **Covernote Insurance**. Bawa printed jika risau tiada internet. Tiba KLIA/KLIA2 **3 jam** sebelum berlepas (lebih awal pada musim puncak).\n\n**Perlu wrap bag?**\nTidak wajib — disyorkan untuk luggage keras.\n\n**Kalau flight delay dan terlepas itinerari?**\nMaklum ARBA secepat mungkin — guide akan adjust itinerari. Aktiviti yang terlepas mungkin tidak dapat diganti dan tiada refund.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n**3★ default** — Dalat: SaiGon's Book / Peach Valley · HCM: Nicecy Boutique / Queen Central. **Upgrade 4★** (5H4M +RM160/pax/malam · 4H3M +RM130/pax/malam) — Dalat: Saigon Dalat · HCM: Nesta / Gem Ben Thanh.\n\n**Hotel di area mana?**\nHCM: kawasan tengah bandar, walking distance ke Malaysia Street / Ben Thanh Market. Dalat: diutamakan dekat pusat bandar; jika tidak tersedia, mungkin sedikit di luar bandar.\n\n**Customer nak book hotel sendiri — apa yang perlu diingatkan?**\nBoleh, tetapi **wajib** book dalam kawasan yang sama dengan hotel rasmi pakej — **HCM:** District 1, sekitar Malaysia Street / Ben Thanh. **Dalat:** kawasan pusat bandar. Sebabnya: jadual pickup dan susunan itinerari dikira dari lokasi hotel rasmi, dan pakej ini ada long drive panjang (SGN→Dalat 6–8 jam) yang tidak boleh dilewatkan. Hotel yang jauh menyebabkan **operational hiccup** — pickup lewat dan itinerari terpaksa dipendekkan. Maklumkan **nama & alamat penuh hotel** kepada consultant sebelum customer buat booking.\n\n**Bilik untuk berapa orang?**\n2–3 orang sebilik (twin/triple). Triple = tambah katil sahaja. Saiz bilik selesa & agak luas. Single supplement dikenakan untuk bilik seorang.\n\n**Boleh minta connecting/family room?**\n**Connecting room tidak tersedia.** Untuk satu keluarga, arrangement bilik berdekatan akan diusahakan — tertakluk availability pada hari itu.\n\n**Boleh upgrade hotel?**\nBoleh — pakej standard 3★, upgrade ke 4★ +RM160/pax/malam, atau upgrade jenis bilik sahaja. Semua tertakluk availability.\n\n**Towel, sterika, sabun & syampu ada?**\nTowel dalam bilik; **sterika perlu request di kaunter**. Sabun & syampu disediakan di semua hotel.\n\n**Ada laundry?**\nAda servis laundry hotel (berbayar) tetapi **tiada self-service** — sarankan customer bawa baju secukupnya.\n\n**Bila hotel disahkan?**\nFinal itinerari & susunan hotel disahkan **14 hari** sebelum trip.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\n**Nov–Apr (musim kering)** paling sesuai. Elak **May–Oct (musim hujan)** — hujan lebat Ogos–Sept, risiko banjir kawasan Mekong.\n\n**Cuaca Dalat macam mana?**\nSejuk — 'City of Eternal Spring'. **15–24°C** siang, malam boleh turun ke ~12°C. Bawa jaket/sweater — ini satu-satunya destinasi sejuk dalam pakej.\n\n**Cuaca Mui Ne & HCM?**\nPanas **28–33°C**, hampir sama sepanjang tahun seperti Malaysia. Pakaian ringan, topi, sunscreen & banyak air.\n\n**Ada tarikh perayaan yang banyak kedai tutup?**\nSemasa **CNY** banyak kedai tutup, tetapi tempat pelancongan dibuka seperti biasa. CNY juga blockout untuk booking. Musim ramai: cuti sekolah Malaysia.\n\n### G. Shopping & Duit\n\n**Beli apa di sana?**\nBaju kurung, tudung, telekung, baju borong, kasut, beg tangan & beg (wholesale HCM), kain (Soai Kinh Lam / Ben Thanh), buah tangan, fridge magnet, keychain & coklat. **'Malaysia Street'** berhampiran Ben Thanh khusus jual barang Muslim.\n\n**Boleh shopping sendiri?**\nBoleh di HCM — hotel yang di-book biasanya dekat dengan Malaysia Street & Ben Thanh Market. Guide juga akan tunjuk tempat souvenir murah.\n\n**Boleh tempah baju/blazer siap dalam sehari?**\nBoleh — ada beberapa kedai tailor di HCM yang menyediakan khidmat express. Customer berurusan sendiri dengan kedai; boleh tanya guide untuk lokasi.\n\n**Mata wang & bawa duit berapa?**\n**Vietnam Dong (VND)**. Cadangan duit poket **RM1,500–RM3,000/orang** (ikut sebanyak mana nak shopping; RM1,000–2,000 sudah cukup untuk yang sederhana). Tukar di Malaysia lebih senang.\n\n**Boleh guna kad atau e-wallet?**\nBoleh di sesetengah tempat (kad debit/kredit, BigPay/Wise) — aktifkan overseas transaction sebelum berlepas. Tetapi **sedia cash VND** kerana banyak tempat, terutama pasar & aktiviti optional, cash sahaja.\n\n**Aktiviti optional bayar macam mana?**\nBayar **terus kepada tour guide** (cth jeep/ATV di Sand Dunes) — sediakan cash VND.\n\n### H. Payment & Refund\n\n**Berapa deposit & bila full payment?**\n**RM250/pax** semasa confirmation; baki penuh **45 hari** sebelum berlepas.\n\n**Harga boleh berubah?**\nHarga sah **24 jam** selepas quotation. Selepas itu tertakluk semakan (surcharge tarikh, availability hotel, kadar operator).\n\n**Ada surcharge apa yang perlu diberitahu awal?**\nLate booking <45 hari **+RM50/booking** · Last minute <3 minggu **+RM400/pax (2 pax)** atau **+RM300/pax (3+ pax)** · Travel date 1 Jan–30 Jun 2027 **+RM100/pax** · Single supplement · Hotel upgrade. Rujuk tab **Surcharge**.\n\n**Refund kalau tak makan meals atau skip aktiviti?**\nTiada refund untuk fullboard meals yang tidak diambil, tiket entrance yang tidak digunakan, atau aktiviti free yang tidak disertai.\n\n### I. Add-ons & Customization\n\n**Apa boleh tambah?**\nJeep @ Sand Dunes RM197 · ATV RM197 · Alpine Coaster Datanla RM50/pax · Cyclo Tour HCM RM97/pax · Saigon River Cruise RM107/pax · Chu Chi Tunnel day tour RM100–300 (ikut pax) · extra meal RM30/pax · pocket wifi · takaful. Rujuk tab **Simple Customisation**.\n\n**Ada insurans/takaful?**\nYa — Etiqa **TripCare 360** (Individual 1–5 hari RM45 · Couple RM79 · Family RM100, Area 1 ASEAN). **Sangat disyorkan** kerana insurans tidak termasuk dalam pakej.\n\n**Pocket wifi macam mana?**\nRoamingMan 3GB/hari — RM80 (4H3M) atau RM175 (5H4M) per trip. Satu unit boleh share beberapa telefon. Alternatif: SIM local Viettel/Mobifone.\n\n**Ada luggage tracker?**\nBlue Ribbon Luggage Tracker RM20–70 (Silver RM20 · Gold RM40 · Platinum RM55 · Diamond RM70).\n\n**Boleh tambah malam atau tukar hotel tier?**\nBoleh untuk PT — upgrade 4★ +RM160/pax/malam. Untuk tambah malam, rujuk PO/operator untuk kadar semasa.\n\n### J. Kesihatan & Keselamatan\n\n**Selamat ke Vietnam?**\nSelamat secara umum. Jaga barang peribadi terutama di kawasan sesak & pasar (Ben Thanh) — risiko seluk saku & snatch. Simpan passport di hotel safe; bawa salinan sahaja.\n\n**Larangan penting yang mesti diberitahu customer?**\nSejak **1 Januari 2025 Vietnam melarang vape / e-cigarette sepenuhnya**. **JANGAN bawa masuk** — risiko ditahan di lapangan terbang & saman tinggi. Ini antara soalan paling kritikal untuk disebut awal.\n\n**Boleh bawa ubat preskripsi?**\nBoleh — bawa bersama **surat doktor** (cth ubat darah tinggi, kencing manis). Surat boleh didapati dari mana-mana klinik jika yang asal hilang. Ubat OTC (panadol, selsema) tidak perlu preskripsi atau label.\n\n**Mesin nebuliser portable boleh dibawa?**\nBoleh dibawa on board; sertakan surat doktor jika ada.\n\n**Apa perlu diingat untuk long drive?**\nYang mudah loya bawa ubat gerak (jalan Dalat–Mui Ne berbukit & berliku). Toilet break disediakan. Bawa air & snack ringan.\n\n### K. Praktikal (SIM/Socket/Toilet)\n\n**Internet & SIM?**\nRoamingMan pocket wifi atau SIM local (Viettel/Mobifone). **WhatsApp, Google, Facebook & Instagram semua boleh guna** — tiada sekatan seperti di China, jadi tidak perlu VPN.\n\n**Soket plug jenis apa?**\nSoket **2-pin**. Bawa universal travel adaptor & extension plug jika banyak alatan elektrik.\n\n**Tandas macam mana?**\nKebanyakan tandas **tiada getah paip/bidet** — bawa botol kecil untuk kegunaan sendiri & wudhu. Tandas di stop long drive kualiti berbeza-beza.\n\n**Ada port charger dalam kenderaan?**\nTidak dijamin — sarankan customer bawa power bank (hand carry, ≤100Wh).\n\n**Waktu tempatan sama dengan Malaysia?**\nVietnam **1 jam ke belakang** dari Malaysia (GMT+7). Ambil kira untuk waktu solat & jadual flight.\n\n### L. Packing\n\n**Apa nak bawa?**\nPassport (sah 6 bulan+), pakaian ikut aktiviti & bilangan hari, pakaian ibadah (telekung/sejadah), peralatan mandi, peralatan solek, universal adaptor, powerbank, duit poket RM1,500–3,000, sepasang kasut selesa, dan ubat peribadi jika ada keperluan harian.\n\n**Kasut apa sesuai?**\nKasut sport/selesa — banyak berjalan di Flower Park, Datanla, Sand Dunes & Ben Thanh Market. Sand dunes berpasir; kasut mudah dibuka membantu.\n\n**Pakaian untuk cuaca berbeza?**\n**Dalat:** jaket/sweater (malam ~12°C). **Mui Ne & HCM:** pakaian ringan, topi & sunscreen. Pakej ini melalui dua jenis cuaca dalam satu trip — ingatkan customer bawa kedua-duanya.\n\n**Apa yang selalu customer terlupa?**\nBotol kecil untuk wudhu, adaptor 2-pin, ubat gerak untuk long drive, dan jaket untuk Dalat (ramai sangka Vietnam panas sepanjang jalan).\n"
+ },
+ "calc": {
+  "dest": "Ho Chi Minh - Dalat - Mui Ne",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-8)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+  "singleNote": "RM 80 per malam per pax (Rate Card Operasi) &mdash; 5D4N = RM 320, 4D3N = RM 240, padan katalog. Melaras sendiri bila hari ditambah atau dibuang.",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tidak boleh booking. <b>Check availability</b> dengan operator untuk Raya Aidilfitri, Raya Haji, New Year dan Christmas.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 30,
+   "drop": 20
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 120,
+    "peak": 120
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 99,
+   "shareVehicle": true,
+   "autoNights": false,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 300,
+       "peak": 300
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 14,
+       "to": 99,
+       "normal": 450,
+       "peak": 450
+      }
+     ]
+    },
+    "dayDed": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -150,
+       "peak": -150
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "normal": -190,
+       "peak": -190
+      },
+      {
+       "from": 14,
+       "to": 99,
+       "normal": -230,
+       "peak": -230
+      }
+     ]
+    },
+    "air": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": 300,
+       "peak": 300
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "normal": 380,
+       "peak": 380
+      },
+      {
+       "from": 14,
+       "to": 99,
+       "normal": 450,
+       "peak": 450
+      }
+     ]
+    },
+    "airDed": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 4,
+       "normal": -150,
+       "peak": -150
+      },
+      {
+       "from": 5,
+       "to": 13,
+       "normal": -190,
+       "peak": -190
+      },
+      {
+       "from": 14,
+       "to": 99,
+       "normal": -230,
+       "peak": -230
+      }
+     ]
+    },
+    "up4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 160,
+       "peak": 160
+      }
+     ]
+    },
+    "up5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 350,
+       "peak": 350
+      }
+     ]
+    },
+    "h4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 240,
+       "peak": 240
+      }
+     ]
+    },
+    "h5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 320,
+       "peak": 320
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -50,
+       "peak": -50
+      }
+     ]
+    },
+    "nightShort4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -120,
+       "peak": -120
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade hotel 4 bintang (dalam pakej)",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade ({days})"
+   },
+   {
+    "v": "up5",
+    "t": "Upgrade hotel 5 bintang (dalam pakej)",
+    "cost": "incl",
+    "perPaxRate": "up5",
+    "hotel": "5-Star Hotel",
+    "incl": "5-Star hotel upgrade ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; hotel 4 bintang",
+    "cost": "night",
+    "nightRate": "h4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "n5",
+    "t": "Malam tambahan &middot; hotel 5 bintang",
+    "cost": "night",
+    "nightRate": "h5",
+    "hotel": "5-Star Hotel",
+    "line": "Additional night, 5-Star hotel",
+    "incl": "Additional night at 5-Star Hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tolak 1 malam &middot; hotel 3 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "noht4",
+    "t": "Tolak 1 malam &middot; hotel 4 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort4",
+    "dropsNight": true,
+    "line": "Package night removed (4-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private transportation with Muslim driving guide (Malay / English spoken) ({days}) - 8 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Airport Transfer",
+    "incl": "Private airport transfer ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation with driving guide ({days}) - 8 hours basis"
+   },
+   {
+    "v": "airx",
+    "t": "Airport Transfer tambahan",
+    "cost": "zero",
+    "perVehicleRate": "air",
+    "lbl": "Private Airport Transfer",
+    "line": "Additional airport transfer",
+    "incl": "Additional private airport transfer ({days})"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport deducted)"
+   },
+   {
+    "v": "airded",
+    "t": "Tolak airport transfer dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "airDed",
+    "lbl": "-",
+    "line": "Airport transfer deducted"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "L5d1",
+    "t": "Ketibaan SGN - transfer ke Dalat",
+    "en": "ARRIVAL SGN - TRANSFER TO DALAT",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[Dalat]",
+    "act": [
+     "Tiba Tan Son Nhat International Airport (SGN), Ho Chi Minh (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+     "Land transfer ke Da Lat (6 - 8 jam pemanduan)",
+     "Check-in hotel 3 bintang di Dalat"
+    ],
+    "eact": [
+     "Arrive Tan Son Nhat International Airport (SGN), Ho Chi Minh (suggested arrival time 12pm or earlier)",
+     "Land transfer to Da Lat (6 - 8 hours drive)",
+     "Check in 3-Star hotel in Dalat"
+    ],
+    "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+   },
+   {
+    "v": "L5d2",
+    "t": "Dalat fullday tour",
+    "en": "DALAT FULLDAY TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Dalat]",
+    "act": [
+     "Mongo Land (termasuk Rainbow Slide)",
+     "Flower Park, taman bunga terbesar di Dalat",
+     "Mei Linh Coffee Garden, ladang kopi segar",
+     "Shopping Amee Wholesale (pasar fesyen pemborong)",
+     "Datanla Waterfall (termasuk roller coaster)",
+     "Dalat Railway Station",
+     "Kembali ke hotel, free and easy"
+    ],
+    "eact": [
+     "Mongo Land (Rainbow Slide included)",
+     "Flower Park, the largest flower park in Dalat",
+     "Mei Linh Coffee Garden, fresh coffee plantation",
+     "Amee Wholesale shopping (fashion designer market)",
+     "Datanla Waterfall (roller coaster included)",
+     "Dalat Railway Station",
+     "Return to hotel, free and easy"
+    ],
+    "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+   },
+   {
+    "v": "L5d3",
+    "t": "Mui Ne fullday tour - kembali ke HCM",
+    "en": "MUI NE FULLDAY TOUR - RETURN TO HCM",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Mui Ne]",
+    "act": [
+     "Land transfer ke Mui Ne (5 jam pemanduan)",
+     "White Sand Dunes, satu-satunya padang pasir di Asia Tenggara",
+     "Red Sand Dunes (aktiviti JEEP dan ATV adalah opsyenal)",
+     "Fishing Village",
+     "Land transfer ke Ho Chi Minh (3 jam pemanduan)",
+     "Singgah gudang shopping telekung, tudung dan lain-lain",
+     "Check-in hotel 3 bintang di Ho Chi Minh",
+     "Free and easy - shopping di Malaysia Street dan Ben Thanh Market"
+    ],
+    "eact": [
+     "Land transfer to Mui Ne (5 hours drive)",
+     "White Sand Dunes, the only desert in Southeast Asia",
+     "Red Sand Dunes (JEEP and ATV activity is optional)",
+     "Fishing Village",
+     "Land transfer to Ho Chi Minh (3 hours drive)",
+     "Stop by wholesale shopping warehouse - telekung, tudung and more",
+     "Check in 3-Star hotel in Ho Chi Minh",
+     "Free and easy - shopping at Malaysia Street and Ben Thanh Market"
+    ],
+    "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+   },
+   {
+    "v": "L5d4",
+    "t": "Mekong River fullday tour",
+    "en": "MEKONG RIVER FULLDAY TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Mekong]",
+    "act": [
+     "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+     "Honey Bee-farm (rasa teh madu dengan lemon)",
+     "Coconut candy workshop",
+     "Menaiki horse-cart",
+     "Soai Kinh Lam Fabric Market, pasar kain terbesar",
+     "Free and easy - street night market"
+    ],
+    "eact": [
+     "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+     "Honey Bee-farm (taste honey tea with lemon)",
+     "Coconut candy workshop",
+     "Ride on horse-cart",
+     "Soai Kinh Lam Fabric Market, the largest fabric market",
+     "Free and easy - street night market"
+    ],
+    "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+   },
+   {
+    "v": "L5d5",
+    "t": "HCM - penerbangan pulang",
+    "en": "HCM - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Free and easy - shopping Ben Thanh Market",
+     "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 3 petang atau lebih awal)"
+    ],
+    "eact": [
+     "Free and easy - shopping at Ben Thanh Market",
+     "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 3pm or earlier)"
+    ],
+    "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+   },
+   {
+    "v": "L4d1",
+    "t": "Ketibaan - HCM shopping tour",
+    "en": "ARRIVAL - HCM SHOPPING TOUR",
+    "acc": "incl",
+    "meal": "ld",
+    "trp": "incl",
+    "region": "[HCM]",
+    "act": [
+     "Tiba Tan Son Nhat International Airport (SGN) (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+     "Wholesale Shopping Tour - baju kurung, tudung, telekung, kasut dan beg",
+     "Check-in hotel 3 bintang di Ho Chi Minh",
+     "Free and easy - street night market"
+    ],
+    "eact": [
+     "Arrive Tan Son Nhat International Airport (SGN) (suggested arrival time 12pm or earlier)",
+     "Wholesale Shopping Tour - baju kurung, tudung, telekung, shoes and bags",
+     "Check in 3-Star hotel in Ho Chi Minh",
+     "Free and easy - street night market"
+    ],
+    "g": "Blok 4D3N - HCM sahaja"
+   },
+   {
+    "v": "L4d2",
+    "t": "Mekong River - shopping dan food tour",
+    "en": "MEKONG RIVER - SHOPPING AND FOOD TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Mekong]",
+    "act": [
+     "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+     "Honey Bee-farm (rasa teh madu dengan lemon)",
+     "Coconut candy workshop",
+     "Menaiki horse-cart",
+     "Lawat dan solat di Masjid My Tho, diikuti makan tengah hari",
+     "Dainy atau Sarah Wholesale Market",
+     "Free and easy - street night market"
+    ],
+    "eact": [
+     "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+     "Honey Bee-farm (taste honey tea with lemon)",
+     "Coconut candy workshop",
+     "Ride on horse-cart",
+     "Visit and pray at My Tho Mosque, followed by lunch",
+     "Dainy or Sarah Wholesale Market",
+     "Free and easy - street night market"
+    ],
+    "g": "Blok 4D3N - HCM sahaja"
+   },
+   {
+    "v": "L4d3",
+    "t": "Chu Chi Tunnel - city dan shopping tour",
+    "en": "CHU CHI TUNNEL - CITY AND SHOPPING TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[HCM]",
+    "act": [
+     "Chu Chi Tunnel Tour, terowong bawah tanah zaman Perang Vietnam",
+     "Lawat dan solat di Masjid Jamia Al Muslimin",
+     "War Remnants Museum",
+     "Central Post Office, pejabat pos terbesar Vietnam",
+     "Notre Dame Cathedral",
+     "Opera House",
+     "Shopping Tour - Taka Plaza dan Saigon Square"
+    ],
+    "eact": [
+     "Chu Chi Tunnel Tour, underground tunnel from the Vietnam War",
+     "Visit and pray at Jamia Al Muslimin Mosque",
+     "War Remnants Museum",
+     "Central Post Office, the largest post office in Vietnam",
+     "Notre Dame Cathedral",
+     "Opera House",
+     "Shopping Tour - Taka Plaza and Saigon Square"
+    ],
+    "g": "Blok 4D3N - HCM sahaja"
+   },
+   {
+    "v": "L4d4",
+    "t": "Shopping tour - penerbangan pulang",
+    "en": "SHOPPING TOUR - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Shopping Ben Thanh Market",
+     "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+    ],
+    "eact": [
+     "Shopping at Ben Thanh Market",
+     "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 2pm onwards)"
+    ],
+    "g": "Blok 4D3N - HCM sahaja"
+   },
+   {
+    "v": "ext",
+    "t": "Hari tambahan - itinerari ikut permintaan customer",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[HCM]",
+    "g": "Umum",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fed",
+    "t": "Free and easy - tiada transport",
+    "en": "FREE AND EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "none",
+    "region": "[HCM]",
+    "g": "Umum",
+    "act": [
+     "Free and easy sepanjang hari"
+    ],
+    "eact": [
+     "Free and easy at own leisure"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Cyclo Tour Ho Chi Minh (1 hour)",
+    97,
+    97
+   ],
+   [
+    "Saigon River Cruise (1 - 1.5 hours)",
+    107,
+    107
+   ],
+   [
+    "JEEP at White Sand Dune Mui Ne - per jeep, max 6 pax",
+    200,
+    0,
+    "unit"
+   ],
+   [
+    "ATV at White Sand Dune Mui Ne - per ATV, max 2 pax",
+    180,
+    0,
+    "unit"
+   ],
+   [
+    "Dalat Alpine Coaster at Datanla Waterfall",
+    50,
+    50
+   ],
+   [
+    "Chu Chi Tunnel Day Tour - 2 pax",
+    300,
+    300
+   ],
+   [
+    "Chu Chi Tunnel Day Tour - 3 to 5 pax",
+    200,
+    200
+   ],
+   [
+    "Chu Chi Tunnel Day Tour - 6 to 8 pax",
+    150,
+    150
+   ],
+   [
+    "Chu Chi Tunnel Day Tour - 9 pax and above",
+    100,
+    100
+   ]
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date surcharge 2027 (January - February)",
+    "dateIn": [
+     "2027-01-01",
+     "2027-02-28"
+    ],
+    "perPax": 120
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 4,
+    "text": "2&ndash;4 pax: MPV 7-seater &middot; maksimum 1 bagasi per pax (kapasiti kenderaan)"
+   },
+   {
+    "from": 5,
+    "to": 12,
+    "text": "5&ndash;12 pax: Van 16-seater &middot; driver + guide"
+   },
+   {
+    "from": 13,
+    "to": 15,
+    "text": "13&ndash;15 pax: Mini bus 25-seater &middot; driver + guide"
+   },
+   {
+    "from": 16,
+    "to": 99999,
+    "text": "16 pax ke atas: di luar jadual harga katalog &mdash; rujuk consultant sebelum quote"
+   }
+  ],
+  "validity": "Prices follow the PT HCM-Dalat-Mui Ne 5D4N 2026 v2 catalogue dated 11 March 2026 and the PT HCM 4D3N 2026 catalogue dated 8 December 2025, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout dates: 16 - 22 February 2026 and 17 - 18 February 2027 (Chinese New Year).",
+  "variants": [
+   {
+    "id": "v5d4n",
+    "name": "PT HCM - Dalat - Mui Ne 5D4N (3-Star Fullboard)",
+    "pkgLabel": "Ho Chi Minh - Dalat - Mui Ne: HCM Shopping Tour, Dalat Flower Park, Sand Dunes",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "singlePerNight": 80,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 400,
+     "rate3": 300
+    },
+    "ext": {
+     "night": {
+      "normal": 120,
+      "peak": 120
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": 380,
+         "peak": 380
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 450,
+         "peak": 450
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": -190,
+         "peak": -190
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": -230,
+         "peak": -230
+        }
+       ]
+      },
+      "air": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": 380,
+         "peak": 380
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 450,
+         "peak": 450
+        }
+       ]
+      },
+      "airDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": -190,
+         "peak": -190
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": -230,
+         "peak": -230
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 160,
+         "peak": 160
+        }
+       ]
+      },
+      "up5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 350,
+         "peak": 350
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 2077,
+      "c": 1877,
+      "n": 1677
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 1777,
+      "c": 1677,
+      "n": 1477
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "a": 1677,
+      "c": 1477,
+      "n": 1277
+     },
+     {
+      "from": 7,
+      "to": 8,
+      "a": 1477,
+      "c": 1277,
+      "n": 1077
+     },
+     {
+      "from": 9,
+      "to": 15,
+      "a": 1377,
+      "c": 1177,
+      "n": 977
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan SGN - transfer ke Dalat",
+      "en": "ARRIVAL SGN - TRANSFER TO DALAT",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[Dalat]",
+      "act": [
+       "Tiba Tan Son Nhat International Airport (SGN), Ho Chi Minh (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+       "Land transfer ke Da Lat (6 - 8 jam pemanduan)",
+       "Check-in hotel 3 bintang di Dalat"
+      ],
+      "eact": [
+       "Arrive Tan Son Nhat International Airport (SGN), Ho Chi Minh (suggested arrival time 12pm or earlier)",
+       "Land transfer to Da Lat (6 - 8 hours drive)",
+       "Check in 3-Star hotel in Dalat"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Dalat fullday tour",
+      "en": "DALAT FULLDAY TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Dalat]",
+      "act": [
+       "Mongo Land (termasuk Rainbow Slide)",
+       "Flower Park, taman bunga terbesar di Dalat",
+       "Mei Linh Coffee Garden, ladang kopi segar",
+       "Shopping Amee Wholesale (pasar fesyen pemborong)",
+       "Datanla Waterfall (termasuk roller coaster)",
+       "Dalat Railway Station",
+       "Kembali ke hotel, free and easy"
+      ],
+      "eact": [
+       "Mongo Land (Rainbow Slide included)",
+       "Flower Park, the largest flower park in Dalat",
+       "Mei Linh Coffee Garden, fresh coffee plantation",
+       "Amee Wholesale shopping (fashion designer market)",
+       "Datanla Waterfall (roller coaster included)",
+       "Dalat Railway Station",
+       "Return to hotel, free and easy"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Mui Ne fullday tour - kembali ke HCM",
+      "en": "MUI NE FULLDAY TOUR - RETURN TO HCM",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Mui Ne]",
+      "act": [
+       "Land transfer ke Mui Ne (5 jam pemanduan)",
+       "White Sand Dunes, satu-satunya padang pasir di Asia Tenggara",
+       "Red Sand Dunes (aktiviti JEEP dan ATV adalah opsyenal)",
+       "Fishing Village",
+       "Land transfer ke Ho Chi Minh (3 jam pemanduan)",
+       "Singgah gudang shopping telekung, tudung dan lain-lain",
+       "Check-in hotel 3 bintang di Ho Chi Minh",
+       "Free and easy - shopping di Malaysia Street dan Ben Thanh Market"
+      ],
+      "eact": [
+       "Land transfer to Mui Ne (5 hours drive)",
+       "White Sand Dunes, the only desert in Southeast Asia",
+       "Red Sand Dunes (JEEP and ATV activity is optional)",
+       "Fishing Village",
+       "Land transfer to Ho Chi Minh (3 hours drive)",
+       "Stop by wholesale shopping warehouse - telekung, tudung and more",
+       "Check in 3-Star hotel in Ho Chi Minh",
+       "Free and easy - shopping at Malaysia Street and Ben Thanh Market"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Mekong River fullday tour",
+      "en": "MEKONG RIVER FULLDAY TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Mekong]",
+      "act": [
+       "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+       "Honey Bee-farm (rasa teh madu dengan lemon)",
+       "Coconut candy workshop",
+       "Menaiki horse-cart",
+       "Soai Kinh Lam Fabric Market, pasar kain terbesar",
+       "Free and easy - street night market"
+      ],
+      "eact": [
+       "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+       "Honey Bee-farm (taste honey tea with lemon)",
+       "Coconut candy workshop",
+       "Ride on horse-cart",
+       "Soai Kinh Lam Fabric Market, the largest fabric market",
+       "Free and easy - street night market"
+      ]
+     },
+     {
+      "v": "d5",
+      "t": "HCM - penerbangan pulang",
+      "en": "HCM - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Free and easy - shopping Ben Thanh Market",
+       "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 3 petang atau lebih awal)"
+      ],
+      "eact": [
+       "Free and easy - shopping at Ben Thanh Market",
+       "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 3pm or earlier)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel in Dalat and Ho Chi Minh",
+     "{auto}",
+     "Entrance fees as stated in the itinerary",
+     "Daily breakfast at hotel",
+     "Driving guide (Malay / English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "JEEP and ATV activity at Sand Dunes"
+    ]
+   },
+   {
+    "id": "v4d3n",
+    "name": "PT HCM 4D3N Shopping Tour (3-Star Fullboard, HCM sahaja)",
+    "pkgLabel": "Ho Chi Minh: Shopping Tour, Mekong River, Chu Chi Tunnel",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "singlePerNight": 80,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 300,
+     "rate3": 200
+    },
+    "ext": {
+     "night": {
+      "normal": 120,
+      "peak": 120
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 99,
+     "shareVehicle": true,
+     "autoNights": false,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": 380,
+         "peak": 380
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 450,
+         "peak": 450
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": -190,
+         "peak": -190
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": -230,
+         "peak": -230
+        }
+       ]
+      },
+      "air": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": 300,
+         "peak": 300
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": 380,
+         "peak": 380
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": 450,
+         "peak": 450
+        }
+       ]
+      },
+      "airDed": {
+       "_default": [
+        {
+         "from": 2,
+         "to": 4,
+         "normal": -150,
+         "peak": -150
+        },
+        {
+         "from": 5,
+         "to": 13,
+         "normal": -190,
+         "peak": -190
+        },
+        {
+         "from": 14,
+         "to": 99,
+         "normal": -230,
+         "peak": -230
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 130,
+         "peak": 130
+        }
+       ]
+      },
+      "up5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 350,
+         "peak": 350
+        }
+       ]
+      },
+      "h4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 240,
+         "peak": 240
+        }
+       ]
+      },
+      "h5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": 320,
+         "peak": 320
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -50,
+         "peak": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 99,
+         "normal": -120,
+         "peak": -120
+        }
+       ]
+      }
+     }
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 4,
+      "a": 1377,
+      "c": 1177,
+      "n": 997
+     },
+     {
+      "from": 5,
+      "to": 7,
+      "a": 1277,
+      "c": 1097,
+      "n": 897
+     },
+     {
+      "from": 8,
+      "to": 15,
+      "a": 1177,
+      "c": 977,
+      "n": 777
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan - HCM shopping tour",
+      "en": "ARRIVAL - HCM SHOPPING TOUR",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "region": "[HCM]",
+      "act": [
+       "Tiba Tan Son Nhat International Airport (SGN) (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+       "Wholesale Shopping Tour - baju kurung, tudung, telekung, kasut dan beg",
+       "Check-in hotel 3 bintang di Ho Chi Minh",
+       "Free and easy - street night market"
+      ],
+      "eact": [
+       "Arrive Tan Son Nhat International Airport (SGN) (suggested arrival time 12pm or earlier)",
+       "Wholesale Shopping Tour - baju kurung, tudung, telekung, shoes and bags",
+       "Check in 3-Star hotel in Ho Chi Minh",
+       "Free and easy - street night market"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Mekong River - shopping dan food tour",
+      "en": "MEKONG RIVER - SHOPPING AND FOOD TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Mekong]",
+      "act": [
+       "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+       "Honey Bee-farm (rasa teh madu dengan lemon)",
+       "Coconut candy workshop",
+       "Menaiki horse-cart",
+       "Lawat dan solat di Masjid My Tho, diikuti makan tengah hari",
+       "Dainy atau Sarah Wholesale Market",
+       "Free and easy - street night market"
+      ],
+      "eact": [
+       "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+       "Honey Bee-farm (taste honey tea with lemon)",
+       "Coconut candy workshop",
+       "Ride on horse-cart",
+       "Visit and pray at My Tho Mosque, followed by lunch",
+       "Dainy or Sarah Wholesale Market",
+       "Free and easy - street night market"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Chu Chi Tunnel - city dan shopping tour",
+      "en": "CHU CHI TUNNEL - CITY AND SHOPPING TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[HCM]",
+      "act": [
+       "Chu Chi Tunnel Tour, terowong bawah tanah zaman Perang Vietnam",
+       "Lawat dan solat di Masjid Jamia Al Muslimin",
+       "War Remnants Museum",
+       "Central Post Office, pejabat pos terbesar Vietnam",
+       "Notre Dame Cathedral",
+       "Opera House",
+       "Shopping Tour - Taka Plaza dan Saigon Square"
+      ],
+      "eact": [
+       "Chu Chi Tunnel Tour, underground tunnel from the Vietnam War",
+       "Visit and pray at Jamia Al Muslimin Mosque",
+       "War Remnants Museum",
+       "Central Post Office, the largest post office in Vietnam",
+       "Notre Dame Cathedral",
+       "Opera House",
+       "Shopping Tour - Taka Plaza and Saigon Square"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Shopping tour - penerbangan pulang",
+      "en": "SHOPPING TOUR - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Shopping Ben Thanh Market",
+       "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+      ],
+      "eact": [
+       "Shopping at Ben Thanh Market",
+       "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 2pm onwards)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel in Ho Chi Minh",
+     "{auto}",
+     "Entrance fees",
+     "Daily international breakfast at hotel",
+     "Driving guide (Malay / English spoken)",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ]
+   }
+  ]
+ }
+}

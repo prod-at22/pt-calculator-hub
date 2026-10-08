@@ -72,6 +72,17 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
+## KB House from the hub (9 Oct 2026, v32) — Phase 2 in progress
+- PO decision (9 Oct): the hub is the source of truth for PT KB House; KB pages mirror the hub; cosmetics (images,
+  travel map, page design) stay in pt-kb-house; KB Bahasa Melayu text kept in the hub; variants without a Costing
+  package kept as KB-only; aceh / korea stay bespoke; **hub wins** when a KB price differs from the hub.
+- Step 1 done: data/kb/<slug>.json (28) + kb-build/build.py; pt-kb-house has mirror.yml + <slug>/assets.json.
+  aceh / korea now read their content constants from an injected kbdata block (one-time edit, text identical).
+- Next: step 2 = calculator tiers + KB price text from Costing (show the PO the text diff per KB before it goes
+  live; 8 conflicts in the Phase 1 report); step 3 = hub tabs Info KB + Simple Calculator, Save writes
+  data/kb/ and dispatches pt-kb-house mirror.yml (token needs Actions: write on pt-kb-house too).
+- Phase 1 report: https://claude.ai/code/artifact/76a209fd-7a4c-47cf-bc86-71f02a28793b
+
 ## Open — waiting on the PO
 1. Tokyo (on hold by PO): catalog JSON Tokyo Standard (2 pax RM6,197) ≠ ProdReq "catalog v2" (RM6,997) — which is current?
    Qayyum open items: tolls/parking/fuel inside the rate? guide's own entrance? Iyashi entrance still on WIF FX 0.029.

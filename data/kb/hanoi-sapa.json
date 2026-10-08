@@ -1,0 +1,1498 @@
+{
+ "slug": "hanoi-sapa",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Hanoi–Sapa–Halong Bay — Knowledge Base",
+   "brandTag": "Hanoi–Sapa KB",
+   "kicker": "ARBA HANOI · SAPA · HALONG BAY · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Hanoi–Sapa–Halong Bay — halal, flight, hotel, cuaca, harga & tips.",
+   "searchPlaceholder": "cth: flight ke Hanoi? · perlu visa? · makanan halal di Sapa? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Hanoi–Sapa…",
+   "heroImage": "",
+   "overviewTitle": "Pakej Private Tour Hanoi · Sapa · Halong Bay",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC &mdash; dijana daripada katalog PT HANOI-SAPA-HALONG BAY 5D4N 2026 V4 &amp; PT HANOI-SAPA 4D3N 2026 V4 (12 Mac 2026), rate card, Travel Map, Flight Recommendation, FAQ Vietnam &amp; Notion Product FAQ. <b>Katalog adalah source of truth.</b> Last updated: 3 September 2026.<br>Harga, itinerari &amp; jadual flight boleh berubah. Requirement muslim-friendly (halal, solat) adalah baseline setiap pakej.",
+   "marketing": {
+    "anchors": [
+     "Fansipan — cable car terpanjang & tertinggi dunia",
+     "Cat Cat Village (etnik H'mong)",
+     "Halong Bay overnight cruise + Kayak",
+     "Hanoi Old Quarter & Masjid Al Noor"
+    ],
+    "usp": "USP: SEMUA entrance fee termasuk (train + cable car Fansipan, Cat Cat, Halong kayak), tipping fee termasuk, halal fullboard, driving guide Melayu/English — private tour tanpa gabung group lain.",
+    "season": [
+     [
+      "Sep–Nov",
+      "Musim terbaik — sawah padi teres keemasan, langit cerah, Halong Bay tenang."
+     ],
+     [
+      "Mac–Mei",
+      "Cuaca hangat & kering, view Fansipan jelas."
+     ],
+     [
+      "Dis–Feb",
+      "Sejuk 0–12°C di Sapa, kadang salji — pengalaman sejuk untuk keluarga."
+     ],
+     [
+      "Jun–Ogos",
+      "Musim hujan Sapa — elakkan jika boleh (berkabus & licin)."
+     ]
+    ],
+    "expect": [
+     "Perjalanan Hanoi → Sapa 6–8 jam sehala ikut katalog (highway Lao Cai).",
+     "Banyak berjalan kaki di Sapa village & Hanoi Old Quarter — pakai kasut selesa.",
+     "Suhu Fansipan turun 10–15°C dari base ke puncak — bawa jaket tebal.",
+     "Fullboard: semua makan termasuk; tiada refund jika tak makan.",
+     "Max 1 luggage per pax (kapasiti kereta & kabin cruise)."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Hanoi–Sapa–Halong Bay 5D4N",
+    "tag": "Hanoi · Sapa · Halong · 5D4N",
+    "sub": "Highland Sapa + overnight cruise Halong Bay",
+    "emoji": "⛰️",
+    "img": "@asset:b55a0d5a873d",
+    "intro": "Pakej penuh 5 hari 4 malam menggabungkan puncak Fansipan (cable car tertinggi dunia), perkampungan etnik Cat Cat, satu malam cruise mewah di Halong Bay dengan aktiviti kayak, serta bandar Hanoi. Private tour — keluarga anda sahaja, tanpa gabung group lain. Fullboard halal (4B/3L/4D).",
+    "inc": [
+     "3 malam hotel 3★ + 1 malam Halong Bay cruise (Victory Star)",
+     "Private transportation sepanjang trip",
+     "Train + Cable Car ke Fansipan Mountain",
+     "Aktiviti Kayak Halong Bay",
+     "Entrance fees semua attraction dalam itinerari",
+     "Halal meals (4 Breakfast, 3 Lunch, 4 Dinner)",
+     "Driving guide (Malay speaking) + tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik (pakej Ground sahaja)",
+     "Luggage, in-flight meal & airport tax",
+     "Additional tours & meals di luar itinerari",
+     "Personal expenses",
+     "Travel insurance / takaful"
+    ],
+    "note": "Harga per pax, 2–3 orang sebilik. Single supplement quoted upon request. Blackout: CNY 2027 (17–18 Feb 2027). Valid travel sehingga 31 Dis 2026."
+   },
+   {
+    "n": "PT Hanoi–Sapa 4D3N",
+    "tag": "Hanoi · Sapa · 4D3N",
+    "sub": "Highland Sapa + city tour Hanoi (tanpa Halong)",
+    "emoji": "🚠",
+    "img": "@asset:81225987b2cf",
+    "intro": "Pakej ringkas 4 hari 3 malam untuk yang ada masa terhad — fokus puncak Fansipan, Cat Cat Village dan city tour Hanoi (Masjid Al Noor, HCM Museum, Dong Xuan Market, Hoan Kiem Lake). Tiada Halong Bay. Private tour, fullboard halal (3B/2L/3D).",
+    "inc": [
+     "3 malam hotel 3★ (Sapa + Hanoi)",
+     "Private transportation sepanjang trip",
+     "Train + Cable Car ke Fansipan Mountain",
+     "Cat Cat Village entrance fee",
+     "Entrance fees semua attraction dalam itinerari",
+     "Halal meals (3 Breakfast, 2 Lunch, 3 Dinner)",
+     "Driving guide (Malay/English speaking) + tipping fee"
+    ],
+    "exc": [
+     "Tiket flight pergi-balik (pakej Ground sahaja)",
+     "Luggage, in-flight meal & airport tax",
+     "Additional tours & meals di luar itinerari",
+     "Personal expenses",
+     "Travel insurance / takaful"
+    ],
+    "note": "Harga per pax, 2–3 orang sebilik. Single supplement quoted upon request. Blackout: CNY 2027 (17–18 Feb 2027). Valid travel sehingga 31 Dis 2026."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan Hanoi → Sapa",
+     "m": "Dinner",
+     "a": [
+      "Tiba di Hanoi Airport (HAN) — cadangan ketibaan tengah hari",
+      "Pickup & transfer ke Sapa (~5–6 jam highway Lao Cai)",
+      "Check-in hotel Sapa (3★)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Fansipan + Cat Cat Village → Hanoi",
+     "m": "B / L / D",
+     "a": [
+      "Train ke stesen Cable Car Fansipan",
+      "Cable Car ke puncak Fansipan (3,143m — cable car terpanjang & tertinggi dunia)",
+      "Cat Cat Village (perkampungan etnik H'mong)",
+      "Moana Sapa & Muong Hoa Valley",
+      "Transfer ke Hanoi & check-in hotel"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Halong Bay Cruise",
+     "m": "B / L / D",
+     "a": [
+      "Transfer ke Halong Bay (~2–3 jam)",
+      "Check-in Halong Bay Cruise (overnight)",
+      "Island tour: Stone Dog Island, Fighting Cocks",
+      "Gua Sung Sot (gua batu kapur terbesar & paling menakjubkan)",
+      "Titop Island (pantai berbentuk bulan sabit, pasir putih)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Halong Bay → Hanoi",
+     "m": "B / L / D",
+     "a": [
+      "Gua Luon by Kayak",
+      "Check-out Halong Bay Cruise",
+      "Mega Grand World Hanoi (kawasan hiburan terbesar)",
+      "Hanoi Train Street Coffee (kopi tempatan)",
+      "Souvenir shopping & check-in hotel Hanoi"
+     ]
+    },
+    {
+     "d": 5,
+     "t": "Hanoi → Airport (HAN)",
+     "m": "Breakfast",
+     "a": [
+      "Breakfast & check-out hotel",
+      "Airport transfer ke Hanoi (HAN) — cadangan pemergian tengah hari"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "Ketibaan Hanoi → Sapa",
+     "m": "Dinner",
+     "a": [
+      "Tiba di Hanoi Airport (HAN) — cadangan ketibaan tengah hari",
+      "Airport pickup & transfer ke Sapa (~5–6 jam)",
+      "Check-in hotel Sapa (3★)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Fansipan + Cat Cat → Hanoi",
+     "m": "B / L / D",
+     "a": [
+      "Check-out hotel Sapa",
+      "Train + Cable Car ke puncak Fansipan (cable car terpanjang & tertinggi dunia)",
+      "Cat Cat Village (etnik H'mong)",
+      "Muong Hoa Valley",
+      "Transfer ke Hanoi & check-in hotel"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Hanoi City Tour",
+     "m": "B / L / D",
+     "a": [
+      "Masjid Al Noor (solat & rehat)",
+      "HCM Museum (muzium pemimpin Vietnam)",
+      "Dong Xuan Market (pasar fesyen terbesar)",
+      "Hanoi Old City (budaya tempatan & souvenir)",
+      "Hoan Kiem Lake (tasik air tawar 'Sword Lake')"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Hanoi → Airport (HAN)",
+     "m": "Breakfast",
+     "a": [
+      "Breakfast & check-out hotel",
+      "Airport transfer ke Hanoi (HAN) — cadangan pemergian tengah hari"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Fansipan Mountain & Cable Car",
+    "t": "Gunung · Cable Car",
+    "emoji": "🚠",
+    "img": "@asset:1660e4a43ea8",
+    "short": "Puncak tertinggi Indochina (3,143m) — cable car terpanjang & tertinggi dunia.",
+    "intro": "Fansipan digelar 'Bumbung Indochina'. Cable car sepanjang 6,292m mendaki 1,410m ke puncak 3,143m dalam ~15 minit — pemandangan banjaran Hoang Lien Son yang menakjubkan. Termasuk dalam kedua-dua pakej (train + cable car).",
+    "hi": [
+     "Cable car terpanjang & tertinggi dunia (rekod Guinness)",
+     "Puncak 3,143m dengan patung Buddha gangsa gergasi",
+     "Kompleks kuil & taman di puncak",
+     "Suhu turun 10–15°C dari base — sangat sejuk"
+    ],
+    "best": "Mac–Mei & Sep–Nov (langit cerah, view jelas). Bawa jaket tebal sepanjang tahun.",
+    "muslim": "Tiada surau di puncak — solat jamak/qasar disyorkan sebelum naik atau di hotel Sapa. Guide bantu atur waktu solat. Tiada makanan halal dijamin di puncak — makan di restoran halal yang diatur guide.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Fansipan+Legend+Cable+Car+Sapa"
+   },
+   {
+    "n": "Cat Cat Village",
+    "t": "Perkampungan Etnik",
+    "emoji": "🏞️",
+    "img": "@asset:37b633fd02e3",
+    "short": "Perkampungan etnik H'mong dengan sawah teres & air terjun.",
+    "intro": "Cat Cat Village terletak di lembah bawah bandar Sapa — perkampungan tradisional etnik H'mong dengan rumah kayu, kraftangan, kostum tradisional, air terjun dan sawah padi teres yang cantik. Antara spot paling ikonik di Sapa.",
+    "hi": [
+     "Sawah padi teres & air terjun Cat Cat",
+     "Rumah tradisional & kraftangan etnik H'mong",
+     "Spot foto pemandangan lembah",
+     "Persembahan budaya tempatan"
+    ],
+    "best": "Sep–Okt (sawah keemasan) atau Apr–Mei. Banyak menuruni tangga — pakai kasut selesa.",
+    "muslim": "Kawasan luar/terbuka; tiada surau — solat di hotel Sapa. Tiada gerai halal di kampung; bawa air & snack halal sendiri. Guide uruskan makan tengah hari di restoran halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Cat+Cat+Village+Sapa"
+   },
+   {
+    "n": "Halong Bay Cruise (Victory Star)",
+    "t": "Cruise · UNESCO",
+    "emoji": "⛴️",
+    "img": "@asset:39eb1dd91733",
+    "short": "Overnight cruise di teluk batu kapur warisan dunia UNESCO. (5D4N sahaja)",
+    "intro": "Satu malam menginap di atas Victory Star Cruise, meredah ribuan gugusan batu kapur Halong Bay. Termasuk island tour, gua, dan aktiviti kayak. Hanya dalam pakej 5D4N. Cruise standard (bukan luxury) dengan makan halal.",
+    "hi": [
+     "Overnight di atas cruise di tengah teluk",
+     "Island tour: Stone Dog Island, Fighting Cocks",
+     "Aktiviti Kayak di Gua Luon",
+     "Sunset & sunrise di Halong Bay"
+    ],
+    "best": "Sep–Nov & Mac–Apr (laut tenang, langit cerah). Elakkan musim ribut Jun–Ogos.",
+    "muslim": "Makanan halal disediakan di atas cruise (diatur operator Muslim). Tiada surau khas — solat jamak/qasar di kabin (bawa sejadah & kompas kiblat / app). Bilik kabin berasingan mengikut keluarga.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Halong+Bay+cruise+harbour"
+   },
+   {
+    "n": "Gua Sung Sot (Surprise Cave)",
+    "t": "Gua · Alam",
+    "emoji": "🕳️",
+    "img": "@asset:d5285248e0fe",
+    "short": "Gua batu kapur terbesar & paling menakjubkan di Halong Bay.",
+    "intro": "Terletak di Titop Island area, Gua Sung Sot ('Surprise Cave') ialah gua batu kapur terbesar di Halong Bay dengan formasi stalaktit & stalagmit yang dramatik, disinari lampu berwarna. Sebahagian island tour cruise (5D4N).",
+    "hi": [
+     "Dewan gua gergasi berlampu",
+     "Formasi stalaktit & stalagmit unik",
+     "Laluan tangga yang selesa dalam gua"
+    ],
+    "best": "Sepanjang tahun (dalam gua). Lantai boleh licin — pakai kasut bertapak cengkam.",
+    "muslim": "Lawatan singkat; solat di kabin cruise sebelum/selepas. Tiada makanan di dalam gua.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sung+Sot+Cave+Halong+Bay"
+   },
+   {
+    "n": "Titop Island",
+    "t": "Pulau · Pantai",
+    "emoji": "🏝️",
+    "img": "@asset:b1da3ecbbc1b",
+    "short": "Pantai bulan sabit berpasir putih & viewpoint panorama Halong.",
+    "intro": "Pulau kecil dengan pantai berbentuk bulan sabit dan tangga mendaki ke viewpoint puncak — pemandangan panorama 360° gugusan batu kapur Halong Bay yang paling terkenal. Sebahagian island tour cruise (5D4N).",
+    "hi": [
+     "Viewpoint panorama puncak (~400 anak tangga)",
+     "Pantai pasir putih untuk berehat",
+     "Spot foto paling ikonik Halong Bay"
+    ],
+    "best": "Pagi/petang elak panas tengah hari. Sep–Nov paling selesa.",
+    "muslim": "Kawasan pantai terbuka; solat di kabin cruise. Bawa air minum halal sendiri.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Titop+Island+Halong+Bay"
+   },
+   {
+    "n": "Masjid Al Noor Hanoi",
+    "t": "Masjid · Solat · Halal",
+    "emoji": "🕌",
+    "img": "",
+    "short": "Satu-satunya masjid di Hanoi & Vietnam Utara, di Old Quarter.",
+    "intro": "Masjid Al Noor ialah satu-satunya masjid di Hanoi dan seluruh Vietnam Utara, terletak di Old Quarter berhampiran Hoan Kiem Lake — mudah diakses dari hotel & attraction pelancong. Titik solat & rehat utama untuk jemaah Muslim.",
+    "hi": [
+     "Solat berjemaah & tempat wudu",
+     "Restoran halal Zaynab betul-betul di sebelah masjid",
+     "Lokasi pusat Old Quarter (dekat Hoan Kiem)"
+    ],
+    "best": "Waktu solat harian. Termasuk dalam itinerari city tour 4D3N (Day 3).",
+    "muslim": "Ini SENDIRI pusat solat & halal utama Hanoi. Zaynab Restaurant (46 Tho Nhuom St) halal-certified, sebelah masjid. Guide boleh atur singgah untuk solat pada mana-mana pakej.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Al+Noor+Mosque+Hanoi"
+   },
+   {
+    "n": "Hanoi Old Quarter & Hoan Kiem Lake",
+    "t": "Bandar · Budaya",
+    "emoji": "🏙️",
+    "img": "",
+    "short": "Jantung bersejarah Hanoi — tasik 'Sword Lake' & 36 jalan lama.",
+    "intro": "Old Quarter Hanoi dengan 36 jalan lama, kedai souvenir, dan Hoan Kiem Lake ('Sword Lake') — tasik air tawar bersejarah dengan Kuil Ngoc Son di tengahnya. Kawasan pejalan kaki yang meriah pada waktu petang.",
+    "hi": [
+     "Hoan Kiem Lake & Kuil Ngoc Son",
+     "36 jalan lama — kraftangan & souvenir",
+     "Kafe kopi Vietnam & suasana bandar lama"
+    ],
+    "best": "Petang/malam (kawasan pejalan kaki). Termasuk city tour 4D3N.",
+    "muslim": "Masjid Al Noor & restoran halal Zaynab berdekatan. Banyak berjalan kaki — kasut selesa.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hoan+Kiem+Lake+Hanoi+Old+Quarter"
+   },
+   {
+    "n": "Mega Grand World Hanoi",
+    "t": "Hiburan · Shopping",
+    "emoji": "🎡",
+    "img": "@asset:7e16d868fff8",
+    "short": "Kawasan hiburan & rekreasi terbesar di Hanoi.",
+    "intro": "Kompleks hiburan bertema terbesar di Hanoi — canal ala Venice, persembahan malam, kedai, dan spot foto yang instagrammable. Termasuk dalam itinerari 5D4N (Day 4).",
+    "hi": [
+     "Persembahan cahaya & air malam",
+     "Canal & seni bina bertema Eropah",
+     "Spot foto & shopping"
+    ],
+    "best": "Petang menjelang malam (persembahan cahaya). Termasuk pakej 5D4N.",
+    "muslim": "Kawasan besar; solat di hotel Hanoi sebelum/selepas lawatan. Pilihan makan — guide arahkan ke pilihan halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mega+Grand+World+Hanoi"
+   },
+   {
+    "n": "Hanoi Train Street",
+    "t": "Ikonik · Kopi",
+    "emoji": "🚂",
+    "img": "@asset:c2ee7499e97c",
+    "short": "Lorong keretapi sempit terkenal dengan kafe tepi landasan.",
+    "intro": "Landasan keretapi sempit yang merentasi kawasan kediaman lama Hanoi, dipenuhi kafe kecil di kiri-kanan. Terkenal apabila keretapi lalu hanya seinci dari meja kopi — pengalaman & spot foto unik. Termasuk pakej 5D4N (Day 4).",
+    "hi": [
+     "Kopi tempatan tepi landasan keretapi",
+     "Pengalaman keretapi lalu (ikut jadual)",
+     "Spot foto ikonik Hanoi"
+    ],
+    "best": "Ikut jadual keretapi (guide maklum waktu). Termasuk pakej 5D4N.",
+    "muslim": "Pesan minuman (kopi/teh) sahaja jika ragu; makan di restoran halal yang diatur guide. Solat di hotel.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hanoi+Train+Street"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ Sapa (default)",
+    "name": "Saparis Hotel / Beautiful Sapa Hotel (atau setaraf)",
+    "note": "2–3 org sebilik, breakfast included. 1 malam.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "3★ Hanoi (default)",
+    "name": "CWD Hotel / The Charm Hotel (atau setaraf)",
+    "note": "2–3 org sebilik, breakfast included. 2 malam.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "3★ Halong Cruise (5D4N)",
+    "name": "Victory Star Cruise",
+    "note": "1 malam overnight cruise, kabin keluarga. Kekal 3★ (tiada upgrade cruise).",
+    "emoji": "⛴️"
+   },
+   {
+    "tier": "4★ Sapa (upgrade)",
+    "name": "Delasol Sapa / Aliana Boutique Sapa Hotel & Spa",
+    "note": "Tambah RM140/pax/malam.",
+    "emoji": "✨"
+   },
+   {
+    "tier": "4★ Hanoi (upgrade)",
+    "name": "Lake Residence / Lake Side Hotel",
+    "note": "Tambah RM140/pax/malam (2 malam = RM280/pax).",
+    "emoji": "✨"
+   },
+   {
+    "tier": "Single Room",
+    "name": "Solo occupancy",
+    "note": "Single supplement — quoted upon request (tanya operator per booking).",
+    "emoji": "🛏️"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog (harga jual customer) — per pax, 2–3 orang sebilik. Umur ikut tarikh perjalanan: Adult 9+, Child With Bed (CWB) 6–8 thn, Child No Bed (CNB) 2–5 thn, Infant &lt;2 FOC. Pakej <b>Ground sahaja</b> — tiket flight tidak termasuk.</p><h3 style='margin:14px 0 6px'>5D4N — Hanoi · Sapa · Halong Bay (3★ Fullboard)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9+)</th><th>CWB (6–8)</th><th>CNB (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 3,477</td><td>RM 3,277</td><td>RM 3,077</td></tr><tr><td class='it'>3</td><td class='add'>RM 3,277</td><td>RM 3,077</td><td>RM 2,877</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 2,877</td><td>RM 2,677</td><td>RM 2,477</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 2,677</td><td>RM 2,477</td><td>RM 2,277</td></tr><tr><td class='it'>8–9</td><td class='add'>RM 2,577</td><td>RM 2,377</td><td>RM 2,177</td></tr><tr><td class='it'>10</td><td class='add'>RM 2,397</td><td>RM 2,197</td><td>RM 1,997</td></tr><tr><td class='it'>11–12</td><td class='add'>RM 2,297</td><td>RM 2,097</td><td>RM 1,897</td></tr><tr><td class='it'>13–15</td><td class='add'>RM 2,097</td><td>RM 1,897</td><td>RM 1,697</td></tr></tbody></table></div><p class='ssub'>Infant (&lt;2 thn): FOC. Group &gt;15 pax: kadar khas — tanya operator.</p><h3 style='margin:16px 0 6px'>4D3N — Hanoi · Sapa (3★ Fullboard)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9+)</th><th>CWB (6–8)</th><th>CNB (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,537</td><td>RM 2,337</td><td>RM 2,137</td></tr><tr><td class='it'>3–4</td><td class='add'>RM 2,337</td><td>RM 2,137</td><td>RM 1,937</td></tr><tr><td class='it'>5–9</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>10–15</td><td class='add'>RM 1,777</td><td>RM 1,577</td><td>RM 1,377</td></tr><tr><td class='it'>16–20</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr></tbody></table></div><p class='ssub'>Infant (&lt;2 thn): FOC. CWB = Adult − RM200, CNB = Adult − RM400 (uniform).</p>",
+   "custom": "<h2>Simple Customisation &amp; Add-ons</h2><p class='ssub'>Harga <b>jual</b> customer (MYR), dari Rate Card Operasi KB. <span class='add'>Hijau = tambah</span> atas harga pakej &middot; <span class='ded'>merah = tolak</span> dari harga pakej.</p><div class='custblk'><h3>Accommodation &mdash; tambah / tolak malam</h3><table class='ctbl'><thead><tr><th>Kelas hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>RM 140 / pax / malam</td><td>&mdash;</td><td>Sapa: Delasol / Aliana Boutique &middot; Hanoi: Lake Residence / Lake Side. Kadar ini juga tersiar dalam katalog.</td></tr><tr><td class='it'>3&#9733; (atau setara)</td><td class='add'>RM 100 / pax / malam</td><td class='ded'>RM 50 / pax / malam</td><td>Kelas hotel pakej. Sapa: Saparis / Beautiful Sapa &middot; Hanoi: CWD / The Charm</td></tr><tr><td class='it'>4&#9733; (atau setara)</td><td class='add'>RM 240 / pax / malam</td><td class='ded'>RM 120 / pax / malam</td><td>Malam tambahan 4&#9733; guna kadar sendiri &mdash; <b>bukan</b> RM 100 + RM 140</td></tr><tr><td class='it'>5&#9733; (atau setara)</td><td class='add'>RM 320 / pax / malam</td><td>&mdash;</td><td>Tiada 5&#9733; dalam katalog. Tiada kadar tolak tersiar &mdash; tanya operator</td></tr><tr><td class='it'>Rock Garden Homestay</td><td class='add'>RM 80 / pax / malam</td><td>&mdash;</td><td>Pilihan penginapan alternatif</td></tr></tbody></table><p class='custnote'>Tiada kadar peak untuk mana-mana kelas hotel &mdash; kadar sama sepanjang tahun. Harga pakej ialah 2&ndash;3 pax sebilik; single supplement <b>quoted upon request</b>.</p></div><div class='custblk'><h3>Meals &mdash; tambah / tolak hidangan</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 hidangan</th><th>Tolak 1 hidangan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Makan di hotel</td><td>&mdash;</td><td>Sudah termasuk dalam kadar bilik &mdash; tiada kadar tambah atau tolak</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td><td>Halal</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td><td>Halal</td></tr></tbody></table><p class='custnote'>Pakej fullboard &mdash; meals sudah termasuk dan tiada refund jika customer pilih untuk tidak makan. Kolum Tolak hanya dipakai bila hidangan dibuang dari itinerari <b>semasa quote</b>, bukan selepas trip bermula.</p></div><div class='custblk'><h3>Add-on activities &mdash; tambah</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Bang Mon Alpine Coaster</td><td class='add'>RM 50 / pax</td><td>Aktiviti di Sapa</td></tr><tr><td class='it'>Day Trip ke Ninh Binh</td><td class='add'>RM 380 / pax / hari</td><td>Breakfast &middot; transfer ke Trang An, Ninh Binh (2 jam) &middot; paddle boat cruise &middot; lunch &middot; transfer balik Hanoi &middot; Dong Xuan Market &middot; dinner</td></tr><tr><td class='it'>Sleeper Train / Bus (Regular)</td><td class='add'>RM 180 / pax / way</td><td>Standard sleeper &mdash; alternatif transfer Hanoi&ndash;Sapa</td></tr><tr><td class='it'>Sleeper Bus (VVIP)</td><td class='add'>RM 200 / pax / way</td><td>Kabin VVIP</td></tr><tr><td class='it'>Extra Meal (B / L / D)</td><td class='add'>RM 30 / pax / hidangan</td><td>Makan tambahan di luar pakej</td></tr></tbody></table><p class='custnote'>Aktiviti yang tiada dalam itinerari dan tiada kadar tersiar kena bayar sendiri oleh customer di lokasi.</p></div><div class='custblk'><h3>Tukar itinerari &mdash; tolak dari pakej</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tolak</th><th>Itinerari diselaraskan</th></tr></thead><tbody><tr><td class='it'>Halong Bay Cruise tanpa bermalam</td><td class='ded'>RM 100 / pax</td><td>Ganti overnight cruise (Victory Star) dengan day cruise (Diamond Cruise) &mdash; customer balik bermalam di hotel Hanoi. Varian 5D4N sahaja.</td></tr><tr><td class='it'>Sapa 2 malam</td><td class='ded'>RM 50 / pax</td><td><b>D2:</b> train ke Cable Car Fansipan Mountain &middot; cable car (termasuk) &middot; Cat Cat Village &middot; Muong Hua Valley &middot; bermalam di Sapa. <b>D3:</b> transfer ke Hanoi.</td></tr></tbody></table><p class='custnote'>Kedua-duanya <b>mengurangkan</b> harga pakej &mdash; bukan surcaj. Jumlah malam trip kekal sama; hanya penginapan dan itinerari yang berubah.</p></div><div class='custblk'><h3>Travel essentials (jualan after-sales)</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket WiFi 3GB 4G (5D4N)</td><td class='add'>RM 175 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Pocket WiFi 10GB 5G (5D4N)</td><td class='add'>RM 150 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Pocket WiFi 3GB 4G (4D3N)</td><td class='add'>RM 80 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Takaful TripCare 360 (Individu)</td><td class='add'>RM 45 &ndash; 62 / pax</td><td>Etiqa Area 1 (ASEAN), 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Couple)</td><td class='add'>RM 79 &ndash; 112 / pasangan</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Family)</td><td class='add'>RM 100 &ndash; 141 / family</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Senior)</td><td class='add'>RM 130 &ndash; 186 / pax</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20 / 40 / 55 / 70</td><td>Silver &rarr; Gold &rarr; Platinum &rarr; Diamond</td></tr></tbody></table><p class='custnote'>Travel essentials dijual oleh after-sales &mdash; tidak masuk dalam Simple Calculator.</p></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tiada operasi. <b>Check availability</b> dengan operator untuk Chinese New Year, Raya Aidilfitri, Raya Haji, New Year dan Christmas.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Hanoi - Sapa - Halong Bay 5D4N (3-Star Fullboard)</option><option value='1'>PT Hanoi - Sapa 4D3N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Katalog dan rate card kedua-duanya tulis <b>quoted upon request</b> &mdash; minta kadar daripada operator sebelum quote solo. Tiada kadar tersiar, jadi kalkulator tidak caj apa-apa untuk bilik single.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge & Polisi Bayaran</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>4★ Upgrade — Sapa</td><td class='add'>+RM 140 / pax/malam</td><td>Delasol / Aliana Boutique</td></tr><tr><td class='it'>4★ Upgrade — Hanoi</td><td class='add'>+RM 140 / pax/malam</td><td>Lake Residence / Lake Side (2 malam = RM280/pax)</td></tr><tr><td class='it'>Full 4★ (1N Sapa + 2N Hanoi)</td><td class='add'>+RM 420 / pax</td><td>Cruise kekal 3★ (tiada upgrade)</td></tr><tr><td class='it'>Last Minute — 5D4N</td><td class='add'>+RM 400 (2 pax) / +RM 300 (3+ pax)</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Last Minute — 4D3N</td><td class='add'>+RM 300 (2 pax) / +RM 200 (3+ pax)</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50 / booking</td><td>Booking &lt;45 hari sebelum departure</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>Quote on request</td><td>Solo occupancy — tanya operator per booking</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM 250 / pax</td><td>Upon booking confirmation</td></tr><tr><td class='it'>Full Payment</td><td class='add'>—</td><td>45 hari sebelum departure</td></tr><tr><td class='it'>Blackout: CNY 2027</td><td class='add'>Tiada operasi</td><td>17–18 Feb 2027 (supplier-imposed)</td></tr></tbody></table></div><h3 style='margin:16px 0 6px'>Peak Season Surcharge — Rate Card 2026 / 2027</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Travel Date 2027 (1 Jan – 30 Jun)</td><td class='add'>+RM 100 / pax</td><td>Add-on atas harga asas</td></tr><tr><td class='it'>Check Availability</td><td class='add'>Ikut tarikh</td><td>Chinese New Year · Raya Aidilfitri & Raya Haji · New Year · Christmas</td></tr><tr><td class='it'>Block Date CNY 2027</td><td class='add'>Tiada operasi</td><td>17–18 Feb 2027</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>5D4N: +RM 400 (2 pax) / +RM 300 (3+ pax)<br>4D3N: +RM 300 (2 pax) / +RM 200 (3+ pax)</td><td>Kadar berbeza ikut varian — ini last minute, bukan late booking</td></tr></tbody></table></div><div class='notebox'>Nota: kadar last-minute <b>berbeza ikut varian</b>, bukan percanggahan — 5D4N RM 400 / RM 300 dan 4D3N RM 300 / RM 200. Kedua-duanya tersiar dalam katalog masing-masing dan didokumen berasingan dalam R&amp;D Sheet. Disahkan PO 3 Sep 2026; Simple Calculator sudah guna kadar per varian ini. Travel-date 2027 add-on (+RM 100/pax) datang dari rate card, bukan katalog.</div>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'>Private transport — kenderaan ikut saiz group. Driving guide + tipping fee termasuk.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2–4 pax</td><td>MPV 7-seater</td><td>Private, driver + guide</td></tr><tr><td class='it'>5–12 pax</td><td>Van 16-seater</td><td>Private</td></tr><tr><td class='it'>13–15 pax</td><td>Mini bus 25-seater</td><td>Private</td></tr></tbody></table></div><p class='ssub'>Driving guide: <b>Malay speaking</b> (5D4N) / <b>Malay/English speaking</b> (4D3N) — driver-guide Muslim tempatan. Waktu fleksibel. Hanoi–Sapa 6–8 jam (katalog); Hanoi–Halong ~2–3 jam. Tipping fee sudah termasuk — tiada caj tambahan.</p>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Default 3★ (Sapa + Hanoi) + 1 malam cruise (5D4N). Upgrade 4★ tersedia — lihat Surcharge. Kabin cruise kekal 3★. Semua hotel breakfast included, 2–3 org sebilik.</p>",
+   "compare": "<h2>Perbezaan Pakej — 5D4N vs 4D3N</h2><p class='ssub'>Bandingkan dua varian untuk pilih yang paling sesuai untuk customer.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>5D4N · HANOI·SAPA·HALONG</th><th>4D3N · HANOI·SAPA</th></tr></thead><tbody><tr><td class='feat'>Durasi</td><td class='val'>5 Hari 4 Malam</td><td class='val'>4 Hari 3 Malam</td></tr><tr><td class='feat'>Destinasi</td><td class='val'>Hanoi + Sapa + Halong Bay</td><td class='val'>Hanoi + Sapa</td></tr><tr><td class='feat'>Halong Bay Overnight Cruise</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kayak Halong Bay (Gua Luon)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Fansipan Cable Car (train + cable car)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Cat Cat Village (etnik H'mong)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Hanoi City Tour (HCM Museum, Old Quarter, Hoan Kiem)</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Mega Grand World + Train Street Coffee</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Masjid Al Noor (solat stopover)</td><td class='val'>Atur ikut permintaan</td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Meals (Fullboard Halal)</td><td class='val'>4B / 3L / 4D</td><td class='val'>3B / 2L / 3D</td></tr><tr><td class='feat'>Hotel</td><td class='val'>3★ Sapa+Hanoi + 1N Cruise</td><td class='val'>3★ Sapa+Hanoi</td></tr><tr><td class='feat'>Driver-Guide</td><td class='val'>Melayu</td><td class='val'>Melayu / English</td></tr><tr><td class='feat'>Entrance Fees + Tipping</td><td class='val'><span class='tick'>✔</span> Termasuk</td><td class='val'><span class='tick'>✔</span> Termasuk</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 3,477</td><td class='val'>RM 2,537</td></tr><tr><td class='feat'>Harga from (grup sederhana)</td><td class='val'>RM 2,677 (6–7 pax)</td><td class='val'>RM 2,077 (5–9 pax)</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Percutian penuh + cruise</td><td class='val'>Masa terhad / bajet</td></tr></tbody></table>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' open data-text='free gift untuk campaign atau promo? hanoi: water taxi experience in mega grand world hanoi kod: fhns (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader mega grand world hanya dilawati dalam itinerari 5h4m (day 4). untuk 4h3m, maklum consultant jika customer mahu free gift ini — lawatan perlu diselitkan. disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>&#9654;</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Hanoi:</strong> Water Taxi Experience in Mega Grand World Hanoi <span class='rtag' style=\"background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px\">Kod: FHNS</span> <span style='font-size:12px;color:#6b6b6b'>(All pax)</span></p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G <em>(per booking)</em></p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p>Mega Grand World hanya dilawati dalam itinerari <strong>5H4M</strong> (Day 4). Untuk 4H3M, maklum consultant jika customer mahu free gift ini &mdash; lawatan perlu diselitkan.</p><p><strong>Disclaimer:</strong> <span style='color:var(--greend)'>Sila sahkan dengan PO jika di luar waktu Promo.</span></p></div></details>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi kedua-dua varian. Susunan boleh berubah ikut cuaca, trafik &amp; keadaan jalan tanpa notis terlebih dahulu.</p><div class='custblk' style='max-width:470px;margin:0 auto 18px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Hanoi&ndash;Sapa 4H3M</div><img src='@asset:c3cac79c5be7' alt='Route Map PT Hanoi-Sapa 4H3M' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>HAN &rarr; Sapa 6&ndash;8 jam darat &rarr; Fansipan &amp; Cat Cat &rarr; Hanoi &rarr; HAN</div></div><div class='custblk' style='max-width:470px;margin:0 auto 20px'><div style='font-size:13.5px;font-weight:700;margin:0 0 8px'>PT Hanoi&ndash;Sapa&ndash;Halong Bay 5H4M</div><img src='@asset:1a166fbe1a12' alt='Route Map PT Hanoi-Sapa-Halong Bay 5H4M' style='width:100%;height:auto;display:block;border:1px solid #e6e6e6;border-radius:12px'><div style='font-size:12px;color:#6b6b6b;margin-top:7px;line-height:1.5'>HAN &rarr; Sapa 6&ndash;8 jam &rarr; Hanoi &rarr; Halong Bay (1 malam cruise) &rarr; Hanoi &rarr; HAN</div></div><details class='qa' open data-text='susunan hari — 5h4m (hanoi–sapa–halong bay) day 1 — ketibaan han (tengah hari ke atas), transfer ke sapa (6–8 jam). malam di sapa. day 2 — tren ke stesen cable car + cable car fansipan, cat cat village, moana sapa, muong hoa valley. transfer ke hanoi. day 3 — transfer ke halong bay, check in cruise. island tour: stone dog island, fighting cocks, gua sung sot, titop island. malam atas cruise. day 4 — gua luon by kayak, check out cruise, mega grand world hanoi, hanoi train street coffee, souvenir shopping. malam di hanoi. day 5 — airport transfer han, berlepas tengah hari.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 5H4M (Hanoi&ndash;Sapa&ndash;Halong Bay)</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Ketibaan HAN (tengah hari ke atas), transfer ke Sapa (6&ndash;8 jam). Malam di Sapa.</li><li><strong>Day 2</strong> &mdash; Tren ke stesen cable car + cable car Fansipan, Cat Cat Village, Moana Sapa, Muong Hoa Valley. Transfer ke Hanoi.</li><li><strong>Day 3</strong> &mdash; Transfer ke Halong Bay, check in cruise. Island tour: Stone Dog Island, Fighting Cocks, Gua Sung Sot, Titop Island. Malam atas cruise.</li><li><strong>Day 4</strong> &mdash; Gua Luon by kayak, check out cruise, Mega Grand World Hanoi, Hanoi Train Street Coffee, souvenir shopping. Malam di Hanoi.</li><li><strong>Day 5</strong> &mdash; Airport transfer HAN, berlepas tengah hari.</li></ul></div></details><details class='qa' data-text='susunan hari — 4h3m (hanoi–sapa) day 1 — ketibaan han, airport pickup, transfer ke sapa. malam di sapa. day 2 — check out, tren + cable car fansipan, cat cat village, muong hoa valley. transfer ke hanoi. day 3 — masjid al noor (solat &amp; rehat), hcm museum, dong xuan market, hanoi old city, hoan kiem lake. day 4 — airport transfer han, berlepas tengah hari.'><summary><span class='tw'>&#9654;</span><span>Susunan hari &mdash; 4H3M (Hanoi&ndash;Sapa)</span></summary><div class='ans'><ul><li><strong>Day 1</strong> &mdash; Ketibaan HAN, airport pickup, transfer ke Sapa. Malam di Sapa.</li><li><strong>Day 2</strong> &mdash; Check out, tren + cable car Fansipan, Cat Cat Village, Muong Hoa Valley. Transfer ke Hanoi.</li><li><strong>Day 3</strong> &mdash; <strong>Masjid Al Noor</strong> (solat &amp; rehat), HCM Museum, Dong Xuan Market, Hanoi Old City, Hoan Kiem Lake.</li><li><strong>Day 4</strong> &mdash; Airport transfer HAN, berlepas tengah hari.</li></ul></div></details><details class='qa' data-text='nota masa perjalanan darat sektor masa nota han (hanoi) → sapa 6–8 jam ikut katalog — hari paling panjang (day 1). highway lao cai, bergantung trafik. sapa → hanoi 6–8 jam day 2 selepas fansipan &amp; cat cat hanoi → halong bay ±2–3 jam 5h4m sahaja (day 3) toilet break disediakan sepanjang long drive. sarankan ubat loya untuk yang mudah pening, dan hiburan/snack untuk anak kecil.'><summary><span class='tw'>&#9654;</span><span>Nota masa perjalanan darat</span></summary><div class='ans'><div class='custblk'><table class='ctbl'><thead><tr><th>Sektor</th><th>Masa</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>HAN (Hanoi) &rarr; Sapa</td><td class='add'>6&ndash;8 jam</td><td>Ikut katalog &mdash; hari paling panjang (Day 1). Highway Lao Cai, bergantung trafik.</td></tr><tr><td class='it'>Sapa &rarr; Hanoi</td><td class='add'>6&ndash;8 jam</td><td>Day 2 selepas Fansipan &amp; Cat Cat</td></tr><tr><td class='it'>Hanoi &rarr; Halong Bay</td><td class='add'>&plusmn;2&ndash;3 jam</td><td>5H4M sahaja (Day 3)</td></tr></tbody></table></div><p>Toilet break disediakan sepanjang long drive. Sarankan ubat loya untuk yang mudah pening, dan hiburan/snack untuk anak kecil.</p></div></details>",
+   "flight": "<h2>Flight &amp; Airport</h2><p class='ssub'>Cadangan <b>return flight (pergi-balik)</b> KUL &#8596; <b>Hanoi Noi Bai (HAN)</b>. Tiket <b>tidak termasuk</b> dalam pakej &mdash; customer beli sendiri (bagasi, in-flight meal &amp; airport tax juga excluded). Harga anggaran adalah <b>round-trip</b> per pax.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Airline</th><th>Pergi</th><th>KUL &rarr; HAN</th><th>Balik</th><th>HAN &rarr; KUL</th><th>Jenis</th><th>Anggaran return (RM)</th></tr></thead><tbody><tr><td class='it'>Batik Air</td><td>OD 571</td><td>10:10 &ndash; 12:30</td><td>OD 572</td><td>13:30 &ndash; 17:40</td><td>Low Cost</td><td class='add'>RM 800 &ndash; 1,100</td></tr><tr><td class='it'>AirAsia</td><td>AK 512</td><td>12:10 &ndash; 14:20</td><td>AK 513</td><td>15:30 &ndash; 19:50</td><td>Low Cost</td><td class='add'>RM 900 &ndash; 1,200</td></tr><tr><td class='it'>VietJet</td><td>VJ 906</td><td>12:30 &ndash; 14:40</td><td>VJ 905</td><td>Ikut jadual harian VietJet</td><td>Low Cost</td><td class='add'>RM 800 &ndash; 1,100</td></tr><tr><td class='it'>Vietnam Airlines</td><td>VN 680</td><td>20:00 &ndash; 22:20</td><td>VN 681</td><td>14:45 &ndash; 19:00</td><td>Premium</td><td class='add'>RM 720 &ndash; 1,500</td></tr></tbody></table><p class='custnote'>Durasi &plusmn;3 jam 10&ndash;20 minit setiap hala. Leg pergi dari Flight Recommendation (ARBA); leg balik dari jadual penerbangan awam airline. <b>VN 680 tiba 22:20</b> &mdash; terlalu lewat untuk terus transfer 6&ndash;8 jam ke Sapa pada hari yang sama; jika customer pilih flight ini, maklum consultant supaya susunan Day 1 disesuaikan.</p></div><div class='custblk'><h3>Waktu flight yang disyorkan katalog</h3><table class='ctbl'><thead><tr><th>Leg</th><th>Syor katalog</th><th>Sebab</th></tr></thead><tbody><tr><td class='it'>Ketibaan Day 1</td><td class='add'>Tengah hari ke atas</td><td>Terus transfer HAN &rarr; Sapa 6&ndash;8 jam. Flight OD 571 / AK 512 / VJ 906 paling sesuai.</td></tr><tr><td class='it'>Berlepas hari akhir</td><td class='add'>Tengah hari</td><td>Breakfast + check out + airport transfer. OD 572 (13:30) dan VN 681 (14:45) paling hampir.</td></tr></tbody></table></div><div class='custblk'><h3>Airport &amp; bagasi</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Bagasi (low cost)</td><td>Check-in 20kg (maks 2 beg/pax, satu beg tidak melebihi 30kg) &middot; Hand carry 7kg (1 handbag/sling + 1 cabin bag). Backpack besar dikira sebagai luggage</td></tr><tr><td class='it'>Katalog</td><td>Bawa <b>maksimum 1 luggage per pax</b> &mdash; kapasiti kenderaan private dan kabin cruise terhad</td></tr><tr><td class='it'>Share allowance</td><td>Boleh dikongsi dalam booking yang sama (3 pax = 60kg); had 2 beg per pax kekal</td></tr><tr><td class='it'>Powerbank &amp; bateri</td><td>Maksimum 100Wh (~20,000mAh) &mdash; <b>hand carry sahaja</b>, tidak boleh check-in</td></tr><tr><td class='it'>Cecair &amp; barang tajam</td><td>Cecair &gt;100ml dan barang tajam mesti check-in; cecair &le;100ml dalam plastik yang diikat ketat</td></tr><tr><td class='it'>Infant &amp; stroller</td><td>Infant &lt;2 tahun tiada baggage allowance; stroller FOC (tag di kaunter, boleh bawa ke pintu pesawat). Beberapa lokasi tidak stroller-friendly</td></tr><tr><td class='it'>Arrival card</td><td><b>Vietnam tiada arrival card</b></td></tr><tr><td class='it'>Dokumen</td><td>Tour Voucher (softcopy memadai, 1 per family) + Covernote Insurance. Passport sah 6 bulan, 2 muka surat kosong</td></tr><tr><td class='it'>Di KLIA/KLIA2</td><td>Tiba <b>3 jam</b> sebelum berlepas; di boarding gate sekurang-kurangnya 1 jam sebelum berlepas</td></tr><tr><td class='it'>Seat</td><td>PT &mdash; customer beli tiket sendiri, seat selection diuruskan sendiri melalui airline</td></tr></tbody></table></div><p class='ssub'>Beza masa: Vietnam <b>GMT+7</b>, satu jam lewat dari Malaysia.</p>",
+   "food": "<h2>Halal &amp; Makanan</h2><p class='ssub'>Fullboard halal ikut katalog: <b>5H4M 4B/3L/4D</b> &middot; <b>4H3M 3B/2L/3D</b>. Driving guide Muslim tempatan pastikan semua makan di restoran halal. Tipping sudah termasuk. Meals termasuk dalam pakej &mdash; tiada refund jika tidak dimakan.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Kawasan</th><th>Situasi halal</th><th>Nota untuk TC</th></tr></thead><tbody><tr><td class='it'>Hanoi</td><td class='add'>Ada</td><td>Masjid Al Noor di Old Quarter dengan restoran halal di sebelahnya. Pilihan halal paling banyak di sini.</td></tr><tr><td class='it'>Sapa</td><td>Diatur guide</td><td>Restoran halal diatur awal oleh guide (set menu Vietnam). Tiada pilihan halal di Cat Cat Village atau puncak Fansipan &mdash; bawa snack sendiri.</td></tr><tr><td class='it'>Halong Bay cruise (5H4M)</td><td>Diatur operator</td><td>Makanan halal disediakan atas cruise (bufet/BBQ di dek). Penumpang lain mungkin ada arak &mdash; bukan isu untuk makanan pakej.</td></tr></tbody></table></div><details class='qa' data-text='contoh makanan yang disediakan (gambar trip lepas) set menu vietnam dihidang secara berkongsi di meja, dan bufet/bbq di dek cruise. gambar di bawah dari trip pt hanoi–sapa–halong terdahulu. set makan tengah hari vietnam di restoran berdinding buluh, sapa — nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi hidangan bbq / bufet di dek atas kapal persiaran waktu senja — disediakan kru, latar gunung batu kapur halong nota untuk tc: menu berbeza ikut restoran &amp; musim — guna gambar sebagai gambaran umum, jangan janjikan hidangan tertentu.'><summary><span class='tw'>&#9654;</span><span>Contoh makanan yang disediakan (gambar trip lepas)</span></summary><div class='ans'><p>Set menu Vietnam dihidang secara berkongsi di meja, dan bufet/BBQ di dek cruise. Gambar di bawah dari trip PT Hanoi&ndash;Sapa&ndash;Halong terdahulu.</p><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:61ded0b9eeb9\" alt=\"Set makan tengah hari Vietnam di restoran berdinding buluh, Sapa &mdash; nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Set makan tengah hari Vietnam di restoran berdinding buluh, Sapa &mdash; nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:6493886f429b\" alt=\"Hidangan BBQ / bufet di dek atas kapal persiaran waktu senja &mdash; disediakan kru, latar gunung batu kapur Halong\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Hidangan BBQ / bufet di dek atas kapal persiaran waktu senja &mdash; disediakan kru, latar gunung batu kapur Halong</figcaption></figure></div><p><strong>Nota untuk TC:</strong> menu berbeza ikut restoran &amp; musim &mdash; guna gambar sebagai gambaran umum, jangan janjikan hidangan tertentu.</p></div></details><details class='qa' data-text='solat — apa yang tc perlu beritahu awal masjid al noor (hanoi old quarter) adalah satu-satunya masjid di vietnam utara. dalam itinerari 4h3m ia stopover rasmi day 3. di sapa, fansipan dan cruise halong tiada surau — solat jamak/qasar di hotel atau kabin cruise. solat jumaat boleh jika berada di hanoi. jika di sapa/halong pada hari jumaat, ganti dengan zohor — maklum guide awal. wajib bawa telekung, sejadah kecil dan botol kecil/spray untuk wudhu (tandas tiada getah paip). guna app kiblat — tiada penanda arah kiblat di hotel/cruise.'><summary><span class='tw'>&#9654;</span><span>Solat &mdash; apa yang TC perlu beritahu awal</span></summary><div class='ans'><ul><li><b>Masjid Al Noor</b> (Hanoi Old Quarter) adalah satu-satunya masjid di Vietnam Utara. Dalam itinerari <b>4H3M</b> ia stopover rasmi Day 3.</li><li>Di <b>Sapa, Fansipan dan cruise Halong tiada surau</b> &mdash; solat jamak/qasar di hotel atau kabin cruise.</li><li>Solat Jumaat boleh jika berada di Hanoi. Jika di Sapa/Halong pada hari Jumaat, ganti dengan Zohor &mdash; maklum guide awal.</li><li>Wajib bawa telekung, sejadah kecil dan botol kecil/spray untuk wudhu (tandas tiada getah paip). Guna app kiblat &mdash; tiada penanda arah kiblat di hotel/cruise.</li></ul></div></details><details class='qa' data-text='makanan bayi, ubat &amp; bawa makanan sendiri makanan bayi: boleh dibawa dalam cabin, dalam pek asal berlabel (jangan buka atau salin pek). air panas boleh diminta dari kru penerbangan. bawa makanan sendiri: boleh (mi segera, biskut, snack) tetapi biasanya tidak perlu. elak daging, ayam, buah &amp; sayur segar. ubat preskripsi: bawa bersama surat doktor. ubat otc tidak perlu preskripsi. letak semua makanan &amp; ubat dalam satu beg berlabel jelas untuk memudahkan pemeriksaan.'><summary><span class='tw'>&#9654;</span><span>Makanan bayi, ubat &amp; bawa makanan sendiri</span></summary><div class='ans'><ul><li><b>Makanan bayi:</b> boleh dibawa dalam cabin, dalam pek asal berlabel (jangan buka atau salin pek). Air panas boleh diminta dari kru penerbangan.</li><li><b>Bawa makanan sendiri:</b> boleh (mi segera, biskut, snack) tetapi biasanya tidak perlu. Elak daging, ayam, buah &amp; sayur segar.</li><li><b>Ubat preskripsi:</b> bawa bersama surat doktor. Ubat OTC tidak perlu preskripsi.</li><li>Letak semua makanan &amp; ubat dalam satu beg berlabel jelas untuk memudahkan pemeriksaan.</li></ul></div></details>",
+   "trippix": "<h2>Gambar Trip Lepas</h2><p class='ssub'>Gambar sebenar dari trip PT Hanoi&ndash;Sapa&ndash;Halong Bay terdahulu &mdash; rujukan visual untuk TC semasa jawab soalan customer. Untuk poster, katalog atau iklan berbayar, dapatkan kelulusan marketing dahulu (consent peserta dalam gambar).</p><details class='qa' open data-text='sapa &amp; fansipan (12 gambar) gambar kumpulan di tangga sun plaza / sapa station — titik mula perjalanan tren muong hoa stesen muong hoa berbumbung kaca sebelum menaiki tren merah ke stesen cable car fansipan kabin cable car fansipan — tertutup sepenuhnya, dikongsi dengan pelancong lain bendera malaysia di tugu puncak fansipan 3,143m — hari cerah berawan tugu penanda puncak fansipan &quot;top of indochina&quot; — sesak, perlu bergilir bergambar kompleks pagoda fansipan — barisan tangga batu panjang, cuaca berkabus &amp; lembap tapak fansipan dengan taman bunga — kabus tebal sehingga pagoda hampir tidak kelihatan pemandangan dari dalam kabin cable car — kabus tebal, lanskap tidak dijamin jelas jambatan gantung kayu di kampung cat cat — laluan berbatu-tangga, licin selepas hujan bersama wanita etnik h&#x27;mong di gerai kraftangan cat cat — topi &amp; beg bersulam tangga marmar di hadapan sun plaza sapa — beberapa lapis tangga ke pintu masuk sudut lain tugu fansipan — angin kuat di puncak, ramai pelancong lain guna untuk set expectation: fansipan kerap berkabus tebal — pemandangan puncak tidak dijamin. kabin cable car tertutup dan dikongsi. kompleks pagoda ada barisan tangga batu panjang, dan tugu puncak sesak (perlu bergilir bergambar). laluan cat cat village berbatu-tangga dan licin selepas hujan.'><summary><span class='tw'>&#9654;</span><span>Sapa &amp; Fansipan (12 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:7a92b9cc857f\" alt=\"Gambar kumpulan di tangga Sun Plaza / Sapa Station &mdash; titik mula perjalanan tren Muong Hoa\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Gambar kumpulan di tangga Sun Plaza / Sapa Station &mdash; titik mula perjalanan tren Muong Hoa</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:89f682fd0584\" alt=\"Stesen Muong Hoa berbumbung kaca sebelum menaiki tren merah ke stesen cable car Fansipan\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Stesen Muong Hoa berbumbung kaca sebelum menaiki tren merah ke stesen cable car Fansipan</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:f1bd3638432d\" alt=\"Kabin cable car Fansipan &mdash; tertutup sepenuhnya, dikongsi dengan pelancong lain\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Kabin cable car Fansipan &mdash; tertutup sepenuhnya, dikongsi dengan pelancong lain</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:24c346ed520b\" alt=\"Bendera Malaysia di tugu puncak Fansipan 3,143m &mdash; hari cerah berawan\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Bendera Malaysia di tugu puncak Fansipan 3,143m &mdash; hari cerah berawan</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:5242c49b28b6\" alt=\"Tugu penanda puncak Fansipan &quot;Top of Indochina&quot; &mdash; sesak, perlu bergilir bergambar\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Tugu penanda puncak Fansipan &quot;Top of Indochina&quot; &mdash; sesak, perlu bergilir bergambar</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:6bc793ea0a7c\" alt=\"Kompleks pagoda Fansipan &mdash; barisan tangga batu panjang, cuaca berkabus &amp; lembap\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Kompleks pagoda Fansipan &mdash; barisan tangga batu panjang, cuaca berkabus &amp; lembap</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:0d8cd2d671af\" alt=\"Tapak Fansipan dengan taman bunga &mdash; kabus tebal sehingga pagoda hampir tidak kelihatan\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Tapak Fansipan dengan taman bunga &mdash; kabus tebal sehingga pagoda hampir tidak kelihatan</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:b9d853d5026b\" alt=\"Pemandangan dari dalam kabin cable car &mdash; kabus tebal, lanskap tidak dijamin jelas\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Pemandangan dari dalam kabin cable car &mdash; kabus tebal, lanskap tidak dijamin jelas</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:b163c9b2bb18\" alt=\"Jambatan gantung kayu di Kampung Cat Cat &mdash; laluan berbatu-tangga, licin selepas hujan\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Jambatan gantung kayu di Kampung Cat Cat &mdash; laluan berbatu-tangga, licin selepas hujan</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:12fe813be44c\" alt=\"Bersama wanita etnik H'mong di gerai kraftangan Cat Cat &mdash; topi &amp; beg bersulam\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Bersama wanita etnik H'mong di gerai kraftangan Cat Cat &mdash; topi &amp; beg bersulam</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:812c304a13bb\" alt=\"Tangga marmar di hadapan Sun Plaza Sapa &mdash; beberapa lapis tangga ke pintu masuk\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Tangga marmar di hadapan Sun Plaza Sapa &mdash; beberapa lapis tangga ke pintu masuk</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:afdefd6d054e\" alt=\"Sudut lain tugu Fansipan &mdash; angin kuat di puncak, ramai pelancong lain\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Sudut lain tugu Fansipan &mdash; angin kuat di puncak, ramai pelancong lain</figcaption></figure></div><p><strong>Guna untuk set expectation:</strong> Fansipan kerap berkabus tebal &mdash; pemandangan puncak tidak dijamin. Kabin cable car tertutup dan dikongsi. Kompleks pagoda ada barisan tangga batu panjang, dan tugu puncak sesak (perlu bergilir bergambar). Laluan Cat Cat Village berbatu-tangga dan licin selepas hujan.</p></div></details><details class='qa' data-text='halong bay — cruise, gua &amp; kayak (8 gambar) jaket keselamatan merah di bot pemindahan di jeti halong — jeti sibuk, langit mendung dalam bot pemindahan berbumbung menuju kapal persiaran — bot agak sempit koridor dek kapal persiaran victory star — pemandangan gunung batu kapur sampan kayu masuk ke mulut gua luon — jaket keselamatan wajib dipakai sampan kayuh di gua luon dikelilingi kayak — boleh pilih kayak sendiri atau sampan papan tanda masuk gua sung sot — denai berhutan &amp; tangga sebelum mulut gua dalam gua sung sot — stalaktit berlampu warna, laluan lembap menaik-menurun dek pandang pulau titop — panorama gugusan batu kapur, banyak tangga mendaki guna untuk set expectation: jaket keselamatan wajib di bot pemindahan dan kayak. jeti halong sibuk dan bot pemindahan agak sempit — jangkakan masa menunggu. dek pandang titop island melibatkan banyak tangga mendaki; laluan dalam gua sung sot lembap dan menaik-menurun.'><summary><span class='tw'>&#9654;</span><span>Halong Bay &mdash; cruise, gua &amp; kayak (8 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:478d5ec1df4a\" alt=\"Jaket keselamatan merah di bot pemindahan di jeti Halong &mdash; jeti sibuk, langit mendung\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Jaket keselamatan merah di bot pemindahan di jeti Halong &mdash; jeti sibuk, langit mendung</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:ee12b6866be2\" alt=\"Dalam bot pemindahan berbumbung menuju kapal persiaran &mdash; bot agak sempit\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Dalam bot pemindahan berbumbung menuju kapal persiaran &mdash; bot agak sempit</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:fcb123491490\" alt=\"Koridor dek kapal persiaran Victory Star &mdash; pemandangan gunung batu kapur\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Koridor dek kapal persiaran Victory Star &mdash; pemandangan gunung batu kapur</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:24e1501534c9\" alt=\"Sampan kayu masuk ke mulut Gua Luon &mdash; jaket keselamatan wajib dipakai\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Sampan kayu masuk ke mulut Gua Luon &mdash; jaket keselamatan wajib dipakai</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:a03e78e5cbfc\" alt=\"Sampan kayuh di Gua Luon dikelilingi kayak &mdash; boleh pilih kayak sendiri atau sampan\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Sampan kayuh di Gua Luon dikelilingi kayak &mdash; boleh pilih kayak sendiri atau sampan</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:76a56d78d54e\" alt=\"Papan tanda masuk Gua Sung Sot &mdash; denai berhutan &amp; tangga sebelum mulut gua\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Papan tanda masuk Gua Sung Sot &mdash; denai berhutan &amp; tangga sebelum mulut gua</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:99b4e8737b5f\" alt=\"Dalam Gua Sung Sot &mdash; stalaktit berlampu warna, laluan lembap menaik-menurun\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Dalam Gua Sung Sot &mdash; stalaktit berlampu warna, laluan lembap menaik-menurun</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:ec45c2c66df4\" alt=\"Dek pandang Pulau Titop &mdash; panorama gugusan batu kapur, banyak tangga mendaki\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Dek pandang Pulau Titop &mdash; panorama gugusan batu kapur, banyak tangga mendaki</figcaption></figure></div><p><strong>Guna untuk set expectation:</strong> jaket keselamatan wajib di bot pemindahan dan kayak. Jeti Halong sibuk dan bot pemindahan agak sempit &mdash; jangkakan masa menunggu. Dek pandang Titop Island melibatkan banyak tangga mendaki; laluan dalam Gua Sung Sot lembap dan menaik-menurun.</p></div></details><details class='qa' data-text='hanoi (1 gambar) pintu masuk masjid al noor hanoi selepas solat — masjid kecil di lorong bandar lama ini satu-satunya gambar hanoi dalam set trip lepas. tiada gambar mega grand world, train street coffee, dong xuan market, hoan kiem lake atau hcm museum — hari hanoi belum boleh diilustrasikan dari set ini.'><summary><span class='tw'>&#9654;</span><span>Hanoi (1 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:662b8c75851c\" alt=\"Pintu masuk Masjid Al Noor Hanoi selepas solat &mdash; masjid kecil di lorong bandar lama\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Pintu masuk Masjid Al Noor Hanoi selepas solat &mdash; masjid kecil di lorong bandar lama</figcaption></figure></div><p>Ini satu-satunya gambar Hanoi dalam set trip lepas. Tiada gambar Mega Grand World, Train Street Coffee, Dong Xuan Market, Hoan Kiem Lake atau HCM Museum &mdash; hari Hanoi belum boleh diilustrasikan dari set ini.</p></div></details><details class='qa' data-text='makanan (2 gambar) set makan tengah hari vietnam di restoran berdinding buluh, sapa — nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi hidangan bbq / bufet di dek atas kapal persiaran waktu senja — disediakan kru, latar gunung batu kapur halong set menu vietnam di sapa dan bufet/bbq di dek cruise halong. berguna untuk jawab soalan “makan apa?” dan menunjukkan hidangan dihidang secara berkongsi.'><summary><span class='tw'>&#9654;</span><span>Makanan (2 gambar)</span></summary><div class='ans'><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:6px 0 2px\"><figure style=\"margin:0\"><img src=\"@asset:61ded0b9eeb9\" alt=\"Set makan tengah hari Vietnam di restoran berdinding buluh, Sapa &mdash; nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Set makan tengah hari Vietnam di restoran berdinding buluh, Sapa &mdash; nasi, sup periuk tanah, telur dadar, ayam berkuah &amp; buah, dihidang berkongsi</figcaption></figure><figure style=\"margin:0\"><img src=\"@asset:6493886f429b\" alt=\"Hidangan BBQ / bufet di dek atas kapal persiaran waktu senja &mdash; disediakan kru, latar gunung batu kapur Halong\" loading=\"lazy\" style=\"width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid #e6e6e6;border-radius:10px\"><figcaption style=\"font-size:12px;color:#6b6b6b;margin-top:5px;line-height:1.4\">Hidangan BBQ / bufet di dek atas kapal persiaran waktu senja &mdash; disediakan kru, latar gunung batu kapur Halong</figcaption></figure></div><p>Set menu Vietnam di Sapa dan bufet/BBQ di dek cruise Halong. Berguna untuk jawab soalan &ldquo;makan apa?&rdquo; dan menunjukkan hidangan dihidang secara berkongsi.</p></div></details>"
+  },
+  "snapshot": "# PT Hanoi–Sapa–Halong Bay — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Dua varian: PT Hanoi–Sapa–Halong Bay 5H4M & PT Hanoi–Sapa 4H3M — hotel 3★ fullboard halal, ground & tipping, sah untuk travel hingga 31 Dis 2026. Katalog V4 (12 Mac 2026).*\n\n- Semua harga sah **24 jam** selepas quotation dihantar.\n- Harga untuk **2@3 orang sebilik**. **Single supplement:** katalog nyatakan *quoted upon request* — minta quote dari consultant.\n- **Deposit RM250/pax**; full payment **45 hari** sebelum berlepas.\n- **Late Booking Surcharge RM50/booking** jika tempah kurang 45 hari sebelum berlepas.\n- **Last Minute Surcharge** (tempah kurang 3 minggu) berbeza ikut varian: **5H4M** 2 pax +RM400/pax · 3+ pax +RM300/pax; **4H3M** 2 pax +RM300/pax · 3+ pax +RM200/pax.\n- **Tiada peak season surcharge per malam.** Travel 2027 (1 Jan – 30 Jun 2027): **+RM100/pax**.\n- **Blackout:** Chinese New Year 2027 — **17–18 Feb 2027** (satu-satunya blackout dalam katalog V4).\n- Semak availability dahulu untuk: Chinese New Year · Raya Aidilfitri & Raya Haji · New Year · Christmas Holiday.\n- Itinerari, flight & harga tertakluk perubahan (cuaca, trafik, keselamatan). Itinerari & hotel muktamad **14 hari** sebelum trip.\n- **Perjalanan Hanoi → Sapa 6–8 jam sehala** (ikut katalog, bergantung trafik). Ini hari paling panjang.\n- **Bawa maksimum 1 luggage per pax** — kapasiti kenderaan private dan kabin cruise terhad. Banyak check-in/check-out termasuk masuk bot cruise, jadi pack efisien.\n- Meals sudah termasuk — **tiada refund** jika customer pilih untuk tidak makan.\n- Aktiviti/entrance yang tidak disertai **tidak boleh** ditukar dengan aktiviti lain, voucher atau tunai.\n- **Tiket flight pergi-balik TIDAK termasuk** — customer beli sendiri. Cadangan katalog: tiba HAN tengah hari ke atas (Day 1), berlepas tengah hari (hari akhir).\n- Requirement muslim-friendly (halal, solat) adalah **baseline** setiap pakej — driving guide Muslim tempatan, semua makan di restoran halal.\n- Sila semak validity trip dengan staff sebelum booking connecting flight domestik.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa yang pakej ini cover?**\n**5H4M:** Fansipan (tren Muong Hoa + cable car), Cat Cat Village, Moana Sapa, Muong Hoa Valley, Halong Bay overnight cruise (Stone Dog Island, Fighting Cocks, Gua Sung Sot, Titop Island), Gua Luon by kayak, Mega Grand World Hanoi, Hanoi Train Street Coffee. **4H3M:** Fansipan, Cat Cat Village, Muong Hoa Valley, Masjid Al Noor, HCM Museum, Dong Xuan Market, Hanoi Old City, Hoan Kiem Lake.\n\n**Apa beza 4H3M dan 5H4M?**\n5H4M tambah **Halong Bay** — satu malam atas cruise Victory Star + island tour + kayak Gua Luon, plus Mega Grand World & Train Street Coffee di Hanoi. 4H3M pula ada **city tour Hanoi penuh** (HCM Museum, Dong Xuan, Old City, Hoan Kiem) dan Masjid Al Noor dalam itinerari rasmi. Rujuk tab Perbezaan Pakej.\n\n**Ada travel map untuk trip ini?**\nAda — rujuk tab **Travel Map**. Ada dua map berasingan, satu untuk 4H3M dan satu untuk 5H4M.\n\n**Ini private tour atau group?**\nPrivate tour sepenuhnya — kenderaan, driver-guide dan itinerari untuk group customer sahaja, tidak bergabung dengan group lain.\n\n**Berapa panjang perjalanan Hanoi ke Sapa?**\n**6–8 jam sehala** ikut katalog, bergantung kepada trafik (highway Lao Cai). Ini sebab katalog syorkan tiba HAN tengah hari ke atas supaya sampai Sapa tidak terlalu lewat. Toilet break disediakan sepanjang jalan.\n\n**Sesuai untuk warga emas?**\nBoleh, tetapi set expectation awal: perjalanan darat panjang (6–8 jam), **banyak tangga** di kompleks pagoda Fansipan, dek pandang Titop Island dan laluan berbatu di Cat Cat Village. Warga emas boleh tunggu di platform bawah semasa yang lain naik tangga — maklum guide awal.\n\n**Sesuai untuk anak kecil?**\nSesuai — cable car Fansipan kabin tertutup, cruise Halong selamat dengan jaket keselamatan, dan Mega Grand World ada banyak aktiviti keluarga. Perjalanan darat panjang jadi bawa hiburan & snack untuk anak.\n\n**Ada pakej Hanoi–Sapa–Ninh Binh?**\nAda — 6 hari 5 malam, dengan lawatan ke **Pulau Tam Coc** di Ninh Binh. Untuk pakej 4H3M/5H4M, Ninh Binh boleh ditambah sebagai day trip (RM380/pax) — rujuk tab Simple Customisation.\n\n**Boleh customize itinerari?**\nBoleh — ini private tour. Boleh tambah spot, upgrade hotel, tukar transfer Hanoi–Sapa kepada sleeper train/bus, atau tambah day trip Ninh Binh. Maklum consultant awal; itinerari muktamad 14 hari sebelum trip.\n\n**Kenapa banyak check-in/check-out?**\nIkut katalog: 5H4M ada hotel Sapa → hotel Hanoi → cruise Halong → hotel Hanoi. Nasihatkan customer pack satu bag kecil untuk malam atas cruise supaya tidak perlu angkat luggage besar naik bot.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat?**\nYa. Operator Muslim tempatan — driver-guide pastikan semua makan di restoran halal, bukan sekadar tiada arak. Fullboard ikut katalog: **5H4M 4B/3L/4D · 4H3M 3B/2L/3D**.\n\n**Makan apa dalam pakej?**\nSet menu Vietnam dihidang secara berkongsi di meja: nasi putih, sup panas, telur dadar, ayam masak berkuah, sayur dan buah segar. Atas cruise Halong ada hidangan bufet/BBQ di dek. Rujuk dropdown gambar dalam tab Halal & Makanan.\n\n**Makanan halal di Sapa & atas cruise macam mana?**\nGuide atur restoran halal di Sapa (restoran berdinding buluh, set menu Vietnam). Di atas cruise Halong, makanan halal disediakan oleh operator. Bawa snack halal sendiri untuk lawatan luar (Cat Cat Village, puncak Fansipan) kerana pilihan halal di lokasi itu tiada.\n\n**Boleh bawa makanan sendiri dari Malaysia?**\nBoleh — mi segera, biskut, roti, coklat dan pek ready-to-eat dibenarkan, tetapi biasanya tidak perlu kerana fullboard sudah cukup. Elak daging, ayam, buah dan sayur segar (halangan kastam). Letak semua makanan & ubat dalam satu beg berlabel jelas.\n\n**Makanan bayi boleh dibawa?**\nBoleh — dalam cabin, dalam **pek asal beserta label** (jangan buka atau salin pek). Air panas untuk bancuh susu boleh diminta dari kru penerbangan.\n\n**Ada masjid/surau untuk solat?**\n**Masjid Al Noor** di Hanoi Old Quarter — satu-satunya masjid di Vietnam Utara, dengan restoran halal di sebelahnya. Dalam itinerari **4H3M** ia adalah stopover rasmi (Day 3). Di **Sapa, Fansipan dan cruise Halong tiada surau** — solat jamak/qasar di hotel atau kabin cruise.\n\n**Boleh solat Jumaat?**\nBoleh jika berada di Hanoi (Masjid Al Noor). Jika di Sapa atau Halong pada hari Jumaat, ganti dengan Zohor — maklum guide awal supaya jadual disesuaikan.\n\n**Perlu bawa apa untuk solat?**\nTelekung, sejadah kecil dan **botol kecil/spray untuk wudhu** — tandas di Vietnam biasanya tiada getah paip. Guna app kiblat kerana tiada penanda arah kiblat di hotel/cruise.\n\n**Ada arak di sekitar?**\nRestoran halal yang digunakan tidak ada arak. Tetapi arak dijual bebas di Sapa town, Hanoi Old Quarter dan atas cruise untuk penumpang lain — bukan isu untuk makanan pakej, cuma perlu tahu suasana.\n\n### C. Visa & Passport\n\n**Perlu visa ke Vietnam?**\n**Tidak** — pemegang passport Malaysia bebas visa untuk lawatan sehingga **30 hari**.\n\n**Syarat passport?**\nSah **sekurang-kurangnya 6 bulan** dari tarikh perjalanan, dengan sekurang-kurangnya 2 muka surat kosong.\n\n**Perlu isi arrival card?**\n**Tidak — Vietnam tiada arrival card.** Tiada borang online yang perlu diisi sebelum berlepas.\n\n**Kanak-kanak bawah 18 tahun perlu dokumen tambahan?**\nJika bersama parents, passport sahaja sudah cukup. Boleh bawa photocopy surat beranak sebagai standby.\n\n**Dokumen apa perlu disediakan?**\n**Tour Voucher** (softcopy memadai, 1 per family) dan **Covernote Insurance**. Bawa versi printed jika risau tiada internet.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak — pakej ini **Ground & Tipping** sahaja. Rujuk jadual return flight di bahagian atas tab ini.\n\n**Flight rekemen pergi-balik dari KUL ke Hanoi?**\nRujuk jadual di bahagian atas tab ini — empat airline dengan kedua-dua leg (KUL→HAN dan HAN→KUL). Harga anggaran adalah **round-trip** per pax.\n\n**Flight ke Hanoi berapa lama?**\nDirect KUL → Hanoi (HAN) sekitar **3 jam 10 minit – 3 jam 20 minit** setiap hala.\n\n**Airport mana?**\n**Hanoi Noi Bai International Airport (HAN)**. Driver akan menunggu di Arrival Hall; terus transfer ke Sapa (6–8 jam).\n\n**Waktu flight mana yang sesuai?**\nKatalog syorkan **tiba HAN tengah hari ke atas** hari pertama dan **berlepas tengah hari** hari akhir. Flight pagi/tengah hari (OD 571, AK 512, VJ 906) paling sesuai untuk ketibaan. Untuk pulangan, OD 572 dan VN 681 berlepas awal petang — paling hampir dengan syor katalog.\n\n**Bagasi macam mana untuk penerbangan low cost?**\nAirAsia: check-in **20kg** (maksimum 2 luggage/pax, satu beg tidak melebihi 30kg), hand carry 7kg (1 handbag/sling + 1 cabin bag). Backpack besar dikira sebagai luggage. Tetapi ingat **katalog minta maksimum 1 luggage per pax** untuk kapasiti kenderaan.\n\n**Boleh share luggage allowance dengan keluarga?**\nBoleh dalam booking yang sama — contoh 3 pax × 20kg = 60kg. Tiada limit kuantiti beg jika combine, tetapi setiap beg tidak melebihi 30kg dan had 2 beg per pax kekal.\n\n**Apa boleh dan tak boleh dalam hand carry?**\nCecair **tidak melebihi 100ml** sahaja, dibungkus dalam plastik yang diikat ketat. Cecair >100ml (lotion, gel) mesti check-in. Barang tajam (gunting kecil, mata pisau pencukur, pembuka botol, pemotong kuku) mesti check-in.\n\n**Powerbank & bateri macam mana?**\n**Semua bateri & powerbank WAJIB hand carry** — tidak boleh dalam check-in luggage. Had **100Wh (±20,000mAh)**.\n\n**Barang bayi & stroller dikira sebagai bagasi?**\nInfant bawah 2 tahun tiada baggage allowance; **stroller FOC**. Stroller tidak perlu check-in — maklum staf di kaunter, dapat tag, dan boleh bawa sampai pintu pesawat. Barang bayi (botol susu, pampers, wet tissue, milk powder) dikira dalam 7kg hand carry penjaga.\n\n**Stroller sesuai untuk trip ini?**\nBoleh dibawa, tetapi beberapa lokasi **tidak stroller-friendly** — Cat Cat Village berbatu-tangga, kompleks pagoda Fansipan banyak tangga, dan dek cruise sempit. Sarankan stroller travel-friendly yang mudah dilipat.\n\n**Boleh pilih seat dalam flight?**\nUntuk PT, customer beli tiket sendiri — seat selection diuruskan sendiri melalui airline. Sarankan pilih seat awal jika mahu duduk bersama keluarga, terutama yang ada anak kecil atau warga emas.\n\n**Perlu wrap bag?**\nTidak wajib, tetapi disyorkan untuk luggage keras. Wrap boleh dibuat di KLIA/KLIA2 sebelum check-in, dan plastik yang sama boleh diguna semula untuk perjalanan balik.\n\n**Bila perlu sampai airport?**\nTiba KLIA/KLIA2 **3 jam** sebelum berlepas (lebih awal pada musim puncak). Berada di boarding gate sekurang-kurangnya 1 jam sebelum berlepas.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n**3★ default** — Sapa: Saparis Hotel / Beautiful Sapa Hotel · Hanoi: CWD Hotel / The Charm Hotel · Halong (5H4M): **Victory Star Cruise** (1 malam). **Upgrade 4★:** Sapa Delasol / Aliana Boutique · Hanoi Lake Residence / Lake Side, +RM140/pax/malam. Kabin cruise kekal 3★ (tiada upgrade).\n\n**Hotel di area mana?**\nIkut katalog 4H3M: hotel biasanya **di luar pusat bandar**, tetapi driving guide sanggup bawa berpusing ke pusat bandar jika diminta. Untuk 5H4M, hotel Hanoi biasanya berdekatan kawasan Old Quarter.\n\n**Customer nak book hotel sendiri — apa yang perlu diingatkan?**\nBoleh, tetapi **wajib** maklumkan nama & alamat penuh hotel kepada consultant sebelum booking. Hotel mesti dalam kawasan yang sama dengan hotel rasmi pakej (Sapa town / Hanoi bandar) kerana jadual pickup dan susunan itinerari dikira dari lokasi hotel rasmi — dan pakej ini ada long drive 6–8 jam yang tidak boleh dilewatkan. Hotel yang jauh menyebabkan **operational hiccup**: pickup lewat dan itinerari terpaksa dipendekkan. Untuk 5H4M, malam atas cruise tidak boleh diganti.\n\n**Boleh upgrade 4★?**\nBoleh — **+RM140/pax/malam** untuk Sapa dan Hanoi. Contoh 4H3M (1 malam Sapa + 2 malam Hanoi) = +RM420/pax. Kabin cruise kekal 3★.\n\n**Bilik untuk berapa orang?**\n2–3 orang sebilik (triple = tambah katil). Single occupancy: single supplement *quoted upon request*.\n\n**Ada iron atau laundry dalam hotel?**\nHotel di Vietnam biasanya ada **laundry service** (berbayar) tetapi **tiada self-service**. Sarankan customer bawa baju secukupnya. Sterika biasanya perlu request di kaunter; towel, sabun & syampu disediakan.\n\n**Bila hotel disahkan?**\nSusunan hotel & itinerari muktamad **14 hari** sebelum trip.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\nIkut katalog: **Nov–Apr musim kering (sunny)**, **May–Okt musim hujan (rainy)**. Sep–Nov paling cantik — sawah padi teres keemasan dan Halong Bay tenang.\n\n**Berapa suhu Sapa?**\nSapa tanah tinggi, jauh lebih sejuk dari Hanoi. Dis–Feb boleh turun 0–12°C (kadang salji). Suhu di **puncak Fansipan turun 10–15°C** dari kawasan base — wajib bawa jaket tebal.\n\n**View Fansipan dijamin cantik?**\nTidak dijamin. Fansipan kerap **berkabus tebal** — kadang pagoda dan tangga batu di depan pun tidak kelihatan. Set expectation customer awal: cable car tetap jalan, tetapi pemandangan bergantung cuaca hari itu.\n\n**Boleh nampak salji?**\nKadang-kadang pada Dis–Feb di Sapa/Fansipan, tetapi tidak boleh dijanjikan.\n\n**Perlu bawa baju sejuk?**\nYa untuk Sapa & Fansipan — jaket tebal, sweater, stokin lebih. Bawa juga payung/raincoat kecil (kabus & hujan renyai biasa di Sapa) dan kasut yang tidak licin.\n\n### G. Shopping & Duit\n\n**Guna mata wang apa?**\n**Vietnam Dong (VND)**. Tukar di Malaysia lebih senang. Sediakan tunai untuk pasar & gerai kecil.\n\n**Bawa duit belanja berapa?**\nCadangan **tunai RM200–RM500/pax** untuk belanja kecil, plus baki dalam kad/e-wallet untuk shopping. Dong Xuan Market & Hanoi Old Quarter kebanyakannya terima tunai sahaja.\n\n**Boleh guna kad?**\nDiterima di hotel & mall besar. Aktifkan kad untuk kegunaan luar negara. Gerai kecil dan pasar borong hanya terima tunai VND.\n\n**Beli apa untuk souvenir?**\nDong Xuan Market (pasar fesyen terbesar), Hanoi Old City (souvenir), kraftangan sulaman etnik H'mong di Cat Cat Village, kopi Vietnam dan barang kulit.\n\n**Peniaga di Cat Cat Village mendesak?**\nWanita etnik H'mong akan menawarkan topi, beg bersulam dan kraftangan. Tidak agresif, tetapi nasihatkan customer sedia untuk menolak dengan baik jika tidak berminat, dan tanya harga dahulu sebelum bergambar bersama.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\n**RM250/pax** semasa booking confirmation.\n\n**Bila full payment?**\n**45 hari** sebelum tarikh berlepas.\n\n**Harga boleh berubah?**\nQuotation sah **24 jam**. Itinerari, flight, harga & quotation tertakluk kepada perubahan sehingga disahkan.\n\n**Kalau tak makan atau tak join aktiviti, ada refund?**\n**Tiada.** Meals sudah termasuk dalam pakej — tiada refund jika tidak dimakan. Aktiviti/entrance percuma tidak boleh ditukar dengan aktiviti lain, voucher atau tunai, termasuk jika tidak dapat dijalankan kerana cuaca atau availability.\n\n**Ada surcharge yang perlu diberitahu awal?**\nLate Booking RM50/booking (<45 hari) dan Last Minute (<3 minggu) ikut varian: **5H4M** 2 pax +RM400/pax · 3+ pax +RM300/pax; **4H3M** 2 pax +RM300/pax · 3+ pax +RM200/pax. Travel 2027 (Jan–Jun): +RM100/pax.\n\n### I. Add-ons & Customization\n\n**Ada aktiviti tambahan?**\nBang Mon Alpine Coaster Sapa (RM50/pax), Day Trip Ninh Binh (RM380/pax, termasuk B+L+D + transfer + paddle boat), extra meal (RM30/pax/meal), pocket WiFi dan takaful. Rujuk jadual penuh di bahagian atas tab ini.\n\n**Boleh tukar transfer Hanoi–Sapa kepada sleeper train?**\nBoleh — Sleeper Train/Bus **Regular RM180/pax/hala** atau **VVIP RM200/pax/hala**. Sesuai untuk customer yang tidak tahan perjalanan darat 6–8 jam pada siang hari.\n\n**Boleh tambah insurans/takaful?**\nBoleh — Etiqa TripCare 360 (Vietnam = Area 1 ASEAN): Individu RM45 (1–5 hari) / RM62 (6–10 hari); Family RM100 / RM141.\n\n**Ada luggage tracker?**\nAda — Blue Ribbon RM20–RM70 (Silver / Gold / Platinum / Diamond).\n\n**Pocket WiFi macam mana?**\nRoamingMan: 4H3M 3GB 4G RM80/trip; 5H4M 3GB 4G RM175/trip atau 10GB 5G RM150/trip. Satu pocket WiFi boleh dikongsi untuk 3 telefon.\n\n### J. Kesihatan & Keselamatan\n\n**Perlu vaksin khas?**\nTiada keperluan vaksin wajib untuk Vietnam bagi pelawat Malaysia.\n\n**Selamat untuk keluarga?**\nYa secara umum. Jaga barang peribadi di kawasan sesak (Dong Xuan Market, Hanoi Old Quarter, puncak Fansipan). Simpan salinan passport berasingan.\n\n**Boleh bawa ubat preskripsi?**\nBoleh. Ubat berpreskripsi (darah tinggi, kencing manis) perlu dibawa **bersama surat doktor** — boleh didapatkan dari mana-mana klinik jika hilang. Ubat OTC (panadol, selsema) tidak perlu preskripsi dan tidak wajib label.\n\n**Mesin nebuliser portable boleh dibawa?**\nBoleh dibawa **on board** (hand carry). Sertakan surat doktor jika ada.\n\n**Apa perlu diingat untuk long drive & cruise?**\nPerjalanan Hanoi–Sapa 6–8 jam berbukit — sarankan ubat loya untuk yang mudah pening. Atas bot pemindahan dan kayak Halong, **jaket keselamatan wajib** dipakai. Bot pemindahan agak sempit dan jeti Halong sibuk — jangkakan masa menunggu.\n\n**Ada isu ketinggian di Fansipan?**\nPuncak Fansipan 3,143m. Kebanyakan orang tiada masalah kerana naik dengan cable car (bukan mendaki), tetapi angin kuat dan udara nipis di puncak — jangan berlari naik tangga, dan warga emas boleh rehat di platform bawah.\n\n### K. Praktikal (SIM / Internet / Socket / Tandas)\n\n**Internet macam mana?**\nVietnam **tiada sekatan** app seperti China — WhatsApp, Google, Instagram semua berfungsi. Pilihan: roaming telco Malaysia, pocket WiFi, atau SIM tempatan. WiFi hotel biasanya ada tetapi perlahan di Sapa.\n\n**Ada internet atas cruise Halong?**\nTerhad — signal lemah di tengah teluk. Set expectation customer bahawa mereka mungkin offline sepanjang malam atas cruise.\n\n**Socket/plug jenis apa?**\nVietnam guna socket **Type A, C & F**. Bawa **universal travel adapter** + extension plug. Letak power bank/adapter dalam hand carry.\n\n**Ada port charger dalam kenderaan?**\nBergantung kepada kenderaan yang trip dapat — tidak dijamin. Sarankan customer bawa power bank sendiri (hand carry, ≤100Wh).\n\n**Tandas macam mana?**\nKebanyakan tandas **tiada getah paip/bidet** — bawa botol spray + tisu. Tandas di lokasi tour (Fansipan, Cat Cat, cruise) bersih tetapi mungkin beratur pada waktu puncak.\n\n**Waktu tempatan sama dengan Malaysia?**\nTidak — Vietnam **GMT+7**, satu jam lewat dari Malaysia. Ingatkan customer laraskan jam & alarm untuk pickup pagi.\n\n### L. Packing\n\n**Apa perlu bawa?**\nPassport; jaket tebal + sweater untuk Sapa/Fansipan; kasut sport yang tidak licin + stokin lebih; **telekung & sejadah**; **botol spray** (wudhu); tisu/wet wipes; payung/raincoat kecil; ubat peribadi + surat doktor (jika preskripsi); **universal adapter** + power bank; ubat loya untuk long drive; dan duit tunai VND.\n\n**Ada barang khas untuk malam atas cruise?**\nYa — pack **satu bag kecil** untuk satu malam (baju tukar, telekung, ubat, charger) supaya tidak perlu angkat luggage besar naik bot pemindahan. Luggage besar boleh ditinggal dalam kenderaan atau hotel Hanoi.\n\n**Kasut apa sesuai?**\nSport shoes atau kasut selesa yang **tidak licin** — laluan Cat Cat Village berbatu-tangga, dalam Gua Sung Sot lembap, dan dek cruise berlantai kayu. Elak heels dan selipar licin.\n"
+ },
+ "calc": {
+  "dest": "Hanoi - Sapa",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-8)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+  "singleNote": "Katalog dan rate card kedua-duanya tulis <b>quoted upon request</b> &mdash; minta kadar daripada operator sebelum quote solo. Tiada kadar tersiar, jadi kalkulator tidak caj apa-apa untuk bilik single.",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tiada operasi. <b>Check availability</b> dengan operator untuk Chinese New Year, Raya Aidilfitri, Raya Haji, New Year dan Christmas.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 30,
+   "drop": 20
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "ext": {
+   "night": {
+    "normal": 100,
+    "peak": 100
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 25,
+   "shareVehicle": true,
+   "autoNights": false,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 0,
+       "peak": 0
+      }
+     ]
+    },
+    "up4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 140,
+       "peak": 140
+      }
+     ]
+    },
+    "h4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 240,
+       "peak": 240
+      }
+     ]
+    },
+    "h5": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 320,
+       "peak": 320
+      }
+     ]
+    },
+    "homestay": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": 80,
+       "peak": 80
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -50,
+       "peak": -50
+      }
+     ]
+    },
+    "nightShort4": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -120,
+       "peak": -120
+      }
+     ]
+    },
+    "cruiseDed": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -100,
+       "peak": -100
+      }
+     ]
+    },
+    "sapa2n": {
+     "_default": [
+      {
+       "from": 1,
+       "to": 99,
+       "normal": -50,
+       "peak": -50
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang (dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4sapa",
+    "t": "Upgrade 4 bintang Sapa &middot; Delasol / Aliana Boutique",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel (Sapa)",
+    "incl": "4-Star hotel upgrade in Sapa - Delasol Sapa Hotel or Aliana Boutique Sapa Hotel & Spa ({days})"
+   },
+   {
+    "v": "up4hanoi",
+    "t": "Upgrade 4 bintang Hanoi &middot; Lake Residence / Lake Side",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel (Hanoi)",
+    "incl": "4-Star hotel upgrade in Hanoi - Lake Residence Hotel or Lake Side Hotel ({days})"
+   },
+   {
+    "v": "cruise",
+    "t": "Halong Bay Cruise 3 bintang (dalam pakej &ndash; tiada upgrade)",
+    "cost": "incl",
+    "hotel": "Halong Bay Cruise (3-Star)",
+    "incl": "1 night on board Halong Bay cruise (Victory Star) with Luon Cave kayak activity ({days})"
+   },
+   {
+    "v": "cruiseday",
+    "t": "Halong Bay day cruise &middot; ganti overnight cruise (5D4N) &ndash; tolak",
+    "cost": "incl",
+    "perPaxRate": "cruiseDed",
+    "hotel": "3-Star Hotel (Hanoi)",
+    "line": "Halong Bay day cruise instead of overnight cruise",
+    "incl": "Halong Bay day cruise on Diamond Cruise, overnight at 3-Star hotel in Hanoi ({days})"
+   },
+   {
+    "v": "sapa2",
+    "t": "Malam ke-2 di Sapa &middot; itinerari diselaraskan &ndash; tolak",
+    "cost": "incl",
+    "perPaxRate": "sapa2n",
+    "hotel": "3-Star Hotel (Sapa)",
+    "line": "Second night in Sapa, adjusted itinerary",
+    "incl": "Second night at 3-Star hotel in Sapa ({days})"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; hotel 4 bintang",
+    "cost": "night",
+    "nightRate": "h4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "n5",
+    "t": "Malam tambahan &middot; hotel 5 bintang",
+    "cost": "night",
+    "nightRate": "h5",
+    "hotel": "5-Star Hotel",
+    "line": "Additional night, 5-Star hotel",
+    "incl": "Additional night at 5-Star Hotel ({days})"
+   },
+   {
+    "v": "nhome",
+    "t": "Malam tambahan &middot; Rock Garden Homestay",
+    "cost": "night",
+    "nightRate": "homestay",
+    "hotel": "Rock Garden Homestay",
+    "line": "Additional night, Rock Garden Homestay",
+    "incl": "Additional night at Rock Garden Homestay ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tolak 1 malam &middot; hotel 3 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "noht4",
+    "t": "Tolak 1 malam &middot; hotel 4 bintang",
+    "cost": "zero",
+    "perPaxRate": "nightShort4",
+    "dropsNight": true,
+    "line": "Package night removed (4-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private transportation with driving guide ({days})"
+   },
+   {
+    "v": "air",
+    "t": "Private Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Airport Transfer",
+    "incl": "Private airport transfer ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation with driving guide ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "L5d1",
+    "t": "Ketibaan Hanoi - transfer ke Sapa",
+    "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+    "acc": "incl",
+    "meal": "d",
+    "trp": "incl",
+    "region": "[Sapa]",
+    "act": [
+     "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+     "Transfer ke Sapa (6 - 8 jam pemanduan)",
+     "Check-in hotel 3 bintang di Sapa"
+    ],
+    "eact": [
+     "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+     "Transfer to Sapa (6 - 8 hours drive)",
+     "Check in 3-Star hotel in Sapa"
+    ],
+    "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+   },
+   {
+    "v": "L5d2",
+    "t": "Fansipan - Cat Cat Village - transfer ke Hanoi",
+    "en": "FANSIPAN - CAT CAT VILLAGE - TRANSFER TO HANOI",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Sapa]",
+    "act": [
+     "Train ke Cable Car Fansipan Mountain (termasuk)",
+     "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+     "Cat Cat Village, kampung etnik H'mong",
+     "Moana Sapa",
+     "Muong Hua Valley",
+     "Transfer ke Hanoi",
+     "Check-in hotel 3 bintang di Hanoi"
+    ],
+    "eact": [
+     "Train to Fansipan Mountain cable car (included)",
+     "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+     "Cat Cat Village, H'mong ethnic mountain village",
+     "Moana Sapa",
+     "Muong Hua Valley",
+     "Transfer to Hanoi",
+     "Check in 3-Star hotel in Hanoi"
+    ],
+    "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+   },
+   {
+    "v": "L5d3",
+    "t": "Halong Bay - bermalam atas cruise",
+    "en": "HALONG BAY - OVERNIGHT CRUISE",
+    "acc": "cruise",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Halong Bay]",
+    "act": [
+     "Transfer ke Halong Bay",
+     "Check-in Halong Bay Cruise",
+     "Island tour: Stone Dog Island",
+     "Fighting Cocks Islet",
+     "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+     "Titop Island, pantai pasir putih berbentuk bulan sabit"
+    ],
+    "eact": [
+     "Transfer to Halong Bay",
+     "Check in Halong Bay cruise",
+     "Island tour: Stone Dog Island",
+     "Fighting Cocks Islet",
+     "Sung Sot Cave, the largest and most stunning limestone cave",
+     "Titop Island, crescent-moon shaped beach with soft white sand"
+    ],
+    "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+   },
+   {
+    "v": "L5d4",
+    "t": "Halong Bay - kembali ke Hanoi",
+    "en": "HALONG BAY - RETURN TO HANOI",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Hanoi]",
+    "act": [
+     "Gua Luon dengan kayak",
+     "Check-out Halong Bay Cruise",
+     "Mega Grand World Hanoi, kawasan hiburan terbesar",
+     "Hanoi Train Street Coffee",
+     "Shopping cenderamata",
+     "Check-in hotel 3 bintang di Hanoi"
+    ],
+    "eact": [
+     "Luon Cave by kayak",
+     "Check out Halong Bay cruise",
+     "Mega Grand World Hanoi, the largest entertainment area",
+     "Hanoi Train Street Coffee",
+     "Souvenir shopping",
+     "Check in 3-Star hotel in Hanoi"
+    ],
+    "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+   },
+   {
+    "v": "L5d5",
+    "t": "Hanoi - penerbangan pulang",
+    "en": "HANOI - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Check-out hotel",
+     "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+    ],
+    "eact": [
+     "Hotel check out",
+     "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+    ],
+    "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+   },
+   {
+    "v": "L4d1",
+    "t": "Ketibaan Hanoi - transfer ke Sapa",
+    "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+    "acc": "incl",
+    "meal": "d",
+    "trp": "incl",
+    "region": "[Sapa]",
+    "act": [
+     "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+     "Airport pickup",
+     "Transfer ke Sapa (6 - 8 jam pemanduan)",
+     "Check-in hotel 3 bintang di Sapa"
+    ],
+    "eact": [
+     "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+     "Airport pickup",
+     "Transfer to Sapa (6 - 8 hours drive)",
+     "Check in 3-Star hotel in Sapa"
+    ],
+    "g": "Blok 4D3N - Hanoi, Sapa"
+   },
+   {
+    "v": "L4d2",
+    "t": "Fansipan - transfer ke Hanoi",
+    "en": "FANSIPAN - TRANSFER TO HANOI",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Sapa]",
+    "act": [
+     "Check-out hotel",
+     "Train ke Cable Car Fansipan Mountain (termasuk)",
+     "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+     "Cat Cat Village, kampung etnik H'mong",
+     "Muong Hua Valley",
+     "Transfer ke Hanoi",
+     "Check-in hotel 3 bintang di Hanoi"
+    ],
+    "eact": [
+     "Hotel check out",
+     "Train to Fansipan Mountain cable car (included)",
+     "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+     "Cat Cat Village, H'mong ethnic mountain village",
+     "Muong Hua Valley",
+     "Transfer to Hanoi",
+     "Check in 3-Star hotel in Hanoi"
+    ],
+    "g": "Blok 4D3N - Hanoi, Sapa"
+   },
+   {
+    "v": "L4d3",
+    "t": "Hanoi city tour",
+    "en": "HANOI CITY TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Hanoi]",
+    "act": [
+     "Masjid Al Noor - solat dan rehat",
+     "HCM Museum, muzium pemimpin Vietnam",
+     "Dong Xuan Market, pasar fesyen terbesar",
+     "Hanoi Old City - budaya tempatan dan shopping cenderamata",
+     "Hoang Kiem Lake, tasik air tawar yang dikenali sebagai Sword Lake"
+    ],
+    "eact": [
+     "Al Noor Mosque - prayer and rest stopover",
+     "Ho Chi Minh Museum, the Vietnamese leaders museum",
+     "Dong Xuan Market, the largest fashion market",
+     "Hanoi Old City - local culture and souvenir shopping",
+     "Hoan Kiem Lake, the natural fresh water lake known as the Sword Lake"
+    ],
+    "g": "Blok 4D3N - Hanoi, Sapa"
+   },
+   {
+    "v": "L4d4",
+    "t": "Hanoi - penerbangan pulang",
+    "en": "HANOI - RETURN FLIGHT",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "region": "[Airport]",
+    "act": [
+     "Check-out hotel",
+     "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+    ],
+    "eact": [
+     "Hotel check out",
+     "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+    ],
+    "g": "Blok 4D3N - Hanoi, Sapa"
+   },
+   {
+    "v": "S2d2",
+    "t": "Fansipan - Cat Cat Village - bermalam di Sapa (tolak RM 50)",
+    "en": "FANSIPAN - CAT CAT VILLAGE - OVERNIGHT SAPA",
+    "acc": "sapa2",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Sapa]",
+    "g": "Sapa 2 malam (4D3N) - itinerari diselaraskan",
+    "act": [
+     "Train ke Cable Car Fansipan Mountain (termasuk)",
+     "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+     "Cat Cat Village, kampung etnik H'mong",
+     "Muong Hua Valley",
+     "Bermalam di Sapa (malam ke-2)"
+    ],
+    "eact": [
+     "Train to Fansipan Mountain cable car (included)",
+     "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+     "Cat Cat Village, H'mong ethnic mountain village",
+     "Muong Hua Valley",
+     "Overnight in Sapa (second night)"
+    ]
+   },
+   {
+    "v": "S2d3",
+    "t": "Sapa - transfer ke Hanoi",
+    "en": "SAPA - TRANSFER TO HANOI",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Hanoi]",
+    "g": "Sapa 2 malam (4D3N) - itinerari diselaraskan",
+    "act": [
+     "Check-out hotel Sapa",
+     "Transfer ke Hanoi (6 - 8 jam pemanduan)",
+     "Check-in hotel 3 bintang di Hanoi"
+    ],
+    "eact": [
+     "Check out Sapa hotel",
+     "Transfer to Hanoi (6 - 8 hours drive)",
+     "Check in 3-Star hotel in Hanoi"
+    ]
+   },
+   {
+    "v": "CDd",
+    "t": "Halong Bay day cruise - kembali ke Hanoi (tolak RM 100) - hari 4 WAJIB ditukar",
+    "en": "HALONG BAY DAY CRUISE - RETURN TO HANOI",
+    "acc": "cruiseday",
+    "meal": "bld",
+    "trp": "incl",
+    "region": "[Halong Bay]",
+    "g": "Halong Bay tanpa bermalam - tukar hari 3 DAN hari 4",
+    "act": [
+     "Transfer ke Halong Bay",
+     "Day cruise (Diamond Cruise) - tiada bermalam atas cruise",
+     "Island tour: Stone Dog Island",
+     "Fighting Cocks Islet",
+     "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+     "Titop Island, pantai pasir putih berbentuk bulan sabit",
+     "Transfer kembali ke Hanoi",
+     "Check-in hotel 3 bintang di Hanoi"
+    ],
+    "eact": [
+     "Transfer to Halong Bay",
+     "Day cruise on Diamond Cruise - no overnight on board",
+     "Island tour: Stone Dog Island",
+     "Fighting Cocks Islet",
+     "Sung Sot Cave, the largest and most stunning limestone cave",
+     "Titop Island, crescent-moon shaped beach with soft white sand",
+     "Transfer back to Hanoi",
+     "Check in 3-Star hotel in Hanoi"
+    ]
+   },
+   {
+    "v": "ext",
+    "t": "Hari tambahan - itinerari ikut permintaan customer",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "region": "[Hanoi]",
+    "g": "Umum",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ]
+   },
+   {
+    "v": "fed",
+    "t": "Free and easy - tiada transport",
+    "en": "FREE AND EASY",
+    "acc": "incl",
+    "meal": "b",
+    "trp": "none",
+    "region": "[Hanoi]",
+    "g": "Umum",
+    "act": [
+     "Free and easy sepanjang hari"
+    ],
+    "eact": [
+     "Free and easy at own leisure"
+    ]
+   }
+  ],
+  "addons": [
+   [
+    "Bang Mon Alpine Coaster at Sapa",
+    50,
+    50
+   ],
+   [
+    "Day trip to Ninh Binh - breakfast, lunch, dinner, transfer and paddle boat",
+    380,
+    380
+   ],
+   [
+    "Sleeper train or bus, Regular - per way",
+    180,
+    180
+   ],
+   [
+    "Sleeper train or bus, VVIP - per way",
+    200,
+    200
+   ],
+   [
+    "Extra meal - breakfast, lunch or dinner",
+    30,
+    30
+   ]
+  ],
+  "extraSurcharge": [
+   {
+    "label": "Travel date surcharge 2027",
+    "dateIn": [
+     "2027-01-01",
+     "2027-06-30"
+    ],
+    "perPax": 100
+   }
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 4,
+    "text": "2&ndash;4 pax: MPV 7-seater &middot; private, driver + guide"
+   },
+   {
+    "from": 5,
+    "to": 12,
+    "text": "5&ndash;12 pax: Van 16-seater &middot; private"
+   },
+   {
+    "from": 13,
+    "to": 15,
+    "text": "13&ndash;15 pax: Mini bus 25-seater &middot; private"
+   },
+   {
+    "from": 16,
+    "to": 99999,
+    "text": "16 pax ke atas: hanya varian 4D3N ada tier 16&ndash;20 pax &mdash; 5D4N tamat pada 15 pax, rujuk consultant"
+   }
+  ],
+  "validity": "Prices follow the PT Hanoi - Sapa - Halong Bay 5D4N 2026 v4 and PT Hanoi - Sapa 4D3N 2026 v4 catalogues dated 12 March 2026, valid for travel until 31 December 2026. Departures from 1 January to 30 June 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
+  "variants": [
+   {
+    "id": "v5d4n",
+    "name": "PT Hanoi - Sapa - Halong Bay 5D4N (3-Star Fullboard)",
+    "pkgLabel": "Hanoi - Sapa - Halong Bay: Halong Bay Cruise, Cat Cat Village, Fansipan, Hanoi",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 5,
+    "nights": 4,
+    "single": 0,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 400,
+     "rate3": 300
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 3477,
+      "c": 3277,
+      "n": 3077
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 3277,
+      "c": 3077,
+      "n": 2877
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 2877,
+      "c": 2677,
+      "n": 2477
+     },
+     {
+      "from": 6,
+      "to": 7,
+      "a": 2677,
+      "c": 2477,
+      "n": 2277
+     },
+     {
+      "from": 8,
+      "to": 9,
+      "a": 2577,
+      "c": 2377,
+      "n": 2177
+     },
+     {
+      "from": 10,
+      "to": 10,
+      "a": 2397,
+      "c": 2197,
+      "n": 1997
+     },
+     {
+      "from": 11,
+      "to": 12,
+      "a": 2297,
+      "c": 2097,
+      "n": 1897
+     },
+     {
+      "from": 13,
+      "to": 15,
+      "a": 2097,
+      "c": 1897,
+      "n": 1697
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan Hanoi - transfer ke Sapa",
+      "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "incl",
+      "region": "[Sapa]",
+      "act": [
+       "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+       "Transfer ke Sapa (6 - 8 jam pemanduan)",
+       "Check-in hotel 3 bintang di Sapa"
+      ],
+      "eact": [
+       "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+       "Transfer to Sapa (6 - 8 hours drive)",
+       "Check in 3-Star hotel in Sapa"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Fansipan - Cat Cat Village - transfer ke Hanoi",
+      "en": "FANSIPAN - CAT CAT VILLAGE - TRANSFER TO HANOI",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Sapa]",
+      "act": [
+       "Train ke Cable Car Fansipan Mountain (termasuk)",
+       "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+       "Cat Cat Village, kampung etnik H'mong",
+       "Moana Sapa",
+       "Muong Hua Valley",
+       "Transfer ke Hanoi",
+       "Check-in hotel 3 bintang di Hanoi"
+      ],
+      "eact": [
+       "Train to Fansipan Mountain cable car (included)",
+       "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+       "Cat Cat Village, H'mong ethnic mountain village",
+       "Moana Sapa",
+       "Muong Hua Valley",
+       "Transfer to Hanoi",
+       "Check in 3-Star hotel in Hanoi"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Halong Bay - bermalam atas cruise",
+      "en": "HALONG BAY - OVERNIGHT CRUISE",
+      "acc": "cruise",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Halong Bay]",
+      "act": [
+       "Transfer ke Halong Bay",
+       "Check-in Halong Bay Cruise",
+       "Island tour: Stone Dog Island",
+       "Fighting Cocks Islet",
+       "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+       "Titop Island, pantai pasir putih berbentuk bulan sabit"
+      ],
+      "eact": [
+       "Transfer to Halong Bay",
+       "Check in Halong Bay cruise",
+       "Island tour: Stone Dog Island",
+       "Fighting Cocks Islet",
+       "Sung Sot Cave, the largest and most stunning limestone cave",
+       "Titop Island, crescent-moon shaped beach with soft white sand"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Halong Bay - kembali ke Hanoi",
+      "en": "HALONG BAY - RETURN TO HANOI",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Hanoi]",
+      "act": [
+       "Gua Luon dengan kayak",
+       "Check-out Halong Bay Cruise",
+       "Mega Grand World Hanoi, kawasan hiburan terbesar",
+       "Hanoi Train Street Coffee",
+       "Shopping cenderamata",
+       "Check-in hotel 3 bintang di Hanoi"
+      ],
+      "eact": [
+       "Luon Cave by kayak",
+       "Check out Halong Bay cruise",
+       "Mega Grand World Hanoi, the largest entertainment area",
+       "Hanoi Train Street Coffee",
+       "Souvenir shopping",
+       "Check in 3-Star hotel in Hanoi"
+      ]
+     },
+     {
+      "v": "d5",
+      "t": "Hanoi - penerbangan pulang",
+      "en": "HANOI - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Check-out hotel",
+       "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+      ],
+      "eact": [
+       "Hotel check out",
+       "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "3 nights accommodation at 3-Star Hotel in Sapa and Hanoi",
+     "{auto}",
+     "Entrance fees",
+     "Daily halal breakfast at hotel",
+     "Driving guide (Malay spoken)",
+     "Train and cable car to Fansipan Mountain",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ]
+   },
+   {
+    "id": "v4d3n",
+    "name": "PT Hanoi - Sapa 4D3N (3-Star Fullboard)",
+    "pkgLabel": "Hanoi - Sapa: Cat Cat Village, Fansipan, Hanoi",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 0,
+    "lastMinute": {
+     "lt": 21,
+     "rate2": 300,
+     "rate3": 200
+    },
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 2537,
+      "c": 2337,
+      "n": 2137
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "a": 2337,
+      "c": 2137,
+      "n": 1937
+     },
+     {
+      "from": 5,
+      "to": 9,
+      "a": 2077,
+      "c": 1877,
+      "n": 1677
+     },
+     {
+      "from": 10,
+      "to": 15,
+      "a": 1777,
+      "c": 1577,
+      "n": 1377
+     },
+     {
+      "from": 16,
+      "to": 20,
+      "a": 1677,
+      "c": 1477,
+      "n": 1277
+     }
+    ],
+    "labelCwb": "Child With Bed (6-8)",
+    "labelCnb": "Child No Bed (2-5)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "Ketibaan Hanoi - transfer ke Sapa",
+      "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+      "acc": "incl",
+      "meal": "d",
+      "trp": "incl",
+      "region": "[Sapa]",
+      "act": [
+       "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+       "Airport pickup",
+       "Transfer ke Sapa (6 - 8 jam pemanduan)",
+       "Check-in hotel 3 bintang di Sapa"
+      ],
+      "eact": [
+       "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+       "Airport pickup",
+       "Transfer to Sapa (6 - 8 hours drive)",
+       "Check in 3-Star hotel in Sapa"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Fansipan - transfer ke Hanoi",
+      "en": "FANSIPAN - TRANSFER TO HANOI",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Sapa]",
+      "act": [
+       "Check-out hotel",
+       "Train ke Cable Car Fansipan Mountain (termasuk)",
+       "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+       "Cat Cat Village, kampung etnik H'mong",
+       "Muong Hua Valley",
+       "Transfer ke Hanoi",
+       "Check-in hotel 3 bintang di Hanoi"
+      ],
+      "eact": [
+       "Hotel check out",
+       "Train to Fansipan Mountain cable car (included)",
+       "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+       "Cat Cat Village, H'mong ethnic mountain village",
+       "Muong Hua Valley",
+       "Transfer to Hanoi",
+       "Check in 3-Star hotel in Hanoi"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Hanoi city tour",
+      "en": "HANOI CITY TOUR",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "region": "[Hanoi]",
+      "act": [
+       "Masjid Al Noor - solat dan rehat",
+       "HCM Museum, muzium pemimpin Vietnam",
+       "Dong Xuan Market, pasar fesyen terbesar",
+       "Hanoi Old City - budaya tempatan dan shopping cenderamata",
+       "Hoang Kiem Lake, tasik air tawar yang dikenali sebagai Sword Lake"
+      ],
+      "eact": [
+       "Al Noor Mosque - prayer and rest stopover",
+       "Ho Chi Minh Museum, the Vietnamese leaders museum",
+       "Dong Xuan Market, the largest fashion market",
+       "Hanoi Old City - local culture and souvenir shopping",
+       "Hoan Kiem Lake, the natural fresh water lake known as the Sword Lake"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Hanoi - penerbangan pulang",
+      "en": "HANOI - RETURN FLIGHT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport]",
+      "act": [
+       "Check-out hotel",
+       "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+      ],
+      "eact": [
+       "Hotel check out",
+       "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel in Sapa and Hanoi",
+     "{auto}",
+     "Entrance fees",
+     "Daily halal breakfast at hotel",
+     "Driving guide (Malay / English spoken)",
+     "Train and cable car to Fansipan Mountain",
+     "Cat Cat Village entrance fee",
+     "Tipping fee"
+    ],
+    "exclusions": [
+     "Return flight tickets",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses",
+     "Travel insurance"
+    ]
+   }
+  ]
+ }
+}

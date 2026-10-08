@@ -105,6 +105,21 @@ on catalog-pt-public**; without the second the save still works and the page say
 hub destination (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts (and, for Ho Chi Minh and
 Yunnan 3 Wilayah, their own add-on list). Keep every pax in a band at the same Costing price — Flags warns.
 
+## KB House → pt-kb-house (since 9 Oct 2026, v32)
+
+The hub is also the source of every **PT KB House** page (`https://prod-at22.github.io/pt-kb-house/<slug>/`):
+
+| File | What it is |
+|---|---|
+| `data/kb/<slug>.json` | one KB (28): `kind` (`template`, or `bespoke` for aceh / korea), `content` (what the page shows: packages, itineraries, attractions + Muslim-friendly info, hotels, tab blocks, FAQ `snapshot`), `calc` (Simple Calculator config) |
+| `kb-build/build.py` | `python3 kb-build/build.py <pt-kb-house dir> [slug …]` writes `content` into the page's `kbdata` block (bespoke: also the `snapshot` markdown), `calc` into `CALC_CFG` and `calc-config.json`. Nothing else in the page changes |
+
+Cosmetics stay in pt-kb-house: the page (layout, CSS, engine, travel map, logo) and the images
+(`<slug>/assets.json`; the hub refers to them as `@asset:<key>`). pt-kb-house's `mirror.yml` checks out the hub,
+runs the builder for every KB (an unchanged KB stays byte-identical), re-adds the nav bar and commits. Imported
+once on 9 Oct from the live pages (rendered text checked identical for all 28); do not edit KB content or
+`calc-config.json` in pt-kb-house any more.
+
 ## FX
 
 Each destination's FX rates (e.g. JPY → MYR for WIF and Qayyum) are part of the hub data. Log in and

@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": 31,
- "updatedAt": "2026-10-08T14:49:27Z",
- "updatedBy": "product",
+ "version": 32,
+ "updatedAt": "2026-10-08T16:39:07Z",
+ "updatedBy": "system",
  "settings": {
   "marginWarnPct": 0.15,
   "marginDangerPct": 0.05,

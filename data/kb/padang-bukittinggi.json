@@ -1,0 +1,1234 @@
+{
+ "slug": "padang-bukittinggi",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Padang–Bukittinggi — Knowledge Base",
+   "brandTag": "PADANG–BUKITTINGGI KB",
+   "kicker": "ARBA PADANG–BUKITTINGGI · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Padang–Bukittinggi — halal, flight, hotel, cuaca & tips.",
+   "searchPlaceholder": "cth: flight ke Padang? · perlu visa? · beza Option A & B? · bila musim terbaik?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Padang–Bukittinggi…",
+   "heroImage": "@asset:6da79be3e4e5",
+   "overviewTitle": "Pakej Private Tour Padang–Bukittinggi",
+   "statusText": "Last updated: 3 September 2026 · Katalog v7 + Simple Calculator",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada katalog PT PDG–Bukittinggi 4D3N 2026 v7 (9 Ogos 2026), Travel Map, Flight Recommendation, 2026/2027 Date Surcharge dan FreeGift Campaign.<br>Muslim-friendly (halal, surau/masjid, waktu solat) adalah baseline setiap pakej.<br>Folder produk Padang–Bukittinggi tiada gambar trip lepas, jadi KB ini tiada tab Gambar Trip Lepas — ini bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Alam Minangkabau: Lembah Harau, Kelok 9, Puncak Lawang",
+     "Warisan Islam: Masjid Raya Sumatera Barat, Istana Pagaruyung",
+     "Fullboard halal & shopping ole-ole Bukittinggi"
+    ],
+    "usp": "USP: gabungan alam scenic Minangkabau + warisan Islam, fullboard halal, flight terus KUL–PDG ± 1j10m, dua pilihan routing (A/B) pada harga sama. Kelebihan vs pesaing: Istana Pagaruyung dengan pengalaman baju adat, Lembah Harau & Kelok 9 dalam Option A, dan free gift Baju Adat Experience.",
+    "season": [
+     [
+      "Apr–Okt",
+      "Musim kering — terbaik untuk outdoor & view"
+     ],
+     [
+      "Jun–Ogos",
+      "Paling kering (peak, ada surcharge)"
+     ],
+     [
+      "Nov–Feb",
+      "Musim hujan — bawa payung/jaket ringan"
+     ]
+    ],
+    "expect": [
+     "Banyak berjalan kaki di beberapa lokasi (pakai kasut selesa)",
+     "Trafik & jalan sempit — jangka sedikit kelewatan",
+     "Makan fullboard masakan Padang/Minang halal",
+     "Kawasan tinggi (Bukittinggi/Puncak Lawang) lebih sejuk"
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Padang–Bukittinggi 4D3N · Option A",
+    "tag": "Padang–Bukittinggi · 4D3N",
+    "sub": "Alam & warisan penuh — Kelok 9, Lembah Harau, Tabek Patah, Pagaruyung & Danau Singkarak",
+    "emoji": "🏞️",
+    "img": "@asset:e8907d2e382b",
+    "intro": "Routing Option A padat dengan tarikan alam dan warisan Minangkabau: Kelok 9, Lembah Harau, Tabek Patah, Kota Payakumbuh, Istana Pagaruyung dan Danau Singkarak pada Hari 2, diikuti Panorama Baru, Puncak Lawang dan Perkampungan Koto Gadang pada Hari 3. Sesuai untuk group yang mahu itinerari penuh.",
+    "inc": [
+     "3 malam penginapan (Hotel 3 Bintang)",
+     "Pengangkutan persendirian (asas 12 jam)",
+     "Tiket masuk tempat lawatan (seperti dalam itinerari)",
+     "Makan penuh (fullboard) di restoran halal tempatan",
+     "Driving guide (pemandu merangkap guide)",
+     "Tipping fee (driver & guide)"
+    ],
+    "exc": [
+     "Tiket penerbangan antarabangsa",
+     "In-flight meal",
+     "Pengangkutan & guide extra hour (150,000 IDR/jam, tunai)",
+     "Tour & makan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Deposit RM250/pax semasa pengesahan; bayaran penuh 45 hari sebelum bertolak. Single Supplement RM300/pax (Hotel 3★ sahaja). Late Booking Surcharge RM50/booking jika tempahan kurang 45 hari sebelum bertolak. Harga sah 24 jam selepas quotation. Pakej sah untuk perjalanan sehingga 31 Januari 2027."
+   },
+   {
+    "n": "PT Padang–Bukittinggi 4D3N · Option B",
+    "tag": "Padang–Bukittinggi · 4D3N",
+    "sub": "Lebih santai — Pagaruyung, Danau Singkarak & masa shopping di Bukittinggi",
+    "emoji": "🛍️",
+    "img": "@asset:51b976f6ec99",
+    "intro": "Routing Option B lebih santai — Istana Pagaruyung dan Danau Singkarak pada Hari 2 dengan masa shopping yang lebih panjang di Bukittinggi (Pasar Atas / Jam Gadang), sambil tetap menikmati Panorama Baru, Puncak Lawang dan Koto Gadang pada Hari 3. Harga sama dengan Option A.",
+    "inc": [
+     "3 malam penginapan (Hotel 3 Bintang)",
+     "Pengangkutan persendirian (asas 12 jam)",
+     "Tiket masuk tempat lawatan (seperti dalam itinerari)",
+     "Makan penuh (fullboard) di restoran halal tempatan",
+     "Driving guide (pemandu merangkap guide)",
+     "Tipping fee (driver & guide)"
+    ],
+    "exc": [
+     "Tiket penerbangan antarabangsa",
+     "In-flight meal",
+     "Pengangkutan & guide extra hour (150,000 IDR/jam, tunai)",
+     "Tour & makan tambahan",
+     "Perbelanjaan peribadi",
+     "Insurans perjalanan"
+    ],
+    "note": "Deposit RM250/pax semasa pengesahan; bayaran penuh 45 hari sebelum bertolak. Single Supplement RM300/pax (Hotel 3★ sahaja). Late Booking Surcharge RM50/booking jika tempahan kurang 45 hari sebelum bertolak. Harga sah 24 jam selepas quotation. Pakej sah untuk perjalanan sehingga 31 Januari 2027."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "KUL → Padang (PDG) → Bukittinggi",
+     "m": "Lunch / Dinner",
+     "a": [
+      "Ketibaan disyorkan 09:00–10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+      "Sambutan & land transfer ke Bukittinggi",
+      "Air Terjun Lembah Anai (photostop)",
+      "Minangkabau Documentation & Information Centre (PDIKM)",
+      "Pandai Sikek — kampung tenunan songket & kraf",
+      "Check-in hotel di Bukittinggi"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Bukittinggi (Option A) — Alam & Warisan",
+     "m": "B / L / D",
+     "a": [
+      "Kelok 9 — jambatan 9 selekoh tajam",
+      "Lembah Harau",
+      "Tabek Patah",
+      "Kota Payakumbuh",
+      "Istana Pagaruyung — pengalaman baju adat Minang",
+      "Danau Singkarak"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Bukittinggi → Padang (Option A)",
+     "m": "B / L / D",
+     "a": [
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang — pemandangan Danau Maninjau",
+      "Perkampungan Koto Gadang",
+      "Check-in hotel di Padang"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Padang (PDG) → KUL",
+     "m": "Breakfast",
+     "a": [
+      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+      "Pantai Air Manis — legenda Malin Kundang",
+      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+     ]
+    }
+   ],
+   [
+    {
+     "d": 1,
+     "t": "KUL → Padang (PDG) → Bukittinggi",
+     "m": "Lunch / Dinner",
+     "a": [
+      "Ketibaan disyorkan 09:00–10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+      "Sambutan & land transfer ke Bukittinggi",
+      "Air Terjun Lembah Anai (photostop)",
+      "Minangkabau Documentation & Information Centre (PDIKM)",
+      "Pandai Sikek — kampung tenunan songket & kraf",
+      "Check-in hotel di Bukittinggi"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Bukittinggi (Option B) — Tasik & Shopping",
+     "m": "B / L / D",
+     "a": [
+      "Istana Pagaruyung — pengalaman baju adat Minang",
+      "Danau Singkarak",
+      "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Bukittinggi → Padang (Option B)",
+     "m": "B / L / D",
+     "a": [
+      "Shopping di Bukittinggi",
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang — pemandangan Danau Maninjau",
+      "Perkampungan Koto Gadang",
+      "Check-in hotel di Padang"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Padang (PDG) → KUL",
+     "m": "Breakfast",
+     "a": [
+      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+      "Pantai Air Manis — legenda Malin Kundang",
+      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Air Terjun Lembah Anai",
+    "t": "Alam · Photostop",
+    "emoji": "💦",
+    "img": "@asset:dab51fc3f3fc",
+    "short": "Air terjun tepi jalan dalam perjalanan ke Bukittinggi.",
+    "intro": "Air terjun ikonik yang terletak betul-betul di tepi jalan raya Padang–Bukittinggi, dikelilingi hutan Cagar Alam Lembah Anai. Hentian foto pantas yang menyegarkan.",
+    "hi": [
+     "Air terjun tinggi tepi jalan",
+     "Udara sejuk & hijau",
+     "Hentian foto ringkas"
+    ],
+    "best": "Pagi/tengah hari dalam perjalanan ke Bukittinggi.",
+    "muslim": "Terdapat surau kecil & tandas di area hentian. Makan halal di restoran tempatan sepanjang laluan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Air+Terjun+Lembah+Anai"
+   },
+   {
+    "n": "PDIKM (Pusat Dokumentasi Minangkabau)",
+    "t": "Budaya · Warisan",
+    "emoji": "🏛️",
+    "img": "@asset:84e4a4adfa35",
+    "short": "Kompleks rumah gadang & dokumentasi budaya Minangkabau.",
+    "intro": "Pusat Dokumentasi & Informasi Kebudayaan Minangkabau di Padang Panjang memaparkan seni bina rumah gadang, artifak dan sejarah adat Minang — latar foto tradisional yang cantik.",
+    "hi": [
+     "Seni bina rumah gadang",
+     "Artifak & pakaian adat",
+     "Spot foto tradisional"
+    ],
+    "best": "Waktu siang; elak hujan lebat.",
+    "muslim": "Surau tersedia di kawasan Padang Panjang (bandar santri). Makanan halal mudah didapati.",
+    "map": "https://www.google.com/maps/search/?api=1&query=PDIKM+Padang+Panjang"
+   },
+   {
+    "n": "Pandai Sikek",
+    "t": "Kraf · Kampung",
+    "emoji": "🧵",
+    "img": "@asset:425dde12f9a3",
+    "short": "Kampung tenunan songket & ukiran kayu Minang.",
+    "intro": "Kampung terkenal dengan tenunan songket halus dan ukiran kayu. Pelawat boleh melihat proses menenun secara langsung dan membeli songket sebagai ole-ole.",
+    "hi": [
+     "Demo menenun songket",
+     "Ukiran kayu Minang",
+     "Beli songket terus dari penenun"
+    ],
+    "best": "Siang hari waktu bengkel beroperasi.",
+    "muslim": "Kampung Muslim; surau kampung berdekatan. Tiada isu halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pandai+Sikek+Songket"
+   },
+   {
+    "n": "Kelok 9 (Kelok Sembilan)",
+    "t": "Alam · Kejuruteraan",
+    "emoji": "🛣️",
+    "img": "@asset:54e8d8c3c716",
+    "short": "Jambatan layang 9 selekoh di celah bukit batu.",
+    "intro": "Jambatan layang berkelok sembilan yang meliuk di antara tebing bukit hijau — antara laluan paling scenic di Sumatera Barat. Terdapat area berhenti untuk foto dari atas.",
+    "hi": [
+     "Pemandangan jambatan berkelok",
+     "Tebing & hutan hijau",
+     "Deck foto di atas"
+    ],
+    "best": "Pagi untuk cahaya & udara nyaman.",
+    "muslim": "Terdapat surau & gerai makan halal di rest area Kelok 9.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kelok+9+Kelok+Sembilan"
+   },
+   {
+    "n": "Lembah Harau & Harau Dreampark",
+    "t": "Alam · Taman Tema",
+    "emoji": "⛰️",
+    "img": "@asset:663017d58d23",
+    "short": "Lembah tebing tinggi dengan taman foto Dreampark.",
+    "intro": "Lembah dikelilingi tebing granit menjulang, sering digelar 'Yosemite ala Sumatera'. Harau Dreampark menawarkan replika rumah ala Korea/Jepun/Eropah untuk foto menarik.",
+    "hi": [
+     "Tebing granit menjulang",
+     "Air terjun & sawah padi",
+     "Spot foto Dreampark"
+    ],
+    "best": "Pagi–tengah hari; cuaca kering lebih baik.",
+    "muslim": "Surau tersedia di kawasan Dreampark; warung makan halal berhampiran. Kampung sekitar Muslim.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lembah+Harau+Dreampark"
+   },
+   {
+    "n": "Tabek Patah",
+    "t": "Alam · Tanah Tinggi",
+    "emoji": "🌿",
+    "img": "",
+    "short": "Kawasan tanah tinggi sejuk di Tanah Datar dalam laluan Hari 2 Option A.",
+    "intro": "Kawasan pergunungan sejuk di Tanah Datar, terkenal dengan udara nyaman, kebun serta pemandangan bukit sepanjang jalan antara Payakumbuh dan Batusangkar. Hentian singkat yang menyegarkan sebelum meneruskan perjalanan ke Istana Pagaruyung.",
+    "hi": [
+     "Udara sejuk tanah tinggi",
+     "Pemandangan kebun & bukit",
+     "Hentian foto dalam perjalanan"
+    ],
+    "best": "Pagi hingga tengah hari dalam laluan Hari 2 (Option A).",
+    "muslim": "Surau kampung tersedia di sepanjang laluan Tanah Datar. Makanan halal mudah didapati — kawasan majoriti Muslim.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tabek+Patah+Tanah+Datar"
+   },
+   {
+    "n": "Istana Pagaruyung",
+    "t": "Warisan · Baju Adat",
+    "emoji": "👑",
+    "img": "@asset:e8907d2e382b",
+    "short": "Istana rumah gadang diraja Minangkabau.",
+    "intro": "Replika istana Kerajaan Pagaruyung — rumah gadang tiga tingkat yang megah. Tarikan utama: pengalaman menyewa & memakai baju adat Minang untuk sesi foto diraja.",
+    "hi": [
+     "Seni bina rumah gadang megah",
+     "Pengalaman baju adat Minang",
+     "Muzium & artifak diraja"
+    ],
+    "best": "Siang hari; datang awal elak panas.",
+    "muslim": "Surau di kawasan istana; makan halal di Batusangkar berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Istana+Pagaruyung+Batusangkar"
+   },
+   {
+    "n": "Puncak Lawang",
+    "t": "Alam · View Point",
+    "emoji": "🪂",
+    "img": "@asset:51b976f6ec99",
+    "short": "Puncak menghadap Danau Maninjau — spot paragliding.",
+    "intro": "Dataran tinggi menghadap panorama Danau Maninjau dari atas. Antara lokasi paragliding terbaik di Indonesia dan tempat menikmati matahari serta udara pergunungan yang nyaman.",
+    "hi": [
+     "Panorama Danau Maninjau",
+     "Udara sejuk pergunungan",
+     "Spot paragliding (optional)"
+    ],
+    "best": "Pagi cerah untuk view paling jelas.",
+    "muslim": "Surau & warung halal di kawasan puncak. Turun ke Maninjau melalui Kelok 44.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Puncak+Lawang+Maninjau"
+   },
+   {
+    "n": "Perkampungan Koto Gadang",
+    "t": "Warisan · Trekking Ringan",
+    "emoji": "🧱",
+    "img": "",
+    "short": "Kampung tukang perak dengan 'Great Wall' Janjang Saribu.",
+    "intro": "Kampung bersejarah terkenal dengan kraf perak dan 'Great Wall of Koto Gadang' (Janjang Saribu) — laluan tangga berkelok merentasi Ngarai Sianok yang mirip Tembok Besar China.",
+    "hi": [
+     "Janjang Saribu (Great Wall)",
+     "Pemandangan Ngarai Sianok",
+     "Kraf perak tempatan"
+    ],
+    "best": "Pagi; pakai kasut selesa (banyak jalan kaki).",
+    "muslim": "Kampung Muslim; surau mudah dijumpai. Makan halal di Bukittinggi berdekatan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Great+Wall+Koto+Gadang+Janjang+Saribu"
+   },
+   {
+    "n": "Masjid Raya Sumatera Barat",
+    "t": "Masjid · Ikon",
+    "emoji": "🕌",
+    "img": "@asset:77fe667e1eda",
+    "short": "Masjid ikonik berbumbung gonjong Minangkabau.",
+    "intro": "Masjid negeri di Padang dengan seni bina unik tanpa kubah — bumbung berbentuk gonjong rumah gadang. Direka tahan gempa dan menjadi mercu tanda kebanggaan Sumatera Barat.",
+    "hi": [
+     "Seni bina gonjong Minang",
+     "Ruang solat luas",
+     "Mercu tanda Padang"
+    ],
+    "best": "Waktu solat / pagi untuk foto.",
+    "muslim": "Masjid utama — tempat solat sempurna, tandas & tempat wuduk luas. Baseline Muslim-friendly.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Masjid+Raya+Sumatera+Barat+Padang"
+   },
+   {
+    "n": "Pantai Air Manis (Malin Kundang)",
+    "t": "Pantai · Legenda",
+    "emoji": "🏖️",
+    "img": "@asset:466c5b4f3914",
+    "short": "Pantai legenda batu Malin Kundang.",
+    "intro": "Pantai landai terkenal dengan legenda Malin Kundang — anak derhaka yang disumpah menjadi batu. Terdapat formasi batu 'Malin Kundang' yang menjadi tarikan foto.",
+    "hi": [
+     "Batu legenda Malin Kundang",
+     "Pantai landai & lembut",
+     "Cerita rakyat Minang"
+    ],
+    "best": "Pagi (sebelum transfer airport) waktu air surut.",
+    "muslim": "Surau & gerai makanan halal di kawasan pantai. Pakaian sopan digalakkan.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pantai+Air+Manis+Malin+Kundang+Padang"
+   },
+   {
+    "n": "Danau Singkarak",
+    "t": "Alam · Tasik",
+    "emoji": "🚣",
+    "img": "",
+    "short": "Tasik terbesar di Sumatera Barat — dalam kedua-dua Option A & B.",
+    "intro": "Tasik luas di antara Kabupaten Solok dan Tanah Datar, terkenal dengan ikan bilih endemik dan pemandangan tenang — hentian utama routing Option B.",
+    "hi": [
+     "Pemandangan tasik luas",
+     "Ikan bilih endemik",
+     "Hentian foto tenang"
+    ],
+    "best": "Pagi–tengah hari; cuaca cerah.",
+    "muslim": "Warung halal & surau di sepanjang tepi tasik.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Danau+Singkarak"
+   },
+   {
+    "n": "Jam Gadang & Pasar Atas Bukittinggi",
+    "t": "Ikon · Shopping",
+    "emoji": "🕰️",
+    "img": "@asset:d01c9413f342",
+    "short": "Menara jam ikonik & pasar ole-ole Bukittinggi.",
+    "intro": "Menara jam Jam Gadang adalah simbol Bukittinggi, dikelilingi taman dan Pasar Atas — pusat membeli songket, kopi Kiniko, keripik sanjai dan ole-ole.",
+    "hi": [
+     "Menara Jam Gadang",
+     "Shopping ole-ole & songket",
+     "Suasana bandar Bukittinggi"
+    ],
+    "best": "Petang/malam untuk suasana bandar.",
+    "muslim": "Bandar Muslim; masjid & surau banyak. Makanan halal di mana-mana.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jam+Gadang+Bukittinggi"
+   },
+   {
+    "n": "Lubang Jepang (Japanese Tunnel)",
+    "t": "Sejarah · Optional",
+    "emoji": "🕳️",
+    "img": "@asset:214f92f80eec",
+    "short": "Terowong pertahanan Jepun di Ngarai Sianok.",
+    "intro": "Rangkaian terowong buatan zaman pendudukan Jepun di tebing Ngarai Sianok, Bukittinggi. Lawatan berpandu tersedia dengan bayaran tambahan.",
+    "hi": [
+     "Terowong sejarah WW2",
+     "Pemandangan Ngarai Sianok",
+     "Guide terowong (optional)"
+    ],
+    "best": "Siang; pakai kasut selesa (banyak jalan kaki & tangga).",
+    "muslim": "Surau berhampiran taman Panorama; makan halal di Bukittinggi.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lubang+Jepang+Bukittinggi"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (default)",
+    "name": "Grand Bunda / Royal Denai (Bukittinggi) · hotel 3★ setaraf (Padang)",
+    "note": "Standard double-sharing. Harga asas 2–3 orang sebilik; extra bed boleh disediakan untuk triple.",
+    "emoji": "🏨"
+   },
+   {
+    "tier": "4★ (upgrade +RM80/pax/mlm)",
+    "name": "Grand Rocky / Santika / Grand Royal Denai",
+    "note": "Bilik triple sedia ada. Naik taraf +RM80/pax/malam atas kadar 3★.",
+    "emoji": "🏨"
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Kedua-dua pakej 4D3N pada harga yang sama — beza hanya routing Hari 2 dan Hari 3.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>OPTION A · ALAM & WARISAN</th><th>OPTION B · TASIK & SHOPPING</th></tr></thead><tbody><tr><td class='feat'>Tempoh</td><td class='val'>4D3N</td><td class='val'>4D3N</td></tr><tr><td class='feat'>Hotel (default)</td><td class='val'>3★</td><td class='val'>3★</td></tr><tr><td class='feat'>Naik taraf 4★</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driving guide + tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard halal</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Transport (asas)</td><td class='val'>12 jam</td><td class='val'>12 jam</td></tr><tr><td class='feat'>Istana Pagaruyung (baju adat)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Danau Singkarak</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Puncak Lawang & Koto Gadang</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Kelok 9</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Lembah Harau</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Tabek Patah</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kota Payakumbuh</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Masa shopping Bukittinggi</td><td class='val'>Standard</td><td class='val'>Lebih panjang</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 1,297</td><td class='val'>RM 1,297</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Suka alam, warisan & itinerari padat</td><td class='val'>Suka santai, tasik & masa shopping</td></tr></tbody></table>",
+   "map": "<h2>Travel Map</h2><p class='ssub'>Peta laluan rasmi pakej — Option A dan Option B dalam satu peta.</p><div class='mapcard'><div class='mt'>PT Padang–Bukittinggi 4H3M · Option A & B</div><img src='@asset:2cac691524fb' alt='Travel Map PT Padang-Bukittinggi 4H3M'><div class='mc'>Laluan: KUL → Padang (PDG) → Bukittinggi (2 malam) → Padang (1 malam) → KUL. Hari 2 dan Hari 3 mengikut Option A atau Option B.</div></div>",
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog (Ground + Tipping) — per pax, asas 2–3 orang sebilik. <b>Tidak termasuk tiket penerbangan.</b></p><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12thn ke atas)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 1,297</td><td>RM 1,197</td><td>RM 1,097</td></tr><tr><td class='it'>3–6</td><td class='add'>RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr><tr><td class='it'>7–10</td><td class='add'>RM 1,097</td><td>RM 997</td><td>RM 897</td></tr><tr><td class='it'>11–15</td><td class='add'>RM 1,057</td><td>RM 957</td><td>RM 857</td></tr><tr><td class='it'>16–20</td><td class='add'>RM 1,037</td><td>RM 937</td><td>RM 837</td></tr></tbody></table></div><p class='ssub'>Infant (bawah 2 tahun): <b>FOC</b>. Harga sah 24 jam selepas quotation dihantar. Pakej sah untuk tempoh perjalanan sehingga <b>31 Januari 2027</b>.</p><div class='custblk' style='margin-top:14px'><table class='ctbl'><thead><tr><th>Termasuk dalam harga</th><th>Tidak termasuk</th></tr></thead><tbody><tr><td>3 malam penginapan (Hotel 3 Bintang)</td><td>Pengangkutan & guide extra hour — 150,000 IDR/jam</td></tr><tr><td>Pengangkutan persendirian (asas 12 jam)</td><td>Tiket penerbangan antarabangsa</td></tr><tr><td>Tiket masuk (seperti dalam itinerari)</td><td>In-flight meal</td></tr><tr><td>Makan penuh (fullboard)</td><td>Tour & makan tambahan</td></tr><tr><td>Driving guide</td><td>Perbelanjaan peribadi</td></tr><tr><td>Tipping fee</td><td>Insurans perjalanan</td></tr></tbody></table></div>",
+   "custom": "<h2>Simple Customisation & Add-on</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Naik taraf Hotel 4★</td><td class='add'>+RM 80/pax/malam</td><td>Grand Rocky / Santika / Grand Royal Denai — bilik triple sedia ada</td></tr><tr><td class='it'>Extra hour transport & guide</td><td class='add'>150,000 IDR/jam</td><td>Melebihi asas 12 jam · bayaran tunai</td></tr><tr><td class='it'>Triple room (Hotel 3★)</td><td class='add'>Extra bed</td><td>Katil tambahan dalam bilik double; untuk triple penuh naik taraf 4★</td></tr><tr><td class='it'>Lawatan Lubang Jepang</td><td class='add'>Bayaran guide di lokasi</td><td>Sumber: nota produk — tiada dalam katalog</td></tr></tbody></table></div><p class='ssub'>Tukar routing antara Option A dan Option B tiada caj tambahan — harga kedua-dua pakej sama.</p>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Peak season:</b> 3&#9733; +RM50/pax/malam dikira automatik; untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf Hotel 4&#9733; &ndash; malam peak season</i> pada baris hari itu (RM80 upgrade + RM10 beza peak). <b>Kadar hari / malam tambahan belum diterbitkan</b> &mdash; kalkulator akan tanda cip merah <i>kadar?</i> dan bukan RM 0; sahkan dengan PO sebelum quote hari tambahan.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Padang&ndash;Bukittinggi 4D3N &middot; Option A</option><option value='1'>PT Padang&ndash;Bukittinggi 4D3N &middot; Option B</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog v7)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>RM300/pax sekali, Hotel 3&#9733; sahaja &mdash; katalog tiada single supplement untuk 4&#9733;</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Naik taraf Hotel 4★</td><td class='add'>+RM 80/pax/malam</td><td>Atas kadar 3★</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 300/pax</td><td>Hotel 3★ sahaja</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan kurang 45 hari sebelum bertolak</td></tr><tr><td class='it'>Extra hour transport & guide</td><td class='add'>150,000 IDR/jam</td><td>Melebihi asas 12 jam · bayaran tunai</td></tr></tbody></table></div><p class='ssub' style='margin-top:14px'><b>Peak Season Surcharge (katalog v7)</b></p><div class='custblk'><table class='ctbl'><thead><tr><th>Tempoh Peak Season</th><th>Hotel 3★</th><th>Hotel 4★</th></tr></thead><tbody><tr><td class='it'>25 Dis 2025 – 5 Jan 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>15 – 31 Mac 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>25 Jun – 12 Julai 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>25 Dis 2026 – 5 Jan 2027</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr></tbody></table></div><p class='ssub' style='margin-top:12px'><b>Peak Season Surcharge 2027:</b> tambahan <b>RM 150/pax</b> di atas kadar peak di atas, mengikut tempoh peak yang tersenarai dalam katalog. Sumber: 2026/2027 Date Surcharge ARBA — tiada dalam katalog.</p>",
+   "transport": "<h2>Transportation & Guide</h2><p class='ssub'>Pengangkutan persendirian, asas 12 jam sehari. Driver merangkap driving guide. Tipping sudah termasuk dalam harga.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota bagasi</th></tr></thead><tbody><tr><td class='it'>2–5</td><td>Avanza</td><td>Ruang bagasi terhad</td></tr><tr><td class='it'>6–7</td><td>Innova</td><td>Ruang bagasi terhad</td></tr><tr><td class='it'>8–12</td><td>Hiace</td><td>Ruang bagasi lebih luas</td></tr><tr><td class='it'>13–20</td><td>Lebih daripada satu unit kenderaan mengikut jumlah pax</td><td>Susunan operator — katalog senarai kenderaan sehingga 12 pax</td></tr></tbody></table></div><p class='ssub'>Saiz beg perlu bersesuaian — barang bersaiz besar boleh menjejaskan ruang duduk sepanjang perjalanan. Jangka sedikit kelewatan kerana trafik padat dan jalan sempit di Sumatera Barat.</p>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Hotel ikut tier. Hotel 3★ standard double-sharing (asas harga 2–3 orang sebilik); untuk bilik triple penuh, disyorkan naik taraf 4★. Susunan hotel muktamad disahkan 14 hari sebelum trip.</p>",
+   "flight": "<h2>Flight & Airport</h2><p class='ssub'>Penerbangan tidak termasuk dalam pakej. Terbang terus KUL ⇄ PDG (Minangkabau Intl), ± 1 jam 10 minit. Padang guna waktu WIB — 1 jam di belakang waktu Malaysia.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Leg</th><th>Airline</th><th>Flight No.</th><th>Bertolak</th><th>Tiba</th><th>Hari operasi</th></tr></thead><tbody><tr><td class='it'>Pergi (KUL → PDG)</td><td>AirAsia</td><td>AK 403</td><td>KUL 07:45</td><td>PDG 07:55</td><td>Harian</td></tr><tr><td class='it'>Balik (PDG → KUL)</td><td>AirAsia</td><td>AK 404</td><td>PDG 16:05</td><td>KUL 18:20</td><td>Harian</td></tr><tr><td class='it'>Balik — pilihan pagi</td><td>AirAsia</td><td>AK 402</td><td>PDG 08:25</td><td>KUL 10:35</td><td>Harian</td></tr></tbody></table></div><p class='ssub'>Anggaran tambang pergi-balik: <b>RM 400 – RM 600</b> sepax. Sumber: Flight Recommendation ARBA (leg pergi & anggaran harga) dan jadual penerbangan semasa (leg balik) — flight tiada dalam katalog.</p><p class='ssub'>Mulai <b>25 Oktober 2026</b> jadual bertukar: AK 403 KUL 07:25 → PDG 07:35; AK 404 PDG 16:20 → KUL 18:30; AK 402 PDG 08:00 → KUL 10:10.</p><p class='ssub'>Ketibaan disyorkan <b>09:00–10:00 pagi</b> untuk mula itinerari Hari 1. AK 404 petang sesuai untuk Hari 4 kerana ada lawatan Masjid Raya & Pantai Air Manis sebelum transfer ke lapangan terbang. Ketibaan lewat atau pelepasan awal tidak dilayan refund untuk aktiviti & makan.</p>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? padang–bukittinggi: baju adat experience kod: fpdgb2 (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Padang–Bukittinggi: Baju Adat Experience</strong> <span class='codechip'>Kod: FPDGB2</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>"
+  },
+  "snapshot": "# PT Padang–Bukittinggi — Knowledge Base (Important Notes · FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*Pakej Private Tour 4D3N — dua pilihan routing: **Option A** (alam & warisan penuh) dan **Option B** (santai + shopping). Hotel 3★ standard, boleh naik taraf 4★.*\n\n- Semua harga sah **24 jam** selepas quotation dihantar.\n- Harga adalah untuk **2–3 orang sebilik**.\n- **Single Supplement: +RM300/pax** (Hotel 3★ sahaja).\n- **Late Booking Surcharge: RM50/booking** untuk tempahan kurang 45 hari sebelum bertolak.\n- Driver & guide **asas 12 jam**; **150,000 IDR/jam** dikenakan bagi setiap jam tambahan (bayaran tunai).\n- Ketibaan disyorkan **09:00–10:00 pagi** pada Hari 1.\n- Itinerari, harga & flight tertakluk kepada perubahan.\n- Itinerari muktamad & susunan hotel disahkan **14 hari** sebelum trip.\n- Sila semak validity trip sebelum tempah sebarang connecting domestic flight.\n- Pakej sah untuk tempoh perjalanan **sehingga 31 Januari 2027**.\n- **Deposit RM250/pax** semasa pengesahan; **bayaran penuh 45 hari** sebelum bertolak.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Apa beza Option A dan Option B?**\nBeza hanya pada Hari 2 dan Hari 3. **Option A** (Hari 2): Kelok 9, Lembah Harau, Tabek Patah, Kota Payakumbuh, Istana Pagaruyung & Danau Singkarak. **Option B** (Hari 2): Istana Pagaruyung, Danau Singkarak & shopping di Bukittinggi. Hari 3 Option B bermula dengan shopping sebelum Panorama Baru, Puncak Lawang & Koto Gadang. Hari 1 dan Hari 4 sama untuk kedua-duanya, dan harga sama.\n\n**Berapa hari pakej ini?**\n4 Hari 3 Malam (4D3N) — dua malam pertama di Bukittinggi, malam ketiga di Padang.\n\n**Berapa minimum pax?**\nHarga bermula dari **2 pax**. Kadar menurun mengikut saiz group sehingga tier 16–20 pax.\n\n**Ini Private Tour atau Joined Tour?**\nPrivate Tour (PT) — kenderaan & guide eksklusif untuk group anda sahaja.\n\n**Banyak berjalan kaki?**\nYa, beberapa lokasi (Koto Gadang/Janjang Saribu, Lembah Harau, Lubang Jepang) memerlukan banyak berjalan. Pakai kasut selesa.\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat?**\nSangat senang. Sumatera Barat majoriti Muslim; semua makan (fullboard) di restoran halal tempatan — masakan Padang/Minang. Maklumkan awal jika ada alahan atau keperluan diet khas.\n\n**Masakan Padang pedas — ada pilihan untuk yang tak tahan pedas?**\nAda. Hidangan Padang biasanya berkuah pedas, tetapi restoran menyediakan lauk tidak pedas seperti ayam goreng, ikan bakar, telur dadar dan sayur. Maklumkan kepada guide sebelum waktu makan.\n\n**Ada masjid/surau untuk solat?**\nAda di mana-mana. Masjid Raya Sumatera Barat adalah antara tarikan utama dalam itinerari, dan setiap lokasi lawatan ada surau berhampiran. Waktu solat mudah dijaga sepanjang trip.\n\n**Perlu bawa sejadah/telekung sendiri?**\nDigalakkan bawa sejadah & telekung sendiri untuk keselesaan ibadah harian.\n\n### C. Visa & Passport\n\n**Perlu visa ke Indonesia?**\nPemegang pasport Malaysia **tidak perlu visa** untuk lawatan pelancongan sehingga **30 hari** (visa exemption ASEAN).\n\n**Apa itu All Indonesia Arrival Card — wajib ke?**\nWajib. Sejak **1 Oktober 2025** semua ketibaan ke Indonesia perlu menghantar borang digital **All Indonesia** (imigresen, kastam, kesihatan & kuarantin dalam satu borang) — ia menggantikan borang e-CD kastam. Isi di **allindonesia.imigrasi.go.id** atau aplikasi All Indonesia, sehingga **3 hari** sebelum tiba, dan simpan QR code untuk ditunjuk semasa pemeriksaan.\n\n**Ada urusan Autogate di airport?**\nYa. Pelancong 14 tahun ke atas boleh isi borang **Indonesia Visa Exemption** di evisa.imigrasi.go.id untuk dapatkan QR code Autogate. Borang hanya boleh diisi **2 hari sebelum** penerbangan.\n\n**Syarat pasport?**\nPasport mesti sah sekurang-kurangnya **6 bulan** dari tarikh trip.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak. Harga adalah Ground + Tipping sahaja; tiket penerbangan antarabangsa dibeli berasingan.\n\n**Ada flight terus dari KUL?**\nYa. **AirAsia AK 403** terbang terus KUL 07:45 → PDG (Minangkabau Intl) 07:55, harian, ± 1 jam 10 minit. Anggaran tambang pergi-balik RM400–RM600 sepax.\n\n**Flight balik jam berapa?**\n**AK 404** bertolak PDG 16:05 → tiba KUL 18:20, harian — sesuai untuk Hari 4 kerana ada lawatan Masjid Raya & Pantai Air Manis sebelum transfer ke lapangan terbang. Ada juga **AK 402** pagi (PDG 08:25 → KUL 10:35) jika group mahu balik awal, tetapi aktiviti Hari 4 terpaksa dilepaskan. Mulai 25 Oktober 2026 waktu bertukar sedikit — sahkan waktu semasa tempah.\n\n**Beza waktu Padang dengan Malaysia?**\nPadang guna waktu WIB, **1 jam di belakang** waktu Malaysia.\n\n**Masa ketibaan yang disyorkan?**\nTiba di PDG sekitar **09:00–10:00 pagi** untuk mula itinerari Hari 1. Ketibaan lewat / pelepasan awal tidak dilayan refund untuk aktiviti & makan.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\n3★ (default): Grand Bunda / Royal Denai di Bukittinggi, dan hotel 3★ setaraf di Padang. 4★ (upgrade): Grand Rocky / Santika / Grand Royal Denai.\n\n**Boleh bilik untuk 3 orang?**\nHotel 3★ standard adalah double-sharing; boleh tambah extra bed dalam bilik double. Untuk bilik triple penuh yang lebih selesa, disyorkan naik taraf 4★ (+RM80/pax/malam).\n\n**Berapa single supplement?**\n+RM300/pax (Hotel 3★ sahaja).\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik?**\nMusim kering sekitar **April–Oktober**; paling kering **Jun–Ogos**. Suhu tropika 27–28°C sepanjang tahun; kawasan tinggi (Bukittinggi, Puncak Lawang, Tabek Patah) lebih sejuk.\n\n**Musim hujan bila?**\nSekitar November–Februari, Januari selalunya paling lembap. Bawa payung/jaket ringan bila-bila masa.\n\n**Peak season pakej?**\n25 Dis 2025–5 Jan 2026, 15–31 Mac 2026, 25 Jun–12 Jul 2026, 25 Dis 2026–5 Jan 2027. Surcharge +RM50/pax/malam (3★) atau +RM60/pax/malam (4★).\n\n### G. Shopping & Duit\n\n**Beli apa (ole-ole)?**\nSongket Pandai Sikek, batik, pisang salai (keripik), kopi Talago/Kiniko, keripik sanjai, kraf perak Koto Gadang.\n\n**Mata wang & bawa duit berapa?**\nIndonesian Rupiah (IDR). Cadangan duit poket **RM1,500–RM3,000/pax**. Tukar duit di Malaysia lebih baik; kad debit/kredit & QR Pay diterima di bandar (aktifkan overseas withdrawal dulu).\n\n### H. Payment & Refund\n\n**Deposit & bayaran penuh?**\nDeposit RM250/pax semasa pengesahan; bayaran penuh 45 hari sebelum bertolak.\n\n**Bila dapat itinerari muktamad?**\nItinerari muktamad dan susunan hotel disahkan **14 hari** sebelum trip.\n\n**Ketibaan lewat / pelepasan awal?**\nTidak dilayan refund untuk aktiviti & makan yang terlepas.\n\n### I. Add-ons & Customization\n\n**Boleh tambah jam guide/transport?**\nBoleh — 150,000 IDR/jam melebihi asas 12 jam (bayaran tunai di lokasi).\n\n**Boleh tukar dari Option A ke Option B?**\nBoleh, tiada caj tambahan — harga kedua-dua routing sama. Maklumkan awal supaya operator boleh susun kenderaan & masa.\n\n**Boleh tambah Lubang Jepang?**\nBoleh. Terowong Jepun di Bukittinggi ini bukan dalam itinerari katalog; bayaran guide terowong dibuat di lokasi.\n\n**Boleh customize itinerari?**\nBoleh dibincang dengan consultant; tertakluk kepada masa, jarak & persetujuan operator.\n\n### J. Kesihatan & Keselamatan\n\n**Selamat ke?**\nSecara umum selamat. Jaga barang peribadi, elak tinggalkan beg tanpa pengawasan. Bawa ubat peribadi jika perlu.\n\n**Banyak jalan kaki / tangga?**\nYa di Koto Gadang, Lubang Jepang & Lembah Harau — sesuai untuk yang cergas; maklumkan jika ada warga emas atau isu mobiliti.\n\n### K. Praktikal (SIM/socket/tandas)\n\n**Internet?**\nSIM tempatan tidak boleh didaftar dalam telefon Malaysia (cukai tinggi). Guna roaming atau pocket WiFi (egg).\n\n**Air paip boleh minum?**\nTidak. Guna air botol — disediakan/mudah dibeli sepanjang trip.\n\n**Socket plug?**\nIndonesia guna soket **2 pin**. Bawa universal adaptor & extension plug jika banyak peranti. Simpan powerbank/charger dalam hand carry.\n\n### L. Packing\n\n**Nak bawa apa?**\nPasport (sah 6 bulan+), pakaian secukupnya + pakaian aktiviti, sejadah & telekung, peralatan mandi & solek, adaptor universal, duit poket, kasut selesa, ubat peribadi. Pakaian selesa & tidak terlalu tebal (kawasan tinggi sejuk sedikit).\n"
+ },
+ "calc": {
+  "dest": "Padang - Bukittinggi",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6-11)",
+   "cnb": "Child No Bed (2-5)"
+  },
+  "infantNote": "Bawah 2 tahun = FOC (katalog v7)",
+  "singleNote": "RM300/pax sekali, Hotel 3&#9733; sahaja &mdash; katalog tiada single supplement untuk 4&#9733;",
+  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Peak season:</b> 3&#9733; +RM50/pax/malam dikira automatik; untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf Hotel 4&#9733; &ndash; malam peak season</i> pada baris hari itu (RM80 upgrade + RM10 beza peak). <b>Kadar hari / malam tambahan belum diterbitkan</b> &mdash; kalkulator akan tanda cip merah <i>kadar?</i> dan bukan RM 0; sahkan dengan PO sebelum quote hari tambahan.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "autoAddonQty": true,
+  "extDefaults": {
+   "acc": "extra",
+   "trp": "ext"
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "breakfastLabel": "Hotel Breakfast",
+  "peak": {
+   "mode": "perNight",
+   "value": 50,
+   "windows": [
+    [
+     "2025-12-25",
+     "2026-01-05"
+    ],
+    [
+     "2026-03-15",
+     "2026-03-31"
+    ],
+    [
+     "2026-06-25",
+     "2026-07-12"
+    ],
+    [
+     "2026-12-25",
+     "2027-01-05"
+    ]
+   ]
+  },
+  "ext": {
+   "night": {
+    "normal": null,
+    "peak": null
+   },
+   "marginPerPax": 0,
+   "paxPerVehicle": 12,
+   "shareVehicle": true,
+   "rates": {
+    "day": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 20,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "h4": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 20,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    },
+    "nightShort": {
+     "_default": [
+      {
+       "from": 2,
+       "to": 20,
+       "normal": null,
+       "peak": null
+      }
+     ]
+    }
+   }
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3 bintang (dalam pakej)",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "Accommodation at 3-Star Hotel ({days}) - Grand Bunda or Royal Denai in Bukittinggi, 3-Star hotel in Padang"
+   },
+   {
+    "v": "up4",
+    "t": "Naik taraf Hotel 4 bintang",
+    "cost": "incl",
+    "perPax": 80,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade",
+    "incl": "Accommodation at 4-Star Hotel ({days}) - Grand Rocky, Santika or Grand Royal Denai, upgraded from 3-Star"
+   },
+   {
+    "v": "up4pk",
+    "t": "Naik taraf Hotel 4 bintang &ndash; malam peak season",
+    "cost": "incl",
+    "perPax": 90,
+    "hotel": "4-Star Hotel",
+    "line": "4-Star hotel upgrade (peak season night)",
+    "incl": "Accommodation at 4-Star Hotel ({days}) - Grand Rocky, Santika or Grand Royal Denai, upgraded from 3-Star"
+   },
+   {
+    "v": "extra",
+    "t": "Malam tambahan &middot; hotel 3 bintang",
+    "cost": "night",
+    "hotel": "3-Star Hotel",
+    "line": "Additional night, 3-Star hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "n4",
+    "t": "Malam tambahan &middot; hotel 4 bintang",
+    "cost": "night",
+    "nightRate": "h4",
+    "hotel": "4-Star Hotel",
+    "line": "Additional night, 4-Star hotel",
+    "incl": "Additional night at 4-Star Hotel ({days})"
+   },
+   {
+    "v": "noht",
+    "t": "Tanpa hotel &ndash; tolak malam dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan termasuk",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast, Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Private transportation with Indonesian driving guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Airport Transfer + Driving Guide (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Airport Transfer + Driving Guide",
+    "incl": "Private airport transfer with driving guide ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driving Guide (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driving Guide",
+    "incl": "Additional day private transportation with driving guide ({days}) - 12 hours basis"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy)",
+    "cost": "zero",
+    "lbl": "-"
+   }
+  ],
+  "library": [
+   {
+    "v": "ext",
+    "t": "Hari tambahan - pilih blok tour di bawah",
+    "en": "ADDITIONAL DAY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "ext",
+    "act": [
+     "Itinerari tambahan mengikut permintaan customer"
+    ],
+    "eact": [
+     "Itinerary as requested by customer"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "fe",
+    "t": "Free & easy - tiada tour",
+    "en": "FREE AND EASY",
+    "acc": "extra",
+    "meal": "b",
+    "trp": "none",
+    "act": [
+     "Hari bebas - tiada aktiviti dijadualkan"
+    ],
+    "eact": [
+     "Free and easy day at own leisure"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "arr",
+    "t": "Ketibaan - airport transfer sahaja",
+    "en": "PADANG ARRIVAL",
+    "acc": "incl",
+    "meal": "none",
+    "trp": "air",
+    "act": [
+     "Sambutan di Lapangan Terbang Minangkabau (PDG)",
+     "Check-in hotel"
+    ],
+    "eact": [
+     "Meet and greet at Minangkabau International Airport (PDG)",
+     "Hotel check in"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "dep",
+    "t": "Berlepas - airport transfer sahaja",
+    "en": "DEPARTURE",
+    "acc": "none",
+    "meal": "b",
+    "trp": "air",
+    "act": [
+     "Check-out hotel",
+     "Transfer ke Lapangan Terbang Minangkabau (PDG)"
+    ],
+    "eact": [
+     "Hotel check out",
+     "Transfer to Minangkabau International Airport (PDG)"
+    ],
+    "g": "Umum"
+   },
+   {
+    "v": "b2a",
+    "t": "Bukittinggi Option A - Kelok 9, Lembah Harau & Pagaruyung",
+    "en": "BUKITTINGGI OPTION A - KELOK 9, HARAU VALLEY & PAGARUYUNG",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Kelok 9 - jambatan sembilan selekoh tajam",
+     "Lembah Harau - lembah tebing granit",
+     "Tabek Patah",
+     "Kota Payakumbuh",
+     "Istana Pagaruyung - istana diraja Minangkabau",
+     "Danau Singkarak"
+    ],
+    "eact": [
+     "Kelok 9 - the famous nine-turn elevated bridge",
+     "Harau Valley",
+     "Tabek Patah",
+     "Payakumbuh town",
+     "Pagaruyung Royal Palace",
+     "Lake Singkarak"
+    ],
+    "g": "Blok hari pakej"
+   },
+   {
+    "v": "b2b",
+    "t": "Bukittinggi Option B - Pagaruyung, Singkarak & shopping",
+    "en": "BUKITTINGGI OPTION B - PAGARUYUNG, SINGKARAK & SHOPPING",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Istana Pagaruyung - istana diraja Minangkabau",
+     "Danau Singkarak",
+     "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
+    ],
+    "eact": [
+     "Pagaruyung Royal Palace",
+     "Lake Singkarak",
+     "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)"
+    ],
+    "g": "Blok hari pakej"
+   },
+   {
+    "v": "b3a",
+    "t": "Bukittinggi - Padang Option A - Puncak Lawang & Koto Gadang",
+    "en": "BUKITTINGGI - PADANG OPTION A - PUNCAK LAWANG & KOTO GADANG",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Panorama Baru Bukittinggi",
+     "Puncak Lawang - pemandangan Danau Maninjau",
+     "Perkampungan Koto Gadang",
+     "Check-in hotel di Padang"
+    ],
+    "eact": [
+     "Panorama Baru Bukittinggi",
+     "Puncak Lawang - Lake Maninjau viewpoint",
+     "Koto Gadang traditional village",
+     "Hotel check in at Padang"
+    ],
+    "g": "Blok hari pakej"
+   },
+   {
+    "v": "b3b",
+    "t": "Bukittinggi - Padang Option B - shopping, Puncak Lawang & Koto Gadang",
+    "en": "BUKITTINGGI - PADANG OPTION B - SHOPPING, PUNCAK LAWANG & KOTO GADANG",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)",
+     "Panorama Baru Bukittinggi",
+     "Puncak Lawang - pemandangan Danau Maninjau",
+     "Perkampungan Koto Gadang",
+     "Check-in hotel di Padang"
+    ],
+    "eact": [
+     "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)",
+     "Panorama Baru Bukittinggi",
+     "Puncak Lawang - Lake Maninjau viewpoint",
+     "Koto Gadang traditional village",
+     "Hotel check in at Padang"
+    ],
+    "g": "Blok hari pakej"
+   },
+   {
+    "v": "pdgcity",
+    "t": "Padang city tour - Masjid Raya & Pantai Air Manis",
+    "en": "PADANG CITY TOUR",
+    "acc": "incl",
+    "meal": "bld",
+    "trp": "incl",
+    "act": [
+     "Masjid Raya Sumatera Barat",
+     "Pantai Air Manis - legenda Malin Kundang",
+     "Jembatan Siti Nurbaya"
+    ],
+    "eact": [
+     "West Sumatra Grand Mosque",
+     "Air Manis Beach - the Malin Kundang legend",
+     "Siti Nurbaya Bridge"
+    ],
+    "g": "Blok hari pakej"
+   }
+  ],
+  "addons": [
+   [
+    "Shopping Tour Bukittinggi (Sanjai / Pasar Atas)",
+    100,
+    100,
+    "pax"
+   ],
+   [
+    "Baju Adat Minangkabau photo session (Istana Pagaruyung)",
+    50,
+    50,
+    "pax"
+   ],
+   [
+    "Dreampark Lembah Harau - tiket masuk",
+    30,
+    30,
+    "pax"
+   ],
+   [
+    "Airport transfer tambahan (sehala)",
+    100,
+    0,
+    "unit"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 2,
+    "to": 5,
+    "text": "2&ndash;5 pax: kenderaan Avanza &middot; ruang bagasi terhad"
+   },
+   {
+    "from": 6,
+    "to": 7,
+    "text": "6&ndash;7 pax: kenderaan Innova &middot; ruang bagasi terhad"
+   },
+   {
+    "from": 8,
+    "to": 12,
+    "text": "8&ndash;12 pax: kenderaan Hiace"
+   },
+   {
+    "from": 13,
+    "to": 19,
+    "text": "13&ndash;19 pax: katalog senarai kenderaan sehingga Hiace 12 pax sahaja. Perlu van lebih besar atau dua unit &mdash; sahkan kadar dengan operator."
+   },
+   {
+    "from": 20,
+    "to": 99999,
+    "text": "20 pax: tier harga katalog berhenti di 20 pax dan operator quote maksimum 19 pax. Minta quotation baharu sebelum confirm."
+   }
+  ],
+  "validity": "Prices follow the PT Padang - Bukittinggi 4D3N 2026 catalogue v7 (last updated 9 August 2026) and are valid for travel until 31 January 2027. This quotation is valid for 24 hours after submission. A deposit of RM250 per pax is due on confirmation and full payment 45 days before departure. Prices are based on 2 to 3 persons sharing a room; the 3-Star hotel offers double-sharing rooms as standard and a triple request is served with an extra bed. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Private driver and guide are on a 12-hour basis; 150,000 IDR per extra hour is payable in cash to the driver. Itinerary, price and flight schedule are subject to change.",
+  "variants": [
+   {
+    "id": "optA",
+    "name": "PT Padang&ndash;Bukittinggi 4D3N &middot; Option A",
+    "pkgLabel": "Padang - Bukittinggi Option A - Kelok 9, Harau Valley, Tabek Patah, Pagaruyung Palace & Lake Singkarak",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 300,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1297,
+      "c": 1197,
+      "n": 1097
+     },
+     {
+      "from": 3,
+      "to": 6,
+      "a": 1157,
+      "c": 1057,
+      "n": 957
+     },
+     {
+      "from": 7,
+      "to": 10,
+      "a": 1097,
+      "c": 997,
+      "n": 897
+     },
+     {
+      "from": 11,
+      "to": 15,
+      "a": 1057,
+      "c": 957,
+      "n": 857
+     },
+     {
+      "from": 16,
+      "to": 20,
+      "a": 1037,
+      "c": 937,
+      "n": 837
+     }
+    ],
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Padang (PDG) - Bukittinggi",
+      "en": "ARRIVAL PADANG - TRANSFER TO BUKITTINGGI",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "act": [
+       "Ketibaan disyorkan 09:00 - 10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+       "Sambutan dan land transfer ke Bukittinggi",
+       "Air Terjun Lembah Anai (photostop)",
+       "Minangkabau Documentation & Information Centre (PDIKM)",
+       "Pandai Sikek - kampung tenunan songket & kraf tempatan",
+       "Check-in hotel di Bukittinggi"
+      ],
+      "eact": [
+       "Arrival at Minangkabau International Airport (PDG), recommended 9.00 - 10.00AM",
+       "Meet and greet, land transfer to Bukittinggi",
+       "Anai Valley Waterfall (photostop)",
+       "Minangkabau Documentation & Information Centre",
+       "Pandai Sikek - songket weaving and local craft village",
+       "Hotel check in at Bukittinggi"
+      ]
+     },
+     {
+      "v": "d2a",
+      "t": "Bukittinggi Option A - Kelok 9, Lembah Harau & Pagaruyung",
+      "en": "BUKITTINGGI OPTION A - KELOK 9, HARAU VALLEY & PAGARUYUNG",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Kelok 9 - jambatan sembilan selekoh tajam",
+       "Lembah Harau - lembah tebing granit",
+       "Tabek Patah",
+       "Kota Payakumbuh",
+       "Istana Pagaruyung - istana diraja Minangkabau",
+       "Danau Singkarak"
+      ],
+      "eact": [
+       "Kelok 9 - the famous nine-turn elevated bridge",
+       "Harau Valley",
+       "Tabek Patah",
+       "Payakumbuh town",
+       "Pagaruyung Royal Palace",
+       "Lake Singkarak"
+      ]
+     },
+     {
+      "v": "d3a",
+      "t": "Bukittinggi - Padang Option A - Puncak Lawang & Koto Gadang",
+      "en": "BUKITTINGGI - PADANG OPTION A - PUNCAK LAWANG & KOTO GADANG",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Panorama Baru Bukittinggi",
+       "Puncak Lawang - pemandangan Danau Maninjau",
+       "Perkampungan Koto Gadang",
+       "Check-in hotel di Padang"
+      ],
+      "eact": [
+       "Panorama Baru Bukittinggi",
+       "Puncak Lawang - Lake Maninjau viewpoint",
+       "Koto Gadang traditional village",
+       "Hotel check in at Padang"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Padang (PDG) - KUL",
+      "en": "PADANG CITY TOUR - DEPARTURE",
+      "acc": "none",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+       "Pantai Air Manis - legenda Malin Kundang",
+       "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+      ],
+      "eact": [
+       "West Sumatra Grand Mosque",
+       "Air Manis Beach - the Malin Kundang legend",
+       "Transfer to Minangkabau International Airport for departure flight"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "Daily breakfast at hotel",
+     "Return private airport transfer at Minangkabau International Airport (PDG)",
+     "Entrance fees as stated in the itinerary",
+     "All meals served at local Indonesian restaurants",
+     "Tipping fee and parking fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets KUL - PDG",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+    ]
+   },
+   {
+    "id": "optB",
+    "name": "PT Padang&ndash;Bukittinggi 4D3N &middot; Option B",
+    "pkgLabel": "Padang - Bukittinggi Option B - Pagaruyung Palace, Lake Singkarak, Bukittinggi shopping & Puncak Lawang",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "single": 300,
+    "labelCwb": "Child With Bed (6-11)",
+    "labelCnb": "Child No Bed (2-5)",
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1297,
+      "c": 1197,
+      "n": 1097
+     },
+     {
+      "from": 3,
+      "to": 6,
+      "a": 1157,
+      "c": 1057,
+      "n": 957
+     },
+     {
+      "from": 7,
+      "to": 10,
+      "a": 1097,
+      "c": 997,
+      "n": 897
+     },
+     {
+      "from": 11,
+      "to": 15,
+      "a": 1057,
+      "c": 957,
+      "n": 857
+     },
+     {
+      "from": 16,
+      "to": 20,
+      "a": 1037,
+      "c": 937,
+      "n": 837
+     }
+    ],
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL - Padang (PDG) - Bukittinggi",
+      "en": "ARRIVAL PADANG - TRANSFER TO BUKITTINGGI",
+      "acc": "incl",
+      "meal": "ld",
+      "trp": "incl",
+      "act": [
+       "Ketibaan disyorkan 09:00 - 10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+       "Sambutan dan land transfer ke Bukittinggi",
+       "Air Terjun Lembah Anai (photostop)",
+       "Minangkabau Documentation & Information Centre (PDIKM)",
+       "Pandai Sikek - kampung tenunan songket & kraf tempatan",
+       "Check-in hotel di Bukittinggi"
+      ],
+      "eact": [
+       "Arrival at Minangkabau International Airport (PDG), recommended 9.00 - 10.00AM",
+       "Meet and greet, land transfer to Bukittinggi",
+       "Anai Valley Waterfall (photostop)",
+       "Minangkabau Documentation & Information Centre",
+       "Pandai Sikek - songket weaving and local craft village",
+       "Hotel check in at Bukittinggi"
+      ]
+     },
+     {
+      "v": "d2b",
+      "t": "Bukittinggi Option B - Pagaruyung, Singkarak & shopping",
+      "en": "BUKITTINGGI OPTION B - PAGARUYUNG, SINGKARAK & SHOPPING",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Istana Pagaruyung - istana diraja Minangkabau",
+       "Danau Singkarak",
+       "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
+      ],
+      "eact": [
+       "Pagaruyung Royal Palace",
+       "Lake Singkarak",
+       "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)"
+      ]
+     },
+     {
+      "v": "d3b",
+      "t": "Bukittinggi - Padang Option B - shopping, Puncak Lawang & Koto Gadang",
+      "en": "BUKITTINGGI - PADANG OPTION B - SHOPPING, PUNCAK LAWANG & KOTO GADANG",
+      "acc": "incl",
+      "meal": "bld",
+      "trp": "incl",
+      "act": [
+       "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)",
+       "Panorama Baru Bukittinggi",
+       "Puncak Lawang - pemandangan Danau Maninjau",
+       "Perkampungan Koto Gadang",
+       "Check-in hotel di Padang"
+      ],
+      "eact": [
+       "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)",
+       "Panorama Baru Bukittinggi",
+       "Puncak Lawang - Lake Maninjau viewpoint",
+       "Koto Gadang traditional village",
+       "Hotel check in at Padang"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Padang (PDG) - KUL",
+      "en": "PADANG CITY TOUR - DEPARTURE",
+      "acc": "none",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+       "Pantai Air Manis - legenda Malin Kundang",
+       "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+      ],
+      "eact": [
+       "West Sumatra Grand Mosque",
+       "Air Manis Beach - the Malin Kundang legend",
+       "Transfer to Minangkabau International Airport for departure flight"
+      ]
+     }
+    ],
+    "inclusions": [
+     "{auto}",
+     "Daily breakfast at hotel",
+     "Return private airport transfer at Minangkabau International Airport (PDG)",
+     "Entrance fees as stated in the itinerary",
+     "All meals served at local Indonesian restaurants",
+     "Tipping fee and parking fee"
+    ],
+    "exclusions": [
+     "Return international flight tickets KUL - PDG",
+     "Flight luggage, in-flight meal and airport tax",
+     "Additional tours and meals not stated above",
+     "Personal expenses and shopping",
+     "Travel insurance"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+    ]
+   }
+  ]
+ }
+}

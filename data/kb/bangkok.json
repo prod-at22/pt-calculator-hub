@@ -1,0 +1,2103 @@
+{
+ "slug": "bangkok",
+ "kind": "template",
+ "content": {
+  "meta": {
+   "lang": "ms",
+   "docTitle": "ARBA Bangkok — Knowledge Base",
+   "brandTag": "BANGKOK KB",
+   "kicker": "ARBA BANGKOK · KNOWLEDGE BASE",
+   "heroTitle": "Ask Ali",
+   "heroLead": "Tanya apa-apa tentang pakej Private Tour Bangkok 4D3N — halal, flight, hotel, cuaca, add-on & tips.",
+   "searchPlaceholder": "cth: makanan halal? · perlu visa? · Chatuchak buka bila? · surcharge peak season?",
+   "miniSearchPlaceholder": "Tanya Ali tentang pakej Bangkok…",
+   "heroImage": "@asset:0af18c72e215",
+   "overviewTitle": "Pakej Private Tour Bangkok",
+   "statusText": "Last updated: 3 September 2026",
+   "footerHtml": "Rujukan dalaman TC — dijana daripada katalog PT Bangkok Standard 4D3N 2026 (kemas kini 1 Julai 2026), Rate Card Operasi PT Bangkok (3 September 2026), Product Cheatsheet 2026, FreeGift Campaign, Flight Recommendation dan PT Bangkok 4H3M Travel Map.<br>Requirement muslim-friendly (halal, surau/masjid, solat) adalah baseline setiap pakej. Pakej sah untuk travel period sehingga 31 Mac 2027.<br>Tiada gambar trip lepas untuk Bangkok dalam folder produk, jadi KB ini tiada tab Gambar Trip Lepas — ini memang begitu, bukan data yang tertinggal.",
+   "marketing": {
+    "anchors": [
+     "Grand Palace & Wat Phra Kaew",
+     "Damnoen Saduak Floating Market",
+     "Chatuchak Weekend Market",
+     "Chao Phraya Halal Dinner Cruise",
+     "Asiatique The Riverfront"
+    ],
+    "usp": "USP: 3 pilihan tier hotel (3★/4★/5★ Al-Meroz halal-certified) · Day 3 fleksibel (Bangkok City / Pattaya / Kanchanaburi / Safari World) · restoran halal sepanjang trip · tipping included.",
+    "season": [
+     [
+      "Nov–Feb",
+      "Cool season — cuaca paling selesa & kering, terbaik untuk city + temple + market"
+     ],
+     [
+      "Mac–Mei",
+      "Musim panas (32–37°C); April ada Songkran (Tahun Baru Thai)"
+     ],
+     [
+      "Jun–Okt",
+      "Musim hujan — bawa payung/poncho, hujan lebat sekejap"
+     ]
+    ],
+    "expect": [
+     "Driver sahaja — TIADA tour guide. Driver escort transit & recommend restoran halal.",
+     "Banyak walking di mall, temple & market — pakai kasut selesa.",
+     "Chatuchak buka Sabtu & Ahad sahaja (9am–6pm); weekday ganti MBK / Terminal 21.",
+     "Chatuchak, Pratunam & Asiatique street stall = CASH sahaja.",
+     "Triple room = 3 katil single ikut availability atau extra bed.",
+     "Lunch & dinner atas belanja sendiri (breakfast sahaja included)."
+    ]
+   }
+  },
+  "packages": [
+   {
+    "n": "PT Bangkok Standard 4D3N",
+    "tag": "Bangkok · 4D3N",
+    "sub": "Floating market, Grand Palace, shopping & cruise halal",
+    "emoji": "🛕",
+    "img": "Chao Phraya River Skyline - panoramio.jpg",
+    "intro": "Pakej Private Tour Bangkok 4 hari 3 malam yang menggabungkan pengalaman budaya (Damnoen Saduak Floating Market, Mae Klong Railway Market), ikon diraja (Grand Palace atau Wat Arun), shopping legenda (Chatuchak, Platinum, Pratunam, Siam Paragon) dan santapan Chao Phraya Halal Dinner Cruise. Van & driver peribadi sepanjang trip, tipping included, dengan pilihan Day 3 yang boleh disesuaikan mengikut minat keluarga.",
+    "inc": [
+     "Airport transfer dari BKK atau DMK",
+     "Hotel 3★ untuk 3 malam (Almas / Regent Ramkhamhaeng atau seumpama)",
+     "Daily breakfast di hotel",
+     "Private transportation & driver (asas 12 jam sehari)",
+     "Entrance fee mengikut itinerari (Chocolate Ville + Grand Palace / Wat Arun)",
+     "Tipping driver (included)"
+    ],
+    "exc": [
+     "Tiket flight KUL–BKK (customer book sendiri)",
+     "Personal insurance / Takaful",
+     "Personal expenses & shopping",
+     "Lunch & dinner (breakfast sahaja included)",
+     "Excess baggage fee",
+     "Optional activity & Day 3 add-on (Pattaya / Kanchanaburi / Safari World / Long Tail Boat / Dinner Cruise)",
+     "Caj extra hour driver (500 THB/jam, bayar cash)"
+    ],
+    "note": "Pakej ini DRIVER SAHAJA — tiada tour guide. Transport asas 12 jam sehari; lebih masa dicaj 500 THB/jam (bayar cash terus ke driver). Harga base 2–3 orang sebilik."
+   }
+  ],
+  "itineraries": [
+   [
+    {
+     "d": 1,
+     "t": "Kuala Lumpur → Bangkok",
+     "m": "—",
+     "a": [
+      "Pickup di Airport BKK / DMK oleh driver ARBA",
+      "Chocolate Ville (taman tema bergaya Eropah)",
+      "Shopping di Ramkhamhaeng Night Market",
+      "Check-in hotel",
+      "Cadangan dinner: Abu Husni Restaurant (halal)"
+     ]
+    },
+    {
+     "d": 2,
+     "t": "Bangkok & Maeklong",
+     "m": "Breakfast",
+     "a": [
+      "Breakfast di hotel",
+      "Mae Klong Railway Market (pasar atas landasan kereta api)",
+      "Damnoen Saduak Floating Market (add-on Long Tail Boat RM280/bot)",
+      "Masjid Ton Son (masjid tertua Bangkok)",
+      "Asiatique The Riverfront",
+      "Chao Phraya Halal Dinner Cruise (optional)",
+      "Cadangan lunch: Armeen Halal Restaurant"
+     ]
+    },
+    {
+     "d": 3,
+     "t": "Bangkok City Tour (default)",
+     "m": "Breakfast",
+     "a": [
+      "Breakfast di hotel",
+      "Grand Palace ATAU Wat Arun (pilih satu)",
+      "Chattuchak Weekend Market (Sabtu/Ahad sahaja)",
+      "Siam Paragon & Lumpini Park",
+      "Pratunam Market",
+      "Cadangan lunch: Ayeeshah Roddee · dinner: Shabu Ox (halal)",
+      "PILIHAN GANTI: Pattaya (+RM80) / Kanchanaburi Safari (+RM160) / Safari World Bangkok (+RM150)"
+     ]
+    },
+    {
+     "d": 4,
+     "t": "Bangkok → Airport",
+     "m": "Breakfast",
+     "a": [
+      "Breakfast di hotel",
+      "Check-out",
+      "Airport transfer ke BKK / DMK"
+     ]
+    }
+   ]
+  ],
+  "attractions": [
+   {
+    "n": "Grand Palace & Wat Phra Kaew",
+    "t": "Historical / Temple",
+    "emoji": "🏯",
+    "img": "Temple of the Emerald Buddha.jpg",
+    "short": "Istana diraja & Kuil Emerald Buddha — ikon utama Bangkok",
+    "intro": "Kompleks istana diraja Thailand yang paling ikonik, rumah kepada Wat Phra Kaew (Kuil Emerald Buddha). Seni bina berwarna emas dan mozek yang menakjubkan — antara tempat wajib singgah di Day 3.",
+    "hi": [
+     "Wat Phra Kaew (Emerald Buddha)",
+     "Seni bina diraja & mural Ramakien",
+     "Entrance fee included dalam pakej (Day 3)"
+    ],
+    "best": "Pagi (buka 8:30am) untuk elak panas & orang ramai.",
+    "muslim": "Tiada surau khusus dalam kompleks — boleh minta ruang privasi untuk solat. Banyak masjid berdekatan: Bangkok Mosque, Masjid Ton Son, Chakrabongse & Haroon Mosque. Restoran halal Armeen berhampiran kawasan Rattanakosin.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Grand+Palace+Bangkok"
+   },
+   {
+    "n": "Wat Arun",
+    "t": "Historical / Temple",
+    "emoji": "🌅",
+    "img": "Wat Arun or the Temple of Dawn Photo Don Ramey Logan.jpg",
+    "short": "Temple of Dawn di tebing Chao Phraya",
+    "intro": "Kuil Fajar yang terkenal dengan menara (prang) bertatah porselin, tersergam indah di tebing Sungai Chao Phraya. Alternatif kepada Grand Palace pada Day 3.",
+    "hi": [
+     "Menara prang setinggi 70m",
+     "View sunset dari seberang sungai",
+     "Entrance fee lebih murah (~200 THB)"
+    ],
+    "best": "Lewat petang untuk foto sunset.",
+    "muslim": "Tiada surau dalam kuil; restoran halal & masjid mudah dijumpai di kawasan seberang (Rattanakosin). Bawa sejadah untuk solat di ruang sesuai.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Wat+Arun+Bangkok"
+   },
+   {
+    "n": "Damnoen Saduak Floating Market",
+    "t": "Cultural / Market",
+    "emoji": "🛶",
+    "img": "Marché flottant du district Damnoen Saduak 5.jpg",
+    "short": "Pasar terapung paling ikonik di Thailand",
+    "intro": "Pengalaman pasar terapung klasik — penjual atas sampan menjual buah, makanan & cenderahati. Add-on Long Tail Boat (RM280/bot) sangat disyorkan untuk pengalaman penuh & foto.",
+    "hi": [
+     "Naik long tail boat (add-on)",
+     "Buah tropika & street food",
+     "Gerai halal Melayu Muslim di kawasan pasar"
+    ],
+    "best": "Awal pagi (Day 2) — kurang sesak & cuaca nyaman.",
+    "muslim": "Ada gerai makanan halal Melayu Muslim Bangkok di kawasan Damnoen. Bawa sejadah; tiada surau formal di pasar — solat di hotel/restoran sebelum atau selepas.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Damnoen+Saduak+Floating+Market"
+   },
+   {
+    "n": "Mae Klong Railway Market",
+    "t": "Cultural / Market",
+    "emoji": "🚉",
+    "img": "Maeklong Railway Market 07.jpg",
+    "short": "Pasar atas landasan kereta api yang unik",
+    "intro": "Pasar unik di mana gerai dibuka betul-betul atas landasan kereta api — penjual menarik kanopi setiap kali kereta api lalu. Antara tarikan Day 2 sebelum floating market.",
+    "hi": [
+     "Kereta api lalu tengah pasar",
+     "Hasil laut & buah segar",
+     "Pengalaman & foto yang unik"
+    ],
+    "best": "Ikut jadual ketibaan kereta api (driver akan bantu).",
+    "muslim": "Beli makanan berhati-hati (banyak seafood/non-halal bercampur). Restoran halal Armeen & pilihan lain diatur dalam itinerari.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Maeklong+Railway+Market"
+   },
+   {
+    "n": "Chatuchak Weekend Market",
+    "t": "Shopping / Market",
+    "emoji": "🛍️",
+    "img": "Chatuchak Weekend Market 2.jpg",
+    "short": "Pasar hujung minggu terbesar dunia (15,000+ gerai)",
+    "intro": "Pasar hujung minggu terbesar di dunia dengan lebih 15,000 gerai — fesyen, cenderahati, dekorasi, makanan. Highlight shopping Day 3 (jika jatuh pada hujung minggu).",
+    "hi": [
+     "15,000+ gerai",
+     "Barang murah & unik",
+     "Gerai halal cth Saman Islam"
+    ],
+    "best": "Sabtu & Ahad sahaja, 9am–6pm. Weekday ganti MBK / Terminal 21.",
+    "muslim": "Ada gerai halal seperti Saman Islam (khao mok gai / beef noodle). Tiada surau pusat — minta ruang tenang dari peniaga Muslim atau solat di mall berdekatan (Mo Chit).",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chatuchak+Weekend+Market"
+   },
+   {
+    "n": "Chocolate Ville",
+    "t": "Other / Attraction",
+    "emoji": "🍫",
+    "img": "Chocolate Ville European style restaurant - panoramio.jpg",
+    "short": "Taman tema bergaya Eropah — spot foto Day 1",
+    "intro": "Taman tema bertema kampung Eropah dengan kincir angin, tasik & lampu cantik pada waktu malam. Singgahan santai Day 1 selepas pickup airport.",
+    "hi": [
+     "Suasana Eropah & lampu malam",
+     "Spot foto Instagram",
+     "Entrance fee included (Day 1)"
+    ],
+    "best": "Petang/malam Day 1 untuk suasana lampu.",
+    "muslim": "Ada pilihan makanan; sahkan status halal sebelum pesan. Cadangan dinner halal: Abu Husni. Bawa sejadah untuk solat Maghrib/Isyak.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chocolate+Ville+Bangkok"
+   },
+   {
+    "n": "Asiatique The Riverfront",
+    "t": "Shopping / Market",
+    "emoji": "🎡",
+    "img": "Asiatique The Riverfront Bangkok.jpg",
+    "short": "Night bazaar tepi sungai + food court halal",
+    "intro": "Bazar malam tepi Sungai Chao Phraya dengan kedai, restoran & ferris wheel. Titik berkumpul untuk Chao Phraya Halal Dinner Cruise (Day 2).",
+    "hi": [
+     "Riverfront shopping & dining",
+     "Ferris wheel & suasana malam",
+     "Food court dengan pilihan halal"
+    ],
+    "best": "Malam Day 2, gabung dengan dinner cruise.",
+    "muslim": "Ada pilihan makanan halal di food court Asiatique. Chao Phraya Halal Dinner Cruise (Royal Princess) menyajikan menu halal.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Asiatique+The+Riverfront+Bangkok"
+   },
+   {
+    "n": "Siam Paragon · Platinum · Pratunam",
+    "t": "Shopping / Mall",
+    "emoji": "🏬",
+    "img": "The main hall of Siam Paragon Center, Bangkok, Thailand.jpg",
+    "short": "Zon shopping utama — mall mewah hingga borong fesyen",
+    "intro": "Kawasan shopping tumpuan: Siam Paragon (mall mewah), Platinum Fashion Mall & Pratunam Market (borong fesyen harga murah). Highlight Day 3.",
+    "hi": [
+     "Siam Paragon — mall mewah + surau",
+     "Platinum & Pratunam — borong fesyen",
+     "Halal cth Wrap-It @ Siam Paragon"
+    ],
+    "best": "Day 3; Pratunam & Platinum buka harian.",
+    "muslim": "Siam Paragon ada surau (prayer room) & pilihan makanan halal (Wrap-It). CentralWorld berdekatan ada surau di tingkat 1. Pratunam street stall = cash sahaja.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siam+Paragon+Bangkok"
+   },
+   {
+    "n": "Masjid Ton Son",
+    "t": "Muslim Heritage",
+    "emoji": "🕌",
+    "img": "Tonson Masjid มัสยิดต้นสน กรุงเทพฯ 04.jpg",
+    "short": "Masjid tertua di Bangkok (kunjungan Day 2)",
+    "intro": "Masjid bersejarah tertua di Bangkok di tebing Chao Phraya, mencerminkan warisan komuniti Muslim Thai. Ruang solat & suasana tenang di tengah bandar.",
+    "hi": [
+     "Masjid tertua Bangkok",
+     "Warisan Muslim Thai",
+     "Ruang solat untuk jemaah"
+    ],
+    "best": "Day 2, sekitar waktu solat Zohor.",
+    "muslim": "Ini sendiri sebuah masjid — kemudahan wudu & ruang solat lelaki/perempuan tersedia. Sesuai untuk solat jemaah sepanjang tour Day 2.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ton+Son+Mosque+Bangkok"
+   },
+   {
+    "n": "Safari World Bangkok",
+    "t": "Family / Day Trip",
+    "emoji": "🦁",
+    "img": "Safari World.jpg",
+    "short": "Safari + Marine Park — add-on mesra keluarga",
+    "intro": "Taman safari & marine park (~40km dari bandar) — drive-through safari, pertunjukan ikan lumba-lumba & marine show. Pilihan add-on Day 3 (+RM150/pax) yang terbaik untuk kanak-kanak.",
+    "hi": [
+     "Drive-through safari",
+     "Marine park & shows",
+     "Sesuai untuk keluarga & kids"
+    ],
+    "best": "Day 3 sebagai ganti city tour (+RM150/pax).",
+    "muslim": "Bawa bekal atau cari gerai halal berdekatan; sahkan status makanan. Bawa sejadah untuk solat. Driver boleh bantu cari ruang solat.",
+    "map": "https://www.google.com/maps/search/?api=1&query=Safari+World+Bangkok"
+   }
+  ],
+  "hotels": [
+   {
+    "tier": "3★ (default)",
+    "name": "Almas Hotel / Regent Ramkhamhaeng",
+    "note": "Standard room, 3 malam. Almas di kawasan Phra Ram 9. Base rate — tiada surcharge.",
+    "emoji": "",
+    "img": ""
+   },
+   {
+    "tier": "4★ (upgrade)",
+    "name": "Nouvo City Hotel atau seumpama",
+    "note": "+RM50/pax/malam (RM150/pax untuk 3 malam). Kawasan Banglamphu / Khao San.",
+    "emoji": "",
+    "img": ""
+   },
+   {
+    "tier": "5★ (upgrade)",
+    "name": "Al-Meroz Hotel atau seumpama",
+    "note": "+RM60/pax/malam (RM180/pax untuk 3 malam). Hotel HALAL-CERTIFIED, kawasan Ramkhamhaeng.",
+    "emoji": "",
+    "img": ""
+   }
+  ],
+  "actGroups": [],
+  "blocks": {
+   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog PT Bangkok Standard 4D3N 2026 (kemas kini 1 Julai 2026) — per pax, base 2–3 orang sebilik, hotel 3★. Ground + tipping sahaja, tiada flight.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2 pax</td><td class='add'>RM 1,597</td><td>RM 1,497</td><td>RM 1,397</td></tr><tr><td class='it'>3 pax</td><td class='add'>RM 1,397</td><td>RM 1,297</td><td>RM 1,197</td></tr><tr><td class='it'>4–5 pax</td><td class='add'>RM 1,297</td><td>RM 1,197</td><td>RM 1,097</td></tr><tr><td class='it'>6–10 pax</td><td class='add'>RM 1,197</td><td>RM 1,097</td><td>RM 997</td></tr></tbody></table><p class='custnote'>Infant bawah 2 tahun: FOC. Deposit RM250/pax; full payment 45 hari sebelum ketibaan. Harga quotation sah 24 jam. Pakej sah untuk travel sehingga 31 Mac 2027.</p></div>",
+   "custom": "<h2>Simple Customisation &amp; Add-On</h2><div class='custblk'><h3>Pilihan Day 3 &mdash; pilih SATU</h3><table class='ctbl'><thead><tr><th>Pilihan</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Bangkok City Tour</td><td class='ded'>Default (included)</td><td>Grand Palace atau Wat Arun + Chatuchak + Siam Paragon + Lumpini Park + Pratunam</td></tr><tr><td class='it'>Pattaya Full Day</td><td class='add'>+RM 80/pax</td><td>Pattaya Beach + Pattaya Town + Hard Rock Cafe &middot; 2&ndash;3 jam sehala</td></tr><tr><td class='it'>Kanchanaburi + Safari Park</td><td class='add'>+RM 160/pax</td><td>Safari Kanchanaburi (tiket included) + River Kwai &middot; Giraffe Encounter +RM135/pax &middot; Sunflower Field Dis&ndash;Feb sahaja, entrance tidak included &middot; 2&ndash;3 jam sehala</td></tr><tr><td class='it'>Safari World Bangkok</td><td class='add'>+RM 150/pax</td><td>Safari Park + Marine Park (tiket included) &middot; 45 minit sehala &middot; terbaik untuk kanak-kanak</td></tr></tbody></table><p class='custnote'>Pilih satu sahaja, tidak boleh gabung. Sahkan sekurang-kurangnya 15 hari sebelum trip.</p></div><div class='custblk'><h3>Add-on lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Long Tail Boat (Damnoen Saduak)</td><td class='add'>RM 280/bot</td><td>Day 2 &middot; lebih kurang 5 pax sebot &middot; percuma bawah campaign free gift FBKK2 (rujuk tab Free Gift)</td></tr><tr><td class='it'>Chao Phraya Halal Dinner Cruise</td><td class='add'>RM 150/pax</td><td>Day 2 malam &middot; Royal Princess, buffet halal, 1&ndash;1.5 jam atas sungai</td></tr><tr><td class='it'>Giraffe Encounter (Safari Kanchanaburi)</td><td class='add'>+RM 135/pax</td><td>Hanya bersama Kanchanaburi + Safari Park &middot; tidak termasuk dalam tiket asas</td></tr><tr><td class='it'>Upgrade hotel 4&#9733;</td><td class='add'>+RM 50/pax/malam</td><td>Nouvo City atau seumpama &middot; RM150/pax untuk 3 malam</td></tr><tr><td class='it'>Upgrade hotel 5&#9733; Al-Meroz</td><td class='add'>+RM 60/pax/malam</td><td>Halal-certified &middot; RM180/pax untuk 3 malam</td></tr><tr><td class='it'>Pocket WiFi</td><td class='add'>RM 80&ndash;110/trip</td><td>3GB atau 10GB 4G/5G &middot; Sumber: rate card ARBA &mdash; tiada dalam katalog</td></tr><tr><td class='it'>Takaful TripCare 360</td><td class='add'>dari RM 45/pax</td><td>Etiqa Area 1 (Thailand) &middot; Sumber: rate card ARBA &mdash; tiada dalam katalog</td></tr></tbody></table></div><h2 style='margin-top:30px'>Rate Card Operasi</h2><p class='ssub'>Kadar operasi PT Bangkok (rate card PO, 3 September 2026). Inilah sumber kadar untuk tab <b>Simple Calculator</b>. Kadar transport ialah <b>per kenderaan (per transport)</b>, bukan per pax &mdash; kalkulator pilih kelas kenderaan ikut bilangan pax dan buat pembahagian ini automatik.</p><div class='custblk'><h3>Transport + Driver</h3><table class='ctbl'><thead><tr><th>Tour</th><th>SUV 1&ndash;4 pax<br>tambah</th><th>SUV<br>tolak</th><th>Minivan 1&ndash;8 pax<br>tambah</th><th>Minivan<br>tolak</th></tr></thead><tbody><tr><td class='it'>Bangkok 1 Day</td><td class='add'>RM 450</td><td class='ded'>&minus;RM 300</td><td class='add'>RM 475</td><td class='ded'>&minus;RM 350</td></tr><tr><td class='it'>Damnoen Saduak Floating Market 1 day</td><td class='add'>RM 500</td><td class='ded'>&minus;RM 350</td><td class='add'>RM 550</td><td class='ded'>&minus;RM 400</td></tr><tr><td class='it'>Kanchanaburi 1 day</td><td class='add'>RM 550</td><td class='ded'>&minus;RM 400</td><td class='add'>RM 630</td><td class='ded'>&minus;RM 480</td></tr><tr><td class='it'>Erawan Waterfall</td><td class='add'>RM 600</td><td class='ded'>&minus;RM 450</td><td class='add'>RM 700</td><td class='ded'>&minus;RM 550</td></tr><tr><td class='it'>Ayutthaya 1 day</td><td class='add'>RM 500</td><td class='ded'>&minus;RM 350</td><td class='add'>RM 575</td><td class='ded'>&minus;RM 425</td></tr><tr><td class='it'>Khao Yai 1 day</td><td class='add'>RM 575</td><td class='ded'>&minus;RM 425</td><td class='add'>RM 650</td><td class='ded'>&minus;RM 500</td></tr><tr><td class='it'>Pattaya 1 day</td><td class='add'>RM 525</td><td class='ded'>&minus;RM 375</td><td class='add'>RM 610</td><td class='ded'>&minus;RM 460</td></tr><tr><td class='it'>Hua Hin 1 day</td><td class='add'>RM 575</td><td class='ded'>&minus;RM 425</td><td class='add'>RM 650</td><td class='ded'>&minus;RM 500</td></tr><tr><td class='it'>Rayong Sea 1 day</td><td class='add'>RM 575</td><td class='ded'>&minus;RM 425</td><td class='add'>RM 650</td><td class='ded'>&minus;RM 500</td></tr><tr><td class='it'>Koh Chang Island 1 way</td><td class='add'>RM 700</td><td class='ded'>&minus;RM 550</td><td class='add'>RM 850</td><td class='ded'>&minus;RM 700</td></tr><tr><td class='it'>Airport pick up / drop off 1 way</td><td class='add'>RM 125</td><td class='ded'>&minus;RM 75</td><td class='add'>RM 175</td><td class='ded'>&minus;RM 125</td></tr><tr><td class='it'>Airport pick up + Half day tour</td><td class='add'>RM 400</td><td class='ded'>&minus;RM 250</td><td class='add'>RM 440</td><td class='ded'>&minus;RM 390</td></tr><tr><td class='it'>Pattaya 1 way</td><td class='add'>RM 275</td><td class='ded'>&minus;RM 125</td><td class='add'>RM 350</td><td class='ded'>&minus;RM 200</td></tr><tr><td class='it'>Hua Hin 1 way</td><td class='add'>RM 350</td><td class='ded'>&minus;RM 200</td><td class='add'>RM 450</td><td class='ded'>&minus;RM 300</td></tr><tr><td class='it'>Khao Kor 4 days</td><td class='add'>RM 2,150</td><td class='ded'>&minus;RM 1,800</td><td class='add'>RM 2,500</td><td class='ded'>&minus;RM 2,150</td></tr><tr><td class='it'>Khao Yai 3 days</td><td class='add'>RM 1,550</td><td class='ded'>&minus;RM 1,300</td><td class='add'>RM 1,700</td><td class='ded'>&minus;RM 1,450</td></tr><tr><td class='it'>Kanchanaburi 2 days</td><td class='add'>RM 1,110</td><td class='ded'>&minus;RM 960</td><td class='add'>RM 1,300</td><td class='ded'>&minus;RM 1,150</td></tr><tr><td class='it'>Hua Hin 2 days</td><td class='add'>RM 1,110</td><td class='ded'>&minus;RM 960</td><td class='add'>RM 1,300</td><td class='ded'>&minus;RM 1,150</td></tr></tbody></table><p class='custnote'>Semua kadar <b>RM per transport</b>, bukan per pax. Asas <b>10 jam</b> setiap tour; melebihi 10 jam dicaj <b>500 THB/jam</b> dibayar tunai kepada driver. (Katalog PT Bangkok Standard 4D3N tulis asas <b>12 jam</b> untuk hari pakej &mdash; rate card 10 jam ini untuk hari tambahan / tour di luar pakej.) 9&ndash;10 pax perlu <b>2 kenderaan</b>; kalkulator kira 2 &times; kadar Minivan.</p></div><div class='custblk'><h3>Accommodation</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Tambah 1 malam (normal)</th><th>Tambah 1 malam (peak)</th><th>Tolak 1 malam (normal)</th><th>Tolak 1 malam (peak)</th></tr></thead><tbody><tr><td class='it'>3&#9733; Almas Hotel</td><td class='add'>RM 160 / bilik / malam</td><td class='add'>RM 210 / bilik / malam<br><span class='custnote'>(160 + 50 peak)</span></td><td class='ded'>&minus;RM 50 / pax / malam</td><td>&ndash;</td></tr><tr><td class='it'>4&#9733; Nouvo City Hotel</td><td class='add'>RM 240 / bilik / malam</td><td class='add'>RM 320 / bilik / malam<br><span class='custnote'>(240 + 80 peak)</span></td><td class='ded'>&minus;RM 100 / pax / malam</td><td>&ndash;</td></tr><tr><td class='it'>5&#9733; Al-Meroz Hotel</td><td class='add'>RM 300 / bilik / malam</td><td class='add'>RM 380 / bilik / malam<br><span class='custnote'>(300 + 80 peak)</span></td><td class='ded'>&minus;RM 150 / pax / malam</td><td>&ndash;</td></tr></tbody></table><p class='custnote'>Malam tambahan dikira <b>per bilik</b>; tolak malam dikira <b>per pax</b> &mdash; disahkan oleh PO 3 September 2026 (rate card asal tulis <i>person</i> pada baris 4&#9733;/5&#9733;, dibetulkan kepada <i>room</i>). Dalam kalkulator, malam tambahan dipilih sebagai add-on <i>per bilik</i> dan TC isi bilangan bilik. Upgrade tier pada malam <b>pakej</b> kekal ikut katalog: 4&#9733; +RM50/pax/malam, 5&#9733; +RM60/pax/malam.</p></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 hidangan</th><th>Tolak 1 hidangan</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Sudah termasuk &mdash; makan di hotel sahaja</td><td>&ndash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 20 / pax</td><td>&ndash;</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 20 / pax</td><td>&ndash;</td></tr></tbody></table><p class='custnote'>Pakej Bangkok Standard 4D3N ialah <b>breakfast sahaja</b> &mdash; lunch dan dinner tidak termasuk, jadi tiada apa yang boleh ditolak. RM 20 ialah harga <b>tambah</b> satu hidangan (disahkan PO 3 September 2026; rate card asal meletakkan RM 20 di kolum <i>Tolak</i>). Nota rate card &ldquo;Meal provided (Fullboard)&rdquo; tidak terpakai untuk pakej ini.</p></div><div class='custblk'><h3>Attraction / Entrance</h3><table class='ctbl'><thead><tr><th>Attraction</th><th>Add-on dewasa</th><th>Add-on kanak-kanak</th><th>Nak buang (tolak)</th></tr></thead><tbody><tr><td class='it'>Safari Park Kanchanaburi</td><td class='add'>RM 75 / pax</td><td>RM 75 / pax</td><td class='ded'>&minus;RM 60 / pax</td></tr><tr><td class='it'>&nbsp;&nbsp;&ndash; Take photo with Giraffe</td><td class='add'>RM 125 / pax</td><td>RM 125 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Safari Park / Marine Park (Safari World Bangkok)</td><td class='add'>RM 135 / pax</td><td>RM 110 / pax</td><td class='ded'>&minus;RM 100 / pax</td></tr><tr><td class='it'>Grand Palace</td><td class='add'>RM 70 / pax</td><td>RM 55 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Chocolate Ville</td><td class='add'>RM 30 / pax</td><td>RM 30 / pax</td><td class='ded'>&minus;RM 20 / pax</td></tr><tr><td class='it'>Wat Arun</td><td class='add'>RM 30 / pax</td><td>RM 30 / pax</td><td class='ded'>&minus;RM 20 / pax</td></tr><tr><td class='it'>&nbsp;&nbsp;&ndash; Change to Thai attire</td><td class='add'>RM 45 / pax</td><td>RM 45 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>&nbsp;&nbsp;&ndash; Put on makeup</td><td class='add'>RM 45 / pax</td><td>RM 45 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Sanctuary of Truth Pattaya</td><td class='add'>RM 70 / pax</td><td>RM 70 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Khao Kheow Open Zoo</td><td class='add'>RM 50 / pax</td><td>RM 30 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Chokchai Farm</td><td class='add'>RM 20 / pax</td><td>RM 15 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Dream World Pathum Thani</td><td class='add'>RM 110 / pax</td><td>RM 70 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Jim Thompson Museum</td><td class='add'>RM 40 / pax</td><td>RM 25 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Manohkan Skywalk</td><td class='add'>RM 180 / pax</td><td>RM 95 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Hokkaido Flower Park</td><td class='add'>RM 20 / pax</td><td>RM 15 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Wat Pho</td><td class='add'>RM 42 / pax</td><td>RM 42 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Ancient City</td><td class='add'>RM 120 / pax</td><td>RM 60 / pax</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>&nbsp;&nbsp;&ndash; Hire photographer (Wat Arun)</td><td class='add' colspan='2'>RM 195 / group</td><td class='ded'>&ndash;</td></tr><tr><td class='it'>Damnoen Saduak Long Tail Boat</td><td class='add' colspan='2'>RM 260 / bot (maks 6 pax) &middot; rate card operasi</td><td class='ded'>&ndash;</td></tr></tbody></table><p class='custnote'>Dua item bercanggah dengan katalog dan <b>katalog yang menang</b> untuk harga jual (keputusan PO 3 September 2026): <b>Long Tail Boat</b> rate card RM 260/bot vs katalog <b>RM 280/bot</b>; <b>Giraffe Encounter</b> rate card RM 125/pax vs katalog <b>RM 135/pax</b>. Kalkulator guna nombor katalog. Kadar rate card di atas dikekalkan sebagai rujukan kos operasi.</p></div>",
+   "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season RM 80/pax/malam dan late booking RM 50 dikira sendiri. Transport ikut kelas kenderaan: 1&ndash;4 pax SUV, 5&ndash;8 pax Minivan; hari tambahan asas 10 jam, lebih masa 500 THB/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan. Malam tambahan hotel dikira <b>per bilik</b> &mdash; pilih add-on <i>Malam tambahan hotel &hellip; per bilik</i> dan isi bilangan bilik.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 450 setiap satu</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
+   "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement</td><td class='add'>+RM 450/pax</td><td>Solo occupancy (satu bilik seorang)</td></tr><tr><td class='it'>Peak Season</td><td class='add'>+RM 80/pax/malam</td><td>20 Dis 2026–5 Jan 2027 (Christmas & New Year) · 5–7 Feb 2027 (Chinese New Year) · 13–15 Apr 2027 (Songkran)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Booking kurang 45 hari sebelum tarikh berlepas</td></tr><tr><td class='it'>Extra Hour Transport</td><td class='add'>500 THB/jam</td><td>Melebihi asas 12 jam sehari · bayar cash terus kepada driver</td></tr><tr><td class='it'>Travel date Nov–Dis 2026</td><td class='add'>+RM 150/pax</td><td>Sumber: Product Cheatsheet 2026 — tiada dalam katalog</td></tr></tbody></table><p class='custnote'>Tarikh peak season di atas ikut katalog PT Bangkok Standard 4D3N 2026. Surcharge peak dikira per pax per malam dan ditambah atas harga asas. Contract rate Bangkok tamat 31 Oktober 2026 (Sumber: Product Cheatsheet 2026); harga selepas itu ikut katalog semasa, yang sah untuk travel sehingga 31 Mac 2027.</p></div>",
+   "transport": "<h2>Transportation & Guide</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Pax</th><th>Kenderaan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>2–4 pax</td><td>Sedan (maks 4 pax)</td><td>Private car + driver</td></tr><tr><td class='it'>5–9 pax</td><td>Hiace (maks 9 pax)</td><td>Private van + driver</td></tr><tr><td class='it'>10 pax ke atas</td><td>2 van atau lebih</td><td>Satu van bagi setiap 9 pax</td></tr></tbody></table><p class='custnote'><b>Driver sahaja — tiada tour guide.</b> Driver memandu, escort transit dan hantar ke restoran halal serta tempat menarik, tetapi tidak menerangkan sejarah. Asas 12 jam sehari; lebih masa 500 THB/jam dibayar cash. Untuk group 20–30 pax boleh tambah satu tour guide lebih kurang RM500 sehari atas permintaan (Sumber: rate card ARBA — tiada dalam katalog). Tipping driver sudah included dalam pakej.</p></div>",
+   "stay": "<h2>Accommodation</h2><p class='ssub'>Tiga tier hotel — default 3★, upgrade 4★ atau 5★ Al-Meroz (halal-certified). Semua termasuk daily breakfast. Base 2–3 orang sebilik; triple room ialah 3 katil single ikut availability, atau extra bed ditambah jika tiada triple bed.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Tier</th><th>Hotel</th><th>Surcharge</th><th>Kawasan</th></tr></thead><tbody><tr><td class='it'>3★ (default)</td><td>Almas Hotel / Regent Ramkhamhaeng atau seumpama</td><td class='ded'>Base rate</td><td>Phra Ram 9 / Ramkhamhaeng</td></tr><tr><td class='it'>4★</td><td>Nouvo City Hotel atau seumpama</td><td class='add'>+RM 50/pax/malam</td><td>Banglamphu / Khao San</td></tr><tr><td class='it'>5★</td><td>Al-Meroz Hotel atau seumpama</td><td class='add'>+RM 60/pax/malam</td><td>Ramkhamhaeng · halal-certified</td></tr></tbody></table><p class='custnote'>Hotel akhir disahkan sekurang-kurangnya 15 hari sebelum trip.</p></div>",
+   "freegift": "<h2>Free Gift (Promo)</h2><details class='qa' data-text='free gift untuk campaign atau promo? bangkok: free ride long tail boat @ damnoen saduak floating market kod: fbkk2 (all pax) bullet: brb luggage tag / pocket wifi 4g (per booking) *bullet wajib tanya po/leader disclaimer: sila sahkan dengan po jika di luar waktu promo.'><summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary><div class='ans'><p><strong>Bangkok:</strong> Free Ride Long Tail Boat @ Damnoen Saduak Floating Market <span class='rtag' style='background:var(--green);border:none;color:#fff;font-weight:800;font-size:11px;border-radius:999px;padding:3px 11px'>Kod: FBKK2</span> (All pax)</p><p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G (per booking)</p><p style='color:var(--greend)'>*Bullet wajib tanya PO/Leader</p><p style='color:var(--greend)'><strong>Disclaimer:</strong> Sila sahkan dengan PO jika di luar waktu Promo.</p></div></details>",
+   "flight": "<h2>Flight & Airport</h2><p class='ssub'>Pakej ground sahaja — tiket flight customer book sendiri. Direct KUL–Bangkok lebih kurang 2 jam 10 minit.</p><div class='custblk'><h3>Leg pergi — KUL ke Bangkok</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas KUL</th><th>Tiba</th><th>Hari</th><th>Type</th><th>Est. return (RM)</th></tr></thead><tbody><tr><td class='it'>Thai AirAsia</td><td>FD 312</td><td>10:45</td><td>12:00 DMK</td><td>Harian</td><td>Low Cost</td><td class='add'>RM 700–800</td></tr><tr><td class='it'>Batik Air</td><td>OD 526</td><td>11:25</td><td>12:40 DMK</td><td>Harian</td><td>Low Cost</td><td class='add'>RM 620–700</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 788</td><td>12:10</td><td>13:25 BKK</td><td>Harian</td><td>Full Service</td><td class='add'>RM 910–1,000</td></tr><tr><td class='it'>Bangkok Airways</td><td>PG 4504</td><td>12:10</td><td>13:25 BKK</td><td>Harian</td><td>Premium</td><td class='add'>RM 1,300–1,599</td></tr></tbody></table><p class='custnote'>Waktu dan anggaran harga return: Flight Recommendation ARBA.</p></div><div class='custblk'><h3>Leg balik — Bangkok ke KUL</h3><table class='ctbl'><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas</th><th>Tiba KUL</th><th>Hari</th></tr></thead><tbody><tr><td class='it'>Thai AirAsia</td><td>FD 311</td><td>07:05 DMK</td><td>10:15</td><td>Harian</td></tr><tr><td class='it'>Batik Air</td><td>OD 527</td><td>13:45 DMK</td><td>17:00</td><td>Harian</td></tr><tr><td class='it'>Malaysia Airlines</td><td>MH 789</td><td>14:15 BKK</td><td>17:30</td><td>Harian</td></tr><tr><td class='it'>Bangkok Airways</td><td>PG 4503</td><td>14:15 BKK</td><td>17:30</td><td>Harian · codeshare MH 789</td></tr></tbody></table><p class='custnote'>Sumber leg balik: jadual penerbangan awam syarikat penerbangan — Flight Recommendation ARBA menyenaraikan leg pergi sahaja. Waktu jadual musim sejuk (dari 25 Oktober) boleh anjak lebih kurang 25 minit; sahkan semasa book.</p></div><div class='custblk'><h3>Airport</h3><table class='ctbl'><thead><tr><th>Airport</th><th>Airline</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Don Mueang (DMK)</td><td>Thai AirAsia · Batik Air</td><td>Airport transfer included — harga sama</td></tr><tr><td class='it'>Suvarnabhumi (BKK)</td><td>Malaysia Airlines · Bangkok Airways</td><td>Airport transfer included — harga sama</td></tr></tbody></table><p class='custnote'>Driver ARBA sambut di Arrival Hall dengan papan tanda ARBA dan nama peserta.</p></div>",
+   "map": "<h2>Travel Map</h2><div class='custblk'><h3>Route Private Trip — PT Bangkok 4H3M</h3><div style='max-width:470px;margin:0 auto'><img src='@asset:0658ad93c639' alt='Travel map PT Bangkok 4H3M' style='width:100%;display:block;border:1px solid var(--line);border-radius:14px'><p class='custnote' style='text-align:center;font-style:normal'>Day 1 BKK/DMK → Chocolate Ville → Ramkhamhaeng Night Market → hotel · Day 2 hotel → Maeklong Railway Market → Damnoen Saduak (30 minit) → Masjid Ton Son → Asiatique → Chao Phraya Halal Dinner Cruise · Day 3 Grand Palace atau Wat Arun → Chatuchak → Siam Paragon → Lumpini Park → Pratunam · Day 4 hotel → BKK/DMK.</p></div></div><p class='custnote'>Laluan dalam peta ialah itinerari default dan boleh berubah ikut cuaca, musim dan keadaan trafik.</p>",
+   "food": "<h2>Halal & Makanan</h2><p class='ssub'>Breakfast sahaja included (buffet hotel, 3 kali). Lunch dan dinner atas belanja sendiri — driver hantar ke restoran halal.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Hari</th><th>Cadangan restoran halal</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Day 1</td><td>Abu Husni Restaurant</td><td>Dinner selepas Chocolate Ville</td></tr><tr><td class='it'>Day 2</td><td>Armeen Halal Restaurant · gerai halal Melayu Muslim di Damnoen Saduak</td><td>Lunch. Malam: Chao Phraya Halal Dinner Cruise (optional, menu halal)</td></tr><tr><td class='it'>Day 3</td><td>Ayeeshah Roddee (lunch) · Shabu Ox (dinner)</td><td>Saman Islam di Chatuchak · Wrap-It di Siam Paragon</td></tr><tr><td class='it'>Pilihan lain</td><td>Yana @ MBK · Karim Roti Mataba · Busaba · Usman Thai Food · Sophia</td><td>Zon halal: Sukhumvit Soi 3 (Arab Quarter), Phra Ram 9, Ramkhamhaeng</td></tr></tbody></table><p class='custnote'>Di pasar dan attraction banyak gerai bercampur seafood dan bukan halal — pesan hanya di gerai bertanda halal atau ikut cadangan driver. Hotel 5★ Al-Meroz halal-certified.</p></div>",
+   "prayer": "<h2>Solat</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Lokasi</th><th>Kemudahan</th><th>Bila dalam itinerari</th></tr></thead><tbody><tr><td class='it'>Masjid Ton Son</td><td>Masjid penuh — ruang wudu dan ruang solat berasingan lelaki/perempuan</td><td>Day 2, sekitar waktu Zohor</td></tr><tr><td class='it'>Siam Paragon</td><td>Surau dalam mall + gerai halal Wrap-It</td><td>Day 3</td></tr><tr><td class='it'>CentralWorld</td><td>Surau di tingkat 1</td><td>Day 3, berdekatan Pratunam</td></tr><tr><td class='it'>Kawasan Grand Palace</td><td>Bangkok Mosque · Haroon Mosque · Chakrabongse Mosque</td><td>Day 3</td></tr><tr><td class='it'>Market & attraction</td><td>Tiada surau formal — minta ruang tenang daripada pihak pengurusan</td><td>Damnoen Saduak, Maeklong, Chatuchak, Asiatique</td></tr></tbody></table><p class='custnote'>Nasihatkan customer bawa sejadah dan telekung. Driver boleh bantu cari masjid terdekat mengikut waktu solat.</p></div>",
+   "weather": "<h2>Cuaca & Musim</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Musim</th><th>Bulan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Cool & kering</td><td>Nov–Feb</td><td>Paling selesa (24–32°C) — terbaik untuk city, temple dan market. 20 Dis–5 Jan peak season (surcharge).</td></tr><tr><td class='it'>Panas</td><td>Mac–Mei</td><td>32–37°C. 13–15 April Songkran (peak season).</td></tr><tr><td class='it'>Hujan</td><td>Jun–Okt</td><td>Hujan lebat sekejap-sekejap — bawa payung atau poncho.</td></tr></tbody></table><p class='custnote'>Nota katalog: katalog menyenaraikan November–Februari sebagai wet season dan menasihatkan customer sedia pakaian untuk kemungkinan hujan. Bangkok tropika sepanjang tahun, jadi payung ringan berbaloi dibawa pada bila-bila masa.</p></div>",
+   "tips": "<h2>Shopping & Tips</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Tempat</th><th>Waktu buka</th><th>Bayaran</th></tr></thead><tbody><tr><td class='it'>Chatuchak Weekend Market</td><td>Sabtu & Ahad sahaja, 9am–6pm</td><td class='add'>Cash sahaja</td></tr><tr><td class='it'>Pratunam Market</td><td>Buka harian</td><td class='add'>Cash sahaja</td></tr><tr><td class='it'>Ramkhamhaeng Night Market</td><td>Buka harian</td><td class='add'>Cash sahaja</td></tr><tr><td class='it'>Asiatique The Riverfront</td><td>Petang hingga malam</td><td class='add'>Street stall cash</td></tr><tr><td class='it'>Siam Paragon · Platinum · MBK · IconSiam</td><td>Buka harian</td><td>Kad dan QR diterima</td></tr></tbody></table><p class='custnote'>Jika trip jatuh pada hari bekerja, Chatuchak ditutup — ganti dengan MBK atau Terminal 21. Duit poket cadangan RM1,500–RM3,000 sepax; tukar duit di Malaysia untuk rate lebih baik (1 RM lebih kurang 7–8 THB). Banyak berjalan di mall, temple dan market — pakai kasut selesa.</p></div>",
+   "visa": "<h2>Visa & Passport</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Perkara</th><th>Keperluan</th></tr></thead><tbody><tr><td class='it'>Visa</td><td>Rakyat Malaysia visa-free ke Thailand. Mulai 2026 tempoh visa-free dikurangkan kepada 30 hari bagi kemasukan udara — trip 4D3N jauh dalam had.</td></tr><tr><td class='it'>TDAC</td><td>Thailand Digital Arrival Card wajib didaftarkan dalam talian sebelum ketibaan. Isi dalam tempoh 3 hari sebelum sampai.</td></tr><tr><td class='it'>Passport</td><td>Sah sekurang-kurangnya 6 bulan dari tarikh perjalanan.</td></tr></tbody></table></div>",
+   "polisi": "<h2>Polisi & Payment</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Perkara</th><th>Terma</th></tr></thead><tbody><tr><td class='it'>Deposit</td><td class='add'>RM 250/pax</td></tr><tr><td class='it'>Full payment</td><td>45 hari sebelum tarikh ketibaan</td></tr><tr><td class='it'>Kaedah bayaran</td><td>Bayaran mesti dibuat secara tunai</td></tr><tr><td class='it'>Tempoh sah quotation</td><td>24 jam selepas quotation dihantar</td></tr><tr><td class='it'>Validity pakej</td><td>Travel period sehingga 31 Mac 2027</td></tr><tr><td class='it'>Pengesahan akhir</td><td>Itinerari dan hotel disahkan sekurang-kurangnya 15 hari sebelum trip</td></tr><tr><td class='it'>Connecting flight domestik</td><td>Semak validity trip dengan staf ARBA sebelum book flight domestik sambungan</td></tr></tbody></table><p class='custnote'>Quotation, susunan itinerari dan harga tertakluk kepada perubahan.</p></div>"
+  },
+  "snapshot": "# PT Bangkok — Knowledge Base (Important Notes & FAQ)\n\n## 1. IMPORTANT NOTES (Polisi Pakej)\n\n*PT Bangkok Standard 4D3N — Ground + Tipping, breakfast sahaja, driver only (tiada guide). Sah untuk travel sehingga 31 Mac 2027.*\n\n- **Harga base** 2–3 orang sebilik, hotel 3★. Single Supplement +RM450/pax.\n- **Breakfast sahaja** included; lunch & dinner atas belanja sendiri (driver hantar ke restoran halal).\n- **Driver sahaja, tiada tour guide.** Transport asas 12 jam/hari; extra 500 THB/jam (cash).\n- **Deposit** RM250/pax; full payment 45 hari sebelum ketibaan.\n- **Late booking** (<45 hari): +RM50/booking. Harga quotation sah 24 jam.\n- **Peak season** +RM80/pax/malam: 20 Dis 2026–5 Jan 2027, 5–7 Feb 2027 (CNY), 13–15 Apr 2027 (Songkran).\n- **Day 3** ada pilihan: default City Tour, atau ganti Pattaya (+RM80) / Kanchanaburi (+RM160) / Safari World (+RM150). Pilih SATU, sahkan 15 hari sebelum trip.\n- **Chatuchak** buka Sabtu & Ahad sahaja; weekday ganti MBK / Terminal 21.\n- **Final itinerari & hotel** disahkan sekurang-kurangnya 15 hari sebelum trip.\n\n## 3. FAQ\n\n### A. Pakej & Itinerari\n\n**Pakej Bangkok 4D3N ni all-in?**\nTidak sepenuhnya. Termasuk: hotel 3★ 3 malam, private van + driver, daily breakfast, entrance fee ikut itinerari (Chocolate Ville + Grand Palace/Wat Arun), tipping & airport transfer. TIDAK termasuk: flight, insurance, lunch & dinner, Day 3 add-on, dan personal expenses.\n\n**Apa beza \"driver only\" vs \"driver + guide\"?**\nPakej ini sediakan PRIVATE DRIVER sahaja — pandu van, escort transit & recommend restoran halal. TIADA tour guide untuk explain sejarah/tempat. Customer self-guide (Google Maps / audio guide app) atau hire local guide berasingan. Untuk group besar (20–30 pax) boleh tambah 1 Tour Guide (~RM500/hari) atas permintaan.\n\n**Day 3 ada pilihan apa?**\nDefault: Bangkok City Tour (Grand Palace/Wat Arun + Chatuchak + Siam Paragon + Pratunam). Ganti: Pattaya (+RM80), Kanchanaburi Safari (+RM160), Safari World Bangkok (+RM150). Pilih SATU sahaja, tak boleh gabung.\n\n**Boleh tukar Grand Palace ke Wat Arun?**\nBoleh — Day 3 pilih Grand Palace ATAU Wat Arun. Grand Palace lebih ikonik (entrance ~500 THB), Wat Arun view sungai/sunset (~200 THB).\n\n**Long Tail Boat di Damnoen ada add-on?**\nYa, RM280/bot (maks ~5 pax). Sangat disyorkan untuk pengalaman penuh floating market & foto.\n\n**Berapa hari pakej ni sah?**\nTravel period sehingga 31 Mac 2027 (katalog V3, dikemaskini 1 Julai 2026).\n\n### B. Halal, Makanan & Solat\n\n**Makanan halal senang dapat di Bangkok?**\nYa. Pakej atur restoran halal sepanjang trip. Cadangan itinerari: Day 1 dinner **Abu Husni**, Day 2 lunch **Armeen Halal Restaurant** + gerai halal Melayu di Damnoen, Day 3 lunch **Ayeeshah Roddee** & dinner **Shabu Ox**. Pilihan lain: **Yana @ MBK, Karim Roti Mataba, Busaba, Usman Thai Food, Sophia**. Zon halal popular: Sukhumvit Soi 3 (Arab Quarter), Phra Ram 9, Ramkhamhaeng.\n\n**Berapa kali makan disediakan?**\nBreakfast sahaja (buffet hotel, 3x). Lunch & dinner atas belanja sendiri — driver hantar ke restoran halal. Chao Phraya Halal Dinner Cruise adalah optional (Day 2).\n\n**Ada masjid/surau untuk solat?**\nYa. Masjid Ton Son (tertua di Bangkok) dilawati Day 2. Mall besar ada surau — Siam Paragon (surau + Wrap-It halal) & CentralWorld (surau tingkat 1). Banyak masjid berhampiran Grand Palace (Bangkok Mosque, Haroon, Chakrabongse). Bawa sejadah & telekung; di market/attraction tiada surau formal.\n\n**Dinner Cruise tu halal?**\nYa — Chao Phraya Halal Dinner Cruise (Royal Princess) menyajikan menu halal. Ia optional (Day 2 malam), request semasa booking.\n\n### C. Visa & Passport\n\n**Rakyat Malaysia perlu visa ke Thailand?**\nTidak — Malaysia dapat kemasukan visa-free. Ambil perhatian: mulai 2026 Thailand kurangkan tempoh visa-free dari 60 hari kepada **30 hari** (kemasukan udara). Trip 4D3N ini jauh dalam had.\n\n**Ada apa-apa registrasi baru sebelum masuk Thailand?**\nYa — semua pengunjung asing WAJIB daftar **TDAC (Thailand Digital Arrival Card)** secara online sebelum ketibaan. Isikan lebih awal (dalam 3 hari sebelum sampai).\n\n**Passport kena sah berapa lama?**\nMinimum 6 bulan dari tarikh perjalanan.\n\n### D. Flight & Airport\n\n**Flight termasuk dalam pakej?**\nTidak. Customer book sendiri. Anggaran AirAsia/Batik Air ~RM300–500 return KUL–BKK (Ground sahaja).\n\n**Berapa lama flight KUL–BKK?**\nDirect ~2 jam 10 minit. Airlines: AirAsia, Batik Air, Malaysia Airlines, Thai Airways.\n\n**Airport mana untuk pickup?**\nSuvarnabhumi (BKK) atau Don Mueang (DMK) — sama harga. Driver ARBA sambut di Arrival Hall dengan papan tanda ARBA + nama peserta.\n\n### E. Hotel & Bilik\n\n**Hotel apa digunakan?**\nDefault 3★ Almas / Regent Ramkhamhaeng (Phra Ram 9). Upgrade 4★ Nouvo City (+RM150/pax) atau 5★ Al-Meroz (+RM180/pax, halal-certified, Ramkhamhaeng).\n\n**Bilik macam mana?**\n2–3 orang sebilik. Triple = 3 katil single ikut availability atau extra bed ditambah. Proper triple bed lebih baik di 4★.\n\n**Single supplement berapa?**\n+RM450/pax untuk solo occupancy.\n\n### F. Cuaca & Musim\n\n**Bila musim terbaik ke Bangkok?**\nNov–Feb (cool season) — paling selesa & kering, terbaik untuk city + temple + market. Mac–Mei panas (32–37°C); April ada Songkran. Jun–Okt musim hujan.\n\n**Cuaca Bangkok macam mana?**\nTropika sepanjang tahun (28–35°C). Musim hujan bawa payung/poncho; cool season Dec–Jan paling ideal tapi peak (surcharge).\n\n### G. Shopping & Duit\n\n**Duit poket berapa perlu bawa?**\nCadangan RM1,500–RM3,000/pax untuk shopping, makan tambahan & optional activity. Tukar duit di Malaysia (rate lebih baik).\n\n**Currency & cashless?**\nThai Baht (THB); 1 RM ≈ 7–8 THB. Mall & restoran tourist terima kad; **Chatuchak, Pratunam & Asiatique street stall = CASH sahaja**. Aktifkan overseas withdrawal jika guna kad.\n\n**Beli apa di Bangkok?**\nFesyen borong (Platinum/Pratunam), barang unik (Chatuchak), skincare (Tofu), coklat & snek. Iconsiam & Siam Paragon untuk premium.\n\n### H. Payment & Refund\n\n**Deposit berapa?**\nRM250/pax untuk lock tarikh.\n\n**Bila full payment?**\n45 hari sebelum tarikh ketibaan.\n\n**Peak season & late booking surcharge?**\nPeak +RM80/pax/malam (Christmas/NY, CNY, Songkran). Late booking +RM50/booking jika <45 hari.\n\n### I. Add-ons & Customization\n\n**Boleh upgrade hotel?**\nYa. 4★ Nouvo City +RM150/pax (3 malam); 5★ Al-Meroz +RM180/pax (halal-certified).\n\n**Add-on apa ada?**\nLong Tail Boat RM280/bot, Chao Phraya Halal Dinner Cruise (optional), Day 3 tours (Pattaya/Kanchanaburi/Safari World), Pocket WiFi (RM80–110), Takaful TripCare 360 (dari RM45/pax).\n\n### J. Kesihatan & Keselamatan\n\n**Ada banyak walking?**\nYa — mall, temple & market banyak berjalan. Pakai kasut selesa. Senior boleh request bilik dekat lift & pertimbangkan stamina.\n\n**Perlu insurance?**\nDisyorkan. Boleh tambah Takaful TripCare 360 (Etiqa Area 1) melalui add-on.\n\n### K. Praktikal (SIM/socket/tandas)\n\n**Internet & SIM?**\nPocket WiFi (RM80–110) atau eSIM AIS/TrueMove. Coverage 4G/5G excellent; WiFi percuma di kebanyakan hotel & kafe.\n\n**Socket plug jenis apa?**\nThailand guna 3-pin. Bawa universal travel adaptor; disyorkan extension plug jika banyak alatan. Simpan powerbank & charger dalam hand-carry.\n\n### L. Packing\n\n**Apa perlu bawa?**\nPassport (sah 6 bulan+), pakaian ikut hari & aktiviti, keperluan ibadah (sejadah, telekung), peralatan mandi & solek, barangan elektronik + adaptor, duit poket RM1,500–RM3,000, kasut selesa, dan ubat peribadi jika ada. Payung/poncho jika musim hujan.\n"
+ },
+ "calc": {
+  "dest": "BANGKOK",
+  "currency": "RM",
+  "deposit": 250,
+  "defaultAdult": 2,
+  "childLabels": {
+   "cwb": "Child With Bed (6&ndash;11)",
+   "cnb": "Child No Bed (2&ndash;5)"
+  },
+  "infantNote": "Bawah 2 tahun FOC",
+  "singleNote": "+RM 450 setiap satu",
+  "intro": "Isi pax dan tarikh &mdash; peak season RM 80/pax/malam dan late booking RM 50 dikira sendiri. Transport ikut kelas kenderaan: 1&ndash;4 pax SUV, 5&ndash;8 pax Minivan; hari tambahan asas 10 jam, lebih masa 500 THB/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan. Malam tambahan hotel dikira <b>per bilik</b> &mdash; pilih add-on <i>Malam tambahan hotel &hellip; per bilik</i> dan isi bilangan bilik.",
+  "tabAfter": "custom",
+  "blockBefore": "surcharge",
+  "hideGeneric": [
+   "ext",
+   "cus",
+   "fe"
+  ],
+  "autoAddonQty": true,
+  "dropOwnRate": true,
+  "extDefaults": {
+   "acc": "x3",
+   "trp": "ext",
+   "trpDrop": "feded"
+  },
+  "peak": {
+   "mode": "perNight",
+   "value": 80,
+   "windows": [
+    [
+     "2026-12-20",
+     "2027-01-05"
+    ],
+    [
+     "2027-02-05",
+     "2027-02-07"
+    ],
+    [
+     "2027-04-13",
+     "2027-04-15"
+    ]
+   ]
+  },
+  "lateBooking": {
+   "lt": 45,
+   "amount": 50
+  },
+  "meals": {
+   "lunch": 0,
+   "dinner": 0
+  },
+  "mealDelta": {
+   "add": 20,
+   "drop": 0
+  },
+  "accOptions": [
+   {
+    "v": "incl",
+    "t": "Hotel 3&#9733; (malam dalam pakej)",
+    "cost": "incl"
+   },
+   {
+    "v": "up4",
+    "t": "Upgrade 4&#9733; Nouvo City (malam pakej)",
+    "cost": "incl",
+    "perPaxRate": "up4",
+    "hotel": "4-Star Hotel",
+    "incl": "4-Star hotel upgrade - Nouvo City Hotel or similar ({days})",
+    "line": "4-Star hotel upgrade"
+   },
+   {
+    "v": "up5",
+    "t": "Upgrade 5&#9733; Al-Meroz halal (malam pakej)",
+    "cost": "incl",
+    "perPaxRate": "up5",
+    "hotel": "5-Star Hotel (Al-Meroz)",
+    "incl": "5-Star hotel upgrade - Al-Meroz Hotel or similar ({days})",
+    "line": "5-Star hotel upgrade (Al-Meroz)"
+   },
+   {
+    "v": "x3",
+    "t": "Malam tambahan 3&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+    "cost": "incl",
+    "hotel": "3-Star Hotel",
+    "incl": "Additional night at 3-Star Hotel ({days})"
+   },
+   {
+    "v": "x4",
+    "t": "Malam tambahan 4&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+    "cost": "incl",
+    "hotel": "4-Star Hotel",
+    "incl": "Additional night at 4-Star Hotel - Nouvo City or similar ({days})"
+   },
+   {
+    "v": "x5",
+    "t": "Malam tambahan 5&#9733; Al-Meroz &mdash; kadar PER BILIK, isi add-on bilik",
+    "cost": "incl",
+    "hotel": "5-Star Hotel (Al-Meroz)",
+    "incl": "Additional night at 5-Star Hotel - Al-Meroz Hotel ({days})"
+   },
+   {
+    "v": "no3",
+    "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort",
+    "dropsNight": true,
+    "line": "Package night removed (3-Star)"
+   },
+   {
+    "v": "no4",
+    "t": "Tanpa hotel &ndash; tolak malam 4&#9733; dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort4",
+    "dropsNight": true,
+    "line": "Package night removed (4-Star)"
+   },
+   {
+    "v": "no5",
+    "t": "Tanpa hotel &ndash; tolak malam 5&#9733; dari katalog",
+    "cost": "zero",
+    "perPaxRate": "nightShort5",
+    "dropsNight": true,
+    "line": "Package night removed (5-Star)"
+   },
+   {
+    "v": "none",
+    "t": "Tiada malam (checkout / hari akhir)",
+    "cost": "zero"
+   }
+  ],
+  "mealOptions": [
+   {
+    "v": "none",
+    "t": "Tiada makan (hari ketibaan)",
+    "b": 0,
+    "l": 0,
+    "d": 0,
+    "lbl": "-"
+   },
+   {
+    "v": "b",
+    "t": "Breakfast (dalam pakej)",
+    "b": 1,
+    "l": 0,
+    "d": 0,
+    "lbl": "Hotel Breakfast"
+   },
+   {
+    "v": "bl",
+    "t": "Breakfast (pakej) &amp; Lunch",
+    "b": 1,
+    "l": 1,
+    "d": 0,
+    "lbl": "Hotel Breakfast, Lunch"
+   },
+   {
+    "v": "bd",
+    "t": "Breakfast (pakej) &amp; Dinner",
+    "b": 1,
+    "l": 0,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Dinner"
+   },
+   {
+    "v": "bld",
+    "t": "Breakfast (pakej), Lunch &amp; Dinner",
+    "b": 1,
+    "l": 1,
+    "d": 1,
+    "lbl": "Hotel Breakfast, Lunch, Dinner"
+   },
+   {
+    "v": "l",
+    "t": "Lunch sahaja",
+    "b": 0,
+    "l": 1,
+    "d": 0,
+    "lbl": "Lunch"
+   },
+   {
+    "v": "d",
+    "t": "Dinner sahaja",
+    "b": 0,
+    "l": 0,
+    "d": 1,
+    "lbl": "Dinner"
+   },
+   {
+    "v": "ld",
+    "t": "Lunch &amp; Dinner",
+    "b": 0,
+    "l": 1,
+    "d": 1,
+    "lbl": "Lunch, Dinner"
+   }
+  ],
+  "trpOptions": [
+   {
+    "v": "incl",
+    "t": "Private Transport + Driver (dalam pakej)",
+    "cost": "incl",
+    "guided": true,
+    "lbl": "Private Transport + Driver",
+    "incl": "Private Transportation & Driver ({days}) - 12 hours basis"
+   },
+   {
+    "v": "air",
+    "t": "Private Airport Transfer (dalam pakej)",
+    "cost": "incl",
+    "lbl": "Private Airport Transfer",
+    "incl": "Private Airport Transfer from BKK or DMK ({days})"
+   },
+   {
+    "v": "ext",
+    "t": "Private Transport + Driver (hari tambahan)",
+    "cost": "day",
+    "guided": true,
+    "lbl": "Private Transport + Driver",
+    "incl": "Additional day private transportation & driver ({days}) - 10 hours basis"
+   },
+   {
+    "v": "mday",
+    "t": "Sambungan tour berbilang hari (kos sudah dikira pada hari pertama)",
+    "cost": "zero",
+    "lbl": "Private Transport + Driver",
+    "incl": "Multi-day tour private transportation & driver ({days})"
+   },
+   {
+    "v": "none",
+    "t": "Tiada transport (free &amp; easy dalam pakej)",
+    "cost": "zero",
+    "lbl": "-"
+   },
+   {
+    "v": "feded",
+    "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+    "cost": "zero",
+    "perVehicleRate": "dayDed",
+    "lbl": "-",
+    "line": "Free and easy (transport deducted)"
+   }
+  ],
+  "addons": [
+   [
+    "Tukar Day 3 - Pattaya Full Day Tour",
+    80,
+    80,
+    "pax"
+   ],
+   [
+    "Tukar Day 3 - Kanchanaburi + Safari Park Full Day",
+    160,
+    160,
+    "pax"
+   ],
+   [
+    "Tukar Day 3 - Safari World Bangkok Half Day",
+    150,
+    150,
+    "pax"
+   ],
+   [
+    "Giraffe Encounter - Safari Park Kanchanaburi",
+    135,
+    135,
+    "pax"
+   ],
+   [
+    "Chao Phraya Halal Dinner Cruise",
+    150,
+    150,
+    "pax"
+   ],
+   [
+    "Long Tail Boat Damnoen Saduak - per bot",
+    280,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 3 bintang - per bilik",
+    160,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 3 bintang PEAK - per bilik",
+    210,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 4 bintang - per bilik",
+    240,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 4 bintang PEAK - per bilik",
+    320,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 5 bintang Al-Meroz - per bilik",
+    300,
+    0,
+    "unit"
+   ],
+   [
+    "Malam tambahan hotel 5 bintang Al-Meroz PEAK - per bilik",
+    380,
+    0,
+    "unit"
+   ],
+   [
+    "Tiket Safari Park Kanchanaburi",
+    75,
+    75,
+    "pax"
+   ],
+   [
+    "Tiket Safari Park / Marine Park (Safari World Bangkok)",
+    135,
+    110,
+    "pax"
+   ],
+   [
+    "Tiket Grand Palace",
+    70,
+    55,
+    "pax"
+   ],
+   [
+    "Tiket Chocolate Ville",
+    30,
+    30,
+    "pax"
+   ],
+   [
+    "Tiket Wat Arun",
+    30,
+    30,
+    "pax"
+   ],
+   [
+    "Wat Arun - sewa pakaian tradisional Thai",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Wat Arun - solekan",
+    45,
+    45,
+    "pax"
+   ],
+   [
+    "Wat Arun - jurugambar (per group)",
+    195,
+    0,
+    "unit"
+   ],
+   [
+    "Tiket Sanctuary of Truth Pattaya",
+    70,
+    70,
+    "pax"
+   ],
+   [
+    "Tiket Khao Kheow Open Zoo",
+    50,
+    30,
+    "pax"
+   ],
+   [
+    "Tiket Chokchai Farm",
+    20,
+    15,
+    "pax"
+   ],
+   [
+    "Tiket Dream World Pathum Thani",
+    110,
+    70,
+    "pax"
+   ],
+   [
+    "Tiket Jim Thompson Museum",
+    40,
+    25,
+    "pax"
+   ],
+   [
+    "Tiket Manohkan Skywalk",
+    180,
+    95,
+    "pax"
+   ],
+   [
+    "Tiket Hokkaido Flower Park",
+    20,
+    15,
+    "pax"
+   ],
+   [
+    "Tiket Wat Pho",
+    42,
+    42,
+    "pax"
+   ],
+   [
+    "Tiket Ancient City",
+    120,
+    60,
+    "pax"
+   ],
+   [
+    "Buang tiket Safari Park Kanchanaburi",
+    -60,
+    -60,
+    "pax"
+   ],
+   [
+    "Buang tiket Safari Park / Marine Park",
+    -100,
+    -100,
+    "pax"
+   ],
+   [
+    "Buang tiket Chocolate Ville",
+    -20,
+    -20,
+    "pax"
+   ],
+   [
+    "Buang tiket Wat Arun",
+    -20,
+    -20,
+    "pax"
+   ]
+  ],
+  "paxNotes": [
+   {
+    "from": 1,
+    "to": 4,
+    "text": "1&ndash;4 pax: SUV &mdash; kadar transport band SUV rate card."
+   },
+   {
+    "from": 5,
+    "to": 8,
+    "text": "5&ndash;8 pax: Minivan &mdash; kadar transport band Minivan rate card."
+   },
+   {
+    "from": 9,
+    "to": 10,
+    "text": "9&ndash;10 pax: perlu <b>2 kenderaan</b>. Rate card tiada band khusus, jadi kalkulator kira <b>2 &times; kadar Minivan</b> &mdash; sahkan dengan operasi sebelum quote."
+   },
+   {
+    "from": 11,
+    "to": 99999,
+    "text": "11 pax ke atas: <b>melebihi tier katalog</b> (tertinggi 6&ndash;10 pax). Kalkulator kekal guna tier 6&ndash;10 &mdash; minta sebut harga operasi."
+   }
+  ],
+  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before departure. Private transportation and driver are based on a 12 hours basis per day; additional hours are charged at 500 THB per hour, payable in cash to the driver. Prices are quoted for 2 to 3 persons per room; a triple room with 3 single beds is subject to availability and an extra bed will be added if no triple bed is available. Peak season surcharge applies as stated and is not included in the base price. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. This package is valid for travel until 31 March 2027. Ground arrangement and tipping only - flight tickets are not included.",
+  "variants": [
+   {
+    "id": "std",
+    "name": "PT Bangkok Standard 4D3N",
+    "pkgLabel": "Private Tour Bangkok Standard",
+    "pkgType": "Private Tour (Ground Arrangement Only)",
+    "hotelLabel": "3-Star Hotel",
+    "days": 4,
+    "nights": 3,
+    "tiers": [
+     {
+      "from": 2,
+      "to": 2,
+      "a": 1597,
+      "c": 1497,
+      "n": 1397
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "a": 1397,
+      "c": 1297,
+      "n": 1197
+     },
+     {
+      "from": 4,
+      "to": 5,
+      "a": 1297,
+      "c": 1197,
+      "n": 1097
+     },
+     {
+      "from": 6,
+      "to": 10,
+      "a": 1197,
+      "c": 1097,
+      "n": 997
+     }
+    ],
+    "infant": 0,
+    "single": 450,
+    "labelCwb": "Child With Bed (6-11 years)",
+    "labelCnb": "Child No Bed (2-5 years)",
+    "itin": [
+     {
+      "v": "d1",
+      "t": "KUL &ndash; Bangkok (Ketibaan)",
+      "en": "KUALA LUMPUR - BANGKOK",
+      "acc": "incl",
+      "meal": "none",
+      "trp": "incl",
+      "region": "[Bangkok]",
+      "act": [
+       "Pick up di Lapangan Terbang BKK / DMK",
+       "Chocolate Ville",
+       "Shopping di Ramkhamhaeng Night Market",
+       "Check-in hotel"
+      ],
+      "eact": [
+       "Pick up at BKK / DMK Airport",
+       "Chocolate Ville",
+       "Shopping at Ramkhamhaeng Night Market",
+       "Hotel check in"
+      ]
+     },
+     {
+      "v": "d2",
+      "t": "Bangkok &amp; Maeklong",
+      "en": "BANGKOK & MAEKLONG",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Damnoen Saduak]",
+      "act": [
+       "Breakfast di hotel",
+       "Mae Klong Railway Market",
+       "Damnoen Saduak Floating Market",
+       "Ton Son Mosque Bangkok",
+       "Asiatique The Riverfront"
+      ],
+      "eact": [
+       "Breakfast at hotel",
+       "Mae Klong Railway Market",
+       "Damnoen Saduak Floating Market",
+       "Ton Son Mosque Bangkok",
+       "Asiatique The Riverfront"
+      ]
+     },
+     {
+      "v": "d3",
+      "t": "Bangkok City",
+      "en": "BANGKOK CITY",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "region": "[Bangkok]",
+      "act": [
+       "Breakfast di hotel",
+       "The Grand Palace ATAU Wat Arun Temple",
+       "Chatuchak Weekend Market",
+       "Siam Paragon",
+       "Lumpini Park",
+       "Pratunam Market"
+      ],
+      "eact": [
+       "Breakfast at hotel",
+       "The Grand Palace OR Wat Arun Temple",
+       "Chatuchak Weekend Market",
+       "Siam Paragon",
+       "Lumpini Park",
+       "Pratunam Market"
+      ]
+     },
+     {
+      "v": "d4",
+      "t": "Bangkok &ndash; Airport (Berlepas)",
+      "en": "BANGKOK - AIRPORT",
+      "acc": "none",
+      "meal": "b",
+      "trp": "air",
+      "region": "[Airport 1 way]",
+      "act": [
+       "Breakfast di hotel",
+       "Check-out hotel",
+       "Airport transfer ke BKK / DMK"
+      ],
+      "eact": [
+       "Breakfast at hotel",
+       "Hotel check out",
+       "Airport transfer to BKK / DMK"
+      ]
+     }
+    ],
+    "library": [
+     {
+      "v": "ext",
+      "t": "Hari tambahan &ndash; pilih blok day tour di bawah",
+      "en": "ADDITIONAL DAY",
+      "g": "Umum",
+      "region": "",
+      "acc": "x3",
+      "meal": "b",
+      "trp": "ext",
+      "act": [
+       "Pilih satu blok day tour untuk hari ini supaya kadar transport ikut kawasan"
+      ],
+      "eact": [
+       "Additional day - itinerary to be confirmed"
+      ]
+     },
+     {
+      "v": "fed",
+      "t": "Free &amp; Easy &ndash; tolak transport dari katalog",
+      "en": "FREE & EASY",
+      "g": "Umum",
+      "region": "",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "feded",
+      "act": [
+       "Free &amp; easy tanpa transport atau driver"
+      ],
+      "eact": [
+       "Free & easy - no transport or driver"
+      ]
+     },
+     {
+      "v": "tBkk",
+      "t": "Bangkok City Tour 1 hari",
+      "en": "BANGKOK CITY TOUR",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Bangkok]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "The Grand Palace atau Wat Arun Temple",
+       "Chatuchak Weekend Market",
+       "Siam Paragon",
+       "Lumpini Park",
+       "Pratunam Market"
+      ],
+      "eact": [
+       "The Grand Palace or Wat Arun Temple",
+       "Chatuchak Weekend Market",
+       "Siam Paragon",
+       "Lumpini Park",
+       "Pratunam Market"
+      ]
+     },
+     {
+      "v": "tDam",
+      "t": "Damnoen Saduak Floating Market 1 hari",
+      "en": "DAMNOEN SADUAK FLOATING MARKET",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Damnoen Saduak]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Mae Klong Railway Market",
+       "Damnoen Saduak Floating Market",
+       "Long Tail Boat (add-on per bot)",
+       "Ton Son Mosque Bangkok"
+      ],
+      "eact": [
+       "Mae Klong Railway Market",
+       "Damnoen Saduak Floating Market",
+       "Ton Son Mosque Bangkok"
+      ]
+     },
+     {
+      "v": "tKan",
+      "t": "Kanchanaburi 1 hari",
+      "en": "KANCHANABURI",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Kanchanaburi]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Safari Park Kanchanaburi (tiket add-on)",
+       "River Kwai Bridge",
+       "Sunflower Field (Disember &ndash; Februari sahaja)"
+      ],
+      "eact": [
+       "Safari Park Kanchanaburi",
+       "River Kwai Bridge",
+       "Sunflower Field (December - February only)"
+      ]
+     },
+     {
+      "v": "tEra",
+      "t": "Erawan Waterfall 1 hari",
+      "en": "ERAWAN WATERFALL",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Erawan]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Erawan National Park",
+       "Erawan Waterfall 7 tingkat"
+      ],
+      "eact": [
+       "Erawan National Park",
+       "Erawan Waterfall seven tiers"
+      ]
+     },
+     {
+      "v": "tAyu",
+      "t": "Ayutthaya 1 hari",
+      "en": "AYUTTHAYA",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Ayutthaya]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Ayutthaya Historical Park",
+       "Wat Mahathat",
+       "Wat Chaiwatthanaram"
+      ],
+      "eact": [
+       "Ayutthaya Historical Park",
+       "Wat Mahathat",
+       "Wat Chaiwatthanaram"
+      ]
+     },
+     {
+      "v": "tKhy",
+      "t": "Khao Yai 1 hari",
+      "en": "KHAO YAI",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Khao Yai]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Khao Yai National Park",
+       "Chokchai Farm (tiket add-on)",
+       "Hokkaido Flower Park (tiket add-on)"
+      ],
+      "eact": [
+       "Khao Yai National Park",
+       "Chokchai Farm",
+       "Hokkaido Flower Park"
+      ]
+     },
+     {
+      "v": "tPat",
+      "t": "Pattaya 1 hari",
+      "en": "PATTAYA",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Pattaya]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Pattaya Beach",
+       "Pattaya Town",
+       "Hard Rock Cafe Pattaya",
+       "Sanctuary of Truth (tiket add-on)"
+      ],
+      "eact": [
+       "Pattaya Beach",
+       "Pattaya Town",
+       "Hard Rock Cafe Pattaya",
+       "Sanctuary of Truth"
+      ]
+     },
+     {
+      "v": "tHua",
+      "t": "Hua Hin 1 hari",
+      "en": "HUA HIN",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Hua Hin]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Hua Hin Beach",
+       "Hua Hin Night Market",
+       "Cicada Market"
+      ],
+      "eact": [
+       "Hua Hin Beach",
+       "Hua Hin Night Market",
+       "Cicada Market"
+      ]
+     },
+     {
+      "v": "tRay",
+      "t": "Rayong Sea 1 hari",
+      "en": "RAYONG",
+      "g": "Add-on day tour (1 hari)",
+      "region": "[Rayong]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Rayong Beach",
+       "Pasar tempatan Rayong"
+      ],
+      "eact": [
+       "Rayong Beach",
+       "Rayong local market"
+      ]
+     },
+     {
+      "v": "tKoh",
+      "t": "Koh Chang Island &ndash; transfer sehala",
+      "en": "KOH CHANG ISLAND",
+      "g": "Transfer / sehala",
+      "region": "[Koh Chang 1 way]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Transfer sehala ke Koh Chang (termasuk jeti feri)"
+      ],
+      "eact": [
+       "One way transfer to Koh Chang (ferry pier included)"
+      ]
+     },
+     {
+      "v": "tApd",
+      "t": "Airport pick up / drop off sehala",
+      "en": "AIRPORT TRANSFER",
+      "g": "Transfer / sehala",
+      "region": "[Airport 1 way]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Airport transfer sehala BKK / DMK"
+      ],
+      "eact": [
+       "One way airport transfer BKK / DMK"
+      ]
+     },
+     {
+      "v": "tAph",
+      "t": "Airport pick up + half day tour",
+      "en": "AIRPORT TRANSFER + HALF DAY TOUR",
+      "g": "Transfer / sehala",
+      "region": "[Airport + Half Day]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Pick up di BKK / DMK",
+       "Half day tour sebelum check-in hotel"
+      ],
+      "eact": [
+       "Pick up at BKK / DMK",
+       "Half day tour before hotel check in"
+      ]
+     },
+     {
+      "v": "tPa1",
+      "t": "Pattaya &ndash; transfer sehala",
+      "en": "PATTAYA TRANSFER",
+      "g": "Transfer / sehala",
+      "region": "[Pattaya 1 way]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Transfer sehala Bangkok &ndash; Pattaya"
+      ],
+      "eact": [
+       "One way transfer Bangkok - Pattaya"
+      ]
+     },
+     {
+      "v": "tHu1",
+      "t": "Hua Hin &ndash; transfer sehala",
+      "en": "HUA HIN TRANSFER",
+      "g": "Transfer / sehala",
+      "region": "[Hua Hin 1 way]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Transfer sehala Bangkok &ndash; Hua Hin"
+      ],
+      "eact": [
+       "One way transfer Bangkok - Hua Hin"
+      ]
+     },
+     {
+      "v": "mKk1",
+      "t": "Khao Kor 4 hari &ndash; HARI 1 (kadar penuh 4 hari)",
+      "en": "KHAO KOR DAY 1",
+      "g": "Tour berbilang hari",
+      "region": "[Khao Kor 4D]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Khao Kor mountain view point",
+       "Wat Pha Sorn Kaew",
+       "Pino Latte Resort & Cafe"
+      ],
+      "eact": [
+       "Khao Kor mountain view point",
+       "Wat Pha Sorn Kaew",
+       "Pino Latte Resort & Cafe"
+      ]
+     },
+     {
+      "v": "mKkx",
+      "t": "Khao Kor 4 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+      "en": "KHAO KOR",
+      "g": "Tour berbilang hari",
+      "region": "",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "mday",
+      "act": [
+       "Khao Kor mountain view point",
+       "Wat Pha Sorn Kaew",
+       "Pino Latte Resort & Cafe"
+      ],
+      "eact": [
+       "Khao Kor mountain view point",
+       "Wat Pha Sorn Kaew",
+       "Pino Latte Resort & Cafe"
+      ]
+     },
+     {
+      "v": "mKy1",
+      "t": "Khao Yai 3 hari &ndash; HARI 1 (kadar penuh 3 hari)",
+      "en": "KHAO YAI DAY 1",
+      "g": "Tour berbilang hari",
+      "region": "[Khao Yai 3D]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Khao Yai National Park",
+       "Chokchai Farm",
+       "Primo Piazza"
+      ],
+      "eact": [
+       "Khao Yai National Park",
+       "Chokchai Farm",
+       "Primo Piazza"
+      ]
+     },
+     {
+      "v": "mKyx",
+      "t": "Khao Yai 3 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+      "en": "KHAO YAI",
+      "g": "Tour berbilang hari",
+      "region": "",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "mday",
+      "act": [
+       "Khao Yai National Park",
+       "Chokchai Farm",
+       "Primo Piazza"
+      ],
+      "eact": [
+       "Khao Yai National Park",
+       "Chokchai Farm",
+       "Primo Piazza"
+      ]
+     },
+     {
+      "v": "mKa1",
+      "t": "Kanchanaburi 2 hari &ndash; HARI 1 (kadar penuh 2 hari)",
+      "en": "KANCHANABURI DAY 1",
+      "g": "Tour berbilang hari",
+      "region": "[Kanchanaburi 2D]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "River Kwai Bridge",
+       "Erawan Waterfall",
+       "Safari Park Kanchanaburi"
+      ],
+      "eact": [
+       "River Kwai Bridge",
+       "Erawan Waterfall",
+       "Safari Park Kanchanaburi"
+      ]
+     },
+     {
+      "v": "mKax",
+      "t": "Kanchanaburi 2 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+      "en": "KANCHANABURI",
+      "g": "Tour berbilang hari",
+      "region": "",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "mday",
+      "act": [
+       "River Kwai Bridge",
+       "Erawan Waterfall",
+       "Safari Park Kanchanaburi"
+      ],
+      "eact": [
+       "River Kwai Bridge",
+       "Erawan Waterfall",
+       "Safari Park Kanchanaburi"
+      ]
+     },
+     {
+      "v": "mHh1",
+      "t": "Hua Hin 2 hari &ndash; HARI 1 (kadar penuh 2 hari)",
+      "en": "HUA HIN DAY 1",
+      "g": "Tour berbilang hari",
+      "region": "[Hua Hin 2D]",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "incl",
+      "act": [
+       "Hua Hin Beach",
+       "Cicada Market",
+       "Swiss Sheep Farm"
+      ],
+      "eact": [
+       "Hua Hin Beach",
+       "Cicada Market",
+       "Swiss Sheep Farm"
+      ]
+     },
+     {
+      "v": "mHhx",
+      "t": "Hua Hin 2 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+      "en": "HUA HIN",
+      "g": "Tour berbilang hari",
+      "region": "",
+      "acc": "incl",
+      "meal": "b",
+      "trp": "mday",
+      "act": [
+       "Hua Hin Beach",
+       "Cicada Market",
+       "Swiss Sheep Farm"
+      ],
+      "eact": [
+       "Hua Hin Beach",
+       "Cicada Market",
+       "Swiss Sheep Farm"
+      ]
+     }
+    ],
+    "ext": {
+     "night": {
+      "normal": 0,
+      "peak": 0
+     },
+     "marginPerPax": 0,
+     "paxPerVehicle": 8,
+     "shareVehicle": true,
+     "rates": {
+      "day": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": null
+        }
+       ],
+       "[Bangkok]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 450
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 475
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 475
+        }
+       ],
+       "[Damnoen Saduak]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 500
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 550
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 550
+        }
+       ],
+       "[Kanchanaburi]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 550
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 630
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 630
+        }
+       ],
+       "[Erawan]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 600
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 700
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 700
+        }
+       ],
+       "[Ayutthaya]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 500
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 575
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 575
+        }
+       ],
+       "[Khao Yai]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 575
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 650
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 650
+        }
+       ],
+       "[Pattaya]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 525
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 610
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 610
+        }
+       ],
+       "[Hua Hin]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 575
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 650
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 650
+        }
+       ],
+       "[Rayong]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 575
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 650
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 650
+        }
+       ],
+       "[Koh Chang 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 700
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 850
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 850
+        }
+       ],
+       "[Airport 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 125
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 175
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 175
+        }
+       ],
+       "[Airport + Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 400
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 440
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 440
+        }
+       ],
+       "[Pattaya 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 275
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 350
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 350
+        }
+       ],
+       "[Hua Hin 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 350
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 450
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 450
+        }
+       ],
+       "[Khao Kor 4D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 2150
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 2500
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 2500
+        }
+       ],
+       "[Khao Yai 3D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 1550
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 1700
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 1700
+        }
+       ],
+       "[Kanchanaburi 2D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 1110
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 1300
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 1300
+        }
+       ],
+       "[Hua Hin 2D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": 1110
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": 1300
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": 1300
+        }
+       ]
+      },
+      "dayDed": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": null
+        }
+       ],
+       "[Bangkok]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -300
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -350
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -350
+        }
+       ],
+       "[Damnoen Saduak]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -350
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -400
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -400
+        }
+       ],
+       "[Kanchanaburi]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -400
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -480
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -480
+        }
+       ],
+       "[Erawan]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -450
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -550
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -550
+        }
+       ],
+       "[Ayutthaya]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -350
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -425
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -425
+        }
+       ],
+       "[Khao Yai]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -425
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -500
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -500
+        }
+       ],
+       "[Pattaya]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -375
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -460
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -460
+        }
+       ],
+       "[Hua Hin]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -425
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -500
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -500
+        }
+       ],
+       "[Rayong]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -425
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -500
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -500
+        }
+       ],
+       "[Koh Chang 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -550
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -700
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -700
+        }
+       ],
+       "[Airport 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -75
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -125
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -125
+        }
+       ],
+       "[Airport + Half Day]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -250
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -390
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -390
+        }
+       ],
+       "[Pattaya 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -125
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -200
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -200
+        }
+       ],
+       "[Hua Hin 1 way]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -200
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -300
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -300
+        }
+       ],
+       "[Khao Kor 4D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -1800
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -2150
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -2150
+        }
+       ],
+       "[Khao Yai 3D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -1300
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -1450
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -1450
+        }
+       ],
+       "[Kanchanaburi 2D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -960
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -1150
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -1150
+        }
+       ],
+       "[Hua Hin 2D]": [
+        {
+         "from": 1,
+         "to": 4,
+         "normal": -960
+        },
+        {
+         "from": 5,
+         "to": 8,
+         "normal": -1150
+        },
+        {
+         "from": 9,
+         "to": 16,
+         "normal": -1150
+        }
+       ]
+      },
+      "up4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": 50
+        }
+       ]
+      },
+      "up5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": 60
+        }
+       ]
+      },
+      "nightShort": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": -50
+        }
+       ]
+      },
+      "nightShort4": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": -100
+        }
+       ]
+      },
+      "nightShort5": {
+       "_default": [
+        {
+         "from": 1,
+         "to": 16,
+         "normal": -150
+        }
+       ]
+      }
+     }
+    },
+    "inclusions": [
+     "{nights} nights accommodation at 3-Star Hotel in Bangkok - Almas Hotel / Regent Ramkhamhaeng Hotel or similar, 2 to 3 persons per room",
+     "{auto}",
+     "Daily breakfast at hotel",
+     "Entrance fees based on itinerary",
+     "Tipping for driver"
+    ],
+    "exclusions": [
+     "Return international flight tickets",
+     "Personal travel insurance",
+     "Personal expenses and shopping",
+     "Excess baggage fee",
+     "Optional activities not stated above"
+    ],
+    "exclusionsTail": [
+     "Extra hour transport - 500 THB per hour, payable in cash to the driver",
+     "Giraffe Encounter, Sunflower Field entrance and Long Tail Boat unless listed above"
+    ]
+   }
+  ]
+ }
+}
