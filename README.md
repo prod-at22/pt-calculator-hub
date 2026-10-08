@@ -93,7 +93,7 @@ tour operator (/ hotel, season) selectors, then tabs:
 | Tab | For |
 |---|---|
 | **Costing** (default) | R&D-style table per TO block: components, Cost/Pax, Catalog, Selling, Margin, %, Total Gross; margin range and lowest margin above it. Rows alternate grey / white, one header colour; margin is green when positive, red when negative |
-| Catalog Details | the package's catalog as published on catalog-pt-public: price table, includes / excludes, surcharge, accommodation, itinerary, add-ons, notes, deposit (`data/catalogs/<slug>.json`, same schema as Catalog PT; `tools/import_catalogs.py`) |
+| Catalog Details | the package's catalog as published on catalog-pt-public: price table, includes / excludes, surcharge, accommodation, itinerary, add-ons, notes, deposit (`data/catalogs/<slug>.json`, same schema as Catalog PT, which mirrors this folder to catalog-pt-public; `tools/import_catalogs.py` rebuilds `index.json`) |
 | TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
 | Add-ons | cost / selling / margin; a qty totals the selected add-ons |
 | Flags | this destination's cross-check flags |
