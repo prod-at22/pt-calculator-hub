@@ -46,15 +46,10 @@
     ],
     "rows": [
       {
-        "pax": "2 - 14",
-        "amounts": [
-          "RM5,897",
-          "RM5,697",
-          "RM5,497"
-        ]
+        "pax": "2 - 14"
       }
     ],
-    "infant": "RM900 (below 2 years old)",
+    "infant": "{price} (below 2 years old)",
     "pax_label": "No. of person"
   },
   "price_blocks": [
@@ -322,5 +317,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "product": "ST"
+  "product": "ST",
+  "price_version": 30
 }

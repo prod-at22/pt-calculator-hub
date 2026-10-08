@@ -47,52 +47,22 @@
     ],
     "rows": [
       {
-        "pax": "1",
-        "amounts": [
-          "RM1,697",
-          "RM1,597",
-          "RM1,497"
-        ]
+        "pax": "1"
       },
       {
-        "pax": "2",
-        "amounts": [
-          "RM1,117",
-          "RM1,017",
-          "RM917"
-        ]
+        "pax": "2"
       },
       {
-        "pax": "3 - 4",
-        "amounts": [
-          "RM957",
-          "RM857",
-          "RM757"
-        ]
+        "pax": "3 - 4"
       },
       {
-        "pax": "5 - 6",
-        "amounts": [
-          "RM907",
-          "RM807",
-          "RM707"
-        ]
+        "pax": "5 - 6"
       },
       {
-        "pax": "7 - 8",
-        "amounts": [
-          "RM877",
-          "RM777",
-          "RM677"
-        ]
+        "pax": "7 - 8"
       },
       {
-        "pax": "9 - 10",
-        "amounts": [
-          "RM857",
-          "RM757",
-          "RM657"
-        ]
+        "pax": "9 - 10"
       }
     ]
   },
@@ -310,5 +280,6 @@
       "figure": "30 days",
       "text": "prior to departure for full payment"
     }
-  ]
+  ],
+  "price_version": 30
 }

@@ -38,10 +38,7 @@
     ],
     "rows": [
       {
-        "pax": "1 Night Luxury Private Pool Villa + 2 Nights 4 Star Hotel",
-        "amounts": [
-          "RM3,797"
-        ]
+        "pax": "1 Night Luxury Private Pool Villa + 2 Nights 4 Star Hotel"
       }
     ],
     "pax_label": "Honeymoon Premium"
@@ -425,5 +422,6 @@
         "rate": "Peak season"
       }
     ]
-  }
+  },
+  "price_version": 30
 }

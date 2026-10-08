@@ -226,3 +226,9 @@ body.hubpage #grid{display:block}
 @media (max-width:520px){.hub .row{flex-wrap:wrap;gap:0.25rem 0.75rem}.hub .dest{flex:1 1 100%}}
 table.torates td input.ed{width:96px;text-align:right}
 table.torates th{white-space:normal;min-width:90px}
+/* Packaging Details editor */
+.cd input.ed.cat{width:100%;min-width:60px;text-align:left}
+.cd textarea.ed.cat{width:100%;font:inherit;font-size:13px;border:1px solid var(--edit-line);background:var(--edit);border-radius:6px;padding:6px 8px;resize:vertical}
+.cd-edit-head{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px 12px;margin-bottom:10px}
+.cd-edit-head label{display:flex;flex-direction:column;gap:3px;font-size:12px;font-weight:600;color:var(--ink-soft)}
+.cd .cd-chips input.ed.cat{width:auto;display:inline-block}

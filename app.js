@@ -21,7 +21,7 @@ let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["catalog", "Catalog Details"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
+const TABS = [["costing", "Costing"], ["catalog", "Packaging Details"], ["contracts", "TO Contract Rate"], ["addons", "Add-ons"], ["flags", "Flags"], ["history", "History"]];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
 
@@ -98,11 +98,12 @@ function dedupe(out) {
 }
 function applyChanges(obj, changes, reverse = false) {
   const list = reverse ? [...changes].reverse() : changes;
-  for (const c of list) { const v = reverse ? c.from : c.to; setPath(obj, c.path, v == null ? undefined : clone(v)); }   // null / undefined = field absent
+  for (const c of list) { if (c.path[0] === "catalogs") continue; const v = reverse ? c.from : c.to; setPath(obj, c.path, v == null ? undefined : clone(v)); }   // null / undefined = field absent; catalog edits live in data/catalogs/
   return obj;
 }
 // Human label for a change path, resolved against a snapshot.
 function describe(snap, path) {
+  if (path[0] === "catalogs") return "Packaging Details " + path[1] + " › " + path.slice(2).map(x => typeof x === "number" ? "#" + (x + 1) : x).join(" › ");
   const parts = []; let cur = snap;
   const LBL = { value: "", rates: "Rate", fx: "FX", tables: "Table", packages: "", variants: "TO", pricing: "", rules: "Rule",
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
@@ -635,7 +636,7 @@ const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(
 /* ============================================================ catalog details
    The catalog content (itinerary, includes / excludes, add-ons, notes …) lives in data/catalogs/<slug>.json,
    same schema as Catalog PT, which mirrors it to catalog-pt-public. index.json links slug → package. */
-const CAT = { index: null, docs: {}, err: null };
+const CAT = { index: null, docs: {}, edit: {}, err: null };   // edit[slug] = unsaved Packaging Details edits
 function loadCatalog(path, set) {
   fetchJson(PATHS.catalogs + path).then(set).catch(e => { CAT.err = e.message; }).then(() => { if (SEL.tab === "catalog") render(); });
 }
@@ -649,45 +650,70 @@ function catalogCard(d, pkg) {
     return catalogDoc(c, CAT.index[slug]);
   }).join("");
 }
-function catalogDoc(c, ix) {
+// Packaging Details: the catalog content for the package (data/catalogs/<slug>.json). Read-only normally;
+// in Edit costs every field is an input (lists: one item per line, a sub-item starts with "  - ").
+// Package prices are never edited here: they come from the Costing tab's Catalog Price column.
+const catLines = a => (a || []).map(it => typeof it === "string" ? it : [it.text, ...(it.sub || []).map(x => "  - " + x)].join("\n")).join("\n");
+function catParseLines(t) {
+  const out = [];
+  for (const raw of String(t).split("\n")) {
+    if (!raw.trim()) continue;
+    const m = /^\s+[-•]\s*(.*)$/.exec(raw);
+    if (m && out.length) { let prev = out[out.length - 1]; if (typeof prev === "string") prev = out[out.length - 1] = { text: prev, sub: [] }; (prev.sub ||= []).push(m[1].trim()); }
+    else out.push(raw.trim());
+  }
+  return out;
+}
+function catalogDoc(c0, ix) {
+  const sl = c0.slug, E = EDIT && !VIEW;
+  const c = E ? (CAT.edit[sl] ||= clone(c0)) : c0;
+  const cp = path => esc(JSON.stringify([sl, ...path]));
+  const ci = (path, v, ph = "") => E ? `<input class="ed txt cat" data-cpath="${cp(path)}" value="${esc(v ?? "")}" placeholder="${esc(ph)}">` : esc(v ?? "");
+  const ct = (path, a, rows) => `<textarea class="ed cat" data-cpath="${cp(path)}" data-ckind="lines" rows="${rows || Math.min(14, Math.max(3, (a || []).length + 1))}">${esc(catLines(a))}</textarea>`;
   const li = it => typeof it === "string" ? `<li>${esc(it)}</li>` : `<li>${esc(it.text)}${it.sub && it.sub.length ? `<ul>${it.sub.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</li>`;
-  const ul = a => a && a.length ? `<ul class="cd-list">${a.map(li).join("")}</ul>` : '<div class="muted">—</div>';
-  const sec = (title, body, sub) => body ? `<section class="cd-sec"><h3>${esc(title)}${sub ? ` <span class="muted">${esc(sub)}</span>` : ""}</h3>${body}</section>` : "";
-  const notes = n => n && n.length ? `<div class="cd-note">${n.map(esc).join("<br>")}</div>` : "";
-  const P = c.prices || {};
-  const price = P.rows && P.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">${esc(P.pax_label || "No. of Pax")}</th>${P.columns.map(x => `<th>${esc(x.label)}${x.age ? `<span class="cd-age">${esc(x.age)}</span>` : ""}</th>`).join("")}</tr></thead>
-      <tbody>${P.rows.map(r => `<tr><td class="l">${esc(r.pax)}</td>${r.amounts.map(v => `<td class="num">${esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
-      ${P.infant || P.single_supplement ? `<div class="cd-note">${P.infant ? "Infant: " + esc(P.infant) : ""}${P.infant && P.single_supplement ? " · " : ""}${P.single_supplement ? "Single supplement: " + esc(P.single_supplement) : ""}</div>` : ""}${notes(P.notes)}` : "";
-  const incl = (c.price_blocks || []).map(b => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes)}</div><div><h4>Excludes</h4>${ul(b.excludes)}</div></div>`).join("");
+  const ul = (a, path) => E && path ? ct(path, a) : a && a.length ? `<ul class="cd-list">${a.map(li).join("")}</ul>` : '<div class="muted">—</div>';
+  const sec = (title, body, sub) => body ? `<section class="cd-sec"><h3>${title}${sub ? ` <span class="muted">${esc(sub)}</span>` : ""}</h3>${body}</section>` : "";
+  const notes = (n, path) => E && path ? `<div class="cd-note">${ct(path, n, 2)}</div>` : n && n.length ? `<div class="cd-note">${n.map(esc).join("<br>")}</div>` : "";
+  const P = resolvePrices(c, ix), literal = !catPackage(ix);
+  const price = P.rows && P.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">${ci(["prices", "pax_label"], P.pax_label || (E ? "" : "No. of Pax"), "No. of Pax")}</th>${P.columns.map((x, i) => `<th>${ci(["prices", "columns", i, "label"], x.label)}${x.age || E ? `<span class="cd-age">${ci(["prices", "columns", i, "age"], x.age, "age")}</span>` : ""}</th>`).join("")}</tr></thead>
+      <tbody>${P.rows.map((r, ri) => `<tr><td class="l">${ci(["prices", "rows", ri, "pax"], r.pax)}</td>${r.amounts.map((v, ai) => `<td class="num">${E && literal ? ci(["prices", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+      ${E ? `<div class="cd-note">Infant: ${ci(["prices", "infant"], (c.prices || {}).infant, "e.g. {price} per pax — {price} = Costing infant price, FOC when 0")}</div>`
+        : P.infant || P.single_supplement ? `<div class="cd-note">${P.infant ? "Infant: " + esc(P.infant) : ""}${P.infant && P.single_supplement ? " · " : ""}${P.single_supplement ? "Single supplement: " + esc(P.single_supplement) : ""}</div>` : ""}${notes(P.notes, ["prices", "notes"])}` : "";
+  const incl = (c.price_blocks || []).map((b, bi) => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes, ["price_blocks", bi, "includes"])}</div><div><h4>Excludes</h4>${ul(b.excludes, ["price_blocks", bi, "excludes"])}</div></div>`).join("");
   const S = c.surcharge || {};
-  const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map(x => `<th>${esc(x.label)}${x.period ? `<span class="cd-age">${esc(x.period)}</span>` : ""}</th>`).join("")}</tr></thead>
-      <tbody>${S.rows.map(r => `<tr><td class="l">${esc(r.type || "")}</td><td class="l">${esc(r.name || "")}${r.similar ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map(v => `<td>${esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
+  const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map((x, i) => `<th>${ci(["surcharge", "columns", i, "label"], x.label)}${x.period || E ? `<span class="cd-age">${ci(["surcharge", "columns", i, "period"], x.period, "period")}</span>` : ""}</th>`).join("")}</tr></thead>
+      <tbody>${S.rows.map((r, ri) => `<tr><td class="l">${ci(["surcharge", "rows", ri, "type"], r.type)}</td><td class="l">${ci(["surcharge", "rows", ri, "name"], r.name)}${r.similar && !E ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map((v, ai) => `<td>${E ? ci(["surcharge", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
     + (S.seasons && S.seasons.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">Season</th><th class="l">Travel dates</th><th class="l">Surcharge</th></tr></thead>
-      <tbody>${S.seasons.map(x => `<tr><td class="l"><b>${esc(x.label)}</b></td><td class="l">${esc(x.period || "")}</td><td class="l">${esc(x.rate || "")}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes);
-  const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map(a => `<div><span class="muted">${esc(a.city || "")}</span>${a.stars ? ` · ${"★".repeat(a.stars)}` : ""}<br>${esc(a.name)}${a.similar ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
-  const itins = (c.itineraries || [{ label: null, days: c.itinerary }]).filter(x => x.days && x.days.length);
+      <tbody>${S.seasons.map((x, i) => `<tr><td class="l"><b>${ci(["surcharge", "seasons", i, "label"], x.label)}</b></td><td class="l">${ci(["surcharge", "seasons", i, "period"], x.period)}</td><td class="l">${ci(["surcharge", "seasons", i, "rate"], x.rate)}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes, S.title || S.rows || S.seasons ? ["surcharge", "notes"] : null);
+  const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map((a, i) => `<div><span class="muted">${ci(["accommodation", i, "city"], a.city)}</span>${a.stars && !E ? ` · ${"★".repeat(a.stars)}` : ""}<br>${ci(["accommodation", i, "name"], a.name)}${a.similar && !E ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
+  const itins = c.itineraries ? c.itineraries.map((x, i) => ({ label: x.label, days: x.days || [], base: ["itineraries", i, "days"] })) : [{ label: null, days: c.itinerary || [], base: ["itinerary"] }];
   const itin = it => `<div class="scroll"><table class="cd-t cd-itin"><thead><tr><th class="l">Day</th><th class="l">Activities</th><th class="l">Transport</th><th class="l">Meal</th><th class="l">Hotel</th></tr></thead>
-      <tbody>${it.days.map(x => `<tr><td class="l cd-day">${esc(x.day)}</td><td class="l"><b>${esc(x.title || "")}</b>${ul(x.activities)}</td><td class="l">${esc(x.transport || "—")}</td><td class="l">${esc(x.meals || "—")}</td><td class="l">${esc(x.hotel || "—")}</td></tr>`).join("")}</tbody></table></div>`;
-  const addons = (c.addons || []).map(g => sec(g.title, `<div class="scroll"><table class="cd-t"><tbody>${g.entries.map(a => `<tr><td class="l"><b>${esc(a.name)}</b>${["includes", "excludes", "duration"].filter(k => a[k]).map(k => `<div class="muted">${k.charAt(0).toUpperCase() + k.slice(1)}: ${esc(a[k])}</div>`).join("")}</td>
-      <td class="l cd-price">${(a.price_lines || []).map(esc).join("<br>")}</td></tr>`).join("")}</tbody></table></div>${notes(g.notes)}`)).join("");
-  const expect = c.expect && c.expect.length ? `<div class="cd-acc">${c.expect.map(e => `<div><b>${esc(e.title)}</b>${e.tag ? ` <span class="pill">${esc(e.tag)}</span>` : ""}<br><span class="muted">${esc(e.body)}</span></div>`).join("")}</div>` : "";
-  const imp = (c.notes || []).map(n => `${n.title ? `<h4>${esc(n.title)}</h4>` : ""}${ul(n.entries)}`).join("");
-  const dep = (c.deposit || []).map(x => `<div><b>${esc(x.figure)}</b> ${esc(x.text)}</div>`).join("");
-  const meta = [c.duration, c.route, c.basis, c.valid_until ? "valid until " + c.valid_until : "", c.version, c.updated ? "updated " + c.updated : ""].filter(Boolean).map(esc).join(" · ");
-  return `<div class="card full cd" id="cat-${esc(c.slug)}"><h2>${esc(c.title)} <span class="sub">${meta}</span>
+      <tbody>${it.days.map((x, di) => { const p = k => [...it.base, di, k]; return `<tr><td class="l cd-day">${esc(x.day)}</td><td class="l"><b>${ci(p("title"), x.title, "title")}</b>${ul(x.activities, p("activities"))}</td><td class="l">${E ? ci(p("transport"), x.transport) : esc(x.transport || "—")}</td><td class="l">${E ? ci(p("meals"), x.meals) : esc(x.meals || "—")}</td><td class="l">${E ? ci(p("hotel"), x.hotel) : esc(x.hotel || "—")}</td></tr>`; }).join("")}</tbody></table></div>
+      ${E ? `<div class="cd-note"><button class="btn" data-catact="addday" data-cpath="${cp(it.base)}">+ Day</button> ${it.days.length ? `<button class="btn danger" data-catact="delday" data-cpath="${cp(it.base)}">− Last day</button>` : ""}</div>` : ""}`;
+  const addons = (c.addons || []).map((g, gi) => sec(ci(["addons", gi, "title"], g.title), `<div class="scroll"><table class="cd-t"><tbody>${(g.entries || []).map((a, ei) => { const p = k => ["addons", gi, "entries", ei, k]; return `<tr><td class="l"><b>${ci(p("name"), a.name)}</b>${["includes", "excludes", "duration"].filter(k => a[k] || (E && a[k] !== undefined)).map(k => `<div class="muted">${k.charAt(0).toUpperCase() + k.slice(1)}: ${ci(p(k), a[k])}</div>`).join("")}</td>
+      <td class="l cd-price">${E ? ct(p("price_lines"), a.price_lines, 2) : (a.price_lines || []).map(esc).join("<br>")}</td></tr>`; }).join("")}</tbody></table></div>${notes(g.notes, ["addons", gi, "notes"])}`)).join("");
+  const expect = c.expect && c.expect.length ? `<div class="cd-acc">${c.expect.map((e, i) => `<div><b>${ci(["expect", i, "title"], e.title)}</b>${e.tag && !E ? ` <span class="pill">${esc(e.tag)}</span>` : ""}<br><span class="muted">${E ? `<textarea class="ed cat" data-cpath="${cp(["expect", i, "body"])}" rows="2">${esc(e.body || "")}</textarea>` : esc(e.body)}</span></div>`).join("")}</div>` : "";
+  const imp = (c.notes || []).map((n, i) => `${n.title || E ? `<h4>${ci(["notes", i, "title"], n.title, "title")}</h4>` : ""}${ul(n.entries, ["notes", i, "entries"])}`).join("");
+  const dep = (c.deposit || []).map((x, i) => `<div><b>${ci(["deposit", i, "figure"], x.figure)}</b> ${ci(["deposit", i, "text"], x.text)}</div>`).join("");
+  const meta = E ? "" : [c.duration, c.route, c.basis, c.valid_until ? "valid until " + c.valid_until : "", c.version, c.updated ? "updated " + c.updated : ""].filter(Boolean).map(esc).join(" · ");
+  const head = E ? `<div class="cd-edit-head">${[["title", "Title"], ["duration", "Duration"], ["route", "Route"], ["basis", "Package basis"], ["valid_until", "Valid until"], ["version", "Version"]].map(([k, l]) => `<label>${l}${ci([k], c[k])}</label>`).join("")}</div>
+      ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map((h, i) => ci(["highlights", i, "label"], h.label)).join(" ")}</div>` : ""}
+      <div class="cd-note">Editing Packaging Details: saved with <b>Save</b> (one version, with the costs). Package prices come from the Costing tab (Catalog Price); the public catalog and PDF rebuild about 10–15 minutes after saving.</div>` : "";
+  return `<div class="card full cd" id="cat-${esc(c.slug)}"><h2>${E ? "Packaging Details · " + esc(c.slug) : esc(c.title)} <span class="sub">${meta}</span>
       <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Public page</a><a class="btn" href="${esc(ix.url.replace(/\.html$/, ".pdf"))}" target="_blank" rel="noopener">PDF</a></span></h2>
     <div class="body">
-      ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}
-      ${sec("Package Price", price, "as printed in the catalog")}
+      ${head}
+      ${!E && (c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}
+      ${sec("Package Price", price, literal ? "as printed in the catalog (no Costing package yet)" : "from the Costing tab (Catalog Price)")}
       ${sec("Price Includes / Excludes", incl)}
-      ${sec(S.title || "Surcharge", sur)}
+      ${sec(E ? ci(["surcharge", "title"], S.title, "Surcharge") : esc(S.title || "Surcharge"), sur)}
       ${sec("Accommodation", acc)}
-      ${itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + it.label + ")" : ""), itin(it))).join("")}
+      ${itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + esc(it.label) + ")" : ""), itin(it))).join("")}
       ${addons}
       ${sec("What to Expect", expect)}
       ${sec("Important Notes", imp)}
       ${sec("Deposit & Full Payment", dep)}
-      <div class="cd-note">Source: data/catalogs/${esc(c.slug)}.json · PO ${esc(c.po || "—")} · Ops ${esc(c.ops || "—")}${c.source_pdf ? " · transcribed from " + esc(c.source_pdf) : ""}</div>
+      <div class="cd-note">Source: data/catalogs/${esc(c.slug)}.json · PO ${esc(c.po || "—")} · Ops ${esc(c.ops || "—")}</div>
     </div></div>`;
 }
 function contractCard(d) {
@@ -769,7 +795,10 @@ function snapshotAt(v) {
   if (e) { snap.updatedAt = e.at; snap.updatedBy = e.by; }
   return snap;
 }
-const pendingChanges = () => (BASE && DATA ? diff(stripMeta(BASE), stripMeta(DATA)) : []);
+// Catalog (Packaging Details) edits are tracked as paths ["catalogs", slug, …] next to the data changes.
+const isCatPath = p => p[0] === "catalogs";
+const catPending = () => Object.keys(CAT.edit).flatMap(sl => CAT.docs[sl] ? diff(CAT.docs[sl], CAT.edit[sl]).map(c => ({ ...c, path: ["catalogs", sl, ...c.path] })) : []);
+const pendingChanges = () => [...(BASE && DATA ? diff(stripMeta(BASE), stripMeta(DATA)) : []), ...catPending()];
 function stripMeta(o) { const c = { ...o }; delete c.version; delete c.updatedAt; delete c.updatedBy; return c; }
 
 /* ============================================================ crypto (login)
@@ -835,49 +864,58 @@ const GH = {
 };
 const pretty = o => JSON.stringify(o, null, 1) + "\n";
 
-// Catalog price sync: the Costing tab's Catalog Price column is what the customer catalog prints.
-// On save, each changed catalog-price cell (pricing.<adult|cwb|cnb>.<pax>) is written into the price
-// table of the catalog linked to that package (data/catalogs/index.json), in the row whose pax band
-// starts at that pax. Only the amount changes; nothing else in the catalog (itinerary, includes …).
-// catalog-pt-public rebuilds the changed catalogs from data/catalogs/ within ~10–15 minutes.
-const CAT_COL = { adult: 0, cwb: 1, cnb: 2 };
+// Catalogs (data/catalogs/<slug>.json) carry no package prices: the price table is read from the Costing
+// tab's Catalog Price column (resolvePrices here, catalog-build/hub_prices.py for the public page / PDF).
+// On save, one commit carries: the Packaging Details edits of each catalog, and for every catalog whose
+// Costing package prices changed a new price_version (so catalog-pt-public rebuilds it, ~10–15 min).
 const catRmTxt = v => "RM" + Math.round(v).toLocaleString("en-US");
 function catBandStart(label) {
   if (/night|hotel|villa|star/i.test(label)) return null;
   const n = String(label).match(/\d+/); return n ? +n[0] : null;
 }
-async function catalogFiles(changes, next, head, token) {
-  const cells = changes.filter(c => c.path[0] === "destinations" && c.path[2] === "packages" && c.path[4] === "pricing" && c.path[5] in CAT_COL && c.path.length === 7);
-  if (!cells.length) return { files: [], summary: [] };
-  const idx = await GH.readJson(PATHS.catalogs + "index.json", head, token);
-  const today = new Date().toISOString().slice(0, 10), files = [], summary = [];
-  for (const [slug, m] of Object.entries(idx)) {
-    const mine = cells.filter(c => c.path[1] === m.code && c.path[3] === m.package);
-    if (!mine.length) continue;
-    const cat = await GH.readJson(PATHS.catalogs + slug + ".json", head, token), pr = cat.prices;
-    if (!pr || !pr.rows) continue;
-    const couple = pr.columns.length === 1 && /couple/i.test(pr.columns[0].label || "");
-    const pkg = next.destinations.find(d => d.code === m.code).packages.find(p => p.id === m.package);
-    let n = 0;
-    for (const c of mine) {
-      const [, , , , , k, pax] = c.path, v = +c.to;
-      if (!num(v)) continue;
-      for (const row of pr.rows) {
-        if (couple) { if (k !== "adult" || pax !== "2") continue; const t = catRmTxt(2 * v); if (row.amounts[0] !== t) { summary.push(`Catalog ${slug}: ${row.pax} ${row.amounts[0]} → ${t}`); row.amounts[0] = t; n++; } continue; }
-        if (catBandStart(row.pax) !== +pax) continue;
-        const i = CAT_COL[k], old = row.amounts[i];
-        if (old === undefined || /^\s*-*\s*$/.test(old)) continue;   // "-" = not offered: leave it
-        const t = catRmTxt(v);
-        if (old !== t) { summary.push(`Catalog ${slug}: ${row.pax} pax ${k.toUpperCase()} ${old} → ${t}`); row.amounts[i] = t; n++; }
-      }
-    }
-    if (!n) continue;
-    cat.updated = today; m.updated = today;
-    files.push({ path: PATHS.catalogs + slug + ".json", content: JSON.stringify(cat, null, 2) + "\n" });
-    delete CAT.docs[slug];
+function catPackage(ix, data = DATA) {
+  const d = ix && ix.package ? data.destinations.find(x => x.code === ix.code) : null;
+  return d ? d.packages.find(p => p.id === ix.package) || null : null;
+}
+function resolvePrices(c, ix, data = DATA) {
+  const pr = clone(c.prices || {}), pkg = catPackage(ix, data);
+  if (!pkg || !pr.rows) return pr;
+  const P = pkg.pricing, n = (pr.columns || []).length, couple = n === 1 && /couple/i.test(pr.columns[0].label || "");
+  for (const row of pr.rows) {
+    if (row.amounts) continue;   // literal (catalog without a Costing package)
+    if (couple) { const v = P.adult["2"]; row.amounts = [v == null ? "-" : catRmTxt(2 * v)]; continue; }
+    const p = catBandStart(row.pax || ""), na = new Set(row.na || []);
+    row.amounts = ["adult", "cwb", "cnb"].slice(0, n).map(k => { const v = p == null ? undefined : P[k][String(p)]; return na.has(k) || v == null || v === "" ? "-" : catRmTxt(+v); });
   }
-  if (files.length) { files.push({ path: PATHS.catalogs + "index.json", content: JSON.stringify(idx, null, 1) + "\n" }); CAT.index = null; }
-  return { files, summary };
+  if (typeof pr.infant === "string" && pr.infant.includes("{price}")) { const v = +P.infant || 0; pr.infant = pr.infant.replace("{price}", v === 0 ? "FOC" : catRmTxt(v)); }
+  return pr;
+}
+async function catalogFiles(dataChanges, catChanges, next, head, token) {
+  const priced = new Set(dataChanges.filter(c => c.path[0] === "destinations" && c.path[2] === "packages" && c.path[4] === "pricing").map(c => c.path[1] + "|" + c.path[3]));
+  const slugsEdited = [...new Set(catChanges.map(c => c.path[1]))];
+  if (!priced.size && !slugsEdited.length) return { files: [], summary: [], docs: {} };
+  const idx = await GH.readJson(PATHS.catalogs + "index.json", head, token);
+  const today = new Date().toISOString().slice(0, 10), docs = {}, summary = [];
+  const get = async sl => docs[sl] || (docs[sl] = await GH.readJson(PATHS.catalogs + sl + ".json", head, token));
+  for (const sl of slugsEdited) {
+    const cat = await get(sl), mine = catChanges.filter(c => c.path[1] === sl).map(c => ({ ...c, path: c.path.slice(2) }));
+    const clash = mine.filter(c => JSON.stringify(getPath(cat, c.path)) !== JSON.stringify(c.from));
+    if (clash.length) throw new Error(`Someone else changed Packaging Details of ${sl} (${clash.slice(0, 2).map(c => c.path.join(" › ")).join("; ")}). Reload and re-apply.`);
+    for (const c of mine) setPath(cat, c.path, c.to == null ? undefined : clone(c.to));
+    summary.push(`Packaging Details ${sl}: ${mine.length} change${mine.length > 1 ? "s" : ""}`);
+  }
+  for (const [sl, m] of Object.entries(idx)) {
+    if (!priced.has(m.code + "|" + m.package)) continue;
+    const cat = await get(sl); cat.price_version = next.version;
+    summary.push(`Catalog ${sl}: prices from Costing v${next.version}`);
+  }
+  const files = [];
+  for (const [sl, cat] of Object.entries(docs)) {
+    cat.updated = today; if (idx[sl]) { idx[sl].updated = today; idx[sl].title = cat.title; idx[sl].duration = cat.duration; idx[sl].version = cat.version; }
+    files.push({ path: PATHS.catalogs + sl + ".json", content: JSON.stringify(cat, null, 2) + "\n" });
+  }
+  files.push({ path: PATHS.catalogs + "index.json", content: JSON.stringify(idx, null, 1) + "\n" });
+  return { files, summary, docs };
 }
 async function saveChanges(note) {
   const changes = pendingChanges();
@@ -886,16 +924,17 @@ async function saveChanges(note) {
     const head = await GH.head(SESSION.token);
     const remote = await GH.readJson(PATHS.data, head, SESSION.token);
     const rhist = await GH.readJson(PATHS.history, head, SESSION.token);
+    const dataChanges = changes.filter(c => !isCatPath(c.path)), catChanges = changes.filter(c => isCatPath(c.path));
     if (remote.version !== BASE.version) {
       // someone saved in between: replay our edits on top if they touched different cells
-      const clash = changes.filter(c => JSON.stringify(getPath(remote, c.path)) !== JSON.stringify(c.from));
+      const clash = dataChanges.filter(c => JSON.stringify(getPath(remote, c.path)) !== JSON.stringify(c.from));
       if (clash.length) throw new Error(`Another user saved v${remote.version} and changed the same cells (${clash.map(c => describe(remote, c.path)).slice(0, 3).join("; ")}). Reload and re-apply.`);
     }
-    const next = applyChanges(clone(remote), changes);
+    const next = applyChanges(clone(remote), dataChanges);
     next.version = remote.version + 1;
     next.updatedAt = new Date().toISOString();
     next.updatedBy = SESSION.u;
-    const cat = await catalogFiles(changes, next, head, SESSION.token);
+    const cat = await catalogFiles(dataChanges, catChanges, next, head, SESSION.token);
     const entry = { v: next.version, at: next.updatedAt, by: SESSION.u, note, changes: changes.map(c => ({ ...c, label: describe(remote, c.path) })), ...(cat.summary.length ? { catalogs: cat.summary } : {}) };
     rhist.entries.push(entry);
     try {
@@ -906,6 +945,8 @@ async function saveChanges(note) {
       throw e;
     }
     BASE = next; DATA = clone(next); HISTORY = rhist;
+    for (const [sl, doc] of Object.entries(cat.docs)) { CAT.docs[sl] = doc; delete CAT.edit[sl]; }
+    CAT.edit = {}; if (cat.files.length) CAT.index = null;
     return next.version;
   }
   throw new Error("Could not save after 3 attempts — reload the page.");
@@ -1027,13 +1068,19 @@ document.addEventListener("click", async e => {
   if (t.id === "btnLogin") return openLogin();
   if (t.id === "doLogin") return doLogin();
   if (t.id === "doSetup") return doSetup();
-  if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); return render(); }
+  if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); CAT.edit = {}; return render(); }
   if (t.id === "btnEdit") { EDIT = !EDIT; VIEW = null; return render(); }
   if (t.id === "btnAcct") return openAccount();
   if ((t.id === "btnHistory" || t.dataset.act === "history") && PAGE_DEST) { SEL.tab = "history"; history.replaceState(null, "", "#history"); return render(); }
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
-  if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); render(); } return; }
+  if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; render(); } return; }
+  if (t.dataset.catact) {
+    const [sl, ...path] = JSON.parse(t.dataset.cpath), doc = CAT.edit[sl] ||= clone(CAT.docs[sl]), days = getPath(doc, path);
+    if (t.dataset.catact === "addday") days.push({ day: days.length + 1, title: "", activities: [], transport: "", meals: "", hotel: "" });
+    if (t.dataset.catact === "delday" && days.length && confirm("Remove day " + days.length + "?")) days.pop();
+    return render();
+  }
   if (t.dataset.act === "viewCurrent") { VIEW = null; return render(); }
   if (t.dataset.act === "restore") {
     const snap = VIEW.data, v = VIEW.v;
@@ -1126,6 +1173,16 @@ document.addEventListener("change", e => {
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
+  if (t.dataset && t.dataset.cpath && t.dataset.catact === undefined) {
+    const [sl, ...path] = JSON.parse(t.dataset.cpath), doc = CAT.edit[sl] ||= clone(CAT.docs[sl]);
+    setPath(doc, path, t.dataset.ckind === "lines" ? catParseLines(t.value) : t.value);
+    setTimeout(() => {
+      const nx = document.activeElement && document.activeElement.dataset ? document.activeElement.dataset.cpath : null;
+      render();
+      if (nx) { const el = [...document.querySelectorAll("[data-cpath]")].find(x => x.dataset.cpath === nx && x.dataset.catact === undefined); if (el) el.focus(); }
+    }, 0);
+    return;
+  }
   if (t.dataset && t.dataset.path) {
     const path = JSON.parse(t.dataset.path);
     let v = t.value;

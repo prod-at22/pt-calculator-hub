@@ -38,10 +38,7 @@
     ],
     "rows": [
       {
-        "pax": "1 Night Private Pool Villa + 2 Nights 3 Star Hotel",
-        "amounts": [
-          "RM2,197"
-        ]
+        "pax": "1 Night Private Pool Villa + 2 Nights 3 Star Hotel"
       }
     ],
     "pax_label": "Honeymoon Standard"
@@ -485,5 +482,6 @@
         "rate": "Peak season"
       }
     ]
-  }
+  },
+  "price_version": 30
 }

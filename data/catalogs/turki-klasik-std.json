@@ -50,71 +50,31 @@
     ],
     "rows": [
       {
-        "pax": "2",
-        "amounts": [
-          "RM 7,197",
-          "RM 6,997",
-          "RM 6,797"
-        ]
+        "pax": "2"
       },
       {
-        "pax": "3",
-        "amounts": [
-          "RM 6,597",
-          "RM 6,397",
-          "RM 6,197"
-        ]
+        "pax": "3"
       },
       {
-        "pax": "4",
-        "amounts": [
-          "RM 6,397",
-          "RM 6,197",
-          "RM 5,997"
-        ]
+        "pax": "4"
       },
       {
-        "pax": "5",
-        "amounts": [
-          "RM 6,097",
-          "RM 5,897",
-          "RM 5,697"
-        ]
+        "pax": "5"
       },
       {
-        "pax": "6",
-        "amounts": [
-          "RM 4,697",
-          "RM 4,497",
-          "RM 4,297"
-        ]
+        "pax": "6"
       },
       {
-        "pax": "7",
-        "amounts": [
-          "RM 4,397",
-          "RM 4,197",
-          "RM 3,997"
-        ]
+        "pax": "7"
       },
       {
-        "pax": "8",
-        "amounts": [
-          "RM 4,397",
-          "RM 4,197",
-          "RM 3,997"
-        ]
+        "pax": "8"
       },
       {
-        "pax": "9",
-        "amounts": [
-          "RM 3,897",
-          "RM 3,697",
-          "RM 3,497"
-        ]
+        "pax": "9"
       }
     ],
-    "infant": "RM200 per pax"
+    "infant": "{price} per pax"
   },
   "price_blocks": [
     {
@@ -445,5 +405,6 @@
       "figure": "45 days",
       "text": "prior to arrival for full payment"
     }
-  ]
+  ],
+  "price_version": 30
 }

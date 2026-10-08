@@ -11,6 +11,9 @@ Each flag: {code, package, severity (high|medium|low), area, title, detail, fix}
 """
 import argparse, datetime, glob, json, os, re, subprocess, sys
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "catalog-build"))
+import hub_prices  # noqa: E402  same price rules as the catalog build
+
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 CATALOG = os.path.join(ROOT, "data", "catalogs")
 
@@ -110,7 +113,8 @@ def main():
                  "Add the package and its TO rates in the hub.", package=title)
             continue
         d = by[code]; pkg = next(p for p in d["packages"] if p["id"] == pid); seen_pkg.add((code, pid))
-        pr = cat.get("prices") or {}
+        linked = any("amounts" not in r for r in (cat.get("prices") or {}).get("rows") or [])
+        pr = hub_prices.resolve(cat, pkg)   # a linked catalog's prices ARE the hub's: only coverage can be wrong
         cols = [c.get("label", "") for c in pr.get("columns", [])]
         couple = len(cols) == 1 and re.search(r"couple", cols[0], re.I)
         diffs = {k: [] for k in TYPES}; missing = {k: [] for k in TYPES}; extra_child = []; uneven = []
@@ -131,12 +135,15 @@ def main():
                 vals = {pkg["pricing"][k].get(str(p)) for p in ps if p <= 30} - {None}
                 if len(vals) > 1:
                     uneven.append("%s %s pax (%s)" % (k.upper(), row.get("pax"), " / ".join(rm(v) for v in sorted(vals))))
+            na = set(row.get("na") or [])
             for k, amt in zip(TYPES, amts):
                 v = money(amt)
                 for p in ps:
                     if p > 30:
                         continue
                     mine = pkg["pricing"][k].get(str(p))
+                    if linked and v is None and k not in na:   # the band prints a price, the Costing has none
+                        missing[k].append(p); continue
                     if v is None:  # catalog prints "-"
                         if mine is not None and k != "adult":
                             extra_child.append((k, p))
@@ -169,7 +176,7 @@ def main():
             flag(code, "medium", "Price", "%s: hub price changes inside a catalog pax band" % title,
                  "The catalog prints one price per band (its first pax); the hub has different prices inside: " + "; ".join(uneven[:6]) + ("…" if len(uneven) > 6 else "") + ".",
                  "Use one catalog price for every pax in the band on the Costing tab, or split the band in the catalog.", package=title)
-        inf = money(pr.get("infant"))
+        inf = None if linked else money(pr.get("infant"))
         if inf is not None and abs(inf - float(pkg["pricing"].get("infant") or 0)) > 0.5:
             flag(code, "medium", "Price", "%s: infant price differs" % title,
                  "Catalog %s (\"%s\") vs hub %s." % (rm(inf), pr.get("infant"), rm(float(pkg["pricing"].get("infant") or 0))),

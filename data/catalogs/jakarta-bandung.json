@@ -46,39 +46,19 @@
     ],
     "rows": [
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM1,487",
-          "RM1,387",
-          "RM1,187"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4 - 5",
-        "amounts": [
-          "RM1,227",
-          "RM1,127",
-          "RM927"
-        ]
+        "pax": "4 - 5"
       },
       {
-        "pax": "6 - 9",
-        "amounts": [
-          "RM1,187",
-          "RM1,087",
-          "RM887"
-        ]
+        "pax": "6 - 9"
       },
       {
-        "pax": "10 - 19",
-        "amounts": [
-          "RM1,147",
-          "RM1,047",
-          "RM847"
-        ]
+        "pax": "10 - 19"
       }
     ],
-    "infant": "FOC"
+    "infant": "{price}"
   },
   "price_blocks": [
     {
@@ -321,5 +301,6 @@
         "** Guests can pay directly at the attraction place if keen."
       ]
     }
-  ]
+  ],
+  "price_version": 30
 }

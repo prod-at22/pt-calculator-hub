@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Catalog content for the Catalog Details tab and for catalog-pt-public: data/catalogs/<slug>.json.
+"""Catalog content for the Packaging Details tab and for catalog-pt-public: data/catalogs/<slug>.json.
 
-The hub is the source of truth; Catalog PT (Drive "Catalog PT (new)") mirrors data/catalogs/ — its
-build.py pulls these files byte for byte before building catalog-pt-public. Edit catalogs HERE.
+The hub is the source of truth. Edit catalogs on the page (Packaging Details, Edit costs) — package prices
+are not in these files: they come from the Costing tab (catalog-build/hub_prices.py).
 
-    python3 tools/import_catalogs.py                 # rebuild data/catalogs/index.json after editing a catalog
-    python3 tools/import_catalogs.py --from-drive    # the one-off reverse import (8 Oct 2026); overwrites
-                                                     # data/catalogs/ with Catalog PT's copy — not for normal use
+    python3 tools/import_catalogs.py                 # rebuild data/catalogs/index.json after adding a catalog
 
 index.json = {slug: {code, package, title, duration, version, updated, url}} — which calculator package each
 catalog belongs to (MAP in flags.py); the destination page's Catalog Details tab reads it.
@@ -25,6 +23,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--from-drive", action="store_true"); a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
     if a.from_drive:
+        sys.exit("--from-drive is retired: Drive copies may still carry old printed prices. The hub is the source.")
         for f in sorted(glob.glob(os.path.join(DRIVE, "*.json"))):
             assert json.load(open(f))["slug"] == os.path.basename(f)[:-5], f
             shutil.copyfile(f, os.path.join(OUT, os.path.basename(f)))   # byte for byte, so the mirror has no diff

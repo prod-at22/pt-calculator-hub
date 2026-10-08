@@ -46,15 +46,10 @@
     ],
     "rows": [
       {
-        "pax": "2 - 10",
-        "amounts": [
-          "RM1,297",
-          "RM1,097",
-          "RM997"
-        ]
+        "pax": "2 - 10"
       }
     ],
-    "infant": "FOC",
+    "infant": "{price}",
     "notes": [
       "Upgrade to 4 Star Hotel: RM250/person"
     ]
@@ -261,5 +256,6 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }

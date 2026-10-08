@@ -47,39 +47,19 @@
     ],
     "rows": [
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM5,697",
-          "RM5,497",
-          "RM5,297"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4 - 5",
-        "amounts": [
-          "RM4,497",
-          "RM4,297",
-          "RM4,097"
-        ]
+        "pax": "4 - 5"
       },
       {
-        "pax": "6 - 9",
-        "amounts": [
-          "RM4,097",
-          "RM3,897",
-          "RM3,697"
-        ]
+        "pax": "6 - 9"
       },
       {
-        "pax": "10 - 14",
-        "amounts": [
-          "RM3,597",
-          "RM3,397",
-          "RM3,197"
-        ]
+        "pax": "10 - 14"
       }
     ],
-    "infant": "FOC"
+    "infant": "{price}"
   },
   "price_blocks": [
     {
@@ -329,5 +309,6 @@
       "name": "LanOu Hotel",
       "similar": true
     }
-  ]
+  ],
+  "price_version": 30
 }

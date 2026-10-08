@@ -51,63 +51,28 @@
     ],
     "rows": [
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM2,597",
-          "RM2,397",
-          "RM2,197"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4",
-        "amounts": [
-          "RM2,437",
-          "RM2,237",
-          "RM2,037"
-        ]
+        "pax": "4"
       },
       {
-        "pax": "5 - 6",
-        "amounts": [
-          "RM2,257",
-          "RM2,057",
-          "RM1,857"
-        ]
+        "pax": "5 - 6"
       },
       {
-        "pax": "7 - 8",
-        "amounts": [
-          "RM2,077",
-          "RM1,877",
-          "RM1,677"
-        ]
+        "pax": "7 - 8"
       },
       {
-        "pax": "9 - 10",
-        "amounts": [
-          "RM1,967",
-          "RM1,767",
-          "RM1,567"
-        ]
+        "pax": "9 - 10"
       },
       {
-        "pax": "11 - 15",
-        "amounts": [
-          "RM1,857",
-          "RM1,657",
-          "RM1,457"
-        ]
+        "pax": "11 - 15"
       },
       {
-        "pax": "16 - 20",
-        "amounts": [
-          "RM1,737",
-          "RM1,537",
-          "RM1,337"
-        ]
+        "pax": "16 - 20"
       }
     ],
-    "infant": "FOC",
+    "infant": "{price}",
     "basis": "Price Per Person · 3 Star Fullboard",
     "pax_label": "Number of Adult"
   },
@@ -314,5 +279,6 @@
       "figure": "45 days",
       "text": "prior to departure for full payment"
     }
-  ]
+  ],
+  "price_version": 30
 }

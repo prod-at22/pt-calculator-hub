@@ -38,10 +38,7 @@
     ],
     "rows": [
       {
-        "pax": "3 Star Hotel",
-        "amounts": [
-          "RM2,897"
-        ]
+        "pax": "3 Star Hotel"
       }
     ],
     "pax_label": "Adult (per couple)",
@@ -257,5 +254,6 @@
       "text": "prior to arrival for full payment"
     }
   ],
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }

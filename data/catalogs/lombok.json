@@ -47,39 +47,19 @@
     ],
     "rows": [
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM1,257",
-          "RM1,157",
-          "RM1,057"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4 - 6",
-        "amounts": [
-          "RM1,197",
-          "RM1,097",
-          "RM997"
-        ]
+        "pax": "4 - 6"
       },
       {
-        "pax": "7 - 10",
-        "amounts": [
-          "RM1,157",
-          "RM1,057",
-          "RM957"
-        ]
+        "pax": "7 - 10"
       },
       {
-        "pax": "11 - 15",
-        "amounts": [
-          "RM1,097",
-          "RM997",
-          "RM897"
-        ]
+        "pax": "11 - 15"
       }
     ],
-    "infant": "FOC"
+    "infant": "{price}"
   },
   "price_blocks": [
     {
@@ -273,5 +253,6 @@
       "figure": "45 days",
       "text": "before departure for full payment"
     }
-  ]
+  ],
+  "price_version": 30
 }

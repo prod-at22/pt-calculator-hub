@@ -51,47 +51,22 @@
     ],
     "rows": [
       {
-        "pax": "2",
-        "amounts": [
-          "RM7,497",
-          "RM7,297",
-          "RM7,097"
-        ]
+        "pax": "2"
       },
       {
-        "pax": "3 - 4",
-        "amounts": [
-          "RM7,197",
-          "RM6,997",
-          "RM6,797"
-        ]
+        "pax": "3 - 4"
       },
       {
-        "pax": "5 - 6",
-        "amounts": [
-          "RM6,997",
-          "RM6,797",
-          "RM6,597"
-        ]
+        "pax": "5 - 6"
       },
       {
-        "pax": "7 - 8",
-        "amounts": [
-          "RM6,797",
-          "RM6,597",
-          "RM6,397"
-        ]
+        "pax": "7 - 8"
       },
       {
-        "pax": "9 - 10",
-        "amounts": [
-          "RM6,397",
-          "RM6,197",
-          "RM5,997"
-        ]
+        "pax": "9 - 10"
       }
     ],
-    "infant": "RM1,000"
+    "infant": "{price}"
   },
   "price_blocks": [
     {
@@ -429,5 +404,6 @@
       }
     ]
   },
-  "product": "ST"
+  "product": "ST",
+  "price_version": 30
 }

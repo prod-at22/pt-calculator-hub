@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-08T22:27:06+08:00",
- "dataVersion": 29,
+ "generatedAt": "2026-10-08T22:36:41+08:00",
+ "dataVersion": 30,
  "flags": [
   {
    "code": "ACEHSBG",
@@ -124,13 +124,33 @@
   },
   {
    "code": "PHT",
+   "package": "Perhentian Basic 3D2N · Shari-La Resort",
+   "severity": "high",
+   "area": "Cost",
+   "title": "Perhentian · Perhentian Basic 3D2N · Shari-La Resort: price but no cost",
+   "detail": "Pax 1 have a selling price but no TO cost.",
+   "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
+   "id": 13
+  },
+  {
+   "code": "PHT",
+   "package": "Perhentian Standard 3D2N · Mimpi Resort",
+   "severity": "high",
+   "area": "Cost",
+   "title": "Perhentian · Perhentian Standard 3D2N · Mimpi Resort: price but no cost",
+   "detail": "Pax 1 have a selling price but no TO cost.",
+   "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
+   "id": 14
+  },
+  {
+   "code": "PHT",
    "package": null,
    "severity": "high",
    "area": "Margin",
    "title": "Perhentian: margin problems in 2 package/TO lines",
    "detail": "Perhentian Basic 3D2N · Shari-La Resort — adult margin under 10% Pax 26–30 (lowest 3.2%) · Perhentian Basic 3D2N · Shari-La Resort — CWB selling below cost Pax 21–30.",
    "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 13
+   "id": 15
   },
   {
    "code": "PHU",
@@ -140,7 +160,7 @@
    "title": "Phuket: margin problems in 15 package/TO lines",
    "detail": "Phuket Standard 4D3N · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 26–30 (worst -2%) · Phuket Standard 4D3N · Ibis 3★ · Low Season — adult margin under 10% Pax 16–25 (lowest 3.3%) · Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr — adult margin under 10% Pax 16–30 (lowest 1.2%) · Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr — adult margin under 10% Pax 21–30 (lowest 4.8%) · Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec — adult margin under 10% Pax 21–30 (lowest 5.0%) · Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec — adult margin under 10% Pax 26–30 (lowest 7.9%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 16–30 (worst -8%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — adult margin under 10% Pax 11–15 (lowest 0.6%) · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CWB selling below cost Pax 16–30 · Phuket Basic 4D3N (Phi Phi) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30 · Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season — adult margin under 10% Pax 21–30 (lowest 7.6%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — selling below cost Negative adult margin at pax 21–30 (worst -5%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — adult margin under 10% Pax 5–20 (lowest 1.2%) · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CWB selling below cost Pax 21–30 · Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season — CNB selling below cost Pax 21–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Raise the price for those pax or renegotiate the TO rate. Review the price for these pax or the TO rate.",
-   "id": 14
+   "id": 16
   },
   {
    "code": "PQC",
@@ -150,7 +170,7 @@
    "title": "Phu Quoc: margin problems in 4 package/TO lines",
    "detail": "Phu Quoc 4D3N — adult margin under 10% Pax 2, 4–5, 26–30 (lowest 1.8%) · Phu Quoc 4D3N — CWB selling below cost Pax 2, 5, 21–30 · Phu Quoc 4D3N — CNB selling below cost Pax 26–30 · Phu Quoc 5D4N — CWB selling below cost Pax 26–30.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
-   "id": 15
+   "id": 17
   },
   {
    "code": "SEL",
@@ -160,7 +180,7 @@
    "title": "Seoul · Seoul Self Tour 5D4N: price but no cost",
    "detail": "Pax 13–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 16
+   "id": 18
   },
   {
    "code": "SEM",
@@ -170,7 +190,7 @@
    "title": "Semporna · Semporna Basic 3D2N · 1★ Water Chalet: price but no cost",
    "detail": "Pax 1 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 17
+   "id": 19
   },
   {
    "code": "SEM",
@@ -180,7 +200,7 @@
    "title": "Semporna · Semporna Standard 4D3N · 1★ Water Chalet: price but no cost",
    "detail": "Pax 1 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 18
+   "id": 20
   },
   {
    "code": "SUBB",
@@ -190,7 +210,7 @@
    "title": "Surabaya - Bromo - Malang: margin problems in 2 package/TO lines",
    "detail": "Surabaya - Bromo - Malang 4D3N — CWB selling below cost Pax 2 · Surabaya - Bromo - Malang 4D3N — CNB selling below cost Pax 2.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price.",
-   "id": 19
+   "id": 21
   },
   {
    "code": "ALL",
@@ -200,7 +220,7 @@
    "title": "AUD → MYR differs between destinations",
    "detail": "2.85 = MEL; 2.853746 = PER.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 20
+   "id": 22
   },
   {
    "code": "ALL",
@@ -210,7 +230,7 @@
    "title": "IDR → MYR differs between destinations",
    "detail": "0.00022249 = DPS; 0.00022733 = JOG, LOP.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 21
+   "id": 23
   },
   {
    "code": "ALL",
@@ -220,7 +240,7 @@
    "title": "JPY → MYR differs between destinations",
    "detail": "0.0259 = KIX, OSK; 0.026 = HND; 0.029 = CTS, KIX, OSK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 22
+   "id": 24
   },
   {
    "code": "ALL",
@@ -230,7 +250,7 @@
    "title": "RMB → MYR differs between destinations",
    "detail": "0.58 = KMGDLS; 0.65 = PEK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 23
+   "id": 25
   },
   {
    "code": "ALL",
@@ -240,7 +260,7 @@
    "title": "THB → MYR differs between destinations",
    "detail": "0.122 = KBV, PHU; 0.131 = BKK.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 24
+   "id": 26
   },
   {
    "code": "ALL",
@@ -250,7 +270,7 @@
    "title": "USD → MYR differs between destinations",
    "detail": "3.97 = ISTBUR, TUR; 4.0295 = ISTCAP.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
-   "id": 25
+   "id": 27
   },
   {
    "code": "HND",
@@ -260,7 +280,7 @@
    "title": "Tokyo: margin problems in 1 package/TO line",
    "detail": "Tokyo Standard 5D4N — adult margin under 10% Pax 2 (lowest 6.6%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 26
+   "id": 28
   },
   {
    "code": "HNSH",
@@ -270,7 +290,7 @@
    "title": "Hanoi - Sapa - Halong Bay · Hanoi - Halong Bay 4D3N: price but no cost",
    "detail": "Pax 21–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 27
+   "id": 29
   },
   {
    "code": "HNSH",
@@ -280,7 +300,7 @@
    "title": "Hanoi - Sapa - Halong Bay · Hanoi - Sapa 5D4N: price but no cost",
    "detail": "Pax 21–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 28
+   "id": 30
   },
   {
    "code": "JJU",
@@ -290,7 +310,7 @@
    "title": "Jeju · Jeju Standard 4D3N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 29
+   "id": 31
   },
   {
    "code": "JJUO",
@@ -300,7 +320,7 @@
    "title": "Jeju - Udo · Jeju - Udo Standard 5D4N: price but no cost",
    "detail": "Pax 26–30 have a selling price but no TO cost.",
    "fix": "Add the TO rate for those pax in the hub (Edit costs), or stop quoting those pax counts.",
-   "id": 30
+   "id": 32
   },
   {
    "code": "JJUO",
@@ -310,7 +330,7 @@
    "title": "Jeju - Udo: margin problems in 1 package/TO line",
    "detail": "Jeju - Udo Standard 5D4N — adult margin under 10% Pax 2–3, 10 (lowest 3.8%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 31
+   "id": 33
   },
   {
    "code": "MEL",
@@ -320,7 +340,7 @@
    "title": "Melbourne: margin problems in 2 package/TO lines",
    "detail": "Melbourne Basic 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%) · Melbourne Standard 5D4N — adult margin under 10% Pax 11–12 (lowest 5.3%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 32
+   "id": 34
   },
   {
    "code": "PER",
@@ -330,26 +350,6 @@
    "title": "Perth: margin problems in 2 package/TO lines",
    "detail": "Perth Standard 5D4N — adult margin under 10% Pax 2 (lowest 10.0%) · Perth Premium 6D5N — adult margin under 10% Pax 2 (lowest 8.9%).",
    "fix": "Review the price for these pax or the TO rate.",
-   "id": 33
-  },
-  {
-   "code": "PHT",
-   "package": "PAKEJ PERHENTIAN BASIC 3D2N",
-   "severity": "medium",
-   "area": "Coverage",
-   "title": "PAKEJ PERHENTIAN BASIC 3D2N: catalog prices pax the hub does not",
-   "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
-   "fix": "Add those pax to the package in the hub (price and TO cost).",
-   "id": 34
-  },
-  {
-   "code": "PHT",
-   "package": "PAKEJ PERHENTIAN STANDARD 3D2N",
-   "severity": "medium",
-   "area": "Coverage",
-   "title": "PAKEJ PERHENTIAN STANDARD 3D2N: catalog prices pax the hub does not",
-   "detail": "Pax 1 printed in the catalog (ADULT) but not priced in the hub.",
-   "fix": "Add those pax to the package in the hub (price and TO cost).",
    "id": 35
   },
   {

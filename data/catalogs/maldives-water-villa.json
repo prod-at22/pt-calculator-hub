@@ -51,15 +51,10 @@
     ],
     "rows": [
       {
-        "pax": "2 - 10",
-        "amounts": [
-          "RM 5,197",
-          "RM 4,997",
-          "RM 4,797"
-        ]
+        "pax": "2 - 10"
       }
     ],
-    "infant": "RM100 (0-2 yrs)"
+    "infant": "{price} (0-2 yrs)"
   },
   "price_blocks": [
     {
@@ -207,5 +202,6 @@
       "text": "before departure for full payment"
     }
   ],
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }

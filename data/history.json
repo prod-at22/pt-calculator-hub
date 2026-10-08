@@ -19324,6 +19324,56 @@
      "label": "Semporna › Semporna Standard 4D3N · 1★ Water Chalet › Catalog CNB @10 pax"
     }
    ]
+  },
+  {
+   "v": 30,
+   "at": "2026-10-08T14:32:47Z",
+   "by": "product",
+   "note": "Catalog prices read from Costing: Perhentian 1 pax added, Krabi Honeymoon couple RM2,897 (RM1,448.50 pp)",
+   "changes": [
+    {
+     "path": [
+      "destinations",
+      "PHT",
+      "packages",
+      "shari-la",
+      "pricing",
+      "adult",
+      "1"
+     ],
+     "from": null,
+     "to": 1457,
+     "label": "Perhentian › Perhentian Basic 3D2N · Shari-La Resort › Catalog ADULT @1 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "PHT",
+      "packages",
+      "mimpi",
+      "pricing",
+      "adult",
+      "1"
+     ],
+     "from": null,
+     "to": 2197,
+     "label": "Perhentian › Perhentian Standard 3D2N · Mimpi Resort › Catalog ADULT @1 pax"
+    },
+    {
+     "path": [
+      "destinations",
+      "KBV",
+      "packages",
+      "honeymoon",
+      "pricing",
+      "adult",
+      "2"
+     ],
+     "from": 1449,
+     "to": 1448.5,
+     "label": "Krabi › Krabi Honeymoon 4D3N › Catalog ADULT @2 pax"
+    }
+   ]
   }
  ]
 }

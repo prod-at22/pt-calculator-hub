@@ -52,19 +52,13 @@
     "rows": [
       {
         "pax": "1",
-        "amounts": [
-          "RM2,197",
-          "-",
-          "-"
+        "na": [
+          "cwb",
+          "cnb"
         ]
       },
       {
-        "pax": "2 - 10",
-        "amounts": [
-          "RM1,597",
-          "RM1,497",
-          "RM1,397"
-        ]
+        "pax": "2 - 10"
       }
     ]
   },
@@ -287,5 +281,6 @@
       }
     ]
   },
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }

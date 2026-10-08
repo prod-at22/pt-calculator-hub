@@ -52,43 +52,22 @@
     "rows": [
       {
         "pax": "1",
-        "amounts": [
-          "RM1,457",
-          "-",
-          "-"
+        "na": [
+          "cwb",
+          "cnb"
         ]
       },
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM1,097",
-          "RM997",
-          "RM897"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4 - 5",
-        "amounts": [
-          "RM1,057",
-          "RM957",
-          "RM857"
-        ]
+        "pax": "4 - 5"
       },
       {
-        "pax": "6 - 7",
-        "amounts": [
-          "RM1,007",
-          "RM907",
-          "RM807"
-        ]
+        "pax": "6 - 7"
       },
       {
-        "pax": "8 - 10",
-        "amounts": [
-          "RM997",
-          "RM897",
-          "RM797"
-        ]
+        "pax": "8 - 10"
       }
     ]
   },
@@ -311,5 +290,6 @@
       ]
     }
   ],
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }

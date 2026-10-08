@@ -37,6 +37,9 @@ import time
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import hub_prices  # noqa: E402
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CATALOGS = os.environ.get("PT_CATALOGS", os.path.join(ROOT, "..", "data", "catalogs"))
 TEMPLATES = os.path.join(ROOT, "templates")
@@ -188,6 +191,8 @@ def normalise(c):
 
 def load_catalogs(only=None):
     catalogs, problems = [], []
+    # package prices are not in the catalog file: they come from the Costing tab (hub_prices.py)
+    hub_data, hub_index = hub_prices.load_hub(CATALOGS)
     for fn in sorted(os.listdir(CATALOGS)):
         if not fn.endswith(".json") or fn.startswith("_") or fn == "index.json":   # index.json = hub's slug → package map
             continue
@@ -209,6 +214,11 @@ def load_catalogs(only=None):
         reserved = []
         check_reserved(c, "", reserved)
         problems.extend(f"{fn}: {r}" for r in reserved)
+        pkg = hub_prices.package_for(slug, hub_index, hub_data)
+        c["prices"] = hub_prices.resolve(c, pkg)
+        for row in (c.get("prices") or {}).get("rows") or []:
+            if "amounts" not in row:
+                problems.append(f"{fn}: price row {row.get('pax')!r} has no amounts and no Costing package to read them from")
         normalise(c)
         c["pdf"] = c["slug"] + ".pdf"
         c.setdefault("pdf_download_name", pdf_download_name(c))

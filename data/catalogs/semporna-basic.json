@@ -44,22 +44,16 @@
     "rows": [
       {
         "pax": "1",
-        "amounts": [
-          "RM1,897",
-          "-",
-          "-"
+        "na": [
+          "cwb",
+          "cnb"
         ]
       },
       {
-        "pax": "2 - 10",
-        "amounts": [
-          "RM1,397",
-          "RM1,197",
-          "RM997"
-        ]
+        "pax": "2 - 10"
       }
     ],
-    "infant": "FOC"
+    "infant": "{price}"
   },
   "price_blocks": [
     {
@@ -415,5 +409,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "product": "PAKEJ"
+  "product": "PAKEJ",
+  "price_version": 30
 }
