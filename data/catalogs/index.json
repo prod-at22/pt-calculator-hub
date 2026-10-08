@@ -1,13 +1,4 @@
 {
- "aceh-sabang": {
-  "code": "ACEHSBG",
-  "package": "asonanggroe-3-star",
-  "title": "PRIVATE TOUR ACEH + SABANG",
-  "duration": "5D4N",
-  "version": "v2",
-  "updated": "2026-03-01",
-  "url": "https://prod-at22.github.io/catalog-pt-public/aceh-sabang.html"
- },
  "aceh": {
   "code": "ACEH",
   "package": "asonanggroe-3-star",
@@ -16,6 +7,15 @@
   "version": "v1",
   "updated": "2026-03-01",
   "url": "https://prod-at22.github.io/catalog-pt-public/aceh.html"
+ },
+ "aceh-sabang": {
+  "code": "ACEHSBG",
+  "package": "asonanggroe-3-star",
+  "title": "PRIVATE TOUR ACEH + SABANG",
+  "duration": "5D4N",
+  "version": "v2",
+  "updated": "2026-03-01",
+  "url": "https://prod-at22.github.io/catalog-pt-public/aceh-sabang.html"
  },
  "bali-honeymoon-premium": {
   "code": "DPS",
@@ -80,15 +80,6 @@
   "updated": "2026-08-06",
   "url": "https://prod-at22.github.io/catalog-pt-public/danang-hoi-an-5d4n.html"
  },
- "hanoi-sapa-halong": {
-  "code": "HNSH",
-  "package": "ibrahim-5d4n",
-  "title": "PRIVATE TOUR HANOI - SAPA - HALONG BAY",
-  "duration": "5D4N",
-  "version": "v4",
-  "updated": "2026-03-12",
-  "url": "https://prod-at22.github.io/catalog-pt-public/hanoi-sapa-halong.html"
- },
  "hanoi-sapa": {
   "code": "HNSH",
   "package": "ibrahim-4d3n",
@@ -98,14 +89,14 @@
   "updated": "2026-03-12",
   "url": "https://prod-at22.github.io/catalog-pt-public/hanoi-sapa.html"
  },
- "hcm-dalat-muine-4d3n": {
-  "code": "DLMNHCM",
-  "package": "ibrahim-4d3n",
-  "title": "PRIVATE TOUR HO CHI MINH - DALAT - MUINE",
-  "duration": "4D3N",
-  "version": "v2",
-  "updated": "2026-03-11",
-  "url": "https://prod-at22.github.io/catalog-pt-public/hcm-dalat-muine-4d3n.html"
+ "hanoi-sapa-halong": {
+  "code": "HNSH",
+  "package": "ibrahim-5d4n",
+  "title": "PRIVATE TOUR HANOI - SAPA - HALONG BAY",
+  "duration": "5D4N",
+  "version": "v4",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hanoi-sapa-halong.html"
  },
  "hcm-dalat-muine": {
   "code": "DLMNHCM",
@@ -115,6 +106,15 @@
   "version": "v2",
   "updated": "2026-03-11",
   "url": "https://prod-at22.github.io/catalog-pt-public/hcm-dalat-muine.html"
+ },
+ "hcm-dalat-muine-4d3n": {
+  "code": "DLMNHCM",
+  "package": "ibrahim-4d3n",
+  "title": "PRIVATE TOUR HO CHI MINH - DALAT - MUINE",
+  "duration": "4D3N",
+  "version": "v2",
+  "updated": "2026-03-11",
+  "url": "https://prod-at22.github.io/catalog-pt-public/hcm-dalat-muine-4d3n.html"
  },
  "ho-chi-minh": {
   "code": "HCM",
@@ -161,15 +161,6 @@
   "updated": "2026-08-08",
   "url": "https://prod-at22.github.io/catalog-pt-public/jakarta-bandung.html"
  },
- "jeju-udo": {
-  "code": "JJUO",
-  "package": "atk-std",
-  "title": "PRIVATE TOUR JEJU - UDO STANDARD",
-  "duration": "5D4N",
-  "version": "v1",
-  "updated": "2026-03-12",
-  "url": "https://prod-at22.github.io/catalog-pt-public/jeju-udo.html"
- },
  "jeju": {
   "code": "JJU",
   "package": "atk-pt",
@@ -178,6 +169,15 @@
   "version": "v2",
   "updated": "2026-03-12",
   "url": "https://prod-at22.github.io/catalog-pt-public/jeju.html"
+ },
+ "jeju-udo": {
+  "code": "JJUO",
+  "package": "atk-std",
+  "title": "PRIVATE TOUR JEJU - UDO STANDARD",
+  "duration": "5D4N",
+  "version": "v1",
+  "updated": "2026-03-12",
+  "url": "https://prod-at22.github.io/catalog-pt-public/jeju-udo.html"
  },
  "jogjakarta": {
   "code": "JOG",
@@ -296,6 +296,15 @@
   "updated": "2026-03-12",
   "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-only.html"
  },
+ "nz-north-south": {
+  "code": "NSNZ",
+  "package": "arba-to-10d9n-n-s",
+  "title": "PRIVATE TOUR NEW ZEALAND NORTH & SOUTH ISLAND",
+  "duration": "10D9N",
+  "version": "v3",
+  "updated": "2026-03-05",
+  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south.html"
+ },
  "nz-north-south-apartment": {
   "code": "NSNZ",
   "package": "arba-to-9d8n-apt",
@@ -313,15 +322,6 @@
   "version": "v3",
   "updated": "2026-03-12",
   "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south-standard.html"
- },
- "nz-north-south": {
-  "code": "NSNZ",
-  "package": "arba-to-10d9n-n-s",
-  "title": "PRIVATE TOUR NEW ZEALAND NORTH & SOUTH ISLAND",
-  "duration": "10D9N",
-  "version": "v3",
-  "updated": "2026-03-05",
-  "url": "https://prod-at22.github.io/catalog-pt-public/nz-north-south.html"
  },
  "nz-south-only": {
   "code": "NSNZ",
