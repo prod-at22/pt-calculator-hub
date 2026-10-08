@@ -664,7 +664,7 @@ const fmtSize = b => b >= 1048576 ? (b / 1048576).toFixed(1) + " MB" : Math.max(
 /* ============================================================ catalog details
    The catalog content (itinerary, includes / excludes, add-ons, notes …) lives in data/catalogs/<slug>.json,
    same schema as Catalog PT, which mirrors it to catalog-pt-public. index.json links slug → package. */
-const CAT = { index: null, docs: {}, edit: {}, err: null };   // edit[slug] = unsaved Packaging Details edits
+const CAT = { index: null, docs: {}, edit: {}, err: null };   // edit[slug] = unsaved catalog content edits (Itinerary / Surcharge / … tabs)
 function loadCatalog(path, set) {
   fetchJson(PATHS.catalogs + path).then(set).catch(e => { CAT.err = e.message; }).then(() => { if (PAGE_DEST) render(); });
 }
@@ -830,7 +830,7 @@ function snapshotAt(v) {
   if (e) { snap.updatedAt = e.at; snap.updatedBy = e.by; }
   return snap;
 }
-// Catalog (Packaging Details) edits are tracked as paths ["catalogs", slug, …] next to the data changes.
+// Catalog content edits are tracked as paths ["catalogs", slug, …] next to the data changes.
 const isCatPath = p => p[0] === "catalogs";
 const catPending = () => Object.keys(CAT.edit).flatMap(sl => CAT.docs[sl] ? diff(CAT.docs[sl], CAT.edit[sl]).map(c => ({ ...c, path: ["catalogs", sl, ...c.path] })) : []);
 const pendingChanges = () => [...(BASE && DATA ? diff(stripMeta(BASE), stripMeta(DATA)) : []), ...catPending()];
@@ -936,9 +936,9 @@ async function catalogFiles(dataChanges, catChanges, next, head, token) {
   for (const sl of slugsEdited) {
     const cat = await get(sl), mine = catChanges.filter(c => c.path[1] === sl).map(c => ({ ...c, path: c.path.slice(2) }));
     const clash = mine.filter(c => JSON.stringify(getPath(cat, c.path)) !== JSON.stringify(c.from));
-    if (clash.length) throw new Error(`Someone else changed Packaging Details of ${sl} (${clash.slice(0, 2).map(c => c.path.join(" › ")).join("; ")}). Reload and re-apply.`);
+    if (clash.length) throw new Error(`Someone else changed catalog ${sl} (${clash.slice(0, 2).map(c => c.path.join(" › ")).join("; ")}). Reload and re-apply.`);
     for (const c of mine) setPath(cat, c.path, c.to == null ? undefined : clone(c.to));
-    summary.push(`Packaging Details ${sl}: ${mine.length} change${mine.length > 1 ? "s" : ""}`);
+    summary.push(`Catalog ${sl} content: ${mine.length} change${mine.length > 1 ? "s" : ""}`);
   }
   for (const [sl, m] of Object.entries(idx)) {
     const p = priced.has(m.code + "|" + m.package), ao = addonDest.has(m.code);

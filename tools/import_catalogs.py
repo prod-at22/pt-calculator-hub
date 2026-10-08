@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Catalog content for the Packaging Details tab and for catalog-pt-public: data/catalogs/<slug>.json.
+"""Catalog content for the Itinerary / Surcharge / What to Expect / Policy tabs and for catalog-pt-public: data/catalogs/<slug>.json.
 
-The hub is the source of truth. Edit catalogs on the page (Packaging Details, Edit costs) — package prices
+The hub is the source of truth. Edit catalogs on the page (those tabs, Edit costs) — package prices
 are not in these files: they come from the Costing tab (catalog-build/hub_prices.py).
 
     python3 tools/import_catalogs.py                 # rebuild data/catalogs/index.json after adding a catalog
