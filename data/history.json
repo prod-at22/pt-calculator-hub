@@ -39559,6 +39559,18 @@
     "Catalog prices unchanged"
    ],
    "changes": []
+  },
+  {
+   "v": 44,
+   "at": "2026-10-09T07:31:36Z",
+   "by": "system",
+   "note": "Bangkok Costing from PT BANGKOK R&D 2026 sheet COSTING BKK (reference only; PO 9 Oct): 4D3N Bangkok STD no meals (breakfast only) — airport transfer + day tour by SUV / van, Hotel Almas 3★ 1,200 THB, entrance Chaiyo Praya + Chocolate Village + Grand Palace; THB → MYR now live FX (fallback 0.12146)",
+   "summary": [
+    "Cost/pax adult = COSTING BKK at its FX: 2 pax RM1,011 · 3 RM782 · 4 RM713 · 6 RM583 · 8 RM518 · 9 RM649 · 10 RM616 (before: 1,299 / 1,070 / 955 / 867 / 803 / 782 / 902)",
+    "Meals removed (breakfast only); hotel 1,250 → 1,200 THB; SUV 1–3 pax, van 4–8, van + SUV 9–10; 11+ pax: 1 van per 8 pax + rest SUV (1–3) / van (4–7)",
+    "FX entries can be live (\"live\": currency): today's ECB rate (frankfurter.dev, fallback open.er-api.com) when the page opens; stored value = fallback. Bangkok THB is live"
+   ],
+   "changes": []
   }
  ]
 }
