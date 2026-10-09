@@ -82,8 +82,8 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   data/kb/<slug>.json and dispatches pt-kb-house mirror.yml. Step 2 (tiers from Costing) is parked on local branch
   kb-step2-tiers — waiting for the PO's answers (Aceh 31+ pax, Lombok HNY 4★ / Phuket 4★ hub vs catalog surcharge, Aceh-Sabang CWB/CNB 16+).
 - **Accommodation tab** (PO 9 Oct, v36): hotels moved out of 58 catalog files into data.json destinations[].hotels
-  (152 hotels, 35 destinations); all 67 catalogs resolve identical. KB hotel cards edited on the same tab (still stored in
-  data/kb, separate from catalog hotels — PO can merge them later).
+  (152 hotels, 35 destinations); all 67 catalogs resolve identical. KB hotel cards merged (v37): cards link hotels by id, names
+  from the list; 18 cards stay text (notes / multi-city catalog rows: KK 3★, Medan 4★, Korea Seoul Std & Seoul–Jeju).
 - One source of truth (PO 9 Oct, v35): KB price tables, itineraries, includes / excludes are built from the Costing +
   Itinerary tabs (data/kb map.packages links each KB package to its catalog); the KB file keeps none of them. Package
   text uses {{dari:N}} {{2pax:N}} {{pasangan:N}}. Still KB text with prices: compare blocks + FAQ (~138 mentions) — next.

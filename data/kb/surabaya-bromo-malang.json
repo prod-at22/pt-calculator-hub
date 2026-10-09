@@ -328,39 +328,52 @@
   "hotels": [
    {
     "tier": "3★ Bromo (default)",
-    "name": "Lava View Lodge / homestay",
     "note": "Homestay-style, fasiliti asas. Dekat view point sunrise.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h03"
+    ],
+    "extra": "homestay"
    },
    {
     "tier": "3★ Malang (default)",
-    "name": "Aston Inn Batu / similar",
     "note": "3★ selesa di Batu/Malang. Extra bed untuk triple.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h07"
+    ]
    },
    {
     "tier": "3★ Surabaya (default)",
-    "name": "The Alana / similar",
     "note": "3★ di Surabaya. Extra bed untuk triple.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h01"
+    ]
    },
    {
     "tier": "4★ Bromo (+RM240/pax)",
-    "name": "Grand Whiz Hotel / similar",
     "note": "Proper triple bed tersedia. Upgrade seluruh trip.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h06"
+    ]
    },
    {
     "tier": "4★ Malang (+RM240/pax)",
-    "name": "Regent Park Hotel / similar",
     "note": "4★ Malang. Proper family room.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h05"
+    ]
    },
    {
     "tier": "4★ Surabaya (+RM240/pax)",
-    "name": "Goldvitel Hotel / similar",
     "note": "4★ Surabaya. Proper triple bed.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "subb-h04"
+    ]
    }
   ],
   "actGroups": [],

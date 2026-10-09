@@ -297,17 +297,21 @@
   "hotels": [
    {
     "tier": "3★ (default)",
-    "name": "Rova Hotel / Phung Hung Hotel Phu Quoc",
     "note": "Termasuk dalam pakej · sarapan setiap hari · keutamaan berdekatan city centre / Sunset Town (Selatan). Susunan hotel muktamad 14 hari sebelum trip.",
     "emoji": "🏨",
-    "img": "@asset:f69a88249afc"
+    "img": "@asset:f69a88249afc",
+    "hotels": [
+     "pqc-h01"
+    ]
    },
    {
     "tier": "4★ (upgrade)",
-    "name": "Muong Thanh Luxury / Marina Seaside Boutique Phu Quoc",
     "note": "Tambah RM140/pax/malam (4D3N +RM420 · 5D4N +RM560). Laundry service hotel ada (tiada self-service).",
     "emoji": "🏩",
-    "img": "@asset:a358a8e956cb"
+    "img": "@asset:a358a8e956cb",
+    "hotels": [
+     "pqc-h02"
+    ]
    },
    {
     "tier": "Special (Utara)",

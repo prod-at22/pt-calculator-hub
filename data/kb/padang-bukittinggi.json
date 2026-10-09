@@ -317,15 +317,20 @@
   "hotels": [
    {
     "tier": "3★ (default)",
-    "name": "Grand Bunda / Royal Denai (Bukittinggi) · hotel 3★ setaraf (Padang)",
     "note": "Standard double-sharing. Harga asas 2–3 orang sebilik; extra bed boleh disediakan untuk triple.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "pdg-h01"
+    ],
+    "extra": "hotel 3★ setaraf"
    },
    {
     "tier": "4★ (upgrade +RM80/pax/mlm)",
-    "name": "Grand Rocky / Santika / Grand Royal Denai",
     "note": "Bilik triple sedia ada. Naik taraf +RM80/pax/malam atas kadar 3★.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "pdg-h02"
+    ]
    }
   ],
   "actGroups": [],

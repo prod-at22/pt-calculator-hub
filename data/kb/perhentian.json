@@ -369,31 +369,39 @@
   "hotels": [
    {
     "tier": "Budget - Perhentian Besar",
-    "name": "Flora Bay Resort",
     "emoji": "",
     "note": "Perhentian Besar. Bilik chalet, pantai tenang. Sumber: rate card ARBA - tiada dalam katalog V3.",
-    "img": "Perhentian Besar, Malaysia, West beach.jpg"
+    "img": "Perhentian Besar, Malaysia, West beach.jpg",
+    "hotels": [
+     "pht-h01"
+    ]
    },
    {
     "tier": "Basic - Perhentian Kecil",
-    "name": "Shari-la Perhentian Resort",
     "emoji": "",
     "note": "Long Beach, Perhentian Kecil. Default Standard Room, aircond. Hotel rasmi katalog BASIC V3 2026.",
-    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg"
+    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg",
+    "hotels": [
+     "pht-h02"
+    ]
    },
    {
     "tier": "3 Bintang - Perhentian Kecil",
-    "name": "Ombak Perhentian Resort",
     "emoji": "",
     "note": "Long Beach, Perhentian Kecil. Twin/Triple/Quad/Family. Sumber: rate card ARBA - tiada dalam katalog V3.",
-    "img": "Perhentian Beach (106319844).jpg"
+    "img": "Perhentian Beach (106319844).jpg",
+    "hotels": [
+     "pht-h03"
+    ]
    },
    {
     "tier": "Premium 4 Bintang - Perhentian Kecil",
-    "name": "Mimpi Perhentian Resort",
     "emoji": "",
     "note": "Perhentian Kecil. Default Standard Room. Hotel rasmi katalog STANDARD V3 2026.",
-    "img": "Perhentine island beach, Malesia.jpg"
+    "img": "Perhentine island beach, Malesia.jpg",
+    "hotels": [
+     "pht-h04"
+    ]
    }
   ],
   "actGroups": [],

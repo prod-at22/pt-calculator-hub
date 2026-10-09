@@ -238,22 +238,28 @@
   "hotels": [
    {
     "tier": "3/4★ — Zurich (2 malam)",
-    "name": "Holiday Inn Express, Zurich or similar",
     "note": "Dekat city centre / airport. Pilihan lain: The Flag Zurich, Mövenpick Airport, Dorint Airport, Ibis Styles Zurich Center.",
     "emoji": "🏨",
-    "img": "@asset:8bc7b1857aae"
+    "img": "@asset:8bc7b1857aae",
+    "hotels": [
+     "sws-h01"
+    ]
    },
    {
     "tier": "3/4★ — Bern (2+1 malam)",
-    "name": "Ibis Hotel, Bern or similar",
     "note": "Base untuk day-trip Interlaken/Lucerne & Jungfrau region.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "sws-h02"
+    ]
    },
    {
     "tier": "3/4★ — Täsch (1 malam)",
-    "name": "Matterhorn Inn, Täsch or similar",
     "note": "Dekat stesen train ke Zermatt — jimat masa & lebih banyak masa di Zermatt.",
-    "emoji": "🏔️"
+    "emoji": "🏔️",
+    "hotels": [
+     "sws-h03"
+    ]
    },
    {
     "tier": "Single Supplement",

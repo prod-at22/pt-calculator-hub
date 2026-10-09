@@ -257,31 +257,39 @@
   "hotels": [
    {
     "tier": "3 bintang - Standard & Honeymoon Standard",
-    "name": "Favehotel Kartika Plaza",
     "note": "Kuta / Legian. Pilihan lain: Swiss Belexpress Legian, Hotel Zia Kuta. Double sharing + sarapan; triple menggunakan extra bed.",
     "emoji": "",
-    "img": "@asset:ea184cadcad4"
+    "img": "@asset:ea184cadcad4",
+    "hotels": [
+     "dps-h03"
+    ]
    },
    {
     "tier": "4 bintang - upgrade Standard, termasuk Honeymoon Premium",
-    "name": "The One Legian",
     "note": "Pilihan lain: The Akmani Legian, Sun Island Hotel & Spa Legian (+RM60/pax/malam); Adhi Jaya Hotel, Wyndham Garden Hotel (+RM80/pax/malam). Proper triple room tersedia.",
     "emoji": "",
-    "img": "@asset:276cefbc58f3"
+    "img": "@asset:276cefbc58f3",
+    "hotels": [
+     "dps-h01"
+    ]
    },
    {
     "tier": "Private Pool Villa - Honeymoon Standard",
-    "name": "Asa Bali Villas & Spa",
     "note": "Seminyak. Pilihan lain: The Sakaye Villa & Spa, Maca Villas Umalas. Satu malam untuk Honeymoon Standard.",
     "emoji": "",
-    "img": "@asset:cbb399d1473c"
+    "img": "@asset:cbb399d1473c",
+    "hotels": [
+     "dps-h06"
+    ]
    },
    {
     "tier": "Luxury Private Pool Villa - Honeymoon Premium",
-    "name": "Asterra Villa Seminyak",
     "note": "Pilihan lain: Alaya Dedaun Kuta Villa, Lumbini Villa & Spa, Sana ViE Villa, La ViE Villa. Satu malam untuk Honeymoon Premium.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "dps-h02"
+    ]
    }
   ],
   "actGroups": [],

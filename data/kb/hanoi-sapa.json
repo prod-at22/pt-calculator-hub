@@ -246,33 +246,43 @@
   "hotels": [
    {
     "tier": "3★ Sapa (default)",
-    "name": "Saparis Hotel / Beautiful Sapa Hotel (atau setaraf)",
     "note": "2–3 org sebilik, breakfast included. 1 malam.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "hnsh-h01"
+    ]
    },
    {
     "tier": "3★ Hanoi (default)",
-    "name": "CWD Hotel / The Charm Hotel (atau setaraf)",
     "note": "2–3 org sebilik, breakfast included. 2 malam.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "hnsh-h02"
+    ]
    },
    {
     "tier": "3★ Halong Cruise (5D4N)",
-    "name": "Victory Star Cruise",
     "note": "1 malam overnight cruise, kabin keluarga. Kekal 3★ (tiada upgrade cruise).",
-    "emoji": "⛴️"
+    "emoji": "⛴️",
+    "hotels": [
+     "hnsh-h03"
+    ]
    },
    {
     "tier": "4★ Sapa (upgrade)",
-    "name": "Delasol Sapa / Aliana Boutique Sapa Hotel & Spa",
     "note": "Tambah RM140/pax/malam.",
-    "emoji": "✨"
+    "emoji": "✨",
+    "hotels": [
+     "hnsh-h04"
+    ]
    },
    {
     "tier": "4★ Hanoi (upgrade)",
-    "name": "Lake Residence / Lake Side Hotel",
     "note": "Tambah RM140/pax/malam (2 malam = RM280/pax).",
-    "emoji": "✨"
+    "emoji": "✨",
+    "hotels": [
+     "hnsh-h05"
+    ]
    },
    {
     "tier": "Single Room",

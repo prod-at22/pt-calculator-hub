@@ -278,10 +278,12 @@
   "hotels": [
    {
     "tier": "4★ (default)",
-    "name": "Derreal Hotel atau setaraf",
     "note": "4 malam di bandar Beijing, sarapan termasuk, 2–3 orang sebilik. Dah termasuk dalam harga pakej.",
     "emoji": "🏨",
-    "img": "@asset:11b3afb03b90"
+    "img": "@asset:11b3afb03b90",
+    "hotels": [
+     "pek-h01"
+    ]
    },
    {
     "tier": "4★ Superior (upgrade)",

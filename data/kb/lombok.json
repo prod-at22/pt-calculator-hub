@@ -292,24 +292,30 @@
   "hotels": [
    {
     "tier": "STD 3★ (default)",
-    "name": "Hotel Central Inn / Grand Sengigi / Fave Hotel (atau setaraf)",
     "note": "Lokasi CBD Mataram/Sengigi. 2 pax twin; 3 pax = extra bed (rollaway).",
     "emoji": "",
-    "img": "skimg:p29"
+    "img": "skimg:p29",
+    "hotels": [
+     "lop-h01"
+    ]
    },
    {
     "tier": "STD 4★ (upgrade)",
-    "name": "Hotel Aruna / Holiday Resort / Primepark (atau setaraf)",
     "note": "+RM80/pax/malam (+RM240/pax 3N). Triple sharing proper bed (3 single) jika available.",
     "emoji": "",
-    "img": "skimg:p30"
+    "img": "skimg:p30",
+    "hotels": [
+     "lop-h02"
+    ]
    },
    {
     "tier": "Honeymoon 3★",
-    "name": "Hotel Central Inn / Grand Sengigi / Fave (atau setaraf)",
     "note": "Double bed + Honeymoon Room Decoration.",
     "emoji": "",
-    "img": "skimg:p28"
+    "img": "skimg:p28",
+    "hotels": [
+     "lop-h01"
+    ]
    }
   ],
   "actGroups": [],

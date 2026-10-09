@@ -257,31 +257,42 @@
    },
    {
     "tier": "Guesthouse — Kundasang",
-    "name": "D'Manis / Lamin Kopio / White Valley / Kiram Village",
     "note": "Tier bajet · tiada breakfast · −RM100/pax (Weekday RM350–380, Weekend RM450–480)",
     "emoji": "🏡",
-    "img": "A luxury short-let bedroom.jpg"
+    "img": "A luxury short-let bedroom.jpg",
+    "hotels": [
+     "kkk-h04",
+     "kkk-h05",
+     "kkk-h06",
+     "kkk-h07"
+    ]
    },
    {
     "tier": "Guesthouse — Kota Kinabalu",
-    "name": "Marina Court",
     "note": "City apartment-style · tiada breakfast · −RM100/pax (Weekday RM280, Weekend RM350)",
     "emoji": "🏡",
-    "img": "A luxury short-let bedroom.jpg"
+    "img": "A luxury short-let bedroom.jpg",
+    "hotels": [
+     "kkk-h08"
+    ]
    },
    {
     "tier": "Upgrade 3.5★ — Kundasang",
-    "name": "Perkasa / Dreamworld (atau setaraf)",
     "note": "+RM150/pax/malam",
     "emoji": "⭐",
-    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
+    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg",
+    "hotels": [
+     "kkk-h02"
+    ]
    },
    {
     "tier": "Upgrade 4★ — Kota Kinabalu",
-    "name": "Promenade / Palace Hotel (city centre)",
     "note": "+RM150/pax/malam · 4★ KK sahaja (tiada 4★ di Kundasang)",
     "emoji": "⭐",
-    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
+    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg",
+    "hotels": [
+     "kkk-h03"
+    ]
    }
   ],
   "actGroups": [

@@ -304,27 +304,35 @@
   "hotels": [
    {
     "tier": "4★ · Kunming",
-    "name": "Country Inn & Suites by Radisson / Ramada Encore / Howard Johnson (atau setaraf)",
     "note": "2@3 sebilik. Kunming ada aircond & standard bandar besar.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "kmgdls-h01"
+    ]
    },
    {
     "tier": "4★ · Dali",
-    "name": "WenYue Hotel (atau setaraf)",
     "note": "1 malam. Berdekatan kawasan tarikan Dali.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "kmgdls-h02"
+    ]
    },
    {
     "tier": "4★ · Lijiang",
-    "name": "Kyriad Hotel (atau setaraf)",
     "note": "2 malam. Base untuk tour JDSM & Ancient Town.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "kmgdls-h03"
+    ]
    },
    {
     "tier": "4★ · Shangri La (4W sahaja)",
-    "name": "LanOu Hotel (atau setaraf)",
     "note": "1 malam. Altitud tinggi — bilik mungkin sederhana; bawa pakaian panas.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "kmgdls-h04"
+    ]
    }
   ],
   "actGroups": [],

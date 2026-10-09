@@ -224,31 +224,43 @@
   "hotels": [
    {
     "tier": "Hotel Bandar 3★ (default city hotel)",
-    "name": "Seafest Hotel / Seafest Lepa Wing (Pekan Semporna)",
     "note": "Malam di Pekan Semporna. Opsyen bilik Courtyard atau Sea View (upgrade surcharge). 2–3 sebilik.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "sem-h05",
+     "sem-h04"
+    ]
    },
    {
     "tier": "Water Chalet 1★ (default)",
-    "name": "Nusakuya · Blue Ocean · Starz Water Villa · Maglami-Lami · Aminah Holiday · Sisipan Island (Pulau Bum-Bum)",
     "note": "Malam atas air. Island hopping dari Pulau Bum-Bum. Nusakuya A/C 12 jam sahaja; sesetengah chalet guna generator 6ptg–6pg.",
     "emoji": "",
-    "img": "@asset:0e5cb4c5bfb6"
+    "img": "@asset:0e5cb4c5bfb6",
+    "hotels": [
+     "sem-h07",
+     "sem-h08",
+     "sem-h15"
+    ]
    },
    {
     "tier": "Water Chalet 2★",
-    "name": "Danglai Resort · Dayang Resort · Royal Resort (Standard Suite)",
     "note": "Naik taraf (upgrade surcharge). Island hopping dari Pulau Bum-Bum.",
     "emoji": "",
-    "img": "@asset:9492dfbb1a87"
+    "img": "@asset:9492dfbb1a87",
+    "hotels": [
+     "sem-h09",
+     "sem-h10"
+    ]
    },
    {
     "tier": "Water Chalet 3★",
-    "name": "Sipadan Kapalai (Standard / Water Village Sea View)",
     "note": "Premium water village di Mabul. Island hopping dari Pulau Mabul. Upgrade surcharge tinggi.",
     "emoji": "",
-    "img": "@asset:de1a4ca7bc88"
+    "img": "@asset:de1a4ca7bc88",
+    "hotels": [
+     "sem-h11"
+    ]
    }
   ],
   "actGroups": [],

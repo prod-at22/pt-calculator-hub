@@ -237,17 +237,22 @@
   "hotels": [
    {
     "tier": "3★ — default (Basic &amp; Standard)",
-    "name": "Ibis Melbourne atau setaraf",
     "note": "City Centre, dalam Free Tram Zone. Bilik double atau triple. Sarapan termasuk untuk Standard sahaja.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "mel-h01"
+    ]
    },
    {
     "tier": "4★ — upgrade atas permintaan",
-    "name": "Grand Chancellor atau Apart'hotel setaraf",
     "note": "Surcaj +RM125/pax/malam.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "mel-h03"
+    ],
+    "extra": "Apart'hotel setaraf"
    }
   ],
   "actGroups": [],

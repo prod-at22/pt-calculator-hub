@@ -39461,6 +39461,21 @@
     "All 67 catalogs resolve identical before and after"
    ],
    "changes": []
+  },
+  {
+   "v": 37,
+   "at": "2026-10-09T03:14:20Z",
+   "by": "system",
+   "note": "KB hotel cards merged with the Accommodation list (PO 9 Oct): a card links hotels by id and its name comes from the list; catalogs unchanged",
+   "summary": [
+    "94 KB hotel cards linked to Accommodation hotels; 18 stay as text (notes such as Single Supplement, or catalog rows that combine several cities)",
+    "24 KB-only hotels added to the Accommodation list (no catalog tick), e.g. Ayani, Grand PH, Perhentian resorts",
+    "Accommodation tab: 'Kad KB' column + card editor with hotel ticks"
+   ],
+   "kb": [
+    "KB hotel card names now from the Accommodation list"
+   ],
+   "changes": []
   }
  ]
 }

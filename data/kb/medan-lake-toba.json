@@ -262,30 +262,38 @@
   "hotels": [
    {
     "tier": "3 Bintang - Parapat (default)",
-    "name": "Atsari Hotel atau setaraf",
     "note": "Tepi Danau Toba. Twin/triple sharing, sarapan hotel.",
     "emoji": "",
-    "img": "sk:hotel_parapat"
+    "img": "sk:hotel_parapat",
+    "hotels": [
+     "ltoba-h01"
+    ]
    },
    {
     "tier": "3 Bintang - Samosir (Option B)",
-    "name": "Samosir Villa Resort atau setaraf",
     "note": "Di Pulau Samosir, guna untuk laluan Option B.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "ltoba-h02"
+    ]
    },
    {
     "tier": "3 Bintang - Berastagi (default)",
-    "name": "Uluna Hotel atau setaraf",
     "note": "Tanah tinggi Karo, cuaca sejuk waktu malam.",
     "emoji": "",
-    "img": "sk:hotel_berastagi"
+    "img": "sk:hotel_berastagi",
+    "hotels": [
+     "ltoba-h03"
+    ]
    },
    {
     "tier": "3 Bintang - Medan (default)",
-    "name": "MBS Hotel atau setaraf",
     "note": "Pusat bandar Medan, dekat kawasan shopping.",
     "emoji": "",
-    "img": "sk:hotel_medan"
+    "img": "sk:hotel_medan",
+    "hotels": [
+     "ltoba-h04"
+    ]
    },
    {
     "tier": "4 Bintang - Parapat (upgrade)",
@@ -301,9 +309,11 @@
    },
    {
     "tier": "4 Bintang - Medan (upgrade)",
-    "name": "Emerald Garden Hotel atau setaraf",
     "note": "Upgrade +RM100/pax/malam.",
-    "emoji": ""
+    "emoji": "",
+    "hotels": [
+     "ltoba-h07"
+    ]
    }
   ],
   "actGroups": [],

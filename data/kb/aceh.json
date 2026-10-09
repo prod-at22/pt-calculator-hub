@@ -203,27 +203,40 @@
   "HOTELS": [
    {
     "tier": "3★ (default) — Banda Aceh",
-    "name": "Grand Nanggroe / Oasis / Arabiya / Ayani / Grand PH",
     "note": "Double-sharing standard · rollaway untuk triple",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "aceh-h03",
+     "aceh-h02",
+     "aceh-h01",
+     "aceh-h07",
+     "aceh-h08"
+    ]
    },
    {
     "tier": "4★ — Banda Aceh",
-    "name": "Grand Arabiya",
     "note": "+RM50/pax/malam · triple/family room tersedia",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "aceh-h04"
+    ]
    },
    {
     "tier": "5★ — Banda Aceh",
-    "name": "Hermes Palace / Kyriad",
     "note": "+RM90/pax/malam · pilihan premium",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "aceh-h06",
+     "aceh-h05"
+    ]
    },
    {
     "tier": "Sabang (Pulau Weh)",
-    "name": "Freddies Sumur Tiga (3★)",
     "note": "KIPAS sahaja tanpa aircond · aircond hanya di Sabang Town",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "acehsbg-h03"
+    ]
    }
   ],
   "ITINSUGG_ACTS": [

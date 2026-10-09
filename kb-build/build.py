@@ -237,12 +237,34 @@ def fill_tokens(obj, hub, links, slug):
     return obj
 
 
+def hotel_cards(cards, hub):
+    """KB hotel cards name their hotels by id (Accommodation tab, data.json destinations[].hotels): the card's
+    name is the hotels' names, then the card's own extra text."""
+    H = {h["id"]: h for d in hub.data["destinations"] for h in d.get("hotels") or []}
+    out = []
+    for card in cards or []:
+        if "hotels" not in card:
+            out.append(card); continue
+        hs = [H[i] for i in card["hotels"] if i in H]
+        names = " / ".join(dict.fromkeys(h["name"] for h in hs if h.get("name")))
+        extra = card.get("extra") or ""
+        if any(h.get("similar") for h in hs) and not re.search(r"(?i)setara|similar", names + extra):
+            names += " (atau setaraf)"
+        c = {k: v for k, v in card.items() if k not in ("hotels", "extra")}
+        c["name"] = " / ".join(x for x in (names, extra) if x)
+        out.append(c)
+    return out
+
+
 def content_from_hub(kb, calc, hub):
     """The KB content with every catalog-linked part filled from the hub."""
+    c = json.loads(json.dumps(kb["content"]))
+    hk = "HOTELS" if kb["kind"] == "bespoke" else "hotels"
+    if hk in c:
+        c[hk] = hotel_cards(c[hk], hub)
     links = (kb.get("map") or {}).get("packages")
     if not links:
-        return kb["content"]
-    c = json.loads(json.dumps(kb["content"]))
+        return c
     bespoke = kb["kind"] == "bespoke"
     P, I = (c["PKG"], c["ITIN"]) if bespoke else (c["packages"], c["itineraries"])
     for i, ln in enumerate(links):

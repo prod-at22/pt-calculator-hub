@@ -225,31 +225,41 @@
   "hotels": [
    {
     "tier": "3★ (default)",
-    "name": "Ibis Phuket Kata Beach",
     "note": "Default 3★ ikut katalog. Bilik double/twin standard; triple = extra bed (tertakluk availability).",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "phu-h01"
+    ]
    },
    {
     "tier": "3★ (alternatif)",
-    "name": "Tony Resort Patong Beach / Di Pantai Boutique Beach Resort",
     "note": "Alternatif 3★ atau setaraf, ikut availability.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "phu-h02",
+     "phu-h03"
+    ]
    },
    {
     "tier": "4★ (upgrade +RM300/pax)",
-    "name": "The Marina Phuket Hotel",
     "note": "Pilihan 4★ ikut katalog. Upgrade RM300/pax.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "phu-h04"
+    ]
    },
    {
     "tier": "4★ (alternatif)",
-    "name": "Amata Patong Resort / Best Western Patong Beach",
     "note": "Alternatif 4★ atau setaraf ikut katalog, tertakluk availability.",
     "emoji": "",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "phu-h05",
+     "phu-h06"
+    ]
    }
   ],
   "actGroups": [],

@@ -305,15 +305,19 @@
   "hotels": [
    {
     "tier": "3 bintang (standard pakej)",
-    "name": "Zest Hotel Bandung atau setaraf",
     "img": "",
-    "note": "Tiga malam di Bandung. Asas double sharing, harga 2 hingga 3 orang sebilik; untuk triple hanya extra bed disediakan. Biasanya di kawasan city centre dan boleh berjalan kaki ke tempat menarik berhampiran."
+    "note": "Tiga malam di Bandung. Asas double sharing, harga 2 hingga 3 orang sebilik; untuk triple hanya extra bed disediakan. Biasanya di kawasan city centre dan boleh berjalan kaki ke tempat menarik berhampiran.",
+    "hotels": [
+     "jbdo-h01"
+    ]
    },
    {
     "tier": "4 bintang (upgrade RM 90 / pax / malam)",
-    "name": "ASTON Pasteur Hotel Bandung atau setaraf",
     "img": "",
-    "note": "Upgrade tertakluk kepada availability. Surcharge peak season untuk tier ini ialah RM 35 per pax per malam berbanding RM 30 untuk hotel 3 bintang."
+    "note": "Upgrade tertakluk kepada availability. Surcharge peak season untuk tier ini ialah RM 35 per pax per malam berbanding RM 30 untuk hotel 3 bintang.",
+    "hotels": [
+     "jbdo-h03"
+    ]
    }
   ],
   "actGroups": [],

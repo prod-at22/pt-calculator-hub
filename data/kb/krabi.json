@@ -226,24 +226,37 @@
   "hotels": [
    {
     "tier": "3★ (default)",
-    "name": "Aonang Silver Orchid Resort / Apasari Resort",
     "note": "Kawasan Aonang, 3 malam, sarapan included. Twin/double.",
     "emoji": "🏨",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "kbv-h01",
+     "kbv-h02"
+    ]
    },
    {
     "tier": "4★ (+RM240/pax)",
-    "name": "Krabi Cha-Da / Krabi Heritage / Blue Tara / Aonang Buri / AVA Sea / Ananta Burin / Bluesotel",
     "note": "Upgrade 4★ +RM240/pax. Bluesotel SMART = Adult Only.",
     "emoji": "🏨",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "kbv-h03",
+     "kbv-h04",
+     "kbv-h05",
+     "kbv-h06",
+     "kbv-h07",
+     "kbv-h08",
+     "kbv-h09"
+    ]
    },
    {
     "tier": "4★+ (premium)",
-    "name": "Aonang Princeville Resort & Spa",
     "note": "Upgrade premium +RM500–700/pax (anggaran) — sebut harga.",
     "emoji": "🏨",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "kbv-h10"
+    ]
    },
    {
     "tier": "Single Supp",

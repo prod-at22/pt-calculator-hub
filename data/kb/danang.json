@@ -195,17 +195,21 @@
   "hotels": [
    {
     "tier": "3★ (Default)",
-    "name": "LA Beach Hotel / Golden Rose Hotel",
     "note": "Semua malam · sarapan included · prioriti dekat city centre",
     "emoji": "🏨",
-    "img": "@asset:a27a7742985b"
+    "img": "@asset:a27a7742985b",
+    "hotels": [
+     "dadh-h01"
+    ]
    },
    {
     "tier": "4★ (Upgrade)",
-    "name": "RHM Hotel / Santa Luxury Hotel",
     "note": "+RM140/pax/malam",
     "emoji": "🏩",
-    "img": "@asset:a19b6209175b"
+    "img": "@asset:a19b6209175b",
+    "hotels": [
+     "dadh-h02"
+    ]
    },
    {
     "tier": "Nota Lokasi",

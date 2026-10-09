@@ -295,31 +295,42 @@
   "hotels": [
    {
     "tier": "3★ Apartment (Standard default)",
-    "name": "Comfort Inn & Suites / Good Health atau seumpama",
     "note": "TIDAK di CBD. Kitchenette (boleh masak breakfast). 1 bilik air setiap unit — Quad/Quint kongsi 1 tandas. Tiada breakfast.",
     "emoji": "🏢",
-    "img": "Kitchen and Living Room Singlewide.jpg"
+    "img": "Kitchen and Living Room Singlewide.jpg",
+    "hotels": [
+     "per-h04"
+    ]
    },
    {
     "tier": "3★ Hotel (Standard upgrade)",
-    "name": "Criterion Hotel / European Hotel atau seumpama",
     "note": "Di CBD, dekat kafe (buka ~8 pagi). Tiada breakfast. Upgrade +RM 180–200/pax/malam.",
     "emoji": "🏨",
-    "img": "AIMCO apartment interior.jpg"
+    "img": "AIMCO apartment interior.jpg",
+    "hotels": [
+     "per-h06",
+     "per-h07"
+    ]
    },
    {
     "tier": "4★ Hotel (Premium default / Standard upgrade)",
-    "name": "Mercure On Hay / Mercure Perth / Ibis Perth",
     "note": "Di Perth CBD, Free Bus Zone. English-style breakfast buffet halal-friendly (roti, cereal, pastri, vegetarian, buah). Standard upgrade +RM 300/pax/malam.",
     "emoji": "🏨",
-    "img": "AIMCO apartment interior 2.jpg"
+    "img": "AIMCO apartment interior 2.jpg",
+    "hotels": [
+     "per-h01",
+     "per-h08",
+     "per-h09"
+    ]
    },
    {
     "tier": "5★ Hotel (Premium upgrade)",
-    "name": "Duxton Hotel",
     "note": "Di CBD. Breakfast halal tersedia. Upgrade +RM 350/pax/malam.",
     "emoji": "🏙️",
-    "img": "Neat Living Room.jpg"
+    "img": "Neat Living Room.jpg",
+    "hotels": [
+     "per-h03"
+    ]
    }
   ],
   "actGroups": [],

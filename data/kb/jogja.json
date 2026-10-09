@@ -276,15 +276,19 @@
   "hotels": [
    {
     "tier": "3 Bintang (default)",
-    "name": "Emersia Hotel / Luxury Hotel atau setaraf",
     "note": "City Centre, dalam 1 km / 15 minit jalan kaki ke Malioboro. 2 pax twin sharing; 3 pax triple dengan extra bed. Peak season RM 120/pax/malam.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "jog-h01"
+    ]
    },
    {
     "tier": "4 Bintang (upgrade)",
-    "name": "The 101 Yogyakarta Tugu Hotel atau setaraf",
     "note": "Upgrade RM 100/pax/malam (Ahad–Khamis), RM 120/pax/malam (Jumaat–Sabtu). 3 pax triple dengan proper bed. Peak season RM 180/pax/malam.",
-    "emoji": "🏨"
+    "emoji": "🏨",
+    "hotels": [
+     "jog-h02"
+    ]
    },
    {
     "tier": "Single Occupancy",

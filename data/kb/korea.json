@@ -203,9 +203,11 @@
   "HOTELS": [
    {
     "tier": "Seoul Basic — 3★",
-    "name": "Designers Hotel Cheongryangri",
     "note": "atau setaraf · city centre",
-    "imgs": []
+    "imgs": [],
+    "hotels": [
+     "sel-h02"
+    ]
    },
    {
     "tier": "Seoul Standard — 3★",
@@ -223,21 +225,27 @@
    },
    {
     "tier": "Jeju & Jeju–Udo — 3★",
-    "name": "Parkside Hotel City Center",
     "note": "atau setaraf · Jeju City",
-    "imgs": []
+    "imgs": [],
+    "hotels": [
+     "jju-h02"
+    ]
    },
    {
     "tier": "Upgrade 4★ — Seoul",
-    "name": "Migliore Myeongdong",
     "note": "atau setaraf · top-up ikut varian",
-    "imgs": []
+    "imgs": [],
+    "hotels": [
+     "sel-h03"
+    ]
    },
    {
     "tier": "Upgrade 4★ — Jeju",
-    "name": "Samhaein Hotel City Center",
     "note": "atau setaraf · top-up RM60/malam/pax",
-    "imgs": []
+    "imgs": [],
+    "hotels": [
+     "jju-h03"
+    ]
    },
    {
     "tier": "Pilihan — Apartment",

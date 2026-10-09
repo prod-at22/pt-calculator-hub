@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "version": 36,
- "updatedAt": "2026-10-09T03:01:29Z",
+ "version": 37,
+ "updatedAt": "2026-10-09T03:14:20Z",
  "updatedBy": "system",
  "settings": {
   "marginWarnPct": 0.15,
@@ -5180,6 +5180,18 @@
        "acc": 2
       }
      }
+    },
+    {
+     "id": "istbur-h03",
+     "name": "Erboy",
+     "similar": true,
+     "catalogs": {}
+    },
+    {
+     "id": "istbur-h04",
+     "name": "Zultanite",
+     "similar": true,
+     "catalogs": {}
     }
    ]
   },
@@ -14746,6 +14758,16 @@
        ]
       }
      }
+    },
+    {
+     "id": "aceh-h07",
+     "name": "Ayani",
+     "catalogs": {}
+    },
+    {
+     "id": "aceh-h08",
+     "name": "Grand PH",
+     "catalogs": {}
     }
    ]
   },
@@ -17519,6 +17541,12 @@
        ]
       }
      }
+    },
+    {
+     "id": "ltoba-h07",
+     "name": "Emerald Garden Hotel",
+     "similar": true,
+     "catalogs": {}
     }
    ]
   },
@@ -26129,6 +26157,16 @@
        ]
       }
      }
+    },
+    {
+     "id": "per-h08",
+     "name": "Mercure Perth",
+     "catalogs": {}
+    },
+    {
+     "id": "per-h09",
+     "name": "Ibis Perth",
+     "catalogs": {}
     }
    ]
   },
@@ -32698,6 +32736,11 @@
        "acc": 1
       }
      }
+    },
+    {
+     "id": "mle-h13",
+     "name": "OBLU Xperience Ailafushi",
+     "catalogs": {}
     }
    ]
   },
@@ -39666,6 +39709,36 @@
        "acc": 4
       }
      }
+    },
+    {
+     "id": "kbv-h05",
+     "name": "Blue Tara",
+     "catalogs": {}
+    },
+    {
+     "id": "kbv-h06",
+     "name": "Aonang Buri",
+     "catalogs": {}
+    },
+    {
+     "id": "kbv-h07",
+     "name": "AVA Sea",
+     "catalogs": {}
+    },
+    {
+     "id": "kbv-h08",
+     "name": "Ananta Burin",
+     "catalogs": {}
+    },
+    {
+     "id": "kbv-h09",
+     "name": "Bluesotel",
+     "catalogs": {}
+    },
+    {
+     "id": "kbv-h10",
+     "name": "Aonang Princeville Resort & Spa",
+     "catalogs": {}
     }
    ]
   },
@@ -42922,6 +42995,31 @@
        ]
       }
      }
+    },
+    {
+     "id": "kkk-h04",
+     "name": "D'Manis",
+     "catalogs": {}
+    },
+    {
+     "id": "kkk-h05",
+     "name": "Lamin Kopio",
+     "catalogs": {}
+    },
+    {
+     "id": "kkk-h06",
+     "name": "White Valley",
+     "catalogs": {}
+    },
+    {
+     "id": "kkk-h07",
+     "name": "Kiram Village",
+     "catalogs": {}
+    },
+    {
+     "id": "kkk-h08",
+     "name": "Marina Court",
+     "catalogs": {}
     }
    ]
   },
@@ -45282,6 +45380,11 @@
        ]
       }
      }
+    },
+    {
+     "id": "sem-h15",
+     "name": "Sisipan Island",
+     "catalogs": {}
     }
    ]
   },
@@ -46252,6 +46355,28 @@
    "catalogs": [
     "PT PERHENTIAN BASIC (3D2N) 2026",
     "PT PERHENTIAN STANDARD (3D2N) 2026"
+   ],
+   "hotels": [
+    {
+     "id": "pht-h01",
+     "name": "Flora Bay Resort",
+     "catalogs": {}
+    },
+    {
+     "id": "pht-h02",
+     "name": "Shari-la Perhentian Resort",
+     "catalogs": {}
+    },
+    {
+     "id": "pht-h03",
+     "name": "Ombak Perhentian Resort",
+     "catalogs": {}
+    },
+    {
+     "id": "pht-h04",
+     "name": "Mimpi Perhentian Resort",
+     "catalogs": {}
+    }
    ]
   }
  ]

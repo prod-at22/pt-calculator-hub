@@ -800,6 +800,30 @@ function catHotels(c, sl, code, data = DATA) {
   return { acc: acc.length ? acc : acc0, rows: rows.length ? rows : rows0 };
 }
 function destSlugs(d) { return CAT.index ? Object.keys(CAT.index).filter(sl => CAT.index[sl].code === d.code) : null; }
+// KB hotel cards link hotels by id; the card name is made from the hotels (same rule as kb-build/build.py hotel_cards)
+function kbHotelName(card, H) {
+  if (!card.hotels) return card.name || "";
+  const hs = card.hotels.map(id => H[id]).filter(Boolean);
+  let names = [...new Set(hs.map(h => h.name).filter(Boolean))].join(" / ");
+  const extra = card.extra || "";
+  if (hs.some(h => h.similar) && !/setara|similar/i.test(names + extra)) names += " (atau setaraf)";
+  return [names, extra].filter(Boolean).join(" / ");
+}
+function kbHotelCards(sl, p, list, codes, E) {
+  const all = DATA.destinations.filter(d => codes.includes(d.code)).flatMap(d => (d.hotels || []).map(h => ({ ...h, code: d.code })));
+  const H = Object.fromEntries(all.map(h => [h.id, h]));
+  if (!E) return list.length ? `<div class="cd-acc">${list.map(h => `<div><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(kbHotelName(h, H)))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}${h.hotels ? "" : ' <span class="pill grey" title="Teks sendiri, tidak dipaut ke senarai hotel">teks</span>'}</div>`).join("")}</div>` : '<div class="empty">Tiada kad hotel dalam KB.</div>';
+  const kp = path => esc(JSON.stringify([sl, ...p, ...path]));
+  const inp = (path, v, ph) => `<input class="ed txt kbed" data-kpath="${kp(path)}" value="${esc(v ?? "")}" placeholder="${esc(ph)}">`;
+  return list.map((c, i) => `<fieldset class="kb-fs"><legend>#${i + 1} ${esc(kbTxt(c.tier || ""))} <button class="btn danger" data-kact="del" data-kpath="${kp([i])}">Buang kad</button></legend>
+      <label class="kb-f">Kategori${inp([i, "tier"], c.tier, "cth. 4★ — Banda Aceh")}</label>
+      ${c.hotels ? `<label class="kb-f wide">Teks tambahan (selepas nama hotel)${inp([i, "extra"], c.extra, "cth. homestay")}</label>
+        <div class="kb-f wide">Hotel dalam kad (dari senarai Accommodation di atas):<div class="h-pick">${all.map(h => `<label class="ck"><input type="checkbox" class="khotel" data-khotel="${esc(JSON.stringify({ sl, path: [...p, i, "hotels"], id: h.id }))}"${c.hotels.includes(h.id) ? " checked" : ""}> ${esc(h.name || h.id)}${codes.length > 1 ? ` <span class="muted small">${esc(h.code)}</span>` : ""}</label>`).join("")}</div>
+        <div class="small">Nama dalam KB: <b>${esc(kbTxt(kbHotelName(c, H)))}</b></div></div>`
+      : `<label class="kb-f wide">Nama (teks sendiri)${inp([i, "name"], c.name, "")}</label>`}
+      <label class="kb-f wide">Nota TC<textarea class="ed kbed" data-kpath="${kp([i, "note"])}" rows="2">${esc(c.note || "")}</textarea></label></fieldset>`).join("")
+    + `<button class="btn" data-kact="add" data-kpath="${esc(JSON.stringify([sl, ...p]))}">+ Tambah kad</button>`;
+}
 function accommodationCard(d) {
   const slugs = destSlugs(d);
   if (!slugs) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading…"}</div></div>`; }
@@ -815,21 +839,23 @@ function accommodationCard(d) {
       : `<span title="${esc((cols(sl)[i] || {}).label || "")}">${esc((t.amounts || [])[i] ?? "—")}</span>`).join("")}</div>` : "";
     return `<td class="l"><label class="ck">${tick(h, sl, "acc")} Acc</label> <label class="ck">${tick(h, sl, "sur")} Surcharge</label>${am}</td>`;
   };
+  const kx = kbDoc(d.code), kv = kx && kbView(kx.kb), kcards = kv && kv.hotels ? getPath(kx.kb, kv.hotels) || [] : [];
+  const inKb = h => kcards.filter(c => (c.hotels || []).includes(h.id)).map(c => kbTxt(c.tier || "")).join(" · ");
   const row = h => `<tr><td class="l">${fld(h, "city", "bandar")}</td><td class="l">${fld(h, "type", "jenis (cth. 4 Star Hotel)")}</td><td class="l" style="min-width:220px">${fld(h, "name", "nama hotel")}</td>
       <td class="c">${E ? `<input class="ed" type="number" min="0" max="5" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, "stars"]))}" data-kind="num" value="${esc(h.stars ?? "")}">` : h.stars ? "★".repeat(h.stars) : ""}</td>
       <td class="c">${E ? `<input type="checkbox" class="hsim" data-hsim="${esc(JSON.stringify({ code: d.code, id: h.id }))}"${h.similar ? " checked" : ""}>` : h.similar ? "✓" : ""}</td>
-      ${slugs.map(sl => cell(h, sl)).join("")}${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
+      ${slugs.map(sl => cell(h, sl)).join("")}<td class="l small">${esc(inKb(h)) || '<span class="muted">—</span>'}</td>${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
   const head = slugs.map(sl => `<th class="l">${esc(sl)}${cols(sl).length ? `<div class="muted small">surcharge: ${cols(sl).map(c => esc(c.label)).join(" · ")}</div>` : ""}</th>`).join("");
   const hotelsCard = `<div class="card full" id="hotels"><h2>Accommodation <span class="sub">${H.length} hotel · satu senarai untuk katalog customer &amp; KB · Acc = bahagian Accommodation katalog · Surcharge = baris jadual surcharge hotel${E ? "" : " (Edit costs untuk ubah)"}</span></h2>
     ${E ? `<div class="body"><button class="btn" data-act="addHotel">+ Tambah hotel</button></div>` : ""}
-    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
+    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}<th class="l">Kad KB</th>${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
     <div class="note">Katalog customer mencetak hotel yang ditanda, ikut susunan tanda. Lajur "Hotel" dalam itinerary harian kekal di tab Itinerary; tarikh &amp; kadar musim peak kekal di tab Surcharge.</div></div>`;
   // the KB's hotel cards (PT KB House), same tab
   const x = kbDoc(d.code); let kbCard = "";
   if (x) {
     const V = kbView(x.kb), p = V.hotels, list = p ? getPath(x.kb, p) || [] : [];
     kbCard = `<div class="card full kb" id="kb-hotels"><h2>Kad hotel KB · ${esc(x.ix.name)} <span class="sub">${list.length} kad · tab Accommodation dalam KB${E ? "" : " (Edit costs untuk ubah)"}</span></h2><div class="body">
-      ${E && p ? kbEditor(x.sl, p, list, null) : list.length ? `<div class="cd-acc">${list.map(h => `<div><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(h.name || ""))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}</div>`).join("")}</div>` : '<div class="empty">Tiada kad hotel dalam KB.</div>'}</div></div>`;
+      ${p ? kbHotelCards(x.sl, p, list, x.ix.codes || [], E) : ""}</div></div>`;
   }
   return hotelsCard + kbCard;
 }
@@ -1560,6 +1586,11 @@ document.addEventListener("change", e => {
     const all = { ...(h.catalogs || {}) };
     if (Object.keys(cur).length) all[slug] = cur; else delete all[slug];
     h.catalogs = all;
+    return render();
+  }
+  if (t.dataset && t.dataset.khotel) {
+    const { sl, path, id } = JSON.parse(t.dataset.khotel), doc = KB.edit[sl] ||= clone(KB.docs[sl]), arr = getPath(doc, path);
+    const i = arr.indexOf(id); if (t.checked && i < 0) arr.push(id); if (!t.checked && i >= 0) arr.splice(i, 1);
     return render();
   }
   if (t.dataset && t.dataset.hsim) {

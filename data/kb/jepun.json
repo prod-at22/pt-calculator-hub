@@ -367,15 +367,22 @@
   "hotels": [
    {
     "tier": "Hotel (Basic)",
-    "name": "APA Hotel &middot; Mystays &middot; Smile Hotel atau setaraf",
     "note": "Pilihan katalog untuk Tokyo, Osaka, Tokyo-Osaka Basic dan Hokkaido-Sapporo. Berdekatan stesen tren. Bilik 12-16 sqf (standard Jepun), 2-3 orang sebilik. Breakfast disediakan bila menginap di hotel.",
-    "img": "@asset:298d91e995b2"
+    "img": "@asset:298d91e995b2",
+    "hotels": [
+     "cts-h01",
+     "kix-h02"
+    ]
    },
    {
     "tier": "Apartment / Hotel (Standard)",
-    "name": "Section L &middot; Section A &middot; Apartment Hotel 11 atau setaraf",
     "note": "Pilihan katalog untuk tier Standard. Ada dapur, peti sejuk dan mesin basuh - sesuai self-cater. Bilangan bilik dan bilik air bergantung saiz group. Sesetengah unit ada tangga di dalam; maklum awal jika ada warga emas.",
-    "img": "@asset:a396468f9159"
+    "img": "@asset:a396468f9159",
+    "hotels": [
+     "hnd-h02",
+     "kix-h03",
+     "kix-h04"
+    ]
    }
   ],
   "actGroups": [],

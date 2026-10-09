@@ -672,6 +672,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const h0 = D2().hotels.find(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur === 1);
     const nameIn = [...pg.doc.querySelectorAll("#hotels input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "DPS", "hotels", h0.id, "name"]));
     nameIn.value = "Favehotel Kartika Plaza (diuji)"; fire(pg.w, nameIn, "change"); await tick(10);
+    ok(pg.doc.querySelector("#kb-hotels").textContent.includes("Favehotel Kartika Plaza (diuji)"), "the KB hotel card takes the hotel name from the Accommodation list (one source)");
+    ok(pg.doc.querySelectorAll("#kb-hotels input.khotel").length > 3 && [...pg.doc.querySelectorAll("#hotels tbody tr")].some(r => r.textContent.includes("3 bintang")), "Edit costs: KB cards pick hotels from the list; the list shows which KB card uses each hotel");
     click(pg.w, pg.doc.querySelector('[data-act="addHotel"]')); await tick(10);
     const nh = D2().hotels.at(-1);
     ok(nh && /^dps-h\d+$/.test(nh.id) && pg.doc.querySelectorAll("#hotels tbody tr").length === D2().hotels.length, "+ Tambah hotel adds a row");

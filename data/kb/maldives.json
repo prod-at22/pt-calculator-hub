@@ -263,31 +263,46 @@
   "hotels": [
    {
     "tier": "3★ (Basic default)",
-    "name": "ICOM Marina · Tropic Tree · Velana Hotels · Triton Beach & Spa",
     "note": "Local island Maafushi. Double/triple-sharing. Upgrade 4★ +RM400/pax.",
     "emoji": "🏨",
-    "img": "Buiobuione Maafushi Road.jpg"
+    "img": "Buiobuione Maafushi Road.jpg",
+    "hotels": [
+     "mle-h01",
+     "mle-h02",
+     "mle-h03",
+     "mle-h04"
+    ]
    },
    {
     "tier": "4★ (Standard)",
-    "name": "Kaani Grand Seaview · Kaani Palm Beach · Arena Beach · Crystal Sands · Triton Prestige Seaview",
     "note": "Local island Maafushi, seaview room. Min pax excursion: 6 (Kaani) / 10 (Arena).",
     "emoji": "⭐",
-    "img": "Sandbank. Eriyadu, Maldives.jpg"
+    "img": "Sandbank. Eriyadu, Maldives.jpg",
+    "hotels": [
+     "mle-h07",
+     "mle-h08",
+     "mle-h09",
+     "mle-h10",
+     "mle-h11"
+    ]
    },
    {
     "tier": "4★ Water Villa (Combo)",
-    "name": "Adaaran Select Hudhuran Fushi",
     "note": "Resort private island, 1 malam overwater/garden villa, all-inclusive meal.",
     "emoji": "🌴",
-    "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -09.jpg"
+    "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -09.jpg",
+    "hotels": [
+     "mle-h06"
+    ]
    },
    {
     "tier": "4★ Water Villa (Premium)",
-    "name": "OBLU Xperience Ailafushi",
     "note": "Resort all-inclusive, overwater villa ~15 min dari airport Velana.",
     "emoji": "💎",
-    "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -04.jpg"
+    "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -04.jpg",
+    "hotels": [
+     "mle-h13"
+    ]
    }
   ],
   "actGroups": [],

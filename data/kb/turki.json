@@ -327,52 +327,68 @@
   "hotels": [
    {
     "tier": "Istanbul · STANDARD",
-    "name": "Viva Deluxe Hotel / similar",
     "note": "3★ · Old City. Guna dlm ISTCAP, Bursa 5D4N & Klasik STD",
     "emoji": "🏨",
-    "img": "@blue"
+    "img": "@blue",
+    "hotels": [
+     "istbur-h02"
+    ]
    },
    {
     "tier": "Istanbul · BASIC",
-    "name": "Ramada Pera Hotel / similar",
     "note": "3★ · New Istanbul City Center. Guna dlm Klasik BASIC",
     "emoji": "🏨",
-    "img": "@bosphorus"
+    "img": "@bosphorus",
+    "hotels": [
+     "tur-h05"
+    ]
    },
    {
     "tier": "Cappadocia",
-    "name": "My Cave Hotel / similar",
     "note": "3★ Cave Hotel — ada tangga di dalam",
     "emoji": "⛰️",
-    "img": "@devrent"
+    "img": "@devrent",
+    "hotels": [
+     "istcap-h02"
+    ]
    },
    {
     "tier": "Pamukkale",
-    "name": "Mellrose Viewpoint Suites / similar",
     "note": "3★ · dekat Cotton Castle",
     "emoji": "🏨",
-    "img": "@pamukkale"
+    "img": "@pamukkale",
+    "hotels": [
+     "tur-h03"
+    ]
    },
    {
     "tier": "Bursa",
-    "name": "Kervansaray City Hotel / similar",
     "note": "3★",
     "emoji": "🏨",
-    "img": "@bursamosque"
+    "img": "@bursamosque",
+    "hotels": [
+     "istbur-h01"
+    ]
    },
    {
     "tier": "Bolu",
-    "name": "Elifim Resort Hotel / similar",
     "note": "3★ · transit malam pertama Klasik",
     "emoji": "🌲",
-    "img": "@bolu"
+    "img": "@bolu",
+    "hotels": [
+     "tur-h01"
+    ]
    },
    {
     "tier": "Upgrade 4★ (pilihan)",
-    "name": "Erboy / Zultanite / setara",
     "note": "+RM716–1,800/pax ikut pakej",
     "emoji": "✨",
-    "img": ""
+    "img": "",
+    "hotels": [
+     "istbur-h03",
+     "istbur-h04"
+    ],
+    "extra": "setara"
    },
    {
     "tier": "Single Room",

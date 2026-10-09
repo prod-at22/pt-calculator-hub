@@ -305,31 +305,39 @@
   "hotels": [
    {
     "tier": "3★ Default · Dalat",
-    "name": "SaiGon's Book Hotel / Peach Valley Hotel",
     "note": "Diutamakan dekat pusat bandar Dalat. Bilik 2-3 pax (twin/triple).",
     "emoji": "🏨",
-    "img": "@asset:0504c38fb126"
+    "img": "@asset:0504c38fb126",
+    "hotels": [
+     "dlmnhcm-h01"
+    ]
    },
    {
     "tier": "3★ Default · HCM",
-    "name": "Nicecy Boutique / Queen Central Hotel",
     "note": "Diutamakan dekat District 1 / Ben Thanh. Bilik 2-3 pax.",
     "emoji": "🏨",
-    "img": "@asset:55c14bf437f1"
+    "img": "@asset:55c14bf437f1",
+    "hotels": [
+     "dlmnhcm-h02"
+    ]
    },
    {
     "tier": "4★ Upgrade · Dalat",
-    "name": "Saigon Dalat Hotel atau seumpama",
     "note": "+RM160/pax/malam.",
     "emoji": "⭐",
-    "img": "@asset:de9f2f1407d7"
+    "img": "@asset:de9f2f1407d7",
+    "hotels": [
+     "dlmnhcm-h03"
+    ]
    },
    {
     "tier": "4★ Upgrade · HCM",
-    "name": "Nesta / Gem Ben Thanh Hotel atau seumpama",
     "note": "+RM160/pax/malam.",
     "emoji": "⭐",
-    "img": "@asset:14aca90920f2"
+    "img": "@asset:14aca90920f2",
+    "hotels": [
+     "dlmnhcm-h04"
+    ]
    }
   ],
   "actGroups": [],
