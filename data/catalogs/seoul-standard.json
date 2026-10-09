@@ -118,37 +118,6 @@
         "label": "Super Peak Season Surcharge",
         "period": "16 December - 1 January"
       }
-    ],
-    "rows": [
-      {
-        "type": "Apartment",
-        "name": "Hongdae Area",
-        "amounts": [
-          "-",
-          "RM70/night/pax",
-          "RM70/night/pax"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Travelodge Hotel, Designers Hotel Cheongryangri",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM90/night/pax",
-          "RM140/night/pax"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Migliore Myeongdong",
-        "similar": true,
-        "amounts": [
-          "RM60/night/pax",
-          "RM130/night/pax",
-          "RM170/night/pax"
-        ]
-      }
     ]
   },
   "itinerary": [

@@ -255,13 +255,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Osaka (Hotel/Apartment)",
-      "name": "Apartment Hotel 11",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Add-on Accommodation"

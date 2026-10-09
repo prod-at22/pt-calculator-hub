@@ -31,6 +31,7 @@ def resolved(ref):
         pkg = hub_data.package_for(slug, index, data)
         c["prices"] = hub_data.resolve(c, pkg)
         c["addons"] = hub_data.addons(c, slug, data, (index.get(slug) or {}).get("code") or c.get("code"))
+        hub_data.apply_hotels(c, slug, data, (index.get(slug) or {}).get("code") or c.get("code"))
         for k in ("addon_groups", "hub_version", "price_version"):
             c.pop(k, None)
         out[slug] = json.dumps(c, sort_keys=True)

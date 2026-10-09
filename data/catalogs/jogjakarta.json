@@ -94,26 +94,6 @@
         "label": "Peak Season Surcharge",
         "period": "15 - 30 Mar 2026, 25 May - 5 Jun 2026, 20 Dec 2026 - 5 Jan 2027, 5 - 25 Feb 2027, 5 Mar - 15 Apr 2027"
       }
-    ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Emersia Hotel, Luxury Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM120/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "The 101 Yogyakarta Tugu Hotel",
-        "similar": true,
-        "amounts": [
-          "Weekday (Sun-Thu) RM100/person/night · Weekend (Fri-Sat) RM120/person/night",
-          "RM180/pax/night"
-        ]
-      }
     ]
   },
   "itinerary": [

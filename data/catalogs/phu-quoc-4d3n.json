@@ -112,24 +112,6 @@
         "label": "Upgrade Surcharge (Additional)"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Rova Hotel Phu Quoc, Phung Hung Hotel Phu Quoc",
-        "similar": true,
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Muong Thanh Luxury Phu Quoc, Marina Seaside Boutique Phu Quoc",
-        "similar": true,
-        "amounts": [
-          "Add RM140/person/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Last Minute Surcharges",

@@ -227,24 +227,6 @@
         "period": "See peak season dates below"
       }
     ],
-    "rows": [
-      {
-        "type": "4 Star Hotel",
-        "name": "The Akmani Legian / The One Legian / Sun Island & Spa Legian",
-        "amounts": [
-          "-",
-          "RM120/couple/night"
-        ]
-      },
-      {
-        "type": "Private Pool Villa",
-        "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa / Asterra Villa Seminyak / Sana ViE Villa / La ViE Villa",
-        "amounts": [
-          "-",
-          "RM250/couple/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Christmas Holiday",

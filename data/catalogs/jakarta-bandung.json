@@ -241,36 +241,8 @@
         "label": "Peak Season Surcharge",
         "period": "19 - 28 March 2026 | 14 - 16 May 2026 | 27 - 30 May 2026 | 12 - 16 June 2026 | 14 - 16 August 2026 | 21 - 24 August 2026 | 20 December - 1 January 2027"
       }
-    ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Zest Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM30/person/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "ASTON Pasteur Hotel",
-        "similar": true,
-        "amounts": [
-          "Add RM90/person/night",
-          "RM35/person/night"
-        ]
-      }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Bandung",
-      "stars": 3,
-      "name": "Zest Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Add-On",

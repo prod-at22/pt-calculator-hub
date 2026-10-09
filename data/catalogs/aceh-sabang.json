@@ -226,56 +226,6 @@
         "period": "22 Dec 2025 - 5 Jan 2026 · 15 - 30 Mar 2026 · 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Grand Nanggroe",
-        "amounts": [
-          "-",
-          "RM50/person/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Oasis Hotel",
-        "amounts": [
-          "-",
-          "RM50/person/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Freddies Hotel",
-        "amounts": [
-          "-",
-          "RM50/person/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Grand Arabiya",
-        "amounts": [
-          "Add RM50/person/night",
-          "RM50/person/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Kyriad Hotel",
-        "amounts": [
-          "Add RM50/person/night",
-          "RM50/person/night"
-        ]
-      },
-      {
-        "type": "5 Star Hotel",
-        "name": "Hermes Palace Hotel",
-        "amounts": [
-          "Add RM90/person/night",
-          "RM50/person/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "January - June",

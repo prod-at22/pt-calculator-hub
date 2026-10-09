@@ -257,25 +257,6 @@
         "period": "Autumn & Winter Season (see dates below)"
       }
     ],
-    "rows": [
-      {
-        "type": "4 Star Hotel",
-        "name": "Mercure On Hay (with breakfast)",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM220/pax/night"
-        ]
-      },
-      {
-        "type": "5 Star Hotel",
-        "name": "Duxton Hotel (Halal breakfast available)",
-        "amounts": [
-          "Add RM350/pax/night",
-          "RM250/pax/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Autumn & Winter Season",
@@ -294,14 +275,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Perth",
-      "stars": 4,
-      "name": "Mercure On Hay",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Additional Activities"

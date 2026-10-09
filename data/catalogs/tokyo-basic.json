@@ -111,13 +111,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Tokyo",
-      "name": "APA Hotel, Mystays",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

@@ -232,56 +232,6 @@
         "label": "Peak Season Surcharge"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Favehotel Kartika Plaza / Swiss Belexpress Legian / Hotel Zia Kuta",
-        "amounts": [
-          "-",
-          "RM40/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "The One Legian / The Akmani Legian / Sun Island Hotel & Spa, Legian",
-        "amounts": [
-          "RM60/pax/night",
-          "RM60/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Adhi Jaya Hotel / Wyndham Garden Hotel",
-        "amounts": [
-          "RM80/pax/night",
-          "RM100/pax/night"
-        ]
-      },
-      {
-        "type": "Private Pool Villa",
-        "name": "Asa Bali Villas & Spa / The Sakaye Villa & Spa / Maca Villas Umalas",
-        "amounts": [
-          "Add RM460/couple/night",
-          "RM160/couple/night"
-        ]
-      },
-      {
-        "type": "Private Pool Villa",
-        "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa",
-        "amounts": [
-          "Add RM650/couple/night",
-          "RM250/couple/night"
-        ]
-      },
-      {
-        "type": "Private Pool Villa",
-        "name": "Asterra Villa Seminyak",
-        "amounts": [
-          "Add RM780/couple/night",
-          "RM250/couple/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Christmas Holiday",

@@ -94,40 +94,6 @@
         "period": "21-31 Dec 2025, 1-5 Jan 2026 · 15-30 Mar 2026, 25 May - 5 Jun 2026 · 20 Dec 2026 - 5 Jan 2027"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Surabaya: The Alana",
-        "amounts": [
-          "-",
-          "RM130/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Malang: Aston Inn Batu",
-        "amounts": [
-          "-",
-          "RM130/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Surabaya: Goldvitel Hotel",
-        "amounts": [
-          "Add RM85/pax/night",
-          "RM180/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Malang: Regent Park Hotel",
-        "amounts": [
-          "Add RM85/pax/night",
-          "RM180/pax/night"
-        ]
-      }
-    ],
     "notes": [
       "Proper bed for triple sharing / Family room only available at 4 star Hotel subject to availability.",
       "Extra bed available for 3 Star Hotel."

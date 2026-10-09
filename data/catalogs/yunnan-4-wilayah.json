@@ -284,32 +284,6 @@
       "Blackout dates: Chinese New Year (14 Feb - 22 Feb 2026) and Labor Day (1 May - 5 May 2026)."
     ]
   },
-  "accommodation": [
-    {
-      "city": "Kunming",
-      "stars": 4,
-      "name": "Country Inn & Suites by Radisson Hotel / Ramada Encore Hotel / Howard Johnson Hotel",
-      "similar": true
-    },
-    {
-      "city": "Dali",
-      "stars": 4,
-      "name": "WenYue Hotel",
-      "similar": true
-    },
-    {
-      "city": "Lijiang",
-      "stars": 4,
-      "name": "Kyriad Hotel",
-      "similar": true
-    },
-    {
-      "city": "Shangri La",
-      "stars": 4,
-      "name": "LanOu Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [],
   "hub_version": 30
 }

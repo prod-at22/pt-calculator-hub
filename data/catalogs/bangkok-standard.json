@@ -219,35 +219,6 @@
         "label": "Peak Season Surcharge",
         "period": "20 Dec 2026 - 5 Jan 2027 (Christmas & New Year) · 5 - 7 Feb 2027 (Chinese New Year) · 13 - 15 April 2027 (Songkran Festival)"
       }
-    ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Almas Hotel / Regent Ramkhamhaeng Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM80/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Nouvo City Hotel",
-        "similar": true,
-        "amounts": [
-          "RM50/pax/night",
-          "RM80/pax/night"
-        ]
-      },
-      {
-        "type": "5 Star Hotel",
-        "name": "Al-Meroz Hotel",
-        "similar": true,
-        "amounts": [
-          "RM60/pax/night",
-          "RM80/pax/night"
-        ]
-      }
     ]
   },
   "addon_groups": [

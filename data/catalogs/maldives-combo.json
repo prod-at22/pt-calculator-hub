@@ -101,17 +101,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Maldives — Local Island Hotel",
-      "name": "Kaani Beach / Marina Seaview / Triton Beach / Kaani Village & Spa",
-      "similar": true
-    },
-    {
-      "city": "Maldives — Water Villa",
-      "name": "Adaaran Select Hudhuran Fushi"
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

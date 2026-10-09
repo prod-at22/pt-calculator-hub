@@ -115,18 +115,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Tokyo",
-      "name": "APA Hotel, Mystays",
-      "similar": true
-    },
-    {
-      "city": "Osaka",
-      "name": "Smile Hotel",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

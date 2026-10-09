@@ -232,17 +232,6 @@
       "text": "prior to departure for full payment"
     }
   ],
-  "accommodation": [
-    {
-      "city": "Hotel",
-      "name": "APA Hotel, Mystays",
-      "similar": true
-    },
-    {
-      "city": "Apartment",
-      "name": "Sapporo Town Area (subject to availability)"
-    }
-  ],
   "surcharge": {
     "title": "Peak Seasons Date & Surcharge · Last Minute Surcharge",
     "seasons": [

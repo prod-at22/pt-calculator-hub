@@ -243,13 +243,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Osaka (Hotel/Apartment)",
-      "name": "Smile Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Add-on Accommodation"

@@ -114,3 +114,30 @@ def addons(cat, slug, data, code):
         if entries:
             out.append({"title": g["title"], "entries": entries, **({"notes": g["notes"]} if g.get("notes") else {})})
     return out
+
+HOTEL_ACC = ("city", "name", "stars", "similar")
+HOTEL_SUR = ("type", "name", "similar")
+
+
+def hotels(cat, slug, data, code):
+    """(accommodation, surcharge rows) for the catalog, from the hub's Accommodation tab (destination `hotels`:
+    each hotel ticked per catalog as {"acc": position} and/or {"sur": position, "amounts": [...]}). A catalog of a
+    code that is not a hub destination, or of a destination without `hotels`, keeps its own lists."""
+    d = next((x for x in data["destinations"] if x["code"] == code), None)
+    acc0, rows0 = cat.get("accommodation"), (cat.get("surcharge") or {}).get("rows")
+    if d is None or "hotels" not in d:
+        return acc0, rows0
+    ticks = [(h, (h.get("catalogs") or {}).get(slug) or {}) for h in d["hotels"]]
+    acc = [{k: h[k] for k in HOTEL_ACC if k in h} for h, t in sorted((x for x in ticks if "acc" in x[1]), key=lambda x: x[1]["acc"])]
+    rows = [{**{k: h[k] for k in HOTEL_SUR if k in h}, "amounts": list(t.get("amounts") or [])}
+            for h, t in sorted((x for x in ticks if "sur" in x[1]), key=lambda x: x[1]["sur"])]
+    return (acc or acc0), (rows or rows0)
+
+
+def apply_hotels(cat, slug, data, code):
+    acc, rows = hotels(cat, slug, data, code)
+    if acc is not None:
+        cat["accommodation"] = acc
+    if rows is not None:
+        cat.setdefault("surcharge", {})["rows"] = rows
+    return cat

@@ -97,44 +97,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Phuket",
-      "stars": 3,
-      "name": "IBIS Phuket Kata Beach",
-      "similar": true
-    },
-    {
-      "city": "Phuket",
-      "stars": 3,
-      "name": "Tony Resort Patong Beach",
-      "similar": true
-    },
-    {
-      "city": "Phuket",
-      "stars": 3,
-      "name": "Di Pantai Boutique Beach Resort",
-      "similar": true
-    },
-    {
-      "city": "Phuket",
-      "stars": 4,
-      "name": "The Marina Phuket Hotel",
-      "similar": true
-    },
-    {
-      "city": "Phuket",
-      "stars": 4,
-      "name": "Amata Patong Resort",
-      "similar": true
-    },
-    {
-      "city": "Phuket",
-      "stars": 4,
-      "name": "Best Western Patong Beach",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

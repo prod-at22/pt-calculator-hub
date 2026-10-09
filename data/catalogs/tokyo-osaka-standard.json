@@ -124,18 +124,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Tokyo",
-      "name": "Section A Apartment",
-      "similar": true
-    },
-    {
-      "city": "Osaka",
-      "name": "Apartment Hotel 11",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

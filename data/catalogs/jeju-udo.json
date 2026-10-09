@@ -119,37 +119,6 @@
         "label": "Super Peak Season Surcharge",
         "period": "16 December - 1 January"
       }
-    ],
-    "rows": [
-      {
-        "type": "Apartment",
-        "name": "Jeju City Area",
-        "amounts": [
-          "-",
-          "RM50/night/pax",
-          "RM100/night/pax"
-        ]
-      },
-      {
-        "type": "3 Star Hotel City Center",
-        "name": "Parkside Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM50/night/pax",
-          "RM100/night/pax"
-        ]
-      },
-      {
-        "type": "4 Star Hotel City Center",
-        "name": "Samhaein Hotel",
-        "similar": true,
-        "amounts": [
-          "RM60/night/pax",
-          "RM50/night/pax",
-          "RM100/night/pax"
-        ]
-      }
     ]
   },
   "itinerary": [

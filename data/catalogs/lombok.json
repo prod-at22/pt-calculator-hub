@@ -96,28 +96,6 @@
         "label": "Peak Season Surcharge",
         "period": "9 - 11 October 2026"
       }
-    ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Hotel Central Inn, Grand Sengigi Hotel, Fave Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM60/pax/night",
-          "RM150/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Hotel Aruna, Holiday Resort, Primepark Hotel",
-        "similar": true,
-        "amounts": [
-          "RM80/pax/night",
-          "RM70/pax/night",
-          "RM250/pax/night"
-        ]
-      }
     ]
   },
   "itinerary": [

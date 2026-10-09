@@ -95,32 +95,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Krabi",
-      "stars": 3,
-      "name": "Aonang Silver Orchid Resort",
-      "similar": true
-    },
-    {
-      "city": "Krabi",
-      "stars": 3,
-      "name": "Apasari Resort",
-      "similar": true
-    },
-    {
-      "city": "Krabi",
-      "stars": 4,
-      "name": "Krabi Cha-Da Resort",
-      "similar": true
-    },
-    {
-      "city": "Krabi",
-      "stars": 4,
-      "name": "Krabi Heritage Hotel",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

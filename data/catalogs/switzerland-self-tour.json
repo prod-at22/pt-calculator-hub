@@ -97,23 +97,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Zurich",
-      "name": "Holiday Inn Express, Zurich",
-      "similar": true
-    },
-    {
-      "city": "Bern, Lucerne or Interlaken",
-      "name": "Ibis Hotel, Bern",
-      "similar": true
-    },
-    {
-      "city": "Tasch, Visp or Brig",
-      "name": "Matterhorn Inn, Tasch",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

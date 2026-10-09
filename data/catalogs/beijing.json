@@ -252,14 +252,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Beijing",
-      "stars": 4,
-      "name": "Derreal Hotel",
-      "similar": true
-    }
-  ],
   "itineraries": [
     {
       "label": "Morning Arrival & Morning Return",

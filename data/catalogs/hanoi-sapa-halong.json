@@ -242,54 +242,6 @@
         "label": "Upgrade Surcharge (Additional)"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Sapa Hotel: Saparis Hotel, Beautiful Sapa Hotel",
-        "similar": true,
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Hanoi Hotel: CWD Hotel, The Charm Hotel",
-        "similar": true,
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Halong Bay Cruise: Victory Star Cruise",
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Sapa Hotel: Delasol Sapa Hotel, Aliana Boutique Sapa Hotel & Spa",
-        "similar": true,
-        "amounts": [
-          "Add RM140/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Hanoi Hotel: Lake Residence Hotel, Lake Side Hotel",
-        "similar": true,
-        "amounts": [
-          "Add RM140/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Halong Bay Cruise",
-        "amounts": [
-          "-"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Blockout — Chinese New Year 2027",

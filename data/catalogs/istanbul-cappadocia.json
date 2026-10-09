@@ -258,20 +258,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Istanbul",
-      "stars": 3,
-      "name": "Viva Deluxe Hotel",
-      "similar": true
-    },
-    {
-      "city": "Cappadocia",
-      "stars": 3,
-      "name": "My Cave Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Additional Activities",

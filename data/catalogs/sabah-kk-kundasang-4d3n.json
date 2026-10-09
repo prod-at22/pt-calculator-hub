@@ -95,35 +95,6 @@
         "period": "15 July - 20 August 2026 | 28 August - 1 September 2026 | 16 September 2026 | 6 - 10 November 2026 | 20 December 2026 - 3 January 2027 | 4 - 10 February 2027"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Kundasang: Kinabalu Pine Resort, Celyn, HBenjamin or similar · Kota Kinabalu: Ming Garden Hotel, Dreamtel Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM40/pax/night"
-        ]
-      },
-      {
-        "type": "3.5 Star Hotel",
-        "name": "Kundasang: Perkasa, Dreamworld",
-        "similar": true,
-        "amounts": [
-          "Add RM80/pax/night",
-          "RM60/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Kota Kinabalu: Promenade, Palace Hotel",
-        "similar": true,
-        "amounts": [
-          "Add RM150/pax/night",
-          "RM90/pax/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Surcharge Travel Date 2027",

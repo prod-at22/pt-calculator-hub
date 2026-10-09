@@ -103,32 +103,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Maldives",
-      "stars": 3,
-      "name": "ICOM Marina",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 3,
-      "name": "Tropic Tree",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 3,
-      "name": "Velana Hotels",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 3,
-      "name": "Triton Beach & Spa",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

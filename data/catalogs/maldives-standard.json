@@ -256,38 +256,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Maldives",
-      "stars": 4,
-      "name": "Kaani Grand Seaview",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 4,
-      "name": "Kaani Palm Beach",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 4,
-      "name": "Arena Beach Hotel",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 4,
-      "name": "Crystal Sands",
-      "similar": true
-    },
-    {
-      "city": "Maldives",
-      "stars": 4,
-      "name": "Triton Prestige Seaview",
-      "similar": true
-    }
-  ],
   "product": "PAKEJ",
   "addon_groups": [
     {

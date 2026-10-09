@@ -113,38 +113,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Bolu",
-      "stars": 3,
-      "name": "Elifim Resort Hotel",
-      "similar": true
-    },
-    {
-      "city": "Cappadocia",
-      "stars": 3,
-      "name": "My Cave Hotel",
-      "similar": true
-    },
-    {
-      "city": "Pamukkale",
-      "stars": 3,
-      "name": "Mellrose Viewpoin Suites",
-      "similar": true
-    },
-    {
-      "city": "Bursa",
-      "stars": 3,
-      "name": "Kervansaray City Hotel",
-      "similar": true
-    },
-    {
-      "city": "Istanbul",
-      "stars": 3,
-      "name": "Viva Deluxe Hotel",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

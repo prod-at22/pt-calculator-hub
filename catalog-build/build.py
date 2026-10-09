@@ -191,7 +191,7 @@ def normalise(c):
 
 def load_catalogs(only=None):
     catalogs, problems = [], []
-    # prices (Costing tab) and add-ons (Add On tab) are not in the catalog file: they come from data.json (hub_data.py)
+    # prices (Costing tab), add-ons (Add On tab) and hotels (Accommodation tab) are not in the catalog file: they come from data.json (hub_data.py)
     hdata, hindex = hub_data.load_hub(CATALOGS)
     for fn in sorted(os.listdir(CATALOGS)):
         if not fn.endswith(".json") or fn.startswith("_") or fn == "index.json":   # index.json = hub's slug → package map
@@ -217,6 +217,7 @@ def load_catalogs(only=None):
         pkg = hub_data.package_for(slug, hindex, hdata)
         c["prices"] = hub_data.resolve(c, pkg)
         c["addons"] = hub_data.addons(c, slug, hdata, (hindex.get(slug) or {}).get("code") or c.get("code"))
+        hub_data.apply_hotels(c, slug, hdata, (hindex.get(slug) or {}).get("code") or c.get("code"))   # Accommodation tab
         c.pop("addon_groups", None)
         for row in (c.get("prices") or {}).get("rows") or []:
             if "amounts" not in row:

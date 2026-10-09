@@ -90,88 +90,6 @@
         "period": "26 June 2026 - 31 August 2026 | 28 - 30 September 2026 | 1 - 8 October 2026 | 20 - 31 December 2026 | 1 - 23 January 2027 | 12 - 25 February 2027"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel (Semporna Town)",
-        "name": "Seafest Boutique",
-        "amounts": [
-          "-",
-          "RM30/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel (Semporna Town)",
-        "name": "Seafest Lepa Wing Sea View",
-        "amounts": [
-          "RM30/pax/night",
-          "RM30/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel (Semporna Town)",
-        "name": "Seafest Hotel",
-        "amounts": [
-          "RM30/pax/night",
-          "RM30/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel (Semporna Town)",
-        "name": "Seafest Hotel Sea View",
-        "amounts": [
-          "RM50/pax/night",
-          "RM50/pax/night"
-        ]
-      },
-      {
-        "type": "1 Star Resort (Water Chalet)",
-        "name": "Nusakuya Resort, Blue Ocean Resort",
-        "amounts": [
-          "-",
-          "RM60/pax/night"
-        ]
-      },
-      {
-        "type": "1 Star Resort (Water Chalet)",
-        "name": "Maglami - Lami Water House, Aminah Holiday Resort, Starz Water Villa Standard",
-        "amounts": [
-          "RM150/pax/night",
-          "RM60/pax/night"
-        ]
-      },
-      {
-        "type": "2 Star Resort (Water Chalet)",
-        "name": "Danglai Resort, Dayang Resort",
-        "amounts": [
-          "RM450/pax/night",
-          "RM65/pax/night"
-        ]
-      },
-      {
-        "type": "2 Star Resort (Water Chalet)",
-        "name": "Royal Resort Standard Suite",
-        "amounts": [
-          "RM600/pax/night",
-          "RM80/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Resort (Water Chalet)",
-        "name": "Sipadan Kapalai Standard",
-        "amounts": [
-          "RM2,050/pax/night",
-          "RM85/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Resort (Water Chalet)",
-        "name": "Sipadan Water Village (SeaView)",
-        "amounts": [
-          "RM1,350/pax/night",
-          "RM85/pax/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Surcharge Travel Date 2027",
@@ -184,17 +102,6 @@
       "3 Star Resort Water Chalet: location for island hopping will be at Mabul Island."
     ]
   },
-  "accommodation": [
-    {
-      "city": "Semporna Town",
-      "name": "Wingtat Hotel"
-    },
-    {
-      "city": "Water Chalet",
-      "stars": 1,
-      "name": "Lato Lato Water Chalet"
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

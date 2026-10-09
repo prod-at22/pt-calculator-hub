@@ -1416,6 +1416,87 @@
      "at": "2026-10-05T13:04:06Z",
      "by": "product"
     }
+   ],
+   "hotels": [
+    {
+     "id": "sel-h01",
+     "type": "Apartment",
+     "name": "Hongdae Area",
+     "catalogs": {
+      "seoul-basic": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM70/night/pax",
+        "RM70/night/pax"
+       ]
+      },
+      "seoul-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM70/night/pax",
+        "RM70/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sel-h02",
+     "type": "3 Star Hotel",
+     "name": "Designers Hotel Cheongryangri",
+     "similar": true,
+     "catalogs": {
+      "seoul-basic": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM50/night/pax",
+        "RM90/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sel-h03",
+     "type": "4 Star Hotel",
+     "name": "Migliore Myeongdong",
+     "similar": true,
+     "catalogs": {
+      "seoul-basic": {
+       "sur": 3,
+       "amounts": [
+        "RM100/night/pax",
+        "RM130/night/pax",
+        "RM170/night/pax"
+       ]
+      },
+      "seoul-standard": {
+       "sur": 3,
+       "amounts": [
+        "RM60/night/pax",
+        "RM130/night/pax",
+        "RM170/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sel-h04",
+     "type": "3 Star Hotel",
+     "name": "Travelodge Hotel, Designers Hotel Cheongryangri",
+     "similar": true,
+     "catalogs": {
+      "seoul-standard": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM90/night/pax",
+        "RM140/night/pax"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -1964,6 +2045,55 @@
      "size": 199962,
      "at": "2026-10-05T13:04:06Z",
      "by": "product"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "seljju-h01",
+     "type": "Apartment",
+     "name": "Hongdae Area",
+     "catalogs": {
+      "seoul-jeju": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM70/night/pax",
+        "RM70/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "seljju-h02",
+     "type": "3 Star Hotel",
+     "name": "Travelodge Hotel, Jeju Parkside Hotel",
+     "similar": true,
+     "catalogs": {
+      "seoul-jeju": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM90/night/pax",
+        "RM140/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "seljju-h03",
+     "type": "4 Star Hotel",
+     "name": "Migliore Myeongdong",
+     "similar": true,
+     "catalogs": {
+      "seoul-jeju": {
+       "sur": 3,
+       "amounts": [
+        "RM60/night/pax",
+        "RM130/night/pax",
+        "RM170/night/pax"
+       ]
+      }
+     }
     }
    ]
   },
@@ -3000,6 +3130,55 @@
      "at": "2026-10-05T13:04:06Z",
      "by": "product"
     }
+   ],
+   "hotels": [
+    {
+     "id": "jju-h01",
+     "type": "Apartment",
+     "name": "Jeju City Area",
+     "catalogs": {
+      "jeju": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jju-h02",
+     "type": "3 Star Hotel City Center",
+     "name": "Parkside Hotel",
+     "similar": true,
+     "catalogs": {
+      "jeju": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jju-h03",
+     "type": "4 Star Hotel City Center",
+     "name": "Samhaein Hotel",
+     "similar": true,
+     "catalogs": {
+      "jeju": {
+       "sur": 3,
+       "amounts": [
+        "RM60/night/pax",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -3520,6 +3699,55 @@
      "size": 199962,
      "at": "2026-10-05T13:04:06Z",
      "by": "product"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "jjuo-h01",
+     "type": "Apartment",
+     "name": "Jeju City Area",
+     "catalogs": {
+      "jeju-udo": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jjuo-h02",
+     "type": "3 Star Hotel City Center",
+     "name": "Parkside Hotel",
+     "similar": true,
+     "catalogs": {
+      "jeju-udo": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jjuo-h03",
+     "type": "4 Star Hotel City Center",
+     "name": "Samhaein Hotel",
+     "similar": true,
+     "catalogs": {
+      "jeju-udo": {
+       "sur": 3,
+       "amounts": [
+        "RM60/night/pax",
+        "RM50/night/pax",
+        "RM100/night/pax"
+       ]
+      }
+     }
     }
    ]
   },
@@ -4462,6 +4690,92 @@
      "by": "product",
      "drive": "1yLnVMCzSvD24-l67SLTYjo7YWfOOGmKM"
     }
+   ],
+   "hotels": [
+    {
+     "id": "tur-h01",
+     "city": "Bolu",
+     "name": "Elifim Resort Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-basic": {
+       "acc": 1
+      },
+      "turki-klasik-std": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "tur-h02",
+     "city": "Cappadocia",
+     "name": "My Cave Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-basic": {
+       "acc": 2
+      },
+      "turki-klasik-std": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "tur-h03",
+     "city": "Pamukkale",
+     "name": "Mellrose Viewpoin Suites",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-basic": {
+       "acc": 3
+      },
+      "turki-klasik-std": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "tur-h04",
+     "city": "Bursa",
+     "name": "Kervansaray City Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-basic": {
+       "acc": 4
+      },
+      "turki-klasik-std": {
+       "acc": 4
+      }
+     }
+    },
+    {
+     "id": "tur-h05",
+     "city": "Istanbul",
+     "name": "Ramada Pera Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-basic": {
+       "acc": 5
+      }
+     }
+    },
+    {
+     "id": "tur-h06",
+     "city": "Istanbul",
+     "name": "Viva Deluxe Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "turki-klasik-std": {
+       "acc": 5
+      }
+     }
+    }
    ]
   },
   {
@@ -4840,6 +5154,32 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1qPniPNJzssJa6guBzPz7AjiJ3e7koAtF"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "istbur-h01",
+     "city": "Bursa",
+     "name": "Kervansaray City Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "istanbul-bursa": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "istbur-h02",
+     "city": "Istanbul",
+     "name": "Viva Deluxe Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "istanbul-bursa": {
+       "acc": 2
+      }
+     }
     }
    ]
   },
@@ -5652,6 +5992,32 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1dOJFDWT29e25UBeXGQyQno21CucSmatS"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "istcap-h01",
+     "city": "Istanbul",
+     "name": "Viva Deluxe Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "istanbul-cappadocia": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "istcap-h02",
+     "city": "Cappadocia",
+     "name": "My Cave Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "istanbul-cappadocia": {
+       "acc": 2
+      }
+     }
     }
    ]
   },
@@ -6942,6 +7308,30 @@
      "by": "product",
      "drive": "1YRFYHr061UOAMLvQQUGRutfZWR1WVZFK"
     }
+   ],
+   "hotels": [
+    {
+     "id": "hnd-h01",
+     "city": "Tokyo",
+     "name": "APA Hotel, Mystays",
+     "similar": true,
+     "catalogs": {
+      "tokyo-basic": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "hnd-h02",
+     "city": "Tokyo",
+     "name": "Section L Apartment",
+     "similar": true,
+     "catalogs": {
+      "tokyo-standard": {
+       "acc": 1
+      }
+     }
+    }
    ]
   },
   {
@@ -8204,6 +8594,52 @@
      "by": "product",
      "drive": "1Qc2OIxhrj0WwnRANVa-1JUvvJetgoiai"
     }
+   ],
+   "hotels": [
+    {
+     "id": "kix-h01",
+     "city": "Tokyo",
+     "name": "APA Hotel, Mystays",
+     "similar": true,
+     "catalogs": {
+      "tokyo-osaka-basic": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "kix-h02",
+     "city": "Osaka",
+     "name": "Smile Hotel",
+     "similar": true,
+     "catalogs": {
+      "tokyo-osaka-basic": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "kix-h03",
+     "city": "Tokyo",
+     "name": "Section A Apartment",
+     "similar": true,
+     "catalogs": {
+      "tokyo-osaka-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "kix-h04",
+     "city": "Osaka",
+     "name": "Apartment Hotel 11",
+     "similar": true,
+     "catalogs": {
+      "tokyo-osaka-standard": {
+       "acc": 2
+      }
+     }
+    }
    ]
   },
   {
@@ -9280,6 +9716,30 @@
      "by": "product",
      "drive": "1n6VDUN3XlFwIQMbTJ43H-UeZ6ktgcdy1"
     }
+   ],
+   "hotels": [
+    {
+     "id": "osk-h01",
+     "city": "Osaka (Hotel/Apartment)",
+     "name": "Smile Hotel",
+     "similar": true,
+     "catalogs": {
+      "osaka-basic": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "osk-h02",
+     "city": "Osaka (Hotel/Apartment)",
+     "name": "Apartment Hotel 11",
+     "similar": true,
+     "catalogs": {
+      "osaka-standard": {
+       "acc": 1
+      }
+     }
+    }
    ]
   },
   {
@@ -10031,6 +10491,29 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1lI9kwgYMqvF1_TRhHl82jSJcEpcZglNb"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "cts-h01",
+     "city": "Hotel",
+     "name": "APA Hotel, Mystays",
+     "similar": true,
+     "catalogs": {
+      "hokkaido-sapporo": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "cts-h02",
+     "city": "Apartment",
+     "name": "Sapporo Town Area (subject to availability)",
+     "catalogs": {
+      "hokkaido-sapporo": {
+       "acc": 2
+      }
+     }
     }
    ]
   },
@@ -11528,6 +12011,169 @@
      "by": "product",
      "drive": "1Sq6uBLL0BYcFf0YCLr9GKFrelm7s03zT"
     }
+   ],
+   "hotels": [
+    {
+     "id": "dps-h01",
+     "type": "4 Star Hotel",
+     "name": "The Akmani Legian / The One Legian / Sun Island & Spa Legian",
+     "catalogs": {
+      "bali-honeymoon-premium": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM120/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h02",
+     "type": "Private Pool Villa",
+     "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa / Asterra Villa Seminyak / Sana ViE Villa / La ViE Villa",
+     "catalogs": {
+      "bali-honeymoon-premium": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM250/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h03",
+     "type": "3 Star Hotel",
+     "name": "Favehotel Kartika Plaza / Swiss Belexpress Legian / Hotel Zia Kuta",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM80/couple/night"
+       ]
+      },
+      "bali-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM40/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h04",
+     "type": "4 Star Hotel",
+     "name": "The One Legian / Sun Island Hotel & Spa Legian / The Akmani Legian",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 2,
+       "amounts": [
+        "RM120/couple/night",
+        "RM120/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h05",
+     "type": "4 Star Hotel",
+     "name": "Adhi Jaya Hotel / Wyndham Garden Hotel",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 3,
+       "amounts": [
+        "RM160/couple/night",
+        "RM200/couple/night"
+       ]
+      },
+      "bali-standard": {
+       "sur": 3,
+       "amounts": [
+        "RM80/pax/night",
+        "RM100/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h06",
+     "type": "Private Pool Villa",
+     "name": "Asa Bali Villas & Spa / The Sakaye Villa & Spa / Maca Villas Umalas",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 4,
+       "amounts": [
+        "-",
+        "RM160/couple/night"
+       ]
+      },
+      "bali-standard": {
+       "sur": 4,
+       "amounts": [
+        "Add RM460/couple/night",
+        "RM160/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h07",
+     "type": "Private Pool Villa",
+     "name": "Alaya Dedaun Kuta Villa / Lumbini Villa & Spa",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 5,
+       "amounts": [
+        "Add RM650/couple/night",
+        "RM250/couple/night"
+       ]
+      },
+      "bali-standard": {
+       "sur": 5,
+       "amounts": [
+        "Add RM650/couple/night",
+        "RM250/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h08",
+     "type": "Private Pool Villa",
+     "name": "Asterra Villa Seminyak",
+     "catalogs": {
+      "bali-honeymoon-standard": {
+       "sur": 6,
+       "amounts": [
+        "Add RM780/couple/night",
+        "RM250/couple/night"
+       ]
+      },
+      "bali-standard": {
+       "sur": 6,
+       "amounts": [
+        "Add RM780/couple/night",
+        "RM250/couple/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dps-h09",
+     "type": "4 Star Hotel",
+     "name": "The One Legian / The Akmani Legian / Sun Island Hotel & Spa, Legian",
+     "catalogs": {
+      "bali-standard": {
+       "sur": 2,
+       "amounts": [
+        "RM60/pax/night",
+        "RM60/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -12283,6 +12929,40 @@
    ],
    "catalogs": [
     "PT LOMBOK 4D3N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "lop-h01",
+     "type": "3 Star Hotel",
+     "name": "Hotel Central Inn, Grand Sengigi Hotel, Fave Hotel",
+     "similar": true,
+     "catalogs": {
+      "lombok": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM60/pax/night",
+        "RM150/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "lop-h02",
+     "type": "4 Star Hotel",
+     "name": "Hotel Aruna, Holiday Resort, Primepark Hotel",
+     "similar": true,
+     "catalogs": {
+      "lombok": {
+       "sur": 2,
+       "amounts": [
+        "RM80/pax/night",
+        "RM70/pax/night",
+        "RM250/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -12801,6 +13481,38 @@
    ],
    "catalogs": [
     "PT JOGJAKARTA 4D3N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "jog-h01",
+     "type": "3 Star Hotel",
+     "name": "Emersia Hotel, Luxury Hotel",
+     "similar": true,
+     "catalogs": {
+      "jogjakarta": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM120/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jog-h02",
+     "type": "4 Star Hotel",
+     "name": "The 101 Yogyakarta Tugu Hotel",
+     "similar": true,
+     "catalogs": {
+      "jogjakarta": {
+       "sur": 2,
+       "amounts": [
+        "Weekday (Sun-Thu) RM100/person/night · Weekend (Fri-Sat) RM120/person/night",
+        "RM180/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -13948,6 +14660,92 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1-S08ByuWV0PnUWOI7NABMuyWyO2EHEOG"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "aceh-h01",
+     "type": "3 Star Hotel",
+     "name": "Arabiya Hotel",
+     "catalogs": {
+      "aceh": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "aceh-h02",
+     "type": "3 Star Hotel",
+     "name": "Oasis Hotel",
+     "catalogs": {
+      "aceh": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "aceh-h03",
+     "type": "3 Star Hotel",
+     "name": "Grand Nanggroe",
+     "catalogs": {
+      "aceh": {
+       "sur": 3,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "aceh-h04",
+     "type": "4 Star Hotel",
+     "name": "Grand Arabiya",
+     "catalogs": {
+      "aceh": {
+       "sur": 4,
+       "amounts": [
+        "Add RM50/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "aceh-h05",
+     "type": "4 Star Hotel",
+     "name": "Kyriad Hotel",
+     "catalogs": {
+      "aceh": {
+       "sur": 5,
+       "amounts": [
+        "Add RM50/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "aceh-h06",
+     "type": "5 Star Hotel",
+     "name": "Hermes Palace Hotel",
+     "catalogs": {
+      "aceh": {
+       "sur": 6,
+       "amounts": [
+        "Add RM90/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
     }
    ]
   },
@@ -15601,6 +16399,92 @@
      "by": "product",
      "drive": "1EJdYJMuholIvOA2H8PvG-PzYxKZ2BQ1L"
     }
+   ],
+   "hotels": [
+    {
+     "id": "acehsbg-h01",
+     "type": "3 Star Hotel",
+     "name": "Grand Nanggroe",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "acehsbg-h02",
+     "type": "3 Star Hotel",
+     "name": "Oasis Hotel",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "acehsbg-h03",
+     "type": "3 Star Hotel",
+     "name": "Freddies Hotel",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 3,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "acehsbg-h04",
+     "type": "4 Star Hotel",
+     "name": "Grand Arabiya",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 4,
+       "amounts": [
+        "Add RM50/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "acehsbg-h05",
+     "type": "4 Star Hotel",
+     "name": "Kyriad Hotel",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 5,
+       "amounts": [
+        "Add RM50/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "acehsbg-h06",
+     "type": "5 Star Hotel",
+     "name": "Hermes Palace Hotel",
+     "catalogs": {
+      "aceh-sabang": {
+       "sur": 6,
+       "amounts": [
+        "Add RM90/person/night",
+        "RM50/person/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -16556,6 +17440,86 @@
      "by": "product",
      "drive": "1kxVvbu6Y2nXC3uTW1UkBkLDbwHzO03cr"
     }
+   ],
+   "hotels": [
+    {
+     "id": "ltoba-h01",
+     "city": "Parapat",
+     "name": "Atsari",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "ltoba-h02",
+     "city": "Samosir",
+     "name": "Samosir Villa",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "ltoba-h03",
+     "city": "Berastagi",
+     "name": "Uluna Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "ltoba-h04",
+     "city": "Medan",
+     "name": "MBS Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "acc": 4
+      }
+     }
+    },
+    {
+     "id": "ltoba-h05",
+     "type": "3 Star Hotel",
+     "name": "Parapat: Atsari · Samosir: Samosir Villa · Berastagi: Uluna Hotel · Medan: MBS Hotel",
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM30/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "ltoba-h06",
+     "type": "4 Star Hotel",
+     "name": "Parapat: Niagara · Berastagi: Sibayak International Hotel · Medan: Emeral",
+     "similar": true,
+     "catalogs": {
+      "medan-lake-toba": {
+       "sur": 2,
+       "amounts": [
+        "RM100/pax/night",
+        "RM40/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -17301,6 +18265,36 @@
      "by": "product",
      "drive": "1gWpRG9pb8K3X-jIJmTAqRic51hGGeBtT"
     }
+   ],
+   "hotels": [
+    {
+     "id": "pdg-h01",
+     "type": "3 Star Hotel",
+     "name": "Grand Bunda / Royal Denai",
+     "catalogs": {
+      "padang-bukittinggi": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM50/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "pdg-h02",
+     "type": "4 Star Hotel",
+     "name": "Grand Rocky / Santika / Grand Royal Denai",
+     "catalogs": {
+      "padang-bukittinggi": {
+       "sur": 2,
+       "amounts": [
+        "Add RM80/person/night",
+        "RM60/person/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -17873,6 +18867,50 @@
      "by": "product",
      "drive": "1siQedl_JFBdBU9hgsvlLVcG_AZWJ-Liq"
     }
+   ],
+   "hotels": [
+    {
+     "id": "jbdo-h01",
+     "city": "Bandung",
+     "name": "Zest Hotel",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "jakarta-bandung": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "jbdo-h02",
+     "type": "3 Star Hotel",
+     "name": "Zest Hotel",
+     "similar": true,
+     "catalogs": {
+      "jakarta-bandung": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM30/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "jbdo-h03",
+     "type": "4 Star Hotel",
+     "name": "ASTON Pasteur Hotel",
+     "similar": true,
+     "catalogs": {
+      "jakarta-bandung": {
+       "sur": 2,
+       "amounts": [
+        "Add RM90/person/night",
+        "RM35/person/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -18384,6 +19422,127 @@
    "catalogs": [
     "PT SURABAYA -BROMO - MALANG (3 STAR) 4D3N 2026",
     "PT SURABAYA-MALANG (3 STAR) 4D3N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "subb-h01",
+     "type": "3 Star Hotel",
+     "name": "Surabaya: The Alana",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM130/pax/night"
+       ]
+      },
+      "surabaya-malang": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM130/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h02",
+     "type": "3 Star Hotel",
+     "name": "Malang: Aston Batu Inn",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM130/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h03",
+     "type": "3 Star Hotel",
+     "name": "Bromo: Lava View Lodge",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 3,
+       "amounts": [
+        "-",
+        "RM130/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h04",
+     "type": "4 Star Hotel",
+     "name": "Surabaya: Goldvitel Hotel",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 4,
+       "amounts": [
+        "Add RM85/pax/night",
+        "RM180/pax/night"
+       ]
+      },
+      "surabaya-malang": {
+       "sur": 3,
+       "amounts": [
+        "Add RM85/pax/night",
+        "RM180/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h05",
+     "type": "4 Star Hotel",
+     "name": "Malang: Regent Park Hotel",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 5,
+       "amounts": [
+        "Add RM85/pax/night",
+        "RM180/pax/night"
+       ]
+      },
+      "surabaya-malang": {
+       "sur": 4,
+       "amounts": [
+        "Add RM85/pax/night",
+        "RM180/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h06",
+     "type": "4 Star Hotel",
+     "name": "Bromo: Grand Whiz Hotel",
+     "catalogs": {
+      "surabaya-bromo-malang": {
+       "sur": 6,
+       "amounts": [
+        "Add RM85/pax/night",
+        "RM180/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "subb-h07",
+     "type": "3 Star Hotel",
+     "name": "Malang: Aston Inn Batu",
+     "catalogs": {
+      "surabaya-malang": {
+       "sur": 2,
+       "amounts": [
+        "-",
+        "RM130/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -19316,6 +20475,88 @@
      "by": "product",
      "drive": "11f0knGA5612GTlPgKbt4mseeVBdtYDqs"
     }
+   ],
+   "hotels": [
+    {
+     "id": "dlmnhcm-h01",
+     "type": "3 Star Hotel",
+     "name": "Dalat Hotel: SaiGon's Book Hotel, Peach Valley Hotel",
+     "similar": true,
+     "catalogs": {
+      "hcm-dalat-muine-4d3n": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      },
+      "hcm-dalat-muine": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dlmnhcm-h02",
+     "type": "3 Star Hotel",
+     "name": "HCM Hotel: Nicecy Boutique Hotel, Queen Central Hotel",
+     "similar": true,
+     "catalogs": {
+      "hcm-dalat-muine-4d3n": {
+       "sur": 2,
+       "amounts": [
+        "-"
+       ]
+      },
+      "hcm-dalat-muine": {
+       "sur": 2,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dlmnhcm-h03",
+     "type": "4 Star Hotel",
+     "name": "Dalat Hotel: Saigon Dalat Hotel",
+     "similar": true,
+     "catalogs": {
+      "hcm-dalat-muine-4d3n": {
+       "sur": 3,
+       "amounts": [
+        "Add RM160/person/night"
+       ]
+      },
+      "hcm-dalat-muine": {
+       "sur": 3,
+       "amounts": [
+        "Add RM160/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dlmnhcm-h04",
+     "type": "4 Star Hotel",
+     "name": "HCM Hotel: Nesta Hotel, Gem Ben Thanh Hotel",
+     "similar": true,
+     "catalogs": {
+      "hcm-dalat-muine-4d3n": {
+       "sur": 4,
+       "amounts": [
+        "Add RM160/person/night"
+       ]
+      },
+      "hcm-dalat-muine": {
+       "sur": 4,
+       "amounts": [
+        "Add RM160/person/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -20162,6 +21403,62 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1fu2wZPQYuPYnMXIxc1-5I4cYUJZTrOvI"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "pqc-h01",
+     "type": "3 Star Hotel",
+     "name": "Rova Hotel Phu Quoc, Phung Hung Hotel Phu Quoc",
+     "similar": true,
+     "catalogs": {
+      "phu-quoc-4d3n": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "pqc-h02",
+     "type": "4 Star Hotel",
+     "name": "Muong Thanh Luxury Phu Quoc, Marina Seaside Boutique Phu Quoc",
+     "similar": true,
+     "catalogs": {
+      "phu-quoc-4d3n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM140/person/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "pqc-h03",
+     "type": "3 Star Hotel",
+     "name": "Rova Hotel Phu Quoc, Phung Hung Hotel Phu Quoc",
+     "catalogs": {
+      "phu-quoc-5d4n": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "pqc-h04",
+     "type": "4 Star Hotel",
+     "name": "Muong Thanh Luxury Phu Quoc, Marina Seaside Boutique Phu Quoc",
+     "catalogs": {
+      "phu-quoc-5d4n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM140/person/night"
+       ]
+      }
+     }
     }
    ]
   },
@@ -21407,6 +22704,114 @@
      "by": "product",
      "drive": "1WE2FFrJJ4JgH0xFRBIRMX95qd0HbucnY"
     }
+   ],
+   "hotels": [
+    {
+     "id": "hnsh-h01",
+     "type": "3 Star Hotel",
+     "name": "Sapa Hotel: Saparis Hotel, Beautiful Sapa Hotel",
+     "similar": true,
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      },
+      "hanoi-sapa": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "hnsh-h02",
+     "type": "3 Star Hotel",
+     "name": "Hanoi Hotel: CWD Hotel, The Charm Hotel",
+     "similar": true,
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 2,
+       "amounts": [
+        "-"
+       ]
+      },
+      "hanoi-sapa": {
+       "sur": 2,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "hnsh-h03",
+     "type": "3 Star Hotel",
+     "name": "Halong Bay Cruise: Victory Star Cruise",
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 3,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "hnsh-h04",
+     "type": "4 Star Hotel",
+     "name": "Sapa Hotel: Delasol Sapa Hotel, Aliana Boutique Sapa Hotel & Spa",
+     "similar": true,
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 4,
+       "amounts": [
+        "Add RM140/pax/night"
+       ]
+      },
+      "hanoi-sapa": {
+       "sur": 3,
+       "amounts": [
+        "Add RM140/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "hnsh-h05",
+     "type": "4 Star Hotel",
+     "name": "Hanoi Hotel: Lake Residence Hotel, Lake Side Hotel",
+     "similar": true,
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 5,
+       "amounts": [
+        "Add RM140/pax/night"
+       ]
+      },
+      "hanoi-sapa": {
+       "sur": 4,
+       "amounts": [
+        "Add RM140/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "hnsh-h06",
+     "type": "4 Star Hotel",
+     "name": "Halong Bay Cruise",
+     "catalogs": {
+      "hanoi-sapa-halong": {
+       "sur": 6,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -22479,6 +23884,46 @@
      "by": "product",
      "drive": "16A_CrisjK73cFuOUzbbiUbM7kg2nlhxt"
     }
+   ],
+   "hotels": [
+    {
+     "id": "dadh-h01",
+     "type": "3 Star Hotel",
+     "name": "LA Beach Hotel / Golden Rose Hotel",
+     "catalogs": {
+      "danang-hoi-an-4d3n": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      },
+      "danang-hoi-an-5d4n": {
+       "sur": 1,
+       "amounts": [
+        "-"
+       ]
+      }
+     }
+    },
+    {
+     "id": "dadh-h02",
+     "type": "4 Star Hotel",
+     "name": "RHM Hotel / Santa Luxury Hotel",
+     "catalogs": {
+      "danang-hoi-an-4d3n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM140/person/night"
+       ]
+      },
+      "danang-hoi-an-5d4n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM140/person/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -23505,6 +24950,67 @@
    "catalogs": [
     "PT MELBOURNE BASIC 5D4N 2026",
     "PT MELBOURNE STANDARD 5D4N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "mel-h01",
+     "city": "Melbourne (City Centre)",
+     "name": "IBIS Melbourne",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "melbourne-basic": {
+       "acc": 1
+      },
+      "melbourne-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "mel-h02",
+     "type": "3 Star Hotel",
+     "name": "IBIS Melbourne",
+     "similar": true,
+     "catalogs": {
+      "melbourne-basic": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM125/pax/night"
+       ]
+      },
+      "melbourne-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM125/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "mel-h03",
+     "type": "4 Star Hotel",
+     "name": "Grand Chancellor",
+     "similar": true,
+     "catalogs": {
+      "melbourne-basic": {
+       "sur": 2,
+       "amounts": [
+        "RM125/pax/night",
+        "RM125/pax/night"
+       ]
+      },
+      "melbourne-standard": {
+       "sur": 2,
+       "amounts": [
+        "RM125/pax/night",
+        "RM125/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -24517,6 +26023,113 @@
    "catalogs": [
     "PT PERTH STANDARD 5D4N 2026",
     "PT PERTH PREMIUM 6D5N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "per-h01",
+     "city": "Perth",
+     "name": "Mercure On Hay",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "perth-premium": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "per-h02",
+     "type": "4 Star Hotel",
+     "name": "Mercure On Hay (with breakfast)",
+     "similar": true,
+     "catalogs": {
+      "perth-premium": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM220/pax/night"
+       ]
+      },
+      "perth-standard": {
+       "sur": 4,
+       "amounts": [
+        "Add RM300/pax/night",
+        "RM220/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "per-h03",
+     "type": "5 Star Hotel",
+     "name": "Duxton Hotel (Halal breakfast available)",
+     "catalogs": {
+      "perth-premium": {
+       "sur": 2,
+       "amounts": [
+        "Add RM350/pax/night",
+        "RM250/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "per-h04",
+     "city": "Perth",
+     "name": "Apartment: Comfort Inn & Suites / Good Health",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "perth-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "per-h05",
+     "type": "3 Star Apartment",
+     "name": "Comfort Inn & Suites / Good Health",
+     "similar": true,
+     "catalogs": {
+      "perth-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM80/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "per-h06",
+     "type": "3 Star Hotel",
+     "name": "Criterion Hotel (No Breakfast)",
+     "similar": true,
+     "catalogs": {
+      "perth-standard": {
+       "sur": 2,
+       "amounts": [
+        "Add RM180/pax/night",
+        "RM120/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "per-h07",
+     "type": "3 Star Hotel",
+     "name": "European Hotel (No Breakfast)",
+     "similar": true,
+     "catalogs": {
+      "perth-standard": {
+       "sur": 3,
+       "amounts": [
+        "Add RM200/pax/night",
+        "RM120/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -30944,6 +32557,148 @@
     "MALDIVES STANDARD 4D3N 2026",
     "PAKEJ MALDIVES COMBO ISLAND (4D3N)",
     "PAKEJ MALDIVES WATER VILLA (4D3N)"
+   ],
+   "hotels": [
+    {
+     "id": "mle-h01",
+     "city": "Maldives",
+     "name": "ICOM Marina",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "maldives-basic": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "mle-h02",
+     "city": "Maldives",
+     "name": "Tropic Tree",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "maldives-basic": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "mle-h03",
+     "city": "Maldives",
+     "name": "Velana Hotels",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "maldives-basic": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "mle-h04",
+     "city": "Maldives",
+     "name": "Triton Beach & Spa",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "maldives-basic": {
+       "acc": 4
+      }
+     }
+    },
+    {
+     "id": "mle-h05",
+     "city": "Maldives — Local Island Hotel",
+     "name": "Kaani Beach / Marina Seaview / Triton Beach / Kaani Village & Spa",
+     "similar": true,
+     "catalogs": {
+      "maldives-combo": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "mle-h06",
+     "city": "Maldives — Water Villa",
+     "name": "Adaaran Select Hudhuran Fushi",
+     "catalogs": {
+      "maldives-combo": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "mle-h07",
+     "city": "Maldives",
+     "name": "Kaani Grand Seaview",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "maldives-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "mle-h08",
+     "city": "Maldives",
+     "name": "Kaani Palm Beach",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "maldives-standard": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "mle-h09",
+     "city": "Maldives",
+     "name": "Arena Beach Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "maldives-standard": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "mle-h10",
+     "city": "Maldives",
+     "name": "Crystal Sands",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "maldives-standard": {
+       "acc": 4
+      }
+     }
+    },
+    {
+     "id": "mle-h11",
+     "city": "Maldives",
+     "name": "Triton Prestige Seaview",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "maldives-standard": {
+       "acc": 5
+      }
+     }
+    },
+    {
+     "id": "mle-h12",
+     "city": "Maldives",
+     "name": "OBLU Xperienxe Water Villa",
+     "stars": 4,
+     "catalogs": {
+      "maldives-water-villa": {
+       "acc": 1
+      }
+     }
+    }
    ]
   },
   {
@@ -31551,6 +33306,56 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1DwPWqQ4Czslm8YDjEdNN_8W1v82NSOwg"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "kmgdls-h01",
+     "city": "Kunming",
+     "name": "Country Inn & Suites by Radisson Hotel / Ramada Encore Hotel / Howard Johnson Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-4-wilayah": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "kmgdls-h02",
+     "city": "Dali",
+     "name": "WenYue Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-4-wilayah": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "kmgdls-h03",
+     "city": "Lijiang",
+     "name": "Kyriad Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-4-wilayah": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "kmgdls-h04",
+     "city": "Shangri La",
+     "name": "LanOu Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-4-wilayah": {
+       "acc": 4
+      }
+     }
     }
    ]
   },
@@ -32162,6 +33967,20 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1dS6_Y2MQnC7kGawjm7PoNvGQd_FVFaSn"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "pek-h01",
+     "city": "Beijing",
+     "name": "Derreal Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "beijing": {
+       "acc": 1
+      }
+     }
     }
    ]
   },
@@ -33143,6 +34962,53 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1-O-VEt-FSrepIHX8B0GWw30qBORpp6il"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "bkk-h01",
+     "type": "3 Star Hotel",
+     "name": "Almas Hotel / Regent Ramkhamhaeng Hotel",
+     "similar": true,
+     "catalogs": {
+      "bangkok-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM80/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "bkk-h02",
+     "type": "4 Star Hotel",
+     "name": "Nouvo City Hotel",
+     "similar": true,
+     "catalogs": {
+      "bangkok-standard": {
+       "sur": 2,
+       "amounts": [
+        "RM50/pax/night",
+        "RM80/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "bkk-h03",
+     "type": "5 Star Hotel",
+     "name": "Al-Meroz Hotel",
+     "similar": true,
+     "catalogs": {
+      "bangkok-standard": {
+       "sur": 3,
+       "amounts": [
+        "RM60/pax/night",
+        "RM80/pax/night"
+       ]
+      }
+     }
     }
    ]
   },
@@ -35888,6 +37754,98 @@
      "by": "product",
      "drive": "1hIywfOoQFGg_EMZavlapLPRwYoeV6ud9"
     }
+   ],
+   "hotels": [
+    {
+     "id": "phu-h01",
+     "city": "Phuket",
+     "name": "IBIS Phuket Kata Beach",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 1
+      },
+      "phuket-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "phu-h02",
+     "city": "Phuket",
+     "name": "Tony Resort Patong Beach",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 2
+      },
+      "phuket-standard": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "phu-h03",
+     "city": "Phuket",
+     "name": "Di Pantai Boutique Beach Resort",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 3
+      },
+      "phuket-standard": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "phu-h04",
+     "city": "Phuket",
+     "name": "The Marina Phuket Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 4
+      },
+      "phuket-standard": {
+       "acc": 4
+      }
+     }
+    },
+    {
+     "id": "phu-h05",
+     "city": "Phuket",
+     "name": "Amata Patong Resort",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 5
+      },
+      "phuket-standard": {
+       "acc": 5
+      }
+     }
+    },
+    {
+     "id": "phu-h06",
+     "city": "Phuket",
+     "name": "Best Western Patong Beach",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "phuket-basic": {
+       "acc": 6
+      },
+      "phuket-standard": {
+       "acc": 6
+      }
+     }
+    }
    ]
   },
   {
@@ -37635,6 +39593,80 @@
     "PAKEJ KRABI BASIC 4D3N 2026",
     "PAKEJ KRABI STANDARD 4D3N 2026",
     "PAKEJ KRABI HONEYMOON 4D3N 2026"
+   ],
+   "hotels": [
+    {
+     "id": "kbv-h01",
+     "city": "Krabi",
+     "name": "Aonang Silver Orchid Resort",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "krabi-basic": {
+       "acc": 1
+      },
+      "krabi-honeymoon": {
+       "acc": 1
+      },
+      "krabi-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "kbv-h02",
+     "city": "Krabi",
+     "name": "Apasari Resort",
+     "stars": 3,
+     "similar": true,
+     "catalogs": {
+      "krabi-basic": {
+       "acc": 2
+      },
+      "krabi-honeymoon": {
+       "acc": 2
+      },
+      "krabi-standard": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "kbv-h03",
+     "city": "Krabi",
+     "name": "Krabi Cha-Da Resort",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "krabi-basic": {
+       "acc": 3
+      },
+      "krabi-honeymoon": {
+       "acc": 3
+      },
+      "krabi-standard": {
+       "acc": 3
+      }
+     }
+    },
+    {
+     "id": "kbv-h04",
+     "city": "Krabi",
+     "name": "Krabi Heritage Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "krabi-basic": {
+       "acc": 4
+      },
+      "krabi-honeymoon": {
+       "acc": 4
+      },
+      "krabi-standard": {
+       "acc": 4
+      }
+     }
+    }
    ]
   },
   {
@@ -39004,6 +41036,50 @@
      "at": "2026-10-04T14:32:13Z",
      "by": "product",
      "drive": "1vSYejz7yJbBjw2bgS5V9wfhGBNEDPutF"
+    }
+   ],
+   "hotels": [
+    {
+     "id": "sws-h01",
+     "city": "Zurich",
+     "name": "Holiday Inn Express, Zurich",
+     "similar": true,
+     "catalogs": {
+      "switzerland-self-tour": {
+       "acc": 1
+      },
+      "switzerland-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "sws-h02",
+     "city": "Bern, Lucerne or Interlaken",
+     "name": "Ibis Hotel, Bern",
+     "similar": true,
+     "catalogs": {
+      "switzerland-self-tour": {
+       "acc": 2
+      },
+      "switzerland-standard": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "sws-h03",
+     "city": "Tasch, Visp or Brig",
+     "name": "Matterhorn Inn, Tasch",
+     "similar": true,
+     "catalogs": {
+      "switzerland-self-tour": {
+       "acc": 3
+      },
+      "switzerland-standard": {
+       "acc": 3
+      }
+     }
     }
    ]
   },
@@ -40779,6 +42855,74 @@
    "catalogs": [
     "PT SABAH BASIC (3D2N) 2026",
     "PT SABAH STANDARD (4D3N) 2026"
+   ],
+   "hotels": [
+    {
+     "id": "kkk-h01",
+     "type": "3 Star Hotel",
+     "name": "Kundasang: Kinabalu Pine Resort, Celyn, HBenjamin or similar · Kota Kinabalu: Ming Garden Hotel, Dreamtel Hotel",
+     "similar": true,
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM40/pax/night"
+       ]
+      },
+      "sabah-kk-kundasang-4d3n": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM40/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "kkk-h02",
+     "type": "3.5 Star Hotel",
+     "name": "Kundasang: Perkasa, Dreamworld",
+     "similar": true,
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM80/pax/night",
+        "RM60/pax/night"
+       ]
+      },
+      "sabah-kk-kundasang-4d3n": {
+       "sur": 2,
+       "amounts": [
+        "Add RM80/pax/night",
+        "RM60/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "kkk-h03",
+     "type": "4 Star Hotel",
+     "name": "Kota Kinabalu: Promenade, Palace Hotel",
+     "similar": true,
+     "catalogs": {
+      "sabah-kk-kundasang-3d2n": {
+       "sur": 3,
+       "amounts": [
+        "Add RM150/pax/night",
+        "RM90/pax/night"
+       ]
+      },
+      "sabah-kk-kundasang-4d3n": {
+       "sur": 3,
+       "amounts": [
+        "Add RM150/pax/night",
+        "RM90/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {
@@ -42885,6 +45029,260 @@
    "catalogs": [
     "PT SEMPORNA BASIC (3D2N) 2026",
     "PT SEMPORNA STANDARD (4D3N) 2026"
+   ],
+   "hotels": [
+    {
+     "id": "sem-h01",
+     "city": "Semporna Town",
+     "name": "Wingtat Hotel",
+     "stars": 1,
+     "catalogs": {
+      "semporna-basic": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "sem-h02",
+     "city": "Water Chalet",
+     "name": "Lato Lato Water Chalet",
+     "stars": 1,
+     "catalogs": {
+      "semporna-basic": {
+       "acc": 2
+      },
+      "semporna-standard": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "sem-h03",
+     "type": "3 Star Hotel (Semporna Town)",
+     "name": "Seafest Boutique",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM30/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 1,
+       "amounts": [
+        "-",
+        "RM30/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h04",
+     "type": "3 Star Hotel (Semporna Town)",
+     "name": "Seafest Lepa Wing Sea View",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 2,
+       "amounts": [
+        "RM30/pax/night",
+        "RM30/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 2,
+       "amounts": [
+        "RM30/pax/night",
+        "RM30/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h05",
+     "type": "3 Star Hotel (Semporna Town)",
+     "name": "Seafest Hotel",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 3,
+       "amounts": [
+        "RM30/pax/night",
+        "RM30/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 3,
+       "amounts": [
+        "RM30/pax/night",
+        "RM30/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h06",
+     "type": "3 Star Hotel (Semporna Town)",
+     "name": "Seafest Hotel Sea View",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 4,
+       "amounts": [
+        "RM50/pax/night",
+        "RM50/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 4,
+       "amounts": [
+        "RM50/pax/night",
+        "RM50/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h07",
+     "type": "1 Star Resort (Water Chalet)",
+     "name": "Nusakuya Resort, Blue Ocean Resort",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 5,
+       "amounts": [
+        "-",
+        "RM60/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 5,
+       "amounts": [
+        "-",
+        "RM60/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h08",
+     "type": "1 Star Resort (Water Chalet)",
+     "name": "Maglami - Lami Water House, Aminah Holiday Resort, Starz Water Villa Standard",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 6,
+       "amounts": [
+        "RM150/pax/night",
+        "RM60/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 6,
+       "amounts": [
+        "RM150/pax/night",
+        "RM60/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h09",
+     "type": "2 Star Resort (Water Chalet)",
+     "name": "Danglai Resort, Dayang Resort",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 7,
+       "amounts": [
+        "RM450/pax/night",
+        "RM65/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 7,
+       "amounts": [
+        "RM450/pax/night",
+        "RM65/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h10",
+     "type": "2 Star Resort (Water Chalet)",
+     "name": "Royal Resort Standard Suite",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 8,
+       "amounts": [
+        "RM600/pax/night",
+        "RM100/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 8,
+       "amounts": [
+        "RM600/pax/night",
+        "RM80/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h11",
+     "type": "3 Star Resort (Water Chalet)",
+     "name": "Sipadan Kapalai",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 9,
+       "amounts": [
+        "RM2,050/pax/night",
+        "RM85/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h12",
+     "type": "3 Star Resort (Water Chalet)",
+     "name": "Sipadan Water Village (SeaView)",
+     "catalogs": {
+      "semporna-basic": {
+       "sur": 10,
+       "amounts": [
+        "RM1,350/pax/night",
+        "RM85/pax/night"
+       ]
+      },
+      "semporna-standard": {
+       "sur": 10,
+       "amounts": [
+        "RM1,350/pax/night",
+        "RM85/pax/night"
+       ]
+      }
+     }
+    },
+    {
+     "id": "sem-h13",
+     "city": "Semporna Town",
+     "name": "Wingtat Hotel",
+     "catalogs": {
+      "semporna-standard": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "sem-h14",
+     "type": "3 Star Resort (Water Chalet)",
+     "name": "Sipadan Kapalai Standard",
+     "catalogs": {
+      "semporna-standard": {
+       "sur": 9,
+       "amounts": [
+        "RM2,050/pax/night",
+        "RM85/pax/night"
+       ]
+      }
+     }
+    }
    ]
   },
   {

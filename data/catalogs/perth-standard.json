@@ -235,44 +235,6 @@
         "period": "Autumn & Winter Season (see dates below)"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Apartment",
-        "name": "Comfort Inn & Suites / Good Health",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM80/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "Criterion Hotel (No Breakfast)",
-        "similar": true,
-        "amounts": [
-          "Add RM180/pax/night",
-          "RM120/pax/night"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "European Hotel (No Breakfast)",
-        "similar": true,
-        "amounts": [
-          "Add RM200/pax/night",
-          "RM120/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Mercure On Hay (with breakfast)",
-        "similar": true,
-        "amounts": [
-          "Add RM300/pax/night",
-          "RM220/pax/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Autumn & Winter Season",
@@ -291,14 +253,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Perth",
-      "stars": 3,
-      "name": "Apartment: Comfort Inn & Suites / Good Health",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Additional Activities"

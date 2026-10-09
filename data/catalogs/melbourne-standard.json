@@ -233,38 +233,10 @@
         "period": "20 Sep 2026 - 30 Sep 2026 · 30 Oct 2026 - 8 Nov 2026 · 1 Dec 2026 - 31 Jan 2027 · 1 Mar 2027 - 12 Apr 2027"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "IBIS Melbourne",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM125/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Grand Chancellor",
-        "similar": true,
-        "amounts": [
-          "RM125/pax/night",
-          "RM125/pax/night"
-        ]
-      }
-    ],
     "notes": [
       "*Note: Special Event Date Surcharge (e.g. Christmas / New Year / Chinese New Year) not included – please enquire prior booking."
     ]
   },
-  "accommodation": [
-    {
-      "city": "Melbourne (City Centre)",
-      "stars": 3,
-      "name": "IBIS Melbourne",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Add-on Private Day Tour"

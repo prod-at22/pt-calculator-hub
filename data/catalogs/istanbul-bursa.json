@@ -238,20 +238,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Bursa",
-      "stars": 3,
-      "name": "Kervansaray City Hotel",
-      "similar": true
-    },
-    {
-      "city": "Istanbul",
-      "stars": 3,
-      "name": "Viva Deluxe Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Additional Activities"

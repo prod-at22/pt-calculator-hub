@@ -96,40 +96,6 @@
         "label": "Upgrade Surcharge (Additional)"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Dalat Hotel: SaiGon's Book Hotel, Peach Valley Hotel",
-        "similar": true,
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "3 Star Hotel",
-        "name": "HCM Hotel: Nicecy Boutique Hotel, Queen Central Hotel",
-        "similar": true,
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Dalat Hotel: Saigon Dalat Hotel",
-        "similar": true,
-        "amounts": [
-          "Add RM160/person/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "HCM Hotel: Nesta Hotel, Gem Ben Thanh Hotel",
-        "similar": true,
-        "amounts": [
-          "Add RM160/person/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Blockout — Chinese New Year 2027",

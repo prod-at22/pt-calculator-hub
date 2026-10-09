@@ -258,54 +258,8 @@
         "label": "Peak Season Surcharge",
         "period": "25 Dec 2025 - 5 Jan 2026 · 15 - 31 Mar 2026 · 25 Jun - 12 July 2026 · 25 Dec 2026 - 5 Jan 2027"
       }
-    ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "Parapat: Atsari · Samosir: Samosir Villa · Berastagi: Uluna Hotel · Medan: MBS Hotel",
-        "similar": true,
-        "amounts": [
-          "-",
-          "RM30/pax/night"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "Parapat: Niagara · Berastagi: Sibayak International Hotel · Medan: Emeral",
-        "similar": true,
-        "amounts": [
-          "RM100/pax/night",
-          "RM40/pax/night"
-        ]
-      }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Parapat",
-      "stars": 3,
-      "name": "Atsari",
-      "similar": true
-    },
-    {
-      "city": "Samosir",
-      "stars": 3,
-      "name": "Samosir Villa",
-      "similar": true
-    },
-    {
-      "city": "Berastagi",
-      "stars": 3,
-      "name": "Uluna Hotel",
-      "similar": true
-    },
-    {
-      "city": "Medan",
-      "stars": 3,
-      "name": "MBS Hotel",
-      "similar": true
-    }
-  ],
   "addon_groups": [
     {
       "title": "Additional Activities"

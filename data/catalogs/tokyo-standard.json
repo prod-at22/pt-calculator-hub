@@ -122,13 +122,6 @@
       }
     ]
   },
-  "accommodation": [
-    {
-      "city": "Tokyo",
-      "name": "Section L Apartment",
-      "similar": true
-    }
-  ],
   "itinerary": [
     {
       "day": 1,

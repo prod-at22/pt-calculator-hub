@@ -103,22 +103,6 @@
         "label": "Upgrade Surcharge (Additional)"
       }
     ],
-    "rows": [
-      {
-        "type": "3 Star Hotel",
-        "name": "LA Beach Hotel / Golden Rose Hotel",
-        "amounts": [
-          "-"
-        ]
-      },
-      {
-        "type": "4 Star Hotel",
-        "name": "RHM Hotel / Santa Luxury Hotel",
-        "amounts": [
-          "Add RM140/person/night"
-        ]
-      }
-    ],
     "seasons": [
       {
         "label": "Blockout: Chinese New Year 2026",
