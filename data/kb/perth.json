@@ -1,6 +1,18 @@
 {
  "slug": "perth",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std": {
+    "code": "PER",
+    "package": "k-n-std"
+   },
+   "prem": {
+    "code": "PER",
+    "package": "k-n-premium"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

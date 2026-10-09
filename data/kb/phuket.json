@@ -1,6 +1,18 @@
 {
  "slug": "phuket",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std3": {
+    "code": "PHU",
+    "package": "ktt-ibis-standard-lowseason"
+   },
+   "bsc3": {
+    "code": "PHU",
+    "package": "ktt-ibis-budget-phi-phi-lowseason"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

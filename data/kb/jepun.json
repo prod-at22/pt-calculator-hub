@@ -1,6 +1,38 @@
 {
  "slug": "jepun",
  "kind": "template",
+ "map": {
+  "variants": {
+   "tokyob": {
+    "code": "HND",
+    "package": "basic"
+   },
+   "tokyos": {
+    "code": "HND",
+    "package": "standard"
+   },
+   "osakab": {
+    "code": "OSK",
+    "package": "wif-basic"
+   },
+   "osakas": {
+    "code": "OSK",
+    "package": "ucop-std-wif-std"
+   },
+   "tobab": {
+    "code": "KIX",
+    "package": "wif-bsc"
+   },
+   "tobas": {
+    "code": "KIX",
+    "package": "qay-ucop-std-wif-std"
+   },
+   "hokkaido": {
+    "code": "CTS",
+    "package": "wif-cts"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

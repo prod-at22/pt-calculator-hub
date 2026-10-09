@@ -1,6 +1,18 @@
 {
  "slug": "aceh",
  "kind": "bespoke",
+ "map": {
+  "variants": {
+   "aceh": {
+    "code": "ACEH",
+    "package": "asonanggroe-3-star"
+   },
+   "sabang": {
+    "code": "ACEHSBG",
+    "package": "asonanggroe-3-star"
+   }
+  }
+ },
  "content": {
   "PKG": [
    {

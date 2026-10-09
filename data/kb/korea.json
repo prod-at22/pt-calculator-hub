@@ -1,6 +1,30 @@
 {
  "slug": "korea",
  "kind": "bespoke",
+ "map": {
+  "variants": {
+   "sbasic": {
+    "code": "SEL",
+    "package": "atk-bsc"
+   },
+   "sstd": {
+    "code": "SEL",
+    "package": "atk-std"
+   },
+   "seljju": {
+    "code": "SELJJU",
+    "package": "atk-std"
+   },
+   "jeju": {
+    "code": "JJU",
+    "package": "atk-pt"
+   },
+   "jejuudo": {
+    "code": "JJUO",
+    "package": "atk-std"
+   }
+  }
+ },
  "content": {
   "PKG": [
    {

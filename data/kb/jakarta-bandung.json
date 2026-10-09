@@ -1,6 +1,18 @@
 {
  "slug": "jakarta-bandung",
  "kind": "template",
+ "map": {
+  "variants": {
+   "optA": {
+    "code": "JBDO",
+    "package": "ctrans"
+   },
+   "optB": {
+    "code": "JBDO",
+    "package": "ctrans"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

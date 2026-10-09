@@ -1,6 +1,22 @@
 {
  "slug": "maldives",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "MLE",
+    "package": "mle-basic-low"
+   },
+   "combo": {
+    "code": "MLE",
+    "package": "mle-combo-low"
+   },
+   "wv": {
+    "code": "MLE",
+    "package": "mle-water-low"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

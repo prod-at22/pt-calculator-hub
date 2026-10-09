@@ -1,6 +1,26 @@
 {
  "slug": "turki",
  "kind": "template",
+ "map": {
+  "variants": {
+   "klasikstd": {
+    "code": "TUR",
+    "package": "mytrip-std-3star"
+   },
+   "klasikbasic": {
+    "code": "TUR",
+    "package": "mytrip-bsc-3star"
+   },
+   "istcap": {
+    "code": "ISTCAP",
+    "package": "mytrip-pt-3star"
+   },
+   "istbur": {
+    "code": "ISTBUR",
+    "package": "mytrip-3s"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

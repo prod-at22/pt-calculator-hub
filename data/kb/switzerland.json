@@ -1,6 +1,14 @@
 {
  "slug": "switzerland",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std": {
+    "code": "SWS",
+    "package": "musafir-arbato-pt"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

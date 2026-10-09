@@ -1,6 +1,18 @@
 {
  "slug": "padang-bukittinggi",
  "kind": "template",
+ "map": {
+  "variants": {
+   "optA": {
+    "code": "PDG",
+    "package": "herman"
+   },
+   "optB": {
+    "code": "PDG",
+    "package": "herman"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

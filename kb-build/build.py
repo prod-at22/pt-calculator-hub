@@ -7,6 +7,9 @@ The hub is the source of every KB's content and Simple Calculator numbers: data/
   content   everything the KB page shows (packages, itineraries, attractions + Muslim-friendly info,
             hotels, tab blocks, FAQ ...)
   calc      the Simple Calculator config (written to <slug>/calc-config.json and the page's CALC_CFG)
+  map       variants: {calculator variant id: {code, package}} — those variants' price tiers come from
+            the Costing package (data/data.json pricing = Catalog Price), so the hub's price always wins;
+            a variant with no Costing package keeps its own tiers in `calc` (KB-only)
 Cosmetics stay in pt-kb-house: the page itself (layout, CSS, engine, travel map, logo) and the images,
 which the hub refers to as "@asset:<key>" and which live in <slug>/assets.json next to the page.
 
@@ -44,14 +47,84 @@ def detoken(obj, assets, slug):
     return obj
 
 
+def num(v):
+    return int(v) if isinstance(v, float) and v.is_integer() else v
+
+
+def hub_tiers(pkg, old):
+    """Calculator tiers from the Costing package: Catalog Price per pax (+ tierUpgrade, as priceRow does)
+    for every pax the KB calculator covers. The KB's own pax bands are kept; a band splits only where the
+    hub's price changes inside it. A pax the package has no price for keeps the KB's own price. A child
+    price the package does not have keeps the KB's (0 = not sold), or follows the adult price when the KB
+    priced the child like an adult (honeymoon = per couple)."""
+    P, up = pkg["pricing"], (pkg.get("rules") or {}).get("tierUpgrade") or 0
+    def at(k, pax):
+        v = P.get(k)
+        v = v.get(str(pax)) if isinstance(v, dict) else None
+        return v if isinstance(v, (int, float)) and v else None
+    def kb(pax):
+        for t in old:
+            if t["from"] <= pax <= t["to"]:
+                return t
+    starts = {t["from"] for t in old}
+    lo = min(t["from"] for t in old)
+    last = max([int(x) for x in P.get("adult", {}) if at("adult", int(x)) is not None] or [lo])
+    top = max(last, max(t["from"] for t in old))     # open-ended KB bands (to 99999) stop the walk here
+    rows = []
+    for pax in range(lo, top + 1):
+        t = kb(pax)
+        if t is None:
+            continue
+        a = at("adult", pax)
+        if a is None:
+            r = {k: t[k] for k in "acn"}
+        else:
+            A = num(a + up)
+            def child(k, hk):
+                v = at(hk, pax)
+                if v is not None:
+                    return num(v + up)
+                return A if t[k] == t["a"] else t[k]
+            r = {"a": A, "c": child("c", "cwb"), "n": child("n", "cnb")}
+        if rows and rows[-1]["to"] == pax - 1 and pax not in starts and all(rows[-1][k] == r[k] for k in "acn"):
+            rows[-1]["to"] = pax
+        else:
+            rows.append({"from": pax, "to": pax, **r})
+    for t in old:                                    # pax above the hub's last priced pax keep the KB's price
+        if t["to"] > top:
+            r = {**t, "from": max(t["from"], top + 1)}
+            if rows and rows[-1]["to"] == r["from"] - 1 and r["from"] not in starts and all(rows[-1][k] == r[k] for k in "acn"):
+                rows[-1]["to"] = r["to"]
+            else:
+                rows.append(r)
+    return rows
+
+
+def calc_from_hub(kb, data):
+    """The KB's calc config with every variant linked to a Costing package priced from the hub."""
+    links = (kb.get("map") or {}).get("variants") or {}
+    if not links:
+        return kb["calc"]
+    pk = {(d["code"], p["id"]): p for d in data["destinations"] for p in d["packages"]}
+    calc = json.loads(json.dumps(kb["calc"]))
+    for v in calc["variants"]:
+        ln = links.get(v["id"])
+        if ln:
+            if (ln["code"], ln["package"]) not in pk:
+                raise SystemExit(f"{kb['slug']}: variant {v['id']} -> unknown package {ln['code']}/{ln['package']}")
+            v["tiers"] = hub_tiers(pk[(ln["code"], ln["package"])], v["tiers"])
+    return calc
+
+
 def one(m, html, what, slug):
     if len(m) != 1:
         raise SystemExit(f"{slug}: expected one {what} block in index.html, found {len(m)}")
     return m[0]
 
 
-def build(site, slug):
+def build(site, slug, data):
     kb = json.load(open(os.path.join(KBDIR, slug + ".json"), encoding="utf-8"))
+    calc = calc_from_hub(kb, data)
     page = os.path.join(site, slug, "index.html")
     html = open(page, encoding="utf-8").read()
     ap = os.path.join(site, slug, "assets.json")
@@ -67,8 +140,8 @@ def build(site, slug):
         raise SystemExit(f"{slug}: expected one 'var CALC_CFG=' in index.html")
     j = i + len("var CALC_CFG=")
     _, end = json.JSONDecoder().raw_decode(new, j)
-    new = new[:j] + script_json(kb["calc"]) + new[end:]
-    cfg = json.dumps(kb["calc"], indent=1, ensure_ascii=False) + "\n"
+    new = new[:j] + script_json(calc) + new[end:]
+    cfg = json.dumps(calc, indent=1, ensure_ascii=False) + "\n"
     cp = os.path.join(site, slug, "calc-config.json")
     old_cfg = open(cp, encoding="utf-8").read() if os.path.exists(cp) else None
     changed = []
@@ -83,8 +156,9 @@ def main(argv):
     if not argv:
         raise SystemExit(__doc__)
     site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json"))
+    data = json.load(open(os.path.join(HUB, "data", "data.json"), encoding="utf-8"))
     for slug in slugs:
-        ch = build(site, slug)
+        ch = build(site, slug, data)
         print(f"{slug}: {', '.join(ch) if ch else 'unchanged'}")
 
 

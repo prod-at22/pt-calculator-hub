@@ -1,6 +1,22 @@
 {
  "slug": "lombok",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std3": {
+    "code": "LOP",
+    "package": "pak-anang-3s"
+   },
+   "hny3": {
+    "code": "LOP",
+    "package": "pak-anang-hny-3s"
+   },
+   "hny4": {
+    "code": "LOP",
+    "package": "pak-anang-hny-4s"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

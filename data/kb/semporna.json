@@ -1,6 +1,18 @@
 {
  "slug": "semporna",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "SEM",
+    "package": "legend-3d-1s"
+   },
+   "std": {
+    "code": "SEM",
+    "package": "legend-4d-1s"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

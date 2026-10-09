@@ -1,6 +1,18 @@
 {
  "slug": "kk-kundasang",
  "kind": "template",
+ "map": {
+  "variants": {
+   "b3d2n": {
+    "code": "KKK",
+    "package": "bahrun-3d-hotel"
+   },
+   "s4d3n": {
+    "code": "KKK",
+    "package": "bahrun-4d-hotel"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

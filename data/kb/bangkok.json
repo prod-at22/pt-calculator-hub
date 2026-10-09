@@ -1,6 +1,14 @@
 {
  "slug": "bangkok",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std": {
+    "code": "BKK",
+    "package": "chiwanon-almas-3-star"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

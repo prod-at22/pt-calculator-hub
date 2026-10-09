@@ -1,6 +1,18 @@
 {
  "slug": "danang",
  "kind": "template",
+ "map": {
+  "variants": {
+   "v4d3n": {
+    "code": "DADH",
+    "package": "bismillah-4d3n"
+   },
+   "v5d4n": {
+    "code": "DADH",
+    "package": "bismillah-5d4n"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

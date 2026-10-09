@@ -1,6 +1,18 @@
 {
  "slug": "melbourne",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "MEL",
+    "package": "wae-basic"
+   },
+   "std": {
+    "code": "MEL",
+    "package": "wae-standard"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

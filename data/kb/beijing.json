@@ -1,6 +1,18 @@
 {
  "slug": "beijing",
  "kind": "template",
+ "map": {
+  "variants": {
+   "am": {
+    "code": "PEK",
+    "package": "tourdechina"
+   },
+   "pm": {
+    "code": "PEK",
+    "package": "tourdechina"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

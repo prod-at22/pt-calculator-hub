@@ -1,6 +1,30 @@
 {
  "slug": "new-zealand",
  "kind": "template",
+ "map": {
+  "variants": {
+   "ptns": {
+    "code": "NSNZ",
+    "package": "arba-to-10d9n-n-s"
+   },
+   "ptsi": {
+    "code": "NSNZ",
+    "package": "arba-to-8d7n-south"
+   },
+   "stnsstd": {
+    "code": "NSNZ",
+    "package": "arba-to-9d8n-std"
+   },
+   "stnsapt": {
+    "code": "NSNZ",
+    "package": "arba-to-9d8n-apt"
+   },
+   "stni": {
+    "code": "NSNZ",
+    "package": "arba-to-6d5n-north-st"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

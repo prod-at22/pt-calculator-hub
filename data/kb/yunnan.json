@@ -1,6 +1,14 @@
 {
  "slug": "yunnan",
  "kind": "template",
+ "map": {
+  "variants": {
+   "w4": {
+    "code": "KMGDLS",
+    "package": "tourdechina"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

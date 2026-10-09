@@ -1,6 +1,18 @@
 {
  "slug": "surabaya-bromo-malang",
  "kind": "template",
+ "map": {
+  "variants": {
+   "sbm3": {
+    "code": "SUBB",
+    "package": "pak-jamal-s-b-m"
+   },
+   "sm3": {
+    "code": "SUBB",
+    "package": "pak-jamal-s-m"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

@@ -1,6 +1,18 @@
 {
  "slug": "perhentian",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "PHT",
+    "package": "shari-la"
+   },
+   "standard": {
+    "code": "PHT",
+    "package": "mimpi"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

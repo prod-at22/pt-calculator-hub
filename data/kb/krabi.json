@@ -1,6 +1,22 @@
 {
  "slug": "krabi",
  "kind": "template",
+ "map": {
+  "variants": {
+   "budget": {
+    "code": "KBV",
+    "package": "budget"
+   },
+   "std": {
+    "code": "KBV",
+    "package": "standard"
+   },
+   "hny": {
+    "code": "KBV",
+    "package": "honeymoon"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

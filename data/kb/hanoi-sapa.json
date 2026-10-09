@@ -1,6 +1,18 @@
 {
  "slug": "hanoi-sapa",
  "kind": "template",
+ "map": {
+  "variants": {
+   "v5d4n": {
+    "code": "HNSH",
+    "package": "ibrahim-5d4n"
+   },
+   "v4d3n": {
+    "code": "HNSH",
+    "package": "ibrahim-4d3n"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

@@ -1,6 +1,18 @@
 {
  "slug": "phu-quoc",
  "kind": "template",
+ "map": {
+  "variants": {
+   "v4d3n": {
+    "code": "PQC",
+    "package": "ibrahim-4d3n"
+   },
+   "v5d4n": {
+    "code": "PQC",
+    "package": "ibrahim-5d4n"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

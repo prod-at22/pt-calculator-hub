@@ -1,6 +1,22 @@
 {
  "slug": "bali",
  "kind": "template",
+ "map": {
+  "variants": {
+   "std": {
+    "code": "DPS",
+    "package": "alfian-std-3s"
+   },
+   "hnystd": {
+    "code": "DPS",
+    "package": "alfian-hny-std"
+   },
+   "hnyprem": {
+    "code": "DPS",
+    "package": "alfian-hny-prem"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

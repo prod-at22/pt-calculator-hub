@@ -1,6 +1,14 @@
 {
  "slug": "jogja",
  "kind": "template",
+ "map": {
+  "variants": {
+   "s3": {
+    "code": "JOG",
+    "package": "pak-jamal-3-star"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

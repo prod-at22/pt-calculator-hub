@@ -1,6 +1,18 @@
 {
  "slug": "medan-lake-toba",
  "kind": "template",
+ "map": {
+  "variants": {
+   "optiona": {
+    "code": "LTOBA",
+    "package": "emiya"
+   },
+   "optionb": {
+    "code": "LTOBA",
+    "package": "baim"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",

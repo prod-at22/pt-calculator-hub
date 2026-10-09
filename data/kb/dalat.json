@@ -1,6 +1,14 @@
 {
  "slug": "dalat",
  "kind": "template",
+ "map": {
+  "variants": {
+   "v5d4n": {
+    "code": "DLMNHCM",
+    "package": "ibrahim-5d4n"
+   }
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",
