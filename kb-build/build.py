@@ -19,9 +19,11 @@ which the hub refers to as "@asset:<key>" and which live in <slug>/assets.json n
 Only the data blocks of <slug>/index.html are rewritten, so the KB's look and engine never change.
 Run by pt-kb-house's mirror.yml after every hub save (like catalog-pt-public's mirror).
 """
-import json, os, re, sys
+import html as htmlmod, json, os, re, sys
 
 HUB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(HUB, "catalog-build"))
+import hub_data  # noqa: E402  (same price rules as the customer catalog)
 KBDIR = os.path.join(HUB, "data", "kb")
 ASSET = re.compile(r"@asset:([0-9a-f]{12})")
 KBDATA = re.compile(r'(<script type="application/json" id="kbdata">)(.*?)(</script>)', re.S)
@@ -118,6 +120,150 @@ def calc_from_hub(kb, data):
     return calc
 
 
+
+# ---------------------------------------------------------------- one source of truth
+# A KB package linked to a catalog (map.packages[i] = {catalog, itinerary?}) takes its price table, itinerary
+# and includes / excludes from the hub: Catalog Price (Costing tab) + data/catalogs/<slug>.json (Itinerary
+# tab). The KB file keeps only what the catalog does not have.
+def cat_items(a):
+    out = []
+    for it in a or []:
+        if isinstance(it, str):
+            out.append(it)
+        else:
+            out.append(it.get("text", "") + (" — " + "; ".join(it["sub"]) if it.get("sub") else ""))
+    return out
+
+
+def cat_days(cat, opt):
+    days = cat["itineraries"][opt]["days"] if opt is not None and cat.get("itineraries") else cat.get("itinerary") or []
+    return [{"d": d.get("day"), "t": d.get("title", ""), "m": d.get("meals") or "-", "a": cat_items(d.get("activities"))} for d in days]
+
+
+def money(v):
+    return "RM " + f"{float(v):,.0f}" if float(v).is_integer() else "RM " + f"{float(v):,.2f}"
+
+
+class Hub:
+    def __init__(self, data):
+        self.data = data
+        self.index = json.load(open(os.path.join(HUB, "data", "catalogs", "index.json"), encoding="utf-8"))
+        self.cats = {}
+
+    def cat(self, slug):
+        if slug not in self.cats:
+            self.cats[slug] = json.load(open(os.path.join(HUB, "data", "catalogs", slug + ".json"), encoding="utf-8"))
+        return self.cats[slug]
+
+    def pkg(self, slug):
+        return hub_data.package_for(slug, self.index, self.data)
+
+    def prices(self, slug):
+        return hub_data.resolve(self.cat(slug), self.pkg(slug))
+
+    def adult(self, slug):
+        """{pax: adult catalog price} as printed (Costing Catalog Price, or the catalog's own amounts)."""
+        pk = self.pkg(slug)
+        if pk:
+            return {int(k): float(v) for k, v in pk["pricing"].get("adult", {}).items() if isinstance(v, (int, float)) and v}
+        out = {}
+        for r in self.cat(slug).get("prices", {}).get("rows", []):
+            n = re.findall(r"\d+", r.get("pax", "")); a = (r.get("amounts") or [None])[0]
+            if n and a and re.search(r"\d", a):
+                out[int(n[0])] = float(re.sub(r"[^\d.]", "", a))
+        return out
+
+
+def price_table(hub, slug):
+    c, P = hub.cat(slug), hub.prices(slug)
+    cols = P.get("columns") or []
+    head = "".join(f"<th>{htmlmod.escape(x.get('label', ''))}" + (f"<br><small>{htmlmod.escape(x['age'])}</small>" if x.get("age") else "") + "</th>" for x in cols)
+    rows = "".join("<tr><td class='it'>" + htmlmod.escape(r.get("pax", "")) + "</td>" + "".join(
+        f"<td{' class=add' if i == 0 else ''}>{htmlmod.escape(a or '-')}</td>" for i, a in enumerate(r.get("amounts") or [])) + "</tr>" for r in P.get("rows") or [])
+    note = [f"Infant: {htmlmod.escape(P['infant'])}" if P.get("infant") else "", htmlmod.escape(c.get("basis") or ""),
+            f"Sah sehingga {htmlmod.escape(c['valid_until'])}" if c.get("valid_until") else ""] + [htmlmod.escape(n) for n in P.get("notes") or []]
+    url = (hub.index.get(slug) or {}).get("url", "")
+    link = " · <a href='" + url + "' target='_blank' rel='noopener'>Katalog customer ↗</a>" if url else ""
+    return (f"<div class='custblk'><h3>{htmlmod.escape(c.get('title', slug))} · {htmlmod.escape(c.get('duration', ''))}</h3>"
+            f"<table class='ctbl'><thead><tr><th>{htmlmod.escape(P.get('pax_label') or 'Bil. pax')}</th>{head}</tr></thead><tbody>{rows}</tbody></table>"
+            "<p class='custnote'>" + " · ".join(x for x in note if x) + link + "</p></div>")
+
+
+def kbonly_table(name, tiers):
+    if len(tiers) == 1 and tiers[0]["from"] == tiers[0]["to"] == 2 and isinstance(tiers[0]["a"], (int, float)):   # per couple
+        return (f"<div class='custblk'><h3>{name}</h3><table class='ctbl'><thead><tr><th>Pakej</th><th>Harga per pasangan</th></tr></thead>"
+                f"<tbody><tr><td class='it'>{name}</td><td class=add>{money(2 * tiers[0]['a'])}</td></tr></tbody></table>"
+                "<p class='custnote'>Tiada katalog customer — harga KB (Simple Calculator).</p></div>")
+    rows = "".join(f"<tr><td class='it'>{t['from'] if t['from'] == t['to'] else str(t['from']) + '–' + (str(t['to']) if t['to'] < 999 else '+')}</td>"
+                   + "".join(f"<td{' class=add' if i == 0 else ''}>{money(t[k]) if isinstance(t[k], (int, float)) and t[k] > 0 else '-'}</td>" for i, k in enumerate("acn")) + "</tr>"
+                   for t in tiers)
+    return (f"<div class='custblk'><h3>{name}</h3><table class='ctbl'><thead><tr><th>Bil. pax</th><th>Adult</th><th>Child With Bed</th><th>Child No Bed</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table><p class='custnote'>Tiada katalog customer — harga KB (Simple Calculator).</p></div>")
+
+
+def pricing_html(hub, kb, calc, links, names):
+    seen, parts = set(), []
+    for i, ln in enumerate(links):
+        if ln and ln["catalog"] not in seen:
+            seen.add(ln["catalog"]); parts.append(price_table(hub, ln["catalog"]))
+        elif not ln:
+            vid = (kb["map"].get("kbonly") or {}).get(str(i))
+            v = next((x for x in calc["variants"] if x["id"] == vid), None)
+            if v:
+                parts.append(kbonly_table(names[i], v["tiers"]))
+    return ("<h2>Harga &amp; Pakej</h2><p class='ssub'>Harga katalog per pax dari PT R&amp;D Costing Hub — sama seperti katalog customer. "
+            "Itinerary, termasuk &amp; tidak termasuk ikut tab Itinerary hub.</p>" + "".join(parts))
+
+
+TOKEN = re.compile(r"\{\{(dari|2pax|pasangan):(\d+)\}\}")
+
+
+def fill_tokens(obj, hub, links, slug):
+    def val(kind, i):
+        ln = links[i] if i < len(links) else None
+        if not ln:
+            raise SystemExit(f"{slug}: {{{{{kind}:{i}}}}} — package {i} has no catalog")
+        A = hub.adult(ln["catalog"])
+        if not A:
+            raise SystemExit(f"{slug}: no price for {ln['catalog']}")
+        v = min(A.values()) if kind == "dari" else A.get(min(A)) if kind == "2pax" else 2 * A.get(min(A))
+        return "RM" + (f"{v:,.0f}" if float(v).is_integer() else f"{v:,.2f}")
+    if isinstance(obj, str):
+        return TOKEN.sub(lambda m: val(m.group(1), int(m.group(2))), obj) if "{{" in obj else obj
+    if isinstance(obj, list):
+        return [fill_tokens(x, hub, links, slug) for x in obj]
+    if isinstance(obj, dict):
+        return {k: fill_tokens(v, hub, links, slug) for k, v in obj.items()}
+    return obj
+
+
+def content_from_hub(kb, calc, hub):
+    """The KB content with every catalog-linked part filled from the hub."""
+    links = (kb.get("map") or {}).get("packages")
+    if not links:
+        return kb["content"]
+    c = json.loads(json.dumps(kb["content"]))
+    bespoke = kb["kind"] == "bespoke"
+    P, I = (c["PKG"], c["ITIN"]) if bespoke else (c["packages"], c["itineraries"])
+    for i, ln in enumerate(links):
+        if not ln:
+            continue
+        cat = hub.cat(ln["catalog"])
+        pb = (cat.get("price_blocks") or [{}])[0]
+        P[i]["inc"], P[i]["exc"] = cat_items(pb.get("includes")), cat_items(pb.get("excludes"))
+        I[i] = cat_days(cat, ln.get("itinerary"))
+    names = [htmlmod.unescape(p.get("n", "")) for p in P]
+    if bespoke and "PRICES" in c:                      # korea: structured price rows
+        for i, ln in enumerate(links):
+            if ln and i < len(c["PRICES"]):
+                pr = hub.prices(ln["catalog"])
+                c["PRICES"][i]["rows"] = [[r.get("pax", "")] + [re.sub(r"^RM\s?", "", a or "-") for a in (r.get("amounts") or [])] for r in pr.get("rows") or []]
+    elif bespoke:
+        c["PRICING_HTML"] = pricing_html(hub, kb, calc, links, names) + (c.get("PRICING_HTML") or "")
+    else:
+        c["blocks"]["pricing"] = pricing_html(hub, kb, calc, links, names) + (c["blocks"].get("pricing") or "")
+    return fill_tokens(c, hub, links, kb["slug"])
+
 PKGSEL = re.compile(r"(<select[^>]*id='c_pkg'[^>]*>)(.*?)(</select>)", re.S)
 
 
@@ -140,9 +286,10 @@ def one(m, html, what, slug):
     return m[0]
 
 
-def build(site, slug, data):
+def build(site, slug, data, hub):
     kb = json.load(open(os.path.join(KBDIR, slug + ".json"), encoding="utf-8"))
     calc = calc_from_hub(kb, data)
+    kb = {**kb, "content": content_from_hub(kb, calc, hub)}
     page = os.path.join(site, slug, "index.html")
     html = open(page, encoding="utf-8").read()
     ap = os.path.join(site, slug, "assets.json")
@@ -176,8 +323,9 @@ def main(argv):
         raise SystemExit(__doc__)
     site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json") and f != "index.json")
     data = json.load(open(os.path.join(HUB, "data", "data.json"), encoding="utf-8"))
+    hub = Hub(data)
     for slug in slugs:
-        ch = build(site, slug, data)
+        ch = build(site, slug, data, hub)
         print(f"{slug}: {', '.join(ch) if ch else 'unchanged'}")
 
 

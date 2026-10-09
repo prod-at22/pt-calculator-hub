@@ -11,6 +11,15 @@
     "code": "LOP",
     "package": "pak-anang-hny-3s"
    }
+  },
+  "packages": [
+   {
+    "catalog": "lombok"
+   },
+   null
+  ],
+  "kbonly": {
+   "1": "hny3"
   }
  },
  "content": {
@@ -75,25 +84,6 @@
     "emoji": "",
     "img": "skimg:p1",
     "intro": "Pakej Private Tour Lombok 4 hari 3 malam — Ground + Tipping. Merangkumi Gili Trawangan (snorkeling + masjid ikonik), pilihan Day 3 antara Sembalun (Mount Rinjani) atau Pink Beach, dan Sasak Cultural Tour. Harga per pax, sesuai untuk family, young adult & group; ada kadar Child With Bed (CWB) & Child No Bed (CNB).",
-    "inc": [
-     "3 malam penginapan (Hotel 3★, boleh upgrade 4★)",
-     "Private transport (12 jam sehari)",
-     "Entrance fees seperti dalam itinerari",
-     "Full board — 3 Breakfast + 3 Lunch + 3 Dinner (halal)",
-     "Private Boat (Gili + Pink Beach variant)",
-     "Snorkeling Set",
-     "Air minuman botol sepanjang tour",
-     "Tipping Fee (bundled)"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik KUL ↔ LOP",
-     "Bagasi, in-flight meal & airport tax",
-     "Extra hour transport & guide (150,000 IDR/jam ≈ RM45, cash)",
-     "Additional tours & meals di luar itinerari",
-     "Travel insurance / Takaful",
-     "Aktiviti optional: Cidomo horse ride, Zipline, Bicycle, Pink Beach Kayak, Rainbow Slide, strawberry picking",
-     "Perbelanjaan peribadi & shopping"
-    ],
     "note": "Harga untuk 2–3 orang sebilik. Single Supplement +RM500/pax (STD 3★ SAHAJA — tiada untuk 4★). Late booking (<45 hari) +RM50/booking. Infant FOC."
    },
    {
@@ -129,54 +119,7 @@
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan (Arrival)",
-     "m": "Dinner",
-     "a": [
-      "Tiba di Lombok Airport (LOP)",
-      "Land transfer ke Mataram/Sengigi",
-      "Check-in hotel & rehat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Gili Trawangan",
-     "m": "B / L / D",
-     "a": [
-      "Naik bot di jetty ke Gili Trawangan",
-      "Aktiviti snorkeling (private boat)",
-      "Masjid Baitulrohman",
-      "Explore Gili Trawangan",
-      "Cidomo Horse Ride (optional)",
-      "Balik hotel & rehat"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Pilih A) Sembalun (Mount Rinjani) ATAU B) Pink Beach",
-     "m": "B / L / D",
-     "a": [
-      "A) SEMBALUN: Pusuk Sembalun · Kebon (strawberry picking, ikut musim) · Kedai Sawah · Taman Surga · Bukit Selong",
-      "B) PINK BEACH: transfer ke jetty · bot private ke Pink Beach · snorkeling · balik ke Mataram/Sengigi",
-      "Nota: pilih SATU variant sahaja"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Sasak Cultural Tour",
-     "m": "B / L",
-     "a": [
-      "Check-out hotel",
-      "Desa Banyumulek (kraf tembikar)",
-      "Desa Sukarara (tenunan tradisional)",
-      "Sade Rambitan (kampung Sasak)",
-      "Tanjung Aan (pantai pasir putih)",
-      "Transfer balik ke airport"
-     ]
-    }
-   ],
+   null,
    [
     {
      "d": 1,
@@ -371,7 +314,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog Ground + Tipping — per pax, 2–3 sebilik. Sah sehingga tempoh travel 31 Mac 2027. Infant FOC.</p><div class='custblk'><h3>Standard (per pax, 3★)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 1,257</td><td>RM 1,157</td><td>RM 1,057</td></tr><tr><td class='it'>4–6</td><td class='add'>RM 1,197</td><td>RM 1,097</td><td>RM 997</td></tr><tr><td class='it'>7–10</td><td class='add'>RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr><tr><td class='it'>11–15</td><td class='add'>RM 1,097</td><td>RM 997</td><td>RM 897</td></tr></tbody></table><p class='custnote'>Upgrade 4★: +RM80/pax/malam (+RM240/pax untuk 3N). Single Supplement +RM500/pax (STD 3★ SAHAJA).</p></div><div class='custblk'><h3>Honeymoon (flat per couple)</h3><table class='ctbl'><thead><tr><th>Standard</th><th>Harga per couple</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>3★ Hotel</td><td class='add'>RM 2,697</td><td>Deco bilik + Horse Carriage + Candle Light Dinner included</td></tr></tbody></table><p class='custnote'>Honeymoon strictly couples-only — tiada CWB/CNB, Single Supplement tidak tersedia.</p></div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation &amp; Add-Ons</h2><p class='ssub'>Rate card operasi (tambah / tolak dari pakej katalog) dan harga jualan add-on. Semua dalam RM.</p><div class='custblk'><h3>Rate Card Operasi &middot; Transport + Driver</h3><table class='ctbl'><thead><tr><th>Jenis Tour</th><th>Jenis Transport</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>Full Day Tour (12 jam)</td><td>Avanza / APV</td><td>2&ndash;4 pax</td><td class='add'>RM 250 / transport</td><td class='ded'>&minus;RM 200 / transport</td></tr><tr><td class='it'></td><td>Innova</td><td>5&ndash;6 pax</td><td class='add'>RM 320 / transport</td><td class='ded'>&minus;RM 270 / transport</td></tr><tr><td class='it'></td><td>Hiace</td><td>7&ndash;12 pax</td><td class='add'>RM 420 / transport</td><td class='ded'>&minus;RM 370 / transport</td></tr><tr><td class='it'>Half Day Tour (5&ndash;6 jam)</td><td>Avanza / APV</td><td>2&ndash;4 pax</td><td class='add'>RM 200 / transport</td><td class='ded'>&minus;RM 150 / transport</td></tr><tr><td class='it'></td><td>Innova</td><td>5&ndash;6 pax</td><td class='add'>RM 250 / transport</td><td class='ded'>&minus;RM 200 / transport</td></tr><tr><td class='it'></td><td>Hiace</td><td>7&ndash;12 pax</td><td class='add'>RM 320 / transport</td><td class='ded'>&minus;RM 270 / transport</td></tr><tr><td class='it'>Airport Transfer</td><td>Avanza / APV</td><td>2&ndash;4 pax</td><td class='add'>RM 150 / transport</td><td class='ded'>&minus;RM 100 / transport</td></tr><tr><td class='it'></td><td>Innova</td><td>5&ndash;6 pax</td><td class='add'>RM 180 / transport</td><td class='ded'>&minus;RM 130 / transport</td></tr><tr><td class='it'></td><td>Hiace</td><td>7&ndash;12 pax</td><td class='add'>RM 210 / transport</td><td class='ded'>&minus;RM 160 / transport</td></tr></tbody></table><p class='custnote'>Kadar per kenderaan, bukan per pax. 13 pax ke atas guna bas &mdash; rate card tidak beri kadar bas; sahkan dengan operator sebelum quote.</p></div><div class='custblk'><h3>Rate Card Operasi &middot; Accommodation</h3><table class='ctbl'><thead><tr><th>Kelas Hotel</th><th>Tambahan 1 Malam (Normal)</th><th>Tambahan 1 Malam (Peak)</th><th>Tolak 1 Malam (Normal)</th><th>Tolak 1 Malam (Peak)</th></tr></thead><tbody><tr><td class='it'>3 Star (or similar)</td><td class='add'>RM 85 / pax / malam</td><td class='add'>RM 145 / pax / malam</td><td class='ded'>&minus;RM 50 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>4 Star (or similar)</td><td class='add'>RM 120 / pax / malam</td><td class='add'>RM 190 / pax / malam</td><td class='ded'>&minus;RM 90 / pax / malam</td><td>&mdash;</td></tr></tbody></table><p class='custnote'>Tiada tolakan malam semasa peak season &mdash; malam peak tidak boleh dibuang dari pakej.</p></div><div class='custblk'><h3>Rate Card Operasi &middot; Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 Meal</th><th>Tolak 1 Meal</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Suggest at Hotel</td><td>&mdash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30 / pax</td><td class='ded'>&minus;RM 20 / pax</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30 / pax</td><td class='ded'>&minus;RM 20 / pax</td></tr></tbody></table><p class='custnote'>Breakfast sentiasa ikut hotel &mdash; tiada kadar tambah atau tolak berasingan.</p></div><div class='custblk'><h3>Rate Card Operasi &middot; Entrance / Activity</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga Tambahan</th><th>Harga Tolak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Boat to Pink Beach</td><td class='add'>RM 380 / bot</td><td class='ded'>&minus;RM 250 / bot</td><td>1 private boat muat 10 pax</td></tr><tr><td class='it'>Entrance to Pink Beach</td><td class='add'>RM 20 / pax</td><td class='ded'>&minus;RM 10 / pax</td><td>&mdash;</td></tr></tbody></table></div><div class='custblk'><h3>Aktiviti Optional</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Per</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Cidomo Horse Ride (Gili)</td><td class='add'>RM 80</td><td>carriage</td><td>Day 2 · included untuk Honeymoon</td></tr><tr><td class='it'>Rainbow Slide</td><td class='add'>RM 50</td><td>pax</td><td>Gumuk Pasir</td></tr><tr><td class='it'>Zipline</td><td class='add'>RM 120</td><td>pax</td><td>Gumuk Pasir</td></tr><tr><td class='it'>Bicycle Rental</td><td class='add'>RM 50</td><td>pax/2jam</td><td>Gili / Gumuk Pasir</td></tr><tr><td class='it'>Pink Beach Kayak</td><td class='add'>RM 80</td><td>pax</td><td>Variant B sahaja</td></tr><tr><td class='it'>Snorkel Gear Upgrade</td><td class='add'>RM 50</td><td>pax</td><td>Set asas sudah included</td></tr><tr><td class='it'>Strawberry Picking</td><td class='add'>RM 60</td><td>pax</td><td>Sembalun · bermusim</td></tr></tbody></table></div><div class='custblk'><h3>Honeymoon Add-On</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Per</th></tr></thead><tbody><tr><td class='it'>Romantic Sunset Dinner (extra)</td><td class='add'>RM 300</td><td>couple</td></tr><tr><td class='it'>Spa Couple Treatment (60 min)</td><td class='add'>RM 500</td><td>couple</td></tr></tbody></table></div><div class='custblk'><h3>Wifi / eSIM · Takaful · Lain-lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Per</th></tr></thead><tbody><tr><td class='it'>Pocket Wifi 3GB (4G)</td><td class='add'>RM 80</td><td>trip</td></tr><tr><td class='it'>Pocket Wifi 10GB (5G)</td><td class='add'>RM 130</td><td>trip</td></tr><tr><td class='it'>eSIM Indonesia 7 hari</td><td class='add'>RM 60</td><td>trip</td></tr><tr><td class='it'>Takaful TripCare 360 Individu (Area 2)</td><td class='add'>RM 64</td><td>pax</td></tr><tr><td class='it'>Takaful TripCare 360 Couple (Area 2)</td><td class='add'>RM 113</td><td>pair</td></tr><tr><td class='it'>Takaful TripCare 360 Family (Area 2)</td><td class='add'>RM 143.50</td><td>family</td></tr></tbody></table><p class='custnote'>Untuk tolak hari tour, malam hotel atau hidangan, guna <b>Rate Card Operasi</b> di atas &mdash; bukan kadar rata.</p></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Pilih varian ikut kelas hotel</b> (3 atau 4 bintang): kadar peak, kadar malam tambahan dan kadar tolak malam berbeza antara keduanya. <b>Honeymoon</b> harga flat per pasangan (2 pax sahaja) &mdash; tiada kadar kanak-kanak dan tiada single supplement. Kadar transport ialah kadar <b>per kenderaan</b> ikut kapasiti (Avanza/APV 2&ndash;4 &middot; Innova 5&ndash;6 &middot; Hiace 7&ndash;12) dan dibahagi sama rata antara pax berbayar. <b>Nak buang satu malam tanpa memendekkan trip?</b> Pada hari itu set Accommodation kepada <i>Tolak 1 malam dari pakej</i> dan Meal kepada <i>Breakfast sahaja</i> &mdash; malam dan hidangan kedua-duanya ditolak. Kalau baris hari itu dibuang terus, hanya malam pakej yang ditolak; hidangan hari itu perlu ditolak sendiri.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Lombok 4D3N &middot; Hotel 3 bintang</option><option value='1'>PT Lombok 4D3N &middot; Hotel 4 bintang</option><option value='2'>PT Honeymoon Lombok 4D3N &middot; Hotel 3 bintang</option><option value='3'>PT Honeymoon Lombok 4D3N &middot; Hotel 4 bintang</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant bawah 2 tahun &mdash; FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 500/pax &mdash; Standard 3 bintang SAHAJA</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><div class='custblk'><h3>Peak Season</h3><table class='ctbl'><thead><tr><th>Varian</th><th>Peak biasa</th><th>Event 9–11 Okt 2026</th></tr></thead><tbody><tr><td class='it'>STD 3★</td><td class='add'>+RM 60/pax/malam</td><td class='add'>+RM 150/pax/malam</td></tr><tr><td class='it'>STD 4★</td><td class='add'>+RM 70/pax/malam</td><td class='add'>+RM 250/pax/malam</td></tr><tr><td class='it'>Honeymoon 3★</td><td class='add'>+RM 120/couple/malam</td><td class='add'>+RM 300/couple/malam</td></tr></tbody></table><p class='custnote'>Tarikh peak: 15–31 Mac 2026 · 25 Jun–12 Jul 2026 · 25 Dis 2026–5 Jan 2027 · 5–25 Feb 2027 · 5 Mac–15 Apr 2027. Event khas: 9–11 Okt 2026.</p></div><div class='custblk'><h3>Surcharge Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement</td><td class='add'>+RM 500/pax</td><td>STD 3★ SAHAJA — tiada untuk 4★ atau Honeymoon</td></tr><tr><td class='it'>Upgrade 4★ (STD)</td><td class='add'>+RM 80/pax/malam</td><td>+RM 240/pax untuk 3N</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Booking &lt;45 hari sebelum departure (per booking)</td></tr><tr><td class='it'>Extra Hour Transport + Guide</td><td class='add'>150,000 IDR/jam</td><td>≈ RM 45/jam · selepas 12 jam · cash to driver</td></tr></tbody></table><p class='custnote'>Semua kadar di atas mengikut katalog PT Lombok 2026 v3 &amp; PT Honeymoon Lombok 2026 v3 (last updated 12 Mac 2026).</p></div>",

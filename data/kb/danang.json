@@ -11,7 +11,15 @@
     "code": "DADH",
     "package": "bismillah-5d4n"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "danang-hoi-an-4d3n"
+   },
+   {
+    "catalog": "danang-hoi-an-5d4n"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -65,24 +73,6 @@
     "emoji": "🚡",
     "img": "@asset:350352b1a1ec",
     "intro": "Pakej padat 4 hari 3 malam (Ground & Tipping) — fokus tarikan ikonik Danang: cable car ke Bana Hills & Golden Bridge, city tour Danang, dan Hoi An Old Quarter dengan Coconut Basket Boat. Hotel 3-Star Fullboard, Local Driving Guide (English Speaking), tipping included.",
-    "inc": [
-     "3 malam penginapan (Hotel 3-Star)",
-     "Private transportation sepanjang trip",
-     "Full meals halal (3B, 3L, 3D)",
-     "Local Driving Guide (English Speaking)",
-     "Tiket masuk: Champa Museum",
-     "FREE Coconut Basket Boat Tour",
-     "FREE Cable Car ke Bana Hills",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik",
-     "Luggage, in-flight meal & airport tax",
-     "Tour & meal tambahan",
-     "Perbelanjaan peribadi",
-     "Travel insurance / takaful",
-     "Alpine Coaster di Bana Hill (RM50/pax, optional)"
-    ],
     "note": "Blackout CNY 2026 (16–22 Feb) & CNY 2027 (17–18 Feb) — tour tidak available. Deposit RM250/pax; bayaran penuh 45 hari sebelum departure."
    },
    {
@@ -92,137 +82,12 @@
     "emoji": "🛶",
     "img": "@asset:c9c4c5f70350",
     "intro": "Versi lanjutan 5 hari 4 malam — tambah 1 hari penuh untuk Hoi An Ancient Quarter + Marble Mountain, plus Han River Cruise waktu malam dan Asia Park. Sesuai untuk yang mahu pengalaman lebih santai & menyeluruh. Hotel 3-Star Fullboard, tipping included.",
-    "inc": [
-     "4 malam penginapan (Hotel 3-Star)",
-     "Private transportation sepanjang trip",
-     "Full meals halal (4B, 4L, 4D)",
-     "Local Driving Guide (English Speaking)",
-     "Tiket masuk: Champa Museum, Marble Mountain, Bana Hills, Hoi An Old Quarter",
-     "FREE Han River Cruise",
-     "FREE Coconut Basket Boat Tour",
-     "FREE Cable Car ke Bana Hills",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik",
-     "Luggage, in-flight meal & airport tax",
-     "Tour & meal tambahan",
-     "Perbelanjaan peribadi",
-     "Travel insurance / takaful",
-     "Alpine Coaster di Bana Hill (RM50/pax, optional)"
-    ],
     "note": "Blackout CNY 2026 (16–22 Feb) & CNY 2027 (17–18 Feb) — tour tidak available. Deposit RM250/pax; bayaran penuh 45 hari sebelum departure."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan — Danang",
-     "m": "L / D",
-     "a": [
-      "Tiba di Danang International Airport (cadangan sampai 12pm atau awal)",
-      "Airport pickup",
-      "Champa Museum (Included)",
-      "Check-in hotel",
-      "Free & easy di Danang Beach",
-      "Dinner & lawat Night Market"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Bana Hill SunWorld Tour",
-     "m": "B / L / D",
-     "a": [
-      "Cable Car ke Bana Hills (Included)",
-      "French Village",
-      "Alpine Coaster Ride (optional +RM50)",
-      "Golden Bridge & Fantasy Park",
-      "Son Tra Night Market"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Danang City Tour — Hoi An",
-     "m": "B / L / D",
-     "a": [
-      "Love Bridge",
-      "Dragon Bridge",
-      "Shopping di Danang",
-      "Hoi An Old Quarter",
-      "Coconut Basket Boat (Included)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Free & Easy — Departure",
-     "m": "B",
-     "a": [
-      "Sarapan",
-      "Free & easy",
-      "Transfer ke Danang International Airport (cadangan bertolak 11am ke atas)"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan — Danang",
-     "m": "L / D",
-     "a": [
-      "Tiba di Danang International Airport (cadangan sampai 12pm atau awal)",
-      "Airport pickup",
-      "Check-in hotel",
-      "Free & easy di Danang Beach",
-      "Han River Cruise (Included)",
-      "Kembali ke hotel"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Bana Hill SunWorld Tour",
-     "m": "B / L / D",
-     "a": [
-      "Cable Car ke Bana Hills (Included)",
-      "French Village",
-      "Alpine Coaster Ride (optional +RM50)",
-      "Golden Bridge & Fantasy Park",
-      "Son Tra Night Market"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Danang City Tour",
-     "m": "B / L / D",
-     "a": [
-      "Love Bridge",
-      "Shopping di Danang",
-      "Asia Park Danang",
-      "Dragon Bridge"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Danang — Hoi An",
-     "m": "B / L / D",
-     "a": [
-      "Champa Museum (Included)",
-      "Hoi An Ancient Quarter (Included)",
-      "Coconut Basket Boat Tour (Included)",
-      "Marble Mountain (Included)"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Free & Easy — Departure",
-     "m": "B",
-     "a": [
-      "Sarapan",
-      "Free & easy",
-      "Transfer ke Danang International Airport (cadangan bertolak 11am ke atas)"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -352,7 +217,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar <b>katalog V3 (6 Ogos 2026)</b> &mdash; per pax, 2@3 orang sebilik, MYR, Ground &amp; Tipping sahaja. Sah untuk travel hingga <b>31 Dis 2026</b>. CWB = Adult &minus;RM200 &middot; CNB = Adult &minus;RM400 &middot; Infant (bawah 2 tahun): FOC.</p><div class='custblk'><h3>PT Danang Hoi An 4D3N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,217</td><td>RM 2,017</td><td>RM 1,817</td></tr><tr><td class='it'>3</td><td class='add'>RM 2,147</td><td>RM 1,947</td><td>RM 1,747</td></tr><tr><td class='it'>4&#8211;5</td><td class='add'>RM 1,977</td><td>RM 1,777</td><td>RM 1,577</td></tr><tr><td class='it'>6&#8211;7</td><td class='add'>RM 1,777</td><td>RM 1,577</td><td>RM 1,377</td></tr><tr><td class='it'>8&#8211;12</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT DANANG HOI AN 4D3N 2026 <b>V3</b> (6 Ogos 2026). Perhatian: harga V3 <b>lebih tinggi</b> daripada V2 &mdash; jangan quote dari katalog lama. Tier tertinggi kini <b>8&#8211;12 pax</b> (dahulu 8&#8211;10).</p></div><div class='custblk'><h3>PT Danang Hoi An 5D4N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2&#8211;4</td><td class='add'>RM 2,377</td><td>RM 2,177</td><td>RM 1,977</td></tr><tr><td class='it'>5&#8211;7</td><td class='add'>RM 2,277</td><td>RM 2,077</td><td>RM 1,877</td></tr><tr><td class='it'>8&#8211;10</td><td class='add'>RM 2,177</td><td>RM 1,977</td><td>RM 1,777</td></tr><tr><td class='it'>11&#8211;15</td><td class='add'>RM 1,977</td><td>RM 1,777</td><td>RM 1,577</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT DANANG HOI AN 5D4N 2026 <b>V3</b> (6 Ogos 2026). Untuk 16 pax dan ke atas, minta quote khas dari operator.</p></div><div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li>Harga sah <b>24 jam</b> selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant.</li><li>Meals termasuk &mdash; <b>tiada refund</b> jika customer pilih untuk tidak makan.</li><li>Aktiviti yang tiada dalam itinerari dibayar sendiri (cth Alpine Coaster Bana Hills RM50/pax).</li><li>Itinerari &amp; hotel muktamad <b>14 hari</b> sebelum trip. Deposit RM250/pax; full payment 45 hari sebelum berlepas.</li></ul></div>",
+   "pricing": "<div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li>Harga sah <b>24 jam</b> selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant.</li><li>Meals termasuk &mdash; <b>tiada refund</b> jika customer pilih untuk tidak makan.</li><li>Aktiviti yang tiada dalam itinerari dibayar sendiri (cth Alpine Coaster Bana Hills RM50/pax).</li><li>Itinerari &amp; hotel muktamad <b>14 hari</b> sebelum trip. Deposit RM250/pax; full payment 45 hari sebelum berlepas.</li></ul></div>",
    "custom": "<h2>Simple Customisation</h2><p class='ssub'>Kadar <b>Rate Card Operasi KB</b> (3 Sep 2026) &mdash; harga jualan per pax (MYR). Lajur <b>Peak</b> rate card semuanya &quot;-&quot; untuk accommodation, jadi kadar peak <b>sama</b> dengan normal. Semua kadar ini sudah masuk dalam <b>Simple Calculator</b>.</p><div class='custblk'><h3>Accommodation &mdash; tambah / tolak 1 malam</h3><table class='ctbl'><thead><tr><th>Kelas hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Hotel</th></tr></thead><tbody><tr><td class='it'>3&#9733; (dalam pakej)</td><td class='add'>RM 100</td><td class='ded'>&minus;RM 50</td><td><b>Danang:</b> LA Beach Hotel &middot; Golden Rose Hotel</td></tr><tr><td class='it'>4&#9733;</td><td class='add'>RM 240</td><td class='ded'>&minus;RM 120</td><td><b>Danang:</b> RHM Hotel &middot; Santa Luxury Hotel</td></tr><tr><td class='it'>5&#9733;</td><td class='add'>RM 350</td><td>&mdash;</td><td><b>Danang:</b> Nalod Hotel &middot; <b>Hoi An:</b> Grand Sunrise Hotel</td></tr></tbody></table><p class='custnote'>Per pax per malam. Rate card <b>tiada</b> kadar tolak untuk 5&#9733; &mdash; kalau customer nak buang malam 5&#9733;, minta quote dari consultant.</p></div><div class='custblk'><h3>Upgrade hotel &mdash; malam yang sudah ada dalam pakej</h3><table class='ctbl'><thead><tr><th>Upgrade</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>3&#9733; &rarr; 4&#9733;</td><td class='add'>RM 140</td><td>per pax / malam &middot; RHM atau Santa Luxury</td></tr><tr><td class='it'>3&#9733; &rarr; 5&#9733;</td><td class='add'>RM 320</td><td>per pax / malam &middot; Nalod atau Grand Sunrise</td></tr></tbody></table><p class='custnote'>Upgrade dikenakan pada <b>setiap malam</b> yang di-upgrade, bukan sekali untuk seluruh trip. Beza dengan baris di atas: itu untuk <b>tambah</b> malam baharu.</p></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1</th><th>Tolak 1</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td class='add'>RM 30</td><td>&mdash;</td><td>Rate card cadang <b>makan di hotel sahaja</b>; kadar RM30 dari R&amp;D Sheet</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30</td><td class='ded'>&minus;RM 20</td><td>per pax / hidangan</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30</td><td class='ded'>&minus;RM 20</td><td>per pax / hidangan</td></tr></tbody></table><p class='custnote'>Meals dalam pakej <b>tiada refund</b> kalau customer pilih untuk tidak makan &mdash; tolakan RM20 hanya bila hidangan itu memang dibuang dari itinerari sebelum trip.</p></div><div class='custblk'><h3>Hari tambahan</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Hari tambahan &middot; private transport + driving guide</td><td class='add'>RM 50</td><td>per pax / hari</td></tr></tbody></table><p class='custnote'>Tiada kos transport berasingan &mdash; Danang dan Hoi An dalam kawasan yang sama, jadi tiada caj transfer jarak jauh. Malam hotel dikira <b>berasingan</b> (lihat jadual accommodation di atas).</p></div><div class='custblk'><h3>Add-on activities</h3><table class='ctbl'><thead><tr><th>Activity</th><th>Harga</th><th>Nota operasi</th></tr></thead><tbody><tr><td class='it'>Hoi An Memories Show</td><td class='add'>RM 110</td><td>per pax / entrance &middot; entrance fee + show fee, seat <b>High Class</b><br>Buka Isnin&ndash;Ahad, <b>tutup Selasa</b> &middot; 4:00pm&ndash;10:00pm<br>Mini show 5:00pm&ndash;7:00pm &middot; Main show 8:00pm&ndash;9:00pm<br>Customer kena sampai dewan persembahan <b>15 minit</b> sebelum show mula</td></tr><tr><td class='it'>Alpine Coaster (Bana Hills)</td><td class='add'>RM 50</td><td>per pax &middot; tidak termasuk dalam tiket cable car pakej</td></tr></tbody></table></div><div class='custblk'><h3>Travel essentials</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket Wifi 3GB (4D3N)</td><td class='add'>RM 80</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Pocket Wifi 3GB (5D4N)</td><td class='add'>RM 175</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Pocket Wifi 10GB 5G (4D3N)</td><td class='add'>RM 120</td><td>per trip &middot; RoamingMan</td></tr><tr><td class='it'>Travel Takaful (Etiqa TripCare 360)</td><td class='add'>dari RM 45</td><td>Individual Area 1 &middot; ikut tempoh dan area</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20&ndash;70</td><td>Silver &rarr; Diamond</td></tr></tbody></table><p class='custnote'>Travel essentials dijual oleh <b>after-sales</b>, bukan dalam quotation calculator.</p></div><p class='custnote'>Aktiviti yang tiada dalam itinerari kena bayar sendiri oleh customer. Itinerari dan hotel muktamad 14 hari sebelum trip.</p>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Guide:</b> Local Driving Guide berbahasa English sahaja, bukan Muslim dan tidak bertutur Melayu &mdash; jangan janjikan sebaliknya. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027).</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Danang Hoi An 4D3N (3-Star Fullboard)</option><option value='1'>PT Danang Hoi An 5D4N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><p class='ssub'>Caj tambahan (MYR).</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement 4D3N</td><td class='add'>+RM 240</td><td>per pax · bilik single</td></tr><tr><td class='it'>Single Supplement 5D4N</td><td class='add'>+RM 320</td><td>per pax · bilik single</td></tr><tr><td class='it'>Upgrade Hotel 4★</td><td class='add'>+RM 140</td><td>per pax / malam</td></tr><tr><td class='it'>Peak Travel Jan–Feb 2027</td><td class='add'>+RM 150</td><td>per pax</td></tr><tr><td class='it'>Last Minute 4D3N (&lt;3 minggu)</td><td class='add'>+RM 300 / +RM 200</td><td>2 pax / 3+ pax</td></tr><tr><td class='it'>Last Minute 5D4N (&lt;3 minggu)</td><td class='add'>+RM 400 / +RM 300</td><td>2 pax / 3+ pax</td></tr><tr><td class='it'>Late Booking (&lt;45 hari)</td><td class='add'>+RM 50</td><td>per booking</td></tr><tr><td class='it'>Blackout CNY 2026</td><td class='ded'>Tutup</td><td>16–22 Feb 2026 · tidak available</td></tr><tr><td class='it'>Blackout CNY 2027</td><td class='ded'>Tutup</td><td>17–18 Feb 2027 · tidak available</td></tr></tbody></table></div><div class='custblk'><h3>Peak Season Surcharge — Rate Card 2026 / 2027</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season Windows</td><td>—</td><td>CNY · Raya Aidilfitri & Raya Haji · New Year · Christmas</td></tr><tr><td class='it'>Travel Date 2027 Add-on</td><td class='add'>+RM 100</td><td>per pax · atas harga (1 Jan–30 Jun 2027)</td></tr><tr><td class='it'>Late Booking (&lt;3 minggu)</td><td class='add'>+RM 300 / +RM 200</td><td>2 pax / 3+ pax · per pax</td></tr><tr><td class='it'>Block Date CNY 2027</td><td class='ded'>Tutup</td><td>17–18 Feb 2027</td></tr></tbody></table><p class='custnote'>Kadar last-minute <b>berbeza ikut varian</b>, bukan percanggahan sumber: katalog 4D3N V3 kata 2 pax +RM300/pax &amp; 3 pax ke atas +RM200/pax; katalog 5D4N V3 kata 2 pax +RM400/pax &amp; 3 pax ke atas +RM300/pax. Guna kadar varian yang di-quote.</p></div>",

@@ -39434,6 +39434,21 @@
      "label": "Jakarta - Bandung › TO CTRANS › paxMax"
     }
    ]
+  },
+  {
+   "v": 35,
+   "at": "2026-10-09T02:44:58Z",
+   "by": "system",
+   "note": "PT KB House: one source of truth — KB price tables, itineraries and includes / excludes come from the Costing + Itinerary tabs; calculator tiers from Costing (Aceh stops at 30 pax); Lombok Honeymoon 4★ and Phuket 4★ calculator packages removed (PO 9 Oct)",
+   "summary": [
+    "KB packages linked to their catalogs (data/kb map.packages); the KB file keeps no copy of linked prices / itinerary / includes / excludes",
+    "KB prices in package text use {{dari:N}} / {{2pax:N}} / {{pasangan:N}} filled from Costing",
+    "Calculator tiers from Costing for every linked package; KB-only packages: Perhentian Flora Bay & Ombak, Lombok Honeymoon, Korea Custom, HCM Shopping, Maldives 4-Star, Yunnan 3 Wilayah, Lombok/Surabaya 4★"
+   ],
+   "kb": [
+    "28 KB rebuilt from the hub"
+   ],
+   "changes": []
   }
  ]
 }

@@ -11,7 +11,15 @@
     "code": "PQC",
     "package": "ibrahim-5d4n"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "phu-quoc-4d3n"
+   },
+   {
+    "catalog": "phu-quoc-5d4n"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -68,20 +76,6 @@
     "emoji": "🚡",
     "img": "@asset:781ab1f5e16b",
     "intro": "Pakej Private Tour 4 hari 3 malam untuk keluarga & pasangan yang mahu rasa semua highlight Phu Quoc — kereta kabel merentas laut terpanjang di dunia, VinWonders, VinPearl Safari, Grand World dan Aquatopia — dalam masa singkat. Fullboard (3B/3L/3D), Muslim driving guide, tipping & semua entrance fee sudah termasuk. Hotel 3-Star di Sunset Town (Selatan).",
-    "inc": [
-     "3 malam hotel 3-Star (Rova / Phung Hung atau setaraf)",
-     "Pengangkutan persendirian (private transport)",
-     "Muslim driving guide (Melayu/English)",
-     "Fullboard: 3 Breakfast, 3 Lunch, 3 Dinner (halal)",
-     "Entrance: Hon Thom Cable Car, Aquatopia, VinPearl Safari (+buggy), Grand World, VinWonders, Teddy Bear Museum",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik, luggage, in-flight meal & airport tax",
-     "Additional tours & meals di luar itinerari",
-     "Perbelanjaan peribadi",
-     "Travel insurance (disyorkan — meliputi cable car & adventure)"
-    ],
     "note": "Harga 2@3 orang sebilik. Single supplement +RM240/pax. Deposit RM250/pax; baki 45 hari sebelum berlepas."
    },
    {
@@ -91,129 +85,12 @@
     "emoji": "🏝️",
     "img": "@asset:5fdade874276",
     "intro": "Versi 5 hari 4 malam — semua highlight 4D3N tetapi lebih relaks dengan hari tambahan: VinPearl Safari + Tranh Stream diasingkan ke hari sendiri, plus lebih masa di Sanato Beach & Grand World. Sesuai untuk keluarga besar atau yang tak mahu itinerari terlalu padat. Fullboard 4B/4L/4D.",
-    "inc": [
-     "4 malam hotel 3-Star (Rova / Phung Hung atau setaraf)",
-     "Pengangkutan persendirian (private transport)",
-     "Muslim tour guide (Melayu/English)",
-     "Fullboard: 4 Breakfast, 4 Lunch, 4 Dinner (halal)",
-     "Entrance: Hon Thom Cable Car, Aquatopia, VinPearl Safari (+buggy), Grand World, VinWonders, Teddy Bear Museum + Ngoc Hien Pearl Farm & Sanato Beach",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik, luggage, in-flight meal & airport tax",
-     "Additional tours & meals di luar itinerari",
-     "Perbelanjaan peribadi",
-     "Travel insurance (disyorkan — meliputi cable car & adventure)"
-    ],
     "note": "Harga 2@3 orang sebilik. Single supplement +RM320/pax. Deposit RM250/pax; baki 45 hari sebelum berlepas."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Arrival + Phu Quoc Tour",
-     "m": "L / D",
-     "a": [
-      "Tiba di Phu Quoc International Airport (cadangan tiba 2pm atau awal), airport pick-up",
-      "Lunch",
-      "Sanato Beach (sunset & seni instalasi)",
-      "Night Market",
-      "Dinner",
-      "Check-in hotel"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Phu Quoc Tour (Utara)",
-     "m": "B / L / D",
-     "a": [
-      "Grand World (Venice of Vietnam)",
-      "Teddy Bear Museum",
-      "VinPearl Safari (termasuk buggy)",
-      "VinWonders — Aquarium (Mermaid show), Roller Coaster & Ferris Wheel, Water Park",
-      "Night Market & Dinner"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Phu Quoc Tour (Selatan)",
-     "m": "B / L / D",
-     "a": [
-      "Hon Thom Cable Car (merentas laut terpanjang di dunia)",
-      "Aquatopia — water slides, roller coaster & Eagle Eye Tower",
-      "Ngoc Hien Pearl Farm (mutiara)",
-      "Kiss Bridge",
-      "Free & easy malam (cadangan: Kiss of the Sea Show / night market)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Free & Easy — Return KL",
-     "m": "B",
-     "a": [
-      "Free & easy (cadangan berlepas 2pm ke atas)",
-      "Transfer ke Phu Quoc International Airport"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Arrival — Phu Quoc",
-     "m": "L / D",
-     "a": [
-      "Tiba di Phu Quoc International Airport (cadangan tiba 2pm atau awal), airport pick-up",
-      "Lunch",
-      "Pantai Long Beach (sunset)",
-      "Check-in hotel",
-      "Night Market & Dinner"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Phu Quoc Tour",
-     "m": "B / L / D",
-     "a": [
-      "Grand World (Venice of Vietnam)",
-      "Teddy Bear Museum",
-      "VinWonders (salah satu theme park terbesar di Vietnam) + Aquarium",
-      "Night Market & Dinner"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Phu Quoc Tour",
-     "m": "B / L / D",
-     "a": [
-      "VinPearl Safari (taman konservasi semi-wild + buggy)",
-      "Tranh Stream",
-      "Lunch",
-      "Sanato Beach (sunset & seni)",
-      "Dinner"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Phu Quoc Tour",
-     "m": "B / L / D",
-     "a": [
-      "Hon Thom Cable Car (merentas laut terpanjang di dunia)",
-      "Aquatopia — water slides, roller coaster & Eagle Eye Tower",
-      "Kiss Bridge (sunset)",
-      "Dinner"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Free & Easy — Departure",
-     "m": "B",
-     "a": [
-      "Free & easy (cadangan berlepas 2pm ke atas)",
-      "Transfer ke Phu Quoc International Airport"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -442,7 +319,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar <b>katalog</b> per pax (RM), 2@3 orang sebilik, hotel 3&#9733; fullboard, ground + tipping. Sah untuk travel hingga 31 Dis 2026. Sumber: katalog PT Phu Quoc 4D3N / 5D4N V3 (11 Mac 2026). Harga katalog <b>ialah harga customer</b> &mdash; TC quote terus dari jadual ini.</p><div class='custblk'><h3>PT Phu Quoc 4D3N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9thn+)</th><th>Child w/ Bed (6&ndash;8)</th><th>Child no Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2&ndash;3</td><td class='add'>RM 2,597</td><td>RM 2,397</td><td>RM 2,197</td></tr><tr><td class='it'>4</td><td class='add'>RM 2,437</td><td>RM 2,237</td><td>RM 2,037</td></tr><tr><td class='it'>5&ndash;6</td><td class='add'>RM 2,257</td><td>RM 2,057</td><td>RM 1,857</td></tr><tr><td class='it'>7&ndash;8</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>9&ndash;10</td><td class='add'>RM 1,967</td><td>RM 1,767</td><td>RM 1,567</td></tr><tr><td class='it'>11&ndash;15</td><td class='add'>RM 1,857</td><td>RM 1,657</td><td>RM 1,457</td></tr><tr><td class='it'>16&ndash;20</td><td class='add'>RM 1,737</td><td>RM 1,537</td><td>RM 1,337</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 thn): FOC. Child w/ Bed = Adult &minus; RM200; Child no Bed = Adult &minus; RM400. Untuk <b>21 pax dan ke atas</b>, katalog tidak ada tier &mdash; minta quote khas dari operator.</p></div><div class='custblk'><h3>PT Phu Quoc 5D4N &mdash; 3&#9733; Fullboard</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9thn+)</th><th>Child w/ Bed (6&ndash;8)</th><th>Child no Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2&ndash;3</td><td class='add'>RM 3,077</td><td>RM 2,877</td><td>RM 2,677</td></tr><tr><td class='it'>4</td><td class='add'>RM 2,867</td><td>RM 2,667</td><td>RM 2,467</td></tr><tr><td class='it'>5&ndash;6</td><td class='add'>RM 2,677</td><td>RM 2,477</td><td>RM 2,277</td></tr><tr><td class='it'>7&ndash;8</td><td class='add'>RM 2,567</td><td>RM 2,367</td><td>RM 2,167</td></tr><tr><td class='it'>9&ndash;10</td><td class='add'>RM 2,297</td><td>RM 2,097</td><td>RM 1,897</td></tr><tr><td class='it'>11&ndash;13</td><td class='add'>RM 2,177</td><td>RM 1,977</td><td>RM 1,777</td></tr><tr><td class='it'>14&ndash;16</td><td class='add'>RM 2,147</td><td>RM 1,947</td><td>RM 1,747</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 thn): FOC. Untuk <b>17 pax dan ke atas</b>, katalog tidak ada tier &mdash; minta quote khas dari operator.</p></div><div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li><b>Minimum 2 pax</b> &mdash; jadual katalog bermula pada tier 2&#8211;3 pax.</li><li><b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun, termasuk cuti sekolah &amp; musim raya.</li><li>Harga termasuk semua entrance fee (Hon Thom Cable Car, Vinpearl Safari, Grand World, VinWonders, Teddy Bear Museum) + tipping + fullboard.</li><li>Umur dikira ikut <b>tarikh perjalanan</b>. Harga sah 24 jam selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant, jangan guna angka destinasi lain.</li></ul></div>",
+   "pricing": "<div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li><b>Minimum 2 pax</b> &mdash; jadual katalog bermula pada tier 2&#8211;3 pax.</li><li><b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun, termasuk cuti sekolah &amp; musim raya.</li><li>Harga termasuk semua entrance fee (Hon Thom Cable Car, Vinpearl Safari, Grand World, VinWonders, Teddy Bear Museum) + tipping + fullboard.</li><li>Umur dikira ikut <b>tarikh perjalanan</b>. Harga sah 24 jam selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant, jangan guna angka destinasi lain.</li></ul></div>",
    "custom": "<h2>Simple Customisation (Add-ons)</h2><p class='ssub'>Semua harga <b>jualan</b> (RM), dari <b>Rate Card Simple Customisation Phu Quoc</b>. Lajur Peak dalam rate card kosong &mdash; Phu Quoc tiada peak season, jadi kadar sama sepanjang tahun. Sahkan availability dengan operator sebelum confirm kepada customer.</p><div class='custblk'><h3>Accommodation &mdash; per pax per malam</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade 3 bintang &rarr; 4 bintang</td><td class='add'>+RM 140</td><td>&mdash;</td><td>Muong Thanh Luxury Phu Quoc / Marina Seaside Boutique. Per pax, per malam yang di-upgrade &mdash; bukan sekali per trip</td></tr><tr><td class='it'>Hotel 3 bintang (kelas pakej)</td><td class='add'>+RM 100</td><td class='ded'>&minus;RM 50</td><td>Rova Hotel / Phung Hung Hotel, Sunset Town. Kadar inilah yang dipakai bila TC tambah atau buang satu malam</td></tr><tr><td class='it'>Hotel 4 bintang</td><td class='add'>+RM 240</td><td class='ded'>&minus;RM 120</td><td>Lajur tolak hanya berkenaan kalau malam itu memang sudah di-upgrade 4 bintang</td></tr><tr><td class='it'>Hotel 5 bintang</td><td class='add'>+RM 320</td><td>&mdash;</td><td><b>Malam tambahan sahaja.</b> Rate card tiada kadar upgrade 3 bintang &rarr; 5 bintang, jadi pakej 5 bintang belum boleh diquote &mdash; rujuk PO</td></tr><tr><td class='it'>Hotel kawasan Grand World (Utara)</td><td class='add'>+RM 50 / pax</td><td>&mdash;</td><td>Sekali per pax, bukan per malam. Atas permintaan, ganti hotel default di Sunset Town</td></tr></tbody></table></div><div class='custblk'><h3>Meals &mdash; per pax per hidangan</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 hidangan</th><th>Tolak 1 hidangan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>&mdash;</td><td>&mdash;</td><td>Breakfast datang bersama bilik hotel &mdash; tiada kadar tambah, dan <b>tidak boleh ditolak</b></td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 30</td><td class='ded'>&minus;RM 20</td><td>Per pax, per hidangan</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 30</td><td class='ded'>&minus;RM 20</td><td>Per pax, per hidangan</td></tr></tbody></table></div><div class='notebox'><b>Jangan campur dua perkara ini.</b> Kadar <i>Tolak 1 hidangan</i> (&minus;RM 20) ialah untuk membuang hidangan itu daripada pakej semasa quote. Ia bukan refund: kalau hidangan sudah termasuk dalam harga dan customer pilih untuk tidak makan semasa trip, <b>tiada refund</b> &mdash; itu yang katalog nyatakan.</div><div class='custblk'><h3>Aktiviti &mdash; add on dan exclude</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Add on</th><th>Exclude</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Water Taxi (gondola Grand World)</td><td class='add'>+RM 50</td><td>&mdash;</td><td>Per pax, per ride. Katalog senaraikan sebagai contoh aktiviti optional yang dibayar customer</td></tr><tr><td class='it'>Teddy Bear Museum</td><td>&mdash;</td><td class='ded'>&minus;RM 20</td><td>Sudah termasuk dalam pakej &mdash; lajur Exclude ialah kadar tolak kalau customer tak mahu</td></tr><tr><td class='it'>VinWonders Theme Park</td><td>&mdash;</td><td class='ded'>&minus;RM 100</td><td>Sudah termasuk dalam pakej</td></tr><tr><td class='it'>Hon Thom Cable Car + Aquatopia</td><td>&mdash;</td><td class='ded'>&minus;RM 110</td><td>Sudah termasuk dalam pakej. Satu kadar untuk kedua-duanya, bukan berasingan</td></tr><tr><td class='it'>VinPearl Safari + buggy</td><td>&mdash;</td><td class='ded'>&minus;RM 250</td><td>Sudah termasuk dalam pakej</td></tr><tr><td class='it'>Honeymoon Bedroom Decoration</td><td class='add'>+RM 250</td><td>&mdash;</td><td>Per pasangan</td></tr><tr><td class='it'>Honeymoon Candle Light Dinner</td><td class='add'>+RM 250</td><td>&mdash;</td><td>Per pasangan</td></tr><tr><td class='it'>Kiss of the Sea Show</td><td>&mdash;</td><td>&mdash;</td><td>Bayar sendiri di lokasi. Optional, Sunset Town, ~30 minit sekitar 9:00 malam, harga pintu ~950,000 VND/pax &mdash; tiada harga jualan ARBA</td></tr></tbody></table></div><div class='notebox'><b>Kadar transport hari tambahan tiada dalam rate card.</b> Rate card hanya ada accommodation, meals dan aktiviti. Jadi bila TC tambah hari dalam Simple Calculator, baris hari itu akan bertanda <i>kadar belum diisi</i> untuk transport &mdash; minta harga operator dahulu, jangan anggap RM 0.</div><div class='custblk'><h3>Wifi, SIM &amp; takaful</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket Wifi 3GB 4G (RoamingMan) &mdash; 4D3N</td><td class='add'>RM 80</td><td>Per trip</td></tr><tr><td class='it'>Pocket Wifi 3GB 4G (RoamingMan) &mdash; 5D4N</td><td class='add'>RM 175</td><td>Per trip</td></tr><tr><td class='it'>Local SIM Card Unlimited</td><td class='add'>RM 30</td><td>Order awal dengan guide (beli di airport RM60&#8211;80)</td></tr><tr><td class='it'>Takaful Etiqa TripCare 360 &mdash; Individu</td><td class='add'>RM 45 (1&#8211;5 hari)<br>RM 62 (6&#8211;10 hari)</td><td>Vietnam = Area 1 (ASEAN)</td></tr><tr><td class='it'>Takaful &mdash; Couple</td><td class='add'>RM 79 / RM 112</td><td>Area 1</td></tr><tr><td class='it'>Takaful &mdash; Family</td><td class='add'>RM 100 / RM 141</td><td>Area 1</td></tr><tr><td class='it'>Takaful &mdash; Senior</td><td class='add'>RM 130 / RM 186</td><td>Area 1</td></tr><tr><td class='it'>Luggage Tracker Blue Ribbon</td><td class='add'>RM 20 / 40 / 55 / 70</td><td>Silver &rarr; Gold &rarr; Platinum &rarr; Diamond</td></tr></tbody></table></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Kadar accommodation, meal dan aktiviti mengikut <b>Rate Card Simple Customisation Phu Quoc</b>. <b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027). CNY 2026 (16&ndash;22 Feb 2026) masih boleh booking, tetapi kedai souvenir banyak tutup &mdash; set expectation customer. <b>Perhatian:</b> rate card tiada kadar transport untuk hari tambahan, jadi hari tambahan akan bertanda <i>kadar belum diisi</i> &mdash; minta harga operator.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Phu Quoc 4D3N (3-Star Fullboard)</option><option value='1'>PT Phu Quoc 5D4N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge &amp; Blackout</h2><p class='ssub'>Semua angka ikut katalog masing-masing (V3, 11 Mac 2026). Perhatikan <b>last-minute surcharge berbeza</b> antara dua varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>4D3N</th><th>5D4N</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Peak Season Surcharge</td><td class='ded'>RM 0</td><td class='ded'>RM 0</td><td>Tiada &mdash; boleh travel sepanjang tahun</td></tr><tr><td class='it'>Single Supplement</td><td>Atas permintaan</td><td>Atas permintaan</td><td>Katalog: <i>quoted upon request</i> &mdash; minta quote consultant</td></tr><tr><td class='it'>Hotel upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>+RM 140/pax/malam<br>(3 malam = +RM 420)</td><td class='add'>+RM 140/pax/malam<br>(4 malam = +RM 560)</td><td>Muong Thanh Luxury / Marina Seaside Boutique</td></tr><tr><td class='it'>Hotel kawasan Grand World (Utara)</td><td class='add'>+RM 50/pax</td><td class='add'>+RM 50/pax</td><td>Atas permintaan (rate card ARBA)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td class='add'>+RM 50/booking</td><td>Tempah &lt;45 hari sebelum berlepas</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>2 pax: +RM 300/pax<br>3 pax&#43;: +RM 200/pax</td><td class='add'>2 pax: +RM 400/pax<br>3 pax&#43;: +RM 300/pax</td><td>Kadar 4D3N lebih rendah &mdash; jangan guna kadar 5D4N</td></tr><tr><td class='it'>Travel 2027 (1 Jan &ndash; 30 Jun 2027)</td><td class='add'>+RM 100/pax</td><td class='add'>+RM 100/pax</td><td>Add-on di atas harga katalog (Date Surcharge 2026/2027)</td></tr></tbody></table></div><div class='custblk'><h3>Blackout &amp; check-availability</h3><table class='ctbl'><thead><tr><th>Tarikh</th><th>Status</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>CNY 2027 &mdash; 17&#8211;18 Feb 2027</td><td class='ded'>Blackout</td><td>Satu-satunya blackout dalam katalog V3 &mdash; tidak boleh booking</td></tr><tr><td class='it'>CNY 2026 &mdash; 16&#8211;22 Feb 2026</td><td class='add'>Boleh booking</td><td>Bukan blackout dalam katalog V3. Attraction utama buka; kedai souvenir &amp; banyak gerai tutup &mdash; set expectation customer</td></tr><tr><td class='it'>Raya Aidilfitri &middot; Raya Haji &middot; New Year &middot; Christmas</td><td>Check availability</td><td>Tiada caj tetap &mdash; semak availability dengan operator sebelum quote</td></tr></tbody></table></div><details class='qa' data-text='polisi harga lain yang perlu disebut awal semua harga sah 24 jam selepas quotation dihantar. deposit rm250/pax ; full payment 45 hari sebelum berlepas. itinerari, flight &amp; harga tertakluk perubahan (cuaca, keadaan laut, trafik, keselamatan). susunan hotel &amp; itinerari muktamad 14 hari sebelum trip. meals sudah termasuk — tiada refund jika customer pilih untuk tidak makan, dan tiada kadar potong meal . aktiviti/entrance yang tidak disertai tidak boleh ditukar dengan aktiviti lain, voucher atau tunai (cth: tiket aquatopia non-refundable). semak validity trip dengan staff sebelum booking connecting flight domestik.'><summary><span class='tw'>&#9654;</span><span>Polisi harga lain yang perlu disebut awal</span></summary><div class='ans'><ul><li>Semua harga sah <strong>24 jam</strong> selepas quotation dihantar.</li><li><strong>Deposit RM250/pax</strong>; full payment <strong>45 hari</strong> sebelum berlepas.</li><li>Itinerari, flight &amp; harga tertakluk perubahan (cuaca, keadaan laut, trafik, keselamatan).</li><li>Susunan hotel &amp; itinerari muktamad <strong>14 hari</strong> sebelum trip.</li><li>Meals sudah termasuk &mdash; <strong>tiada refund</strong> jika customer pilih untuk tidak makan, dan <strong>tiada kadar potong meal</strong>.</li><li>Aktiviti/entrance yang tidak disertai <strong>tidak boleh</strong> ditukar dengan aktiviti lain, voucher atau tunai (cth: tiket Aquatopia non-refundable).</li><li>Semak validity trip dengan staff sebelum booking connecting flight domestik.</li></ul></div></details>",

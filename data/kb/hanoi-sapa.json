@@ -11,7 +11,15 @@
     "code": "HNSH",
     "package": "ibrahim-4d3n"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "hanoi-sapa-halong"
+   },
+   {
+    "catalog": "hanoi-sapa"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -70,22 +78,6 @@
     "emoji": "⛰️",
     "img": "@asset:b55a0d5a873d",
     "intro": "Pakej penuh 5 hari 4 malam menggabungkan puncak Fansipan (cable car tertinggi dunia), perkampungan etnik Cat Cat, satu malam cruise mewah di Halong Bay dengan aktiviti kayak, serta bandar Hanoi. Private tour — keluarga anda sahaja, tanpa gabung group lain. Fullboard halal (4B/3L/4D).",
-    "inc": [
-     "3 malam hotel 3★ + 1 malam Halong Bay cruise (Victory Star)",
-     "Private transportation sepanjang trip",
-     "Train + Cable Car ke Fansipan Mountain",
-     "Aktiviti Kayak Halong Bay",
-     "Entrance fees semua attraction dalam itinerari",
-     "Halal meals (4 Breakfast, 3 Lunch, 4 Dinner)",
-     "Driving guide (Malay speaking) + tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik (pakej Ground sahaja)",
-     "Luggage, in-flight meal & airport tax",
-     "Additional tours & meals di luar itinerari",
-     "Personal expenses",
-     "Travel insurance / takaful"
-    ],
     "note": "Harga per pax, 2–3 orang sebilik. Single supplement quoted upon request. Blackout: CNY 2027 (17–18 Feb 2027). Valid travel sehingga 31 Dis 2026."
    },
    {
@@ -95,128 +87,12 @@
     "emoji": "🚠",
     "img": "@asset:81225987b2cf",
     "intro": "Pakej ringkas 4 hari 3 malam untuk yang ada masa terhad — fokus puncak Fansipan, Cat Cat Village dan city tour Hanoi (Masjid Al Noor, HCM Museum, Dong Xuan Market, Hoan Kiem Lake). Tiada Halong Bay. Private tour, fullboard halal (3B/2L/3D).",
-    "inc": [
-     "3 malam hotel 3★ (Sapa + Hanoi)",
-     "Private transportation sepanjang trip",
-     "Train + Cable Car ke Fansipan Mountain",
-     "Cat Cat Village entrance fee",
-     "Entrance fees semua attraction dalam itinerari",
-     "Halal meals (3 Breakfast, 2 Lunch, 3 Dinner)",
-     "Driving guide (Malay/English speaking) + tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik (pakej Ground sahaja)",
-     "Luggage, in-flight meal & airport tax",
-     "Additional tours & meals di luar itinerari",
-     "Personal expenses",
-     "Travel insurance / takaful"
-    ],
     "note": "Harga per pax, 2–3 orang sebilik. Single supplement quoted upon request. Blackout: CNY 2027 (17–18 Feb 2027). Valid travel sehingga 31 Dis 2026."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Hanoi → Sapa",
-     "m": "Dinner",
-     "a": [
-      "Tiba di Hanoi Airport (HAN) — cadangan ketibaan tengah hari",
-      "Pickup & transfer ke Sapa (~5–6 jam highway Lao Cai)",
-      "Check-in hotel Sapa (3★)"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Fansipan + Cat Cat Village → Hanoi",
-     "m": "B / L / D",
-     "a": [
-      "Train ke stesen Cable Car Fansipan",
-      "Cable Car ke puncak Fansipan (3,143m — cable car terpanjang & tertinggi dunia)",
-      "Cat Cat Village (perkampungan etnik H'mong)",
-      "Moana Sapa & Muong Hoa Valley",
-      "Transfer ke Hanoi & check-in hotel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Halong Bay Cruise",
-     "m": "B / L / D",
-     "a": [
-      "Transfer ke Halong Bay (~2–3 jam)",
-      "Check-in Halong Bay Cruise (overnight)",
-      "Island tour: Stone Dog Island, Fighting Cocks",
-      "Gua Sung Sot (gua batu kapur terbesar & paling menakjubkan)",
-      "Titop Island (pantai berbentuk bulan sabit, pasir putih)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Halong Bay → Hanoi",
-     "m": "B / L / D",
-     "a": [
-      "Gua Luon by Kayak",
-      "Check-out Halong Bay Cruise",
-      "Mega Grand World Hanoi (kawasan hiburan terbesar)",
-      "Hanoi Train Street Coffee (kopi tempatan)",
-      "Souvenir shopping & check-in hotel Hanoi"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Hanoi → Airport (HAN)",
-     "m": "Breakfast",
-     "a": [
-      "Breakfast & check-out hotel",
-      "Airport transfer ke Hanoi (HAN) — cadangan pemergian tengah hari"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Hanoi → Sapa",
-     "m": "Dinner",
-     "a": [
-      "Tiba di Hanoi Airport (HAN) — cadangan ketibaan tengah hari",
-      "Airport pickup & transfer ke Sapa (~5–6 jam)",
-      "Check-in hotel Sapa (3★)"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Fansipan + Cat Cat → Hanoi",
-     "m": "B / L / D",
-     "a": [
-      "Check-out hotel Sapa",
-      "Train + Cable Car ke puncak Fansipan (cable car terpanjang & tertinggi dunia)",
-      "Cat Cat Village (etnik H'mong)",
-      "Muong Hoa Valley",
-      "Transfer ke Hanoi & check-in hotel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Hanoi City Tour",
-     "m": "B / L / D",
-     "a": [
-      "Masjid Al Noor (solat & rehat)",
-      "HCM Museum (muzium pemimpin Vietnam)",
-      "Dong Xuan Market (pasar fesyen terbesar)",
-      "Hanoi Old City (budaya tempatan & souvenir)",
-      "Hoan Kiem Lake (tasik air tawar 'Sword Lake')"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Hanoi → Airport (HAN)",
-     "m": "Breakfast",
-     "a": [
-      "Breakfast & check-out hotel",
-      "Airport transfer ke Hanoi (HAN) — cadangan pemergian tengah hari"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -407,7 +283,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog (harga jual customer) — per pax, 2–3 orang sebilik. Umur ikut tarikh perjalanan: Adult 9+, Child With Bed (CWB) 6–8 thn, Child No Bed (CNB) 2–5 thn, Infant &lt;2 FOC. Pakej <b>Ground sahaja</b> — tiket flight tidak termasuk.</p><h3 style='margin:14px 0 6px'>5D4N — Hanoi · Sapa · Halong Bay (3★ Fullboard)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9+)</th><th>CWB (6–8)</th><th>CNB (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 3,477</td><td>RM 3,277</td><td>RM 3,077</td></tr><tr><td class='it'>3</td><td class='add'>RM 3,277</td><td>RM 3,077</td><td>RM 2,877</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 2,877</td><td>RM 2,677</td><td>RM 2,477</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 2,677</td><td>RM 2,477</td><td>RM 2,277</td></tr><tr><td class='it'>8–9</td><td class='add'>RM 2,577</td><td>RM 2,377</td><td>RM 2,177</td></tr><tr><td class='it'>10</td><td class='add'>RM 2,397</td><td>RM 2,197</td><td>RM 1,997</td></tr><tr><td class='it'>11–12</td><td class='add'>RM 2,297</td><td>RM 2,097</td><td>RM 1,897</td></tr><tr><td class='it'>13–15</td><td class='add'>RM 2,097</td><td>RM 1,897</td><td>RM 1,697</td></tr></tbody></table></div><p class='ssub'>Infant (&lt;2 thn): FOC. Group &gt;15 pax: kadar khas — tanya operator.</p><h3 style='margin:16px 0 6px'>4D3N — Hanoi · Sapa (3★ Fullboard)</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9+)</th><th>CWB (6–8)</th><th>CNB (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,537</td><td>RM 2,337</td><td>RM 2,137</td></tr><tr><td class='it'>3–4</td><td class='add'>RM 2,337</td><td>RM 2,137</td><td>RM 1,937</td></tr><tr><td class='it'>5–9</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>10–15</td><td class='add'>RM 1,777</td><td>RM 1,577</td><td>RM 1,377</td></tr><tr><td class='it'>16–20</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr></tbody></table></div><p class='ssub'>Infant (&lt;2 thn): FOC. CWB = Adult − RM200, CNB = Adult − RM400 (uniform).</p>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation &amp; Add-ons</h2><p class='ssub'>Harga <b>jual</b> customer (MYR), dari Rate Card Operasi KB. <span class='add'>Hijau = tambah</span> atas harga pakej &middot; <span class='ded'>merah = tolak</span> dari harga pakej.</p><div class='custblk'><h3>Accommodation &mdash; tambah / tolak malam</h3><table class='ctbl'><thead><tr><th>Kelas hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>RM 140 / pax / malam</td><td>&mdash;</td><td>Sapa: Delasol / Aliana Boutique &middot; Hanoi: Lake Residence / Lake Side. Kadar ini juga tersiar dalam katalog.</td></tr><tr><td class='it'>3&#9733; (atau setara)</td><td class='add'>RM 100 / pax / malam</td><td class='ded'>RM 50 / pax / malam</td><td>Kelas hotel pakej. Sapa: Saparis / Beautiful Sapa &middot; Hanoi: CWD / The Charm</td></tr><tr><td class='it'>4&#9733; (atau setara)</td><td class='add'>RM 240 / pax / malam</td><td class='ded'>RM 120 / pax / malam</td><td>Malam tambahan 4&#9733; guna kadar sendiri &mdash; <b>bukan</b> RM 100 + RM 140</td></tr><tr><td class='it'>5&#9733; (atau setara)</td><td class='add'>RM 320 / pax / malam</td><td>&mdash;</td><td>Tiada 5&#9733; dalam katalog. Tiada kadar tolak tersiar &mdash; tanya operator</td></tr><tr><td class='it'>Rock Garden Homestay</td><td class='add'>RM 80 / pax / malam</td><td>&mdash;</td><td>Pilihan penginapan alternatif</td></tr></tbody></table><p class='custnote'>Tiada kadar peak untuk mana-mana kelas hotel &mdash; kadar sama sepanjang tahun. Harga pakej ialah 2&ndash;3 pax sebilik; single supplement <b>quoted upon request</b>.</p></div><div class='custblk'><h3>Meals &mdash; tambah / tolak hidangan</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 hidangan</th><th>Tolak 1 hidangan</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>Makan di hotel</td><td>&mdash;</td><td>Sudah termasuk dalam kadar bilik &mdash; tiada kadar tambah atau tolak</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td><td>Halal</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td><td>Halal</td></tr></tbody></table><p class='custnote'>Pakej fullboard &mdash; meals sudah termasuk dan tiada refund jika customer pilih untuk tidak makan. Kolum Tolak hanya dipakai bila hidangan dibuang dari itinerari <b>semasa quote</b>, bukan selepas trip bermula.</p></div><div class='custblk'><h3>Add-on activities &mdash; tambah</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Bang Mon Alpine Coaster</td><td class='add'>RM 50 / pax</td><td>Aktiviti di Sapa</td></tr><tr><td class='it'>Day Trip ke Ninh Binh</td><td class='add'>RM 380 / pax / hari</td><td>Breakfast &middot; transfer ke Trang An, Ninh Binh (2 jam) &middot; paddle boat cruise &middot; lunch &middot; transfer balik Hanoi &middot; Dong Xuan Market &middot; dinner</td></tr><tr><td class='it'>Sleeper Train / Bus (Regular)</td><td class='add'>RM 180 / pax / way</td><td>Standard sleeper &mdash; alternatif transfer Hanoi&ndash;Sapa</td></tr><tr><td class='it'>Sleeper Bus (VVIP)</td><td class='add'>RM 200 / pax / way</td><td>Kabin VVIP</td></tr><tr><td class='it'>Extra Meal (B / L / D)</td><td class='add'>RM 30 / pax / hidangan</td><td>Makan tambahan di luar pakej</td></tr></tbody></table><p class='custnote'>Aktiviti yang tiada dalam itinerari dan tiada kadar tersiar kena bayar sendiri oleh customer di lokasi.</p></div><div class='custblk'><h3>Tukar itinerari &mdash; tolak dari pakej</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tolak</th><th>Itinerari diselaraskan</th></tr></thead><tbody><tr><td class='it'>Halong Bay Cruise tanpa bermalam</td><td class='ded'>RM 100 / pax</td><td>Ganti overnight cruise (Victory Star) dengan day cruise (Diamond Cruise) &mdash; customer balik bermalam di hotel Hanoi. Varian 5D4N sahaja.</td></tr><tr><td class='it'>Sapa 2 malam</td><td class='ded'>RM 50 / pax</td><td><b>D2:</b> train ke Cable Car Fansipan Mountain &middot; cable car (termasuk) &middot; Cat Cat Village &middot; Muong Hua Valley &middot; bermalam di Sapa. <b>D3:</b> transfer ke Hanoi.</td></tr></tbody></table><p class='custnote'>Kedua-duanya <b>mengurangkan</b> harga pakej &mdash; bukan surcaj. Jumlah malam trip kekal sama; hanya penginapan dan itinerari yang berubah.</p></div><div class='custblk'><h3>Travel essentials (jualan after-sales)</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket WiFi 3GB 4G (5D4N)</td><td class='add'>RM 175 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Pocket WiFi 10GB 5G (5D4N)</td><td class='add'>RM 150 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Pocket WiFi 3GB 4G (4D3N)</td><td class='add'>RM 80 / trip</td><td>RoamingMan</td></tr><tr><td class='it'>Takaful TripCare 360 (Individu)</td><td class='add'>RM 45 &ndash; 62 / pax</td><td>Etiqa Area 1 (ASEAN), 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Couple)</td><td class='add'>RM 79 &ndash; 112 / pasangan</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Family)</td><td class='add'>RM 100 &ndash; 141 / family</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Takaful TripCare 360 (Senior)</td><td class='add'>RM 130 &ndash; 186 / pax</td><td>Etiqa Area 1, 1&ndash;5 / 6&ndash;10 hari</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM 20 / 40 / 55 / 70</td><td>Silver &rarr; Gold &rarr; Platinum &rarr; Diamond</td></tr></tbody></table><p class='custnote'>Travel essentials dijual oleh after-sales &mdash; tidak masuk dalam Simple Calculator.</p></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tiada operasi. <b>Check availability</b> dengan operator untuk Chinese New Year, Raya Aidilfitri, Raya Haji, New Year dan Christmas.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Hanoi - Sapa - Halong Bay 5D4N (3-Star Fullboard)</option><option value='1'>PT Hanoi - Sapa 4D3N (3-Star Fullboard)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Katalog dan rate card kedua-duanya tulis <b>quoted upon request</b> &mdash; minta kadar daripada operator sebelum quote solo. Tiada kadar tersiar, jadi kalkulator tidak caj apa-apa untuk bilik single.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge & Polisi Bayaran</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>4★ Upgrade — Sapa</td><td class='add'>+RM 140 / pax/malam</td><td>Delasol / Aliana Boutique</td></tr><tr><td class='it'>4★ Upgrade — Hanoi</td><td class='add'>+RM 140 / pax/malam</td><td>Lake Residence / Lake Side (2 malam = RM280/pax)</td></tr><tr><td class='it'>Full 4★ (1N Sapa + 2N Hanoi)</td><td class='add'>+RM 420 / pax</td><td>Cruise kekal 3★ (tiada upgrade)</td></tr><tr><td class='it'>Last Minute — 5D4N</td><td class='add'>+RM 400 (2 pax) / +RM 300 (3+ pax)</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Last Minute — 4D3N</td><td class='add'>+RM 300 (2 pax) / +RM 200 (3+ pax)</td><td>Booking &lt;3 minggu sebelum departure</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50 / booking</td><td>Booking &lt;45 hari sebelum departure</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>Quote on request</td><td>Solo occupancy — tanya operator per booking</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM 250 / pax</td><td>Upon booking confirmation</td></tr><tr><td class='it'>Full Payment</td><td class='add'>—</td><td>45 hari sebelum departure</td></tr><tr><td class='it'>Blackout: CNY 2027</td><td class='add'>Tiada operasi</td><td>17–18 Feb 2027 (supplier-imposed)</td></tr></tbody></table></div><h3 style='margin:16px 0 6px'>Peak Season Surcharge — Rate Card 2026 / 2027</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Travel Date 2027 (1 Jan – 30 Jun)</td><td class='add'>+RM 100 / pax</td><td>Add-on atas harga asas</td></tr><tr><td class='it'>Check Availability</td><td class='add'>Ikut tarikh</td><td>Chinese New Year · Raya Aidilfitri & Raya Haji · New Year · Christmas</td></tr><tr><td class='it'>Block Date CNY 2027</td><td class='add'>Tiada operasi</td><td>17–18 Feb 2027</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>5D4N: +RM 400 (2 pax) / +RM 300 (3+ pax)<br>4D3N: +RM 300 (2 pax) / +RM 200 (3+ pax)</td><td>Kadar berbeza ikut varian — ini last minute, bukan late booking</td></tr></tbody></table></div><div class='notebox'>Nota: kadar last-minute <b>berbeza ikut varian</b>, bukan percanggahan — 5D4N RM 400 / RM 300 dan 4D3N RM 300 / RM 200. Kedua-duanya tersiar dalam katalog masing-masing dan didokumen berasingan dalam R&amp;D Sheet. Disahkan PO 3 Sep 2026; Simple Calculator sudah guna kadar per varian ini. Travel-date 2027 add-on (+RM 100/pax) datang dari rate card, bukan katalog.</div>",

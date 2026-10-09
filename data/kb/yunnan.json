@@ -7,7 +7,15 @@
     "code": "KMGDLS",
     "package": "tourdechina"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "yunnan-3-wilayah-6d5n"
+   },
+   {
+    "catalog": "yunnan-4-wilayah"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -67,25 +75,6 @@
     "emoji": "🏔️",
     "img": "@asset:8223c134da9c",
     "intro": "Pakej klasik 6 hari 5 malam meliputi tiga wilayah utama Yunnan: Kunming, Dali dan Lijiang. Bullet train 2x, cable car Jade Dragon Snow Mountain, Erhai Lake boat tour, makan fullboard halal & lawatan masjid. Ground & Tipping — tiket flight tidak termasuk.",
-    "inc": [
-     "5 malam hotel 4-Star (daily breakfast, 2@3 sebilik)",
-     "Private transport (10 jam sehari) + airport transfer",
-     "Bullet train 2nd class (Kunming–Dali, Lijiang–Kunming)",
-     "Halal meals seperti dalam itinerari (fullboard)",
-     "Entrance fees seperti dalam itinerari",
-     "Boat tour Erhai Lake (Dali)",
-     "Cable car Jade Dragon Snow Mountain",
-     "Buggy Dali Santorini & Shilin Stone Forest",
-     "Tipping fee, parking fee",
-     "English speaking tour guide"
-    ],
-    "exc": [
-     "Return flight tickets, luggage, in-flight meal & airport tax",
-     "Private driver & guide melebihi 10 jam (extra hour dikenakan caj, bayar tunai)",
-     "Additional fees / optional tours",
-     "Personal expenses",
-     "Travel insurance"
-    ],
     "note": "Harga untuk 2@3 sebilik. Single Supplement +RM600/pax. Late booking (<45 hari) +RM50/booking. Trip tamat Day 6 (Kunming city tour + airport transfer). Flight balik: petang ~5:55 PM Day 6 ATAU awal pagi ~2:30 AM Day 7 — pastikan guest book timing yang betul. Katalog v1, last updated 29 Jul 2026."
    },
    {
@@ -95,185 +84,12 @@
     "emoji": "🕌",
     "img": "@asset:96840801ebfe",
     "intro": "Pakej flagship 7 hari 6 malam — semua highlight 3 Wilayah PLUS Shangri La: Tiger Leaping Gorge (incl escalator) & Dukezong Ancient Town. Bullet train balik dari Shangri La ke Kunming. Ground & Tipping — tiket flight tidak termasuk.",
-    "inc": [
-     "6 malam hotel 4-Star (daily breakfast, 2@3 sebilik)",
-     "Private transport (10 jam sehari) + airport transfer",
-     "Bullet train 2nd class (Kunming–Dali, Shangri La–Kunming)",
-     "Halal meals seperti dalam itinerari (fullboard)",
-     "Entrance fees seperti dalam itinerari",
-     "Boat tour Erhai Lake (Dali)",
-     "Cable car Jade Dragon Snow Mountain",
-     "Escalator Tiger Leaping Gorge",
-     "Buggy Dali Santorini & Shilin Stone Forest",
-     "Tipping fee, parking fee",
-     "English speaking tour guide"
-    ],
-    "exc": [
-     "Return flight tickets, luggage, in-flight meal & airport tax",
-     "Private driver & guide melebihi 10 jam (extra hour dikenakan caj, bayar tunai)",
-     "Additional fees / optional tours",
-     "Personal expenses",
-     "Travel insurance"
-    ],
     "note": "Harga untuk 2@3 sebilik. Single Supplement +RM700/pax. Late booking (<45 hari) +RM50/booking. Trip tamat Day 7 (Kunming city tour + airport transfer). Flight balik: petang ~5:55 PM Day 7 ATAU awal pagi ~2:30 AM Day 8 — pastikan guest book timing yang betul. Katalog v1, last updated 29 Jul 2026."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Kunming",
-     "m": "-",
-     "a": [
-      "Suggested flight: AirAsia / Batik Air",
-      "Tiba di Kunming Changshui Intl' Airport (KMG)",
-      "Airport pickup & transfer ke hotel Kunming",
-      "Check-in, rehat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Kunming → Dali [Bullet Train]",
-     "m": "B / L / D",
-     "a": [
-      "Check out, bullet train ke Dali (~2 jam)",
-      "Dali Foreigner Street & Dali Ancient Town",
-      "Dali Santorini (incl return buggy)",
-      "Dinner & check-in hotel Dali"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Dali → Lijiang",
-     "m": "B / L / D",
-     "a": [
-      "Dali Erhai Lake (incl boat tour)",
-      "Transfer ke Lijiang secara private transport (~3 jam)",
-      "Lijiang Ancient City tour (warisan UNESCO)",
-      "Dinner & check-in hotel Lijiang"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Lijiang Tour",
-     "m": "B / Packed L / D",
-     "a": [
-      "Jade Dragon Snow Mountain (cable car ~4,506m)",
-      "Lijiang Impression Show",
-      "Blue Moon Valley & White Water River (incl battery car)",
-      "Dongbaqu (taman budaya warisan Naxi)",
-      "Dry Sea (padang rumput kaki JDSM)",
-      "Lijiang Mosque"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Lijiang → Kunming [Bullet Train]",
-     "m": "B / L / D",
-     "a": [
-      "Black Dragon Pool (tasik latar Snow Mountain)",
-      "Bullet train ke Kunming (~4–4.5 jam)",
-      "Nanping Pedestrian Street (souvenir shopping)",
-      "Shuncheng Mosque (seni bina Cina + Islam)",
-      "Check-in hotel Kunming"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Kunming City Tour + Airport Transfer",
-     "m": "B / L / D",
-     "a": [
-      "Shilin Stone Forest (UNESCO, incl buggy)",
-      "Kunming Waterfall Park",
-      "Yongning Mosque",
-      "Selepas dinner, transfer ke airport untuk flight awal pagi (~2:30 AM Day 7)",
-      "Nota: guest dengan flight petang (~5:55 PM) transfer selepas lunch — trip tamat Day 6"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Kunming",
-     "m": "-",
-     "a": [
-      "Suggested flight: AirAsia / Batik Air",
-      "Tiba di Kunming Changshui Intl' Airport (KMG)",
-      "Airport pickup & transfer ke hotel Kunming",
-      "Check-in, rehat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Kunming → Dali [Bullet Train]",
-     "m": "B / L / D",
-     "a": [
-      "Check out, bullet train ke Dali (~2 jam)",
-      "Dali Foreigner Street & Dali Ancient Town",
-      "Dali Santorini (incl return buggy)",
-      "Dinner & check-in hotel Dali"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Dali → Lijiang",
-     "m": "B / L / D",
-     "a": [
-      "Dali Erhai Lake (incl boat tour)",
-      "Transfer ke Lijiang secara private transport (~3 jam)",
-      "Lijiang Ancient City tour (warisan UNESCO)",
-      "Dinner & check-in hotel Lijiang"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Lijiang Tour",
-     "m": "B / Packed L / D",
-     "a": [
-      "Jade Dragon Snow Mountain (cable car ~4,506m)",
-      "Lijiang Impression Show",
-      "Blue Moon Valley & White Water River (incl battery car)",
-      "Dongbaqu (taman budaya warisan Naxi)",
-      "Dry Sea (padang rumput kaki JDSM)",
-      "Lijiang Mosque"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Lijiang → Shangri La",
-     "m": "B / L / D",
-     "a": [
-      "Black Dragon Pool (tasik latar Snow Mountain)",
-      "Transfer ke Shangri La secara private transport (~2 jam)",
-      "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
-      "Dukezong Ancient Town",
-      "Dinner & check-in hotel Shangri La"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Shangri La → Kunming [Bullet Train]",
-     "m": "B / L / D",
-     "a": [
-      "Bullet train ke Kunming (~5–6 jam)",
-      "Nanping Pedestrian Street (souvenir shopping)",
-      "Shuncheng Mosque (seni bina Cina + Islam)",
-      "Check-in hotel Kunming"
-     ]
-    },
-    {
-     "d": 7,
-     "t": "Kunming City Tour + Airport Transfer",
-     "m": "B / L / D",
-     "a": [
-      "Shilin Stone Forest (UNESCO, incl buggy)",
-      "Kunming Waterfall Park",
-      "Yongning Mosque",
-      "Selepas dinner, transfer ke airport untuk flight awal pagi (~2:35 AM Day 8)",
-      "Nota: guest dengan flight petang (~5:55 PM) transfer selepas lunch — trip tamat Day 7"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -513,7 +329,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog TO — Ground & Tipping, per pax, 2@3 sebilik. TIDAK termasuk tiket flight. Sah sehingga 31 Dis 2026. Sumber: katalog v1, last updated 29 Jul 2026 — harga tidak berubah dari katalog sebelumnya.</p><h3 style='margin:14px 0 6px'>PT Yunnan 3 Wilayah (6D5N) — Kunming·Dali·Lijiang</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 4,997</td><td>RM 4,797</td><td>RM 4,597</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 4,097</td><td>RM 3,897</td><td>RM 3,697</td></tr><tr><td class='it'>6–9</td><td class='add'>RM 3,697</td><td>RM 3,497</td><td>RM 3,297</td></tr><tr><td class='it'>10–14</td><td class='add'>RM 3,197</td><td>RM 2,997</td><td>RM 2,797</td></tr></tbody></table></div><p class='ssub'>Infant: FOC. Upgrade hotel 4-star (tier 4–5 pax): +RM240/pax. Single Supplement: +RM600/pax.</p><h3 style='margin:18px 0 6px'>PT Yunnan 4 Wilayah (7D6N) — Kunming·Dali·Lijiang·Shangri La</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 5,697</td><td>RM 5,497</td><td>RM 5,297</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 4,497</td><td>RM 4,297</td><td>RM 4,097</td></tr><tr><td class='it'>6–9</td><td class='add'>RM 4,097</td><td>RM 3,897</td><td>RM 3,697</td></tr><tr><td class='it'>10–14</td><td class='add'>RM 3,597</td><td>RM 3,397</td><td>RM 3,197</td></tr></tbody></table></div><p class='ssub'>Infant: FOC. Upgrade hotel 4-star (tier 4–5 pax): +RM240/pax. Single Supplement: +RM700/pax.</p>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation & Add-ons</h2><p class='ssub'>Kadar rasmi dari <b>Product Cheatsheet 2026 &ndash; Yunnan</b>. Ini private tour &mdash; hampir semua komponen boleh tambah (Tambah) atau buang (Tolak). Sahkan setiap perubahan dengan operator sebelum confirm kepada customer.</p><h3 style='margin:16px 0 6px'>Airport Transfer</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Kenderaan</th><th>Kapasiti</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>MPV</td><td>2&ndash;4 pax</td><td class='add'>RM 150/way</td><td class='add'>RM 150/way</td><td>&minus;RM 100/transport</td></tr><tr><td class='it'>Small Bus</td><td>5&ndash;6 pax</td><td class='add'>RM 250/way</td><td class='add'>RM 250/way</td><td>&minus;RM 150/transport</td></tr><tr><td class='it'>Big Bus</td><td>7&ndash;12 pax</td><td class='add'>RM 300/way</td><td class='add'>RM 350/way</td><td>&minus;RM 250/transport</td></tr><tr><td class='it'>Big Bus</td><td>12 pax ke atas</td><td>&mdash;</td><td class='add'>RM 650/way</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Accommodation</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>Hotel 4-Star &mdash; 1 malam</td><td class='add'>+RM 200/bilik/malam</td><td class='add'>+RM 250/bilik/malam</td><td>&minus;RM 100/bilik/malam</td></tr><tr><td class='it'>Upgrade hotel 4-star (tier 4&ndash;5 pax)</td><td class='add'>+RM 240/pax</td><td class='add'>+RM 240/pax</td><td>&mdash;</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 600/pax</td><td class='add'>+RM 700/pax</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Extra Night + Extra Day Tour</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Pax</th><th>Tambah &mdash; 3W</th><th>Tambah &mdash; 4W</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>Extra 1 malam + 1 day tour</td><td>2&ndash;4 pax</td><td class='add'>+RM 650/pax</td><td class='add'>+RM 650/pax</td><td>&minus;RM 300/pax</td></tr><tr><td class='it'>Extra 1 malam + 1 day tour</td><td>5&ndash;6 pax</td><td class='add'>+RM 850/pax</td><td class='add'>+RM 750/pax</td><td>&minus;RM 300/pax</td></tr><tr><td class='it'>Extra day tour sahaja<br><span class='ssub'>(transport + guide + meals, tanpa hotel)</span></td><td>&mdash;</td><td class='add'>+RM 400/pax</td><td class='add'>+RM 400/pax</td><td>&mdash;</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Meals</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Tambah</th><th>Tolak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>&mdash;</td><td>&mdash;</td><td>Sudah termasuk dalam bilik hotel &mdash; tidak boleh tambah/tolak</td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 60/pax/meal</td><td>&minus;RM 30/pax/meal</td><td>Halal, gaya sharing</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 60/pax/meal</td><td>&minus;RM 30/pax/meal</td><td>Halal, gaya sharing</td></tr><tr><td class='it'>Indian / Arabic meals</td><td class='add'>RM 80/pax/meal</td><td>&mdash;</td><td>Surcharge +RM 30/pax berbanding meal biasa. Terpakai untuk <b>3W &amp; 4W</b></td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Transport, Guide &amp; Bullet Train</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Extra hour driver &amp; guide</td><td class='add'>RM 160/jam</td><td>Asas 10 jam/hari. Kadar ini <b>meliputi driver &amp; guide</b>. Bayar TUNAI di sana</td></tr><tr><td class='it'>Upgrade bullet train &mdash; 1st class (2+2)</td><td class='add'>3W +RM100/pax/way<br>4W +RM120/pax/way</td><td>Rujuk tab <b>Transportation &amp; Guide</b> untuk gambar &amp; susunan seat</td></tr><tr><td class='it'>Upgrade bullet train &mdash; Business class (2+1)</td><td class='add'>+RM 300/pax/way</td><td>Hanya 1/56 seat &mdash; book seawal 1 minggu, tidak dijamin</td></tr><tr><td class='it'>Luggage van (untuk bullet train)</td><td class='add'>RM 650&ndash;750/one way</td><td>3W RM650 &middot; 4W RM750 (2&ndash;4 pax) / RM650 (5&ndash;6 pax)</td></tr></tbody></table></div><h3 style='margin:18px 0 6px'>Itinerari &amp; Lain-lain</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Yi Ethnic Costume / hanfu rental</td><td>Bayar di sana</td><td>Maklum Tour Leader untuk assist &mdash; juga Free Gift promo (kod FKMGDL)</td></tr><tr><td class='it'>Pocket wifi</td><td>Ikut sewa</td><td>Ada VPN &mdash; akses WhatsApp/Google tanpa sekatan. 1 wifi = 3 telefon</td></tr><tr><td class='it'>Travel insurance</td><td>Ikut plan</td><td>Tidak termasuk pakej &mdash; digalakkan</td></tr><tr><td class='it'>Oxygen canister</td><td>~50 Yuan/tangki</td><td>Beli di Lijiang, TL assist. Rujuk tab <b>Shopping &amp; Tips</b></td></tr></tbody></table></div><p class='ssub'>Semua kadar di atas adalah rujukan dalaman dari Product Cheatsheet 2026 &ndash; Yunnan. Harga tertakluk pada perubahan &mdash; sahkan dengan operator sebelum keluarkan quotation.</p>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Kadar katalog PT Yunnan v1 (29 Jul 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Yunnan 3 Wilayah (6D5N)</option><option value='1'>PT Yunnan 4 Wilayah (7D6N)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant bawah 2 tahun: FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement 3 Wilayah RM 600/pax &middot; 4 Wilayah RM 700/pax</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge & Blackout</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement (3W)</td><td class='add'>+RM 600/pax</td><td>Bilik single, pakej 6D5N</td></tr><tr><td class='it'>Single Supplement (4W)</td><td class='add'>+RM 700/pax</td><td>Bilik single, pakej 7D6N</td></tr><tr><td class='it'>Dragon Boat Festival</td><td class='add'>+RM 30/pax/malam</td><td>19–21 Jun 2026</td></tr><tr><td class='it'>China Golden Week</td><td class='add'>+RM 300/pax</td><td>1–8 Okt 2026</td></tr><tr><td class='it'>China Summer Holiday</td><td class='add'>Peak (semak surcharge)</td><td>Seluruh Julai & Ogos</td></tr><tr><td class='it'>Christmas & New Year</td><td class='add'>Peak (semak surcharge)</td><td>22 Dis – 5 Jan</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan &lt;45 hari sebelum bertolak</td></tr></tbody></table></div><p class='ssub'>BLACKOUT DATES: Chinese New Year (14–22 Feb 2026), Labor Day (1–5 Mei 2026). Harga tidak sah semasa peak season — rujuk surcharge.</p><h3 style='margin:18px 0 6px'>Peak Season Surcharge — Rate Card 2026 / 2027</h3><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Dragon Boat Festival</td><td class='add'>+RM 30/pax/malam</td><td>2026: 19–21 Jun · 2027: 12–14 Jun</td></tr><tr><td class='it'>Other peak dates</td><td class='add'>+RM 300/pax</td><td>Summer (Jul–Ogos), Golden Week (1–8 Okt), Christmas &amp; NY (22 Dis–5 Jan)</td></tr><tr><td class='it'>2027 travel add-on</td><td class='add'>+RM 100/pax</td><td>Travel date 1 Jan–30 Jun 2027 (atas surcharge peak)</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan &lt;45 hari sebelum bertolak</td></tr></tbody></table></div><p class='ssub'>Dragon Boat Festival: <b>guna RM30/pax/malam ikut katalog PT</b>. Rate card 2026/2027 pernah tunjuk RM60/pax/malam &mdash; angka itu <b>tidak digunakan</b> (keputusan PO, 30 Jul 2026).</p>",

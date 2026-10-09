@@ -11,7 +11,15 @@
     "code": "SEM",
     "package": "legend-4d-1s"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "semporna-basic"
+   },
+   {
+    "catalog": "semporna-standard"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -67,28 +75,7 @@
     "emoji": "",
     "img": "@asset:a0419ab464d2",
     "intro": "Pakej pengenalan Semporna paling ringkas: 1 malam di water chalet atas air dan 1 malam di hotel Pekan Semporna, dengan satu hari island hopping (Set Bohey Dulang atau Set Mataking). Sesuai untuk yang pertama kali ke Semporna atau bercuti singkat hujung minggu.",
-    "inc": [
-     "2-way airport transfer Tawau–Semporna (sharing basis)",
-     "Boat transfer (sharing basis)",
-     "1 malam Water Chalet",
-     "1 malam hotel Pekan Semporna",
-     "Makan: 2x Breakfast, 1x Lunch, 2x Dinner",
-     "Island Hopping Set Bohey Dulang ATAU Set Mataking",
-     "Peralatan snorkelling",
-     "Admission & jetty fee",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Personal expenses",
-     "Additional packages / add-on activities",
-     "Makan lain di luar pakej",
-     "Tiket flight",
-     "Shower room",
-     "Tourism tax (pemegang pasport bukan Malaysia)",
-     "Travel insurance",
-     "Surcharge pemegang pasport bukan Malaysia"
-    ],
-    "note": "Harga per pax, 2-3 sebilik. Adult RM1,897 (1 pax) / RM1,397 (2-10 pax). Child with bed RM1,197, child no bed RM997, infant FOC. Single supplement RM1,200/pax."
+    "note": "Harga per pax, 2-3 sebilik. Harga: lihat jadual Harga &amp; Pakej (dari Costing). Single supplement RM1,200/pax."
    },
    {
     "n": "PT Semporna Standard (4D3N)",
@@ -97,112 +84,12 @@
     "emoji": "",
     "img": "@asset:35be2cd67375",
     "intro": "Versi lebih santai dengan satu malam tambahan di Pekan Semporna. Satu hari island hopping (Set Bohey Dulang atau Set Mataking), satu hari free & easy yang boleh di-upgrade dengan add-on Island Hopping Set Mabul (Mabul & Kapalai). Sesuai untuk keluarga yang mahu masa lebih lapang.",
-    "inc": [
-     "2-way airport transfer Tawau–Semporna (sharing basis)",
-     "Boat transfer (sharing basis)",
-     "1 malam Water Chalet",
-     "2 malam hotel Pekan Semporna",
-     "Makan: 3x Breakfast, 2x Lunch, 3x Dinner",
-     "1x Island Hopping Set Bohey Dulang ATAU Set Mataking",
-     "Peralatan snorkelling",
-     "Admission & jetty fee",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Personal expenses",
-     "Additional packages / add-on activities",
-     "Makan lain di luar pakej",
-     "Tiket flight",
-     "Shower room",
-     "Tourism tax (pemegang pasport bukan Malaysia)",
-     "Travel insurance",
-     "Surcharge pemegang pasport bukan Malaysia"
-    ],
-    "note": "Harga per pax, 2-3 sebilik. Adult RM2,297 (1 pax) / RM1,597 (2-10 pax). Child with bed RM1,457, child no bed RM1,357, infant FOC. Single supplement RM1,500/pax. Add-on Island Hopping Set Mabul RM180/pax pada Day 3."
+    "note": "Harga per pax, 2-3 sebilik. Harga: lihat jadual Harga &amp; Pakej (dari Costing). Single supplement RM1,500/pax. Add-on Island Hopping Set Mabul RM180/pax pada Day 3."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Tawau – Semporna – Water Chalet",
-     "m": "Dinner",
-     "a": [
-      "Tiba di Lapangan Terbang Tawau (TWU)",
-      "Airport transfer ke Semporna (~1–2 jam)",
-      "Shared boat transfer (bot: 2pm / 4pm)",
-      "Check-in water chalet",
-      "Swim & snorkelling (self-arranged)",
-      "Nikmati sunset · Free & Easy"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Island Hopping 1 (SIC)",
-     "m": "B / Lunch box / D",
-     "a": [
-      "Island Hopping Set Bohey Dulang (Bohey Dulang, Mantabuan & Sibuan)",
-      "ATAU Set Mataking (Mataking, Timba Timba & Pom Pom)",
-      "ATAU add-on Set Mabul RM250/group (Mabul & Kapalai)",
-      "Balik ke Jeti Semporna · check-in hotel Pekan Semporna · Free & Easy"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Semporna – Tawau",
-     "m": "Breakfast",
-     "a": [
-      "Check-out",
-      "Free & Easy atau additional activities",
-      "Shared airport transfer ke Tawau (6am/7am/10am/12pm/2pm/5pm)"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Tawau – Semporna – Water Chalet",
-     "m": "Dinner",
-     "a": [
-      "Tiba di Lapangan Terbang Tawau (TWU)",
-      "Airport transfer ke Semporna (~1–2 jam)",
-      "Shared boat transfer (bot: 2pm / 4pm)",
-      "Check-in water chalet",
-      "Swim & snorkelling (self-arranged)",
-      "Sunset view · Free & Easy"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Island Hopping (SIC)",
-     "m": "B / Lunch box / D",
-     "a": [
-      "Island Hopping Set Bohey Dulang (Bohey Dulang, Mantabuan & Sibuan)",
-      "ATAU Set Mataking (Mataking, Timba Timba & Pom Pom)",
-      "Balik ke Jeti Semporna · check-in hotel Pekan Semporna · Free & Easy"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Free & Easy",
-     "m": "Breakfast",
-     "a": [
-      "Free & Easy di Pekan Semporna",
-      "ATAU add-on Island Hopping Set Mabul RM180/pax (Mabul & Kapalai)",
-      "Balik ke Jeti Semporna · malam di hotel Pekan Semporna"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Semporna – Tawau",
-     "m": "Breakfast",
-     "a": [
-      "Check-out hotel",
-      "Free & Easy",
-      "Shared airport transfer ke Tawau (6am/7am/10am/12pm/2pm/5pm)"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -366,7 +253,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog 2026 <b>V4 (kemas kini 24 Ogos 2026)</b>, per pax, 2-3 sebilik (sah hingga 31 Disember 2026). Harga TIDAK termasuk tiket flight. Akomodasi asas: <b>Lato Lato Water Chalet</b> (1&#9733;) + <b>Wingtat Hotel</b> (Pekan Semporna).</p><div class='custblk'><h3>PT Semporna Basic (3D2N)</h3><table class='ctbl'><thead><tr><th>No. Pax</th><th>Adult (12+)</th><th>Child With Bed (6-11)</th><th>Child No Bed (2-5)</th></tr></thead><tbody><tr><td class='it'>1</td><td class='add'>RM 1,897</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>2 &ndash; 10</td><td class='add'>RM 1,397</td><td>RM 1,197</td><td>RM 997</td></tr><tr><td class='it'>Infant (bawah 2)</td><td class='add'>FOC</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table><p class='ssub'>Single supplement RM1,200/pax.</p></div><div class='custblk'><h3>PT Semporna Standard (4D3N)</h3><table class='ctbl'><thead><tr><th>No. Pax</th><th>Adult (12+)</th><th>Child With Bed (6-11)</th><th>Child No Bed (2-5)</th></tr></thead><tbody><tr><td class='it'>1</td><td class='add'>RM 2,297</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>2 &ndash; 10</td><td class='add'>RM 1,597</td><td>RM 1,457</td><td>RM 1,357</td></tr><tr><td class='it'>Infant (bawah 2)</td><td class='add'>FOC</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table><p class='ssub'>Single supplement RM1,500/pax.</p></div><div class='custblk'><h3>Deposit & Payment</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Deposit</td><td class='add'>RM500/pax</td></tr><tr><td class='it'>Full payment</td><td>30 hari sebelum berlepas</td></tr><tr><td class='it'>Sah harga</td><td>24 jam selepas quotation dikeluarkan</td></tr></tbody></table></div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation</h2><p class='ssub'>Dua sumber berbeza, jangan campur: <b>lajur Harga Jual</b> ialah apa yang TC quote kepada customer; <b>lajur Kos</b> ialah rate card operasi (Google Sheet Semporna, kemas kini Sep 2026). Semua add-on mesti disahkan &amp; dibayar sekurang-kurangnya 2 hari sebelum aktiviti; tertakluk ketersediaan &amp; cuaca.</p><div class='custblk'><h3>Add-on Activities &mdash; harga jual katalog v4</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga jual</th><th>Kos</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Island Hopping (full day) &mdash; Set A / B / C</td><td class='add'>RM 180/pax</td><td>Set A RM 157 &middot; Set B RM 130 &middot; Set C RM 150</td><td>1 trip, snorkel gear, shared boat, lunch box, jetty fee, guide &middot; 8am&ndash;2/3pm &middot; Seafest Jetty</td></tr><tr><td class='it'>&mdash; Set A: Bohey Dulang &middot; Sibuan &middot; Mantabuan</td><td class='add'>RM 180/pax</td><td>RM 157 adult &middot; RM 90 kanak</td><td>Hiking fee, insurans, lunch box, tuala, snorkel set, jetty fee</td></tr><tr><td class='it'>&mdash; Set B: Mataking &middot; Pom-Pom &middot; Timba-Timba</td><td class='add'>RM 180/pax</td><td>RM 130 adult &middot; RM 60 kanak</td><td>Timba-timba fee, insurans, lunch box, tuala, snorkel set, jetty fee</td></tr><tr><td class='it'>&mdash; Set C: Mabul &middot; Kapalai</td><td class='add'>RM 180/pax</td><td>RM 150 adult &middot; RM 90 kanak</td><td>Bungalow fee, insurans, lunch box, tuala, snorkel set, jetty fee</td></tr><tr><td class='it'>Island Hopping Set Mabul (pakej Basic, Day 2)</td><td class='add'>RM 250/group</td><td>&mdash;</td><td>Water chalet 1&#9733; &amp; 2&#9733; sahaja</td></tr><tr><td class='it'>Tawau Shopping Tour (full day)</td><td class='add'>RM 120/pax</td><td>RM 87/pax</td><td>Private transport, driver guide, airport transfer &middot; 6&ndash;8 jam</td></tr><tr><td class='it'>Timbun Mata Watersport (half day)</td><td class='add'>RM 300/pax</td><td>RM 280 / group 2&ndash;6 pax</td><td>Parasailing, jet ski, banana boat, paddle boat, UFO donut, hiking, snorkel + buffet lunch &middot; 8am&ndash;1pm atau 1.30&ndash;5pm</td></tr><tr><td class='it'>Seawalking</td><td class='add'>RM 180/pax</td><td>RM 220 / group 4&ndash;6 pax</td><td>Min 2 pax &middot; 30&ndash;45 min &middot; disyor hari pertama &middot; Seafest Jetty</td></tr><tr><td class='it'>Discovery Scuba Diving (DSD) &mdash; 2 dives</td><td class='add'>RM 280/pax</td><td>RM 260 / max 2 pax</td><td>Peralatan diving, dive master, lunch box, tuala, jetty fee</td></tr><tr><td class='it'>Fun Dive &mdash; 3 dives</td><td class='add'>RM 330/pax</td><td>RM 300 / max 2 pax</td><td>Peralatan diving, dive master, lunch box, tuala, jetty fee</td></tr><tr><td class='it'>Transparent Kayak</td><td class='add'>Free gift <span class='gcode'>FSEM</span></td><td>RM 80/hari</td><td>Kadar jual tiada dalam katalog &mdash; sahkan dengan PO kalau dijual</td></tr></tbody></table></div><div class='custblk'><h3>Tambah / Tolak Malam &mdash; Water Chalet</h3><p class='ssub'>Kadar <b>per pax per malam</b> (rate card, header <i>PRICE/PAX/NIGHT</i>). Kadar turun bila okupansi bilik naik, jadi Simple Calculator memilih band ikut bilangan pax berbayar. Kanak 0&ndash;3 tahun free melainkan dinyatakan.</p><table class='ctbl'><thead><tr><th>Water chalet</th><th>Kos tambah 1 malam (per pax)</th><th>Kanak</th><th>Peak (rate card)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>1&#9733; Lato-Lato (Fan)</td><td>RM 220</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 110</td><td>Tiada peak</td><td>Akomodasi <b>asas pakej</b> &middot; 24 jam elektrik, private balcony</td></tr><tr><td class='it'>1&#9733; Lato-Lato (A/C)</td><td>RM 330</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 165</td><td>Tiada peak</td><td>&mdash;</td></tr><tr><td class='it'>1&#9733; Nusakuya</td><td>Max 2 pax RM 380 &middot; Max 3 RM 350 &middot; Max 4 RM 300</td><td>0&ndash;2 free</td><td>Tiada peak</td><td>24/7 elektrik, private balcony, akses ke air</td></tr><tr><td class='it'>1&#9733; Blue Ocean</td><td>Max 2 pax RM 350 &middot; Max 3 RM 450</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 250</td><td>Tiada peak</td><td>Private balcony, akses ke air &middot; kadar naik bila pax naik (semak dengan PO)</td></tr><tr><td class='it'>1&#9733; Starz Water Village</td><td>Standard RM 370 &middot; Private RM 450</td><td>0&ndash;4 free &middot; 5&ndash;12 RM 220</td><td>+RM 60/pax/malam</td><td>Aircond, private balcony</td></tr><tr><td class='it'>1&#9733; Maglami-Lami</td><td>Max 2 pax RM 450 &middot; Max 3 RM 400</td><td>RM 225</td><td>Tiada peak</td><td>Fan / aircond, private balcony</td></tr><tr><td class='it'>1&#9733; Aminah Holiday (inc boat)</td><td>RM 450</td><td>RM 225</td><td>Tiada peak</td><td>Aircond sahaja</td></tr><tr><td class='it'>1&#9733; Sisipan</td><td>RM 480</td><td>&mdash;</td><td>Tiada peak</td><td>Aircond sahaja</td></tr><tr><td class='it'>1&#9733; Sky Water Villa</td><td>RM 580</td><td>RM 350</td><td>+RM 100/pax/malam</td><td>Aircond sahaja</td></tr><tr><td class='it'>2&#9733; Danglai</td><td>Max 2 pax RM 680 &middot; Max 3 RM 580 &middot; Max 4 RM 480</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 350</td><td>Tiada peak</td><td>A/C &amp; fan, private balcony, swimming pool</td></tr><tr><td class='it'>2&#9733; Dayang</td><td>Max 2 pax RM 650 &middot; Max 3&ndash;4 RM 550</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 325</td><td>+RM 60/pax/malam</td><td>Private balcony, swimming pool</td></tr><tr><td class='it'>2&#9733; Noura</td><td>Max 2 pax RM 480 &middot; Max 3&ndash;4 RM 380</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 280</td><td>Tiada peak</td><td>Fan sahaja, swimming pool &middot; tiada dalam katalog v4</td></tr><tr><td class='it'>2&#9733; Royal Resort Standard Suite</td><td>Max 2 pax RM 830 &middot; Max 3&ndash;6 RM 730</td><td>0&ndash;3 free &middot; 4&ndash;11 RM 460</td><td>Katalog +RM 80&ndash;100/pax/malam</td><td>24/7 elektrik, aircond, private balcony, swimming pool</td></tr><tr><td class='it'>3&#9733; Arcadia Beach</td><td>RM 1,750 / pax (pakej 3D2N)</td><td>0&ndash;2 free &middot; 3&ndash;11 RM 900</td><td>RM 100/pax/malam (Seaview)</td><td>Harga pakej, bukan per malam &middot; tiada dalam katalog v4</td></tr><tr><td class='it'>3&#9733; Sipadan Kapalai Dive Resort</td><td>RM 2,300 / pax (pakej 3D2N)</td><td>0&ndash;2 free &middot; 3&ndash;11 RM 1,150</td><td>Katalog +RM 85/pax/malam</td><td>Harga pakej, bukan per malam</td></tr><tr><td class='it'>3&#9733; Sipadan Water Village</td><td>RM 1,600 / pax / malam</td><td>0&ndash;2 RM 160 &middot; 3&ndash;11 RM 1,500</td><td>Katalog +RM 85/pax/malam</td><td>&mdash;</td></tr></tbody></table><p class='custnote'>Lajur <b>Tolak 1 Malam</b> dalam rate card <b>kosong</b> untuk semua akomodasi &mdash; tiada kadar tolak yang tersiar. Simple Calculator akan tandakan <i>kadar belum diisi</i> (merah) bila TC pilih <i>tolak 1 malam</i>, bukan quote RM 0.</p></div><div class='custblk'><h3>Tambah / Tolak Malam &mdash; Hotel Pekan Semporna</h3><p class='ssub'>Kadar <b>per bilik per malam</b>. Simple Calculator menukarnya ke per pax atas asas 2 pax sebilik.</p><table class='ctbl'><thead><tr><th>Hotel</th><th>Kos / bilik / malam</th><th>Kos peak</th><th>Harga jual / bilik (RAW DATA)</th><th>Breakfast</th></tr></thead><tbody><tr><td class='it'>Wingtat Hotel</td><td>RM 260</td><td>RM 380</td><td>Tiada &mdash; guna kos + RM30/pax</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Boutique &mdash; Queen / Twin</td><td>RM 180</td><td>RM 210</td><td>RM 230</td><td>Tiada breakfast</td></tr><tr><td class='it'>Seafest Boutique &mdash; extra bed</td><td>RM 140</td><td>RM 160</td><td>RM 280</td><td>Tiada breakfast</td></tr><tr><td class='it'>Seafest Lepa Wing &mdash; Courtyard (twin)</td><td>RM 320</td><td>&mdash;</td><td>RM 350</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Lepa Wing &mdash; Sea View</td><td>RM 350</td><td>&mdash;</td><td>RM 380</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Lepa Wing &mdash; Family Courtyard (1Q + 1S)</td><td>RM 450</td><td>&mdash;</td><td>RM 480</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Hotel &mdash; Standard / Superior</td><td>RM 350</td><td>RM 400</td><td>RM 380</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Hotel &mdash; Superior Sea View</td><td>RM 390</td><td>&mdash;</td><td>RM 400</td><td>2 pax breakfast</td></tr><tr><td class='it'>Seafest Hotel &mdash; extra bed</td><td>RM 140&ndash;160</td><td>RM 160</td><td>RM 180</td><td>1 pax breakfast</td></tr><tr><td class='it'>Shower room (Seafest Jetty)</td><td>RM 110</td><td>&mdash;</td><td>RM 130</td><td>&mdash;</td></tr></tbody></table><p class='custnote'>Peak season hotel bandar ikut rate card: <b>28 April &ndash; 8 Mei</b>, <b>10 Julai &ndash; 23 Ogos</b>, <b>25 Sept &ndash; 8 Okt</b>. Tetingkap ini <b>tidak sama</b> dengan tetingkap peak katalog &mdash; kalkulator guna tetingkap <b>katalog</b> (tab Surcharge).</p></div><div class='custblk'><h3>Tambah / Tolak Meal</h3><table class='ctbl'><thead><tr><th>Meals</th><th>Kos tambah 1 meal</th><th>Kos tolak 1 meal</th><th>Kadar kalkulator (jual)</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>RM 15/pax</td><td class='ded'>&mdash;</td><td>Sentiasa dalam pakej (1 breakfast per malam)</td></tr><tr><td class='it'>Lunch</td><td>RM 35/pax</td><td class='ded'>&minus;RM 20/pax</td><td class='add'>+RM 65 / &minus;RM 20</td></tr><tr><td class='it'>Dinner</td><td>RM 35/pax</td><td class='ded'>&minus;RM 20/pax</td><td class='add'>+RM 65 / &minus;RM 20</td></tr></tbody></table><p class='custnote'>Makan dalam pakej ialah makanan tempatan halal. Breakfast di hotel sahaja &mdash; Seafest Boutique <b>tiada breakfast</b> walaupun katalog jadikannya alternatif harga sama; sahkan dengan PO sebelum quote Boutique.</p></div><div class='custblk'><h3>Transport &amp; Boat Transfer (tambahan)</h3><table class='ctbl'><thead><tr><th>Segmen</th><th>Jenis</th><th>Kapasiti</th><th>Kos</th><th>Harga jual</th></tr></thead><tbody><tr><td class='it'>Tawau Airport &rarr; Semporna</td><td>Share van</td><td>10 pax</td><td>RM 30/pax/1 way</td><td class='add'>RM 40/pax/1 way</td></tr><tr><td class='it'>Tawau City &rarr; Semporna</td><td>Share van</td><td>10 pax</td><td>RM 40/pax/1 way</td><td class='add'>RM 50/pax/1 way</td></tr><tr><td class='it'>Semporna &rarr; Tawau City / Airport</td><td>Share van</td><td>10 pax</td><td>RM 40/pax/1 way</td><td class='add'>RM 50/pax/1 way</td></tr><tr><td class='it'>Private car transfer (Tawau city/hotel &ndash; Semporna)</td><td>Private car</td><td>1&ndash;4 pax</td><td>RM 130/transport</td><td class='add'>RM 160/transport (katalog)</td></tr><tr><td class='it'>Charter car + city tour (Tawau atau Semporna)</td><td>Private car</td><td>1&ndash;4 pax</td><td>RM 200/transport</td><td class='add'>RM 280/transport</td></tr><tr><td class='it'>Charter van + city tour (Tawau atau Semporna)</td><td>Private van</td><td>5&ndash;10 pax</td><td>RM 350/transport</td><td class='add'>RM 480/transport</td></tr><tr><td class='it'>Charter Vellfire + city tour</td><td>Vellfire</td><td>1&ndash;6 pax</td><td>RM 950/transport</td><td class='add'>RM 1,000/transport</td></tr><tr><td class='it'>Boat transfer &mdash; Lato-Lato &middot; Nusakuya &middot; Dayang &middot; Danglai</td><td>Shared boat</td><td>&mdash;</td><td>RM 30/pax/1 way</td><td class='add'>RM 40/pax/1 way</td></tr><tr><td class='it'>Boat transfer &mdash; Mabul Island</td><td>Shared boat</td><td>&mdash;</td><td>RM 90/pax/1 way</td><td class='add'>RM 100/pax/1 way</td></tr></tbody></table><p class='custnote'>Jadual bot: <b>check-in 2pm &amp; 4pm</b>, <b>check-out 11am &amp; 2pm</b> (3&#9733; Kapalai: 9.30am / 12pm). Bot tertakluk cuaca &amp; pasang surut. Rate card <b>tiada kadar transport hari tambahan (day tour)</b> &mdash; charter di atas ialah transfer bandar, bukan day tour. Kalkulator akan tandakan <i>kadar belum diisi</i> untuk hari tambahan.</p></div><div class='custblk'><h3>Decoration &amp; Celebration</h3><table class='ctbl'><thead><tr><th>Item</th><th>Kos</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Honeymoon room decoration</td><td>RM 270/bilik</td><td class='add'>RM 350/bilik (katalog)</td><td>Ada di semua water chalet <b>kecuali Lato-Lato</b></td></tr><tr><td class='it'>Birthday room decoration</td><td>RM 250/bilik</td><td class='add'>RM 350/bilik</td><td>Tiada dalam katalog &mdash; sahkan dengan PO</td></tr><tr><td class='it'>Candlelight dinner</td><td>RM 250/pax</td><td class='add'>RM 280/pax (katalog)</td><td>Meals + table decoration</td></tr><tr><td class='it'>Regular size cake</td><td>RM 80/kek</td><td class='add'>RM 120/kek (katalog)</td><td>Birthday / candlelight dinner</td></tr></tbody></table></div><div class='custblk'><h3>Kadar yang PERLU DISAHKAN dengan PO</h3><table class='ctbl'><thead><tr><th>Perkara</th><th>Isu</th></tr></thead><tbody><tr><td class='it'>Peak season akomodasi asas</td><td>Katalog v4 <b>tidak</b> mengenakan surcaj peak pada Wingtat Hotel atau Lato-Lato, walaupun kos Wingtat naik RM260 &rarr; RM380/bilik (RM60/pax) dalam peak. Katalog v3 dahulu mengenakan RM30&ndash;60/pax/malam pada baris asas. Kalkulator ikut v4 (RM 0).</td></tr><tr><td class='it'>Royal Resort Standard Suite &mdash; surcaj peak</td><td>Katalog Basic tulis <b>RM100</b>/pax/malam, katalog Standard tulis <b>RM80</b>. Kalkulator guna kadar katalog masing-masing per varian.</td></tr><tr><td class='it'>Standard 4D3N &mdash; bilangan meal</td><td>Senarai inclusions tulis <b>3B / 2L / 3D</b> tetapi jadual itinerari hanya beri <b>3B / 1L / 2D</b> (Day 3 = Breakfast Only). Kalkulator ikut <b>jadual itinerari</b>.</td></tr><tr><td class='it'>28&ndash;31 September 2026</td><td>September hanya 30 hari. Kalkulator guna <b>28&ndash;30 Sept</b>.</td></tr><tr><td class='it'>Peak 1&#9733; Nusakuya / Blue Ocean</td><td>Katalog kenakan +RM60/pax/malam; rate card tulis <b>NO PEAK SEASON</b>. Kalkulator ikut katalog untuk upgrade, ikut rate card untuk malam tambahan.</td></tr><tr><td class='it'>Blue Ocean Max 3 pax</td><td>RM 450/pax lebih tinggi daripada Max 2 pax RM 350/pax &mdash; satu-satunya chalet yang kadarnya naik bila okupansi naik.</td></tr><tr><td class='it'>Seafest Boutique extra bed</td><td>Kos RM 140&ndash;160 tetapi harga jual RAW DATA RM 280 &mdash; jurang jauh lebih besar daripada semua baris lain.</td></tr><tr><td class='it'>Kadar jual malam water chalet</td><td>RAW DATA tiada lajur SELLING untuk water chalet. Kalkulator guna <b>kos + RM30/pax</b> mengikut keputusan PO 3 Sep 2026.</td></tr><tr><td class='it'>Meal add RM 65/pax</td><td>Kos RM 35 + RM30 mengikut peraturan yang sama. Tolak kekal pada kadar tersiar RM 20.</td></tr><tr><td class='it'>Arcadia Beach &amp; Noura</td><td>Ada dalam rate card tetapi <b>tiada</b> dalam katalog v4 &mdash; tidak dimasukkan sebagai pilihan kalkulator.</td></tr></tbody></table></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan surcaj 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Harga asas = harga katalog v4 (24 Ogos 2026)</b>: Basic RM1,397 &middot; Standard RM1,597 per pax untuk 2&ndash;10 pax. <b>Peak season:</b> katalog v4 tidak mengenakan surcaj peak pada akomodasi asas (Wingtat Hotel &middot; Lato Lato Water Chalet) &mdash; surcaj peak hanya melekat pada akomodasi yang di-upgrade, jadi jumlahnya berubah sendiri bila TC pilih upgrade. <b>Malam tambahan:</b> kadar jual dari tab RAW DATA rate card; kadar water chalet ialah per pax per malam dan berubah ikut okupansi bilik. <b>Hari tambahan:</b> Semporna tiada kadar transport day-tour yang tersiar &mdash; kalkulator akan tandakan <i>kadar belum diisi</i> (merah) supaya TC sebut harga dengan operator, bukan quote RM 0. Sama untuk <i>tolak 1 malam</i>. Bot ke water chalet: check-in 2pm / 4pm, check-out 11am / 2pm.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Semporna Basic 3D2N</option><option value='1'>PT Semporna Standard 4D3N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog v4)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement: Basic +RM1,200/pax &middot; Standard +RM1,500/pax</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><p class='ssub'>Semua kadar di bawah adalah kadar katalog 2026 <b>V4 (24 Ogos 2026)</b>. Akomodasi asas pakej ialah <b>Lato Lato Water Chalet</b> dan <b>Wingtat Hotel</b> &mdash; kedua-duanya tiada surcaj peak dalam katalog v4.</p><div class='custblk'><h3>Umum</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila</th></tr></thead><tbody><tr><td class='it'>Single Supplement &mdash; Basic (3D2N)</td><td class='add'>+RM 1,200/pax</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Single Supplement &mdash; Standard (4D3N)</td><td class='add'>+RM 1,500/pax</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan kurang 45 hari sebelum berlepas</td></tr><tr><td class='it'>Surcharge Travel Date 2027</td><td class='add'>+RM 150/pax</td><td>Perjalanan Januari &ndash; Jun 2027</td></tr><tr><td class='it'>Tourism Tax &amp; surcharge pasport bukan Malaysia</td><td class='add'>Ikut kadar semasa</td><td>Peserta bukan pemegang pasport Malaysia</td></tr></tbody></table></div><div class='custblk'><h3>Tarikh Peak Season 2026 / 2027</h3><table class='ctbl'><thead><tr><th>Tempoh Puncak</th></tr></thead><tbody><tr><td class='it'>26 Jun &ndash; 31 Ogos 2026</td></tr><tr><td class='it'>28 &ndash; 30 September 2026 <small>(katalog tulis 28&ndash;31 Sept; September 30 hari)</small></td></tr><tr><td class='it'>1 &ndash; 8 Oktober 2026</td></tr><tr><td class='it'>20 &ndash; 31 Disember 2026</td></tr><tr><td class='it'>1 &ndash; 23 Januari 2027</td></tr><tr><td class='it'>12 &ndash; 25 Februari 2027</td></tr></tbody></table><p class='ssub'>Peak season surcharge dikira ikut <b>akomodasi yang dipilih</b>, bukan ikut tier pakej &mdash; dan hanya pada akomodasi yang di-upgrade. Rujuk dua jadual di bawah.</p></div><div class='custblk'><h3>Naik Taraf Penginapan &mdash; Hotel Pekan Semporna</h3><table class='ctbl'><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak Season</th></tr></thead><tbody><tr><td class='it'>Wingtat Hotel <small>(asas pakej)</small></td><td class='add'>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>Seafest Boutique</td><td class='add'>&mdash;</td><td>RM30/pax/malam</td></tr><tr><td class='it'>Seafest Lepa Wing &mdash; Sea View</td><td class='add'>RM30/pax/malam</td><td>RM30/pax/malam</td></tr><tr><td class='it'>Seafest Hotel</td><td class='add'>RM30/pax/malam</td><td>RM30/pax/malam</td></tr><tr><td class='it'>Seafest Hotel &mdash; Sea View</td><td class='add'>RM50/pax/malam</td><td>RM50/pax/malam</td></tr></tbody></table></div><div class='custblk'><h3>Naik Taraf Penginapan &mdash; Water Chalet / Resort</h3><table class='ctbl'><thead><tr><th>Akomodasi</th><th>Upgrade (tambahan)</th><th>Peak Season</th></tr></thead><tbody><tr><td class='it'>1&#9733; Lato Lato Water Chalet <small>(asas pakej)</small></td><td class='add'>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>1&#9733; Nusakuya Resort &middot; Blue Ocean Resort</td><td class='add'>&mdash;</td><td>RM60/pax/malam</td></tr><tr><td class='it'>1&#9733; Maglami-Lami Water House &middot; Aminah Holiday Resort &middot; Starz Water Villa Standard</td><td class='add'>RM150/pax/malam</td><td>RM60/pax/malam</td></tr><tr><td class='it'>2&#9733; Danglai Resort &middot; Dayang Resort</td><td class='add'>RM450/pax/malam</td><td>RM65/pax/malam</td></tr><tr><td class='it'>2&#9733; Royal Resort Standard Suite</td><td class='add'>RM600/pax/malam</td><td>RM100/pax/malam (Basic) &middot; RM80/pax/malam (Standard)</td></tr><tr><td class='it'>3&#9733; Sipadan Kapalai Standard</td><td class='add'>RM2,050/pax/malam</td><td>RM85/pax/malam</td></tr><tr><td class='it'>3&#9733; Sipadan Water Village (Sea View)</td><td class='add'>RM1,350/pax/malam</td><td>RM85/pax/malam</td></tr></tbody></table><p class='ssub'>1&#9733; &amp; 2&#9733; resort: island hopping di Pulau Bum-Bum. 3&#9733; resort water chalet: island hopping di Pulau Mabul. Kadar upgrade v4 <b>berbeza daripada v3</b> (dahulu RM100 / RM280 / RM480 / RM850 / RM1,250) &mdash; guna v4.</p></div>",

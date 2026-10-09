@@ -7,7 +7,15 @@
     "code": "DLMNHCM",
     "package": "ibrahim-5d4n"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "hcm-dalat-muine"
+   },
+   {
+    "catalog": "ho-chi-minh"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -68,22 +76,6 @@
     "emoji": "🌸",
     "img": "@asset:1dd9ed5b99d4",
     "intro": "Pakej lengkap 5 hari 4 malam menggabungkan tiga wajah Vietnam Selatan: hiruk-pikuk bandar Ho Chi Minh, kesejukan tanah tinggi Dalat (Taman Bunga, Datanla), dan padang pasir Mui Ne — ditambah tur sehari penuh Mekong Delta. Sesuai untuk keluarga & pasangan yang mahu pengalaman pelbagai dalam satu trip. Guide Melayu/English, tipping & fullboard halal termasuk.",
-    "inc": [
-     "4 malam hotel 3★ (Dalat + HCM)",
-     "Pengangkutan peribadi sepanjang trip",
-     "Yuran masuk ikut itinerari (Mongo Land, Flower Park, Datanla, Railway Station, Mekong)",
-     "Fullboard 4B / 4L / 4D (restoran halal)",
-     "Driving/Tour Guide Melayu/English",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Aktiviti JEEP & ATV @ Sand Dunes (optional)",
-     "Tur & makanan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Long drive: HCM-Dalat 6-8 jam, Dalat-Mui Ne 5 jam, Mui Ne-HCM 3 jam. Tiba HCM sebelum 12 tengah hari (Hari 1); berlepas 3pm & sebelum (Hari 5). Single supplement +RM320/pax."
    },
    {
@@ -93,137 +85,12 @@
     "emoji": "🛍️",
     "img": "@asset:4856c0db5bc5",
     "intro": "Pakej padat 4 hari 3 malam fokus di Ho Chi Minh — surga shopping borong (baju kurung, tudung, telekung, kasut, beg), tur Mekong Delta, dan Chu Chi Tunnel bersejarah. Pilihan lebih jimat & santai tanpa long drive ke Dalat. Sesuai untuk yang mahu shopping puas + sejarah dalam masa singkat.",
-    "inc": [
-     "3 malam hotel 3★ (Ho Chi Minh)",
-     "Pengangkutan peribadi",
-     "Yuran masuk (ikut itinerari)",
-     "Fullboard 3B / 3L / 3D (restoran halal)",
-     "Driving Guide Melayu/English",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Tur & makanan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Tiba HCM sebelum 12 tengah hari (Hari 1); berlepas 2pm onwards (Hari 4). Single supplement dipetik atas permintaan (lebih kurang +RM240/pax)."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan SGN → Transfer ke Dalat",
-     "m": "L / D",
-     "a": [
-      "Tiba Tan Son Nhat International Airport (SGN), HCM",
-      "Land transfer ke Dalat (6-8 jam pemanduan)",
-      "Check-in hotel Dalat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Dalat Fullday Tour",
-     "m": "B / L / D",
-     "a": [
-      "Mongo Land (Rainbow Slide included)",
-      "Flower Park (taman bunga terbesar di Dalat)",
-      "Mei Linh Coffee Garden (rasa kopi ladang segar)",
-      "Shopping Amee Wholesale (pasar fesyen)",
-      "Datanla Waterfall (roller coaster/alpine coaster included)",
-      "Railway Station (laluan kereta api bersejarah)",
-      "Free & easy"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Mui Ne Fullday → Transfer HCM",
-     "m": "B / L / D",
-     "a": [
-      "Land transfer ke Mui Ne (5 jam)",
-      "White Sand Dunes (satu-satunya padang pasir di Asia Tenggara)",
-      "Red Sand Dunes (JEEP & ATV optional)",
-      "Fishing Village (pantai & perahu nelayan)",
-      "Land transfer ke HCM (3 jam)",
-      "Singgah Gudang Shopping (telekung, tudung)",
-      "Check-in hotel HCM, Free & easy Malaysia Street & Ben Thanh Market"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Mekong River Fullday Tour",
-     "m": "B / L / D",
-     "a": [
-      "Mekong Tour: Delta Sungai Tien (Pulau Dragon, Unicorn, Tortoise, Phoenix)",
-      "Honey Bee-farm (teh madu lemon)",
-      "Coconut candy workshop",
-      "Naik pedati kuda (horse-cart)",
-      "Soai Kinh Lam Fabric Market (pasar kain terbesar)",
-      "Free & easy — street night market"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "HCM → Pulang KL",
-     "m": "B",
-     "a": [
-      "Free & easy — Shopping Ben Thanh Market",
-      "Transfer ke Tan Son Nhat International Airport (SGN)",
-      "Berlepas 3pm & sebelum"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan HCM — Shopping Tour",
-     "m": "L / D",
-     "a": [
-      "Tiba Tan Son Nhat International Airport (SGN)",
-      "Wholesale Shopping Tour — baju kurung, tudung, telekung, kasut & beg",
-      "Free & easy — street night market"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Mekong River — Shopping/Food Tour",
-     "m": "B / L / D",
-     "a": [
-      "Mekong Tour: Delta Sungai Tien (Pulau Dragon, Unicorn, Tortoise, Phoenix)",
-      "Honey Bee-farm (teh madu lemon)",
-      "Coconut candy workshop",
-      "Naik pedati kuda (horse-cart)",
-      "Lawat/solat @ Masjid My Tho",
-      "Wholesale market (Dainy/Sarah)",
-      "Free & easy — street night market"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Chu Chi Tunnel — City — Shopping",
-     "m": "B / L / D",
-     "a": [
-      "Chu Chi Tunnel Tour (terowong bawah tanah zaman Perang Vietnam)",
-      "Lawat/solat @ Masjid Jamia Al Muslimin",
-      "War Remnants Museum",
-      "Central Post Office (pejabat pos terbesar Vietnam)",
-      "Notre Dame Cathedral & Opera House (foto luar)",
-      "Shopping — Taka Plaza, Saigon Square"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Shopping Tour → Departure",
-     "m": "B",
-     "a": [
-      "Shopping Ben Thanh Market",
-      "Transfer ke Tan Son Nhat International Airport (SGN)",
-      "Berlepas 2pm onwards"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -467,7 +334,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar katalog per pax (2&#8211;3 orang sebilik), MYR &mdash; <b>ground &amp; tipping sahaja, tidak termasuk flight</b>. Umur ikut <b>tarikh perjalanan</b>. Infant (bawah 2 tahun): FOC. Sah untuk travel hingga <b>31 Dis 2026</b>.</p><div class='custblk'><h3>PT HCM-Dalat-Mui Ne 5H4M (3&#9733; Fullboard)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 2,077</td><td>RM 1,877</td><td>RM 1,677</td></tr><tr><td class='it'>3&#8211;4</td><td class='add'>RM 1,777</td><td>RM 1,677</td><td>RM 1,477</td></tr><tr><td class='it'>5&#8211;6</td><td class='add'>RM 1,677</td><td>RM 1,477</td><td>RM 1,277</td></tr><tr><td class='it'>7&#8211;8</td><td class='add'>RM 1,477</td><td>RM 1,277</td><td>RM 1,077</td></tr><tr><td class='it'>9&#8211;15</td><td class='add'>RM 1,377</td><td>RM 1,177</td><td>RM 977</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT HCM-DALAT-MUINE 5D4N 2026 V2 (11 Mac 2026). Single supplement +RM320/pax. Deposit RM250/pax; full payment 45 hari sebelum berlepas. Perhatikan tier <b>3&#8211;4 pax</b>: gap CWB/CNB berbeza (&minus;RM100/&minus;RM300) berbanding tier lain (&minus;RM200/&minus;RM400) &mdash; ikut katalog, bukan silap taip.</p></div><div class='custblk'><h3>PT HCM 4H3M Shopping Tour (3&#9733; Fullboard, HCM sahaja)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (9 thn+)</th><th>Child With Bed (6&#8211;8)</th><th>Child No Bed (2&#8211;5)</th></tr></thead><tbody><tr><td class='it'>2&#8211;4</td><td class='add'>RM 1,377</td><td>RM 1,177</td><td>RM 997</td></tr><tr><td class='it'>5&#8211;7</td><td class='add'>RM 1,277</td><td>RM 1,097</td><td>RM 897</td></tr><tr><td class='it'>8&#8211;15</td><td class='add'>RM 1,177</td><td>RM 977</td><td>RM 777</td></tr></tbody></table><p class='custnote'>Sumber: katalog PT HCM 4D3N 2026 (3 Star, FB) &mdash; 8 Dis 2025. Kandungan: Shopping Tour + Mekong River + Chu Chi Tunnel, <b>HCM sahaja</b> (tiada Dalat / Mui Ne). Single supplement RM240/pax (rate card ARBA).</p></div><div class='custblk'><h3>Dua perkara yang TC kerap silap</h3><ul class='klist'><li><b>Group 16+ pax:</b> katalog berhenti pada tier <b>9&#8211;15 pax</b>. Untuk 16 pax dan ke atas, minta <b>quote khas dari operator</b> &mdash; jangan extrapolasi sendiri dari tier 9&#8211;15.</li><li><b>Tiada pakej &quot;4H3M HCM-Dalat-Mui Ne&quot;.</b> Varian 4H3M yang dijual ialah <b>HCM shopping tour</b> (jadual kedua di atas). Kalau customer mahu Dalat + Mui Ne, itu pakej <b>5H4M</b> &mdash; land transfer SGN&#8594;Dalat sahaja sudah 6&#8211;8 jam, tidak padat dalam 4 hari.</li></ul></div>",
+   "pricing": "<div class='custblk'><h3>Dua perkara yang TC kerap silap</h3><ul class='klist'><li><b>Group 16+ pax:</b> katalog berhenti pada tier <b>9&#8211;15 pax</b>. Untuk 16 pax dan ke atas, minta <b>quote khas dari operator</b> &mdash; jangan extrapolasi sendiri dari tier 9&#8211;15.</li><li><b>Tiada pakej &quot;4H3M HCM-Dalat-Mui Ne&quot;.</b> Varian 4H3M yang dijual ialah <b>HCM shopping tour</b> (jadual kedua di atas). Kalau customer mahu Dalat + Mui Ne, itu pakej <b>5H4M</b> &mdash; land transfer SGN&#8594;Dalat sahaja sudah 6&#8211;8 jam, tidak padat dalam 4 hari.</li></ul></div>",
    "custom": "<h2>Simple Customisation (Add-Ons)</h2><p class='ssub'>Rate Card Operasi HCM / HCM &ndash; Dalat &ndash; Mui Ne. Harga jualan MYR. Kadar <span class='add'>hijau</span> = tambah, <span class='ded'>merah</span> = tolak. Sahkan availability dengan operator sebelum confirm.</p><div class='custblk'><h3>Transport + Driver &mdash; HCM Full Day Tour (8 jam)</h3><table class='ctbl'><thead><tr><th>Jenis Transport</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Sedan</td><td>2&ndash;4 pax</td><td class='add'>RM 300 / transport</td><td class='ded'>RM 150 / transport</td></tr><tr><td>Van</td><td>5&ndash;13 pax</td><td class='add'>RM 380 / transport</td><td class='ded'>RM 190 / transport</td></tr><tr><td>Bus</td><td>14 pax ke atas</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 230 / transport</td></tr></tbody></table></div><div class='custblk'><h3>Transport + Driver &mdash; Airport Transfer</h3><table class='ctbl'><thead><tr><th>Jenis Transport</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td>Sedan</td><td>2&ndash;4 pax</td><td class='add'>RM 300 / transport</td><td class='ded'>RM 150 / transport</td></tr><tr><td>Van</td><td>5&ndash;13 pax</td><td class='add'>RM 380 / transport</td><td class='ded'>RM 190 / transport</td></tr><tr><td>Bus</td><td>14 pax ke atas</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 230 / transport</td></tr></tbody></table></div><div class='custblk'><h3>Accommodation</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td>Upgrade 3&#9733; &rarr; 4&#9733;</td><td>RM 160 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'>Nesta Hotel, Gem Ben Thanh atau setara</td></tr><tr><td>Upgrade 3&#9733; &rarr; 5&#9733;</td><td>RM 350 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'></td></tr><tr><td>Hotel 3&#9733; (atau setara)</td><td>RM 120 / pax / malam</td><td class='add'>RM 50 / pax / malam</td><td class='ded'>Tiada kadar peak berasingan</td></tr><tr><td>Hotel 4&#9733; (atau setara)</td><td>RM 240 / pax / malam</td><td class='add'>RM 120 / pax / malam</td><td class='ded'>Tiada kadar peak berasingan</td></tr><tr><td>Hotel 5&#9733; (atau setara)</td><td>RM 320 / pax / malam</td><td class='add'>&mdash;</td><td class='ded'></td></tr><tr><td>Single Supplement</td><td>RM 80 / malam / pax</td><td class='add'>&mdash;</td><td class='ded'>5D4N = RM 320 &middot; 4D3N = RM 240 (padan katalog)</td></tr></tbody></table></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th><th>Nota</th></tr></thead><tbody><tr><td>Breakfast</td><td>Cadangan makan di hotel</td><td class='add'>&mdash;</td><td class='ded'>Sudah termasuk dalam pakej</td></tr><tr><td>Lunch</td><td>RM 30</td><td class='add'>RM 20</td><td class='ded'>per pax / meal</td></tr><tr><td>Dinner</td><td>RM 30</td><td class='add'>RM 20</td><td class='ded'>per pax / meal</td></tr></tbody></table></div><div class='custblk'><h3>Add-On Activities</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga jual</th><th>Nota</th></tr></thead><tbody><tr><td>Cyclo Tour HCM</td><td class='add'>RM 97 / pax</td><td>1 jam</td></tr><tr><td>Saigon River Cruise HCM</td><td class='add'>RM 107 / pax</td><td>1&ndash;1.5 jam</td></tr><tr><td>JEEP @ White Sand Dune Mui Ne</td><td class='add'>RM 200 / jeep</td><td>max 6 pax &middot; <b>FREE waktu MATTA Fair</b></td></tr><tr><td>ATV @ White Sand Dune Mui Ne</td><td class='add'>RM 180 / ATV</td><td>max 2 pax</td></tr><tr><td>Dalat Alpine Coaster</td><td class='add'>RM 50 / pax</td><td>Datanla Waterfall</td></tr><tr><td>Day Tour Chu Chi</td><td class='add'>RM 300 / 200 / 150 / 100 per pax</td><td>2 pax: 300 &middot; 3&ndash;5 pax: 200 &middot; 6&ndash;8 pax: 150 &middot; 9 pax ke atas: 100<br>Termasuk private transport, lunch, Muslim TG, entrance fees<br>Itinerari: Chu Chi Tunnel &middot; lunch &middot; Post Office &middot; Notre Dame &middot; Book Street</td></tr><tr><td>Day Tour Mekong River</td><td class='ded'>kadar belum diisi</td><td>Rate card belum letak harga &mdash; minta kadar dari operator sebelum quote</td></tr></tbody></table></div><div class='custblk'><h3>Wifi, Takaful &amp; Luggage Tracker</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td>Pocket Wifi Vietnam (4D3N)</td><td class='add'>RM 80</td><td>per trip (RoamingMan 3GB/hari)</td></tr><tr><td>Pocket Wifi Vietnam (5D4N)</td><td class='add'>RM 175</td><td>per trip</td></tr><tr><td>TripCare 360 Individual (1&ndash;5 hari)</td><td class='add'>RM 45</td><td>Etiqa Area 1 (ASEAN)</td></tr><tr><td>TripCare 360 Couple (1&ndash;5 hari)</td><td class='add'>RM 79</td><td>Etiqa Area 1</td></tr><tr><td>TripCare 360 Family (1&ndash;5 hari)</td><td class='add'>RM 100</td><td>Etiqa Area 1</td></tr><tr><td>Blue Ribbon Luggage Tracker</td><td class='add'>RM 20&ndash;70</td><td>Silver RM20 &middot; Gold RM40 &middot; Platinum RM55 &middot; Diamond RM70</td></tr></tbody></table></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tidak boleh booking. <b>Check availability</b> dengan operator untuk Raya Aidilfitri, Raya Haji, New Year dan Christmas.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT HCM - Dalat - Mui Ne 5D4N (3-Star Fullboard)</option><option value='1'>PT HCM 4D3N Shopping Tour (3-Star Fullboard, HCM sahaja)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-8)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog kedua-dua varian)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>RM 80 per malam per pax (Rate Card Operasi) &mdash; 5D4N = RM 320, 4D3N = RM 240, padan katalog. Melaras sendiri bila hari ditambah atau dibuang.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge &amp; Polisi Harga</h2><p class='ssub'>Semua angka ikut <b>katalog</b> masing-masing (5H4M: 11 Mac 2026 &middot; 4H3M: 8 Dis 2025). Perhatikan surcharge <b>berbeza</b> antara dua varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>5H4M (HCM-Dalat-Mui Ne)</th><th>4H3M (HCM sahaja)</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Hotel upgrade 3&#9733; &rarr; 4&#9733;</td><td class='add'>+RM 160/pax/malam</td><td class='add'>+RM 130/pax/malam</td><td>5H4M: 4 malam &middot; 4H3M: 3 malam</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 320/pax</td><td class='add'>+RM 240/pax</td><td>5H4M dari katalog &middot; 4H3M dari rate card ARBA</td></tr><tr><td class='it'>Travel Date 2027 (Jan &ndash; Feb)</td><td class='add'>+RM 120/pax</td><td class='add'>+RM 120/pax</td><td>Add-on travel date, kedua-dua varian</td></tr><tr><td class='it'>Peak season (per malam)</td><td>Tiada</td><td>Tiada</td><td>Tiada caj peak per malam untuk produk ini</td></tr><tr><td class='it'>Late Booking (&lt;45 hari)</td><td class='add'>+RM 50/booking</td><td class='add'>+RM 50/booking</td><td>Per booking, bukan per pax</td></tr><tr><td class='it'>Last Minute (&lt;3 minggu)</td><td class='add'>2 pax: +RM 400/pax<br>3 pax&#43;: +RM 300/pax</td><td class='add'>2 pax: +RM 300/pax<br>3 pax&#43;: +RM 200/pax</td><td>Kadar 4H3M lebih rendah &mdash; jangan guna kadar 5H4M</td></tr><tr><td class='it'>Blockout &mdash; CNY 2026</td><td class='ded'>16&#8211;22 Feb 2026</td><td class='ded'>16&#8211;22 Feb 2026</td><td>Tidak boleh booking</td></tr><tr><td class='it'>Blockout &mdash; CNY 2027</td><td class='ded'>17&#8211;18 Feb 2027</td><td class='ded'>17&#8211;18 Feb 2027</td><td>Tidak boleh booking</td></tr></tbody></table></div><div class='custblk'><h3>Check availability dahulu</h3><p style='margin:0;font-size:13px;line-height:1.7'>Tarikh berikut <strong>wajib semak availability</strong> dengan operator sebelum quote: <strong>Chinese New Year</strong> &middot; <strong>Raya Aidilfitri &amp; Raya Haji</strong> &middot; <strong>New Year</strong> &middot; <strong>Christmas Holiday</strong>. Waktu CNY banyak kedai tutup, tetapi tempat pelancongan buka seperti biasa.</p></div><details class='qa' data-text='polisi harga lain yang perlu disebut awal semua harga sah 24 jam selepas quotation dihantar. itinerari, flight, harga &amp; quotation tertakluk kepada perubahan. itinerari &amp; hotel muktamad 14 hari sebelum trip. aktiviti percuma tidak boleh ditukar dengan aktiviti lain, voucher atau tunai jika customer tidak join, atau kerana availability / cuaca. meals sudah termasuk — tiada refund jika customer pilih untuk tidak makan. semak validity trip dengan staff sebelum booking connecting flight domestik.'><summary><span class='tw'>&#9654;</span><span>Polisi harga lain yang perlu disebut awal</span></summary><div class='ans'><ul><li>Semua harga sah <strong>24 jam</strong> selepas quotation dihantar.</li><li>Itinerari, flight, harga &amp; quotation tertakluk kepada perubahan.</li><li>Itinerari &amp; hotel muktamad <strong>14 hari</strong> sebelum trip.</li><li>Aktiviti percuma <strong>tidak boleh ditukar</strong> dengan aktiviti lain, voucher atau tunai jika customer tidak join, atau kerana availability / cuaca.</li><li>Meals sudah termasuk &mdash; <strong>tiada refund</strong> jika customer pilih untuk tidak makan.</li><li>Semak validity trip dengan staff sebelum booking connecting flight domestik.</li></ul></div></details>",

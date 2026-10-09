@@ -620,6 +620,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(t.includes(a0.n) && t.includes("Muslim-friendly") && g.querySelectorAll(".kb-attr").length >= kb0.content.attractions.length, "Info KB (HND → jepun KB): attractions with Muslim-friendly info");
     ok(g.querySelectorAll("#kb-faq details.kb-faq").length > 3 && g.querySelectorAll("#kb-blocks details").length > 3, "Info KB: FAQ sections and KB tab blocks (transport, flight, free gift …)");
     ok(!g.querySelector('[data-kbtext] img[src^="@asset"]') && !g.innerHTML.includes("@asset:"), "no unresolved KB image tokens in the hub page");
+    ok(await until(() => doc.querySelector("#kb-linked") && doc.querySelector("#kb-linked").textContent.includes("tokyo-standard") && doc.querySelector("#kb-linked .cd-itin")), "Info KB: price, itinerary and includes / excludes come from the catalogs (Costing + Itinerary tabs), read-only");
+    ok(!kb0.content.packages.some((p, i) => kb0.map.packages[i] && ("inc" in p || "exc" in p)) && kb0.content.itineraries.every((x, i) => !kb0.map.packages[i] || x === null), "the KB file keeps no copy of a linked package's itinerary / includes / excludes");
     const q = doc.querySelector("#kbq"); q.value = "halal"; q.dispatchEvent(new w.Event("input", { bubbles: true })); await tick(5);
     const items = [...g.querySelectorAll("[data-kbtext]")];
     ok(items.some(x => x.style.display === "none") && items.some(x => x.style.display !== "none"), "Info KB search filters the attractions / FAQ");

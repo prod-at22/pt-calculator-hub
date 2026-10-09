@@ -11,7 +11,15 @@
     "code": "JBDO",
     "package": "ctrans"
    }
-  }
+  },
+  "packages": [
+   {
+    "catalog": "jakarta-bandung"
+   },
+   {
+    "catalog": "jakarta-bandung"
+   }
+  ]
  },
  "content": {
   "meta": {
@@ -67,22 +75,6 @@
     "img": "",
     "sub": "Nature & adventure - Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan",
     "intro": "Routing Option A menumpukan alam dan adventure pada Hari 2: Kawah Putih di Ciwidey, Glamping Lakeside Rancabali, serta Rengganis Bridge dan Keranjang Sultan dengan chairlift disertakan, diakhiri shopping di Cibaduyut, Toko Tiga Jeans Factory dan Jalan Asia Afrika. Hari 1, 3 dan 4 sama seperti Option B. Sesuai untuk dewasa, pencinta alam dan peminat fotografi - jangkakan banyak berjalan kaki.",
-    "inc": [
-     "Akomodasi hotel 3 bintang (3 malam, Bandung)",
-     "Pengangkutan persendirian sepanjang tour",
-     "Driving guide (bertutur Melayu/Inggeris)",
-     "Makan penuh: 3x sarapan, 3x makan tengah hari, 3x makan malam",
-     "Tiket Whoosh Train sehala Jakarta ke Bandung (Economy Seat)",
-     "Tiket masuk: Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan (Option A); Orchid Forest, Lembang Park & Zoo (Option B); Lodge Maribaya, Floating Market, Farm House",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket penerbangan antarabangsa",
-     "Makanan atas kapal terbang (in-flight meal)",
-     "Tour dan makanan tambahan di luar itinerari",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Deposit RM 250 per orang semasa pengesahan; bayaran penuh 45 hari sebelum ketibaan. Single Supplement RM 350 per orang. Harga asas 2 hingga 3 orang sebilik. Late booking surcharge RM 50 per booking jika tempahan kurang 45 hari sebelum berlepas. Sah untuk tempoh perjalanan sehingga 31 Disember 2026."
    },
    {
@@ -91,125 +83,12 @@
     "img": "",
     "sub": "Kids friendly - Kopi Luwak Cikole, Orchid Forest, Lembang Park & Zoo",
     "intro": "Routing Option B lebih santai dan kids friendly pada Hari 2: Kopi Luwak Cikole, Orchid Forest Cikole dan Lembang Park & Zoo, diakhiri shopping di Toko Tiga Jeans Factory dan Jalan Asia Afrika. Hari 1, 3 dan 4 sama seperti Option A, pada harga yang sama. Sesuai untuk keluarga dengan anak kecil dan warga emas - kurang berjalan kaki berbanding Option A.",
-    "inc": [
-     "Akomodasi hotel 3 bintang (3 malam, Bandung)",
-     "Pengangkutan persendirian sepanjang tour",
-     "Driving guide (bertutur Melayu/Inggeris)",
-     "Makan penuh: 3x sarapan, 3x makan tengah hari, 3x makan malam",
-     "Tiket Whoosh Train sehala Jakarta ke Bandung (Economy Seat)",
-     "Tiket masuk: Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan (Option A); Orchid Forest, Lembang Park & Zoo (Option B); Lodge Maribaya, Floating Market, Farm House",
-     "Tipping fee"
-    ],
-    "exc": [
-     "Tiket penerbangan antarabangsa",
-     "Makanan atas kapal terbang (in-flight meal)",
-     "Tour dan makanan tambahan di luar itinerari",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Deposit RM 250 per orang semasa pengesahan; bayaran penuh 45 hari sebelum ketibaan. Single Supplement RM 350 per orang. Harga asas 2 hingga 3 orang sebilik. Late booking surcharge RM 50 per booking jika tempahan kurang 45 hari sebelum berlepas. Sah untuk tempoh perjalanan sehingga 31 Disember 2026."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Jakarta - Whoosh Train - Shopping Tour Bandung",
-     "m": "Lunch / Dinner",
-     "a": [
-      "Airport pickup di Soekarno-Hatta International Airport (CGK). Waktu ketibaan disyorkan 12 tengah hari atau lebih awal",
-      "Whoosh Train Jakarta ke Bandung (Economy Seat) - perjalanan 40-45 minit",
-      "Rumah Kain Sulam M Collection",
-      "Rumah Textile",
-      "Check-in hotel 3 bintang, Bandung"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Option A - Kawah Putih, Glamping Lakeside & Rengganis Bridge",
-     "m": "Breakfast / Lunch / Dinner",
-     "a": [
-      "Kawah Putih - tasik kawah gunung berapi, 50km dari Bandung",
-      "Glamping Lakeside Rancabali",
-      "Rengganis Bridge & Keranjang Sultan (chairlift disertakan)",
-      "Kedai Barang Kulit Cibaduyut",
-      "Toko Tiga Jeans Factory",
-      "Jalan Asia Afrika"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Lembang - Sightseeing, Shopping & Food Tour",
-     "m": "Breakfast / Lunch / Dinner",
-     "a": [
-      "The Lodge Maribaya",
-      "Floating Market Lembang",
-      "Farm House Lembang",
-      "Rumah Mode",
-      "Ole Ole Tiga Rasa"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Bandung - Jakarta City Tour - Berlepas",
-     "m": "Breakfast",
-     "a": [
-      "Ole Ole Kartika Sari",
-      "Land transfer Bandung ke Jakarta (kira-kira 3 jam)",
-      "Optional tour tertakluk waktu penerbangan balik: Monumen Nasional (Monas), Masjid Istiqlal Jakarta, Mangga Dua / Tanah Abang",
-      "Airport drop di Soekarno-Hatta International Airport (CGK)"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Jakarta - Whoosh Train - Shopping Tour Bandung",
-     "m": "Lunch / Dinner",
-     "a": [
-      "Airport pickup di Soekarno-Hatta International Airport (CGK). Waktu ketibaan disyorkan 12 tengah hari atau lebih awal",
-      "Whoosh Train Jakarta ke Bandung (Economy Seat) - perjalanan 40-45 minit",
-      "Rumah Kain Sulam M Collection",
-      "Rumah Textile",
-      "Check-in hotel 3 bintang, Bandung"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Option B - Kopi Luwak Cikole, Orchid Forest & Lembang Park Zoo",
-     "m": "Breakfast / Lunch / Dinner",
-     "a": [
-      "Kopi Luwak Cikole",
-      "Orchid Forest Cikole",
-      "Lembang Park & Zoo",
-      "Toko Tiga Jeans Factory",
-      "Jalan Asia Afrika"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Lembang - Sightseeing, Shopping & Food Tour",
-     "m": "Breakfast / Lunch / Dinner",
-     "a": [
-      "The Lodge Maribaya",
-      "Floating Market Lembang",
-      "Farm House Lembang",
-      "Rumah Mode",
-      "Ole Ole Tiga Rasa"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Bandung - Jakarta City Tour - Berlepas",
-     "m": "Breakfast",
-     "a": [
-      "Ole Ole Kartika Sari",
-      "Land transfer Bandung ke Jakarta (kira-kira 3 jam)",
-      "Optional tour tertakluk waktu penerbangan balik: Monumen Nasional (Monas), Masjid Istiqlal Jakarta, Mangga Dua / Tanah Abang",
-      "Airport drop di Soekarno-Hatta International Airport (CGK)"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -441,7 +320,7 @@
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2>\n<p class='ssub'>Satu pakej 4H3M, dua pilihan routing Hari 2 pada harga yang sama - pilih semasa tempahan.</p>\n<table class='cmp'><thead><tr><th class='blank'></th>\n<th>OPTION A &middot; NATURE &amp; ADVENTURE</th><th>OPTION B &middot; KIDS FRIENDLY</th></tr></thead><tbody>\n<tr><td class='feat'>Kawah Putih</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Glamping Lakeside Rancabali</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Rengganis Bridge &amp; Keranjang Sultan (chairlift)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Kopi Luwak Cikole</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Orchid Forest Cikole</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Lembang Park &amp; Zoo</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Kedai Barang Kulit Cibaduyut</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Toko Tiga Jeans Factory &amp; Jalan Asia Afrika</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Hari 1, 3 dan 4 (Whoosh, Lembang, Jakarta tour)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Jumlah berjalan kaki</td><td class='val'>Banyak</td><td class='val'>Sederhana</td></tr>\n<tr><td class='feat'>Harga dewasa (2-3 pax)</td><td class='val'>RM 1,487</td><td class='val'>RM 1,487</td></tr>\n<tr><td class='feat'>Sesuai untuk</td><td class='val'>Dewasa, pencinta alam, peminat fotografi</td><td class='val'>Keluarga dengan anak kecil, warga emas</td></tr>\n</tbody></table>",
    "map": "<h2>Travel Map</h2>\n<p class='ssub'>Peta laluan rasmi pakej - Option A dan Option B dalam satu peta.</p>\n<div class='mapcard'><div class='mt'>PT Jakarta-Bandung 4H3M &middot; Route Map</div>\n<img src=\"@asset:d6a5004839a1\" alt=\"Peta laluan PT Jakarta-Bandung 4H3M\">\n<div class='mc'>Laluan: Soekarno-Hatta (CGK) &rarr; Jakarta &rarr; Bandung melalui Whoosh Train (40 minit) &rarr; Kawah Putih (2 jam dari Bandung) &rarr; Maribaya (1 jam) &rarr; land transfer Bandung ke Jakarta (3 jam) &rarr; CGK. Hotel bermalam di Bandung untuk ketiga-tiga malam.</div></div>",
-   "pricing": "<h2>Harga &amp; Pakej</h2>\n<p class='ssub'>Kadar katalog (Ground + Tipping) - per pax, asas 2 hingga 3 orang sebilik. <b>Tidak termasuk tiket penerbangan antarabangsa.</b> Sah untuk tempoh perjalanan sehingga 31 Disember 2026.</p>\n<div class='custblk'><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Dewasa</th><th>Kanak-kanak dengan katil (6-10 tahun)</th><th>Kanak-kanak tanpa katil (2-5 tahun)</th></tr></thead><tbody>\n<tr><td>2 - 3</td><td>RM 1,487</td><td>RM 1,387</td><td>RM 1,187</td></tr><tr><td>4 - 5</td><td>RM 1,227</td><td>RM 1,127</td><td>RM 927</td></tr><tr><td>6 - 9</td><td>RM 1,187</td><td>RM 1,087</td><td>RM 887</td></tr><tr><td>10 - 19</td><td>RM 1,147</td><td>RM 1,047</td><td>RM 847</td></tr>\n</tbody></table></div>\n<div class='notebox'><b>Infant (bawah 2 tahun):</b> FOC. <b>Single Supplement:</b> RM 350 per orang. Harga adalah untuk 2 hingga 3 orang sebilik; untuk triple sharing hanya extra bed disediakan. Semua harga sah 24 jam selepas quotation dikeluarkan.</div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation &amp; Add-on</h2>\n<p class='ssub'>Kadar operasi rasmi (Rate Card Bandung) + add-on katalog. Lajur <b class='add'>Harga Tambahan</b> ialah kos yang ditambah ke quotation; lajur <b class='ded'>Harga Tolak</b> ialah jumlah yang ditolak bila item itu dibuang dari pakej. Harga boleh berubah mengikut kadar tukaran semasa.</p>\n\n<div class='custblk'><h3>Transport + Driver</h3><table class='ctbl'><thead><tr><th>Jenis tour</th><th>Kenderaan</th><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody>\n<tr><td class='it'>Bandung Tour (full day)</td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 260 / transport</td><td class='ded'>RM 100 / transport</td></tr>\n<tr><td class='it'>Bandung Tour (full day)</td><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 300 / transport</td><td class='ded'>RM 150 / transport</td></tr>\n<tr><td class='it'>Bandung Tour (full day)</td><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 400 / transport</td><td class='ded'>RM 200 / transport</td></tr>\n<tr><td class='it'>Jakarta Tour (full day)</td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 320 / transport</td><td class='ded'>RM 100 / transport</td></tr>\n<tr><td class='it'>Jakarta Tour (full day)</td><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 400 / transport</td><td class='ded'>RM 150 / transport</td></tr>\n<tr><td class='it'>Jakarta Tour (full day)</td><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 520 / transport</td><td class='ded'>RM 200 / transport</td></tr>\n<tr><td class='it'>Transfer to Jakarta / Bandung</td><td>Avanza / APV</td><td>2 - 4 pax</td><td class='add'>RM 400 / transport</td><td class='ded'>RM 150 / transport</td></tr>\n<tr><td class='it'>Transfer to Jakarta / Bandung</td><td>Innova</td><td>5 - 6 pax</td><td class='add'>RM 450 / transport</td><td class='ded'>RM 150 / transport</td></tr>\n<tr><td class='it'>Transfer to Jakarta / Bandung</td><td>Hiace</td><td>7 - 12 pax</td><td class='add'>RM 550 / transport</td><td class='ded'>RM 150 / transport</td></tr>\n<tr><td class='it'>Upgrade transport Innova ke Hiace</td><td>Hiace</td><td>-</td><td class='add'>RM 100 / pax</td><td>-</td></tr>\n</tbody></table></div>\n<div class='notebox'><b>Pindah bandar:</b> untuk transfer Jakarta ke Bandung atau Bandung ke Jakarta, perlu tambah <b>Full day tour + Transfer to Jakarta/Bandung</b> - dua baris, bukan satu. Contoh Avanza: RM 260 (Bandung Tour) + RM 400 (Transfer) = RM 660. <b>Harga per transport</b>, bukan per pax - satu kenderaan dikongsi seluruh group.</div>\n\n<div class='custblk'><h3>Accommodation - malam tambahan &amp; tolak</h3><table class='ctbl'><thead><tr><th>Bandar / kelas hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th></tr></thead><tbody>\n<tr><td class='it'>Bandung - 3 bintang (Zest, Fave atau setaraf)</td><td class='add'>RM 90 / pax / malam</td><td class='ded'>RM 50 / pax / malam</td></tr>\n<tr><td class='it'>Bandung - 4 bintang (ASTON, Mercure atau setaraf)</td><td class='add'>RM 150 / pax / malam</td><td class='ded'>RM 100 / pax / malam</td></tr>\n<tr><td class='it'>Jakarta - 3 bintang (Holiday Inn Matraman atau setaraf)</td><td class='add'>RM 110 / pax / malam</td><td class='ded'>RM 50 / pax / malam</td></tr>\n<tr><td class='it'>Jakarta - 4 bintang (Millenium Sirih atau setaraf)</td><td class='add'>RM 200 / pax / malam</td><td class='ded'>RM 100 / pax / malam</td></tr>\n<tr><td class='it'>Upgrade hotel 4 bintang (malam dalam pakej)</td><td class='add'>RM 90 / pax / malam</td><td>-</td></tr>\n<tr><td class='it'>Upgrade bilik Double/Twin ke Family room</td><td class='add'>RM 40 / pax / malam</td><td>-</td></tr>\n<tr><td class='it'>Single Supplement</td><td class='add'>RM 350 / pax</td><td>-</td></tr>\n</tbody></table></div>\n<div class='notebox'><b>Beza dua baris 4 bintang:</b> <i>Upgrade hotel 4 bintang RM 90</i> ialah naik taraf malam yang sudah ada dalam pakej (katalog). <i>Bandung 4 bintang RM 150</i> ialah malam <b>tambahan</b> di luar pakej. Jangan campur kedua-dua untuk malam yang sama. <b>Peak season:</b> rate card tidak menyiarkan kadar malam peak berasingan - malam tambahan guna kadar normal, dan surcaj peak katalog (RM 30 untuk 3 bintang, RM 35 untuk 4 bintang, per pax per malam) dikenakan di atasnya.</div>\n\n<div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th></tr></thead><tbody>\n<tr><td class='it'>Breakfast</td><td>Disarankan makan di hotel sahaja</td><td>-</td></tr>\n<tr><td class='it'>Lunch</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td></tr>\n<tr><td class='it'>Dinner</td><td class='add'>RM 30 / pax</td><td class='ded'>RM 20 / pax</td></tr>\n</tbody></table></div>\n\n<div class='custblk'><h3>Entrance / aktiviti (by request)</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga jual / pax</th><th>Nota</th></tr></thead><tbody>\n<tr><td class='it'>Sea World Ancol (Jakarta)</td><td class='add'>RM 60 &middot; RM 100 (lebaran)</td><td>Weekday dan weekend sama harga</td></tr>\n<tr><td class='it'>Ancol Dreamland Theme Park (Jakarta)</td><td class='add'>RM 60 &middot; RM 100 (lebaran)</td><td>Weekday dan weekend sama harga</td></tr>\n<tr><td class='it'>Trans Studio Bandung</td><td class='add'>RM 65 (weekday) &middot; RM 105 (weekend, lebaran)</td><td>Tiket sahaja - transport hari dikira berasingan</td></tr>\n<tr><td class='it'>Dusun Bambu (Bandung)</td><td class='add'>RM 45 (weekday) &middot; RM 80 (weekend)</td><td>Tiket sahaja</td></tr>\n<tr><td class='it'>Zip Bike @ The Lodge Maribaya</td><td class='add'>RM 10 - RM 15</td><td>Bayar terus di lokasi</td></tr>\n<tr><td class='it'>Rainbow Slide @ Floating Market Lembang</td><td class='add'>RM 10 - RM 15</td><td>Bayar terus di lokasi</td></tr>\n</tbody></table></div>\n\n<div class='custblk'><h3>Add-on train</h3><table class='ctbl'><thead><tr><th>Train / kelas</th><th>Harga jual / pax</th><th>Nota</th></tr></thead><tbody>\n<tr><td class='it'>Whoosh - Economy</td><td class='add'>RM 157 / pax</td><td>Sehala. Termasuk private transfer ke stesen Halim / Padalarang</td></tr>\n<tr><td class='it'>Whoosh - Business Class</td><td class='add'>RM 210 / pax</td><td>Sehala. Termasuk private transfer ke stesen</td></tr>\n<tr><td class='it'>Whoosh - First Class</td><td class='add'>RM 260 / pax</td><td>Sehala. Termasuk private transfer ke stesen</td></tr>\n<tr><td class='it'>Panoramic Train</td><td class='add'>RM 257 / pax</td><td>Termasuk shuttle. Hanya 30 tempat duduk. Jadual setakat ini 5 pagi / 10 malam - train tengah hari tertakluk tarikh</td></tr>\n<tr><td class='it'>Argo Train - Economy Class</td><td class='add'>RM 175 / pax</td><td>Termasuk shuttle</td></tr>\n<tr><td class='it'>Argo Train - Executive Class</td><td class='add'>RM 220 / pax</td><td>Termasuk shuttle</td></tr>\n<tr><td class='it'>Argo Train - Luxury Class</td><td class='add'>RM 280 / pax</td><td>Termasuk shuttle</td></tr>\n</tbody></table></div>\n<div class='notebox'><b>Amaran timing Whoosh:</b> elakkan jual train pada slot di bawah waktu MF - timingnya tidak sesuai untuk itinerari. <b>Bagasi:</b> pelanggan bawa bagasi sendiri naik train. Pakej asas sudah termasuk <b>satu</b> tiket Whoosh Economy sehala Jakarta ke Bandung; harga di atas ialah untuk leg tambahan atau naik taraf kelas.</div>\n\n<div class='notebox'><b>Cara kira tambahan hari:</b><br>1) Tambah harga transport + driver sehari. Pilih kenderaan ikut jumlah pax - contoh 3 pax pilih Avanza.<br>2) Tambah meals jika perlu - contoh 3 pax, kira 3 x (1 lunch + 1 dinner).<br>3) Tambah akomodasi jika perlu - contoh 4 pax bed, kira 4 x RM 90/malam.<br>4) Tambah entrance fee / ticket fee jika perlu.</div>\n<div class='notebox'><b>Tambah hari atau aktiviti lain:</b> boleh, kerana ini pakej private tour - perlu request tambahan hari dan tambahan harga. Aktiviti percuma dalam itinerari tidak boleh ditukar dengan aktiviti lain, baucar atau tunai sekiranya pelanggan tidak menyertai atau disebabkan cuaca dan ketersediaan.</div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season, late booking dan surcaj 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza 2&ndash;4, Innova 5&ndash;6, Hiace 7&ndash;12) &mdash; pilih blok itinerary supaya kadar hari tambahan berlabuh pada kawasan yang betul. <b>Pindah bandar</b> guna blok <i>Pindah bandar</i>: ia mengenakan full day tour <b>dan</b> transfer, seperti nota rate card. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf hotel 4 bintang &ndash; malam peak season</i> pada baris hari itu (RM90 upgrade + RM5 beza peak).</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Jakarta-Bandung 4H3M &middot; Option A (Nature &amp; Adventure)</option><option value='1'>PT Jakarta-Bandung 4H3M &middot; Option B (Kids Friendly)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-10)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>RM 350 per pax, sekali sahaja</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2>\n<div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody>\n<tr><td class='it'>Peak season - hotel 3 bintang</td><td class='add'>RM 30 / pax / malam</td><td>Tarikh peak season di bawah</td></tr>\n<tr><td class='it'>Peak season - hotel 4 bintang</td><td class='add'>RM 35 / pax / malam</td><td>Tarikh peak season di bawah</td></tr>\n<tr><td class='it'>Upgrade akomodasi 4 bintang</td><td class='add'>RM 90 / pax / malam</td><td>ASTON Pasteur Hotel atau setaraf</td></tr>\n<tr><td class='it'>Single Supplement</td><td class='add'>RM 350 / pax</td><td>Bilik sendirian</td></tr>\n<tr><td class='it'>Late booking</td><td class='add'>RM 50 / booking</td><td>Tempahan kurang 45 hari sebelum berlepas</td></tr>\n<tr><td class='it'>Travel date 2027 (1 Jan - 30 Jun 2027)</td><td class='add'>RM 50 / pax</td><td>Ditambah di atas surcharge peak season. Sumber: 2026/2027 Date Surcharge ARBA - tiada dalam katalog</td></tr>\n</tbody></table></div>\n<div class='notebox'><b>Tarikh peak season:</b> 19 - 28 Mac 2026 &middot; 14 - 16 Mei 2026 &middot; 27 - 30 Mei 2026 &middot; 12 - 16 Jun 2026 &middot; 14 - 16 Ogos 2026 &middot; 21 - 24 Ogos 2026 &middot; 20 Disember 2026 - 1 Januari 2027.</div>",
