@@ -39487,6 +39487,21 @@
     "kb-build/smoke.js: no JS error, calculator price, package itineraries, price tables"
    ],
    "changes": []
+  },
+  {
+   "v": 39,
+   "at": "2026-10-09T03:32:42Z",
+   "by": "system",
+   "note": "KB FAQ & Perbezaan Pakej: package prices and price-policy questions removed (answered by the Costing, Policy and Surcharge tabs) — PO 9 Oct",
+   "summary": [
+    "54 FAQ questions removed: quotation validity, deposit, single supplement, why the price differs by date",
+    "25 package-price figures removed from FAQ answers / Important Notes",
+    "46 price rows removed from Perbezaan Pakej tables (add-on prices kept)"
+   ],
+   "kb": [
+    "28 KB rebuilt"
+   ],
+   "changes": []
   }
  ]
 }
