@@ -918,7 +918,7 @@ function kbInfoTab(d) {
   if (E) {
     const ed = (id, title, p) => p && g(p) != null ? card(id, title, "", kbEditor(sl, p, g(p), null)) : "";
     return head + linked + ed("attr", "Attractions & Muslim-friendly", V.attractions) + (V.faq && typeof g(V.faq) === "string" ? card("faq", "FAQ / Important Notes", "markdown: # tajuk, - item, | jadual |", kbEditor(sl, V.faq, g(V.faq), null)) : "")
-      + (V.packages ? card("pkg", "Pakej (BM)", "harga dalam teks: {{dari:N}} · {{2pax:N}} · {{pasangan:N}} (N = pakej, mula 0) diisi dari Costing", kbEditor(sl, V.packages, g(V.packages), null)) : "")
+      + (V.packages ? card("pkg", "Kad pakej KB", "nama, pengenalan &amp; nota sahaja — harga, itinerary, termasuk / tidak termasuk dari tab Costing &amp; Itinerary. Harga dalam teks: {{dari:N}} · {{2pax:N}} · {{pasangan:N}} (N = pakej, mula 0)", kbEditor(sl, V.packages, g(V.packages), null)) : "")
       + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("hotels", "Hotel", V.hotels) + ed("acts", "Aktiviti", V.acts)
       + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${k === "pricing" ? ' <span class="muted small">— nota TC sahaja; jadual harga dijana dari Costing</span>' : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
       + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
@@ -932,11 +932,6 @@ function kbInfoTab(d) {
       ${a.map ? `<a class="small" href="${esc(a.map)}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}</div>`).join("");
   const faq = typeof g(V.faq) === "string" ? kbMd(g(V.faq)) : "";
   const P = g(V.packages) || [];
-  const pk = P.map((p0, pi) => { const p = { ...p0, sub: kbFill(p0.sub, links), note: kbFill(p0.note, links), intro: kbFill(p0.intro, links), tag: kbFill(p0.tag, links) }; return `<div class="kb-attr" data-kbtext="${esc(kbTxt([p.n, p.tag, p.sub, p.intro, (p.inc || []).join(" "), (p.exc || []).join(" "), p.note].join(" ")).toLowerCase())}"><b>${esc(kbTxt(p.n))}</b> <span class="muted small">${esc(kbTxt(p.tag || ""))}</span>
-      <div class="small">${esc(kbTxt(p.sub || ""))}</div>${p.intro ? `<p>${esc(kbTxt(p.intro))}</p>` : ""}
-      <div class="cd-two">${(p.inc || []).length ? `<div><h4>Termasuk</h4><ul>${p.inc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}${(p.exc || []).length ? `<div><h4>Tidak termasuk</h4><ul>${p.exc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}</div>
-      ${links[pi] ? `<div class="small muted">Itinerary, termasuk &amp; tidak termasuk: katalog <code>${esc(links[pi].catalog)}</code> (tab Itinerary)</div>` : ""}
-      ${p.note ? `<div class="cd-note">${esc(kbTxt(p.note))}</div>` : ""}</div>`; }).join("");
   const H = g(V.hotels) || [];
   const ht = H.length ? `<div class="cd-acc">${H.map(h => `<div data-kbtext="${esc(kbTxt([h.tier, h.name, h.note].join(" ")).toLowerCase())}"><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(h.name || ""))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}</div>`).join("")}</div>` : "";
   const bl = Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<details class="kb-faq" data-kbtext="${esc(kbTxt(g(p)).toLowerCase())}"><summary>${esc(KB_BLOCK[k] || k)}</summary><div class="kb-html">${kbHtml(g(p))}</div></details>`).join("");
@@ -944,9 +939,12 @@ function kbInfoTab(d) {
   const mk = M ? `${(M.anchors || []).length ? `<div class="cd-chips">${M.anchors.map(a => `<span class="pill">${esc(kbTxt(a))}</span>`).join("")}</div>` : ""}${M.usp ? `<p>${esc(kbTxt(M.usp))}</p>` : ""}
       ${(M.season || []).length ? `<div class="scroll"><table class="cd-t">${M.season.map(s => `<tr>${(Array.isArray(s) ? s : [s]).map(x => `<td class="l">${esc(kbTxt(x))}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
       ${(M.expect || []).length ? `<ul>${M.expect.map(x => `<li>${esc(kbTxt(x))}</li>`).join("")}</ul>` : ""}` : "";
-  return head + linked + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
+  const own = P.map((p, i) => links[i] ? "" : `<div class="kb-link"><div class="small"><b>${esc(kbTxt(p.n))}</b> — tiada katalog (data KB sendiri)</div>
+      <div class="cd-two">${(p.inc || []).length ? `<div><h4>Termasuk</h4><ul>${p.inc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}${(p.exc || []).length ? `<div><h4>Tidak termasuk</h4><ul>${p.exc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}</div></div>`).join("");
+  const linkedAll = linked && own ? linked.replace(/<\/div><\/div>$/, own + "</div></div>") : linked || (own ? card("linked", "Harga, Itinerary &amp; Termasuk / Tidak Termasuk", "pakej tanpa katalog", own) : "");
+  return head + linkedAll + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
     + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
-    + card("pkg", "Pakej (BM)", `${P.length} pakej`, pk) + card("hotels", "Hotel", "", ht) + card("mkt", "Marketing", "", mk);
+    + card("hotels", "Hotel", "", ht) + card("mkt", "Marketing", "", mk);
 }
 // Simple Calculator: the KB's own calculator (same page TCs use), plus the price tiers it quotes from.
 function kbCalcTab(d) {
