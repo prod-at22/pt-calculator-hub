@@ -59,7 +59,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   and **SELJJU, JJU, JJUO** (tools/build_korea_cr.py), ATK CR 2026 KRW × 0.0030. Run them only when ATK sends a new CR.
 - **HND / OSK / KIX** are rate by rate (rate × FX). Qayyum FX 0.026, WIF 0.029, apartment RM250/pax/night.
   contracts/hnd has the ARBA-internal Qayyum rate sheet (tools/make_qayyum_sheet.py; regenerate after a Qayyum rate change).
-- **JBDO**: CTRANS fullboard rate 2–10 pax (v5); catalog = Catalog PT v8, 2–19 pax (v27). 11–19 pax have no TO cost yet.
+- **JBDO**: CTRANS fullboard rate 2–10 pax (v5); catalog = Catalog PT v8, 2–19 pax (v27). 10–19 pax cost RM635/pax (PO 9 Oct, v34).
 - Flags (tools/flags.py): catalogs × the hub's own numbers only.
 - **Catalogs** (v31): each catalog section comes from its own tab — price = Costing (Catalog Price column),
   header + hotels + itinerary + includes/excludes = Itinerary, Surcharge, Add On (tick per package; 210 catalog

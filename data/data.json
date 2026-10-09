@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "version": 33,
- "updatedAt": "2026-10-09T02:11:42Z",
- "updatedBy": "system",
+ "version": 34,
+ "updatedAt": "2026-10-09T02:18:14Z",
+ "updatedBy": "product",
  "settings": {
   "marginWarnPct": 0.15,
   "marginDangerPct": 0.05,
@@ -17337,7 +17337,16 @@
       "7": 687.0,
       "8": 663.0,
       "9": 648.0,
-      "10": 635.0
+      "10": 635.0,
+      "11": 635.0,
+      "12": 635.0,
+      "13": 635.0,
+      "14": 635.0,
+      "15": 635.0,
+      "16": 635.0,
+      "17": 635.0,
+      "18": 635.0,
+      "19": 635.0
      }
     },
     {
@@ -17355,7 +17364,16 @@
       "7": 0.0,
       "8": 0.0,
       "9": 0.0,
-      "10": 0.0
+      "10": 0.0,
+      "11": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "14": 0.0,
+      "15": 0.0,
+      "16": 0.0,
+      "17": 0.0,
+      "18": 0.0,
+      "19": 0.0
      }
     },
     {
@@ -17375,7 +17393,7 @@
      "label": "CTRANS",
      "supplier": "TO CTRANS — 4D3N Fullboard (Zest Hotel 3-Star Bandung)",
      "paxMin": 2,
-     "paxMax": 10,
+     "paxMax": 19,
      "hotel": "Zest Hotel or similar (3-Star)",
      "notes": "TO CTRANS fullboard rate, Whoosh included (Oct 2026). 5 pax: Avanza RM684; Hiace van RM757 (choose 'CTRANS · Hiace van'). No rate above 10 pax yet.",
      "components": [

@@ -179,7 +179,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(c("CTRANS", 2) === 936 && c("CTRANS", 5) === 684 && c("CTRANS", 10) === 635, "2/5/10 pax = 936/684/635");
     ok(c("CTRANS-HIACE", 5) === 757, "5 pax Hiace = 757");
     ok(!j.variants.some(v => v.components.some(x => /whoosh/i.test(x.label))), "no Whoosh component");
-    ok(!isFinite(c("CTRANS", 11)), "11 pax has no TO rate (missing, not RM0)");
+    ok([11, 15, 19].every(p => c("CTRANS", p) === 635) && !isFinite(c("CTRANS", 20)), "10–19 pax = RM635 (PO 9 Oct, v34); 20 pax has no TO rate (missing, not RM0)");
     const sp = p => P.priceRow(j, pk, "CTRANS", p);
     ok([[2, 1487], [4, 1227], [6, 1187], [10, 1147], [19, 1147]].every(([p, a]) => sp(p).adult.catalog === a), "catalog = Catalog PT v8 (2/4/6/10/19 pax = 1,487/1,227/1,187/1,147/1,147)");
     ok(sp(2).cwb.catalog === 1387 && sp(2).cnb.catalog === 1187 && sp(2).adult.selling === 1287, "2 pax CWB 1,387 · CNB 1,187 · selling 1,287 (catalog − 200)");
@@ -536,13 +536,13 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(fp.w, fp.doc.querySelector('[data-sev="low"]')); await tick(5);
     ok(fp.doc.querySelectorAll(".flags tbody tr").length === nF.length && fp.errors.length === 0, "flags page: all " + nF.length + " with Low on");
     const jb = await boot(repo, "jbdo/", "#flags");
-    ok(jb.doc.querySelector(".flags") && jb.doc.querySelector(".flags").textContent.includes("price but no cost"), "JBDO Flags tab shows its flags (11–19 pax have no TO cost)");
+    ok(jb.doc.querySelector("#grid") && !jb.doc.querySelector("#grid").textContent.includes("price but no cost"), "JBDO Flags tab: no more 'price but no cost' (11–19 pax costed)");
     ok(jb.doc.querySelector(".fxbox").textContent.includes("MYR direct"), "MYR-direct destination says so");
     await tab(jb.w, jb.doc, "costing");
     const jh = [...jb.doc.querySelectorAll("#costPax tr.blk-head th")].map(t => t.textContent);
     ok(!jh.includes("Tipping") && !jh.includes("Ground Cost") && jh[1] === "Cost/Pax", "JBDO: RM0 Tipping hidden; Ground Cost is the only line, so it is Cost/Pax: " + jh.join("|"));
     ok(![...jb.doc.querySelectorAll("#costPax tr[data-pax] td")].some(td => td.textContent.trim() === "0"), "no RM0 component cells shown");
-    for (const tb of ["costing", "contracts", "addons", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && jb.doc.querySelector("#grid").textContent.length > 20, "JBDO tab " + tb + " renders"); }
+    for (const tb of ["costing", "contracts", "addons", "flags", "history"]) { await tab(jb.w, jb.doc, tb); ok(jb.errors.length === 0 && (jb.doc.querySelector("#grid").textContent.length > 20 || (tb === "flags" && jb.doc.querySelector("#grid").textContent.includes("No flags"))), "JBDO tab " + tb + " renders"); }
     for (const code of ["mle", "phu", "cts", "aceh", "kix"]) {
       const pg = await boot(repo, code + "/");
       ok(pg.doc.querySelector("#costPax") && pg.errors.length === 0, `/${code}/ renders without errors ` + pg.errors.join("|"));
