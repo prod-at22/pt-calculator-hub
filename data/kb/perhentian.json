@@ -1,6 +1,32 @@
 {
  "slug": "perhentian",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "PHT",
+    "package": "shari-la"
+   },
+   "standard": {
+    "code": "PHT",
+    "package": "mimpi"
+   }
+  },
+  "packages": [
+   null,
+   {
+    "catalog": "perhentian-basic"
+   },
+   null,
+   {
+    "catalog": "perhentian-standard"
+   }
+  ],
+  "kbonly": {
+   "0": "florabay",
+   "2": "ombak"
+  }
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -81,23 +107,6 @@
     "sub": "Katalog rasmi BASIC 2026 V3 - Shari-la Resort, Long Beach",
     "img": "Perhentian Kecil Island, Malaysia, Beach.jpg",
     "intro": "Katalog customer BASIC (V3 2026). Menginap di Shari-la Perhentian Resort di Long Beach, Perhentian Kecil - pusat aktiviti dan lokasi fireshow malam. Fullboard halal dan 5-points snorkeling trip.",
-    "inc": [
-     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
-     "2 malam penginapan di Shari-la Perhentian Resort, Perhentian Kecil",
-     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
-     "5 Points Snorkelling Trip",
-     "Snorkelling Gear",
-     "Ground & Tipping - included"
-    ],
-    "exc": [
-     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
-     "Surcaj passport bukan warganegara Malaysia",
-     "Flight domestik ke Kota Bharu / Kuala Terengganu",
-     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
-     "Optional activities (scuba, Pulau Rawa, private boat)",
-     "Travel insurance / takaful",
-     "Personal expenses & tambahan makan"
-    ],
     "note": "Katalog BASIC V3 2026, sah sehingga 15 Oktober 2026. Single supplement +RM500/pax. Peak season +RM50/pax/malam (21 Mac 2025 - 30 September 2026). Surcharge travel date 2027 +RM50/pax/malam (15 Februari - 31 Mac 2027). Deposit RM250/pax; late booking +RM50/booking jika tempah kurang 45 hari sebelum bertolak."
    },
    {
@@ -133,23 +142,6 @@
     "sub": "Katalog rasmi STANDARD 2026 V3 - Mimpi Resort",
     "img": "Perhentine island beach, Malesia.jpg",
     "intro": "Katalog customer STANDARD (V3 2026). Mimpi Perhentian Resort - pilihan premium untuk honeymoon dan keluarga. Fullboard halal dan 5-points snorkeling trip.",
-    "inc": [
-     "Return Boat Transfer (SIC) - Jetty Kuala Besut <-> Perhentian",
-     "2 malam penginapan di Mimpi Perhentian Resort, Perhentian Kecil",
-     "Meals: 2x Breakfast, 2x Lunch, 2x Dinner (halal)",
-     "5 Points Snorkelling Trip",
-     "Snorkelling Gear",
-     "Ground & Tipping - included"
-    ],
-    "exc": [
-     "Marine Park Entrance Fee (dewasa RM5 / kanak RM2) - bayar di jetty",
-     "Surcaj passport bukan warganegara Malaysia",
-     "Flight domestik ke Kota Bharu / Kuala Terengganu",
-     "Airport <-> Jetty transfer (add-on RM65/pax, return sharing)",
-     "Optional activities (scuba, Pulau Rawa, private boat)",
-     "Travel insurance / takaful",
-     "Personal expenses & tambahan makan"
-    ],
     "note": "Katalog STANDARD V3 2026, sah sehingga 15 Oktober 2026. Single supplement +RM600/pax. Peak season +RM150/pax/malam (26 Mei - 1 Jun 2026 dan 1 Julai - 31 Ogos 2026). Surcharge travel date 2027 +RM150/pax/malam (15 Februari - 31 Mac 2027). Deposit RM250/pax; late booking +RM50/booking jika tempah kurang 45 hari sebelum bertolak."
    }
   ],
@@ -197,6 +189,7 @@
      ]
     }
    ],
+   null,
    [
     {
      "d": 1,
@@ -240,92 +233,7 @@
      ]
     }
    ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Besut Jetty → Perhentian Kecil",
-     "m": "L / D",
-     "a": [
-      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
-      "Check-in resort (~3pm)",
-      "Free & easy + aktiviti pantai",
-      "Windmill Hill trekking",
-      "Longbeach Fireshow (malam)",
-      "Dinner di resort"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "5-Points Snorkeling Trip (SIC)",
-     "m": "B / L / D",
-     "a": [
-      "Breakfast di resort",
-      "Boat snorkeling trip",
-      "Fish Point",
-      "Turtle Point (penyu)",
-      "Shark Point (jerung karang blacktip)",
-      "Kg Nelayan (lunch break)",
-      "Teluk Keke Beach",
-      "Nemo Point",
-      "Balik resort, free & easy",
-      "Dinner di resort"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Perhentian Kecil → Kuala Besut Jetty",
-     "m": "B",
-     "a": [
-      "Breakfast di resort",
-      "Free & easy / leisure",
-      "Check-out resort",
-      "Shared boat transfer balik ke Jetty Kuala Besut"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Besut Jetty → Perhentian Kecil",
-     "m": "L / D",
-     "a": [
-      "Shared boat transfer dari Jetty Kuala Besut (~30–45 min)",
-      "Check-in resort (~3pm)",
-      "Free & easy + aktiviti pantai",
-      "Windmill Hill trekking",
-      "Longbeach Fireshow (malam)",
-      "Dinner di resort"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "5-Points Snorkeling Trip (SIC)",
-     "m": "B / L / D",
-     "a": [
-      "Breakfast di resort",
-      "Boat snorkeling trip",
-      "Fish Point",
-      "Turtle Point (penyu)",
-      "Shark Point (jerung karang blacktip)",
-      "Kg Nelayan (lunch break)",
-      "Teluk Keke Beach",
-      "Nemo Point",
-      "Balik resort, free & easy",
-      "Dinner di resort"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Perhentian Kecil → Kuala Besut Jetty",
-     "m": "B",
-     "a": [
-      "Breakfast di resort",
-      "Free & easy / leisure",
-      "Check-out resort",
-      "Shared boat transfer balik ke Jetty Kuala Besut"
-     ]
-    }
-   ]
+   null
   ],
   "attractions": [
    {
@@ -491,7 +399,7 @@
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Empat tier resort, itinerari 3D2N yang sama - beza pada resort, harga dan surcaj.</p><table class='cmp'><colgroup><col class='c1'><col><col><col><col></colgroup><thead><tr><th class='blank'></th><th>MIMPI &middot; STANDARD &middot; KATALOG</th><th>OMBAK &middot; 3 BINTANG &middot; RATE CARD</th><th>SHARI-LA &middot; BASIC &middot; KATALOG</th><th>FLORA BAY &middot; BUDGET &middot; RATE CARD</th></tr></thead><tbody><tr><td class='feat'>Pulau</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Besar</td></tr><tr><td class='feat'>Jenis bilik</td><td class='val'>Standard Room</td><td class='val'>Twin - Family</td><td class='val'>Standard Room</td><td class='val'>Chalet</td></tr><tr><td class='feat'>Return Boat Transfer (SIC)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Fullboard 2B / 2L / 2D (halal)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>5 Points Snorkelling + gear</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Ground &amp; Tipping</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Windmill Trekking + Longbeach Fireshow</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Marine Park Fee</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport &harr; Jetty transfer</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td></tr><tr><td class='feat'>Honeymoon set (per couple)</td><td class='val'>RM600</td><td class='val'>RM380</td><td class='val'>RM280</td><td class='val'>RM297</td></tr><tr><td class='feat'>Scuba / Pulau Rawa / Private boat</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM600</td><td class='val'>+RM400</td><td class='val'>+RM500</td><td class='val'>+RM400</td></tr><tr><td class='feat'>Peak season (per pax/malam)</td><td class='val'>+RM150</td><td class='val'>+RM150</td><td class='val'>+RM50</td><td class='val'>+RM50</td></tr><tr><td class='feat'>Deposit</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td></tr><tr><td class='feat'>Harga dewasa dari (2 pax)</td><td class='val'>RM1,597</td><td class='val'>RM1,177</td><td class='val'>RM1,097</td><td class='val'>RM797</td></tr><tr><td class='feat'>Harga dewasa dari (8-10 pax)</td><td class='val'>RM1,597</td><td class='val'>RM1,077</td><td class='val'>RM997</td><td class='val'>RM607</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Honeymoon &amp; keluarga mahu premium</td><td class='val'>Group besar, nilai terbaik</td><td class='val'>Bajet terkawal di Long Beach</td><td class='val'>Paling jimat, suasana tenang</td></tr></tbody></table>",
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar per pax, 3D2N, 2 atau 3 orang sebilik (Default Standard Room). MYR, tiada margin ditambah. Shari-la = katalog BASIC V3 2026; Mimpi = katalog STANDARD V3 2026. Ombak &amp; Flora Bay: sumber rate card ARBA - tiada dalam katalog.</p><div class='custblk'><h3>Kadar Dewasa (12 tahun ke atas) - RM/pax</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Mimpi (STANDARD) <span class='src'>katalog V3</span></th><th>Ombak <span class='src'>rate card</span></th><th>Shari-la (BASIC) <span class='src'>katalog V3</span></th><th>Flora Bay <span class='src'>rate card</span></th></tr></thead><tbody><tr><td class='it'>1 (solo)</td><td class='add'>2,197</td><td class='add'>1,510</td><td class='add'>1,457</td><td>on request</td></tr><tr><td class='it'>2 - 3</td><td class='add'>1,597</td><td class='add'>1,177</td><td class='add'>1,097</td><td class='add'>797</td></tr><tr><td class='it'>4 - 5</td><td class='add'>1,597</td><td class='add'>1,127</td><td class='add'>1,057</td><td class='add'>657</td></tr><tr><td class='it'>6 - 7</td><td class='add'>1,597</td><td class='add'>1,127</td><td class='add'>1,007</td><td class='add'>657</td></tr><tr><td class='it'>8 - 10</td><td class='add'>1,597</td><td class='add'>1,077</td><td class='add'>997</td><td class='add'>607</td></tr></tbody></table><p class='custnote'>Katalog Ombak (2 pax) RM1,177 dan Flora Bay RM797 ke bawah adalah kadar rate card ARBA. Mimpi rata RM1,597 untuk 2 hingga 10 pax.</p></div><div class='custblk'><h3>Kadar Kanak-kanak - Tier Katalog</h3><table class='ctbl'><thead><tr><th>Bilangan pax</th><th>Shari-la CWB<br>(6-11 thn)</th><th>Shari-la CNB<br>(2-5 thn)</th><th>Mimpi CWB<br>(6-11 thn)</th><th>Mimpi CNB<br>(2-5 thn)</th></tr></thead><tbody><tr><td class='it'>2 - 3</td><td class='add'>997</td><td class='add'>897</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>4 - 5</td><td class='add'>957</td><td class='add'>857</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>6 - 7</td><td class='add'>907</td><td class='add'>807</td><td class='add'>1,497</td><td class='add'>1,397</td></tr><tr><td class='it'>8 - 10</td><td class='add'>897</td><td class='add'>797</td><td class='add'>1,497</td><td class='add'>1,397</td></tr></tbody></table><p class='custnote'>Kadar 1 pax (solo) tiada kadar kanak-kanak dalam katalog. CWB = Child With Bed, CNB = Child No Bed.</p></div><div class='custblk'><h3>Kadar Kanak-kanak - Tier Rate Card</h3><table class='ctbl'><thead><tr><th>Resort</th><th>Child With Bed</th><th>Child No Bed</th><th>Infant</th></tr></thead><tbody><tr><td class='it'>Ombak <span class='src'>rate card</span></td><td class='add'>1,057</td><td class='add'>657</td><td>FOC</td></tr><tr><td class='it'>Flora Bay <span class='src'>rate card</span></td><td class='add'>597</td><td class='add'>357</td><td>FOC</td></tr></tbody></table></div><div class='custblk'><h3>Nota Harga Katalog</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Tempoh sah katalog</td><td>Valid until 15 Oktober 2026</td></tr><tr><td class='it'>Sah sebut harga</td><td>Semua harga sah 24 jam selepas quotation dihantar</td></tr><tr><td class='it'>Asas bilik</td><td>Harga untuk 2 atau 3 orang sebilik, Default Standard Room</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM250 per pax</td></tr><tr><td class='it'>Full payment</td><td>30 hari sebelum bertolak</td></tr><tr><td class='it'>Late booking</td><td class='add'>RM50/booking</td></tr><tr><td class='it'>Peak season</td><td>Harga tidak terpakai semasa peak season - rujuk tab Surcharge</td></tr></tbody></table></div>",
+   "pricing": "<div class='custblk'><h3>Nota Harga Katalog</h3><table class='ctbl'><thead><tr><th>Item</th><th>Butiran</th></tr></thead><tbody><tr><td class='it'>Tempoh sah katalog</td><td>Valid until 15 Oktober 2026</td></tr><tr><td class='it'>Sah sebut harga</td><td>Semua harga sah 24 jam selepas quotation dihantar</td></tr><tr><td class='it'>Asas bilik</td><td>Harga untuk 2 atau 3 orang sebilik, Default Standard Room</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM250 per pax</td></tr><tr><td class='it'>Full payment</td><td>30 hari sebelum bertolak</td></tr><tr><td class='it'>Late booking</td><td class='add'>RM50/booking</td></tr><tr><td class='it'>Peak season</td><td>Harga tidak terpakai semasa peak season - rujuk tab Surcharge</td></tr></tbody></table></div>",
    "custom": "<h2>Simple Customisation (Add-ons)</h2><p class='ssub'>Add-on rasmi katalog V3 2026 di atas; item rate card ARBA di bawah.</p><div class='custblk'><h3>Add On Activity - Katalog V3 2026</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Return Airport Transfer (sharing)</td><td class='add'>RM65/pax</td><td>Kota Bharu Airport &harr; Jetty Kuala Besut</td></tr><tr><td class='it'>Return Private Boat Transfer</td><td class='add'>RM957/boat</td><td>Jetty Kuala Besut &harr; resort, max 12 pax sebot</td></tr><tr><td class='it'>Private Boat Island Hopping (5 point)</td><td class='add'>RM957/boat</td><td>Shark, Fish, Nemo, Turtle Point &amp; Teluk Keke; max 12 pax</td></tr><tr><td class='it'>Snorkelling Pulau Rawa</td><td class='add'>RM120/pax</td><td>sharing boat, minimum 4 pax</td></tr><tr><td class='it'>Scuba Diving (DSD)</td><td class='add'>RM300/pax</td><td>termasuk scuba gear &amp; dive master, minimum 1 pax</td></tr><tr><td class='it'>Scuba Diving (Fun Dive)</td><td class='add'>RM120/pax</td><td>termasuk scuba gear &amp; dive master, minimum 1 pax</td></tr><tr><td class='it'>Honeymoon Package - Mimpi</td><td class='add'>RM600/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr><tr><td class='it'>Honeymoon Package - Ombak</td><td class='add'>RM380/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr><tr><td class='it'>Honeymoon Package - Shari-la</td><td class='add'>RM280/couple</td><td>deko bilik honeymoon + candle light dinner</td></tr></tbody></table></div><div class='custblk'><h3>Add On Lain - Sumber: rate card ARBA (tiada dalam katalog)</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Per</th></tr></thead><tbody><tr><td class='it'>Honeymoon Package - Flora Bay</td><td class='add'>RM297</td><td>couple</td></tr><tr><td class='it'>Kayak</td><td class='add'>RM15</td><td>jam/couple</td></tr><tr><td class='it'>Picnic Trip</td><td class='add'>RM45</td><td>pax/trip</td></tr><tr><td class='it'>Extra Breakfast</td><td class='add'>RM25</td><td>pax</td></tr><tr><td class='it'>Extra Lunch / Dinner</td><td class='add'>RM35</td><td>pax</td></tr><tr><td class='it'>BBQ Dinner</td><td class='add'>RM37</td><td>pax</td></tr><tr><td class='it'>Takaful TripCare 360 (individu 1-5 hari)</td><td class='add'>RM50</td><td>pax</td></tr><tr><td class='it'>Luggage Tracker (Blue Ribbon)</td><td class='add'>RM20 - RM70</td><td>unit</td></tr></tbody></table></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Buka panel itinerary hanya bila nak ubah hari.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Perhentian BASIC &middot; Shari-la Resort (3D2N) &mdash; katalog V3</option><option value='1'>PT Perhentian STANDARD &middot; Mimpi Resort (3D2N) &mdash; katalog V3</option><option value='2'>PT Perhentian &middot; Ombak Resort (3D2N) &mdash; rate card ARBA</option><option value='3'>PT Perhentian &middot; Flora Bay Resort (3D2N) &mdash; rate card ARBA</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Kanak-kanak dengan katil (6&ndash;11 thn)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Kanak-kanak tanpa katil (2&ndash;5 thn)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Katalog V3 tiada kategori infant; rate card ARBA tulis infant <b>FOC</b> untuk Ombak &amp; Flora Bay. Sahkan polisi resort.</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Katalog: Mimpi +RM600 &middot; Shari-la +RM500 &middot; Ombak / Flora Bay +RM400 (rate card). Kadar rata untuk pakej 2 malam &mdash; tidak berskala bila malam ditambah.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge &amp; Supplement</h2><p class='ssub'>Nilai katalog V3 2026 adalah rujukan rasmi. Item yang tiada dalam katalog dilabel rate card ARBA.</p><div class='custblk'><h3>Peak Season &amp; Travel Date</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Tarikh</th><th>Surcaj</th></tr></thead><tbody><tr><td class='it'>Shari-la (BASIC) <span class='src'>katalog V3</span></td><td>21 Mac 2025 - 30 September 2026</td><td class='add'>+RM50/pax/malam</td></tr><tr><td class='it'>Shari-la (BASIC) 2027 <span class='src'>katalog V3</span></td><td>15 Februari 2027 - 31 Mac 2027</td><td class='add'>+RM50/pax/malam</td></tr><tr><td class='it'>Mimpi (STANDARD) <span class='src'>katalog V3</span></td><td>26 Mei - 1 Jun 2026 &middot; 1 Julai - 31 Ogos 2026</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Mimpi (STANDARD) 2027 <span class='src'>katalog V3</span></td><td>15 Februari 2027 - 31 Mac 2027</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Ombak <span class='src'>rate card</span></td><td>Ikut tarikh peak rate card 2026</td><td class='add'>+RM150/pax/malam</td></tr><tr><td class='it'>Flora Bay <span class='src'>rate card</span></td><td>Ikut tarikh peak rate card 2026</td><td class='add'>+RM50/pax/malam</td></tr></tbody></table></div><div class='custblk'><h3>Supplement &amp; Caj Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement - Mimpi (STANDARD)</td><td class='add'>+RM600/pax</td><td><span class='src'>katalog V3</span></td></tr><tr><td class='it'>Single Supplement - Shari-la (BASIC)</td><td class='add'>+RM500/pax</td><td><span class='src'>katalog V3</span></td></tr><tr><td class='it'>Single Supplement - Ombak / Flora Bay</td><td class='add'>+RM400/pax</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM50/booking</td><td>tempahan kurang 45 hari sebelum bertolak <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Marine Park Entrance Fee</td><td class='add'>RM5 dewasa / RM2 kanak</td><td>wajib, bayar sendiri di jetty <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Passport bukan warganegara Malaysia</td><td class='add'>by request</td><td>surcaj dikira semasa quotation <span class='src'>katalog V3</span></td></tr><tr><td class='it'>Tambah 1 malam (4D3N)</td><td class='add'>Ombak +RM475/dewasa &middot; Mimpi +RM550 &middot; CWB +RM375</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Kurang 1 malam (2D1N)</td><td class='ded'>Ombak -RM400/dewasa &middot; CWB -RM300</td><td><span class='src'>rate card</span></td></tr><tr><td class='it'>Halfboard (breakfast sahaja)</td><td class='ded'>-RM150/dewasa &middot; -RM100/kanak</td><td><span class='src'>rate card</span></td></tr></tbody></table></div>",

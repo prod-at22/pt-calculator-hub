@@ -1,6 +1,28 @@
 {
  "slug": "aceh",
  "kind": "bespoke",
+ "map": {
+  "variants": {
+   "aceh": {
+    "code": "ACEH",
+    "package": "asonanggroe-3-star",
+    "capAtHub": true
+   },
+   "sabang": {
+    "code": "ACEHSBG",
+    "package": "asonanggroe-3-star",
+    "capAtHub": true
+   }
+  },
+  "packages": [
+   {
+    "catalog": "aceh"
+   },
+   {
+    "catalog": "aceh-sabang"
+   }
+  ]
+ },
  "content": {
   "PKG": [
    {
@@ -9,24 +31,6 @@
     "sub": "Tsunami Sites & Historical Sites",
     "img": "baiturrahman",
     "intro": "Private Tour 4 hari 3 malam menyusuri Banda Aceh — gabungan warisan Kesultanan, tapak & memorial tsunami 2004, dan masjid ikonik. Termasuk pengangkutan peribadi, pemandu pelancong, semua makan halal, tiket masuk & airport transfer.",
-    "inc": [
-     "3 malam akomodasi (hotel 3 bintang) + sarapan",
-     "Pengangkutan peribadi (asas 12 jam/hari)",
-     "Yuran masuk (entrance fees)",
-     "Full meals — Breakfast, Lunch, Dinner (halal)",
-     "Free coffee drink (Kopi Sawah Padi)",
-     "Tipping fee & parking fee",
-     "Airport transfer (BTJ)",
-     "Private driver & tour guide"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik (KUL–BTJ)",
-     "Jam lebih transport & guide (150,000 IDR/jam)",
-     "Bagasi, in-flight meal & airport tax",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Tiba KUL→BTJ dicadang 10.00–11.00 pagi untuk mula tour Day 1."
    },
    {
@@ -35,140 +39,12 @@
     "sub": "Pulau Weh · Dolphin · Rubiah",
     "img": "tugu_nol",
     "intro": "Private Tour 5 hari 4 malam gabungan Banda Aceh + Pulau Weh (Sabang). Selain tapak tsunami & heritage Banda Aceh, dapat sehari penuh di Sabang — Tugu Kilometer Nol, snorkeling Pulau Rubiah & dolphin trip. Termasuk tiket ferri pergi-balik, snorkelling gear & dolphin trip.",
-    "inc": [
-     "4 malam akomodasi (hotel 3 bintang) + sarapan",
-     "Pengangkutan peribadi (asas 12 jam/hari)",
-     "Yuran masuk (entrance fees)",
-     "Full meals — Breakfast, Lunch, Dinner (halal)",
-     "Free coffee drink (Kopi Sawah Padi)",
-     "Tipping fee & parking fee",
-     "Airport transfer (BTJ)",
-     "Tiket ferri pergi-balik (Ulee Lheu ↔ Balohan)",
-     "Snorkelling gear",
-     "Dolphin trip",
-     "Private driver & tour guide"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik (KUL–BTJ)",
-     "Jam lebih transport & guide (150,000 IDR/jam)",
-     "Bagasi, in-flight meal & airport tax",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Hotel Sabang (Freddies) 3★ kipas sahaja tanpa aircond; aircond hanya di Sabang Town. Upgrade hotel 4★ untuk pakej ini +RM240/pax."
    }
   ],
   "ITIN": [
-   [
-    {
-     "d": 1,
-     "t": "KUL → Banda Aceh",
-     "a": [
-      "Airport pick-up (tiba 10–11 pagi)",
-      "Aceh Tsunami Museum",
-      "Ulee Lheu Beach & Masjid Baiturrahim (sunset)",
-      "Check-in hotel · Free & Easy"
-     ],
-     "m": "Dinner"
-    },
-    {
-     "d": 2,
-     "t": "Banda Aceh City Tour",
-     "a": [
-      "Masjid Raya Baiturrahman",
-      "Putri Pahang Park (Gunongan)",
-      "Kubah Masjid Terapung (tsunami)",
-      "Rumah Cut Nyak Dhien",
-      "Lunch di Pantai Lampuuk & solat Masjid Rahmatullah Lampuuk",
-      "Back to hotel · Free & Easy"
-     ],
-     "m": "B / L / D"
-    },
-    {
-     "d": 3,
-     "t": "Banda Aceh + Shopping",
-     "a": [
-      "Ship on House (Kampung Nelayan)",
-      "Makam Syiah Kuala (Syeikh Abdurrauf As-Singkili)",
-      "Shopping di Pasar Aceh",
-      "Dinner di restoran tempatan"
-     ],
-     "m": "B / L / D"
-    },
-    {
-     "d": 4,
-     "t": "Departure to KUL",
-     "a": [
-      "Breakfast · Check-out",
-      "Transfer ke BTJ Airport",
-      "Flight BTJ → KUL"
-     ],
-     "m": "Breakfast"
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "KUL → Banda Aceh",
-     "a": [
-      "Airport pick-up",
-      "Kopi di Sawah Padi",
-      "Sunset di Ulee Lheu Beach & Masjid Baiturrahim",
-      "Check-in hotel · Free & Easy"
-     ],
-     "m": "Dinner"
-    },
-    {
-     "d": 2,
-     "t": "Sabang Island Tour",
-     "a": [
-      "Ferri Ulee Lheu → Balohan",
-      "Photostop Anoi Itam & Pantai Sumur Tiga",
-      "Danau Aneuk Laot & Tugu Sabang Fair",
-      "Tugu Nol Kilometer (titik paling barat Indonesia)",
-      "Pantai Iboih → Pulau Rubiah (snorkeling)",
-      "Shopping Toko Souvenir · Check-in Freddies Hotel"
-     ],
-     "m": "B / L / D"
-    },
-    {
-     "d": 3,
-     "t": "Sabang → Aceh City + Shopping",
-     "a": [
-      "Dolphin Trip (~7.00 pagi)",
-      "Breakfast · Check-out",
-      "Ferri Balohan → Banda Aceh",
-      "Masjid Raya Baiturrahman",
-      "PLTD Apung",
-      "Museum Tsunami",
-      "Shopping Pasar Aceh & Toko Souvenir"
-     ],
-     "m": "B / L / D"
-    },
-    {
-     "d": 4,
-     "t": "Aceh Heritage Site",
-     "a": [
-      "Taman Gunongan",
-      "Kubah Masjid Terapung",
-      "Rumah Cut Nyak Dhien",
-      "Lunch di Pantai Lampuuk",
-      "Ship on House",
-      "Makam Ulama Besar Aceh"
-     ],
-     "m": "B / L / D"
-    },
-    {
-     "d": 5,
-     "t": "Departure to KUL",
-     "a": [
-      "Check-out · Airport transfer",
-      "Flight BTJ → KUL"
-     ],
-     "m": "Breakfast"
-    }
-   ]
+   null,
+   null
   ],
   "ATTR": [
    {
@@ -319,9 +195,9 @@
   "COMPARE_HTML": "\n  <h2>Perbezaan Pakej &mdash; 5D4N vs 4D3N</h2><p class='ssub'>Bandingkan dua pakej untuk pilih yang paling sesuai untuk customer.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>5D4N &middot; ACEH&middot;SABANG</th><th>4D3N &middot; ACEH</th></tr></thead><tbody><tr><td class='feat'>Durasi</td><td class='val'>5 Hari 4 Malam</td><td class='val'>4 Hari 3 Malam</td></tr><tr><td class='feat'>Destinasi</td><td class='val'>Banda Aceh + Pulau Weh (Sabang)</td><td class='val'>Banda Aceh + Aceh Besar</td></tr><tr><td class='feat'>Feri Ulee Lheu &harr; Balohan (PP)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr><tr><td class='feat'>Tugu Kilometer Nol Sabang</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr><tr><td class='feat'>Snorkelling Taman Laut Rubiah (gear disediakan)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr><tr><td class='feat'>Dolphin trip Pulau Weh</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr><tr><td class='feat'>Tsunami Museum &amp; tapak tsunami Banda Aceh</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr><tr><td class='feat'>Masjid Raya Baiturrahman &amp; masjid hopping</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr><tr><td class='feat'>Lunch beach-view Lampuuk + kopi Sawah Padi</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr><tr><td class='feat'>Meals (Fullboard Halal)</td><td class='val'>4B / 4L / 4D</td><td class='val'>3B / 3L / 3D</td></tr><tr><td class='feat'>Hotel</td><td class='val'>3&#9733; Banda Aceh + Freddies Sabang (kipas)</td><td class='val'>3&#9733; Banda Aceh</td></tr><tr><td class='feat'>Driver-Guide (asas 12 jam/hari)</td><td class='val'>Melayu / English</td><td class='val'>Melayu / English</td></tr><tr><td class='feat'>Entrance Fees + Tipping + Airport Transfer</td><td class='val'><span class='tick'>&#10004;</span> Termasuk</td><td class='val'><span class='tick'>&#10004;</span> Termasuk</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 1,597</td><td class='val'>RM 1,197</td></tr><tr><td class='feat'>Harga from (grup sederhana)</td><td class='val'>RM 1,497 (6&ndash;10 pax)</td><td class='val'>RM 1,137 (6&ndash;10 pax)</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Pulau + snorkeling + heritage</td><td class='val'>Heritage &amp; tsunami sites, masa terhad</td></tr></tbody></table>\n",
   "FLIGHT_HTML": "\n  <p class=\"blockintro\">Pakej PT Aceh adalah <b>ground only</b> — flight tidak termasuk. Guna jadual di bawah untuk cadang kombinasi pergi-balik kepada customer. KUL – BTJ 1 jam 35 minit; <b>BTJ 1 jam ke belakang dari Malaysia</b> (WIB). Kedua-dua arah guna KLIA Terminal 2.</p>\n\n  <div class=\"custblk\">\n    <h3>Flight Keluar — KUL &rarr; Banda Aceh (BTJ)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas KUL</th><th>Tiba BTJ</th><th>Hari</th><th>Sesuai untuk</th></tr></thead><tbody>\n      <tr><td class=\"it\">AirAsia</td><td>AK 423</td><td>07:35</td><td>08:10</td><td>Sel · Kha · Sab</td><td class=\"add\">Terbaik — Day 1 tour penuh</td></tr>\n      <tr><td class=\"it\">AirAsia</td><td>AK 421</td><td>16:50</td><td>17:25</td><td>Setiap hari</td><td>Tiba malam — Day 1 check-in + dinner sahaja</td></tr>\n      <tr><td class=\"it\">Super Air Jet</td><td>IU 169</td><td>17:30</td><td>18:05</td><td>Setiap hari</td><td>Tiba malam — Day 1 check-in + dinner sahaja</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Flight Balik — Banda Aceh (BTJ) &rarr; KUL</h3>\n    <table class=\"ctbl\"><thead><tr><th>Airline</th><th>Flight</th><th>Berlepas BTJ</th><th>Tiba KUL</th><th>Hari</th><th>Sesuai untuk</th></tr></thead><tbody>\n      <tr><td class=\"it\">AirAsia</td><td>AK 422</td><td>08:25</td><td>11:00</td><td>Sel · Kha · Sab</td><td>Check-out awal — tiada aktiviti hari akhir</td></tr>\n      <tr><td class=\"it\">Super Air Jet</td><td>IU 168</td><td>11:00</td><td>13:35</td><td>Setiap hari</td><td class=\"add\">Seimbang — breakfast + check-out santai</td></tr>\n      <tr><td class=\"it\">AirAsia</td><td>AK 420</td><td>17:45</td><td>20:20</td><td>Isn · Rab · Jum · Sab · Ahd</td><td class=\"add\">Hari akhir penuh — boleh tambah shopping</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Batik Air Malaysia (OD 317) mula beroperasi BTJ&ndash;KUL pada 25 Okt 2026. Anggaran tambang pergi-balik <b>RM 450 – RM 900/pax</b> (LCC, tanpa bagasi). Jadual disemak 30 Jul 2026 — sahkan pada laman airline sebelum tiket dibeli.</p>\n  </div>\n\n  <details class=\"qa\" data-text=\"cadangan kombinasi return flight pergi balik pairing 4d3n 5d4n\"><summary><span class=\"tw\">▶</span><span>Cadangan kombinasi pergi-balik (return) ikut pakej</span></summary>\n   <div class=\"ans\">\n     <table class=\"ctbl\"><thead><tr><th>Pakej</th><th>Kombinasi disyorkan</th><th>Kesan pada itinerari</th></tr></thead><tbody>\n       <tr><td class=\"it\">Aceh 4D3N</td><td class=\"add\">AK 423 (07:35) &rarr; AK 420 (17:45)</td><td>Day 1 tour penuh + Day 4 boleh shopping pagi. Hanya jika Day 1 = Sel/Kha/Sab.</td></tr>\n       <tr><td class=\"it\">Aceh 4D3N</td><td>AK 423 (07:35) &rarr; IU 168 (11:00)</td><td>Day 1 penuh, Day 4 check-out santai. Boleh mana-mana hari balik.</td></tr>\n       <tr><td class=\"it\">Aceh + Sabang 5D4N</td><td class=\"add\">AK 423 (07:35) &rarr; AK 420 (17:45)</td><td>Day 1 penuh (kopi sawah padi + sunset Ulee Lheu) &amp; Day 5 lapang.</td></tr>\n       <tr><td class=\"it\">Budget / flexible</td><td>AK 421 atau IU 169 (petang) &rarr; IU 168 (11:00)</td><td>Day 1 jadi hari transit sahaja — tour bermula Day 2. Maklumkan customer awal.</td></tr>\n     </tbody></table>\n     <p><strong>Nota TC:</strong> AK 423 dan AK 422 beroperasi <strong>Selasa, Khamis &amp; Sabtu sahaja</strong>. Jika customer mahu Day 1 tour penuh, tarikh berlepas mesti jatuh pada hari-hari tersebut. Semua flight guna <strong>KLIA Terminal 2</strong>.</p>\n     <p><strong>Bagasi:</strong> tambang asas AirAsia &amp; Super Air Jet = <strong>kabin 7kg sahaja</strong>. Bagasi check-in ditambah sendiri di laman airline, selewatnya 6 jam sebelum berlepas.</p>\n   </div>\n  </details>\n",
   "FREEGIFT_HTML": "\n  <h2>Free Gift (Promo)</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Item free gift ikut campaign semasa. Sumber: FreeGift Campaign (MYP 6/26).</p>\n  <details class='qa' data-text='free gift untuk campaign atau promo? aceh: free pocket wifi (4g) – unlimited kod: faceh3 aceh – sabang: free pocket wifi (4g) – unlimited kod: faceh3 bullet: brb luggage tag / pocket wifi 4g per booking free gift hanya sah dalam tempoh campaign myp 6/26. di luar tempoh campaign, tiada free gift diberikan.'>\n   <summary><span class='tw'>▶</span><span>Free Gift untuk campaign atau Promo?</span></summary>\n   <div class='ans'>\n     <p><strong>Aceh:</strong> Free Pocket Wifi (4G) – Unlimited <span class='rtag'>Kod: FACEH3</span></p>\n     <p><strong>Aceh – Sabang:</strong> Free Pocket Wifi (4G) – Unlimited <span class='rtag'>Kod: FACEH3</span></p>\n     <p><strong>Bullet:</strong> BRB Luggage Tag / Pocket Wifi 4G per booking</p>\n     <p class='custnote' style='margin-top:8px'>Free gift hanya sah dalam tempoh campaign MYP 6/26. Di luar tempoh campaign, tiada free gift diberikan.</p>\n   </div>\n  </details>\n",
-  "PRICING_HTML": "\n  <h2>Harga & Pakej</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Kadar katalog TO (Asonanggroe Wisata) — <b>per pax, 2–3 sebilik, Ground + Tipping</b>. Tidak termasuk flight. Sah untuk perjalanan hingga 31 Jan 2027.</p>\n\n  <div class=\"custblk\">\n    <h3>PT Aceh 4D3N — Adult (3★, RM/pax)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Group of</th><th>Adult (11+)</th><th>Child With Bed (6–10)</th><th>Child No Bed (2–5)</th></tr></thead><tbody>\n      <tr><td class=\"it\">2</td><td class=\"add\">RM 1,197</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">3–5</td><td class=\"add\">RM 1,167</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">6–10</td><td class=\"add\">RM 1,137</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">11–25</td><td class=\"add\">RM 1,097</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">26–40</td><td class=\"add\">RM 1,072</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">41 &amp; ke atas</td><td class=\"add\">RM 1,047</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Infant (bawah 2): ground FOC, bayaran flat. CWB = Adult − RM200, CNB = Adult − RM400. Umur ikut katalog: <b>Adult 11 tahun ke atas · CWB 6–10 · CNB 2–5</b>. Tier 2–15 pax dari katalog PT Aceh 4D3N; tier 26 pax ke atas dari Product Cheatsheet 2026 (Price Tier 4). Pakej sah untuk travel hingga <b>31 Jan 2027</b>.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>PT Aceh + Sabang 5D4N — Adult (3★, RM/pax)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Group of</th><th>Adult (11+)</th><th>Child With Bed (6–10)</th><th>Child No Bed (2–5)</th></tr></thead><tbody>\n      <tr><td class=\"it\">2</td><td class=\"add\">RM 1,597</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">3–5</td><td class=\"add\">RM 1,557</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">6–10</td><td class=\"add\">RM 1,497</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n      <tr><td class=\"it\">11–15</td><td class=\"add\">RM 1,457</td><td>Adult − RM 200</td><td>Adult − RM 400</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Termasuk tiket ferri PP, snorkelling gear & dolphin trip. Hotel Sabang (Freddies) 3★ kipas sahaja.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Upgrade Hotel</h3>\n    <table class=\"ctbl\"><thead><tr><th>Tier</th><th>Hotel</th><th>Upgrade Surcharge</th></tr></thead><tbody>\n      <tr><td class=\"it\">3★ (default)</td><td>Grand Nanggroe / Oasis / Arabiya</td><td>–</td></tr>\n      <tr><td class=\"it\">4★</td><td>Grand Arabiya</td><td class=\"add\">+RM 50 /pax/malam</td></tr>\n      <tr><td class=\"it\">5★</td><td>Hermes Palace / Kyriad</td><td class=\"add\">+RM 90 /pax/malam</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Percanggahan belum selesai: katalog menyenaraikan upgrade 4★ sebagai <b>flat RM200/pax (4D3N)</b> dan <b>RM240/pax (Sabang 5D4N)</b>, tetapi Product Cheatsheet 2026 menyatakan <b>RM50/pax/malam</b> (= RM150 untuk 3 malam). Guna kadar yang disahkan Ops sebelum quote. Sabang tetap guna Freddies (3★).</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Promo MATTA Fair</h3>\n    <div class=\"notebox\" style=\"margin-top:0;background:#fff7e6;border-color:#f0e0b8;color:#7a5b12\"><b>MATTA Fair:</b> FREE GIFT + FREE upgrade hotel 4★ (Grand Arabiya atau setaraf), tertakluk kepada tempoh campaign MATTA Fair yang sedang berjalan.</div>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Competitor Analysis — Aceh 4D3N</h3>\n    <table class=\"ctbl\"><thead><tr><th>&nbsp;</th><th>ARBA</th><th>R*H* L*G*CY</th><th>Z*H*N TR*V*L</th></tr></thead><tbody>\n      <tr><td class=\"it\">Harga dari</td><td class=\"add\">RM 1,097/pax</td><td>RM 1,060/pax</td><td>RM 1,249/pax</td></tr>\n      <tr><td class=\"it\">Hotel</td><td>3 Star</td><td>3 Star</td><td>2 Star</td></tr>\n      <tr><td class=\"it\">Meal</td><td>Fullboard</td><td>Fullboard</td><td>Fullboard</td></tr>\n      <tr><td class=\"it\">Sunset view</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Lunch beach-view</td><td class=\"add\">Ya</td><td>—</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Free coffee (Sawah Padi)</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Tipping</td><td class=\"add\">Included</td><td>Excluded</td><td>—</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Untuk kegunaan dalaman TC — jangan dedah nama pesaing kepada customer. Sumber: Selling Kit Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Competitor Analysis — Aceh + Sabang 5D4N</h3>\n    <table class=\"ctbl\"><thead><tr><th>&nbsp;</th><th>ARBA</th><th>K*MB*R* S*F*</th><th>Z*H*N TR*V*L</th></tr></thead><tbody>\n      <tr><td class=\"it\">Harga dari</td><td class=\"add\">RM 1,457/pax</td><td>RM 1,299/pax</td><td>RM 1,149/pax</td></tr>\n      <tr><td class=\"it\">Durasi</td><td>5D4N</td><td>5D4N</td><td>4D3N sahaja</td></tr>\n      <tr><td class=\"it\">Hotel</td><td>3 Star</td><td>3 Star</td><td>2 Star</td></tr>\n      <tr><td class=\"it\">Lunch beach-view</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Dolphin trip</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Snorkelling Rubiah</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">ARBA sedikit lebih mahal tetapi merangkumi dolphin + snorkelling + beach-view lunch yang pesaing tiada. Sumber: Selling Kit Aceh.</p>\n  </div>\n",
+  "PRICING_HTML": "<div class=\"custblk\">\n    <h3>Upgrade Hotel</h3>\n    <table class=\"ctbl\"><thead><tr><th>Tier</th><th>Hotel</th><th>Upgrade Surcharge</th></tr></thead><tbody>\n      <tr><td class=\"it\">3★ (default)</td><td>Grand Nanggroe / Oasis / Arabiya</td><td>–</td></tr>\n      <tr><td class=\"it\">4★</td><td>Grand Arabiya</td><td class=\"add\">+RM 50 /pax/malam</td></tr>\n      <tr><td class=\"it\">5★</td><td>Hermes Palace / Kyriad</td><td class=\"add\">+RM 90 /pax/malam</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Percanggahan belum selesai: katalog menyenaraikan upgrade 4★ sebagai <b>flat RM200/pax (4D3N)</b> dan <b>RM240/pax (Sabang 5D4N)</b>, tetapi Product Cheatsheet 2026 menyatakan <b>RM50/pax/malam</b> (= RM150 untuk 3 malam). Guna kadar yang disahkan Ops sebelum quote. Sabang tetap guna Freddies (3★).</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Promo MATTA Fair</h3>\n    <div class=\"notebox\" style=\"margin-top:0;background:#fff7e6;border-color:#f0e0b8;color:#7a5b12\"><b>MATTA Fair:</b> FREE GIFT + FREE upgrade hotel 4★ (Grand Arabiya atau setaraf), tertakluk kepada tempoh campaign MATTA Fair yang sedang berjalan.</div>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Competitor Analysis — Aceh 4D3N</h3>\n    <table class=\"ctbl\"><thead><tr><th>&nbsp;</th><th>ARBA</th><th>R*H* L*G*CY</th><th>Z*H*N TR*V*L</th></tr></thead><tbody>\n      <tr><td class=\"it\">Harga dari</td><td class=\"add\">RM 1,097/pax</td><td>RM 1,060/pax</td><td>RM 1,249/pax</td></tr>\n      <tr><td class=\"it\">Hotel</td><td>3 Star</td><td>3 Star</td><td>2 Star</td></tr>\n      <tr><td class=\"it\">Meal</td><td>Fullboard</td><td>Fullboard</td><td>Fullboard</td></tr>\n      <tr><td class=\"it\">Sunset view</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Lunch beach-view</td><td class=\"add\">Ya</td><td>—</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Free coffee (Sawah Padi)</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Tipping</td><td class=\"add\">Included</td><td>Excluded</td><td>—</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Untuk kegunaan dalaman TC — jangan dedah nama pesaing kepada customer. Sumber: Selling Kit Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Competitor Analysis — Aceh + Sabang 5D4N</h3>\n    <table class=\"ctbl\"><thead><tr><th>&nbsp;</th><th>ARBA</th><th>K*MB*R* S*F*</th><th>Z*H*N TR*V*L</th></tr></thead><tbody>\n      <tr><td class=\"it\">Harga dari</td><td class=\"add\">RM 1,457/pax</td><td>RM 1,299/pax</td><td>RM 1,149/pax</td></tr>\n      <tr><td class=\"it\">Durasi</td><td>5D4N</td><td>5D4N</td><td>4D3N sahaja</td></tr>\n      <tr><td class=\"it\">Hotel</td><td>3 Star</td><td>3 Star</td><td>2 Star</td></tr>\n      <tr><td class=\"it\">Lunch beach-view</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Dolphin trip</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n      <tr><td class=\"it\">Snorkelling Rubiah</td><td class=\"add\">Ya</td><td>Tidak</td><td>Tidak</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">ARBA sedikit lebih mahal tetapi merangkumi dolphin + snorkelling + beach-view lunch yang pesaing tiada. Sumber: Selling Kit Aceh.</p>\n  </div>\n",
   "CUSTOM_HTML": "\n  <h2>Simple Customisation</h2>\n  <p class=\"blockintro\">Menu add-on, upgrade &amp; downgrade untuk pakej Aceh. Harga rujukan TC (RM/pax kecuali dinyatakan). Sumber: <b>Product Cheatsheet 2026 &mdash; Aceh (rate card)</b> + katalog PT Aceh 4D3N &amp; PT Aceh + Sabang 5D4N (last updated 8 Dis 2025).</p>\n  <div class=\"notebox\" style=\"margin-top:0\">Semua kadar di halaman ini sudah dibina ke dalam tab <b>Simple Calculator</b> &mdash; pilih pakej, isi tarikh dan pax, dan kalkulator akan kira upgrade, tambah/kurang hari, aktiviti dan peak season sendiri, kemudian jana PDF quotation.</div>\n\n  <div class=\"custblk\">\n    <h3>Upgrade &amp; Downgrade Akomodasi</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Tambahan 1 malam</th><th>Tolak 1 malam</th><th>Hotel</th></tr></thead><tbody>\n      <tr><td class=\"it\">Upgrade 3&#9733; &rarr; 4&#9733;</td><td class=\"add\">+RM 50 /pax/malam</td><td>&mdash;</td><td>Grand Arabiya</td></tr>\n      <tr><td class=\"it\">Upgrade 3&#9733; &rarr; 5&#9733;</td><td class=\"add\">+RM 90 /pax/malam</td><td>&mdash;</td><td>Hermes Palace · Kyriad</td></tr>\n      <tr><td class=\"it\">3&#9733; (or similar)</td><td>&mdash;</td><td class=\"ded\">−RM 50 /pax/malam</td><td>Arabiya · Ayani · Oasis · Grand PH · Grand Nanggroe</td></tr>\n      <tr><td class=\"it\">4&#9733; (or similar)</td><td>&mdash;</td><td class=\"ded\">−RM 80 /pax/malam</td><td>Grand Arabiya · Kyriad</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Sumber: Product Cheatsheet 2026 — Aceh. Rate card hanya menyiarkan kadar <b>Tolak</b> untuk baris 3&#9733; / 4&#9733;; untuk <b>menambah</b> satu hari penuh guna kadar RM 90/pax/hari di blok \"Tambah / Kurang Hari\" di bawah (sudah termasuk hotel + transport + aktiviti). Sabang tetap guna Freddies (3&#9733;, kipas) — upgrade 4&#9733;/5&#9733; hanya untuk malam di Banda Aceh.</p>\n    <div class=\"notebox\"><b>Percanggahan sumber — Kyriad Hotel.</b> Rate card ini, kedua-dua katalog PDF dan flyer MATTA meletakkan <b>Kyriad di bawah 4&#9733; (+RM 50/pax/malam)</b>. KB &amp; R&amp;D Sheet meletakkannya di 5&#9733; (+RM 90/pax/malam, \"newly upgraded\"). <b>Keputusan PO: kekal 5&#9733; +RM 90</b> — itulah kadar yang dicaj oleh Simple Calculator. Kalau customer tunjuk katalog PDF, rujuk Ops sebelum quote.</div>\n    <div class=\"notebox\"><b>Percanggahan sumber — kadar upgrade 4&#9733;.</b> Jadual surcharge katalog dan rate card kata <b>RM 50/pax/malam</b>; footer jadual harga katalog kata flat <b>RM 200/pax (4D3N)</b> dan <b>RM 240/pax (Sabang 5D4N)</b>. <b>Keputusan PO: guna RM 50/pax/malam</b> (= RM 150/pax untuk 3 malam Banda Aceh pada kedua-dua pakej).</div>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Tambah / Tolak Aktiviti — Aceh + Sabang</h3>\n    <table class=\"ctbl\"><thead><tr><th>Aktiviti</th><th>Tambah (jika belum ada)</th><th>Tolak (jika buang dari pakej)</th></tr></thead><tbody>\n      <tr><td class=\"it\">Dolphin Watching</td><td class=\"add\">+RM 150 /pax</td><td class=\"ded\">−RM 100 /pax</td></tr>\n      <tr><td class=\"it\">Glass Boat</td><td class=\"add\">+RM 50 /pax</td><td class=\"ded\">−RM 30 /pax</td></tr>\n      <tr><td class=\"it\">Snorkelling (Pulau Rubiah)</td><td class=\"add\">+RM 20 /pax</td><td class=\"ded\">−RM 15 /pax</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Dolphin trip &amp; snorkelling sudah termasuk dalam pakej Sabang 5D4N — lajur \"Tolak\" digunakan jika customer mahu buang aktiviti tersebut. Glass Boat adalah add-on. Sumber: Product Cheatsheet 2026 — Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Tambah / Kurang Hari (hotel + transport + aktiviti)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Perubahan</th><th>Tambah</th><th>Tolak</th></tr></thead><tbody>\n      <tr><td class=\"it\">Tambah 1 hari pada Aceh 4D3N</td><td class=\"add\">+RM 90 /pax/hari</td><td>&mdash;</td></tr>\n      <tr><td class=\"it\">Kurang 1 hari (4D3N &rarr; 3D2N)</td><td>&mdash;</td><td class=\"ded\">−RM 50 /pax/hari</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Kadar rata <b>semua-dalam</b>: sudah meliputi hotel + transport + aktiviti untuk hari berkenaan, jadi <b>jangan tambah kos transport hari itu berasingan</b>. Simple Calculator kira ini sendiri apabila TC tambah atau buang hari. Sumber: Product Cheatsheet 2026 — Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Transport — Kenderaan Ikut Saiz Group</h3>\n    <table class=\"ctbl\"><thead><tr><th>Pax</th><th>Kenderaan</th><th>Upgrade</th></tr></thead><tbody>\n      <tr><td class=\"it\">2 &ndash; 3</td><td>Toyota Calya</td><td>&mdash;</td></tr>\n      <tr><td class=\"it\">4 &ndash; 6</td><td>Innova Reborn</td><td class=\"add\">5 pax ke atas boleh upgrade ke Van (Hiace) &mdash; +RM 300 /hari /transport</td></tr>\n      <tr><td class=\"it\">7 &ndash; 9</td><td>Van (Toyota Hiace)</td><td>&mdash;</td></tr>\n      <tr><td class=\"it\">10 &ndash; 15</td><td>Medium Bus</td><td>&mdash;</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Rate card hanya senaraikan kenderaan sehingga <b>15 pax</b>. Untuk 16 pax ke atas, sahkan bilangan kenderaan dengan Ops sebelum quote. Sumber: Product Cheatsheet 2026 — Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Upgrade Transport &amp; Jam Tambahan</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Upgrade ke Van (Hiace)</td><td class=\"add\">+RM 300 /hari /transport</td><td>Untuk group 5 pax ke atas yang mahu kenderaan lebih lapang. Caj per hari, per kenderaan.</td></tr>\n      <tr><td class=\"it\">Extra hour driver &amp; guide</td><td class=\"add\">150,000 IDR /jam</td><td>Melebihi asas 12 jam/hari. Bayar tunai kepada driver — bukan sebahagian quotation.</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Sumber: Product Cheatsheet 2026 — Aceh.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Additional Activities / Spot (max 4 pax/transport)</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Ujung Kelindu</td><td class=\"add\">RM 277 /transport</td><td>Transport ke Ujung Kelindu. Excl. meals & personal. Cadang slot Day 2 (sekawasan Lampuuk/pesisir barat).</td></tr>\n      <tr><td class=\"it\">Pantai Pasir Putih Lhok Mee</td><td class=\"add\">RM 277 /transport</td><td>Private transfer. Cadang Day 1 petang lepas Museum Tsunami.</td></tr>\n      <tr><td class=\"it\">Pantai Lhok Seudu</td><td class=\"add\">RM 257 /transport</td><td>Private transfer. Pantai Aceh Besar, sekawasan Lampuuk (Day 2).</td></tr>\n      <tr><td class=\"it\">Masjid Keuchik Leumik</td><td class=\"add\">RM 257 /transport</td><td>Private transfer. Dalam Banda Aceh — boleh sambung Day 1.</td></tr>\n      <tr><td class=\"it\">Airport Transfer (extra)</td><td class=\"add\">RM 100 /way</td><td>Fleksibel — Day 1 atau Day 4.</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Connectivity & Insurance</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga jualan</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">Pocket Wifi 3GB (4G)</td><td class=\"add\">RM 80 /trip</td><td>Aceh 4D3N.</td></tr>\n      <tr><td class=\"it\">Pocket Wifi 10GB (5G)</td><td class=\"add\">RM 110 /trip</td><td>Aceh 4D3N.</td></tr>\n      <tr><td class=\"it\">Pocket Wifi 3GB (4G)</td><td class=\"add\">RM 100 /trip</td><td>Aceh + Sabang 5D4N.</td></tr>\n      <tr><td class=\"it\">Pocket Wifi 10GB (5G)</td><td class=\"add\">RM 150 /trip</td><td>Aceh + Sabang 5D4N.</td></tr>\n      <tr><td class=\"it\">TripCare 360 — Individual</td><td class=\"add\">RM 45 /pax</td><td>Takaful (Area 1, 1–5 hari).</td></tr>\n      <tr><td class=\"it\">TripCare 360 — Couple</td><td class=\"add\">RM 80 /pair</td><td>Takaful (Area 1, 1–5 hari).</td></tr>\n      <tr><td class=\"it\">TripCare 360 — Family</td><td class=\"add\">RM 100 /family</td><td>Takaful (Area 1, 1–5 hari, parent + child).</td></tr>\n      <tr><td class=\"it\">TripCare 360 — Senior</td><td class=\"add\">RM 130 /pax</td><td>Takaful (Area 1, 1–5 hari).</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Blue Ribbon Silver</td><td class=\"add\">RM 20 /pcs</td><td>—</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Blue Ribbon Gold</td><td class=\"add\">RM 40 /pcs</td><td>—</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Blue Ribbon Platinum</td><td class=\"add\">RM 55 /pcs</td><td>—</td></tr>\n      <tr><td class=\"it\">Luggage Tracker — Blue Ribbon Diamond</td><td class=\"add\">RM 70 /pcs</td><td>—</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Travel essentials dijual oleh After-Sales, bukan sebahagian quotation PT — sebab itu ia tiada dalam Simple Calculator. Sumber: R&amp;D Sheet PT_ACHSBG (tab Add-Ons).</p>\n  </div>\n",
-  "SURCHARGE_HTML": "\n  <h2>Surcharge</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Caj tambahan atas harga pakej. Sumber: katalog PT Aceh & PT Aceh+Sabang.</p>\n\n  <div class=\"custblk\">\n    <h3>Peak Season Surcharge</h3>\n    <div class=\"notebox\" style=\"margin-top:0\"><b>Tetingkap tarikh:</b> 22 Dis 2025 – 5 Jan 2026 · 15–30 Mac 2026 · 25 Mei – 5 Jun 2026 · 20 Dis 2026 – 5 Jan 2027.</div>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Kadar</th></tr></thead><tbody>\n      <tr><td class=\"it\">Peak Season Surcharge (semua akomodasi)</td><td class=\"add\">RM 50 /pax/malam</td></tr>\n      <tr><td class=\"it\">Surcharge Travel Date — Jan–Jun 2026 (Sabang)</td><td class=\"add\">RM 50 /pax</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Kadar per malam per pax. Infant biasanya dikecualikan. Dikenakan di ATAS harga pakej.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Peak Season Surcharge — ikut katalog</h3>\n    <table class=\"ctbl\"><thead><tr><th>Pakej</th><th>Peak Season</th><th>Surcharge</th><th>Travel Date 2027 (1 Jan–30 Jun)</th><th>Late Booking</th></tr></thead><tbody>\n      <tr><td class=\"it\">Aceh 4D3N</td><td>22 Dis 2026 – 5 Jan 2027</td><td class=\"add\">RM 50 /pax/malam</td><td>—</td><td>—</td></tr>\n      <tr><td class=\"it\">Aceh + Sabang 5D4N</td><td>15 – 30 Mac 2027</td><td class=\"add\">RM 50 /pax/malam</td><td class=\"add\">+RM 50 /pax</td><td>—</td></tr>\n    </tbody></table>\n    <p class=\"custnote\"> Rate Card 2026/2027 senaraikan tetingkap peak 22 Dis 2026–5 Jan 2027 (Aceh) &amp; 15–30 Mac 2027 (Sabang) — berbeza daripada tetingkap katalog di atas. Tambahan RM50/pax dikenakan untuk travel date 2027 (Sabang) di ATAS surcharge peak. Sumber: Date Surcharge 2026/2027.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Lain</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody>\n      <tr><td class=\"it\">Single Supplement</td><td class=\"add\">+RM 250 /orang</td><td>Bilik single (hanya untuk hotel 3★).</td></tr>\n      <tr><td class=\"it\">Late Booking Surcharge</td><td class=\"add\">+RM 50 /booking</td><td>Booking &lt;45 hari sebelum berlepas.</td></tr>\n      <tr><td class=\"it\">Extra Hour (transport & guide)</td><td class=\"add\">150,000 IDR /jam</td><td>Melebihi asas 12 jam/hari (bayar tunai).</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Harga Kanak-kanak & Infant</h3>\n    <table class=\"ctbl\"><thead><tr><th>Kategori</th><th>Umur</th><th>Harga</th></tr></thead><tbody>\n      <tr><td class=\"it\">Infant</td><td>Bawah 2 tahun</td><td class=\"add\">Flat (ground FOC)</td></tr>\n      <tr><td class=\"it\">CNB — Child No Bed</td><td>2–5 tahun</td><td class=\"add\">Adult − RM 400</td></tr>\n      <tr><td class=\"it\">CWB — Child With Bed</td><td>6–10 tahun</td><td class=\"add\">Adult − RM 200</td></tr>\n      <tr><td class=\"it\">Adult</td><td>11 tahun ke atas (ikut katalog)</td><td>Harga penuh dewasa</td></tr>\n    </tbody></table>\n  </div>\n",
+  "SURCHARGE_HTML": "\n  <h2>Surcharge</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Caj tambahan atas harga pakej. Sumber: katalog PT Aceh & PT Aceh+Sabang.</p>\n\n  <div class=\"custblk\">\n    <h3>Peak Season Surcharge</h3>\n    <div class=\"notebox\" style=\"margin-top:0\"><b>Tetingkap tarikh:</b> 22 Dis 2025 – 5 Jan 2026 · 15–30 Mac 2026 · 25 Mei – 5 Jun 2026 · 20 Dis 2026 – 5 Jan 2027.</div>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Kadar</th></tr></thead><tbody>\n      <tr><td class=\"it\">Peak Season Surcharge (semua akomodasi)</td><td class=\"add\">RM 50 /pax/malam</td></tr>\n      <tr><td class=\"it\">Surcharge Travel Date — Jan–Jun 2026 (Sabang)</td><td class=\"add\">RM 50 /pax</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Kadar per malam per pax. Infant biasanya dikecualikan. Dikenakan di ATAS harga pakej.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Peak Season Surcharge — ikut katalog</h3>\n    <table class=\"ctbl\"><thead><tr><th>Pakej</th><th>Peak Season</th><th>Surcharge</th><th>Travel Date 2027 (1 Jan–30 Jun)</th><th>Late Booking</th></tr></thead><tbody>\n      <tr><td class=\"it\">Aceh 4D3N</td><td>22 Dis 2026 – 5 Jan 2027</td><td class=\"add\">RM 50 /pax/malam</td><td>—</td><td>—</td></tr>\n      <tr><td class=\"it\">Aceh + Sabang 5D4N</td><td>15 – 30 Mac 2027</td><td class=\"add\">RM 50 /pax/malam</td><td class=\"add\">+RM 50 /pax</td><td>—</td></tr>\n    </tbody></table>\n    <p class=\"custnote\"> Rate Card 2026/2027 senaraikan tetingkap peak 22 Dis 2026–5 Jan 2027 (Aceh) &amp; 15–30 Mac 2027 (Sabang) — berbeza daripada tetingkap katalog di atas. Tambahan RM50/pax dikenakan untuk travel date 2027 (Sabang) di ATAS surcharge peak. Sumber: Date Surcharge 2026/2027.</p>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Lain</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody>\n      <tr><td class=\"it\">Single Supplement</td><td class=\"add\">+RM 250 /orang</td><td>Bilik single (hanya untuk hotel 3★).</td></tr>\n      <tr><td class=\"it\">Late Booking Surcharge</td><td class=\"add\">+RM 50 /booking</td><td>Booking &lt;45 hari sebelum berlepas.</td></tr>\n      <tr><td class=\"it\">Extra Hour (transport & guide)</td><td class=\"add\">150,000 IDR /jam</td><td>Melebihi asas 12 jam/hari (bayar tunai).</td></tr>\n    </tbody></table>\n  </div>\n\n  <div class=\"custblk\">\n    <h3>Harga Kanak-kanak & Infant</h3>\n    <table class=\"ctbl\"><thead><tr><th>Kategori</th><th>Umur</th><th>Harga</th></tr></thead><tbody>\n      <tr><td class=\"it\">Infant</td><td>Bawah 2 tahun</td><td class=\"add\">Flat (ground FOC)</td></tr>\n      <tr><td class=\"it\">CNB — Child No Bed</td><td>2–5 tahun</td><td class=\"add\">Ikut jadual Harga &amp; Pakej</td></tr>\n      <tr><td class=\"it\">CWB — Child With Bed</td><td>6–10 tahun</td><td class=\"add\">Ikut jadual Harga &amp; Pakej</td></tr>\n      <tr><td class=\"it\">Adult</td><td>11 tahun ke atas (ikut katalog)</td><td>Harga penuh dewasa</td></tr>\n    </tbody></table>\n  </div>\n",
   "TRANSPORT_HTML": "\n  <h2>Transportation & Guide</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Jenis kenderaan ikut saiz group. Private driver + tour guide, asas 12 jam/hari.</p>\n  <div class=\"custblk\">\n    <table class=\"ctbl\"><thead><tr><th>Pax</th><th>Transport</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">2–3</td><td>Toyota Calya</td><td>Driving guide / driver + guide.</td></tr>\n      <tr><td class=\"it\">4–6</td><td>Innova Reborn</td><td>Driver + tour guide.</td></tr>\n      <tr><td class=\"it\">7–9</td><td>Van (Toyota Hiace)</td><td>Driver + tour guide.</td></tr>\n      <tr><td class=\"it\">10–15</td><td>Medium Bus</td><td>Driver + tour guide.</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Asas 12 jam/hari. Jam lebih 150,000 IDR/jam (bayar tunai). Sabang: kenderaan menyeberang guna ferri bersama.</p>\n  </div>\n  <div class=\"notebox\"><b>Nota Sabang:</b> feri Ulee Lheu ↔ Balohan (Pulau Weh) termasuk dalam pakej 5D4N. Tour di Pulau Weh guna kenderaan private + guide sama.</div>\n",
   "STAY_HTML": "\n  <h2>Accommodation</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Hotel ikut tier. Standard double-sharing; triple 3★ = extra rollaway bed. Bilik triple/family proper hanya di 4★ (tertakluk availability).</p>\n",
   "HOTELS": [

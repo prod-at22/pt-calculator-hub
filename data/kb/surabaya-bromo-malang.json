@@ -1,6 +1,26 @@
 {
  "slug": "surabaya-bromo-malang",
  "kind": "template",
+ "map": {
+  "variants": {
+   "sbm3": {
+    "code": "SUBB",
+    "package": "pak-jamal-s-b-m"
+   },
+   "sm3": {
+    "code": "SUBB",
+    "package": "pak-jamal-s-m"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "surabaya-bromo-malang"
+   },
+   {
+    "catalog": "surabaya-malang"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -63,22 +83,6 @@
     "emoji": "",
     "img": "@asset:e1bd7be8f599",
     "intro": "Pakej flagship ARBA ke Jawa Timur — gabungan gunung berapi ikonik, alam semula jadi & warisan Islam. Sunrise Gunung Bromo via Jeep 4x4, hiking ke kawah, Pasir Berbisik & Bukit Teletubbies, disusuli Air Terjun Coban Rondo, Ladang Apel, Taman Bunga Santerra de Laponte dan Masjid Tiban Turen. Private tour dengan driver-cum-guide, tipping & Jeep Bromo sudah termasuk. Ground package sahaja (flight tidak termasuk).",
-    "inc": [
-     "3 malam penginapan (hotel 3★ / homestay di Bromo)",
-     "3x Breakfast di hotel",
-     "Private transportation + Airport transfer",
-     "Jeep Tour ke Bromo untuk sunrise",
-     "Entrance fees seperti dinyatakan (Bromo, Santerra, Coban Rondo)",
-     "Private driver cum guide (Indo/English)",
-     "Tipping fee & parking fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik, bagasi, in-flight meal & airport tax",
-     "Lunch & Dinner",
-     "Travel insurance",
-     "Personal expenses & mini bar",
-     "Additional/optional tours (Tumpak Sewu, Kawah Ijen, Semeru, ATV)"
-    ],
     "note": "Wake-up 2 pagi untuk sunrise Bromo. Suhu 5–10°C — bawa jaket tebal + headcover. Upgrade hotel 4★ +RM240/pax. Single supplement +RM500/pax (3★ sahaja)."
    },
    {
@@ -88,125 +92,12 @@
     "emoji": "",
     "img": "@asset:a6bae8d75935",
     "intro": "Varian tanpa Gunung Bromo — sesuai untuk keluarga dengan anak kecil atau warga emas yang mahu elak hiking & jeep bumpy Bromo. Fokus tarikan Malang/Batu: Jatim Park 2, Museum Angkut, Air Terjun Coban Rondo, Taman Bunga Santerra de Laponte dan Apple Picking, ditambah warisan Islam Surabaya (Masjid Agung & Makam Sunan Ampel). Lebih santai, tiada wake-up call awal pagi.",
-    "inc": [
-     "3 malam penginapan (hotel 3★)",
-     "Breakfast di hotel",
-     "Private transportation + Airport transfer",
-     "Entrance fees seperti itinerari",
-     "Private driver cum guide (Indo/English)",
-     "Tipping fee & parking fee"
-    ],
-    "exc": [
-     "Tiket flight pergi-balik, bagasi, in-flight meal & airport tax",
-     "Lunch & Dinner",
-     "Travel insurance",
-     "Personal expenses & mini bar",
-     "Additional tours"
-    ],
     "note": "Tiada Bromo (tiada jeep/sunrise/hiking). Entrance ride/slide di Santerra tidak termasuk (entrance sahaja). Upgrade hotel 4★ +RM240/pax. Single supplement +RM500/pax (3★ sahaja)."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Surabaya → Bromo",
-     "m": "—",
-     "a": [
-      "Airport pick-up (tiba 10.00–11.00 pagi)",
-      "Masjid Al-Akbar Surabaya",
-      "Perjalanan ke Bromo (~3 jam)",
-      "Free & easy, check-in hotel di Bromo"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Bromo → Malang (Turen)",
-     "m": "Breakfast",
-     "a": [
-      "Bertolak ke Gunung Bromo 3 pagi (via Jeep 4x4)",
-      "Sunrise View Point (photostop)",
-      "Bukit Teletubbies & Pasir Berbisik",
-      "Hiking ke Kawah Bromo (kuda/pony optional)",
-      "Balik untuk breakfast & rehat, check-out ~12 tgh",
-      "Perjalanan ke Malang, Masjid Tiban Turen",
-      "Check-in hotel di Malang"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Malang → Surabaya",
-     "m": "Breakfast",
-     "a": [
-      "Check-out hotel",
-      "Air Terjun Coban Rondo",
-      "Ladang Apel & shopping Apple Strudel",
-      "Taman Bunga Santerra de Laponte",
-      "Kajoetangan Heritage Village",
-      "Shopping ole-ole, check-in hotel di Surabaya"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Departure ke KUL",
-     "m": "Breakfast",
-     "a": [
-      "Check-out hotel",
-      "Muzium Kapal Selam (entrance tidak termasuk)",
-      "Shopping ole-ole",
-      "Transfer ke airport, flight SUB → KUL"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Surabaya → Batu",
-     "m": "—",
-     "a": [
-      "Airport pick-up (tiba 11.00–12.00)",
-      "Monumen Tugu Pahlawan",
-      "Alun-alun Surabaya",
-      "Masjid Tiban Turen",
-      "Free & easy, check-in hotel di Malang/Batu"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Batu → Malang",
-     "m": "Breakfast",
-     "a": [
-      "Air Terjun Coban Rondo",
-      "Taman Bunga Santerra de Laponte",
-      "Ladang Apel & shopping Apple Strudel",
-      "Museum Angkut",
-      "Shopping ole-ole, balik hotel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Malang → Surabaya",
-     "m": "Breakfast",
-     "a": [
-      "Check-out hotel",
-      "Jatim Park 2",
-      "Shopping ole-ole",
-      "Perjalanan ke Surabaya",
-      "Masjid Agung Surabaya",
-      "Makam Sunan Ampel (Wali Songo)",
-      "Check-in hotel di Surabaya"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Departure ke KUL",
-     "m": "Breakfast",
-     "a": [
-      "Check-out hotel",
-      "Transfer ke airport, flight SUB → KUL"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -476,7 +367,7 @@
   "blocks": {
    "cmp": "<h2>Perbezaan Pakej</h2><p class='ssub'>Dua varian 4D3N dari Surabaya &mdash; bezanya sama ada Gunung Bromo dimasukkan.</p><table class='cmp'><thead><tr><th>Ciri</th><th>SURABAYA &middot; BROMO &middot; MALANG 4D3N</th><th>SURABAYA &middot; MALANG 4D3N</th></tr></thead><tbody><tr><td class='feat'>Sunrise Gunung Bromo (Jeep 4x4)</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Kawah Bromo, Pasir Berbisik, Bukit Teletubbies</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Air Terjun Coban Rondo</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Taman Bunga Santerra de Laponte</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Ladang Apel &amp; Apple Strudel</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Masjid Tiban Turen</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Masjid Nasional Al-Akbar Surabaya</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Museum Angkut</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Jatim Park 2</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Makam Sunan Ampel (Wali Songo)</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Monumen Tugu Pahlawan &amp; Alun-alun Surabaya</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Kajoetangan Heritage Village</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Muzium Kapal Selam (Monkasel)</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Bermalam</td><td class='val'>Bromo 1 &middot; Malang 1 &middot; Surabaya 1</td><td class='val'>Malang 2 &middot; Surabaya 1</td></tr><tr><td class='feat'>Waktu bangun paling awal</td><td class='val'>2.00 pagi (Hari 2)</td><td class='val'>Normal</td></tr><tr><td class='feat'>Tiba di SUB (Hari 1)</td><td class='val'>10.00&ndash;11.00 pagi</td><td class='val'>11.00 pagi&ndash;12.00 tgh</td></tr><tr><td class='feat'>Jeep 4x4 &amp; tipping</td><td class='val'>Termasuk</td><td class='val'>Tiada Jeep &middot; tipping termasuk</td></tr><tr><td class='feat'>Harga dari (2 pax, Adult)</td><td class='val'><b>RM1,597/pax</b></td><td class='val'><b>RM1,457/pax</b></td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Peminat alam &amp; gunung berapi, fotografi sunrise, keluarga dengan anak remaja ke atas</td><td class='val'>Keluarga dengan anak kecil atau warga emas, peminat taman tema &amp; ziarah</td></tr></tbody></table>",
    "map": "<h2>Travel Map</h2><p class='ssub'>Laluan lalai setiap varian. Tertakluk kepada cuaca, musim &amp; keadaan trafik.</p><div class='mapcard'><div class='mapt'>PT Surabaya&ndash;Bromo&ndash;Malang 4H3M</div><img src='@asset:c6424e91a7c8' alt='PT Surabaya&ndash;Bromo&ndash;Malang 4H3M'><div class='mapc'>Surabaya (airport) &rarr; Bromo 3 jam &rarr; Malang 1 jam 45 min &rarr; Surabaya 1 jam 30 min &middot; Bromo 1 malam &middot; Malang 1 malam &middot; Surabaya 1 malam</div></div><div class='mapcard'><div class='mapt'>PT Surabaya&ndash;Malang 4H3M</div><img src='@asset:42c441c65e6d' alt='PT Surabaya&ndash;Malang 4H3M'><div class='mapc'>Surabaya (airport) &rarr; Malang/Batu 1 jam 45 min &rarr; Surabaya 1 jam 30 min &middot; Malang 2 malam &middot; Surabaya 1 malam</div></div>",
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar katalog V2 (9 Mac 2026) per pax, 2&ndash;3 orang sebilik. Ground + tipping. Flight tidak termasuk. Harga sah sehingga 31 Dis 2026; travel period sehingga 31 Jan 2027.</p><div class='custblk'><h3>Surabaya&ndash;Bromo&ndash;Malang 4D3N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6&ndash;11)</th><th>Child No Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2 pax</td><td class='add'>RM1,597</td><td>RM1,397</td><td>RM1,197</td></tr><tr><td class='it'>3 pax</td><td class='add'>RM1,497</td><td>RM1,297</td><td>RM1,097</td></tr><tr><td class='it'>4&ndash;6 pax</td><td class='add'>RM1,397</td><td>RM1,197</td><td>RM997</td></tr><tr><td class='it'>7&ndash;10 pax</td><td class='add'>RM1,297</td><td>RM1,097</td><td>RM897</td></tr><tr><td class='it'>11&ndash;15 pax</td><td class='add'>RM1,197</td><td>RM1,097</td><td>RM897</td></tr></tbody></table></div><div class='custblk'><h3>Surabaya&ndash;Malang 4D3N (tanpa Bromo)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6&ndash;11)</th><th>Child No Bed (2&ndash;5)</th></tr></thead><tbody><tr><td class='it'>2 pax</td><td class='add'>RM1,457</td><td>RM1,257</td><td>RM1,057</td></tr><tr><td class='it'>3 pax</td><td class='add'>RM1,397</td><td>RM1,197</td><td>RM997</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM1,397</td><td>RM1,197</td><td>RM997</td></tr><tr><td class='it'>6&ndash;7 pax</td><td class='add'>RM1,297</td><td>RM1,097</td><td>RM897</td></tr><tr><td class='it'>8&ndash;10 pax</td><td class='add'>RM1,257</td><td>RM1,057</td><td>RM857</td></tr></tbody></table></div><div class='custblk'><h3>Termasuk &amp; Tidak Termasuk</h3><table class='ctbl'><thead><tr><th>Termasuk</th><th>Tidak termasuk</th></tr></thead><tbody><tr><td>3 malam penginapan (hotel 3&#9733;; homestay di Bromo bagi varian Bromo)<br>3&times; breakfast di hotel<br>Private transportation + airport transfer<br>Entrance fee seperti dinyatakan dalam itinerari<br>Private driver cum guide<br>Tipping fee &amp; parking fee<br>Jeep Tour sunrise ke Bromo (varian Bromo sahaja)</td><td>Tiket flight pergi-balik, bagasi, in-flight meal &amp; airport tax<br>Lunch &amp; dinner<br>Travel insurance<br>Personal expenses &amp; mini bar<br>Additional/optional tours</td></tr></tbody></table></div><div class='notebox'><b>Umur ikut tarikh perjalanan:</b> Adult 12 tahun ke atas &middot; Child With Bed 6&ndash;11 &middot; Child No Bed 2&ndash;5 &middot; Infant bawah 2 tahun tiada kadar dalam katalog. Pax 16 ke atas: minta fresh quote operator.</div><div class='notebox'><b>Deposit RM250/pax</b> semasa confirmation &middot; full payment 45 hari sebelum departure &middot; harga sah 24 jam selepas quotation submission &middot; final itinerary &amp; hotel 14 hari sebelum trip.</div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation (Add-ons)</h2><p class='ssub'>Rate card operasi Surabaya &ndash; Bromo &ndash; Malang. Lajur <b>Tambah</b> ialah harga untuk tambah item; lajur <b>Tolak</b> ialah amaun yang boleh ditolak bila item dibuang dari pakej. Semua harga per pax kecuali dinyatakan.</p><div class='notebox'><b>Travel date 2027 (1 Jan &ndash; 30 Jun 2027): TIADA surcharge.</b> Tiada caj travel-date tambahan dikenakan untuk mana-mana departure dalam tempoh itu. Peak season katalog yang masih terpakai hanya tetingkap 2025/2026 sehingga 5 Jan 2027 &mdash; lihat tab Surcharge.</div><div class='custblk'><h3>Transport + Driver</h3><table class='ctbl'><thead><tr><th>Tempoh</th><th>Jenis transport</th><th>Kapasiti</th><th>Tambah</th><th>Tolak</th></tr></thead><tbody><tr><td class='it'>1 Day tour</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM300/transport</td><td>RM150/transport</td></tr><tr><td class='it'>1 Day tour</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM900/transport</td><td>RM750/transport</td></tr><tr><td class='it'>2D1N</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM600/transport</td><td>RM450/transport</td></tr><tr><td class='it'>2D1N</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM1,200/transport</td><td>RM1,000/transport</td></tr><tr><td class='it'>3D2N</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM1,000/transport</td><td>RM650/transport</td></tr><tr><td class='it'>3D2N</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM1,500/transport</td><td>RM1,250/transport</td></tr><tr><td class='it'>4D3N</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM1,350/transport</td><td>RM1,000/transport</td></tr><tr><td class='it'>4D3N</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM2,000/transport</td><td>RM1,650/transport</td></tr><tr><td class='it'>5D4N</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM1,600/transport</td><td>RM1,250/transport</td></tr><tr><td class='it'>5D4N</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM2,500/transport</td><td>RM2,150/transport</td></tr><tr><td class='it'>6D5N</td><td>Luxio / Avanza</td><td>2&ndash;4 pax</td><td class='add'>RM1,800/transport</td><td>RM1,450/transport</td></tr><tr><td class='it'>6D5N</td><td>Hiace (van)</td><td>5&ndash;10 pax</td><td class='add'>RM3,000/transport</td><td>RM2,650/transport</td></tr></tbody></table><p class='ssub' style='margin:8px 0 0'>Kadar per kenderaan, bukan per pax. Meliputi area Surabaya &ndash; Bromo &ndash; Malang sahaja. Rate card tiada kadar untuk 11&ndash;15 pax (perlu 2 kenderaan) &mdash; minta kadar operator. Sewa tempat/venue dikira sebagai add-on berasingan.</p></div><div class='custblk'><h3>Accommodation &mdash; malam tambahan / tolak</h3><table class='ctbl'><thead><tr><th>Hotel</th><th>Tambah 1 malam</th><th>Tolak 1 malam</th></tr></thead><tbody><tr><td class='it'>Lava View Lodge atau seumpamanya (Bromo)</td><td class='add'>RM130/pax/malam</td><td>RM30/pax/malam</td></tr><tr><td class='it'>Aston Inn Batu (Malang)</td><td class='add'>RM100/pax/malam</td><td>RM50/pax/malam</td></tr><tr><td class='it'>The Alana (Surabaya)</td><td class='add'>RM100/pax/malam</td><td>RM50/pax/malam</td></tr></tbody></table><p class='ssub' style='margin:8px 0 0'>Kadar di atas untuk hotel 3&#9733; yang disediakan TO. Untuk malam tambahan di hotel 4&#9733;, tambah RM85/pax/malam (kadar upgrade katalog) &mdash; jadi Bromo RM215, Malang RM185, Surabaya RM185 sepax semalam. Hotel lain di luar senarai TO boleh dicadangkan &mdash; minta kadar operator.</p></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Hidangan</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td class='add'>Dicadangkan makan di hotel sahaja</td><td>&mdash;</td></tr><tr><td class='it'>Lunch</td><td class='add'>RM35/pax</td><td>RM20/pax</td></tr><tr><td class='it'>Dinner</td><td class='add'>RM35/pax</td><td>RM20/pax</td></tr></tbody></table></div><div class='custblk'><h3>Attraction &amp; aktiviti tambahan &mdash; Malang / Batu</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Kampung Warna Warni Jodipan</td><td class='add'>Free entry</td><td>Sight-seeing</td></tr><tr><td class='it'>Alun-alun Malang</td><td class='add'>Free entry</td><td>Sight-seeing</td></tr><tr><td class='it'>Jatim Park I (theme park)</td><td class='add'>RM20/pax</td><td>&mdash;</td></tr><tr><td class='it'>Jatim Park III (Dinopark)</td><td class='add'>RM45/pax</td><td>&mdash;</td></tr><tr><td class='it'>Batu Night Spectacular</td><td class='add'>RM20/pax</td><td>&mdash;</td></tr><tr><td class='it'>Malang Night Spectacular</td><td class='add'>RM15/pax</td><td>&mdash;</td></tr><tr><td class='it'>Hawai Waterpark</td><td class='add'>RM30/pax</td><td>Bawah 85cm free entry</td></tr><tr><td class='it'>Coban Putri Waterfall</td><td class='add'>RM7/pax</td><td>&mdash;</td></tr><tr><td class='it'>Batu Flower Garden</td><td class='add'>RM10/pax</td><td>&mdash;</td></tr><tr><td class='it'>Wonosari Tea Plantation</td><td class='add'>RM5/pax</td><td>&mdash;</td></tr><tr><td class='it'>Museum Angkut</td><td class='add'>RM25/pax</td><td>&mdash;</td></tr><tr><td class='it'>Taman Safari Prigen</td><td class='add'>RM97/pax</td><td>&mdash;</td></tr><tr><td class='it'>Air Terjun Tumpak Sewu, Goa Tetes &amp; Kapas Biru</td><td class='add'>RM160/pax</td><td>Harga sudah termasuk transport ke Tumpak Sewu</td></tr><tr><td class='it'>Local guide di Tumpak Sewu</td><td class='add'>RM150/guide</td><td>1 guide untuk 1&ndash;5 pax</td></tr><tr><td class='it'>Panorama Kapas Biru</td><td class='add'>RM10/pax</td><td>Entrance sahaja</td></tr><tr><td class='it'>Kawah Ijen Tour</td><td class='add'>RM150/pax</td><td>Harga termasuk local guide &amp; mask</td></tr><tr><td class='it'>Semeru Lava Tour</td><td class='add'>RM150/pax</td><td>Termasuk entrance fee &amp; dokumentasi foto/video</td></tr><tr><td class='it'>ATV Semeru (sewa 1 jam)</td><td class='add'>RM120/pax</td><td>1 ATV maksimum 2 pax</td></tr><tr><td class='it'>Horse / Pony Ride ke Kawah Bromo</td><td class='add'>RM120/pax</td><td>Pergi-balik ke/dari kawah</td></tr></tbody></table></div><div class='custblk'><h3>Attraction &amp; aktiviti tambahan &mdash; Surabaya</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Alun-alun Surabaya</td><td class='add'>Free entry</td><td>Sight-seeing</td></tr><tr><td class='it'>Sanggar Agung Temple</td><td class='add'>Free entry</td><td>&mdash;</td></tr><tr><td class='it'>Cheng Ho Mosque</td><td class='add'>Free entry</td><td>&mdash;</td></tr><tr><td class='it'>Surabaya Zoo</td><td class='add'>RM7/pax</td><td>&mdash;</td></tr></tbody></table></div><div class='custblk'><h3>Upgrade &amp; caj lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade hotel 4&#9733; (3 malam)</td><td class='add'>RM240/pax</td><td>Proper triple bed / family room hanya di 4&#9733;. Jadual katalog menyenaraikannya sebagai Add RM85/pax/malam</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM500/pax</td><td>Katalog: hotel 3&#9733; sahaja</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM50/booking</td><td>Tempahan kurang 45 hari sebelum departure</td></tr></tbody></table></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Pilih varian, isi tarikh dan pax, kemudian laraskan itinerari kalau perlu. Pilihan bertanda <i>dalam pakej</i> tidak menambah kos &mdash; hanya hari, malam, meal dan add-on tambahan yang dicaj. Kadar tambah/tolak datang dari Rate Card Operasi Surabaya&ndash;Bromo&ndash;Malang (lihat tab Simple Customisation).</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Surabaya&ndash;Bromo&ndash;Malang 4D3N &middot; Hotel 3&#9733;</option><option value='1'>PT Surabaya&ndash;Bromo&ndash;Malang 4D3N &middot; Upgrade Hotel 4&#9733;</option><option value='2'>PT Surabaya&ndash;Malang 4D3N (tanpa Bromo) &middot; Hotel 3&#9733;</option><option value='3'>PT Surabaya&ndash;Malang 4D3N (tanpa Bromo) &middot; Upgrade Hotel 4&#9733;</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed<br><small>6&ndash;11 tahun</small></span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed<br><small>2&ndash;5 tahun</small></span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant bawah 2 tahun tiada kadar dalam katalog &mdash; minta quote operator.</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement RM500/pax. Katalog nyatakan ia hanya untuk hotel 3&#9733; &mdash; untuk varian 4&#9733;, sahkan dengan operator.</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><p class='ssub'>Caj peak season dikira per pax per malam mengikut tier hotel, ditambah atas harga pakej.</p><div class='notebox'><b>Travel date 2027 (1 Jan &ndash; 30 Jun 2027): TIADA surcharge travel-date.</b> Senarai 2026/2027 Date Surcharge ARBA tidak mengenakan apa-apa caj untuk Surabaya&ndash;Bromo&ndash;Malang. Hanya tetingkap peak season katalog di bawah yang terpakai.</div><div class='custblk'><h3>Peak Season katalog &mdash; caj ikut tier hotel</h3><table class='ctbl'><thead><tr><th>Tier</th><th>Hotel</th><th>Upgrade surcharge</th><th>Peak season surcharge</th></tr></thead><tbody><tr><td class='it'>3&#9733;</td><td>Surabaya: The Alana</td><td>&mdash;</td><td class='add'>RM130/pax/malam</td></tr><tr><td class='it'>3&#9733;</td><td>Malang: Aston Batu Inn</td><td>&mdash;</td><td class='add'>RM130/pax/malam</td></tr><tr><td class='it'>3&#9733;</td><td>Bromo: Lava View Lodge</td><td>&mdash;</td><td class='add'>RM130/pax/malam</td></tr><tr><td class='it'>4&#9733;</td><td>Surabaya: Goldvitel Hotel</td><td>Add RM85/pax/malam</td><td class='add'>RM180/pax/malam</td></tr><tr><td class='it'>4&#9733;</td><td>Malang: Regent Park Hotel</td><td>Add RM85/pax/malam</td><td class='add'>RM180/pax/malam</td></tr><tr><td class='it'>4&#9733;</td><td>Bromo: Grand Whiz Hotel</td><td>Add RM85/pax/malam</td><td class='add'>RM180/pax/malam</td></tr></tbody></table><p class='ssub' style='margin:8px 0 0'>Tetingkap peak: 21&ndash;31 Dis 2025 &middot; 1&ndash;5 Jan 2026 &middot; 15&ndash;30 Mac 2026 &middot; 25 Mei&ndash;5 Jun 2026 &middot; 20 Dis 2026&ndash;5 Jan 2027. Varian Surabaya&ndash;Malang tiada malam di Bromo. Selepas 5 Jan 2027 tiada lagi tetingkap peak sehingga 30 Jun 2027.</p></div><div class='custblk'><h3>Caj Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Upgrade Hotel 4&#9733;</td><td class='add'>+RM240/pax</td><td>Total 3 malam. Jadual akomodasi katalog menyenaraikannya sebagai Add RM85/pax/malam</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM500/pax</td><td>Bilik single &mdash; hotel 3&#9733; sahaja</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM50/booking</td><td>Tempahan kurang 45 hari sebelum departure</td></tr><tr><td class='it'>Deposit</td><td class='add'>RM250/pax</td><td>Semasa confirmation</td></tr></tbody></table></div>",

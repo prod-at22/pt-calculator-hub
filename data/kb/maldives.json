@@ -1,6 +1,36 @@
 {
  "slug": "maldives",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "MLE",
+    "package": "mle-basic-low"
+   },
+   "combo": {
+    "code": "MLE",
+    "package": "mle-combo-low"
+   },
+   "wv": {
+    "code": "MLE",
+    "package": "mle-water-low"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "maldives-basic"
+   },
+   {
+    "catalog": "maldives-standard"
+   },
+   {
+    "catalog": "maldives-combo"
+   },
+   {
+    "catalog": "maldives-water-villa"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -47,25 +77,7 @@
     "sub": "Island trip Maafushi bajet — sightseeing & snorkeling",
     "emoji": "🏝️",
     "img": "Maafushi island.jpg",
-    "intro": "Pakej paling berpatutan (dari RM2,097/pax) — 3 malam di local island Maafushi (hotel 3★), fokus island trip & sightseeing: dolphin sighting, reef & fish-tank snorkelling, lunch atas sandbank. Sesuai untuk yang mahu rasa Maldives tanpa harga resort. Boleh upgrade ke 4★ (+RM400/pax).",
-    "inc": [
-     "3 malam akomodasi hotel 3★ (Maafushi)",
-     "Return airport transfer by speedboat (sharing)",
-     "Aktiviti mengikut itinerari (Fish Tank excursion)",
-     "Breakfast setiap hari",
-     "Tipping fee",
-     "Green Tax",
-     "Tourism & Services Tax (TGST)"
-    ],
-    "exc": [
-     "Tiket flight antarabangsa (return)",
-     "In-flight meals",
-     "Lunch & dinner",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Aktiviti luar itinerari",
-     "Caj tambahan RM240/pax (bayar berasingan)"
-    ],
+    "intro": "Pakej paling berpatutan (dari {{dari:0}}/pax) — 3 malam di local island Maafushi (hotel 3★), fokus island trip & sightseeing: dolphin sighting, reef & fish-tank snorkelling, lunch atas sandbank. Sesuai untuk yang mahu rasa Maldives tanpa harga resort. Boleh upgrade ke 4★ (+RM400/pax).",
     "note": "Single Supplement: quoted upon request. Upgrade 3★ → 4★: RM240–RM400/pax, kadar muktamad ikut hotel & tarikh."
    },
    {
@@ -75,23 +87,6 @@
     "emoji": "⭐",
     "img": "Maldives-resort-island.jpg",
     "intro": "Naik taraf ke hotel 4★ Maafushi dengan full-board (Breakfast, Lunch & Dinner). Termasuk pilihan full-day excursion / real-break snorkelling (nurse shark, shipwreck, island hopping) + night fishing trip. Pilihan popular keluarga yang mahu semua meal & aktiviti diuruskan (dari RM3,097/pax).",
-    "inc": [
-     "3 malam akomodasi hotel 4★ (Maafushi)",
-     "Return airport transfer by speedboat (sharing)",
-     "Full board: Breakfast, Lunch & Dinner (ikut itinerari)",
-     "Snorkelling spot terkenal + swimming sandbank + lunch + dolphin watching (shared tour) — optional",
-     "Snorkelling nurse shark, ship wreck point & island hopping + lunch (shared tour) — optional",
-     "Night fishing trip by boat",
-     "Tipping fee, Green Tax & TGST"
-    ],
-    "exc": [
-     "Tiket flight antarabangsa (return)",
-     "In-flight meals",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Aktiviti luar itinerari",
-     "Caj tambahan RM240/pax (bayar berasingan)"
-    ],
     "note": "Single Supplement: +RM700/pax. Min pax excursion: 6 pax (Kaani) / 10 pax (Arena)."
    },
    {
@@ -101,27 +96,6 @@
     "emoji": "🌊",
     "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -03.jpg",
     "intro": "Gabungan terbaik dua dunia: 2 malam local island Maafushi (island trip + snorkeling + dolphin) diikuti 1 malam water villa di resort Adaaran Select Hudhuran Fushi. Termasuk GoPro photos/videos, kayak/SUP & 10% diskaun souvenir. Sesuai couple/keluarga yang mahu rasa overwater villa tanpa harga penuh resort (dari RM4,197/pax).",
-    "inc": [
-     "Meet & greet oleh wakil tempatan",
-     "3 malam akomodasi (2N local island + 1N water villa Adaaran)",
-     "Return airport transfer by speedboat (sharing)",
-     "Meals mengikut itinerari",
-     "Full day snorkelling trip & dolphin sightseeing",
-     "Local guide semasa excursion",
-     "Kayaking atau stand-up paddle (ikut cuaca)",
-     "GoPro photos & videos percuma semasa snorkelling",
-     "Snorkelling gear & beach towel percuma",
-     "10% diskaun souvenir di kedai terpilih",
-     "Semua cukai (GST, Service Tax, Green Tax)"
-    ],
-    "exc": [
-     "Tiket flight antarabangsa (return)",
-     "In-flight meals",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Aktiviti luar itinerari",
-     "Caj tambahan RM240/pax (bayar berasingan)"
-    ],
     "note": "Single Supplement: +RM700/pax. Super Peak (01 Sep–31 Dec 2026): price upon request."
    },
    {
@@ -131,203 +105,14 @@
     "emoji": "💎",
     "img": "Diamonds Thudufushi Beach and Water Villas, May 2017 -01.jpg",
     "intro": "Pengalaman overwater villa penuh di OBLU Xperience Ailafushi (4★, ~15 min speedboat dari airport Velana). All-inclusive suasana meriah — daily live music dengan DJ, group activities, overwater fitness centre & watersports non-motorized percuma. Pilihan honeymoon/percutian premium (dari RM5,197/pax).",
-    "inc": [
-     "Meet & greet oleh wakil tempatan",
-     "Return airport transfer by speedboat (sharing)",
-     "Welcome drinks",
-     "Meals mengikut pakej (rujuk itinerari)",
-     "Akses tanpa had overwater fitness centre",
-     "Daily live music dengan DJ & aktiviti rekreasi",
-     "Daily organized group activities",
-     "Non-motorized water sports percuma (tempoh terhad setiap hari)",
-     "Semua cukai (GST, Service Tax, Green Tax)"
-    ],
-    "exc": [
-     "Tiket flight antarabangsa (return)",
-     "In-flight meals",
-     "Additional tours & meals",
-     "Perbelanjaan peribadi",
-     "Aktiviti luar itinerari",
-     "Caj tambahan RM240/pax (bayar berasingan)"
-    ],
     "note": "Single Supplement: +RM700/pax. Super Peak (25–31 Dis 2026): price upon request."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Male (Maafushi)",
-     "m": "—",
-     "a": [
-      "Cadangan tiba sebelum 12 tengah hari",
-      "Airport transfer by speedboat (sharing)",
-      "Check-in hotel 3★ Maafushi"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Fish Tank Excursion Trip (shared tour)",
-     "m": "B",
-     "a": [
-      "Dolphin sightseeing",
-      "Reef snorkelling",
-      "Fish Tank snorkelling",
-      "Lunch atas Sand Bank",
-      "Kembali ke Maafushi Island"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Maafushi Island — Free & Easy",
-     "m": "B",
-     "a": [
-      "Free & easy",
-      "Optional: join tour tambahan (rujuk Customisation)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Male → Kuala Lumpur",
-     "m": "B",
-     "a": [
-      "Cadangan berlepas selepas 12 tengah hari",
-      "Check-out hotel",
-      "Airport transfer by speedboat"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Male (Maafushi)",
-     "m": "D",
-     "a": [
-      "Cadangan tiba sebelum 12 tengah hari",
-      "Airport transfer by speedboat (sharing)",
-      "Check-in hotel 4★ Maafushi",
-      "Dinner"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Full Day / Real Break Excursion (shared tour)",
-     "m": "B / L / D",
-     "a": [
-      "Snorkelling di spot terkenal",
-      "Swimming di Sand Bank + lunch",
-      "Dolphin watching / sightseeing",
-      "ATAU Real Break: nurse shark, ship wreck point, island hopping"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Maafushi — Free & Easy + Night Fishing",
-     "m": "B / L / D",
-     "a": [
-      "Free & easy atau join optional tour",
-      "Sunset point",
-      "Night fishing trip by boat (shared tour)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Male → Kuala Lumpur",
-     "m": "B",
-     "a": [
-      "Cadangan berlepas selepas 12 tengah hari",
-      "Check-out hotel",
-      "Airport transfer by speedboat"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Male (Maafushi)",
-     "m": "D",
-     "a": [
-      "Cadangan tiba sebelum 12 tengah hari",
-      "Airport transfer by speedboat (sharing)",
-      "Check-in local island (Maafushi)",
-      "Dinner"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Adventure Snorkeling + Dolphin (shared tour)",
-     "m": "B / L / D",
-     "a": [
-      "Snorkelling di spot terkenal",
-      "Swimming & lunch di Sand Bank",
-      "Dolphin watching / sightseeing"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Maafushi → Water Villa (Adaaran Select Hudhuran Fushi)",
-     "m": "B / L / D",
-     "a": [
-      "Speed transfer ke Male, kemudian speedboat ke Adaaran Select Hudhuran Fushi",
-      "Menikmati percutian santai / aktiviti harian resort",
-      "Free at own leisure"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Male → Kuala Lumpur",
-     "m": "B",
-     "a": [
-      "Cadangan berlepas selepas 12 tengah hari",
-      "Check-out",
-      "Airport transfer by speedboat"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Kuala Lumpur → Male (OBLU Water Villa)",
-     "m": "D",
-     "a": [
-      "Cadangan tiba sebelum 12 tengah hari",
-      "Airport transfer by speedboat (sharing)",
-      "Check-in OBLU Xperience Water Villa",
-      "Welcome drinks & Dinner"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "OBLU Xperience Water Villa",
-     "m": "B / L / D",
-     "a": [
-      "Percutian santai dengan aktiviti harian",
-      "Live music dengan DJ & group activities",
-      "Non-motorized water sports",
-      "Free at own leisure"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "OBLU Xperience Water Villa",
-     "m": "B / L / D",
-     "a": [
-      "Percutian santai dengan aktiviti harian",
-      "Overwater fitness centre",
-      "Free at own leisure"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Male → Kuala Lumpur",
-     "m": "B",
-     "a": [
-      "Cadangan berlepas selepas 12 tengah hari",
-      "Check-out",
-      "Airport transfer by speedboat"
-     ]
-    }
-   ]
+   null,
+   null,
+   null,
+   null
   ],
   "attractions": [
    {
@@ -507,7 +292,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar katalog Ground &amp; Tipping (tidak termasuk tiket flight) &mdash; per pax, 2&ndash;3 orang sebilik, group 2&ndash;10 pax. Valid hingga 31 Dis 2026. Semua harga MYR.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pakej</th><th>Adult (9+)</th><th>Child w/ Bed (2&ndash;9)</th><th>Child No Bed (2&ndash;5)</th><th>Infant (0&ndash;2)</th></tr></thead><tbody><tr><td class='it'>Basic 4D3N (3&#9733;)</td><td class='add'>RM 2,097</td><td>RM 1,697</td><td>RM 1,097</td><td>RM 100</td></tr><tr><td class='it'>4-Star 4D3N (4&#9733; full-board)</td><td class='add'>RM 3,097</td><td>RM 2,197</td><td>RM 1,797</td><td>RM 100</td></tr><tr><td class='it'>Combo Island 4D3N</td><td class='add'>RM 4,197</td><td>RM 3,997</td><td>RM 3,797</td><td>RM 100</td></tr><tr><td class='it'>Water Villa 4D3N (OBLU)</td><td class='add'>RM 5,197</td><td>RM 4,997</td><td>RM 4,797</td><td>RM 100</td></tr></tbody></table></div><p class='ssub'>Harga <b>Ground-only</b> &mdash; tiket flight antarabangsa dibeli berasingan. Umur dikira pada <b>tarikh travel</b>. Infant 0&ndash;2 tahun RM100 (bukan FOC). Upgrade Basic 3&#9733; &rarr; 4&#9733;: <b>RM240&ndash;RM400/pax</b>, kadar muktamad ikut hotel &amp; tarikh dan ditentukan semasa quotation. Harga sah 24 jam selepas quotation dihantar.</p>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation &amp; Add-ons</h2><p class='ssub'>Add-on excursion ikut hotel (harga katalog, per pax). Shared tour = boat &amp; aktiviti dikongsi pelancong lain. Aktiviti mesti ditempah dengan hotel yang sama.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Hotel / Tier</th><th>Add-on excursion</th><th>Harga /pax</th></tr></thead><tbody><tr><td class='it' rowspan='4'>Kaani (4-Star)</td><td>Full Day Excursion Trip &mdash; snorkel spot terkenal, sandbank + lunch, dolphin</td><td class='add'>RM 250</td></tr><tr><td>Real Break Trip &mdash; nurse shark, ship wreck point, island hopping, lunch sandbank</td><td class='add'>RM 350</td></tr><tr><td>Whale Shark Trip &mdash; whale shark &amp; manta point, lunch</td><td class='add'>RM 500</td></tr><tr><td>Private Island Excursion &mdash; Adaaran Rannalhi / Fihalhohi / Olhuveli / Sunsiyam / Malahini Kuda Bandos</td><td class='add'>RM 800</td></tr><tr><td class='it' rowspan='4'>Arena (4-Star)</td><td>Full Day Adventure &mdash; housereef snorkelling, island hopping Gulhi &amp; Guraidhoo, lunch sandbank, dolphin</td><td class='add'>RM 320</td></tr><tr><td>Shark Bay Snorkelling &mdash; nurse shark, manta rays point, lunch sandbank, dolphin</td><td class='add'>RM 270</td></tr><tr><td>Whale Shark Expedition &mdash; whale shark, island hopping, dolphin cruise, manta rays, lunch Dhigurah</td><td class='add'>RM 520</td></tr><tr><td>Private Island Excursion &mdash; Adaaran Rannalhi / Fihalhohi / Olhuveli / Sunsiyam / Centara Ras Fushi / Prestige Vadoo</td><td class='add'>RM 800</td></tr><tr><td class='it' rowspan='3'>ICOM (Basic 3&#9733;)</td><td>Vaavu Atoll Shipwreck &mdash; nurse shark, shipwreck snorkel, lunch sandbank, stingray, dolphin</td><td class='add'>RM 350</td></tr><tr><td>Whale Shark Trip &mdash; whale shark &amp; manta point, lunch Dhigurah</td><td class='add'>RM 500</td></tr><tr><td>Private Island Excursion &mdash; Adaaran Rannalhi / Fihalhohi / Prestige Vadoo / Centara Rasfushi</td><td class='add'>RM 800</td></tr><tr><td class='it' rowspan='3'>Velana (Basic 3&#9733;)</td><td>Fish Tank Trip &mdash; dolphin, reef &amp; fish tank snorkel, lunch sandbank, Gulhi island hopping</td><td class='add'>RM 350</td></tr><tr><td>Whale Shark Trip &mdash; whale shark &amp; manta point, lunch Dhigurah</td><td class='add'>RM 500</td></tr><tr><td>Real Break Tour &mdash; nurse shark, shipwreck snorkel, lunch sandbank, stingray, dolphin</td><td class='add'>RM 350</td></tr></tbody></table></div><p class='ssub'>Minimum pax untuk excursion: <b>6 pax (Kaani)</b> &middot; <b>10 pax (Arena)</b>.</p><div class='custblk'><h3 style='margin:16px 0 6px'>Add-on lain</h3><p class='ssub' style='margin:0 0 8px'>Sumber: rate card ARBA &mdash; tiada dalam katalog.</p><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Unit</th></tr></thead><tbody><tr><td class='it'>Upgrade Basic 3&#9733; &rarr; 4&#9733;</td><td class='add'>RM 240 &ndash; RM 400</td><td>per pax (3 malam)</td></tr><tr><td class='it'>Night fishing trip</td><td class='add'>RM 200</td><td>per pax</td></tr><tr><td class='it'>Dolphin watching (berasingan)</td><td class='add'>RM 150</td><td>per pax</td></tr><tr><td class='it'>Submarine tour</td><td class='add'>RM 350</td><td>per pax</td></tr><tr><td class='it'>Extra lunch halal (Maafushi)</td><td class='add'>RM 50</td><td>per pax / meal</td></tr><tr><td class='it'>Extra dinner halal (Maafushi)</td><td class='add'>RM 65</td><td>per pax / meal</td></tr><tr><td class='it'>Extra night &mdash; 3&#9733; Maafushi</td><td class='add'>RM 550</td><td>per pax / malam</td></tr><tr><td class='it'>Extra night &mdash; 4&#9733; local island</td><td class='add'>RM 800</td><td>per pax / malam</td></tr><tr><td class='it'>Extra night &mdash; Water Villa</td><td class='add'>RM 1,600</td><td>per pax / malam</td></tr><tr><td class='it'>Bedroom decoration (honeymoon)</td><td class='add'>RM 100</td><td>per couple</td></tr><tr><td class='it'>Candle-light dinner tepi pantai</td><td class='add'>RM 90</td><td>per couple</td></tr><tr><td class='it'>Couple spa treatment (resort)</td><td class='add'>RM 400</td><td>per couple</td></tr><tr><td class='it'>Pocket Wifi Maldives 5GB</td><td class='add'>RM 150</td><td>per trip</td></tr><tr><td class='it'>eSIM Maldives 7 hari</td><td class='add'>RM 100</td><td>per trip</td></tr><tr><td class='it'>Takaful TripCare 360 Area 3 (1&ndash;5 hari)</td><td class='add'>RM 72 individu &middot; RM 138 couple &middot; RM 188 family &middot; RM 244 senior 70+</td><td>ikut unit</td></tr><tr><td class='it'>Blue Ribbon luggage tracker</td><td class='add'>Silver RM 20 &middot; Gold RM 40 &middot; Platinum RM 55 &middot; Diamond RM 70</td><td>per pcs</td></tr><tr><td class='it'>Speedboat ketibaan lewat (selepas 8 malam)</td><td class='add'>RM 150</td><td>per hala / pax</td></tr></tbody></table></div><p class='ssub'>Perkara di luar itinerari (contoh: resort island excursion trip) dibayar sendiri oleh customer. Aktiviti percuma tidak boleh ditukar dengan aktiviti lain, voucher atau cash.</p>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, surcaj musim dan late/last minute dikira sendiri. <b>Surcaj musim Maldives ialah amaun rata per pax</b> untuk keseluruhan trip (bukan per malam), dan setiap varian ada tetingkap tarikhnya sendiri. <b>Super Peak</b> (Combo 1 Sep&ndash;31 Dis 2026, Water Villa 25&ndash;31 Dis 2026) ialah <i>price upon request</i> &mdash; kalkulator sengaja tidak mengira apa-apa dan akan beri amaran; minta sebut harga operator. <b>Travel 11 Jan&ndash;30 Jun 2027</b> dikenakan surcaj RM200/pax semua varian.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Maldives Basic 4D3N (3 bintang)</option><option value='1'>PT Maldives 4-Star 4D3N (full board)</option><option value='2'>PT Maldives Combo Island 4D3N</option><option value='3'>PT Maldives Water Villa 4D3N (OBLU)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (2-9)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant 0&ndash;2 tahun RM100 setiap varian &mdash; bukan FOC.</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>4-Star, Combo &amp; Water Villa +RM700/pax &middot; Basic: quoted upon request (katalog tiada kadar &mdash; kalkulator tidak caj apa-apa untuk Basic).</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge &amp; Peak Season</h2><p class='ssub'>Surcharge musim berbeza ikut pakej. Semua per pax kecuali dinyatakan. Sumber: katalog 2026 setiap varian.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Pakej</th><th>High Season</th><th>Peak / Shoulder</th><th>Tarikh khas</th></tr></thead><tbody><tr><td class='it'>Basic</td><td class='add'>+RM100<br><span class='ssub'>11 Jan&ndash;30 Apr &amp; 1 Nov&ndash;20 Dis 2026</span></td><td class='add'>+RM200<br><span class='ssub'>21 Dis 2025&ndash;10 Jan 2026 &amp; 21 Dis 2026&ndash;10 Jan 2027</span></td><td>24 Dis +RM600 &middot; 31 Dis +RM700</td></tr><tr><td class='it'>4-Star</td><td class='add'>+RM200<br><span class='ssub'>11 Jan&ndash;30 Apr &amp; 1 Nov&ndash;20 Dis 2026</span></td><td class='add'>+RM300<br><span class='ssub'>21 Dis 2025&ndash;10 Jan 2026 &amp; 21 Dis 2026&ndash;10 Jan 2027</span></td><td>24 Dis +RM600 &middot; 31 Dis +RM700</td></tr><tr><td class='it'>Combo Island</td><td class='add'>+RM400<br><span class='ssub'>9 Jan&ndash;5 Apr 2026</span></td><td class='add'>+RM200 <span class='ssub'>(6 Apr&ndash;7 Mei 2026)</span><br>+RM100 shoulder <span class='ssub'>(1&ndash;31 Ogos &amp; 1&ndash;31 Okt 2026)</span></td><td>Super Peak 1 Sep&ndash;31 Dis 2026: harga on request</td></tr><tr><td class='it'>Water Villa</td><td class='add'>+RM300<br><span class='ssub'>24 Mac&ndash;30 Apr 2026</span></td><td class='add'>+RM500<br><span class='ssub'>1 Nov&ndash;24 Dis 2026</span></td><td>Super Peak 25&ndash;31 Dis 2026: harga on request</td></tr></tbody></table></div><div class='custblk'><h3 style='margin:16px 0 6px'>Surcharge lain</h3><table class='ctbl'><thead><tr><th>Jenis</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody><tr><td class='it'>Single Supplement &mdash; Basic</td><td class='add'>Quoted on request</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Single Supplement &mdash; 4-Star, Combo, Water Villa</td><td class='add'>+RM700/pax</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM50/booking</td><td>Booking &lt;45 hari sebelum berlepas</td></tr><tr><td class='it'>Last Minute &mdash; Basic</td><td class='add'>2 pax +RM300 &middot; 3&ndash;10 pax +RM200 (per group)</td><td>Booking &lt;3 minggu sebelum berlepas</td></tr><tr><td class='it'>Last Minute &mdash; 4-Star</td><td class='add'>2 pax +RM400 &middot; 3&ndash;10 pax +RM300 (per group)</td><td>Booking &lt;3 minggu sebelum berlepas</td></tr><tr><td class='it'>Last Minute &mdash; Combo &amp; Water Villa</td><td class='add'>2 pax +RM400 &middot; 3 pax ke atas +RM300 (per group)</td><td>Booking &lt;3 minggu sebelum berlepas<br><span class='ssub'>Sumber: rate card 2026/2027 &mdash; tiada dalam katalog</span></td></tr><tr><td class='it'>Ketibaan Male selepas 8 malam</td><td class='add'>+RM150 per hala / pax</td><td>Speedboat transfer lewat malam<br><span class='ssub'>Sumber: rate card ARBA &mdash; katalog hanya sebut &ldquo;extra charges&rdquo;</span></td></tr></tbody></table></div>",

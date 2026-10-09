@@ -1,6 +1,26 @@
 {
  "slug": "padang-bukittinggi",
  "kind": "template",
+ "map": {
+  "variants": {
+   "optA": {
+    "code": "PDG",
+    "package": "herman"
+   },
+   "optB": {
+    "code": "PDG",
+    "package": "herman"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "padang-bukittinggi"
+   },
+   {
+    "catalog": "padang-bukittinggi"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -52,22 +72,6 @@
     "emoji": "🏞️",
     "img": "@asset:e8907d2e382b",
     "intro": "Routing Option A padat dengan tarikan alam dan warisan Minangkabau: Kelok 9, Lembah Harau, Tabek Patah, Kota Payakumbuh, Istana Pagaruyung dan Danau Singkarak pada Hari 2, diikuti Panorama Baru, Puncak Lawang dan Perkampungan Koto Gadang pada Hari 3. Sesuai untuk group yang mahu itinerari penuh.",
-    "inc": [
-     "3 malam penginapan (Hotel 3 Bintang)",
-     "Pengangkutan persendirian (asas 12 jam)",
-     "Tiket masuk tempat lawatan (seperti dalam itinerari)",
-     "Makan penuh (fullboard) di restoran halal tempatan",
-     "Driving guide (pemandu merangkap guide)",
-     "Tipping fee (driver & guide)"
-    ],
-    "exc": [
-     "Tiket penerbangan antarabangsa",
-     "In-flight meal",
-     "Pengangkutan & guide extra hour (150,000 IDR/jam, tunai)",
-     "Tour & makan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Deposit RM250/pax semasa pengesahan; bayaran penuh 45 hari sebelum bertolak. Single Supplement RM300/pax (Hotel 3★ sahaja). Late Booking Surcharge RM50/booking jika tempahan kurang 45 hari sebelum bertolak. Harga sah 24 jam selepas quotation. Pakej sah untuk perjalanan sehingga 31 Januari 2027."
    },
    {
@@ -77,122 +81,12 @@
     "emoji": "🛍️",
     "img": "@asset:51b976f6ec99",
     "intro": "Routing Option B lebih santai — Istana Pagaruyung dan Danau Singkarak pada Hari 2 dengan masa shopping yang lebih panjang di Bukittinggi (Pasar Atas / Jam Gadang), sambil tetap menikmati Panorama Baru, Puncak Lawang dan Koto Gadang pada Hari 3. Harga sama dengan Option A.",
-    "inc": [
-     "3 malam penginapan (Hotel 3 Bintang)",
-     "Pengangkutan persendirian (asas 12 jam)",
-     "Tiket masuk tempat lawatan (seperti dalam itinerari)",
-     "Makan penuh (fullboard) di restoran halal tempatan",
-     "Driving guide (pemandu merangkap guide)",
-     "Tipping fee (driver & guide)"
-    ],
-    "exc": [
-     "Tiket penerbangan antarabangsa",
-     "In-flight meal",
-     "Pengangkutan & guide extra hour (150,000 IDR/jam, tunai)",
-     "Tour & makan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Deposit RM250/pax semasa pengesahan; bayaran penuh 45 hari sebelum bertolak. Single Supplement RM300/pax (Hotel 3★ sahaja). Late Booking Surcharge RM50/booking jika tempahan kurang 45 hari sebelum bertolak. Harga sah 24 jam selepas quotation. Pakej sah untuk perjalanan sehingga 31 Januari 2027."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "KUL → Padang (PDG) → Bukittinggi",
-     "m": "Lunch / Dinner",
-     "a": [
-      "Ketibaan disyorkan 09:00–10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
-      "Sambutan & land transfer ke Bukittinggi",
-      "Air Terjun Lembah Anai (photostop)",
-      "Minangkabau Documentation & Information Centre (PDIKM)",
-      "Pandai Sikek — kampung tenunan songket & kraf",
-      "Check-in hotel di Bukittinggi"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Bukittinggi (Option A) — Alam & Warisan",
-     "m": "B / L / D",
-     "a": [
-      "Kelok 9 — jambatan 9 selekoh tajam",
-      "Lembah Harau",
-      "Tabek Patah",
-      "Kota Payakumbuh",
-      "Istana Pagaruyung — pengalaman baju adat Minang",
-      "Danau Singkarak"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Bukittinggi → Padang (Option A)",
-     "m": "B / L / D",
-     "a": [
-      "Panorama Baru Bukittinggi",
-      "Puncak Lawang — pemandangan Danau Maninjau",
-      "Perkampungan Koto Gadang",
-      "Check-in hotel di Padang"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Padang (PDG) → KUL",
-     "m": "Breakfast",
-     "a": [
-      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
-      "Pantai Air Manis — legenda Malin Kundang",
-      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "KUL → Padang (PDG) → Bukittinggi",
-     "m": "Lunch / Dinner",
-     "a": [
-      "Ketibaan disyorkan 09:00–10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
-      "Sambutan & land transfer ke Bukittinggi",
-      "Air Terjun Lembah Anai (photostop)",
-      "Minangkabau Documentation & Information Centre (PDIKM)",
-      "Pandai Sikek — kampung tenunan songket & kraf",
-      "Check-in hotel di Bukittinggi"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Bukittinggi (Option B) — Tasik & Shopping",
-     "m": "B / L / D",
-     "a": [
-      "Istana Pagaruyung — pengalaman baju adat Minang",
-      "Danau Singkarak",
-      "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Bukittinggi → Padang (Option B)",
-     "m": "B / L / D",
-     "a": [
-      "Shopping di Bukittinggi",
-      "Panorama Baru Bukittinggi",
-      "Puncak Lawang — pemandangan Danau Maninjau",
-      "Perkampungan Koto Gadang",
-      "Check-in hotel di Padang"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Padang (PDG) → KUL",
-     "m": "Breakfast",
-     "a": [
-      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
-      "Pantai Air Manis — legenda Malin Kundang",
-      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -438,7 +332,7 @@
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Kedua-dua pakej 4D3N pada harga yang sama — beza hanya routing Hari 2 dan Hari 3.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>OPTION A · ALAM & WARISAN</th><th>OPTION B · TASIK & SHOPPING</th></tr></thead><tbody><tr><td class='feat'>Tempoh</td><td class='val'>4D3N</td><td class='val'>4D3N</td></tr><tr><td class='feat'>Hotel (default)</td><td class='val'>3★</td><td class='val'>3★</td></tr><tr><td class='feat'>Naik taraf 4★</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driving guide + tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard halal</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Transport (asas)</td><td class='val'>12 jam</td><td class='val'>12 jam</td></tr><tr><td class='feat'>Istana Pagaruyung (baju adat)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Danau Singkarak</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Puncak Lawang & Koto Gadang</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Kelok 9</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Lembah Harau</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Tabek Patah</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kota Payakumbuh</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Masa shopping Bukittinggi</td><td class='val'>Standard</td><td class='val'>Lebih panjang</td></tr><tr><td class='feat'>Harga from (2 pax)</td><td class='val'>RM 1,297</td><td class='val'>RM 1,297</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Suka alam, warisan & itinerari padat</td><td class='val'>Suka santai, tasik & masa shopping</td></tr></tbody></table>",
    "map": "<h2>Travel Map</h2><p class='ssub'>Peta laluan rasmi pakej — Option A dan Option B dalam satu peta.</p><div class='mapcard'><div class='mt'>PT Padang–Bukittinggi 4H3M · Option A & B</div><img src='@asset:2cac691524fb' alt='Travel Map PT Padang-Bukittinggi 4H3M'><div class='mc'>Laluan: KUL → Padang (PDG) → Bukittinggi (2 malam) → Padang (1 malam) → KUL. Hari 2 dan Hari 3 mengikut Option A atau Option B.</div></div>",
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog (Ground + Tipping) — per pax, asas 2–3 orang sebilik. <b>Tidak termasuk tiket penerbangan.</b></p><div class='custblk'><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12thn ke atas)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 1,297</td><td>RM 1,197</td><td>RM 1,097</td></tr><tr><td class='it'>3–6</td><td class='add'>RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr><tr><td class='it'>7–10</td><td class='add'>RM 1,097</td><td>RM 997</td><td>RM 897</td></tr><tr><td class='it'>11–15</td><td class='add'>RM 1,057</td><td>RM 957</td><td>RM 857</td></tr><tr><td class='it'>16–20</td><td class='add'>RM 1,037</td><td>RM 937</td><td>RM 837</td></tr></tbody></table></div><p class='ssub'>Infant (bawah 2 tahun): <b>FOC</b>. Harga sah 24 jam selepas quotation dihantar. Pakej sah untuk tempoh perjalanan sehingga <b>31 Januari 2027</b>.</p><div class='custblk' style='margin-top:14px'><table class='ctbl'><thead><tr><th>Termasuk dalam harga</th><th>Tidak termasuk</th></tr></thead><tbody><tr><td>3 malam penginapan (Hotel 3 Bintang)</td><td>Pengangkutan & guide extra hour — 150,000 IDR/jam</td></tr><tr><td>Pengangkutan persendirian (asas 12 jam)</td><td>Tiket penerbangan antarabangsa</td></tr><tr><td>Tiket masuk (seperti dalam itinerari)</td><td>In-flight meal</td></tr><tr><td>Makan penuh (fullboard)</td><td>Tour & makan tambahan</td></tr><tr><td>Driving guide</td><td>Perbelanjaan peribadi</td></tr><tr><td>Tipping fee</td><td>Insurans perjalanan</td></tr></tbody></table></div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation & Add-on</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Naik taraf Hotel 4★</td><td class='add'>+RM 80/pax/malam</td><td>Grand Rocky / Santika / Grand Royal Denai — bilik triple sedia ada</td></tr><tr><td class='it'>Extra hour transport & guide</td><td class='add'>150,000 IDR/jam</td><td>Melebihi asas 12 jam · bayaran tunai</td></tr><tr><td class='it'>Triple room (Hotel 3★)</td><td class='add'>Extra bed</td><td>Katil tambahan dalam bilik double; untuk triple penuh naik taraf 4★</td></tr><tr><td class='it'>Lawatan Lubang Jepang</td><td class='add'>Bayaran guide di lokasi</td><td>Sumber: nota produk — tiada dalam katalog</td></tr></tbody></table></div><p class='ssub'>Tukar routing antara Option A dan Option B tiada caj tambahan — harga kedua-dua pakej sama.</p>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Peak season:</b> 3&#9733; +RM50/pax/malam dikira automatik; untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf Hotel 4&#9733; &ndash; malam peak season</i> pada baris hari itu (RM80 upgrade + RM10 beza peak). <b>Kadar hari / malam tambahan belum diterbitkan</b> &mdash; kalkulator akan tanda cip merah <i>kadar?</i> dan bukan RM 0; sahkan dengan PO sebelum quote hari tambahan.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Padang&ndash;Bukittinggi 4D3N &middot; Option A</option><option value='1'>PT Padang&ndash;Bukittinggi 4D3N &middot; Option B</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6-11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2-5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun = FOC (katalog v7)</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>RM300/pax sekali, Hotel 3&#9733; sahaja &mdash; katalog tiada single supplement untuk 4&#9733;</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Naik taraf Hotel 4★</td><td class='add'>+RM 80/pax/malam</td><td>Atas kadar 3★</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 300/pax</td><td>Hotel 3★ sahaja</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Tempahan kurang 45 hari sebelum bertolak</td></tr><tr><td class='it'>Extra hour transport & guide</td><td class='add'>150,000 IDR/jam</td><td>Melebihi asas 12 jam · bayaran tunai</td></tr></tbody></table></div><p class='ssub' style='margin-top:14px'><b>Peak Season Surcharge (katalog v7)</b></p><div class='custblk'><table class='ctbl'><thead><tr><th>Tempoh Peak Season</th><th>Hotel 3★</th><th>Hotel 4★</th></tr></thead><tbody><tr><td class='it'>25 Dis 2025 – 5 Jan 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>15 – 31 Mac 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>25 Jun – 12 Julai 2026</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr><tr><td class='it'>25 Dis 2026 – 5 Jan 2027</td><td class='add'>+RM 50/pax/malam</td><td class='add'>+RM 60/pax/malam</td></tr></tbody></table></div><p class='ssub' style='margin-top:12px'><b>Peak Season Surcharge 2027:</b> tambahan <b>RM 150/pax</b> di atas kadar peak di atas, mengikut tempoh peak yang tersenarai dalam katalog. Sumber: 2026/2027 Date Surcharge ARBA — tiada dalam katalog.</p>",

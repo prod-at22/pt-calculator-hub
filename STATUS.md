@@ -81,7 +81,10 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
 - Step 3 done (v33): tabs **Info KB** + **Simple Calculator** on every destination page; Edit costs → Save writes
   data/kb/<slug>.json and dispatches pt-kb-house mirror.yml. Step 2 (tiers from Costing) is parked on local branch
   kb-step2-tiers — waiting for the PO's answers (Aceh 31+ pax, Lombok HNY 4★ / Phuket 4★ hub vs catalog surcharge, Aceh-Sabang CWB/CNB 16+).
-- Next: step 2 = calculator tiers + KB price text from Costing (show the PO the text diff per KB before it goes
+- One source of truth (PO 9 Oct, v35): KB price tables, itineraries, includes / excludes are built from the Costing +
+  Itinerary tabs (data/kb map.packages links each KB package to its catalog); the KB file keeps none of them. Package
+  text uses {{dari:N}} {{2pax:N}} {{pasangan:N}}. Still KB text with prices: compare blocks + FAQ (~138 mentions) — next.
+- Next (was): step 2 = calculator tiers + KB price text from Costing (show the PO the text diff per KB before it goes
   live; 8 conflicts in the Phase 1 report); step 3 = hub tabs Info KB + Simple Calculator, Save writes
   data/kb/ and dispatches pt-kb-house mirror.yml (token needs Actions: write on pt-kb-house too).
 - Phase 1 report: https://claude.ai/code/artifact/76a209fd-7a4c-47cf-bc86-71f02a28793b

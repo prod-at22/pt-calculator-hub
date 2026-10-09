@@ -1,6 +1,26 @@
 {
  "slug": "medan-lake-toba",
  "kind": "template",
+ "map": {
+  "variants": {
+   "optiona": {
+    "code": "LTOBA",
+    "package": "emiya"
+   },
+   "optionb": {
+    "code": "LTOBA",
+    "package": "baim"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "medan-lake-toba"
+   },
+   {
+    "catalog": "medan-lake-toba"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -61,23 +81,6 @@
     "emoji": "",
     "img": "sk:cover",
     "intro": "Pakej Private Tour 4 hari 3 malam versi standard ARBA. Laluan Parapat-dahulu: sambut di Kualanamu (KNO), terus ke Danau Toba (Parapat), feri ke Pulau Samosir (Tomok), naik ke Berastagi lalu Air Terjun Sipiso-Piso, dan akhirnya bandar Medan untuk warisan Islam Kesultanan Deli & shopping. Sesuai untuk keluarga dan first-timer yang mahu highlight utama Danau Toba–Medan tanpa aktiviti terlalu lasak.",
-    "inc": [
-     "3 malam penginapan (hotel 3 bintang)",
-     "Pengangkutan persendirian (asas 12 jam/hari)",
-     "Feri ke Pulau Samosir (sharing)",
-     "Yuran masuk (entrance fees)",
-     "Makan penuh 3B / 3L / 3D (masakan tempatan halal)",
-     "Driving guide (Melayu/Inggeris)",
-     "Yuran tipping SUDAH termasuk"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Extra hour transport & guide (150,000 IDR/jam, tunai)",
-     "Lawatan & makan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Harga untuk 2–3 orang sebilik (twin/triple sharing). Single supplement +RM250/pax. Late booking (<45 hari) +RM50/booking. Naik taraf hotel 4★: +RM100/pax/malam."
    },
    {
@@ -87,125 +90,12 @@
     "emoji": "",
     "img": "sk:simarjarunjung",
     "intro": "Versi Option B (tambah RM50/pax) untuk pelancong yang mahu lebih banyak alam semula jadi & spot fotografi. Terus ke Pulau Samosir hari pertama, kemudian Bukit Holbung ('Little Teletubbies'), Mount Pusuk Buhit, Air Terjun Efrata dan Bukit Burung, sebelum Berastagi (kaki Gunung Sinabung & Danau Lau Kawar) dan Medan. Landskap lebih dramatik; ada sedikit lebih banyak berjalan.",
-    "inc": [
-     "3 malam penginapan (hotel 3 bintang)",
-     "Pengangkutan persendirian (asas 12 jam/hari)",
-     "Feri ke Pulau Samosir (sharing)",
-     "Yuran masuk (entrance fees)",
-     "Makan penuh 3B / 3L / 3D (masakan tempatan halal)",
-     "Driving guide (Melayu/Inggeris)",
-     "Yuran tipping SUDAH termasuk"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Extra hour transport & guide (150,000 IDR/jam, tunai)",
-     "Lawatan & makan tambahan",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan"
-    ],
     "note": "Add-on Option B: +RM50/pax. Drone shooting hanya untuk Option B: +RM47/pax. Sama seperti Option A: harga 2–3 sebilik, single supplement +RM250, naik taraf 4★ +RM100/pax/malam. Pilih satu option — laluan yang sama digunakan sepanjang itinerari."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "KUL → Kualanamu (KNO) → Parapat / Danau Toba",
-     "m": "L / D",
-     "a": [
-      "Sambut di Lapangan Terbang Kualanamu (KNO)",
-      "Perjalanan ke Parapat, Danau Toba (~5 jam)",
-      "Daftar masuk hotel di Parapat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Parapat → Pulau Samosir → Berastagi",
-     "m": "B / L / D",
-     "a": [
-      "Feri menyeberang ke Pulau Samosir",
-      "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
-      "Puncak Simarjarunjung (spot foto)",
-      "Air Terjun Sipiso-Piso",
-      "Pasar Buah Berastagi",
-      "Daftar masuk hotel di Berastagi"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Berastagi → Medan",
-     "m": "B / L / D",
-     "a": [
-      "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
-      "Istana Maimoon (Kesultanan Deli, 1888)",
-      "Masjid Raya Al-Mashun 1906",
-      "Outlet batik & produk tempatan",
-      "Pasar Ikan / Plaza Medan (shopping telekung, baju, handbag)",
-      "Daftar masuk hotel di Medan"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Medan → Kualanamu (KNO) → KUL",
-     "m": "B",
-     "a": [
-      "Sarapan & daftar keluar",
-      "Free & easy (shopping buah tangan)",
-      "Pemindahan ke lapangan terbang untuk penerbangan pulang"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "KUL → Kualanamu (KNO) → Pulau Samosir",
-     "m": "L / D",
-     "a": [
-      "Sambut di Lapangan Terbang Kualanamu (KNO)",
-      "Kolam Aek Manik Sidamanik",
-      "Kebun Teh Bah Butong",
-      "Menyeberang ke Pulau Samosir via feri",
-      "Daftar masuk hotel di Samosir"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Samosir → Berastagi",
-     "m": "B / L / D",
-     "a": [
-      "Mount Pusuk Buhit",
-      "Bukit Holbung ('Little Teletubbies')",
-      "Air Terjun Efrata",
-      "Bukit Burung",
-      "Perjalanan ke Berastagi",
-      "Air Terjun Sipiso-Piso",
-      "Daftar masuk hotel di Berastagi"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Berastagi → Medan",
-     "m": "B / L / D",
-     "a": [
-      "Kaki Gunung Sinabung",
-      "Danau Lau Kawar",
-      "Pasar Buah Berastagi",
-      "Perjalanan ke Medan",
-      "Daftar masuk hotel di Medan"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Medan → Kualanamu (KNO) → KUL",
-     "m": "B",
-     "a": [
-      "Sarapan & daftar keluar",
-      "Free & easy (shopping buah tangan)",
-      "Pemindahan ke lapangan terbang untuk penerbangan pulang"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -418,7 +308,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2>\n<p class=\"ssub\" style=\"margin:0 0 10px\">Kadar katalog TO — <b>per pax, 2–3 orang sebilik, Ground + Tipping</b>. Tidak termasuk flight. Sah untuk tempoh perjalanan hingga 31 Januari 2027.</p>\n<div class=\"custblk\">\n  <h3>PT Medan–Danau Toba 4D3N — Hotel 3 Bintang (RM/pax)</h3>\n  <table class=\"ctbl\"><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody>\n    <tr><td class=\"it\">2</td><td class=\"add\">RM 1,357</td><td>RM 1,157</td><td>RM 1,057</td></tr>\n    <tr><td class=\"it\">3–4</td><td class=\"add\">RM 1,197</td><td>RM 1,097</td><td>RM 997</td></tr>\n    <tr><td class=\"it\">5–6</td><td class=\"add\">RM 1,157</td><td>RM 1,057</td><td>RM 957</td></tr>\n    <tr><td class=\"it\">7–9</td><td class=\"add\">RM 1,107</td><td>RM 1,007</td><td>RM 907</td></tr>\n    <tr><td class=\"it\">10–19</td><td class=\"add\">RM 1,097</td><td>RM 997</td><td>RM 897</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Infant (bawah 2 tahun): FOC. Option B: +RM50/pax. Naik taraf hotel 4 bintang: +RM100/pax/malam.</p>\n</div>\n<div class=\"notebox\"><b>Nota harga:</b> Semua harga sah 24 jam selepas quotation dihantar. Harga untuk 2–3 orang sebilik. Itinerari, harga & flight tertakluk kepada perubahan.</div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation & Add-ons</h2>\n<div class=\"custblk\">\n  <h3>Add-on Aktiviti</h3>\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">Option B (laluan Samosir/Holbung)</td><td class=\"add\">+RM 50/pax</td><td>Ganti laluan Option A</td></tr>\n    <tr><td class=\"it\">Drone Shooting</td><td class=\"add\">RM 47/pax</td><td>Option B sahaja — dron, juruterbang, raw + edited footage, sepanjang trip</td></tr>\n  </tbody></table>\n</div>\n<div class=\"custblk\">\n  <h3>Add-on Travel Essentials</h3>\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Harga (jual)</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">TripCare 360 Takaful (Etiqa) — Individual</td><td class=\"add\">RM 64 (1–5h) / RM 88.50 (6–10h)</td><td>Area 2 (Indonesia)</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Couple</td><td class=\"add\">RM 113 / RM 160.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Family</td><td class=\"add\">RM 143.50 / RM 201.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">TripCare 360 — Senior Citizen</td><td class=\"add\">RM 185.50 / RM 265.50</td><td>1–5h / 6–10h</td></tr>\n    <tr><td class=\"it\">Luggage Tracker (Blue Ribbon)</td><td class=\"add\">RM 20 / 40 / 55 / 70</td><td>1 / 2 / 3 / 4 unit</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber harga insurans &amp; luggage tracker: rate card ARBA - tiada dalam katalog. Extra hour driver & guide (melebihi asas 12 jam): 150,000 IDR/jam — bayaran tunai di Medan.</p>\n</div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season RM 30/pax/malam (hotel 3&#9733;) dan late booking RM 50/booking dikira sendiri. <b>Option B</b> (laluan Samosir/Holbung, +RM 50/pax) ialah varian pakej berasingan &mdash; pilih dari dropdown pakej, bukan add-on. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Upgrade hotel 4&#9733; &mdash; malam PEAK</i> supaya surcaj peak 4&#9733; RM 40/pax/malam dikira betul (RM 30 auto + RM 10 beza). Kadar hari tambahan &amp; malam tambahan <b>belum tersiar</b> dalam katalog atau rate card, jadi ia papar <i>kadar?</i> sehingga diisi dalam calc-config.json.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Medan&ndash;Danau Toba 4D3N &middot; Option A (Parapat dahulu)</option><option value='1'>PT Medan&ndash;Danau Toba 4D3N &middot; Option B (Samosir / Holbung) +RM 50/pax</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Bawah 2 tahun FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 250 setiap satu (sepanjang 3 malam)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2>\n<div class=\"custblk\">\n  <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">Peak Season (hotel 3 bintang)</td><td class=\"add\">+RM 30/pax/malam</td><td>25 Dis 2025-5 Jan 2026 &middot; 15-31 Mac 2026 &middot; 25 Jun-12 Jul 2026 &middot; 25 Dis 2026-5 Jan 2027</td></tr>\n    <tr><td class=\"it\">Peak Season (hotel 4 bintang)</td><td class=\"add\">+RM 40/pax/malam</td><td>Tempoh sama seperti di atas</td></tr>\n    <tr><td class=\"it\">Naik taraf hotel 4 bintang</td><td class=\"add\">+RM 100/pax/malam</td><td>Parapat: Niagara &middot; Berastagi: Sibayak International &middot; Medan: Emerald Garden</td></tr>\n    <tr><td class=\"it\">Single Supplement</td><td class=\"add\">+RM 250/pax</td><td>Bilik single occupancy sepanjang 3 malam</td></tr>\n    <tr><td class=\"it\">Late Booking</td><td class=\"add\">+RM 50/booking</td><td>Tempahan kurang 45 hari sebelum tarikh berlepas</td></tr>\n    <tr><td class=\"it\">Extra hour transport &amp; guide</td><td class=\"add\">150,000 IDR/jam</td><td>Melebihi asas 12 jam sehari. Bayaran tunai di Medan</td></tr>\n    <tr><td class=\"it\">Option B (laluan Samosir / Holbung)</td><td class=\"add\">+RM 50/pax</td><td>Menggantikan laluan Option A</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber: katalog PT MEDAN-LAKE TOBA 4D3N 2026 v3.</p>\n</div>\n<div class=\"custblk\">\n  <h3>Travel Date 2027 (di luar tempoh sah katalog)</h3>\n  <table class=\"ctbl\"><thead><tr><th>Tarikh perjalanan</th><th>Caj tambahan</th><th>Nota</th></tr></thead><tbody>\n    <tr><td class=\"it\">8-15 Mac 2027</td><td class=\"add\">+RM 90/pax</td><td>Dikira atas harga pakej, tambahan kepada peak season jika bertindih</td></tr>\n  </tbody></table>\n  <p class=\"custnote\">Sumber: 2026 / 2027 Date Surcharge (baris MEDAN 4D3N) — tiada dalam katalog. Katalog v3 sah untuk tempoh perjalanan hingga 31 Januari 2027 sahaja.</p>\n</div>",

@@ -1,6 +1,28 @@
 {
  "slug": "beijing",
  "kind": "template",
+ "map": {
+  "variants": {
+   "am": {
+    "code": "PEK",
+    "package": "tourdechina"
+   },
+   "pm": {
+    "code": "PEK",
+    "package": "tourdechina"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "beijing",
+    "itinerary": 0
+   },
+   {
+    "catalog": "beijing",
+    "itinerary": 1
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -57,21 +79,6 @@
     "emoji": "✈️",
     "img": "@asset:6d5f98eb2daa",
     "intro": "Varian penerbangan pagi (cadangan Malaysia Airlines: tiba 00:40–07:00, pulang 09:30–16:00). Sampai awal pagi terus mula city tour Hari 1. Landmark ikonik Beijing lengkap dalam 5 hari 4 malam — Tembok Besar, Kota Larangan, Dataran Tiananmen, Istana Musim Panas, plus tour Muslim street. Private tour sepenuhnya (kenderaan & guide sendiri).",
-    "inc": [
-     "4 malam hotel 4★ + sarapan harian (2–3 sebilik)",
-     "Makanan halal seperti dalam itinerari",
-     "Transport persendirian (asas 10 jam/hari)",
-     "Semua entrance fee + cable car Tembok Besar Mutianyu",
-     "Tipping fee, parking fee & airport transfer",
-     "Guide berbahasa Inggeris"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Tour tambahan / optional & perbelanjaan peribadi",
-     "Travel insurance",
-     "Jam lebih transport/guide (melebihi 10 jam) — bayar tunai"
-    ],
     "note": "Blackout: CNY 14–22 Feb 2026 & Labor Day 1–5 Mei 2026. Deposit RM500/pax; full payment 45 hari sebelum trip. Pakej sah untuk travel hingga 31 Dis 2026."
    },
    {
@@ -81,145 +88,12 @@
     "emoji": "🌙",
     "img": "@asset:6d64c840e852",
     "intro": "Varian penerbangan tengah malam (cadangan AirAsia: tiba 18:55–01:15(+1), pulang 02:30–09:00). Hari 1 untuk ketibaan & rehat sahaja; tour penuh bermula Hari 2. Susunan sama tetapi tour Muslim street & masjid Niujie digabung dengan hari berlepas (Hari 5). Sesuai yang mahu jimatkan tambang flight.",
-    "inc": [
-     "4 malam hotel 4★ + sarapan harian (2–3 sebilik)",
-     "Makanan halal seperti dalam itinerari",
-     "Transport persendirian (asas 10 jam/hari)",
-     "Semua entrance fee + cable car Tembok Besar Mutianyu",
-     "Tipping fee, parking fee & airport transfer",
-     "Guide berbahasa Inggeris"
-    ],
-    "exc": [
-     "Tiket penerbangan pergi-balik",
-     "Bagasi, in-flight meal & airport tax",
-     "Tour tambahan / optional & perbelanjaan peribadi",
-     "Travel insurance",
-     "Jam lebih transport/guide (melebihi 10 jam) — bayar tunai"
-    ],
     "note": "Susunan itinerari ikut masa flight & keadaan trafik/cuaca. Blackout & terma bayaran sama seperti varian pagi."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Beijing + City Tour",
-     "m": "L / D",
-     "a": [
-      "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
-      "Check-in hotel",
-      "Masjid Nandouya",
-      "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
-      "Sanlitun Shopping District",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Dataran Tiananmen & Kota Larangan",
-     "m": "B / L / D",
-     "a": [
-      "Dataran Tiananmen (dataran bersejarah UNESCO)",
-      "Kota Larangan / Forbidden City (Sept–Jun)",
-      "Taman Jingshan (Jul–Ogos) — panorama Kota Larangan",
-      "Wangfujing Street (shopping)",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Tembok Besar China + Taman Olimpik",
-     "m": "B / L / D",
-     "a": [
-      "Tembok Besar Mutianyu (termasuk cable car 2 hala / toboggan)",
-      "Istana Musim Panas (Summer Palace)",
-      "Photostop Bird's Nest (Stadium Olimpik)",
-      "Photostop Water Cube (Pusat Akuatik Olimpik)",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Muslim Street Tour",
-     "m": "B / L / D",
-     "a": [
-      "Masjid Niujie (masjid tertua & terbesar Beijing)",
-      "Pasar Muslim Niujie (shopping & makanan halal)",
-      "The Place — LED Sky Screen",
-      "Makan malam"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Berlepas Pulang ke Kuala Lumpur",
-     "m": "B",
-     "a": [
-      "Sarapan & check-out hotel",
-      "Airport transfer",
-      "Penerbangan ke Kuala Lumpur",
-      "Tiba di KLIA — tamat perjalanan"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Beijing (Malam)",
-     "m": "L / D",
-     "a": [
-      "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
-      "Airport pickup",
-      "Check-in hotel & rehat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Dataran Tiananmen & Kota Larangan",
-     "m": "B / L / D",
-     "a": [
-      "Dataran Tiananmen (dataran bersejarah Beijing)",
-      "Kota Larangan / Forbidden City (Sept–Jun)",
-      "Taman Jingshan (Jul–Ogos) — panorama Kota Larangan",
-      "Wangfujing Street (shopping)",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Tembok Besar China + Taman Olimpik",
-     "m": "B / L / D",
-     "a": [
-      "Tembok Besar Mutianyu (termasuk cable car 2 hala / toboggan)",
-      "Istana Musim Panas (Summer Palace)",
-      "Photostop Bird's Nest (Stadium Olimpik)",
-      "Photostop Water Cube (Pusat Akuatik Olimpik)",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "City & Hutong Tour",
-     "m": "B / L / D",
-     "a": [
-      "Masjid Nandouya",
-      "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
-      "Sanlitun Shopping District",
-      "Makan malam & kembali ke hotel"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Muslim Street Tour + Berlepas",
-     "m": "B / L / D",
-     "a": [
-      "Masjid Niujie (masjid tertua & terbesar Beijing)",
-      "Pasar Muslim Niujie (shopping & makanan halal)",
-      "The Place — LED Sky Screen",
-      "Makan malam & airport transfer",
-      "Penerbangan ke Kuala Lumpur — tiba KLIA, tamat perjalanan"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -419,7 +293,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog PT Beijing 5D4N 2026 — per pax, 2–3 orang sebilik, hotel 4★. Sah untuk travel hingga 31 Dis 2026. Infant (bawah 2 tahun): FOC.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Group of (pax)</th><th>Adult (12+)</th><th>Child With Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2–3</td><td class='add'>RM 4,397</td><td>RM 4,297</td><td>RM 4,197</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 4,197</td><td>RM 4,097</td><td>RM 3,897</td></tr><tr><td class='it'>6–9</td><td class='add'>RM 3,597</td><td>RM 3,497</td><td>RM 3,297</td></tr><tr><td class='it'>10–15</td><td class='add'>RM 3,097</td><td>RM 2,997</td><td>RM 2,797</td></tr></tbody></table></div><p class='ssub'>Umur ikut <b>tarikh perjalanan</b>. Harga <b>tidak termasuk</b> flight, insurance & airport tax. Group besar (16+ pax): minta quote khas dari operator. Kadar tidak sah semasa peak season — rujuk tab Surcharge.</p>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation &amp; Add-ons</h2><p class='ssub'>Sumber: <b>Product Cheatsheet 2026 &mdash; Beijing</b> + rate card PT Beijing. Semua harga <b>sell price</b> (MYR). Transport add/tolak ada dalam tab Transportation &amp; Guide.</p><div class='custblk'><h3>Hotel &amp; bilik</h3><table class='ctbl'><thead><tr><th>Item</th><th>Tambah</th><th>Tolak</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Extra 1 malam 4&#9733; (normal)</td><td class='add'>+RM 250/bilik/malam</td><td class='ded'>&minus;RM 100/bilik/malam</td><td>Per bilik, bukan per pax</td></tr><tr><td class='it'>Extra 1 malam 4&#9733; (peak season)</td><td class='add'>+RM 350/bilik/malam</td><td class='ded'>&minus;RM 100/bilik/malam</td><td>Peak ikut tab Surcharge</td></tr><tr><td class='it'>Upgrade hotel 4&#9733; Superior</td><td class='add'>+RM 240/pax</td><td>&mdash;</td><td>Nama hotel disahkan &#8805;15 hari sebelum trip</td></tr><tr><td class='it'>Single supplement</td><td class='add'>+RM 800/pax</td><td>&mdash;</td><td>Bilik single occupancy</td></tr></tbody></table></div><div class='custblk'><h3>Meals</h3><table class='ctbl'><thead><tr><th>Meal</th><th>Tambah 1 meal</th><th>Tolak 1 meal</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Breakfast</td><td>&mdash;</td><td>&mdash;</td><td>Cadangan makan di hotel sahaja (sudah termasuk)</td></tr><tr><td class='it'>Lunch</td><td class='add'>+RM 60/pax/meal</td><td class='ded'>&minus;RM 30/pax/meal</td><td>Restoran halal, diuruskan guide</td></tr><tr><td class='it'>Dinner</td><td class='add'>+RM 60/pax/meal</td><td class='ded'>&minus;RM 30/pax/meal</td><td>Restoran halal, diuruskan guide</td></tr></tbody></table></div><div class='custblk'><h3>Add-on activities</h3><table class='ctbl'><thead><tr><th>Add-on</th><th>Pax</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Add 1 malam + 1 hari tour Beijing</td><td>2&#8211;4 pax</td><td class='add'>RM 450/pax</td><td>Termasuk 1 malam hotel + day tour (belum termasuk meals)</td></tr><tr><td class='it'>Add 1 malam + 1 hari tour Beijing</td><td>5&#8211;6 pax</td><td class='add'>RM 650/pax</td><td>Termasuk 1 malam hotel + day tour (belum termasuk meals)</td></tr><tr><td class='it'>Universal Studios Beijing &mdash; low season</td><td>&mdash;</td><td class='add'>RM 400/pax</td><td>Perlu ganti 1 hari itinerari atau tambah 1N+1D</td></tr><tr><td class='it'>Universal Studios Beijing &mdash; high season (Jul&#8211;Okt)</td><td>&mdash;</td><td class='add'>RM 850/pax</td><td>Sangat sesak &mdash; set expectation customer</td></tr><tr><td class='it'>Guangzhou &mdash; 1 hari shopping + lunch + dinner (10 jam, termasuk tipping)</td><td>2&#8211;5 pax</td><td class='add'>RM 1,000/pax (dengan hotel)<br>RM 900/pax (tanpa hotel)</td><td>Extension keluar Beijing</td></tr><tr><td class='it'>Guangzhou &mdash; city tour + lunch + dinner</td><td>2&#8211;5 pax</td><td class='add'>RM 1,000/pax (dengan hotel)<br>RM 900/pax (tanpa hotel)</td><td>Yuexiu Park, Five Rams Statue, Dr Sun Yat Sen Memorial Hall, Flower City Square, Canton Tower, Yong Qing Fang, Beijing Road</td></tr></tbody></table></div><div class='custblk'><h3>Peranti &amp; perlindungan</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Pocket WiFi 3GB (4G)</td><td class='add'>RM 80/trip</td><td>Ada VPN &mdash; bypass sekatan China; boleh share 3 telefon</td></tr><tr><td class='it'>Pocket WiFi 10GB (4G)</td><td class='add'>RM 150/trip</td><td>Untuk pengguna berat</td></tr><tr><td class='it'>Travel insurance (Etiqa TripCare 360)</td><td class='add'>dari RM 64/pax</td><td>Individu 1&#8211;5 hari; couple/family/senior lain kadar</td></tr><tr><td class='it'>Luggage tracker (Blue Ribbon)</td><td class='add'>RM 20 &#8211; RM 70/pc</td><td>Silver 20 &middot; Gold 40 &middot; Platinum 55 &middot; Diamond 70</td></tr></tbody></table></div><div class='custblk'><h3>General notes (cheatsheet)</h3><ul class='klist'><li>Surcharge <b>Julai &#8211; Ogos: RM300/pax</b>.</li><li>Guide extra hours: <b>RM160/jam</b> (asas 10 jam/hari, bayar tunai).</li><li>Untuk tambah Universal Studios Beijing, customer perlu putuskan sama ada <b>ganti satu hari</b> dalam itinerari, atau <b>tambah extra 1 malam + 1 hari tour Beijing + USB + meals</b>.</li><li>Harga <b>tidak termasuk</b> tiket penerbangan, insurance &amp; airport tax.</li></ul></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Kadar katalog PT Beijing 5D4N 2026 (last updated 4 Mac 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026. Tolak malam hotel tersiar <b>per bilik</b> (&minus;RM 100/bilik/malam) &mdash; guna add-on, bukan pilihan hari.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Beijing 5D4N &ndash; Ketibaan Pagi (MAS)</option><option value='1'>PT Beijing 5D4N &ndash; Ketibaan Malam (AirAsia)</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>Infant bawah 2 tahun: FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Single supplement RM 800/pax (bilik single occupancy)</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge & Blackout</h2><div class='custblk'><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila / Nota</th></tr></thead><tbody><tr><td class='it'>Single Supplement</td><td class='add'>+RM 800/pax</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Peak — Dragon Boat</td><td class='add'>+RM 60/pax/malam</td><td>19–21 Jun 2026</td></tr><tr><td class='it'>Super Peak — Cuti Panas China</td><td class='add'>+RM 300/pax</td><td>Sepanjang Jul & Ogos 2026</td></tr><tr><td class='it'>Super Peak — Golden Week</td><td class='add'>+RM 300/pax</td><td>1–8 Okt 2026</td></tr><tr><td class='it'>Super Peak — Christmas & New Year</td><td class='add'>+RM 300/pax</td><td>22 Dis 2026 – 5 Jan 2027</td></tr><tr><td class='it'>Late Booking</td><td class='add'>+RM 50/booking</td><td>Booking &lt;45 hari sebelum berlepas</td></tr><tr><td class='it'>Extra jam transport/guide</td><td class='add'>+RM 160/jam</td><td>Melebihi asas 10 jam — bayar tunai</td></tr></tbody></table></div><p class='ssub'><b>Blackout (tidak boleh booking):</b> Chinese New Year 14–22 Feb 2026 · Labor Day 1–5 Mei 2026.</p><div class='custblk' style='margin-top:10px'><p class='ssub' style='margin:2px 0 6px'><b>Peak Season Surcharge — Rate Card 2026 / 2027</b></p><table class='ctbl'><thead><tr><th>Musim</th><th>Tarikh 2026</th><th>Tarikh 2027</th><th>Caj</th></tr></thead><tbody><tr><td class='it'>Dragon Boat</td><td>19–21 Jun</td><td>12–14 Jun</td><td class='add'>RM 60/pax/malam</td></tr><tr><td class='it'>China Summer Holiday</td><td>Sepanjang Jul & Ogos</td><td>Sepanjang Jul & Ogos</td><td class='add'>RM 300/pax</td></tr><tr><td class='it'>China Golden Week</td><td>1–8 Okt</td><td>1–8 Okt</td><td class='add'>RM 300/pax</td></tr><tr><td class='it'>Christmas & New Year</td><td>22 Dis – 5 Jan</td><td>22 Dis – 5 Jan</td><td class='add'>RM 300/pax</td></tr></tbody></table><p class='ssub' style='margin-top:6px'><b>Travel date 2027 add-on:</b> +RM 100/pax di atas harga. <b>Late booking:</b> RM 50/booking (&lt;45 hari).</p></div>",

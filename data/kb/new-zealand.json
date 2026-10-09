@@ -1,6 +1,47 @@
 {
  "slug": "new-zealand",
  "kind": "template",
+ "map": {
+  "variants": {
+   "ptns": {
+    "code": "NSNZ",
+    "package": "arba-to-10d9n-n-s"
+   },
+   "ptsi": {
+    "code": "NSNZ",
+    "package": "arba-to-8d7n-south"
+   },
+   "stnsstd": {
+    "code": "NSNZ",
+    "package": "arba-to-9d8n-std"
+   },
+   "stnsapt": {
+    "code": "NSNZ",
+    "package": "arba-to-9d8n-apt"
+   },
+   "stni": {
+    "code": "NSNZ",
+    "package": "arba-to-6d5n-north-st"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "nz-north-south"
+   },
+   {
+    "catalog": "nz-south-only"
+   },
+   {
+    "catalog": "nz-north-south-standard"
+   },
+   {
+    "catalog": "nz-north-south-apartment"
+   },
+   {
+    "catalog": "nz-north-only"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -59,27 +100,6 @@
     "emoji": "🚐",
     "img": "Mitre Peak Milford Sound (263481037).jpeg",
     "intro": "Grand tour dua pulau: dari Auckland & Rotorua di North, terbang ke Christchurch, terus ke Tekapo, Mt Cook, Milford Sound & Queenstown di South. Transport & driver-cum-guide peribadi (Melayu/English), tipping & flight domestik sudah termasuk.",
-    "inc": [
-     "Akomodasi 9 malam (3★ Hotel/Motel)",
-     "Transport peribadi + Driver Guide (Melayu/English)",
-     "Airport transfer peribadi",
-     "Flight domestik AKL–CHC & ZQN–AKL + bagasi 20kg",
-     "Tipping untuk driver",
-     "Fuel & parking",
-     "Welcome Lunch 1x",
-     "High Country Salmon Farm",
-     "NZeTA application percuma 1x (warga Malaysia sahaja)"
-    ],
-    "exc": [
-     "Flight antarabangsa (KUL–AKL–KUL)",
-     "Makan (breakfast, lunch, dinner) kecuali dinyatakan",
-     "Aktiviti optional",
-     "Insurans perjalanan peribadi",
-     "Internet / roaming",
-     "Perbelanjaan peribadi",
-     "NZeTA re-application / warga bukan Malaysia",
-     "Bagasi tambahan flight domestik"
-    ],
     "note": "Harga untuk 2–3 pax sebilik. Single room +RM3,500/pax. Disyorkan ambil MAS ke Auckland & balik dari Auckland untuk padan itinerari default."
    },
    {
@@ -89,26 +109,6 @@
     "emoji": "🏔️",
     "img": "Mt Cook LC0247.jpg",
     "intro": "Fokus keindahan South Island: Christchurch, Tekapo, Wanaka, Milford Sound, Queenstown, Dunedin & Oamaru. Mula & tamat di Christchurch Airport. Transport & driver-guide peribadi, tipping termasuk.",
-    "inc": [
-     "Akomodasi 7 malam (3★ Hotel/Motel)",
-     "Transport peribadi + Driver Guide (Melayu/English)",
-     "Airport transfer peribadi",
-     "Tipping",
-     "Fuel & parking",
-     "Welcome Lunch 1x",
-     "High Country Salmon Farm",
-     "NZeTA application percuma 1x (warga Malaysia sahaja)"
-    ],
-    "exc": [
-     "Flight antarabangsa",
-     "Makan (breakfast, lunch, dinner) kecuali dinyatakan",
-     "Aktiviti optional",
-     "Insurans perjalanan peribadi",
-     "Internet / roaming",
-     "Perbelanjaan peribadi",
-     "NZeTA re-application / warga bukan Malaysia",
-     "Bagasi tambahan flight domestik"
-    ],
     "note": "Harga untuk 2–3 pax sebilik. Single room +RM2,500/pax. Tour mula & tamat di Christchurch Airport."
    },
    {
@@ -118,25 +118,6 @@
     "emoji": "🚗",
     "img": "Road through golden hills (Unsplash).jpg",
     "intro": "Pakej self-drive dua pulau untuk yang suka pandu sendiri & fleksibel. Kereta sewa MPV dengan GPS, insurans komprehensif penuh & bantuan tepi jalan 24/7. Flight domestik AKL–CHC & ZQN–AKL termasuk. Panduan restoran halal disediakan.",
-    "inc": [
-     "Kereta sewa MPV + GPS",
-     "Insurans komprehensif penuh",
-     "Bantuan tepi jalan 24/7",
-     "Akomodasi 8 malam (Hotel/Motel 3–4★)",
-     "Online trip assistance & pre-trip consultation",
-     "Flight domestik AKL–CHC & ZQN–AKL + bagasi 20kg",
-     "NZeTA application 1x",
-     "Panduan makanan/restoran halal"
-    ],
-    "exc": [
-     "Flight antarabangsa & airport tax",
-     "Makan",
-     "Fuel, parking & saman",
-     "Insurans perjalanan peribadi",
-     "Pocket wifi / internet",
-     "Perbelanjaan peribadi",
-     "NZeTA re-application"
-    ],
     "note": "Harga untuk 2–3 pax sebilik. Pemandu perlu lesen memandu sah + International Driving Permit disyorkan. Memandu di sebelah kiri (sama seperti Malaysia)."
    },
    {
@@ -146,25 +127,6 @@
     "emoji": "🏡",
     "img": "The Remarkables from Queenstown, New Zealand 07.jpg",
     "intro": "Sama laluan seperti ST Standard tetapi menginap di Apartment/Airbnb yang ada dapur — pilihan terbaik untuk keluarga yang mahu masak makanan halal sendiri & jimat. Kereta sewa MPV, GPS, insurans penuh & flight domestik termasuk.",
-    "inc": [
-     "Kereta sewa MPV + GPS",
-     "Insurans komprehensif penuh",
-     "Bantuan tepi jalan 24/7",
-     "Akomodasi 8 malam (Apartment/Airbnb — ada dapur)",
-     "Online trip assistance & pre-trip consultation",
-     "Flight domestik AKL–CHC & ZQN–AKL + bagasi 20kg",
-     "NZeTA application 1x",
-     "Panduan makanan/restoran halal"
-    ],
-    "exc": [
-     "Flight antarabangsa & airport tax",
-     "Makan",
-     "Fuel, parking & saman",
-     "Insurans perjalanan peribadi",
-     "Pocket wifi / internet",
-     "Perbelanjaan peribadi",
-     "NZeTA re-application"
-    ],
     "note": "Harga untuk 2–3 pax sebilik. Apartment/Airbnb ada dapur — mudah sediakan makanan halal. Laluan sama seperti ST Standard 9D8N."
    },
    {
@@ -174,501 +136,15 @@
     "emoji": "🌋",
     "img": "Hobbiton Movie Set, Matamata.jpg",
     "intro": "Pakej self-drive North Island sahaja: Auckland, Rotorua, Matamata (Hobbiton), Taupo & Hamilton. Sesuai untuk trip pendek pertama kali ke NZ. Kereta sewa MPV dengan GPS, insurans penuh & bantuan tepi jalan.",
-    "inc": [
-     "Kereta sewa MPV + GPS",
-     "Insurans komprehensif penuh",
-     "Bantuan tepi jalan 24/7 (towing)",
-     "Akomodasi 5 malam (3★ Hotel/Motel)",
-     "Online trip assistance & pre-trip consultation",
-     "NZeTA application 1x",
-     "Panduan restoran halal"
-    ],
-    "exc": [
-     "Flight (return)",
-     "Makan & tour tambahan",
-     "Fuel, parking & saman",
-     "Insurans perjalanan peribadi",
-     "Pocket wifi / internet",
-     "Perbelanjaan peribadi",
-     "NZeTA re-application"
-    ],
     "note": "North Island sahaja — tiada flight domestik. Harga untuk 2–3 pax sebilik. Infant RM800."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Auckland",
-     "m": "Welcome Lunch",
-     "a": [
-      "Tiba di Auckland Airport, meet & greet ARBA guide",
-      "Auckland Cornwall Park",
-      "Check-in hotel Auckland & rehat"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Auckland → Rotorua",
-     "m": "-",
-     "a": [
-      "Transfer ke Matamata (2 jam)",
-      "Hobbiton Movie Set Tour (optional)",
-      "Redwood Forest Rotorua",
-      "Check-in hotel Rotorua"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Rotorua → Taupo → Hamilton",
-     "m": "-",
-     "a": [
-      "Whakarewarewa Maori Village Tour (optional)",
-      "Huka Falls & Huka Jet (optional)",
-      "Lake Taupo",
-      "Transfer & check-in hotel Hamilton"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Hamilton → Auckland → Christchurch",
-     "m": "-",
-     "a": [
-      "Flight domestik AKL–CHC",
-      "Riverside Market",
-      "Masjid An Noor",
-      "Check-in hotel Christchurch"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Christchurch → Tekapo → Twizel",
-     "m": "Lunch",
-     "a": [
-      "Transfer ke Tekapo (3 jam)",
-      "Lake Tekapo & Lake Pukaki",
-      "High Country Salmon Farm",
-      "Check-in hotel Twizel"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Twizel → Mt Cook → Te Anau",
-     "m": "-",
-     "a": [
-      "Hooker Valley Track",
-      "Aoraki Mt Cook & Information Centre",
-      "Peter's Lookout",
-      "NZ Alpine Lavender Farm (seasonal)",
-      "Transfer ke Te Anau (4 jam)"
-     ]
-    },
-    {
-     "d": 7,
-     "t": "Te Anau → Milford Sound → Queenstown",
-     "m": "-",
-     "a": [
-      "Milford Sound Cruise (add-on)",
-      "Mirror Lake, Eglinton Valley, The Chasm",
-      "Transfer & check-in hotel Queenstown"
-     ]
-    },
-    {
-     "d": 8,
-     "t": "Queenstown → Glenorchy",
-     "m": "-",
-     "a": [
-      "Glenorchy Wharf & View Point",
-      "Skyline Gondola Queenstown (optional)",
-      "Central Shopping Area Queenstown"
-     ]
-    },
-    {
-     "d": 9,
-     "t": "Queenstown → Arrowtown → Auckland",
-     "m": "-",
-     "a": [
-      "Lower Shotover Bridge",
-      "Arrowtown",
-      "Flight domestik ZQN–AKL",
-      "Check-in hotel Auckland"
-     ]
-    },
-    {
-     "d": 10,
-     "t": "Return Flight ke KUL",
-     "m": "-",
-     "a": [
-      "Transfer ke Auckland International Airport",
-      "Flight antarabangsa AKL–KUL",
-      "End of tour"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Christchurch",
-     "m": "Welcome Lunch",
-     "a": [
-      "Tiba di Christchurch Airport, meet & greet driver guide",
-      "Welcome Lunch dari ARBA",
-      "Riverside Market",
-      "Check-in hotel Christchurch"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Christchurch → Lake Tekapo",
-     "m": "Lunch",
-     "a": [
-      "Transfer ke Tekapo",
-      "Lake Tekapo & Lake Pukaki",
-      "Twizel Canal",
-      "High Country Salmon Farm",
-      "Check-in hotel/motel Twizel"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Tekapo → Te Anau",
-     "m": "-",
-     "a": [
-      "Transfer ke Wanaka",
-      "Lake Wanaka",
-      "Transfer ke Te Anau & rehat"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Te Anau → Milford Sound → Queenstown",
-     "m": "-",
-     "a": [
-      "Transfer ke Milford Sound",
-      "Milford Sound Cruise (optional)",
-      "Eglinton Valley & Mirror Lake",
-      "Check-in hotel Queenstown"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Queenstown City Tour",
-     "m": "-",
-     "a": [
-      "Glenorchy Wharf & View Point",
-      "Queenstown Central Shopping Area",
-      "Rehat di hotel"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Queenstown → Dunedin",
-     "m": "-",
-     "a": [
-      "Skyline Gondola Queenstown (optional)",
-      "Transfer ke Dunedin",
-      "Larnach Castle (add-on)",
-      "Check-in hotel Dunedin"
-     ]
-    },
-    {
-     "d": 7,
-     "t": "Dunedin → Timaru → Christchurch",
-     "m": "-",
-     "a": [
-      "Transfer ke Timaru",
-      "Caroline Bay Beach",
-      "Shopping di Christchurch",
-      "Check-in hotel Christchurch"
-     ]
-    },
-    {
-     "d": 8,
-     "t": "Airport Transfer Christchurch",
-     "m": "-",
-     "a": [
-      "Transfer ke Christchurch Airport",
-      "Airport drop off",
-      "End of tour"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Auckland",
-     "m": "-",
-     "a": [
-      "Tiba di Auckland Airport, pickup & safety car briefing",
-      "Check-in hotel dekat Auckland",
-      "Free & easy (cadangan: Cornwall Park / Westhaven Marina)"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Auckland → Rotorua",
-     "m": "-",
-     "a": [
-      "Transfer ke Matamata (3 jam)",
-      "Hobbiton Movie Set Tour (optional)",
-      "Putaruru Blue Springs",
-      "Redwood Forest",
-      "Check-in hotel Rotorua"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Rotorua → Taupo → Hamilton",
-     "m": "-",
-     "a": [
-      "Whakarewarewa Maori Village Tour (optional)",
-      "Huka Falls & Lake Taupo",
-      "Hamilton Garden",
-      "Check-in hotel Hamilton"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Hamilton → Auckland → Christchurch",
-     "m": "-",
-     "a": [
-      "Flight domestik AKL–CHC",
-      "Pickup kereta sewa di Christchurch",
-      "Riverside Market",
-      "Masjid An Noor"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Christchurch → Tekapo → Twizel",
-     "m": "-",
-     "a": [
-      "Transfer ke Tekapo (3 jam)",
-      "Lake Tekapo & Lake Pukaki",
-      "Twizel Canal & High Country Salmon Farm",
-      "Aoraki Mt Cook National Park",
-      "Hooker Valley Track",
-      "Check-in hotel Twizel"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Twizel → Cromwell → Te Anau",
-     "m": "-",
-     "a": [
-      "Transfer ke Wanaka (2 jam)",
-      "Lindis Pass photostop",
-      "Lake Wanaka",
-      "Souvenir shopping Te Anau",
-      "Check-in hotel Te Anau"
-     ]
-    },
-    {
-     "d": 7,
-     "t": "Te Anau → Milford Sound → Queenstown",
-     "m": "-",
-     "a": [
-      "Transfer ke Milford Sound (2 jam)",
-      "Milford Sound Cruise (optional)",
-      "Transfer ke Queenstown (4 jam)",
-      "Skyline Gondola (optional)"
-     ]
-    },
-    {
-     "d": 8,
-     "t": "Queenstown → Auckland",
-     "m": "-",
-     "a": [
-      "Central Shopping Area Queenstown",
-      "Lake Wakatipu",
-      "Pulang kereta sewa & flight domestik ZQN–AKL",
-      "Check-in hotel Auckland"
-     ]
-    },
-    {
-     "d": 9,
-     "t": "Auckland → KUL",
-     "m": "-",
-     "a": [
-      "Transfer ke Auckland International Airport",
-      "Flight antarabangsa AKL–KUL",
-      "End of tour"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Auckland",
-     "m": "-",
-     "a": [
-      "Tiba di Auckland Airport, pickup & safety car briefing",
-      "Check-in hotel dekat Auckland",
-      "Free & easy (cadangan: Cornwall Park / Westhaven Marina)"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Auckland → Rotorua",
-     "m": "-",
-     "a": [
-      "Transfer ke Matamata (3 jam)",
-      "Hobbiton Movie Set Tour (optional)",
-      "Putaruru Blue Springs",
-      "Redwood Forest",
-      "Check-in hotel Rotorua"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Rotorua → Taupo → Hamilton",
-     "m": "-",
-     "a": [
-      "Whakarewarewa Maori Village Tour (optional)",
-      "Huka Falls & Lake Taupo",
-      "Hamilton Garden",
-      "Check-in hotel Hamilton"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Hamilton → Auckland → Christchurch",
-     "m": "-",
-     "a": [
-      "Flight domestik AKL–CHC",
-      "Pickup kereta sewa di Christchurch",
-      "Riverside Market",
-      "Masjid An Noor"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Christchurch → Tekapo → Twizel",
-     "m": "-",
-     "a": [
-      "Transfer ke Tekapo (3 jam)",
-      "Lake Tekapo & Lake Pukaki",
-      "Twizel Canal & High Country Salmon Farm",
-      "Aoraki Mt Cook National Park",
-      "Hooker Valley Track",
-      "Check-in hotel Twizel"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Twizel → Cromwell → Te Anau",
-     "m": "-",
-     "a": [
-      "Transfer ke Wanaka (2 jam)",
-      "Lindis Pass photostop",
-      "Lake Wanaka",
-      "Souvenir shopping Te Anau",
-      "Check-in hotel Te Anau"
-     ]
-    },
-    {
-     "d": 7,
-     "t": "Te Anau → Milford Sound → Queenstown",
-     "m": "-",
-     "a": [
-      "Transfer ke Milford Sound (2 jam)",
-      "Milford Sound Cruise (optional)",
-      "Transfer ke Queenstown (4 jam)",
-      "Skyline Gondola (optional)"
-     ]
-    },
-    {
-     "d": 8,
-     "t": "Queenstown → Auckland",
-     "m": "-",
-     "a": [
-      "Central Shopping Area Queenstown",
-      "Lake Wakatipu",
-      "Pulang kereta sewa & flight domestik ZQN–AKL",
-      "Check-in hotel Auckland"
-     ]
-    },
-    {
-     "d": 9,
-     "t": "Auckland → KUL",
-     "m": "-",
-     "a": [
-      "Transfer ke Auckland International Airport",
-      "Flight antarabangsa AKL–KUL",
-      "End of tour"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Ketibaan Auckland",
-     "m": "-",
-     "a": [
-      "Tiba di Auckland Airport, pickup & briefing",
-      "Check-in hotel dekat Auckland",
-      "Free & easy (cadangan: Cornwall Park / Westhaven Marina)"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Auckland → Rotorua",
-     "m": "-",
-     "a": [
-      "Transfer ke Rotorua (3 jam)",
-      "Redwood Forest",
-      "Whakarewarewa Maori Village Tour",
-      "Maori Culture Performance (optional)",
-      "Check-in hotel Rotorua"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Rotorua → Matamata → Rotorua",
-     "m": "-",
-     "a": [
-      "Transfer ke Matamata (1 jam)",
-      "Hobbiton Movie Set Tour (optional)",
-      "Agrodome Farm & Animal Show (optional)",
-      "Lake Rotorua",
-      "Kembali ke hotel Rotorua"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Rotorua → Taupo",
-     "m": "-",
-     "a": [
-      "Transfer ke Taupo (1 jam)",
-      "Lake Taupo",
-      "Taupo Cruise ke Maori Carving",
-      "Huka Falls",
-      "Check-in hotel Taupo"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Taupo → Hamilton → Auckland",
-     "m": "-",
-     "a": [
-      "Transfer ke Hamilton (2 jam)",
-      "Hamilton Garden (optional)",
-      "Transfer ke Auckland (2 jam)",
-      "Free & easy, check-in hotel Auckland"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Auckland → Return KUL",
-     "m": "-",
-     "a": [
-      "Auckland City Tour",
-      "Pulang kereta sewa di Auckland Airport",
-      "Flight ke KUL",
-      "End of tour"
-     ]
-    }
-   ]
+   null,
+   null,
+   null,
+   null,
+   null
   ],
   "attractions": [
    {
@@ -892,7 +368,7 @@
   ],
   "actGroups": [],
   "blocks": {
-   "pricing": "<h2>Harga & Pakej</h2><p class='ssub'>Kadar katalog per pax (MYR), 2–3 pax sebilik. Ground + tipping. Sah sehingga tempoh perjalanan 31 Mac 2027.</p><div class='custblk'><h3>PT North & South 10D9N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 16,197</td><td>RM 15,997</td><td>RM 15,797</td></tr><tr><td class='it'>3</td><td class='add'>RM 13,197</td><td>RM 12,997</td><td>RM 12,797</td></tr><tr><td class='it'>4</td><td class='add'>RM 11,697</td><td>RM 11,397</td><td>RM 11,197</td></tr><tr><td class='it'>5</td><td class='add'>RM 11,197</td><td>RM 10,997</td><td>RM 10,797</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 10,197</td><td>RM 9,997</td><td>RM 9,797</td></tr><tr><td class='it'>8–9</td><td class='add'>RM 9,797</td><td>RM 9,597</td><td>RM 9,397</td></tr><tr><td class='it'>10</td><td class='add'>RM 9,597</td><td>RM 9,397</td><td>RM 9,197</td></tr></tbody></table><div class='custnote'>Infant: RM 1,000. Single room +RM3,500/pax.</div></div><div class='custblk'><h3>PT South Island 8D7N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 12,997</td><td>RM 12,797</td><td>RM 12,597</td></tr><tr><td class='it'>3</td><td class='add'>RM 10,197</td><td>RM 9,997</td><td>RM 9,797</td></tr><tr><td class='it'>4</td><td class='add'>RM 9,797</td><td>RM 9,597</td><td>RM 9,397</td></tr><tr><td class='it'>5</td><td class='add'>RM 9,197</td><td>RM 8,997</td><td>RM 8,797</td></tr><tr><td class='it'>6</td><td class='add'>RM 8,797</td><td>RM 8,597</td><td>RM 8,397</td></tr><tr><td class='it'>7</td><td class='add'>RM 8,197</td><td>RM 7,997</td><td>RM 7,797</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 7,797</td><td>RM 7,597</td><td>RM 7,397</td></tr></tbody></table><div class='custnote'>Infant: RM 1,000. Single room +RM2,500/pax.</div></div><div class='custblk'><h3>ST North & South 9D8N (Standard)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 7,497</td><td>RM 7,297</td><td>RM 7,097</td></tr><tr><td class='it'>3–4</td><td class='add'>RM 7,197</td><td>RM 6,997</td><td>RM 6,797</td></tr><tr><td class='it'>5–6</td><td class='add'>RM 6,997</td><td>RM 6,797</td><td>RM 6,597</td></tr><tr><td class='it'>7–8</td><td class='add'>RM 6,797</td><td>RM 6,597</td><td>RM 6,397</td></tr><tr><td class='it'>9–10</td><td class='add'>RM 6,397</td><td>RM 6,197</td><td>RM 5,997</td></tr></tbody></table><div class='custnote'>Infant: RM 1,000.</div></div><div class='custblk'><h3>ST North & South 9D8N (Apartment)</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 6,997</td><td>RM 6,797</td><td>RM 6,597</td></tr><tr><td class='it'>3</td><td class='add'>RM 6,797</td><td>RM 6,597</td><td>RM 6,397</td></tr><tr><td class='it'>4–5</td><td class='add'>RM 6,597</td><td>RM 6,397</td><td>RM 6,197</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 6,397</td><td>RM 6,197</td><td>RM 5,997</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 6,197</td><td>RM 5,997</td><td>RM 5,797</td></tr></tbody></table><div class='custnote'>Infant: RM 1,000.</div></div><div class='custblk'><h3>ST North Island 6D5N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult (12+)</th><th>Child w/ Bed (6–11)</th><th>Child No Bed (2–5)</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 5,197</td><td>RM 4,997</td><td>RM 4,797</td></tr><tr><td class='it'>3</td><td class='add'>RM 4,997</td><td>RM 4,797</td><td>RM 4,597</td></tr><tr><td class='it'>4</td><td class='add'>RM 4,797</td><td>RM 4,597</td><td>RM 4,397</td></tr><tr><td class='it'>5</td><td class='add'>RM 4,597</td><td>RM 4,397</td><td>RM 4,197</td></tr><tr><td class='it'>6</td><td class='add'>RM 4,397</td><td>RM 4,197</td><td>RM 3,997</td></tr><tr><td class='it'>7</td><td class='add'>RM 4,197</td><td>RM 3,997</td><td>RM 3,797</td></tr></tbody></table><div class='custnote'>Infant: RM 800.</div></div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation</h2><p class='ssub'>Aktiviti tambahan / add-on, dan kadar tambah / tolak komponen pakej (transport, accommodation, domestic flight, meals) — semua harga MYR.</p><div class='custblk'><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Adult</th><th>Youth / Child</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Hobbiton Movie Set Tour</td><td class='add'>RM 320 (17+)</td><td>Youth RM150 (11–16) · Child FOC (&lt;10)</td><td>Guided tour 2.5 jam</td></tr><tr><td class='it'>Whakarewarewa Maori Village</td><td class='add'>RM 150 (16+)</td><td>Child/Youth RM80 (5–15) · Infant FOC</td><td>Guided tour 1 jam</td></tr><tr><td class='it'>Maori Culture Performance</td><td class='add'>RM 95 (16+)</td><td>Child/Youth RM60 (5–15) · Infant FOC</td><td>30 min, 12:30pm harian</td></tr><tr><td class='it'>Agrodome Farm & Animal Show</td><td class='add'>RM 180 (16+)</td><td>Youth RM150 (3–15) · Child FOC (&lt;10)</td><td>Farm show + 350-acre tour</td></tr><tr><td class='it'>Hamilton Garden</td><td class='add'>RM 65</td><td>Child RM25</td><td>Free & easy self tour</td></tr><tr><td class='it'>Skyline Gondola (Queenstown)</td><td class='add'>RM 180 (15+)</td><td>Youth RM120 (6–14) · Child &lt;5 free</td><td>Return gondola ride</td></tr><tr><td class='it'>Milford Sound Nature Cruise</td><td class='add'>RM 450 (15+)</td><td>Youth RM250 (6–14) · Child &lt;5 free</td><td>Tiket cruise sahaja</td></tr><tr><td class='it'>Milford Sound Coach + Cruise</td><td class='add'>RM 650 / RM 550</td><td>—</td><td>RM650 dari Queenstown (6:20am) · RM550 dari Te Anau (9:30am)</td></tr><tr><td class='it'>Shotover Jet (Queenstown)</td><td class='add'>RM 480 (16+)</td><td>Youth RM120 (6–14) · Child &lt;5 free</td><td>25 min ride</td></tr><tr><td class='it'>Fruit Picking — Jackson's Orchard, Cromwell</td><td class='add'>Ikut musim</td><td>—</td><td>Dis–Apr (ceri, aprikot, epal); sahkan kadar</td></tr><tr><td class='it'>Huka Jet (Taupo)</td><td class='add'>Atas permintaan</td><td>—</td><td>Sahkan kadar semasa</td></tr></tbody></table><div class='custnote'>Larnach Castle (Dunedin) & aktiviti lain boleh ditambah — sahkan kadar semasa dengan operator.</div></div><div class='custblk'><h3>&#128663; Tambah / Tolak Komponen Pakej &mdash; Transport</h3><div class='custnote'>Kadar untuk menambah (<b>Harga Tambahan</b>) atau menolak (<b>Harga Tolak</b>) komponen daripada pakej asal semasa custom quotation. Semua harga MYR. Sumber: rate sheet Simple Customisation New Zealand ARBA.</div></div><div class='custblk'><h3>PT &mdash; Transportation + Driver (1 Day Full Tour)</h3><table class='ctbl'><thead><tr><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td class='add'>RM2,300 / transport</td><td class='ded'>RM1,200 / transport</td></tr><tr><td class='it'>3&ndash;4 pax</td><td class='add'>RM2,500 / transport</td><td class='ded'>RM1,400 / transport</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM2,800 / transport</td><td class='ded'>RM1,800 / transport</td></tr><tr><td class='it'>5&ndash;6 pax</td><td class='add'>RM3,300 / transport</td><td class='ded'>RM1,800 / transport</td></tr><tr><td class='it'>7&ndash;10 pax</td><td class='add'>RM3,600 / transport</td><td class='ded'>RM2,500 / transport</td></tr></tbody></table><div class='custnote'>North Island atau South Island, <b>1 Day Full Tour</b>. Inclusions: private transport + driver guide &middot; comprehensive full car insurance &middot; fuel &amp; parking &middot; driver accommodation.</div></div><div class='custblk'><h3>ST &mdash; Airport Transfer / Private Shuttle</h3><table class='ctbl'><thead><tr><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td class='add'>RM180 / pax / way</td><td>&mdash;</td></tr><tr><td class='it'>3&ndash;4 pax</td><td class='add'>RM180 / pax / way</td><td>&mdash;</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM150 / pax / way</td><td>&mdash;</td></tr><tr><td class='it'>5&ndash;6 pax</td><td class='add'>RM150 / pax / way</td><td>&mdash;</td></tr><tr><td class='it'>7&ndash;10 pax</td><td class='add'>RM150 / pax / way</td><td>&mdash;</td></tr></tbody></table><div class='custnote'><b>One way shuttle</b> sahaja: Auckland Airport &ndash; CBD &middot; Christchurch Airport &ndash; CBD &middot; Queenstown Airport &ndash; CBD &middot; Wellington Airport &ndash; CBD. Tiada harga tolak.</div></div><div class='custblk'><h3>ST &mdash; Car Rental North Island</h3><table class='ctbl'><thead><tr><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td class='add'>RM450 / transport / hari</td><td class='ded'>RM300 / transport / hari</td></tr><tr><td class='it'>3&ndash;4 pax</td><td class='add'>RM500 / transport / hari</td><td class='ded'>RM350 / transport / hari</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM800 / transport / hari</td><td class='ded'>RM500 / transport / hari</td></tr><tr><td class='it'>5&ndash;6 pax</td><td class='add'>RM1,000 / transport / hari</td><td class='ded'>RM600 / transport / hari</td></tr></tbody></table><div class='custnote'>Pickup &amp; return Auckland Airport atau Wellington Airport. Harga <b>sama</b> untuk 1-way return mahupun same-location return. Harga termasuk comprehensive car insurance. Additional driver <b>+RM150 / pax</b> (add on, tidak termasuk). Peak season surcharge tidak termasuk &mdash; rujuk katalog.</div></div><div class='custblk'><h3>ST &mdash; Car Rental South Island (same location return)</h3><table class='ctbl'><thead><tr><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td class='add'>RM500 / transport / hari</td><td class='ded'>RM300 / transport / hari</td></tr><tr><td class='it'>3&ndash;4 pax</td><td class='add'>RM600 / transport / hari</td><td class='ded'>RM350 / transport / hari</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM950 / transport / hari</td><td class='ded'>RM500 / transport / hari</td></tr><tr><td class='it'>5&ndash;6 pax</td><td class='add'>RM1,200 / transport / hari</td><td class='ded'>RM600 / transport / hari</td></tr></tbody></table><div class='custnote'>Pickup &amp; return Christchurch Airport. Harga untuk <b>same-location return sahaja</b>. Harga termasuk comprehensive car insurance. Additional driver <b>+RM150 / pax</b> (add on, tidak termasuk). Peak season surcharge tidak termasuk &mdash; rujuk katalog.</div></div><div class='custblk'><h3>ST &mdash; Car Rental South Island (1 way &middot; CHC &rlarr; ZQN)</h3><table class='ctbl'><thead><tr><th>Kapasiti</th><th>Harga Tambahan</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>2&ndash;3 pax</td><td class='add'>RM600 / transport / hari</td><td class='ded'>RM300 / transport / hari</td></tr><tr><td class='it'>3&ndash;4 pax</td><td class='add'>RM750 / transport / hari</td><td class='ded'>RM350 / transport / hari</td></tr><tr><td class='it'>4&ndash;5 pax</td><td class='add'>RM1,100 / transport / hari</td><td class='ded'>RM500 / transport / hari</td></tr><tr><td class='it'>5&ndash;6 pax</td><td class='add'>RM1,500 / transport / hari</td><td class='ded'>RM600 / transport / hari</td></tr></tbody></table><div class='custnote'><b>1 way car rental (lokasi berbeza)</b>: pickup Christchurch Airport &rarr; return Queenstown Airport, atau pickup Queenstown Airport &rarr; return Christchurch Airport. Harga termasuk comprehensive car insurance. Additional driver <b>+RM150 / pax</b> (add on, tidak termasuk). Peak season surcharge tidak termasuk &mdash; rujuk katalog.</div></div><div class='custblk'><h3>&#127976; Tambah / Tolak Komponen Pakej &mdash; Accommodation</h3><div class='custnote'>Kadar per pax per malam (MYR). Rate sheet hanya menyenaraikan add-on untuk <b>peak season</b>; untuk add-on malam pada normal season sahkan dengan PO.</div></div><div class='custblk'><h3>North Island &mdash; Auckland, Rotorua, Wellington</h3><table class='ctbl'><thead><tr><th>Jenis Penginapan</th><th>Add On 1 Night (Peak)</th><th>Tolak 1 Night (Normal)</th><th>Tolak 1 Night (Peak)</th></tr></thead><tbody><tr><td class='it'>Airbnb (Double / Triple Bed)</td><td class='add'>RM300 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Airbnb (Two Bedroom / Triple Bedroom)</td><td class='add'>RM350 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Motel (Double / Triple Bed)</td><td class='add'>RM350 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (nearby airport)</td><td class='add'>RM350 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (CBD area)</td><td class='add'>RM450 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>4&#9733; Hotel (CBD area)</td><td class='add'>RM450 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>5&#9733; Hotel (CBD area)</td><td class='add'>RM600 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table><div class='custnote'>Terpakai untuk mana-mana kawasan di North Island: Hamilton, Auckland, Rotorua, Taupo atau Wellington.</div></div><div class='custblk'><h3>South Island &mdash; Christchurch, Dunedin, Wanaka</h3><table class='ctbl'><thead><tr><th>Jenis Penginapan</th><th>Add On 1 Night (Peak)</th><th>Tolak 1 Night (Normal)</th><th>Tolak 1 Night (Peak)</th></tr></thead><tbody><tr><td class='it'>Airbnb (Double / Triple Bed)</td><td class='add'>RM280 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Airbnb (Two Bedroom / Triple Bedroom)</td><td class='add'>RM350 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Motel (Double / Triple Bed)</td><td class='add'>RM350 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (nearby airport)</td><td class='add'>RM450 / pax / malam</td><td class='ded'>RM150 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (CBD area)</td><td class='add'>RM450 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>4&#9733; Hotel (CBD area)</td><td class='add'>RM500 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>5&#9733; Hotel (CBD area)</td><td class='add'>RM600 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table><div class='custnote'>Harga untuk lokasi: Christchurch, Cromwell, Wanaka, Dunedin, Omarama, Franz Josef.</div></div><div class='custblk'><h3>South Island &mdash; Twizel, Te Anau, Queenstown</h3><table class='ctbl'><thead><tr><th>Jenis Penginapan</th><th>Add On 1 Night (Peak)</th><th>Tolak 1 Night (Normal)</th><th>Tolak 1 Night (Peak)</th></tr></thead><tbody><tr><td class='it'>Airbnb (Double / Triple Bed)</td><td class='add'>RM400 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Airbnb (Two Bedroom / Triple Bedroom)</td><td class='add'>RM500 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>Motel (Double / Triple Bed)</td><td class='add'>RM500 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (nearby airport)</td><td class='add'>RM500 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>3&#9733; Hotel (CBD area)</td><td class='add'>RM700 / pax / malam</td><td class='ded'>RM200 / pax / malam</td><td>&mdash;</td></tr><tr><td class='it'>4&#9733; Hotel (CBD area)</td><td class='add'>RM800 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr><tr><td class='it'>5&#9733; Hotel (CBD area)</td><td class='add'>RM2,000 / pax / malam</td><td>&mdash;</td><td>&mdash;</td></tr></tbody></table><div class='custnote'>Harga <b>hanya</b> untuk 3 lokasi ini: Twizel, Queenstown, Te Anau. <b>Sahkan availability untuk peak season</b> &mdash; bilik sangat terhad.</div></div><div class='custblk'><h3>&#9992;&#65039; Domestic Flight &mdash; Tambah / Tolak Sektor</h3><table class='ctbl'><thead><tr><th>Sektor</th><th>Add On (Normal)</th><th>Add On (Peak)</th><th>Harga Tolak</th></tr></thead><tbody><tr><td class='it'>AKL &ndash; CHC</td><td class='add'>RM400</td><td class='add'>RM550</td><td class='ded'>RM300</td></tr><tr><td class='it'>AKL &ndash; WLG</td><td class='add'>RM400</td><td class='add'>RM550</td><td>&mdash;</td></tr><tr><td class='it'>AKL &ndash; ZQN</td><td class='add'>RM500</td><td class='add'>RM850</td><td>&mdash;</td></tr><tr><td class='it'>AKL &ndash; DUD</td><td class='add'>RM500</td><td class='add'>RM850</td><td>&mdash;</td></tr><tr><td class='it'>CHC &ndash; AKL</td><td class='add'>RM400</td><td class='add'>RM550</td><td class='ded'>RM300</td></tr><tr><td class='it'>CHC &ndash; WLG</td><td class='add'>RM400</td><td class='add'>RM550</td><td>&mdash;</td></tr><tr><td class='it'>ZQN &ndash; AKL</td><td class='add'>RM550</td><td class='add'>RM900</td><td class='ded'>RM300</td></tr><tr><td class='it'>ZQN &ndash; CHC</td><td class='add'>RM700</td><td class='add'>RM1,050</td><td>&mdash;</td></tr><tr><td class='it'>ZQN &ndash; WLG</td><td class='add'>RM600</td><td class='add'>RM950</td><td>&mdash;</td></tr><tr><td class='it'>WLG &ndash; AKL</td><td class='add'>RM400</td><td class='add'>RM550</td><td class='ded'>RM300</td></tr><tr><td class='it'>WLG &ndash; ZQN</td><td class='add'>RM600</td><td class='add'>RM700</td><td>&mdash;</td></tr><tr><td class='it'>WLG &ndash; CHC</td><td class='add'>RM600</td><td class='add'>RM700</td><td>&mdash;</td></tr></tbody></table><div class='custnote'>Kadar per pax per sektor (one way). Bagasi 20kg termasuk dalam sektor yang sudah ada dalam pakej. <b>Nota:</b> rate sheet asal melabel dua lajur ini &ldquo;Add On 1 Night&rdquo; &mdash; ini nampak artifak copy-paste daripada jadual Accommodation; kadar sebenarnya <b>per sektor</b>, bukan per malam. Sahkan dengan PO sebelum quote.</div></div><div class='custblk'><h3>&#127869;&#65039; Meals &mdash; Tolak</h3><table class='ctbl'><thead><tr><th>Meal</th><th>Tolak 1 Meal</th></tr></thead><tbody><tr><td class='it'>Welcome Meal daripada ARBA</td><td class='ded'>RM50 / pax</td></tr><tr><td class='it'>Lunch di High Country Salmon Farm</td><td class='ded'>RM50 / pax</td></tr><tr><td class='it'>3&#9733; Hotel breakfast</td><td>&mdash;</td></tr><tr><td class='it'>4&#9733; Hotel breakfast</td><td>&mdash;</td></tr><tr><td class='it'>5&#9733; Hotel breakfast</td><td>&mdash;</td></tr></tbody></table><div class='custnote'>Daily breakfast hanya tersedia di hotel 3&#9733;, 4&#9733; &amp; 5&#9733; terpilih; breakfast hotel adalah international buffet &mdash; tiada harga tolak. <b>Nota:</b> rate sheet asal menulis &ldquo;RM50 / pax / night&rdquo; untuk 2 meal di atas walaupun lajurnya &ldquo;Tolak 1 Meal&rdquo; &mdash; difahamkan per meal. Sahkan dengan PO.</div></div>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Buka panel itinerary hanya bila nak ubah hari; setiap blok membawa kawasannya sendiri, jadi kadar transport dan malam tambahan berlabuh pada blok yang dipilih.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT North &amp; South 10D9N</option><option value='1'>PT South Island 8D7N</option><option value='2'>ST North &amp; South 9D8N (Standard)</option><option value='3'>ST North &amp; South 9D8N (Apartment)</option><option value='4'>ST North Island 6D5N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (6&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;5)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>PT &amp; ST 9D8N: RM1,000 &middot; ST 6D5N: RM800</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>Harga katalog untuk 2&ndash;3 pax sebilik</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><p class='ssub'>Semua kadar ikut katalog V3 2026 (sah sehingga tempoh perjalanan 31 Mac 2027).</p><div class='custblk'><h3>Peak Season</h3><table class='ctbl'><thead><tr><th>Tempoh</th><th>Surcharge</th></tr></thead><tbody><tr><td class='it'>Spring &amp; Summer: 1&ndash;19 Apr 2026 &middot; 1&ndash;15 Jul 2026 &middot; 15&ndash;30 Nov 2026 &middot; 1&ndash;20 Dis 2026 &middot; 1 Jan&ndash;28 Feb 2027</td><td class='add'>+15% / pax</td></tr><tr><td class='it'>Christmas &amp; New Year: 21&ndash;31 Dis 2026 &middot; 1&ndash;20 Jan 2027</td><td class='add'>+20% / pax</td></tr></tbody></table><div class='custnote'>Kadar peak season sama untuk kelima-lima varian (PT 10D9N, PT 8D7N, ST 9D8N Standard, ST 9D8N Apartment, ST 6D5N).</div></div><div class='custblk'><h3>Last-Minute Booking (tempahan kurang 45 hari sebelum berangkat)</h3><table class='ctbl'><thead><tr><th>Pakej</th><th>2 pax</th><th>3 pax &amp; ke atas</th></tr></thead><tbody><tr><td class='it'>PT North &amp; South 10D9N</td><td class='add'>+RM1,500 / pax</td><td class='add'>+RM1,000 / pax</td></tr><tr><td class='it'>PT South Island 8D7N</td><td class='add'>+RM1,500 / pax</td><td class='add'>+RM1,000 / pax</td></tr><tr><td class='it'>ST North &amp; South 9D8N (Standard &amp; Apartment)</td><td class='add'>+RM1,000 / pax</td><td class='add'>+RM800 / pax</td></tr><tr><td class='it'>ST North Island 6D5N</td><td class='add'>+RM800 / pax</td><td class='add'>+RM500 / pax</td></tr></tbody></table></div><div class='custblk'><h3>Single Supplement</h3><table class='ctbl'><thead><tr><th>Pakej</th><th>Caj</th></tr></thead><tbody><tr><td class='it'>PT North &amp; South 10D9N</td><td class='add'>+RM3,500 / pax</td></tr><tr><td class='it'>PT South Island 8D7N</td><td class='add'>+RM2,500 / pax</td></tr><tr><td class='it'>ST (semua varian)</td><td class='add'>Atas permintaan</td></tr></tbody></table><div class='custnote'>Harga katalog adalah untuk 2&ndash;3 pax sebilik.</div></div><div class='custblk'><h3>Add-on Tempoh Perjalanan 2027</h3><table class='ctbl'><thead><tr><th>Tempoh perjalanan</th><th>Add-on</th><th>Terpakai untuk</th></tr></thead><tbody><tr><td class='it'>1 Jan &ndash; 30 Jun 2027</td><td class='add'>+RM150 / pax</td><td>Semua varian New Zealand (PT &amp; ST)</td></tr></tbody></table><div class='custnote'>Sumber: rate card ARBA 2026/2027 &mdash; tiada dalam katalog. Ditambah di atas surcharge peak season.</div></div><div class='custblk'><h3>Jam Tambahan Driver (PT)</h3><table class='ctbl'><thead><tr><th>Pakej</th><th>Asas harian</th><th>Jam tambahan</th></tr></thead><tbody><tr><td class='it'>PT North &amp; South 10D9N</td><td>Maksimum 12 jam / hari</td><td>&mdash;</td></tr><tr><td class='it'>PT South Island 8D7N</td><td>Asas 10 jam / hari</td><td class='add'>RM100 / jam</td></tr></tbody></table></div>",

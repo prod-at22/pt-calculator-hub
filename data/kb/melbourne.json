@@ -1,6 +1,26 @@
 {
  "slug": "melbourne",
  "kind": "template",
+ "map": {
+  "variants": {
+   "basic": {
+    "code": "MEL",
+    "package": "wae-basic"
+   },
+   "std": {
+    "code": "MEL",
+    "package": "wae-standard"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "melbourne-basic"
+   },
+   {
+    "catalog": "melbourne-standard"
+   }
+  ]
+ },
  "content": {
   "meta": {
    "lang": "ms",
@@ -60,25 +80,6 @@
     "emoji": "",
     "img": "Melbourne yarra twilight.jpg",
     "intro": "Pakej keluarga yang seimbang — sehari penuh di Phillip Island berjumpa & memberi makan hidupan liar Australia, plus meneroka ikon bandar Melbourne dan shopping di Queen Victoria Market. Private Tour: transport & pemandu-cum-guide khas untuk kumpulan anda sahaja. Ground + Tipping (tanpa flight).",
-    "inc": [
-     "4 malam hotel 3★ di City Centre (Free Tram Zone)",
-     "Return private airport transfers",
-     "Private transport ikut itinerari (asas 10 jam)",
-     "Driver cum guide warga Malaysia",
-     "Tiket masuk Maru Koala &amp; Animal Park",
-     "Tiket masuk Churchill Island Heritage Farm",
-     "Tipping fee",
-     "Bantuan permohonan visa (sesi appointment)"
-    ],
-    "exc": [
-     "Extra hour transport &amp; tour guide — AUD50/jam, tunai kepada pemandu",
-     "Tiket flight antarabangsa (return)",
-     "Bagasi flight, in-flight meal &amp; airport tax",
-     "Fee visa (dibayar kepada Australian Immigration)",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan peribadi",
-     "Tour &amp; makan tambahan"
-    ],
     "note": "Ground + Tipping (tanpa tiket flight). Transport asas 10 jam/hari. Day 3 = Melbourne City, Queen Victoria Market &amp; shopping. Harga sah hingga 31 Mac 2027. Harga untuk 2–3 orang sebilik."
    },
    {
@@ -88,144 +89,12 @@
     "emoji": "",
     "img": "Island Archway, Great Ocean Rd, Victoria, Australia - Nov 08.jpg",
     "intro": "Varian premium untuk pengalaman Melbourne yang lengkap — Phillip Island termasuk Penguin Parade waktu sunset, dan sehari penuh menyusuri Great Ocean Road ke Twelve Apostles. Transport 12 jam sehari, sarapan hotel setiap hari. Private Tour eksklusif untuk kumpulan anda. Ground + Tipping (tanpa flight).",
-    "inc": [
-     "4 malam hotel 3★ di City Centre (Free Tram Zone)",
-     "Sarapan hotel setiap hari",
-     "Return private airport transfers",
-     "Private transport ikut itinerari (asas 12 jam)",
-     "Driver cum guide warga Malaysia",
-     "Tiket masuk Maru Koala &amp; Animal Park",
-     "Tiket masuk Churchill Island Heritage Farm",
-     "Tiket masuk Penguin Parade — General Viewing",
-     "Tipping fee",
-     "Bantuan permohonan visa (sesi appointment)"
-    ],
-    "exc": [
-     "Extra hour transport &amp; tour guide — AUD50/jam, tunai kepada pemandu",
-     "Tiket flight antarabangsa (return)",
-     "Bagasi flight, in-flight meal &amp; airport tax",
-     "Fee visa (dibayar kepada Australian Immigration)",
-     "Perbelanjaan peribadi",
-     "Insurans perjalanan peribadi",
-     "Tour &amp; makan tambahan"
-    ],
     "note": "Ground + Tipping (tanpa tiket flight). Transport asas 12 jam/hari. Day 2 termasuk Penguin Parade, Day 3 = Great Ocean Road penuh. Harga sah hingga 31 Mac 2027. Harga untuk 2–3 orang sebilik."
    }
   ],
   "itineraries": [
-   [
-    {
-     "d": 1,
-     "t": "KUL → Ketibaan Melbourne",
-     "m": "–",
-     "a": [
-      "Meet & greet dengan driver-cum-guide ARBA",
-      "Private airport transfer ke hotel",
-      "Check-in hotel 3★ City Centre",
-      "Free & easy"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Phillip Island — Wildlife & Farm Tour",
-     "m": "–",
-     "a": [
-      "Maru Koala & Animal Park — beri makan kangaroo & wallaby",
-      "San Remo Pelican Feeding Show",
-      "Phillip Island Chocolate Factory (shop stop)",
-      "Churchill Island Heritage Farm — cow-milking, sheep-shearing, whip cracking",
-      "The Nobbies — boardwalk tebing & sunset photo stop"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Melbourne City Icons & Shopping",
-     "m": "–",
-     "a": [
-      "Queen Victoria Market — souvenir, produk segar, kafe",
-      "DFO South Wharf — waterfront outlet mall",
-      "Flinders Street Station & Federation Square",
-      "Degraves Street & Hosier Lane — laneway kafe & street art",
-      "Princes Bridge — skyline & Sungai Yarra",
-      "Brighton Beach Bathing Boxes — pondok pantai ikonik",
-      "Shrine of Remembrance — photo stop"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Free & Easy / Add-On",
-     "m": "–",
-     "a": [
-      "Free & easy di City Centre (Free Tram Zone)",
-      "ATAU pilih Add-On Private Day Tour (Great Ocean Road, Mornington, Puffing Billy, Snow Trip)"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Melbourne → KUL (Pulang)",
-     "m": "–",
-     "a": [
-      "Check-out hotel",
-      "Private airport transfer ke Melbourne Airport"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "KUL → Ketibaan Melbourne",
-     "m": "–",
-     "a": [
-      "Meet & greet dengan driver-cum-guide ARBA",
-      "Private airport transfer ke hotel",
-      "Check-in hotel 3★ City Centre",
-      "Free & easy"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Phillip Island + Penguin Parade",
-     "m": "Sarapan",
-     "a": [
-      "Maru Koala & Animal Park — beri makan kangaroo & wallaby",
-      "San Remo Pelican Feeding Show",
-      "Phillip Island Chocolate Factory (shop stop)",
-      "Churchill Island Heritage Farm — cow-milking, sheep-shearing",
-      "The Nobbies — boardwalk tebing",
-      "Penguin Parade — General Viewing (Little Penguins waktu sunset)"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Great Ocean Road",
-     "m": "Sarapan",
-     "a": [
-      "Aireys Inlet Lighthouse — mercu tanda pantai",
-      "Great Ocean Road Memorial Arch",
-      "Apollo Bay — pekan tepi laut",
-      "Twelve Apostles — mercu tanda ikonik Great Ocean Road",
-      "Loch Ard Gorge — pantai antara tebing"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Free & Easy / Add-On",
-     "m": "Sarapan",
-     "a": [
-      "Free & easy di City Centre (Free Tram Zone)",
-      "ATAU pilih Add-On Private Day Tour (City Tour, Mornington, Puffing Billy, Snow Trip)"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Melbourne → KUL (Pulang)",
-     "m": "Sarapan",
-     "a": [
-      "Check-out hotel",
-      "Private airport transfer ke Melbourne Airport"
-     ]
-    }
-   ]
+   null,
+   null
   ],
   "attractions": [
    {
@@ -385,7 +254,7 @@
   "blocks": {
    "compare": "<h2>Perbezaan Pakej — Standard vs Basic</h2><p class='ssub'>Checklist perbandingan dua varian Private Tour Melbourne 5D4N.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>STANDARD<br>5D4N</th><th>BASIC<br>5D4N</th></tr></thead><tbody><tr><td class='feat'>HOTEL 3★ CITY CENTRE · FREE TRAM ZONE</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>RETURN PRIVATE AIRPORT TRANSFER</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>DRIVER-CUM-GUIDE · WARGA MALAYSIA</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIKET MARU KOALA &amp; ANIMAL PARK</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIKET CHURCHILL ISLAND HERITAGE FARM</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIPPING FEE · BANTUAN VISA</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>PRIVATE TRANSPORT SETIAP HARI</td><td class='val'>12 jam</td><td class='val'>10 jam</td></tr><tr><td class='feat'>SARAPAN HOTEL SETIAP HARI</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>TIKET PENGUIN PARADE · GENERAL VIEWING</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on</td></tr><tr><td class='feat'>GREAT OCEAN ROAD &amp; 12 APOSTLES · DAY 3 PENUH</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on RM2,800/transport</td></tr><tr><td class='feat'>MELBOURNE CITY · QUEEN VICTORIA MARKET · SHOPPING</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>HARGA DARI · 2 PAX</td><td class='val'>RM 6,997</td><td class='val'>RM 5,897</td></tr><tr><td class='feat'>HARGA DARI · 8–10 PAX</td><td class='val'>RM 3,997</td><td class='val'>RM 3,397</td></tr><tr><td class='feat'>SESUAI UNTUK</td><td class='val'>Pelanggan yang mahu pengalaman Melbourne lengkap — wildlife, Penguin Parade &amp; scenic drive</td><td class='val'>Keluarga bajet terkawal — wildlife plus city &amp; shopping</td></tr></tbody></table>",
    "map": "<h2>Travel Map</h2><p class='ssub'>Route map rasmi setiap varian pakej Melbourne 5D4N.</p><div class='custblk' style='max-width:470px;margin:0 auto 18px'><p class='infosub' style='text-align:center'>PT Melbourne Standard 5D4N — Route Map</p><img src='@asset:e2c5e1ccef16' alt='PT Melbourne Standard 5D4N — Route Map' loading='lazy' style='display:block;width:100%;max-width:470px;margin:0 auto;border-radius:12px'><p class='custnote' style='text-align:center'>Day 1 Melbourne Airport → hotel · Day 2 Phillip Island (1j 45m) · Day 3 Great Ocean Road (2j 30m) · Day 4 free &amp; easy · Day 5 transfer ke lapangan terbang</p></div><div class='custblk' style='max-width:470px;margin:0 auto 18px'><p class='infosub' style='text-align:center'>PT Melbourne Basic 5D4N — Route Map</p><img src='@asset:f7c4452558d7' alt='PT Melbourne Basic 5D4N — Route Map' loading='lazy' style='display:block;width:100%;max-width:470px;margin:0 auto;border-radius:12px'><p class='custnote' style='text-align:center'>Day 1 Melbourne Airport → hotel · Day 2 Phillip Island (1j 45m) · Day 3 Melbourne City &amp; shopping · Day 4 free &amp; easy · Day 5 transfer ke lapangan terbang</p></div>",
-   "pricing": "<h2>Harga &amp; Pakej</h2><p class='ssub'>Kadar katalog — per pax, 2–3 orang sebilik. Ground + Tipping (tanpa tiket flight). CWB = Child With Bed (5–11 tahun), CNB = Child Without Bed (2–4 tahun). Harga sah hingga 31 Mac 2027. Semua harga sah 24 jam selepas sebut harga dikeluarkan.</p><div class='custblk'><h3>PT Melbourne Standard 5D4N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult</th><th>Child With Bed</th><th>Child No Bed</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 6,997</td><td>RM 6,797</td><td>RM 6,497</td></tr><tr><td class='it'>3</td><td class='add'>RM 5,497</td><td>RM 5,297</td><td>RM 4,997</td></tr><tr><td class='it'>4</td><td class='add'>RM 4,997</td><td>RM 4,797</td><td>RM 4,497</td></tr><tr><td class='it'>5</td><td class='add'>RM 4,497</td><td>RM 4,297</td><td>RM 3,997</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 4,197</td><td>RM 3,997</td><td>RM 3,697</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 3,997</td><td>RM 3,797</td><td>RM 3,497</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 tahun): RM 1,000 flat. 11 pax &amp; ke atas: sila minta sebut harga (perlu kenderaan tambahan).</p></div><div class='custblk'><h3>PT Melbourne Basic 5D4N</h3><table class='ctbl'><thead><tr><th>Group of</th><th>Adult</th><th>Child With Bed</th><th>Child No Bed</th></tr></thead><tbody><tr><td class='it'>2</td><td class='add'>RM 5,897</td><td>RM 5,697</td><td>RM 5,397</td></tr><tr><td class='it'>3</td><td class='add'>RM 4,597</td><td>RM 4,397</td><td>RM 4,097</td></tr><tr><td class='it'>4</td><td class='add'>RM 4,197</td><td>RM 3,997</td><td>RM 3,697</td></tr><tr><td class='it'>5</td><td class='add'>RM 3,797</td><td>RM 3,597</td><td>RM 3,297</td></tr><tr><td class='it'>6–7</td><td class='add'>RM 3,597</td><td>RM 3,397</td><td>RM 3,097</td></tr><tr><td class='it'>8–10</td><td class='add'>RM 3,397</td><td>RM 3,197</td><td>RM 2,897</td></tr></tbody></table><p class='custnote'>Infant (bawah 2 tahun): RM 1,000 flat. 11 pax &amp; ke atas: sila minta sebut harga (perlu kenderaan tambahan).</p></div>",
+   "pricing": "",
    "custom": "<h2>Simple Customisation</h2><div class='custblk'><h3>Add-On Private Day Tour — harga per transport, dikongsi seluruh group</h3><table class='ctbl'><thead><tr><th>Day Tour</th><th>Durasi</th><th>Harga</th><th>Untuk pakej</th></tr></thead><tbody><tr><td class='it'>Great Ocean Road — Aireys Inlet Lighthouse, Memorial Arch, Apollo Bay, Maits Rest Rainforest Walk, 12 Apostles, Loch Ard Gorge</td><td>12 jam</td><td class='add'>RM 2,800</td><td>Basic (Standard sudah termasuk)</td></tr><tr><td class='it'>Puffing Billy &amp; Dandenong Ranges — Puffing Billy Belgrave–Lakeside, Royal Botanic Garden, Sassafras Village, Skyhigh Lookout</td><td>8 jam</td><td class='add'>RM 1,500</td><td>Basic &amp; Standard</td></tr><tr><td class='it'>Mornington Peninsula — Pure Peninsula Honey, Enchanted Garden Adventure, Red Hill Lavender Farm, Sorrento Ocean Beach, Cape Schanck Boardwalk</td><td>8 jam</td><td class='add'>RM 1,600</td><td>Basic &amp; Standard</td></tr><tr><td class='it'>City Tour Half-Day — Queen Victoria Market, DFO South Wharf, Flinders Station &amp; Federation Square, Brighton Beach, Shrine of Remembrance</td><td>5 jam</td><td class='add'>RM 800</td><td>Standard (Basic sudah termasuk)</td></tr><tr><td class='it'>City Tour Full-Day — senarai penuh City Tour</td><td>10 jam</td><td class='add'>RM 1,500</td><td>Standard (Basic sudah termasuk)</td></tr><tr><td class='it'>Winter Snow Trip — Mt Buller / Mt Baw Baw atau Lake Mountain</td><td>12 jam</td><td class='add'>RM 3,200</td><td>Basic &amp; Standard</td></tr></tbody></table><p class='custnote'>Winter Snow Trip sudah termasuk vehicle entrance ticket &amp; tyre snow chains. City Tour half-day mungkin hanya meliputi separuh senarai — pelanggan pilih tempat.</p></div><div class='custblk'><h3>Tiket Aktiviti — per pax</h3><table class='ctbl'><thead><tr><th>Aktiviti</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Puffing Billy Steam Train</td><td class='add'>Adult RM 190 / Child RM 95</td><td>Belgrave–Lakeside. Tiket tidak termasuk dalam harga transport.</td></tr><tr><td class='it'>Enchanted Garden Adventure</td><td class='add'>Adult RM 120 / Child RM 90</td><td>Mornington Peninsula. Tiket tidak termasuk dalam harga transport.</td></tr></tbody></table></div><div class='custblk'><h3>Add-On Lain</h3><table class='ctbl'><thead><tr><th>Item</th><th>Harga</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Bantuan permohonan visa ETA (urus penuh)</td><td class='add'>RM 70/pax</td><td>Fee AUD20 dibayar sendiri kepada Australian Immigration</td></tr><tr><td class='it'>Pocket WiFi</td><td class='add'>RM 200 (3GB) / RM 140 (6GB seluruh trip)</td><td>Per booking</td></tr><tr><td class='it'>Travel Takaful — Etiqa TripCare 360</td><td class='add'>dari RM 64/pax</td><td>Ikut tempoh &amp; jenis pelan</td></tr><tr><td class='it'>Luggage Tracker — Blue Ribbon</td><td class='add'>dari RM 20/unit</td><td>Silver hingga Diamond</td></tr><tr><td class='it'>Sealife Aquarium (City)</td><td class='add'>RM 175/pax</td><td>Add-on masa free &amp; easy</td></tr></tbody></table><p class='custnote'>Sumber: senarai add-on ARBA — tiada dalam katalog. Bantuan visa berbentuk sesi appointment (online atau di pejabat) sudah termasuk dalam kedua-dua pakej.</p></div><h3>Rate Card Operasi &mdash; Harga Tambahan / Harga Tolak</h3><p>Kadar rasmi untuk <b>ubah suai pakej</b>. Kadar transport ialah <b>kos satu kenderaan</b> yang dikongsi seluruh group dan berubah ikut saiz kenderaan &mdash; bahagi dengan bilangan pax untuk kos per pax. Kalkulator pilih kelas kenderaan dan buat pembahagian ini automatik.</p><h4>Transport + Driver &mdash; Harga Tambahan (per kenderaan)</h4><table class='ctbl'><thead><tr><th>Servis</th><th>5 Seater (2&ndash;3 pax)</th><th>8 Seater (4&ndash;6 pax)</th><th>12 Seater (7&ndash;9 pax)</th><th>21 Seater (10&ndash;18 pax)</th></tr></thead><tbody><tr><td>Airport transfer pick up + meet &amp; greet</td><td>RM 1,400</td><td>RM 1,700</td><td>RM 2,150</td><td>Sebut harga</td></tr><tr><td>Airport transfer drop off</td><td>RM 1,300</td><td>RM 1,600</td><td>RM 2,050</td><td>Sebut harga</td></tr><tr><td>Melbourne City Half Day (5 jam)</td><td>RM 1,450</td><td>RM 1,750</td><td>RM 2,200</td><td>Sebut harga</td></tr><tr><td>Melbourne City Full Day (10 jam)</td><td>RM 2,300</td><td>RM 2,700</td><td>RM 3,250</td><td>Sebut harga</td></tr><tr><td>Phillip Island (10 jam)</td><td>RM 2,600</td><td>RM 3,000</td><td>RM 3,600</td><td>Sebut harga</td></tr><tr><td>Phillip Island + Penguin Parade (12 jam)</td><td>RM 2,950</td><td>RM 3,350</td><td>RM 3,900</td><td>Sebut harga</td></tr><tr><td>Mornington (10 jam)</td><td>RM 2,550</td><td>RM 2,950</td><td>RM 3,500</td><td>Sebut harga</td></tr><tr><td>Puffing Billy &amp; Dandenong (10 jam)</td><td>RM 2,450</td><td>RM 2,850</td><td>RM 3,400</td><td>Sebut harga</td></tr><tr><td>Great Ocean Road (12 jam)</td><td>RM 3,350</td><td>RM 3,750</td><td>RM 4,300</td><td>Sebut harga</td></tr><tr><td>Snow Trip (12 jam) &mdash; Mt Buller / Mt Baw Baw</td><td>RM 3,500</td><td>RM 3,900</td><td>RM 4,450</td><td>Sebut harga</td></tr><tr><td>Free &amp; Easy Transport Standby</td><td>RM 500</td><td>RM 650</td><td>RM 1,000</td><td>&ndash;</td></tr></tbody></table><p class='small'>21 Seater termasuk bus driver. Kadar 21 Seater tiada dalam rate card &mdash; minta sebut harga operasi.</p><h4>Transport + Driver &mdash; Harga Tolak (per kenderaan)</h4><table class='ctbl'><thead><tr><th>Servis</th><th>5 Seater (2&ndash;3 pax)</th><th>8 Seater (4&ndash;6 pax)</th><th>12 Seater (7&ndash;9 pax)</th></tr></thead><tbody><tr><td>Airport transfer pick up + meet &amp; greet</td><td>&minus;RM 1,100</td><td>&minus;RM 1,300</td><td>&minus;RM 1,700</td></tr><tr><td>Airport transfer drop off</td><td>&minus;RM 1,000</td><td>&minus;RM 1,200</td><td>&minus;RM 1,600</td></tr><tr><td>Melbourne City Full Day (10 jam)</td><td>&minus;RM 1,800</td><td>&minus;RM 2,100</td><td>&minus;RM 2,600</td></tr><tr><td>Phillip Island (10 jam)</td><td>&minus;RM 2,000</td><td>&minus;RM 2,400</td><td>&minus;RM 2,800</td></tr><tr><td>Phillip Island + Penguin Parade (12 jam)</td><td>&minus;RM 2,300</td><td>&minus;RM 2,600</td><td>&minus;RM 3,100</td></tr><tr><td>Great Ocean Road (12 jam)</td><td>&minus;RM 2,600</td><td>&minus;RM 3,000</td><td>&minus;RM 3,400</td></tr><tr><td>Free &amp; Easy Transport Standby</td><td>&minus;RM 300</td><td>&minus;RM 500</td><td>&minus;RM 700</td></tr></tbody></table><p class='small'>City Half Day, Mornington, Puffing Billy dan Snow Trip tiada harga tolak dalam rate card.</p><h4>Accommodation &mdash; per pax / malam</h4><table class='ctbl'><thead><tr><th>Hotel</th><th>Tambah 1 malam (normal)</th><th>Tambah 1 malam (peak)</th><th>Tolak 1 malam</th><th>Nota</th></tr></thead><tbody><tr><td>Ibis 3&#9733; dalam city (hotel pakej)</td><td>RM 300</td><td>RM 450</td><td>&minus;RM 200</td><td>Bilik double &amp; triple</td></tr><tr><td>Grand Chancellor 4&#9733; dalam city</td><td>RM 450</td><td>RM 600</td><td>&minus;RM 350</td><td>Bilik double &amp; triple</td></tr><tr><td>Pegasus Apart&#39;hotel 4&#9733; dalam city</td><td>RM 450</td><td>RM 600</td><td>&minus;RM 350</td><td>Double (studio), triple (studio / 1 bilik), quadruple (2 bilik). Quintuple terhad.</td></tr></tbody></table><p class='small'>Trip lebih 3 bulan dari tarikh sekarang: berkemungkinan FREE upgrade ke hotel / apartment 4&#9733; (MATTA Fair).</p><h4>Meals &mdash; per pax</h4><table class='ctbl'><thead><tr><th>Meal</th><th>Tambah 1 meal</th></tr></thead><tbody><tr><td>Hotel breakfast (buffet)</td><td>RM 125</td></tr><tr><td>Lunch</td><td>RM 100</td></tr><tr><td>Dinner</td><td>RM 100</td></tr></tbody></table><p class='small'>Melbourne banyak kedai halal certified / friendly. Digalakkan customer beli sendiri untuk jimat dan bebas pilih. Apartment ada dapur &mdash; boleh singgah beli groceries dengan guide. Breakfast boleh beli pastri / roti di kedai berdekatan. Lunch: guide cadang dan bawa ke kedai semasa tour. Dinner: ikut guide semasa tour atau keluar sendiri di city selepas tour (kalau balik hotel sebelum 7 malam).</p><h4>Entrance / Activity &mdash; per pax</h4><table class='ctbl'><thead><tr><th>Item</th><th>Harga Tambahan</th><th>Harga Tolak</th><th>Nota</th></tr></thead><tbody><tr><td>Maru Koala &amp; Animal Park (Phillip Island)</td><td>RM 110</td><td>&minus;RM 85</td><td></td></tr><tr><td>Churchill Island (Phillip Island)</td><td>RM 55</td><td>&minus;RM 45</td><td></td></tr><tr><td>Penguin Parade General Viewing (Phillip Island)</td><td>RM 110</td><td>&minus;RM 85</td><td>Availability agak susah &mdash; re-confirm selepas visa lulus dan full deposit</td></tr><tr><td>Sealife (City)</td><td>RM 175</td><td>&ndash;</td><td></td></tr><tr><td>Arthurs Seat Gondola return (Mornington)</td><td>RM 110</td><td>&ndash;</td><td></td></tr><tr><td>Enchanted Adventure Park (Mornington)</td><td>RM 135</td><td>&ndash;</td><td></td></tr><tr><td>Puffing Billy &mdash; Belgrave ke Lakeside (Dandenong)</td><td>RM 215</td><td>&ndash;</td><td>Availability sangat susah &mdash; re-confirm selepas visa lulus dan full deposit</td></tr><tr><td>Cherry Fruit Picking (Dandenong)</td><td>RM 65</td><td>&ndash;</td><td>Pertengahan Dis hingga pertengahan Feb</td></tr><tr><td>Rayners Orchard (Dandenong)</td><td>RM 215</td><td>&ndash;</td><td>Pertengahan Feb hingga pertengahan Dis</td></tr><tr><td>Snow Trip resort entrance (Mt Buller / Mt Baw Baw)</td><td>RM 85</td><td>&ndash;</td><td>Wajib untuk Snow Trip</td></tr></tbody></table><p class='small'>Untuk item yang juga ada dalam katalog (Puffing Billy train, Enchanted Garden, Sealife), kalkulator kekal guna harga katalog. Kadar rate card di atas untuk rujukan operasi.</p><h4>Nota am</h4><ul><li>Tiada caj tambahan untuk airport transfer waktu ganjil.</li><li>Phillip Island: kalau customer nak masukkan Penguin Parade, <b>wajib ambil pakej 12 jam</b>, bukan 10 jam.</li><li>Kalau ada hari Free &amp; Easy selang sehari, wajib masukkan caj <b>Free &amp; Easy Transport Standby</b> (untuk 5, 8 dan 12 seater sahaja).</li><li>Snow Trip wajib sekali dengan resort entrance.</li></ul><p class='src'>Sumber: rate card operasi PT Melbourne (Transport + Driver, Accommodation, Meals, Entrance) &mdash; tiada dalam katalog.</p>",
    "calc": "<h2>Simple Calculator</h2><p class='ssub'>Isi pax dan tarikh &mdash; peak season RM 125/pax/malam dan late booking dikira sendiri. Transport ikut jam: Basic 10 jam/hari, Standard 12 jam/hari; lebih masa AUD 50/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan.</p><div class='custblk calcblk'><h3>Detail customer</h3><div class='pkgsel'><label><span class='fl'>Pakej</span><select id='c_pkg'><option value='0'>PT Melbourne Basic 5D4N</option><option value='1'>PT Melbourne Standard 5D4N</option></select></label></div><div class='cgrid'><label class='fld'><span class='fl'>Nama customer</span><input id='c_name' type='text' placeholder='Nama penuh customer'></label><label class='fld'><span class='fl'>Departure date</span><input id='c_dep' type='date'><span class='fh'>Hari 1 trip</span></label><label class='fld'><span class='fl'>Return date</span><input id='c_ret' type='date'><span class='fh'>Hari terakhir &mdash; tentukan panjang trip</span></label><label class='fld'><span class='fl'>Adult (12 tahun ke atas)</span><input id='c_adult' type='number' min='0' value='2'></label><label class='fld'><span class='fl'>Child With Bed (5&ndash;11)</span><input id='c_cwb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Child No Bed (2&ndash;4)</span><input id='c_cnb' type='number' min='0' value='0'></label><label class='fld'><span class='fl'>Infant (bawah 2)</span><input id='c_inf' type='number' min='0' value='0'><span class='fh'>RM 1,000 flat (bawah 2 tahun), bukan FOC</span></label><label class='fld'><span class='fl'>Bilik single</span><input id='c_single' type='number' min='0' value='0'><span class='fh'>+RM 2,500 setiap satu</span></label></div><p class='calcnote' id='c_tier'></p></div><details class='panel' id='p_itin'><summary><span class='tw'>&#9654;</span><span class='pt'>Ubah itinerary</span><span class='psum' id='p_itin_s'></span></summary><div class='pbody'><div class='dbar'><span id='c_bar'></span><button type='button' id='c_expand' class='cbtn cbtn3'>Buka semua</button></div><div id='c_days'></div><div class='cbtns'><button type='button' id='c_addday' class='cbtn'>+ Tambah Hari</button><button type='button' id='c_reload' class='cbtn cbtn2'>Muat semula itinerary asal</button></div><p class='calcnote'>Seret baris hari (&#10303;) untuk susun semula &mdash; nombor hari dan tarikh berubah sendiri. Tambah atau buang hari akan laraskan <b>return date</b>. Pilihan bertanda <i>Termasuk pakej</i> tidak menambah kos.</p></div></details><div class='custblk calcblk'><h3>Ringkasan quotation</h3><table class='ctbl calctbl'><thead><tr><th>Item</th><th>Bil.</th><th>Harga seunit (RM)</th><th>Jumlah (RM)</th></tr></thead><tbody id='c_lines'></tbody></table><div class='ctot'><div><span class='ctl'>Grand Total</span><span class='ctv' id='c_grand'>RM 0</span></div><div><span class='ctl'>Per pax (final, semua kos)</span><span class='ctv' id='c_perpax'>RM 0</span></div><div><span class='ctl'>Deposit</span><span class='ctv' id='c_dep_amt'>RM 0</span></div></div><div class='cbtns'><button type='button' id='c_pdf' class='cbtn'>Jana Quotation PDF</button><button type='button' id='c_reset' class='cbtn cbtn2'>Reset semua</button></div><p class='calcnote'>Quotation dibuka dalam <b>tab baharu</b> mengikut format rasmi ARBA &mdash; dari situ tekan <b>Muat turun PDF</b> untuk simpan fail.</p></div>",
    "surcharge": "<h2>Surcharge</h2><div class='custblk'><h3>Surcaj katalog</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Bila</th></tr></thead><tbody><tr><td class='it'>Peak Season</td><td class='add'>+RM 125/pax/malam</td><td>20–30 Sep 2026 · 30 Okt–8 Nov 2026 · 1 Dis 2026–31 Jan 2027 · 1 Mac–12 Apr 2027</td></tr><tr><td class='it'>Upgrade hotel 4★ (Grand Chancellor / Apart'hotel)</td><td class='add'>+RM 125/pax/malam</td><td>Atas permintaan</td></tr><tr><td class='it'>Single Supplement</td><td class='add'>+RM 2,500/pax</td><td>Bilik single occupancy</td></tr><tr><td class='it'>Extra hour transport + driver-guide</td><td class='add'>AUD 50/jam</td><td>Selepas 10 jam (Basic) atau 12 jam (Standard) — bayar tunai kepada pemandu</td></tr><tr><td class='it'>Special Event Date</td><td class='add'>Sebut harga</td><td>Christmas, New Year, Chinese New Year — tanya sebelum booking</td></tr></tbody></table></div><div class='custblk'><h3>Surcaj tambahan</h3><table class='ctbl'><thead><tr><th>Item</th><th>Caj</th><th>Nota</th></tr></thead><tbody><tr><td class='it'>Travel Date 2027 (1 Jan–30 Jun 2027)</td><td class='add'>+RM 100/pax</td><td>Ditambah di atas surcaj peak season (jika ada)</td></tr><tr><td class='it'>Late Booking — tempahan kurang 45 hari sebelum berlepas</td><td class='add'>+RM 50/pax</td><td>2 pax &amp; ke atas</td></tr></tbody></table><p class='custnote'>Sumber: 2026/2027 Date Surcharge ARBA — tiada dalam katalog. Kadar peak season mengikut katalog (RM125/pax/malam).</p></div>",

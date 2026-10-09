@@ -1,6 +1,47 @@
 {
  "slug": "korea",
  "kind": "bespoke",
+ "map": {
+  "variants": {
+   "sbasic": {
+    "code": "SEL",
+    "package": "atk-bsc"
+   },
+   "sstd": {
+    "code": "SEL",
+    "package": "atk-std"
+   },
+   "seljju": {
+    "code": "SELJJU",
+    "package": "atk-std"
+   },
+   "jeju": {
+    "code": "JJU",
+    "package": "atk-pt"
+   },
+   "jejuudo": {
+    "code": "JJUO",
+    "package": "atk-std"
+   }
+  },
+  "packages": [
+   {
+    "catalog": "seoul-basic"
+   },
+   {
+    "catalog": "seoul-standard"
+   },
+   {
+    "catalog": "seoul-jeju"
+   },
+   {
+    "catalog": "jeju"
+   },
+   {
+    "catalog": "jeju-udo"
+   }
+  ]
+ },
  "content": {
   "PKG": [
    {
@@ -9,24 +50,6 @@
     "sub": "2 hari Free & Easy · Nami + Gyeongbok",
     "f": "@asset:c31becbce035",
     "intro": "5-day 4-night Private Tour of Seoul, ideal for first-timers. Includes 2 Free & Easy days — private guide & transport on Day 1–2 only (Nami Island & Gyeongbokgung Palace); Day 3–4 are free for your own shopping and exploring.",
-    "inc": [
-     "Hotel 3 bintang + sarapan",
-     "Airport transfer peribadi (Day 1 & Day 5)",
-     "Pengangkutan peribadi Day 1–2 (asas 10 jam/hari)",
-     "Driving guide berlesen English (Day 1–2)",
-     "Tiket masuk: Nami Island, Gyeongbok Palace",
-     "Tipping fee",
-     "K-ETA percuma (1 kali, warganegara Malaysia)"
-    ],
-    "exc": [
-     "Makan tengah hari & makan malam",
-     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
-     "Penerbangan antarabangsa",
-     "Perbelanjaan peribadi",
-     "Aktiviti pilihan (optional)",
-     "Insurans perjalanan",
-     "K-ETA re-application (RM70)"
-    ],
     "note": "2 hari Free & Easy (Day 3–4) tanpa pemandu/pengangkutan."
    },
    {
@@ -35,24 +58,6 @@
     "sub": "Full day tour Day 1–4",
     "f": "@asset:592053d327de",
     "intro": "5-day 4-night Private Tour of Seoul with full-day touring throughout (Day 1–4) — private guide & transport every day. Covers Nami Island, Gyeongbokgung Palace & Namsan Cable Car.",
-    "inc": [
-     "Hotel 3 bintang + sarapan",
-     "Airport transfer peribadi (Day 5)",
-     "Pengangkutan peribadi Day 1–4 (asas 10 jam/hari)",
-     "Driving guide berlesen English (Day 1–4)",
-     "Tiket masuk: Nami Island, Gyeongbok Palace, Namsan Cable Car",
-     "Tipping fee",
-     "K-ETA percuma (1 kali, warganegara Malaysia)"
-    ],
-    "exc": [
-     "Makan tengah hari & makan malam",
-     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
-     "Penerbangan antarabangsa",
-     "Perbelanjaan peribadi",
-     "Aktiviti pilihan (optional)",
-     "Insurans perjalanan",
-     "K-ETA re-application (RM70)"
-    ],
     "note": ""
    },
    {
@@ -61,25 +66,6 @@
     "sub": "Kombo bandar + pulau · flight domestik",
     "f": "@asset:22f7d4276507",
     "intro": "6-day 5-night Seoul + Jeju Island combo with domestic flights included. Blends city highlights (Nami, Gyeongbokgung, Namsan) with Jeju's natural beauty (Seongsan Ilchulbong, Cheonjeyeon, Yongmeori).",
-    "inc": [
-     "Hotel 3 bintang + sarapan",
-     "Airport transfer peribadi",
-     "Pengangkutan peribadi (asas 10 jam/hari)",
-     "Driving guide berlesen English (10 jam)",
-     "Tiket masuk: Nami, Gyeongbok, Namsan Cable Car, Seongsan Ilchulbong, Cheonjeyeon, Yongmeori",
-     "Penerbangan domestik pergi-balik (bagasi 20kg)",
-     "Tipping fee",
-     "K-ETA percuma (1 kali, warganegara Malaysia)"
-    ],
-    "exc": [
-     "Makan tengah hari & makan malam",
-     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
-     "Penerbangan antarabangsa",
-     "Perbelanjaan peribadi",
-     "Aktiviti pilihan (optional)",
-     "Insurans perjalanan",
-     "K-ETA re-application (RM70)"
-    ],
     "note": ""
    },
    {
@@ -88,25 +74,6 @@
     "sub": "Fokus pulau Jeju",
     "f": "@asset:9e3e8281fbee",
     "intro": "4-day 3-night Private Tour focused on Jeju Island — Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong & a seasonal tour that changes with the time of year.",
-    "inc": [
-     "Hotel 3 bintang + sarapan",
-     "Airport transfer peribadi",
-     "Pengangkutan peribadi (asas 10 jam/hari)",
-     "Driving guide berlesen English (10 jam)",
-     "Tiket masuk: Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
-     "Tipping fee",
-     "K-ETA percuma (1 kali, warganegara Malaysia)"
-    ],
-    "exc": [
-     "Makan tengah hari & makan malam",
-     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
-     "Penerbangan antarabangsa",
-     "Penerbangan domestik",
-     "Perbelanjaan peribadi",
-     "Aktiviti pilihan (optional)",
-     "Insurans perjalanan",
-     "K-ETA re-application (RM70)"
-    ],
     "note": "Bayaran secara tunai."
    },
    {
@@ -115,275 +82,15 @@
     "sub": "Jeju + feri pergi-balik ke Udo",
     "f": "@asset:046d0657d2fe",
     "intro": "5-day 4-night Jeju + Udo Island package, including a return ferry ticket to Udo. Covers Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong & a seasonal tour.",
-    "inc": [
-     "Hotel 3 bintang + sarapan",
-     "Airport transfer peribadi",
-     "Pengangkutan peribadi (asas 10 jam/hari)",
-     "Driving guide berlesen English (10 jam)",
-     "Tiket masuk: Yongmeori Coast, Cheonjeyeon Waterfall, Seongsan Ilchulbong, Seasonal Tour",
-     "Tiket feri pergi-balik ke Udo",
-     "Tipping fee",
-     "K-ETA percuma (1 kali, warganegara Malaysia)"
-    ],
-    "exc": [
-     "Makan tengah hari & makan malam",
-     "Jam lebih pemandu/guide (30,000–60,000 KRW/jam)",
-     "Penerbangan antarabangsa",
-     "Penerbangan domestik",
-     "Perbelanjaan peribadi",
-     "Aktiviti pilihan (optional)",
-     "Insurans perjalanan",
-     "K-ETA re-application (RM70)"
-    ],
     "note": "Bayaran secara tunai."
    }
   ],
   "ITIN": [
-   [
-    {
-     "d": 1,
-     "t": "Nami Island",
-     "a": [
-      "Airport pickup",
-      "Strawberry Farm (fruit picking, Dec–Feb) OR Starfield Library @ COEX (Mar–Nov)",
-      "Nami Island (Winter Sonata filming location)",
-      "Hotel check-in"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Seoul City",
-     "a": [
-      "Namdaemun Market (souvenirs)",
-      "Gyeongbokgung Palace",
-      "Namsan Hanok Village",
-      "Itaewon Mosque (first mosque in South Korea)"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Free & Easy",
-     "a": [
-      "Explore at your own pace — no guide/transport"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Free & Easy",
-     "a": [
-      "Explore at your own pace — no guide/transport"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Departure",
-     "a": [
-      "Check-out & private airport transfer"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Nami Island",
-     "a": [
-      "Airport pickup",
-      "Strawberry Farm (Dec–Feb) OR Starfield Library @ COEX (Mar–Nov)",
-      "Nami Island (Winter Sonata filming location)",
-      "Hotel check-in"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Seoul City",
-     "a": [
-      "Gyeongbokgung Palace",
-      "Gwanghwamun Square",
-      "Cheonggyecheon Stream",
-      "HiKR Ground (K-pop cultural center)",
-      "Insadong Street"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Shopping Day",
-     "a": [
-      "Goto Mall (largest underground mall) OR Seongsu-dong",
-      "Namdaemun Market",
-      "Myeongdong Street (skincare, K-pop, street food)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Seoul City",
-     "a": [
-      "Namsan (N Seoul) Tower by cable car",
-      "Itaewon Mosque",
-      "Hongdae Street"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Departure",
-     "a": [
-      "Check-out & private airport transfer"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Nami Island",
-     "a": [
-      "Arrival at Incheon",
-      "Nami Island",
-      "Dongdaemun Design Plaza (DDP)",
-      "Hotel check-in"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Seoul City",
-     "a": [
-      "Gyeongbokgung Palace",
-      "Cheonggyecheon Stream",
-      "Itaewon (first mosque in South Korea)",
-      "Seongsu-dong Market"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Jeju Island",
-     "a": [
-      "Morning flight to Jeju",
-      "Osulloc Green Tea Farm & Innisfree House",
-      "Yongmeori Coast",
-      "Cheonjeyeon Waterfall"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Jeju Island",
-     "a": [
-      "Seongeup Folk Village",
-      "Seopjikoji",
-      "Gimnyeong Beach",
-      "Seongsan Ilchulbong",
-      "Seasonal Tour (see note)"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Seoul City",
-     "a": [
-      "Morning flight to Seoul",
-      "Namdaemun Market",
-      "Namsan Cable Car",
-      "Myeongdong Street"
-     ]
-    },
-    {
-     "d": 6,
-     "t": "Departure",
-     "a": [
-      "Check-out & airport transfer"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Arrival · Jeju City",
-     "a": [
-      "Airport pickup (morning arrival suggested)",
-      "Yongduam Rock",
-      "Yongyeon Pond",
-      "Saryeoni Forest Trail",
-      "Iho Tewoo Horse Lighthouse",
-      "Dongmun Traditional Market",
-      "Check-in"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Jeju West & South",
-     "a": [
-      "Saebyeol Oreum",
-      "Osulloc Green Tea Farm & Innisfree House",
-      "Yongmeori Coast",
-      "Cheonjeyeon Waterfall"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Jeju East",
-     "a": [
-      "Seongeup Folk Village",
-      "Seopjikoji",
-      "Gimnyeong Beach",
-      "Seongsan Ilchulbong (UNESCO)",
-      "Seasonal Tour (see note)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Departure",
-     "a": [
-      "Check-out & private airport transfer"
-     ]
-    }
-   ],
-   [
-    {
-     "d": 1,
-     "t": "Arrival · Jeju City",
-     "a": [
-      "Airport pickup (morning arrival suggested)",
-      "Yongduam Rock",
-      "Yongyeon Pond",
-      "Saryeoni Forest Trail",
-      "Iho Tewoo Horse Lighthouse",
-      "Dongmun Traditional Market",
-      "Check-in"
-     ]
-    },
-    {
-     "d": 2,
-     "t": "Jeju West & South",
-     "a": [
-      "Saebyeol Oreum",
-      "Osulloc Green Tea Farm & Innisfree House",
-      "Yongmeori Coast",
-      "Cheonjeyeon Waterfall"
-     ]
-    },
-    {
-     "d": 3,
-     "t": "Jeju East",
-     "a": [
-      "Seongeup Folk Village",
-      "Seopjikoji",
-      "Gimnyeong Beach",
-      "Seongsan Ilchulbong (UNESCO)",
-      "Seasonal Tour (see note)"
-     ]
-    },
-    {
-     "d": 4,
-     "t": "Udo · Free & Easy",
-     "a": [
-      "Ferry to Udo Island (~4 hrs, ferry ticket included)",
-      "Free & easy on Udo (guide drops at departure port)"
-     ]
-    },
-    {
-     "d": 5,
-     "t": "Departure",
-     "a": [
-      "Check-out & airport transfer"
-     ]
-    }
-   ]
+   null,
+   null,
+   null,
+   null,
+   null
   ],
   "SNOTE": {
    "2": 1,

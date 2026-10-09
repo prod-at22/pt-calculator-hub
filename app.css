@@ -262,3 +262,4 @@ iframe.kb-calc{width:100%;height:1500px;border:1px solid #e5e5e5;border-radius:1
 .kb-f.wide{display:flex;width:100%}.kb-f textarea,.kb-f input{width:100%;box-sizing:border-box;font:inherit;font-size:13px}
 textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%;box-sizing:border-box}
 .kb-html{overflow-x:auto}
+.kb-link{border-top:1px solid #eee;padding-top:8px;margin-top:8px}.kb-link .card{box-shadow:none;border:1px solid #eee;margin:8px 0}
