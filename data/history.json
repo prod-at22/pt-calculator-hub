@@ -39502,6 +39502,20 @@
     "28 KB rebuilt"
    ],
    "changes": []
+  },
+  {
+   "v": 40,
+   "at": "2026-10-09T03:36:14Z",
+   "by": "system",
+   "note": "KB FAQ: payment-policy questions removed (full payment, late booking, instalments — answered by the Policy tab); empty 'Payment & Refund' headings removed — PO 9 Oct",
+   "summary": [
+    "23 questions removed in 19 KB",
+    "15 empty FAQ section headings removed"
+   ],
+   "kb": [
+    "KB rebuilt"
+   ],
+   "changes": []
   }
  ]
 }
