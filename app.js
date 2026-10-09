@@ -7,7 +7,7 @@ const REPO = { owner: "prod-at22", name: "pt-calculator-hub", branch: "main" };
 const ROOT = window.PT_ROOT || "";          // "../" on /<code>/ pages
 const PAGE_DEST = window.PT_DEST || null;   // destination code, null on the hub
 const PAGE_VIEW = window.PT_VIEW || null;   // "flags" on /flags/
-const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json", flags: "data/flags.json", catalogs: "data/catalogs/" };
+const PATHS = { data: "data/data.json", history: "data/history.json", users: "data/users.json", flags: "data/flags.json", catalogs: "data/catalogs/", kb: "data/kb/" };
 const KDF_ITER = 310000;
 const IDLE_LOGOUT_MS = 30 * 60 * 1000;
 
@@ -21,7 +21,7 @@ let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
+const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
 // each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
 const CAT_TABS = ["itinerary", "surcharge", "expect", "policy"];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
@@ -100,12 +100,13 @@ function dedupe(out) {
 }
 function applyChanges(obj, changes, reverse = false) {
   const list = reverse ? [...changes].reverse() : changes;
-  for (const c of list) { if (c.path[0] === "catalogs") continue; const v = reverse ? c.from : c.to; setPath(obj, c.path, v == null ? undefined : clone(v)); }   // null / undefined = field absent; catalog edits live in data/catalogs/
+  for (const c of list) { if (c.path[0] === "catalogs" || c.path[0] === "kb") continue; const v = reverse ? c.from : c.to; setPath(obj, c.path, v == null ? undefined : clone(v)); }   // null / undefined = field absent; catalog edits live in data/catalogs/
   return obj;
 }
 // Human label for a change path, resolved against a snapshot.
 function describe(snap, path) {
   if (path[0] === "catalogs") return "Catalog " + path[1] + " › " + path.slice(2).map(x => typeof x === "number" ? "#" + (x + 1) : x).join(" › ");
+  if (path[0] === "kb") return "KB " + path[1] + " › " + path.slice(2).map(x => typeof x === "number" ? "#" + (x + 1) : x).join(" › ");
   const parts = []; let cur = snap;
   const LBL = { value: "", rates: "Rate", fx: "FX", tables: "Table", packages: "", variants: "TO", pricing: "", rules: "Rule",
     adult: "Adult catalog", cwb: "CWB catalog", cnb: "CNB catalog", infant: "Infant price", discountTier2: "Discount tier 2",
@@ -408,6 +409,8 @@ function renderMain(d, pkg) {
   const T = SEL.tab;
   if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + (EDIT && !VIEW ? toRatesCard(d, pkg) : "") + costingByPax(d, pkg, pax) + (EDIT && !VIEW ? catalogTab(d, pkg, "price") : "");
   else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
+  else if (T === "kbinfo") { $("#grid").innerHTML = kbInfoTab(d); kbFilter(); }
+  else if (T === "kbcalc") { $("#grid").innerHTML = kbCalcTab(d); kbFrameReady(); }
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d, pkg) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -779,6 +782,189 @@ function contractCard(d) {
     <div class="note">Anyone with the page link can open these files. A new file shows on the live page in about a minute.</div></div>`;
 }
 // Add (file) or remove (removeId) a contract file: one commit with the file, data.json and history.json.
+/* ============================================================ KB House (Info KB · Simple Calculator)
+   Every PT KB House page (prod-at22.github.io/pt-kb-house/<slug>/) is built from data/kb/<slug>.json by
+   kb-build/build.py (pt-kb-house's mirror.yml): `content` = what the KB shows (packages, attractions with
+   Muslim-friendly info, hotels, tab blocks, FAQ), `calc` = the Simple Calculator config. index.json links a
+   KB to the destination codes it covers. Images stay in pt-kb-house ("@asset:<key>" here). Edited in Edit
+   costs like the catalogs; Save writes the file in the same commit and starts pt-kb-house's mirror. */
+const KB = { index: null, docs: {}, edit: {}, err: null, q: "" };
+function loadKb(path, set) {
+  fetchJson(PATHS.kb + path).then(set).catch(e => { KB.err = e.message; }).then(() => { if (PAGE_DEST) render(); });
+}
+function kbSlugFor(code) {
+  if (!KB.index) { if (!KB.err) loadKb("index.json", x => { KB.index = x; }); return undefined; }
+  return Object.keys(KB.index).find(sl => (KB.index[sl].codes || []).includes(code)) || null;
+}
+function kbDoc(code) {   // undefined = loading, null = no KB, else {sl, kb (edit copy in Edit costs), ix}
+  const sl = kbSlugFor(code);
+  if (!sl) return sl;
+  if (!KB.docs[sl]) { if (!KB.err) loadKb(sl + ".json", x => { KB.docs[sl] = x; }); return undefined; }
+  const E = EDIT && !VIEW;
+  return { sl, kb: E ? (KB.edit[sl] ||= clone(KB.docs[sl])) : KB.docs[sl], ix: KB.index[sl] };
+}
+// The two page kinds keep their content under different names; one view for both.
+function kbView(kb) {
+  const c = kb.content || {};
+  if (kb.kind === "bespoke") {
+    const blocks = {};
+    for (const k of Object.keys(c)) if (/_HTML$/.test(k) && typeof c[k] === "string") blocks[k.replace(/_HTML$/, "").toLowerCase()] = ["content", k];
+    return { meta: null, packages: c.PKG ? ["content", "PKG"] : null, itin: c.ITIN ? ["content", "ITIN"] : null, attractions: c.ATTR ? ["content", "ATTR"] : null,
+      hotels: c.HOTELS ? ["content", "HOTELS"] : null, acts: c.ITINSUGG_ACTS ? ["content", "ITINSUGG_ACTS"] : c.ACTS ? ["content", "ACTS"] : null,
+      blocks, faq: ["snapshot"], marketing: null, extra: ["SNOTE", "SEASON_TXT", "PRICES"].filter(k => k in c).map(k => ["content", k]) };
+  }
+  const blocks = {};
+  for (const k of Object.keys(c.blocks || {})) blocks[k] = ["content", "blocks", k];
+  return { meta: ["content", "meta"], packages: ["content", "packages"], itin: ["content", "itineraries"], attractions: ["content", "attractions"], hotels: ["content", "hotels"],
+    acts: (c.actGroups || []).length ? ["content", "actGroups"] : null, blocks, faq: ["content", "snapshot"], marketing: c.meta && c.meta.marketing ? ["content", "meta", "marketing"] : null, extra: [] };
+}
+const KBL = { n: "Nama", t: "Jenis / tajuk", tag: "Tag", sub: "Ringkasan", short: "Ringkas", intro: "Pengenalan", hi: "Highlights", best: "Masa terbaik", muslim: "Muslim-friendly",
+  map: "Google Maps", inc: "Termasuk", exc: "Tidak termasuk", note: "Nota", tier: "Kategori", name: "Nama", d: "Hari", m: "Makan", a: "Aktiviti", city: "Bandar", items: "Item",
+  emoji: "Emoji", anchors: "Anchor attractions", usp: "USP", season: "Musim", expect: "What to expect", heroTitle: "Hero", heroLead: "Hero (ayat)", docTitle: "Tajuk halaman",
+  statusText: "Last updated", kicker: "Kicker", brandTag: "Brand tag", overviewTitle: "Tajuk overview", searchPlaceholder: "Placeholder carian", miniSearchPlaceholder: "Placeholder carian kecil", footerHtml: "Footer" };
+const KB_BLOCK = { compare: "Perbezaan Pakej", pricing: "Harga & Pakej", custom: "Simple Customisation", surcharge: "Surcharge", transport: "Transportation & Guide", stay: "Accommodation",
+  food: "Halal & Makanan", prayer: "Solat", flight: "Flight & Airport", flight_reco: "Flight & Airport", weather: "Cuaca & Musim", tips: "Shopping & Tips", visa: "Visa & Passport",
+  freegift: "Free Gift (Promo)", polisi: "Polisi & Payment", trippix: "Trip Pix", triplepas: "Triple Pass", cmp: "Perbandingan", itinsugg: "Itinerary Suggestions", wheelchair: "Wheelchair & Baby" };
+const KB_SKIP_BLOCK = new Set(["calc", "map"]);   // the calculator shell and the travel map are part of the page (cosmetic)
+const isAsset = v => typeof v === "string" && (/^@asset:/.test(v) || /^data:/.test(v));
+const kbTxt = v => typeof v === "string" ? v.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&[a-z]+;/g, "") : "";
+const kbHtml = h => String(h || "").replace(/<img\b[^>]*src=["']?(?:@asset:|data:)[^>]*>/gi, "").replace(/<script\b[\s\S]*?<\/script>/gi, "");
+// FAQ / snapshot markdown → collapsible sections (headings, bullets, tables, **bold**)
+function kbMd(md) {
+  const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+  const body = lines => {
+    let h = "", list = false, tbl = [];
+    const flush = () => { if (list) { h += "</ul>"; list = false; } if (tbl.length) { const rows = tbl.filter(r => !/^\s*\|[\s\-|:]+\|\s*$/.test(r)).map(r => r.trim().replace(/^\||\|$/g, "").split("|").map(x => x.trim()));
+      h += `<div class="scroll"><table class="cd-t">${rows.map((r, i) => `<tr>${r.map(x => i ? `<td class="l">${inl(x)}</td>` : `<th class="l">${inl(x)}</th>`).join("")}</tr>`).join("")}</table></div>`; tbl = []; } };
+    for (const ln of lines) {
+      if (/^\s*\|/.test(ln)) { if (list) { h += "</ul>"; list = false; } tbl.push(ln); continue; }
+      const m = /^\s*[-*]\s+(.*)$/.exec(ln);
+      if (m) { if (tbl.length) flush(); if (!list) { h += "<ul>"; list = true; } h += `<li>${inl(m[1])}</li>`; continue; }
+      flush(); if (ln.trim()) h += `<p>${inl(ln)}</p>`;
+    }
+    flush(); return h;
+  };
+  const secs = []; let cur = { t: "", lines: [] };
+  for (const ln of String(md || "").replace(/\\([#\-*>|&<~.\\`_])/g, "$1").split(/\r?\n/)) {
+    const m = /^#{1,4}\s+(.*)$/.exec(ln);
+    if (m) { if (cur.t || cur.lines.some(x => x.trim())) secs.push(cur); cur = { t: m[1], lines: [] }; } else cur.lines.push(ln);
+  }
+  if (cur.t || cur.lines.some(x => x.trim())) secs.push(cur);
+  return secs.map(s => `<details class="kb-faq" data-kbtext="${esc((s.t + " " + s.lines.join(" ")).toLowerCase())}"><summary>${esc(s.t || "Nota")}</summary><div class="kb-md">${body(s.lines)}</div></details>`).join("");
+}
+// Edit costs: a generic field editor over the KB file (strings, lists, nested items). Images are not edited here.
+function kbEditor(sl, path, v, key) {
+  const kp = esc(JSON.stringify([sl, ...path])), lbl = key == null ? "" : esc(KBL[key] || String(key));
+  if (isAsset(v) || key === "img" || key === "imgs") return `<div class="kb-f muted small">${lbl}: gambar (urus di pt-kb-house)</div>`;
+  if (typeof v === "string") {
+    const long = v.length > 90 || /[\n<]/.test(v);
+    return `<label class="kb-f${long ? " wide" : ""}">${lbl}${long ? `<textarea class="ed kbed" data-kpath="${kp}" rows="${Math.min(18, Math.max(2, Math.ceil(v.length / 110) + (v.match(/\n/g) || []).length))}">${esc(v)}</textarea>` : `<input class="ed txt kbed" data-kpath="${kp}" value="${esc(v)}">`}</label>`;
+  }
+  if (typeof v === "number") return `<label class="kb-f">${lbl}<input class="ed kbed" type="number" step="any" data-kpath="${kp}" data-kkind="num" value="${v}"></label>`;
+  if (Array.isArray(v) && v.every(x => typeof x === "string"))
+    return `<label class="kb-f wide">${lbl} <span class="muted small">(satu baris satu item)</span><textarea class="ed kbed" data-kpath="${kp}" data-kkind="lines" rows="${Math.min(14, Math.max(2, v.length + 1))}">${esc(v.join("\n"))}</textarea></label>`;
+  if (Array.isArray(v) && v.every(x => Array.isArray(x) && x.every(y => typeof y === "string")))
+    return `<label class="kb-f wide">${lbl} <span class="muted small">(satu baris satu item, lajur dipisah " | ")</span><textarea class="ed kbed" data-kpath="${kp}" data-kkind="pairs" rows="${Math.min(14, v.length + 1)}">${esc(v.map(x => x.join(" | ")).join("\n"))}</textarea></label>`;
+  if (Array.isArray(v)) return `<fieldset class="kb-fs"><legend>${lbl} <span class="muted small">${v.length} item</span></legend>${v.map((x, i) => `<fieldset class="kb-fs"><legend>#${i + 1} ${esc(kbTxt((x && (x.n || x.name || x.t || x.tier || x.city)) || ""))} <button class="btn danger" data-kact="del" data-kpath="${esc(JSON.stringify([sl, ...path, i]))}">Buang</button></legend>${kbEditor(sl, [...path, i], x, null)}</fieldset>`).join("")}
+    <button class="btn" data-kact="add" data-kpath="${kp}">+ Tambah</button></fieldset>`;
+  if (v && typeof v === "object") return (key == null ? "" : `<fieldset class="kb-fs"><legend>${lbl}</legend>`) + Object.keys(v).map(k => kbEditor(sl, [...path, k], v[k], k)).join("") + (key == null ? "" : "</fieldset>");
+  return `<div class="kb-f muted small">${lbl}: ${esc(showVal(v))}</div>`;
+}
+function kbInfoTab(d) {
+  const x = kbDoc(d.code);
+  if (x === undefined) return `<div class="card full"><div class="empty">${KB.err ? esc(KB.err) : "Loading KB…"}</div></div>`;
+  if (!x) return `<div class="card full"><div class="empty">${esc(d.name)} has no PT KB House page.</div></div>`;
+  const { sl, kb, ix } = x, V = kbView(kb), E = EDIT && !VIEW, g = p => p ? getPath(kb, p) : null;
+  const head = `<div class="card full kb"><h2>Info KB · ${esc(ix.name)} <span class="sub">${esc(kbTxt((g(V.meta) || {}).statusText || ""))}${(ix.codes || []).length > 1 ? " · covers " + ix.codes.map(esc).join(", ") : ""}</span>
+      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Buka KB</a></span></h2>
+    <div class="body small muted">Kandungan PT KB House (Bahasa Melayu) — sumbernya hub ini (<code>data/kb/${esc(sl)}.json</code>). ${E ? "Edit di sini, kemudian <b>Save</b>: KB dibina semula oleh mirror pt-kb-house (~1–2 min). Gambar dan reka bentuk halaman kekal di pt-kb-house." : "Log in → Edit costs untuk ubah."}</div>
+    ${E ? "" : `<div class="body"><input id="kbq" class="kb-q" placeholder="Cari dalam KB: halal, surau, cuaca, visa…" value="${esc(KB.q)}"></div>`}</div>`;
+  const card = (id, title, sub, inner) => inner ? `<div class="card full kb" id="kb-${id}"><h2>${title} <span class="sub">${sub || ""}</span></h2><div class="body">${inner}</div></div>` : "";
+  if (E) {
+    const ed = (id, title, p) => p && g(p) != null ? card(id, title, "", kbEditor(sl, p, g(p), null)) : "";
+    return head + ed("attr", "Attractions & Muslim-friendly", V.attractions) + (V.faq && typeof g(V.faq) === "string" ? card("faq", "FAQ / Important Notes", "markdown: # tajuk, - item, | jadual |", kbEditor(sl, V.faq, g(V.faq), null)) : "")
+      + ed("pkg", "Pakej (BM)", V.packages) + ed("itin", "Itinerari (BM)", V.itin) + ed("hotels", "Hotel", V.hotels) + ed("acts", "Aktiviti", V.acts)
+      + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
+      + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
+      + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("");
+  }
+  const A = g(V.attractions) || [];
+  const attr = A.map(a => `<div class="kb-attr" data-kbtext="${esc(kbTxt([a.n, a.t, a.short, a.intro, (a.hi || []).join(" "), a.best, a.muslim].join(" ")).toLowerCase())}">
+      <b>${esc(kbTxt(a.n))}</b> ${a.t ? `<span class="pill">${esc(kbTxt(a.t))}</span>` : ""}<div class="muted small">${esc(kbTxt(a.short || ""))}</div>
+      ${a.intro ? `<p>${esc(kbTxt(a.intro))}</p>` : ""}${(a.hi || []).length ? `<ul>${a.hi.map(h => `<li>${esc(kbTxt(h))}</li>`).join("")}</ul>` : ""}
+      ${a.best ? `<div class="small"><b>Masa terbaik:</b> ${esc(kbTxt(a.best))}</div>` : ""}${a.muslim ? `<div class="kb-muslim"><b>Muslim-friendly:</b> ${esc(kbTxt(a.muslim))}</div>` : ""}
+      ${a.map ? `<a class="small" href="${esc(a.map)}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}</div>`).join("");
+  const faq = typeof g(V.faq) === "string" ? kbMd(g(V.faq)) : "";
+  const P = g(V.packages) || [];
+  const pk = P.map(p => `<div class="kb-attr" data-kbtext="${esc(kbTxt([p.n, p.tag, p.sub, p.intro, (p.inc || []).join(" "), (p.exc || []).join(" "), p.note].join(" ")).toLowerCase())}"><b>${esc(kbTxt(p.n))}</b> <span class="muted small">${esc(kbTxt(p.tag || ""))}</span>
+      <div class="small">${esc(kbTxt(p.sub || ""))}</div>${p.intro ? `<p>${esc(kbTxt(p.intro))}</p>` : ""}
+      <div class="cd-two">${(p.inc || []).length ? `<div><h4>Termasuk</h4><ul>${p.inc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}${(p.exc || []).length ? `<div><h4>Tidak termasuk</h4><ul>${p.exc.map(i => `<li>${esc(kbTxt(i))}</li>`).join("")}</ul></div>` : ""}</div>
+      ${p.note ? `<div class="cd-note">${esc(kbTxt(p.note))}</div>` : ""}</div>`).join("");
+  const H = g(V.hotels) || [];
+  const ht = H.length ? `<div class="cd-acc">${H.map(h => `<div data-kbtext="${esc(kbTxt([h.tier, h.name, h.note].join(" ")).toLowerCase())}"><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(h.name || ""))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}</div>`).join("")}</div>` : "";
+  const bl = Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<details class="kb-faq" data-kbtext="${esc(kbTxt(g(p)).toLowerCase())}"><summary>${esc(KB_BLOCK[k] || k)}</summary><div class="kb-html">${kbHtml(g(p))}</div></details>`).join("");
+  const M = g(V.marketing);
+  const mk = M ? `${(M.anchors || []).length ? `<div class="cd-chips">${M.anchors.map(a => `<span class="pill">${esc(kbTxt(a))}</span>`).join("")}</div>` : ""}${M.usp ? `<p>${esc(kbTxt(M.usp))}</p>` : ""}
+      ${(M.season || []).length ? `<div class="scroll"><table class="cd-t">${M.season.map(s => `<tr>${(Array.isArray(s) ? s : [s]).map(x => `<td class="l">${esc(kbTxt(x))}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
+      ${(M.expect || []).length ? `<ul>${M.expect.map(x => `<li>${esc(kbTxt(x))}</li>`).join("")}</ul>` : ""}` : "";
+  return head + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
+    + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
+    + card("pkg", "Pakej (BM)", `${P.length} pakej`, pk) + card("hotels", "Hotel", "", ht) + card("mkt", "Marketing", "", mk);
+}
+// Simple Calculator: the KB's own calculator (same page TCs use), plus the price tiers it quotes from.
+function kbCalcTab(d) {
+  const x = kbDoc(d.code);
+  if (x === undefined) return `<div class="card full"><div class="empty">${KB.err ? esc(KB.err) : "Loading KB…"}</div></div>`;
+  if (!x) return `<div class="card full"><div class="empty">${esc(d.name)} has no Simple Calculator (no PT KB House page).</div></div>`;
+  const { sl, kb, ix } = x, E = EDIT && !VIEW, links = (kb.map || {}).variants || {}, cal = kb.calc || {};
+  const pkgName = l => { const dd = DATA.destinations.find(y => y.code === l.code), p = dd && dd.packages.find(y => y.id === l.package); return (dd ? dd.name + " · " : l.code + " · ") + (p ? p.label : l.package); };
+  const tiers = (cal.variants || []).map(v => {
+    const l = links[v.id];
+    return `<tr><td class="l"><b>${esc(kbTxt(v.name))}</b><div class="muted small">${l ? "Harga dari Costing: " + esc(pkgName(l)) : "KB sahaja (tiada pakej Costing)"}</div></td>
+      <td class="l small">${(v.tiers || []).map(t => `${t.from === t.to ? t.from : t.from + "–" + (t.to >= 999 ? "+" : t.to)} pax: <b>${typeof t.a === "number" ? n2(t.a) : esc(String(t.a))}</b>${typeof t.c === "number" && t.c ? " / " + n2(t.c) : ""}${typeof t.n === "number" && t.n ? " / " + n2(t.n) : ""}`).join("<br>")}</td></tr>`;
+  }).join("");
+  const frame = `<iframe class="kb-calc" id="kbCalcFrame" data-slug="${esc(sl)}" src="${esc(ix.url)}?calc=1#calc" title="Simple Calculator ${esc(ix.name)}"></iframe>`;
+  return `<div class="card full kb"><h2>Simple Calculator · ${esc(ix.name)} <span class="sub">${(cal.variants || []).length} pakej · deposit RM${esc(String(cal.deposit ?? "—"))}</span>
+      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Buka KB</a></span></h2>
+    <div class="body small muted">Kalkulator quotation yang sama seperti dalam KB (versi live). Harga tier pakej yang dipaut ke Costing ikut Catalog Price hub; nombor lain (malam/hari tambahan, transport, peak, add-on) dalam config di bawah.${E ? " Ubah config, kemudian <b>Save</b> — KB dan kalkulator dibina semula (~1–2 min)." : ""}</div>
+    ${E ? "" : `<div class="body">${frame}</div>`}</div>
+    <div class="card full kb" id="kb-tiers"><h2>Harga tier kalkulator <span class="sub">adult / CWB / CNB per pax</span></h2><div class="scroll"><table class="zebra"><tbody>${tiers}</tbody></table></div></div>
+    ${E ? `<div class="card full kb" id="kb-calc-edit"><h2>Config kalkulator (JSON) <span class="sub">${esc(sl)}/calc-config.json</span></h2><div class="body">
+      <div class="small muted">Sama seperti calc-config.json KB. Mesti JSON yang sah; JSON rosak tidak diterima. Harga tier pakej yang dipaut ke Costing ditulis semula dari Costing semasa build.</div>
+      <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></div>` : ""}`;
+}
+// The calculator page is on the same site (prod-at22.github.io): open its Simple Calculator tab once loaded.
+function kbFrameReady() {
+  const f = document.getElementById("kbCalcFrame");
+  if (!f || f.dataset.hooked) return; f.dataset.hooked = "1";
+  f.addEventListener("load", () => { try { const w = f.contentWindow; if (typeof w.showTopic === "function") w.showTopic("calc"); } catch (_) { } });
+}
+function kbFilter() {
+  const q = KB.q.trim().toLowerCase();
+  document.querySelectorAll("[data-kbtext]").forEach(el => { const hit = !q || el.dataset.kbtext.includes(q); el.style.display = hit ? "" : "none"; if (el.tagName === "DETAILS") el.open = !!q && hit; });
+}
+const isKbPath = p => p[0] === "kb";
+const kbPending = () => Object.keys(KB.edit).flatMap(sl => KB.docs[sl] ? diff(KB.docs[sl], KB.edit[sl]).map(c => ({ ...c, path: ["kb", sl, ...c.path] })) : []);
+const kbCodesOf = sl => (KB.index && KB.index[sl] && KB.index[sl].codes) || [];
+async function kbFiles(kbChanges, head, token) {
+  const slugs = [...new Set(kbChanges.map(c => c.path[1]))], files = [], docs = {}, summary = [];
+  for (const sl of slugs) {
+    const doc = await GH.readJson(PATHS.kb + sl + ".json", head, token), mine = kbChanges.filter(c => c.path[1] === sl).map(c => ({ ...c, path: c.path.slice(2) }));
+    const clash = mine.filter(c => JSON.stringify(getPath(doc, c.path)) !== JSON.stringify(c.from));
+    if (clash.length) throw new Error(`Someone else changed KB ${sl} (${clash.slice(0, 2).map(c => c.path.join(" › ")).join("; ")}). Reload and re-apply.`);
+    for (const c of mine) setPath(doc, c.path, c.to == null ? undefined : clone(c.to));
+    docs[sl] = doc; files.push({ path: PATHS.kb + sl + ".json", content: JSON.stringify(doc, null, 1) + "\n" });
+    summary.push(`KB ${sl}: ${mine.length} change${mine.length > 1 ? "s" : ""}`);
+  }
+  return { files, docs, summary };
+}
+// PT KB House (pt-kb-house) is rebuilt by its own mirror workflow; a save starts it at once.
+// Needs the token to have Actions: write on pt-kb-house.
+const KB_MIRROR = { repo: "prod-at22/pt-kb-house", workflow: "mirror.yml", branch: "main" };
+async function startKbMirror(token) {
+  try { await GH.req("POST", `/repos/${KB_MIRROR.repo}/actions/workflows/${KB_MIRROR.workflow}/dispatches`, { ref: KB_MIRROR.branch }, token); return true; }
+  catch (e) { return false; }
+}
 async function saveContract(code, { file, to, note, removeId }) {
   if (pendingChanges().length) throw new Error("Save or discard your cost edits first.");
   let blobSha = null, add = null;
@@ -814,10 +1000,11 @@ async function saveContract(code, { file, to, note, removeId }) {
   }
   throw new Error("Could not save after 3 attempts — reload the page.");
 }
-const touchesDest = e => !PAGE_DEST || !(e.changes || []).length || e.changes.some(c => c.path[1] === PAGE_DEST);
+const touchesChange = c => c.path[1] === PAGE_DEST || (c.path[0] === "kb" && kbCodesOf(c.path[1]).includes(PAGE_DEST));
+const touchesDest = e => !PAGE_DEST || !(e.changes || []).length || e.changes.some(touchesChange);
 function histEntry(e) {
   const src = DATA;
-  if (PAGE_DEST && e.changes) e = { ...e, changes: e.changes.filter(c => c.path[1] === PAGE_DEST) };
+  if (PAGE_DEST && e.changes) e = { ...e, changes: e.changes.filter(touchesChange) };
   return `<div class="e"><div class="h"><span class="pill nav">v${e.v}</span><b>${esc(e.by)}</b><span class="muted small">${esc(fmtDate(e.at))}</span>
     <span class="small">${esc(e.note || "")}</span>
     <span style="margin-left:auto">${e.v === DATA.version ? '<span class="pill ok">current</span>' : e.v < lastRebase() ? '<span class="pill grey" title="Before a bulk import; versions before it cannot be rebuilt">before re-import</span>' : `<button class="btn" data-view="${e.v}">View v${e.v}</button>`}</span></div>
@@ -842,7 +1029,7 @@ function snapshotAt(v) {
 // Catalog content edits are tracked as paths ["catalogs", slug, …] next to the data changes.
 const isCatPath = p => p[0] === "catalogs";
 const catPending = () => Object.keys(CAT.edit).flatMap(sl => CAT.docs[sl] ? diff(CAT.docs[sl], CAT.edit[sl]).map(c => ({ ...c, path: ["catalogs", sl, ...c.path] })) : []);
-const pendingChanges = () => [...(BASE && DATA ? diff(stripMeta(BASE), stripMeta(DATA)) : []), ...catPending()];
+const pendingChanges = () => [...(BASE && DATA ? diff(stripMeta(BASE), stripMeta(DATA)) : []), ...catPending(), ...kbPending()];
 function stripMeta(o) { const c = { ...o }; delete c.version; delete c.updatedAt; delete c.updatedBy; return c; }
 
 /* ============================================================ crypto (login)
@@ -977,7 +1164,7 @@ async function saveChanges(note) {
     const head = await GH.head(SESSION.token);
     const remote = await GH.readJson(PATHS.data, head, SESSION.token);
     const rhist = await GH.readJson(PATHS.history, head, SESSION.token);
-    const dataChanges = changes.filter(c => !isCatPath(c.path)), catChanges = changes.filter(c => isCatPath(c.path));
+    const dataChanges = changes.filter(c => !isCatPath(c.path) && !isKbPath(c.path)), catChanges = changes.filter(c => isCatPath(c.path)), kbChanges = changes.filter(c => isKbPath(c.path));
     if (remote.version !== BASE.version) {
       // someone saved in between: replay our edits on top if they touched different cells
       const clash = dataChanges.filter(c => JSON.stringify(getPath(remote, c.path)) !== JSON.stringify(c.from));
@@ -988,10 +1175,11 @@ async function saveChanges(note) {
     next.updatedAt = new Date().toISOString();
     next.updatedBy = SESSION.u;
     const cat = await catalogFiles(dataChanges, catChanges, next, head, SESSION.token);
-    const entry = { v: next.version, at: next.updatedAt, by: SESSION.u, note, changes: changes.map(c => ({ ...c, label: describe(remote, c.path) })), ...(cat.summary.length ? { catalogs: cat.summary } : {}) };
+    const kbf = await kbFiles(kbChanges, head, SESSION.token);
+    const entry = { v: next.version, at: next.updatedAt, by: SESSION.u, note, changes: changes.map(c => ({ ...c, label: describe(remote, c.path) })), ...(cat.summary.length ? { catalogs: cat.summary } : {}), ...(kbf.summary.length ? { kb: kbf.summary } : {}) };
     rhist.entries.push(entry);
     try {
-      await GH.commit([{ path: PATHS.data, content: pretty(next) }, { path: PATHS.history, content: pretty(rhist) }, ...cat.files],
+      await GH.commit([{ path: PATHS.data, content: pretty(next) }, { path: PATHS.history, content: pretty(rhist) }, ...cat.files, ...kbf.files],
         `v${next.version} · ${SESSION.u}: ${note}`.slice(0, 200), head, SESSION.token);
     } catch (e) {
       if (e.status === 422 || e.status === 409) continue; // lost the race → retry on new head
@@ -1000,6 +1188,8 @@ async function saveChanges(note) {
     BASE = next; DATA = clone(next); HISTORY = rhist;
     for (const [sl, doc] of Object.entries(cat.docs)) { CAT.docs[sl] = doc; delete CAT.edit[sl]; }
     CAT.edit = {}; if (cat.files.length) CAT.index = null;
+    for (const [sl, doc] of Object.entries(kbf.docs)) KB.docs[sl] = doc;
+    KB.edit = {};
     return next.version;
   }
   throw new Error("Could not save after 3 attempts — reload the page.");
@@ -1121,13 +1311,21 @@ document.addEventListener("click", async e => {
   if (t.id === "btnLogin") return openLogin();
   if (t.id === "doLogin") return doLogin();
   if (t.id === "doSetup") return doSetup();
-  if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); CAT.edit = {}; return render(); }
+  if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; return render(); }
   if (t.id === "btnEdit") { EDIT = !EDIT; VIEW = null; return render(); }
   if (t.id === "btnAcct") return openAccount();
   if ((t.id === "btnHistory" || t.dataset.act === "history") && PAGE_DEST) { SEL.tab = "history"; history.replaceState(null, "", "#history"); return render(); }
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
-  if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; render(); } return; }
+  if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
+  if (t.dataset.kact) {
+    e.preventDefault();
+    const [sl, ...path] = JSON.parse(t.dataset.kpath), doc = KB.edit[sl] ||= clone(KB.docs[sl]);
+    const blank = v => typeof v === "string" ? "" : typeof v === "number" ? 0 : Array.isArray(v) ? [] : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, blank(x)])) : v;
+    if (t.dataset.kact === "add") { const arr = getPath(doc, path); arr.push(arr.length ? blank(arr[arr.length - 1]) : ""); }
+    if (t.dataset.kact === "del") { const arr = getPath(doc, path.slice(0, -1)), i = path[path.length - 1]; if (confirm("Buang item #" + (i + 1) + "?")) arr.splice(i, 1); }
+    return render();
+  }
   if (t.dataset.catact) {
     const [sl, ...path] = JSON.parse(t.dataset.cpath), doc = CAT.edit[sl] ||= clone(CAT.docs[sl]), days = getPath(doc, path);
     if (t.dataset.catact === "addday") days.push({ day: days.length + 1, title: "", activities: [], transport: "", meals: "", hotel: "" });
@@ -1194,9 +1392,9 @@ document.addEventListener("click", async e => {
     t.disabled = true; mErr("Saving to GitHub…");
     try {
       const v = await saveChanges(note); closeModal(); EDIT = false; render();
-      const started = await startCatalogMirror(SESSION.token);
+      const started = await startCatalogMirror(SESSION.token), kbStarted = await startKbMirror(SESSION.token);
       toast("Saved as v" + v + " — the live page updates in about a minute. " + (started ? "PT Catalog House rebuilds the affected catalogs in about 3–5 minutes."
-        : "PT Catalog House could not be started from here (the token needs Actions: write on catalog-pt-public); it updates at the next scheduled mirror."), 7000);
+        : "PT Catalog House could not be started from here (the token needs Actions: write on catalog-pt-public); it updates at the next scheduled mirror.") + (kbStarted ? " PT KB House rebuilds in about 1–2 minutes." : " PT KB House could not be started from here (the token needs Actions: write on pt-kb-house)."), 7000);
     }
     catch (err) { mErr(err.message); t.disabled = false; }
     return;
@@ -1244,6 +1442,7 @@ document.addEventListener("keydown", e => {
 });
 document.addEventListener("input", e => {
   if (e.target.id === "hubSearch") { SEL.hubQ = e.target.value; filterHub(); }
+  if (e.target.id === "kbq") { KB.q = e.target.value; kbFilter(); }
   if (e.target.id === "flagQ") { SEL.flagQ = e.target.value; render(); const i = $("#flagQ"); i.focus(); i.setSelectionRange(i.value.length, i.value.length); }
 });
 document.addEventListener("change", e => {
@@ -1261,6 +1460,21 @@ document.addEventListener("change", e => {
     else delete cur[slug];
     if (Object.keys(cur).length) a.catalogs = cur; else delete a.catalogs;
     return render();
+  }
+  if (t.dataset && t.dataset.kpath && t.dataset.kact === undefined) {
+    const [sl, ...path] = JSON.parse(t.dataset.kpath), doc = KB.edit[sl] ||= clone(KB.docs[sl]), k = t.dataset.kkind;
+    let v = t.value;
+    if (k === "num") { v = Number(v); if (t.value.trim() === "" || !isFinite(v)) return toast("Not a number"); }
+    if (k === "lines") v = String(v).split("\n").map(x => x.trim()).filter(Boolean);
+    if (k === "pairs") v = String(v).split("\n").filter(x => x.trim()).map(x => x.split("|").map(y => y.trim()));
+    if (k === "json") { try { v = JSON.parse(v); } catch (err) { return toast("JSON tidak sah — tidak diterima: " + err.message, 6000); } if (!v || !Array.isArray(v.variants) || !v.variants.every(x => x && x.id && Array.isArray(x.tiers))) return toast("Config mesti ada variants[] dengan id dan tiers — tidak diterima", 6000); }
+    setPath(doc, path, v);
+    setTimeout(() => {
+      const nx = document.activeElement && document.activeElement.dataset ? document.activeElement.dataset.kpath : null;
+      render();
+      if (nx) { const el = [...document.querySelectorAll("[data-kpath]")].find(x => x.dataset.kpath === nx && x.dataset.kact === undefined); if (el) el.focus(); }
+    }, 0);
+    return;
   }
   if (t.dataset && t.dataset.cpath && t.dataset.catact === undefined) {
     const [sl, ...path] = JSON.parse(t.dataset.cpath), doc = CAT.edit[sl] ||= clone(CAT.docs[sl]);

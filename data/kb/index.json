@@ -1,0 +1,207 @@
+{
+ "aceh": {
+  "name": "Aceh",
+  "codes": [
+   "ACEH",
+   "ACEHSBG"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/aceh/"
+ },
+ "bali": {
+  "name": "Bali",
+  "codes": [
+   "DPS"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/bali/"
+ },
+ "bangkok": {
+  "name": "Bangkok",
+  "codes": [
+   "BKK"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/bangkok/"
+ },
+ "beijing": {
+  "name": "Beijing",
+  "codes": [
+   "PEK"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/beijing/"
+ },
+ "dalat": {
+  "name": "HCM-Dalat-Muine",
+  "codes": [
+   "DLMNHCM"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/dalat/"
+ },
+ "danang": {
+  "name": "Danang-Hoi An",
+  "codes": [
+   "DADH"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/danang/"
+ },
+ "hanoi-sapa": {
+  "name": "Hanoi-Sapa",
+  "codes": [
+   "HNSH"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/hanoi-sapa/"
+ },
+ "jakarta-bandung": {
+  "name": "Jakarta-Bandung",
+  "codes": [
+   "JBDO"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/jakarta-bandung/"
+ },
+ "jepun": {
+  "name": "Jepun",
+  "codes": [
+   "CTS",
+   "HND",
+   "KIX",
+   "OSK"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/jepun/"
+ },
+ "jogja": {
+  "name": "Jogjakarta",
+  "codes": [
+   "JOG"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/jogja/"
+ },
+ "kk-kundasang": {
+  "name": "KK-Kundasang",
+  "codes": [
+   "KKK"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/kk-kundasang/"
+ },
+ "korea": {
+  "name": "Korea",
+  "codes": [
+   "JJU",
+   "JJUO",
+   "SEL",
+   "SELJJU"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/korea/"
+ },
+ "krabi": {
+  "name": "Krabi",
+  "codes": [
+   "KBV"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/krabi/"
+ },
+ "lombok": {
+  "name": "Lombok",
+  "codes": [
+   "LOP"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/lombok/"
+ },
+ "maldives": {
+  "name": "Maldives",
+  "codes": [
+   "MLE"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/maldives/"
+ },
+ "medan-lake-toba": {
+  "name": "Medan-Lake Toba",
+  "codes": [
+   "LTOBA"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/medan-lake-toba/"
+ },
+ "melbourne": {
+  "name": "Melbourne",
+  "codes": [
+   "MEL"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/melbourne/"
+ },
+ "new-zealand": {
+  "name": "New Zealand",
+  "codes": [
+   "NSNZ"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/new-zealand/"
+ },
+ "padang-bukittinggi": {
+  "name": "Padang-Bukittinggi",
+  "codes": [
+   "PDG"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/padang-bukittinggi/"
+ },
+ "perhentian": {
+  "name": "Perhentian",
+  "codes": [
+   "PHT"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/perhentian/"
+ },
+ "perth": {
+  "name": "Perth",
+  "codes": [
+   "PER"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/perth/"
+ },
+ "phu-quoc": {
+  "name": "Phu Quoc",
+  "codes": [
+   "PQC"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/phu-quoc/"
+ },
+ "phuket": {
+  "name": "Phuket",
+  "codes": [
+   "PHU"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/phuket/"
+ },
+ "semporna": {
+  "name": "Semporna",
+  "codes": [
+   "SEM"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/semporna/"
+ },
+ "surabaya-bromo-malang": {
+  "name": "Surabaya-Bromo-Malang",
+  "codes": [
+   "SUBB"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/surabaya-bromo-malang/"
+ },
+ "switzerland": {
+  "name": "Switzerland",
+  "codes": [
+   "SWS"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/switzerland/"
+ },
+ "turki": {
+  "name": "Turki",
+  "codes": [
+   "ISTBUR",
+   "ISTCAP",
+   "TUR"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/turki/"
+ },
+ "yunnan": {
+  "name": "Yunnan",
+  "codes": [
+   "KMGDLS"
+  ],
+  "url": "https://prod-at22.github.io/pt-kb-house/yunnan/"
+ }
+}

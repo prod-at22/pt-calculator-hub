@@ -82,7 +82,7 @@ def build(site, slug):
 def main(argv):
     if not argv:
         raise SystemExit(__doc__)
-    site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json"))
+    site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json") and f != "index.json")
     for slug in slugs:
         ch = build(site, slug)
         print(f"{slug}: {', '.join(ch) if ch else 'unchanged'}")

@@ -78,6 +78,9 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   package kept as KB-only; aceh / korea stay bespoke; **hub wins** when a KB price differs from the hub.
 - Step 1 done: data/kb/<slug>.json (28) + kb-build/build.py; pt-kb-house has mirror.yml + <slug>/assets.json.
   aceh / korea now read their content constants from an injected kbdata block (one-time edit, text identical).
+- Step 3 done (v33): tabs **Info KB** + **Simple Calculator** on every destination page; Edit costs → Save writes
+  data/kb/<slug>.json and dispatches pt-kb-house mirror.yml. Step 2 (tiers from Costing) is parked on local branch
+  kb-step2-tiers — waiting for the PO's answers (Aceh 31+ pax, Lombok HNY 4★ / Phuket 4★ hub vs catalog surcharge, Aceh-Sabang CWB/CNB 16+).
 - Next: step 2 = calculator tiers + KB price text from Costing (show the PO the text diff per KB before it goes
   live; 8 conflicts in the Phase 1 report); step 3 = hub tabs Info KB + Simple Calculator, Save writes
   data/kb/ and dispatches pt-kb-house mirror.yml (token needs Actions: write on pt-kb-house too).
@@ -96,7 +99,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
    problems in 11 lines and Perhentian Shari-La under 10% / CWB below cost (both from Selling = Catalog − RM200),
    Seoul-Jeju 2 pax 6.8% and Jeju-Udo 3.8% margin, Korea 26–30 pax no cost, Qayyum FX 0.026 (HND) vs 0.0259 (KIX).
 7. No costing in the hub yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
-8. Login: admin must create a fine-grained token (Contents RW on pt-calculator-hub + Actions RW on catalog-pt-public) and do First-time setup on the live page (cannot be done for them). Password ≥ 10 characters.
+8. Login: admin must create a fine-grained token (Contents RW on pt-calculator-hub + Actions RW on catalog-pt-public and pt-kb-house) and do First-time setup on the live page (cannot be done for them). Password ≥ 10 characters.
 9. Uploaded only files named PT from the Drive "Production Team" folder; unlabelled CRs (Perhentian resorts,
    Semporna Legend, Perth K&N, NZ price list, Pak Jamal, KK / Krabi / Maldives folders) were not uploaded.
 
