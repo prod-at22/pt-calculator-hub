@@ -245,3 +245,20 @@ input.aotick{width:16px;height:16px}
 .ao-add input:not([type=checkbox]){border:1px solid var(--line);border-radius:7px;padding:6px 8px;min-width:0}
 .ao-add input[type=number]{width:100px}
 .btn.ao-del{padding:3px 8px;font-size:12px}
+/* KB House tabs (Info KB · Simple Calculator) */
+.kb .kb-q{width:100%;max-width:560px;padding:8px 12px;border:1px solid #ccc;border-radius:8px;font:inherit}
+.kb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.kb-attr{border:1px solid #e5e5e5;border-radius:10px;padding:10px 12px;background:#fff}
+.kb-attr p{margin:6px 0}.kb-attr ul{margin:4px 0 6px 18px;padding:0}
+.kb-muslim{margin:6px 0;padding:6px 8px;border-radius:8px;background:#eef8f0;border:1px solid #cfe9d5;font-size:.92em}
+details.kb-faq{border:1px solid #e5e5e5;border-radius:8px;margin:6px 0;background:#fff}
+details.kb-faq>summary{cursor:pointer;padding:8px 12px;font-weight:600}
+.kb-md,.kb-html{padding:4px 14px 12px}.kb-md p{margin:4px 0}.kb-md ul{margin:4px 0 4px 18px;padding:0}
+.kb-html table{border-collapse:collapse;margin:6px 0}.kb-html td,.kb-html th{border:1px solid #e5e5e5;padding:4px 8px;text-align:left;vertical-align:top}
+.kb-html h2{font-size:1.05em;margin:6px 0}.kb-html h3{font-size:1em;margin:8px 0 4px}
+iframe.kb-calc{width:100%;height:1500px;border:1px solid #e5e5e5;border-radius:10px;background:#fff}
+.kb-fs{border:1px solid #e5e5e5;border-radius:8px;margin:6px 0;padding:6px 10px}.kb-fs legend{font-weight:600;font-size:.92em}
+.kb-f{display:inline-flex;flex-direction:column;gap:2px;margin:4px 8px 4px 0;font-size:.85em;min-width:220px;vertical-align:top}
+.kb-f.wide{display:flex;width:100%}.kb-f textarea,.kb-f input{width:100%;box-sizing:border-box;font:inherit;font-size:13px}
+textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%;box-sizing:border-box}
+.kb-html{overflow-x:auto}

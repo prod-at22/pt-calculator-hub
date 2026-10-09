@@ -39168,6 +39168,18 @@
     "Images stay in pt-kb-house/<slug>/assets.json"
    ],
    "changes": []
+  },
+  {
+   "v": 33,
+   "at": "2026-10-09T02:11:42Z",
+   "by": "system",
+   "note": "New tabs Info KB + Simple Calculator on every destination page (PT KB House content from data/kb/; edited with Edit costs, Save rebuilds the KB)",
+   "summary": [
+    "Info KB: attractions + Muslim-friendly, FAQ, KB tab blocks, packages, hotels",
+    "Simple Calculator: the KB's calculator, its price tiers and config",
+    "data/kb/index.json links each KB to its destination codes"
+   ],
+   "changes": []
   }
  ]
 }

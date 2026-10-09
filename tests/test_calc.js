@@ -37,6 +37,7 @@ function mockRepo(files, validTokens) {
       repo.head = body.sha; repo.log.push(commits[body.sha].message); return [200, {}];
     }
     if (method === "POST" && /^\/repos\/prod-at22\/catalog-pt-public\/actions\/workflows\/mirror\.yml\/dispatches$/.test(u.pathname)) { repo.dispatches = (repo.dispatches || 0) + 1; return [204, null]; }
+    if (method === "POST" && /^\/repos\/prod-at22\/pt-kb-house\/actions\/workflows\/mirror\.yml\/dispatches$/.test(u.pathname)) { repo.kbDispatches = (repo.kbDispatches || 0) + 1; return [204, null]; }
     return [404, { message: "no route " + method + " " + p }];
   };
   return repo;
@@ -85,6 +86,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   const files = {};
   for (const f of ["data.json", "history.json", "users.json", "flags.json"]) files["data/" + f] = fs.readFileSync(path.join(ROOT, "data", f), "utf8");
   for (const f of fs.readdirSync(path.join(ROOT, "data", "catalogs"))) files["data/catalogs/" + f] = fs.readFileSync(path.join(ROOT, "data", "catalogs", f), "utf8");
+  for (const f of fs.readdirSync(path.join(ROOT, "data", "kb"))) files["data/kb/" + f] = fs.readFileSync(path.join(ROOT, "data", "kb", f), "utf8");
   const repo = mockRepo(files, ["tok-valid", "tok-new"]);
   const { w, doc, errors } = await boot(repo);
   const P = w.PTCALC, D = P.DATA;
@@ -208,7 +210,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.026"), "FX chips: WIF 0.029, Qayyum 0.026");
-    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,addons,expect,policy,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Add On, What to Expect, Policy, TO Contract Rate, Flags, History");
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,addons,expect,policy,kbinfo,kbcalc,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Add On, What to Expect, Policy, Info KB, Simple Calculator, TO Contract Rate, Flags, History");
     // each catalog section on its own tab (data/catalogs/<slug>.json for the selected package)
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     await tab(w, doc, "itinerary"); await until(() => doc.querySelector("#cat-tokyo-standard"));
@@ -606,6 +608,51 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(JSON.parse(repo.files(repo.head)["data/data.json"]).version === V + 1, "data.json version bumped with it");
     ok(!doc.querySelector("#btnSave"), "nothing pending after save");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
+  }
+
+  console.log("8g. Info KB + Simple Calculator tabs: PT KB House content from data/kb/<slug>.json, edited and saved like the catalogs");
+  {
+    const V = P.BASE.version, kb0 = JSON.parse(files["data/kb/jepun.json"]), clone0 = o => JSON.parse(JSON.stringify(o));
+    if (doc.querySelector("#btnEdit") && doc.querySelector("#btnEdit").textContent.includes("Stop")) { click(w, doc.querySelector("#btnEdit")); await tick(5); }
+    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-attr"));
+    const g = doc.querySelector("#grid"), t = g.textContent, a0 = kb0.content.attractions[0];
+    ok(doc.querySelector('[data-tabmain="kbinfo"]').textContent === "Info KB" && doc.querySelector('[data-tabmain="kbcalc"]').textContent === "Simple Calculator", "tabs named Info KB and Simple Calculator");
+    ok(t.includes(a0.n) && t.includes("Muslim-friendly") && g.querySelectorAll(".kb-attr").length >= kb0.content.attractions.length, "Info KB (HND → jepun KB): attractions with Muslim-friendly info");
+    ok(g.querySelectorAll("#kb-faq details.kb-faq").length > 3 && g.querySelectorAll("#kb-blocks details").length > 3, "Info KB: FAQ sections and KB tab blocks (transport, flight, free gift …)");
+    ok(!g.querySelector('[data-kbtext] img[src^="@asset"]') && !g.innerHTML.includes("@asset:"), "no unresolved KB image tokens in the hub page");
+    const q = doc.querySelector("#kbq"); q.value = "halal"; q.dispatchEvent(new w.Event("input", { bubbles: true })); await tick(5);
+    const items = [...g.querySelectorAll("[data-kbtext]")];
+    ok(items.some(x => x.style.display === "none") && items.some(x => x.style.display !== "none"), "Info KB search filters the attractions / FAQ");
+    q.value = ""; q.dispatchEvent(new w.Event("input", { bubbles: true }));
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-tiers"));
+    const fr = doc.querySelector("#kbCalcFrame");
+    ok(fr && fr.getAttribute("src").startsWith("https://prod-at22.github.io/pt-kb-house/jepun/"), "Simple Calculator tab embeds the KB's calculator");
+    ok(doc.querySelectorAll("#kb-tiers tbody tr").length === kb0.calc.variants.length, "Simple Calculator: one tier row per calculator package (" + kb0.calc.variants.length + ")");
+    click(w, doc.querySelector("#btnEdit")); await tick(5);
+    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-attr .kbed"));
+    const mp = JSON.stringify(["jepun", "content", "attractions", 0, "muslim"]), mi = [...doc.querySelectorAll(".kbed")].find(x => x.dataset.kpath === mp);
+    ok(mi, "Edit costs: attraction Muslim-friendly text is editable");
+    mi.value = "Surau di stesen (diuji)"; fire(w, mi, "change"); await tick(10);
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
+    let ta = doc.querySelector("#kb-calc-edit textarea"); ta.value = "{ broken"; fire(w, ta, "change"); await tick(10);
+    ok(doc.querySelector("#btnSave").textContent.includes("(1)"), "broken calculator JSON is not accepted");
+    ta = doc.querySelector("#kb-calc-edit textarea"); const cfg = clone0(kb0.calc); cfg.deposit = 600; ta.value = JSON.stringify(cfg); fire(w, ta, "change"); await tick(10);
+    ok(doc.querySelector("#btnSave").textContent.includes("(2)"), "Save counts the 2 KB edits: " + doc.querySelector("#btnSave").textContent);
+    click(w, doc.querySelector("#btnSave")); await tick(5);
+    doc.querySelector("#saveNote").value = "KB Jepun: surau + deposit";
+    click(w, doc.querySelector("#doSave"));
+    ok(await until(() => P.BASE.version === V + 1), "saved as one version");
+    const kb1 = JSON.parse(repo.files(repo.head)["data/kb/jepun.json"]);
+    ok(kb1.content.attractions[0].muslim === "Surau di stesen (diuji)" && kb1.calc.deposit === 600, "data/kb/jepun.json has both edits");
+    ok(JSON.stringify({ ...kb1, calc: { ...kb1.calc, deposit: kb0.calc.deposit } }).length === JSON.stringify(kb0).length - kb0.content.attractions[0].muslim.length + "Surau di stesen (diuji)".length, "nothing else changed in the KB file");
+    const e = JSON.parse(repo.files(repo.head)["data/history.json"]).entries.find(x => x.v === V + 1);
+    ok(e && e.kb && e.kb[0].includes("jepun") && e.changes.every(c => c.path[0] === "kb" && c.label.startsWith("KB jepun")), "history entry lists the KB changes: " + (e && (e.kb || []).join("; ")));
+    ok(JSON.parse(repo.files(repo.head)["data/data.json"]).version === V + 1, "data.json version bumped with it");
+    ok(await until(() => repo.kbDispatches >= 1), "save starts the PT KB House mirror (workflow_dispatch on pt-kb-house)");
+    await tab(w, doc, "history"); ok(doc.querySelector("#grid").textContent.includes("KB Jepun: surau + deposit"), "Tokyo History shows the KB change (jepun covers HND)");
+    if (doc.querySelector("#btnEdit") && doc.querySelector("#btnEdit").textContent.includes("Stop")) { click(w, doc.querySelector("#btnEdit")); await tick(5); }
+    const ac = await boot(repo, "aceh/", "#kbinfo"); await until(() => ac.doc.querySelector("#kb-attr"));
+    ok(ac.doc.querySelector("#grid").textContent.includes("Masjid Raya Baiturrahman") && ac.errors.length === 0, "bespoke KB (aceh) shows in Info KB");
   }
 
   console.log("8f. Add On: delete an item (Edit costs), warns when it is in a catalog");

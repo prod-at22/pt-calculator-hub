@@ -155,7 +155,7 @@ def build(site, slug, data):
 def main(argv):
     if not argv:
         raise SystemExit(__doc__)
-    site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json"))
+    site, slugs = argv[0], argv[1:] or sorted(f[:-5] for f in os.listdir(KBDIR) if f.endswith(".json") and f != "index.json")
     data = json.load(open(os.path.join(HUB, "data", "data.json"), encoding="utf-8"))
     for slug in slugs:
         ch = build(site, slug, data)

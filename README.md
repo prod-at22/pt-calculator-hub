@@ -77,6 +77,8 @@ tour operator (/ hotel, season) selectors, then tabs:
 | **Itinerary** · **Surcharge** · **What to Expect** · **Policy** | the package's customer catalog, one section per tab (see *Catalogs* below) — every field editable in Edit costs |
 | TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
 | **Add On** | cost / selling / margin; tick *In catalog* to print an add-on in the package's catalog; **Add item** / **Delete** (Edit costs) add or remove an add-on (Delete warns when it is printed in a catalog); Add item adds a new add-on (category, name, per, cost, selling; ticked for the catalog by default, price text = selling/per); a qty totals the selected add-ons |
+| **Info KB** | the PT KB House content for this destination (Bahasa Melayu): attractions with Muslim-friendly info, FAQ / Important Notes (searchable), the KB's tab blocks (transport, hotel, halal, solat, flight, visa, free gift …), packages, hotels, marketing. Edit costs edits every field (images stay in pt-kb-house) — saved to `data/kb/<slug>.json` |
+| **Simple Calculator** | the KB's own quotation calculator (live KB page, opened on its calculator), the price tiers it quotes from, and in Edit costs its config (calc-config JSON) |
 | Flags | this destination's cross-check flags |
 | History | versions that touched this destination |
 
@@ -101,7 +103,7 @@ it runs `catalog-build/changed.py <last mirrored hub commit> <now>`, which resol
 (content + Costing prices + Add On items) and rebuilds only those whose page differs (all of them when
 `catalog-build/` changed). The cron schedule in that workflow is only a fallback — GitHub runs it rarely.
 The admin's token therefore needs **Contents: Read and write on pt-calculator-hub** and **Actions: Read and write
-on catalog-pt-public**; without the second the save still works and the page says the catalogs wait for the schedule. Catalogs without a Costing package /
+on catalog-pt-public and pt-kb-house**; without the second the save still works and the page says the catalogs wait for the schedule. Catalogs without a Costing package /
 hub destination (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts (and, for Ho Chi Minh and
 Yunnan 3 Wilayah, their own add-on list). Keep every pax in a band at the same Costing price — Flags warns.
 
@@ -114,6 +116,9 @@ The hub is also the source of every **PT KB House** page (`https://prod-at22.git
 | `data/kb/<slug>.json` | one KB (28): `kind` (`template`, or `bespoke` for aceh / korea), `content` (what the page shows: packages, itineraries, attractions + Muslim-friendly info, hotels, tab blocks, FAQ `snapshot`), `calc` (Simple Calculator config) |
 | `kb-build/build.py` | `python3 kb-build/build.py <pt-kb-house dir> [slug …]` writes `content` into the page's `kbdata` block (bespoke: also the `snapshot` markdown), `calc` into `CALC_CFG` and `calc-config.json`. Nothing else in the page changes |
 
+Shown and edited on each destination page in the **Info KB** and **Simple Calculator** tabs (`data/kb/index.json`
+links a KB to the destination codes it covers; one KB can cover several, e.g. korea = SEL, SELJJU, JJU, JJUO). Save writes
+`data/kb/<slug>.json` in the same commit and starts pt-kb-house's `mirror.yml` (token: **Actions: write on pt-kb-house**).
 Cosmetics stay in pt-kb-house: the page (layout, CSS, engine, travel map, logo) and the images
 (`<slug>/assets.json`; the hub refers to them as `@asset:<key>`). pt-kb-house's `mirror.yml` checks out the hub,
 runs the builder for every KB (an unchanged KB stays byte-identical), re-adds the nav bar and commits. Imported
