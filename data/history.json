@@ -39552,9 +39552,9 @@
    "v": 43,
    "at": "2026-10-09T07:11:03Z",
    "by": "system",
-   "note": "Bangkok Costing corrected (PO 9 Oct): rate by rate from PT BANGKOK R&D 2026 'PT Costing 2026' (reference only — the hub stays the source): Transport (SUV 1–4 pax, minivan 5+ pax, 1 per 9 pax), Hotel Almas 3★ (½ twin room / pax × 3 nights), Meals, Entrance; THB FX 0.131 → 0.1218537",
+   "note": "Bangkok Costing corrected (PO 9 Oct): rate by rate from PT BANGKOK R&D 2026 'PT Costing 2026' (reference only — the hub stays the source): Transport (SUV 1–4 pax, minivan 5–9 pax; 10+ pax: 1 minivan per 9 pax + the rest by SUV (1–4) or minivan (5–8) — PO: 10 pax = 1 minivan + 1 SUV), Hotel Almas 3★ (½ twin room / pax × 3 nights), Meals, Entrance; THB FX 0.131 → 0.1218537",
    "summary": [
-    "Cost/pax adult 2–9 pax = R&D (2 pax RM1,299 · 3 RM1,070 · 4 RM955 · 6 RM867 · 9 RM782); 10+ pax with 2+ minivans (R&D has 1 minivan for 10 pax)",
+    "Cost/pax adult 2–9 pax = R&D (2 pax RM1,299 · 3 RM1,070 · 4 RM955 · 6 RM867 · 9 RM782); 10 pax = 1 minivan + 1 SUV (PO 9 Oct)",
     "Old single 'Ground Cost' + 'Tipping' (RM0) tables replaced by 14 THB rates and 4 components; Bangkok nights 0 → 3",
     "Catalog prices unchanged"
    ],
