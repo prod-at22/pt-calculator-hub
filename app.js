@@ -902,7 +902,9 @@ const KBL = { n: "Nama", t: "Jenis / tajuk", tag: "Tag", sub: "Ringkasan", short
 const KB_BLOCK = { compare: "Perbezaan Pakej", pricing: "Harga & Pakej", custom: "Simple Customisation", surcharge: "Surcharge", transport: "Transportation & Guide", stay: "Accommodation",
   food: "Halal & Makanan", prayer: "Solat", flight: "Flight & Airport", flight_reco: "Flight & Airport", weather: "Cuaca & Musim", tips: "Shopping & Tips", visa: "Visa & Passport",
   freegift: "Free Gift (Promo)", polisi: "Polisi & Payment", trippix: "Trip Pix", triplepas: "Triple Pass", cmp: "Perbandingan", itinsugg: "Itinerary Suggestions", wheelchair: "Wheelchair & Baby" };
-const KB_SKIP_BLOCK = new Set(["calc", "map"]);   // the calculator shell and the travel map are part of the page (cosmetic)
+const KB_SKIP_BLOCK = new Set(["calc", "map"]);
+// blocks whose tables the KB build makes from other hub tabs: Info KB shows / edits only the KB's own notes
+const KB_FROM_HUB = { pricing: "jadual harga dari tab Costing", surcharge: "jadual surcaj dari tab Surcharge & Accommodation", custom: "add-on katalog dari tab Add On", polisi: "polisi dari tab Policy", stay: "kad hotel dari tab Accommodation" };   // the calculator shell and the travel map are part of the page (cosmetic)
 const isAsset = v => typeof v === "string" && (/^@asset:/.test(v) || /^data:/.test(v));
 const kbTxt = v => typeof v === "string" ? v.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&[a-z]+;/g, "") : "";
 const kbHtml = h => String(h || "").replace(/<img\b[^>]*src=["']?(?:@asset:|data:)[^>]*>/gi, "").replace(/<script\b[\s\S]*?<\/script>/gi, "");
@@ -985,7 +987,7 @@ function kbInfoTab(d) {
     return head + ed("attr", "Attractions & Muslim-friendly", V.attractions) + (V.faq && typeof g(V.faq) === "string" ? card("faq", "FAQ / Important Notes", "markdown: # tajuk, - item, | jadual |", kbEditor(sl, V.faq, g(V.faq), null)) : "")
       + (V.packages ? card("pkg", "Kad pakej KB", "nama, pengenalan &amp; nota sahaja — harga, itinerary, termasuk / tidak termasuk dari tab Costing &amp; Itinerary. Harga dalam teks: {{dari:N}} · {{2pax:N}} · {{pasangan:N}} (N = pakej, mula 0)", kbEditor(sl, V.packages, g(V.packages), null)) : "")
       + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("acts", "Aktiviti", V.acts)
-      + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${k === "pricing" ? ' <span class="muted small">— nota TC sahaja; jadual harga dijana dari Costing</span>' : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
+      + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${KB_FROM_HUB[k] ? ` <span class="muted small">— nota KB sahaja; ${KB_FROM_HUB[k]}</span>` : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
       + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
       + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("");
   }
@@ -997,7 +999,7 @@ function kbInfoTab(d) {
       ${a.map ? `<a class="small" href="${esc(a.map)}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}</div>`).join("");
   const faq = typeof g(V.faq) === "string" ? kbMd(g(V.faq)) : "";
   const P = g(V.packages) || [];
-  const bl = Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<details class="kb-faq" data-kbtext="${esc(kbTxt(g(p)).toLowerCase())}"><summary>${esc(KB_BLOCK[k] || k)}</summary><div class="kb-html">${kbHtml(g(p))}</div></details>`).join("");
+  const bl = Object.entries(V.blocks).filter(([k, p]) => !KB_SKIP_BLOCK.has(k) && kbTxt(g(p)).replace(/\s+/g, " ").trim().length > 20).map(([k, p]) => `<details class="kb-faq" data-kbtext="${esc(kbTxt(g(p)).toLowerCase())}"><summary>${esc(KB_BLOCK[k] || k)}${KB_FROM_HUB[k] ? ` <span class="muted small">— nota KB sahaja; ${KB_FROM_HUB[k]}</span>` : ""}</summary><div class="kb-html">${kbHtml(g(p))}</div></details>`).join("");
   const M = g(V.marketing);
   const mk = M ? `${(M.anchors || []).length ? `<div class="cd-chips">${M.anchors.map(a => `<span class="pill">${esc(kbTxt(a))}</span>`).join("")}</div>` : ""}${M.usp ? `<p>${esc(kbTxt(M.usp))}</p>` : ""}
       ${(M.season || []).length ? `<div class="scroll"><table class="cd-t">${M.season.map(s => `<tr>${(Array.isArray(s) ? s : [s]).map(x => `<td class="l">${esc(kbTxt(x))}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}

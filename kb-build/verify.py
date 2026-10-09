@@ -12,6 +12,8 @@ compares it with the hub sources directly, not with build.py's own output:
               every catalog price-table amount appears in the KB's Harga & Pakej tab
   catalog     a linked package's itinerary (days, titles) and includes / excludes = the catalog's
   hotels      a KB hotel card that links hotels shows their names from the Accommodation list
+  tabs        the KB's Surcharge tab has every catalog hotel row and season, Simple Customisation every catalog
+              add-on, Polisi every deposit line (Surcharge, Accommodation, Add On, Policy tabs)
   dropdown    the calculator's package list = calc variants, in order
   rebuild     building again changes nothing (the page is up to date with the hub)
 """
@@ -97,6 +99,32 @@ def check(site, slug, data, hub):
                 for a in r.get("amounts") or []:
                     if a and a != "-" and a not in pricing:
                         errs.append(f"price {a} ({ln['catalog']} {r.get('pax')}) missing from Harga & Pakej")
+    # tabs made from the hub: Surcharge (+ hotel rows), catalog add-ons, Policy
+    B = content if bespoke else (content.get("blocks") or {})
+    bk = (lambda b: b.upper() + "_HTML") if bespoke else (lambda b: b)
+    links = [l for l in (kb.get("map") or {}).get("packages") or [] if l]
+    for slug in dict.fromkeys(l["catalog"] for l in links):
+        cat = json.loads(json.dumps(hub.cat(slug))); code = (hub.index.get(slug) or {}).get("code") or cat.get("code")
+        build.hub_data.apply_hotels(cat, slug, data, code)
+        if bk("surcharge") in B:
+            sur = text(B[bk("surcharge")])
+            for r in (cat.get("surcharge") or {}).get("rows") or []:
+                if text(r.get("name")) not in sur:
+                    errs.append(f"Surcharge tab: hotel row {r.get('name')!r} ({slug}) missing")
+            for x in (cat.get("surcharge") or {}).get("seasons") or []:
+                if text(x.get("period")) not in sur:
+                    errs.append(f"Surcharge tab: season {x.get('label')!r} ({slug}) missing")
+        if bk("custom") in B:
+            cus = text(B[bk("custom")])
+            for g in build.hub_data.addons(cat, slug, data, code):
+                for e in g["entries"]:
+                    if text(e["name"]) not in cus:
+                        errs.append(f"Customisation tab: catalog add-on {e['name']!r} missing")
+        if bk("polisi") in B:
+            pol = text(B[bk("polisi")])
+            for d in cat.get("deposit") or []:
+                if text(d.get("figure")) not in pol:
+                    errs.append(f"Polisi tab: deposit {d.get('figure')!r} ({slug}) missing")
     # hotels
     H = {x["id"]: x for d in data["destinations"] for x in d.get("hotels") or []}
     src = (kb["content"].get("HOTELS") if bespoke else kb["content"].get("hotels")) or []

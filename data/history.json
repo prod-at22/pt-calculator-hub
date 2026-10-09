@@ -39516,6 +39516,22 @@
     "KB rebuilt"
    ],
    "changes": []
+  },
+  {
+   "v": 41,
+   "at": "2026-10-09T04:05:46Z",
+   "by": "system",
+   "note": "Info KB tidy (PO 9 Oct): FAQ / Important Notes without what the Policy, Surcharge, Itinerary, Accommodation and Add On tabs already say; KB Surcharge, catalog add-ons (Simple Customisation) and Polisi tabs generated from the hub",
+   "summary": [
+    "Important Notes: 167 lines removed / shortened (validity, deposit, payment, late booking, single supplement, peak, room basis); blackout & operations kept",
+    "FAQ: 64 questions removed (itinerary / includes 17, hotels / single room 28, catalog add-on lists 20)",
+    "KB tabs: Surcharge from Surcharge + Accommodation tabs; 'Add-on katalog' from Add On; Polisi from Policy; hotel tables removed from Accommodation; KB-only notes kept",
+    "kb-build/verify.py also checks Surcharge rows / seasons, catalog add-ons, deposits"
+   ],
+   "kb": [
+    "28 KB rebuilt"
+   ],
+   "changes": []
   }
  ]
 }

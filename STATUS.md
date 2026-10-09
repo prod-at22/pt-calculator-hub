@@ -72,6 +72,18 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
+## HANDOFF (9 Oct 2026) — branch `kb-tidy` waiting for "ok push"
+- main = v40 live (KB House from the hub, verified). Branch **kb-tidy** (v41) = Info KB tidy, NOT merged/pushed to main:
+  FAQ / Important Notes without hub duplicates; KB Surcharge / catalog add-ons / Polisi generated from the hub
+  (kb-build/build.py surcharge_html, addons_html, policy_html); verify.py checks them. Built + verify 28/28 + smoke 28/28 + tests ALL PASSED.
+- To publish: rebuild pt-kb-house locally from the branch, run verify.py + smoke.js, `git checkout main && git merge --no-ff kb-tidy`
+  (bump the history v if main moved), push, dispatch pt-kb-house + catalog-pt-public mirror.yml, confirm CI "28/28 KB OK"
+  twice and catalog-pt-public only `.hub-sha`.
+- Still open for the PO: Phuket KB text "Upgrade hotel 4★ +RM300/pax" + Free Gift "upgrade to 4 Star" (keep or remove?);
+  split multi-city catalog hotel rows (KK 3★, Medan 4★, Korea Seoul Std / Seoul–Jeju) so those KB hotel cards can link
+  (changes catalog surcharge tables); FAQ cancellation / refund questions (keep?); admin token (Contents RW hub + Actions RW
+  catalog-pt-public + pt-kb-house) and First-time setup.
+
 ## KB House from the hub (9 Oct 2026, v32) — Phase 2 in progress
 - PO decision (9 Oct): the hub is the source of truth for PT KB House; KB pages mirror the hub; cosmetics (images,
   travel map, page design) stay in pt-kb-house; KB Bahasa Melayu text kept in the hub; variants without a Costing

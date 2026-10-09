@@ -215,6 +215,89 @@ def pricing_html(hub, kb, calc, links, names):
             "Itinerary, termasuk &amp; tidak termasuk ikut tab Itinerary hub.</p>" + "".join(parts))
 
 
+
+
+def _esc(x):
+    return htmlmod.escape(str(x or ""))
+
+
+def _cat_codes(hub, slug):
+    cat = hub.cat(slug)
+    return (hub.index.get(slug) or {}).get("code") or cat.get("code")
+
+
+def _dedupe(parts):
+    """[(title, body)] → one block per distinct body, titles joined."""
+    out = {}
+    for t, b in parts:
+        if b:
+            out.setdefault(b, []).append(t)
+    return [(" · ".join(dict.fromkeys(ts)), b) for b, ts in out.items()]
+
+
+def surcharge_html(hub, links):
+    """KB Surcharge tab from the hub's Surcharge tab (+ hotel rows from the Accommodation tab), as the catalog prints it."""
+    parts = []
+    for slug in dict.fromkeys(l["catalog"] for l in links if l):
+        cat = json.loads(json.dumps(hub.cat(slug)))
+        hub_data.apply_hotels(cat, slug, hub.data, _cat_codes(hub, slug))
+        S = cat.get("surcharge") or {}
+        cols, rows, seas, notes = S.get("columns") or [], S.get("rows") or [], S.get("seasons") or [], S.get("notes") or []
+        body = ""
+        if rows:
+            head = "".join(f"<th>{_esc(c.get('label'))}" + (f"<br><small>{_esc(c['period'])}</small>" if c.get("period") else "") + "</th>" for c in cols)
+            body += ("<table class='ctbl'><thead><tr><th>Jenis</th><th>Hotel</th>" + head + "</tr></thead><tbody>"
+                     + "".join(f"<tr><td class='it'>{_esc(r.get('type'))}</td><td>{_esc(r.get('name'))}{' <small>or similar</small>' if r.get('similar') else ''}</td>"
+                               + "".join(f"<td{' class=add' if i == 0 else ''}>{_esc(a or '-')}</td>" for i, a in enumerate(r.get('amounts') or [])) + "</tr>" for r in rows)
+                     + "</tbody></table>")
+        if seas:
+            body += ("<table class='ctbl'><thead><tr><th>Musim</th><th>Tarikh perjalanan</th><th>Surcaj</th></tr></thead><tbody>"
+                     + "".join(f"<tr><td class='it'>{_esc(x.get('label'))}</td><td>{_esc(x.get('period'))}</td><td class=add>{_esc(x.get('rate'))}</td></tr>" for x in seas)
+                     + "</tbody></table>")
+        if notes:
+            body += "<p class='custnote'>" + " · ".join(_esc(n) for n in notes) + "</p>"
+        parts.append((f"{_esc(cat.get('title'))} · {_esc(cat.get('duration'))}", body))
+    blocks = _dedupe(parts)
+    if not blocks:
+        return ""
+    return ("<p class='ssub'>Surcaj ikut katalog customer — dari tab Surcharge &amp; Accommodation PT R&amp;D Costing Hub.</p>"
+            + "".join(f"<div class='custblk'><h3>{t}</h3>{b}</div>" for t, b in blocks))
+
+
+def addons_html(hub, links):
+    """Catalog add-ons (the hub's Add On tab, ticked for this KB's catalogs), one row per item."""
+    seen, rows = set(), []
+    for slug in dict.fromkeys(l["catalog"] for l in links if l):
+        for g in hub_data.addons(hub.cat(slug), slug, hub.data, _cat_codes(hub, slug)):
+            for e in g["entries"]:
+                if e["name"] in seen:
+                    continue
+                seen.add(e["name"])
+                note = " · ".join(_esc(x) for x in (e.get("includes"), e.get("duration")) if x)
+                rows.append(f"<tr><td class='it'>{_esc(e['name'])}</td><td class=add>{'<br>'.join(_esc(x) for x in e.get('price_lines') or [])}</td><td>{note}</td></tr>")
+    if not rows:
+        return ""
+    return ("<div class='custblk'><h3>Add-on katalog</h3><table class='ctbl'><thead><tr><th>Add-on</th><th>Harga</th><th>Nota</th></tr></thead><tbody>"
+            + "".join(rows) + "</tbody></table><p class='custnote'>Dari tab Add On PT R&amp;D Costing Hub (sama seperti katalog customer).</p></div>")
+
+
+def policy_html(hub, links):
+    """KB Polisi tab from the hub's Policy tab (catalog Important Notes + Deposit & Full Payment)."""
+    parts = []
+    for slug in dict.fromkeys(l["catalog"] for l in links if l):
+        cat = hub.cat(slug)
+        body = "".join((f"<h4>{_esc(n['title'])}</h4>" if n.get("title") else "") + "<ul>" + "".join(f"<li>{_esc(x if isinstance(x, str) else x.get('text'))}</li>" for x in n.get("entries") or []) + "</ul>" for n in cat.get("notes") or [])
+        if cat.get("deposit"):
+            body += "<ul>" + "".join(f"<li><b>{_esc(d.get('figure'))}</b> {_esc(d.get('text'))}</li>" for d in cat["deposit"]) + "</ul>"
+        parts.append((f"{_esc(cat.get('title'))} · {_esc(cat.get('duration'))}", body))
+    return "".join(f"<div class='custblk'><h3>{t}</h3>{b}</div>" for t, b in _dedupe(parts))
+
+
+def _after_heading(h, insert):
+    """Put generated HTML right after the block's own heading section (the part before the first custblk)."""
+    m = re.search(r"<div class=['\"]custblk['\"]", h or "")
+    return (h[:m.start()] + insert + h[m.start():]) if m else (h or "") + insert
+
 TOKEN = re.compile(r"\{\{(dari|2pax|pasangan):(\d+)\}\}")
 
 
@@ -284,6 +367,13 @@ def content_from_hub(kb, calc, hub):
         c["PRICING_HTML"] = pricing_html(hub, kb, calc, links, names) + (c.get("PRICING_HTML") or "")
     else:
         c["blocks"]["pricing"] = pricing_html(hub, kb, calc, links, names) + (c["blocks"].get("pricing") or "")
+    B, key = (c, lambda b: b.upper() + "_HTML") if bespoke else (c["blocks"], lambda b: b)
+    if key("surcharge") in B:      # Surcharge tab: the catalog's, then the KB's own notes (Surcharge lain, Travel Date 2027 …)
+        B[key("surcharge")] = "<h2>Surcharge</h2>" + _after_heading(B[key("surcharge")] or "", surcharge_html(hub, links))
+    if key("custom") in B:         # Simple Customisation: catalog add-ons from the Add On tab + the KB's rate card
+        B[key("custom")] = _after_heading(B[key("custom")], addons_html(hub, links))
+    if key("polisi") in B:         # Polisi & Payment: the Policy tab
+        B[key("polisi")] = "<h2>Polisi &amp; Payment</h2>" + policy_html(hub, links) + (B[key("polisi")] or "")
     return fill_tokens(c, hub, links, kb["slug"])
 
 PKGSEL = re.compile(r"(<select[^>]*id='c_pkg'[^>]*>)(.*?)(</select>)", re.S)
