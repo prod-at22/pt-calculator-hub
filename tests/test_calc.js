@@ -210,7 +210,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.026"), "FX chips: WIF 0.029, Qayyum 0.026");
-    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,addons,expect,policy,kbinfo,kbcalc,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Add On, What to Expect, Policy, Info KB, Simple Calculator, TO Contract Rate, Flags, History");
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,accommodation,addons,expect,policy,kbinfo,kbcalc,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Accommodation, Add On, What to Expect, Policy, Info KB, Simple Calculator, TO Contract Rate, Flags, History");
     // each catalog section on its own tab (data/catalogs/<slug>.json for the selected package)
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     await tab(w, doc, "itinerary"); await until(() => doc.querySelector("#cat-tokyo-standard"));
@@ -655,6 +655,40 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     if (doc.querySelector("#btnEdit") && doc.querySelector("#btnEdit").textContent.includes("Stop")) { click(w, doc.querySelector("#btnEdit")); await tick(5); }
     const ac = await boot(repo, "aceh/", "#kbinfo"); await until(() => ac.doc.querySelector("#kb-attr"));
     ok(ac.doc.querySelector("#grid").textContent.includes("Masjid Raya Baiturrahman") && ac.errors.length === 0, "bespoke KB (aceh) shows in Info KB");
+  }
+
+  console.log("8h. Accommodation tab: one hotel list per destination; catalogs (Accommodation + Surcharge rows) and the KB read it");
+  {
+    const pg = await boot(repo, "dps/", "#accommodation"); await until(() => pg.doc.querySelector("#hotels tbody tr"));
+    const P2 = pg.w.PTCALC, D2 = () => P2.DATA.destinations.find(d => d.code === "DPS"), V = P2.BASE.version;
+    const cat0 = JSON.parse(repo.files(repo.head)["data/catalogs/bali-standard.json"]);
+    ok(!("rows" in (cat0.surcharge || {})) && !("accommodation" in cat0), "catalog file keeps no hotel rows (they live in the Accommodation tab)");
+    ok(pg.doc.querySelectorAll("#hotels tbody tr").length === D2().hotels.length && D2().hotels.some(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur), "Accommodation tab lists DPS hotels, ticked for bali-standard Surcharge");
+    ok(await until(() => pg.doc.querySelector("#kb-hotels") && pg.doc.querySelector("#kb-hotels").textContent.includes("Favehotel")), "KB hotel cards (Bali KB) shown on the same tab");
+    await tab(pg.w, pg.doc, "surcharge"); await until(() => pg.doc.querySelector("#grid").textContent.includes("Favehotel Kartika Plaza"));
+    ok(pg.doc.querySelector("#grid").textContent.includes("RM40/pax/night"), "Surcharge tab: hotel rows (and amounts) from the Accommodation tab");
+    P2.EDIT = true; P2.render(); await tab(pg.w, pg.doc, "accommodation"); await until(() => pg.doc.querySelector("#hotels input.ed"));
+    P2.SESSION = { u: "aiman", role: "editor", token: "tok-valid" };
+    const h0 = D2().hotels.find(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur === 1);
+    const nameIn = [...pg.doc.querySelectorAll("#hotels input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "DPS", "hotels", h0.id, "name"]));
+    nameIn.value = "Favehotel Kartika Plaza (diuji)"; fire(pg.w, nameIn, "change"); await tick(10);
+    click(pg.w, pg.doc.querySelector('[data-act="addHotel"]')); await tick(10);
+    const nh = D2().hotels.at(-1);
+    ok(nh && /^dps-h\d+$/.test(nh.id) && pg.doc.querySelectorAll("#hotels tbody tr").length === D2().hotels.length, "+ Tambah hotel adds a row");
+    const ni = [...pg.doc.querySelectorAll("#hotels input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "DPS", "hotels", nh.id, "name"]));
+    ni.value = "Hotel Baru Kuta"; fire(pg.w, ni, "change"); await tick(10);
+    const tk = [...pg.doc.querySelectorAll("input.htick")].find(x => JSON.parse(x.dataset.htick).id === nh.id && JSON.parse(x.dataset.htick).slug === "bali-standard" && JSON.parse(x.dataset.htick).kind === "sur");
+    tk.checked = true; fire(pg.w, tk, "change"); await tick(10);
+    ok(D2().hotels.at(-1).catalogs["bali-standard"].sur > 1 && D2().hotels.at(-1).catalogs["bali-standard"].amounts.length === 2, "tick Surcharge for bali-standard: last position, one amount per surcharge column");
+    click(pg.w, pg.doc.querySelector("#btnSave")); await tick(5);
+    pg.doc.querySelector("#saveNote").value = "Bali hotel diuji";
+    click(pg.w, pg.doc.querySelector("#doSave"));
+    ok(await until(() => P2.BASE.version === V + 1), "saved as one version");
+    const rem = JSON.parse(repo.files(repo.head)["data/data.json"]), hd = rem.destinations.find(d => d.code === "DPS").hotels;
+    ok(hd.find(h => h.id === h0.id).name === "Favehotel Kartika Plaza (diuji)" && hd.some(h => h.name === "Hotel Baru Kuta"), "data.json has the hotel edits");
+    const cat1 = JSON.parse(repo.files(repo.head)["data/catalogs/bali-standard.json"]);
+    ok(cat1.hub_version === V + 1 && !("rows" in (cat1.surcharge || {})), "bali-standard: hub_version stamped (catalog rebuilds), still no hotel rows in the file");
+    ok(pg.errors.length === 0, "accommodation errors: " + pg.errors.join("|"));
   }
 
   console.log("8f. Add On: delete an item (Edit costs), warns when it is in a catalog");

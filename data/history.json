@@ -39449,6 +39449,18 @@
     "28 KB rebuilt from the hub"
    ],
    "changes": []
+  },
+  {
+   "v": 36,
+   "at": "2026-10-09T03:01:29Z",
+   "by": "system",
+   "note": "New Accommodation tab: one hotel list per destination for the customer catalogs (Accommodation section + Surcharge hotel rows) and the KB's hotel cards (PO 9 Oct). Catalogs unchanged.",
+   "summary": [
+    "152 hotels from 58 catalogs moved into 35 destinations (data.json hotels, ticked per catalog)",
+    "Catalog files keep no accommodation / surcharge hotel rows; catalog-build/hub_data.py hotels() prints them",
+    "All 67 catalogs resolve identical before and after"
+   ],
+   "changes": []
   }
  ]
 }

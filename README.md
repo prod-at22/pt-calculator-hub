@@ -76,6 +76,7 @@ tour operator (/ hotel, season) selectors, then tabs:
 | **Costing** (default) | table per TO block (same layout as the old R&D sheet): components, Cost/Pax, Catalog, Selling, Margin, %, Total Gross; margin range and lowest margin above it. Rows alternate grey / white, one header colour; margin is green when positive, red when negative |
 | **Itinerary** · **Surcharge** · **What to Expect** · **Policy** | the package's customer catalog, one section per tab (see *Catalogs* below) — every field editable in Edit costs |
 | TO Contract Rate | the TO's contract / rate card files (PDF, Excel, image, max 25 MB). Anyone can open them; logged-in users upload or remove. Files live in the repo under `contracts/<code>/`, listed in the destination's `contracts` in `data.json`; each upload / removal is one version in the history |
+| **Accommodation** | one hotel list per destination (`data.json` `hotels`): city, type, name, ★, or similar; each hotel ticked per catalog for its **Accommodation** section (`acc`: position) and/or a row of its **Surcharge** hotel table (`sur`: position + one amount per surcharge column). Catalogs print them (hub_data.py `hotels()`); the KB's hotel cards (`data/kb/<slug>.json`) are edited on the same tab. Itinerary day "Hotel" column stays on Itinerary; peak dates stay on Surcharge |
 | **Add On** | cost / selling / margin; tick *In catalog* to print an add-on in the package's catalog; **Add item** / **Delete** (Edit costs) add or remove an add-on (Delete warns when it is printed in a catalog); Add item adds a new add-on (category, name, per, cost, selling; ticked for the catalog by default, price text = selling/per); a qty totals the selected add-ons |
 | **Info KB** | the PT KB House content for this destination (Bahasa Melayu): attractions with Muslim-friendly info, FAQ / Important Notes (searchable), the KB's tab blocks (transport, hotel, halal, solat, flight, visa, free gift …), packages, hotels, marketing. Edit costs edits every field (images stay in pt-kb-house) — saved to `data/kb/<slug>.json` |
 | **Simple Calculator** | the KB's own quotation calculator (live KB page, opened on its calculator), the price tiers it quotes from, and in Edit costs its config (calc-config JSON) |
@@ -89,7 +90,8 @@ Each section of a customer catalog comes from its own tab of the destination pag
 | Catalog section | Tab | Stored in |
 |---|---|---|
 | Package Price | **Costing** — Catalog Price column (Edit costs also shows the catalog's price-table layout: pax bands, column labels, infant line with `{price}`) | `data.json` pricing (amounts) · catalog `prices` (layout only) |
-| Title, route, duration, basis, valid until, version, highlights, hotels, itinerary, includes / excludes | **Itinerary** | `data/catalogs/<slug>.json` |
+| Title, route, duration, basis, valid until, version, highlights, itinerary, includes / excludes | **Itinerary** | `data/catalogs/<slug>.json` |
+| Accommodation (hotels) · Surcharge hotel rows | **Accommodation** | `data.json` hotels (`catalogs: {slug: {acc / sur, amounts}}`) |
 | Surcharge | **Surcharge** | catalog `surcharge` |
 | Additional activities | **Add On** — tick *In catalog* per package; name, includes / excludes / duration and catalog price text per item | `data.json` addons (`catalogs: {slug: position}`, `price_lines`) · catalog `addon_groups` (group order + notes) |
 | What to Expect | **What to Expect** | catalog `expect` |

@@ -21,7 +21,7 @@ let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
-const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
+const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["accommodation", "Accommodation"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
 // each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
 const CAT_TABS = ["itinerary", "surcharge", "expect", "policy"];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
@@ -409,6 +409,7 @@ function renderMain(d, pkg) {
   const T = SEL.tab;
   if (T === "costing") $("#grid").innerHTML = costingSummary(d, pkg) + rateRef(d, pkg) + (EDIT && !VIEW ? toRatesCard(d, pkg) : "") + costingByPax(d, pkg, pax) + (EDIT && !VIEW ? catalogTab(d, pkg, "price") : "");
   else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
+  else if (T === "accommodation") $("#grid").innerHTML = accommodationCard(d);
   else if (T === "kbinfo") { $("#grid").innerHTML = kbInfoTab(d); kbFilter(); }
   else if (T === "kbcalc") { $("#grid").innerHTML = kbCalcTab(d); kbFrameReady(); }
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
@@ -732,7 +733,8 @@ function catalogPart(c0, ix, which, ro) {
     const head = E ? `<div class="cd-edit-head">${[["title", "Title"], ["duration", "Duration"], ["route", "Route"], ["basis", "Package basis"], ["valid_until", "Valid until"], ["version", "Version"]].map(([k, l]) => `<label>${l}${ci([k], c[k])}</label>`).join("")}</div>
       ${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map((h, i) => ci(["highlights", i, "label"], h.label)).join(" ")}</div>` : ""}`
       : `${(c.highlights || []).length ? `<div class="cd-chips">${c.highlights.map(h => `<span class="pill">${esc(h.label)}</span>`).join("")}</div>` : ""}`;
-    const acc = c.accommodation && c.accommodation.length ? `<div class="cd-acc">${c.accommodation.map((a, i) => `<div><span class="muted">${ci(["accommodation", i, "city"], a.city)}</span>${a.stars && !E ? ` · ${"★".repeat(a.stars)}` : ""}<br>${ci(["accommodation", i, "name"], a.name)}${a.similar && !E ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>` : "";
+    const HA = catHotels(c, sl, ix.code).acc;
+    const acc = HA && HA.length ? `<div class="cd-acc">${HA.map(a => `<div><span class="muted">${esc(a.city || "")}</span>${a.stars ? ` · ${"★".repeat(a.stars)}` : ""}<br>${esc(a.name)}${a.similar ? ' <span class="muted">or similar</span>' : ""}</div>`).join("")}</div>${E ? '<div class="cd-note">Hotel: tab <a href="#accommodation" data-tabmain="accommodation">Accommodation</a></div>' : ""}` : "";
     const itins = c.itineraries ? c.itineraries.map((x, i) => ({ label: x.label, days: x.days || [], base: ["itineraries", i, "days"] })) : [{ label: null, days: c.itinerary || [], base: ["itinerary"] }];
     const itin = it => `<div class="scroll"><table class="cd-t cd-itin"><thead><tr><th class="l">Day</th><th class="l">Activities</th><th class="l">Transport</th><th class="l">Meal</th><th class="l">Hotel</th></tr></thead>
       <tbody>${it.days.map((x, di) => { const p = k => [...it.base, di, k]; return `<tr><td class="l cd-day">${esc(x.day)}</td><td class="l"><b>${ci(p("title"), x.title, "title")}</b>${ul(x.activities, p("activities"))}</td><td class="l">${E ? ci(p("transport"), x.transport) : esc(x.transport || "—")}</td><td class="l">${E ? ci(p("meals"), x.meals) : esc(x.meals || "—")}</td><td class="l">${E ? ci(p("hotel"), x.hotel) : esc(x.hotel || "—")}</td></tr>`; }).join("")}</tbody></table></div>
@@ -740,10 +742,10 @@ function catalogPart(c0, ix, which, ro) {
     const incl = (c.price_blocks || []).map((b, bi) => `${b.label ? `<div class="cd-lbl">${esc(b.label)}</div>` : ""}<div class="cd-two"><div><h4>Includes</h4>${ul(b.includes, ["price_blocks", bi, "includes"])}</div><div><h4>Excludes</h4>${ul(b.excludes, ["price_blocks", bi, "excludes"])}</div></div>`).join("");
     body = head + sec("Accommodation", acc) + itins.map(it => sec("Travel Itinerary" + (it.label ? " (" + esc(it.label) + ")" : ""), itin(it))).join("") + sec("Price Includes / Excludes", incl);
   } else if (which === "surcharge") {
-    const S = c.surcharge || {};
+    const S = { ...(c.surcharge || {}), rows: catHotels(c, sl, ix.code).rows };
     title = S.title || "Surcharge";
     const sur = (S.rows && S.rows.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l" colspan="2">Accommodation</th>${S.columns.map((x, i) => `<th>${ci(["surcharge", "columns", i, "label"], x.label)}${x.period || E ? `<span class="cd-age">${ci(["surcharge", "columns", i, "period"], x.period, "period")}</span>` : ""}</th>`).join("")}</tr></thead>
-      <tbody>${S.rows.map((r, ri) => `<tr><td class="l">${ci(["surcharge", "rows", ri, "type"], r.type)}</td><td class="l">${ci(["surcharge", "rows", ri, "name"], r.name)}${r.similar && !E ? ' <span class="muted">or similar</span>' : ""}</td>${r.amounts.map((v, ai) => `<td>${E ? ci(["surcharge", "rows", ri, "amounts", ai], v) : esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "")
+      <tbody>${S.rows.map(r => `<tr><td class="l">${esc(r.type || "")}</td><td class="l">${esc(r.name || "")}${r.similar ? ' <span class="muted">or similar</span>' : ""}</td>${(r.amounts || []).map(v => `<td>${esc(v || "—")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>${E ? '<div class="cd-note">Baris hotel: tab <a href="#accommodation" data-tabmain="accommodation">Accommodation</a></div>' : ""}` : "")
       + (S.seasons && S.seasons.length ? `<div class="scroll"><table class="cd-t"><thead><tr><th class="l">Season</th><th class="l">Travel dates</th><th class="l">Surcharge</th></tr></thead>
       <tbody>${S.seasons.map((x, i) => `<tr><td class="l"><b>${ci(["surcharge", "seasons", i, "label"], x.label)}</b></td><td class="l">${ci(["surcharge", "seasons", i, "period"], x.period)}</td><td class="l">${ci(["surcharge", "seasons", i, "rate"], x.rate)}</td></tr>`).join("")}</tbody></table></div>` : "") + notes(S.notes, S.title || S.rows || S.seasons ? ["surcharge", "notes"] : null);
     body = (E && (S.title || S.rows || S.seasons) ? `<label class="cd-edit-head">Title${ci(["surcharge", "title"], S.title)}</label>` : "") + (sur || '<div class="empty">No surcharge in this catalog.</div>');
@@ -782,6 +784,55 @@ function contractCard(d) {
     <div class="note">Anyone with the page link can open these files. A new file shows on the live page in about a minute.</div></div>`;
 }
 // Add (file) or remove (removeId) a contract file: one commit with the file, data.json and history.json.
+/* ============================================================ Accommodation
+   One hotel list per destination (data.json destinations[].hotels). Each hotel is ticked per catalog as
+   {"acc": position} (the catalog's Accommodation section) and/or {"sur": position, "amounts": [...]} (a row of the
+   catalog's Surcharge table, one amount per surcharge column). catalog-build/hub_data.py hotels() prints the same.
+   The KB's hotel cards (data/kb/<slug>.json) are edited on the same tab. */
+const HOTEL_ACC = ["city", "name", "stars", "similar"], HOTEL_SUR = ["type", "name", "similar"];
+function catHotels(c, sl, code, data = DATA) {
+  const d = data.destinations.find(x => x.code === code), acc0 = c.accommodation, rows0 = (c.surcharge || {}).rows;
+  if (!d || !d.hotels) return { acc: acc0, rows: rows0 };
+  const t = d.hotels.map(h => [h, (h.catalogs || {})[sl] || {}]);
+  const pick = (h, ks) => Object.fromEntries(ks.filter(k => k in h).map(k => [k, h[k]]));
+  const acc = t.filter(x => "acc" in x[1]).sort((a, b) => a[1].acc - b[1].acc).map(([h]) => pick(h, HOTEL_ACC));
+  const rows = t.filter(x => "sur" in x[1]).sort((a, b) => a[1].sur - b[1].sur).map(([h, k]) => ({ ...pick(h, HOTEL_SUR), amounts: [...(k.amounts || [])] }));
+  return { acc: acc.length ? acc : acc0, rows: rows.length ? rows : rows0 };
+}
+function destSlugs(d) { return CAT.index ? Object.keys(CAT.index).filter(sl => CAT.index[sl].code === d.code) : null; }
+function accommodationCard(d) {
+  const slugs = destSlugs(d);
+  if (!slugs) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading…"}</div></div>`; }
+  for (const sl of slugs) if (!CAT.docs[sl] && !CAT.err) loadCatalog(sl + ".json", x => { CAT.docs[sl] = x; });
+  const E = EDIT && !VIEW, DP = ["destinations", d.code], H = d.hotels || [];
+  const cols = sl => ((CAT.docs[sl] || {}).surcharge || {}).columns || [];
+  const fld = (h, k, ph) => E ? `<input class="ed txt" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, k]))}" data-kind="text" value="${esc(h[k] ?? "")}" placeholder="${esc(ph)}">` : esc(h[k] ?? "");
+  const tick = (h, sl, kind) => `<input type="checkbox" class="htick" data-htick="${esc(JSON.stringify({ code: d.code, id: h.id, slug: sl, kind }))}"${((h.catalogs || {})[sl] || {})[kind] !== undefined ? " checked" : ""}${E ? "" : " disabled"} title="${kind === "acc" ? "Accommodation" : "Surcharge"} · ${esc(sl)}">`;
+  const cell = (h, sl) => {
+    const t = (h.catalogs || {})[sl] || {}, n = cols(sl).length;
+    const am = "sur" in t ? `<div class="h-am">${Array.from({ length: Math.max(n, (t.amounts || []).length) }, (_, i) => E
+      ? `<input class="ed txt" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, "catalogs", sl, "amounts", i]))}" data-kind="text" value="${esc((t.amounts || [])[i] ?? "")}" placeholder="${esc((cols(sl)[i] || {}).label || "")}">`
+      : `<span title="${esc((cols(sl)[i] || {}).label || "")}">${esc((t.amounts || [])[i] ?? "—")}</span>`).join("")}</div>` : "";
+    return `<td class="l"><label class="ck">${tick(h, sl, "acc")} Acc</label> <label class="ck">${tick(h, sl, "sur")} Surcharge</label>${am}</td>`;
+  };
+  const row = h => `<tr><td class="l">${fld(h, "city", "bandar")}</td><td class="l">${fld(h, "type", "jenis (cth. 4 Star Hotel)")}</td><td class="l" style="min-width:220px">${fld(h, "name", "nama hotel")}</td>
+      <td class="c">${E ? `<input class="ed" type="number" min="0" max="5" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, "stars"]))}" data-kind="num" value="${esc(h.stars ?? "")}">` : h.stars ? "★".repeat(h.stars) : ""}</td>
+      <td class="c">${E ? `<input type="checkbox" class="hsim" data-hsim="${esc(JSON.stringify({ code: d.code, id: h.id }))}"${h.similar ? " checked" : ""}>` : h.similar ? "✓" : ""}</td>
+      ${slugs.map(sl => cell(h, sl)).join("")}${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
+  const head = slugs.map(sl => `<th class="l">${esc(sl)}${cols(sl).length ? `<div class="muted small">surcharge: ${cols(sl).map(c => esc(c.label)).join(" · ")}</div>` : ""}</th>`).join("");
+  const hotelsCard = `<div class="card full" id="hotels"><h2>Accommodation <span class="sub">${H.length} hotel · satu senarai untuk katalog customer &amp; KB · Acc = bahagian Accommodation katalog · Surcharge = baris jadual surcharge hotel${E ? "" : " (Edit costs untuk ubah)"}</span></h2>
+    ${E ? `<div class="body"><button class="btn" data-act="addHotel">+ Tambah hotel</button></div>` : ""}
+    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
+    <div class="note">Katalog customer mencetak hotel yang ditanda, ikut susunan tanda. Lajur "Hotel" dalam itinerary harian kekal di tab Itinerary; tarikh &amp; kadar musim peak kekal di tab Surcharge.</div></div>`;
+  // the KB's hotel cards (PT KB House), same tab
+  const x = kbDoc(d.code); let kbCard = "";
+  if (x) {
+    const V = kbView(x.kb), p = V.hotels, list = p ? getPath(x.kb, p) || [] : [];
+    kbCard = `<div class="card full kb" id="kb-hotels"><h2>Kad hotel KB · ${esc(x.ix.name)} <span class="sub">${list.length} kad · tab Accommodation dalam KB${E ? "" : " (Edit costs untuk ubah)"}</span></h2><div class="body">
+      ${E && p ? kbEditor(x.sl, p, list, null) : list.length ? `<div class="cd-acc">${list.map(h => `<div><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(h.name || ""))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}</div>`).join("")}</div>` : '<div class="empty">Tiada kad hotel dalam KB.</div>'}</div></div>`;
+  }
+  return hotelsCard + kbCard;
+}
 /* ============================================================ KB House (Info KB · Simple Calculator)
    Every PT KB House page (prod-at22.github.io/pt-kb-house/<slug>/) is built from data/kb/<slug>.json by
    kb-build/build.py (pt-kb-house's mirror.yml): `content` = what the KB shows (packages, attractions with
@@ -919,7 +970,7 @@ function kbInfoTab(d) {
     const ed = (id, title, p) => p && g(p) != null ? card(id, title, "", kbEditor(sl, p, g(p), null)) : "";
     return head + linked + ed("attr", "Attractions & Muslim-friendly", V.attractions) + (V.faq && typeof g(V.faq) === "string" ? card("faq", "FAQ / Important Notes", "markdown: # tajuk, - item, | jadual |", kbEditor(sl, V.faq, g(V.faq), null)) : "")
       + (V.packages ? card("pkg", "Kad pakej KB", "nama, pengenalan &amp; nota sahaja — harga, itinerary, termasuk / tidak termasuk dari tab Costing &amp; Itinerary. Harga dalam teks: {{dari:N}} · {{2pax:N}} · {{pasangan:N}} (N = pakej, mula 0)", kbEditor(sl, V.packages, g(V.packages), null)) : "")
-      + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("hotels", "Hotel", V.hotels) + ed("acts", "Aktiviti", V.acts)
+      + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("acts", "Aktiviti", V.acts)
       + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${k === "pricing" ? ' <span class="muted small">— nota TC sahaja; jadual harga dijana dari Costing</span>' : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
       + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
       + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("");
@@ -932,8 +983,6 @@ function kbInfoTab(d) {
       ${a.map ? `<a class="small" href="${esc(a.map)}" target="_blank" rel="noopener">Google Maps ↗</a>` : ""}</div>`).join("");
   const faq = typeof g(V.faq) === "string" ? kbMd(g(V.faq)) : "";
   const P = g(V.packages) || [];
-  const H = g(V.hotels) || [];
-  const ht = H.length ? `<div class="cd-acc">${H.map(h => `<div data-kbtext="${esc(kbTxt([h.tier, h.name, h.note].join(" ")).toLowerCase())}"><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(h.name || ""))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}</div>`).join("")}</div>` : "";
   const bl = Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<details class="kb-faq" data-kbtext="${esc(kbTxt(g(p)).toLowerCase())}"><summary>${esc(KB_BLOCK[k] || k)}</summary><div class="kb-html">${kbHtml(g(p))}</div></details>`).join("");
   const M = g(V.marketing);
   const mk = M ? `${(M.anchors || []).length ? `<div class="cd-chips">${M.anchors.map(a => `<span class="pill">${esc(kbTxt(a))}</span>`).join("")}</div>` : ""}${M.usp ? `<p>${esc(kbTxt(M.usp))}</p>` : ""}
@@ -944,7 +993,7 @@ function kbInfoTab(d) {
   const linkedAll = linked && own ? linked.replace(/<\/div><\/div>$/, own + "</div></div>") : linked || (own ? card("linked", "Harga, Itinerary &amp; Termasuk / Tidak Termasuk", "pakej tanpa katalog", own) : "");
   return head + linkedAll + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
     + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
-    + card("hotels", "Hotel", "", ht) + card("mkt", "Marketing", "", mk);
+    + card("mkt", "Marketing", "", mk);
 }
 // Simple Calculator: the KB's own calculator (same page TCs use), plus the price tiers it quotes from.
 function kbCalcTab(d) {
@@ -1158,7 +1207,7 @@ function resolvePrices(c, ix, data = DATA) {
 }
 async function catalogFiles(dataChanges, catChanges, next, head, token) {
   const priced = new Set(dataChanges.filter(c => c.path[0] === "destinations" && c.path[2] === "packages" && c.path[4] === "pricing").map(c => c.path[1] + "|" + c.path[3]));
-  const addonDest = new Set(dataChanges.filter(c => c.path[0] === "destinations" && c.path[2] === "addons").map(c => c.path[1]));
+  const addonDest = new Set(dataChanges.filter(c => c.path[0] === "destinations" && (c.path[2] === "addons" || c.path[2] === "hotels")).map(c => c.path[1]));
   const slugsEdited = [...new Set(catChanges.map(c => c.path[1]))];
   if (!priced.size && !addonDest.size && !slugsEdited.length) return { files: [], summary: [], docs: {} };
   const idx = await GH.readJson(PATHS.catalogs + "index.json", head, token);
@@ -1367,6 +1416,19 @@ document.addEventListener("click", async e => {
     if (t.dataset.catact === "delday" && days.length && confirm("Remove day " + days.length + "?")) days.pop();
     return render();
   }
+  if (t.dataset.act === "addHotel" || t.dataset.act === "delHotel") {
+    const d = DATA.destinations.find(x => x.code === PAGE_DEST);
+    if (t.dataset.act === "addHotel") {
+      d.hotels = d.hotels || [];
+      const n = 1 + Math.max(0, ...d.hotels.map(h => +(/-h(\d+)$/.exec(h.id) || [0, 0])[1]));
+      d.hotels.push({ id: d.code.toLowerCase() + "-h" + String(n).padStart(2, "0"), name: "", catalogs: {} });
+    } else {
+      const h = d.hotels.find(x => x.id === t.dataset.id), used = Object.keys(h.catalogs || {});
+      if (!confirm("Delete " + (h.name || "this hotel") + "?" + (used.length ? " It is printed in: " + used.join(", ") + "." : ""))) return;
+      d.hotels = d.hotels.filter(x => x !== h);
+    }
+    return render();
+  }
   if (t.dataset.act === "addAddon") {
     const d = DATA.destinations.find(x => x.code === PAGE_DEST), v = id => $("#" + id).value.trim();
     const label = v("aoLabel"), category = v("aoCat") || "Other";
@@ -1488,6 +1550,23 @@ document.addEventListener("change", e => {
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
   if (t.id === "selPkg") { SEL.pkg = t.value; SEL.variant = "auto"; return render(); }
   if (t.id === "selVar") { SEL.variant = t.value; return render(); }
+  if (t.dataset && t.dataset.htick) {   // Accommodation: tick a hotel for a catalog's Accommodation / Surcharge table
+    const { code, id, slug, kind } = JSON.parse(t.dataset.htick), d = DATA.destinations.find(x => x.code === code), h = d.hotels.find(x => x.id === id);
+    const cur = { ...((h.catalogs || {})[slug] || {}) };
+    if (t.checked) {
+      cur[kind] = 1 + Math.max(0, ...d.hotels.map(x => ((x.catalogs || {})[slug] || {})[kind] || 0));
+      if (kind === "sur") cur.amounts = cur.amounts || (((CAT.docs[slug] || {}).surcharge || {}).columns || []).map(() => "-");
+    } else { delete cur[kind]; if (kind === "sur") delete cur.amounts; }
+    const all = { ...(h.catalogs || {}) };
+    if (Object.keys(cur).length) all[slug] = cur; else delete all[slug];
+    h.catalogs = all;
+    return render();
+  }
+  if (t.dataset && t.dataset.hsim) {
+    const { code, id } = JSON.parse(t.dataset.hsim), h = DATA.destinations.find(x => x.code === code).hotels.find(x => x.id === id);
+    if (t.checked) h.similar = true; else delete h.similar;
+    return render();
+  }
   if (t.dataset && t.dataset.tick) {
     const { code, id, slug } = JSON.parse(t.dataset.tick), d = DATA.destinations.find(x => x.code === code), a = d.addons.find(x => x.id === id);
     const cur = { ...(a.catalogs || {}) };
