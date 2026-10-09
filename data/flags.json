@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-09T14:53:05+08:00",
- "dataVersion": 42,
+ "generatedAt": "2026-10-09T15:11:14+08:00",
+ "dataVersion": 43,
  "flags": [
   {
    "code": "ACEHSBG",
@@ -17,9 +17,9 @@
    "package": null,
    "severity": "high",
    "area": "Margin",
-   "title": "Bangkok: margin problems in 4 package/TO lines",
-   "detail": "Bangkok Standard 4D3N · 3★ Almas — selling below cost Negative adult margin at pax 2–4, 10 (worst -9%) · Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 5–8 (lowest 3.7%) · Bangkok Standard 4D3N · 3★ Almas — CWB selling below cost Pax 2–8, 10 · Bangkok Standard 4D3N · 3★ Almas — CNB selling below cost Pax 2.",
-   "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Raise the price for those pax or renegotiate the TO rate. Review the price for these pax or the TO rate.",
+   "title": "Bangkok: margin problems in 2 package/TO lines",
+   "detail": "Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 2, 10 (lowest 7.0%) · Bangkok Standard 4D3N · 3★ Almas — CWB selling below cost Pax 2, 10.",
+   "fix": "Check the CWB cost rule (% of adult) and the CWB catalog price. Review the price for these pax or the TO rate.",
    "id": 2
   },
   {
@@ -248,7 +248,7 @@
    "severity": "medium",
    "area": "FX",
    "title": "THB → MYR differs between destinations",
-   "detail": "0.122 = KBV, PHU; 0.131 = BKK.",
+   "detail": "0.1218537 = BKK; 0.122 = KBV, PHU.",
    "fix": "Agree one FX rate per currency (and supplier) and set it on each destination page (Edit costs).",
    "id": 25
   },
