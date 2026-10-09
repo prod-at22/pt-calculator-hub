@@ -12,7 +12,9 @@ The hub is the source of every KB's content and Simple Calculator numbers: data/
             a variant with no Costing package keeps its own tiers in `calc` (KB-only); "capAtHub": true =
             the calculator stops at the package's last priced pax (PO 9 Oct: Aceh stops at 30 pax)
 Cosmetics stay in pt-kb-house: the page itself (layout, CSS, engine, travel map, logo) and the images,
-which the hub refers to as "@asset:<key>" and which live in <slug>/assets.json next to the page.
+which the hub refers to as "@asset:<key>" and which live in <slug>/assets.json next to the page. The KB's
+Accommodation tab is the hub's Accommodation list per package (stay_html); hotel photos are picked in
+pt-kb-house: <slug>/hotel-images.json = {hotel id: "@asset:<key>" or a list of them}.
 
     python3 kb-build/build.py <pt-kb-house dir> [slug ...]      (no slug = every KB in data/kb/)
 
@@ -320,31 +322,61 @@ def fill_tokens(obj, hub, links, slug):
     return obj
 
 
-def hotel_cards(cards, hub):
-    """KB hotel cards name their hotels by id (Accommodation tab, data.json destinations[].hotels): the card's
-    name is the hotels' names, then the card's own extra text."""
-    H = {h["id"]: h for d in hub.data["destinations"] for h in d.get("hotels") or []}
-    out = []
-    for card in cards or []:
-        if "hotels" not in card:
-            out.append(card); continue
-        hs = [H[i] for i in card["hotels"] if i in H]
-        names = " / ".join(dict.fromkeys(h["name"] for h in hs if h.get("name")))
-        extra = card.get("extra") or ""
-        if any(h.get("similar") for h in hs) and not re.search(r"(?i)setara|similar", names + extra):
-            names += " (atau setaraf)"
-        c = {k: v for k, v in card.items() if k not in ("hotels", "extra")}
-        c["name"] = " / ".join(x for x in (names, extra) if x)
-        out.append(c)
-    return out
+STARS = {3: "★★★ (3-star)", 4: "★★★★ (4-star)", 5: "★★★★★ (5-star)"}
 
 
-def content_from_hub(kb, calc, hub):
+def acc_rows(hub, slug):
+    """The catalog's hotels as the customer catalog prints them, with the hotel id when it comes from the
+    Accommodation tab (data.json destinations[].hotels): the Accommodation list, else the Surcharge hotel rows,
+    else (no hub hotel list) the catalog's own lists."""
+    cat, code = hub.cat(slug), _cat_codes(hub, slug)
+    d = next((x for x in hub.data["destinations"] if x["code"] == code), None)
+    if d is not None and "hotels" in d:
+        for kind in ("acc", "sur"):
+            t = sorted(((h, ((h.get("catalogs") or {}).get(slug) or {})[kind]) for h in d["hotels"]
+                        if kind in ((h.get("catalogs") or {}).get(slug) or {})), key=lambda x: x[1])
+            if t:
+                return [h for h, _ in t]
+    return (cat.get("accommodation") or (cat.get("surcharge") or {}).get("rows") or [])
+
+
+def stay_html(hub, links, images=None):
+    """KB Accommodation tab: each package's hotels from the hub's Accommodation tab, as the catalog prints them.
+    Images are cosmetics and stay in pt-kb-house (<slug>/hotel-images.json: {hotel id: "@asset:<key>" or [...]})."""
+    images = images or {}
+    parts = []
+    for slug in dict.fromkeys(l["catalog"] for l in links if l):
+        rows = acc_rows(hub, slug)
+        if not rows:
+            continue
+        city = any(r.get("city") for r in rows)
+        def cell(r):
+            im = images.get(r.get("id") or "") or []
+            pic = "".join(f"<img class='accimg' src='{x}' alt='{_esc(r.get('name'))}' loading='lazy' style='display:inline-block;width:100%;max-width:220px;border-radius:8px;margin:0 6px 6px 0'>"
+                          for x in ([im] if isinstance(im, str) else im))
+            return pic + _esc(r.get("name")) + (" <small>or similar</small>" if r.get("similar") else "")
+        body = ("<table class='ctbl'><thead><tr>" + ("<th>Bandar</th>" if city else "") + "<th>Jenis</th><th>Hotel</th></tr></thead><tbody>"
+                + "".join("<tr>" + (f"<td>{_esc(r.get('city'))}</td>" if city else "")
+                          + f"<td class='it'>{_esc(STARS.get(r.get('stars')) or r.get('type') or '')}</td><td>{cell(r)}</td></tr>" for r in rows)
+                + "</tbody></table>")
+        cat = hub.cat(slug)
+        parts.append((f"{_esc(cat.get('title'))} · {_esc(cat.get('duration'))}", body))
+    blocks = _dedupe(parts)
+    if not blocks:
+        return ""
+    return ("<p class='ssub'>Hotel ikut katalog customer — dari tab Accommodation PT R&amp;D Costing Hub.</p>"
+            + "".join(f"<div class='custblk'><h3>{t}</h3>{b}</div>" for t, b in blocks))
+
+
+def _before_faq(h, insert):
+    """Put generated HTML before the block's first FAQ question (or at its end)."""
+    m = re.search(r"<details", h or "")
+    return (h[:m.start()] + insert + h[m.start():]) if m else (h or "") + insert
+
+
+def content_from_hub(kb, calc, hub, images=None):
     """The KB content with every catalog-linked part filled from the hub."""
     c = json.loads(json.dumps(kb["content"]))
-    hk = "HOTELS" if kb["kind"] == "bespoke" else "hotels"
-    if hk in c:
-        c[hk] = hotel_cards(c[hk], hub)
     links = (kb.get("map") or {}).get("packages")
     if not links:
         return c
@@ -372,6 +404,11 @@ def content_from_hub(kb, calc, hub):
         B[key("surcharge")] = "<h2>Surcharge</h2>" + _after_heading(B[key("surcharge")] or "", surcharge_html(hub, links))
     if key("custom") in B:         # Simple Customisation: catalog add-ons from the Add On tab + the KB's rate card
         B[key("custom")] = _after_heading(B[key("custom")], addons_html(hub, links))
+    acc = stay_html(hub, links, images)   # Accommodation: the Accommodation tab (no KB hotel cards any more)
+    if bespoke:
+        c["ACC_HTML"] = acc
+    elif "stay" in B:
+        B["stay"] = _before_faq(B["stay"], acc)
     if key("polisi") in B:         # Polisi & Payment: the Policy tab
         B[key("polisi")] = "<h2>Polisi &amp; Payment</h2>" + policy_html(hub, links) + (B[key("polisi")] or "")
     return fill_tokens(c, hub, links, kb["slug"])
@@ -401,7 +438,9 @@ def one(m, html, what, slug):
 def build(site, slug, data, hub):
     kb = json.load(open(os.path.join(KBDIR, slug + ".json"), encoding="utf-8"))
     calc = calc_from_hub(kb, data)
-    kb = {**kb, "content": content_from_hub(kb, calc, hub)}
+    ip = os.path.join(site, slug, "hotel-images.json")
+    images = json.load(open(ip, encoding="utf-8")) if os.path.exists(ip) else {}
+    kb = {**kb, "content": content_from_hub(kb, calc, hub, images)}
     page = os.path.join(site, slug, "index.html")
     html = open(page, encoding="utf-8").read()
     ap = os.path.join(site, slug, "assets.json")

@@ -314,25 +314,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Lubang+Jepang+Bukittinggi"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (default)",
-    "note": "Standard double-sharing. Harga asas 2–3 orang sebilik; extra bed boleh disediakan untuk triple.",
-    "emoji": "🏨",
-    "hotels": [
-     "pdg-h01"
-    ],
-    "extra": "hotel 3★ setaraf"
-   },
-   {
-    "tier": "4★ (upgrade +RM80/pax/mlm)",
-    "note": "Bilik triple sedia ada. Naik taraf +RM80/pax/malam atas kadar 3★.",
-    "emoji": "🏨",
-    "hotels": [
-     "pdg-h02"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Kedua-dua pakej 4D3N pada harga yang sama — beza hanya routing Hari 2 dan Hari 3.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>OPTION A · ALAM & WARISAN</th><th>OPTION B · TASIK & SHOPPING</th></tr></thead><tbody><tr><td class='feat'>Tempoh</td><td class='val'>4D3N</td><td class='val'>4D3N</td></tr><tr><td class='feat'>Hotel (default)</td><td class='val'>3★</td><td class='val'>3★</td></tr><tr><td class='feat'>Naik taraf 4★</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driving guide + tipping</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fullboard halal</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Transport (asas)</td><td class='val'>12 jam</td><td class='val'>12 jam</td></tr><tr><td class='feat'>Istana Pagaruyung (baju adat)</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Danau Singkarak</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Puncak Lawang & Koto Gadang</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Kelok 9</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Lembah Harau</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Tabek Patah</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kota Payakumbuh</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Masa shopping Bukittinggi</td><td class='val'>Standard</td><td class='val'>Lebih panjang</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Suka alam, warisan & itinerari padat</td><td class='val'>Suka santai, tasik & masa shopping</td></tr></tbody></table>",

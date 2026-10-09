@@ -266,3 +266,7 @@ textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%
 #hotels .h-am{display:flex;gap:4px;margin-top:4px}#hotels .h-am input{width:120px}#hotels .h-am span{font-size:.85em;background:#f4f4f4;border-radius:4px;padding:1px 5px}
 #hotels label.ck{white-space:nowrap;font-size:.85em}
 .h-pick{display:flex;flex-wrap:wrap;gap:4px 14px;margin:4px 0}.h-pick label.ck{font-size:.9em}
+
+/* Simple Calculator tab: config as tables */
+.calc-t td,.calc-t th{vertical-align:top}.calc-t input.txt{min-width:160px}.calc-t textarea{min-width:220px;font:inherit;font-size:12px}
+.calc-pkg{margin:0 0 14px}.calc-pkg h3{margin:6px 0 2px}.calc-row{display:flex;flex-wrap:wrap}

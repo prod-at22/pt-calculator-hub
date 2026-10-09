@@ -254,44 +254,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Bale+Udang+Bali"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3 bintang - Standard & Honeymoon Standard",
-    "note": "Kuta / Legian. Pilihan lain: Swiss Belexpress Legian, Hotel Zia Kuta. Double sharing + sarapan; triple menggunakan extra bed.",
-    "emoji": "",
-    "img": "@asset:ea184cadcad4",
-    "hotels": [
-     "dps-h03"
-    ]
-   },
-   {
-    "tier": "4 bintang - upgrade Standard, termasuk Honeymoon Premium",
-    "note": "Pilihan lain: The Akmani Legian, Sun Island Hotel & Spa Legian (+RM60/pax/malam); Adhi Jaya Hotel, Wyndham Garden Hotel (+RM80/pax/malam). Proper triple room tersedia.",
-    "emoji": "",
-    "img": "@asset:276cefbc58f3",
-    "hotels": [
-     "dps-h01"
-    ]
-   },
-   {
-    "tier": "Private Pool Villa - Honeymoon Standard",
-    "note": "Seminyak. Pilihan lain: The Sakaye Villa & Spa, Maca Villas Umalas. Satu malam untuk Honeymoon Standard.",
-    "emoji": "",
-    "img": "@asset:cbb399d1473c",
-    "hotels": [
-     "dps-h06"
-    ]
-   },
-   {
-    "tier": "Luxury Private Pool Villa - Honeymoon Premium",
-    "note": "Pilihan lain: Alaya Dedaun Kuta Villa, Lumbini Villa & Spa, Sana ViE Villa, La ViE Villa. Satu malam untuk Honeymoon Premium.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "dps-h02"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2>\n<p class='ssub'>Tiga varian PT Bali 4D3N — customer pilih SATU.</p>\n<table class='cmp'><colgroup><col class='c1'><col><col><col></colgroup>\n<thead><tr><th class='blank'></th><th>STANDARD &middot; 4D3N</th><th>HNY STANDARD &middot; 4D3N</th><th>HNY PREMIUM &middot; 4D3N</th></tr></thead>\n<tbody>\n<tr><td class='feat'>Asas harga</td><td class='val'>Per pax (2-15 pax)</td><td class='val'>Per pasangan (2 pax)</td><td class='val'>Per pasangan (2 pax)</td></tr>\n<tr><td class='feat'>Akomodasi</td><td class='val'>3 malam hotel 3&#9733;</td><td class='val'>2 malam 3&#9733; + 1 malam Private Pool Villa</td><td class='val'>2 malam 4&#9733; + 1 malam Luxury Private Pool Villa</td></tr>\n<tr><td class='feat'>Sarapan harian</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Lunch &amp; Dinner</td><td class='val'><span class='no'>&mdash;</span> customer pilih sendiri</td><td class='val'>Romantic Dinner Bale Udang Lake View</td><td class='val'>Fullboard + Jimbaran Sunset Dinner + Bale Udang + Buffet Lunch Mt Batur</td></tr>\n<tr><td class='feat'>Floating Breakfast</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10004;</span> 1x di villa</td></tr>\n<tr><td class='feat'>Honeymoon decoration</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'>Basic room decoration</td><td class='val'>Basic room decoration</td></tr>\n<tr><td class='feat'>Private transport 12 jam + driving guide</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Tiket masuk ikut itinerari</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Tipping &amp; parking</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='tick'>&#10004;</span></td></tr>\n<tr><td class='feat'>Harga kanak-kanak (CWB/CNB)</td><td class='val'><span class='tick'>&#10004;</span></td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Single supplement</td><td class='val'>RM250/pax</td><td class='val'>RM800/pax</td><td class='val'>RM1,500/pax</td></tr>\n<tr><td class='feat'>Upgrade 4&#9733;</td><td class='val'>+RM60 atau +RM80/pax/malam</td><td class='val'>+RM120 atau +RM160/pasangan/malam</td><td class='val'>4&#9733; sudah termasuk</td></tr>\n<tr><td class='feat'>Free gift (kod)</td><td class='val'>FDPS2</td><td class='val'>FDPS2</td><td class='val'>FDPS3</td></tr>\n\n<tr><td class='feat'>Sesuai untuk</td><td class='val'>Keluarga &amp; group, budget fleksibel</td><td class='val'>Pengantin baru, satu malam villa</td><td class='val'>Pengantin baru premium, fullboard tanpa risau</td></tr>\n</tbody></table>",

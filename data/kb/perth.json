@@ -292,47 +292,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Rottnest+Island+Western+Australia"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ Apartment (Standard default)",
-    "note": "TIDAK di CBD. Kitchenette (boleh masak breakfast). 1 bilik air setiap unit — Quad/Quint kongsi 1 tandas. Tiada breakfast.",
-    "emoji": "🏢",
-    "img": "Kitchen and Living Room Singlewide.jpg",
-    "hotels": [
-     "per-h04"
-    ]
-   },
-   {
-    "tier": "3★ Hotel (Standard upgrade)",
-    "note": "Di CBD, dekat kafe (buka ~8 pagi). Tiada breakfast. Upgrade +RM 180–200/pax/malam.",
-    "emoji": "🏨",
-    "img": "AIMCO apartment interior.jpg",
-    "hotels": [
-     "per-h06",
-     "per-h07"
-    ]
-   },
-   {
-    "tier": "4★ Hotel (Premium default / Standard upgrade)",
-    "note": "Di Perth CBD, Free Bus Zone. English-style breakfast buffet halal-friendly (roti, cereal, pastri, vegetarian, buah). Standard upgrade +RM 300/pax/malam.",
-    "emoji": "🏨",
-    "img": "AIMCO apartment interior 2.jpg",
-    "hotels": [
-     "per-h01",
-     "per-h08",
-     "per-h09"
-    ]
-   },
-   {
-    "tier": "5★ Hotel (Premium upgrade)",
-    "note": "Di CBD. Breakfast halal tersedia. Upgrade +RM 350/pax/malam.",
-    "emoji": "🏙️",
-    "img": "Neat Living Room.jpg",
-    "hotels": [
-     "per-h03"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Dua varian PT Perth — Premium 6D5N dan Standard 5D4N.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>PREMIUM 6D5N · HOTEL 4★ CBD</th><th>STANDARD 5D4N · APARTMENT 3★</th></tr></thead><tbody><tr><td class='feat'>Durasi</td><td class='val'>6 Hari 5 Malam</td><td class='val'>5 Hari 4 Malam</td></tr><tr><td class='feat'>Penginapan</td><td class='val'>Hotel 4★ di Perth CBD (Mercure On Hay atau seumpama)</td><td class='val'>Apartment 3★ di luar CBD (kitchenette, 1 bilik air)</td></tr><tr><td class='feat'>Breakfast</td><td class='val'><span class='tick'>✔</span> 4× breakfast hotel (pilihan halal-friendly)</td><td class='val'><span class='no'>—</span> masak sendiri di apartment</td></tr><tr><td class='feat'>Lunch halal</td><td class='val'><span class='tick'>✔</span> 3×</td><td class='val'><span class='tick'>✔</span> 2×</td></tr><tr><td class='feat'>Dinner</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Return private airport transfer</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Driver cum guide</td><td class='val'>Sepanjang trip</td><td class='val'>Hari tour sahaja (Day 2 &amp; Day 4)</td></tr><tr><td class='feat'>Caversham Wildlife Park</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Swan Valley &amp; Margaret River Chocolate Factory</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Fremantle day tour</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>Perth City (Bell Tower, Elizabeth Quay, Hay St Mall)</td><td class='val'><span class='tick'>✔</span> Day 4</td><td class='val'><span class='tick'>✔</span> dalam Day 2</td></tr><tr><td class='feat'>Mandurah Dolphin &amp; Canal Cruise</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on <small>RM 140/dewasa</small></td></tr><tr><td class='feat'>Pinnacles Desert</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on <small>RM 3,800/transport</small></td></tr><tr><td class='feat'>Lancelin Sand Dunes</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Kings Park &amp; Aboriginal Art Gallery</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>Free &amp; Easy</td><td class='val'>Half-day (Day 2 petang)</td><td class='val'>1 hari penuh (Day 3)</td></tr><tr><td class='feat'>Durasi tour harian</td><td class='val'>4–10 jam ikut hari</td><td class='val'>2 × 8 jam</td></tr><tr><td class='feat'>Tipping &amp; parking fee</td><td class='val'><span class='tick'>✔</span> bundled</td><td class='val'><span class='tick'>✔</span> bundled</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM 2,500 / pax</td><td class='val'>+RM 1,500 / pax</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Family yang mahu pengalaman penuh, hotel CBD &amp; signature Pinnacles</td><td class='val'>Family bajet yang mahu privasi private tour dengan hari bebas</td></tr></tbody></table>",

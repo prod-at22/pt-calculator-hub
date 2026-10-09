@@ -192,33 +192,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=My+Khe+Beach+Da+Nang"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (Default)",
-    "note": "Semua malam · sarapan included · prioriti dekat city centre",
-    "emoji": "🏨",
-    "img": "@asset:a27a7742985b",
-    "hotels": [
-     "dadh-h01"
-    ]
-   },
-   {
-    "tier": "4★ (Upgrade)",
-    "note": "+RM140/pax/malam",
-    "emoji": "🏩",
-    "img": "@asset:a19b6209175b",
-    "hotels": [
-     "dadh-h02"
-    ]
-   },
-   {
-    "tier": "Nota Lokasi",
-    "name": "Kawasan Danang",
-    "note": "Jika hotel city centre penuh, lokasi mungkin di luar sedikit dari pusat bandar",
-    "emoji": "📍",
-    "img": "@asset:0776fe89de59"
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "<div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li>Harga sah <b>24 jam</b> selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant.</li><li>Meals termasuk &mdash; <b>tiada refund</b> jika customer pilih untuk tidak makan.</li><li>Aktiviti yang tiada dalam itinerari dibayar sendiri (cth Alpine Coaster Bana Hills RM50/pax).</li><li>Itinerari &amp; hotel muktamad <b>14 hari</b> sebelum trip. Deposit RM250/pax; full payment 45 hari sebelum berlepas.</li></ul></div>",

@@ -273,30 +273,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Malioboro+Street+Yogyakarta"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3 Bintang (default)",
-    "note": "City Centre, dalam 1 km / 15 minit jalan kaki ke Malioboro. 2 pax twin sharing; 3 pax triple dengan extra bed. Peak season RM 120/pax/malam.",
-    "emoji": "🏨",
-    "hotels": [
-     "jog-h01"
-    ]
-   },
-   {
-    "tier": "4 Bintang (upgrade)",
-    "note": "Upgrade RM 100/pax/malam (Ahad–Khamis), RM 120/pax/malam (Jumaat–Sabtu). 3 pax triple dengan proper bed. Peak season RM 180/pax/malam.",
-    "emoji": "🏨",
-    "hotels": [
-     "jog-h02"
-    ]
-   },
-   {
-    "tier": "Single Occupancy",
-    "name": "Single Supplement (mana-mana tier)",
-    "note": "RM 550/pax untuk bilik single, seluruh trip.",
-    "emoji": "🛏"
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "map": "<h2>Travel Map</h2><div class='mapcard'><div class='maptitle'>PT Jogjakarta 4H3M &mdash; Peta Laluan</div><img src='@asset:7f15bde9ecc4' alt='Travel Map PT Jogjakarta 4H3M'><div class='mapcap'><b>Laluan:</b> YIA &rarr; Gumuk Pasir &amp; Obelix Sea View &rarr; City Centre / Malioboro (D1) &rarr; Hutan Pinus Mangunan &rarr; Timang Beach &rarr; HeHa Sky View (D2) &rarr; Kraton &amp; Taman Sari &rarr; Plaosan Temple atau Borobudur &rarr; Malioboro (D3) &rarr; Merapi Lava Tour &rarr; YIA (D4). Anggaran masa antara kawasan 1 jam hingga 2 jam.</div></div>",

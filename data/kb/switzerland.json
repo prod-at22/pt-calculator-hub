@@ -235,39 +235,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Iseltwald+Switzerland"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3/4★ — Zurich (2 malam)",
-    "note": "Dekat city centre / airport. Pilihan lain: The Flag Zurich, Mövenpick Airport, Dorint Airport, Ibis Styles Zurich Center.",
-    "emoji": "🏨",
-    "img": "@asset:8bc7b1857aae",
-    "hotels": [
-     "sws-h01"
-    ]
-   },
-   {
-    "tier": "3/4★ — Bern (2+1 malam)",
-    "note": "Base untuk day-trip Interlaken/Lucerne & Jungfrau region.",
-    "emoji": "🏨",
-    "hotels": [
-     "sws-h02"
-    ]
-   },
-   {
-    "tier": "3/4★ — Täsch (1 malam)",
-    "note": "Dekat stesen train ke Zermatt — jimat masa & lebih banyak masa di Zermatt.",
-    "emoji": "🏔️",
-    "hotels": [
-     "sws-h03"
-    ]
-   },
-   {
-    "tier": "Single Supplement",
-    "name": "Bilik seorang (solo occupancy)",
-    "note": "+RM 2,800/pax — quoted upon request.",
-    "emoji": "🛏️"
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "<div class='custblk'><table class='ctbl'><thead><tr><th>Aspek</th><th>ARBA Standard</th><th>Pesaing Standard</th></tr></thead><tbody><tr><td class='it'>Hotel</td><td class='add'>3/4★ · city centre</td><td class='ded'>2/3★</td></tr><tr><td class='it'>Overnight Täsch</td><td class='add'>Included — lebih dekat Zermatt</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Entry Lake Blausee</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Rhine Falls Boat Tour</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr><tr><td class='it'>Driver cum Guide</td><td class='add'>Malaysian (BM/English)</td><td class='ded'>Local driver</td></tr><tr><td class='it'>Train Täsch–Zermatt</td><td class='add'>FREE</td><td class='ded'>Bayar</td></tr><tr><td class='it'>Tipping</td><td class='add'>Included</td><td class='ded'>Tidak</td></tr></tbody></table></div>",

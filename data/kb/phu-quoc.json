@@ -294,33 +294,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Phu+Quoc+Night+Market+Duong+Dong"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (default)",
-    "note": "Termasuk dalam pakej · sarapan setiap hari · keutamaan berdekatan city centre / Sunset Town (Selatan). Susunan hotel muktamad 14 hari sebelum trip.",
-    "emoji": "🏨",
-    "img": "@asset:f69a88249afc",
-    "hotels": [
-     "pqc-h01"
-    ]
-   },
-   {
-    "tier": "4★ (upgrade)",
-    "note": "Tambah RM140/pax/malam (4D3N +RM420 · 5D4N +RM560). Laundry service hotel ada (tiada self-service).",
-    "emoji": "🏩",
-    "img": "@asset:a358a8e956cb",
-    "hotels": [
-     "pqc-h02"
-    ]
-   },
-   {
-    "tier": "Special (Utara)",
-    "name": "Kawasan Grand World Hotel",
-    "note": "Pilihan lokasi Utara Phu Quoc (berdekatan Grand World) · +RM50/pax atas permintaan. Katalog hanya ada tier 3★ dan 4★.",
-    "emoji": "🏙️",
-    "img": "@asset:e92bd4bb40c3"
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "<div class='custblk'><h3>Yang perlu TC ingat</h3><ul class='klist'><li><b>Minimum 2 pax</b> &mdash; jadual katalog bermula pada tier 2&#8211;3 pax.</li><li><b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun, termasuk cuti sekolah &amp; musim raya.</li><li>Harga termasuk semua entrance fee (Hon Thom Cable Car, Vinpearl Safari, Grand World, VinWonders, Teddy Bear Museum) + tipping + fullboard.</li><li>Umur dikira ikut <b>tarikh perjalanan</b>. Harga sah 24 jam selepas quotation dihantar.</li><li><b>Single supplement:</b> katalog nyatakan <i>quoted upon request</i> &mdash; minta quote dari consultant, jangan guna angka destinasi lain.</li></ul></div>",

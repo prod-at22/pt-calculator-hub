@@ -72,17 +72,14 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
-## HANDOFF (9 Oct 2026) — branch `kb-tidy` waiting for "ok push"
-- main = v40 live (KB House from the hub, verified). Branch **kb-tidy** (v41) = Info KB tidy, NOT merged/pushed to main:
-  FAQ / Important Notes without hub duplicates; KB Surcharge / catalog add-ons / Polisi generated from the hub
-  (kb-build/build.py surcharge_html, addons_html, policy_html); verify.py checks them. Built + verify 28/28 + smoke 28/28 + tests ALL PASSED.
-- To publish: rebuild pt-kb-house locally from the branch, run verify.py + smoke.js, `git checkout main && git merge --no-ff kb-tidy`
-  (bump the history v if main moved), push, dispatch pt-kb-house + catalog-pt-public mirror.yml, confirm CI "28/28 KB OK"
-  twice and catalog-pt-public only `.hub-sha`.
-- Still open for the PO: Phuket KB text "Upgrade hotel 4★ +RM300/pax" + Free Gift "upgrade to 4 Star" (keep or remove?);
-  split multi-city catalog hotel rows (KK 3★, Medan 4★, Korea Seoul Std / Seoul–Jeju) so those KB hotel cards can link
-  (changes catalog surcharge tables); FAQ cancellation / refund questions (keep?); admin token (Contents RW hub + Actions RW
-  catalog-pt-public + pt-kb-house) and First-time setup.
+## HANDOFF (9 Oct 2026) — v41 live; branch `kb-hotels` (v42) waiting for "ok push"
+- v41 (Info KB tidy) merged + published 9 Oct: CI 28/28 KB OK twice, catalog-pt-public only `.hub-sha`, live KB = local build, 67 catalogs unchanged.
+- PO answers 9 Oct: KB hotel cards not needed — KB Accommodation = the hub's Accommodation list per package (photos only in pt-kb-house);
+  Phuket Free Gift = promo only (kept; +RM300 4★ upgrade is printed in the catalog); multi-city catalog hotel rows stay as they are;
+  FAQ cancellation / refund questions removed; Simple Calculator tab = the config as readable, editable tables + .md download (no embedded KB).
+- Branch **kb-hotels** (v42) does all of that. pt-kb-house needs its own commit first: `<slug>/hotel-images.json` (16 KB, card photos
+  moved by hotel id) + aceh / korea `renderHotels()` reads `KBD.ACC_HTML` (backward compatible). Then merge kb-hotels, push, dispatch mirrors.
+- Still open: admin token (Contents RW hub + Actions RW catalog-pt-public + pt-kb-house) and First-time setup.
 
 ## KB House from the hub (9 Oct 2026, v32) — Phase 2 in progress
 - PO decision (9 Oct): the hub is the source of truth for PT KB House; KB pages mirror the hub; cosmetics (images,

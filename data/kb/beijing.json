@@ -275,24 +275,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=The+Place+Beijing+LED"
    }
   ],
-  "hotels": [
-   {
-    "tier": "4★ (default)",
-    "note": "4 malam di bandar Beijing, sarapan termasuk, 2–3 orang sebilik. Dah termasuk dalam harga pakej.",
-    "emoji": "🏨",
-    "img": "@asset:11b3afb03b90",
-    "hotels": [
-     "pek-h01"
-    ]
-   },
-   {
-    "tier": "4★ Superior (upgrade)",
-    "name": "Hotel premium (nama disahkan operator)",
-    "note": "Upgrade +RM240/pax. Sahkan nama hotel & kelayakan dengan operator sebelum offer ke customer.",
-    "emoji": "⭐",
-    "img": ""
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",

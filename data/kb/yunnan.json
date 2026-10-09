@@ -301,40 +301,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Kunming+Waterfall+Park"
    }
   ],
-  "hotels": [
-   {
-    "tier": "4★ · Kunming",
-    "note": "2@3 sebilik. Kunming ada aircond & standard bandar besar.",
-    "emoji": "🏨",
-    "hotels": [
-     "kmgdls-h01"
-    ]
-   },
-   {
-    "tier": "4★ · Dali",
-    "note": "1 malam. Berdekatan kawasan tarikan Dali.",
-    "emoji": "🏨",
-    "hotels": [
-     "kmgdls-h02"
-    ]
-   },
-   {
-    "tier": "4★ · Lijiang",
-    "note": "2 malam. Base untuk tour JDSM & Ancient Town.",
-    "emoji": "🏨",
-    "hotels": [
-     "kmgdls-h03"
-    ]
-   },
-   {
-    "tier": "4★ · Shangri La (4W sahaja)",
-    "note": "1 malam. Altitud tinggi — bilik mungkin sederhana; bawa pakaian panas.",
-    "emoji": "🏨",
-    "hotels": [
-     "kmgdls-h04"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",

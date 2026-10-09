@@ -237,35 +237,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Safari+World+Bangkok"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (default)",
-    "note": "Standard room, 3 malam. Almas di kawasan Phra Ram 9. Base rate — tiada surcharge.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "bkk-h01"
-    ]
-   },
-   {
-    "tier": "4★ (upgrade)",
-    "note": "+RM50/pax/malam (RM150/pax untuk 3 malam). Kawasan Banglamphu / Khao San.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "bkk-h02"
-    ]
-   },
-   {
-    "tier": "5★ (upgrade)",
-    "note": "+RM60/pax/malam (RM180/pax untuk 3 malam). Hotel HALAL-CERTIFIED, kawasan Ramkhamhaeng.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "bkk-h03"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",

@@ -411,7 +411,7 @@ function renderMain(d, pkg) {
   else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
   else if (T === "accommodation") $("#grid").innerHTML = accommodationCard(d);
   else if (T === "kbinfo") { $("#grid").innerHTML = kbInfoTab(d); kbFilter(); }
-  else if (T === "kbcalc") { $("#grid").innerHTML = kbCalcTab(d); kbFrameReady(); }
+  else if (T === "kbcalc") $("#grid").innerHTML = kbCalcTab(d);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d, pkg) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -787,8 +787,8 @@ function contractCard(d) {
 /* ============================================================ Accommodation
    One hotel list per destination (data.json destinations[].hotels). Each hotel is ticked per catalog as
    {"acc": position} (the catalog's Accommodation section) and/or {"sur": position, "amounts": [...]} (a row of the
-   catalog's Surcharge table, one amount per surcharge column). catalog-build/hub_data.py hotels() prints the same.
-   The KB's hotel cards (data/kb/<slug>.json) are edited on the same tab. */
+   catalog's Surcharge table, one amount per surcharge column). catalog-build/hub_data.py hotels() prints the same;
+   the KB's Accommodation tab shows the same list per package (kb-build/build.py stay_html; images stay in pt-kb-house). */
 const HOTEL_ACC = ["city", "name", "stars", "similar"], HOTEL_SUR = ["type", "name", "similar"];
 function catHotels(c, sl, code, data = DATA) {
   const d = data.destinations.find(x => x.code === code), acc0 = c.accommodation, rows0 = (c.surcharge || {}).rows;
@@ -800,30 +800,6 @@ function catHotels(c, sl, code, data = DATA) {
   return { acc: acc.length ? acc : acc0, rows: rows.length ? rows : rows0 };
 }
 function destSlugs(d) { return CAT.index ? Object.keys(CAT.index).filter(sl => CAT.index[sl].code === d.code) : null; }
-// KB hotel cards link hotels by id; the card name is made from the hotels (same rule as kb-build/build.py hotel_cards)
-function kbHotelName(card, H) {
-  if (!card.hotels) return card.name || "";
-  const hs = card.hotels.map(id => H[id]).filter(Boolean);
-  let names = [...new Set(hs.map(h => h.name).filter(Boolean))].join(" / ");
-  const extra = card.extra || "";
-  if (hs.some(h => h.similar) && !/setara|similar/i.test(names + extra)) names += " (atau setaraf)";
-  return [names, extra].filter(Boolean).join(" / ");
-}
-function kbHotelCards(sl, p, list, codes, E) {
-  const all = DATA.destinations.filter(d => codes.includes(d.code)).flatMap(d => (d.hotels || []).map(h => ({ ...h, code: d.code })));
-  const H = Object.fromEntries(all.map(h => [h.id, h]));
-  if (!E) return list.length ? `<div class="cd-acc">${list.map(h => `<div><span class="muted">${esc(kbTxt(h.tier || ""))}</span><br><b>${esc(kbTxt(kbHotelName(h, H)))}</b>${h.note ? `<div class="small">${esc(kbTxt(h.note))}</div>` : ""}${h.hotels ? "" : ' <span class="pill grey" title="Teks sendiri, tidak dipaut ke senarai hotel">teks</span>'}</div>`).join("")}</div>` : '<div class="empty">Tiada kad hotel dalam KB.</div>';
-  const kp = path => esc(JSON.stringify([sl, ...p, ...path]));
-  const inp = (path, v, ph) => `<input class="ed txt kbed" data-kpath="${kp(path)}" value="${esc(v ?? "")}" placeholder="${esc(ph)}">`;
-  return list.map((c, i) => `<fieldset class="kb-fs"><legend>#${i + 1} ${esc(kbTxt(c.tier || ""))} <button class="btn danger" data-kact="del" data-kpath="${kp([i])}">Buang kad</button></legend>
-      <label class="kb-f">Kategori${inp([i, "tier"], c.tier, "cth. 4★ — Banda Aceh")}</label>
-      ${c.hotels ? `<label class="kb-f wide">Teks tambahan (selepas nama hotel)${inp([i, "extra"], c.extra, "cth. homestay")}</label>
-        <div class="kb-f wide">Hotel dalam kad (dari senarai Accommodation di atas):<div class="h-pick">${all.map(h => `<label class="ck"><input type="checkbox" class="khotel" data-khotel="${esc(JSON.stringify({ sl, path: [...p, i, "hotels"], id: h.id }))}"${c.hotels.includes(h.id) ? " checked" : ""}> ${esc(h.name || h.id)}${codes.length > 1 ? ` <span class="muted small">${esc(h.code)}</span>` : ""}</label>`).join("")}</div>
-        <div class="small">Nama dalam KB: <b>${esc(kbTxt(kbHotelName(c, H)))}</b></div></div>`
-      : `<label class="kb-f wide">Nama (teks sendiri)${inp([i, "name"], c.name, "")}</label>`}
-      <label class="kb-f wide">Nota TC<textarea class="ed kbed" data-kpath="${kp([i, "note"])}" rows="2">${esc(c.note || "")}</textarea></label></fieldset>`).join("")
-    + `<button class="btn" data-kact="add" data-kpath="${esc(JSON.stringify([sl, ...p]))}">+ Tambah kad</button>`;
-}
 function accommodationCard(d) {
   const slugs = destSlugs(d);
   if (!slugs) { if (!CAT.err) loadCatalog("index.json", x => { CAT.index = x; }); return `<div class="card full"><div class="empty">${CAT.err ? esc(CAT.err) : "Loading…"}</div></div>`; }
@@ -839,30 +815,21 @@ function accommodationCard(d) {
       : `<span title="${esc((cols(sl)[i] || {}).label || "")}">${esc((t.amounts || [])[i] ?? "—")}</span>`).join("")}</div>` : "";
     return `<td class="l"><label class="ck">${tick(h, sl, "acc")} Acc</label> <label class="ck">${tick(h, sl, "sur")} Surcharge</label>${am}</td>`;
   };
-  const kx = kbDoc(d.code), kv = kx && kbView(kx.kb), kcards = kv && kv.hotels ? getPath(kx.kb, kv.hotels) || [] : [];
-  const inKb = h => kcards.filter(c => (c.hotels || []).includes(h.id)).map(c => kbTxt(c.tier || "")).join(" · ");
   const row = h => `<tr><td class="l">${fld(h, "city", "bandar")}</td><td class="l">${fld(h, "type", "jenis (cth. 4 Star Hotel)")}</td><td class="l" style="min-width:220px">${fld(h, "name", "nama hotel")}</td>
       <td class="c">${E ? `<input class="ed" type="number" min="0" max="5" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, "stars"]))}" data-kind="num" value="${esc(h.stars ?? "")}">` : h.stars ? "★".repeat(h.stars) : ""}</td>
       <td class="c">${E ? `<input type="checkbox" class="hsim" data-hsim="${esc(JSON.stringify({ code: d.code, id: h.id }))}"${h.similar ? " checked" : ""}>` : h.similar ? "✓" : ""}</td>
-      ${slugs.map(sl => cell(h, sl)).join("")}<td class="l small">${esc(inKb(h)) || '<span class="muted">—</span>'}</td>${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
+      ${slugs.map(sl => cell(h, sl)).join("")}${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
   const head = slugs.map(sl => `<th class="l">${esc(sl)}${cols(sl).length ? `<div class="muted small">surcharge: ${cols(sl).map(c => esc(c.label)).join(" · ")}</div>` : ""}</th>`).join("");
   const hotelsCard = `<div class="card full" id="hotels"><h2>Accommodation <span class="sub">${H.length} hotel · satu senarai untuk katalog customer &amp; KB · Acc = bahagian Accommodation katalog · Surcharge = baris jadual surcharge hotel${E ? "" : " (Edit costs untuk ubah)"}</span></h2>
     ${E ? `<div class="body"><button class="btn" data-act="addHotel">+ Tambah hotel</button></div>` : ""}
-    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}<th class="l">Kad KB</th>${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
-    <div class="note">Katalog customer mencetak hotel yang ditanda, ikut susunan tanda. Lajur "Hotel" dalam itinerary harian kekal di tab Itinerary; tarikh &amp; kadar musim peak kekal di tab Surcharge.</div></div>`;
-  // the KB's hotel cards (PT KB House), same tab
-  const x = kbDoc(d.code); let kbCard = "";
-  if (x) {
-    const V = kbView(x.kb), p = V.hotels, list = p ? getPath(x.kb, p) || [] : [];
-    kbCard = `<div class="card full kb" id="kb-hotels"><h2>Kad hotel KB · ${esc(x.ix.name)} <span class="sub">${list.length} kad · tab Accommodation dalam KB${E ? "" : " (Edit costs untuk ubah)"}</span></h2><div class="body">
-      ${p ? kbHotelCards(x.sl, p, list, x.ix.codes || [], E) : ""}</div></div>`;
-  }
-  return hotelsCard + kbCard;
+    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
+    <div class="note">Katalog customer dan tab Accommodation KB mencetak hotel yang ditanda, ikut susunan tanda (gambar hotel KB kekal di PT KB House). Lajur "Hotel" dalam itinerary harian kekal di tab Itinerary; tarikh &amp; kadar musim peak kekal di tab Surcharge.</div></div>`;
+  return hotelsCard;
 }
 /* ============================================================ KB House (Info KB · Simple Calculator)
    Every PT KB House page (prod-at22.github.io/pt-kb-house/<slug>/) is built from data/kb/<slug>.json by
    kb-build/build.py (pt-kb-house's mirror.yml): `content` = what the KB shows (packages, attractions with
-   Muslim-friendly info, hotels, tab blocks, FAQ), `calc` = the Simple Calculator config. index.json links a
+   Muslim-friendly info, tab blocks, FAQ; hotels = the Accommodation tab), `calc` = the Simple Calculator config. index.json links a
    KB to the destination codes it covers. Images stay in pt-kb-house ("@asset:<key>" here). Edited in Edit
    costs like the catalogs; Save writes the file in the same commit and starts pt-kb-house's mirror. */
 const KB = { index: null, docs: {}, edit: {}, err: null, q: "" };
@@ -887,12 +854,12 @@ function kbView(kb) {
     const blocks = {};
     for (const k of Object.keys(c)) if (/_HTML$/.test(k) && typeof c[k] === "string") blocks[k.replace(/_HTML$/, "").toLowerCase()] = ["content", k];
     return { meta: null, packages: c.PKG ? ["content", "PKG"] : null, itin: c.ITIN ? ["content", "ITIN"] : null, attractions: c.ATTR ? ["content", "ATTR"] : null,
-      hotels: c.HOTELS ? ["content", "HOTELS"] : null, acts: c.ITINSUGG_ACTS ? ["content", "ITINSUGG_ACTS"] : c.ACTS ? ["content", "ACTS"] : null,
+      acts: c.ITINSUGG_ACTS ? ["content", "ITINSUGG_ACTS"] : c.ACTS ? ["content", "ACTS"] : null,
       blocks, faq: ["snapshot"], marketing: null, extra: ["SNOTE", "SEASON_TXT", "PRICES"].filter(k => k in c).map(k => ["content", k]) };
   }
   const blocks = {};
   for (const k of Object.keys(c.blocks || {})) blocks[k] = ["content", "blocks", k];
-  return { meta: ["content", "meta"], packages: ["content", "packages"], itin: ["content", "itineraries"], attractions: ["content", "attractions"], hotels: ["content", "hotels"],
+  return { meta: ["content", "meta"], packages: ["content", "packages"], itin: ["content", "itineraries"], attractions: ["content", "attractions"],
     acts: (c.actGroups || []).length ? ["content", "actGroups"] : null, blocks, faq: ["content", "snapshot"], marketing: c.meta && c.meta.marketing ? ["content", "meta", "marketing"] : null, extra: [] };
 }
 const KBL = { n: "Nama", t: "Jenis / tajuk", tag: "Tag", sub: "Ringkasan", short: "Ringkas", intro: "Pengenalan", hi: "Highlights", best: "Masa terbaik", muslim: "Muslim-friendly",
@@ -904,7 +871,7 @@ const KB_BLOCK = { compare: "Perbezaan Pakej", pricing: "Harga & Pakej", custom:
   freegift: "Free Gift (Promo)", polisi: "Polisi & Payment", trippix: "Trip Pix", triplepas: "Triple Pass", cmp: "Perbandingan", itinsugg: "Itinerary Suggestions", wheelchair: "Wheelchair & Baby" };
 const KB_SKIP_BLOCK = new Set(["calc", "map"]);
 // blocks whose tables the KB build makes from other hub tabs: Info KB shows / edits only the KB's own notes
-const KB_FROM_HUB = { pricing: "jadual harga dari tab Costing", surcharge: "jadual surcaj dari tab Surcharge & Accommodation", custom: "add-on katalog dari tab Add On", polisi: "polisi dari tab Policy", stay: "kad hotel dari tab Accommodation" };   // the calculator shell and the travel map are part of the page (cosmetic)
+const KB_FROM_HUB = { pricing: "jadual harga dari tab Costing", surcharge: "jadual surcaj dari tab Surcharge & Accommodation", custom: "add-on katalog dari tab Add On", polisi: "polisi dari tab Policy", stay: "senarai hotel setiap pakej dari tab Accommodation" };   // the calculator shell and the travel map are part of the page (cosmetic)
 const isAsset = v => typeof v === "string" && (/^@asset:/.test(v) || /^data:/.test(v));
 const kbTxt = v => typeof v === "string" ? v.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&[a-z]+;/g, "") : "";
 const kbHtml = h => String(h || "").replace(/<img\b[^>]*src=["']?(?:@asset:|data:)[^>]*>/gi, "").replace(/<script\b[\s\S]*?<\/script>/gi, "");
@@ -1011,35 +978,102 @@ function kbInfoTab(d) {
     + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + ownCard + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
     + card("mkt", "Marketing", "", mk);
 }
-// Simple Calculator: the KB's own calculator (same page TCs use), plus the price tiers it quotes from.
+// Simple Calculator: the KB calculator's config (data/kb/<slug>.json `calc` = <slug>/calc-config.json) shown as plain
+// tables in Bahasa Melayu, edited in place in Edit costs; "Muat turun .md" gives the same as a Markdown file.
+const CALC_L = {
+  t: "Pilihan", v: "Kod", cost: "Kos", incl: "Teks dalam quotation (termasuk)", hotel: "Hotel", line: "Baris quotation", nightRate: "Kadar malam",
+  perPax: "RM / pax", perPaxRate: "Kadar per pax", perVehicle: "RM / kenderaan", perVehicleRate: "Kadar per kenderaan", perVehicleQty: "Bil. kenderaan",
+  dropsNight: "Tolak malam pakej", zeroOk: "RM0 dibenarkan", lbl: "Label", b: "Breakfast", l: "Lunch", d: "Dinner", bfLock: "Breakfast tetap", guided: "Dengan guide",
+  label: "Surcaj", dateIn: "Tarikh (dari, hingga)", variants: "Pakej", percentOfTier: "% harga tier", preLadder: "Sebelum ladder",
+  from: "Dari pax", to: "Hingga pax", text: "Nota", g: "Kumpulan", en: "Tajuk (EN)", acc: "Hotel", meal: "Meal", trp: "Transport", region: "Kawasan", act: "Aktiviti", eact: "Aktiviti (EN)", mustPick: "Wajib pilih",
+};
+const calcDe = x => { const t = document.createElement("textarea"); t.innerHTML = String(x ?? "").replace(/<[^>]+>/g, " "); return t.value.replace(/\s+/g, " ").trim(); };
+const CALC_COST = { incl: "Termasuk pakej", zero: "RM0", none: "—" };
+const calcTxt = v => typeof v === "boolean" ? (v ? "Ya" : "—") : Array.isArray(v) ? v.map(x => Array.isArray(x) ? x.join(" – ") : calcDe(x)).join(" · ") : calcDe(v);
+function calcIn(sl, path, v, E, opt = {}) {
+  if (!E || opt.ro) return opt.num && typeof v === "number" ? n2(v) : esc(calcTxt(v));
+  const kp = esc(JSON.stringify([sl, "calc", ...path]));
+  if (typeof v === "boolean") return `<select class="ed kbed" data-kpath="${kp}" data-kkind="bool"><option value="1"${v ? " selected" : ""}>Ya</option><option value="0"${v ? "" : " selected"}>Tidak</option></select>`;
+  if (typeof v === "number" || opt.num) return `<input class="ed kbed" type="number" step="any" style="width:90px" data-kpath="${kp}" data-kkind="num" value="${esc(String(v ?? ""))}">`;
+  if (Array.isArray(v) && v.every(x => typeof x === "string")) return `<textarea class="ed kbed" rows="${Math.max(2, v.length)}" data-kpath="${kp}" data-kkind="lines">${esc(v.join("\n"))}</textarea>`;
+  if (Array.isArray(v)) return `<input class="ed txt kbed" data-kpath="${kp}" data-kkind="jsonv" value="${esc(JSON.stringify(v))}">`;
+  const long = String(v ?? "").length > 70 || /[\n<]/.test(String(v ?? ""));
+  return long ? `<textarea class="ed kbed" rows="${Math.min(10, Math.max(2, Math.ceil(String(v).length / 90)))}" data-kpath="${kp}">${esc(v ?? "")}</textarea>` : `<input class="ed txt kbed" data-kpath="${kp}" value="${esc(v ?? "")}">`;
+}
+// One table per list: rows = items, columns = fields (object keys or tuple positions).
+function calcTable(sl, path, arr, cols, E, opt = {}) {
+  arr = arr || [];
+  if (!arr.length && !E) return '<div class="muted small">— tiada —</div>';
+  const kp = esc(JSON.stringify([sl, "calc", ...path]));
+  const head = `<tr>${cols.map(c => `<th class="l">${esc(c.l)}</th>`).join("")}${E && !opt.ro ? "<th></th>" : ""}</tr>`;
+  const rows = arr.map((x, i) => `<tr>${cols.map(c => `<td class="l">${c.f ? c.f(x, i) : (x == null || x[c.k] === undefined) && !E ? "" : calcIn(sl, [...path, i, c.k], x[c.k], E, { num: c.num, ro: opt.ro })}</td>`).join("")}
+    ${E && !opt.ro ? `<td><button class="btn danger" data-kact="del" data-kpath="${esc(JSON.stringify([sl, "calc", ...path, i]))}">Buang</button></td>` : ""}</tr>`).join("");
+  return `<div class="scroll"><table class="zebra calc-t"><thead>${head}</thead><tbody>${rows}</tbody></table></div>${E && !opt.ro ? `<button class="btn" data-kact="add" data-kpath="${kp}">+ Tambah baris</button>` : ""}`;
+}
+const calcCols = (arr, order) => { const ks = [...new Set((arr || []).flatMap(x => x && typeof x === "object" && !Array.isArray(x) ? Object.keys(x) : []))]; return [...order.filter(k => ks.includes(k)), ...ks.filter(k => !order.includes(k))]; };
+function kbCalcForm(sl, cal, links, E) {
+  const V = cal.variants || [], vName = id => { const v = V.find(x => x.id === id); return v ? kbTxt(v.name) : id; };
+  const sec = (id, title, sub, body) => `<div class="card full kb" id="calc-${id}"><h2>${title} <span class="sub">${sub}</span></h2><div class="body">${body}</div></div>`;
+  const f = (lbl, path, num) => { const v = path.reduce((o, k) => o == null ? undefined : o[k], cal); return v === undefined ? "" : `<label class="kb-f"><span class="muted">${esc(lbl)}</span>${E ? "" : " "}<b>${calcIn(sl, path, v, E, { num })}</b></label>`; };
+  const basics = [f("Deposit (RM / pax)", ["deposit"], 1), f("Adult default", ["defaultAdult"], 1), f("Late booking: kurang dari (hari)", ["lateBooking", "lt"], 1), f("Late booking: caj (RM / booking)", ["lateBooking", "amount"], 1),
+    f("Tambah meal (RM / pax / hidangan)", ["mealDelta", "add"], 1), f("Tolak meal (RM / pax / hidangan)", ["mealDelta", "drop"], 1), f("Lunch dalam pakej (bil.)", ["meals", "lunch"], 1), f("Dinner dalam pakej (bil.)", ["meals", "dinner"], 1),
+    f("Malam tambahan — biasa (RM)", ["ext", "night", "normal"], 1), f("Malam tambahan — peak (RM)", ["ext", "night", "peak"], 1), f("Margin hari tambahan (RM / pax)", ["ext", "marginPerPax"], 1), f("Pax sekenderaan", ["ext", "paxPerVehicle"], 1),
+    f("Last minute: kurang dari (hari)", ["lastMinute", "lt"], 1), f("Last minute: kadar 2", ["lastMinute", "rate2"], 1), f("Last minute: kadar 3", ["lastMinute", "rate3"], 1)].join("");
+  const texts = [["Pengenalan kalkulator", ["intro"]], ["Nota bilik single", ["singleNote"]], ["Nota infant", ["infantNote"]], ["Label CWB", ["childLabels", "cwb"]], ["Label CNB", ["childLabels", "cnb"]], ["Validity (dalam quotation)", ["validity"]]]
+    .filter(([, p]) => p.reduce((o, k) => o == null ? undefined : o[k], cal) !== undefined).map(([l, p]) => `<label class="kb-f wide"><span class="muted">${esc(l)}</span><span>${calcIn(sl, p, p.reduce((o, k) => o[k], cal), E)}</span></label>`).join("");
+  const pkgs = V.map((v, i) => {
+    const ln = links[v.id], ro = !!ln;
+    return `<div class="calc-pkg"><h3>${esc(kbTxt(v.name))} <span class="muted small">${v.days ?? "?"}H${v.nights ?? "?"}M · ${esc(kbTxt(v.hotelLabel || ""))}${v.single != null ? ` · single +RM${n2(v.single)}` : ""}${v.infant != null ? ` · infant RM${n2(v.infant)}` : ""}</span></h3>
+      ${ro ? `<div class="small muted">Harga dari tab <a href="#costing" data-tabmain="costing">Costing</a> (Catalog Price) — ditulis semula setiap build; ubah di Costing.</div>` : `<div class="small muted">KB sahaja (tiada pakej Costing) — harga diedit di sini.</div>`}
+      ${calcTable(sl, ["variants", i, "tiers"], v.tiers, [{ k: "from", l: "Dari pax", num: 1 }, { k: "to", l: "Hingga pax", num: 1 }, { k: "a", l: "Adult (RM/pax)", num: 1 }, { k: "c", l: "CWB (RM/pax)", num: 1 }, { k: "n", l: "CNB (RM/pax)", num: 1 }], E, { ro })}
+      ${E && !ro ? `<div class="calc-row">${f("Single supplement (RM)", ["variants", i, "single"], 1)}${f("Infant (RM)", ["variants", i, "infant"], 1)}</div>` : ""}</div>`;
+  }).join("");
+  const pk = cal.peak;
+  const peak = pk ? `${E ? `<div class="calc-row">${f("Cara kira (flat / …)", ["peak", "mode"])}${f("Nilai asas (RM)", ["peak", "value"], 1)}</div>` : `<div class="small muted">Cara kira: ${esc(pk.mode || "")}${pk.value != null ? ` · nilai asas RM${n2(pk.value)}` : ""}</div>`}
+    ${calcTable(sl, ["peak", "windows"], pk.windows, [{ k: 0, l: "Dari tarikh" }, { k: 1, l: "Hingga tarikh" }, { k: 2, l: "Pakej (kod)", f: E ? null : x => esc(vName(x[2])) }, { k: 3, l: "RM / pax", num: 1 }, { k: 4, l: "Label" }], E)}` : "";
+  const addons = calcTable(sl, ["addons"], cal.addons, [{ k: 0, l: "Add-on" }, { k: 1, l: "Adult (RM)", num: 1 }, { k: 2, l: "Child (RM)", num: 1 }, { k: 3, l: "Unit (pax / unit)" }, { k: 4, l: "Teks quotation" }], E);
+  const opt = (key, title, order) => cal[key] ? `<h3>${title}</h3>` + calcTable(sl, [key], cal[key], calcCols(cal[key], order).map(k => ({ k, l: CALC_L[k] || k, f: k === "cost" && !E ? x => esc(CALC_COST[x.cost] || calcTxt(x.cost)) : null, num: ["perPax", "perVehicle", "perVehicleQty", "b", "l", "d", "percentOfTier", "from", "to"].includes(k) })), E) : "";
+  const options = opt("accOptions", "Hotel (pilihan harian)", ["t", "cost", "perPax", "hotel", "incl"]) + opt("mealOptions", "Meal (pilihan harian)", ["t", "b", "l", "d", "perPax", "lbl"]) + opt("trpOptions", "Transport (pilihan harian)", ["t", "cost", "perPax", "perVehicle", "lbl", "incl"]);
+  const extra = opt("extraSurcharge", "Surcaj tambahan", ["label", "dateIn", "perPax", "percentOfTier", "variants"]) + opt("paxNotes", "Nota ikut bilangan pax", ["from", "to", "text"]);
+  const lib = cal.library ? calcTable(sl, ["library"], cal.library, calcCols(cal.library, ["g", "t", "region", "acc", "meal", "trp", "act"]).filter(k => k !== "eact" && k !== "en").map(k => ({ k, l: CALC_L[k] || k })), E) : "";
+  return sec("asas", "Asas", "deposit, late booking, meal, malam tambahan", `<div class="calc-row">${basics}</div>${texts}`)
+    + sec("tiers", "Pakej &amp; harga tier", `${V.length} pakej · harga per pax ikut bilangan pax`, pkgs)
+    + (pk ? sec("peak", "Peak season", `${(pk.windows || []).length} tempoh`, peak) : "")
+    + sec("addons", "Add-on", `${(cal.addons || []).length} item · harga jual`, addons)
+    + sec("options", "Pilihan harian (Ubah itinerary)", "hotel · meal · transport", options)
+    + (extra ? sec("extra", "Surcaj lain &amp; nota pax", "", extra) : "")
+    + (lib ? sec("library", "Pustaka hari", `${cal.library.length} blok hari yang boleh dipilih`, lib) : "");
+}
+// The same config as a Markdown file (readable outside the hub).
+function calcMd(name, cal, links) {
+  const V = cal.variants || [], t = x => calcTxt(x).replace(/\|/g, "/"), row = a => "| " + a.map(t).join(" | ") + " |\n";
+  const tbl = (head, rows) => rows.length ? row(head) + "|" + head.map(() => "---").join("|") + "|\n" + rows.map(row).join("") + "\n" : "_tiada_\n\n";
+  let md = `# Simple Calculator — ${name}\n\nDari PT R&D Costing Hub (data/kb, \`calc\`). Harga pakej yang dipaut ke Costing ikut Catalog Price.\n\n## Asas\n\n`;
+  md += tbl(["Perkara", "Nilai"], [["Deposit (RM/pax)", cal.deposit], ["Late booking", cal.lateBooking ? `kurang ${cal.lateBooking.lt} hari: RM${cal.lateBooking.amount}/booking` : "—"],
+    ["Tambah / tolak meal", cal.mealDelta ? `+RM${cal.mealDelta.add} / -RM${cal.mealDelta.drop} per pax per hidangan` : "—"],
+    ["Malam tambahan (biasa / peak)", cal.ext && cal.ext.night ? `RM${cal.ext.night.normal} / RM${cal.ext.night.peak}` : "—"]].filter(r => r[1] !== undefined));
+  for (const k of ["intro", "singleNote", "infantNote", "validity"]) if (cal[k]) md += `**${{ intro: "Pengenalan", singleNote: "Bilik single", infantNote: "Infant", validity: "Validity" }[k]}:** ${t(cal[k])}\n\n`;
+  md += "## Pakej & harga tier\n\n";
+  for (const v of V) md += `### ${t(v.name)} (${v.days}H${v.nights}M)${links[v.id] ? " — harga dari Costing" : " — KB sahaja"}\n\n` + tbl(["Pax", "Adult", "CWB", "CNB"], (v.tiers || []).map(x => [x.from === x.to ? x.from : `${x.from}–${x.to >= 999 ? "+" : x.to}`, x.a, x.c ?? "", x.n ?? ""]));
+  if (cal.peak) md += "## Peak season\n\n" + tbl(["Dari", "Hingga", "Pakej", "RM/pax", "Label"], (cal.peak.windows || []).map(w => [w[0], w[1], (V.find(v => v.id === w[2]) || {}).name || w[2], w[3], w[4] || ""]));
+  md += "## Add-on\n\n" + tbl(["Add-on", "Adult (RM)", "Child (RM)", "Unit", "Teks quotation"], (cal.addons || []).map(a => [a[0], a[1], a[2], a[3] || "", a[4] || ""]));
+  for (const [k, title, order] of [["accOptions", "Hotel (pilihan harian)", ["t", "cost", "perPax", "hotel"]], ["mealOptions", "Meal (pilihan harian)", ["t", "b", "l", "d", "perPax"]], ["trpOptions", "Transport (pilihan harian)", ["t", "cost", "perPax", "perVehicle"]], ["extraSurcharge", "Surcaj tambahan", ["label", "dateIn", "perPax", "percentOfTier"]], ["paxNotes", "Nota ikut pax", ["from", "to", "text"]]])
+    if (cal[k] && cal[k].length) md += `## ${title}\n\n` + tbl(order.map(c => CALC_L[c] || c), cal[k].map(x => order.map(c => x[c] ?? "")));
+  if (cal.library) md += "## Pustaka hari\n\n" + tbl(["Kumpulan", "Hari", "Hotel", "Meal", "Transport", "Aktiviti"], cal.library.map(x => [x.g, x.t, x.acc, x.meal, x.trp, x.act || []]));
+  return md;
+}
 function kbCalcTab(d) {
   const x = kbDoc(d.code);
   if (x === undefined) return `<div class="card full"><div class="empty">${KB.err ? esc(KB.err) : "Loading KB…"}</div></div>`;
   if (!x) return `<div class="card full"><div class="empty">${esc(d.name)} has no Simple Calculator (no PT KB House page).</div></div>`;
   const { sl, kb, ix } = x, E = EDIT && !VIEW, links = (kb.map || {}).variants || {}, cal = kb.calc || {};
-  const pkgName = l => { const dd = DATA.destinations.find(y => y.code === l.code), p = dd && dd.packages.find(y => y.id === l.package); return (dd ? dd.name + " · " : l.code + " · ") + (p ? p.label : l.package); };
-  const fromCosting = (cal.variants || []).filter(v => links[v.id]);
-  const tiers = (cal.variants || []).filter(v => !links[v.id]).map(v => {
-    const l = null;
-    return `<tr><td class="l"><b>${esc(kbTxt(v.name))}</b><div class="muted small">${l ? "Harga dari Costing: " + esc(pkgName(l)) : "KB sahaja (tiada pakej Costing)"}</div></td>
-      <td class="l small">${(v.tiers || []).map(t => `${t.from === t.to ? t.from : t.from + "–" + (t.to >= 999 ? "+" : t.to)} pax: <b>${typeof t.a === "number" ? n2(t.a) : esc(String(t.a))}</b>${typeof t.c === "number" && t.c ? " / " + n2(t.c) : ""}${typeof t.n === "number" && t.n ? " / " + n2(t.n) : ""}`).join("<br>")}</td></tr>`;
-  }).join("");
-  const frame = `<iframe class="kb-calc" id="kbCalcFrame" data-slug="${esc(sl)}" src="${esc(ix.url)}?calc=1#calc" title="Simple Calculator ${esc(ix.name)}"></iframe>`;
   return `<div class="card full kb"><h2>Simple Calculator · ${esc(ix.name)} <span class="sub">${(cal.variants || []).length} pakej · deposit RM${esc(String(cal.deposit ?? "—"))}</span>
-      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Buka KB</a></span></h2>
-    <div class="body small muted">Kalkulator quotation yang sama seperti dalam KB (versi live). Harga tier pakej yang dipaut ke Costing ikut Catalog Price hub; nombor lain (malam/hari tambahan, transport, peak, add-on) dalam config di bawah.${E ? " Ubah config, kemudian <b>Save</b> — KB dan kalkulator dibina semula (~1–2 min)." : ""}</div>
-    ${E ? "" : `<div class="body">${frame}</div>`}</div>
-    <div class="card full kb" id="kb-tiers"><h2>Harga pakej kalkulator</h2><div class="body small">${fromCosting.length ? `<div>Harga dari tab <a href="#costing" data-tabmain="costing">Costing</a> (Catalog Price): ${fromCosting.map(v => `<b>${esc(kbTxt(v.name))}</b> ← ${esc(pkgName(links[v.id]))}`).join(" · ")}</div>` : ""}</div>
-    ${tiers ? `<h3 class="body">Pakej KB sahaja (tiada pakej Costing) — adult / CWB / CNB per pax</h3><div class="scroll"><table class="zebra"><tbody>${tiers}</tbody></table></div>` : ""}</div>
-    ${E ? `<div class="card full kb" id="kb-calc-edit"><h2>Config kalkulator (JSON) <span class="sub">${esc(sl)}/calc-config.json</span></h2><div class="body">
-      <div class="small muted">Sama seperti calc-config.json KB. Mesti JSON yang sah; JSON rosak tidak diterima. Harga tier pakej yang dipaut ke Costing ditulis semula dari Costing semasa build.</div>
-      <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></div>` : ""}`;
-}
-// The calculator page is on the same site (prod-at22.github.io): open its Simple Calculator tab once loaded.
-function kbFrameReady() {
-  const f = document.getElementById("kbCalcFrame");
-  if (!f || f.dataset.hooked) return; f.dataset.hooked = "1";
-  f.addEventListener("load", () => { try { const w = f.contentWindow; if (typeof w.showTopic === "function") w.showTopic("calc"); } catch (_) { } });
+      <span class="right"><button class="btn" data-act="calcMd" data-code="${esc(d.code)}">Muat turun .md</button></span></h2>
+    <div class="body small muted">Semua nombor kalkulator quotation KB, dalam bentuk jadual. ${E ? "Ubah terus dalam jadual, kemudian <b>Save</b> — KB dan kalkulator dibina semula (~1–2 min)." : "Tekan Edit costs untuk ubah."}</div></div>
+    ${kbCalcForm(sl, cal, links, E)}
+    ${E ? `<div class="card full kb" id="kb-calc-edit"><details><summary><b>Lanjutan: config penuh (JSON)</b> <span class="sub">${esc(sl)}/calc-config.json — itinerary pakej, inclusions dan medan lain</span></summary><div class="body">
+      <div class="small muted">Mesti JSON yang sah; JSON rosak tidak diterima. Harga tier pakej yang dipaut ke Costing ditulis semula dari Costing semasa build.</div>
+      <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></details></div>` : ""}`;
 }
 function kbFilter() {
   const q = KB.q.trim().toLowerCase();
@@ -1420,11 +1454,17 @@ document.addEventListener("click", async e => {
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
+  if (t.dataset.act === "calcMd") {
+    const x = kbDoc(t.dataset.code); if (!x) return;
+    const doc = KB.edit[x.sl] || x.kb, md = calcMd(x.ix.name, doc.calc || {}, (doc.map || {}).variants || {});
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([md], { type: "text/markdown" })); a.download = `simple-calculator-${x.sl}.md`; document.body.appendChild(a); a.click(); a.remove();
+    return;
+  }
   if (t.dataset.kact) {
     e.preventDefault();
     const [sl, ...path] = JSON.parse(t.dataset.kpath), doc = KB.edit[sl] ||= clone(KB.docs[sl]);
     const blank = v => typeof v === "string" ? "" : typeof v === "number" ? 0 : Array.isArray(v) ? [] : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, blank(x)])) : v;
-    if (t.dataset.kact === "add") { const arr = getPath(doc, path); arr.push(arr.length ? blank(arr[arr.length - 1]) : ""); }
+    if (t.dataset.kact === "add") { const arr = getPath(doc, path), last = arr[arr.length - 1]; arr.push(!arr.length ? "" : Array.isArray(last) ? last.map(blank) : blank(last)); }
     if (t.dataset.kact === "del") { const arr = getPath(doc, path.slice(0, -1)), i = path[path.length - 1]; if (confirm("Buang item #" + (i + 1) + "?")) arr.splice(i, 1); }
     return render();
   }
@@ -1580,11 +1620,6 @@ document.addEventListener("change", e => {
     h.catalogs = all;
     return render();
   }
-  if (t.dataset && t.dataset.khotel) {
-    const { sl, path, id } = JSON.parse(t.dataset.khotel), doc = KB.edit[sl] ||= clone(KB.docs[sl]), arr = getPath(doc, path);
-    const i = arr.indexOf(id); if (t.checked && i < 0) arr.push(id); if (!t.checked && i >= 0) arr.splice(i, 1);
-    return render();
-  }
   if (t.dataset && t.dataset.hsim) {
     const { code, id } = JSON.parse(t.dataset.hsim), h = DATA.destinations.find(x => x.code === code).hotels.find(x => x.id === id);
     if (t.checked) h.similar = true; else delete h.similar;
@@ -1604,6 +1639,8 @@ document.addEventListener("change", e => {
     if (k === "num") { v = Number(v); if (t.value.trim() === "" || !isFinite(v)) return toast("Not a number"); }
     if (k === "lines") v = String(v).split("\n").map(x => x.trim()).filter(Boolean);
     if (k === "pairs") v = String(v).split("\n").filter(x => x.trim()).map(x => x.split("|").map(y => y.trim()));
+    if (k === "bool") v = v === "1";
+    if (k === "jsonv") { try { v = JSON.parse(v); } catch (err) { return toast("Format tidak sah: " + err.message, 6000); } }
     if (k === "json") { try { v = JSON.parse(v); } catch (err) { return toast("JSON tidak sah — tidak diterima: " + err.message, 6000); } if (!v || !Array.isArray(v.variants) || !v.variants.every(x => x && x.id && Array.isArray(x.tiers))) return toast("Config mesti ada variants[] dengan id dan tiers — tidak diterima", 6000); }
     setPath(doc, path, v);
     setTimeout(() => {
@@ -1643,5 +1680,5 @@ setInterval(() => { if (SESSION && Date.now() - lastActivity > IDLE_LOGOUT_MS) {
 
 if (SEL.tab === "catalog") SEL.tab = "itinerary";
 window.addEventListener("hashchange", () => { const h = location.hash.slice(1) === "catalog" ? "itinerary" : location.hash.slice(1); if (TABS.some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
-window.PTCALC = { priceRow, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
+window.PTCALC = { priceRow, calcMd, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
 load().catch(() => { });

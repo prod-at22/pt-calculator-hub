@@ -200,45 +200,6 @@
   "SURCHARGE_HTML": "\n  \n  <p class=\"ssub\" style=\"margin:0 0 10px\">Caj tambahan atas harga pakej. Sumber: katalog PT Aceh & PT Aceh+Sabang.</p>\n\n  <div class=\"custblk\">\n    <h3>Surcharge Lain</h3>\n    <table class=\"ctbl\"><thead><tr><th>Item</th><th>Caj</th><th>Bila dikenakan</th></tr></thead><tbody>\n      <tr><td class=\"it\">Single Supplement</td><td class=\"add\">+RM 250 /orang</td><td>Bilik single (hanya untuk hotel 3★).</td></tr>\n      <tr><td class=\"it\">Late Booking Surcharge</td><td class=\"add\">+RM 50 /booking</td><td>Booking &lt;45 hari sebelum berlepas.</td></tr>\n      <tr><td class=\"it\">Extra Hour (transport & guide)</td><td class=\"add\">150,000 IDR /jam</td><td>Melebihi asas 12 jam/hari (bayar tunai).</td></tr>\n    </tbody></table>\n  </div>\n\n  ",
   "TRANSPORT_HTML": "\n  <h2>Transportation & Guide</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Jenis kenderaan ikut saiz group. Private driver + tour guide, asas 12 jam/hari.</p>\n  <div class=\"custblk\">\n    <table class=\"ctbl\"><thead><tr><th>Pax</th><th>Transport</th><th>Nota</th></tr></thead><tbody>\n      <tr><td class=\"it\">2–3</td><td>Toyota Calya</td><td>Driving guide / driver + guide.</td></tr>\n      <tr><td class=\"it\">4–6</td><td>Innova Reborn</td><td>Driver + tour guide.</td></tr>\n      <tr><td class=\"it\">7–9</td><td>Van (Toyota Hiace)</td><td>Driver + tour guide.</td></tr>\n      <tr><td class=\"it\">10–15</td><td>Medium Bus</td><td>Driver + tour guide.</td></tr>\n    </tbody></table>\n    <p class=\"custnote\">Asas 12 jam/hari. Jam lebih 150,000 IDR/jam (bayar tunai). Sabang: kenderaan menyeberang guna ferri bersama.</p>\n  </div>\n  <div class=\"notebox\"><b>Nota Sabang:</b> feri Ulee Lheu ↔ Balohan (Pulau Weh) termasuk dalam pakej 5D4N. Tour di Pulau Weh guna kenderaan private + guide sama.</div>\n",
   "STAY_HTML": "\n  <h2>Accommodation</h2>\n  <p class=\"ssub\" style=\"margin:0 0 10px\">Hotel ikut tier. Standard double-sharing; triple 3★ = extra rollaway bed. Bilik triple/family proper hanya di 4★ (tertakluk availability).</p>\n",
-  "HOTELS": [
-   {
-    "tier": "3★ (default) — Banda Aceh",
-    "note": "Double-sharing standard · rollaway untuk triple",
-    "img": "",
-    "hotels": [
-     "aceh-h03",
-     "aceh-h02",
-     "aceh-h01",
-     "aceh-h07",
-     "aceh-h08"
-    ]
-   },
-   {
-    "tier": "4★ — Banda Aceh",
-    "note": "+RM50/pax/malam · triple/family room tersedia",
-    "img": "",
-    "hotels": [
-     "aceh-h04"
-    ]
-   },
-   {
-    "tier": "5★ — Banda Aceh",
-    "note": "+RM90/pax/malam · pilihan premium",
-    "img": "",
-    "hotels": [
-     "aceh-h06",
-     "aceh-h05"
-    ]
-   },
-   {
-    "tier": "Sabang (Pulau Weh)",
-    "note": "KIPAS sahaja tanpa aircond · aircond hanya di Sabang Town",
-    "img": "",
-    "hotels": [
-     "acehsbg-h03"
-    ]
-   }
-  ],
   "ITINSUGG_ACTS": [
    {
     "city": "Banda Aceh",

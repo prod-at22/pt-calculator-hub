@@ -325,57 +325,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Tumpak+Sewu+Waterfall"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ Bromo (default)",
-    "note": "Homestay-style, fasiliti asas. Dekat view point sunrise.",
-    "emoji": "",
-    "hotels": [
-     "subb-h03"
-    ],
-    "extra": "homestay"
-   },
-   {
-    "tier": "3★ Malang (default)",
-    "note": "3★ selesa di Batu/Malang. Extra bed untuk triple.",
-    "emoji": "",
-    "hotels": [
-     "subb-h07"
-    ]
-   },
-   {
-    "tier": "3★ Surabaya (default)",
-    "note": "3★ di Surabaya. Extra bed untuk triple.",
-    "emoji": "",
-    "hotels": [
-     "subb-h01"
-    ]
-   },
-   {
-    "tier": "4★ Bromo (+RM240/pax)",
-    "note": "Proper triple bed tersedia. Upgrade seluruh trip.",
-    "emoji": "",
-    "hotels": [
-     "subb-h06"
-    ]
-   },
-   {
-    "tier": "4★ Malang (+RM240/pax)",
-    "note": "4★ Malang. Proper family room.",
-    "emoji": "",
-    "hotels": [
-     "subb-h05"
-    ]
-   },
-   {
-    "tier": "4★ Surabaya (+RM240/pax)",
-    "note": "4★ Surabaya. Proper triple bed.",
-    "emoji": "",
-    "hotels": [
-     "subb-h04"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "cmp": "<h2>Perbezaan Pakej</h2><p class='ssub'>Dua varian 4D3N dari Surabaya &mdash; bezanya sama ada Gunung Bromo dimasukkan.</p><table class='cmp'><thead><tr><th>Ciri</th><th>SURABAYA &middot; BROMO &middot; MALANG 4D3N</th><th>SURABAYA &middot; MALANG 4D3N</th></tr></thead><tbody><tr><td class='feat'>Sunrise Gunung Bromo (Jeep 4x4)</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Kawah Bromo, Pasir Berbisik, Bukit Teletubbies</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Air Terjun Coban Rondo</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Taman Bunga Santerra de Laponte</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Ladang Apel &amp; Apple Strudel</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Masjid Tiban Turen</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Masjid Nasional Al-Akbar Surabaya</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Museum Angkut</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Jatim Park 2</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Makam Sunan Ampel (Wali Songo)</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Monumen Tugu Pahlawan &amp; Alun-alun Surabaya</td><td class='val'><span class='dsh'>&mdash;</span></td><td class='val'><span class='tk'>&#10004;</span></td></tr><tr><td class='feat'>Kajoetangan Heritage Village</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Muzium Kapal Selam (Monkasel)</td><td class='val'><span class='tk'>&#10004;</span></td><td class='val'><span class='dsh'>&mdash;</span></td></tr><tr><td class='feat'>Bermalam</td><td class='val'>Bromo 1 &middot; Malang 1 &middot; Surabaya 1</td><td class='val'>Malang 2 &middot; Surabaya 1</td></tr><tr><td class='feat'>Waktu bangun paling awal</td><td class='val'>2.00 pagi (Hari 2)</td><td class='val'>Normal</td></tr><tr><td class='feat'>Tiba di SUB (Hari 1)</td><td class='val'>10.00&ndash;11.00 pagi</td><td class='val'>11.00 pagi&ndash;12.00 tgh</td></tr><tr><td class='feat'>Jeep 4x4 &amp; tipping</td><td class='val'>Termasuk</td><td class='val'>Tiada Jeep &middot; tipping termasuk</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Peminat alam &amp; gunung berapi, fotografi sunrise, keluarga dengan anak remaja ke atas</td><td class='val'>Keluarga dengan anak kecil atau warga emas, peminat taman tema &amp; ziarah</td></tr></tbody></table>",

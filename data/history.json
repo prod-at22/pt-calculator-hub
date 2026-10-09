@@ -39532,6 +39532,22 @@
     "28 KB rebuilt"
    ],
    "changes": []
+  },
+  {
+   "v": 42,
+   "at": "2026-10-09T04:43:09Z",
+   "by": "system",
+   "note": "KB Accommodation from the hub (PO 9 Oct): KB hotel cards removed — each KB's Accommodation tab is the hub's Accommodation list per package, as the catalog prints it (photos stay in pt-kb-house hotel-images.json); FAQ cancellation / refund questions removed (PO 9 Oct); Simple Calculator tab shows the calculator config as editable tables + Markdown download (no embedded KB calculator)",
+   "summary": [
+    "KB hotel cards: 112 cards in 28 KB removed (hotel list now from the Accommodation tab; 50 card photos moved to pt-kb-house <slug>/hotel-images.json by hotel id)",
+    "FAQ: 7 cancellation / refund questions removed (dalat, hanoi-sapa, jepun, krabi, maldives, semporna, turki); 2 empty headings removed",
+    "Phuket: 4★ upgrade +RM300/pax (as printed in the catalog) and Free Gift (Promo) kept",
+    "Multi-city catalog hotel rows (KK 3★, Medan 4★, Seoul Std / Seoul–Jeju) kept as they are"
+   ],
+   "kb": [
+    "28 KB rebuilt"
+   ],
+   "changes": []
   }
  ]
 }

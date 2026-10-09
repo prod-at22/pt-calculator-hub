@@ -626,10 +626,12 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const items = [...g.querySelectorAll("[data-kbtext]")];
     ok(items.some(x => x.style.display === "none") && items.some(x => x.style.display !== "none"), "Info KB search filters the attractions / FAQ");
     q.value = ""; q.dispatchEvent(new w.Event("input", { bubbles: true }));
-    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-tiers"));
-    const fr = doc.querySelector("#kbCalcFrame");
-    ok(fr && fr.getAttribute("src").startsWith("https://prod-at22.github.io/pt-kb-house/jepun/"), "Simple Calculator tab embeds the KB's calculator");
-    ok(doc.querySelectorAll("#kb-tiers tbody tr").length === kb0.calc.variants.filter(v => !kb0.map.variants[v.id]).length && doc.querySelector("#kb-tiers").textContent.includes("Costing"), "Simple Calculator: Costing-linked packages named (prices not repeated); only KB-only packages list tiers");
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#calc-tiers"));
+    ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector('#grid a[href*="pt-kb-house"]'), "Simple Calculator tab: no embedded KB calculator / KB link");
+    ok(doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length && doc.querySelector("#calc-tiers").textContent.includes("Costing"), "Simple Calculator: every package with its price tiers (Costing-linked ones say so)");
+    ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Simple Calculator: add-ons as a table + Muat turun .md");
+    const md = w.PTCALC.calcMd("Jepun", kb0.calc, kb0.map.variants);
+    ok(md.includes("## Pakej & harga tier") && md.includes("| Pax | Adult | CWB | CNB |"), "calculator config as Markdown");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-attr .kbed"));
     const mp = JSON.stringify(["jepun", "content", "attractions", 0, "muslim"]), mi = [...doc.querySelectorAll(".kbed")].find(x => x.dataset.kpath === mp);
@@ -638,7 +640,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
     let ta = doc.querySelector("#kb-calc-edit textarea"); ta.value = "{ broken"; fire(w, ta, "change"); await tick(10);
     ok(doc.querySelector("#btnSave").textContent.includes("(1)"), "broken calculator JSON is not accepted");
-    ta = doc.querySelector("#kb-calc-edit textarea"); const cfg = clone0(kb0.calc); cfg.deposit = 600; ta.value = JSON.stringify(cfg); fire(w, ta, "change"); await tick(10);
+    const dep = [...doc.querySelectorAll("#calc-asas .kbed")].find(x => x.dataset.kpath === JSON.stringify(["jepun", "calc", "deposit"]));
+    ok(dep, "Edit costs: deposit editable in the calculator table"); dep.value = "600"; fire(w, dep, "change"); await tick(10);
     ok(doc.querySelector("#btnSave").textContent.includes("(2)"), "Save counts the 2 KB edits: " + doc.querySelector("#btnSave").textContent);
     click(w, doc.querySelector("#btnSave")); await tick(5);
     doc.querySelector("#saveNote").value = "KB Jepun: surau + deposit";
@@ -664,7 +667,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const cat0 = JSON.parse(repo.files(repo.head)["data/catalogs/bali-standard.json"]);
     ok(!("rows" in (cat0.surcharge || {})) && !("accommodation" in cat0), "catalog file keeps no hotel rows (they live in the Accommodation tab)");
     ok(pg.doc.querySelectorAll("#hotels tbody tr").length === D2().hotels.length && D2().hotels.some(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur), "Accommodation tab lists DPS hotels, ticked for bali-standard Surcharge");
-    ok(await until(() => pg.doc.querySelector("#kb-hotels") && pg.doc.querySelector("#kb-hotels").textContent.includes("Favehotel")), "KB hotel cards (Bali KB) shown on the same tab");
+    ok(!pg.doc.querySelector("#kb-hotels") && !pg.doc.querySelector("#hotels thead").textContent.includes("Kad KB"), "no KB hotel cards: the KB's Accommodation tab is this list (kb-build stay_html)");
     await tab(pg.w, pg.doc, "surcharge"); await until(() => pg.doc.querySelector("#grid").textContent.includes("Favehotel Kartika Plaza"));
     ok(pg.doc.querySelector("#grid").textContent.includes("RM40/pax/night"), "Surcharge tab: hotel rows (and amounts) from the Accommodation tab");
     P2.EDIT = true; P2.render(); await tab(pg.w, pg.doc, "accommodation"); await until(() => pg.doc.querySelector("#hotels input.ed"));
@@ -672,8 +675,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const h0 = D2().hotels.find(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur === 1);
     const nameIn = [...pg.doc.querySelectorAll("#hotels input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "DPS", "hotels", h0.id, "name"]));
     nameIn.value = "Favehotel Kartika Plaza (diuji)"; fire(pg.w, nameIn, "change"); await tick(10);
-    ok(pg.doc.querySelector("#kb-hotels").textContent.includes("Favehotel Kartika Plaza (diuji)"), "the KB hotel card takes the hotel name from the Accommodation list (one source)");
-    ok(pg.doc.querySelectorAll("#kb-hotels input.khotel").length > 3 && [...pg.doc.querySelectorAll("#hotels tbody tr")].some(r => r.textContent.includes("3 bintang")), "Edit costs: KB cards pick hotels from the list; the list shows which KB card uses each hotel");
+    ok(D2().hotels.find(h => h.id === h0.id).name === "Favehotel Kartika Plaza (diuji)", "Edit costs: a hotel name is edited in the Accommodation list (one source for catalog and KB)");
     click(pg.w, pg.doc.querySelector('[data-act="addHotel"]')); await tick(10);
     const nh = D2().hotels.at(-1);
     ok(nh && /^dps-h\d+$/.test(nh.id) && pg.doc.querySelectorAll("#hotels tbody tr").length === D2().hotels.length, "+ Tambah hotel adds a row");

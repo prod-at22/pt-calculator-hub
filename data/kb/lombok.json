@@ -289,35 +289,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Desa+Sukarara+Lombok"
    }
   ],
-  "hotels": [
-   {
-    "tier": "STD 3★ (default)",
-    "note": "Lokasi CBD Mataram/Sengigi. 2 pax twin; 3 pax = extra bed (rollaway).",
-    "emoji": "",
-    "img": "skimg:p29",
-    "hotels": [
-     "lop-h01"
-    ]
-   },
-   {
-    "tier": "STD 4★ (upgrade)",
-    "note": "+RM80/pax/malam (+RM240/pax 3N). Triple sharing proper bed (3 single) jika available.",
-    "emoji": "",
-    "img": "skimg:p30",
-    "hotels": [
-     "lop-h02"
-    ]
-   },
-   {
-    "tier": "Honeymoon 3★",
-    "note": "Double bed + Honeymoon Room Decoration.",
-    "emoji": "",
-    "img": "skimg:p28",
-    "hotels": [
-     "lop-h01"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",
