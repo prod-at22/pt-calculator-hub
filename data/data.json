@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 42,
+ "version": 43,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -34032,7 +34032,7 @@
    "name": "Bangkok",
    "country": "Thailand",
    "duration": "4D3N",
-   "nights": 0,
+   "nights": 3,
    "po": "Fyka",
    "source": "hub",
    "note": "",
@@ -34046,110 +34046,126 @@
     {
      "id": "THB",
      "label": "THB → MYR",
-     "value": 0.131,
+     "value": 0.1218537,
      "locked": true,
-     "source": "hub"
+     "source": "PT BANGKOK R&D 2026 (PO 9 Oct 2026)"
     }
    ],
-   "rates": [],
-   "tables": [
+   "rates": [
     {
-     "id": "Chiwanon-Almas-3-Star__Ground-Cost-MYR",
-     "label": "Chiwanon + Almas (3-Star) · Ground Cost",
-     "unit": "MYR/pax",
-     "fx": "MYR",
-     "group": "Chiwanon + Almas (3-Star)",
-     "values": {
-      "2": 1528.115,
-      "3": 1244.2817,
-      "4": 1102.365,
-      "5": 1017.215,
-      "6": 960.4483,
-      "7": 957.3293,
-      "8": 922.24,
-      "9": 894.9483,
-      "10": 1017.215,
-      "11": 986.2514,
-      "12": 960.4483,
-      "13": 958.7688,
-      "14": 938.615,
-      "15": 921.1483,
-      "16": 905.865,
-      "17": 892.3797,
-      "18": 880.3928,
-      "19": 959.2992,
-      "20": 945.165,
-      "21": 932.3769,
-      "22": 920.7514,
-      "23": 910.1367,
-      "24": 900.4067,
-      "25": 901.935,
-      "26": 893.2688,
-      "27": 885.2446,
-      "28": 929.2579,
-      "29": 920.546,
-      "30": 912.415,
-      "31": 913.2602,
-      "32": 905.865,
-      "33": 898.918,
-      "34": 892.3797,
-      "35": 886.215,
-      "36": 880.3928,
-      "37": 920.9123,
-      "38": 914.4834,
-      "39": 908.3842,
-      "40": 902.59
-     }
+     "id": "suvAirHalf",
+     "label": "SUV (≤4 pax): airport pick-up + half day tour",
+     "value": 3000,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
     },
     {
-     "id": "Chiwanon-Almas-3-Star__Tipping-MYR",
-     "label": "Chiwanon + Almas (3-Star) · Tipping",
-     "unit": "MYR/pax",
-     "fx": "MYR",
-     "group": "Chiwanon + Almas (3-Star)",
-     "values": {
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 0,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0,
-      "33": 0,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0
-     }
+     "id": "suvDay",
+     "label": "SUV (≤4 pax): Bangkok 1 day",
+     "value": 3500,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "suvDamnoen",
+     "label": "SUV (≤4 pax): Damnoen Saduak Floating Market 1 day",
+     "value": 4000,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "suvAir",
+     "label": "SUV (≤4 pax): airport drop-off",
+     "value": 800,
+     "fx": "THB",
+     "unit": "THB/way",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "vanAirHalf",
+     "label": "Minivan (max 9 pax): airport pick-up + half day tour",
+     "value": 3300,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "vanDay",
+     "label": "Minivan (max 9 pax): Bangkok 1 day",
+     "value": 3800,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "vanDamnoen",
+     "label": "Minivan (max 9 pax): Damnoen Saduak Floating Market 1 day",
+     "value": 4300,
+     "fx": "THB",
+     "unit": "THB/day",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "vanAir",
+     "label": "Minivan (max 9 pax): airport drop-off",
+     "value": 1200,
+     "fx": "THB",
+     "unit": "THB/way",
+     "group": "1. Transport (kumpulan)"
+    },
+    {
+     "id": "almasStd",
+     "label": "Almas Hotel 3★ Standard Room (2 BF, CR 31 Oct 2026)",
+     "value": 1250,
+     "fx": "THB",
+     "unit": "THB/room/night",
+     "group": "2. Hotel"
+    },
+    {
+     "id": "cruise",
+     "label": "Dinner cruise (Day 2)",
+     "value": 990,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "3. Meals"
+    },
+    {
+     "id": "shabu",
+     "label": "Shabu restaurant (Day 3)",
+     "value": 399,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "3. Meals"
+    },
+    {
+     "id": "meal",
+     "label": "General restaurant",
+     "value": 350,
+     "fx": "THB",
+     "unit": "THB/pax/meal",
+     "group": "3. Meals"
+    },
+    {
+     "id": "choc",
+     "label": "Chocolate Ville",
+     "value": 200,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "4. Entrance"
+    },
+    {
+     "id": "gp",
+     "label": "Grand Palace",
+     "value": 500,
+     "fx": "THB",
+     "unit": "THB/pax",
+     "group": "4. Entrance"
     }
    ],
+   "tables": [],
    "variants": [
     {
      "id": "Chiwanon-Almas-3-Star",
@@ -34157,20 +34173,32 @@
      "supplier": "CHIWANON + ALMAS HOTEL (3-STAR) — DEFAULT",
      "paxMin": 2,
      "paxMax": 40,
-     "hotel": "Almas Hotel Standard",
-     "notes": "",
+     "hotel": "Almas Hotel Standard Room",
+     "notes": "Kos komponen ikut PT BANGKOK R&D 2026 (tab PT Costing 2026), rujukan sahaja — hub ialah sumber. SUV 1–4 pax, minivan 5–9 pax; 10 pax ke atas: 1 minivan setiap 9 pax + baki 1–4 pax SUV / 5–8 pax minivan (PO 9 Oct: 10 pax = 1 minivan + 1 SUV). Hotel = separuh bilik twin setiap pax.",
      "components": [
       {
-       "key": "ground-cost-myr",
-       "label": "Ground Cost",
-       "per": "pax",
-       "expr": "T['Chiwanon-Almas-3-Star__Ground-Cost-MYR']"
+       "key": "transport",
+       "label": "Transport (SUV / minivan, 4 hari)",
+       "per": "group",
+       "expr": "band(pax,[4,R.suvAirHalf+R.suvDay+R.suvDamnoen+R.suvAir],[9,R.vanAirHalf+R.vanDay+R.vanDamnoen+R.vanAir],[999,floor(pax/9)*(R.vanAirHalf+R.vanDay+R.vanDamnoen+R.vanAir)+(pax%9===0?0:pax%9<=4?(R.suvAirHalf+R.suvDay+R.suvDamnoen+R.suvAir):(R.vanAirHalf+R.vanDay+R.vanDamnoen+R.vanAir))])"
       },
       {
-       "key": "tipping-myr",
-       "label": "Tipping",
-       "per": "pax",
-       "expr": "T['Chiwanon-Almas-3-Star__Tipping-MYR']"
+       "key": "hotel",
+       "label": "Hotel Almas 3★ ×N malam (½ bilik / pax)",
+       "per": "group",
+       "expr": "R.almasStd*N*pax/2"
+      },
+      {
+       "key": "meals",
+       "label": "Meals (dinner cruise + shabu + 3 restoran)",
+       "per": "group",
+       "expr": "(R.cruise+R.shabu+3*R.meal)*pax"
+      },
+      {
+       "key": "entrance",
+       "label": "Entrance (Chocolate Ville + Grand Palace)",
+       "per": "group",
+       "expr": "(R.choc+R.gp)*pax"
       }
      ]
     }
