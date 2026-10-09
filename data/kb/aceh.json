@@ -5,11 +5,13 @@
   "variants": {
    "aceh": {
     "code": "ACEH",
-    "package": "asonanggroe-3-star"
+    "package": "asonanggroe-3-star",
+    "capAtHub": true
    },
    "sabang": {
     "code": "ACEHSBG",
-    "package": "asonanggroe-3-star"
+    "package": "asonanggroe-3-star",
+    "capAtHub": true
    }
   }
  },

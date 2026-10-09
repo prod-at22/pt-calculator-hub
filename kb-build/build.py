@@ -9,7 +9,8 @@ The hub is the source of every KB's content and Simple Calculator numbers: data/
   calc      the Simple Calculator config (written to <slug>/calc-config.json and the page's CALC_CFG)
   map       variants: {calculator variant id: {code, package}} — those variants' price tiers come from
             the Costing package (data/data.json pricing = Catalog Price), so the hub's price always wins;
-            a variant with no Costing package keeps its own tiers in `calc` (KB-only)
+            a variant with no Costing package keeps its own tiers in `calc` (KB-only); "capAtHub": true =
+            the calculator stops at the package's last priced pax (PO 9 Oct: Aceh stops at 30 pax)
 Cosmetics stay in pt-kb-house: the page itself (layout, CSS, engine, travel map, logo) and the images,
 which the hub refers to as "@asset:<key>" and which live in <slug>/assets.json next to the page.
 
@@ -51,12 +52,13 @@ def num(v):
     return int(v) if isinstance(v, float) and v.is_integer() else v
 
 
-def hub_tiers(pkg, old):
+def hub_tiers(pkg, old, cap=False):
     """Calculator tiers from the Costing package: Catalog Price per pax (+ tierUpgrade, as priceRow does)
     for every pax the KB calculator covers. The KB's own pax bands are kept; a band splits only where the
     hub's price changes inside it. A pax the package has no price for keeps the KB's own price. A child
     price the package does not have keeps the KB's (0 = not sold), or follows the adult price when the KB
-    priced the child like an adult (honeymoon = per couple)."""
+    priced the child like an adult (honeymoon = per couple). cap = the calculator stops at the hub's last
+    priced pax (above it the KB says "melebihi N pax, sahkan kadar dengan operator")."""
     P, up = pkg["pricing"], (pkg.get("rules") or {}).get("tierUpgrade") or 0
     def at(k, pax):
         v = P.get(k)
@@ -69,7 +71,7 @@ def hub_tiers(pkg, old):
     starts = {t["from"] for t in old}
     lo = min(t["from"] for t in old)
     last = max([int(x) for x in P.get("adult", {}) if at("adult", int(x)) is not None] or [lo])
-    top = max(last, max(t["from"] for t in old))     # open-ended KB bands (to 99999) stop the walk here
+    top = last if cap else max(last, max(t["from"] for t in old))   # open-ended KB bands (to 99999) stop the walk here
     rows = []
     for pax in range(lo, top + 1):
         t = kb(pax)
@@ -91,7 +93,7 @@ def hub_tiers(pkg, old):
         else:
             rows.append({"from": pax, "to": pax, **r})
     for t in old:                                    # pax above the hub's last priced pax keep the KB's price
-        if t["to"] > top:
+        if t["to"] > top and not cap:
             r = {**t, "from": max(t["from"], top + 1)}
             if rows and rows[-1]["to"] == r["from"] - 1 and r["from"] not in starts and all(rows[-1][k] == r[k] for k in "acn"):
                 rows[-1]["to"] = r["to"]
@@ -112,8 +114,24 @@ def calc_from_hub(kb, data):
         if ln:
             if (ln["code"], ln["package"]) not in pk:
                 raise SystemExit(f"{kb['slug']}: variant {v['id']} -> unknown package {ln['code']}/{ln['package']}")
-            v["tiers"] = hub_tiers(pk[(ln["code"], ln["package"])], v["tiers"])
+            v["tiers"] = hub_tiers(pk[(ln["code"], ln["package"])], v["tiers"], ln.get("capAtHub", False))
     return calc
+
+
+PKGSEL = re.compile(r"(<select[^>]*id='c_pkg'[^>]*>)(.*?)(</select>)", re.S)
+
+
+def sync_pkg_select(content, calc):
+    """The calculator's package dropdown (blocks.calc) lists calc.variants by index; keep it in step."""
+    h = (content.get("blocks") or {}).get("calc")
+    m = PKGSEL.search(h or "")
+    if not m or "<option" not in m.group(2):
+        return content
+    opts = "".join(f"<option value='{i}'>{v['name']}</option>" for i, v in enumerate(calc["variants"]))
+    if opts == m.group(2):
+        return content
+    content = {**content, "blocks": {**content["blocks"], "calc": h[:m.start(2)] + opts + h[m.end(2):]}}
+    return content
 
 
 def one(m, html, what, slug):
@@ -131,7 +149,8 @@ def build(site, slug, data):
     assets = json.load(open(ap, encoding="utf-8")) if os.path.exists(ap) else {}
     new = html
     m = one(list(KBDATA.finditer(new)), new, "kbdata", slug)
-    new = new[:m.start(2)] + script_json(detoken(kb["content"], assets, slug)) + new[m.end(2):]
+    content = sync_pkg_select(kb["content"], calc) if kb["kind"] == "template" else kb["content"]
+    new = new[:m.start(2)] + script_json(detoken(content, assets, slug)) + new[m.end(2):]
     if kb["kind"] == "bespoke":
         m = one(list(SNAPSHOT.finditer(new)), new, "snapshot", slug)
         new = new[:m.start(2)] + kb["snapshot"] + new[m.end(2):]
