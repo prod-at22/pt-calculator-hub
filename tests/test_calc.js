@@ -620,7 +620,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(t.includes(a0.n) && t.includes("Muslim-friendly") && g.querySelectorAll(".kb-attr").length >= kb0.content.attractions.length, "Info KB (HND → jepun KB): attractions with Muslim-friendly info");
     ok(g.querySelectorAll("#kb-faq details.kb-faq").length > 3 && g.querySelectorAll("#kb-blocks details").length > 3, "Info KB: FAQ sections and KB tab blocks (transport, flight, free gift …)");
     ok(!g.querySelector('[data-kbtext] img[src^="@asset"]') && !g.innerHTML.includes("@asset:"), "no unresolved KB image tokens in the hub page");
-    ok(await until(() => doc.querySelector("#kb-linked") && doc.querySelector("#kb-linked").textContent.includes("tokyo-standard") && doc.querySelector("#kb-linked .cd-itin")), "Info KB: price, itinerary and includes / excludes come from the catalogs (Costing + Itinerary tabs), read-only");
+    ok(!doc.querySelector("#kb-linked") && !doc.querySelector("#grid .cd-itin") && !doc.querySelector("#grid").textContent.includes("Catalog price table"), "Info KB does not repeat the Costing / Itinerary tabs (price, itinerary, includes / excludes)");
     ok(!kb0.content.packages.some((p, i) => kb0.map.packages[i] && ("inc" in p || "exc" in p)) && kb0.content.itineraries.every((x, i) => !kb0.map.packages[i] || x === null), "the KB file keeps no copy of a linked package's itinerary / includes / excludes");
     const q = doc.querySelector("#kbq"); q.value = "halal"; q.dispatchEvent(new w.Event("input", { bubbles: true })); await tick(5);
     const items = [...g.querySelectorAll("[data-kbtext]")];
@@ -629,7 +629,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-tiers"));
     const fr = doc.querySelector("#kbCalcFrame");
     ok(fr && fr.getAttribute("src").startsWith("https://prod-at22.github.io/pt-kb-house/jepun/"), "Simple Calculator tab embeds the KB's calculator");
-    ok(doc.querySelectorAll("#kb-tiers tbody tr").length === kb0.calc.variants.length, "Simple Calculator: one tier row per calculator package (" + kb0.calc.variants.length + ")");
+    ok(doc.querySelectorAll("#kb-tiers tbody tr").length === kb0.calc.variants.filter(v => !kb0.map.variants[v.id]).length && doc.querySelector("#kb-tiers").textContent.includes("Costing"), "Simple Calculator: Costing-linked packages named (prices not repeated); only KB-only packages list tiers");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
     await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-attr .kbed"));
     const mp = JSON.stringify(["jepun", "content", "attractions", 0, "muslim"]), mi = [...doc.querySelectorAll(".kbed")].find(x => x.dataset.kpath === mp);

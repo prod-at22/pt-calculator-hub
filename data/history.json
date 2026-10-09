@@ -39476,6 +39476,17 @@
     "KB hotel card names now from the Accommodation list"
    ],
    "changes": []
+  },
+  {
+   "v": 38,
+   "at": "2026-10-09T03:23:30Z",
+   "by": "system",
+   "note": "Info KB no longer repeats the Costing / Itinerary tabs; Simple Calculator tab names the Costing package instead of repeating its prices. PT KB House mirror now checks every page against the hub (verify.py) and opens it in jsdom (smoke.js) before publishing",
+   "summary": [
+    "kb-build/verify.py: prices, itinerary, includes / excludes, calculator tiers, hotels, tokens, up to date",
+    "kb-build/smoke.js: no JS error, calculator price, package itineraries, price tables"
+   ],
+   "changes": []
   }
  ]
 }
