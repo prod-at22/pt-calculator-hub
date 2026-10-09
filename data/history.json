@@ -39532,6 +39532,21 @@
     "28 KB rebuilt"
    ],
    "changes": []
+  },
+  {
+   "v": 42,
+   "at": "2026-10-09T06:52:52Z",
+   "by": "system",
+   "note": "Bangkok (PO 9 Oct): 4★ and 5★ removed — Costing packages / TOs Chiwanon + Nouvo City / Zayn (4★) and Chiwanon + Al-Meroz (5★) and their cost tables; KB Bangkok tier text removed. Upgrade / add-on prices for 4★ and 5★ kept (catalog surcharge rows, KB rate card, calculator)",
+   "summary": [
+    "Costing: packages chiwanon-nouvo-zayn-4-star and chiwanon-al-meroz-5-star, TOs Chiwanon-Nouvo-Zayn-4-Star and Chiwanon-Al-Meroz-5-Star and 4 cost tables removed",
+    "KB Bangkok: USP '3 pilihan tier hotel', Accommodation 'Tiga tier hotel', 'Proper triple bed lebih baik di 4★', 'Hotel 5★ Al-Meroz halal-certified' removed",
+    "Kept: 4★ +RM50 / 5★ +RM60 per pax per night upgrade (catalog), KB rate card + FAQ upgrade, calculator upgrade / extra night / add-on prices; Al-Meroz contract file"
+   ],
+   "kb": [
+    "bangkok rebuilt"
+   ],
+   "changes": []
   }
  ]
 }
