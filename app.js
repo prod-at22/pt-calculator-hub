@@ -137,7 +137,22 @@ function compile(expr) {
   exprCache.set(expr, f); return f;
 }
 function band(pax, ...pairs) { for (const [mx, v] of pairs) if (pax <= mx) return v; return NaN; }
-const fxOf = (d, id) => { const f = d.fx.find(x => x.id === id); return f ? +f.value : NaN; };
+// Live FX: an FX entry with "live": "<ISO currency>" uses today's market rate (ECB via frankfurter.dev, fallback
+// open.er-api.com), fetched when the page opens; its stored `value` is the fallback when the rate cannot be fetched.
+const LIVEFX = {};   // currency → { rate, date, src }
+const fxNum = f => f && f.live && LIVEFX[f.live] ? LIVEFX[f.live].rate : f ? +f.value : NaN;
+const fxOf = (d, id) => fxNum(d.fx.find(x => x.id === id));
+async function loadLiveFx() {
+  const curs = [...new Set((DATA.destinations || []).flatMap(d => (d.fx || []).filter(f => f.live).map(f => f.live)))].filter(c => !LIVEFX[c]);
+  const get = async (url, pick) => { const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 6000);
+    try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) return null; return pick(await r.json()); } catch (_) { return null; } finally { clearTimeout(t); } };
+  await Promise.all(curs.map(async c => {
+    const x = await get(`https://api.frankfurter.dev/v1/latest?from=${c}&to=MYR`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: j.date, src: "ECB (frankfurter.dev)" } : null)
+      || await get(`https://open.er-api.com/v6/latest/${c}`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: String(j.time_last_update_utc || "").slice(5, 16), src: "open.er-api.com" } : null);
+    if (x) LIVEFX[c] = x;
+  }));
+  if (Object.keys(LIVEFX).length) render();
+}
 function rateProxy(d) {
   const o = {}; for (const r of d.rates) o[r.id] = (+r.value) * fxOf(d, r.fx);
   return new Proxy(o, { get: (t, k) => (k in t ? t[k] : NaN) });
@@ -376,7 +391,11 @@ function renderBanners() {
 function fxChips(d) {
   const fx = (d.fx || []).filter(f => f.id !== "MYR");
   if (!fx.length) return `<span class="fx">MYR direct</span>`;
-  return fx.map(f => `<span class="fx" title="FX used for every ${esc(f.label.replace(" → MYR", ""))} cost on this page.${EDIT ? "" : " Log in and Edit costs to change it."}">${esc(f.label.replace(" → MYR", ""))} <b>${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}</b></span>`).join("");
+  return fx.map(f => {
+    const L = f.live && LIVEFX[f.live];
+    if (f.live) return `<span class="fx live" title="Live FX: ${L ? `${esc(L.src)}, ${esc(L.date)}` : "kadar live belum dapat — guna kadar simpanan"}. Kadar simpanan (sandaran): ${esc(String(+f.value))}.">${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+fxNum(f).toFixed(6)))}</b> <span class="small">${L ? "live · " + esc(L.date) : "simpanan"}</span>${EDIT && !VIEW ? ` · sandaran ${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}` : ""}</span>`;
+    return `<span class="fx" title="FX used for every ${esc(f.label.replace(" → MYR", ""))} cost on this page.${EDIT ? "" : " Log in and Edit costs to change it."}">${esc(f.label.replace(" → MYR", ""))} <b>${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}</b></span>`;
+  }).join("");
 }
 const flagsFor = code => FLAGS.flags.filter(f => f.code === code || (f.code === "ALL" && new RegExp("\\b" + code + "\\b").test(f.detail)));
 // TOs offered for a package: the ones its pax bands assign, plus its extra choices (Krabi Day-3 options).
@@ -487,7 +506,7 @@ function calcText(d, expr, pax, codes) {
   const fxs = [...new Set(ids.map(id => (fxOf(R[id]) || { id: "MYR" }).id))];
   const one = fxs.length === 1 ? fxOf(R[ids[0]]) : null;   // one foreign FX → multiply once at the end
   const fmt = v => (+v).toLocaleString("en-MY", { maximumFractionDigits: 6 });
-  const fxTxt = f => codes ? codes.fx[f.id] : fmt(f.value);
+  const fxTxt = f => codes ? codes.fx[f.id] : fmt(fxNum(f));
   e = e.replace(/\bN\b/g, fmt(+d.nights)).replace(/\bpax\b/g, `${pax} pax`)   // before the codes: "N" can be a code
     .replace(/R\.(\w+)/g, (m, id) => { const r = R[id]; if (!r) return m; const f = fxOf(r), t = codes ? codes.r[id] : cur(r) + fmt(r.value);
       return f && !one && fxs.length > 1 ? `{${t}*${fxTxt(f)}}` : t; })
@@ -523,7 +542,8 @@ function rateRef(d, pkg) {
   const cols = codes.rIds.map(id => { const r = R[id], [item, sup, note] = split(r.label || id);
       return { code: codes.r[id], item: item + (codes.pax[id] && !/\bpax\b/i.test(item) ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
     .concat(codes.fIds.map((id, i) => { const f = d.fx.find(x => x.id === id) || { label: id, value: "" };
-      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM"), sup: "", rate: String(f.value), note: f.source || "", fx: true, first: i === 0 }; }));
+      const L = f.live && LIVEFX[f.live];
+      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM") + (f.live ? (L ? " · live" : " · simpanan") : ""), sup: "", rate: String(+fxNum(f).toFixed(6)), note: L ? `${L.src}, ${L.date}` : f.source || "", fx: true, first: i === 0 }; }));
   const row = (lbl, k) => `<tr><th>${lbl}</th>${cols.map(c => `<td class="${c.first ? "rr-fx" : ""}"${k === "rate" && c.note ? ` title="${esc(c.note)}"` : ""}>${esc(c[k])}</td>`).join("")}</tr>`;
   return `<div class="card full" id="rateRef"><h2>Rate reference <span class="sub">${esc(pkg.label)} · codes used in Show calculation · hover a rate for its note</span></h2>
     <div class="scroll"><table class="ref"><thead><tr><th></th>${cols.map(c => `<th class="rr-code${c.first ? " rr-fx" : ""}">${c.code}</th>`).join("")}</tr></thead>
@@ -1313,6 +1333,7 @@ async function load() {
     const [d, h, u, fl] = await Promise.all([fetchJson(PATHS.data), fetchJson(PATHS.history).catch(() => ({ entries: [] })), fetchJson(PATHS.users).catch(() => ({ users: [] })), fetchJson(PATHS.flags).catch(() => ({ flags: [] }))]);
     DATA = d; BASE = clone(d); HISTORY = h; USERS = u; FLAGS = fl;
     if (!SEL.dest) { SEL.dest = DATA.destinations[0].code; }
+    loadLiveFx();
     window.__loadError = null;
   } catch (e) {
     window.__loadError = "Could not load cost data: " + e.message + (location.protocol === "file:" ? " — open this page through a web server (GitHub Pages or `python3 -m http.server`), not as a file." : "");

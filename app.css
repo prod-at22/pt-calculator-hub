@@ -266,3 +266,4 @@ textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%
 #hotels .h-am{display:flex;gap:4px;margin-top:4px}#hotels .h-am input{width:120px}#hotels .h-am span{font-size:.85em;background:#f4f4f4;border-radius:4px;padding:1px 5px}
 #hotels label.ck{white-space:nowrap;font-size:.85em}
 .h-pick{display:flex;flex-wrap:wrap;gap:4px 14px;margin:4px 0}.h-pick label.ck{font-size:.9em}
+.fx.live b{color:#0a7d33}.fx.live .small{opacity:.75}
