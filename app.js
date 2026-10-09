@@ -815,14 +815,14 @@ function accommodationCard(d) {
       : `<span title="${esc((cols(sl)[i] || {}).label || "")}">${esc((t.amounts || [])[i] ?? "—")}</span>`).join("")}</div>` : "";
     return `<td class="l"><label class="ck">${tick(h, sl, "acc")} Acc</label> <label class="ck">${tick(h, sl, "sur")} Surcharge</label>${am}</td>`;
   };
-  const row = h => `<tr><td class="l">${fld(h, "city", "bandar")}</td><td class="l">${fld(h, "type", "jenis (cth. 4 Star Hotel)")}</td><td class="l" style="min-width:220px">${fld(h, "name", "nama hotel")}</td>
+  const row = h => `<tr><td class="l">${fld(h, "city", "bandar")}</td><td class="l">${fld(h, "type", "jenis (cth. 4 Star Hotel)")}</td><td class="l" style="min-width:220px">${fld(h, "name", "nama hotel")}</td><td class="l" style="min-width:160px">${fld(h, "roomNote", "cth. triple = extra bed")}</td>
       <td class="c">${E ? `<input class="ed" type="number" min="0" max="5" data-path="${esc(JSON.stringify([...DP, "hotels", h.id, "stars"]))}" data-kind="num" value="${esc(h.stars ?? "")}">` : h.stars ? "★".repeat(h.stars) : ""}</td>
       <td class="c">${E ? `<input type="checkbox" class="hsim" data-hsim="${esc(JSON.stringify({ code: d.code, id: h.id }))}"${h.similar ? " checked" : ""}>` : h.similar ? "✓" : ""}</td>
       ${slugs.map(sl => cell(h, sl)).join("")}${E ? `<td><button class="btn danger" data-act="delHotel" data-id="${esc(h.id)}">Delete</button></td>` : ""}</tr>`;
   const head = slugs.map(sl => `<th class="l">${esc(sl)}${cols(sl).length ? `<div class="muted small">surcharge: ${cols(sl).map(c => esc(c.label)).join(" · ")}</div>` : ""}</th>`).join("");
   const hotelsCard = `<div class="card full" id="hotels"><h2>Accommodation <span class="sub">${H.length} hotel · satu senarai untuk katalog customer &amp; KB · Acc = bahagian Accommodation katalog · Surcharge = baris jadual surcharge hotel${E ? "" : " (Edit costs untuk ubah)"}</span></h2>
     ${E ? `<div class="body"><button class="btn" data-act="addHotel">+ Tambah hotel</button></div>` : ""}
-    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th>★</th><th>or similar</th>${head}${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
+    ${H.length ? `<div class="scroll"><table class="zebra"><thead><tr><th class="l">Bandar</th><th class="l">Jenis</th><th class="l">Hotel</th><th class="l" title="Ditunjuk dalam KB sahaja, bukan katalog customer">Nota bilik (KB)</th><th>★</th><th>or similar</th>${head}${E ? "<th></th>" : ""}</tr></thead><tbody>${H.map(row).join("")}</tbody></table></div>` : `<div class="empty">Tiada hotel lagi untuk ${esc(d.name)}.</div>`}
     <div class="note">Katalog customer dan tab Accommodation KB mencetak hotel yang ditanda, ikut susunan tanda (gambar hotel KB kekal di PT KB House). Lajur "Hotel" dalam itinerary harian kekal di tab Itinerary; tarikh &amp; kadar musim peak kekal di tab Surcharge.</div></div>`;
   return hotelsCard;
 }

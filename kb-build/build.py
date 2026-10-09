@@ -341,7 +341,8 @@ def acc_rows(hub, slug):
 
 
 def stay_html(hub, links, images=None):
-    """KB Accommodation tab: each package's hotels from the hub's Accommodation tab, as the catalog prints them.
+    """KB Accommodation tab: each package's hotels from the hub's Accommodation tab, as the catalog prints them,
+    + each hotel's room note (roomNote: triple / extra bed …, KB only) and the catalog's room-basis line.
     Images are cosmetics and stay in pt-kb-house (<slug>/hotel-images.json: {hotel id: "@asset:<key>" or [...]})."""
     images = images or {}
     parts = []
@@ -349,17 +350,21 @@ def stay_html(hub, links, images=None):
         rows = acc_rows(hub, slug)
         if not rows:
             continue
-        city = any(r.get("city") for r in rows)
+        city, rn = any(r.get("city") for r in rows), any(r.get("roomNote") for r in rows)
         def cell(r):
             im = images.get(r.get("id") or "") or []
             pic = "".join(f"<img class='accimg' src='{x}' alt='{_esc(r.get('name'))}' loading='lazy' style='display:inline-block;width:100%;max-width:220px;border-radius:8px;margin:0 6px 6px 0'>"
                           for x in ([im] if isinstance(im, str) else im))
             return pic + _esc(r.get("name")) + (" <small>or similar</small>" if r.get("similar") else "")
-        body = ("<table class='ctbl'><thead><tr>" + ("<th>Bandar</th>" if city else "") + "<th>Jenis</th><th>Hotel</th></tr></thead><tbody>"
+        body = ("<table class='ctbl'><thead><tr>" + ("<th>Bandar</th>" if city else "") + "<th>Jenis</th><th>Hotel</th>" + ("<th>Nota bilik</th>" if rn else "") + "</tr></thead><tbody>"
                 + "".join("<tr>" + (f"<td>{_esc(r.get('city'))}</td>" if city else "")
-                          + f"<td class='it'>{_esc(STARS.get(r.get('stars')) or r.get('type') or '')}</td><td>{cell(r)}</td></tr>" for r in rows)
+                          + f"<td class='it'>{_esc(STARS.get(r.get('stars')) or r.get('type') or '')}</td><td>{cell(r)}</td>" + (f"<td>{_esc(r.get('roomNote') or '')}</td>" if rn else "") + "</tr>" for r in rows)
                 + "</tbody></table>")
         cat = hub.cat(slug)
+        basis = [x if isinstance(x, str) else x.get("text") for n in cat.get("notes") or [] for x in n.get("entries") or []]
+        basis = [x for x in basis if x and re.search(r"(?i)per(sons?)? (per )?room|per room", x)]
+        if basis:
+            body += "<p class='custnote'>" + " · ".join(_esc(x) for x in basis) + "</p>"
         parts.append((f"{_esc(cat.get('title'))} · {_esc(cat.get('duration'))}", body))
     blocks = _dedupe(parts)
     if not blocks:

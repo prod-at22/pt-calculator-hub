@@ -135,6 +135,10 @@ def check(site, slug, data, hub):
         for h in cat.get("accommodation") or (cat.get("surcharge") or {}).get("rows") or []:
             if h.get("name") and text(h["name"]) not in stay:
                 errs.append(f"Accommodation tab: hotel {h['name']!r} ({slug}) missing")
+        for h in next((x for x in data["destinations"] if x["code"] == code), {}).get("hotels") or []:
+            t = (h.get("catalogs") or {}).get(slug) or {}
+            if h.get("roomNote") and ("acc" in t or "sur" in t) and text(h.get("name")) in stay and text(h["roomNote"]) not in stay:
+                errs.append(f"Accommodation tab: room note of {h.get('name')!r} ({slug}) missing")
     # dropdown (template KBs)
     m = build.PKGSEL.search((content.get("blocks") or {}).get("calc") or "") if not bespoke else None
     if m and "<option" in m.group(2):
