@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-09T12:19:08+08:00",
- "dataVersion": 41,
+ "generatedAt": "2026-10-09T14:53:05+08:00",
+ "dataVersion": 42,
  "flags": [
   {
    "code": "ACEHSBG",
@@ -17,8 +17,8 @@
    "package": null,
    "severity": "high",
    "area": "Margin",
-   "title": "Bangkok: margin problems in 6 package/TO lines",
-   "detail": "Bangkok Standard 4D3N · 3★ Almas — selling below cost Negative adult margin at pax 2–4, 10 (worst -9%) · Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 5–8 (lowest 3.7%) · Bangkok Standard 4D3N · 3★ Almas — CWB selling below cost Pax 2–8, 10 · Bangkok Standard 4D3N · 3★ Almas — CNB selling below cost Pax 2 · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — adult margin under 10% Pax 2, 26, 28–30 (lowest 6.8%) · Bangkok Standard 4D3N · 4★ Nouvo City / Zayn — CWB selling below cost Pax 28–30.",
+   "title": "Bangkok: margin problems in 4 package/TO lines",
+   "detail": "Bangkok Standard 4D3N · 3★ Almas — selling below cost Negative adult margin at pax 2–4, 10 (worst -9%) · Bangkok Standard 4D3N · 3★ Almas — adult margin under 10% Pax 5–8 (lowest 3.7%) · Bangkok Standard 4D3N · 3★ Almas — CWB selling below cost Pax 2–8, 10 · Bangkok Standard 4D3N · 3★ Almas — CNB selling below cost Pax 2.",
    "fix": "Check the CNB cost rule (% of adult) and the CNB catalog price. Check the CWB cost rule (% of adult) and the CWB catalog price. Raise the price for those pax or renegotiate the TO rate. Review the price for these pax or the TO rate.",
    "id": 2
   },
@@ -406,21 +406,11 @@
    "code": "BKK",
    "package": null,
    "severity": "low",
-   "area": "Coverage",
-   "title": "Bangkok: 2 package(s) without their own catalog",
-   "detail": "Bangkok Standard 4D3N · 4★ Nouvo City / Zayn; Bangkok Standard 4D3N · 5★ Al-Meroz. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
-   "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 41
-  },
-  {
-   "code": "BKK",
-   "package": null,
-   "severity": "low",
    "area": "Sheet",
    "title": "Bangkok: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 42
+   "id": 41
   },
   {
    "code": "DADH",
@@ -430,7 +420,7 @@
    "title": "Danang - Hoi An: 1 package(s) without their own catalog",
    "detail": "Danang - Hoi An 5D4N · 3★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 43
+   "id": 42
   },
   {
    "code": "HND",
@@ -440,7 +430,7 @@
    "title": "Tokyo: 1 package(s) without their own catalog",
    "detail": "Tokyo Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 44
+   "id": 43
   },
   {
    "code": "HNSH",
@@ -450,7 +440,7 @@
    "title": "Hanoi - Sapa - Halong Bay: 2 package(s) without their own catalog",
    "detail": "Hanoi - Halong Bay 4D3N; Hanoi - Sapa 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 45
+   "id": 44
   },
   {
    "code": "ISTBUR",
@@ -460,7 +450,7 @@
    "title": "Istanbul - Bursa: 7 add-on(s) without cost",
    "detail": "Uludag Snow Park 1D1N (2 pax); Uludag Snow Park 1D1N (3 pax); Uludag Snow Park 1D1N (4+ pax); Bosphorus Dinner Cruise; Topkapi Palace Entrance; Whirling Dervishes Show …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 46
+   "id": 45
   },
   {
    "code": "ISTBUR",
@@ -470,7 +460,7 @@
    "title": "Project PT sheet: ISTBUR and ISTCAP catalog names swapped",
    "detail": "Row ISTBUR shows \"PT ISTANBUL CAPPADOCIA 6D5N\"; row ISTCAP shows \"PT ISTANBUL BURSA 5D4N\".",
    "fix": "Swap the two Catalog cells in the Project PT Overview tab.",
-   "id": 47
+   "id": 46
   },
   {
    "code": "ISTCAP",
@@ -480,7 +470,7 @@
    "title": "Istanbul - Cappadocia: 1 package(s) without their own catalog",
    "detail": "Istanbul - Cappadocia Self Tour 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 48
+   "id": 47
   },
   {
    "code": "JJU",
@@ -490,7 +480,7 @@
    "title": "Jeju: 1 package(s) without their own catalog",
    "detail": "Jeju Self Tour 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 49
+   "id": 48
   },
   {
    "code": "KBV",
@@ -500,7 +490,7 @@
    "title": "Krabi: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 50
+   "id": 49
   },
   {
    "code": "KKK",
@@ -510,7 +500,7 @@
    "title": "KK Kundasang: 4 package(s) without their own catalog",
    "detail": "KK Kundasang Basic 3D2N · Guesthouse; KK Kundasang Standard 4D3N · Guesthouse; KK Kundasang Honeymoon 3D2N; KK Kundasang Honeymoon 4D3N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 51
+   "id": 50
   },
   {
    "code": "LOP",
@@ -520,7 +510,7 @@
    "title": "Lombok: 2 package(s) without their own catalog",
    "detail": "Lombok Honeymoon 4D3N · 3★; Lombok Honeymoon 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 52
+   "id": 51
   },
   {
    "code": "LTOBA",
@@ -530,7 +520,7 @@
    "title": "Medan - Lake Toba: 1 package(s) without their own catalog",
    "detail": "Medan - Lake Toba 4D3N · Samosir. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 53
+   "id": 52
   },
   {
    "code": "MLE",
@@ -540,7 +530,7 @@
    "title": "Maldives: 7 package(s) without their own catalog",
    "detail": "Maldives Basic 4D3N · High Season; Maldives Basic 4D3N · Peak Season; Maldives Combo Island 4D3N · High Season; Maldives Combo Island 4D3N · Peak Season; Maldives Combo Island 4D3N · Shoulder Season; Maldives Water Villa 4D3N · High Season; Maldives Water Villa 4D3N · Peak Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 54
+   "id": 53
   },
   {
    "code": "MLE",
@@ -550,7 +540,7 @@
    "title": "Maldives: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Acap.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 55
+   "id": 54
   },
   {
    "code": "NSNZ",
@@ -560,7 +550,7 @@
    "title": "New Zealand: 1 package(s) without their own catalog",
    "detail": "New Zealand North 6D5N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 56
+   "id": 55
   },
   {
    "code": "PDG",
@@ -570,7 +560,7 @@
    "title": "Padang - Bukittinggi: 1 package(s) without their own catalog",
    "detail": "Padang - Bukittinggi 4D3N · 4★. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 57
+   "id": 56
   },
   {
    "code": "PHT",
@@ -580,7 +570,7 @@
    "title": "Perhentian: 5 add-on(s) without cost",
    "detail": "Private Boat Transfer Return; Private Boat Island Hopping (5 snorkel pts); Single Supplement (BASIC); Single Supplement (STANDARD); Late Booking Surcharge",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 58
+   "id": 57
   },
   {
    "code": "PHU",
@@ -590,7 +580,7 @@
    "title": "Phuket: 8 package(s) without their own catalog",
    "detail": "Phuket Standard 4D3N · Marina 4★ · Low Season; Phuket Standard 4D3N · Ibis 3★ · High Season Jan–Apr; Phuket Standard 4D3N · Marina 4★ · High Season Jan–Apr; Phuket Standard 4D3N · Ibis 3★ · High Season Nov–Dec; Phuket Standard 4D3N · Marina 4★ · High Season Nov–Dec; Phuket Basic 4D3N (Phi Phi) · Marina 4★ · Low Season; Phuket Basic 4D3N (James Bond) · Ibis 3★ · Low Season; Phuket Basic 4D3N (James Bond) · Marina 4★ · Low Season. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 59
+   "id": 58
   },
   {
    "code": "PHU",
@@ -600,7 +590,7 @@
    "title": "Phuket: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Fyka.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 60
+   "id": 59
   },
   {
    "code": "SEL",
@@ -610,7 +600,7 @@
    "title": "Seoul: 15 add-on(s) without cost",
    "detail": "Hanbok Rental @ Gyeongbok Palace; Airport transfer Hotel/ICN ↔ Gimpo (7–9 pax); Malay student guide (F&E day); Driving outskirt Busan–Seoul (Solati 10–13 pax); Driver only — Seoul; Driver only — Nami …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 61
+   "id": 60
   },
   {
    "code": "SEL",
@@ -620,7 +610,7 @@
    "title": "Seoul: 1 package(s) without their own catalog",
    "detail": "Seoul Self Tour 5D4N. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 62
+   "id": 61
   },
   {
    "code": "SEM",
@@ -630,7 +620,7 @@
    "title": "Semporna: 6 package(s) without their own catalog",
    "detail": "Semporna Basic 3D2N · 2★ Water Chalet; Semporna Basic 3D2N · 3★ Mabul; Semporna Standard 4D3N · 2★ Water Chalet; Semporna Standard 4D3N · 3★ Singamata; Semporna Honeymoon · 1★ Water Chalet; Semporna Honeymoon · 2★ Water Chalet. Usually a hotel-tier upgrade, season or self-tour variant of a catalog package.",
    "fix": "If sold, add it to a catalog (or note it as an upgrade of the base package); otherwise remove it from the hub.",
-   "id": 63
+   "id": 62
   },
   {
    "code": "SUBB",
@@ -640,7 +630,7 @@
    "title": "Surabaya - Bromo - Malang: 8 add-on(s) without cost",
    "detail": "Water Fall Tumpak Sewu + Goa Tetes + Kapas Biru; Local Guide Tumpak Sewu; Kawah Ijen Tour; Semeru Lava Tour; ATV Semeru Rental (1 hour); Panorama Kapas Biru …",
    "fix": "Fill the cost on the Add-ons tab.",
-   "id": 64
+   "id": 63
   },
   {
    "code": "SUBB",
@@ -650,7 +640,7 @@
    "title": "Surabaya - Bromo - Malang: New PO is blank in the Project PT sheet",
    "detail": "The hub shows PO Aiman.",
    "fix": "Fill New PO in the Project PT sheet (and change it on the page).",
-   "id": 65
+   "id": 64
   }
  ]
 }
