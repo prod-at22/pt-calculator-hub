@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 52,
+ "version": 53,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -32862,7 +32862,7 @@
      "paxMin": 2,
      "paxMax": 40,
      "hotel": "4-Star (Kunming / Dali / Lijiang) — Country Inn / WenYue / Kyriad or similar",
-     "notes": "Kadar tour fare RMB dari PT KMGDL R&D (sheet CR), rujukan sahaja. Termasuk: 5 malam hotel 4★ + breakfast, private transport (10 jam), bullet train 2nd class (Kunming-Dali, Lijiang-Kunming), halal meals, entrance, boat Erhai, cable car Jade Dragon, buggy, airport transfer, English guide. Tipping RMB30/pax/hari × 6 hari (R&D tulis 7 hari — perlu disahkan). CWB 100%, CNB 80% tour fare.",
+     "notes": "Kadar tour fare RMB dari PT KMGDL R&D (sheet CR), rujukan sahaja. Termasuk: 5 malam hotel 4★ + breakfast, private transport (10 jam), bullet train 2nd class (Kunming-Dali, Lijiang-Kunming), halal meals, entrance, boat Erhai, cable car Jade Dragon, buggy, airport transfer, English guide. Tipping RMB30/pax/hari × 6 hari (PO 10 Oct 2026; R&D tulis 7 hari). CWB 100%, CNB 80% tour fare.",
      "components": [
       {
        "key": "fare",
@@ -32964,7 +32964,45 @@
    "catalogs": [
     "PT YUNNAN 3 WILAYAH 6D5N 2026 v1"
    ],
-   "contracts": []
+   "contracts": [],
+   "hotels": [
+    {
+     "id": "kmgdl-h01",
+     "city": "Kunming",
+     "name": "Country Inn & Suites by Radisson Hotel / Ramada Encore Hotel / Howard Johnson Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-3-wilayah-6d5n": {
+       "acc": 1
+      }
+     }
+    },
+    {
+     "id": "kmgdl-h02",
+     "city": "Dali",
+     "name": "WenYue Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-3-wilayah-6d5n": {
+       "acc": 2
+      }
+     }
+    },
+    {
+     "id": "kmgdl-h03",
+     "city": "Lijiang",
+     "name": "Kyriad Hotel",
+     "stars": 4,
+     "similar": true,
+     "catalogs": {
+      "yunnan-3-wilayah-6d5n": {
+       "acc": 3
+      }
+     }
+    }
+   ]
   },
   {
    "code": "KMGDLS",

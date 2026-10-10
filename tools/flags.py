@@ -49,7 +49,7 @@ MAP = {
     "tokyo-basic": ("HND", "basic"), "tokyo-standard": ("HND", "standard"),
     "tokyo-osaka-basic": ("KIX", "wif-bsc"), "tokyo-osaka-standard": ("KIX", "qay-ucop-std-wif-std"),
     "turki-klasik-basic": ("TUR", "mytrip-bsc-3star"), "turki-klasik-std": ("TUR", "mytrip-std-3star"),
-    "yunnan-4-wilayah": ("KMGDLS", "tourdechina"), "yunnan-3-wilayah-6d5n": ("KMGDL", None),
+    "yunnan-4-wilayah": ("KMGDLS", "tourdechina"), "yunnan-3-wilayah-6d5n": ("KMGDL", "tourdechina"),
 }
 TYPES = ("adult", "cwb", "cnb")
 flags = []

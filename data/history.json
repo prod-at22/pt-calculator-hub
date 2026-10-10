@@ -39674,6 +39674,13 @@
     "R&D tipping says 7 days × ¥30 (¥210); package is 6D5N → 6 days (¥180) used — to confirm"
    ],
    "changes": []
+  },
+  {
+   "v": 53,
+   "at": "2026-10-10T15:26:11Z",
+   "by": "system",
+   "note": "Yunnan 3 Wilayah (PO 10 Oct 2026): tipping 6 days confirmed; the customer catalog yunnan-3-wilayah-6d5n is now linked to the KMGDL Costing package — its price table comes from the Catalog Price column (same amounts) and its 3 hotels from the Accommodation tab (moved from the catalog file); it has no add-ons",
+   "changes": []
   }
  ]
 }
