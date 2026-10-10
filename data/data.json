@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 47,
+ "version": 48,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -34022,6 +34022,10 @@
       }
      }
     }
+   ],
+   "hideTabs": [
+    "flags",
+    "history"
    ]
   },
   {

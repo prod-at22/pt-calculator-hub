@@ -39606,6 +39606,13 @@
     "28 KB rebuilt"
    ],
    "changes": []
+  },
+  {
+   "v": 48,
+   "at": "2026-10-10T04:26:56Z",
+   "by": "system",
+   "note": "Beijing page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flag and history records are kept; the header History button opens the hub-wide history",
+   "changes": []
   }
  ]
 }
