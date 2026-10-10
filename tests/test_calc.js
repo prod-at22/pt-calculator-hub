@@ -634,6 +634,10 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
       const rows = [...doc.querySelectorAll("#rndCard tbody tr:not(.cat)")], tiers = kb0.calc.variants.reduce((s, v) => s + (v.tiers || []).length, 0);
       ok(rows.length >= tiers && rows.some(r => /Costing ·/.test(r.textContent) && /auto/.test(r.textContent)), "Simple Calculator (R&D): every Sales price as a row; package tiers costed from Costing (auto)");
       ok(doc.querySelectorAll(".rnd-chips button").length === 5 && /Tiada kos/.test(doc.querySelector(".rnd-chips").textContent), "Simple Calculator (R&D): status filter Rugi / Bawah min / Tiada kos / OK / Potongan");
+      const tc = rows.find(r => /\[Tokyo City\]/.test(r.textContent) && /1–7 pax/.test(r.textContent)), hnd = byCode(w.PTCALC.DATA, "HND"), q = hnd.rates.find(r => r.id === "qCity"), fx = hnd.fx.find(f => f.id === q.fx).value;
+      ok(tc && /HND: qCity/.test(tc.textContent) && tc.textContent.includes("RM" + Math.round(q.value * fx).toLocaleString("en-MY")), "Simple Calculator (R&D): extra day Tokyo City 1–7 pax costed by formula on the HND rate qCity × FX");
+      const t9 = rows.find(r => /\[Tokyo City\]/.test(r.textContent) && /9–12 pax/.test(r.textContent));
+      ok(t9 && /wCity1012 \+ gFull \+ gAcc \+ gMeal \+ gTrn/.test(t9.textContent) && /kos tertinggi dalam band: 10 pax/.test(t9.textContent), "formula shown as used in the band (band(pax, …) resolved), worst pax named");
     }
     ok(doc.querySelector("#kb-calc-cfg #calc-tiers") && doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length, "Simple Calculator (R&D): full Sales calculator config below the price list");
     ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Sales calculator config: add-ons table + Muat turun .md");
@@ -651,7 +655,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
       const ri = doc.querySelector('#rndCard input[data-rndlink]'), key = JSON.parse(ri.dataset.rndlink).key; ri.value = "12.5"; fire(w, ri, "change"); await tick(10);
       ok(w.PTCALC.KBEDIT().jepun.rnd.cost[key].rm === 12.5, "Edit costs: manual cost saved into the KB file (rnd.cost, not published to the KB)");
       const r2 = doc.querySelector('#rndCard input[data-rndlink]'); r2.value = ""; fire(w, r2, "change"); await tick(10);
-      ok(!w.PTCALC.KBEDIT().jepun.rnd, "clearing the cost removes the rnd entry");
+      ok(!((w.PTCALC.KBEDIT().jepun.rnd || {}).cost || {})[key], "clearing the cost removes that row's link");
     }
     let ta = doc.querySelector("#kb-calc-edit textarea"); ta.value = "{ broken"; fire(w, ta, "change"); await tick(10);
     ok(doc.querySelector("#btnSave").textContent.includes("(1)"), "broken calculator JSON is not accepted");

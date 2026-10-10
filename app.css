@@ -275,3 +275,4 @@ textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%
 .rnd-t td{vertical-align:top}.rnd-t tr.rnd-loss td{background:#fdecec}.rnd-t tr.rnd-low td{background:#fff7e6}
 .rnd-link{display:flex;gap:4px;margin-top:4px}.rnd-link select{max-width:230px;font-size:12px}.rnd-link input{width:90px;font-size:12px}
 .rnd-chips{display:flex;flex-wrap:wrap;gap:6px}
+.rnd-expr{flex:1;min-width:200px;font-family:var(--mono,monospace);font-size:12px}.rnd-f{font-family:ui-monospace,Menlo,monospace}
