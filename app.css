@@ -271,3 +271,10 @@ textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%
 /* Simple Calculator tab: config as tables */
 .calc-t td,.calc-t th{vertical-align:top}.calc-t input.txt{min-width:160px}.calc-t textarea{min-width:220px;font:inherit;font-size:12px}
 .calc-pkg{margin:0 0 14px}.calc-pkg h3{margin:6px 0 2px}.calc-row{display:flex;flex-wrap:wrap}
+/* Simple Calculator (Costing-based) */
+.qc-in{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}.qc-f{display:flex;flex-direction:column;font-size:.85em;gap:2px}
+.qc-f input{width:80px;font:inherit;font-size:14px;padding:4px 6px}.qc-f.grow{flex:1;min-width:260px}.qc-f input[disabled]{width:auto;min-width:160px;background:#f6f6f6}
+.qc-adj{display:flex;gap:6px}.qc-adj input[type=text]{flex:1;width:auto}.qc-adj input[type=number]{width:110px}
+.qc-ao{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:4px 14px;margin-top:6px}.qc-ao-i{font-size:.9em}.qc-ao-i input{width:52px}
+.qc-t td,.qc-t th{white-space:nowrap}.qc-t td.l{white-space:normal}
+.qc-sum{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:12px 16px}.qc-sum>div{background:#f7f7f9;border-radius:8px;padding:8px 12px;display:flex;flex-direction:column}.qc-sum span{font-size:.8em;color:#666}.qc-sum b{font-size:1.25em}

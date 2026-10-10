@@ -20,7 +20,7 @@ let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, qc: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
 const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["accommodation", "Accommodation"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
 // each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
 // A destination can hide tabs (data.json destinations[].hideTabs, e.g. ["flags", "history"] for Bangkok, PO 10 Oct 2026).
@@ -146,13 +146,14 @@ const fxNum = f => f && f.live && LIVEFX[f.live] ? LIVEFX[f.live].rate : f ? +f.
 const fxOf = (d, id) => fxNum(d.fx.find(x => x.id === id));
 async function loadLiveFx() {
   const curs = [...new Set((DATA.destinations || []).flatMap(d => (d.fx || []).filter(f => f.live).map(f => f.live)))].filter(c => !LIVEFX[c]);
-  const get = async (url, pick) => { const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 6000);
-    try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) return null; return pick(await r.json()); } catch (_) { return null; } finally { clearTimeout(t); } };
-  await Promise.all(curs.map(async c => {
-    const x = await get(`https://api.frankfurter.dev/v1/latest?from=${c}&to=MYR`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: j.date, src: "ECB (frankfurter.dev)" } : null)
-      || await get(`https://open.er-api.com/v6/latest/${c}`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: String(j.time_last_update_utc || "").slice(5, 16), src: "open.er-api.com" } : null);
-    if (x) LIVEFX[c] = x;
-  }));
+  if (!curs.length) return;
+  const get = async url => { const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 6000);
+    try { const r = await fetch(url, { signal: ctl.signal }); return r.ok ? await r.json() : null; } catch (_) { return null; } finally { clearTimeout(t); } };
+  // one request, MYR → each currency, then 1 ÷ rate (MYR → IDR / KRW keeps full precision; IDR → MYR would be rounded)
+  const put = (rates, date, src) => { for (const c of curs) if (!LIVEFX[c] && rates && +rates[c] > 0) LIVEFX[c] = { rate: 1 / +rates[c], date, src }; };
+  const j = await get(`https://api.frankfurter.dev/v1/latest?from=MYR&to=${curs.join(",")}`);
+  if (j) put(j.rates, j.date, "ECB (frankfurter.dev)");
+  if (curs.some(c => !LIVEFX[c])) { const k = await get("https://open.er-api.com/v6/latest/MYR"); if (k) put(k.rates, String(k.time_last_update_utc || "").slice(5, 16), "open.er-api.com"); }
   if (Object.keys(LIVEFX).length) render();
 }
 function rateProxy(d) {
@@ -395,7 +396,7 @@ function fxChips(d) {
   if (!fx.length) return `<span class="fx">MYR direct</span>`;
   return fx.map(f => {
     const L = f.live && LIVEFX[f.live];
-    if (f.live) return `<span class="fx live" title="Live FX: ${L ? `${esc(L.src)}, ${esc(L.date)}` : "kadar live belum dapat — guna kadar simpanan"}. Kadar simpanan (sandaran): ${esc(String(+f.value))}.">${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+fxNum(f).toFixed(6)))}</b> <span class="small">${L ? "live · " + esc(L.date) : "simpanan"}</span>${EDIT && !VIEW ? ` · sandaran ${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}` : ""}</span>`;
+    if (f.live) return `<span class="fx live" title="Live FX: ${L ? `${esc(L.src)}, ${esc(L.date)}` : "kadar live belum dapat — guna kadar simpanan"}. Kadar simpanan (sandaran): ${esc(String(+f.value))}.">${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+fxNum(f).toPrecision(5)))}</b> <span class="small">${L ? "live · " + esc(L.date) : "simpanan"}</span>${EDIT && !VIEW ? ` · sandaran ${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}` : ""}</span>`;
     return `<span class="fx" title="FX used for every ${esc(f.label.replace(" → MYR", ""))} cost on this page.${EDIT ? "" : " Log in and Edit costs to change it."}">${esc(f.label.replace(" → MYR", ""))} <b>${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}</b></span>`;
   }).join("");
 }
@@ -432,7 +433,7 @@ function renderMain(d, pkg) {
   else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
   else if (T === "accommodation") $("#grid").innerHTML = accommodationCard(d);
   else if (T === "kbinfo") { $("#grid").innerHTML = kbInfoTab(d); kbFilter(); }
-  else if (T === "kbcalc") $("#grid").innerHTML = kbCalcTab(d);
+  else if (T === "kbcalc") $("#grid").innerHTML = quickCalcTab(d, pkg);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d, pkg) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -558,7 +559,7 @@ function rateRef(d, pkg) {
       return { code: codes.r[id], item: item + (codes.pax[id] && !/\bpax\b/i.test(item) ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
     .concat(codes.fIds.map((id, i) => { const f = d.fx.find(x => x.id === id) || { label: id, value: "" };
       const L = f.live && LIVEFX[f.live];
-      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM") + (f.live ? (L ? " · live" : " · simpanan") : ""), sup: "", rate: String(+fxNum(f).toFixed(6)), note: L ? `${L.src}, ${L.date}` : f.source || "", fx: true, first: i === 0 }; }));
+      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM") + (f.live ? (L ? " · live" : " · simpanan") : ""), sup: "", rate: String(+fxNum(f).toPrecision(5)), note: L ? `${L.src}, ${L.date}` : f.source || "", fx: true, first: i === 0 }; }));
   const row = (lbl, k) => `<tr><th>${lbl}</th>${cols.map(c => `<td class="${c.first ? "rr-fx" : ""}"${k === "rate" && c.note ? ` title="${esc(c.note)}"` : ""}>${esc(c[k])}</td>`).join("")}</tr>`;
   return `<div class="card full" id="rateRef"><h2>Rate reference <span class="sub">${esc(pkg.label)} · codes used in Show calculation · hover a rate for its note</span></h2>
     <div class="scroll"><table class="ref"><thead><tr><th></th>${cols.map(c => `<th class="rr-code${c.first ? " rr-fx" : ""}">${c.code}</th>`).join("")}</tr></thead>
@@ -991,7 +992,7 @@ function kbInfoTab(d) {
       + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("acts", "Aktiviti", V.acts)
       + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${KB_FROM_HUB[k] ? ` <span class="muted small">— nota KB sahaja; ${KB_FROM_HUB[k]}</span>` : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
       + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
-      + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("");
+      + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("") + kbCalcConfig(d);
   }
   const A = g(V.attractions) || [];
   const attr = A.map(a => `<div class="kb-attr" data-kbtext="${esc(kbTxt([a.n, a.t, a.short, a.intro, (a.hi || []).join(" "), a.best, a.muslim].join(" ")).toLowerCase())}">
@@ -1011,7 +1012,7 @@ function kbInfoTab(d) {
   const ownCard = own ? card("own", "Pakej tanpa katalog", "data KB sendiri — pakej lain: harga di tab Costing, itinerary &amp; termasuk / tidak termasuk di tab Itinerary", own) : "";
   return head + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
     + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + ownCard + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
-    + card("mkt", "Marketing", "", mk);
+    + card("mkt", "Marketing", "", mk) + kbCalcConfig(d);
 }
 // Simple Calculator: the KB calculator's config (data/kb/<slug>.json `calc` = <slug>/calc-config.json) shown as plain
 // tables in Bahasa Melayu, edited in place in Edit costs; "Muat turun .md" gives the same as a Markdown file.
@@ -1097,18 +1098,60 @@ function calcMd(name, cal, links) {
   if (cal.library) md += "## Pustaka hari\n\n" + tbl(["Kumpulan", "Hari", "Hotel", "Meal", "Transport", "Aktiviti"], cal.library.map(x => [x.g, x.t, x.acc, x.meal, x.trp, x.act || []]));
   return md;
 }
-function kbCalcTab(d) {
-  const x = kbDoc(d.code);
-  if (x === undefined) return `<div class="card full"><div class="empty">${KB.err ? esc(KB.err) : "Loading KB…"}</div></div>`;
-  if (!x) return `<div class="card full"><div class="empty">${esc(d.name)} has no Simple Calculator (no PT KB House page).</div></div>`;
-  const { sl, kb, ix } = x, E = EDIT && !VIEW, links = (kb.map || {}).variants || {}, cal = kb.calc || {};
-  return `<div class="card full kb"><h2>Simple Calculator · ${esc(ix.name)} <span class="sub">${(cal.variants || []).length} pakej · deposit RM${esc(String(cal.deposit ?? "—"))}</span>
-      <span class="right"><button class="btn" data-act="calcMd" data-code="${esc(d.code)}">Muat turun .md</button></span></h2>
-    <div class="body small muted">Semua nombor kalkulator quotation KB, dalam bentuk jadual. ${E ? "Ubah terus dalam jadual, kemudian <b>Save</b> — KB dan kalkulator dibina semula (~1–2 min)." : "Tekan Edit costs untuk ubah."}</div></div>
+// The KB's own Simple Calculator config (data/kb/<slug>.json `calc` = <slug>/calc-config.json), shown at the end of
+// Info KB as plain tables; the hub's Simple Calculator tab is the Costing-based quick calculator (quickCalcTab).
+function kbCalcConfig(d) {
+  const x = kbDoc(d.code); if (!x) return "";
+  const { sl, kb } = x, E = EDIT && !VIEW, links = (kb.map || {}).variants || {}, cal = kb.calc || {};
+  return `<div class="card full kb" id="kb-calc-cfg"><details${E ? " open" : ""}><summary><b>Kalkulator dalam KB (config)</b> <span class="sub">${(cal.variants || []).length} pakej · nombor kalkulator di halaman PT KB House${E ? " · ubah terus dalam jadual, kemudian Save" : ""}</span></summary>
+      <div class="body"><button class="btn" data-act="calcMd" data-code="${esc(d.code)}">Muat turun .md</button></div>
     ${kbCalcForm(sl, cal, links, E)}
     ${E ? `<div class="card full kb" id="kb-calc-edit"><details><summary><b>Lanjutan: config penuh (JSON)</b> <span class="sub">${esc(sl)}/calc-config.json — itinerary pakej, inclusions dan medan lain</span></summary><div class="body">
       <div class="small muted">Mesti JSON yang sah; JSON rosak tidak diterima. Harga tier pakej yang dipaut ke Costing ditulis semula dari Costing semasa build.</div>
-      <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></details></div>` : ""}`;
+      <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></details></div>` : ""}</details></div>`;
+}
+// Simple Calculator tab: a quotation worked out with the Costing tab's own logic — Selling Price / cost per adult, CWB, CNB
+// and infant at the group's pax (priceRow, TO picked by pax as on Costing, live FX), + Add On items × qty
+// (SEL.addonQty, same as the Add On tab) + one manual line. Total, cost, margin, per pax, deposit.
+function quickCalcTab(d, pkg) {
+  const Q = SEL.qc[d.code] ||= { a: 2, c: 0, n: 0, i: 0, adj: 0, adjLbl: "" };
+  const pax = Q.a + Q.c + Q.n, vid = pax ? (SEL.variant !== "auto" ? SEL.variant : assignedVariantId(pkg, pax)) : null;
+  const r = vid ? priceRow(d, pkg, vid, pax) : null, v = r && r.variant;
+  const lines = [];
+  const add = (label, qty, sell, cost, note) => { if (qty) lines.push({ label, qty, sell, cost, note }); };
+  if (r) {
+    add("Adult", Q.a, r.adult.selling, r.adult.cost);
+    add("Child with bed (CWB)", Q.c, r.cwb.selling, r.cwb.cost);
+    add("Child no bed (CNB)", Q.n, r.cnb.selling, r.cnb.cost);
+    add("Infant", Q.i, r.infant.selling, r.infant.cost);
+  }
+  for (const a of d.addons || []) { const q = +SEL.addonQty[a.id] || 0; add(a.label, q, num(a.selling) ? +a.selling : NaN, num(a.cost) ? +a.cost : NaN, "Add On" + (a.per ? " · per " + a.per : "")); }
+  if (+Q.adj) lines.push({ label: Q.adjLbl || "Pelarasan / surcaj", qty: 1, sell: +Q.adj, cost: 0, note: "manual" });
+  const tot = k => lines.reduce((s, l) => s + l.qty * l[k], 0);
+  const sell = tot("sell"), cost = tot("cost"), marg = sell - cost, okAll = lines.every(l => num(l.sell) && num(l.cost));
+  const slug = (catalogSlugs(pkg, d) || [])[0], cat = slug && CAT.docs[slug];
+  if (slug && !cat && !CAT.err) loadCatalog(slug + ".json", x => { CAT.docs[slug] = x; });
+  const depM = cat && (cat.deposit || []).map(x => /RM\s?([\d,]+)/.exec(String(x.figure || "") + " " + String(x.text || ""))).find(Boolean);
+  const dep = depM ? +depM[1].replace(/,/g, "") * pax : NaN;
+  const inp = (k, lbl, min = 0) => `<label class="qc-f">${lbl}<input type="number" min="${min}" max="99" data-qc="${k}" value="${Q[k]}"></label>`;
+  const addons = (d.addons || []).filter(a => num(a.selling));
+  const warn = !pax ? "Isi sekurang-kurangnya 1 pax (adult / CWB / CNB)." : !v ? `Tiada TO untuk ${pax} pax dalam pakej ini.` : !num(r.adult.selling) ? `Tiada Catalog Price untuk ${pax} pax.` : !num(r.adult.cost) ? `Tiada kos TO untuk ${pax} pax.` : "";
+  return `<div class="card full" id="qcCard"><h2>Simple Calculator · ${esc(pkg.label)} <span class="sub">logik tab Costing: Selling Price = Catalog Price − RM${n2(sellDisc())} · kos ikut TO &amp; FX semasa</span></h2>
+    <div class="body qc-in">${inp("a", "Adult")}${inp("c", "CWB")}${inp("n", "CNB")}${inp("i", "Infant")}
+      <label class="qc-f">Tour operator<input disabled value="${esc(v ? v.label : "—")}${pax ? ` (${pax} pax)` : ""}"></label>
+      <label class="qc-f grow">Pelarasan / surcaj (RM, jumlah)<span class="qc-adj"><input type="text" data-qc="adjLbl" placeholder="cth. Peak season 2 × 3 malam" value="${esc(Q.adjLbl)}"><input type="number" step="any" data-qc="adj" value="${Q.adj || ""}" placeholder="0"></span></label></div>
+    ${warn ? `<div class="body"><span class="pill bad">${esc(warn)}</span></div>` : ""}
+    ${addons.length ? `<details class="body"${Object.values(SEL.addonQty).some(Boolean) ? " open" : ""}><summary><b>Add On</b> <span class="muted small">${addons.length} item · qty sama dengan tab Add On</span></summary><div class="qc-ao">${addons.map(a => `<label class="qc-ao-i"><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${+SEL.addonQty[a.id] || ""}" placeholder="0"> ${esc(a.label)} <span class="muted small">${rm(+a.selling)}${a.per ? " / " + esc(a.per) : ""}</span></label>`).join("")}</div></details>` : ""}
+    <div class="scroll"><table class="rd qc-t"><thead><tr><th class="l">Item</th><th>Qty</th><th>Harga jual</th><th>Jumlah jual</th><th>Kos / unit</th><th>Jumlah kos</th></tr></thead><tbody>
+      ${lines.map(l => `<tr><td class="l">${esc(l.label)}${l.note ? ` <span class="muted small">${esc(l.note)}</span>` : ""}</td><td class="c">${l.qty}</td><td>${rm(l.sell)}</td><td><b>${rm(l.qty * l.sell)}</b></td><td>${rm(l.cost)}</td><td>${rm(l.qty * l.cost)}</td></tr>`).join("") || `<tr><td class="l muted" colspan="6">—</td></tr>`}
+    </tbody><tfoot><tr><th class="l">Jumlah</th><th></th><th></th><th>${rm(sell)}</th><th></th><th>${okAll ? rm(cost) : rm(NaN)}</th></tr></tfoot></table></div>
+    <div class="qc-sum">
+      <div><span>Grand total</span><b>${rm(sell)}</b></div>
+      <div><span>Per pax (purata, ${pax || 0} pax)</span><b>${pax ? rm(sell / pax) : "—"}</b></div>
+      <div><span>Margin</span><b class="${marginClass(okAll ? marg : NaN)}">${okAll ? rm(marg) : "—"}</b> <span class="small">${okAll && sell ? pct(marg / sell) : ""}</span></div>
+      <div><span>Deposit${depM ? ` (RM${esc(depM[1])} × ${pax} pax)` : ""}</span><b>${rm(dep)}</b></div>
+    </div>
+    <div class="body"><button class="btn" data-act="qcCopy">Salin ringkasan</button> <span class="muted small">Peak season / surcaj hotel: rujuk tab Surcharge dan isi di baris Pelarasan.</span></div></div>`;
 }
 function kbFilter() {
   const q = KB.q.trim().toLowerCase();
@@ -1490,6 +1533,13 @@ document.addEventListener("click", async e => {
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
+  if (t.dataset.act === "qcCopy") {
+    const rows = [...document.querySelectorAll("#qcCard .qc-t tbody tr")].map(r => [...r.children].slice(0, 4).map(c => c.textContent.trim().replace(/\s+/g, " ")));
+    const sum = [...document.querySelectorAll("#qcCard .qc-sum > div")].map(x => x.textContent.trim().replace(/\s+/g, " "));
+    const txt = [$("#qcCard h2").firstChild.textContent.trim(), ...rows.map(r => `${r[0]} × ${r[1]} @ ${r[2]} = ${r[3]}`), ...sum.filter(x => !/^Margin/.test(x))].join("\n");
+    (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => toast("Ringkasan disalin"), () => toast(txt, 8000));
+    return;
+  }
   if (t.dataset.act === "calcMd") {
     const x = kbDoc(t.dataset.code); if (!x) return;
     const doc = KB.edit[x.sl] || x.kb, md = calcMd(x.ix.name, doc.calc || {}, (doc.map || {}).variants || {});
@@ -1639,6 +1689,7 @@ document.addEventListener("input", e => {
 document.addEventListener("change", e => {
   const t = e.target;
   if (t.dataset && t.dataset.addon) { SEL.addonQty[t.dataset.addon] = Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
+  if (t.dataset && t.dataset.qc) { const Q = SEL.qc[SEL.dest] ||= {}, k = t.dataset.qc; Q[k] = k === "adjLbl" ? t.value : k === "adj" ? (+t.value || 0) : Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
   if (t.id && t.id.startsWith("opt_")) { (SEL.opt[SEL.dest] ||= {})[t.id.slice(4)] = t.value; return render(); }
   if (t.id === "flagArea") { SEL.flagArea = t.value; return render(); }
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }

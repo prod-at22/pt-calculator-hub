@@ -39613,6 +39613,36 @@
    "by": "system",
    "note": "Beijing page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flag and history records are kept; the header History button opens the hub-wide history",
    "changes": []
+  },
+  {
+   "v": 49,
+   "at": "2026-10-10T04:39:34Z",
+   "by": "system",
+   "note": "Live FX for every destination except Jepun (PO 10 Oct 2026): KRW, USD, EUR, IDR, AUD, NZD, RMB (CNY), THB, CHF follow today's ECB rate when the page opens (one request MYR → currencies, inverted for precision); stored values = fallback, set to ECB 9 Oct 2026. Japan's TO rates (WIF, Qayyum, UCOP) stay fixed",
+   "summary": [
+    "Costs that change with FX: Korea (ATK CR in KRW, was fixed 0.0030), Krabi (THB), Bangkok (THB), Beijing (RMB); other destinations keep MYR costs (FX shown only)",
+    "SEL KRW 0.003→0.00304516",
+    "SELJJU KRW 0.003→0.00304516",
+    "JJU KRW 0.003→0.00304516",
+    "JJUO KRW 0.003→0.00304516",
+    "TUR USD 3.97→4.08497",
+    "ISTBUR USD 3.97→4.08497",
+    "ISTCAP USD 4.0295→4.08497",
+    "ISTCAP EUR 4.6947→4.57771",
+    "DPS IDR 0.0002224864→0.000228462",
+    "LOP IDR 0.0002273265→0.000228462",
+    "JOG IDR 0.0002273265→0.000228462",
+    "MEL AUD 2.85→2.85177",
+    "PER AUD 2.853746→2.85177",
+    "NSNZ NZD 2.327024→2.29331",
+    "KMGDLS RMB 0.58→0.610426",
+    "PEK RMB 0.61043→0.610426",
+    "BKK THB 0.12146→0.121831",
+    "PHU THB 0.122→0.121831",
+    "KBV THB 0.122→0.121831",
+    "SWS CHF 5.058945→4.91545"
+   ],
+   "changes": []
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 48,
+ "version": 49,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -28,9 +28,10 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.003,
+     "value": 0.00304516,
      "locked": true,
-     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.003 (PO, ATK CR)",
+     "live": "KRW"
     }
    ],
    "rates": [],
@@ -1518,9 +1519,10 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.003,
+     "value": 0.00304516,
      "locked": true,
-     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.003 (PO, ATK CR)",
+     "live": "KRW"
     }
    ],
    "rates": [],
@@ -2116,9 +2118,10 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.003,
+     "value": 0.00304516,
      "locked": true,
-     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.003 (PO, ATK CR)",
+     "live": "KRW"
     }
    ],
    "rates": [],
@@ -3200,9 +3203,10 @@
     {
      "id": "KRW",
      "label": "KRW → MYR",
-     "value": 0.003,
+     "value": 0.00304516,
      "locked": true,
-     "source": "PO, 5 Oct 2026 (ATK CR in KRW × 0.0030)"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.003 (PO, ATK CR)",
+     "live": "KRW"
     }
    ],
    "rates": [],
@@ -3770,9 +3774,10 @@
     {
      "id": "USD",
      "label": "USD → MYR",
-     "value": 3.97,
+     "value": 4.08497,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 3.97 (tetap)",
+     "live": "USD"
     }
    ],
    "rates": [],
@@ -4797,9 +4802,10 @@
     {
      "id": "USD",
      "label": "USD → MYR",
-     "value": 3.97,
+     "value": 4.08497,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 3.97 (tetap)",
+     "live": "USD"
     }
    ],
    "rates": [],
@@ -5214,16 +5220,18 @@
     {
      "id": "USD",
      "label": "USD → MYR",
-     "value": 4.0295,
+     "value": 4.08497,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 4.0295 (tetap)",
+     "live": "USD"
     },
     {
      "id": "EUR",
      "label": "EUR → MYR",
-     "value": 4.6947,
+     "value": 4.57771,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 4.6947 (tetap)",
+     "live": "EUR"
     }
    ],
    "rates": [],
@@ -10548,9 +10556,10 @@
     {
      "id": "IDR",
      "label": "IDR → MYR",
-     "value": 0.0002224864,
+     "value": 0.000228462,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.0002224864 (tetap)",
+     "live": "IDR"
     }
    ],
    "rates": [],
@@ -12209,9 +12218,10 @@
     {
      "id": "IDR",
      "label": "IDR → MYR",
-     "value": 0.0002273265,
+     "value": 0.000228462,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.0002273265 (tetap)",
+     "live": "IDR"
     }
    ],
    "rates": [],
@@ -13000,9 +13010,10 @@
     {
      "id": "IDR",
      "label": "IDR → MYR",
-     "value": 0.0002273265,
+     "value": 0.000228462,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.0002273265 (tetap)",
+     "live": "IDR"
     }
    ],
    "rates": [],
@@ -23995,9 +24006,10 @@
     {
      "id": "AUD",
      "label": "AUD → MYR",
-     "value": 2.85,
+     "value": 2.85177,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 2.85 (tetap)",
+     "live": "AUD"
     }
    ],
    "rates": [],
@@ -25083,9 +25095,10 @@
     {
      "id": "AUD",
      "label": "AUD → MYR",
-     "value": 2.853746,
+     "value": 2.85177,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 2.853746 (tetap)",
+     "live": "AUD"
     }
    ],
    "rates": [],
@@ -26213,9 +26226,10 @@
     {
      "id": "NZD",
      "label": "NZD → MYR",
-     "value": 2.327024,
+     "value": 2.29331,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 2.327024 (tetap)",
+     "live": "NZD"
     }
    ],
    "rates": [],
@@ -32791,9 +32805,10 @@
     {
      "id": "RMB",
      "label": "RMB → MYR",
-     "value": 0.58,
+     "value": 0.610426,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.58 (tetap)",
+     "live": "CNY"
     }
    ],
    "rates": [],
@@ -33449,9 +33464,9 @@
     {
      "id": "RMB",
      "label": "RMB → MYR",
-     "value": 0.61043,
+     "value": 0.610426,
      "locked": true,
-     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 9 Oct 2026)",
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.61043 (tetap)",
      "live": "CNY"
     }
    ],
@@ -34047,9 +34062,9 @@
     {
      "id": "THB",
      "label": "THB → MYR",
-     "value": 0.12146,
+     "value": 0.121831,
      "locked": true,
-     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 8 Oct 2026)",
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.12146 (tetap)",
      "live": "THB"
     }
    ],
@@ -34606,9 +34621,10 @@
     {
      "id": "THB",
      "label": "THB → MYR",
-     "value": 0.122,
+     "value": 0.121831,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.122 (tetap)",
+     "live": "THB"
     }
    ],
    "rates": [],
@@ -37576,9 +37592,10 @@
     {
      "id": "THB",
      "label": "THB → MYR",
-     "value": 0.122,
+     "value": 0.121831,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 0.122 (tetap)",
+     "live": "THB"
     }
    ],
    "rates": [
@@ -39294,9 +39311,10 @@
     {
      "id": "CHF",
      "label": "CHF → MYR",
-     "value": 5.058945,
+     "value": 4.91545,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09); dulu 5.058945 (tetap)",
+     "live": "CHF"
     }
    ],
    "rates": [],

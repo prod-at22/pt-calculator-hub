@@ -120,30 +120,32 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const s = byCode(D, "SEL"), b = s.packages.find(p => p.id === "atk-bsc"), st = s.packages.find(p => p.id === "atk-std");
     const r = (pk, v, p) => P.priceRow(s, pk, v, p);
-    ok(s.fx.find(f => f.id === "KRW").value === 0.003, "KRW FX 0.0030");
-    ok(near(r(b, "ATK-BSC", 2).adult.cost, 858261 * 0.003) && near(r(b, "ATK-BSC", 10).adult.cost, 581256 * 0.003) && near(r(b, "ATK-BSC", 25).adult.cost, 442351 * 0.003), "Basic = CR KRW × 0.0030 (2/10/25 pax)");
-    ok(near(r(st, "ATK-STD", 2).adult.cost, 1224774 * 0.003) && near(r(st, "ATK-STD", 42).adult.cost, 420726 * 0.003), "Standard = CR KRW × 0.0030 (2/42 pax)");
+    const KRW = s.fx.find(f => f.id === "KRW").value;
+    ok(s.fx.find(f => f.id === "KRW").live === "KRW" && KRW > 0.002 && KRW < 0.004, "KRW FX live (stored fallback " + KRW + ")");
+    ok(near(r(b, "ATK-BSC", 2).adult.cost, 858261 * KRW) && near(r(b, "ATK-BSC", 10).adult.cost, 581256 * KRW) && near(r(b, "ATK-BSC", 25).adult.cost, 442351 * KRW), "Basic = CR KRW × live KRW FX (2/10/25 pax)");
+    ok(near(r(st, "ATK-STD", 2).adult.cost, 1224774 * KRW) && near(r(st, "ATK-STD", 42).adult.cost, 420726 * KRW), "Standard = CR KRW × live KRW FX (2/42 pax)");
     ok(!isFinite(r(b, "ATK-BSC", 26).adult.cost), "Basic 26+ pax: not in the CR → no cost");
     ok(s.variants.filter(v => v.id !== "ATK-ST").every(v => v.components.length === 1), "one cost line (not broken down)");
     const sp = await boot(repo, "sel/", "?pkg=atk-bsc");
     const sh = [...sp.doc.querySelectorAll("#costPax tr.blk-head th")].map(x => x.textContent);
     ok(!sh.includes("Source"), "costing table has no Source column");
-    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,575", "Seoul costing: no breakdown column, Cost/Pax = 858,261 KRW × 0.0030");
-    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 858261 * 0.003 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
+    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === Math.round(858261 * KRW).toLocaleString("en-US"), "Seoul costing: no breakdown column, Cost/Pax = 858,261 KRW × live KRW FX");
+    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 858261 * KRW * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
     ok(s.contracts.length === 3 && s.contracts.every(c => /ATK_CR_2026_Korea/.test(c.file) && fs.existsSync(path.join(ROOT, c.file))), "SEL TO Contract Rate = ATK CR 2026 (KRW xlsx + rates + terms) only");
     const ev = s.addons.find(x => x.label === "Everland ticket");
-    ok(ev && near(ev.cost, 40700 * 0.003, 0.01) && ev.selling === 140, "Everland add-on: cost 40,700 KRW × 0.0030, selling RM140");
+    ok(ev && near(ev.cost, 40700 * 0.003, 0.01) && ev.selling === 140, "Everland add-on: cost stored in RM (40,700 KRW × 0.0030), selling RM140");
     ok(s.addons.find(x => x.label === "K-ETA").cost === 27 && s.addons.find(x => x.label.startsWith("Hanbok")).cost === null, "K-ETA cost RM27; Hanbok has no cost rate (null)");
   }
 
   console.log("1e. Seoul-Jeju, Jeju, Jeju-Udo = ATK CR 2026");
   {
+    const KRW = byCode(D, "SEL").fx.find(f => f.id === "KRW").value;
     const chk = (code, vid, exp) => { const d = byCode(D, code), pk = d.packages.find(p => p.assign.some(x => x.variant === vid));
       return Object.entries(exp).every(([p, c]) => near(P.priceRow(d, pk, vid, +p).adult.cost, c)) && !isFinite(P.priceRow(d, pk, vid, 26).adult.cost)
         && d.variants.find(v => v.id === vid).components.length === 1; };
-    ok(chk("SELJJU", "ATK-STD", { 2: 1769500 * 0.003, 9: 1138111 * 0.003, 25: 865000 * 0.003 }), "SELJJU = CR KRW × 0.0030, none at 26");
-    ok(chk("JJU", "ATK-PT", { 2: 943000 * 0.003, 9: 521889 * 0.003, 25: 353000 * 0.003 }), "JJU = CR KRW × 0.0030");
-    ok(chk("JJUO", "ATK-STD", { 2: 1442257 * 0.003, 10: 783357 * 0.003, 25: 571827 * 0.003 }), "JJUO = CR KRW × 0.0030");
+    ok(chk("SELJJU", "ATK-STD", { 2: 1769500 * KRW, 9: 1138111 * KRW, 25: 865000 * KRW }), "SELJJU = CR KRW × live KRW FX, none at 26");
+    ok(chk("JJU", "ATK-PT", { 2: 943000 * KRW, 9: 521889 * KRW, 25: 353000 * KRW }), "JJU = CR KRW × live KRW FX");
+    ok(chk("JJUO", "ATK-STD", { 2: 1442257 * KRW, 10: 783357 * KRW, 25: 571827 * KRW }), "JJUO = CR KRW × live KRW FX");
     ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour keeps its component breakdown");
   }
 
@@ -626,10 +628,20 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const items = [...g.querySelectorAll("[data-kbtext]")];
     ok(items.some(x => x.style.display === "none") && items.some(x => x.style.display !== "none"), "Info KB search filters the attractions / FAQ");
     q.value = ""; q.dispatchEvent(new w.Event("input", { bubbles: true }));
-    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#calc-tiers"));
-    ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector('#grid a[href*="pt-kb-house"]'), "Simple Calculator tab: no embedded KB calculator / KB link");
-    ok(doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length && doc.querySelector("#calc-tiers").textContent.includes("Costing"), "Simple Calculator: every package with its price tiers (Costing-linked ones say so)");
-    ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Simple Calculator: add-ons as a table + Muat turun .md");
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#qcCard"));
+    ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector("#calc-tiers") && !doc.querySelector('#grid a[href*="pt-kb-house"]'), "Simple Calculator tab: Costing-based quick calculator, no KB calculator / config");
+    {
+      const PP = w.PTCALC, d0 = byCode(PP.DATA, PP.SEL.dest), pk0 = d0.packages.find(p => p.id === PP.SEL.pkg) || d0.packages[0];
+      const vid = pk0.assign.find(a => 2 >= a.from && 2 <= a.to).variant, r2 = PP.priceRow(d0, pk0, vid, 2);
+      const tf = doc.querySelector("#qcCard .qc-t tfoot").textContent.replace(/\s+/g, "");
+      ok(Number.isFinite(r2.adult.selling) && tf.includes("RM" + Math.round(2 * r2.adult.selling).toLocaleString("en-MY")), "Simple Calculator: 2 adults = 2 × Costing Selling Price at 2 pax");
+      const ci = doc.querySelector('[data-qc="c"]'); ci.value = "1"; fire(w, ci, "change"); await tick(10);
+      ok(doc.querySelector("#qcCard .qc-t").textContent.includes("CWB") && doc.querySelector('#qcCard input[disabled]').value.includes("3 pax"), "Simple Calculator: + 1 CWB → priced at 3 pax, CWB line");
+      const c2 = doc.querySelector('[data-qc="c"]'); c2.value = "0"; fire(w, c2, "change"); await tick(10);
+    }
+    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-calc-cfg #calc-tiers"));
+    ok(doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length && doc.querySelector("#calc-tiers").textContent.includes("Costing"), "Info KB: the KB calculator config — every package with its price tiers");
+    ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Info KB: KB calculator add-ons as a table + Muat turun .md");
     const md = w.PTCALC.calcMd("Jepun", kb0.calc, kb0.map.variants);
     ok(md.includes("## Pakej & harga tier") && md.includes("| Pax | Adult | CWB | CNB |"), "calculator config as Markdown");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
@@ -637,7 +649,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const mp = JSON.stringify(["jepun", "content", "attractions", 0, "muslim"]), mi = [...doc.querySelectorAll(".kbed")].find(x => x.dataset.kpath === mp);
     ok(mi, "Edit costs: attraction Muslim-friendly text is editable");
     mi.value = "Surau di stesen (diuji)"; fire(w, mi, "change"); await tick(10);
-    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
+    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
     let ta = doc.querySelector("#kb-calc-edit textarea"); ta.value = "{ broken"; fire(w, ta, "change"); await tick(10);
     ok(doc.querySelector("#btnSave").textContent.includes("(1)"), "broken calculator JSON is not accepted");
     const dep = [...doc.querySelectorAll("#calc-asas .kbed")].find(x => x.dataset.kpath === JSON.stringify(["jepun", "calc", "deposit"]));
