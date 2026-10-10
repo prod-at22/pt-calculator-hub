@@ -39643,6 +39643,16 @@
     "SWS CHF 5.058945→4.91545"
    ],
    "changes": []
+  },
+  {
+   "v": 50,
+   "at": "2026-10-10T06:43:19Z",
+   "by": "system",
+   "note": "Simple Calculator (R&D): cost of each Sales price can be a formula on the destination's Costing rates (live FX). Tokyo filled as the first example (jepun KB rnd.cost): extra day Tokyo City / Fuji = Qayyum qCity / qFuji for 1–7 pax, WIF van + guide (gFull+gAcc+gMeal+gTrn) for 8–12 pax, as the HND Costing builds the package; extra night = hotel3 (Basic) / apt (Standard)",
+   "kb": [
+    "jepun: rnd.cost (not published to the KB)"
+   ],
+   "changes": []
   }
  ]
 }

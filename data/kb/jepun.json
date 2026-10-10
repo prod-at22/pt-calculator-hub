@@ -5607,5 +5607,41 @@
    }
   ],
   "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel / apartment availability as no space has been secured. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date. Transport and guide are on a 10-hour basis; extra hours are charged 5,000 - 10,000 yen per hour, payable in cash directly to the driver / guide. Tipping is included. Itinerary, price and flight schedule are subject to change (weather, traffic, safety); final itinerary and hotel are confirmed 14 days (Tokyo / Osaka / Hokkaido) or 14 - 21 days (Tokyo&ndash;Osaka) before departure. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+ },
+ "rnd": {
+  "cost": {
+   "rate:day:[Tokyo City]:1-7": {
+    "expr": "band(pax,[7,R.qCity],[9,R.wCity89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wCity1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "rate:day:[Tokyo City]:8-8": {
+    "expr": "band(pax,[7,R.qCity],[9,R.wCity89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wCity1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "rate:day:[Tokyo City]:9-12": {
+    "expr": "band(pax,[7,R.qCity],[9,R.wCity89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wCity1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "rate:day:[Fuji]:1-7": {
+    "expr": "band(pax,[7,R.qFuji],[9,R.wFuji89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wFuji1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "rate:day:[Fuji]:8-8": {
+    "expr": "band(pax,[7,R.qFuji],[9,R.wFuji89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wFuji1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "rate:day:[Fuji]:9-12": {
+    "expr": "band(pax,[7,R.qFuji],[9,R.wFuji89+R.gFull+R.gAcc+R.gMeal+R.gTrn],[999,R.wFuji1012+R.gFull+R.gAcc+R.gMeal+R.gTrn])",
+    "code": "HND"
+   },
+   "vnight:tokyob": {
+    "expr": "R.hotel3",
+    "code": "HND"
+   },
+   "vnight:tokyos": {
+    "expr": "R.apt",
+    "code": "HND"
+   }
+  }
  }
 }
