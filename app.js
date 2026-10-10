@@ -23,6 +23,8 @@ let VIEW = null;      // {v, data} when viewing an older version
 const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
 const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["accommodation", "Accommodation"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
 // each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
+// A destination can hide tabs (data.json destinations[].hideTabs, e.g. ["flags", "history"] for Bangkok, PO 10 Oct 2026).
+const tabsFor = d => TABS.filter(([id]) => !((d && d.hideTabs) || []).includes(id));
 const CAT_TABS = ["itinerary", "surcharge", "expect", "policy"];
 const CONTRACT_MAX_MB = 25;   // per file; stored in the repo under contracts/<code>/
 let lastActivity = Date.now();
@@ -267,7 +269,7 @@ function render() {
   }
   SEL.dest = d.code;
   const pkg = curPkg(d); SEL.pkg = pkg.id;
-  if (!TABS.some(t => t[0] === SEL.tab)) SEL.tab = "costing";
+  if (!tabsFor(d).some(t => t[0] === SEL.tab)) SEL.tab = "costing";
   renderControls(d, pkg); renderMain(d, pkg);
 }
 // Hub: one row per package — name (links to its page), PO, last update.
@@ -420,7 +422,7 @@ function renderControls(d, pkg) {
         ${pkgVariants(d, pkg).map(v => `<option value="${v.id}"${SEL.variant === v.id ? " selected" : ""}>${esc(v.label)} (${v.paxMin}–${v.paxMax} pax)</option>`).join("")}
       </select></label>
     </div>
-    <nav class="tabsbar">${TABS.map(([id, l]) => `<button class="tabm${SEL.tab === id ? " on" : ""}" data-tabmain="${id}">${l}${id === "flags" && fl.length ? ` <span class="pill ${nh ? "bad" : "warn"}">${fl.length}</span>` : ""}</button>`).join("")}</nav>`;
+    <nav class="tabsbar">${tabsFor(d).map(([id, l]) => `<button class="tabm${SEL.tab === id ? " on" : ""}" data-tabmain="${id}">${l}${id === "flags" && fl.length ? ` <span class="pill ${nh ? "bad" : "warn"}">${fl.length}</span>` : ""}</button>`).join("")}</nav>`;
 }
 function renderMain(d, pkg) {
   const pax = bandPax();
@@ -1437,7 +1439,7 @@ document.addEventListener("click", async e => {
   if (t.id === "btnLogout") { if (pendingChanges().length && !confirm("Discard unsaved changes?")) return; SESSION = null; EDIT = false; DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; return render(); }
   if (t.id === "btnEdit") { EDIT = !EDIT; VIEW = null; return render(); }
   if (t.id === "btnAcct") return openAccount();
-  if ((t.id === "btnHistory" || t.dataset.act === "history") && PAGE_DEST) { SEL.tab = "history"; history.replaceState(null, "", "#history"); return render(); }
+  if ((t.id === "btnHistory" || t.dataset.act === "history") && PAGE_DEST && tabsFor(curDest()).some(x => x[0] === "history")) { SEL.tab = "history"; history.replaceState(null, "", "#history"); return render(); }
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
@@ -1663,6 +1665,6 @@ window.addEventListener("beforeunload", e => { if (pendingChanges().length) { e.
 setInterval(() => { if (SESSION && Date.now() - lastActivity > IDLE_LOGOUT_MS) { SESSION = null; EDIT = false; render(); toast("Logged out after 30 minutes idle", 5000); } }, 60000);
 
 if (SEL.tab === "catalog") SEL.tab = "itinerary";
-window.addEventListener("hashchange", () => { const h = location.hash.slice(1) === "catalog" ? "itinerary" : location.hash.slice(1); if (TABS.some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
+window.addEventListener("hashchange", () => { const h = location.hash.slice(1) === "catalog" ? "itinerary" : location.hash.slice(1); if (tabsFor(curDest()).some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
 window.PTCALC = { priceRow, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
 load().catch(() => { });
