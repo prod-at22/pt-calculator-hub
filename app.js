@@ -3,7 +3,7 @@
    REPO is the GitHub repository this page saves to. Viewing needs nothing;
    saving needs a username/password whose entry in data/users.json unlocks
    the repo token (see README). */
-const REPO = { owner: "prod-at22", name: "pt-calculator-hub", branch: "main" };
+const REPO = { owner: "prod-at22", name: "rnd-hub", branch: "main" };
 const ROOT = window.PT_ROOT || "";          // "../" on /<code>/ pages
 const PAGE_DEST = window.PT_DEST || null;   // destination code, null on the hub
 const PAGE_VIEW = window.PT_VIEW || null;   // "flags" on /flags/

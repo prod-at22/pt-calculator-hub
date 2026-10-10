@@ -1,11 +1,11 @@
 # Status & handoff (8 Oct 2026, data v28 — the hub is the source of truth)
 
-PT R&D Costing Hub (renamed 8 Oct; repo/URL unchanged). Live: https://prod-at22.github.io/pt-calculator-hub/ · repo `prod-at22/pt-calculator-hub` (gh CLI is logged in as prod-at22).
+PT R&D Costing Hub. Repo renamed 10 Oct 2026 `pt-calculator-hub` → `rnd-hub` (old Pages URL no longer works). Live: https://prod-at22.github.io/rnd-hub/ · repo `prod-at22/rnd-hub` (gh CLI is logged in as prod-at22).
 How everything works: README.md. This file = where we stopped. Reply to the PO in Bahasa Melayu.
 
 ## Start of a new session
 ```bash
-gh repo clone prod-at22/pt-calculator-hub && cd pt-calculator-hub
+gh repo clone prod-at22/rnd-hub && cd rnd-hub
 git config user.name "ezie ARBA" && git config user.email "eziearba@ezies-MacBook-Air.local"
 git config http.postBuffer 524288000          # contracts/ has large files
 npm i jsdom --no-save && node tests/test_calc.js   # must say ALL PASSED
@@ -125,7 +125,7 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
    problems in 11 lines and Perhentian Shari-La under 10% / CWB below cost (both from Selling = Catalog − RM200),
    Seoul-Jeju 2 pax 6.8% and Jeju-Udo 3.8% margin, Korea 26–30 pax no cost, Qayyum FX 0.026 (HND) vs 0.0259 (KIX).
 7. No costing in the hub yet: Yunnan 3 Wilayah, Ho Chi Minh, Maldives Standard (4★). Codes SNZ, NNZ, SUBM, KMGDL not on the hub.
-8. Login: admin must create a fine-grained token (Contents RW on pt-calculator-hub + Actions RW on catalog-pt-public and pt-kb-house) and do First-time setup on the live page (cannot be done for them). Password ≥ 10 characters.
+8. Login: admin must create a fine-grained token (Contents RW on rnd-hub + Actions RW on catalog-pt-public and pt-kb-house) and do First-time setup on the live page (cannot be done for them). Password ≥ 10 characters.
 9. Uploaded only files named PT from the Drive "Production Team" folder; unlabelled CRs (Perhentian resorts,
    Semporna Legend, Perth K&N, NZ price list, Pak Jamal, KK / Krabi / Maldives folders) were not uploaded.
 
