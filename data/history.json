@@ -39663,6 +39663,17 @@
     "jepun: rnd.cost (not published to the KB)"
    ],
    "changes": []
+  },
+  {
+   "v": 52,
+   "at": "2026-10-10T15:17:26Z",
+   "by": "system",
+   "note": "New destination KMGDL Yunnan 3 Wilayah 6D5N (PO 10 Oct 2026): Costing rate by rate from the Tourdechina tour fare in RMB (PT KMGDL R&D sheet CR, reference only) — 2–3 pax ¥6,800 · 4–5 ¥4,900 · 6–9 ¥4,250 · 10+ ¥3,300, tipping ¥30/pax/day × 6 days; RMB live FX; Catalog Price = the published catalog (2–14 pax). The customer catalog stays unlinked for now (its add-ons / hotels are not in the hub yet); the KB calculator's 3 Wilayah package is linked to this package",
+   "summary": [
+    "Cost/pax adult at FX 0.610426: 2–3 pax RM4,261 · 4–5 RM3,101 · 6–9 RM2,704 · 10–14 RM2,124",
+    "R&D tipping says 7 days × ¥30 (¥210); package is 6D5N → 6 days (¥180) used — to confirm"
+   ],
+   "changes": []
   }
  ]
 }

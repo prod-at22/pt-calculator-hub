@@ -52,6 +52,7 @@
          "variants": {"MLE-BASIC-LOW": "Resort / TO", "MLE-BASIC-HIGH": "Resort / TO", "MLE-BASIC-PEAK": "Resort / TO", "MLE-COMBO-LOW": "Resort package", "MLE-COMBO-HIGH": "Resort package",
                       "MLE-COMBO-PEAK": "Resort package", "MLE-COMBO-SHOULDER": "Resort package", "MLE-WATER-LOW": "Resort package", "MLE-WATER-HIGH": "Resort package", "MLE-WATER-PEAK": "Resort package"}},
  "KMGDLS": {"packages": {"tourdechina": "Yunnan 4 Wilayah 7D6N"}, "variants": {"TOURDECHINA": "Tourdechina"}},
+ "KMGDL": {"packages": {"tourdechina": "Yunnan 3 Wilayah 6D5N"}, "variants": {"TOURDECHINA": "Tourdechina"}},
  "PEK": {"packages": {"tourdechina": "Beijing Standard 5D4N"}, "variants": {"TOURDECHINA": "Tourdechina"}},
  "BKK": {"packages": {"chiwanon-almas-3-star": "Bangkok Standard 4D3N · 3★ Almas"},
          "variants": {"Chiwanon-Almas-3-Star": "Chiwanon"}},

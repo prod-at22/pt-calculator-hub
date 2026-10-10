@@ -6,6 +6,10 @@
    "w4": {
     "code": "KMGDLS",
     "package": "tourdechina"
+   },
+   "w3": {
+    "code": "KMGDL",
+    "package": "tourdechina"
    }
   },
   "packages": [
