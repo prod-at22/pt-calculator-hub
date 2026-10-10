@@ -9,7 +9,7 @@ see
 - **Costing by pax**: per pax, A + B + C + … (each component) = Cost, Cost + Margin = Selling, for pax 2–30,
 - **Add-ons**: cost, selling price, margin. Enter a qty to add them to the group total.
 
-Hub: `https://prod-at22.github.io/rnd-hub/` — a simple list like PT Catalog House, one row per catalog package (names from
+Hub: `https://prod-at22.github.io/pt-rnd-hub/` — a simple list like PT Catalog House, one row per catalog package (names from
 the Project PT sheet, `tools/catalogs.json`), its PO and last update, searchable. Each
 destination has its own link by code in lowercase, e.g. `/sel/`, `/seljju/`, `/hnd/`, `/kix/`,
 `/dps/`, `/mle/`, `/kbv/`, `/ltoba/` (Medan Lake Toba). 37 destinations are live; Yunnan 3
@@ -104,7 +104,7 @@ All editable in Edit costs and saved together (one commit, one History version).
 it runs `catalog-build/changed.py <last mirrored hub commit> <now>`, which resolves every catalog at both commits
 (content + Costing prices + Add On items) and rebuilds only those whose page differs (all of them when
 `catalog-build/` changed). The cron schedule in that workflow is only a fallback — GitHub runs it rarely.
-The admin's token therefore needs **Contents: Read and write on rnd-hub** and **Actions: Read and write
+The admin's token therefore needs **Contents: Read and write on pt-rnd-hub** and **Actions: Read and write
 on catalog-pt-public and pt-kb-house**; without the second the save still works and the page says the catalogs wait for the schedule. Catalogs without a Costing package /
 hub destination (Ho Chi Minh, Maldives 4 Star, Yunnan 3 Wilayah) keep printed amounts (and, for Ho Chi Minh and
 Yunnan 3 Wilayah, their own add-on list). Keep every pax in a band at the same Costing price — Flags warns.
@@ -165,10 +165,10 @@ TO formulas (in `data.json`) use `R.id` (a rate, already converted to MYR at its
 
 ## One-time setup (admin)
 
-1. Create a **public** repo `prod-at22/rnd-hub`, upload this folder, and turn on
+1. Create a **public** repo `prod-at22/pt-rnd-hub`, upload this folder, and turn on
    GitHub Pages (Settings → Pages → branch `main`, folder `/`).
 2. Create a **fine-grained personal access token** (GitHub → Settings → Developer settings →
-   Fine-grained tokens): *Repository access* = only `rnd-hub`, `pt-kb-house`, `catalog-pt-public`;
+   Fine-grained tokens): *Repository access* = only `pt-rnd-hub`, `pt-kb-house`, `catalog-pt-public`;
    *Permissions* → *Contents: Read and write* + *Actions: Read and write* (Actions lets Save start both
    mirrors). Nothing else. Set an expiry date and note it.
 3. Open the live page → **Log in to edit**. With no users yet it shows *First-time setup*: paste

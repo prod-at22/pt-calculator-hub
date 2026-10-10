@@ -50,7 +50,7 @@ async function boot(repo, page = "hnd/", query = "") {
     .replace(/<link rel="stylesheet"[^>]*>/, "");
   const errors = [];
   const dom = new JSDOM(html, {
-    url: "https://prod-at22.github.io/rnd-hub/" + page + query, runScripts: "dangerously", pretendToBeVisual: true,
+    url: "https://prod-at22.github.io/pt-rnd-hub/" + page + query, runScripts: "dangerously", pretendToBeVisual: true,
     beforeParse(w) {
       Object.defineProperty(w, "crypto", { value: globalThis.crypto });
       w.TextEncoder = TextEncoder; w.TextDecoder = TextDecoder;
@@ -62,7 +62,7 @@ async function boot(repo, page = "hnd/", query = "") {
           return mk(s, j);
         }
         // GitHub Pages serves the current head of the repo
-        const rel = new URL(String(url), w.location.href).pathname.replace("/rnd-hub/", "");
+        const rel = new URL(String(url), w.location.href).pathname.replace("/pt-rnd-hub/", "");
         const f = repo.files(repo.head)[rel];
         return f === undefined ? mk(404, {}) : { ok: true, status: 200, json: async () => JSON.parse(f) };
       };

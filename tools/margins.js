@@ -8,9 +8,9 @@ const html = fs.readFileSync(path.join(ROOT, "hnd", "index.html"), "utf8")
   .replace(/<script src="[^"]*app\.js[^"]*"><\/script>/, () => "<script>" + fs.readFileSync(path.join(ROOT, "app.js"), "utf8") + "</script>")
   .replace(/<link rel="stylesheet"[^>]*>/, "");
 const dom = new JSDOM(html, {
-  url: "https://x/rnd-hub/hnd/", runScripts: "dangerously", beforeParse(w) {
+  url: "https://x/pt-rnd-hub/hnd/", runScripts: "dangerously", beforeParse(w) {
     w.fetch = async u => {
-      const f = path.join(ROOT, new URL(String(u), w.location.href).pathname.replace("/rnd-hub/", ""));
+      const f = path.join(ROOT, new URL(String(u), w.location.href).pathname.replace("/pt-rnd-hub/", ""));
       return fs.existsSync(f) ? { ok: true, json: async () => JSON.parse(fs.readFileSync(f, "utf8")) } : { ok: false, status: 404 };
     };
   },
