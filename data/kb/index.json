@@ -200,7 +200,8 @@
  "yunnan": {
   "name": "Yunnan",
   "codes": [
-   "KMGDLS"
+   "KMGDLS",
+   "KMGDL"
   ],
   "url": "https://prod-at22.github.io/pt-kb-house/yunnan/"
  }

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 51,
+ "version": 52,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -32785,6 +32785,186 @@
      "catalogs": {}
     }
    ]
+  },
+  {
+   "code": "KMGDL",
+   "name": "Yunnan 3 Wilayah",
+   "country": "China",
+   "duration": "6D5N",
+   "nights": 5,
+   "po": "Amirul",
+   "source": "hub",
+   "note": "Costing dari PT KMGDL R&D (Drive, 16 Ogos 2026) sebagai rujukan sahaja — hub ialah sumber (PO 10 Oct 2026).",
+   "fx": [
+    {
+     "id": "MYR",
+     "label": "MYR",
+     "value": 1,
+     "locked": true
+    },
+    {
+     "id": "RMB",
+     "label": "RMB → MYR",
+     "value": 0.610426,
+     "locked": true,
+     "live": "CNY",
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09)"
+    }
+   ],
+   "rates": [
+    {
+     "id": "f2",
+     "label": "Tour fare 2–3 pax (Tourdechina)",
+     "value": 6800,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (rujukan: PT KMGDL R&D, sheet CR)"
+    },
+    {
+     "id": "f4",
+     "label": "Tour fare 4–5 pax (Tourdechina)",
+     "value": 4900,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (rujukan: PT KMGDL R&D, sheet CR)"
+    },
+    {
+     "id": "f6",
+     "label": "Tour fare 6–9 pax (Tourdechina)",
+     "value": 4250,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (rujukan: PT KMGDL R&D, sheet CR)"
+    },
+    {
+     "id": "f10",
+     "label": "Tour fare 10+ pax (Tourdechina)",
+     "value": 3300,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (rujukan: PT KMGDL R&D, sheet CR)"
+    },
+    {
+     "id": "tip",
+     "label": "Tipping, tidak termasuk dalam tour fare (Tourdechina)",
+     "value": 30,
+     "fx": "RMB",
+     "unit": "RMB/pax/hari",
+     "group": "Tipping"
+    }
+   ],
+   "tables": [],
+   "variants": [
+    {
+     "id": "TOURDECHINA",
+     "label": "Tourdechina",
+     "supplier": "TO TOURDECHINA — Yunnan 3 Wilayah 6D5N (Kunming-Dali-Lijiang)",
+     "paxMin": 2,
+     "paxMax": 40,
+     "hotel": "4-Star (Kunming / Dali / Lijiang) — Country Inn / WenYue / Kyriad or similar",
+     "notes": "Kadar tour fare RMB dari PT KMGDL R&D (sheet CR), rujukan sahaja. Termasuk: 5 malam hotel 4★ + breakfast, private transport (10 jam), bullet train 2nd class (Kunming-Dali, Lijiang-Kunming), halal meals, entrance, boat Erhai, cable car Jade Dragon, buggy, airport transfer, English guide. Tipping RMB30/pax/hari × 6 hari (R&D tulis 7 hari — perlu disahkan). CWB 100%, CNB 80% tour fare.",
+     "components": [
+      {
+       "key": "fare",
+       "label": "Tour fare (Tourdechina)",
+       "per": "group",
+       "expr": "band(pax,[3,R.f2],[5,R.f4],[9,R.f6],[999,R.f10])*pax"
+      },
+      {
+       "key": "tipping",
+       "label": "Tipping × 6 hari",
+       "per": "group",
+       "expr": "R.tip*6*pax"
+      }
+     ]
+    }
+   ],
+   "packages": [
+    {
+     "id": "tourdechina",
+     "label": "Yunnan 3 Wilayah 6D5N",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 14,
+       "variant": "TOURDECHINA"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 4997,
+       "3": 4997,
+       "4": 4097,
+       "5": 4097,
+       "6": 3697,
+       "7": 3697,
+       "8": 3697,
+       "9": 3697,
+       "10": 3197,
+       "11": 3197,
+       "12": 3197,
+       "13": 3197,
+       "14": 3197
+      },
+      "cwb": {
+       "2": 4797,
+       "3": 4797,
+       "4": 3897,
+       "5": 3897,
+       "6": 3497,
+       "7": 3497,
+       "8": 3497,
+       "9": 3497,
+       "10": 2997,
+       "11": 2997,
+       "12": 2997,
+       "13": 2997,
+       "14": 2997
+      },
+      "cnb": {
+       "2": 4597,
+       "3": 4597,
+       "4": 3697,
+       "5": 3697,
+       "6": 3297,
+       "7": 3297,
+       "8": 3297,
+       "9": 3297,
+       "10": 2797,
+       "11": 2797,
+       "12": 2797,
+       "13": 2797,
+       "14": 2797
+      },
+      "infant": 0
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 1.0
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 0.8,
+       "on": [
+        "fare"
+       ]
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 0
+      }
+     }
+    }
+   ],
+   "addons": [],
+   "catalogs": [
+    "PT YUNNAN 3 WILAYAH 6D5N 2026 v1"
+   ],
+   "contracts": []
   },
   {
    "code": "KMGDLS",

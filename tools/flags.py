@@ -107,6 +107,12 @@ def main():
             continue
         cat = json.load(open(f)); title = ("%s %s" % (cat.get("title", slug), cat.get("duration") or "")).replace("PRIVATE TOUR", "PT").strip()
         code, pid = MAP[slug]
+        claimed = {v for v in MAP.values() if v[1]}
+        if code in by and pid is None and by[code]["packages"] and not any(c == code for c, _ in claimed):
+            flag(code, "medium", "Coverage", "%s: costing in the hub, catalog not linked yet" % title,
+                 "The hub has a Costing package for %s, but the customer catalog still prints its own prices and add-on list." % by[code]["name"],
+                 "Move the catalog's add-ons / hotels into the hub (Add On, Accommodation tabs), then link the catalog to the package (MAP in tools/flags.py).", package=title)
+            continue
         if code not in by or pid is None:
             flag(code, "high", "Coverage", "%s has no costing in the hub" % title,
                  "Catalog %s (%s) exists but the hub has no package for it, so cost and margin are unknown." % (cat.get("version", ""), cat.get("updated", "")),
