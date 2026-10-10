@@ -278,3 +278,12 @@ textarea.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;width:100%
 .rnd-expr{flex:1;min-width:200px;font-family:var(--mono,monospace);font-size:12px}.rnd-f{font-family:ui-monospace,Menlo,monospace}
 .rnd-t td:first-child{width:30%;min-width:170px;max-width:300px;white-space:normal}.rnd-t td:nth-child(2){white-space:nowrap}
 .rnd-t td:nth-child(4){min-width:190px;max-width:330px;white-space:normal}.rnd-t td:nth-child(4) .small{white-space:normal;word-break:break-word}
+/* Simple Calculator: clean list */
+.rnd-bar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between}
+.rnd-t td:first-child{width:auto;min-width:180px;max-width:none}.rnd-t td:nth-child(3){min-width:200px;max-width:340px;white-space:normal}
+.rnd-unit{font-size:12px;color:#7a7470;margin-top:2px;white-space:nowrap}
+.rnd-src{font:12px/1.35 ui-monospace,Menlo,monospace;color:#7a7470;margin-top:2px;word-break:break-word}.rnd-src.bad-t{color:#b3261e}
+.rnd-t tr.rnd-cont td{border-top-color:transparent}.rnd-t tr.rnd-cont td:first-child{padding-top:4px}
+.rnd-t tr.rnd-ded td,.rnd-t tr.rnd-nocost td:nth-child(2){color:#8a8480}
+.rnd-m{white-space:nowrap}.rnd-in{width:100%;max-width:300px;font:12px ui-monospace,Menlo,monospace}.rnd-code,.rnd-ao{margin-top:4px;font-size:12px;max-width:300px}
+.rnd-in{display:block;width:100%;max-width:none;min-width:240px}.rnd-ce{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;margin-top:4px}.rnd-ce .rnd-src{margin:0}.rnd-code{margin:0}

@@ -1128,7 +1128,7 @@ function rndItems(kb) {
   });
   V.forEach((v, i) => {
     const ln = links[v.id];
-    (v.tiers || []).forEach((t, j) => items.push({ key: `tier:${v.id}:${t.from}-${t.to}`, grp: "Pakej", label: calcDe(v.name), band: [t.from, t.to], unit: "pax (adult)",
+    (v.tiers || []).forEach((t, j) => items.push({ key: `tier:${v.id}:${t.from}-${t.to}`, grp: "Pakej", label: calcDe(v.name), band: [t.from, t.to], unit: "adult",
       path: ["variants", i, "tiers", j, "a"], child: num(t.c) ? ["variants", i, "tiers", j, "c"] : null, tier: ln ? { ...ln, from: t.from, to: t.to } : null }));
     if (num(v.single) && v.single) items.push({ key: `single:${v.id}`, grp: "Pakej", label: "Single supplement · " + calcDe(v.name), unit: "pax", path: ["variants", i, "single"] });
     if (num(v.infant) && v.infant) items.push({ key: `infant:${v.id}`, grp: "Pakej", label: "Infant · " + calcDe(v.name), unit: "infant", path: ["variants", i, "infant"] });
@@ -1138,10 +1138,10 @@ function rndItems(kb) {
   const seen = new Set();
   for (const sp of sets) for (const [name, regions] of Object.entries(g(sp) || {})) for (const [reg, bands] of Object.entries(regions || {})) {
     const sig = name + "|" + reg + "|" + JSON.stringify(bands); if (seen.has(sig)) continue; seen.add(sig);
-    const r = refs[name] || (name === "day" ? [{ grp: "Transport", t: "Hari tambahan (transport harian)", unit: "kenderaan / hari" }] : [{ grp: "Kadar lain", t: name, unit: "" }]);
+    const r = refs[name] || (name === "day" ? [{ grp: "Transport", t: "Hari tambahan", unit: "kenderaan / hari" }] : [{ grp: "Kadar lain", t: name, unit: "" }]);
     (bands || []).forEach((b, j) => {
       if (!b.normal && !b.peak) return;
-      items.push({ key: `rate:${name}:${reg}:${b.from}-${b.to}`, grp: r[0].grp, label: [...new Set(r.map(x => x.t))].join(" / ") + (reg !== "_default" ? " " + reg : ""), code: name,
+      items.push({ key: `rate:${name}:${reg}:${b.from}-${b.to}`, grp: r[0].grp, label: [...new Set(r.map(x => x.t.replace(/\s*\((?:dalam pakej|hari tambahan|tambahan)\)\s*/gi, " ").trim()))].join(" / ") + (reg !== "_default" ? " · " + reg.replace(/^\[|\]$/g, "") : ""), code: name,
         band: [b.from, b.to], unit: r[0].unit, path: [...sp, name, reg, j, "normal"], peak: num(b.peak) && b.peak !== b.normal ? [...sp, name, reg, j, "peak"] : null });
     });
   }
@@ -1154,7 +1154,7 @@ function rndItems(kb) {
 }
 function rndCost(it, kb, H) {   // → { cost, src, auto }
   const L = ((kb.rnd || {}).cost || {})[it.key];
-  if (L && num(L.rm)) return { cost: L.rm, src: "kos manual" };
+  if (L && num(L.rm)) return { cost: L.rm, src: "kos RM" };
   if (L && L.expr) {   // formula on a destination's Costing rates (Rate reference), live FX; worst (highest) cost over the row's pax band
     const d = DATA.destinations.find(x => x.code === L.code);
     if (!d) return { cost: NaN, src: "formula: destinasi " + (L.code || "?") + " tiada" };
@@ -1168,10 +1168,10 @@ function rndCost(it, kb, H) {   // → { cost, src, auto }
     const atPax = (e, p) => e.replace(/band\(pax,((?:\[[^\]]+\],?)+)\)/g, (_, pairs) => { for (const m of pairs.matchAll(/\[(\d+),([^\]]+)\]/g)) if (p <= +m[1]) return m[2]; return "—"; });
     const used = [...new Set([...L.expr.matchAll(/R\.(\w+)/g)].map(m => m[1]))], rr = Object.fromEntries((d.rates || []).map(r => [r.id, r]));
     const tip = used.map(id => rr[id] ? `${id} = ${rr[id].label}: ${(+rr[id].value).toLocaleString("en-MY")} ${rr[id].fx === "MYR" ? "RM" : rr[id].fx} × ${+fxOf(d, rr[id].fx).toPrecision(5)}` : `${id}: tiada dalam ${d.code}`).join("\n");
-    return worst ? { cost: worst.cost, src: `${d.code}: ${atPax(L.expr, worst.pax).replace(/R\./g, "").replace(/\+/g, " + ")}${worst.cost > minC + 0.005 ? ` (kos tertinggi dalam band: ${worst.pax} pax)` : ""}`, tip: tip + "\n\nFormula: " + L.expr, formula: true }
+    return worst ? { cost: worst.cost, src: `${d.code} · ${atPax(L.expr, worst.pax).replace(/R\./g, "").replace(/\+/g, " + ")}${worst.cost > minC + 0.005 ? ` · tertinggi ${worst.pax} pax` : ""}`, tip: tip + "\n\nFormula: " + L.expr, formula: true }
       : { cost: NaN, src: "formula tidak sah" + (err ? ": " + err : ""), tip };
   }
-  if (L && L.addon) { const a = H.byId[L.addon]; return a && num(a.cost) ? { cost: a.cost, src: "Add On: " + a.label } : { cost: NaN, src: "add-on tiada kos" }; }
+  if (L && L.addon) { const a = H.byId[L.addon]; return a && num(a.cost) ? { cost: a.cost, src: "Add On · " + a.label } : { cost: NaN, src: "add-on tiada kos" }; }
   if (it.tier) {   // Costing: the band's most expensive pax (adult), so the worst margin shows
     const d = DATA.destinations.find(x => x.code === it.tier.code), pk = d && d.packages.find(p => p.id === it.tier.package);
     if (!d || !pk) return { cost: NaN, src: "pakej Costing tiada" };
@@ -1181,9 +1181,9 @@ function rndCost(it, kb, H) {   // → { cost, src, auto }
       const r = priceRow(d, pk, vid, p);
       if (num(r.adult.cost) && (!worst || r.adult.cost > worst.cost)) worst = { cost: r.adult.cost, pax: p };
     }
-    return worst ? { cost: worst.cost, src: `Costing · ${pk.label}${it.tier.to > it.tier.from ? ` (kos tertinggi: ${worst.pax} pax)` : ""}`, auto: true } : { cost: NaN, src: "Costing: tiada kos TO" };
+    return worst ? { cost: worst.cost, src: `Costing${it.tier.to > it.tier.from ? ` · tertinggi ${worst.pax} pax` : ""}`, tip: pk.label, auto: true } : { cost: NaN, src: "Costing: tiada kos TO" };
   }
-  if (it.match && H.byName[it.match]) { const a = H.byName[it.match]; return { cost: a.cost, src: "Add On: " + a.label, auto: true }; }
+  if (it.match && H.byName[it.match]) { const a = H.byName[it.match]; return { cost: a.cost, src: "Add On · " + a.label, auto: true }; }
   return { cost: NaN, src: "" };
 }
 function simpleCalcTab(d) {
@@ -1203,32 +1203,40 @@ function simpleCalcTab(d) {
   });
   const ST = { loss: ["Rugi", "bad"], low: [`Bawah ${Math.round(min * 100)}%`, "warn"], nocost: ["Tiada kos", "grey"], ok: ["OK", "ok"], ded: ["Potongan", "grey"] };
   const cnt = k => rows.filter(r => r.st === k).length;
-  const chips = Object.entries(ST).map(([k, [l, c]]) => `<button class="tab${F === k ? " on" : ""}" data-rndf="${F === k ? "" : k}"><span class="pill ${c}">${cnt(k)}</span> ${l}</button>`).join("");
+  const chips = `<button class="tab${!F ? " on" : ""}" data-rndf="">Semua <span class="muted">${rows.length}</span></button>` + Object.entries(ST).filter(([k]) => cnt(k))
+    .map(([k, [l, c]]) => `<button class="tab${F === k ? " on" : ""}" data-rndf="${F === k ? "" : k}"><span class="pill ${c}">${cnt(k)}</span> ${l}</button>`).join("");
   const vis = rows.filter(r => !F || r.st === F), grps = [...new Set(vis.map(r => r.it.grp))];
-  const rp = (path, v) => E ? calcIn(sl, path, v, true, { num: 1 }) : rm(v, v % 1 ? 2 : 0);
+  const money = v => rm(v, v % 1 ? 2 : 0);
+  const rp = (path, v) => E ? calcIn(sl, path, v, true, { num: 1 }) : money(v);
   const kp = (key, k) => esc(JSON.stringify({ sl, key, k }));
   const costCell = r => {
     const L = ((kb.rnd || {}).cost || {})[r.it.key] || {};
-    const view = num(r.c.cost) ? `${rm(r.c.cost, r.c.cost % 1 ? 2 : 0)}<div class="muted small${r.c.formula ? " rnd-f" : ""}"${r.c.tip ? ` title="${esc(r.c.tip)}"` : ""}>${esc(r.c.src)}${r.c.auto ? " · auto" : ""}</div>` : `<span class="muted small"${r.c.tip ? ` title="${esc(r.c.tip)}"` : ""}>${esc(r.c.src || "—")}</span>`;
-    if (!E || r.it.tier) return view;
-    return `${view}<div class="rnd-link"><select class="ed" data-rndlink="${kp(r.it.key, "addon")}"><option value="">— pautan add-on hub —</option>${addons.filter(a => num(a.cost)).map(a => `<option value="${esc(a.id)}"${L.addon === a.id ? " selected" : ""}>${esc(a.label)} (${rm(a.cost)})</option>`).join("")}</select>
-      <input class="ed" type="number" step="any" placeholder="atau kos RM" value="${num(L.rm) ? L.rm : ""}" data-rndlink="${kp(r.it.key, "rm")}"></div>
-      <div class="rnd-link">${codes.length > 1 ? `<select class="ed" data-rndlink="${kp(r.it.key, "code")}">${codes.map(c => `<option${(L.code || d.code) === c ? " selected" : ""}>${esc(c)}</option>`).join("")}</select>` : ""}<input class="ed rnd-expr" placeholder="atau formula kadar Costing, cth. R.qCity" value="${esc(L.expr || "")}" data-rndlink="${kp(r.it.key, "expr")}"></div>`;
+    const shown = num(r.c.cost) ? `<b>${money(r.c.cost)}</b><div class="rnd-src"${r.c.tip ? ` title="${esc(r.c.tip)}"` : ""}>${esc(r.c.src)}</div>` : `<span class="muted">—</span>`;
+    if (!E || r.it.tier) return shown;
+    const val = L.expr ? L.expr.replace(/R\./g, "") : num(L.rm) ? String(L.rm) : "";
+    return `<input class="ed rnd-in" placeholder="kos RM atau formula, cth. qCity" value="${esc(val)}" data-rndlink="${kp(r.it.key, "cost")}"${r.c.tip ? ` title="${esc(r.c.tip)}"` : ""}>
+      <div class="rnd-ce">${num(r.c.cost) ? `<b>${money(r.c.cost)}</b> <span class="rnd-src">${esc(r.c.src)}</span>` : val ? `<span class="rnd-src bad-t">${esc(r.c.src)}</span>` : ""}
+      ${codes.length > 1 && L.expr ? `<select class="ed rnd-code" data-rndlink="${kp(r.it.key, "code")}" title="kadar Costing dari destinasi">${codes.map(c => `<option${(L.code || d.code) === c ? " selected" : ""}>${esc(c)}</option>`).join("")}</select>` : ""}</div>
+      ${r.it.grp === "Add-on" ? `<select class="ed rnd-ao" data-rndlink="${kp(r.it.key, "addon")}"><option value="">atau pautan add-on hub…</option>${addons.filter(a => num(a.cost)).map(a => `<option value="${esc(a.id)}"${L.addon === a.id ? " selected" : ""}>${esc(a.label)} (${rm(a.cost)})</option>`).join("")}</select>` : ""}`;
   };
-  const body = grps.map(gp => `<tr class="cat"><td colspan="7">${esc(gp)}</td></tr>` + vis.filter(r => r.it.grp === gp).map(r => `<tr class="rnd-${r.st}">
-      <td class="l wrap">${esc(r.it.label)}${r.it.code ? ` <span class="muted small">${esc(r.it.code)}</span>` : ""}</td>
-      <td class="l small">${esc(r.it.unit || "")}${r.it.band ? `<div class="muted">${r.it.band[0]}–${r.it.band[1] >= 99 ? "+" : r.it.band[1]} pax</div>` : ""}</td>
-      <td>${rp(r.it.path, r.price)}${r.it.peak ? `<div class="small">peak ${rp(r.it.peak, r.pk)}</div>` : ""}${r.it.child ? `<div class="small muted">child ${rm(+g(r.it.child))}</div>` : ""}</td>
-      <td class="l">${costCell(r)}</td>
-      <td class="${marginClass(r.m)}">${num(r.m) && r.st !== "ded" ? rm(r.m) : "—"}</td>
-      <td>${r.st === "ded" ? "—" : marginPill(r.p)}${num(r.mp) && r.st !== "ded" ? `<div class="small">peak ${pct(r.mp)}</div>` : ""}</td>
-      <td><span class="pill ${ST[r.st][1]}">${ST[r.st][0]}</span></td></tr>`).join("")).join("");
-  return `<div class="card full kb" id="rndCard"><h2>Simple Calculator (R&amp;D) · ${esc(ix.name)} <span class="sub">${rows.length} harga yang Sales boleh quote dalam KB · kos &amp; margin di sebalik setiap satu</span>
-      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Kalkulator Sales (KB)</a></span></h2>
-    <div class="body small muted">Harga tier pakej ikut Catalog Price (tab Costing); kosnya dari Costing pada pax paling mahal dalam band. Kos baris lain: formula atas kadar Costing (Rate reference, FX live), pautan add-on hub, atau kos RM${E ? "" : " (Edit costs)"}. Formula dikira pada setiap pax dalam band; kos tertinggi dipakai.
-      Margin minimum KB ini: ${E ? `<input class="ed" type="number" step="1" min="0" max="90" style="width:60px" data-rndmin="${esc(sl)}" value="${Math.round(min * 100)}">%` : `<b>${Math.round(min * 100)}%</b>`}</div>
-    <div class="body rnd-chips">${chips}</div>
-    <div class="scroll"><table class="rd rnd-t"><thead><tr><th class="l">Pilihan Sales</th><th class="l">Unit / band</th><th>Harga Sales</th><th class="l">Kos</th><th>Margin</th><th>%</th><th>Status</th></tr></thead><tbody>${body || `<tr><td colspan="7" class="muted">—</td></tr>`}</tbody></table></div></div>
+  const body = grps.map(gp => {
+    let last = "";
+    return `<tr class="cat"><td colspan="5">${esc(gp)}</td></tr>` + vis.filter(r => r.it.grp === gp).map(r => {
+      const same = r.it.label === last; last = r.it.label;
+      const band = r.it.band ? `${r.it.band[0]}${r.it.band[1] !== r.it.band[0] ? "–" + (r.it.band[1] >= 99 ? "+" : r.it.band[1]) : ""} pax` : "";
+      return `<tr class="rnd-${r.st}${same ? " rnd-cont" : ""}">
+        <td class="l">${same ? "" : `<span${r.it.code ? ` title="kadar KB: ${esc(r.it.code)}"` : ""}>${esc(r.it.label)}</span>`}<div class="rnd-unit">${esc([band, r.it.unit].filter(Boolean).join(" · "))}</div></td>
+        <td>${rp(r.it.path, r.price)}${r.it.peak ? `<div class="rnd-unit">peak ${E ? rp(r.it.peak, r.pk) : money(r.pk)}</div>` : ""}${r.it.child ? `<div class="rnd-unit">child ${money(+g(r.it.child))}</div>` : ""}</td>
+        <td class="l">${costCell(r)}</td>
+        <td class="rnd-m">${r.st === "ded" ? `<span class="muted small">potongan</span>` : num(r.m) ? `<b class="${marginClass(r.m)}">${rm(r.m)}</b> <span class="pill ${ST[r.st][1]}">${pct(r.p)}</span>${num(r.mp) ? `<div class="rnd-unit">peak ${pct(r.mp)}</div>` : ""}` : `<span class="muted small">—</span>`}</td></tr>`;
+    }).join("");
+  }).join("");
+  return `<div class="card full kb" id="rndCard"><h2>Simple Calculator · ${esc(ix.name)} <span class="sub">harga Sales dalam KB, dengan kos &amp; margin</span>
+      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Buka kalkulator Sales</a></span></h2>
+    <div class="body rnd-bar"><div class="rnd-chips">${chips}</div>
+      <span class="muted small">Margin minimum ${E ? `<input class="ed" type="number" step="1" min="0" max="90" style="width:52px" data-rndmin="${esc(sl)}" value="${Math.round(min * 100)}">%` : `<b>${Math.round(min * 100)}%</b>`}</span></div>
+    <div class="scroll"><table class="rd rnd-t"><thead><tr><th class="l">Pilihan Sales</th><th>Harga Sales</th><th class="l">Kos</th><th>Margin</th></tr></thead><tbody>${body || `<tr><td colspan="4" class="muted">—</td></tr>`}</tbody></table></div>
+    <div class="note">Tier pakej: kos dari Costing (pax paling mahal dalam band). Lain-lain: isi kos RM, atau formula atas kadar Costing (Rate reference, FX live), cth. <code>qCity</code> atau <code>wCity89 + gFull</code>. Tuding kos untuk lihat kadar &amp; FX.</div></div>
     ${kbCalcConfig(d)}`;
 }
 function kbFilter() {
@@ -1764,7 +1772,13 @@ document.addEventListener("change", e => {
   if (t.dataset && t.dataset.rndlink) {
     const { sl, key, k } = JSON.parse(t.dataset.rndlink), doc = KB.edit[sl] ||= clone(KB.docs[sl]);
     const R = doc.rnd ||= {}, C = R.cost ||= {};
-    if (k === "addon") { if (t.value) C[key] = { addon: t.value }; else delete C[key]; }
+    if (k === "cost") {
+      const v = t.value.trim(), code = (C[key] && C[key].code) || SEL.dest, dd = DATA.destinations.find(y => y.code === code);
+      if (!v) delete C[key];
+      else if (/^-?\d+(\.\d+)?$/.test(v.replace(/,/g, ""))) C[key] = { rm: +v.replace(/,/g, "") };
+      else { const ids = new Set((dd.rates || []).map(r => r.id)); C[key] = { expr: v.replace(/(^|[^.\w])([A-Za-z_]\w*)/g, (m, a, id) => ids.has(id) ? a + "R." + id : m), code }; }
+    }
+    else if (k === "addon") { if (t.value) C[key] = { addon: t.value }; else delete C[key]; }
     else if (k === "expr") { const e = t.value.trim(); if (e) C[key] = { expr: e, code: (C[key] && C[key].code) || SEL.dest }; else delete C[key]; }
     else if (k === "code") { if (C[key] && C[key].expr) C[key].code = t.value; else { toast("Tulis formula dahulu"); return render(); } }
     else { const v = t.value.trim() === "" ? NaN : +t.value; if (isFinite(v)) C[key] = { rm: v }; else delete C[key]; }
