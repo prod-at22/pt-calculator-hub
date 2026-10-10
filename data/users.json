@@ -1,4 +1,19 @@
 {
- "repo": "",
- "users": []
+ "repo": "prod-at22/pt-rnd-hub",
+ "vault": {
+  "iv": "3/SeQSibuGxhomDT",
+  "ct": "78E0Kiq1Lb7D+CtQDNXA84RmAzg6lHXcaLmecwBGbgwBayrGOSlrrSU71/Qzi2xABZ7ETaW5vdUZ1Ew+Ss26N9ZJDcCRc5ujFqDz8+aOqAtpR91K4BARNAwpksfRVZFgc1PhXg6iJPjEMzEmJw=="
+ },
+ "users": [
+  {
+   "u": "ezie",
+   "role": "admin",
+   "salt": "SvWkCfXXjjBrXS9Exxp9cQ==",
+   "iter": 310000,
+   "iv": "uThKhDhtGC2v0kGW",
+   "ct": "KRslfai8uQkVZVfEqkwXLM6sZ/HwDPAZqu9IHsLak136AjVlvisHqEPbSmm1GzG0",
+   "created": "2026-10-10T16:13:25.632Z",
+   "by": "ezie"
+  }
+ ]
 }
