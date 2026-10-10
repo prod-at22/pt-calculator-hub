@@ -370,7 +370,8 @@ function renderTop() {
   const n = pendingChanges().length;
   $("#authArea").innerHTML = SESSION
     ? `<span class="chip">● ${esc(SESSION.u)} (${esc(SESSION.role)})</span>
-       <button class="btn" id="btnEdit">${EDIT ? "Stop editing" : "Edit costs"}</button>
+       ${!PAGE_DEST || ownsDest(PAGE_DEST) ? `<button class="btn" id="btnEdit">${EDIT ? "Stop editing" : "Edit costs"}</button>`
+         : `<button class="btn" disabled title="Only PO ${esc(poOf(PAGE_DEST) || "—")} or an admin can edit ${esc(PAGE_DEST)}">Edit costs (PO ${esc(poOf(PAGE_DEST) || "—")} only)</button>`}
        ${n ? `<button class="btn save" id="btnSave">Save v${BASE.version + 1} (${n})</button>` : ""}
        <button class="btn" id="btnAcct">Account</button>
        <button class="btn" id="btnLogout">Log out</button>`
@@ -411,7 +412,7 @@ function renderControls(d, pkg) {
   $("#controls").innerHTML = `
     <div class="dest-top">
       <div class="dest-head"><a href="${ROOT}">← All packages</a><h1>${esc(d.name)} <span class="pill nav">${esc(d.code)}</span></h1>
-        <span class="muted small">PO ${ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" })}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
+        <span class="muted small">PO ${isAdmin() ? ed(["destinations", d.code, "po"], d.po || "", { text: true, display: "<b>" + esc(d.po || "—") + "</b>" }) : "<b>" + esc(d.po || "—") + "</b>"}${e ? ` · updated ${esc(new Date(e.at).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }))}${e.v > 1 ? " by " + esc(e.by) : ""}` : ""}</span></div>
       <div class="fxbox">${fxChips(d)}</div>
     </div>
     <div class="sel-row">
@@ -1375,6 +1376,23 @@ async function unlock(user, pw) {
   return { vaultRaw, token };
 }
 const userNameOk = u => /^[a-z0-9._-]{2,32}$/.test(u);
+
+/* ============================================================ rights
+   admin: every destination, global settings, the PO field and the Account panel.
+   editor: only destinations whose PO (data.json destinations[].po) is their username
+   (case-insensitive, e.g. PO "Aiman" = user "aiman"). This is a guard in the page:
+   everyone shares one repo token behind the scenes (README "How the login works"). */
+const isAdmin = () => !!SESSION && SESSION.role === "admin";
+const poOf = code => { const d = (BASE || DATA).destinations.find(x => x.code === code); return d ? (d.po || "").trim() : ""; };
+const ownsDest = code => isAdmin() || (!!SESSION && poOf(code).toLowerCase() === SESSION.u);
+const destsOf = u => (BASE || DATA).destinations.filter(d => (d.po || "").trim().toLowerCase() === u).map(d => d.code);
+function changeDests(c) {   // destination codes a pending change belongs to
+  if (c.path[0] === "destinations") return [c.path[1]];
+  if (c.path[0] === "kb") return kbCodesOf(c.path[1]);
+  if (c.path[0] === "catalogs") { const m = CAT.index && CAT.index[c.path[1]]; return m ? [m.code] : []; }
+  return [];   // settings etc.: admin only
+}
+const canChange = c => isAdmin() || (!(c.path[0] === "destinations" && c.path[2] === "po") && changeDests(c).some(ownsDest));
 const passwordOk = p => p.length >= 10;
 
 /* ============================================================ GitHub */
@@ -1471,6 +1489,8 @@ async function startCatalogMirror(token) {
 async function saveChanges(note) {
   const changes = pendingChanges();
   if (!changes.length) return;
+  const denied = changes.filter(c => !canChange(c));
+  if (denied.length) throw new Error(`You can only change your own destinations (${destsOf(SESSION.u).join(", ") || "none"}). Not allowed: ${denied.slice(0, 3).map(c => describe(BASE, c.path)).join("; ")}${denied.length > 3 ? ` (+${denied.length - 3} more)` : ""}.`);
   for (let attempt = 0; attempt < 3; attempt++) {
     const head = await GH.head(SESSION.token);
     const remote = await GH.readJson(PATHS.data, head, SESSION.token);
@@ -1590,14 +1610,16 @@ async function doSetup() {
 }
 function openAccount() {
   const isAdmin = SESSION.role === "admin";
+  const mine = destsOf(SESSION.u);
   modal("Account", `
+    <div class="small">${isAdmin ? "Admin: you can edit every destination." : `You can edit: <b>${esc(mine.join(", ") || "no destination yet (ask an admin to set you as PO)")}</b>`}</div>
     <b>Change my password</b>
     <label>New password (min 10)<input id="cp1" type="password" autocomplete="new-password"></label>
     <label>Repeat<input id="cp2" type="password" autocomplete="new-password"></label>
     <div><button class="btn" id="doChpw">Change password</button></div>
     ${isAdmin ? `<hr style="border:0;border-top:1px solid var(--line);width:100%">
     <b>Users</b>
-    <table><tbody>${USERS.users.map(x => `<tr><td>${esc(x.u)}</td><td class="l">${esc(x.role)}</td><td class="l muted small">added ${esc(fmtDate(x.created))} by ${esc(x.by || "")}</td><td>${x.u === SESSION.u ? "" : `<button class="btn danger" data-deluser="${esc(x.u)}">Remove</button>`}</td></tr>`).join("")}</tbody></table>
+    <table><tbody>${USERS.users.map(x => `<tr><td>${esc(x.u)}</td><td class="l">${esc(x.role)}${x.role === "editor" ? ` <span class="muted small">${esc(destsOf(x.u).join(", ") || "no destination")}</span>` : ""}</td><td class="l muted small">added ${esc(fmtDate(x.created))} by ${esc(x.by || "")}</td><td>${x.u === SESSION.u ? "" : `<button class="btn danger" data-deluser="${esc(x.u)}">Remove</button>`}</td></tr>`).join("")}</tbody></table>
     <b>Add user</b>
     <div style="display:grid;grid-template-columns:1fr 1fr 110px;gap:8px">
       <input id="nu" placeholder="username"><input id="np" type="password" placeholder="temp password (min 10)" autocomplete="new-password">
@@ -1692,7 +1714,7 @@ document.addEventListener("click", async e => {
   if (t.dataset.act === "restore") {
     const snap = VIEW.data, v = VIEW.v;
     DATA = clone(BASE);
-    for (const c of diff(stripMeta(BASE), stripMeta(snap))) setPath(DATA, c.path, c.to === undefined ? undefined : clone(c.to));   // undefined = field not in that version
+    for (const c of diff(stripMeta(BASE), stripMeta(snap)).filter(canChange)) setPath(DATA, c.path, c.to === undefined ? undefined : clone(c.to));   // undefined = field not in that version; editors restore only their own destinations
     VIEW = null; EDIT = true; render(); openReview("Restore to v" + v); return;
   }
   if (t.dataset.view) { const v = +t.dataset.view; VIEW = { v, data: snapshotAt(v) }; EDIT = false; closeModal(); render(); window.scrollTo(0, 0); return; }
@@ -1741,6 +1763,7 @@ document.addEventListener("click", async e => {
     if (!userNameOk(u)) return mErr("Username: 2–32 chars, lowercase letters, digits, . _ -");
     if (USERS.users.some(x => x.u === u)) return mErr("That username already exists.");
     if (!passwordOk(p)) return mErr("Password must be at least 10 characters.");
+    if (role === "editor" && !destsOf(u).length && !confirm(`No destination has PO "${u}", so this editor cannot edit anything yet. Add anyway?`)) return;
     return acct(async () => { const next = clone(USERS); next.users.push({ u, role, ...(await wrapVault(SESSION.vaultRaw, p)), created: new Date().toISOString(), by: SESSION.u }); await saveUsers(next, `users: ${SESSION.u} added ${u} (${role})`); }, "User " + u + " added");
   }
   if (t.dataset.deluser) {

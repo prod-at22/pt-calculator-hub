@@ -277,14 +277,36 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   console.log("5. add editor, editor login");
   {
     click(w, doc.querySelector("#btnAcct")); await tick(5);
-    doc.querySelector("#nu").value = "aiman"; doc.querySelector("#np").value = "aiman-pass-2026"; doc.querySelector("#nr").value = "editor";
+    doc.querySelector("#nu").value = "thania"; doc.querySelector("#np").value = "thania-pass-2026"; doc.querySelector("#nr").value = "editor";
     click(w, doc.querySelector("#doAdd"));
     ok(await until(() => JSON.parse(repo.files(repo.head)["data/users.json"]).users.length === 2), "editor added");
     click(w, doc.querySelector("[data-close]")); click(w, doc.querySelector("#btnLogout")); await tick(5);
     click(w, doc.querySelector("#btnLogin")); await tick(5);
-    doc.querySelector("#lu").value = "aiman"; doc.querySelector("#lp").value = "aiman-pass-2026";
+    doc.querySelector("#lu").value = "thania"; doc.querySelector("#lp").value = "thania-pass-2026";
     click(w, doc.querySelector("#doLogin"));
     ok(await until(() => doc.querySelector("#btnEdit")), "editor logs in with own password");
+  }
+
+  console.log("5b. editor rights: only the destinations where they are PO");
+  {
+    ok(P.DATA.destinations.find(d => d.code === "HND").po === "Thania", "fixture: HND PO is Thania");
+    click(w, doc.querySelector("#btnEdit")); await tick(5);
+    ok(![...doc.querySelectorAll("input.ed")].some(x => x.dataset.path === JSON.stringify(["destinations", "HND", "po"])), "editor cannot change the PO field (admin only)");
+    const sel = P.DATA.destinations.find(d => d.code === "SEL"), k = Object.keys(sel.packages[0].pricing.adult)[0], was = sel.packages[0].pricing.adult[k];
+    sel.packages[0].pricing.adult[k] = was + 1;
+    let err = ""; try { await P.saveChanges("not mine"); } catch (e) { err = e.message; }
+    ok(/only change your own destinations \(.*HND.*\)/.test(err) && repo.log.every(m => !m.includes("not mine")), "save refused for another PO's destination (SEL): " + err);
+    sel.packages[0].pricing.adult[k] = was;
+    click(w, doc.querySelector("#btnEdit")); await tick(5);
+    const pg = await boot(repo, "sel/"); await until(() => pg.doc.querySelector("#authArea"));
+    pg.w.PTCALC.SESSION = { u: "thania", role: "editor", token: "tok-valid" }; pg.w.PTCALC.render(); await tick(5);
+    const dis = [...pg.doc.querySelectorAll("#authArea button[disabled]")].find(b => b.textContent.includes("PO Aiman only"));
+    ok(!pg.doc.querySelector("#btnEdit") && dis, "SEL page: no Edit costs for Thania, shows 'PO Aiman only'");
+    pg.w.PTCALC.SESSION = { u: "aiman", role: "editor", token: "tok-valid" }; pg.w.PTCALC.render(); await tick(5);
+    ok(pg.doc.querySelector("#btnEdit"), "SEL page: Aiman (its PO) can edit");
+    pg.w.PTCALC.SESSION = { u: "ezie", role: "admin", token: "tok-valid" }; pg.w.PTCALC.render(); await tick(5);
+    ok(pg.doc.querySelector("#btnEdit"), "SEL page: admin can edit every destination");
+    ok(pg.errors.length === 0, "rights errors: " + pg.errors.join("|"));
   }
 
   console.log("6. edit → save v2 → history → view v1 → restore v3");
@@ -310,12 +332,12 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     click(w, doc.querySelector("#doSave"));
     ok(await until(() => P.BASE.version === V0 + 1), "saved as V0+1");
     const remote = JSON.parse(repo.files(repo.head)["data/data.json"]);
-    ok(remote.version === V0 + 1 && remote.updatedBy === "aiman", "repo data.json V0+1 by aiman");
+    ok(remote.version === V0 + 1 && remote.updatedBy === "thania", "repo data.json V0+1 by thania");
     ok(byCode(remote,'HND').packages[0].pricing.adult["2"] === before + 100, "repo has new catalog price");
     const hist = JSON.parse(repo.files(repo.head)["data/history.json"]);
     const e = hist.entries.find(x => x.v === V0 + 1);
-    ok(e && e.by === "aiman" && e.changes.length === 1 && e.changes[0].from === before && e.changes[0].label.includes("@2 pax"), "history entry V0+1 with readable label");
-    ok(repo.log.at(-1).startsWith(`v${V0 + 1} · aiman: Basic catalog`), "one commit with version message");
+    ok(e && e.by === "thania" && e.changes.length === 1 && e.changes[0].from === before && e.changes[0].label.includes("@2 pax"), "history entry V0+1 with readable label");
+    ok(repo.log.at(-1).startsWith(`v${V0 + 1} · thania: Basic catalog`), "one commit with version message");
     ok(await until(() => repo.dispatches >= 1), "save starts the PT Catalog House mirror (workflow_dispatch on catalog-pt-public)");
     // the catalog has no prices of its own: a price save stamps price_version so catalog-pt-public rebuilds it
     const catNow = JSON.parse(repo.files(repo.head)["data/catalogs/tokyo-basic.json"]), cat0 = JSON.parse(files["data/catalogs/tokyo-basic.json"]);
@@ -397,8 +419,8 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const v0 = JSON.parse(repo.files(repo.head)["data/data.json"]).version;   // 7. left a newer remote version
     click(w, doc.querySelector("#doUpload"));
     ok(await until(() => P.BASE.version === v0 + 1), "upload saved as a new version");
-    const files = repo.files(repo.head), all = byCode(JSON.parse(files["data/data.json"]), "HND").contracts, cr = all.filter(c => c.by === "aiman");
-    ok(all.length === n0 + 1 && cr.length === 1 && cr[0].name === "WIF Rate Card 2027.pdf" && cr[0].note === "WIF 2027" && cr[0].by === "aiman" && /^contracts\/hnd\/\w+-WIF_Rate_Card_2027\.pdf$/.test(cr[0].file), "data.json lists the file: " + JSON.stringify(cr));
+    const files = repo.files(repo.head), all = byCode(JSON.parse(files["data/data.json"]), "HND").contracts, cr = all.filter(c => c.by === "thania");
+    ok(all.length === n0 + 1 && cr.length === 1 && cr[0].name === "WIF Rate Card 2027.pdf" && cr[0].note === "WIF 2027" && cr[0].by === "thania" && /^contracts\/hnd\/\w+-WIF_Rate_Card_2027\.pdf$/.test(cr[0].file), "data.json lists the file: " + JSON.stringify(cr));
     ok(files[cr[0].file] === pdf, "file bytes committed to the repo");
     ok(repo.log.at(-1).includes("Uploaded WIF Rate Card 2027.pdf"), "commit message names the file");
     const link = [...doc.querySelectorAll("#contracts tbody a")].find(a => a.textContent === cr[0].name);
@@ -565,7 +587,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const pkg = HND().packages.find(p => p.id === "standard");
     if (!doc.querySelector("#btnEdit")) {
       click(w, doc.querySelector("#btnLogin")); await tick(5);
-      doc.querySelector("#lu").value = "aiman"; doc.querySelector("#lp").value = "aiman-pass-2026";
+      doc.querySelector("#lu").value = "thania"; doc.querySelector("#lp").value = "thania-pass-2026";
       click(w, doc.querySelector("#doLogin"));
     }
     ok(await until(() => doc.querySelector("#btnEdit")), "editor logged in");
@@ -694,7 +716,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     await tab(pg.w, pg.doc, "surcharge"); await until(() => pg.doc.querySelector("#grid").textContent.includes("Favehotel Kartika Plaza"));
     ok(pg.doc.querySelector("#grid").textContent.includes("RM40/pax/night"), "Surcharge tab: hotel rows (and amounts) from the Accommodation tab");
     P2.EDIT = true; P2.render(); await tab(pg.w, pg.doc, "accommodation"); await until(() => pg.doc.querySelector("#hotels input.ed"));
-    P2.SESSION = { u: "aiman", role: "editor", token: "tok-valid" };
+    P2.SESSION = { u: "fyka", role: "editor", token: "tok-valid" };
     const h0 = D2().hotels.find(h => (h.catalogs || {})["bali-standard"] && h.catalogs["bali-standard"].sur === 1);
     const nameIn = [...pg.doc.querySelectorAll("#hotels input.ed")].find(x => x.dataset.path === JSON.stringify(["destinations", "DPS", "hotels", h0.id, "name"]));
     nameIn.value = "Favehotel Kartika Plaza (diuji)"; fire(pg.w, nameIn, "change"); await tick(10);

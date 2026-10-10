@@ -80,6 +80,9 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   v50–v51 Simple Calculator (R&D): every Sales price in the KB calculator with cost (Costing / formula on Costing rates / add-on / RM, kb.rnd)
   and margin; Pakej folded & read-only; Tokyo / Osaka / Tokyo-Osaka formulas · TO Contract Rate tab after Costing · v52–v53 new destination
   KMGDL Yunnan 3 Wilayah (Tourdechina RMB, PT KMGDL R&D as reference), catalog linked · v54 Maldives 4 Star (Kaani Palm Beach CR, USD), catalog linked.
+- **Login rights (10 Oct, code only, data stays v54)**: editor = only destinations where destinations[].po = username
+  (case-insensitive); admin = all + PO field + Account. Plan: admin account for the owner, 5 POs as editors
+  (acap, aiman, thania, fyka, amirul). Token + First-time setup + passwords are done by the admin, not Claude.
 - **Live FX**: fx entry `"live": "<ISO>"` → today's ECB rate (one request MYR → currencies, inverted) on page open; `value` = fallback.
 - **Next task (new session): logins for every PO, each an admin who can change R&D Costing.** The login system already exists
   (README "One-time setup (admin)" + "How the login works"): data/users.json is still empty. The PO list: Acap, Aiman, Thania, Fyka, Amirul.

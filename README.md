@@ -183,6 +183,11 @@ TO formulas (in `data.json`) use `R.id` (a rate, already converted to MYR at its
   cannot save.
 - Everyone shares one repo token behind the scenes; the username is what goes into the history
   log and the commit message.
+- **Rights (v54+, 10 Oct 2026):** an **admin** can edit every destination, the PO field and the
+  Account panel. An **editor** can edit only the destinations whose PO (`destinations[].po`) equals
+  their username, case-insensitive (PO "Aiman" = user `aiman`): other destination pages show
+  "Edit costs (PO … only)", and Save refuses changes to another PO's destination. When a destination
+  changes hands, an admin changes its PO. This is a guard in the page, not on GitHub (shared token).
 - Removing a user stops them logging in. A removed user who already logged in could have
   copied the token, so if you don't trust them, also **Account → Replace GitHub token**
   (create a new token first, then delete the old one on GitHub).
