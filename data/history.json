@@ -39578,6 +39578,17 @@
    "by": "system",
    "note": "Bangkok page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flags and history records are kept; the header History button opens the hub-wide history; Bangkok rate labels as 'item (vehicle / supplier)' and component names tidied for Show calculation",
    "changes": []
+  },
+  {
+   "v": 46,
+   "at": "2026-10-10T03:59:06Z",
+   "by": "system",
+   "note": "Beijing Costing rate by rate from the Tourdechina CR 2026 in RMB (contracts/pek): tour fare per pax band 2–3 / 4–5 / 6–9 / 10–14 / 15–19 / 20–24 / 25+ and tipping RMB30/pax/day × 5; RMB → MYR now live FX (CNY, fallback 0.61043; was fixed 0.65)",
+   "summary": [
+    "Same RMB amounts as before (the old MYR tables were CR × 0.65); cost now follows the live CNY rate",
+    "Ground Cost / Tipping tables replaced by 8 RMB rates and 2 components; CNB 80% on the tour fare only; Beijing nights 0 → 4"
+   ],
+   "changes": []
   }
  ]
 }
