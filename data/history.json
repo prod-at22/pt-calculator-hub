@@ -39571,6 +39571,13 @@
     "FX entries can be live (\"live\": currency): today's ECB rate (frankfurter.dev, fallback open.er-api.com) when the page opens; stored value = fallback. Bangkok THB is live"
    ],
    "changes": []
+  },
+  {
+   "v": 45,
+   "at": "2026-10-10T03:50:22Z",
+   "by": "system",
+   "note": "Bangkok page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flags and history records are kept; the header History button opens the hub-wide history; Bangkok rate labels as 'item (vehicle / supplier)' and component names tidied for Show calculation",
+   "changes": []
   }
  ]
 }
