@@ -631,8 +631,10 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#rndCard"));
     ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector("#qcCard"), "Simple Calculator (R&D): no embedded KB calculator, no second quotation calculator");
     {
+      ok(doc.querySelector("[data-rndpk]") && !/RM[\d,.]+\s*Costing/.test(doc.querySelector("#rndCard tbody").textContent), "Simple Calculator (R&D): Pakej (from the Costing tab) folded by default, one summary line");
+      click(w, doc.querySelector("[data-rndpk]")); await tick(10);
       const rows = [...doc.querySelectorAll("#rndCard tbody tr:not(.cat)")], tiers = kb0.calc.variants.reduce((s, v) => s + (v.tiers || []).length, 0);
-      ok(rows.length >= tiers && rows.some(r => /RM[\d,.]+\s*Costing/.test(r.textContent)), "Simple Calculator (R&D): every Sales price as a row; package tiers costed from Costing (auto)");
+      ok(rows.length >= tiers && rows.some(r => /RM[\d,.]+\s*Costing/.test(r.textContent)), "Simple Calculator (R&D): Buka shows every package tier, costed from Costing");
       ok(doc.querySelectorAll(".rnd-chips button").length >= 3 && /Semua/.test(doc.querySelector(".rnd-chips").textContent) && /Tiada kos/.test(doc.querySelector(".rnd-chips").textContent), "Simple Calculator (R&D): status filter (Semua + the statuses present)");
       const tc = rows.find(r => /Tokyo City/.test(r.textContent) && /1–7 pax/.test(r.textContent)), hnd = byCode(w.PTCALC.DATA, "HND"), q = hnd.rates.find(r => r.id === "qCity"), fx = hnd.fx.find(f => f.id === q.fx).value;
       ok(tc && /HND · qCity/.test(tc.textContent) && tc.textContent.includes("RM" + Math.round(q.value * fx).toLocaleString("en-MY")), "Simple Calculator (R&D): extra day Tokyo City 1–7 pax costed by formula on the HND rate qCity × FX");
