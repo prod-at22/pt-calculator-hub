@@ -47,12 +47,7 @@
     ],
     "rows": [
       {
-        "pax": "2 - 10",
-        "amounts": [
-          "RM3,097",
-          "RM2,197",
-          "RM1,797"
-        ]
+        "pax": "2 - 10"
       }
     ],
     "infant": "RM100 (0-2 yrs)"
@@ -270,5 +265,6 @@
         "*Shared Tour = Boat and activity sharing with other tourist."
       ]
     }
-  ]
+  ],
+  "hub_version": 54
 }

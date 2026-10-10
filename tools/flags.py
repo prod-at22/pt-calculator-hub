@@ -30,7 +30,7 @@ MAP = {
     "istanbul-cappadocia": ("ISTCAP", "mytrip-pt-3star"), "jakarta-bandung": ("JBDO", "ctrans"),
     "jeju": ("JJU", "atk-pt"), "jeju-udo": ("JJUO", "atk-std"), "jogjakarta": ("JOG", "pak-jamal-3-star"),
     "krabi-basic": ("KBV", "budget"), "krabi-standard": ("KBV", "standard"), "krabi-honeymoon": ("KBV", "honeymoon"),
-    "lombok": ("LOP", "pak-anang-3s"), "maldives-basic": ("MLE", "mle-basic-low"), "maldives-standard": ("MLE", None),
+    "lombok": ("LOP", "pak-anang-3s"), "maldives-basic": ("MLE", "mle-basic-low"), "maldives-standard": ("MLE", "mle-4star-low"),
     "maldives-combo": ("MLE", "mle-combo-low"), "maldives-water-villa": ("MLE", "mle-water-low"),
     "medan-lake-toba": ("LTOBA", "emiya"), "melbourne-basic": ("MEL", "wae-basic"),
     "melbourne-standard": ("MEL", "wae-standard"), "nz-north-south": ("NSNZ", "arba-to-10d9n-n-s"),
