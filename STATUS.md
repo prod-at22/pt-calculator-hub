@@ -72,17 +72,22 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
-## HANDOFF (10 Oct 2026) — v47 live
-- v41 Info KB tidy · v42 Bangkok 4★ / 5★ removed (upgrade / add-on prices kept) · v43–v44 Bangkok Costing rate by rate from
-  PT BANGKOK R&D 2026 sheet COSTING BKK (reference only; no meals) · v45 Bangkok Flags / History tabs hidden (destinations[].hideTabs),
-  Show calculation folds pax-only parts · v46 Beijing Costing from the Tourdechina CR in RMB · v47 KB Accommodation from the hub.
-- **Live FX**: an FX entry with `"live": "<ISO>"` uses today's ECB rate (frankfurter.dev, fallback open.er-api.com) on page open;
-  `value` = fallback. Live: BKK THB, PEK RMB (CNY). tools/flags.py uses the stored value.
-- v47: KB hotel cards removed — KB Accommodation = the Accommodation list per package + `roomNote` (Nota bilik, KB only) + the
-  catalog's room-basis line; photos in pt-kb-house `<slug>/hotel-images.json`; aceh / korea read `KBD.ACC_HTML`. FAQ cancellation /
-  refund removed. Simple Calculator tab = config as editable tables + .md download (no embedded KB).
-- Open for the PO: Beijing Jul–Aug +RMB400, single supplement RMB750 / 620, +1 FOC 10+ pax; live FX for other destinations;
-  admin token + First-time setup.
+## HANDOFF (10 Oct 2026) — v54 live · next: logins for every PO
+- Live: hub v54 (data.json version 54), pt-kb-house and catalog-pt-public mirrored (CI "28/28 KB OK"), all verified.
+- Done 9–10 Oct: v41 Info KB tidy · v42 Bangkok 4★/5★ removed · v43–v44 Bangkok Costing rate by rate (sheet COSTING BKK, no meals) ·
+  v45 Bangkok Flags/History hidden (destinations[].hideTabs), Show calculation folds pax-only parts · v46 Beijing from the Tourdechina CR (RMB) ·
+  v47 KB Accommodation from the hub + roomNote · v48 Beijing Flags/History hidden · v49 live FX for every destination except Jepun ·
+  v50–v51 Simple Calculator (R&D): every Sales price in the KB calculator with cost (Costing / formula on Costing rates / add-on / RM, kb.rnd)
+  and margin; Pakej folded & read-only; Tokyo / Osaka / Tokyo-Osaka formulas · TO Contract Rate tab after Costing · v52–v53 new destination
+  KMGDL Yunnan 3 Wilayah (Tourdechina RMB, PT KMGDL R&D as reference), catalog linked · v54 Maldives 4 Star (Kaani Palm Beach CR, USD), catalog linked.
+- **Live FX**: fx entry `"live": "<ISO>"` → today's ECB rate (one request MYR → currencies, inverted) on page open; `value` = fallback.
+- **Next task (new session): logins for every PO, each an admin who can change R&D Costing.** The login system already exists
+  (README "One-time setup (admin)" + "How the login works"): data/users.json is still empty. The PO list: Acap, Aiman, Thania, Fyka, Amirul.
+  Creating the GitHub token, First-time setup and passwords must be done by the PO/admin themselves — Claude must not create accounts,
+  enter passwords or handle the token. Claude can review/extend the login code (roles, per-PO rights, UI) and guide the setup.
+- Open for the PO: Maldives 4 Star CNB below cost (Kaani has no child rate) + estimates to confirm (lunch D3, 2nd excursion, green tax,
+  tipping) + Peak 21 Dec–10 Jan not sold by Kaani; Beijing Jul–Aug +RMB400 / single supplement / FOC; Ho Chi Minh 4D3N has no costing
+  (needs a CR); Simple Calculator formulas for other destinations; Hokkaido / Seoul rates missing in Rate reference.
 
 ## KB House from the hub (9 Oct 2026, v32) — Phase 2 in progress
 - PO decision (9 Oct): the hub is the source of truth for PT KB House; KB pages mirror the hub; cosmetics (images,
