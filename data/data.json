@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 45,
+ "version": 46,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -33407,7 +33407,7 @@
    "name": "Beijing",
    "country": "China",
    "duration": "5D4N",
-   "nights": 0,
+   "nights": 4,
    "po": "Fyka",
    "source": "hub",
    "note": "",
@@ -33421,131 +33421,100 @@
     {
      "id": "RMB",
      "label": "RMB → MYR",
-     "value": 0.65,
+     "value": 0.61043,
      "locked": true,
-     "source": "hub"
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 9 Oct 2026)",
+     "live": "CNY"
     }
    ],
-   "rates": [],
-   "tables": [
+   "rates": [
     {
-     "id": "TOURDECHINA__Ground-Cost-MYR",
-     "label": "TOURDECHINA · Ground Cost",
-     "unit": "MYR/pax",
-     "fx": "MYR",
-     "group": "TOURDECHINA",
-     "values": {
-      "2": 4043,
-      "3": 4043,
-      "4": 2847,
-      "5": 2847,
-      "6": 2405,
-      "7": 2405,
-      "8": 2405,
-      "9": 2405,
-      "10": 1755,
-      "11": 1755,
-      "12": 1755,
-      "13": 1755,
-      "14": 1755,
-      "15": 1430,
-      "16": 1430,
-      "17": 1430,
-      "18": 1430,
-      "19": 1430,
-      "20": 1378,
-      "21": 1378,
-      "22": 1378,
-      "23": 1378,
-      "24": 1378,
-      "25": 1345.5,
-      "26": 1345.5,
-      "27": 1345.5,
-      "28": 1345.5,
-      "29": 1345.5,
-      "30": 1345.5,
-      "31": 1345.5,
-      "32": 1345.5,
-      "33": 1345.5,
-      "34": 1345.5,
-      "35": 1345.5,
-      "36": 1345.5,
-      "37": 1345.5,
-      "38": 1345.5,
-      "39": 1345.5,
-      "40": 1345.5
-     }
+     "id": "f2",
+     "label": "Tour fare 2–3 pax (Tourdechina)",
+     "value": 6220,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
     },
     {
-     "id": "TOURDECHINA__Tipping-MYR",
-     "label": "TOURDECHINA · Tipping",
-     "unit": "MYR/pax",
-     "fx": "MYR",
-     "group": "TOURDECHINA",
-     "values": {
-      "2": 97.5,
-      "3": 97.5,
-      "4": 97.5,
-      "5": 97.5,
-      "6": 97.5,
-      "7": 97.5,
-      "8": 97.5,
-      "9": 97.5,
-      "10": 97.5,
-      "11": 97.5,
-      "12": 97.5,
-      "13": 97.5,
-      "14": 97.5,
-      "15": 97.5,
-      "16": 97.5,
-      "17": 97.5,
-      "18": 97.5,
-      "19": 97.5,
-      "20": 97.5,
-      "21": 97.5,
-      "22": 97.5,
-      "23": 97.5,
-      "24": 97.5,
-      "25": 97.5,
-      "26": 97.5,
-      "27": 97.5,
-      "28": 97.5,
-      "29": 97.5,
-      "30": 97.5,
-      "31": 97.5,
-      "32": 97.5,
-      "33": 97.5,
-      "34": 97.5,
-      "35": 97.5,
-      "36": 97.5,
-      "37": 97.5,
-      "38": 97.5,
-      "39": 97.5,
-      "40": 97.5
-     }
+     "id": "f4",
+     "label": "Tour fare 4–5 pax (Tourdechina)",
+     "value": 4380,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "f6",
+     "label": "Tour fare 6–9 pax (Tourdechina)",
+     "value": 3700,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "f10",
+     "label": "Tour fare 10–14 pax + 1 FOC (Tourdechina)",
+     "value": 2700,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "f15",
+     "label": "Tour fare 15–19 pax + 1 FOC (Tourdechina)",
+     "value": 2200,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "f20",
+     "label": "Tour fare 20–24 pax + 1 FOC (Tourdechina)",
+     "value": 2120,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "f25",
+     "label": "Tour fare 25+ pax + 1 FOC (Tourdechina)",
+     "value": 2070,
+     "fx": "RMB",
+     "unit": "RMB/pax",
+     "group": "Tourdechina CR 2026 (Jan–Jun & Sep–Dec)"
+    },
+    {
+     "id": "tip",
+     "label": "Tipping, tidak termasuk dalam tour fare (Tourdechina)",
+     "value": 30,
+     "fx": "RMB",
+     "unit": "RMB/pax/hari",
+     "group": "Tipping"
     }
    ],
+   "tables": [],
    "variants": [
     {
      "id": "TOURDECHINA",
      "label": "Tourdechina",
-     "supplier": "TO TOURDECHINA — Beijing 5D4N (Base rate: Jan-Jun & Sep-Dec excluding peak perio",
+     "supplier": "TO TOURDECHINA — Beijing 5D4N Muslim Tour (CR Jan–Jun & Sep–Dec 2026, excl. peak / national holiday)",
      "paxMin": 2,
      "paxMax": 40,
      "hotel": "4-Star Beijing — Derreal Hotel or similar",
-     "notes": "",
+     "notes": "Kos dari CR Tourdechina 2026 dalam RMB (contracts/pek). Termasuk: entrance ikut itinerary, 8 halal meals, transport (MPV 2–4 pax, coach 14–17 seat 5–9 pax, coach 37 seat 10+), 4 malam hotel 4★ + breakfast, English-speaking guide, air. Tidak termasuk: tipping (RMB30/pax/hari × 5). Jul–Aug +RMB400/pax. CWB 100%, CNB 80% tour fare.",
      "components": [
       {
-       "key": "ground-cost-myr",
-       "label": "Ground Cost",
-       "per": "pax",
-       "expr": "T['TOURDECHINA__Ground-Cost-MYR']"
+       "key": "fare",
+       "label": "Tour fare (CR Tourdechina)",
+       "per": "group",
+       "expr": "band(pax,[3,R.f2],[5,R.f4],[9,R.f6],[14,R.f10],[19,R.f15],[24,R.f20],[999,R.f25])*pax"
       },
       {
-       "key": "tipping-myr",
-       "label": "Tipping",
-       "per": "pax",
-       "expr": "T['TOURDECHINA__Tipping-MYR']"
+       "key": "tipping",
+       "label": "Tipping × 5 hari",
+       "per": "group",
+       "expr": "R.tip*5*pax"
       }
      ]
     }
@@ -33669,7 +33638,7 @@
        "type": "pct",
        "value": 0.8,
        "on": [
-        "ground-cost-myr"
+        "fare"
        ]
       },
       "infantCost": {
