@@ -628,20 +628,15 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const items = [...g.querySelectorAll("[data-kbtext]")];
     ok(items.some(x => x.style.display === "none") && items.some(x => x.style.display !== "none"), "Info KB search filters the attractions / FAQ");
     q.value = ""; q.dispatchEvent(new w.Event("input", { bubbles: true }));
-    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#qcCard"));
-    ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector("#calc-tiers") && !doc.querySelector('#grid a[href*="pt-kb-house"]'), "Simple Calculator tab: Costing-based quick calculator, no KB calculator / config");
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#rndCard"));
+    ok(!doc.querySelector("#kbCalcFrame") && !doc.querySelector("#qcCard"), "Simple Calculator (R&D): no embedded KB calculator, no second quotation calculator");
     {
-      const PP = w.PTCALC, d0 = byCode(PP.DATA, PP.SEL.dest), pk0 = d0.packages.find(p => p.id === PP.SEL.pkg) || d0.packages[0];
-      const vid = pk0.assign.find(a => 2 >= a.from && 2 <= a.to).variant, r2 = PP.priceRow(d0, pk0, vid, 2);
-      const tf = doc.querySelector("#qcCard .qc-t tfoot").textContent.replace(/\s+/g, "");
-      ok(Number.isFinite(r2.adult.selling) && tf.includes("RM" + Math.round(2 * r2.adult.selling).toLocaleString("en-MY")), "Simple Calculator: 2 adults = 2 × Costing Selling Price at 2 pax");
-      const ci = doc.querySelector('[data-qc="c"]'); ci.value = "1"; fire(w, ci, "change"); await tick(10);
-      ok(doc.querySelector("#qcCard .qc-t").textContent.includes("CWB") && doc.querySelector('#qcCard input[disabled]').value.includes("3 pax"), "Simple Calculator: + 1 CWB → priced at 3 pax, CWB line");
-      const c2 = doc.querySelector('[data-qc="c"]'); c2.value = "0"; fire(w, c2, "change"); await tick(10);
+      const rows = [...doc.querySelectorAll("#rndCard tbody tr:not(.cat)")], tiers = kb0.calc.variants.reduce((s, v) => s + (v.tiers || []).length, 0);
+      ok(rows.length >= tiers && rows.some(r => /Costing ·/.test(r.textContent) && /auto/.test(r.textContent)), "Simple Calculator (R&D): every Sales price as a row; package tiers costed from Costing (auto)");
+      ok(doc.querySelectorAll(".rnd-chips button").length === 5 && /Tiada kos/.test(doc.querySelector(".rnd-chips").textContent), "Simple Calculator (R&D): status filter Rugi / Bawah min / Tiada kos / OK / Potongan");
     }
-    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-calc-cfg #calc-tiers"));
-    ok(doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length && doc.querySelector("#calc-tiers").textContent.includes("Costing"), "Info KB: the KB calculator config — every package with its price tiers");
-    ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Info KB: KB calculator add-ons as a table + Muat turun .md");
+    ok(doc.querySelector("#kb-calc-cfg #calc-tiers") && doc.querySelectorAll("#calc-tiers .calc-pkg").length === kb0.calc.variants.length, "Simple Calculator (R&D): full Sales calculator config below the price list");
+    ok(doc.querySelectorAll("#calc-addons tbody tr").length === (kb0.calc.addons || []).length && doc.querySelector('[data-act="calcMd"]'), "Sales calculator config: add-ons table + Muat turun .md");
     const md = w.PTCALC.calcMd("Jepun", kb0.calc, kb0.map.variants);
     ok(md.includes("## Pakej & harga tier") && md.includes("| Pax | Adult | CWB | CNB |"), "calculator config as Markdown");
     click(w, doc.querySelector("#btnEdit")); await tick(5);
@@ -649,7 +644,15 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     const mp = JSON.stringify(["jepun", "content", "attractions", 0, "muslim"]), mi = [...doc.querySelectorAll(".kbed")].find(x => x.dataset.kpath === mp);
     ok(mi, "Edit costs: attraction Muslim-friendly text is editable");
     mi.value = "Surau di stesen (diuji)"; fire(w, mi, "change"); await tick(10);
-    await tab(w, doc, "kbinfo"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
+    await tab(w, doc, "kbcalc"); await until(() => doc.querySelector("#kb-calc-edit textarea"));
+    {
+      const sel = doc.querySelector("#rndCard select[data-rndlink]");
+      ok(sel && sel.options.length > 1, "Edit costs: a Sales price without a cost can be linked to a hub add-on");
+      const ri = doc.querySelector('#rndCard input[data-rndlink]'), key = JSON.parse(ri.dataset.rndlink).key; ri.value = "12.5"; fire(w, ri, "change"); await tick(10);
+      ok(w.PTCALC.KBEDIT().jepun.rnd.cost[key].rm === 12.5, "Edit costs: manual cost saved into the KB file (rnd.cost, not published to the KB)");
+      const r2 = doc.querySelector('#rndCard input[data-rndlink]'); r2.value = ""; fire(w, r2, "change"); await tick(10);
+      ok(!w.PTCALC.KBEDIT().jepun.rnd, "clearing the cost removes the rnd entry");
+    }
     let ta = doc.querySelector("#kb-calc-edit textarea"); ta.value = "{ broken"; fire(w, ta, "change"); await tick(10);
     ok(doc.querySelector("#btnSave").textContent.includes("(1)"), "broken calculator JSON is not accepted");
     const dep = [...doc.querySelectorAll("#calc-asas .kbed")].find(x => x.dataset.kpath === JSON.stringify(["jepun", "calc", "deposit"]));

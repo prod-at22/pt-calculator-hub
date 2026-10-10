@@ -20,7 +20,7 @@ let FLAGS = { flags: [] };
 let SESSION = null;   // {u, role, token, key}
 let EDIT = false;
 let VIEW = null;      // {v, data} when viewing an older version
-const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, qc: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
+const SEL = { dest: null, pkg: new URLSearchParams(location.search).get("pkg"), variant: "auto", pax: 2, paxTab: "adult", showCalc: false, showRef: false, addonQty: {}, opt: {}, tab: (location.hash || "#costing").slice(1), flagSev: { high: true, medium: true, low: false }, flagArea: "", flagPO: "", flagQ: "" };
 const TABS = [["costing", "Costing"], ["itinerary", "Itinerary"], ["surcharge", "Surcharge"], ["accommodation", "Accommodation"], ["addons", "Add On"], ["expect", "What to Expect"], ["policy", "Policy"], ["kbinfo", "Info KB"], ["kbcalc", "Simple Calculator"], ["contracts", "TO Contract Rate"], ["flags", "Flags"], ["history", "History"]];
 // each catalog section comes from its own tab: price = Costing, itinerary + includes/excludes = Itinerary, …
 // A destination can hide tabs (data.json destinations[].hideTabs, e.g. ["flags", "history"] for Bangkok, PO 10 Oct 2026).
@@ -433,7 +433,7 @@ function renderMain(d, pkg) {
   else if (CAT_TABS.includes(T)) $("#grid").innerHTML = catalogTab(d, pkg, T);
   else if (T === "accommodation") $("#grid").innerHTML = accommodationCard(d);
   else if (T === "kbinfo") { $("#grid").innerHTML = kbInfoTab(d); kbFilter(); }
-  else if (T === "kbcalc") $("#grid").innerHTML = quickCalcTab(d, pkg);
+  else if (T === "kbcalc") $("#grid").innerHTML = simpleCalcTab(d);
   else if (T === "contracts") $("#grid").innerHTML = contractCard(d);
   else if (T === "addons") $("#grid").innerHTML = addonCard(d, pkg) || `<div class="card full"><div class="empty">No add-ons for ${esc(d.name)} yet.</div></div>`;
   else if (T === "flags") $("#grid").innerHTML = flagList(flagsFor(d.code), false);
@@ -992,7 +992,7 @@ function kbInfoTab(d) {
       + (V.itin && (g(V.itin) || []).some(x => x) ? card("itin", "Itinerari pakej tanpa katalog", "pakej lain ikut tab Itinerary", (g(V.itin) || []).map((x, i) => x ? `<h3>${esc(names[i] || "#" + (i + 1))}</h3>` + kbEditor(sl, [...V.itin, i], x, null) : "").join("")) : "") + ed("acts", "Aktiviti", V.acts)
       + card("blocks", "Tab KB (HTML)", "satu blok satu tab dalam KB", Object.entries(V.blocks).filter(([k]) => !KB_SKIP_BLOCK.has(k)).map(([k, p]) => `<h3>${esc(KB_BLOCK[k] || k)}${KB_FROM_HUB[k] ? ` <span class="muted small">— nota KB sahaja; ${KB_FROM_HUB[k]}</span>` : ""}</h3>${kbEditor(sl, p, g(p), null)}`).join(""))
       + ed("mkt", "Marketing", V.marketing) + (V.meta ? card("meta", "Hero & halaman", "", kbEditor(sl, V.meta, Object.fromEntries(Object.entries(g(V.meta)).filter(([k]) => k !== "marketing")), null)) : "")
-      + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("") + kbCalcConfig(d);
+      + V.extra.map(p => ed("x-" + p[1], p[1], p)).join("");
   }
   const A = g(V.attractions) || [];
   const attr = A.map(a => `<div class="kb-attr" data-kbtext="${esc(kbTxt([a.n, a.t, a.short, a.intro, (a.hi || []).join(" "), a.best, a.muslim].join(" ")).toLowerCase())}">
@@ -1012,7 +1012,7 @@ function kbInfoTab(d) {
   const ownCard = own ? card("own", "Pakej tanpa katalog", "data KB sendiri — pakej lain: harga di tab Costing, itinerary &amp; termasuk / tidak termasuk di tab Itinerary", own) : "";
   return head + card("attr", "Attractions & Muslim-friendly", `${A.length} tempat`, attr ? `<div class="kb-grid">${attr}</div>` : "")
     + card("faq", "FAQ / Important Notes", "klik tajuk untuk buka", faq) + ownCard + card("blocks", "Tab KB", "Transport, Hotel, Halal, Solat, Flight, Visa, Free Gift …", bl)
-    + card("mkt", "Marketing", "", mk) + kbCalcConfig(d);
+    + card("mkt", "Marketing", "", mk);
 }
 // Simple Calculator: the KB calculator's config (data/kb/<slug>.json `calc` = <slug>/calc-config.json) shown as plain
 // tables in Bahasa Melayu, edited in place in Edit costs; "Muat turun .md" gives the same as a Markdown file.
@@ -1099,59 +1099,119 @@ function calcMd(name, cal, links) {
   return md;
 }
 // The KB's own Simple Calculator config (data/kb/<slug>.json `calc` = <slug>/calc-config.json), shown at the end of
-// Info KB as plain tables; the hub's Simple Calculator tab is the Costing-based quick calculator (quickCalcTab).
+// the R&D Simple Calculator tab (simpleCalcTab) as plain tables + full JSON.
 function kbCalcConfig(d) {
   const x = kbDoc(d.code); if (!x) return "";
   const { sl, kb } = x, E = EDIT && !VIEW, links = (kb.map || {}).variants || {}, cal = kb.calc || {};
-  return `<div class="card full kb" id="kb-calc-cfg"><details${E ? " open" : ""}><summary><b>Kalkulator dalam KB (config)</b> <span class="sub">${(cal.variants || []).length} pakej · nombor kalkulator di halaman PT KB House${E ? " · ubah terus dalam jadual, kemudian Save" : ""}</span></summary>
+  return `<div class="card full kb" id="kb-calc-cfg"><details${E ? " open" : ""}><summary><b>Config penuh kalkulator Sales</b> <span class="sub">${(cal.variants || []).length} pakej · nombor kalkulator di halaman PT KB House${E ? " · ubah terus dalam jadual, kemudian Save" : ""}</span></summary>
       <div class="body"><button class="btn" data-act="calcMd" data-code="${esc(d.code)}">Muat turun .md</button></div>
     ${kbCalcForm(sl, cal, links, E)}
     ${E ? `<div class="card full kb" id="kb-calc-edit"><details><summary><b>Lanjutan: config penuh (JSON)</b> <span class="sub">${esc(sl)}/calc-config.json — itinerary pakej, inclusions dan medan lain</span></summary><div class="body">
       <div class="small muted">Mesti JSON yang sah; JSON rosak tidak diterima. Harga tier pakej yang dipaut ke Costing ditulis semula dari Costing semasa build.</div>
       <textarea class="ed kbed mono" data-kpath="${esc(JSON.stringify([sl, "calc"]))}" data-kkind="json" rows="30">${esc(JSON.stringify(cal, null, 1))}</textarea></div></details></div>` : ""}</details></div>`;
 }
-// Simple Calculator tab: a quotation worked out with the Costing tab's own logic — Selling Price / cost per adult, CWB, CNB
-// and infant at the group's pax (priceRow, TO picked by pax as on Costing, live FX), + Add On items × qty
-// (SEL.addonQty, same as the Add On tab) + one manual line. Total, cost, margin, per pax, deposit.
-function quickCalcTab(d, pkg) {
-  const Q = SEL.qc[d.code] ||= { a: 2, c: 0, n: 0, i: 0, adj: 0, adjLbl: "" };
-  const pax = Q.a + Q.c + Q.n, vid = pax ? (SEL.variant !== "auto" ? SEL.variant : assignedVariantId(pkg, pax)) : null;
-  const r = vid ? priceRow(d, pkg, vid, pax) : null, v = r && r.variant;
-  const lines = [];
-  const add = (label, qty, sell, cost, note) => { if (qty) lines.push({ label, qty, sell, cost, note }); };
-  if (r) {
-    add("Adult", Q.a, r.adult.selling, r.adult.cost);
-    add("Child with bed (CWB)", Q.c, r.cwb.selling, r.cwb.cost);
-    add("Child no bed (CNB)", Q.n, r.cnb.selling, r.cnb.cost);
-    add("Infant", Q.i, r.infant.selling, r.infant.cost);
+// Simple Calculator tab (R&D): the builder behind the Sales calculator in the KB. One row per price Sales can quote
+// (package tiers, named rates by pax band × normal / peak, option prices, add-ons, peak / surcharges, single, infant),
+// with its cost and margin. Cost: package tiers from the Costing tab (auto); every other row from a link the R&D team
+// sets in kb.rnd.cost[key] = {addon: <hub add-on id>} | {rm: <RM per unit>}; add-ons whose name matches a hub add-on
+// with a cost are linked automatically. Minimum margin per KB (destination): kb.rnd.minMargin (default 10%). Selling
+// prices are edited in place (they are the KB calculator's config); kb.rnd itself is not published to the KB.
+const RND_MIN = 0.10;
+const rndNorm = s => calcDe(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+function rndItems(kb) {
+  const cal = kb.calc || {}, V = cal.variants || [], links = (kb.map || {}).variants || {}, items = [];
+  const g = path => path.reduce((o, k) => o == null ? undefined : o[k], cal);
+  const refs = {};
+  for (const [key, grp] of [["accOptions", "Hotel"], ["mealOptions", "Meal"], ["trpOptions", "Transport"]]) (cal[key] || []).forEach((o, i) => {
+    for (const f of ["perPaxRate", "perVehicleRate", "nightRate"]) if (o[f]) (refs[o[f]] ||= []).push({ grp, t: calcDe(o.t), unit: f === "perPaxRate" ? "pax" : f === "nightRate" ? "malam" : "kenderaan" });
+    for (const f of ["perPax", "perVehicle"]) if (num(o[f]) && o[f]) items.push({ key: `opt:${key}:${o.v}:${f}`, grp, label: calcDe(o.t), unit: f === "perPax" ? "pax" : "kenderaan", path: [key, i, f] });
+  });
+  V.forEach((v, i) => {
+    const ln = links[v.id];
+    (v.tiers || []).forEach((t, j) => items.push({ key: `tier:${v.id}:${t.from}-${t.to}`, grp: "Pakej", label: calcDe(v.name), band: [t.from, t.to], unit: "pax (adult)",
+      path: ["variants", i, "tiers", j, "a"], child: num(t.c) ? ["variants", i, "tiers", j, "c"] : null, tier: ln ? { ...ln, from: t.from, to: t.to } : null }));
+    if (num(v.single) && v.single) items.push({ key: `single:${v.id}`, grp: "Pakej", label: "Single supplement · " + calcDe(v.name), unit: "pax", path: ["variants", i, "single"] });
+    if (num(v.infant) && v.infant) items.push({ key: `infant:${v.id}`, grp: "Pakej", label: "Infant · " + calcDe(v.name), unit: "infant", path: ["variants", i, "infant"] });
+  });
+  const sets = []; if (cal.ext && cal.ext.rates) sets.push(["ext", "rates"]);
+  V.forEach((v, i) => { if (v.ext && v.ext.rates) sets.push(["variants", i, "ext", "rates"]); });
+  const seen = new Set();
+  for (const sp of sets) for (const [name, regions] of Object.entries(g(sp) || {})) for (const [reg, bands] of Object.entries(regions || {})) {
+    const sig = name + "|" + reg + "|" + JSON.stringify(bands); if (seen.has(sig)) continue; seen.add(sig);
+    const r = refs[name] || (name === "day" ? [{ grp: "Transport", t: "Hari tambahan (transport harian)", unit: "kenderaan / hari" }] : [{ grp: "Kadar lain", t: name, unit: "" }]);
+    (bands || []).forEach((b, j) => {
+      if (!b.normal && !b.peak) return;
+      items.push({ key: `rate:${name}:${reg}:${b.from}-${b.to}`, grp: r[0].grp, label: [...new Set(r.map(x => x.t))].join(" / ") + (reg !== "_default" ? " " + reg : ""), code: name,
+        band: [b.from, b.to], unit: r[0].unit, path: [...sp, name, reg, j, "normal"], peak: num(b.peak) && b.peak !== b.normal ? [...sp, name, reg, j, "peak"] : null });
+    });
   }
-  for (const a of d.addons || []) { const q = +SEL.addonQty[a.id] || 0; add(a.label, q, num(a.selling) ? +a.selling : NaN, num(a.cost) ? +a.cost : NaN, "Add On" + (a.per ? " · per " + a.per : "")); }
-  if (+Q.adj) lines.push({ label: Q.adjLbl || "Pelarasan / surcaj", qty: 1, sell: +Q.adj, cost: 0, note: "manual" });
-  const tot = k => lines.reduce((s, l) => s + l.qty * l[k], 0);
-  const sell = tot("sell"), cost = tot("cost"), marg = sell - cost, okAll = lines.every(l => num(l.sell) && num(l.cost));
-  const slug = (catalogSlugs(pkg, d) || [])[0], cat = slug && CAT.docs[slug];
-  if (slug && !cat && !CAT.err) loadCatalog(slug + ".json", x => { CAT.docs[slug] = x; });
-  const depM = cat && (cat.deposit || []).map(x => /RM\s?([\d,]+)/.exec(String(x.figure || "") + " " + String(x.text || ""))).find(Boolean);
-  const dep = depM ? +depM[1].replace(/,/g, "") * pax : NaN;
-  const inp = (k, lbl, min = 0) => `<label class="qc-f">${lbl}<input type="number" min="${min}" max="99" data-qc="${k}" value="${Q[k]}"></label>`;
-  const addons = (d.addons || []).filter(a => num(a.selling));
-  const warn = !pax ? "Isi sekurang-kurangnya 1 pax (adult / CWB / CNB)." : !v ? `Tiada TO untuk ${pax} pax dalam pakej ini.` : !num(r.adult.selling) ? `Tiada Catalog Price untuk ${pax} pax.` : !num(r.adult.cost) ? `Tiada kos TO untuk ${pax} pax.` : "";
-  return `<div class="card full" id="qcCard"><h2>Simple Calculator · ${esc(pkg.label)} <span class="sub">logik tab Costing: Selling Price = Catalog Price − RM${n2(sellDisc())} · kos ikut TO &amp; FX semasa</span></h2>
-    <div class="body qc-in">${inp("a", "Adult")}${inp("c", "CWB")}${inp("n", "CNB")}${inp("i", "Infant")}
-      <label class="qc-f">Tour operator<input disabled value="${esc(v ? v.label : "—")}${pax ? ` (${pax} pax)` : ""}"></label>
-      <label class="qc-f grow">Pelarasan / surcaj (RM, jumlah)<span class="qc-adj"><input type="text" data-qc="adjLbl" placeholder="cth. Peak season 2 × 3 malam" value="${esc(Q.adjLbl)}"><input type="number" step="any" data-qc="adj" value="${Q.adj || ""}" placeholder="0"></span></label></div>
-    ${warn ? `<div class="body"><span class="pill bad">${esc(warn)}</span></div>` : ""}
-    ${addons.length ? `<details class="body"${Object.values(SEL.addonQty).some(Boolean) ? " open" : ""}><summary><b>Add On</b> <span class="muted small">${addons.length} item · qty sama dengan tab Add On</span></summary><div class="qc-ao">${addons.map(a => `<label class="qc-ao-i"><input type="number" min="0" max="999" class="aq" data-addon="${esc(a.id)}" value="${+SEL.addonQty[a.id] || ""}" placeholder="0"> ${esc(a.label)} <span class="muted small">${rm(+a.selling)}${a.per ? " / " + esc(a.per) : ""}</span></label>`).join("")}</div></details>` : ""}
-    <div class="scroll"><table class="rd qc-t"><thead><tr><th class="l">Item</th><th>Qty</th><th>Harga jual</th><th>Jumlah jual</th><th>Kos / unit</th><th>Jumlah kos</th></tr></thead><tbody>
-      ${lines.map(l => `<tr><td class="l">${esc(l.label)}${l.note ? ` <span class="muted small">${esc(l.note)}</span>` : ""}</td><td class="c">${l.qty}</td><td>${rm(l.sell)}</td><td><b>${rm(l.qty * l.sell)}</b></td><td>${rm(l.cost)}</td><td>${rm(l.qty * l.cost)}</td></tr>`).join("") || `<tr><td class="l muted" colspan="6">—</td></tr>`}
-    </tbody><tfoot><tr><th class="l">Jumlah</th><th></th><th></th><th>${rm(sell)}</th><th></th><th>${okAll ? rm(cost) : rm(NaN)}</th></tr></tfoot></table></div>
-    <div class="qc-sum">
-      <div><span>Grand total</span><b>${rm(sell)}</b></div>
-      <div><span>Per pax (purata, ${pax || 0} pax)</span><b>${pax ? rm(sell / pax) : "—"}</b></div>
-      <div><span>Margin</span><b class="${marginClass(okAll ? marg : NaN)}">${okAll ? rm(marg) : "—"}</b> <span class="small">${okAll && sell ? pct(marg / sell) : ""}</span></div>
-      <div><span>Deposit${depM ? ` (RM${esc(depM[1])} × ${pax} pax)` : ""}</span><b>${rm(dep)}</b></div>
-    </div>
-    <div class="body"><button class="btn" data-act="qcCopy">Salin ringkasan</button> <span class="muted small">Peak season / surcaj hotel: rujuk tab Surcharge dan isi di baris Pelarasan.</span></div></div>`;
+  if (cal.ext && cal.ext.night && (cal.ext.night.normal || cal.ext.night.peak)) items.push({ key: "extnight", grp: "Hotel", label: "Malam tambahan (kadar asas)", unit: "pax / malam", path: ["ext", "night", "normal"], peak: ["ext", "night", "peak"] });
+  (cal.addons || []).forEach((a, i) => { if (num(a[1]) && a[1]) items.push({ key: "addon:" + rndNorm(a[0]), grp: "Add-on", label: calcDe(a[0]), unit: a[3] === "unit" ? "unit" : "pax", path: ["addons", i, 1], child: num(a[2]) && a[2] !== a[1] ? ["addons", i, 2] : null, match: rndNorm(a[0]) }); });
+  ((cal.peak || {}).windows || []).forEach((w, i) => { if (num(w[3]) && w[3]) items.push({ key: `peak:${w[2]}:${w[0]}`, grp: "Peak & surcaj", label: `${w[4] || "Peak"} ${w[0]} – ${w[1]}` + (w[2] ? " · " + calcDe((V.find(v => v.id === w[2]) || {}).name || w[2]) : ""), unit: "pax", path: ["peak", "windows", i, 3] }); });
+  (cal.extraSurcharge || []).forEach((x, i) => { if (num(x.perPax) && x.perPax) items.push({ key: "xs:" + rndNorm(x.label || String(i)), grp: "Peak & surcaj", label: calcDe(x.label || "Surcaj"), unit: "pax", path: ["extraSurcharge", i, "perPax"] }); });
+  return items;
+}
+function rndCost(it, kb, H) {   // → { cost, src, auto }
+  const L = ((kb.rnd || {}).cost || {})[it.key];
+  if (L && num(L.rm)) return { cost: L.rm, src: "kos manual" };
+  if (L && L.addon) { const a = H.byId[L.addon]; return a && num(a.cost) ? { cost: a.cost, src: "Add On: " + a.label } : { cost: NaN, src: "add-on tiada kos" }; }
+  if (it.tier) {   // Costing: the band's most expensive pax (adult), so the worst margin shows
+    const d = DATA.destinations.find(x => x.code === it.tier.code), pk = d && d.packages.find(p => p.id === it.tier.package);
+    if (!d || !pk) return { cost: NaN, src: "pakej Costing tiada" };
+    let worst = null;
+    for (let p = it.tier.from; p <= Math.min(it.tier.to, 40); p++) {
+      const vid = assignedVariantId(pk, p); if (!vid) continue;
+      const r = priceRow(d, pk, vid, p);
+      if (num(r.adult.cost) && (!worst || r.adult.cost > worst.cost)) worst = { cost: r.adult.cost, pax: p };
+    }
+    return worst ? { cost: worst.cost, src: `Costing · ${pk.label}${it.tier.to > it.tier.from ? ` (kos tertinggi: ${worst.pax} pax)` : ""}`, auto: true } : { cost: NaN, src: "Costing: tiada kos TO" };
+  }
+  if (it.match && H.byName[it.match]) { const a = H.byName[it.match]; return { cost: a.cost, src: "Add On: " + a.label, auto: true }; }
+  return { cost: NaN, src: "" };
+}
+function simpleCalcTab(d) {
+  const x = kbDoc(d.code);
+  if (x === undefined) return `<div class="card full"><div class="empty">${KB.err ? esc(KB.err) : "Loading KB…"}</div></div>`;
+  if (!x) return `<div class="card full"><div class="empty">${esc(d.name)} has no Sales calculator (no PT KB House page).</div></div>`;
+  const { sl, kb, ix } = x, E = EDIT && !VIEW, cal = kb.calc || {}, codes = ix.codes || [d.code];
+  const addons = DATA.destinations.filter(y => codes.includes(y.code)).flatMap(y => y.addons || []);
+  const H = { byId: Object.fromEntries(addons.map(a => [a.id, a])), byName: Object.fromEntries(addons.filter(a => num(a.cost) && a.cost).map(a => [rndNorm(a.label), a])) };
+  const min = num((kb.rnd || {}).minMargin) ? kb.rnd.minMargin : RND_MIN, F = SEL.rndF || "";
+  const g = path => path.reduce((o, k) => o == null ? undefined : o[k], cal);
+  const rows = rndItems(kb).map(it => {
+    const price = +g(it.path), pk = it.peak ? +g(it.peak) : NaN, c = rndCost(it, kb, H);
+    const m = price - c.cost, p = price > 0 ? m / price : NaN, mp = num(pk) && pk > 0 && num(c.cost) ? (pk - c.cost) / pk : NaN;
+    const st = price < 0 ? "ded" : !num(c.cost) ? "nocost" : m < 0 || (num(mp) && mp < 0) ? "loss" : (num(p) && p < min) || (num(mp) && mp < min) ? "low" : "ok";
+    return { it, price, pk, c, m, p, mp, st };
+  });
+  const ST = { loss: ["Rugi", "bad"], low: [`Bawah ${Math.round(min * 100)}%`, "warn"], nocost: ["Tiada kos", "grey"], ok: ["OK", "ok"], ded: ["Potongan", "grey"] };
+  const cnt = k => rows.filter(r => r.st === k).length;
+  const chips = Object.entries(ST).map(([k, [l, c]]) => `<button class="tab${F === k ? " on" : ""}" data-rndf="${F === k ? "" : k}"><span class="pill ${c}">${cnt(k)}</span> ${l}</button>`).join("");
+  const vis = rows.filter(r => !F || r.st === F), grps = [...new Set(vis.map(r => r.it.grp))];
+  const rp = (path, v) => E ? calcIn(sl, path, v, true, { num: 1 }) : rm(v, v % 1 ? 2 : 0);
+  const kp = (key, k) => esc(JSON.stringify({ sl, key, k }));
+  const costCell = r => {
+    const L = ((kb.rnd || {}).cost || {})[r.it.key] || {};
+    const view = num(r.c.cost) ? `${rm(r.c.cost, r.c.cost % 1 ? 2 : 0)}<div class="muted small">${esc(r.c.src)}${r.c.auto ? " · auto" : ""}</div>` : `<span class="muted small">${esc(r.c.src || "—")}</span>`;
+    if (!E || r.it.tier) return view;
+    return `${view}<div class="rnd-link"><select class="ed" data-rndlink="${kp(r.it.key, "addon")}"><option value="">— pautan add-on hub —</option>${addons.filter(a => num(a.cost)).map(a => `<option value="${esc(a.id)}"${L.addon === a.id ? " selected" : ""}>${esc(a.label)} (${rm(a.cost)})</option>`).join("")}</select>
+      <input class="ed" type="number" step="any" placeholder="atau kos RM" value="${num(L.rm) ? L.rm : ""}" data-rndlink="${kp(r.it.key, "rm")}"></div>`;
+  };
+  const body = grps.map(gp => `<tr class="cat"><td colspan="7">${esc(gp)}</td></tr>` + vis.filter(r => r.it.grp === gp).map(r => `<tr class="rnd-${r.st}">
+      <td class="l wrap">${esc(r.it.label)}${r.it.code ? ` <span class="muted small">${esc(r.it.code)}</span>` : ""}</td>
+      <td class="l small">${esc(r.it.unit || "")}${r.it.band ? `<div class="muted">${r.it.band[0]}–${r.it.band[1] >= 99 ? "+" : r.it.band[1]} pax</div>` : ""}</td>
+      <td>${rp(r.it.path, r.price)}${r.it.peak ? `<div class="small">peak ${rp(r.it.peak, r.pk)}</div>` : ""}${r.it.child ? `<div class="small muted">child ${rm(+g(r.it.child))}</div>` : ""}</td>
+      <td class="l">${costCell(r)}</td>
+      <td class="${marginClass(r.m)}">${num(r.m) && r.st !== "ded" ? rm(r.m) : "—"}</td>
+      <td>${r.st === "ded" ? "—" : marginPill(r.p)}${num(r.mp) && r.st !== "ded" ? `<div class="small">peak ${pct(r.mp)}</div>` : ""}</td>
+      <td><span class="pill ${ST[r.st][1]}">${ST[r.st][0]}</span></td></tr>`).join("")).join("");
+  return `<div class="card full kb" id="rndCard"><h2>Simple Calculator (R&amp;D) · ${esc(ix.name)} <span class="sub">${rows.length} harga yang Sales boleh quote dalam KB · kos &amp; margin di sebalik setiap satu</span>
+      <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Kalkulator Sales (KB)</a></span></h2>
+    <div class="body small muted">Harga tier pakej ikut Catalog Price (tab Costing); kosnya dari Costing pada pax paling mahal dalam band. Kos baris lain: pautkan ke add-on hub atau isi kos RM${E ? "" : " (Edit costs)"}.
+      Margin minimum KB ini: ${E ? `<input class="ed" type="number" step="1" min="0" max="90" style="width:60px" data-rndmin="${esc(sl)}" value="${Math.round(min * 100)}">%` : `<b>${Math.round(min * 100)}%</b>`}</div>
+    <div class="body rnd-chips">${chips}</div>
+    <div class="scroll"><table class="rd rnd-t"><thead><tr><th class="l">Pilihan Sales</th><th class="l">Unit / band</th><th>Harga Sales</th><th class="l">Kos</th><th>Margin</th><th>%</th><th>Status</th></tr></thead><tbody>${body || `<tr><td colspan="7" class="muted">—</td></tr>`}</tbody></table></div></div>
+    ${kbCalcConfig(d)}`;
 }
 function kbFilter() {
   const q = KB.q.trim().toLowerCase();
@@ -1533,13 +1593,7 @@ document.addEventListener("click", async e => {
   if (t.id === "btnHistory" || t.dataset.act === "history") return openHistory();
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
-  if (t.dataset.act === "qcCopy") {
-    const rows = [...document.querySelectorAll("#qcCard .qc-t tbody tr")].map(r => [...r.children].slice(0, 4).map(c => c.textContent.trim().replace(/\s+/g, " ")));
-    const sum = [...document.querySelectorAll("#qcCard .qc-sum > div")].map(x => x.textContent.trim().replace(/\s+/g, " "));
-    const txt = [$("#qcCard h2").firstChild.textContent.trim(), ...rows.map(r => `${r[0]} × ${r[1]} @ ${r[2]} = ${r[3]}`), ...sum.filter(x => !/^Margin/.test(x))].join("\n");
-    (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => toast("Ringkasan disalin"), () => toast(txt, 8000));
-    return;
-  }
+  if (t.dataset.rndf !== undefined) { SEL.rndF = t.dataset.rndf; return render(); }
   if (t.dataset.act === "calcMd") {
     const x = kbDoc(t.dataset.code); if (!x) return;
     const doc = KB.edit[x.sl] || x.kb, md = calcMd(x.ix.name, doc.calc || {}, (doc.map || {}).variants || {});
@@ -1689,7 +1743,20 @@ document.addEventListener("input", e => {
 document.addEventListener("change", e => {
   const t = e.target;
   if (t.dataset && t.dataset.addon) { SEL.addonQty[t.dataset.addon] = Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
-  if (t.dataset && t.dataset.qc) { const Q = SEL.qc[SEL.dest] ||= {}, k = t.dataset.qc; Q[k] = k === "adjLbl" ? t.value : k === "adj" ? (+t.value || 0) : Math.max(0, parseInt(t.value || "0", 10) || 0); return render(); }
+  if (t.dataset && t.dataset.rndlink) {
+    const { sl, key, k } = JSON.parse(t.dataset.rndlink), doc = KB.edit[sl] ||= clone(KB.docs[sl]);
+    const R = doc.rnd ||= {}, C = R.cost ||= {};
+    if (k === "addon") { if (t.value) C[key] = { addon: t.value }; else delete C[key]; }
+    else { const v = t.value.trim() === "" ? NaN : +t.value; if (isFinite(v)) C[key] = { rm: v }; else delete C[key]; }
+    if (!Object.keys(C).length) delete R.cost;
+    if (!Object.keys(R).length) delete doc.rnd;
+    return render();
+  }
+  if (t.dataset && t.dataset.rndmin) {
+    const sl = t.dataset.rndmin, doc = KB.edit[sl] ||= clone(KB.docs[sl]), v = +t.value;
+    if (!isFinite(v) || v < 0) return toast("Margin minimum tidak sah");
+    (doc.rnd ||= {}).minMargin = Math.round(v) / 100; return render();
+  }
   if (t.id && t.id.startsWith("opt_")) { (SEL.opt[SEL.dest] ||= {})[t.id.slice(4)] = t.value; return render(); }
   if (t.id === "flagArea") { SEL.flagArea = t.value; return render(); }
   if (t.id === "flagPO") { SEL.flagPO = t.value; return render(); }
@@ -1767,5 +1834,5 @@ setInterval(() => { if (SESSION && Date.now() - lastActivity > IDLE_LOGOUT_MS) {
 
 if (SEL.tab === "catalog") SEL.tab = "itinerary";
 window.addEventListener("hashchange", () => { const h = location.hash.slice(1) === "catalog" ? "itinerary" : location.hash.slice(1); if (tabsFor(curDest()).some(t => t[0] === h) && h !== SEL.tab) { SEL.tab = h; render(); } });
-window.PTCALC = { priceRow, calcMd, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
+window.PTCALC = { priceRow, calcMd, KBEDIT: () => KB.edit, variantCost, diff, applyChanges, snapshotAt, describe, get DATA() { return DATA; }, get BASE() { return BASE; }, GH, SEL, render, saveChanges, set SESSION(s) { SESSION = s; }, set EDIT(v) { EDIT = v; }, get HISTORY() { return HISTORY; }, unlock, wrapVault, aesEnc, setUsers(u) { USERS = u; } };
 load().catch(() => { });
