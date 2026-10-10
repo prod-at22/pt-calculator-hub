@@ -120,30 +120,32 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
   {
     const s = byCode(D, "SEL"), b = s.packages.find(p => p.id === "atk-bsc"), st = s.packages.find(p => p.id === "atk-std");
     const r = (pk, v, p) => P.priceRow(s, pk, v, p);
-    ok(s.fx.find(f => f.id === "KRW").value === 0.003, "KRW FX 0.0030");
-    ok(near(r(b, "ATK-BSC", 2).adult.cost, 858261 * 0.003) && near(r(b, "ATK-BSC", 10).adult.cost, 581256 * 0.003) && near(r(b, "ATK-BSC", 25).adult.cost, 442351 * 0.003), "Basic = CR KRW × 0.0030 (2/10/25 pax)");
-    ok(near(r(st, "ATK-STD", 2).adult.cost, 1224774 * 0.003) && near(r(st, "ATK-STD", 42).adult.cost, 420726 * 0.003), "Standard = CR KRW × 0.0030 (2/42 pax)");
+    const KRW = s.fx.find(f => f.id === "KRW").value;
+    ok(s.fx.find(f => f.id === "KRW").live === "KRW" && KRW > 0.002 && KRW < 0.004, "KRW FX live (stored fallback " + KRW + ")");
+    ok(near(r(b, "ATK-BSC", 2).adult.cost, 858261 * KRW) && near(r(b, "ATK-BSC", 10).adult.cost, 581256 * KRW) && near(r(b, "ATK-BSC", 25).adult.cost, 442351 * KRW), "Basic = CR KRW × live KRW FX (2/10/25 pax)");
+    ok(near(r(st, "ATK-STD", 2).adult.cost, 1224774 * KRW) && near(r(st, "ATK-STD", 42).adult.cost, 420726 * KRW), "Standard = CR KRW × live KRW FX (2/42 pax)");
     ok(!isFinite(r(b, "ATK-BSC", 26).adult.cost), "Basic 26+ pax: not in the CR → no cost");
     ok(s.variants.filter(v => v.id !== "ATK-ST").every(v => v.components.length === 1), "one cost line (not broken down)");
     const sp = await boot(repo, "sel/", "?pkg=atk-bsc");
     const sh = [...sp.doc.querySelectorAll("#costPax tr.blk-head th")].map(x => x.textContent);
     ok(!sh.includes("Source"), "costing table has no Source column");
-    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === "2,575", "Seoul costing: no breakdown column, Cost/Pax = 858,261 KRW × 0.0030");
-    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 858261 * 0.003 * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
+    ok(sh[1] === "Cost/Pax" && sp.doc.querySelector('#costPax tr[data-pax="2"]').children[1].textContent.trim() === Math.round(858261 * KRW).toLocaleString("en-US"), "Seoul costing: no breakdown column, Cost/Pax = 858,261 KRW × live KRW FX");
+    ok(near(r(b, "ATK-BSC", 2).cnb.cost, 858261 * KRW * 0.5) && r(b, "ATK-BSC", 2).infant.cost === 0, "CNB 50%, infant FOC");
     ok(s.contracts.length === 3 && s.contracts.every(c => /ATK_CR_2026_Korea/.test(c.file) && fs.existsSync(path.join(ROOT, c.file))), "SEL TO Contract Rate = ATK CR 2026 (KRW xlsx + rates + terms) only");
     const ev = s.addons.find(x => x.label === "Everland ticket");
-    ok(ev && near(ev.cost, 40700 * 0.003, 0.01) && ev.selling === 140, "Everland add-on: cost 40,700 KRW × 0.0030, selling RM140");
+    ok(ev && near(ev.cost, 40700 * 0.003, 0.01) && ev.selling === 140, "Everland add-on: cost stored in RM (40,700 KRW × 0.0030), selling RM140");
     ok(s.addons.find(x => x.label === "K-ETA").cost === 27 && s.addons.find(x => x.label.startsWith("Hanbok")).cost === null, "K-ETA cost RM27; Hanbok has no cost rate (null)");
   }
 
   console.log("1e. Seoul-Jeju, Jeju, Jeju-Udo = ATK CR 2026");
   {
+    const KRW = byCode(D, "SEL").fx.find(f => f.id === "KRW").value;
     const chk = (code, vid, exp) => { const d = byCode(D, code), pk = d.packages.find(p => p.assign.some(x => x.variant === vid));
       return Object.entries(exp).every(([p, c]) => near(P.priceRow(d, pk, vid, +p).adult.cost, c)) && !isFinite(P.priceRow(d, pk, vid, 26).adult.cost)
         && d.variants.find(v => v.id === vid).components.length === 1; };
-    ok(chk("SELJJU", "ATK-STD", { 2: 1769500 * 0.003, 9: 1138111 * 0.003, 25: 865000 * 0.003 }), "SELJJU = CR KRW × 0.0030, none at 26");
-    ok(chk("JJU", "ATK-PT", { 2: 943000 * 0.003, 9: 521889 * 0.003, 25: 353000 * 0.003 }), "JJU = CR KRW × 0.0030");
-    ok(chk("JJUO", "ATK-STD", { 2: 1442257 * 0.003, 10: 783357 * 0.003, 25: 571827 * 0.003 }), "JJUO = CR KRW × 0.0030");
+    ok(chk("SELJJU", "ATK-STD", { 2: 1769500 * KRW, 9: 1138111 * KRW, 25: 865000 * KRW }), "SELJJU = CR KRW × live KRW FX, none at 26");
+    ok(chk("JJU", "ATK-PT", { 2: 943000 * KRW, 9: 521889 * KRW, 25: 353000 * KRW }), "JJU = CR KRW × live KRW FX");
+    ok(chk("JJUO", "ATK-STD", { 2: 1442257 * KRW, 10: 783357 * KRW, 25: 571827 * KRW }), "JJUO = CR KRW × live KRW FX");
     ok(byCode(D, "JJU").variants.find(v => v.id === "ATK-ST").components.length > 1, "Jeju Self Tour keeps its component breakdown");
   }
 

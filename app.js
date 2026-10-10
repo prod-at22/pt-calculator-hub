@@ -146,13 +146,14 @@ const fxNum = f => f && f.live && LIVEFX[f.live] ? LIVEFX[f.live].rate : f ? +f.
 const fxOf = (d, id) => fxNum(d.fx.find(x => x.id === id));
 async function loadLiveFx() {
   const curs = [...new Set((DATA.destinations || []).flatMap(d => (d.fx || []).filter(f => f.live).map(f => f.live)))].filter(c => !LIVEFX[c]);
-  const get = async (url, pick) => { const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 6000);
-    try { const r = await fetch(url, { signal: ctl.signal }); if (!r.ok) return null; return pick(await r.json()); } catch (_) { return null; } finally { clearTimeout(t); } };
-  await Promise.all(curs.map(async c => {
-    const x = await get(`https://api.frankfurter.dev/v1/latest?from=${c}&to=MYR`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: j.date, src: "ECB (frankfurter.dev)" } : null)
-      || await get(`https://open.er-api.com/v6/latest/${c}`, j => j && j.rates && +j.rates.MYR ? { rate: +j.rates.MYR, date: String(j.time_last_update_utc || "").slice(5, 16), src: "open.er-api.com" } : null);
-    if (x) LIVEFX[c] = x;
-  }));
+  if (!curs.length) return;
+  const get = async url => { const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), 6000);
+    try { const r = await fetch(url, { signal: ctl.signal }); return r.ok ? await r.json() : null; } catch (_) { return null; } finally { clearTimeout(t); } };
+  // one request, MYR → each currency, then 1 ÷ rate (MYR → IDR / KRW keeps full precision; IDR → MYR would be rounded)
+  const put = (rates, date, src) => { for (const c of curs) if (!LIVEFX[c] && rates && +rates[c] > 0) LIVEFX[c] = { rate: 1 / +rates[c], date, src }; };
+  const j = await get(`https://api.frankfurter.dev/v1/latest?from=MYR&to=${curs.join(",")}`);
+  if (j) put(j.rates, j.date, "ECB (frankfurter.dev)");
+  if (curs.some(c => !LIVEFX[c])) { const k = await get("https://open.er-api.com/v6/latest/MYR"); if (k) put(k.rates, String(k.time_last_update_utc || "").slice(5, 16), "open.er-api.com"); }
   if (Object.keys(LIVEFX).length) render();
 }
 function rateProxy(d) {
@@ -395,7 +396,7 @@ function fxChips(d) {
   if (!fx.length) return `<span class="fx">MYR direct</span>`;
   return fx.map(f => {
     const L = f.live && LIVEFX[f.live];
-    if (f.live) return `<span class="fx live" title="Live FX: ${L ? `${esc(L.src)}, ${esc(L.date)}` : "kadar live belum dapat — guna kadar simpanan"}. Kadar simpanan (sandaran): ${esc(String(+f.value))}.">${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+fxNum(f).toFixed(6)))}</b> <span class="small">${L ? "live · " + esc(L.date) : "simpanan"}</span>${EDIT && !VIEW ? ` · sandaran ${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}` : ""}</span>`;
+    if (f.live) return `<span class="fx live" title="Live FX: ${L ? `${esc(L.src)}, ${esc(L.date)}` : "kadar live belum dapat — guna kadar simpanan"}. Kadar simpanan (sandaran): ${esc(String(+f.value))}.">${esc(f.label.replace(" → MYR", ""))} <b>${esc(String(+fxNum(f).toPrecision(5)))}</b> <span class="small">${L ? "live · " + esc(L.date) : "simpanan"}</span>${EDIT && !VIEW ? ` · sandaran ${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}` : ""}</span>`;
     return `<span class="fx" title="FX used for every ${esc(f.label.replace(" → MYR", ""))} cost on this page.${EDIT ? "" : " Log in and Edit costs to change it."}">${esc(f.label.replace(" → MYR", ""))} <b>${ed(["destinations", d.code, "fx", f.id, "value"], f.value, { display: esc(String(+f.value)) })}</b></span>`;
   }).join("");
 }
@@ -558,7 +559,7 @@ function rateRef(d, pkg) {
       return { code: codes.r[id], item: item + (codes.pax[id] && !/\bpax\b/i.test(item) ? " · " + codes.pax[id] : ""), sup: sup === "COMMON" ? "All" : cap(sup), rate: sym(r) + (+r.value).toLocaleString("en-MY"), note }; })
     .concat(codes.fIds.map((id, i) => { const f = d.fx.find(x => x.id === id) || { label: id, value: "" };
       const L = f.live && LIVEFX[f.live];
-      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM") + (f.live ? (L ? " · live" : " · simpanan") : ""), sup: "", rate: String(+fxNum(f).toFixed(6)), note: L ? `${L.src}, ${L.date}` : f.source || "", fx: true, first: i === 0 }; }));
+      return { code: codes.fx[id], item: "FX " + f.label.replace(/\s*→\s*MYR/, " → RM") + (f.live ? (L ? " · live" : " · simpanan") : ""), sup: "", rate: String(+fxNum(f).toPrecision(5)), note: L ? `${L.src}, ${L.date}` : f.source || "", fx: true, first: i === 0 }; }));
   const row = (lbl, k) => `<tr><th>${lbl}</th>${cols.map(c => `<td class="${c.first ? "rr-fx" : ""}"${k === "rate" && c.note ? ` title="${esc(c.note)}"` : ""}>${esc(c[k])}</td>`).join("")}</tr>`;
   return `<div class="card full" id="rateRef"><h2>Rate reference <span class="sub">${esc(pkg.label)} · codes used in Show calculation · hover a rate for its note</span></h2>
     <div class="scroll"><table class="ref"><thead><tr><th></th>${cols.map(c => `<th class="rr-code${c.first ? " rr-fx" : ""}">${c.code}</th>`).join("")}</tr></thead>
