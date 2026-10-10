@@ -47,36 +47,16 @@
     ],
     "rows": [
       {
-        "pax": "2 - 3",
-        "amounts": [
-          "RM4,997",
-          "RM4,797",
-          "RM4,597"
-        ]
+        "pax": "2 - 3"
       },
       {
-        "pax": "4 - 5",
-        "amounts": [
-          "RM4,097",
-          "RM3,897",
-          "RM3,697"
-        ]
+        "pax": "4 - 5"
       },
       {
-        "pax": "6 - 9",
-        "amounts": [
-          "RM3,697",
-          "RM3,497",
-          "RM3,297"
-        ]
+        "pax": "6 - 9"
       },
       {
-        "pax": "10 - 14",
-        "amounts": [
-          "RM3,197",
-          "RM2,997",
-          "RM2,797"
-        ]
+        "pax": "10 - 14"
       }
     ],
     "infant": "FOC"
@@ -289,24 +269,5 @@
       "Blackout dates: Chinese New Year (14 Feb - 22 Feb 2026) and Labor Day (1 May - 5 May 2026)."
     ]
   },
-  "accommodation": [
-    {
-      "city": "Kunming",
-      "stars": 4,
-      "name": "Country Inn & Suites by Radisson Hotel / Ramada Encore Hotel / Howard Johnson Hotel",
-      "similar": true
-    },
-    {
-      "city": "Dali",
-      "stars": 4,
-      "name": "WenYue Hotel",
-      "similar": true
-    },
-    {
-      "city": "Lijiang",
-      "stars": 4,
-      "name": "Kyriad Hotel",
-      "similar": true
-    }
-  ]
+  "hub_version": 53
 }

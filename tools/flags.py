@@ -30,7 +30,7 @@ MAP = {
     "istanbul-cappadocia": ("ISTCAP", "mytrip-pt-3star"), "jakarta-bandung": ("JBDO", "ctrans"),
     "jeju": ("JJU", "atk-pt"), "jeju-udo": ("JJUO", "atk-std"), "jogjakarta": ("JOG", "pak-jamal-3-star"),
     "krabi-basic": ("KBV", "budget"), "krabi-standard": ("KBV", "standard"), "krabi-honeymoon": ("KBV", "honeymoon"),
-    "lombok": ("LOP", "pak-anang-3s"), "maldives-basic": ("MLE", "mle-basic-low"), "maldives-standard": ("MLE", None),
+    "lombok": ("LOP", "pak-anang-3s"), "maldives-basic": ("MLE", "mle-basic-low"), "maldives-standard": ("MLE", "mle-4star-low"),
     "maldives-combo": ("MLE", "mle-combo-low"), "maldives-water-villa": ("MLE", "mle-water-low"),
     "medan-lake-toba": ("LTOBA", "emiya"), "melbourne-basic": ("MEL", "wae-basic"),
     "melbourne-standard": ("MEL", "wae-standard"), "nz-north-south": ("NSNZ", "arba-to-10d9n-n-s"),
@@ -49,7 +49,7 @@ MAP = {
     "tokyo-basic": ("HND", "basic"), "tokyo-standard": ("HND", "standard"),
     "tokyo-osaka-basic": ("KIX", "wif-bsc"), "tokyo-osaka-standard": ("KIX", "qay-ucop-std-wif-std"),
     "turki-klasik-basic": ("TUR", "mytrip-bsc-3star"), "turki-klasik-std": ("TUR", "mytrip-std-3star"),
-    "yunnan-4-wilayah": ("KMGDLS", "tourdechina"), "yunnan-3-wilayah-6d5n": ("KMGDL", None),
+    "yunnan-4-wilayah": ("KMGDLS", "tourdechina"), "yunnan-3-wilayah-6d5n": ("KMGDL", "tourdechina"),
 }
 TYPES = ("adult", "cwb", "cnb")
 flags = []
