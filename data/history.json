@@ -39653,6 +39653,16 @@
     "jepun: rnd.cost (not published to the KB)"
    ],
    "changes": []
+  },
+  {
+   "v": 51,
+   "at": "2026-10-10T07:09:44Z",
+   "by": "system",
+   "note": "Simple Calculator (R&D) Jepun: cost formulas for Osaka, Tokyo-Osaka and Hokkaido. The 7 Japan packages share one set of extra-day rates, so formulas go by area: Osaka City / Nara / Kyoto from the OSK rates (package transport ÷ 4 private-transport days in the Osaka Standard catalog, D1–D4: Ucop r18 for 1–7 pax, WIF r16 / r17 + guide r27 for 8–12 pax; r27 ÷ 4 = ¥27,500 = Tokyo's daily guide); Shinkansen leg = KIX r17 (RM600, same as the Sales price → 0% margin); extra night Osaka Basic r22, Osaka Standard r23, Tokyo-Osaka r30 (KIX). Hokkaido has no base rates in Costing (per-pax tables only) and Gala Yuzawa no rate: left without cost; add-ons linked: Disneyland / DisneySea → KIX kix-a01 (ticket RM250), USJ → OSK osk-a01 (RM200), infant car seat Hokkaido → CTS cts-a13 (RM197)",
+   "kb": [
+    "jepun: rnd.cost (not published to the KB)"
+   ],
+   "changes": []
   }
  ]
 }
