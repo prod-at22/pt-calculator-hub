@@ -1128,10 +1128,10 @@ function rndItems(kb) {
   });
   V.forEach((v, i) => {
     const ln = links[v.id];
-    (v.tiers || []).forEach((t, j) => items.push({ key: `tier:${v.id}:${t.from}-${t.to}`, grp: "Pakej", label: calcDe(v.name), band: [t.from, t.to], unit: "adult",
+    (v.tiers || []).forEach((t, j) => items.push({ key: `tier:${v.id}:${t.from}-${t.to}`, grp: ln ? "Pakej" : "Pakej (KB sahaja)", label: calcDe(v.name), band: [t.from, t.to], unit: "adult",
       path: ["variants", i, "tiers", j, "a"], child: num(t.c) ? ["variants", i, "tiers", j, "c"] : null, tier: ln ? { ...ln, from: t.from, to: t.to } : null }));
-    if (num(v.single) && v.single) items.push({ key: `single:${v.id}`, grp: "Pakej", label: "Single supplement · " + calcDe(v.name), unit: "pax", path: ["variants", i, "single"] });
-    if (num(v.infant) && v.infant) items.push({ key: `infant:${v.id}`, grp: "Pakej", label: "Infant · " + calcDe(v.name), unit: "infant", path: ["variants", i, "infant"] });
+    if (num(v.single) && v.single) items.push({ key: `single:${v.id}`, grp: "Single & infant", label: "Single supplement · " + calcDe(v.name), unit: "pax", path: ["variants", i, "single"] });
+    if (num(v.infant) && v.infant) items.push({ key: `infant:${v.id}`, grp: "Single & infant", label: "Infant · " + calcDe(v.name), unit: "infant", path: ["variants", i, "infant"] });
   });
   const sets = []; if (cal.ext && cal.ext.rates) sets.push(["ext", "rates"]);
   V.forEach((v, i) => { if (v.ext && v.ext.rates) sets.push(["variants", i, "ext", "rates"]); });
@@ -1219,24 +1219,35 @@ function simpleCalcTab(d) {
       ${codes.length > 1 && L.expr ? `<select class="ed rnd-code" data-rndlink="${kp(r.it.key, "code")}" title="kadar Costing dari destinasi">${codes.map(c => `<option${(L.code || d.code) === c ? " selected" : ""}>${esc(c)}</option>`).join("")}</select>` : ""}</div>
       ${r.it.grp === "Add-on" ? `<select class="ed rnd-ao" data-rndlink="${kp(r.it.key, "addon")}"><option value="">atau pautan add-on hub…</option>${addons.filter(a => num(a.cost)).map(a => `<option value="${esc(a.id)}"${L.addon === a.id ? " selected" : ""}>${esc(a.label)} (${rm(a.cost)})</option>`).join("")}</select>` : ""}`;
   };
+  const open = SEL.rndPk || !!F;   // Pakej (from the Costing tab) folded unless opened or a status filter is on
+  const pkSum = (() => { const t = rows.filter(r => r.it.grp === "Pakej" && num(r.p)); if (!t.length) return "";
+    const lo = Math.min(...t.map(r => r.p)), hi = Math.max(...t.map(r => r.p)), bad = t.filter(r => r.st === "loss" || r.st === "low").length;
+    return `${t.length} band · margin ${pct(lo)} – ${pct(hi)}${bad ? ` · <span class="pill warn">${bad} perlu semak</span>` : ""}`; })();
   const body = grps.map(gp => {
     let last = "";
-    return `<tr class="cat"><td colspan="5">${esc(gp)}</td></tr>` + vis.filter(r => r.it.grp === gp).map(r => {
-      const same = r.it.label === last; last = r.it.label;
+    if (gp === "Pakej") {
+      const head = `<tr class="cat rnd-pk"><td colspan="4"><button class="btn rnd-tog" data-rndpk="1">${open ? "Tutup" : "Buka"}</button> Pakej <span class="muted small">harga &amp; kos dari tab Costing · ${pkSum}</span></td></tr>`;
+      if (!open) return head;
+      return head + vis.filter(r => r.it.grp === gp).map(r => { const same = r.it.label === last; last = r.it.label; return rowHtml(r, same, true); }).join("");
+    }
+    return `<tr class="cat"><td colspan="4">${esc(gp)}</td></tr>` + vis.filter(r => r.it.grp === gp).map(r => { const same = r.it.label === last; last = r.it.label; return rowHtml(r, same, false); }).join("");
+  }).join("");
+  function rowHtml(r, same, ro) {
+    {
       const band = r.it.band ? `${r.it.band[0]}${r.it.band[1] !== r.it.band[0] ? "–" + (r.it.band[1] >= 99 ? "+" : r.it.band[1]) : ""} pax` : "";
       return `<tr class="rnd-${r.st}${same ? " rnd-cont" : ""}">
         <td class="l">${same ? "" : `<span${r.it.code ? ` title="kadar KB: ${esc(r.it.code)}"` : ""}>${esc(r.it.label)}</span>`}<div class="rnd-unit">${esc([band, r.it.unit].filter(Boolean).join(" · "))}</div></td>
-        <td>${rp(r.it.path, r.price)}${r.it.peak ? `<div class="rnd-unit">peak ${E ? rp(r.it.peak, r.pk) : money(r.pk)}</div>` : ""}${r.it.child ? `<div class="rnd-unit">child ${money(+g(r.it.child))}</div>` : ""}</td>
+        <td>${ro ? money(r.price) : rp(r.it.path, r.price)}${r.it.peak ? `<div class="rnd-unit">peak ${E ? rp(r.it.peak, r.pk) : money(r.pk)}</div>` : ""}${r.it.child ? `<div class="rnd-unit">child ${money(+g(r.it.child))}</div>` : ""}</td>
         <td class="l">${costCell(r)}</td>
         <td class="rnd-m">${r.st === "ded" ? `<span class="muted small">potongan</span>` : num(r.m) ? `<b class="${marginClass(r.m)}">${rm(r.m)}</b> <span class="pill ${ST[r.st][1]}">${pct(r.p)}</span>${num(r.mp) ? `<div class="rnd-unit">peak ${pct(r.mp)}</div>` : ""}` : `<span class="muted small">—</span>`}</td></tr>`;
-    }).join("");
-  }).join("");
+    }
+  }
   return `<div class="card full kb" id="rndCard"><h2>Simple Calculator · ${esc(ix.name)} <span class="sub">harga Sales dalam KB, dengan kos &amp; margin</span>
       <span class="right"><a class="btn" href="${esc(ix.url)}" target="_blank" rel="noopener">Buka kalkulator Sales</a></span></h2>
     <div class="body rnd-bar"><div class="rnd-chips">${chips}</div>
       <span class="muted small">Margin minimum ${E ? `<input class="ed" type="number" step="1" min="0" max="90" style="width:52px" data-rndmin="${esc(sl)}" value="${Math.round(min * 100)}">%` : `<b>${Math.round(min * 100)}%</b>`}</span></div>
     <div class="scroll"><table class="rd rnd-t"><thead><tr><th class="l">Pilihan Sales</th><th>Harga Sales</th><th class="l">Kos</th><th>Margin</th></tr></thead><tbody>${body || `<tr><td colspan="4" class="muted">—</td></tr>`}</tbody></table></div>
-    <div class="note">Tier pakej: kos dari Costing (pax paling mahal dalam band). Lain-lain: isi kos RM, atau formula atas kadar Costing (Rate reference, FX live), cth. <code>qCity</code> atau <code>wCity89 + gFull</code>. Tuding kos untuk lihat kadar &amp; FX.</div></div>
+    <div class="note">Pakej: harga (Catalog Price) dan kos dari tab Costing; ubah di sana. Harga lain dalam senarai ini terus ke kalkulator Sales di KB selepas Save. Lain-lain: isi kos RM, atau formula atas kadar Costing (Rate reference, FX live), cth. <code>qCity</code> atau <code>wCity89 + gFull</code>. Tuding kos untuk lihat kadar &amp; FX.</div></div>
     ${kbCalcConfig(d)}`;
 }
 function kbFilter() {
@@ -1620,6 +1631,7 @@ document.addEventListener("click", async e => {
   if (t.id === "btnSave" || t.dataset.act === "review") return openReview();
   if (t.dataset.act === "discard") { if (confirm("Discard all unsaved changes?")) { DATA = clone(BASE); CAT.edit = {}; KB.edit = {}; render(); } return; }
   if (t.dataset.rndf !== undefined) { SEL.rndF = t.dataset.rndf; return render(); }
+  if (t.dataset.rndpk) { SEL.rndPk = !SEL.rndPk; return render(); }
   if (t.dataset.act === "calcMd") {
     const x = kbDoc(t.dataset.code); if (!x) return;
     const doc = KB.edit[x.sl] || x.kb, md = calcMd(x.ix.name, doc.calc || {}, (doc.map || {}).variants || {});
