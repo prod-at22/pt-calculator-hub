@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 46,
+ "version": 47,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -12037,7 +12037,8 @@
         "RM120/couple/night"
        ]
       }
-     }
+     },
+     "roomNote": "Proper triple room tersedia"
     },
     {
      "id": "dps-h02",
@@ -12072,7 +12073,8 @@
         "RM40/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "triple menggunakan extra bed"
     },
     {
      "id": "dps-h04",
@@ -12957,7 +12959,8 @@
         "RM150/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "3 pax = extra bed (rollaway)"
     },
     {
      "id": "lop-h02",
@@ -12973,7 +12976,8 @@
         "RM250/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Triple sharing proper bed (3 single) jika available"
     }
    ]
   },
@@ -13508,7 +13512,8 @@
         "RM120/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "3 pax triple dengan extra bed"
     },
     {
      "id": "jog-h02",
@@ -13523,7 +13528,8 @@
         "RM180/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "3 pax triple dengan proper bed"
     }
    ]
   },
@@ -14687,7 +14693,8 @@
         "RM50/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "rollaway untuk triple"
     },
     {
      "id": "aceh-h02",
@@ -14701,7 +14708,8 @@
         "RM50/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "rollaway untuk triple"
     },
     {
      "id": "aceh-h03",
@@ -14715,7 +14723,8 @@
         "RM50/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "rollaway untuk triple"
     },
     {
      "id": "aceh-h04",
@@ -14729,7 +14738,8 @@
         "RM50/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "triple/family room tersedia"
     },
     {
      "id": "aceh-h05",
@@ -14762,12 +14772,14 @@
     {
      "id": "aceh-h07",
      "name": "Ayani",
-     "catalogs": {}
+     "catalogs": {},
+     "roomNote": "rollaway untuk triple"
     },
     {
      "id": "aceh-h08",
      "name": "Grand PH",
-     "catalogs": {}
+     "catalogs": {},
+     "roomNote": "rollaway untuk triple"
     }
    ]
   },
@@ -17474,7 +17486,8 @@
       "medan-lake-toba": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "Twin/triple sharing"
     },
     {
      "id": "ltoba-h02",
@@ -18307,7 +18320,8 @@
         "RM50/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "extra bed boleh disediakan untuk triple"
     },
     {
      "id": "pdg-h02",
@@ -18321,7 +18335,8 @@
         "RM60/person/night"
        ]
       }
-     }
+     },
+     "roomNote": "Bilik triple sedia ada"
     }
    ]
   },
@@ -18907,7 +18922,8 @@
       "jakarta-bandung": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "untuk triple hanya extra bed disediakan"
     },
     {
      "id": "jbdo-h02",
@@ -19471,7 +19487,8 @@
         "RM130/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Extra bed untuk triple"
     },
     {
      "id": "subb-h02",
@@ -19520,7 +19537,8 @@
         "RM180/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Proper triple bed"
     },
     {
      "id": "subb-h05",
@@ -19541,7 +19559,8 @@
         "RM180/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Proper family room"
     },
     {
      "id": "subb-h06",
@@ -19555,7 +19574,8 @@
         "RM180/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Proper triple bed tersedia"
     },
     {
      "id": "subb-h07",
@@ -19569,7 +19589,8 @@
         "RM130/pax/night"
        ]
       }
-     }
+     },
+     "roomNote": "Extra bed untuk triple"
     }
    ]
   },
@@ -20523,7 +20544,8 @@
         "-"
        ]
       }
-     }
+     },
+     "roomNote": "Bilik 2-3 pax (twin/triple)"
     },
     {
      "id": "dlmnhcm-h02",
@@ -24993,7 +25015,8 @@
       "melbourne-standard": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "Bilik double atau triple"
     },
     {
      "id": "mel-h02",
@@ -26111,7 +26134,8 @@
       "perth-standard": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "1 bilik air setiap unit — Quad/Quint kongsi 1 tandas"
     },
     {
      "id": "per-h05",
@@ -32607,7 +32631,8 @@
       "maldives-basic": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "Double/triple-sharing"
     },
     {
      "id": "mle-h02",
@@ -32619,7 +32644,8 @@
       "maldives-basic": {
        "acc": 2
       }
-     }
+     },
+     "roomNote": "Double/triple-sharing"
     },
     {
      "id": "mle-h03",
@@ -32631,7 +32657,8 @@
       "maldives-basic": {
        "acc": 3
       }
-     }
+     },
+     "roomNote": "Double/triple-sharing"
     },
     {
      "id": "mle-h04",
@@ -32643,7 +32670,8 @@
       "maldives-basic": {
        "acc": 4
       }
-     }
+     },
+     "roomNote": "Double/triple-sharing"
     },
     {
      "id": "mle-h05",
@@ -37312,7 +37340,8 @@
       "phuket-standard": {
        "acc": 1
       }
-     }
+     },
+     "roomNote": "triple = extra bed (tertakluk availability)"
     },
     {
      "id": "phu-h02",
@@ -45870,7 +45899,8 @@
     {
      "id": "pht-h03",
      "name": "Ombak Perhentian Resort",
-     "catalogs": {}
+     "catalogs": {},
+     "roomNote": "Twin/Triple/Quad/Family"
     },
     {
      "id": "pht-h04",

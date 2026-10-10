@@ -72,17 +72,17 @@ After any change: `python3 tools/make_pages.py` (asset ?v= hash), run the tests,
   tools/import_catalogs.py --from-drive is retired; the old Drive builder ("Catalog PT (new)/build.py") cannot
   render the new files — do not use it.
 
-## HANDOFF (9 Oct 2026) — branch `kb-tidy` waiting for "ok push"
-- main = v40 live (KB House from the hub, verified). Branch **kb-tidy** (v41) = Info KB tidy, NOT merged/pushed to main:
-  FAQ / Important Notes without hub duplicates; KB Surcharge / catalog add-ons / Polisi generated from the hub
-  (kb-build/build.py surcharge_html, addons_html, policy_html); verify.py checks them. Built + verify 28/28 + smoke 28/28 + tests ALL PASSED.
-- To publish: rebuild pt-kb-house locally from the branch, run verify.py + smoke.js, `git checkout main && git merge --no-ff kb-tidy`
-  (bump the history v if main moved), push, dispatch pt-kb-house + catalog-pt-public mirror.yml, confirm CI "28/28 KB OK"
-  twice and catalog-pt-public only `.hub-sha`.
-- Still open for the PO: Phuket KB text "Upgrade hotel 4★ +RM300/pax" + Free Gift "upgrade to 4 Star" (keep or remove?);
-  split multi-city catalog hotel rows (KK 3★, Medan 4★, Korea Seoul Std / Seoul–Jeju) so those KB hotel cards can link
-  (changes catalog surcharge tables); FAQ cancellation / refund questions (keep?); admin token (Contents RW hub + Actions RW
-  catalog-pt-public + pt-kb-house) and First-time setup.
+## HANDOFF (10 Oct 2026) — v47 live
+- v41 Info KB tidy · v42 Bangkok 4★ / 5★ removed (upgrade / add-on prices kept) · v43–v44 Bangkok Costing rate by rate from
+  PT BANGKOK R&D 2026 sheet COSTING BKK (reference only; no meals) · v45 Bangkok Flags / History tabs hidden (destinations[].hideTabs),
+  Show calculation folds pax-only parts · v46 Beijing Costing from the Tourdechina CR in RMB · v47 KB Accommodation from the hub.
+- **Live FX**: an FX entry with `"live": "<ISO>"` uses today's ECB rate (frankfurter.dev, fallback open.er-api.com) on page open;
+  `value` = fallback. Live: BKK THB, PEK RMB (CNY). tools/flags.py uses the stored value.
+- v47: KB hotel cards removed — KB Accommodation = the Accommodation list per package + `roomNote` (Nota bilik, KB only) + the
+  catalog's room-basis line; photos in pt-kb-house `<slug>/hotel-images.json`; aceh / korea read `KBD.ACC_HTML`. FAQ cancellation /
+  refund removed. Simple Calculator tab = config as editable tables + .md download (no embedded KB).
+- Open for the PO: Beijing Jul–Aug +RMB400, single supplement RMB750 / 620, +1 FOC 10+ pax; live FX for other destinations;
+  admin token + First-time setup.
 
 ## KB House from the hub (9 Oct 2026, v32) — Phase 2 in progress
 - PO decision (9 Oct): the hub is the source of truth for PT KB House; KB pages mirror the hub; cosmetics (images,

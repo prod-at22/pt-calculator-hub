@@ -234,27 +234,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Puffing+Billy+Railway+Belgrave"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ — default (Basic &amp; Standard)",
-    "note": "City Centre, dalam Free Tram Zone. Bilik double atau triple. Sarapan termasuk untuk Standard sahaja.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "mel-h01"
-    ]
-   },
-   {
-    "tier": "4★ — upgrade atas permintaan",
-    "note": "Surcaj +RM125/pax/malam.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "mel-h03"
-    ],
-    "extra": "Apart'hotel setaraf"
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej — Standard vs Basic</h2><p class='ssub'>Checklist perbandingan dua varian Private Tour Melbourne 5D4N.</p><table class='cmp'><colgroup><col class='c1'><col><col></colgroup><thead><tr><th class='blank'></th><th>STANDARD<br>5D4N</th><th>BASIC<br>5D4N</th></tr></thead><tbody><tr><td class='feat'>HOTEL 3★ CITY CENTRE · FREE TRAM ZONE</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>RETURN PRIVATE AIRPORT TRANSFER</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>DRIVER-CUM-GUIDE · WARGA MALAYSIA</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIKET MARU KOALA &amp; ANIMAL PARK</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIKET CHURCHILL ISLAND HERITAGE FARM</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>TIPPING FEE · BANTUAN VISA</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>PRIVATE TRANSPORT SETIAP HARI</td><td class='val'>12 jam</td><td class='val'>10 jam</td></tr><tr><td class='feat'>SARAPAN HOTEL SETIAP HARI</td><td class='val'><span class='tick'>✔</span></td><td class='val'><span class='no'>—</span></td></tr><tr><td class='feat'>TIKET PENGUIN PARADE · GENERAL VIEWING</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on</td></tr><tr><td class='feat'>GREAT OCEAN ROAD &amp; 12 APOSTLES · DAY 3 PENUH</td><td class='val'><span class='tick'>✔</span></td><td class='val'>Add-on RM2,800/transport</td></tr><tr><td class='feat'>MELBOURNE CITY · QUEEN VICTORIA MARKET · SHOPPING</td><td class='val'><span class='no'>—</span></td><td class='val'><span class='tick'>✔</span></td></tr><tr><td class='feat'>SESUAI UNTUK</td><td class='val'>Pelanggan yang mahu pengalaman Melbourne lengkap — wildlife, Penguin Parade &amp; scenic drive</td><td class='val'>Keluarga bajet terkawal — wildlife plus city &amp; shopping</td></tr></tbody></table>",

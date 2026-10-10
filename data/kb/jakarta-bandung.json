@@ -302,24 +302,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Rumah+Mode+Bandung"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3 bintang (standard pakej)",
-    "img": "",
-    "note": "Tiga malam di Bandung. Asas double sharing, harga 2 hingga 3 orang sebilik; untuk triple hanya extra bed disediakan. Biasanya di kawasan city centre dan boleh berjalan kaki ke tempat menarik berhampiran.",
-    "hotels": [
-     "jbdo-h01"
-    ]
-   },
-   {
-    "tier": "4 bintang (upgrade RM 90 / pax / malam)",
-    "img": "",
-    "note": "Upgrade tertakluk kepada availability. Surcharge peak season untuk tier ini ialah RM 35 per pax per malam berbanding RM 30 untuk hotel 3 bintang.",
-    "hotels": [
-     "jbdo-h03"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2>\n<p class='ssub'>Satu pakej 4H3M, dua pilihan routing Hari 2 pada harga yang sama - pilih semasa tempahan.</p>\n<table class='cmp'><thead><tr><th class='blank'></th>\n<th>OPTION A &middot; NATURE &amp; ADVENTURE</th><th>OPTION B &middot; KIDS FRIENDLY</th></tr></thead><tbody>\n<tr><td class='feat'>Kawah Putih</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Glamping Lakeside Rancabali</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Rengganis Bridge &amp; Keranjang Sultan (chairlift)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Kopi Luwak Cikole</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Orchid Forest Cikole</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Lembang Park &amp; Zoo</td><td class='val'><span class='no'>&mdash;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Kedai Barang Kulit Cibaduyut</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='no'>&mdash;</span></td></tr>\n<tr><td class='feat'>Toko Tiga Jeans Factory &amp; Jalan Asia Afrika</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Hari 1, 3 dan 4 (Whoosh, Lembang, Jakarta tour)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr>\n<tr><td class='feat'>Jumlah berjalan kaki</td><td class='val'>Banyak</td><td class='val'>Sederhana</td></tr>\n\n<tr><td class='feat'>Sesuai untuk</td><td class='val'>Dewasa, pencinta alam, peminat fotografi</td><td class='val'>Keluarga dengan anak kecil, warga emas</td></tr>\n</tbody></table>",

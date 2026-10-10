@@ -259,63 +259,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Pasar+Ikan+Lama+Medan"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3 Bintang - Parapat (default)",
-    "note": "Tepi Danau Toba. Twin/triple sharing, sarapan hotel.",
-    "emoji": "",
-    "img": "sk:hotel_parapat",
-    "hotels": [
-     "ltoba-h01"
-    ]
-   },
-   {
-    "tier": "3 Bintang - Samosir (Option B)",
-    "note": "Di Pulau Samosir, guna untuk laluan Option B.",
-    "emoji": "",
-    "hotels": [
-     "ltoba-h02"
-    ]
-   },
-   {
-    "tier": "3 Bintang - Berastagi (default)",
-    "note": "Tanah tinggi Karo, cuaca sejuk waktu malam.",
-    "emoji": "",
-    "img": "sk:hotel_berastagi",
-    "hotels": [
-     "ltoba-h03"
-    ]
-   },
-   {
-    "tier": "3 Bintang - Medan (default)",
-    "note": "Pusat bandar Medan, dekat kawasan shopping.",
-    "emoji": "",
-    "img": "sk:hotel_medan",
-    "hotels": [
-     "ltoba-h04"
-    ]
-   },
-   {
-    "tier": "4 Bintang - Parapat (upgrade)",
-    "name": "Niagara Hotel atau setaraf",
-    "note": "Upgrade +RM100/pax/malam.",
-    "emoji": ""
-   },
-   {
-    "tier": "4 Bintang - Berastagi (upgrade)",
-    "name": "Sibayak International Hotel atau setaraf",
-    "note": "Upgrade +RM100/pax/malam.",
-    "emoji": ""
-   },
-   {
-    "tier": "4 Bintang - Medan (upgrade)",
-    "note": "Upgrade +RM100/pax/malam.",
-    "emoji": "",
-    "hotels": [
-     "ltoba-h07"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",

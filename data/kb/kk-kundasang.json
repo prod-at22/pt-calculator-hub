@@ -240,61 +240,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Manukan+Island+Kota+Kinabalu"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ Default — Kundasang",
-    "name": "Kinabalu Pine Resort / Celyn / HBenjamin (atau setaraf)",
-    "note": "Bilik Std/Superior/Deluxe · breakfast included · 1 malam",
-    "emoji": "🏨",
-    "img": "Morning view of Mount Kinabalu in Malaysia, with its peak clearly visible.jpg"
-   },
-   {
-    "tier": "3★ Default — Kota Kinabalu",
-    "name": "Ming Garden Hotel / Dreamtel (atau setaraf)",
-    "note": "Bilik Std/Superior/Deluxe · breakfast included · 1–2 malam",
-    "emoji": "🏨",
-    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg"
-   },
-   {
-    "tier": "Guesthouse — Kundasang",
-    "note": "Tier bajet · tiada breakfast · −RM100/pax (Weekday RM350–380, Weekend RM450–480)",
-    "emoji": "🏡",
-    "img": "A luxury short-let bedroom.jpg",
-    "hotels": [
-     "kkk-h04",
-     "kkk-h05",
-     "kkk-h06",
-     "kkk-h07"
-    ]
-   },
-   {
-    "tier": "Guesthouse — Kota Kinabalu",
-    "note": "City apartment-style · tiada breakfast · −RM100/pax (Weekday RM280, Weekend RM350)",
-    "emoji": "🏡",
-    "img": "A luxury short-let bedroom.jpg",
-    "hotels": [
-     "kkk-h08"
-    ]
-   },
-   {
-    "tier": "Upgrade 3.5★ — Kundasang",
-    "note": "+RM150/pax/malam",
-    "emoji": "⭐",
-    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg",
-    "hotels": [
-     "kkk-h02"
-    ]
-   },
-   {
-    "tier": "Upgrade 4★ — Kota Kinabalu",
-    "note": "+RM150/pax/malam · 4★ KK sahaja (tiada 4★ di Kundasang)",
-    "emoji": "⭐",
-    "img": "Hotel room interior at apartment hotel Ona Cala Pí Club, Mallorca, Spain.jpg",
-    "hotels": [
-     "kkk-h03"
-    ]
-   }
-  ],
   "actGroups": [
    {
     "city": "Kundasang / Ranau (Highland)",

@@ -366,44 +366,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Ar-Rahman+Mosque+Perhentian+Kecil"
    }
   ],
-  "hotels": [
-   {
-    "tier": "Budget - Perhentian Besar",
-    "emoji": "",
-    "note": "Perhentian Besar. Bilik chalet, pantai tenang. Sumber: rate card ARBA - tiada dalam katalog V3.",
-    "img": "Perhentian Besar, Malaysia, West beach.jpg",
-    "hotels": [
-     "pht-h01"
-    ]
-   },
-   {
-    "tier": "Basic - Perhentian Kecil",
-    "emoji": "",
-    "note": "Long Beach, Perhentian Kecil. Default Standard Room, aircond. Hotel rasmi katalog BASIC V3 2026.",
-    "img": "Perhentian Kecil Island, Malaysia, Beach.jpg",
-    "hotels": [
-     "pht-h02"
-    ]
-   },
-   {
-    "tier": "3 Bintang - Perhentian Kecil",
-    "emoji": "",
-    "note": "Long Beach, Perhentian Kecil. Twin/Triple/Quad/Family. Sumber: rate card ARBA - tiada dalam katalog V3.",
-    "img": "Perhentian Beach (106319844).jpg",
-    "hotels": [
-     "pht-h03"
-    ]
-   },
-   {
-    "tier": "Premium 4 Bintang - Perhentian Kecil",
-    "emoji": "",
-    "note": "Perhentian Kecil. Default Standard Room. Hotel rasmi katalog STANDARD V3 2026.",
-    "img": "Perhentine island beach, Malesia.jpg",
-    "hotels": [
-     "pht-h04"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "compare": "<h2>Perbezaan Pakej</h2><p class='ssub'>Empat tier resort, itinerari 3D2N yang sama - beza pada resort, harga dan surcaj.</p><table class='cmp'><colgroup><col class='c1'><col><col><col><col></colgroup><thead><tr><th class='blank'></th><th>MIMPI &middot; STANDARD &middot; KATALOG</th><th>OMBAK &middot; 3 BINTANG &middot; RATE CARD</th><th>SHARI-LA &middot; BASIC &middot; KATALOG</th><th>FLORA BAY &middot; BUDGET &middot; RATE CARD</th></tr></thead><tbody><tr><td class='feat'>Pulau</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Kecil</td><td class='val'>Besar</td></tr><tr><td class='feat'>Jenis bilik</td><td class='val'>Standard Room</td><td class='val'>Twin - Family</td><td class='val'>Standard Room</td><td class='val'>Chalet</td></tr><tr><td class='feat'>Return Boat Transfer (SIC)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Fullboard 2B / 2L / 2D (halal)</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>5 Points Snorkelling + gear</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Ground &amp; Tipping</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Windmill Trekking + Longbeach Fireshow</td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td><td class='val'><span class='tick'>&#10003;</span></td></tr><tr><td class='feat'>Marine Park Fee</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Airport &harr; Jetty transfer</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td><td class='val'>RM65/pax</td></tr><tr><td class='feat'>Honeymoon set (per couple)</td><td class='val'>RM600</td><td class='val'>RM380</td><td class='val'>RM280</td><td class='val'>RM297</td></tr><tr><td class='feat'>Scuba / Pulau Rawa / Private boat</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td><td class='val'>Add-on</td></tr><tr><td class='feat'>Single supplement</td><td class='val'>+RM600</td><td class='val'>+RM400</td><td class='val'>+RM500</td><td class='val'>+RM400</td></tr><tr><td class='feat'>Peak season (per pax/malam)</td><td class='val'>+RM150</td><td class='val'>+RM150</td><td class='val'>+RM50</td><td class='val'>+RM50</td></tr><tr><td class='feat'>Deposit</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td><td class='val'>RM250/pax</td></tr><tr><td class='feat'>Sesuai untuk</td><td class='val'>Honeymoon &amp; keluarga mahu premium</td><td class='val'>Group besar, nilai terbaik</td><td class='val'>Bajet terkawal di Long Beach</td><td class='val'>Paling jimat, suasana tenang</td></tr></tbody></table>",

@@ -222,46 +222,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Andamanda+Waterpark+Phuket"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (default)",
-    "note": "Default 3★ ikut katalog. Bilik double/twin standard; triple = extra bed (tertakluk availability).",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "phu-h01"
-    ]
-   },
-   {
-    "tier": "3★ (alternatif)",
-    "note": "Alternatif 3★ atau setaraf, ikut availability.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "phu-h02",
-     "phu-h03"
-    ]
-   },
-   {
-    "tier": "4★ (upgrade +RM300/pax)",
-    "note": "Pilihan 4★ ikut katalog. Upgrade RM300/pax.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "phu-h04"
-    ]
-   },
-   {
-    "tier": "4★ (alternatif)",
-    "note": "Alternatif 4★ atau setaraf ikut katalog, tertakluk availability.",
-    "emoji": "",
-    "img": "",
-    "hotels": [
-     "phu-h05",
-     "phu-h06"
-    ]
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "<div class='custblk'><h3>Nota penting</h3><p class='custnote'>Ini bukan pakej private tour — island tour &amp; pengangkutan aktiviti adalah sharing basis (seat-in-coach) bersama pelancong lain. Private transport hanya Hari 1 &amp; Hari 4.</p></div>",

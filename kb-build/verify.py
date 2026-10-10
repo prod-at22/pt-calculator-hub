@@ -11,7 +11,7 @@ compares it with the hub sources directly, not with build.py's own output:
   prices      every Costing-linked calculator tier = Catalog Price (+ tierUpgrade) for each pax it covers;
               every catalog price-table amount appears in the KB's Harga & Pakej tab
   catalog     a linked package's itinerary (days, titles) and includes / excludes = the catalog's
-  hotels      a KB hotel card that links hotels shows their names from the Accommodation list
+  hotels      the KB's Accommodation tab lists every catalog hotel from the Accommodation list (no KB hotel cards)
   tabs        the KB's Surcharge tab has every catalog hotel row and season, Simple Customisation every catalog
               add-on, Polisi every deposit line (Surcharge, Accommodation, Add On, Policy tabs)
   dropdown    the calculator's package list = calc variants, in order
@@ -125,16 +125,20 @@ def check(site, slug, data, hub):
             for d in cat.get("deposit") or []:
                 if text(d.get("figure")) not in pol:
                     errs.append(f"Polisi tab: deposit {d.get('figure')!r} ({slug}) missing")
-    # hotels
-    H = {x["id"]: x for d in data["destinations"] for x in d.get("hotels") or []}
-    src = (kb["content"].get("HOTELS") if bespoke else kb["content"].get("hotels")) or []
-    out = (content.get("HOTELS") if bespoke else content.get("hotels")) or []
-    for card, shown in zip(src, out):
-        for hid in card.get("hotels") or []:
-            if hid not in H:
-                errs.append(f"hotel card {card.get('tier')!r}: unknown hotel {hid}")
-            elif H[hid].get("name") and H[hid]["name"] not in shown.get("name", ""):
-                errs.append(f"hotel card {card.get('tier')!r}: {H[hid]['name']!r} not shown")
+    # hotels: the Accommodation tab shows each package's hotels from the hub's Accommodation list (no KB hotel cards)
+    if (content.get("HOTELS") if bespoke else content.get("hotels")):
+        errs.append("KB hotel cards still in the content (the Accommodation tab comes from the hub's Accommodation list)")
+    stay = text(content.get("ACC_HTML") if bespoke else (content.get("blocks") or {}).get("stay"))
+    for slug in dict.fromkeys(l["catalog"] for l in links):
+        cat = json.loads(json.dumps(hub.cat(slug))); code = (hub.index.get(slug) or {}).get("code") or cat.get("code")
+        build.hub_data.apply_hotels(cat, slug, data, code)
+        for h in cat.get("accommodation") or (cat.get("surcharge") or {}).get("rows") or []:
+            if h.get("name") and text(h["name"]) not in stay:
+                errs.append(f"Accommodation tab: hotel {h['name']!r} ({slug}) missing")
+        for h in next((x for x in data["destinations"] if x["code"] == code), {}).get("hotels") or []:
+            t = (h.get("catalogs") or {}).get(slug) or {}
+            if h.get("roomNote") and ("acc" in t or "sur" in t) and text(h.get("name")) in stay and text(h["roomNote"]) not in stay:
+                errs.append(f"Accommodation tab: room note of {h.get('name')!r} ({slug}) missing")
     # dropdown (template KBs)
     m = build.PKGSEL.search((content.get("blocks") or {}).get("calc") or "") if not bespoke else None
     if m and "<option" in m.group(2):

@@ -343,29 +343,6 @@
     "map": "https://www.google.com/maps/search/?api=1&query=High+Country+Salmon+Farm+New+Zealand"
    }
   ],
-  "hotels": [
-   {
-    "tier": "3★ (default PT & ST)",
-    "name": "3-Star Hotel / Motel",
-    "note": "Standard pakej; harga untuk 2–3 pax sebilik. Nama & lokasi hotel disahkan ≥45 hari sebelum berangkat.",
-    "emoji": "🏨",
-    "img": ""
-   },
-   {
-    "tier": "Apartment / Airbnb (ST 9D8N)",
-    "name": "Apartment / Airbnb",
-    "note": "Pilihan ST Apartment — ada dapur untuk masak sendiri, sangat sesuai untuk sediakan makanan halal.",
-    "emoji": "🏡",
-    "img": ""
-   },
-   {
-    "tier": "4★ (upgrade)",
-    "name": "4-Star Hotel",
-    "note": "Naik taraf atas permintaan — dikenakan surcharge accommodation upgrade.",
-    "emoji": "🏨",
-    "img": ""
-   }
-  ],
   "actGroups": [],
   "blocks": {
    "pricing": "",
