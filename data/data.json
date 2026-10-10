@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 53,
+ "version": 54,
  "updatedAt": "2026-10-09T04:05:46Z",
  "updatedBy": "system",
  "settings": {
@@ -28271,9 +28271,82 @@
      "label": "MYR",
      "value": 1,
      "locked": true
+    },
+    {
+     "id": "USD",
+     "label": "USD → MYR",
+     "value": 4.08497,
+     "locked": true,
+     "live": "USD",
+     "source": "Live: kadar pasaran harian (ECB via frankfurter.dev); nilai ini sandaran (ECB 2026-10-09)"
     }
    ],
-   "rates": [],
+   "rates": [
+    {
+     "id": "kpbLowD",
+     "label": "Low season · double sharing (Kaani Palm Beach)",
+     "value": 378,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "Kaani Palm Beach CR 2026 (3N4D package, per pax)"
+    },
+    {
+     "id": "kpbLowT",
+     "label": "Low season · triple sharing (Kaani Palm Beach)",
+     "value": 343,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "Kaani Palm Beach CR 2026 (3N4D package, per pax)"
+    },
+    {
+     "id": "kpbHighD",
+     "label": "High season · double sharing (Kaani Palm Beach)",
+     "value": 416,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "Kaani Palm Beach CR 2026 (3N4D package, per pax)"
+    },
+    {
+     "id": "kpbHighT",
+     "label": "High season · triple sharing (Kaani Palm Beach)",
+     "value": 368,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "Kaani Palm Beach CR 2026 (3N4D package, per pax)"
+    },
+    {
+     "id": "estLunch",
+     "label": "Lunch D3, tiada dalam pakej Kaani (anggaran)",
+     "value": 15,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "ANGGARAN — perlu disahkan R&D"
+    },
+    {
+     "id": "estExc2",
+     "label": "Excursion kedua: nurse shark + shipwreck + island hopping, shared (anggaran)",
+     "value": 50,
+     "fx": "USD",
+     "unit": "USD/pax",
+     "group": "ANGGARAN — perlu disahkan R&D"
+    },
+    {
+     "id": "estGreen",
+     "label": "Green tax (anggaran)",
+     "value": 6,
+     "fx": "USD",
+     "unit": "USD/pax/night",
+     "group": "ANGGARAN — perlu disahkan R&D"
+    },
+    {
+     "id": "estTip",
+     "label": "Tipping (anggaran)",
+     "value": 50,
+     "fx": "MYR",
+     "unit": "MYR/pax",
+     "group": "ANGGARAN — perlu disahkan R&D"
+    }
+   ],
    "tables": [
     {
      "id": "MLE-BASIC-LOW__Hotel",
@@ -30861,6 +30934,52 @@
        "expr": "T['MLE-WATER-PEAK__Tipping']"
       }
      ]
+    },
+    {
+     "id": "MLE-4STAR-LOW",
+     "label": "Kaani Palm Beach",
+     "supplier": "KAANI HOTELS — Kaani Palm Beach 4★ Maafushi, 3N4D package (Low season)",
+     "paxMin": 2,
+     "paxMax": 10,
+     "hotel": "Kaani Palm Beach 4★ (Deluxe Seaview with Balcony)",
+     "notes": "Pakej CR Kaani: Deluxe Seaview, speedboat pergi-balik, breakfast & dinner, 1 excursion penuh (3 reef snorkel, dolphin, lunch sandbank), night fishing, cukai. Tiada kadar kanak-kanak (CWB / CNB = adult). Pax ganjil: 3 orang triple, selebihnya double. Item ANGGARAN (lunch D3, excursion kedua, green tax, tipping) perlu disahkan R&D. Kaani tidak jual 21 Dis – 10 Jan.",
+     "components": [
+      {
+       "key": "package",
+       "label": "Pakej Kaani 3N4D (double / triple)",
+       "per": "group",
+       "expr": "pax%2===1?(3*R.kpbLowT+(pax-3)*R.kpbLowD):pax*R.kpbLowD"
+      },
+      {
+       "key": "extra",
+       "label": "Lunch D3 + excursion kedua + green tax + tipping (anggaran)",
+       "per": "group",
+       "expr": "(R.estLunch+R.estExc2+R.estGreen*3+R.estTip)*pax"
+      }
+     ]
+    },
+    {
+     "id": "MLE-4STAR-HIGH",
+     "label": "Kaani Palm Beach",
+     "supplier": "KAANI HOTELS — Kaani Palm Beach 4★ Maafushi, 3N4D package (High season)",
+     "paxMin": 2,
+     "paxMax": 10,
+     "hotel": "Kaani Palm Beach 4★ (Deluxe Seaview with Balcony)",
+     "notes": "Pakej CR Kaani: Deluxe Seaview, speedboat pergi-balik, breakfast & dinner, 1 excursion penuh (3 reef snorkel, dolphin, lunch sandbank), night fishing, cukai. Tiada kadar kanak-kanak (CWB / CNB = adult). Pax ganjil: 3 orang triple, selebihnya double. Item ANGGARAN (lunch D3, excursion kedua, green tax, tipping) perlu disahkan R&D. Kaani tidak jual 21 Dis – 10 Jan.",
+     "components": [
+      {
+       "key": "package",
+       "label": "Pakej Kaani 3N4D (double / triple)",
+       "per": "group",
+       "expr": "pax%2===1?(3*R.kpbHighT+(pax-3)*R.kpbHighD):pax*R.kpbHighD"
+      },
+      {
+       "key": "extra",
+       "label": "Lunch D3 + excursion kedua + green tax + tipping (anggaran)",
+       "per": "group",
+       "expr": "(R.estLunch+R.estExc2+R.estGreen*3+R.estTip)*pax"
+      }
+     ]
     }
    ],
    "packages": [
@@ -32097,6 +32216,134 @@
       "cnbCost": {
        "type": "pct",
        "value": 0.55
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 50
+      }
+     }
+    },
+    {
+     "id": "mle-4star-low",
+     "label": "Maldives 4 Star 4D3N · Low Season",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 10,
+       "variant": "MLE-4STAR-LOW"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 3097,
+       "3": 3097,
+       "4": 3097,
+       "5": 3097,
+       "6": 3097,
+       "7": 3097,
+       "8": 3097,
+       "9": 3097,
+       "10": 3097
+      },
+      "cwb": {
+       "2": 2197,
+       "3": 2197,
+       "4": 2197,
+       "5": 2197,
+       "6": 2197,
+       "7": 2197,
+       "8": 2197,
+       "9": 2197,
+       "10": 2197
+      },
+      "cnb": {
+       "2": 1797,
+       "3": 1797,
+       "4": 1797,
+       "5": 1797,
+       "6": 1797,
+       "7": 1797,
+       "8": 1797,
+       "9": 1797,
+       "10": 1797
+      },
+      "infant": 100
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 1.0
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 1.0
+      },
+      "infantCost": {
+       "type": "flat",
+       "value": 50
+      }
+     }
+    },
+    {
+     "id": "mle-4star-high",
+     "label": "Maldives 4 Star 4D3N · High Season",
+     "catalog": null,
+     "assign": [
+      {
+       "from": 2,
+       "to": 10,
+       "variant": "MLE-4STAR-HIGH"
+      }
+     ],
+     "pricing": {
+      "adult": {
+       "2": 3297,
+       "3": 3297,
+       "4": 3297,
+       "5": 3297,
+       "6": 3297,
+       "7": 3297,
+       "8": 3297,
+       "9": 3297,
+       "10": 3297
+      },
+      "cwb": {
+       "2": 2397,
+       "3": 2397,
+       "4": 2397,
+       "5": 2397,
+       "6": 2397,
+       "7": 2397,
+       "8": 2397,
+       "9": 2397,
+       "10": 2397
+      },
+      "cnb": {
+       "2": 1997,
+       "3": 1997,
+       "4": 1997,
+       "5": 1997,
+       "6": 1997,
+       "7": 1997,
+       "8": 1997,
+       "9": 1997,
+       "10": 1997
+      },
+      "infant": 100
+     },
+     "rules": {
+      "discountTier2": 200,
+      "tierUpgrade": 0,
+      "cwbCost": {
+       "type": "pct",
+       "value": 1.0
+      },
+      "cnbCost": {
+       "type": "pct",
+       "value": 1.0
       },
       "infantCost": {
        "type": "flat",
