@@ -39576,7 +39576,7 @@
    "v": 45,
    "at": "2026-10-10T03:50:22Z",
    "by": "system",
-   "note": "Bangkok page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flags and history records are kept; the header History button opens the hub-wide history",
+   "note": "Bangkok page: Flags and History tabs hidden (PO 10 Oct 2026; destinations[].hideTabs). Flags and history records are kept; the header History button opens the hub-wide history; Bangkok rate labels as 'item (vehicle / supplier)' and component names tidied for Show calculation",
    "changes": []
   }
  ]

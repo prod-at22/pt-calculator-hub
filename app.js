@@ -504,6 +504,19 @@ function calcText(d, expr, pax, codes) {
     for (const m of pairs.matchAll(/\[(\d+),([^\]]+)\]/g)) if (pax <= +m[1]) return /\+/.test(m[2]) ? `(${m[2]})` : m[2];   // a plain product needs no brackets
     return "NaN";
   });
+  // Parts that depend on pax only (e.g. how many SUVs / vans) are worked out first, so the formula shows the
+  // numbers used at this pax; then "0 × (…)" terms are dropped and "1 × " is left out.
+  const PF = ["floor", "ceil", "min", "max", "round"], pf = [Math.floor, Math.ceil, Math.min, Math.max, Math.round];
+  const fold = s => { try { const v = +new Function("pax", ...PF, '"use strict";return (' + s + ");")(pax, ...pf); return isFinite(v) ? String(+v.toFixed(4)) : null; } catch (_) { return null; } };
+  for (let k = 0; k < 20; k++) {
+    const n = e.replace(/(?:\b(floor|ceil|min|max|round))?\(([^()]*)\)/g, (m, fn, inner) => /R\.|\bN\b|\bO\./.test(inner) ? m : (fold(m) ?? m));
+    if (n === e) break; e = n;
+  }
+  for (let k = 0; k < 10; k++) {
+    const n = e.replace(/\+0\*(\([^()]*\)|R\.\w+)/g, "").replace(/(^|[(])0\*(\([^()]*\)|R\.\w+)\+?/g, "$1").replace(/(^|[^\d.])1\*/g, "$1").replace(/\+\)/g, ")");
+    if (n === e) break; e = n;
+  }
+  e = e.replace(/^\(([^()]*)\)$/, "$1");
   const ids = [...new Set([...e.matchAll(/R\.(\w+)/g)].map(m => m[1]))].filter(id => R[id]);
   const fxs = [...new Set(ids.map(id => (fxOf(R[id]) || { id: "MYR" }).id))];
   const one = fxs.length === 1 ? fxOf(R[ids[0]]) : null;   // one foreign FX → multiply once at the end
@@ -512,7 +525,7 @@ function calcText(d, expr, pax, codes) {
   e = e.replace(/\bN\b/g, fmt(+d.nights)).replace(/\bpax\b/g, `${pax} pax`)   // before the codes: "N" can be a code
     .replace(/R\.(\w+)/g, (m, id) => { const r = R[id]; if (!r) return m; const f = fxOf(r), t = codes ? codes.r[id] : cur(r) + fmt(r.value);
       return f && !one && fxs.length > 1 ? `{${t}*${fxTxt(f)}}` : t; })
-    .replace(/\*/g, " × ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
+    .replace(/\*/g, " × ").replace(/\//g, " ÷ ").replace(/\+/g, " + ").replace(/\s+/g, " ").trim()
     .replace(/^(\d+) × (.+)$/, "$2 × $1").replace(/\{([^}]+)\}/g, "($1)");
   if (one) e = (/ \+ /.test(e.replace(/\([^()]*\)/g, "")) ? `(${e})` : e) + ` × ${fxTxt(one)}`;
   return e;
