@@ -5641,6 +5641,71 @@
    "vnight:tokyos": {
     "expr": "R.apt",
     "code": "HND"
+   },
+   "rate:day:[Osaka City]:1-7": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Osaka City]:8-9": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Osaka City]:10-12": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Nara]:1-7": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Nara]:8-9": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Nara]:10-12": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Kyoto]:1-7": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Kyoto]:8-9": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "rate:day:[Kyoto]:10-12": {
+    "expr": "band(pax,[7,R.r18_jpyucop/4],[9,(R.r16_jpywif+R.r27_jpywif)/4],[999,(R.r17_jpywif+R.r27_jpywif)/4])",
+    "code": "OSK"
+   },
+   "vnight:osakab": {
+    "expr": "R.r22",
+    "code": "OSK"
+   },
+   "vnight:osakas": {
+    "expr": "R.r23",
+    "code": "OSK"
+   },
+   "vnight:tobab": {
+    "expr": "R.r30",
+    "code": "KIX"
+   },
+   "vnight:tobas": {
+    "expr": "R.r30",
+    "code": "KIX"
+   },
+   "rate:legShin:_default:1-99": {
+    "expr": "R.r17",
+    "code": "KIX"
+   },
+   "addon:disneyland disneysea": {
+    "addon": "kix-a01"
+   },
+   "addon:universal studio japan": {
+    "addon": "osk-a01"
+   },
+   "addon:infant car seat hokkaido per hari": {
+    "addon": "cts-a13"
    }
   }
  }
