@@ -212,7 +212,7 @@ const tab = async (w, doc, name) => { click(w, doc.querySelector(`[data-tabmain=
     ok(doc.querySelector("#controls").textContent.includes("Tokyo"), "/hnd/ page is locked to Tokyo");
     ok(doc.querySelector("#costPax") && doc.querySelector(".tabm.on").dataset.tabmain === "costing", "Costing tab opens by default");
     ok(doc.querySelector(".fxbox").textContent.includes("0.029") && doc.querySelector(".fxbox").textContent.includes("0.026"), "FX chips: WIF 0.029, Qayyum 0.026");
-    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,itinerary,surcharge,accommodation,addons,expect,policy,kbinfo,kbcalc,contracts,flags,history", "tabs: Costing, Itinerary, Surcharge, Accommodation, Add On, What to Expect, Policy, Info KB, Simple Calculator, TO Contract Rate, Flags, History");
+    ok([...doc.querySelectorAll(".tabm")].map(x => x.dataset.tabmain).join() === "costing,contracts,itinerary,surcharge,accommodation,addons,expect,policy,kbinfo,kbcalc,flags,history", "tabs: Costing, TO Contract Rate, Itinerary, Surcharge, Accommodation, Add On, What to Expect, Policy, Info KB, Simple Calculator, TO Contract Rate, Flags, History");
     // each catalog section on its own tab (data/catalogs/<slug>.json for the selected package)
     setVal(w, doc.querySelector("#selPkg"), "standard"); await tick(5);
     await tab(w, doc, "itinerary"); await until(() => doc.querySelector("#cat-tokyo-standard"));
